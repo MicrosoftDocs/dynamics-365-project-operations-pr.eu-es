@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Artikulu honetan zehaztutako funtzionaltasuna helburuko erabiltzaile guztientzat erabilgarri dago aurrebista-bertsioaren zati gisa. Edukia eta funtzionalitatea aldatu egin daitezke. Aurrebista-bertsioei buruzko informazio gehiago lortzeko, ikusi [Bertsio bateko zerbitzua eguneratzeko FAQa](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).

@@ -1,0 +1,1 @@
+Eginbide hau Dynamics CRM Online 2016 Update 1 eguneratzean onartzen da. Eginbide hau lortu nahi duzu? [Bilatu Dynamics 365-eko administratzailea edo laguntza-zerbitzuko arduraduna](../basics/find-administrator-support.md)
