@@ -1,0 +1,1 @@
+<span data-ttu-id="b0461-101">Dynamics 365 Project Service Automation Gehitu Microsoft Project-rentzat</span><span class="sxs-lookup"><span data-stu-id="b0461-101">Dynamics 365 Project Service Automation Add-in for Microsoft Project</span></span>

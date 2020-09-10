@@ -1,0 +1,1 @@
+<span data-ttu-id="25749-101">Project Service aplikazioaren 3.x, 2.x eta 1.x bertsioei aplikatzen zaie</span><span class="sxs-lookup"><span data-stu-id="25749-101">Applies to Project Service app versions 3.x, 2.x, and 1.x</span></span>

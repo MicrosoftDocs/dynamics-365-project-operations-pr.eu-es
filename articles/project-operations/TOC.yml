@@ -1,0 +1,954 @@
+- name: Dynamics 365 Project Operations
+  href: project-operations-home-page.md
+- name: Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+  items:
+    - name: Salmenta-prozesua
+      items:
+        - name: Salmenten informazio orokorra
+          href: sales/sales-overview.md
+        - name: Gako-desberdintasunak
+          href: sales/key-differences.md
+        - name: Konfigurazioa
+          items:
+            - name: Produktuak
+              href: sales/sales-products.md
+            - name: Unitateak eta salmenta-unitateak
+              href: sales/sales-units-unit-groups.md
+            - name: Moneta
+              href: sales/sales-currency.md
+        - name: Kudeatu bezerogaiak
+          href: sales/managing-leads.md
+        - name: Kudeatu abaguneak
+          items:
+            - name: Abagune-goiburua
+              href: sales/opportunity-header.md
+            - name: Produktuetan oinarritutako lerroak
+              href: sales/product-based-lines.md
+            - name: Proiektuetan oinarritutako lerroak
+              href: sales/project-based-lines.md
+            - name: Estekatu eskaintzak eta abaguneak
+              href: sales/link-quotes-opportunities.md
+            - name: Itxi abagune bat
+              href: sales/close-opportunity.md
+        - name: Kudeatu eskaintzak
+          items:
+            - name: Gako-kontzeptuak
+              href: sales/quotes-key-concepts.md
+            - name: 'Kudeatu eskaintzen balioak, bezeroen aurrekontuak eta gainditu behar ez diren mugak'
+              href: sales/quote-values-budgets-limits.md
+            - name: Kudeatu hainbat bezero eskaintza batean
+              href: sales/manage-multiple-customers-quote.md
+            - name: Produktuetan oinarritutako eskaintzaren lerroak
+              item:
+                - name: Produktuetan oinarritutako eskaintzaren lerroen kostuak kudeatzea
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Kudeatu produktuetan oinarritutako eskaintzaren lerroen unitate konplexuak
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Proiektuetan oinarritutako eskaintzaren lerroak
+              items:
+                - name: Kudeatu proiektuaren prezio-zerrendak
+                  href: sales/managing-project-price-lists.md
+                - name: Kudeatu hainbat bezero eskaintzaren lerro batean
+                  href: sales/managing-multiple-customers-quote-line.md
+                - name: Esleitu proiektuak eta zereginak eskaintzaren lerro batean
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: Sortu aurrekontuak eskaintzaren lerro batean
+                  href: sales/create-estimate-quote-line.md
+                - name: Inportatu proiektu bateko aurrekontuak eskaintzaren lerro batean
+                  href: sales/import-estimate-project-quote-line.md
+                - name: 'Kudeatu eskaintzen balioak, bezeroen aurrekontuak eta gainditu behar ez diren mugak'
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                - name: Fakturazio-antolaketak eskaintzaren lerro batean
+                  href: sales/invoice-schedule-quote-line
+            - name: Lortu eskaintza bat
+              href: sales/win-quote.md
+            - name: Galdu eskaintza bat
+              href: sales/lose-quote.md
+        - name: Kudeatu kontratuak
+          items:
+            - name: Gako-kontzeptuak
+              href: sales/contacts-key-concepts.md
+            - name: 'Kudeatu kontratuen balioak, bezeroen aurrekontuak eta gainditu behar ez diren mugak'
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: Kudeatu hainbat bezero kontratu batean
+              href: sales/manage-multiple-customers-contract.md
+            - name: Produktuetan oinarritutako kontratuaren lerroak
+              items:
+                - name: Produktuetan oinarritutako kontratuaren lerroen kostuak kudeatzea
+                  href: sales/cost-product-based-contract-lines.md
+                - name: Kudeatu produktuetan oinarritutako kontratuaren lerroen unitate konplexuak
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: Proiektuetan oinarritutako kontratuaren lerroak
+              items:
+                - name: Kudeatu proiektuaren prezio-zerrendak
+                  href: sales/manage-project-price-lists.md
+                - name: Kudeatu hainbat bezero kontratuaren lerro batean
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: Esleitu proiektuak eta zereginak kontratuaren lerro batean
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: Sortu proiektu bateko aurrekontuak kontratuaren lerro batean
+                  href: sales/create-estimate-project-contract-line.md
+                - name: Inportatu proiektu bateko aurrekontuak kontratuaren lerro batean
+                  href: sales/import-estimate-project-contract-line.md
+                - name: 'Kudeatu kontratuen balioak, bezeroen aurrekontuak eta gainditu ez diren mugak eskaintzaren lerro batean'
+                  href: sales/manage-quoted-values-budgets-limits-quote-line.md
+                - name: Fakturazio-antolaketak eskaintzaren lerro batean
+                  href: sales/invoice-schedules-quote-line.md
+            - name: Berretsi kontratu bat
+              href: sales/confirm-contract.md
+            - name: Itxi kontratu bat osatutako lan gisa
+              href: sales/close-contract-work-completed.md
+            - name: Itxi kontratu bat bertan behera utzitako gisa
+              href: sales/close-contract-canceled.md
+    - name: Prezioak eta kostuak kudeatzea
+      items:
+        - name: Produktuaren prezio-zerrendak
+          href: pricing-costing/product-price-list.md
+        - name: Proiektuaren prezio-zerrendak
+          items:
+            - name: Prezio-zerrendaren kostuak
+              items:
+                - name: Konfiguratu kostuaren prezio-zerrendak
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: Prezio-zerrendaren balio lehenetsiak
+                  href: pricing-costing/cost-price-list-default.md
+                - name: Gainidatzi balio lehenetsiak
+                  href: pricing-costing/cost-override-default.md
+            - name: Salmenten prezio-zerrendaren konfigurazioa
+              items:
+                - name: Konfiguratu salmenten prezio-zerrenda
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Salmenten prezio-zerrendaren balio lehenetsiak
+                  href: pricing-costing/sales-price-list-default.md
+                - name: Gainidatzi balio lehenetsiak
+                  href: pricing-costing/sales-override-default.md
+        - name: Prezioen dimentsioak
+          items:
+            - name: Prezioen dimentsioen informazio orokorra
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Erabili Project Operations-en lehendik dagoen eremua prezio-dimentsio gisa
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Eremu pertsonalizatuak prezio-dimentsio gisa
+              items:
+                - name: Sortu eremu eta entitate pertsonalizatuak prezio-dimentsio gisa
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Desaktibatu prezio-dimentsioa
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: Proiektuen kudeaketa
+      items:
+        - name: Proiektuen kudeaketaren informazio orokorra
+          href: project-management/project-management-overview.md
+        - name: Proiektuaren faseak
+          href: project-management/project-stages.md
+        - name: Erabiltzaile-interfazea arakatzea
+          href: project-management/navigate-ui.md
+        - name: Proiektuaren egoera ulertzea
+          href: project-management/understand-project-status.md
+        - name: Zehaztu proiektuen egutegiak
+          href: project-management/define-project-calendars.md
+        - name: Sortu proiektu bat
+          items:
+            - name: Hasierako aurreikuspenak sortzea
+              href: project-management/create-initial-estimates.md
+            - name: Ezarri proiektuaren egutegia
+              href: project-management/set-project-calendar.md
+            - name: Ezarri proiektuaren moneta
+              href: project-management/set-project-currency.md
+            - name: Zehaztu bezero bat
+              href: project-management/set-customer.md
+            - name: Gehitu talde bat
+              href: project-management/add-group.md
+        - name: Eguneratu proiektu bat
+          href: project-management/update-project.md
+        - name: Kopiatu proiektu bat
+          href: project-management/copy-project.md
+        - name: Zereginen xehetasunen egituraren antolaketa
+          items:
+            - name: Sortu zereginen xehetasunen egitura
+              items:
+                - name: Sortu zereginak
+                  href: project-management/wbs-create-tasks.md
+                - name: 'Ebaki, kopiatu eta itsatsi zereginak'
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: Desegin eta berregin zereginak
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: Zereginen xehetasunen egituraren hierarkia
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: Zereginen eguneratze masiboak
+                  href: project-management/bulk-task-updates.md
+                - name: Editatu zereginaren xehetasunak
+                  href: project-management/edit-task-details.md
+            - name: Sortu esleipenak
+              items:
+                - name: Gehitu lehendik dauden baliabideak
+                  href: project-management/add-existing-resources.md
+                - name: Gehitu baliabideak orokorrak
+                  href: project-management/add-generic-resources.md
+                - name: 'Ulertu esleipenek dituzten eragina zereginen ahaleginetan, iraupenean eta amaiera-datan'
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Ikusi esleipenen ingeradak
+                  href: project-management/view-assignment-contours.md
+            - name: Kudeatu zereginak kudeatzeko zerbitzua
+              items:
+                - name: Zutabeen kudeaketa
+                  href: project-management/column-management.md
+                - name: Ikuspegiak
+                  href: project-management/task-management-views.md
+                - name: Ontziak
+                  href: project-management/task management-buckets.md
+        - name: Aurreikuspen-proiektuak
+          items:
+            - name: Aurreikuspen-proiektuen informazio orokorra
+              href: project-management/estimating-projects-overview.md
+            - name: Baliabideen aurreikuspenak
+              items:
+                - name: Freskatu proiektuaren aurreikuspenak proiektu-planean egindako aldaketak islatzeko
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: Freskatu prezio eta kostuen tasak proiektuaren aurreikuspenetan
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: Baliabideen kostuaren prezioei eta kostuaren monetei dagozkien balio lehenetsiak
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: Baliabideen fakturazio-tasari eta salmenten monetei dagozkien balio lehenetsiak
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: Sortu gastuen aurreikuspenak
+              items:
+                - name: Gastuen kostuaren prezioei eta kostuaren monetei dagozkien balio lehenetsiak
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: Gastuen fakturazio-tasari eta salmenten monetei dagozkien balio lehenetsiak
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: Eskaintzak eta kontratuak sortzea
+          items:
+            - name: Inportatu zereginen xehetasunen egitura eskaintzetan
+              href: project-management/import-wbs-structure-quotes.md
+            - name: Inportatu zereginen xehetasunen egitura kontratuetan
+              href: project-management/import-wbs-structure-contracts.md
+        - name: Proiektuaren segimendua
+          items:
+            - name: Proiektuaren segimenduaren etxeko orria
+              href: project-management/project-tracking-overview.md
+            - name: Zutabe-definizioak
+              items:
+                - name: Ahalegina
+                  href: project-management/effort.md
+                - name: Kostua
+                  href: project-management/cost.md
+                - name: Salmentak
+                  href: project-management/sales.md
+            - name: Eguneratu aurreikusitako kostua osatzen denerako
+              href: project-management/update-completed-estimate.md
+        - name: Proiektuaren taldeko kideak
+          items:
+            - name: Proiektuaren taldeko kideen informazio orokorra
+              href: project-management/project-team-members-overview.md
+            - name: Kudeatu taldeko kideak
+              items:
+                - name: Gehitu taldeko kideak
+                  href: project-management/add-team-members.md
+                - name: Eguneratu proiektuaren taldeko kideak
+                  href: project-management/update-project-team-members.md
+                - name: Ezabatu taldeko kideak
+                  href: project-management/delete-team-members.md
+                - name: Kudeatu erreserbak
+                  href: project-management/maintain-bookings.md
+                - name: Proiektuaren onartzaileak
+                  href: project-management/project-approvers.md
+        - name: Salmentak
+          items:
+            - name: Salmenten fitxaren informazio orokorra
+              href: project-management/sales-tab-overview.md
+        - name: Lankidetza
+          items:
+            - name: Taldeak
+              href: project-management/groups.md
+        - name: Proiektuaren antolaketaren FAQa
+          href: project-management/project-planning-faq.md
+    - name: Baliabide-kudeaketa
+      items:
+        - name: Baliabideen kudeaketaren informazio orokorra
+          href: resource-management/resource-management-overview.md
+        - name: Gako-kontzeptuak
+          href: resource-management/resource-management-key-concepts.md
+        - name: Erreserbak vs. zereginak
+          href: resource-management/booking-vs-assignment.md
+        - name: Baliabide-kudeaketaren moduak
+          items:
+            - name: Baliabide-kudeaketaren moduaren informazio orokorra
+              href: resource-management/resource-management-mode-overview.md
+            - name: Hibridoa
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: Zentrala
+              href: resource-management/resource-management-mode-central.md
+        - name: Erreserba zentralizatua
+          items:
+            - name: Erreserba zentralizatuen informazio orokorra
+              href: resource-management/centralized-booking-overview.md
+            - name: Gehitu taldeko kide generikoak zereginetan
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: Zehaztu baliabideen eskakizunak
+              href: resource-management/define-resource-requirements.md
+            - name: Zehaztu eskakizunen ingeradak
+              href: resource-management/define-resource-requirement-contours.md
+            - name: Eguneratu baliabideen eskakizunak
+              href: resource-management/update-resource-requirements.md
+            - name: Bidali baliabideen eskakizunak
+              href: resource-management/submit-resource-requirements.md
+            - name: Baliabide-eskaerak
+              items:
+                - name: Baliabide-eskaeren informazio orokorra
+                  href: resource-management/resource-requests-overview.md
+                - name: Berrikusi eremuak eta ekintzak
+                  href: resource-management/review-fields-actions.md
+                - name: Bilatu baliabideak
+                  href: resource-management/find-resources.md
+                - name: Berrikusi baliabide proposatuak
+                  href: resource-management/review-proposed-resources.md
+        - name: Baliabideen erreserba deszentralizatuak
+          items:
+            - name: Baliabideen erreserba deszentralizatuen informazio orokorra
+              href: resource-management/centralized-booking-overview.md
+            - name: Zuzenean erreserbatzeko aukerak
+              href: resource-management/options-book-directly.md
+            - name: Bete baliabideen eskakizun orokorrak
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Baliabideen administrazioa
+          items:
+            - name: Sortu baliabideak
+              href: resource-management/create-resources.md
+            - name: Zehaztu gaitasunak eta trebetasunak
+              href: resource-management/define-skills-proficiencies.md
+            - name: Zehaztu rolak
+              href: resource-management/define-roles.md
+            - name: Zehaztu baliabide-egutegiak
+              href: resource-management/define-resource-calendars.md
+            - name: Erlazionatu baliabideak erakundearen unitateekin
+              href: resource-management/associate-resources-organizational-units.md
+            - name: Erlazionatu baliabideak enpresekin
+              href: resource-management/associate-resources-companies.md
+        - name: Erreserbak esleitzeko metodoak
+          href: resource-management/booking-allocation-methods.md
+        - name: Erreserba-egoera
+          href: resource-management/booking-status.md
+        - name: Gaitasun eta trebetasunen ereduak
+          href: resource-management/skills-proficiency-models.md
+        - name: Baliabideen berdinkatzea
+          items:
+            - name: Baliabideen berdinkatzearen informazio orokorra
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Gako-kontzeptuak
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: Nabigazioa
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: Luzatu erreserbak
+              href: resource-management/extend-bookings.md
+            - name: Kudeatu hainbat ordu-zona
+              href: resource-management/manage-multiple-time-zones.md
+        - name: Baliabide-erabilera
+          items:
+            - name: Baliabide-erabileraren informazio orokorra
+              href: resource-management/resource-utilization-overview.md
+            - name: 'Bilaketa, ezarpenak eta nabigazioa'
+              href: resource-management/search-settings-navigation.md
+        - name: Antolaketa-panela
+          items:
+            - name: Nabigazioa eta gako-ezarpenak
+              href: resource-management/navigation-key-settings-urs.md
+            - name: Pertsonalizazioa
+              href: resource-management/personalization-urs.md
+            - name: Bilaketa
+              href: resource-management/search-urs.md
+            - name: Erreserben ekintzak
+              href: resource-management/booking-actions-urs.md
+            - name: Erreserba
+              items:
+                - name: Erreserbatu proiektu bat
+                  href: resource-management/book-project.md
+                - name: Erreserbatu eskakizun irekiak
+                  href: resource-management/book-open-requirements.md
+                - name: Ordeztu baliabideak
+                  href: resource-management/substitute-resources.md
+                - name: Editatu lehendik dauden erreserbak
+                  href: resource-management/edit-existing-bookings.md
+        - name: Baliabide-kudeaketaren FAQa
+          href: resource-management/resource-management-faq.md
+    - name: Ordua
+      items:
+        - name: Denbora-sarreraren informazio orokorra
+          href: time/time-entry-overview.md
+        - name: Sortu denbora-sarrerak
+          items:
+            - name: 'Inportatu erreserbak, esleipenak eta egutegiko sarrerak'
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: Erabiltzaile-interfazearen portaera
+              href: time/ui-behavior.md
+        - name: Bidali denbora-sarrerak
+          href: time/submit-time-entries.md
+        - name: Eskuratu denbora-sarrerak
+          items:
+            - name: Onartu aurretik
+              href: time/recall-time-entries-before-approval.md
+            - name: Onartu ondoren
+              href: time/recall-time-entries-after-approval.md
+        - name: Onartu denbora-sarrerak
+          href: time/approvals.md
+        - name: Garatzailearen oharrak
+          items:
+            - name: Luzatu denbora-sarrerak
+              href: time/extending-time-entries.md
+            - name: Pertsonalizatu asteroko denbora-sarreraren sareta
+              href: time/customize-weekly-time-entry-grid.md
+            - name: Segurtasunari buruzko irizpideak
+              href: time/security-considerations.md
+    - name: Gastua
+      items:
+        - name: Gastuen etxeko orria
+          href: expense/expense-overview.md
+        - name: Oinarrizko gastuen sarrera
+          href: expense/expense-lite-entry.md
+        - name: Gastu-sarrerak bidaltzea eta eskuratzea
+          href: expense/submit-recall-expense-entries.md
+        - name: Oinarrizko gastu-sarrerak onartzea
+          href: expense/approvals.md
+        - name: Proiektuen gastuak kudeatzeko esperientzia
+          items:
+            - name: Konfigurazioa eta instalazioa
+              items:
+                - name: Konfiguratu gidalerroak
+                  href: expense/set-up-policies.md
+                - name: Konfiguratu lan-fluxuak
+                  href: expense/set-up-workflows.md
+                - name: Kudeatu ordezkaritza
+                  href: expense/manage-delegation.md
+                - name: Konfiguratu gastuak kudeatzeko parametroak
+                  href: expense/configure-expense-management-parameters.md
+                - name: Konfiguratu kreditu-txartelaren integrazioa
+                  href: expense/set-up-credit-card-integration.md
+                - name: Konfiguratu gastu-kategoriak
+                  href: expense/set-up-expense-categories.md
+            - name: Gastuen txostenak sortzea
+              items:
+                - name: Gastuen txosteneko banaketak
+                  href: expense/distributions-expense-report.md
+            - name: Gastuen txostenak onartzea
+              items:
+                - name: Gastuen txostenak eta hainbat onartzaile
+                  href: expense/expense-reports-multiple-approvers.md
+            - name: Gastuen txostenak argitaratzea
+              href: expense/posting-expense-reports.md
+            - name: Bidaiatzeko eskakizuna
+              href: expense/travel-requisition.md
+            - name: Diru-aurrerakina
+              href: expense/cash-advance.md
+            - name: Eguneko dietak
+              href: expense/per-diems.md
+            - name: Finantza-kudeaketa
+              items:
+                - name: BEZaren berreskurapena
+                  href: expense/vat-recovery.md
+            - name: Gastuen eginbide berria
+              items:
+                - name: Gastu-txostenen itxura berria
+                  href: expense/expense-reports-reimagined.md
+                - name: Alderatu agiria gastuekin OCRa erabiliz
+                  href: expense/match-receipt-expense-ocr.md
+        - name: Gastuak gailu mugikorrak erabiliz
+          href: expense/expense-using-mobile.md
+    - name: Onarpenak
+      items:
+        - name: Informazio orokorra
+          href: approvals/approvals-overview.md
+        - name: Onartu denbora-sarrerak
+          href: approvals/approving-time-entries.md
+        - name: Onartu gastu-sarrerak
+          items:
+            - name: Oinarrizko gastua
+              href: approvals/approve-lite-expense.md
+            - name: Gastu osoa
+              href: approvals/approve-full-expense.md
+        - name: Bertan behera utzi onartutako denbora-sarrerak
+          href: approvals/cancelling-approved-time-entries.md
+        - name: Bertan behera utzi onartutako gastu-sarrerak
+          items:
+            - name: Oinarrizko gastua
+              href: approvals/cancel-lite-expense.md
+            - name: Gastu osoa
+              href: approvals/cancel-full-expense.md
+    - name: Benetako datuak
+      items:
+        - name: Informazio orokorra
+          href: actuals/actuals-overview.md
+        - name: Sortu barneko proiektu baten benetako datuak
+          href: actuals/create-actuals-internal-project.md
+        - name: Sortu proiektu-osagai fakturagarri baten benetako datuak
+          items:
+            - name: Denbora eta materiala
+              href: actuals/time-material.md
+            - name: Prezio finkoa
+              href: actuals/fixed-price.md
+        - name: Kudeatu gainditu ezin den egoera eta balidazioak
+          href: actuals/manage-not-exceed-status-validations.md
+        - name: Proiektuaren egunkariak
+          items:
+            - name: Sortu proiektuaren egunkariak proiektuen gastuak erregistratzeko
+              href: actuals/create-project-journals-record-fees-projects.md
+            - name: Sortu proiektuaren egunkariak denbora eta gastuak erregistratzeko
+              href: actuals/create-project-journals-time-expense.md
+            - name: Zuzenketa-egunkariak sortzea eta berrestea
+              href: actuals/create-confirm-correction-journals-md
+        - name: Kudeatu fakturazio atzeratua
+          href: actuals/manage-billing-backlog.md
+    - name: Proformako faktura
+      items:
+        - name: Sortu fakturazio-antolaketak
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: Sortu proformako faktura bat eskuz
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Kudeatu proformako faktura
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Berretsi proformako faktura
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: Faktura zuzentzaileak
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Konfiguratu fakturak automatikoko sortzeko aukera
+          href: proforma-invoicing/configure-automated-invoice-creation.md
+- name: 'Oinarrizko inplementazioa: kudeatu proformako fakturak'
+  items:
+    - name: Adibide aplikagarriak
+      href: applicable-scenarios.md
+    - name: Zer berri
+      href: whats-new-mode-2-project-operations.md
+    - name: Konfiguratu ingurunea
+      href: set-up-environment-mode-2.md
+    - name: Adibide-datuak
+      href: sample-data-mode-2.md
+    - name: Salmenta-prozesua
+      items:
+        - name: Salmenta-prozesuaren informazio orokorra
+          href: sales/sales-overview.md
+        - name: Gako-desberdintasunak
+          href: sales/key-differences.md
+        - name: Konfigurazioa
+          items:
+            - name: Produktuak
+              href: sales/sales-products.md
+            - name: Unitateak eta salmenta-unitateak
+              href: sales/sales-units-unit-groups.md
+            - name: Moneta
+              href: sales/sales-currency.md
+        - name: Kudeatu bezerogaiak
+          href: sales/managing-leads.md
+        - name: Kudeatu abaguneak
+          items:
+            - name: Abagune-goiburua
+              href: sales/opportunity-header.md
+            - name: Produktuetan oinarritutako lerroak
+              href: sales/product-based-lines.md
+            - name: Proiektuetan oinarritutako lerroak
+              href: sales/project-based-lines.md
+            - name: Estekatu eskaintzak eta abaguneak
+              href: sales/link-quotes-opportunities.md
+            - name: Itxi abagune bat
+              href: sales/close-opportunity.md
+        - name: Kudeatu eskaintzak
+          items:
+            - name: Gako-kontzeptuak
+              href: sales/quotes-key-concepts.md
+            - name: 'Kudeatu eskaintzen balioak, bezeroen aurrekontuak eta gainditu behar ez diren mugak'
+              href: sales/quote-values-budget-limits.md
+            - name: Kudeatu hainbat bezero eskaintza batean
+              href: sales/manage-multiple-customers-quote.md
+            - name: Produktuetan oinarritutako eskaintzaren lerroak
+              items:
+                - name: Produktuetan oinarritutako eskaintzaren lerroen kostuak kudeatzea
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Kudeatu produktuetan oinarritutako eskaintzaren lerroen unitate konplexuak
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Proiektuetan oinarritutako eskaintzaren lerroak
+              items:
+                - name: Kudeatu proiektuaren prezio-zerrendak
+                  href: sales/manage-project-price-lists.md
+                - name: Kudeatu hainbat bezero eskaintzaren lerro batean
+                  href: sales/manage-multiple-customers-quote-line.md
+                - name: Esleitu proiektuak eta zereginak eskaintzaren lerro batean
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: Sortu aurrekontuak eskaintzaren lerro batean
+                  href: sales/create-estimate-quote-line.md
+                - name: Inportatu proiektu bateko aurrekontuak eskaintzaren lerro batean
+                  href: sales/import-estimate-project-quote-line.md
+                - name: 'Kudeatu eskaintzen balioak, bezeroen aurrekontuak eta gainditu behar ez diren mugak'
+                  href: sales/manage-quoted-values-budget-limites-quote-line.md
+                - name: Fakturazio-antolaketak eskaintzaren lerro batean
+                  href: sales/invoice-schedule-quote-line.md
+            - name: Lortu eskaintza bat
+              href: sales/win-quote.md
+            - name: Galdu eskaintza bat
+              href: sales/lose-quote.md
+        - name: Kudeatu kontratuak
+          items:
+            - name: Gako-kontzeptuak
+              href: sales/contracts-key-concepts.md
+            - name: 'Kudeatu kontratuen balioak, bezeroen aurrekontuak eta gainditu behar ez diren mugak'
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: Kudeatu hainbat bezero kontratu batean
+              href: sales/manage-multiple-customers-contract.md
+            - name: Produktuetan oinarritutako kontratuaren lerroak
+              items:
+                - name: Produktuetan oinarritutako kontratuaren lerroen kostuak kudeatzea
+                  href: sales/cost-product-based-contract-lines.md
+                - name: Kudeatu produktuetan oinarritutako kontratuaren lerroen unitate konplexuak
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: Proiektuetan oinarritutako kontratuaren lerroak
+              items:
+                - name: Kudeatu proiektuaren prezio-zerrendak
+                  href: sales/manage-project-price-lists.md
+                - name: Kudeatu hainbat bezero kontratuaren lerro batean
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: Esleitu proiektuak eta zereginak kontratuaren lerro batean
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: Sortu proiektu bateko aurrekontuak kontratuaren lerro batean
+                  href: sales/create-estimate-project-contract-line.md
+                - name: Inportatu proiektu bateko aurrekontuak kontratuaren lerro batean
+                  href: sales/import-estimate-project-contract-line.md
+                - name: 'Kudeatu kontratuen balioak, bezeroen aurrekontuak eta gainditu behar ez diren mugak kontratuaren lerro batean'
+                  href: sales/manage-contract-values-project-based.md
+                - name: Fakturazio-antolaketak eskaintzaren lerro batean
+                  href: sales/invoice-schedules-quote-line.md
+            - name: Berretsi kontratu bat
+              href: sales/confirm-contract.md
+            - name: Itxi kontratu bat osatutako lan gisa
+              href: sales/close-contract-work-completed.md
+            - name: Itxi kontratu bat bertan behera utzitako gisa
+              href: sales/close-contract-canceled.md
+    - name: Prezioak eta kostuak kudeatzea
+      items:
+        - name: Produktuaren prezio-zerrendak
+          href: pricing-costing/product-price-lists.md
+        - name: Proiektuaren prezio-zerrendak
+          items:
+            - name: Prezio-zerrendaren kostuak
+              items:
+                - name: Konfiguratu kostuaren prezio-zerrendak
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: Prezio-zerrendaren balio lehenetsiak
+                  href: pricing-costing/cost-price-list-default.md
+                - name: Gainidatzi balio lehenetsiak
+                  href: pricing-costing/cost-override-default.md
+            - name: Salmenten prezio-zerrendaren konfigurazioa
+              items:
+                - name: Konfiguratu salmenten prezio-zerrenda
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Salmenten prezio-zerrendaren balio lehenetsiak
+                  href: pricing-costing/sales-price-list-default.md
+                - name: Gainidatzi balio lehenetsiak
+                  href: pricing-costing/sales-override-default.md
+        - name: Prezioen dimentsioak
+          items:
+            - name: Prezioen dimentsioen informazio orokorra
+              href: pricing-costing/pricing-dimension-overview.md
+            - name: Erabili Project Operations-en lehendik dagoen eremua prezio-dimentsio gisa
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Eremu pertsonalizatuak prezio-dimentsio gisa
+              items:
+                - name: Sortu eremu eta entitate pertsonalizatuak prezio-dimentsio gisa
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Desaktibatu prezio-dimentsioa
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: Proiektuen kudeaketa
+      items:
+        - name: Proiektuen kudeaketaren informazio orokorra
+          href: project-management/project-management-overview.md
+        - name: Proiektuaren faseak
+          href: project-management/project-stages.md
+        - name: Erabiltzaile-interfazea arakatzea
+          href: project-management/navigate-ui.md
+        - name: Proiektuaren egoera ulertzea
+          href: project-management/understand-project-status.md
+        - name: Zehaztu proiektuen egutegiak
+          href: project-management/define-project-calendars.md
+        - name: Sortu proiektu bat
+          items:
+            - name: Sortu hasierako aurreikuspenak
+              href: project-management/create-initial-estimates.md
+            - name: Ezarri proiektuaren egutegia
+              href: project-management/set-project-calendar.md
+            - name: Ezarri proiektuaren moneta
+              href: project-management/set-project-currency.md
+            - name: Zehaztu bezero bat
+              href: project-management/set-customer.md
+            - name: Gehitu talde bat
+              href: project-management/add-group.md
+        - name: Eguneratu proiektu bat
+          href: project-management/update-project.md
+        - name: Kopiatu proiektu bat
+          href: project-management/copy-project.md
+        - name: Zereginen xehetasunen egituraren antolaketa
+          items:
+            - name: Sortu zereginen xehetasunen egitura
+              items:
+                - name: Sortu zereginak
+                  href: project-management/wbs-create-tasks.md
+                - name: 'Ebaki, kopiatu eta itsatsi zereginak'
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: Desegin eta berregin zereginak
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: Zereginen xehetasunen egituraren hierarkia
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: Zereginen eguneratze masiboak
+                  href: project-management/bulk-task-updates.md
+                - name: Editatu zereginaren xehetasunak
+                  href: project-management/edit-task-details.md
+            - name: Sortu esleipenak
+              items:
+                - name: Gehitu lehendik dauden baliabideak
+                  href: project-management/add-existing-resources.md
+                - name: Gehitu baliabideak orokorrak
+                  href: project-management/add-generic-resources.md
+                - name: 'Ulertu esleipenek dituzten eragina zereginen ahaleginetan, iraupenean eta amaiera-datan'
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Ikusi esleipenen ingeradak
+                  href: project-management/view-assignment-contours.md
+            - name: Kudeatu zereginak kudeatzeko zerbitzua
+              items:
+                - name: Zutabeen kudeaketa
+                  href: project-management/column-management.md
+                - name: Ikuspegiak
+                  href: project-management/task-management-views.md
+                - name: Ontziak
+                  href: project-management/task management-buckets.md
+        - name: Aurreikuspen-proiektuak
+          items:
+            - name: Aurreikuspen-proiektuen informazio orokorra
+              href: project-management/estimate-projects-overview.md
+            - name: Baliabideen aurreikuspenak
+              items:
+                - name: Freskatu proiektuaren aurreikuspenak proiektu-planean egindako aldaketak islatzeko
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: Freskatu prezio eta kostuen tasak proiektuaren aurreikuspenetan
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: Baliabideen kostuaren prezioei eta kostuaren monetei dagozkien balio lehenetsiak
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: Baliabideen fakturazio-tasari eta salmenten monetei dagozkien balio lehenetsiak
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: Sortu gastuen aurreikuspenak
+              items:
+                - name: Gastuen kostuaren prezioei eta kostuaren monetei dagozkien balio lehenetsiak
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: Gastuen fakturazio-tasari eta salmenten monetei dagozkien balio lehenetsiak
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: Eskaintzak eta kontratuak sortzea
+          items:
+            - name: Inportatu zereginen xehetasunen egitura eskaintzetan
+              href: project-management/import-wbs-structure-quotes.md
+            - name: Inportatu zereginen xehetasunen egitura kontratuetan
+              href: project-management/import-wbs-structure-contracts.md
+        - name: Proiektuaren segimendua
+          items:
+            - name: Proiektuaren segimenduaren etxeko orria
+              href: project-management/cost-vs-effort-overview.md
+            - name: Zutabe-definizioak
+              items:
+                - name: Ahalegina
+                  href: project-management/effort.md
+                - name: Kostua
+                  href: project-management/cost.md
+                - name: Salmentak
+                  href: project-management/sales.md
+            - name: Eguneratu aurreikusitako kostua osatzen denerako
+              href: project-management/update-completed-estimate.md
+        - name: Proiektuaren taldeko kideak
+          items:
+            - name: Proiektuaren taldeko kideen informazio orokorra
+              href: project-management/project-team-members-overview.md
+            - name: Kudeatu taldeko kideak
+              items:
+                - name: Gehitu taldeko kideak
+                  href: project-management/add-team-members.md
+                - name: Eguneratu proiektuaren taldeko kideak
+                  href: project-management/update-project-team-members.md
+                - name: Ezabatu taldeko kideak
+                  href: project-management/delete-team-members.md
+                - name: Kudeatu erreserbak
+                  href: project-management/maintain-bookings.md
+                - name: Proiektuaren onartzaileak
+                  href: project-management/project-approvers.md
+        - name: Salmentak
+          items:
+            - name: Salmenten fitxaren informazio orokorra
+              href: project-management/sales-tab-overview.md
+        - name: Lankidetza
+          items:
+            - name: Taldeak
+              href: project-management/groups.md
+        - name: Proiektuaren antolaketaren FAQa
+          href: project-management/project-planning-faq.md
+    - name: Baliabide-kudeaketa
+      items:
+        - name: Baliabideen kudeaketaren informazio orokorra
+          href: resource-management/resource-management-overview.md
+        - name: Gako-kontzeptuak
+          href: resource-management/resource-management-key-concepts.md
+        - name: Erreserbak vs. zereginak
+          href: resource-management/booking-vs-assignment.md
+        - name: Baliabide-kudeaketaren moduak
+          items:
+            - name: Baliabide-kudeaketaren moduaren informazio orokorra
+              href: resource-management/resource-management-mode-overview.md
+            - name: Hibridoa
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: Zentrala
+              href: resource-management/resource-management-mode-central.md
+        - name: Erreserba zentralizatua
+          items:
+            - name: Erreserba zentralizatuen informazio orokorra
+              href: resource-management/centralized-booking-overview.md
+            - name: Gehitu taldeko kide generikoak zereginetan
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: Zehaztu baliabideen eskakizunak
+              href: resource-management/define-resource-requirements.md
+            - name: Zehaztu eskakizunen ingeradak
+              href: resource-management/define-resource-requirement-contours.md
+            - name: Eguneratu baliabideen eskakizunak
+              href: resource-management/update-resource-requirements.md
+            - name: Bidali baliabideen eskakizunak
+              href: resource-management/submit-resource-requirements.md
+            - name: Baliabide-eskaerak
+              items:
+                - name: Baliabide-eskaeren informazio orokorra
+                  href: resource-management/resource-requests-overview.md
+                - name: Berrikusi eremuak eta ekintzak
+                  href: resource-management/review-fields-actions.md
+                - name: Bilatu baliabideak
+                  href: resource-management/find-resources.md
+                - name: Berrikusi baliabide proposatuak
+                  href: resource-management/review-proposed-resources.md
+        - name: Baliabideen erreserba deszentralizatuak
+          items:
+            - name: Baliabideen erreserba deszentralizatuen informazio orokorra
+              href: resource-management/decentralized-resource-booking-overview.md
+            - name: Zuzenean erreserbatzeko aukerak
+              href: resource-management/options-book-directly.md
+            - name: Bete baliabideen eskakizun orokorrak
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Baliabideen administrazioa
+          items:
+            - name: Sortu baliabideak
+              href: resource-management/create-resources.md
+            - name: Zehaztu gaitasunak eta trebetasunak
+              href: resource-management/define-skills-proficiencies.md
+            - name: Zehaztu rolak
+              href: resource-management/define-roles.md
+            - name: Zehaztu baliabide-egutegiak
+              href: resource-management/define-resource-calendars.md
+            - name: Erlazionatu baliabideak erakundearen unitateekin
+              href: resource-management/associate-resources-organizational-units.md
+            - name: Erlazionatu baliabideak enpresekin
+              href: resource-management/associate-resources-companies.md
+        - name: Erreserbak esleitzeko metodoak
+          href: resource-management/booking-allocation-methods.md
+        - name: Erreserben egoerak
+          href: resource-management/booking-status.md
+        - name: Gaitasun eta trebetasunen ereduak
+          href: resource-management/skills-proficiency-models.md
+        - name: Baliabideen berdinkatzea
+          items:
+            - name: Baliabideen berdinkatzearen informazio orokorra
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Gako-kontzeptuak
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: Nabigazioa
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: Luzatu erreserbak
+              href: resource-management/extend-bookings.md
+            - name: Kudeatu hainbat ordu-zona
+              href: resource-management/manage-multiple-time-zones.md
+        - name: Baliabide-erabilera
+          items:
+            - name: Baliabide-erabileraren informazio orokorra
+              href: resource-management/resource-utilization-overview.md
+            - name: 'Bilaketa, ezarpenak eta nabigazioa'
+              href: resource-management/search-settings-navigation.md
+        - name: Antolaketa-panela
+          items:
+            - name: Nabigazioa eta gako-ezarpenak
+              href: resource-management/navigation-key-settings-urs.md
+            - name: Pertsonalizazioa
+              href: resource-management/personalization-urs.md
+            - name: Bilaketa
+              href: resource-management/search-urs.md
+            - name: Erreserben ekintzak
+              href: resource-management/booking-actions-urs.md
+            - name: Erreserba
+              items:
+                - name: Erreserbatu proiektu bat
+                  href: resource-management/book-project.md
+                - name: Erreserbatu eskakizun irekiak
+                  href: resource-management/book-open-requirements.md
+                - name: Ordeztu baliabideak
+                  href: resource-management/substitute-resources.md
+                - name: Editatu lehendik dauden erreserbak
+                  href: resource-management/edit-existing-bookings.md
+        - name: Baliabide-kudeaketaren FAQa
+          href: resource-management/resource-management-faq.md
+    - name: Ordua
+      items:
+        - name: Denbora-sarreraren informazio orokorra
+          href: time/time-entry-overview.md
+        - name: Sortu denbora-sarrerak
+          items:
+            - name: 'Inportatu erreserbak, esleipenak eta egutegiko sarrerak'
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: Erabiltzaile-interfazearen portaera
+              href: time/ui-behavior.md
+        - name: Bidali denbora-sarrerak
+          href: time/submit-time-entries.md
+        - name: Eskuratu denbora-sarrerak
+          items:
+            - name: Onartu aurretik
+              href: time/recall-time-entries-before-approval.md
+            - name: Onartu ondoren
+              href: time/recall-time-entries-after-approval.md
+        - name: Onartu denbora-sarrerak
+          href: time/approvals.md
+        - name: Garatzailearen oharrak
+          items:
+            - name: Luzatu denbora-sarrerak
+              href: time/extending-time-entries.md
+            - name: Pertsonalizatu asteroko denbora-sarreraren sareta
+              href: time/customize-weekly-time-entry-grid.md
+            - name: Segurtasunari buruzko irizpideak
+              href: time/security-considerations.md
+    - name: Gastua
+      items:
+        - name: Gastuen etxeko orria
+          href: expense/expense-overview.md
+        - name: Gastu-sarrera
+          href: expense-entry.md
+    - name: Onarpenak
+      items:
+        - name: Informazio orokorra
+          href: approvals/approvals-overview.md
+        - name: Onartu denbora-sarrerak
+          href: approvals/approving-time-entries.md
+        - name: Onartu gastu-sarrerak
+          href: approve-expense-entries.md
+    - name: Proformako faktura
+      items:
+        - name: Sortu fakturazio-antolaketak
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: Sortu proformako faktura bat eskuz
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Kudeatu proformako faktura
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Berretsi proformako faktura
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: Faktura zuzentzaileak
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Konfiguratu fakturak automatikoko sortzeko aukera
+          href: proforma-invoicing/configure-automated-invoice-creation.md
