@@ -1,0 +1,70 @@
+---
+title: Proiektuaren ezarpenak
+description: Gai honek proiektuaren kudeaketa ezarpenei buruzko informazioa ematen du.
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 03/01/2019
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.assetid: 7c5be6ff-8f92-4dfc-9f9d-4abc76f96638
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: 843192092598fd713b3bc59bf90c5362d0dad8b4
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: eu-ES
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3748840"
+---
+# <a name="project-settings"></a>Proiektuaren ezarpenak
+
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+
+Erabili ondorengo ezarpenak proiektuaren plangintza-eginbidetara sartzeko.
+
+## <a name="work-template"></a>Lan-txantiloia
+
+Proiektuaren antolaketa sortzeko, sortu eguneko lan-orduak definitzen dituen proiektu-egutegia eta baita negozio-itxierak ere. Proiektu-egutegiaren txantiloia sortzeko, lotu laneko txantiloi bat **Egutegiaren txantiloia** eremuarekin proiekturako. Jarraitu urrats hauei lan-txantiloia sortzeko.
+
+1. PSA aplikazioan, ezkerreko nabigazio panelean, sakatu **Baliabideak**. 
+2. **Baliabideak** zerrenda-orrian, ireki erabiltzaileen erregistroa eta hautatu hautatu **Erakutsi lanorduak**.
+
+  > [!NOTE]
+  > Ziurtatu arakatzailearen orrian leiho gainerakorrak onartzen dituzula. Horrek baliabiderako ezarritako lanorduak ikusteko aukera ematen du.
+  
+3. **Hileroko ikuspegia** fitxan, egin klik **Konfiguratu** aukeran. Hiru aukeradun zerrenda bat agertzen da: 
+
+  - Asteko antolaketa berria
+  - Egun baterako lan-antolaketa
+  - Astialdia
+
+> ![Konfiguratu aukerak](media/project-13.png)
+
+4. Hautatu **Asteko antolaketa berria** eta, ondoren, ezarri baliabideen antolaketa horretarako aukerak. Asteroko ordutegi errepikakorra, eguneroko ordu-parametroak, negozioen itxiera eta beste batzuk ezar ditzakezu.
+5. Ezarri data-tartea, hautatu **Gorde** eta, ondoren, egin klik **Itxi** aukeran. 
+6. Itzuli berriro **Baliabideak** zerrenda-orrira eta hautatu lanorduak zehaztu dituzun baliabidea. 
+7. Hautatu **Ezarri egutegia honela** lan txantiloia ezartzeko. 
+8. **Lan-txantiloia** elkarrizketa-koadroan, idatzi lan-txantiloiaren izena eta hautatu **Aplikatu**. 
+
+Orain lan-txantiloia proiektuaren egutegi txantiloiarekin lotu dezakezu.
+
+## <a name="resource-roles"></a>Baliabide-funtzioak
+
+*Baliabide-funtzioa* terminoak pertsona batek proiektu batean zeregin multzo zehatz bat egiteko izan behar dituen gaitasun, konpetentzia eta ziurtagirien multzoari egiten dio erreferentzia. PSA-k baliabideen denbora kostua kalkulatzeko eta faktura egiteko aukera ematen du baliabidea erlazionatuta dagoen funtzioaren arabera. Erakunde guztiek konfiguratu behar dituzte funtzio hauek ezkerreko nabigazioa erabilita **Project Service** menuan.
+
+Erakunde guztiek ezarri behar dituzte funtzio horiek **Baliabide aktiboen kategoriak** orrian. Orrialde hau irekitzeko, ezkerreko nabigazio panelean, hautatu **Baliabide-funtzioak**.
+
+## <a name="price-lists"></a>Prezio-zerrendak
+
+Prezio-zerrendei esker, erakundeko baliabide-funtzioen kostuak eta salmenta-prezioak, kategorien gastuak, produktuak eta elementu gehiago ezar ditzakezu. Proiektu baterako bidali behar den lanaren finantza kalkuluak ezarri aurretik, laguntza kostu bat eta salmentako prezio-zerrenda bat sortu beharko zenituzke. Parametroen atalean, erakundean sortutako proiektu guztiei aplikatzen zaien kostu eta salmenta-prezioen zerrenda lehenetsia ere ezarri beharko zenituzke. **Proiektu aktiboen parametroak** orrialdea, ziurtatu kostu eta salmenta-prezioen zerrenda lehenetsia konfiguratzen duzula.

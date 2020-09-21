@@ -1,0 +1,49 @@
+---
+title: Project Service Automation integrazio-parametroak
+description: Gai honetan integratzen zarenean lehenetsitako datuak nola sartzen diren konfiguratzen da Microsoft Dynamics 365 for Project Service Automation Microsoftekin Dynamics 365 Finance.
+author: KimANelson
+manager: AnnBe
+ms.date: 03/03/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations
+ms.custom: 87983
+ms.assetid: ade812ac-2f8f-4761-a474-0fd7246967df
+ms.search.region: Global
+ms.author: knelson
+ms.search.validFrom: 2016-11-28
+ms.dyn365.ops.version: AX 7.3.0
+ms.openlocfilehash: 9e46823f8bd3aef2ba9be271560c3a532be8ef0d
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: eu-ES
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3748854"
+---
+# <a name="project-service-automation-integration-parameters"></a>Project Service Automation integrazio-parametroak
+
+[!include[banner](../includes/banner.md)]
+
+Gainean **Project Service Automation integrazio parametroak** orrialdean, integratzen zarenean lehenetsitako datuak nola sartzen diren konfigura dezakezu Dynamics 365 Project Service Automation hurrengoarekin Dynamics 365 Finance. Project Service Automation Finantzara proiektuak ongi sinkronizatzeko, honako eremuak konfiguratu behar dituzu.
+
+Irekitzeko **Project Service Automation integrazio parametroak** orrialdea, joan **Proiektuen kudeaketa eta kontabilitatea** \> **Konfigurazioa** \> **Dynamics 365 for Project Service Automation integrazio parametroak**. 
+
+> [!NOTE]
+> - Proiektuaren zereginen integrazioa, gastuen transakzioen kategoriak, orduen kalkuluak, gastuen kalkuluak eta funtzionalitate blokeoa eskuragarri daude 8.0 bertsioan.
+> - Datu bateratuen integrazioa eskuragarri dago 8.0.1 bertsioan edo hurrengoan.
+
+
+| Fitxa                    | Eremua                | Deskribapenak |
+|------------------------|----------------------|-------------|
+| Orokorra                | Lehenetsitako proiektu mota | Aukeratu lehenetsitako proiektu mota. Proiektuak Project Service Automation-etik sinkronizatzen direnean, balio hori erabiltzen da integrazio txantiloian lehenetsitako balioa eman ez baduzu. Sinkronizazioan zehar **Proiektu mota** proiektu berrien eremua balio horri ezartzen zaio. Hala ere, baliteke eguneratu egin daiteke proiektuaren kontratu lerroak Project Service Automation-etik sinkronizatzen direnean. |
+|                        | Denboraren kategoria        | Hautatu denboraren kategoria lehenetsia. Balio hori ordu-kalkuluak Project Service Automation-etik sinkronizatzen direnean erabiltzen da. Orduen kalkuluak eta orduko errealitateak Project Service Automation-etik sinkronizatzen direnean, **Kategoria** Finantza proiektuen ordu berrien aurreikuspenen eremua balio horretara ezarrita dago. |
+|                        | Prezioaren kategoria         | Hautatu prezioaren kategoria lehenetsia. Balio hori prezioaren datu bateratuak Project Service Automation-etik sinkronizatzen direnean erabiltzen da. Prezioaren datu bateratuak Project Service Automation-etik sinkronizatzen direnean, **Kategoria** Finantza prezioaren transakzioen eremua balio horretara ezarrita dago. |
+| Proiektu taldearen lehenespenak | Proiektu mota         | Egin klik **Berria** proiektu talde lehenetsia ezartzeko proiektu mota hautatzeko errenkada bat gehitzeko. Proiektu mota zehatz bat konfigurazioan behin bakarrik hauta daiteke. |
+|                        | Proiektu taldea        | Aukeratu proiektu talde lehenetsia hautatutako proiektu motarako. Project Service Automation proiektu berriak sinkronizatzen direnean, **Proiektu taldea** eremua proiektu motarako balio lehenetsian ezarrita dago integrazio txantiloian balio lehenetsirik eman ez baduzu. |
+| Fakturazio mota lehenetsiak  | Fakturazio mota         | Egin klik **Berria** jabetza-lerro lehenetsia ezartzeko fakturazio mota hautatzeko errenkada bat gehitzeko. Fakturazio mota zehatz bat konfigurazioan behin bakarrik hauta daiteke. |
+|                        | Linearen jabetza        | Aukeratu lehenetsitako lerroaren jabetza hautatutako fakturazio-motarako. Ordu berrien kalkuluak, gastu berrien kalkuluak edo egiazko berriak sinkronizatzen direnean Project Service Automation-etik **Linearen jabetza** eremuak fakturazio motaren lehenetsitako balioa du. |
+| Funtzionaltasuna blokeatzea  | Ez da aplikagarria       | Aukeratu Finantzan desgaitzeko funtzionalitatea Project Service Automation-etik sortutako proiektu eta kontratuetarako. Adibidez, kontratuak eta proiektuak editatzeko gaitasuna desaktiba dezakezu, lanen banakako egiturak sor ditzakezu eta Finantzetan denbora-orriak sartu. Kontabilitatearekin lotutako eremuak gaitzen jarraituko dute, parametroaren ezarpenak erabilgarri ez uzten baditu ere. Berez, funtzionalitate guztiak gaituta daude. |
