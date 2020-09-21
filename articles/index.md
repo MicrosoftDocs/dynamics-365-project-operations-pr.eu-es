@@ -1,0 +1,1 @@
+# <a name="welcome-to-dynamics-365-project-operations"></a><span data-ttu-id="17bec-101">Ongi etorri dynamics-365-proiektua-eragiketak!</span><span class="sxs-lookup"><span data-stu-id="17bec-101">Welcome to dynamics-365-project-operations!</span></span>
