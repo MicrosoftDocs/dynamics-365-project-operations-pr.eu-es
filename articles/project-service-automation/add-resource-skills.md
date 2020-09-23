@@ -1,5 +1,5 @@
 ---
-title: Gehitu baliabideen trebetasunak*
+title: Gehitu baliabideen trebetasunak
 description: Nola lotu trebakuntzak baliabideekin Project Service-n
 author: JohnPBurrows
 manager: kfend

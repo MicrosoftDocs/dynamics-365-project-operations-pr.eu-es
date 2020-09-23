@@ -33,7 +33,7 @@ ms.locfileid: "3748833"
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] zerbitzuan baliabideak eskatu edo esleitu baino lehen, bezeroaren proiektuek behar dituzten funtzioak eta abilezia-multzoak definitu behar dituzu. Zenbait gauza konfiguratu behar dituzu:  
   
--   [Gehitu baliabideen trebetasunak](../project-service/add-resource-skills.md)*  
+-   [Gehitu baliabideen trebetasunak](../project-service/add-resource-skills.md)  
   
 -   [Konfiguratu gaitasun-ereduak](../project-service/set-up-proficiency-models.md)  
   
