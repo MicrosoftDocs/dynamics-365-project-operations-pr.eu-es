@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948735"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096607"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplikatu Project Operations demo-datuak Finance-ren hodeian ostatatutako ingurune batean
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
->[Garrantzitsua] Gai hau Microsoft Dynamics 365 Finance 10.0.13 bertsioan soilik aplikatzen da eta hodeian ostatatutako ingurune batean bakarrik egin daiteke. Osatu gai honetako urratsak **AURRETIK** ingurumenari kalitatezko eguneratzeak aplikatzen dizkiozu.
+> [!IMPORTANT]
+> Gai hau Microsoft Dynamics 365 Finance 10.0.13 bertsioan soilik aplikatzen da eta hodeian ostatatutako ingurune batean bakarrik egin daiteke. Osatu gai honetako urratsak **AURRETIK** ingurumenari kalitatezko eguneratzeak aplikatzen dizkiozu.
 
 1. Zure LCS proiektuan, ireki **Ingurumenaren xehetasunak** orrialdea. Ohar zaitez urruneko mahaigaineko protokoloa (RDP) erabiliz ingurunearekin konektatzeko behar diren xehetasunak biltzen dituela.
 
@@ -27,7 +28,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 Nabarmendutako kredentzialen lehen multzoa tokiko kontuaren egiaztagiriak dira eta urruneko mahaigaineko konexiorako hiperesteka bat dute. Kredentzialen artean, inguruneko administratzaile izena eta pasahitza daude. Ingurune honetan SQL Server zerbitzuan saioa hasteko bigarren kredentzial multzoa erabiltzen da.
 
-2. Konektatu ingurunearekin hiperesteka bidez **Tokiko kontuak**, eta erabili **Tokiko kontuaren egiaztagiriak** autentifikatzeko.
+2. Konektatu ingurunearekin hiperesteka bidez **Tokiko kontuak** , eta erabili **Tokiko kontuaren egiaztagiriak** autentifikatzeko.
 3. Joan **Interneteko Informazio Zerbitzuak** > **Aplikazio multzoak** > **AOSZerbitzua** eta zerbitzua gelditu. Une honetan zerbitzua gelditzen ari zara, SQL datu basea ordezkatzen jarrai dezazun.
 
 ![Gelditu AOS](./media/2StopAOS.png)
