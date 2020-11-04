@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 6b396ccf5e76230a42a2f933a3aaa5b8149790bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3964892"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070928"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Esleitu proiektuak eta zereginak proiektuetan oinarritutako eskaintzaren lerro batean
 
@@ -72,7 +72,7 @@ Proiektuaren zereginak lotu ditzakezu **Kobratzeko zereginak** fitxa **Aipatu le
 
 Metodoak orrialdeak zereginak lerroen artetik askatzeko esperientzia ezin hobea eskaintzen du. Zeregin anitz hautatzeko eta haiek guztiak, haurren zereginak gehituta hautatutako aurrekontu lerrotik askatzeko.
 
-1. **Orokorra** proiektuan oinarritutako aurrekontu lerroaren fitxan,**Proiektua** eremuan, hautatu proiektuaren esteka.
+1. **Orokorra** proiektuan oinarritutako aurrekontu lerroaren fitxan, **Proiektua** eremuan, hautatu proiektuaren esteka.
 2. **Proiektua** orrialdean, hautatu **Zereginaren fakturazioa** fitxan.
 3. Bigarren saretan, zeregin zehatzen fakturazio konfigurazioari aplikatzen zaiona, hautatu zeregin bat edo gehiago eta, ondoren, hautatu **Askatu aurrekontu lerroak**.
 4. Agertzen den elkarrizketa-orrian, hautatu aurrekontu lerroa.

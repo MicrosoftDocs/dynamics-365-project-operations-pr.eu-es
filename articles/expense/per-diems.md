@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 7d1c4ac7781cb711e2cc0d09606d422b4dd554f3
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907838"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070910"
 ---
 # <a name="per-diems"></a>Eguneko dietak
 
@@ -30,4 +30,4 @@ Eguneko egun bat lanagatik bidaiatzen duen langileari ematen zaion hobaria da. G
 4. Gosarian, bazkarian edo afarian otorduen ehuneko murrizketa zehazteko, eguneratu eremuko **Gastuak kudeatzeko parametroak** orrialdean **Eguneko** fitxa. 
     
 ## <a name="submit-expenses-using-per-diem"></a>Bidali egun bakoitzeko gastuak
-Dietak erabiliz gastuak bidaltzeko, erabili **Eguneko** gastuen kategoria gastuen txostena sortzen duzunean. Sartu **Eguneko egunetik aurrera**, **Eguneko egunerokoa** eta**Eguneko kokapena**. Zenbatekoa hautatutako kokapeneko eguneko tasen arabera kalkulatuko da eta otorduen murrizketa eguneko tasen mailen arabera kalkulatuko da.
+Dietak erabiliz gastuak bidaltzeko, erabili **Eguneko** gastuen kategoria gastuen txostena sortzen duzunean. Sartu **Eguneko egunetik aurrera** , **Eguneko egunerokoa** eta **Eguneko kokapena**. Zenbatekoa hautatutako kokapeneko eguneko tasen arabera kalkulatuko da eta otorduen murrizketa eguneko tasen mailen arabera kalkulatuko da.

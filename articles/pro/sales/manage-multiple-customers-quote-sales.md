@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966726"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070936"
 ---
 # <a name="managing-multiple-customers-on-project-quotes-sales"></a>Proiektu-eskaintzetako hainbat bezero kudeatzea (Salmentak)
 
@@ -31,7 +31,7 @@ Aurrekontuaren bezeroak eta aurrekontuen linea bezeroak gehitu, eguneratu edo ez
 
 Bezero potentzialaren proiektuaren laburpen fitxan dagoen bezeroa aurrekontuaren bezero nagusia da. Aurrekontuan bezero nagusia zerrendatik bezero nagusia ezabatzen saiatzen zarenean, akats bat ikusiko duzu aurrekontuan bezero nagusiaren erregistroa ezin dela ezabatu.
 
-Bezero nagusia ez da aurrekontuko bezeroen zerrendatik eguneratu behar. Hala ere, bezero nagusian eragina izan dezakezu bezero potentziala aldatuz **Laburpena** aurrekontuaren fitxa. Eremu hau eguneratu denean **Aipuaren laburpena**, hautatu berri den bezero potentziala aurrekontuaren bezero berri gisa gehitzen da **Lehen Hezkuntza** bandera ezarri. Bezero potentzial zaharra aurrekontuan bezero izango da.
+Bezero nagusia ez da aurrekontuko bezeroen zerrendatik eguneratu behar. Hala ere, bezero nagusian eragina izan dezakezu bezero potentziala aldatuz **Laburpena** aurrekontuaren fitxa. Eremu hau eguneratu denean **Aipuaren laburpena** , hautatu berri den bezero potentziala aurrekontuaren bezero berri gisa gehitzen da **Lehen Hezkuntza** bandera ezarri. Bezero potentzial zaharra aurrekontuan bezero izango da.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Sortu, Eguneratu edo Ezabatu aurrekontuaren bezeroaren erregistroa
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898606"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070894"
 ---
 # <a name="manage-leads"></a>Kudeatu bezerogaiak
 
@@ -53,7 +53,7 @@ Bezerogaiek **Mota** balioa ezarri da **Lanean oinarrituta** proiektuetan oinarr
 
 - Erabiltzen duen kontua **Enpresa** eremua markagailutik.
 - Kontuarekin erlazionatutako kontaktu erregistroa **Izena** eta **Abizena** eremuak bezerogaian.
-- Proiektuan oinarritutako aukera **Mota** eremua ezarrita dago &quot;**Lanetan oinarrituta**.
+- Proiektuan oinarritutako aukera **Mota** eremua ezarrita dago **Lanetan oinarrituta**.
 
 Sailkapen abantailen inguruko informazio zehatzagoa lortzeko, ikusi [Liderrak sailkatu edo bihurtu](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

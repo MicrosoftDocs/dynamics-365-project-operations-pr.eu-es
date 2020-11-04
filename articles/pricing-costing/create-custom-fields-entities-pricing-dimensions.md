@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2000f7e710267560fe2bd52b0e33024617d108ea
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898246"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071074"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Sortu eremu eta entitate pertsonalizatuak prezio-dimentsio gisa
 
@@ -61,10 +60,10 @@ Aukera multzoan oinarritutako bi dimentsio sor ditzakezu. **Baliabideen lanaren 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Sortu datuak erakundeetan oinarritutako dimentsioetarako
 
-Erakundeetan oinarritutako dimentsioetarako datuak sor ditzakezu eskuz edo Microsoft Excel inportazio edo zerbitzu deiak erabiliz. Erabili prozedura honen urratsak bi titulu estandar sortzeko, adibidez, **Sistemen ingeniaria** eta **Sistemen ingeniari nagusia**, **Titulu estandarra** entitatean oinarritutako dimentsiotik. Sortu nahi dituzun datuak txikiak badira, hurrengo adibidean bezala, inprimaki estandarra erabil dezakezu.
+Erakundeetan oinarritutako dimentsioetarako datuak sor ditzakezu eskuz edo Microsoft Excel inportazio edo zerbitzu deiak erabiliz. Erabili prozedura honen urratsak bi titulu estandar sortzeko, adibidez, **Sistemen ingeniaria** eta **Sistemen ingeniari nagusia** , **Titulu estandarra** entitatean oinarritutako dimentsiotik. Sortu nahi dituzun datuak txikiak badira, hurrengo adibidean bezala, inprimaki estandarra erabil dezakezu.
 
-1. Hautatu **Bilaketa aurreratua**, hautatu entitatea **Izenburu estandarra** eta, ondoren, hautatu **Emaitzak**. **Titulu estandarra** entitateko errenkada guztiak erakutsiko dira.
-2. Hautatu **Berria**, eta **Izena** atalean, idatzi "Sistemen ingeniaria" eta, ondoren, hautatu **Gorde**.
+1. Hautatu **Bilaketa aurreratua** , hautatu entitatea **Izenburu estandarra** eta, ondoren, hautatu **Emaitzak**. **Titulu estandarra** entitateko errenkada guztiak erakutsiko dira.
+2. Hautatu **Berria** , eta **Izena** atalean, idatzi "Sistemen ingeniaria" eta, ondoren, hautatu **Gorde**.
 3. Itxi inprimakia. 
 4. Errepikatu 1-3 urratsak "Sistemen ingeniari nagusia" titulu estandarra sortzeko.
 

@@ -3,23 +3,23 @@ title: Kopiatu proiektu bat
 description: Gai honek proiektuak kopiatzeari buruzko informazioa eskaintzen du Dynamics 365 Project Operations-en.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907835"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070977"
 ---
 # <a name="copy-a-project"></a>Kopiatu proiektu bat
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations-ekin, proiektu berriak azkar eraiki ditzakezu **Kopiatu proiektua** ekintza **Proiektuak** inprimakitik. Proiektu bat kopiatzeko, hautatu proiektu bat eta hautatu **Kopiatu**. Ekintzak kopiatuko ditu:
+Dynamics 365 Project Operations-ekin, proiektu berriak azkar eraiki ditzakezu **Kopiatu proiektua** hautatuta **Proiektuak** inprimakian. Proiektu bat kopiatzeko, ireki kopiatu nahi duzun proiektua eta hautatu **Kopiatu proiektua**. Ekintzak kopiatuko ditu:
 
 - Proiektuaren propietateak
 - Zereginen xehetasunen egitura
@@ -58,4 +58,6 @@ Proiektu talde bat jatorrizko proiektutik kopiatzen denean, baliabide generikoak
 
 ## <a name="estimates"></a>Aurreikuspenak
 
-Proiektua kopiatzerakoan, baliabideak eta gastuak kalkulatzeko lerroak jatorrizko proiektuetik kopiatzen dira.
+Proiektua kopiatzerakoan, baliabideak eta gastuak kalkulatzeko lerroak jatorrizko proiektuetik kopiatzen dira. 
+
+Kopiatu proiektua aukerara programaren bidez nola sartu jakiteko, ikusi [Garatu proiektuaren txantiloiak Kopiatu proiektua aukerarekin](dev-copy-project.md).

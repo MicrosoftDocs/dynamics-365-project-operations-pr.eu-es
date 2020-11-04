@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1ad85262482f782391eca85f46ca0e63a887c89f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 203b8a057d8ef3b699b20c4303061e622d2a3acd
+ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896086"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4071266"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Sortu proformako faktura bat eskuz
 
-_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
+_**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
 Fakturak egitea erabilgarria da proiektuen kudeatzaileei bigarren onespen maila ematen dielako bezeroei fakturak sortu aurretik. Lehen onarpen maila proiektuko kideek bidaltzen dituzten denbora- eta gastu-sarrerak onartzen direnean amaitzen da.
 
@@ -100,7 +99,7 @@ Proiektuen fakturaren zirriborroa sortzen duzunean, fakturazioan sartu behar dir
 - Editatu eta doitu kantitatea eta fakturazio mota.
 - Fakturan transakzio gisa denbora, gastua eta tasak zuzenean gehitu. Ezaugarri hau erabil dezakezu faktura-lerroa transakzio-klase horiek baimentzen dituen kontratu-lerrora esleituta badago.
 
-Aukeratu **Berretsi** faktura berresteko. Berretsi ekintza norabide bakarreko ekintza da. Hautatzen duzunean **Berretsi**, sistemak faktura irakurtzeko bakarrik egiten du eta fakturazioaren lineako xehetasunetatik fakturatutako salmenta errealak sortzen ditu. Fakturen linearen xehetasunak fakturatu gabeko salmenten benetako erreferentzia izanez gero, sistemak fakturatu gabeko salmenten benetako itzulketa ere itzuliko du. (Denbora- edo gastu-sarreratik sortu den edozein fakturaren lerroko xehetasunek fakturatu gabeko salmenten erreferentzia izango dute.) Liburu nagusiaren integrazio-sistemek berraztertze hau erabil dezakete martxan dagoen proiektuaren (WIP) alderantzizko kontabilitaterako.
+Aukeratu **Berretsi** faktura berresteko. Berretsi ekintza norabide bakarreko ekintza da. Hautatzen duzunean **Berretsi** , sistemak faktura irakurtzeko bakarrik egiten du eta fakturazioaren lineako xehetasunetatik fakturatutako salmenta errealak sortzen ditu. Fakturen linearen xehetasunak fakturatu gabeko salmenten benetako erreferentzia izanez gero, sistemak fakturatu gabeko salmenten benetako itzulketa ere itzuliko du. (Denbora- edo gastu-sarreratik sortu den edozein fakturaren lerroko xehetasunek fakturatu gabeko salmenten erreferentzia izango dute.) Liburu nagusiaren integrazio-sistemek berraztertze hau erabil dezakete martxan dagoen proiektuaren (WIP) alderantzizko kontabilitaterako.
 
 ### <a name="correct-a-confirmed-invoice"></a>Zuzendu berretsitako faktura
 

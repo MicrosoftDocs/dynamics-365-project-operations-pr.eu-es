@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896716"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070921"
 ---
 # <a name="security-model"></a>Segurtasunaren modeloa
 
@@ -36,10 +36,11 @@ Project Operations front-end gaitasunek honako rol hauek dituzte:
 
 
 Weberako Microsoft Project-ek eginkizun hauek ditu:
-| Funtzioa                          | Deskribapena                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Proiektuaren erabiltzailea | Proiektuaren erabiltzaile kolaboratzailea, nork bere proiektuak sortzeko eta haiekin partekatutako proiektuak ikusteko gai dena.| Erabiltzailea|
-| Proiektu sistema | Aplikazioaren testuinguruan erabilitako rola. Bezeroek ez lukete sistema rol hau erabili behar. | Orokorra|
+
+| Funtzioa           | Deskribapena                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Proiektuaren erabiltzailea   | Proiektuaren erabiltzaile kolaboratzailea, nork bere proiektuak sortzeko eta haiekin partekatutako proiektuak ikusteko gai dena. | Erabiltzailea   |
+| Proiektu sistema | Aplikazioaren testuinguruan erabilitako rola. Bezeroek ez lukete sistema rol hau erabili behar.                                    | Orokorra |
 
 ## <a name="security-enforcement"></a>Segurtasuna betearaztea
 Proiektu mailan burutzen diren ekintzak saioa hasita duen erabiltzailearen testuinguruan egiten dira. Horrek esan nahi du proiektu bat sortu, ireki edo ezabatzeko, erabiltzaileari CDS sarbidea eskura behar zaiola. CDSrako sarbidea plataforman dauden mekanismo posibleen bidez eman daiteke. Adibidez, esparru zabalagoa duen erabiltzailea sar daiteke proiektuan edo erabiltzaileari sarbidea ematen dion proiektu partekatu esplizitua burutu bada.
@@ -56,6 +57,8 @@ Taldeek proiektuaren eta lankidetzako artefaktuen laguntza baimenak lankidetzan 
 Proiektuaren Eragiketek ez dute talderik sortzen ekintza inplizituaren bidez eta talde sakatuen ekintza esplizituaren bidez bakarrik egiten dute.
 
 Taldeko kideen bilaketa **Taldearen kudeaketa** elkarrizketa-koadroa, inguruneko segurtasun-taldearen zati gisa ezartzen direnetara mugatuta dago. Informazio gehiago lortzeko, ikusi [Kontrolatu erabiltzaileen sarbidea inguruneetara: segurtasun-taldeak eta lizentziak](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Talde modua](./media/groupsmode.png)
 
 1. Proiektua sortu duen erabiltzailearen jabetzakoa da.
 2. Proiektuaren jabea taldeari eguneratu zaio.

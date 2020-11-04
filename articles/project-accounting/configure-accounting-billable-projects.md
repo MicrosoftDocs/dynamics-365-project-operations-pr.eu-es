@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896105"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070950"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfiguratu proiektu fakturagarrien kontabilitatea
 
@@ -21,8 +21,8 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 Dynamics 365 Project Operations-ek kontabilitate aukera ugari onartzen ditu fakturagarriak diren proiektuetarako, denbora eta materiala eta prezio finkoko transakzioak barne.
 
-- **Denbora eta material transakzioak**: Transakzio hauek fakturatzen dira lanak aurrera egin ahala proiektuaren orduen, gastuen, elementuen edo kuoten kontsumoaren arabera. Transakzio kostu horiek transakzio bakoitzeko diru sarrerekin pareka daitezke eta proiektua fakturatzen da lanak aurrera egin ahala. Proiektuaren diru-sarrerak transakzioa gertatzen den unean ere lor daitezke. Fakturazioan zehar, diru-sarrerak aitortzen dira eta, hala badagokio, metatutako diru-sarrerak alderantzikatzen dira.
-- **Prezio finkoko transakzioak**: Transakzio horiek fakturazio-egutegi baten arabera fakturatzen dira, proiektuaren kontratuan oinarrituta. Prezio finko transakzio diru-sarrerak izango dira fakturazio erregistratzen daiteke edo kalkulatu eta aldian behin argitaratua, **Bukatutako kontratua** edo **Osatutako ehunekoa** metodoen arabera.
+- **Denbora eta material transakzioak** : Transakzio hauek fakturatzen dira lanak aurrera egin ahala proiektuaren orduen, gastuen, elementuen edo kuoten kontsumoaren arabera. Transakzio kostu horiek transakzio bakoitzeko diru sarrerekin pareka daitezke eta proiektua fakturatzen da lanak aurrera egin ahala. Proiektuaren diru-sarrerak transakzioa gertatzen den unean ere lor daitezke. Fakturazioan zehar, diru-sarrerak aitortzen dira eta, hala badagokio, metatutako diru-sarrerak alderantzikatzen dira.
+- **Prezio finkoko transakzioak** : Transakzio horiek fakturazio-egutegi baten arabera fakturatzen dira, proiektuaren kontratuan oinarrituta. Prezio finko transakzio diru-sarrerak izango dira fakturazio erregistratzen daiteke edo kalkulatu eta aldian behin argitaratua, **Bukatutako kontratua** edo **Osatutako ehunekoa** metodoen arabera.
 
 Proiektu bat fakturagarritzat jotzen da kontratu lerro batekin edo gehiagorekin lotzen denean. Proiektuaren kontratu lerro batek berak zehazten du fakturazio metodoa eta transakzio mota onartzen diren.
 
@@ -47,22 +47,22 @@ Bete urrats hauek proiektuaren kostuen eta diru-sarreren profil berria sortzeko.
 5. Zabaldu **Liburu nagusia** FastTab-a. Fitxa honetako eremuek proiektuaren transakzioak Proiektuaren eragiketen integrazio aldizkaria erabiliz gero proiektuaren faktura proposamenaren bidez fakturatzen direnean erabiltzen diren kontabilitate printzipioak definitzen dituzte.
 6. Hautatu dagokion informazioa **Liburu nagusia** FastTab-eko eremu hauetan:
 
-    - **Bidalketa-kostuak - ordua**:
+    - **Bidalketa-kostuak - ordua** :
 
-       - *Liburu nagusirik ez*: Denbora-transakzioen kostua ez da liburu nagusian argitaratuko Project Operations integrazio-aldizkaria argitaratzen denean. Hala ere, kontulariak geroago bidali ahal izango ditu kostuak Argitaratu kostuak funtzioa erabiliz.
-       - **Balantzea**: Denborazko transakzioen kostua liburu nagusiko kontu motan kargatuko da, *WIP - Kostuaren balioa* eta *Nominak esleitzeko kontua* Liburu nagusiaren argitaratzeko konfigurazioan. Kontulariak Argitaratu kostuak funtzioa erabiliko du kostu hori Saldo kontutik irabazien eta galeren kontura aldiro aldatzeko.
-       - **Irabaziak eta galerak**: Project Operations integrazio aldizkaria argitaratzean, denbora transakzioaren kostua Liburu nagusiaren kontu motan kargatuko da *Kostua*, eta kreditatuta *Nominak esleitzeko kontua* fitxategian definitzen da **Kostua** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdea (**Proiektuen kudeaketa eta kontabilitatea** \> **Konfigurazioa** \> **Bidalketa** \> **Liburu nagusia argitaratzeko konfigurazioa**). Hau denbora eta material transakzioetarako konfigurazio ohikoena da.
-        - *Inoiz ez liburu nagusia*: Denborazko transakzioen kostua ez da inoiz liburu nagusian argitaratuko.
+       - *Liburu nagusirik ez* : Denbora-transakzioen kostua ez da liburu nagusian argitaratuko Project Operations integrazio-aldizkaria argitaratzen denean. Hala ere, kontulariak geroago bidali ahal izango ditu kostuak Argitaratu kostuak funtzioa erabiliz.
+       - **Balantzea** : Denborazko transakzioen kostua liburu nagusiko kontu motan kargatuko da, *WIP - Kostuaren balioa* eta *Nominak esleitzeko kontua* Liburu nagusiaren argitaratzeko konfigurazioan. Kontulariak Argitaratu kostuak funtzioa erabiliko du kostu hori Saldo kontutik irabazien eta galeren kontura aldiro aldatzeko.
+       - **Irabaziak eta galerak** : Project Operations integrazio aldizkaria argitaratzean, denbora transakzioaren kostua Liburu nagusiaren kontu motan kargatuko da *Kostua* , eta kreditatuta *Nominak esleitzeko kontua* fitxategian definitzen da **Kostua** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdea ( **Proiektuen kudeaketa eta kontabilitatea** \> **Konfigurazioa** \> **Bidalketa** \> **Liburu nagusia argitaratzeko konfigurazioa** ). Hau denbora eta material transakzioetarako konfigurazio ohikoena da.
+        - *Inoiz ez liburu nagusia* : Denborazko transakzioen kostua ez da inoiz liburu nagusian argitaratuko.
 
-    - **Argitaratu kostuak - gastuak**:
+    - **Argitaratu kostuak - gastuak** :
 
-         - **Saldoa**: Project Operations integrazio aldizkaria argitaratzean, gastuen transakzio kostua Liburu nagusia kontu motan kargatuko da *WIP - Kostuaren balioa* fitxategian definitzen den moduan **Kostua** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdean eta aldizkariaren lerroan konpentsatutako kontuan kreditatuta. Gastuaren lehenetsitako konpentsazio kontuak atalean definitzen dira **Proiektuen kudeaketa eta kontabilitatea** > **Konfigurazioa** \> **Bidalketa** \> **Gastuetarako lehenetsitako kontua**. Kontulariak **Argitaratu kostuak** funtzioa erabiliko du kostu hori saldo-kontutik irabazien eta galeren kontura aldiro aldatzeko.
-        - **Irabaziak eta galera**: Project Operations integrazio aldizkaria argitaratzean, gastuen transakzio kostua Liburu nagusia kontu motan kargatuko da *WIP - Kostuaren balioa* fitxategian definitzen den moduan **Kostua** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdean eta aldizkariaren lerroan konpentsatutako kontuan kreditatuta. Gastuaren lehenetsitako konpentsazio kontuak atalean definitzen dira **Proiektuen kudeaketa eta kontabilitatea** \> **Konfigurazioa** \> **Bidalketa** \> **Gastuetarako lehenetsitako kontua**.
+         - **Saldoa** : Project Operations integrazio aldizkaria argitaratzean, gastuen transakzio kostua Liburu nagusia kontu motan kargatuko da *WIP - Kostuaren balioa* fitxategian definitzen den moduan **Kostua** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdean eta aldizkariaren lerroan konpentsatutako kontuan kreditatuta. Gastuaren lehenetsitako konpentsazio kontuak atalean definitzen dira **Proiektuen kudeaketa eta kontabilitatea** > **Konfigurazioa** \> **Bidalketa** \> **Gastuetarako lehenetsitako kontua**. Kontulariak **Argitaratu kostuak** funtzioa erabiliko du kostu hori saldo-kontutik irabazien eta galeren kontura aldiro aldatzeko.
+        - **Irabaziak eta galera** : Project Operations integrazio aldizkaria argitaratzean, gastuen transakzio kostua Liburu nagusia kontu motan kargatuko da *WIP - Kostuaren balioa* fitxategian definitzen den moduan **Kostua** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdean eta aldizkariaren lerroan konpentsatutako kontuan kreditatuta. Gastuaren lehenetsitako konpentsazio kontuak atalean definitzen dira **Proiektuen kudeaketa eta kontabilitatea** \> **Konfigurazioa** \> **Bidalketa** \> **Gastuetarako lehenetsitako kontua**.
        
-    - **Kontuko fakturazioa**:
+    - **Kontuko fakturazioa** :
 
-        - **Balantzea**: Proiektuaren faktura proposamena argitaratzerakoan, kontuko transakzio bat (fakturazio mugarria) kobratuko da Liburu nagusiaren kontu motan *WIP fakturatua - kontura* fitxategian definitzen den moduan **Diru-sarrerak** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdean, eta Bezeroaren oreka kontuan zordunduta.
-         - **Irabaziak eta galera**: Proiektuaren faktura proposamena argitaratzerakoan, kontuko transakzio bat (fakturazio mugarria) kobratuko da Liburu nagusiaren kontu motan *Fakturatutako diru-sarrera - kontura* fitxategian definitzen den moduan **Diru-sarrerak** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdean, eta Bezeroaren oreka kontuan zordunduta. Bezeroen balantze-kontuak **Kobratzeko kontuak** \> **Konfigurazioa** \> **Bezeroak bidaltzeko profilak**.
+        - **Balantzea** : Proiektuaren faktura proposamena argitaratzerakoan, kontuko transakzio bat (fakturazio mugarria) kobratuko da Liburu nagusiaren kontu motan *WIP fakturatua - kontura* fitxategian definitzen den moduan **Diru-sarrerak** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdean, eta Bezeroaren oreka kontuan zordunduta.
+         - **Irabaziak eta galera** : Proiektuaren faktura proposamena argitaratzerakoan, kontuko transakzio bat (fakturazio mugarria) kobratuko da Liburu nagusiaren kontu motan *Fakturatutako diru-sarrera - kontura* fitxategian definitzen den moduan **Diru-sarrerak** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdean, eta Bezeroaren oreka kontuan zordunduta. Bezeroen balantze-kontuak **Kobratzeko kontuak** \> **Konfigurazioa** \> **Bezeroak bidaltzeko profilak**.
 
    Denboraren eta materialaren fakturazio metodoen bidalketa-profilak zehazten dituzunean, transakzio mota bakoitzeko (ordua, gastua eta kuota) dirua irabazteko aukera duzu. **Eskuratu diru-sarrerak** aukera **Bai** bada, Project Operations Integration aldizkarian fakturatu gabeko salmenten transakzioak liburu nagusian erregistratuko dira. Salmenten balioa kobratuko da **WIP - salmenten balioaren kontua** eta **Sortutako diru-sarrerak - salmenten balioa** webgunean sortu zen kontua **Liburu nagusia argitaratzeko konfigurazioa** orrialdean, **Diru-sarrerak** fitxa. 
   
@@ -72,20 +72,20 @@ Bete urrats hauek proiektuaren kostuen eta diru-sarreren profil berria sortzeko.
 7. Zabaldu **Aurreikuspena** FastTab-a. Fitxa honetako eremuek prezio finkoko diru-sarreren kalkuluen ezarpenak zehazten dituzte. Fitxa honetako eremuak Proiektuaren kostuen eta diru-sarreren profilei soilik aplikatzen zaizkie fakturazio-metodoarekin **Prezio finkoa**.
 8. Hautatu dagokion informazioa **Aurreikuspena** FastTab-eko eremu hauetan:
 
-    - **Proiektua amaitzeko kalkuluetarako erabilitako printzipioa**:
+    - **Proiektua amaitzeko kalkuluetarako erabilitako printzipioa** :
 
-        - **Bukatutako kontratua**: Kostuen parekapena eta diru-sarreren aitorpena ez da proiektua amaitu arte gertatzen. Kostuak WIP gisa islatzen dira balantzea proiektua amaitu arte.
-        - **Osatutako ehunekoa**: Sortutako diru-sarrerak kalkulatu eta liburutegian kontabilizatzen dira aldi bakoitzean, proiektuaren amaierako ehunekoaren arabera. Ehunekoen osaketa kalkulatzeko metodo ugari daude eskuragarri. Metodo hauek automatikoak izan daitezke konfigurazioan oinarrituta edo eskuzkoak.
-        - **WIP ez**: Konfigurazio hau denbora tarte laburreko eta faktura eta kostuak aldi berean gertatzen diren prezio finkoetarako erabiltzen da. Kasu honetan, **Kontuko fakturazioa** eremuko balioa **Liburu nagusia** FastTab automatikoki ezartzen da **Irabaziak eta galerak** fakturazioan diru sarrerak aitortzen direla ziurtatzeko. Diru-sarrerak kalkulatzeko prozesua ez da proiektuaren kostu eta diru-sarreren profilerako erabiliko.
+        - **Bukatutako kontratua** : Kostuen parekapena eta diru-sarreren aitorpena ez da proiektua amaitu arte gertatzen. Kostuak WIP gisa islatzen dira balantzea proiektua amaitu arte.
+        - **Osatutako ehunekoa** : Sortutako diru-sarrerak kalkulatu eta liburutegian kontabilizatzen dira aldi bakoitzean, proiektuaren amaierako ehunekoaren arabera. Ehunekoen osaketa kalkulatzeko metodo ugari daude eskuragarri. Metodo hauek automatikoak izan daitezke konfigurazioan oinarrituta edo eskuzkoak.
+        - **WIP ez** : Konfigurazio hau denbora tarte laburreko eta faktura eta kostuak aldi berean gertatzen diren prezio finkoetarako erabiltzen da. Kasu honetan, **Kontuko fakturazioa** eremuko balioa **Liburu nagusia** FastTab automatikoki ezartzen da **Irabaziak eta galerak** fakturazioan diru sarrerak aitortzen direla ziurtatzeko. Diru-sarrerak kalkulatzeko prozesua ez da proiektuaren kostu eta diru-sarreren profilerako erabiliko.
 
-    - **Bat etortzeko printzipioa**: Eremu honek zehazten du kalkulatutako salmenten balioa (metatutako diru-sarrerak) liburu nagusian nola argitaratuko den.
+    - **Bat etortzeko printzipioa** : Eremu honek zehazten du kalkulatutako salmenten balioa (metatutako diru-sarrerak) liburu nagusian nola argitaratuko den.
 
         - **Salmenten balioa** printzipioa erabiliz, sistemak salmenten balioa kalkulatuko du kostuak eta diru-sarrerak parekatuz eta gero zenbateko bakar gisa argitaratuz.
         - **Ekoizpena eta etekina** printzipioa erabiliz, sistemak salmenten balioa kostu errealetan eta mozkin kalkulatuetan banatuko du. Hauek bereiz argitaratzen dira.
 
-    - **Kostuen txantiloiak**: Baimendu proiektuen transakzioak transakzio motaren eta proiektuaren kategorien arabera multzokatzea eta talde horien ehunekoaren osaketa kalkulatzeko arauak definitzea.
-    - **Aldi-kodeak**: Definitu sarreren kalkuluen maiztasuna proiektuaren kostu eta diru-sarrera profil jakin baterako kalkulatzeko.
-    - **Aurrekonturako kategoriak**: Proiektuaren transakzioetan salmenten balioa (metatutako diru-sarrerak) argitaratzeko erabiltzen da. Lehenik eta behin, konfiguratu proiektu baten kategoria dedikatua **Kuota** transakzio mota eta ondoren ezarri bandera, **Aurreikuspena** proiektu kategoria honetarako. Ondoren, hautatutako bat datorren printzipioaren arabera, aukeratu proiektuaren kategoria hau **Salmentak** balioa edo **Irabaziak** eremua Proiektuaren kostuen eta diru-sarreren profilean.
+    - **Kostuen txantiloiak** : Baimendu proiektuen transakzioak transakzio motaren eta proiektuaren kategorien arabera multzokatzea eta talde horien ehunekoaren osaketa kalkulatzeko arauak definitzea.
+    - **Aldi-kodeak** : Definitu sarreren kalkuluen maiztasuna proiektuaren kostu eta diru-sarrera profil jakin baterako kalkulatzeko.
+    - **Aurrekonturako kategoriak** : Proiektuaren transakzioetan salmenten balioa (metatutako diru-sarrerak) argitaratzeko erabiltzen da. Lehenik eta behin, konfiguratu proiektu baten kategoria dedikatua **Kuota** transakzio mota eta ondoren ezarri bandera, **Aurreikuspena** proiektu kategoria honetarako. Ondoren, hautatutako bat datorren printzipioaren arabera, aukeratu proiektuaren kategoria hau **Salmentak** balioa edo **Irabaziak** eremua Proiektuaren kostuen eta diru-sarreren profilean.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Proiektuaren kostuen eta diru-sarreren profilen konfigurazio laginak
 

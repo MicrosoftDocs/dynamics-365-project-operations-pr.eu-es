@@ -1,5 +1,5 @@
 ---
-title: fakturazio-antolaketak proiektuetan oinarritutako eskaintza-lerroetan
+title: Fakturazio-antolaketak proiektuetan oinarritutako eskaintza-lerroetan
 description: Gai honek fakturen ordutegiak eta aurrekontu lerroen mugarriak sortzeari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907841"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070969"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Fakturazio-antolaketak proiektuetan oinarritutako eskaintza-lerroetan
 
@@ -32,7 +32,7 @@ Proiektuetan oinarritutako aurrekontu lerro baten fakturazio metodoa Denbora eta
 3. Ireki dataren araberako fakturen ordutegia sortzeko behar duzun denbora eta materialaren aurrekontua. 
 4. **Faktura-antolaketa** fitxan, hautatu balioak **Fakturazioaren hasiera** eta **Fakturen maiztasuna** eremuak. 
 5. Azpisaretan, hautatu **Sortu faktura-antolaketa**.
-6. Aplikazioak fakturaren egutegia sortzen du **Faktura exekutatzeko data**, **Transakzioen ebazpen-data** eta **Exekutatu egoera** eremuak honela ezarrita:
+6. Aplikazioak fakturaren egutegia sortzen du **Faktura exekutatzeko data** , **Transakzioen ebazpen-data** eta **Exekutatu egoera** eremuak honela ezarrita:
 
     - **Faktura exekutatzeko data** fakturazio maiztasunaren arabera diktatutako datan ezartzen da.
     - **Transakzioaren amaiera eguna** egunaren aurreko egunean ezartzen da **Faktura exekutatzeko data**.

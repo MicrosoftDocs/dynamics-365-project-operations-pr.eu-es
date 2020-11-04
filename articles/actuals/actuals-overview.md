@@ -1,5 +1,5 @@
 ---
-title: Benetakoak etxeko orria
+title: Benetako datuak
 description: Gai honek Microsoft Dynamics 365 Project Operations-en benetako datuekin lan egiteari buruzko informazioa eskaintzen du.
 author: rumant
 manager: AnnBe
@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 75ad336a995aba3505325466433a5c5e2bb3e776
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907303"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071026"
 ---
-# <a name="actuals"></a>Benetako datuak
+# <a name="actuals"></a>Benetako datuak 
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
@@ -46,7 +45,7 @@ Prezio finkoa kontratu-lerro batera lotutako proiektu baterako denbora-sarrera b
 
 Prezio lehenetsiak sortzeko logika kutxako liburuaren lerroan dago. Aldi bateko sarrera-eremuko balioak kutxako liburuaren lerroan kopiatzen dira. Balio hauetan daude transakzioaren data, proiektua esleitu duen kontratuaren lerroa eta dibisaren emaitza prezioen zerrenda egokian.
 
-Prezio lehenetsiei eragiten dieten eremuak, adibidez **Funtzioa** eta **Organo-unitatea**, kutxako liburuaren lerroko prezio egokia zehazteko erabiltzen dira. Eremu pertsonalizatua gehi dezakezu denbora-sarreran. Eremuaren balioa aktualitatera hedatu nahi baduzu, sortu eremua Aktualitateko entitatean eta erabili eremuko mapak eremua kopiatzeko garaian benetako sarrerara.
+Prezio lehenetsiei eragiten dieten eremuak, adibidez **Funtzioa** eta **Organo-unitatea** , kutxako liburuaren lerroko prezio egokia zehazteko erabiltzen dira. Eremu pertsonalizatua gehi dezakezu denbora-sarreran. Eremuaren balioa aktualitatera hedatu nahi baduzu, sortu eremua Aktualitateko entitatean eta erabili eremuko mapak eremua kopiatzeko garaian benetako sarrerara.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Aldizkari lerroak eta oinarrizko gastuen aurkezpena
 

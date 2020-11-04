@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961151"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070896"
 ---
 # <a name="approvals-overview"></a>Onespenen ikuspegi orokorra
 
@@ -27,7 +27,7 @@ Denbora edo gastuen sarrera sortu eta bidaltzen duzunean, onespen sarrera sortze
 ## <a name="approve-an-entry"></a>Onartu sarrera bat
 **Onespenak** inprimakiak ikuspegi desberdinen artean aldatzeko aukera ematen du onarpen mota desberdinak ikusi ahal izateko.
   
-1. Joan **Onespenak** inprimakira eta hautatu **Gastuak**, **Denbora** edo **Berreskuratzeak**.
+1. Joan **Onespenak** inprimakira eta hautatu **Gastuak** , **Denbora** edo **Berreskuratzeak**.
 2. Berrikusi onespen bakoitza eta hautatu onartu nahi dituzunak.
 3. Hautatu **Onartu** hautatutako sarrerak onartzeko.
 Sistemak sarrera horiek prozesatu eta egiazkoak edo erreserba sortuko ditu.

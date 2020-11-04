@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070907"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>Gehitu Azure harpidetza LCS proiektuan
 
@@ -50,7 +50,7 @@ Baimena amaitu da.
 ![Azure harpidetzaren xehetasunak](./media/6AzureSubscription.png)
 
 2. Aukeratu **Sarbide kontrola (IAM)** nabigazio panelean, eta hautatu **Gehitu rol esleipena**.
-3. Eskuineko aldean, hautatu **Laguntzaile-funtzioa**, eta emandako zerrendan, bilatu eta hautatu **Dynamics-en inplementazio-zerbitzuak**. 
+3. Eskuineko aldean, hautatu **Laguntzaile-funtzioa** , eta emandako zerrendan, bilatu eta hautatu **Dynamics-en inplementazio-zerbitzuak**. 
 4. Sakatu **Gorde**.
 
 ![Harpidetzaren sarbidea](./media/7SubscriptionAccess.png)

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961810"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070974"
 ---
 # <a name="manage-time-zones"></a>Kudeatu ordu-zonak
 
@@ -30,7 +30,7 @@ Zeregin bat sortzen denean, hasiera ordua, amaiera ordua eta eguneko orduak proi
 
 ## <a name="manage-resources-with-time-zones"></a>Kudeatu baliabideak ordu-zonekin
 
-Erabiltzean emaitza zehatzak eta aurresatekoak lortzeko **Luzatu erreserba**, funtsezko bi baldintza bete behar dira:  
+Erabiltzean emaitza zehatzak eta aurresatekoak lortzeko **Luzatu erreserba** , funtsezko bi baldintza bete behar dira:  
 
 - Erabiltzaileak bere gailuaren ordu-eremua sisteman zehaztutako ordu-zonarekin bat etor dadin konfiguratu behar du **Pertsonalizazio-ezarpenak**.
  

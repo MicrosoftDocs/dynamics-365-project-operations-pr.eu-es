@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906056"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070905"
 ---
 # <a name="travel-requisitions"></a>Bidaiatzeko eskakizunak
 
@@ -31,7 +31,7 @@ Bidaia-eskakizunak "derrigorrezko" gisa konfigura daitezke Gastuak kudeatzeko pa
 
 ## <a name="create-and-submit-a-travel-requisition"></a>Sortu eta bidali bidaia eskaera
 
-1. Joan **Nire gastuak: Bidaia eskatzea**, eta hautatu **Bidaia eskakizun berria**.
+1. Joan **Nire gastuak: Bidaia eskatzea** , eta hautatu **Bidaia eskakizun berria**.
 2. Sartu eskaeraren xedea eta helmuga.
 3. **Bidaiaren deskribapena** eremuan, sartu informazio osagarria. 
 4. Aurreikusitako gastu bakoitzerako, hala nola Hegaldia, otorduak edo autoen alokairua, sortu gastuko lineako elementu bat. Sartu gastu bakoitzerako zenbatetsitako data, zenbatetsitako zenbatekoa eta moneta. 

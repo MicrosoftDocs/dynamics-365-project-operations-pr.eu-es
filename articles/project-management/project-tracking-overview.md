@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070887"
 ---
 # <a name="project-tracking-overview"></a>Proiektuen jarraipenaren informazio orokorra
 
@@ -25,10 +25,10 @@ Antolaketa eta garapena jarraitzeko beharra aldatu egiten da industriaren araber
 
 **Esfortzuaren jarraipena** ikuspegia egutegiaren zereginen bilakaeraren jarraipena egiten du zeregin batean emandako benetako esfortzu-orduak atazaren aurreikusitako esfortzu-orduekin alderatuz. Dynamics 365 Project Operations-ek honako formula hauek erabiltzen ditu jarraipen-neurriak kalkulatzeko:
 
-- **Garapenaren ehunekoa**: Orain arte egindako ahalegina ÷ Aurreikusitako kostua osatzen denerako (EAC) 
-- **Burutzeko estimazioa (ETC)**: Aurreikusitako ahalegina - Orain arte egindako ahalegina 
-- **EAC**: Geratzen den ahalegina + Orain arte egindako ahalegina 
-- **Proiektatutako ahaleginaren bariantza**: Aurreikusitako ahalegina - EAC
+- **Garapenaren ehunekoa** : Orain arte egindako ahalegina ÷ Aurreikusitako kostua osatzen denerako (EAC) 
+- **Burutzeko estimazioa (ETC)** : Aurreikusitako ahalegina - Orain arte egindako ahalegina 
+- **EAC** : Geratzen den ahalegina + Orain arte egindako ahalegina 
+- **Proiektatutako ahaleginaren bariantza** : Aurreikusitako ahalegina - EAC
 
 Project Operations-ek zereginen bariantzaren bistaratzea erakusten du. EAC aurreikusitako ahalegina baino handiagoa bada, zereginak hasieran aurreikusitakoa baino denbora gehiago beharko duela aurreikusten da eta antolaketaren atzean dago. EAC aurreikusitako ahalegina baino gutxiago bada, zereginak hasieran aurreikusitakoa baino denbora gutxiago beharko duela aurreikusten da eta antolaketaren aurrean dago.
 
@@ -60,10 +60,10 @@ Laburpen-zereginetan edo edukitzaile-zereginetan ahalegina berriro proiektatu da
 > [!NOTE]
 > Ikuspegi honek lan-kostuak bakarrik erakusten ditu eta ez ditu gastuen kalkuluko gastuak barne hartzen. Project Operations-ek honako formula hauek erabiltzen ditu jarraipen-neurriak kalkulatzeko:
 
-- **Kontsumitutako kostuaren ehunekoa**: Orain arte gastatutako kostua ÷ Aurreikusitako kostua osatzen denerako
-- **Burutzeko kostua (CTC)**: Aurreikusitako kostua - Orain arte egindako kostua
-- **EAC**: Geratzen den kostua + Unera arte gastatutako benetako kostua
-- **Proiektatutako kostuaren bariantza**: Aurreikusitako kostua - EAC
+- **Kontsumitutako kostuaren ehunekoa** : Orain arte gastatutako kostua ÷ Aurreikusitako kostua osatzen denerako
+- **Burutzeko kostua (CTC)** : Aurreikusitako kostua - Orain arte egindako kostua
+- **EAC** : Geratzen den kostua + Unera arte gastatutako benetako kostua
+- **Proiektatutako kostuaren bariantza** : Aurreikusitako kostua - EAC
 
 Kostuaren bariantzaren proiekzioa erakusten da zereginean. EAC aurreikusitako kostua baino handiagoa bada, zereginak hasieran aurreikusitakoa baino kostu handiagoa beharko duela aurreikusten da. Beraz, aurrekontu gainditzeko joera erakusten du. EAC aurreikusitako kostua baino txikiagoa bada, zereginak hasieran aurreikusitakoa baino kostu txikiagoa beharko duela aurreikusten da. Beraz, aurrekontuaren azpitik gelditzeko joera erakusten du.
 

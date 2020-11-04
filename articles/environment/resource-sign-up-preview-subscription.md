@@ -3,17 +3,17 @@ title: Eman izena Project Operations-en aurrebista harpidetzak baliabideetan / h
 description: Gai honek Project Operations-era harpidetzeko eta hedatzeko moduari buruzko informazioa eskaintzen du berreskuratutako / stockean oinarritutako eszenatokietarako.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d35a8bf9e8a841b45808b26ae2587c5b7d99d72
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948732"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070922"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Eman izena Project Operations-en aurrebista harpidetzak baliabideetan / hornitu gabeko agertokietan
 
@@ -29,48 +29,53 @@ Gai honetan aurrebista/bazkide eskaintzara nola harpidetu eta Project Operations
 
 ## <a name="subscribe"></a>Harpidetu
 
-Zure [aurrebista eskaera](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) onartuta dago, Microsoft-en bi eskaintza jasoko dituzu posta elektronikoz. Eskaintza hauei esker, Project Operations-en aurrebista hedatu dezakezu:
+Zure [aurrebista eskaera](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) onartuta dago, Microsoft-en hiru eskaintza jasoko dituzu posta elektronikoz. Eskaintza hauei esker, Project Operations-en aurrebista hedatu dezakezu:
 
-- Dynamics 365 Project Operations - Aurrebista proba
-- Dynamics 365 for Finance and Operations Aurrebista proba.
+- Dynamics 365 Project Operations (CRM) - Aurrebista proba
+- Office 365 Project Operations - Aurrebista proba
+- Dynamics 365 Finance - Aurrebista proba
 
 > [!IMPORTANT]
 > Erakunde bateko pertsona bakarrak, maizter administratzaileak, egin behar du zeregin hori. Bertsio honen harpideduna ez bazara, itxaron zure erakundea erregistratu arte eta zure erabiltzaile kredentzialak jaso arte.
 
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations - aurrebista proba
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Aurrebista proba 
 
-1. Erabili lehen eskaintza, **Dynamics 365 Project Operations Proba**, URLarekin ongi etorritako mezu elektronikoan.
+Hasi aurretik, ziurtatu proiektuaren eragiketen aurrebista nahi duzun maizterrean erabiltzailearen laneko kontua duen arakatzailean saioa hasi duzula.
 
-![Lehen Eskaintza](./media/1FirstOffer.png)
+1. Erabili lehen eskaintza kodea, **Dynamics 365 Project Operations (CRM) - Aurrebista proba** arakatzailearen URLan itsatsita.
 
-2. Egiaztatu zerbitzuan harpidetuko den erakundeko erabiltzaile gisa hasi duzula saioa.
-3. Jarrai ezazu eskaintza trukatzen. 
-4. Aukeratu **Bai, gehitu nire kontura**.
+![Erabili Eskaintza](./media/16RedeemFirstOfferNew.png)
 
-![Erabili Eskaintza](./media/2RedeemFirstOffer.png)
+2. Berretsi eskaera.
 
-![Berretsi eskaintza](./media/3ConfirmFirstOffer.png)
+![Berretsi eskaera](./media/17ConfirmOrderNew.png)
 
-![Erabili da eskaintza](./media/4OfferSuccessfulyRedeemed.png)
+Baieztapen eskaintza behar bezala berreskuratu dela ikusiko duzu.
+
+![Berrespena](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - Aurrebista proba
+
+Errepikatu eskaintzaren lehen kodearen urrats berdinak. Ziurtatu bigarren eskaintza kodea gehitzen duzula lehen eskaintza kodearekin erabilitako erabiltzaile kontu bera erabiliz.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance aurrebista proba
 
-Errepikatu urrats berdinak Ongietorri posta elektronikoko bigarren eskaintzarekin.
+Errepikatu urrats berdinak Ongietorri posta elektronikoko azken eskaintzarekin.
 
 ## <a name="assign-licenses"></a>Esleitu lizentziak
 
 > [!IMPORTANT]
-> Zure erakundeko Office 365 atarirako sarbide administratiboa beharko duzu urrats hauek burutzeko.
+> Zure erakundeko Microsoft 365 Portal-erako sarbide administratiboa beharko duzu urrats hauek burutzeko.
 
 1. Joan [Microsoft 365 administrazio zentroa](https://portal.office.com/) aukerara, zure erabiltzaileei lizentziak emateko.
 
-![Office administrazio-ataria](./media/5OfficeAdminPortal.png)
+![Administrazio zentroaren hasierako orria](./media/14AdminPortal.png)
 
 2. **Erabiltzaile aktiboak** orrian, hautatu lizentzia esleitu nahi diezun erabiltzaileak.
 
-![Esleitu lizentziak](./media/6AssignLicenses.png)
+![Esleitu lizentziak](./media/15AssignLicenses.png)
 
-3. Egiaztatu Project Operations lizentzia hautatu dela eta hautatu **Gorde aldaketak**. 
+3. Egiaztatu **Dynamics 365 Project Operations (CRM)** aurrebista eta **Office 365 Project Operations - Aurrebista** lizentzia hautatu da eta hautatu **Gorde aldaketak**.
 
 > [!NOTE]
 > Finantza probako eskaintza ez zaio erabiltzaile bati esleitu behar.
@@ -85,9 +90,9 @@ Zeregin hori burutzeko, jarraitu gaiaren urratsak, [Gehitu Azure harpidetza LCS 
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Inplementatu Finantza demo ingurunea, Project Operations-ekin baliabideak/hornitu gabeko agertokietarako
 
-Jarraitu gaiaren argibideak, [Ingurune berria hornitzea](resource-provision-new-environment.md) hedapena osatzeko. Erabili [demo-ingurunea](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) inplementazio mota aurrebistarako.
+Jarraitu gaiaren argibideak, [Ingurune berria hornitzea](resource-provision-new-environment.md) hedapena osatzeko. Erabili [demo-ingurunea](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) inplementazio mota aurrebistarako. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalatu CDS konfigurazioa eta konfigurazio-datuak
 
 Instalatu CDS konfigurazio eta konfigurazio datuak gaian deskribatutako moduan, [Konfiguratu eta aplikatu konfigurazio datuak Common Data Service](resource-apply-pro-setup-config-data.md).
-
+Osatu urrats hau Finantza demo ingurunea zabaldu eta FOko demo datuak prest egon ondoren.

@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a27bfe881fdb6431941fa860d279e3e7b526f623
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898291"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071076"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Gehitu beharrezko eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan
 
@@ -50,24 +49,24 @@ Prezioen dimentsio pertsonalizatu bat aukera-multzoan oinarritutakoan, gehitu er
 > [!IMPORTANT]
 > Eremua entitate batean baino gehiagotan gehitzen duzunean, erabili eremu-izen bera entitate guztietan. 
 
-Proiektu baten salmenta eta zenbatespen faseetan, **lokalean** eta **gunean** burutu behar den lan ahaleginaren kalkuluak, **Ohiko orduak** eta **Ordutegi gehigarria** ataletan, eskaintza/proiektuaren balioa kalkulatzeko erabiltzen dira. **Baliabideen lanaren kokalekua** eta **Baliabideen lana** eremuak **eskaintza lerroaren xehetasuna**, **Kontratuaren lerroaren xehetasuna**, **Proiektuko taldekidea**, eta **Estimazio lerroa** estimazio entitateei gehituko zaizkie.
+Proiektu baten salmenta eta zenbatespen faseetan, **lokalean** eta **gunean** burutu behar den lan ahaleginaren kalkuluak, **Ohiko orduak** eta **Ordutegi gehigarria** ataletan, eskaintza/proiektuaren balioa kalkulatzeko erabiltzen dira. **Baliabideen lanaren kokalekua** eta **Baliabideen lana** eremuak **eskaintza lerroaren xehetasuna** , **Kontratuaren lerroaren xehetasuna** , **Proiektuko taldekidea** , eta **Estimazio lerroa** estimazio entitateei gehituko zaizkie.
 
 1. Proiektuaren eragiketetan, hautatu **Ezarpenak** > **Soluzioak** eta, ondoren, sakatu bi aldiz **\<your organization name>prezio-dimentsioa**. 
 2. Soluzio arakatzailean, ezkerreko nabigazio panelean, hautatu **Entitateak> Eskaintza lerroaren xehetasuna**.
 3. Zabaldu **Eskaintza lerroaren xehetasuna** entitatea eta hautatu **Eremuak**.
 4. Hautatu **Berria** eremuan eremu berria sortzeko **Baliabideen lanaren kokalekua** izenekoa eta hautatu eremu mota, **Aukera-multzoa**. 
 5. Aukeratu **Erabili lehendik dagoen aukera-multzoa** eta **Baliabideen lanaren kokalekua** aukerak eta hautatu **Gorde** aukeran.
-6. Errepikatu 1-5 urratsak eremu hau **Proiektuaren kontratuaren lerroaren xehetasuna**, **Proiektuko taldekidea**, eta **Estimazio lerroa** entitateei gehitzeko.
+6. Errepikatu 1-5 urratsak eremu hau **Proiektuaren kontratuaren lerroaren xehetasuna** , **Proiektuko taldekidea** , eta **Estimazio lerroa** entitateei gehitzeko.
 7. Errepikatu 1-6 urratsak **Baliabideen lana** aukera-multzorako. 
 
-Entrega eta fakturaziorako, amaitutako lana zehaztasunez preziatu behar da **lokalean** edo **gunean** egin den zehazteko, eta **ohiko orduetan** edo **aparteko orduetan** egin den hautatzeko proiektuaren benetako datuetan. **Baliabideen lanaren kokalekua** eta **Baliabideen lana** eremuak **sarrera-ordua**, **benetakoa**, **faktura lerroaren xehetasuna**, eta **kutxako liburuaren lerroa** entitateetan gehitu behar dira.
+Entrega eta fakturaziorako, amaitutako lana zehaztasunez preziatu behar da **lokalean** edo **gunean** egin den zehazteko, eta **ohiko orduetan** edo **aparteko orduetan** egin den hautatzeko proiektuaren benetako datuetan. **Baliabideen lanaren kokalekua** eta **Baliabideen lana** eremuak **sarrera-ordua** , **benetakoa** , **faktura lerroaren xehetasuna** , eta **kutxako liburuaren lerroa** entitateetan gehitu behar dira.
 
 1. Hautatu **Ezarpenak** > **Soluzioak** eta, ondoren, sakatu bi aldiz **\<your organization name>prezio-dimentsioa**.
 2. Soluzio arakatzailean, ezkerreko nabigazio panelean, hautatu **Entitateak> Sarrera-ordua**.
 3. Zabaldu **Eskaintza lerroaren xehetasuna** entitatea eta gero hautatu **Eremuak**.
 4. Hautatu **Berria** eremuan eremu berria sortzeko **Baliabideen lanaren kokalekua** izenekoa eta hautatu **Aukera-multzoa** eremu mota gisa. 
 5. Hautatu **Erabili lehendik dagoen aukera-multzoa** aukera, hautatu **Baliabideen lanaren kokalekua** aukera-multzoa, eta hautatu **Gorde** aukeran.
-6. Errepikatu 1-5 urratsak eremua **Benetakoa**, **Faktura lerroaren xehetasuna**, eta **Kutxako liburuaren lerroa** entitateetan gehitzeko.
+6. Errepikatu 1-5 urratsak eremua **Benetakoa** , **Faktura lerroaren xehetasuna** , eta **Kutxako liburuaren lerroa** entitateetan gehitzeko.
 7. Errepikatu 1-6 urratsak **Baliabideen lana** aukera-multzorako. 
 
 Aukera-multzoan oinarritutako neurri pertsonalizatuetarako beharrezkoak diren eskema aldaketak osatzen ditu.
@@ -95,11 +94,11 @@ Proiektuaren salmenta- eta estimazio-faseetan, eskaintza/proiektua preziatzeko, 
 - **Proiektu-taldeko kidea**
 - **Aurreikuspenaren lerroa**
 
-5. Errepikatu 1-5 urratsak **Titulu estandarra** entitatetik **Eskaintzaren lerroaren xehetasuna**, **Proiektuaren kontratuaren lerroaren xehetasuna**, **Proiektuko taldekidea**, eta **Aurreikuspenaren lerroa** entitateetara 1:N harremanak sortzeko.
+5. Errepikatu 1-5 urratsak **Titulu estandarra** entitatetik **Eskaintzaren lerroaren xehetasuna** , **Proiektuaren kontratuaren lerroaren xehetasuna** , **Proiektuko taldekidea** , eta **Aurreikuspenaren lerroa** entitateetara 1:N harremanak sortzeko.
 
-  Entrega- eta fakturazio-faseetan, titulu estandar bakoitzak osatutako lanak proiektuaren benetakoa atalean zehaztasunez preziatu behar dira. Horrek esan nahi du 1: N harremanak izan behar direla **Titulu estandarra** entitatetik **Denbora-sarrera**, **Benetakoa**, **Faktura lerroaren xehetasuna**, eta **Kutxako liburuaren lerroa entitateak** entitateetara.
+  Entrega- eta fakturazio-faseetan, titulu estandar bakoitzak osatutako lanak proiektuaren benetakoa atalean zehaztasunez preziatu behar dira. Horrek esan nahi du 1: N harremanak izan behar direla **Titulu estandarra** entitatetik **Denbora-sarrera** , **Benetakoa** , **Faktura lerroaren xehetasuna** , eta **Kutxako liburuaren lerroa entitateak** entitateetara.
 
-6. Errepikatu 1-6 urratsak 1: N harremanak sortzeko **Titulu estandarra** entitatetik **Denbora-sarrera**, **Benetakoa**, **Faktura lerroaren xehetasuna**, eta- **Kutxako liburuaren lerroa entitateak** entitateetara.
+6. Errepikatu 1-6 urratsak 1: N harremanak sortzeko **Titulu estandarra** entitatetik **Denbora-sarrera** , **Benetakoa** , **Faktura lerroaren xehetasuna** , eta- **Kutxako liburuaren lerroa entitateak** entitateetara.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Konfiguratu lehenetsitako dimentsioaren balioa plataformako esleitze-ezaugarriak erabiliz
 Denbora-sarrera entitaterako, lagungarria izango litzateke sistemak lehenespenez denbora-sarrera entitatearen izena sarrera erregistratzen ari den baliabide erreserbagarritik hartzea. Jarraitu urrats hauei 1:N erlazioan eremuko mapak gehitzeko **Erreserbatzeko baliabidea** entitatetik **Denbora-sarrera** entitatera.

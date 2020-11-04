@@ -11,11 +11,11 @@ ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
 ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907828"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070919"
 ---
 # <a name="cash-advance"></a>Diru-aurrerakina
 
@@ -35,7 +35,7 @@ Diru-aurrerakinari esker, langileek dirua maileguan hartu dezakete beren enpresa
 Dirua aurreratzeko eskaera alda dezakezu, onarpenerako aurkeztu ez bada.
 
 1. **Nire gastuak: diruzko aurrerakinak** aukeran aurkitu eta hautatu editatu nahi duzun diru-aurrerakina.
-2. Aukeratu **Editatu**, eta diru-aurrerakinaren eskaeran beharrezko aldaketak egin. 
+2. Aukeratu **Editatu** , eta diru-aurrerakinaren eskaeran beharrezko aldaketak egin. 
 3. Hautatu **Gorde eta itxi**.
 
 

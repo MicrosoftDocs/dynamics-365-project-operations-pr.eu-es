@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 606098473db479d0015e3a7a3c01a3d3b6de9db1
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898517"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070948"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Sortu proiektuen eskaintzak abaguneetan
 
@@ -42,7 +42,7 @@ Abaguneko salmenten prozesuaren fluxutik eskaintza bat sortzeko, egin urrats hau
 4. Idatzi falta den edozein informazio edo eguneratu lehenetsitako balioak behar bezala **Laburpena** fitxa.
 5. Sakatu **Gorde**. Aurrekontu berria sortu eta aukerarekin lotzen da. Orain aurrekontuaren informazioa ikus dezakezu **Eskaintzak** fitxategiaren fitxa **Abagunea** orrialdea. 
 
-   Abagunea salmenta prozesua hurrengo fasera pasatzen da,**Proposatu**.
+   Abagunea salmenta prozesua hurrengo fasera pasatzen da, **Proposatu**.
 
 
 ## <a name="by-updating-the-opportunity-reference-on-an-existing-quote"></a>Lehendik dagoen aurrekontu batean aukeraren erreferentzia eguneratuta
@@ -55,4 +55,4 @@ Lehendik dagoen aurrekontua Aukera batekin lotu daiteke. Bete urrats hauek lehen
 
    Aukera etapa honetara mugitzen duzunean, aurrekontu hau aukera honekin lotutako aurrekontuen zerrendatik hauta dezakezu. Aurrekontu hau hautatzeak berarekin aurrera egiten duzula adierazten du.
 
-   Aukerarekin lotutako gainerako aurrekontu guztiak erabilgarri eta aktibo egongo dira horietako bat irabazi arte. Salmenta prozesua aurreko fasera eraman dezakezu **Gaitu**, eta aukeratu beste aurrekontu batekin aurrera egiteko.
+   Aukerarekin lotutako gainerako aurrekontu guztiak erabilgarri eta aktibo egongo dira horietako bat irabazi arte. Salmenta prozesua aurreko fasera eraman dezakezu **Gaitu** , eta aukeratu beste aurrekontu batekin aurrera egiteko.

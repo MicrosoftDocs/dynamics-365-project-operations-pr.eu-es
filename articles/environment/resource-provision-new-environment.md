@@ -3,17 +3,17 @@ title: Eman ingurune berri bat
 description: Gai honek Project Operations ingurune berri bat emateari buruzko informazioa eskaintzen du.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949347"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070923"
 ---
 # <a name="provision-a-new-environment"></a>Eman ingurune berri bat
 
@@ -26,14 +26,14 @@ Gai honek Dynamics 365 Project Operations ingurune berri bat emateko moduari bur
 Erabili urrats hauek zure LCS proiekturako Project Operations hornidura-fluxu automatikoa gaitzeko.
 
 1. Joan [LCS](https://lcs.dynamics.com/v2) aukerara eta hautatu **Aurreikusi funtzioen kudeaketa** lauza.
-2. **Aurrebista eginbidea** zerrendan, hautatu **Proiektuaren eragiketak** eta hautatu **Aurrebista eginbidea gaituta** Project Operations gaitzeko.
+2. **Aurrebista eginbidea** zerrendan, hautatu **Project Operations eginbidea** eta, ondoren, hautatu **Aurrebista eginbidea gaituta** Project Operations gaitzeko.
 
 > [!NOTE]
 > Urrats hau LCS proiektu bakoitzeko behin bakarrik egiten da.
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operations ingurunea hornitzea
 
-1. Ireki Dynamics 365 Finance [demo-ingurunea](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) edo [sandbox / produkzio ingurunea](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) inplementazioa. 
+1. Ireki Dynamics 365 Finance [demo-ingurunea](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) edo [sandbox / produkzio ingurunea](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) inplementazioa. 
 2. **Ingurumen hornidura** morroia eramatea. 
 
 > [!IMPORTANT]
@@ -165,18 +165,19 @@ Freskatzeak 20 minutu inguru iraungo du. Amaitutakoan alerta jasoko duzu.
 | **Proiektuen transakzio harremanetarako integrazio entitatea (msdyn\_transactionconnections)** | +Ez | +Ez | E/E | +Ez | E/E |
 | **Project Operations-ek integratzeko kontratu lerroaren mugarriak (msdyn\_contractlinesscheduleofvalues)** | +Ez | +Ez | E/E | +Ez | E/E |
 | **Project Operations-ek integratzeko entitatea gastuen kalkuluen arabera (msdyn\_estimateslines)** | +Ez | +Ez | E/E | +Ez | E/E |
-| **Project Operations-ek integratzeko entitatea orduen kalkuluen arabera (msdyn\_resourceassignments)** | +Ez | +Ez | E/E | +Ez | E/E |
+| **Project Operations-ek integratzeko proiektuaren gastuak kategoriak esportatzeko entitatea (msdyn\_expensecategories)** | +Ez | +Ez | E/E | +Ez | E/E |
 | **Project Operations-ek integratzeko proiektuaren gastuak esportatzeko entitatea (msdyn\_expenses)** | Yes | +Ez | E/E | +Ez | E/E |
 | **Project Operations-ek integratzeko entitatea orduen kalkuluen arabera (msdyn\_resourceassignments)** | Yes | +Ez | E/E | +Ez | E/E |
 
+
 4. Entitatea freskatzeko, hautatu maparen izena eta hautatu **Freskatu entitateak**. 
-5. Jarraitu mapa exekutatzen freskatzea amaitu ondoren.
+
 
 ![Freskatu mapa](./media/20RefreshMapping.png)
 
-Hurrengo mapa gaitu aurretik, egiaztatu taulako mapa egoera batean dagoela **Exekutatzen**. Aurrebaldintza kopuru handiagoa duten mapak exekutatzeak denbora pixka bat behar izan dezake.
+5. Freskatzen osatu eta gero, exekutatu mapa. Hurrengo mapa gaitu aurretik, egiaztatu taulako mapa egoera batean dagoela **Exekutatzen**. Aurrebaldintza kopuru handiagoa duten mapak exekutatzeak denbora pixka bat behar izan dezake.
 
-Aurrebaldintzak dituen mapa exekutatzeko, gaitu **Erakutsi erlazionatutako entitateen mapak** txandakatu. Taulak adierazten badu **Hasierako sinkronizazioa** da **Ez**, egiaztatu **Hasierako sinkronizazioa** bandera da **Desaktibatuta** exekutatu aurretik aurrebaldintza-mapa guztietan.
+Aurrebaldintzak dituen mapa exekutatzeko, gaitu **Erakutsi erlazionatutako entitateen mapak** txandakatu. Taulak adierazten badu **Hasierako sinkronizazioa** da **Ez** , egiaztatu **Hasierako sinkronizazioa** bandera da **Desaktibatuta** exekutatu aurretik aurrebaldintza-mapa guztietan.
 
 ![Exekutatu mapa](./media/21RunMap.png)
 

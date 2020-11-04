@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 6eb26bab511ec09201ab70c3e2808dece3f74c4c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968028"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070925"
 ---
 # <a name="estimate-projects-overview"></a>Aurreikuspen-proiektuen informazio orokorra
 
@@ -74,7 +74,7 @@ Eskaintzaren lerroaren xehetasunean eremu pertsonalizatu bat gehitu baduzu eta s
 2. Hautatu **Bilatu** aukera eta bilatu eguneratu behar den plugina.
 3. Hautatu plugina eta, ondoren, sakatu orri nagusian **Aukeratu** aukera.
 4. Hautatu eguneratzeko pluginaren urratsa, egin klik eskuineko botoiarekin eta, ondoren, hautatu **Eguneratu**.
-5. **Eguneratu dagoen urratsa** elkarrizketa-koadroan **Atributuak iragaztea** eremuan, hautatu elipsi botoia (**...**):
+5. **Eguneratu dagoen urratsa** elkarrizketa-koadroan **Atributuak iragaztea** eremuan, hautatu elipsi botoia ( **...** ):
 6. **Hautatu atributuak** elkarrizketa-koadroan, hautatu atributu pertsonalizatuen kontrol-koadroak.
 7. Hautatu **Ados** aukera elkarrizketa-koadroa ixteko eta, ondoren, hautatu **Eguneratu urratsa**.
 8. Errepikatu 1-7. urratsak bigarren pluginerako.

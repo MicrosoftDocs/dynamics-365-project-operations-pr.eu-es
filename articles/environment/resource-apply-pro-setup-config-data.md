@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948730"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070909"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Konfiguratu eta aplikatu konfigurazio-datuak Project Operations-en Common Data Service-n
 
@@ -27,20 +27,20 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 ![Konfigurazioaren migrazioa](./media/1ConfigurationMigration.png)
 
-4. CMT morroiaren 2. orrian, hautatu **Office 365** **Inplementazio mota** gisa.
+4. CMT morroiaren 2. orrian, hautatu **Microsoft 365** **Inplementazio mota** gisa.
 5. Aukeratu **Erakutsi eskuragarri dauden erakundeen zerrenda** eta **Erakutsi aurreratua** kontrol-laukiak.
 6. Aukeratu zure maizterraren eskualdea, sartu zure kredentzialak eta hautatu **Saioa hasi**.
 
 ![Konfigurazioaren saio-hasiera](./media/2ConfigurationSignin.png)
 
 7. 3. orrialdean, maizterraren erakundeen zerrendan, hautatu zein erakundetan inportatu nahi dituzun demo datuak eta hautatu **Saioa hasi**.
-8. 4. orrialdean, hautatu zip fitxategia, *SampelSetupAndConfigData*, paketatu gabeko karpetatik.
+8. 4. orrialdean, hautatu zip fitxategia, *SampelSetupAndConfigData* , paketatu gabeko karpetatik.
 
 ![Zip fitxategien hautaketa](./media/3ZipFile.png)
 
 ![Hautatu fitxategia.](./media/4SelectAFile.png)
 
-9. Zip fitxategia hautatu ondoren, hautatu**Inportatu datuak**.
+9. Zip fitxategia hautatu ondoren, hautatu **Inportatu datuak**.
 
 ![Inportatu datuak](./media/5ImportData.png)
 
@@ -114,10 +114,10 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
  
 12. Eguneratu eremu hauek:
 
- - **Enpresa lehenetsia**: USPM
- - **Antolakuntza Unitate Lehenetsia**: Contoso Robotics Global
- - **Fakturen maiztasuna**: Zazpigarren eta Azken eguna
- - **Lan orduko txantiloia**: Sortu duzun txantiloira aldatu.
+ - **Enpresa lehenetsia** : USPM
+ - **Antolakuntza Unitate Lehenetsia** : Contoso Robotics Global
+ - **Fakturen maiztasuna** : Zazpigarren eta Azken eguna
+ - **Lan orduko txantiloia** : Sortu duzun txantiloira aldatu.
 
 13. Sakatu **Gorde**. 
 

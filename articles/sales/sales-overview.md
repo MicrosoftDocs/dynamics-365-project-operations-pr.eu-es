@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3890660"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071235"
 ---
 # <a name="sales-processes-overview"></a>Salmenta-prozesuen informazio orokorra
 
@@ -57,7 +56,7 @@ Adibidez, zure enpresak hurrengo sei faseak izan ditzake salmenta-prozesuan:
  
 Erakundeak hainbat entitate erabil ditzake eboluzionatu duen akordio bera irudikatzeko. Salmenta-prozesuan hasieran, tratua Abagunea entitatearen bidez adierazten da. Denbora igaro ahala eta xehetasun gehiago azaltzen diren heinean, baliteke goi mailako aurreikuspenak erabil daitezkeela eskaintza bat edo gehiago sortzeko. Eskaintza horietako bat barneko bezeroen eta interes taldeek berrikusten badute, Eskaintza entitateak tratua adierazten du. Bezeroak eskaintza onartu ondoren, proiektu-kontratuak edo SOWk tratua adierazten du. Jokabide hori onartzeko, BPFak egituratzen dira, prozesuko fase bakoitza datu baseko taula desberdin batekin lotuta egon dadin.
 
-**Gaitu** fasean salmenta-prozesuan Abagunea entite batek babestu dezake. **Aurreikuspena** eta **Barne-berrikuspena** faseak Eskaintza entitate batek babestu ditzake. **Kontratua**, **Entrega**, eta **Itxi** faseak Proiektu-kontratua entitate batek babestu ditzake.
+**Gaitu** fasean salmenta-prozesuan Abagunea entite batek babestu dezake. **Aurreikuspena** eta **Barne-berrikuspena** faseak Eskaintza entitate batek babestu ditzake. **Kontratua** , **Entrega** , eta **Itxi** faseak Proiektu-kontratua entitate batek babestu ditzake.
 
 Tratuak faseetan zehar mugitzen dituzunean, prozesuan zehar laguntzeko eta gidatzeko entitate erregistro egokia sortzeko eskatuko zaizu. Faseak baldintzatuak izan daitezke. Adibidez, eskaintzaren barne-berrikuspena behar baduzu eskaintzak prezio-zerrenda pertsonalizatua erabiltzen badu soilik, baldintza hori konfigura dezakezu negozio prozesuaren fase egokian. **Barne-berrikuspena** fasea, ondoren, pertsonalizatutako prezio-zerrenda erabiltzen duten eskaintzetarako bakarrik erakutsiko da. Gainerako tratu eta eskaintzetarako, **Aurreikuspena** fasearen ostean **Kontratua** fasea izango da.
 

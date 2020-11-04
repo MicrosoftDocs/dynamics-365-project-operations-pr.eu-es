@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f5b36628e90896c9fe6570de71c95eab83a44ebd
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961809"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070902"
 ---
 # <a name="maintain-team-members"></a>Kudeatu taldeko kideak
 
@@ -25,7 +25,7 @@ Proiektuko taldeari izendatutako baliabide bat gehi diezaiokezu zuzenean taldean
 2. **Proiektua** orrialdean **Taldea** fitxan, hautatu **Berria** aukeran. 
 3. **Sorrera bizkorra: proiektuko taldekidea** elkarrizketa-koadroan, hautatu erreserbatzeko baliabidea. **Funtzioa** eremua baliabidearen lehenetsitako funtzioarekin beteko da esleituta badago. Funtzioa alda dezakezu. 
 4. Aukeratu baliabidea beharko den hasiera eta amaiera datak eta hautatu baliabidearen ahalmena esleitzeko metodoa. 
-5. **Proiektu onartzailea**eremuan, hautatu **Bai**, taldekidea proiektuaren onartzailea izan dadin nahi baduzu. Taldekideak proiektu honetarako gastuak eta sarrerak onartzea onar dezakeela. 
+5. **Proiektu onartzailea** eremuan, hautatu **Bai** , taldekidea proiektuaren onartzailea izan dadin nahi baduzu. Taldekideak proiektu honetarako gastuak eta sarrerak onartzea onar dezakeela. 
 6. Sakatu **Gorde**.
 
 Erreserbatutako baliabidea proiektuan zereginetara eslei dezakezu. **Proiektua** orrialdean, **Antolaketa** fitxan, baliabide berriari zereginak esleitzeko. Zereginen sareko **Baliabideak** eremutik abian jarri den baliabide hautatzaileak hautatu ditzakezu taldekideak erakutsiko ditu.

@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897031"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071038"
 ---
 # <a name="expense-using-mobile"></a>Gastuak gailu mugikorrak erabiliz
 
@@ -132,7 +131,7 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 9. Jarraitu urrats hauetako bat:
 
     - **Atera argazkia** hautatu baduzu, zure gailu mugikorreko kamerara eramaten zaituzte, ordainagiriaren argazkia atera ahal izateko. Argazkia ateratzen amaitutakoan, hautatu **Ados** argazkia onartzeko.
-    - Aukeratu baduzu **Aukeratu irudia**, hautatu zerrendako irudi bat.
+    - Aukeratu baduzu **Aukeratu irudia** , hautatu zerrendako irudi bat.
 
 10. Hautatu **Eginda**.
 
@@ -167,7 +166,7 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 14. Hautatu gastuaren moneta. Lineaz kanpo erabiltzeko aplikazioan kargatutako moneta-kodeen zerrenda bat ikusiko duzu. Berez, 400 moneta kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) ikusi behar dute. Zure moneta zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu moneten arabera edo aldatu bilaketa izenaren arabera.
 15. Hautatu **Eginda**.
 16. Gastuari xehetasun gehiago emateko, hautatu **Gehitu xehetasun gehiago**. Eskuragarri dauden eremuak zure enpresako gastuen kudeaketaren konfigurazioaren araberakoak dira.
-17. Enpresaren gidalerroak gastuaren ordainagiria eskatzen badu, hautatu **Ordainagiriak**, eta jarraitu urrats hauei:
+17. Enpresaren gidalerroak gastuaren ordainagiria eskatzen badu, hautatu **Ordainagiriak** , eta jarraitu urrats hauei:
 
     1. Aukeratu **Hartu ordainagiria** edo **Erantsi ordainagiria**.
     2. Jarraitu urrats hauetako bat:
@@ -196,9 +195,9 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 
     3. Aukeratu **Itzuli** botoia gastuaren xehetasunetara itzultzeko.
 
-18. Enpresaren gidalerroak gastuaren gonbidatuak eskatzen badu, hautatu **Gonbidatuak**, eta jarraitu urrats hauei:
+18. Enpresaren gidalerroak gastuaren gonbidatuak eskatzen badu, hautatu **Gonbidatuak** , eta jarraitu urrats hauei:
 
-    1. Aukeratu **Gonbidatua**, **Aurreko gonbidatuak**, edo **Lankideak**.
+    1. Aukeratu **Gonbidatua** , **Aurreko gonbidatuak** , edo **Lankideak**.
     2. Jarraitu urrats hauetako bat:
 
         - **Gonbidatua** hautatu baduzu, jarraitu urrats hauei:
@@ -220,7 +219,7 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 
     3. Aukeratu **Itzuli** botoia gastuaren xehetasunetara itzultzeko.
 
-19. Enpresaren gidalerroak gastua elementu egitea eskatzen badu, hautatu **Bihurtu elementu**, eta jarraitu urrats hauei:
+19. Enpresaren gidalerroak gastua elementu egitea eskatzen badu, hautatu **Bihurtu elementu** , eta jarraitu urrats hauei:
 
     1. Hautatu zehaztu nahi duzun lehen data.
     2. Aukeratu **Gehitu itemizazioa**.

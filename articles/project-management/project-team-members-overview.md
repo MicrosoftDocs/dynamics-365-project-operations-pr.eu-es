@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907833"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070927"
 ---
 # <a name="project-team-members"></a>Proiektuaren taldeko kideak
 
@@ -47,16 +47,16 @@ Hurrengo taulan proiektuko taldekide baten funtsezko atributuak agertzen dira.
 
 Taldekideen saretik, ekintza hauek egin daitezke:
 
-- **Errserbatu**: Liburuaren ekintzak erreserba hibridoen metodologia baliatzea exekutatzen duten erakundeei esker, erabiltzaileek izendatutako baliabide bat erreserbatu ahal izango dute taldeko kide generikoak sortutako eskakizunen arabera
-- **Sortu eskakizuna**: Ekintza honek baldintza sortzen du.
-- **Zehaztu eredua**: Proiektuen kudeatzaileei baliabideen eskakizunaren ingurunea maila granularrean egokitzeko aukera ematen die. Proiektuen kudeatzaileak proiektuaren behar zehatzetara egokitu daitezke banaketa lehenetsia egokitzen ez den kasuetan.
-- **Bidali eskaera**: Erreserben metodologia zentrala erabiltzen duten erakundeentzat.
-- **Editatu**: Taldekideen atributuak editatu daitezke antolakuntza unitatea, rola eta posizio izena barne.
-- **Erreserbak mantendu**: Baliabideen erreserbak eguneratu behar direnean, mantendu erreserbak proiektuaren kudeatzaileari:
+- **Errserbatu** : Liburuaren ekintzak erreserba hibridoen metodologia baliatzea exekutatzen duten erakundeei esker, erabiltzaileek izendatutako baliabide bat erreserbatu ahal izango dute taldeko kide generikoak sortutako eskakizunen arabera
+- **Sortu eskakizuna** : Ekintza honek baldintza sortzen du.
+- **Zehaztu eredua** : Proiektuen kudeatzaileei baliabideen eskakizunaren ingurunea maila granularrean egokitzeko aukera ematen die. Proiektuen kudeatzaileak proiektuaren behar zehatzetara egokitu daitezke banaketa lehenetsia egokitzen ez den kasuetan.
+- **Bidali eskaera** : Erreserben metodologia zentrala erabiltzen duten erakundeentzat.
+- **Editatu** : Taldekideen atributuak editatu daitezke antolakuntza unitatea, rola eta posizio izena barne.
+- **Erreserbak mantendu** : Baliabideen erreserbak eguneratu behar direnean, mantendu erreserbak proiektuaren kudeatzaileari:
 
     - Hasi
     - Amaiera-data
     - Esfortzu osoa esleitzea
 
-- **Berria**: Egutegitik baliabideak zuzenean gehitzeaz gain, proiektuen arduradunek taldekide izendatutako edo generiko berriak gehitu ditzakete taldeko kideen saretik.
-- **Ezabatu**: Taldeko kide bat edo gehiago hautatuta, proiektuaren kudeatzaileak proiektuan parte hartuko ez duten baliabideak ezaba ditzake. Taldekide bat ezabatzeak lotutako baliabideen esleipen guztiak ezabatuko ditu eta dauden erreserba guztiak bertan behera utziko ditu.
+- **Berria** : Egutegitik baliabideak zuzenean gehitzeaz gain, proiektuen arduradunek taldekide izendatutako edo generiko berriak gehitu ditzakete taldeko kideen saretik.
+- **Ezabatu** : Taldeko kide bat edo gehiago hautatuta, proiektuaren kudeatzaileak proiektuan parte hartuko ez duten baliabideak ezaba ditzake. Taldekide bat ezabatzeak lotutako baliabideen esleipen guztiak ezabatuko ditu eta dauden erreserba guztiak bertan behera utziko ditu.

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906053"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070949"
 ---
 # <a name="create-resource-assignments"></a>Sortu baliabide-esleipenak
 
@@ -29,7 +29,7 @@ Zereginen esleipenaren bidez taldeko kide generiko bat sortzen duzunean, leku-ma
 
 1. Zeregin bateko Antolaketa saretan, hautatu Baliabidea ikonoa **Baliabidea** gelaxkan.
 2. Idatzi leku-marka baliabide izena gisa erabiltzeko. Adibidez, programaren kudeatzailea.
-3. Hautatu **Sortu**, eta **Sorrera bizkorra proiektuaren taldekidea** eremuan, ezarri baliabide generikoaren funtzioa.
+3. Hautatu **Sortu** , eta **Sorrera bizkorra proiektuaren taldekidea** eremuan, ezarri baliabide generikoaren funtzioa.
 4. Esleitu zereginak nahi duzun modun leku-markako baliabideari, zereginaren **Baliabide hautatzailea** aukerako baliabidea hautatuz. **Taldekideak** atalean zerrendatutako baliabideak.
 5. Noiz egin ari bertan orokorra baliabidea esleitu hautatu orokorra baliabide- **Taldea** fitxan, hautatu baliabide orokorra, eta, gero, hautatu **Sortu eskakizuna** baliabide eskakizun baliabide orokorra sortzeko.
 6. Hautatu **Erreserbatu** orokorra baliabiderako, eta, ondoren, erabili Antolaketa panela benetako baliabidea bilatu eta erreserbatzeko. Baliabide kudeatzailea arabera betetze-eskakizun hautatuta bidali dezakezu ere.
@@ -37,7 +37,7 @@ Zereginen esleipenaren bidez taldeko kide generiko bat sortzen duzunean, leku-ma
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Esleitu izena duen baliabidea baliabide erreserbagarrien zerrendatik
 
-Bilaketa-koadroa erabil dezakezu **Baliabide hautatzailea** eremuan baliabide erreserbagarri aktibo guztiak bilatzeko eta hosto-nodoko edozein zeregini esleitzeko. Horrela esleitutako baliabideak erreserbatu gabe taldeari gehitzen zaizkio. Hau da taldekide bat gehitzea eta **Inor ez** metodo gisa hautatzearen berdina da. Baliabidea **Taldea**, **Baliabideen esleipena** eta **Kontziliazioa** fitxetan agertzen da, esleipen eta erreserba defizita duten baliabide gisa. Erreserbatutako horiek erabilgarritasuna beren erabili nahi izanez gero.
+Bilaketa-koadroa erabil dezakezu **Baliabide hautatzailea** eremuan baliabide erreserbagarri aktibo guztiak bilatzeko eta hosto-nodoko edozein zeregini esleitzeko. Horrela esleitutako baliabideak erreserbatu gabe taldeari gehitzen zaizkio. Hau da taldekide bat gehitzea eta **Inor ez** metodo gisa hautatzearen berdina da. Baliabidea **Taldea** , **Baliabideen esleipena** eta **Kontziliazioa** fitxetan agertzen da, esleipen eta erreserba defizita duten baliabide gisa. Erreserbatutako horiek erabilgarritasuna beren erabili nahi izanez gero.
 
 1. Zereginen sareta, taula edo kronogramatik, joan **Honi esleituta** gelaxkara.
 2. Bilaketa-koadroan, hasi izena idazten. Bilaketaren emaitzak **Beste baliabideak** ataleko **Baliabide hautatzailea** eremuan bistaratzen dira.
