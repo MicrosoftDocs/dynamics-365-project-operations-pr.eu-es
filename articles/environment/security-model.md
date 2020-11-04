@@ -8,71 +8,74 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896716"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070921"
 ---
-# <a name="security-model"></a>Segurtasunaren modeloa
+# <a name="security-model"></a><span data-ttu-id="ac498-103">Segurtasunaren modeloa</span><span class="sxs-lookup"><span data-stu-id="ac498-103">Security Model</span></span>
 
-_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
+<span data-ttu-id="ac498-104">_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_</span><span class="sxs-lookup"><span data-stu-id="ac498-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Microsoft Dynamics 365 Project Operations-ek segurtasun eredu bakarra du, lankidetzan oinarritutako negozio segurtasun eredu bat ahalbidetzen duena Microsoft Office Taldeak. 
+<span data-ttu-id="ac498-105">Microsoft Dynamics 365 Project Operations-ek segurtasun eredu bakarra du, lankidetzan oinarritutako negozio segurtasun eredu bat ahalbidetzen duena Microsoft Office Taldeak.</span><span class="sxs-lookup"><span data-stu-id="ac498-105">Microsoft Dynamics 365 Project Operations contains a unique security model that allows for a role-based business security model that collaborates with Microsoft Office Groups.</span></span> 
 
 
-## <a name="security-roles"></a>Segurtasun-funtzioak
-Project Operations front-end gaitasunek honako rol hauek dituzte:
+## <a name="security-roles"></a><span data-ttu-id="ac498-106">Segurtasun-funtzioak</span><span class="sxs-lookup"><span data-stu-id="ac498-106">Security roles</span></span>
+<span data-ttu-id="ac498-107">Project Operations front-end gaitasunek honako rol hauek dituzte:</span><span class="sxs-lookup"><span data-stu-id="ac498-107">Project Operations front-end capabilities include the following roles:</span></span>
 
-| Funtzioa                          | Deskribapena                                                                                                                                                                 | Scope |
+| <span data-ttu-id="ac498-108">Funtzioa</span><span class="sxs-lookup"><span data-stu-id="ac498-108">Role</span></span>                          | <span data-ttu-id="ac498-109">Deskribapena</span><span class="sxs-lookup"><span data-stu-id="ac498-109">Description</span></span>                                                                                                                                                                 | <span data-ttu-id="ac498-110">Scope</span><span class="sxs-lookup"><span data-stu-id="ac498-110">Scope</span></span> |
 |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
-| Praktika-administratzailea              | Proiektuen arteko txostenak onartzen ditu.                                                                                                            | Negozio-unitatea              |
-| Proiektuaren onartzailea              | Denbora eta gastuak onartzen ditu proiektu batean.                                                                                                                              | Negozio-unitatea |
-| Proiektuaren fakturazio-administratzailea | Faktura proposamena sortzen du.                                                                                                                                                 | Negozio-unitatea |
-| Proiektu-kudeatzailea               | Proiektuaren plana sortzen du eta baliabideak eskatzen ditu.                                                                                                                              | Negozio-unitatea |
-| Proiektu-baliabidea              | Erreserbatu daitezkeen taldekideak eta jakinarazi denbora.                                                                                                          | Negozio-unitatea|
-| Baliabide-kudeatzailea              | Baliabideen kudeaketa funtzio guztiak, hala nola baliabideen eskaerak eta erreserbak, bereizita daude Proiektu kudeatzaile hibridoa + Baliabide kudeatzailearen konfigurazioa eta Baliabide kudeatzaile rol bakarra eta zentralizatua onartzeko. | Negozio-unitatea |
+| <span data-ttu-id="ac498-111">Praktika-administratzailea</span><span class="sxs-lookup"><span data-stu-id="ac498-111">Practice manager</span></span>              | <span data-ttu-id="ac498-112">Proiektuen arteko txostenak onartzen ditu.</span><span class="sxs-lookup"><span data-stu-id="ac498-112">Supports cross-project reporting.</span></span>                                                                                                            | <span data-ttu-id="ac498-113">Negozio-unitatea</span><span class="sxs-lookup"><span data-stu-id="ac498-113">Business unit</span></span>              |
+| <span data-ttu-id="ac498-114">Proiektuaren onartzailea</span><span class="sxs-lookup"><span data-stu-id="ac498-114">Project approver</span></span>              | <span data-ttu-id="ac498-115">Denbora eta gastuak onartzen ditu proiektu batean.</span><span class="sxs-lookup"><span data-stu-id="ac498-115">Approves time and expenses against a project.</span></span>                                                                                                                              | <span data-ttu-id="ac498-116">Negozio-unitatea</span><span class="sxs-lookup"><span data-stu-id="ac498-116">Business unit</span></span> |
+| <span data-ttu-id="ac498-117">Proiektuaren fakturazio-administratzailea</span><span class="sxs-lookup"><span data-stu-id="ac498-117">Project billing administrator</span></span> | <span data-ttu-id="ac498-118">Faktura proposamena sortzen du.</span><span class="sxs-lookup"><span data-stu-id="ac498-118">Creates the invoice proposal.</span></span>                                                                                                                                                 | <span data-ttu-id="ac498-119">Negozio-unitatea</span><span class="sxs-lookup"><span data-stu-id="ac498-119">Business unit</span></span> |
+| <span data-ttu-id="ac498-120">Proiektu-kudeatzailea</span><span class="sxs-lookup"><span data-stu-id="ac498-120">Project manager</span></span>               | <span data-ttu-id="ac498-121">Proiektuaren plana sortzen du eta baliabideak eskatzen ditu.</span><span class="sxs-lookup"><span data-stu-id="ac498-121">Creates the project plan and requests resources.</span></span>                                                                                                                              | <span data-ttu-id="ac498-122">Negozio-unitatea</span><span class="sxs-lookup"><span data-stu-id="ac498-122">Business unit</span></span> |
+| <span data-ttu-id="ac498-123">Proiektu-baliabidea</span><span class="sxs-lookup"><span data-stu-id="ac498-123">Project resource</span></span>              | <span data-ttu-id="ac498-124">Erreserbatu daitezkeen taldekideak eta jakinarazi denbora.</span><span class="sxs-lookup"><span data-stu-id="ac498-124">Team members who can be booked and report time.</span></span>                                                                                                          | <span data-ttu-id="ac498-125">Negozio-unitatea</span><span class="sxs-lookup"><span data-stu-id="ac498-125">Business unit</span></span>|
+| <span data-ttu-id="ac498-126">Baliabide-kudeatzailea</span><span class="sxs-lookup"><span data-stu-id="ac498-126">Resource manager</span></span>              | <span data-ttu-id="ac498-127">Baliabideen kudeaketa funtzio guztiak, hala nola baliabideen eskaerak eta erreserbak, bereizita daude Proiektu kudeatzaile hibridoa + Baliabide kudeatzailearen konfigurazioa eta Baliabide kudeatzaile rol bakarra eta zentralizatua onartzeko.</span><span class="sxs-lookup"><span data-stu-id="ac498-127">All resource management functions, such as fulfill resource requests and bookings, separated to support a hybrid Project manager + Resource manager configuration and a single and centralized Resource manager role.</span></span> | <span data-ttu-id="ac498-128">Negozio-unitatea</span><span class="sxs-lookup"><span data-stu-id="ac498-128">Business unit</span></span> |
 
 
-Weberako Microsoft Project-ek eginkizun hauek ditu:
-| Funtzioa                          | Deskribapena                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Proiektuaren erabiltzailea | Proiektuaren erabiltzaile kolaboratzailea, nork bere proiektuak sortzeko eta haiekin partekatutako proiektuak ikusteko gai dena.| Erabiltzailea|
-| Proiektu sistema | Aplikazioaren testuinguruan erabilitako rola. Bezeroek ez lukete sistema rol hau erabili behar. | Orokorra|
+<span data-ttu-id="ac498-129">Weberako Microsoft Project-ek eginkizun hauek ditu:</span><span class="sxs-lookup"><span data-stu-id="ac498-129">Microsoft Project for the Web includes the following roles:</span></span>
 
-## <a name="security-enforcement"></a>Segurtasuna betearaztea
-Proiektu mailan burutzen diren ekintzak saioa hasita duen erabiltzailearen testuinguruan egiten dira. Horrek esan nahi du proiektu bat sortu, ireki edo ezabatzeko, erabiltzaileari CDS sarbidea eskura behar zaiola. CDSrako sarbidea plataforman dauden mekanismo posibleen bidez eman daiteke. Adibidez, esparru zabalagoa duen erabiltzailea sar daiteke proiektuan edo erabiltzaileari sarbidea ematen dion proiektu partekatu esplizitua burutu bada.
+| <span data-ttu-id="ac498-130">Funtzioa</span><span class="sxs-lookup"><span data-stu-id="ac498-130">Role</span></span>           | <span data-ttu-id="ac498-131">Deskribapena</span><span class="sxs-lookup"><span data-stu-id="ac498-131">Description</span></span>                                                                                                        | <span data-ttu-id="ac498-132">Scope</span><span class="sxs-lookup"><span data-stu-id="ac498-132">Scope</span></span>  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| <span data-ttu-id="ac498-133">Proiektuaren erabiltzailea</span><span class="sxs-lookup"><span data-stu-id="ac498-133">Project user</span></span>   | <span data-ttu-id="ac498-134">Proiektuaren erabiltzaile kolaboratzailea, nork bere proiektuak sortzeko eta haiekin partekatutako proiektuak ikusteko gai dena.</span><span class="sxs-lookup"><span data-stu-id="ac498-134">Collaborative user of Project   who is able to create their own projects and view any projects shared with   them.</span></span> | <span data-ttu-id="ac498-135">Erabiltzailea</span><span class="sxs-lookup"><span data-stu-id="ac498-135">User</span></span>   |
+| <span data-ttu-id="ac498-136">Proiektu sistema</span><span class="sxs-lookup"><span data-stu-id="ac498-136">Project system</span></span> | <span data-ttu-id="ac498-137">Aplikazioaren testuinguruan erabilitako rola.</span><span class="sxs-lookup"><span data-stu-id="ac498-137">Role used for application   context.</span></span> <span data-ttu-id="ac498-138">Bezeroek ez lukete sistema rol hau erabili behar.</span><span class="sxs-lookup"><span data-stu-id="ac498-138">Customers should not use this system role.</span></span>                                    | <span data-ttu-id="ac498-139">Orokorra</span><span class="sxs-lookup"><span data-stu-id="ac498-139">Global</span></span> |
 
-Garrantzitsua da hori kontuan hartzea proiektuen eragiketetan proiektuak sortzerakoan.
+## <a name="security-enforcement"></a><span data-ttu-id="ac498-140">Segurtasuna betearaztea</span><span class="sxs-lookup"><span data-stu-id="ac498-140">Security enforcement</span></span>
+<span data-ttu-id="ac498-141">Proiektu mailan burutzen diren ekintzak saioa hasita duen erabiltzailearen testuinguruan egiten dira.</span><span class="sxs-lookup"><span data-stu-id="ac498-141">Actions that are performed at the project level are performed in the context of the logged in user.</span></span> <span data-ttu-id="ac498-142">Horrek esan nahi du proiektu bat sortu, ireki edo ezabatzeko, erabiltzaileari CDS sarbidea eskura behar zaiola.</span><span class="sxs-lookup"><span data-stu-id="ac498-142">This means that in order to create, open, or delete a project, the user is required to have access available in CDS.</span></span> <span data-ttu-id="ac498-143">CDSrako sarbidea plataforman dauden mekanismo posibleen bidez eman daiteke.</span><span class="sxs-lookup"><span data-stu-id="ac498-143">Access in CDS may be granted through any of the possible mechanisms included in the platform.</span></span> <span data-ttu-id="ac498-144">Adibidez, esparru zabalagoa duen erabiltzailea sar daiteke proiektuan edo erabiltzaileari sarbidea ematen dion proiektu partekatu esplizitua burutu bada.</span><span class="sxs-lookup"><span data-stu-id="ac498-144">For example, a user with a larger scope may access the project or if an explicit project share action has been performed which grants the user access.</span></span>
 
-## <a name="modern-group-collaboration-with-project-operations"></a>Talde-lankidetza modernoa Project Operations-ekin
-Weberako Proiektuak eta Proiektuen Eragiketak talde modernoak onartzen dituzte lankidetzarako. Proiektuari talde baten bidez gehitutako erabiltzaileek proiektuaren plana edita dezakete.
+<span data-ttu-id="ac498-145">Garrantzitsua da hori kontuan hartzea proiektuen eragiketetan proiektuak sortzerakoan.</span><span class="sxs-lookup"><span data-stu-id="ac498-145">It's important to consider this when creating projects in Project Operations.</span></span>
 
-Weberako proiektuak erabiltzaileak taldera gehitzen ditu automatikoki esleitzean.
+## <a name="modern-group-collaboration-with-project-operations"></a><span data-ttu-id="ac498-146">Talde-lankidetza modernoa Project Operations-ekin</span><span class="sxs-lookup"><span data-stu-id="ac498-146">Modern group collaboration with Project Operations</span></span>
+<span data-ttu-id="ac498-147">Weberako Proiektuak eta Proiektuen Eragiketak talde modernoak onartzen dituzte lankidetzarako.</span><span class="sxs-lookup"><span data-stu-id="ac498-147">Project for the Web and Project Operations support modern groups for collaboration.</span></span> <span data-ttu-id="ac498-148">Proiektuari talde baten bidez gehitutako erabiltzaileek proiektuaren plana edita dezakete.</span><span class="sxs-lookup"><span data-stu-id="ac498-148">Users added to the project through a group are able to edit the project plan.</span></span>
 
-Taldeek proiektuaren eta lankidetzako artefaktuen laguntza baimenak lankidetzan lantzea ahalbidetzen dute. Hurrengo diagraman, talde-esleipen prozesuan gertatzen diren gertaerak eta egoera aldaketak azaltzen dira.
+<span data-ttu-id="ac498-149">Weberako proiektuak erabiltzaileak taldera gehitzen ditu automatikoki esleitzean.</span><span class="sxs-lookup"><span data-stu-id="ac498-149">Project for the Web adds users to the group automatically upon assignment.</span></span>
 
-Proiektuaren Eragiketek ez dute talderik sortzen ekintza inplizituaren bidez eta talde sakatuen ekintza esplizituaren bidez bakarrik egiten dute.
+<span data-ttu-id="ac498-150">Taldeek proiektuaren eta lankidetzako artefaktuen laguntza baimenak lankidetzan lantzea ahalbidetzen dute.</span><span class="sxs-lookup"><span data-stu-id="ac498-150">Groups allow the permissions of the project and supporting collaboration artifacts to be worked on collaboratively.</span></span> <span data-ttu-id="ac498-151">Hurrengo diagraman, talde-esleipen prozesuan gertatzen diren gertaerak eta egoera aldaketak azaltzen dira.</span><span class="sxs-lookup"><span data-stu-id="ac498-151">The following diagram depicts the events and state changes that happen during the group assignment process.</span></span>
 
-Taldeko kideen bilaketa **Taldearen kudeaketa** elkarrizketa-koadroa, inguruneko segurtasun-taldearen zati gisa ezartzen direnetara mugatuta dago. Informazio gehiago lortzeko, ikusi [Kontrolatu erabiltzaileen sarbidea inguruneetara: segurtasun-taldeak eta lizentziak](https://docs.microsoft.com/power-platform/admin/control-user-access).
+<span data-ttu-id="ac498-152">Proiektuaren Eragiketek ez dute talderik sortzen ekintza inplizituaren bidez eta talde sakatuen ekintza esplizituaren bidez bakarrik egiten dute.</span><span class="sxs-lookup"><span data-stu-id="ac498-152">Project Operations does not create a group through implicit action and only does so through the explicit action of pressing groups.</span></span>
 
-1. Proiektua sortu duen erabiltzailearen jabetzakoa da.
-2. Proiektuaren jabea taldeari eguneratu zaio.
-3. Jabe taldea zehaztutako edo sortutako Bulego Taldearekin mapatuta dago.
-4. Proiektuaren jatorrizko jabea Bulego Taldean gehitzen da.
+<span data-ttu-id="ac498-153">Taldeko kideen bilaketa **Taldearen kudeaketa** elkarrizketa-koadroa, inguruneko segurtasun-taldearen zati gisa ezartzen direnetara mugatuta dago.</span><span class="sxs-lookup"><span data-stu-id="ac498-153">Group member search in the **Group management** dialog, is limited to those who are set as part of the environment's security group.</span></span> <span data-ttu-id="ac498-154">Informazio gehiago lortzeko, ikusi [Kontrolatu erabiltzaileen sarbidea inguruneetara: segurtasun-taldeak eta lizentziak](https://docs.microsoft.com/power-platform/admin/control-user-access).</span><span class="sxs-lookup"><span data-stu-id="ac498-154">For more information, see [Control user access to environments: security groups and licenses](https://docs.microsoft.com/power-platform/admin/control-user-access).</span></span>
 
-## <a name="deployment-recommendation"></a>Inplementazio-gomendioak
-Office taldearen lankidetza eredua garatu ahala, funtzionaltasuna gehituko da denboran kontrol zehatzagoa emateko. Gaur egun Project Operations inplementatzen dituzten bezeroei ohiko arreta jartzera animatzen zaie Microsoft Dynamics 365 segurtasun eredua.
+![Talde modua](./media/groupsmode.png)
 
-Informazio gehiagorako, ikusi [Segurtasuna Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+1. <span data-ttu-id="ac498-156">Proiektua sortu duen erabiltzailearen jabetzakoa da.</span><span class="sxs-lookup"><span data-stu-id="ac498-156">The Project is created and owned by the creating User.</span></span>
+2. <span data-ttu-id="ac498-157">Proiektuaren jabea taldeari eguneratu zaio.</span><span class="sxs-lookup"><span data-stu-id="ac498-157">The Project owner is updated to the team.</span></span>
+3. <span data-ttu-id="ac498-158">Jabe taldea zehaztutako edo sortutako Bulego Taldearekin mapatuta dago.</span><span class="sxs-lookup"><span data-stu-id="ac498-158">The Owner team is mapped to the specified or created Office Group.</span></span>
+4. <span data-ttu-id="ac498-159">Proiektuaren jatorrizko jabea Bulego Taldean gehitzen da.</span><span class="sxs-lookup"><span data-stu-id="ac498-159">The original owner of the Project is added to the Office Group.</span></span>
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations eta Microsoft Dynamics 365 Finance segurtasuna
-Project Operations-ek honako rol hauek biltzen ditu:
+## <a name="deployment-recommendation"></a><span data-ttu-id="ac498-160">Inplementazio-gomendioak</span><span class="sxs-lookup"><span data-stu-id="ac498-160">Deployment recommendation</span></span>
+<span data-ttu-id="ac498-161">Office taldearen lankidetza eredua garatu ahala, funtzionaltasuna gehituko da denboran kontrol zehatzagoa emateko.</span><span class="sxs-lookup"><span data-stu-id="ac498-161">As the Office group collaboration model evolves, functionality will be added to provide more detailed control over time.</span></span> <span data-ttu-id="ac498-162">Gaur egun Project Operations inplementatzen dituzten bezeroei ohiko arreta jartzera animatzen zaie Microsoft Dynamics 365 segurtasun eredua.</span><span class="sxs-lookup"><span data-stu-id="ac498-162">Customers that deploy Project Operations today are encouraged to focus on a traditional Microsoft Dynamics 365 security model.</span></span>
 
-- Proiektu-kudeatzailea
-- Proiektuaren kontabilitatea
+<span data-ttu-id="ac498-163">Informazio gehiagorako, ikusi [Segurtasuna Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).</span><span class="sxs-lookup"><span data-stu-id="ac498-163">For more information, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).</span></span>
 
-Finantzetako segurtasunari buruzko informazio gehiago lortzeko, ikusi [Funtzioetan oinarritutako segurtasuna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a><span data-ttu-id="ac498-164">Project Operations eta Microsoft Dynamics 365 Finance segurtasuna</span><span class="sxs-lookup"><span data-stu-id="ac498-164">Project Operations and Microsoft Dynamics 365 Finance security</span></span>
+<span data-ttu-id="ac498-165">Project Operations-ek honako rol hauek biltzen ditu:</span><span class="sxs-lookup"><span data-stu-id="ac498-165">Project Operations includes the following roles:</span></span>
+
+- <span data-ttu-id="ac498-166">Proiektu-kudeatzailea</span><span class="sxs-lookup"><span data-stu-id="ac498-166">Project manager</span></span>
+- <span data-ttu-id="ac498-167">Proiektuaren kontabilitatea</span><span class="sxs-lookup"><span data-stu-id="ac498-167">Project accountant</span></span>
+
+<span data-ttu-id="ac498-168">Finantzetako segurtasunari buruzko informazio gehiago lortzeko, ikusi [Funtzioetan oinarritutako segurtasuna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).</span><span class="sxs-lookup"><span data-stu-id="ac498-168">For more information about security in Finance, see [Role-based security](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).</span></span>
 
 

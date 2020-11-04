@@ -7,7 +7,6 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,66 +15,66 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cd0d415b9cc85bac91de8fb9427da290ae0c6108
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 47c1bce0c886897b295a3c1a355f4db843c4b73a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897121"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071102"
 ---
-# <a name="expense-reports-reimagined"></a>Gastu-txostenen itxura berria
+# <a name="expense-reports-reimagined"></a><span data-ttu-id="1822b-103">Gastu-txostenen itxura berria</span><span class="sxs-lookup"><span data-stu-id="1822b-103">Expense reports reimagined</span></span>
 
-Gastuen txostena berriro diseinatu da prozesua errazteko eta txostena osatzeko behar den denbora murrizteko. Hona hemen gastu esperientzia berriaren osagai nagusiak:
+<span data-ttu-id="1822b-104">Gastuen txostena berriro diseinatu da prozesua errazteko eta txostena osatzeko behar den denbora murrizteko.</span><span class="sxs-lookup"><span data-stu-id="1822b-104">Expense report entry has been redesigned to simplify the process and reduce the time needed to complete a report.</span></span> <span data-ttu-id="1822b-105">Hona hemen gastu esperientzia berriaren osagai nagusiak:</span><span class="sxs-lookup"><span data-stu-id="1822b-105">Here are the major components of the new expense experience:</span></span>
 
-- Gastuaren kudeaketa laneko espazio berria, zure delegatuaren gastuetara sartzeko aukera ematen duena.
-- Ordainagiriekin bat datorren esperientzia berria goiburu mailako ordainagiriak hobeto erakusteko eta ordainagiriak gastu lerroei eransteko prozesua errazteko.
-- Irakurtzeko soilik den sareta berria, gastu lerro eta datu zutabe osagarri gehiago ikusteko aukera ematen duena. Lerro banatu eta zatitu guztiak ikus ditzakezu, gurasoen gastuekin batera.
-- Editatzeko gastuak errazteko panel bat.
-- Errore, abisu eta gidalerroen mezuak berriro diseinatu dira, arazoaren testuinguru eta ulermen zuzena eta nola konpondu jakiteko. Erabiltzaileek beren zereginak bete eta arazoei aurre egin baino lehen agertzen ziren hainbat mezu kendu ditugu.
-- Orrialde berria beharrezko eremuak, aukerako eremuak eta sartu behar ez diren eremuak zehazteko. Orri honek ezarri beharreko eremu kopurua murrizten laguntzen du.
-- Gastuen txostenen itxura berria da, txostenak jada pertsona kontabilitaterako diseinatuta daudela dirudi.
+- <span data-ttu-id="1822b-106">Gastuaren kudeaketa laneko espazio berria, zure delegatuaren gastuetara sartzeko aukera ematen duena.</span><span class="sxs-lookup"><span data-stu-id="1822b-106">A new expense management workspace that lets you access your delegate's expenses.</span></span>
+- <span data-ttu-id="1822b-107">Ordainagiriekin bat datorren esperientzia berria goiburu mailako ordainagiriak hobeto erakusteko eta ordainagiriak gastu lerroei eransteko prozesua errazteko.</span><span class="sxs-lookup"><span data-stu-id="1822b-107">A new receipt matching experience to better show header-level receipts and simplify the process of attaching receipts to expense lines.</span></span>
+- <span data-ttu-id="1822b-108">Irakurtzeko soilik den sareta berria, gastu lerro eta datu zutabe osagarri gehiago ikusteko aukera ematen duena.</span><span class="sxs-lookup"><span data-stu-id="1822b-108">A new read-only grid that lets you view many more expense lines and additional columns of data.</span></span> <span data-ttu-id="1822b-109">Lerro banatu eta zatitu guztiak ikus ditzakezu, gurasoen gastuekin batera.</span><span class="sxs-lookup"><span data-stu-id="1822b-109">You can now see all itemized and split lines, together with their parent expenses.</span></span>
+- <span data-ttu-id="1822b-110">Editatzeko gastuak errazteko panel bat.</span><span class="sxs-lookup"><span data-stu-id="1822b-110">A simplified pane for editing expenses.</span></span>
+- <span data-ttu-id="1822b-111">Errore, abisu eta gidalerroen mezuak berriro diseinatu dira, arazoaren testuinguru eta ulermen zuzena eta nola konpondu jakiteko.</span><span class="sxs-lookup"><span data-stu-id="1822b-111">Redesigned error, warning, and policy messages to provide the correct context and understanding of the issue and how to resolve it.</span></span> <span data-ttu-id="1822b-112">Erabiltzaileek beren zereginak bete eta arazoei aurre egin baino lehen agertzen ziren hainbat mezu kendu ditugu.</span><span class="sxs-lookup"><span data-stu-id="1822b-112">We have removed several of the messages that appeared before users could complete their tasks and address the issues.</span></span>
+- <span data-ttu-id="1822b-113">Orrialde berria beharrezko eremuak, aukerako eremuak eta sartu behar ez diren eremuak zehazteko.</span><span class="sxs-lookup"><span data-stu-id="1822b-113">A new page to specify required fields, optional fields, and the fields that should not be included.</span></span> <span data-ttu-id="1822b-114">Orri honek ezarri beharreko eremu kopurua murrizten laguntzen du.</span><span class="sxs-lookup"><span data-stu-id="1822b-114">This page helps to reduce the number of fields that must be set.</span></span>
+- <span data-ttu-id="1822b-115">Gastuen txostenen itxura berria da, txostenak jada pertsona kontabilitaterako diseinatuta daudela dirudi.</span><span class="sxs-lookup"><span data-stu-id="1822b-115">A new look and feel for expense reports, so that the reports no longer seem as though they were designed for accounting personas.</span></span>
 
-Esperientzia berria aktibatzeko, erabili **Ezaugarrien kudeaketa** laneko gunea **Gastuen txostenak berriro pentsatu ziren** ezaugarria. Ezaugarri hau aktibatzean ekintza hauek gertatzen dira:
+<span data-ttu-id="1822b-116">Esperientzia berria aktibatzeko, erabili **Ezaugarrien kudeaketa** laneko gunea **Gastuen txostenak berriro pentsatu ziren** ezaugarria.</span><span class="sxs-lookup"><span data-stu-id="1822b-116">To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports reimagined** feature.</span></span> <span data-ttu-id="1822b-117">Ezaugarri hau aktibatzean ekintza hauek gertatzen dira:</span><span class="sxs-lookup"><span data-stu-id="1822b-117">When you turn on this feature, the following actions occur:</span></span>
 
-- Lehendik dauden gastuen lan-eremua lan-eremu berriarekin ordezkatzen da.
-- Gastu eremuen ikusgarritasunerako menu elementu berria gehitzen da.
-- Ez da gastuen txostenetarako (dagoen orrialdea) edo gastuen txostenetarako eremurik dagoen menu elementurik kentzen.
-- Lan-fluxuek eta edozein onarpenek lehendik dauden gastuen txostenen orrialdera eramaten zaituzte.
+- <span data-ttu-id="1822b-118">Lehendik dauden gastuen lan-eremua lan-eremu berriarekin ordezkatzen da.</span><span class="sxs-lookup"><span data-stu-id="1822b-118">The existing expense workspace is replaced with the new workspace.</span></span>
+- <span data-ttu-id="1822b-119">Gastu eremuen ikusgarritasunerako menu elementu berria gehitzen da.</span><span class="sxs-lookup"><span data-stu-id="1822b-119">A new menu item for expense field visibility is added.</span></span>
+- <span data-ttu-id="1822b-120">Ez da gastuen txostenetarako (dagoen orrialdea) edo gastuen txostenetarako eremurik dagoen menu elementurik kentzen.</span><span class="sxs-lookup"><span data-stu-id="1822b-120">No existing menu items for expense reports (the existing page) or expense report fields are removed.</span></span>
+- <span data-ttu-id="1822b-121">Lan-fluxuek eta edozein onarpenek lehendik dauden gastuen txostenen orrialdera eramaten zaituzte.</span><span class="sxs-lookup"><span data-stu-id="1822b-121">Workflows and any approvals still take you to the existing expense reports page.</span></span>
 
-## <a name="getting-started-video-for-new-users"></a>Erabiltzaile berrientzako bideoa hasteko
+## <a name="getting-started-video-for-new-users"></a><span data-ttu-id="1822b-122">Erabiltzaile berrientzako bideoa hasteko</span><span class="sxs-lookup"><span data-stu-id="1822b-122">Getting started video for new users</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
 
-[Gastu-esperientzia Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) bideoa (goian agertzen dena) [Finance and Operations erreprodukzio-zerrendan](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) eskuragarri dago YouTube-n.
+<span data-ttu-id="1822b-123">[Gastu-esperientzia Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) bideoa (goian agertzen dena) [Finance and Operations erreprodukzio-zerrendan](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) eskuragarri dago YouTube-n.</span><span class="sxs-lookup"><span data-stu-id="1822b-123">The [Expense experience in Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) video (shown above) is included in the [Finance and Operations playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.</span></span>
 
-## <a name="new-features"></a>Eginbide berriak
+## <a name="new-features"></a><span data-ttu-id="1822b-124">Eginbide berriak</span><span class="sxs-lookup"><span data-stu-id="1822b-124">New features</span></span>
 
-| Eginbide berria | Deskribapena |
+| <span data-ttu-id="1822b-125">Eginbide berria</span><span class="sxs-lookup"><span data-stu-id="1822b-125">New feature</span></span> | <span data-ttu-id="1822b-126">Deskribapena</span><span class="sxs-lookup"><span data-stu-id="1822b-126">Description</span></span> |
 |---|----|
-| Gastuak eremuaren ikusgaitasuna | Konfigurazio orri berri batek erakunde batentzat zein eremu desgaitu behar diren, zein eremu behar diren eta zein eremu gomendagarriak diren zehazteko aukera ematen du. |
-| Beharrezko eremuak | Konfigurazio sinple berriak politika esparrua erabili beharrik gabe beharrezkoak diren zenbait eremu egin ditzakezu. |
-| Aukerako eremuak | Aukerako eremuen bigarren orria gehitzen da. Horrela, langileak ez dira eremuak ezarri beharko balituzte bezala sentituko, baina eremuak erraz eskuratzeko modukoak dira. |
-| Erantsi gabeko erreziboak gehitu | Gastu-txostenean erantsi gabeko ordainagiriak gehitzeko gaitasuna lan-eremutik eta gastuen txostenean ikusgai dago. |
-| Mezularitza hobetu da | Abisuak edo akatsak dituzten gastu lerroetan ikusgarritasun hobea dago. |
-| Mezuen murrizketa mezu barran| Infolog mezuen kopurua gutxitu egin zen eta kasu askotan mezu bikoiztuak agertzea ekiditeko ahalegina egin zen. |
-| Ekintza komunak multzokatuta | Interfazea garbitu egin zen lerro mailako ekintza komun gehienetarako ekintza botoia gehituta eta elipsi botoia gehituta (...) goiburua eta gutxiagoko beste ekintza batzuetarako. |
-| Laneko espazio berria ikusgarritasuna handitzeko | Laneko espazio berri batek erabiltzaileak arlo desberdinetara mugitzen uzten dituzten funtzioak eta estekak bateratzen ditu. |
-| Gehitu dauden gastuak eta ordainagiriak gastuak sortzean | Gastuen txostenak sortzen dituzunean, hautatutako gastuak eta ordainagiriak gehi ditzakezu. |
-| Kanbio-tasaren kalkulagailua | Dibisa anitzeko transakzioen kanbio-tasa kalkulatzeko aukera ematen duen kanbio-tasaren kalkulagailua gehitzen da. |
-| Gorde eta gehitu gastu lerro berriak | **Gorde** eta **Berria** botoiak erabilgarri daude gastu berriak sartzen direnean, gastu lerroak azkar sartzen laguntzeko. |
-| Ikusgarritasun hobea lerro zatitu eta zehatzetan | Lerro xehatuak eta zatituak zuzenean gehitzen dira gastuen zerrendan ikusgarritasuna handitzeko eta akatsik dagoen ala ez erraz zehazten laguntzeko. |
-| Erakutsi ordainagiriak zehaztapenean | Ordainagiriak ezin dira erakutsi zehaztapenean. |
+| <span data-ttu-id="1822b-127">Gastuak eremuaren ikusgaitasuna</span><span class="sxs-lookup"><span data-stu-id="1822b-127">Expense field visibility</span></span> | <span data-ttu-id="1822b-128">Konfigurazio orri berri batek erakunde batentzat zein eremu desgaitu behar diren, zein eremu behar diren eta zein eremu gomendagarriak diren zehazteko aukera ematen du.</span><span class="sxs-lookup"><span data-stu-id="1822b-128">A new setup page lets you specify which fields should be disabled for an organization, which fields should be required, and which fields are recommended.</span></span> |
+| <span data-ttu-id="1822b-129">Beharrezko eremuak</span><span class="sxs-lookup"><span data-stu-id="1822b-129">Required fields</span></span> | <span data-ttu-id="1822b-130">Konfigurazio sinple berriak politika esparrua erabili beharrik gabe beharrezkoak diren zenbait eremu egin ditzakezu.</span><span class="sxs-lookup"><span data-stu-id="1822b-130">New simple configuration lets you make some fields required without having to use the policy framework.</span></span> |
+| <span data-ttu-id="1822b-131">Aukerako eremuak</span><span class="sxs-lookup"><span data-stu-id="1822b-131">Optional fields</span></span> | <span data-ttu-id="1822b-132">Aukerako eremuen bigarren orria gehitzen da.</span><span class="sxs-lookup"><span data-stu-id="1822b-132">A second page for optional fields is added.</span></span> <span data-ttu-id="1822b-133">Horrela, langileak ez dira eremuak ezarri beharko balituzte bezala sentituko, baina eremuak erraz eskuratzeko modukoak dira.</span><span class="sxs-lookup"><span data-stu-id="1822b-133">In this way, employees won't feel as if they must set the fields, but the fields are still easily accessible.</span></span> |
+| <span data-ttu-id="1822b-134">Erantsi gabeko erreziboak gehitu</span><span class="sxs-lookup"><span data-stu-id="1822b-134">Add unattached receipts</span></span> | <span data-ttu-id="1822b-135">Gastu-txostenean erantsi gabeko ordainagiriak gehitzeko gaitasuna lan-eremutik eta gastuen txostenean ikusgai dago.</span><span class="sxs-lookup"><span data-stu-id="1822b-135">The ability to add unattached receipts to expense report is more visible from the workspace and on the expense report.</span></span> |
+| <span data-ttu-id="1822b-136">Mezularitza hobetu da</span><span class="sxs-lookup"><span data-stu-id="1822b-136">Improved messaging</span></span> | <span data-ttu-id="1822b-137">Abisuak edo akatsak dituzten gastu lerroetan ikusgarritasun hobea dago.</span><span class="sxs-lookup"><span data-stu-id="1822b-137">There is better visibility into expense lines that have warnings or errors.</span></span> |
+| <span data-ttu-id="1822b-138">Mezuen murrizketa mezu barran</span><span class="sxs-lookup"><span data-stu-id="1822b-138">Reduction in messages in the message bar</span></span>| <span data-ttu-id="1822b-139">Infolog mezuen kopurua gutxitu egin zen eta kasu askotan mezu bikoiztuak agertzea ekiditeko ahalegina egin zen.</span><span class="sxs-lookup"><span data-stu-id="1822b-139">The number of Infolog messages was decreased, and an effort was made to prevent duplicate messages from appearing in many cases.</span></span> |
+| <span data-ttu-id="1822b-140">Ekintza komunak multzokatuta</span><span class="sxs-lookup"><span data-stu-id="1822b-140">Grouped together common actions</span></span> | <span data-ttu-id="1822b-141">Interfazea garbitu egin zen lerro mailako ekintza komun gehienetarako ekintza botoia gehituta eta elipsi botoia gehituta (...) goiburua eta gutxiagoko beste ekintza batzuetarako.</span><span class="sxs-lookup"><span data-stu-id="1822b-141">The interface was cleaned up with the addition of a new actions button for most of the common line-level actions and the addition of an ellipsis button (...) for header and other less frequent actions.</span></span> |
+| <span data-ttu-id="1822b-142">Laneko espazio berria ikusgarritasuna handitzeko</span><span class="sxs-lookup"><span data-stu-id="1822b-142">New workspace to increase visibility</span></span> | <span data-ttu-id="1822b-143">Laneko espazio berri batek erabiltzaileak arlo desberdinetara mugitzen uzten dituzten funtzioak eta estekak bateratzen ditu.</span><span class="sxs-lookup"><span data-stu-id="1822b-143">A new workspace unifies features and links that let users move to different areas.</span></span> |
+| <span data-ttu-id="1822b-144">Gehitu dauden gastuak eta ordainagiriak gastuak sortzean</span><span class="sxs-lookup"><span data-stu-id="1822b-144">Add existing expenses and receipts during expense creation</span></span> | <span data-ttu-id="1822b-145">Gastuen txostenak sortzen dituzunean, hautatutako gastuak eta ordainagiriak gehi ditzakezu.</span><span class="sxs-lookup"><span data-stu-id="1822b-145">When you create expense reports, you can add all or selected expenses and receipts.</span></span> |
+| <span data-ttu-id="1822b-146">Kanbio-tasaren kalkulagailua</span><span class="sxs-lookup"><span data-stu-id="1822b-146">Exchange rate calculator</span></span> | <span data-ttu-id="1822b-147">Dibisa anitzeko transakzioen kanbio-tasa kalkulatzeko aukera ematen duen kanbio-tasaren kalkulagailua gehitzen da.</span><span class="sxs-lookup"><span data-stu-id="1822b-147">An exchange rate calculator is added that lets you calculate the exchange rate for out-of-pocket multicurrency transactions.</span></span> |
+| <span data-ttu-id="1822b-148">Gorde eta gehitu gastu lerro berriak</span><span class="sxs-lookup"><span data-stu-id="1822b-148">Save and add new expense lines</span></span> | <span data-ttu-id="1822b-149">**Gorde** eta **Berria** botoiak erabilgarri daude gastu berriak sartzen direnean, gastu lerroak azkar sartzen laguntzeko.</span><span class="sxs-lookup"><span data-stu-id="1822b-149">**Save** and **New** buttons are available when new expenses are entered, to help you quickly enter expense lines.</span></span> |
+| <span data-ttu-id="1822b-150">Ikusgarritasun hobea lerro zatitu eta zehatzetan</span><span class="sxs-lookup"><span data-stu-id="1822b-150">Better visibility into split and itemized lines</span></span> | <span data-ttu-id="1822b-151">Lerro xehatuak eta zatituak zuzenean gehitzen dira gastuen zerrendan ikusgarritasuna handitzeko eta akatsik dagoen ala ez erraz zehazten laguntzeko.</span><span class="sxs-lookup"><span data-stu-id="1822b-151">Itemized and split lines are added directly to the list of expenses to increase visibility and help you easily determine whether there are any errors.</span></span> |
+| <span data-ttu-id="1822b-152">Erakutsi ordainagiriak zehaztapenean</span><span class="sxs-lookup"><span data-stu-id="1822b-152">Show receipts during itemization</span></span> | <span data-ttu-id="1822b-153">Ordainagiriak ezin dira erakutsi zehaztapenean.</span><span class="sxs-lookup"><span data-stu-id="1822b-153">Receipts can be shown during itemization.</span></span> |
 
-Hasierako bertsioa gastuak sartzeko eszenatokietara bideratuta dago. Gastuen txostenak berrikusteko edo onartzeko agertokiek lehendik dagoen gastua sartzeko orria erabiltzen jarraituko dute.
+<span data-ttu-id="1822b-154">Hasierako bertsioa gastuak sartzeko eszenatokietara bideratuta dago.</span><span class="sxs-lookup"><span data-stu-id="1822b-154">The initial release is focused on expense entry scenarios.</span></span> <span data-ttu-id="1822b-155">Gastuen txostenak berrikusteko edo onartzeko agertokiek lehendik dagoen gastua sartzeko orria erabiltzen jarraituko dute.</span><span class="sxs-lookup"><span data-stu-id="1822b-155">Any expense report review or approval scenario will continue to use the existing expense entry page.</span></span>
 
-Hurrengo eginbideak lehendik dauden orrian daude baina oraindik ez daude orri berrian. Ezaugarri hauek hurrengo bertsioetan berriro sartuko dira:
+<span data-ttu-id="1822b-156">Hurrengo eginbideak lehendik dauden orrian daude baina oraindik ez daude orri berrian.</span><span class="sxs-lookup"><span data-stu-id="1822b-156">The following features are present on the existing page but aren't yet present on the new page.</span></span> <span data-ttu-id="1822b-157">Ezaugarri hauek hurrengo bertsioetan berriro sartuko dira:</span><span class="sxs-lookup"><span data-stu-id="1822b-157">These features will be reintroduced over the next several releases:</span></span>
 
-- Onarpenak
-- Ordaindu beharreko kontuen onarpenak eta kontabilitatea editatzeko gaitasuna
-- Sarrera puntu anitz
-- Bidaiatzeko eskakizunen integrazioa
-- Gastuen eremuko ikusgarritasuna lortzeko datu-entitatea
-- Eguneko gastuetarako sarrera
-- Linea mailako lan-fluxua
-- Behin-behineko onarpen laguntza
-- Zehaztapen aurreratua
+- <span data-ttu-id="1822b-158">Onarpenak</span><span class="sxs-lookup"><span data-stu-id="1822b-158">Approvals</span></span>
+- <span data-ttu-id="1822b-159">Ordaindu beharreko kontuen onarpenak eta kontabilitatea editatzeko gaitasuna</span><span class="sxs-lookup"><span data-stu-id="1822b-159">Accounts payable approvals and the ability to edit the accounting</span></span>
+- <span data-ttu-id="1822b-160">Sarrera puntu anitz</span><span class="sxs-lookup"><span data-stu-id="1822b-160">Multiple entry points</span></span>
+- <span data-ttu-id="1822b-161">Bidaiatzeko eskakizunen integrazioa</span><span class="sxs-lookup"><span data-stu-id="1822b-161">Travel requisition integration</span></span>
+- <span data-ttu-id="1822b-162">Gastuen eremuko ikusgarritasuna lortzeko datu-entitatea</span><span class="sxs-lookup"><span data-stu-id="1822b-162">Data entity for expense field visibility</span></span>
+- <span data-ttu-id="1822b-163">Eguneko gastuetarako sarrera</span><span class="sxs-lookup"><span data-stu-id="1822b-163">Entry for per-diem expenses</span></span>
+- <span data-ttu-id="1822b-164">Linea mailako lan-fluxua</span><span class="sxs-lookup"><span data-stu-id="1822b-164">Line-level workflow</span></span>
+- <span data-ttu-id="1822b-165">Behin-behineko onarpen laguntza</span><span class="sxs-lookup"><span data-stu-id="1822b-165">Interim approver support</span></span>
+- <span data-ttu-id="1822b-166">Zehaztapen aurreratua</span><span class="sxs-lookup"><span data-stu-id="1822b-166">Advanced itemization</span></span>

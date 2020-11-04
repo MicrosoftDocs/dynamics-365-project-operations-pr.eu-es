@@ -9,96 +9,96 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: ff624a13ec88ae64dba18715fbe9b94353b070e8
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961811"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070954"
 ---
-# <a name="navigating-the-user-interface"></a>Erabiltzailearen interfazean nabigatzea
+# <a name="navigating-the-user-interface"></a><span data-ttu-id="cfd85-103">Erabiltzailearen interfazean nabigatzea</span><span class="sxs-lookup"><span data-stu-id="cfd85-103">Navigating the user interface</span></span>
 
-_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
+<span data-ttu-id="cfd85-104">_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_</span><span class="sxs-lookup"><span data-stu-id="cfd85-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-## <a name="overview"></a>Informazio orokorra
+## <a name="overview"></a><span data-ttu-id="cfd85-105">Informazio orokorra</span><span class="sxs-lookup"><span data-stu-id="cfd85-105">Overview</span></span>
 
-Proiektuaren forma nagusia hainbat fitxatan banatuta dago. Fitxa bakoitzak xehetasun maila desberdina adierazten du proiektuaren barruan.
+<span data-ttu-id="cfd85-106">Proiektuaren forma nagusia hainbat fitxatan banatuta dago.</span><span class="sxs-lookup"><span data-stu-id="cfd85-106">The main project form is separated into several tabs.</span></span> <span data-ttu-id="cfd85-107">Fitxa bakoitzak xehetasun maila desberdina adierazten du proiektuaren barruan.</span><span class="sxs-lookup"><span data-stu-id="cfd85-107">Each tab represents a different level of detail within the project.</span></span>
 
-- **Laburpena**: Proiektuaren deskribapena eskaintzen du eta aurreikusitako eta benetako errendimendua biltzen ditu.
+- <span data-ttu-id="cfd85-108">**Laburpena** : Proiektuaren deskribapena eskaintzen du eta aurreikusitako eta benetako errendimendua biltzen ditu.</span><span class="sxs-lookup"><span data-stu-id="cfd85-108">**Summary** : Provides a description of the project and aggregates both the planned and actual project performance.</span></span>
 
     ![Laburpen fitxa eta eremuak](media/navigation7.png)
 
-- **Zereginak**: Sarearen ikuspegiak, arbelaren ikuspegiak eta gantt batek irudikatutako lanaren banakako egiturari buruzko xehetasunak ematen ditu.
+- <span data-ttu-id="cfd85-110">**Zereginak** : Sarearen ikuspegiak, arbelaren ikuspegiak eta gantt batek irudikatutako lanaren banakako egiturari buruzko xehetasunak ematen ditu.</span><span class="sxs-lookup"><span data-stu-id="cfd85-110">**Tasks** : Provides the details regarding the work breakdown structure represented by a grid view, board view, and a gantt.</span></span>
 
     ![Zeregina fitxa eta eremuak](media/navigation8.png)
 
-- **Taldea**: Proiektuaren parte-hartzaileei buruzko xehetasunak ematen ditu. Taldekide bakoitzaren esfortzua ere ikuspegi honetan laburbiltzen da.
+- <span data-ttu-id="cfd85-112">**Taldea** : Proiektuaren parte-hartzaileei buruzko xehetasunak ematen ditu.</span><span class="sxs-lookup"><span data-stu-id="cfd85-112">**Team** : Provides details regarding the project participants.</span></span> <span data-ttu-id="cfd85-113">Taldekide bakoitzaren esfortzua ere ikuspegi honetan laburbiltzen da.</span><span class="sxs-lookup"><span data-stu-id="cfd85-113">The assigned effort of each team member is also summarized in this view.</span></span>
 
     ![Taldea fitxa eta eremuak](media/navigation9.png)
 
-- **Baliabideen esleipena**: Proiektu bateko baliabide bakoitzaren esfortzuaren denborazko ikuspegia eskaintzen du.
+- <span data-ttu-id="cfd85-115">**Baliabideen esleipena** : Proiektu bateko baliabide bakoitzaren esfortzuaren denborazko ikuspegia eskaintzen du.</span><span class="sxs-lookup"><span data-stu-id="cfd85-115">**Resource assignments** : Provides a time-phased view of the effort for each resource on a project.</span></span>
 
     ![Baliabideak esleitzeko fitxa eta eremuak](media/navigation10.png)
 
-- **Baliabideen bateratzea**: Izendatutako baliabide bakoitzaren esleipenen eta haien erreserben arteko desberdintasunak denborazko ikuspegia eskaintzen du.
+- <span data-ttu-id="cfd85-117">**Baliabideen bateratzea** : Izendatutako baliabide bakoitzaren esleipenen eta haien erreserben arteko desberdintasunak denborazko ikuspegia eskaintzen du.</span><span class="sxs-lookup"><span data-stu-id="cfd85-117">**Resource reconciliation** : Provides a time-phased view of the differences between the assignments of each named resource and their bookings.</span></span>
 
     ![Baliabideak kontziliatzeko fitxa eta eremuak](media/navigation11.png)
 
-- **Aurrekontuak**: Proiektu baten kostuen eta salmenten kalkuluen denborazko ikuspegia eskaintzen du.
+- <span data-ttu-id="cfd85-119">**Aurrekontuak** : Proiektu baten kostuen eta salmenten kalkuluen denborazko ikuspegia eskaintzen du.</span><span class="sxs-lookup"><span data-stu-id="cfd85-119">**Estimates** : Provides a time-phased view of the cost and sales estimates of a project.</span></span>
 
     ![Aurreikuspenak fitxa eta eremuak](media/navigation12.png)
 
-- **Jarraipena**: Lanaren banakako egituran zereginen aurrerapena erakusten duen ikuspegia eskaintzen du, kostua eta salmentak lortzeko.
+- <span data-ttu-id="cfd85-121">**Jarraipena** : Lanaren banakako egituran zereginen aurrerapena erakusten duen ikuspegia eskaintzen du, kostua eta salmentak lortzeko.</span><span class="sxs-lookup"><span data-stu-id="cfd85-121">**Tracking** : Provides a view that shows the progress of tasks in the work breakdown structure for effort, cost, and sales.</span></span>
 
     ![Jarraipena fitxa eta eremuak](media/navigation13.png)
 
-- **Salmentak**: Proiektuarekin lotutako aurrekontu eta kontratuekin lotura sakonak eskaintzen ditu.
+- <span data-ttu-id="cfd85-123">**Salmentak** : Proiektuarekin lotutako aurrekontu eta kontratuekin lotura sakonak eskaintzen ditu.</span><span class="sxs-lookup"><span data-stu-id="cfd85-123">**Sales** : Provides deep links to quotes and contracts associated with the project.</span></span>
 
-- **Gastuen aurreikuspenak**: Antolaketako gastuen kategorien arabera proiektuaren gastuak definitzen dituen sareta eskaintzen du.
+- <span data-ttu-id="cfd85-124">**Gastuen aurreikuspenak** : Antolaketako gastuen kategorien arabera proiektuaren gastuak definitzen dituen sareta eskaintzen du.</span><span class="sxs-lookup"><span data-stu-id="cfd85-124">**Expense Estimates** : Provides a grid that defines project expenses based upon organizational expense categories.</span></span>
 
     ![Gastuen aurreikuspenak fitxa eta eremuak](media/navigation14.png)
 
-## <a name="grid-controls"></a>Sareta kontrolak
+## <a name="grid-controls"></a><span data-ttu-id="cfd85-126">Sareta kontrolak</span><span class="sxs-lookup"><span data-stu-id="cfd85-126">Grid controls</span></span>
 
-Jarraian proiektuaren plangintza fitxetan dauden kontrol tipikoen ikuspegi laburra da.
+<span data-ttu-id="cfd85-127">Jarraian proiektuaren plangintza fitxetan dauden kontrol tipikoen ikuspegi laburra da.</span><span class="sxs-lookup"><span data-stu-id="cfd85-127">The follow is a brief overview of the typical controls found on the various project planning tabs.</span></span>
 
-### <a name="refresh"></a>Freskatu
+### <a name="refresh"></a><span data-ttu-id="cfd85-128">Freskatu</span><span class="sxs-lookup"><span data-stu-id="cfd85-128">Refresh</span></span>
 
-**Freskatu**: Zerbitzariaren azken datuak berreskuratzen ditu sareta kargatu ondoren aldaketarik gertatu bada.
+<span data-ttu-id="cfd85-129">**Freskatu** : Zerbitzariaren azken datuak berreskuratzen ditu sareta kargatu ondoren aldaketarik gertatu bada.</span><span class="sxs-lookup"><span data-stu-id="cfd85-129">**Refresh** : Retrieves the latest data from the server if any changes occurred after the grid was loaded.</span></span>
 
 ![Freskatzeko botoia](media/navigation7.png)
 
-### <a name="group-by"></a>Balioak taldekatzeko irizpidea
+### <a name="group-by"></a><span data-ttu-id="cfd85-131">Balioak taldekatzeko irizpidea</span><span class="sxs-lookup"><span data-stu-id="cfd85-131">Group by</span></span>
 
-**Taldekatu**: Sarean dauden errenkaden taldekatzea eguneratzen du, erabiltzailearen beharren arabera baliabideak, rolak edo kategoriak islatzeko.
+<span data-ttu-id="cfd85-132">**Taldekatu** : Sarean dauden errenkaden taldekatzea eguneratzen du, erabiltzailearen beharren arabera baliabideak, rolak edo kategoriak islatzeko.</span><span class="sxs-lookup"><span data-stu-id="cfd85-132">**Group by** : Updates the grouping of the rows in the grid to reflect either resources, roles, or categories based on the user's needs.</span></span>
 
 ![Taldekatu botoika](media/navigation6.png)
 
-### <a name="previousnext"></a>Aurrekoa/Hurrengoa
+### <a name="previousnext"></a><span data-ttu-id="cfd85-134">Aurrekoa/Hurrengoa</span><span class="sxs-lookup"><span data-stu-id="cfd85-134">Previous/Next</span></span>
 
-**Aurrekoa**/**Hurrengoa**: Ikusi denbora-faseak saretan ikusgai dauden denborak.
+<span data-ttu-id="cfd85-135">**Aurrekoa**/**Hurrengoa** : Ikusi denbora-faseak saretan ikusgai dauden denborak.</span><span class="sxs-lookup"><span data-stu-id="cfd85-135">**Previous**/**Next** : Update the visible time periods on the time-phased grids.</span></span>
 
 ![Aurreko eta Hurrengo botoiak](media/navigation2.png)
 
-### <a name="timescale"></a>Denbora-eskala
+### <a name="timescale"></a><span data-ttu-id="cfd85-137">Denbora-eskala</span><span class="sxs-lookup"><span data-stu-id="cfd85-137">Timescale</span></span>
 
-**Denbora-eskala**: Aldatu denbora-faseko datuen batuketa egun, aste, hilabete eta urteen artean.
+<span data-ttu-id="cfd85-138">**Denbora-eskala** : Aldatu denbora-faseko datuen batuketa egun, aste, hilabete eta urteen artean.</span><span class="sxs-lookup"><span data-stu-id="cfd85-138">**Timescale** : Change the aggregation of the time-phased data between days, weeks, months, and years.</span></span>
 
 ![Denboraren eskala botoia](media/navigation3.png)
 
-### <a name="expand"></a>Hedatu
+### <a name="expand"></a><span data-ttu-id="cfd85-140">Hedatu</span><span class="sxs-lookup"><span data-stu-id="cfd85-140">Expand</span></span>
 
-**Zabaldu**: Itzuli ikusgai dagoen sareta pantaila osora, rol osagarriak ikusteko gaitasun handiagoa eskainiz.
+<span data-ttu-id="cfd85-141">**Zabaldu** : Itzuli ikusgai dagoen sareta pantaila osora, rol osagarriak ikusteko gaitasun handiagoa eskainiz.</span><span class="sxs-lookup"><span data-stu-id="cfd85-141">**Expand** : Render the visible grid to full screen providing more ability to see additional roles.</span></span>
 
 ![Zabaldu botoia](media/navigation4.png)
 
-### <a name="time-phase-by"></a>Ordu-fasea honen arabera
+### <a name="time-phase-by"></a><span data-ttu-id="cfd85-143">Ordu-fasea honen arabera</span><span class="sxs-lookup"><span data-stu-id="cfd85-143">Time-phase by</span></span>
 
-**Denboraren fasea**: Sareratu errenkaden taldekatzea, salmenten kalkuluen kostuen kalkuluak islatzeko. Kontrol hau estimazio scriptari eta jarraipen saretari ere aplikatzen zaie.
+<span data-ttu-id="cfd85-144">**Denboraren fasea** : Sareratu errenkaden taldekatzea, salmenten kalkuluen kostuen kalkuluak islatzeko.</span><span class="sxs-lookup"><span data-stu-id="cfd85-144">**Time-phase by** : Update the grouping of the rows in the grid to reflect cost estimates for sales estimates.</span></span> <span data-ttu-id="cfd85-145">Kontrol hau estimazio scriptari eta jarraipen saretari ere aplikatzen zaie.</span><span class="sxs-lookup"><span data-stu-id="cfd85-145">This control also applies to the estimate script and the tracking grid.</span></span>
 
 ![Ordu-fasea botoien arabera](media/navigation0.png)
 
-### <a name="add-column"></a>Gehitu zutabea
+### <a name="add-column"></a><span data-ttu-id="cfd85-147">Gehitu zutabea</span><span class="sxs-lookup"><span data-stu-id="cfd85-147">Add column</span></span>
 
-**Gehitu zutabea**: Erabiltzaileari sarean ikusgai dauden zutabeak definitzeko aukera ematen dio. Kutxaz kanpoko zutabeak soilik gehitu daitezke sarean **Proiektuaren plangintza** inprimakia.
+<span data-ttu-id="cfd85-148">**Gehitu zutabea** : Erabiltzaileari sarean ikusgai dauden zutabeak definitzeko aukera ematen dio.</span><span class="sxs-lookup"><span data-stu-id="cfd85-148">**Add column** : Allows the user to define the visible columns in the grid.</span></span> <span data-ttu-id="cfd85-149">Kutxaz kanpoko zutabeak soilik gehitu daitezke sarean **Proiektuaren plangintza** inprimakia.</span><span class="sxs-lookup"><span data-stu-id="cfd85-149">Only out-of-the-box columns can be added to the grids in the **Project Planning** form.</span></span>
 
 ![Gehitu zutabea botoia](media/navigation5.png)

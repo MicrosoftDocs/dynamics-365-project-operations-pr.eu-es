@@ -3,139 +3,144 @@ title: Denbora-sarrerak luzatzea
 description: Gai honetan garatzaileek denbora sartzeko kontrola nola luzatu dezaketen buruzko informazioa ematen da.
 author: stsporen
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 93f411ad7c86beefcc35e7799a03987dacdcd62b
-ms.sourcegitcommit: 5a29adce48133e09f051929e8544d6c2c93c025d
+ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3930865"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070935"
 ---
-# <a name="extending-time-entries"></a>Denbora-sarrerak luzatzea
+# <a name="extending-time-entries"></a><span data-ttu-id="2aa80-103">Denbora-sarrerak luzatzea</span><span class="sxs-lookup"><span data-stu-id="2aa80-103">Extending time entries</span></span>
 
-_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
+<span data-ttu-id="2aa80-104">_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_</span><span class="sxs-lookup"><span data-stu-id="2aa80-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Dynamics 365 Project Operations-ek denbora sartzeko kontrol pertsonalizagarria luzagarria du. Kontrol honek eginbide hauk ditu:
+<span data-ttu-id="2aa80-105">Dynamics 365 Project Operations-ek denbora sartzeko kontrol pertsonalizagarria luzagarria du.</span><span class="sxs-lookup"><span data-stu-id="2aa80-105">Dynamics 365 Project Operations includes an extendable time entry custom control.</span></span> <span data-ttu-id="2aa80-106">Kontrol honek eginbide hauk ditu:</span><span class="sxs-lookup"><span data-stu-id="2aa80-106">This control includes the following features:</span></span>
 
-- Sartu denbora astean horizontalean
-- Eguneko, errenkadako edo asteko guztizkoak
-- Kopiatu errenkadak edo asteak
-- Denbora sarrera HH bidez: mm edo HH:hh (automatikoki HH:hh bihurtzen da)
-- Inportatu zereginetatik, erreserbetatik edo hitzorduetatik
+- <span data-ttu-id="2aa80-107">Sartu denbora astean horizontalean</span><span class="sxs-lookup"><span data-stu-id="2aa80-107">Enter time horizontally over a week</span></span>
+- <span data-ttu-id="2aa80-108">Eguneko, errenkadako edo asteko guztizkoak</span><span class="sxs-lookup"><span data-stu-id="2aa80-108">Totals by day, row, or week</span></span>
+- <span data-ttu-id="2aa80-109">Kopiatu errenkadak edo asteak</span><span class="sxs-lookup"><span data-stu-id="2aa80-109">Copy rows or weeks</span></span>
+- <span data-ttu-id="2aa80-110">Denbora sarrera HH bidez: mm edo HH:hh (automatikoki HH:hh bihurtzen da)</span><span class="sxs-lookup"><span data-stu-id="2aa80-110">Time entry through HH:mm or HH.hh (automatically converts to HH.hh)</span></span>
+- <span data-ttu-id="2aa80-111">Inportatu zereginetatik, erreserbetatik edo hitzorduetatik</span><span class="sxs-lookup"><span data-stu-id="2aa80-111">Import from assignments, bookings, or appointments</span></span>
 
-Denbora sarrerak luzatzea posible da bi eremutan:
-- [Gehitu denbora pertsonalizatutako sarrera zure erabilerarako](#add)
-- [Pertsonalizatu asteroko denbora-sarreraren kontrola](#customize)
+<span data-ttu-id="2aa80-112">Denbora sarrerak luzatzea posible da bi eremutan:</span><span class="sxs-lookup"><span data-stu-id="2aa80-112">Extending time entries is possible in two areas:</span></span>
+- [<span data-ttu-id="2aa80-113">Gehitu denbora pertsonalizatutako sarrera zure erabilerarako</span><span class="sxs-lookup"><span data-stu-id="2aa80-113">Add custom time entries for your own use</span></span>](#add)
+- [<span data-ttu-id="2aa80-114">Pertsonalizatu asteroko denbora-sarreraren kontrola</span><span class="sxs-lookup"><span data-stu-id="2aa80-114">Customize the weekly Time Entry control</span></span>](#customize)
 
-## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Gehitu denbora pertsonalizatutako sarrera zure erabilerarako.
+## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a><span data-ttu-id="2aa80-115">Gehitu denbora pertsonalizatutako sarrera zure erabilerarako</span><span class="sxs-lookup"><span data-stu-id="2aa80-115">Add custom time entries for your own use</span></span>
 
-Denbora-sarrerak agertoki anitzetarako erabiltzeko diseinatutako entitate nagusia dira. 2020ko apirilaren 1ean, TESA core irtenbidea aurkeztu zen, eta horrek eskaintzen du **Ezarpenak** entitatea eta berria **Denbora sartzeko erabiltzailea** segurtasun-funtzio. Eremu berriak, **msdyn_start** eta **msdyn_end** erlazio zuzena dutenak **msdyn_duration**, ere sartu ziren. Entitate berriak, segurtasun-funtzio, eta eremuek produktuaren arteko denborarekiko ikuspegi bateratuagoa ahalbidetzen dute.
+<span data-ttu-id="2aa80-116">Denbora-sarrerak agertoki anitzetan erabilitako oinarrizko entitatea dira.</span><span class="sxs-lookup"><span data-stu-id="2aa80-116">Time entries are a core entity used in multiple scenarios.</span></span> <span data-ttu-id="2aa80-117">2020ko apirilaren 1ean, TESAren oinarrizko irtenbidea aurkeztu zen.</span><span class="sxs-lookup"><span data-stu-id="2aa80-117">In April Wave 1 2020, the TESA core solution was introduced.</span></span> <span data-ttu-id="2aa80-118">TESAk eskaintzen du **Ezarpenak** entitatea eta berria **Denbora sartzeko erabiltzailea** segurtasun-funtzio.</span><span class="sxs-lookup"><span data-stu-id="2aa80-118">TESA provides a **Settings** entity and a new **Time Entry User** security role.</span></span> <span data-ttu-id="2aa80-119">Eremu berriak, **msdyn_start** eta **msdyn_end** erlazio zuzena dutenak **msdyn_duration** , ere sartu ziren.</span><span class="sxs-lookup"><span data-stu-id="2aa80-119">The new fields, **msdyn_start** and **msdyn_end** , which have a direct relation to **msdyn_duration** , were also included.</span></span> <span data-ttu-id="2aa80-120">Entitate berriak, segurtasun-funtzio, eta eremuek produktuaren arteko denborarekiko ikuspegi bateratuagoa ahalbidetzen dute.</span><span class="sxs-lookup"><span data-stu-id="2aa80-120">The new entity, security role, and fields allow for a more unified approach to time across multiple products.</span></span>
 
 
-### <a name="time-source-entity"></a>Denboraren iturburuko entitatea
-| Eremua | Deskribapena | 
+### <a name="time-source-entity"></a><span data-ttu-id="2aa80-121">Denboraren iturburuko entitatea</span><span class="sxs-lookup"><span data-stu-id="2aa80-121">Time source entity</span></span>
+| <span data-ttu-id="2aa80-122">Eremua</span><span class="sxs-lookup"><span data-stu-id="2aa80-122">Field</span></span> | <span data-ttu-id="2aa80-123">Deskribapena</span><span class="sxs-lookup"><span data-stu-id="2aa80-123">Description</span></span> | 
 |-------|------------|
-| Izena  | Denbora sorkuntzan hautapen balio gisa erabilitako denbora iturriaren sarreraren izena. |
-| Denbora iturri lehenetsia [Denbora iturria: isdefault] | Berez, denbora iturri bakarra markatu daiteke denbora iturri lehenetsian. Gaitasun horri esker, sarrerak denbora-iturri lehenetsi daitezke, zehazten ez bada. |
-|Denbora iturri mota [Denbora iturria: sourcetype] | Iturri mota denbora iturria aplikazio batekin elkartzea ahalbidetzen duen aukera da (Time Entry Source Type). Aukera multzo honi balio osagarriak gehituko zaizkio aplikazio osagarriak gehitu ahala. Kontuan izan Microsoftek 190.000.000 baino balio handiagoak gordetzen dituela.|
+| <span data-ttu-id="2aa80-124">Eman izena</span><span class="sxs-lookup"><span data-stu-id="2aa80-124">Name</span></span>  | <span data-ttu-id="2aa80-125">Denbora sorkuntzan hautapen balio gisa erabilitako denbora iturriaren sarreraren izena.</span><span class="sxs-lookup"><span data-stu-id="2aa80-125">The name of the Time source entry used as the selection value when creating time entries.</span></span> |
+| <span data-ttu-id="2aa80-126">Denbora iturri lehenetsia [Denbora iturria: isdefault]</span><span class="sxs-lookup"><span data-stu-id="2aa80-126">Default Time Source [Time Source: isdefault]</span></span> | <span data-ttu-id="2aa80-127">Berez, denbora iturri bakarra markatu daiteke denbora lehenetsian.</span><span class="sxs-lookup"><span data-stu-id="2aa80-127">By default, only one Time Source can be marked at the default.</span></span> <span data-ttu-id="2aa80-128">Horri esker, sarrerak denbora-iturri lehenetsi daitezke, zehazten ez bada.</span><span class="sxs-lookup"><span data-stu-id="2aa80-128">This allows for entries to default to a time source if one isn't specified.</span></span> |
+|<span data-ttu-id="2aa80-129">Denbora iturri mota [Denbora iturria: sourcetype]</span><span class="sxs-lookup"><span data-stu-id="2aa80-129">Time Source Type [Time Source: sourcetype]</span></span> | <span data-ttu-id="2aa80-130">Iturri mota denbora iturria aplikazio batekin elkartzea ahalbidetzen duen aukera da (Time Entry Source Type).</span><span class="sxs-lookup"><span data-stu-id="2aa80-130">The source type is an option (Time Entry Source Type) that allows for the association of the time source to an app.</span></span> <span data-ttu-id="2aa80-131">Microsoft-ek 190.000.000 baino balio handiagoak gordetzen dituela.</span><span class="sxs-lookup"><span data-stu-id="2aa80-131">Microsoft reserves values greater than 190,000,000.</span></span>|
 
 
-### <a name="time-entries-and-the-time-source-entity"></a>Denbora-sarrerak eta Time Source Entity
-Denbora-sarrera bakoitza denbora-iturburu erregistro batekin lotzen da. Erregistro honek zehazten du nola eta zein aplikaziotan prozesatu behar duten denbora sarrera.
+### <a name="time-entries-and-the-time-source-entity"></a><span data-ttu-id="2aa80-132">Denbora-sarrerak eta denbora-iturburuaren entitatea</span><span class="sxs-lookup"><span data-stu-id="2aa80-132">Time entries and the Time source entity</span></span>
+<span data-ttu-id="2aa80-133">Denbora-sarrera bakoitza denbora-iturburu erregistro batekin lotzen da.</span><span class="sxs-lookup"><span data-stu-id="2aa80-133">Each time entry is associated to a time source record.</span></span> <span data-ttu-id="2aa80-134">Erregistro honek zehazten du nola eta zein aplikaziotan prozesatu behar duten denbora sarrera.</span><span class="sxs-lookup"><span data-stu-id="2aa80-134">This record determines how and which applications should process the time entry.</span></span>
 
-Denbora-sarrerak hasierako, amaierako eta iraupenarekin lotuta dauden denbora-blokeak dira.
+<span data-ttu-id="2aa80-135">Denbora-sarrerak hasierako, amaierako eta iraupenarekin lotuta dauden denbora-blokeak dira.</span><span class="sxs-lookup"><span data-stu-id="2aa80-135">Time entries are always one contiguous block of time with the start, end, and duration linked.</span></span>
 
-Logikak denbora sartzeko erregistroa automatikoki eguneratuko du egoera hauetan:
+<span data-ttu-id="2aa80-136">Logikak denbora sartzeko erregistroa automatikoki eguneratuko du egoera hauetan:</span><span class="sxs-lookup"><span data-stu-id="2aa80-136">The logic will automatically update the time entry record in the following situations:</span></span>
 
-- Hurrengo hiru eremuetatik bi ematen badira, hirugarrena automatikoki kalkulatuko da 
+- <span data-ttu-id="2aa80-137">Hurrengo hiru eremuetatik bi ematen badira, hirugarrena automatikoki kalkulatuko da:</span><span class="sxs-lookup"><span data-stu-id="2aa80-137">If two of the three following fields are provided, the third is calculated automatically:</span></span> 
 
-    - **msdyn_start**
-    - **msdyn_end**
-    - **msdyn_duration**
+    - <span data-ttu-id="2aa80-138">**msdyn_start**</span><span class="sxs-lookup"><span data-stu-id="2aa80-138">**msdyn_start**</span></span>
+    - <span data-ttu-id="2aa80-139">**msdyn_end**</span><span class="sxs-lookup"><span data-stu-id="2aa80-139">**msdyn_end**</span></span>
+    - <span data-ttu-id="2aa80-140">**msdyn_duration**</span><span class="sxs-lookup"><span data-stu-id="2aa80-140">**msdyn_duration**</span></span>
 
-- Eremuak, **msdyn_start** eta **msdyn_end** ordu-eremua ezagutzen dute.
-- Denbora-sarrerak soilik sortutakoarekin **msdyn_date** eta **msdyn_duration** zehaztutako gauerdian hasiko da, eta **msdyn_start** eta **msdyn_end** eguneratu egingo da.
+- <span data-ttu-id="2aa80-141">Eremuak, **msdyn_start** eta **msdyn_end** ordu-eremua ezagutzen dute.</span><span class="sxs-lookup"><span data-stu-id="2aa80-141">The fields, **msdyn_start** and **msdyn_end** are timezone aware.</span></span>
+- <span data-ttu-id="2aa80-142">Denbora-sarrerak soilik sortutakoarekin **msdyn_date** eta **msdyn_duration** zehaztutako gauerdian hasiko da.</span><span class="sxs-lookup"><span data-stu-id="2aa80-142">Time entries created with only **msdyn_date** and **msdyn_duration** specified will start at midnight.</span></span> <span data-ttu-id="2aa80-143">**msdyn_start** eta **msdyn_end** eremuak eguneratu egingo dira.</span><span class="sxs-lookup"><span data-stu-id="2aa80-143">The **msdyn_start** and **msdyn_end** fields will update accordingly.</span></span>
 
-#### <a name="time-entry-types"></a>Denbora-sarrera motak
+#### <a name="time-entry-types"></a><span data-ttu-id="2aa80-144">Denbora-sarrera motak</span><span class="sxs-lookup"><span data-stu-id="2aa80-144">Time entry types</span></span>
 
-Denbora sartzeko erregistroek lotutako aplikazioa aurkezteko fluxuan portaera definitzen duen mota lotua dute.
+<span data-ttu-id="2aa80-145">Denbora sartzeko erregistroek lotutako aplikazioa aurkezteko fluxuan portaera definitzen duen mota lotua dute.</span><span class="sxs-lookup"><span data-stu-id="2aa80-145">Time entry records have an associated type that defines the behavior in the submission flow for the associated application.</span></span>
 
-|Etiketa | Balioa|
+|<span data-ttu-id="2aa80-146">Etiketa</span><span class="sxs-lookup"><span data-stu-id="2aa80-146">Label</span></span> | <span data-ttu-id="2aa80-147">Balioa</span><span class="sxs-lookup"><span data-stu-id="2aa80-147">Value</span></span>|
 |-----|-----|
-|Atsedenean   |192,355,000|
-|Bidaia | 192,355,001|
-|Aparteko orduak   | 192,354,320|
-|Lana   | 192,350,000|
-|Laneko huts-egitea    | 192,350,001|
-|Opor-eguna   | 192,350,002|
+|<span data-ttu-id="2aa80-148">Atsedenean</span><span class="sxs-lookup"><span data-stu-id="2aa80-148">On break</span></span>   |<span data-ttu-id="2aa80-149">192,355,000</span><span class="sxs-lookup"><span data-stu-id="2aa80-149">192,355,000</span></span>|
+|<span data-ttu-id="2aa80-150">Bidaia</span><span class="sxs-lookup"><span data-stu-id="2aa80-150">Travel</span></span> | <span data-ttu-id="2aa80-151">192,355,001</span><span class="sxs-lookup"><span data-stu-id="2aa80-151">192,355,001</span></span>|
+|<span data-ttu-id="2aa80-152">Aparteko orduak</span><span class="sxs-lookup"><span data-stu-id="2aa80-152">Overtime</span></span>   | <span data-ttu-id="2aa80-153">192,354,320</span><span class="sxs-lookup"><span data-stu-id="2aa80-153">192,354,320</span></span>|
+|<span data-ttu-id="2aa80-154">Lana</span><span class="sxs-lookup"><span data-stu-id="2aa80-154">Work</span></span>   | <span data-ttu-id="2aa80-155">192,350,000</span><span class="sxs-lookup"><span data-stu-id="2aa80-155">192,350,000</span></span>|
+|<span data-ttu-id="2aa80-156">Laneko huts-egitea</span><span class="sxs-lookup"><span data-stu-id="2aa80-156">Absence</span></span>    | <span data-ttu-id="2aa80-157">192,350,001</span><span class="sxs-lookup"><span data-stu-id="2aa80-157">192,350,001</span></span>|
+|<span data-ttu-id="2aa80-158">Opor-eguna</span><span class="sxs-lookup"><span data-stu-id="2aa80-158">Vacation</span></span>   | <span data-ttu-id="2aa80-159">192,350,002</span><span class="sxs-lookup"><span data-stu-id="2aa80-159">192,350,002</span></span>|
 
 
 
-## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Pertsonalizatu asteroko denbora-sarreraren kontrola
-Garatzaileek eremu eta bilaketak gehi ditzakete beste entitate batzuetara eta negozio arau pertsonalizatuak ezar ditzakete beren negozio eszenatokiei laguntzeko.
+## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a><span data-ttu-id="2aa80-160">Pertsonalizatu asteroko denbora-sarreraren kontrola</span><span class="sxs-lookup"><span data-stu-id="2aa80-160">Customize the weekly Time entry control</span></span>
+<span data-ttu-id="2aa80-161">Garatzaileek eremu eta bilaketak gehi ditzakete beste entitate batzuetara eta negozio arau pertsonalizatuak ezar ditzakete beren negozio eszenatokiei laguntzeko.</span><span class="sxs-lookup"><span data-stu-id="2aa80-161">Developers can add additional fields and lookups to other entities, and implement custom business rules to support their business scenarios.</span></span>
 
-### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Gehitu bilaketak dituzten eremu pertsonalizatuak beste entitateetan
-Asteko denbora-sarrera saretan eremu pertsonalizatua gehitzeko hiru urrats nagusi daude.
+### <a name="add-custom-fields-with-lookups-to-other-entities"></a><span data-ttu-id="2aa80-162">Gehitu bilaketak dituzten eremu pertsonalizatuak beste entitateetan</span><span class="sxs-lookup"><span data-stu-id="2aa80-162">Add custom fields with lookups to other entities</span></span>
+<span data-ttu-id="2aa80-163">Asteko denbora-sarrera saretan eremu pertsonalizatua gehitzeko hiru urrats nagusi daude.</span><span class="sxs-lookup"><span data-stu-id="2aa80-163">There are three main steps to adding a custom field to the weekly time entry grid.</span></span>
 
-- Gehitu pertsonalizatutako eremua sorrera bizkorreko elkarrizketa-koadroan.
-- Konfiguratu sareta pertsonalizatutako eremua erakusteko.
-- Gehitu eremu pertsonalizatua errenkadaren zeregin-fluxura edo gelaxka editatzeko zeregin-fluxura.
+1. <span data-ttu-id="2aa80-164">Gehitu pertsonalizatutako eremua sorrera bizkorreko elkarrizketa-koadroan.</span><span class="sxs-lookup"><span data-stu-id="2aa80-164">Add the custom field to the quick create dialog box.</span></span>
+2. <span data-ttu-id="2aa80-165">Konfiguratu sareta pertsonalizatutako eremua erakusteko.</span><span class="sxs-lookup"><span data-stu-id="2aa80-165">Configure the grid to show the custom field.</span></span>
+3. <span data-ttu-id="2aa80-166">Gehitu eremu pertsonalizatua errenkadaren zeregin-fluxura edo gelaxka editatzeko zeregin-fluxura.</span><span class="sxs-lookup"><span data-stu-id="2aa80-166">Add the custom field to the row edit task flow or the cell edit task flow.</span></span>
 
-Ziurtatu eremu berriak behar beharrezko balidazioak dituela errenkadan edo gelaxka editatzeko zeregin-fluxuan. Urrats honen zati gisa, eremua blokeatu behar duzu, denbora-sarreraren egoeran oinarrituta.
+<span data-ttu-id="2aa80-167">Ziurtatu eremu berriak behar beharrezko balidazioak dituela errenkadan edo gelaxka editatzeko zeregin-fluxuan.</span><span class="sxs-lookup"><span data-stu-id="2aa80-167">Make sure that the new field has the required validations in the row or cell edit task flow.</span></span> <span data-ttu-id="2aa80-168">Urrats honen zati gisa, eremua blokeatu behar duzu, denbora-sarreraren egoeran oinarrituta.</span><span class="sxs-lookup"><span data-stu-id="2aa80-168">As part of this step, lock the field based on the time entry status.</span></span>
 
-#### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Gehitu pertsonalizatutako eremua sorrera bizkorreko elkarrizketa-koadroan
-Eremu pertsonalizatua gehitu behar duzu **Sortu denboraren-sarreraren sorrera bizkorra** elkarrizketa-koadroan. Orduan, erabiltzaileek balio bat sar dezakete denbora hautatuz gehituz gero **Berria**.
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a><span data-ttu-id="2aa80-169">Gehitu pertsonalizatutako eremua sorrera bizkorreko elkarrizketa-koadroan</span><span class="sxs-lookup"><span data-stu-id="2aa80-169">Add the custom field to the quick create dialog box</span></span>
+<span data-ttu-id="2aa80-170">Gehitu eremu pertsonalizatua **Sortu denboraren-sarreraren sorrera bizkorra** elkarrizketa-koadroan.</span><span class="sxs-lookup"><span data-stu-id="2aa80-170">Add the custom field to the **Create Time Entry Quick Create** dialog box.</span></span> <span data-ttu-id="2aa80-171">Ondoren, denbora-sarrerak gehituta badaude, balio bat idatzi daiteke **Berria**.</span><span class="sxs-lookup"><span data-stu-id="2aa80-171">Then, when time entries are added, a value can be entered by selecting **New**.</span></span>
 
-#### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfiguratu sareta pertsonalizatutako eremua erakusteko
-Asteko denbora-sarrera saretan eremu pertsonalizatua gehitzeko bi modu daude:
+### <a name="configure-the-grid-to-show-the-custom-field"></a><span data-ttu-id="2aa80-172">Konfiguratu sareta pertsonalizatutako eremua erakusteko</span><span class="sxs-lookup"><span data-stu-id="2aa80-172">Configure the grid to show the custom field</span></span>
+<span data-ttu-id="2aa80-173">Asteko denbora-sarrera saretan eremu pertsonalizatua gehitzeko bi modu daude:</span><span class="sxs-lookup"><span data-stu-id="2aa80-173">There are two ways add a custom field to the weekly time entry grid:</span></span>
 
-  - Pertsonalizatu ikuspegia eta gehitu eremu pertsonalizatua
-  - Sortu denbora-sarrera pertsonalizatu lehenetsi bat 
+  - <span data-ttu-id="2aa80-174">Pertsonalizatu ikuspegia eta gehitu eremu pertsonalizatua</span><span class="sxs-lookup"><span data-stu-id="2aa80-174">Customize a view and add a custom field</span></span>
+  - <span data-ttu-id="2aa80-175">Sortu denbora-sarrera pertsonalizatu lehenetsi bat</span><span class="sxs-lookup"><span data-stu-id="2aa80-175">Create a new default custom time entry</span></span> 
 
 
-**Pertsonalizatu ikuspegia eta gehitu eremu pertsonalizatua**
+#### <a name="customize-a-view-and-add-a-custom-field"></a><span data-ttu-id="2aa80-176">Pertsonalizatu ikuspegia eta gehitu eremu pertsonalizatua</span><span class="sxs-lookup"><span data-stu-id="2aa80-176">Customize a view and add a custom field</span></span>
 
-**Nire asteko denbora-sarrerak** ikuspegia pertsonaliza dezakezu eta gehitu eremu pertsonalizatua bertara. Saretako eremu pertsonalizatuaren posizioa eta tamaina aukeratu ditzakezu ikuspegian propietateak editatuz.
+<span data-ttu-id="2aa80-177">Pertsonalizatu **Nire asteko denbora-sarrerak** ikuspegia pertsonaliza dezakezu eta gehitu eremu pertsonalizatua bertara.</span><span class="sxs-lookup"><span data-stu-id="2aa80-177">Customize the **My Weekly Time Entries** view and add the custom field to it.</span></span> <span data-ttu-id="2aa80-178">Saretako eremu pertsonalizatuaren posizioa eta tamaina aukeratu ditzakezu ikuspegian propietateak editatuz.</span><span class="sxs-lookup"><span data-stu-id="2aa80-178">You can choose the position and size of the custom field in the grid by editing the properties in the view.</span></span>
 
-**Sortu denbora-sarrera pertsonalizatu lehenetsi bat** 
+#### <a name="create-a-new-default-custom-time-entry"></a><span data-ttu-id="2aa80-179">Sortu denbora-sarrera pertsonalizatu lehenetsi bat</span><span class="sxs-lookup"><span data-stu-id="2aa80-179">Create a new default custom time entry</span></span>
 
-Ikuspegi horrek **Deskribapena** eta **Kanpoko iruzkinak** eremuak eduki beharko lituzke, saretan eduki nahi dituzun zutabeez gain. 
+<span data-ttu-id="2aa80-180">Ikuspegi horrek **Deskribapena** eta **Kanpoko iruzkinak** eremuak eduki beharko lituzke, saretan eduki nahi dituzun zutabeez gain.</span><span class="sxs-lookup"><span data-stu-id="2aa80-180">This view should contain the **Description** and **External Comments** fields, in addition to the columns that you want to have in the grid.</span></span> 
 
-1. Aukeratu posizioa, tamaina eta multzoaren hurrenkera lehenetsia ikuspegian propietateak editatuz. 
-2. Konfiguratu ikuspegi horretarako kontrol pertsonalizatua **Denbora-sarreraren sareta** kontrola izan dadin. 
-3. Gehitu kontrol hori ikuspegian, eta hautatu web, telefono eta tabletetarako. 
-4. Konfiguratu asteako denbora-sarrerako saretako parametroak. Ezar ezazu **Hasiera data**eremua **msdyn_date** gisa, ezarri **Iraupena** eremua **msdyn_duration** gisa eta ezarri **Egoera** eremua **msdyn_entrystatus** gisa. 
-5. Ikuspegi lehenetsirako, **Irakurtzeko soilik den egoera-zerrenda** eremua **192350002,192350003,192350004** gisa dago ezarrita, **Errenkada editatzeko zeregin-fluxua** eremuan **msdyn_timeentryrowedit** gisa eta **Gelaxka editatzeko zeregin-fluxua** eremuan **msdyn_timeentryedit** gisa. 
-6. Eremu hauek pertsonaliza ditzakezu irakurtzeko soilik egoera gehitzeko edo kentzeko, edo zereginetan oinarritutako egoera (TBX) bat erabil dezakezu errenkada edo gelaxka editatzeko. Eremu hauek balio estatiko batera lotu beharko lirateke.
+1. <span data-ttu-id="2aa80-181">Aukeratu posizioa, tamaina eta multzoaren hurrenkera lehenetsia ikuspegian propietateak editatuz.</span><span class="sxs-lookup"><span data-stu-id="2aa80-181">Choose the position, size, and default sort order of the grid by editing those properties in the view.</span></span> 
+2. <span data-ttu-id="2aa80-182">Konfiguratu ikuspegi horretarako kontrol pertsonalizatua **Denbora-sarreraren sareta** kontrola izan dadin.</span><span class="sxs-lookup"><span data-stu-id="2aa80-182">Configure the custom control for this view so that it's a **Time Entry Grid** control.</span></span> 
+3. <span data-ttu-id="2aa80-183">Gehitu kontrol hori ikuspegian, eta hautatu web, telefono eta tabletetarako.</span><span class="sxs-lookup"><span data-stu-id="2aa80-183">Add this control to the view, and select it for web, phone, and tablet.</span></span> 
+4. <span data-ttu-id="2aa80-184">Konfiguratu asteako denbora-sarrerako saretako parametroak.</span><span class="sxs-lookup"><span data-stu-id="2aa80-184">Configure the parameters for the weekly time entry grid.</span></span> 
+5. <span data-ttu-id="2aa80-185">Ezar ezazu **Hasiera data** eremua **msdyn_date** gisa, ezarri **Iraupena** eremua **msdyn_duration** gisa eta ezarri **Egoera** eremua **msdyn_entrystatus** gisa.</span><span class="sxs-lookup"><span data-stu-id="2aa80-185">Set the **Start Date** field to **msdyn_date** , set the **Duration** field to **msdyn_duration** , and set the **Status** field to **msdyn_entrystatus**.</span></span> 
+6. <span data-ttu-id="2aa80-186">Ikuspegi lehenetsirako, **Irakurtzeko soilik den egoera zerrenda** eremua ezarrita dago **192350002,192350003,192350004**.</span><span class="sxs-lookup"><span data-stu-id="2aa80-186">For the default view, the **Read-only Status List** field is set to **192350002,192350003,192350004**.</span></span> <span data-ttu-id="2aa80-187">**Errenkada editatu ataza-fluxua** eremua ezarrita dago **msdyn_timeentryrowedit**.</span><span class="sxs-lookup"><span data-stu-id="2aa80-187">The **Row Edit Task Flow** field is set to **msdyn_timeentryrowedit**.</span></span> <span data-ttu-id="2aa80-188">**Gelaxka editatu ataza-fluxua** eremua ezarrita dago **msdyn_timeentryedit**.</span><span class="sxs-lookup"><span data-stu-id="2aa80-188">The **Cell Edit Task Flow** field is set to **msdyn_timeentryedit**.</span></span> 
+7. <span data-ttu-id="2aa80-189">Eremu hauek pertsonaliza ditzakezu irakurtzeko soilik egoera gehitzeko edo kentzeko, edo zereginetan oinarritutako egoera (TBX) bat erabil dezakezu errenkada edo gelaxka editatzeko.</span><span class="sxs-lookup"><span data-stu-id="2aa80-189">You can customize these fields to add or remove read-only status, or to use a different task-based experience (TBX) for row or cell editing.</span></span> <span data-ttu-id="2aa80-190">Eremu hauek balio estatiko batera lotu beharko lirateke.</span><span class="sxs-lookup"><span data-stu-id="2aa80-190">These fields are now bound to a static value.</span></span>
 
 
 > [!NOTE] 
-> Bi aukerek integratutako iragazki batzuk kenduko dituzte **Proiektua** eta **Proiektuaren zeregina** entitateetan, entitateen bilaketa ikuspegi guztiak ikusgai egon daitezen. Laukitik kanpo, bilaketa-ikuspegi garrantzitsuak bakarrik ikus daitezke.
-Eremu pertsonalizatuetarako zeregin-fluxu egokia zehaztu behar duzu. Seguruenik, eremua saretan gehitzen baduzu, denbora-sarrerako errenkada osora aplikatzen diren eremuetarako erabiltzen den errenkadako zeregin-fluxuan joan beharko litzateke. Eremu pertsonalizatuak egunero balio esklusiboa badu, adibidez, eremu pertsonalizatua **Amaiera ordua** aukerarako,zeregin-fluxuaren edizioa gelaxkan sartu beharko litzateke.
+> <span data-ttu-id="2aa80-191">Bi aukerek integratutako iragazki batzuk kenduko dituzte **Proiektua** eta **Proiektuaren zeregina** entitateetan, entitateen bilaketa ikuspegi guztiak ikusgai egon daitezen.</span><span class="sxs-lookup"><span data-stu-id="2aa80-191">Both options will remove some out-of-box filtering on the **Project** and **Project Task** entities so that all lookup views for the entities will be visible.</span></span> <span data-ttu-id="2aa80-192">Laukitik kanpo, bilaketa-ikuspegi garrantzitsuak bakarrik ikus daitezke.</span><span class="sxs-lookup"><span data-stu-id="2aa80-192">Out-of-the-box, only the relevant lookup views are visible.</span></span>
 
-Eremu pertsonalizatua zeregin-fluxu batean gehitzeko, arrastatu **Eremua** elementua orrialdeko kokapen egokian eta, ondoren, ezarri eremuaren propietateak. Ezar ezazu **Iturria** jabetza **Denbora-sarrera** gisa, eta ezarri **Datu-eremua** propietatea eremu pertsonalizaturako. **Eremua** propietateak TBX orrian agertzen den bistaren izena zehazten du. Hautatu **Aplikatu** aldaketak eremuan gordetzeko eta, ondoren, hautatu **Eguneratu** aldaketak orrian gordetzeko.
+<span data-ttu-id="2aa80-193">Zehaztu eremu pertsonalizatuetarako zeregin-fluxu egokia.</span><span class="sxs-lookup"><span data-stu-id="2aa80-193">Determine the appropriate task flow for the custom field.</span></span> <span data-ttu-id="2aa80-194">Eremua saretan gehitzen baduzu, denbora-sarrerako errenkada osora aplikatzen diren eremuetarako erabiltzen den errenkadako zeregin-fluxuan joan beharko litzateke.</span><span class="sxs-lookup"><span data-stu-id="2aa80-194">If you added the field to the grid, it should go in the row edit task flow that is used for fields that apply to the whole row of time entries.</span></span> <span data-ttu-id="2aa80-195">Eremu pertsonalizatuak egunero balio esklusiboa badu, adibidez, eremu pertsonalizatua **Amaiera ordua** aukerarako,zeregin-fluxuaren edizioa gelaxkan sartu beharko litzateke.</span><span class="sxs-lookup"><span data-stu-id="2aa80-195">If the custom field has a unique value every day, such as a custom field for **End time** , it should go in the cell edit task flow.</span></span>
 
-Horren ordez TBX orrialde pertsonalizatu bat erabiltzeko, sortu beste prozesu bat. Ezarri kategoria **Negozio-prozesuaren fluxua** gisa, ezarri entitatea **Denbora-sarrera** gisa eta zehaztu negozio-prozesu mota **Exekutatu prozesua zeregin-fluxu gisa** bezala. **Propietateak** aukeran, **Orriaren izena** propietatea orrialdearen bistaratzeko izenean ezarri behar da. Gehitu eremu garrantzitsu guztiak TBX orrialdean. Gorde eta aktibatu prozesua eta, ondoren, eguneratu zeregin-fluxuari dagokion kontrol pertsonalizatuaren propietatea **Izena** baliora prozesuan.
+<span data-ttu-id="2aa80-196">Eremu pertsonalizatua zeregin-fluxu batean gehitzeko, arrastatu **Eremua** elementua orrialdeko kokapen egokian eta, ondoren, ezarri eremuaren propietateak.</span><span class="sxs-lookup"><span data-stu-id="2aa80-196">To add the custom field to a task flow, drag a **Field** element into the appropriate position on the page, and then set the field properties.</span></span> <span data-ttu-id="2aa80-197">Ezar ezazu **Iturria** jabetza **Denbora-sarrera** gisa, eta ezarri **Datu-eremua** propietatea eremu pertsonalizaturako.</span><span class="sxs-lookup"><span data-stu-id="2aa80-197">Set the **Source** property to **Time Entry** , and set the **Data Field** property to the custom field.</span></span> <span data-ttu-id="2aa80-198">**Eremua** propietateak TBX orrian agertzen den bistaren izena zehazten du.</span><span class="sxs-lookup"><span data-stu-id="2aa80-198">The **Field** property specifies the display name on the TBX page.</span></span> <span data-ttu-id="2aa80-199">Hautatu **Aplikatu** aldaketak eremuan gordetzeko eta, ondoren, hautatu **Eguneratu** aldaketak orrian gordetzeko.</span><span class="sxs-lookup"><span data-stu-id="2aa80-199">Select **Apply** to save your changes to the field, and then select **Update** to save your changes to the page.</span></span>
 
-### <a name="add-new-option-set-values"></a>Gehitu beste aukera multzoen balio batzuk
-Aukera multzoaren balioak integratutako eremu batean gehitzeko, ireki eremuaren edizio orria eta, ondoren, **Mota** atalean, hautatu **Editatu** aukera aukera multzoaren ondoan. Ondoren, gehitu etiketa pertsonalizatua eta kolorea dituena beste aukera bat. Denbora-sarreraren beste egoera bat gehitu nahi baduzu, integratutako eremuak **Sarreraren egoera** du izena, ez **Egoera**.
+<span data-ttu-id="2aa80-200">Horren ordez TBX orrialde pertsonalizatu bat erabiltzeko, sortu beste prozesu bat.</span><span class="sxs-lookup"><span data-stu-id="2aa80-200">To use a new custom TBX page instead, create a new process.</span></span> <span data-ttu-id="2aa80-201">Ezarri kategoria **Negozio-prozesuaren fluxua** gisa, ezarri entitatea **Denbora-sarrera** gisa eta zehaztu negozio-prozesu mota **Exekutatu prozesua zeregin-fluxu gisa** bezala.</span><span class="sxs-lookup"><span data-stu-id="2aa80-201">Set the category to **Business Process Flow** , set the entity to **Time Entry** , and set the business process type to **Run process as a task flow**.</span></span> <span data-ttu-id="2aa80-202">**Propietateak** aukeran, **Orriaren izena** propietatea orrialdearen bistaratzeko izenean ezarri behar da.</span><span class="sxs-lookup"><span data-stu-id="2aa80-202">Under **Properties** , the **Page name** property should be set to the display name for the page.</span></span> <span data-ttu-id="2aa80-203">Gehitu eremu garrantzitsu guztiak TBX orrialdean.</span><span class="sxs-lookup"><span data-stu-id="2aa80-203">Add all the relevant fields to the TBX page.</span></span> <span data-ttu-id="2aa80-204">Gorde eta aktibatu prozesua.</span><span class="sxs-lookup"><span data-stu-id="2aa80-204">Save and activate the process.</span></span> <span data-ttu-id="2aa80-205">Eguneratu zeregin-fluxuari dagokion kontrol pertsonalizatuaren propietatea **Izena** baliora prozesuan.</span><span class="sxs-lookup"><span data-stu-id="2aa80-205">Update the custom control property for the relevant task flow to the value of **Name** on the process.</span></span>
 
-### <a name="designate-a-new-time-entry-status-as-read-only"></a>Izendatu denbora-sarreraren egoera bat irakurtzeko soilik
-Denbora-sarreraren egoera berria irakurtzeko bakarrik izendatzeko, gehitu denbora-sarrerako balio berria **Irakurtzeko soilik egoera-zerrenda** propietateari. Denbora-sarreraren saretaren zati editagarria blokeatuta egongo da egoera berria duten errenkadetarako.
-Ondoren, gehitu negozioaren arauak eremu guztiak blokeatzeko **Denbora-sarreraren errenkadaren edizioa** eta **Denbora-sarreraren edizioa** TBX orrietan. Orrialde hauetako negozioaren arauak atzitu ditzakezu orrirako negozio-prozesuaren fluxu editorea irekiz eta, ondoren, **Negozioaren arauak** hautatuz. Lehendik dauden negozioaren arauetan egoera gehitu dezakezu baldintzara, edo beste negozioaren arau bat gehitu dezakezu egoera berrian.
+### <a name="add-new-option-set-values"></a><span data-ttu-id="2aa80-206">Gehitu beste aukera multzoen balio batzuk</span><span class="sxs-lookup"><span data-stu-id="2aa80-206">Add new option set values</span></span>
+<span data-ttu-id="2aa80-207">Aukera multzoaren balioak integratutako eremu batean gehitzeko, ireki eremuaren edizio orria eta **Mota** atalean, hautatu **Editatu** aukera aukera multzoaren ondoan.</span><span class="sxs-lookup"><span data-stu-id="2aa80-207">To add option set values to an out-of-the-box field, open the editing page for the field, and under **Type** , select **Edit** next to the option set.</span></span> <span data-ttu-id="2aa80-208">Gehitu etiketa pertsonalizatua eta kolorea dituena beste aukera bat.</span><span class="sxs-lookup"><span data-stu-id="2aa80-208">Add a new option that has a custom label and color.</span></span> <span data-ttu-id="2aa80-209">Denbora-sarreraren beste egoera bat gehitu nahi baduzu, integratutako eremuak **Sarreraren egoera** du izena, ez **Egoera**.</span><span class="sxs-lookup"><span data-stu-id="2aa80-209">If you want to add a new time entry status, the out-of-the-box field is named **Entry Status** , not **Status**.</span></span>
 
-### <a name="add-custom-validation-rules"></a>Gehitu balidazio-arau pertsonalizatuak
-Bi asteko denbora sartzeko sareta esperientzian gehitu ditzakezun bi balioztatze arau mota daude:
+### <a name="designate-a-new-time-entry-status-as-read-only"></a><span data-ttu-id="2aa80-210">Izendatu denbora-sarreraren egoera bat irakurtzeko soilik</span><span class="sxs-lookup"><span data-stu-id="2aa80-210">Designate a new time entry status as read-only</span></span>
+<span data-ttu-id="2aa80-211">Denbora-sarreraren egoera berria irakurtzeko bakarrik izendatzeko, gehitu denbora-sarrerako balio berria **Irakurtzeko soilik egoera-zerrenda** propietateari.</span><span class="sxs-lookup"><span data-stu-id="2aa80-211">To designate a new time entry status as read-only, add the new time entry value to the **Read-only Status List** property.</span></span> <span data-ttu-id="2aa80-212">Denbora-sarreraren saretaren zati editagarria blokeatuta egongo da egoera berria duten errenkadetarako.</span><span class="sxs-lookup"><span data-stu-id="2aa80-212">The editable part of the time entry grid will be locked for rows that have the new status.</span></span>
+<span data-ttu-id="2aa80-213">Ondoren, gehitu negozioaren arauak eremu guztiak blokeatzeko **Denbora-sarreraren errenkadaren edizioa** eta **Denbora-sarreraren edizioa** TBX orrietan.</span><span class="sxs-lookup"><span data-stu-id="2aa80-213">Next, add business rules to lock all the fields on the **Time Entry Row Edit** and **Time Entry Edit** TBX pages.</span></span> <span data-ttu-id="2aa80-214">Orrialde hauetako negozioaren arauak atzitu ditzakezu orrirako negozio-prozesuaren fluxu editorea irekiz eta, ondoren, **Negozioaren arauak** hautatuz.</span><span class="sxs-lookup"><span data-stu-id="2aa80-214">You can access the business rules for these pages by opening the business process flow editor for the page and then selecting **Business Rules**.</span></span> <span data-ttu-id="2aa80-215">Lehendik dauden negozioaren arauetan egoera gehitu dezakezu baldintzara, edo beste negozioaren arau bat gehitu dezakezu egoera berrian.</span><span class="sxs-lookup"><span data-stu-id="2aa80-215">You can add the new status to the condition in the existing business rules, or you can add a new business rule for the new status.</span></span>
 
-- Elkarrizketa koadroetan eta TBX orrietan azkar funtzionatzen duten bezeroaren aldeko negozio arauak.
-- Zerbitzariaren aldeko pluginen balioztapenak, sarrera eguneratze guztiei aplikatzen zaizkienak.
+### <a name="add-custom-validation-rules"></a><span data-ttu-id="2aa80-216">Gehitu balidazio-arau pertsonalizatuak</span><span class="sxs-lookup"><span data-stu-id="2aa80-216">Add custom validation rules</span></span>
+<span data-ttu-id="2aa80-217">Bi asteko denbora sartzeko sareta esperientzian gehitu ditzakezun bi balioztatze arau mota daude:</span><span class="sxs-lookup"><span data-stu-id="2aa80-217">There are two types of validation rules that you can add for the weekly time entry grid experience:</span></span>
 
-#### <a name="business-rules"></a>Negozioaren arauak
-Erabili negozioaren arauak eremuak blokeatzeko eta desblokeatzeko, eremuetan balio lehenetsiak sartzeko eta uneko sarrera erregistratik soilik informazioa eskatzen duten balidazioak definitzeko. TBX orrialde bateko negozioaren arauak atzitu ditzakezu orrirako negozio-prozesuaren fluxu editorea irekiz eta, ondoren, **Negozioaren arauak** hautatuz. Lehendik dauden negozioaren arauak editatu edo beste negozioaren arau batzuk gehitu ditzakezu. Balidazio pertsonalizatuagoak lortzeko, negozioaren araua erabil dezakezu JavaScript exekutatzeko.
+- <span data-ttu-id="2aa80-218">Elkarrizketa koadroetan eta TBX orrietan azkar funtzionatzen duten bezeroaren aldeko negozio arauak.</span><span class="sxs-lookup"><span data-stu-id="2aa80-218">Client-side business rules that work in quick create dialog boxes and on TBX pages.</span></span>
+- <span data-ttu-id="2aa80-219">Zerbitzariaren aldeko pluginen balioztapenak, sarrera eguneratze guztiei aplikatzen zaizkienak.</span><span class="sxs-lookup"><span data-stu-id="2aa80-219">Server-side plug-in validations that apply to all time entry updates.</span></span>
 
-#### <a name="plug-in-validations"></a>Plugin-en balidazioak
-Plugin-en balidazioak erabili beharko zenituzke denbora-sarrera erregistro bakarrean eskuragarri dagoen testuingurua baino gehiago behar duten balidazioetarako edo saretako lineako eguneratzeetan exekutatu nahi dituzun balidazioetarako. Balidazioa osatzeko, sortu plugin pertsonalizatua **Denbora-sarrera** erakundean.
+#### <a name="business-rules"></a><span data-ttu-id="2aa80-220">Negozioaren arauak</span><span class="sxs-lookup"><span data-stu-id="2aa80-220">Business rules</span></span>
+<span data-ttu-id="2aa80-221">Erabili negozioaren arauak eremuak blokeatzeko eta desblokeatzeko, eremuetan balio lehenetsiak sartzeko eta uneko sarrera erregistratik soilik informazioa eskatzen duten balidazioak definitzeko.</span><span class="sxs-lookup"><span data-stu-id="2aa80-221">Use business rules to lock and unlock fields, enter default values in fields, and define validations that require information only from the current time entry record.</span></span> <span data-ttu-id="2aa80-222">TBX orrialde bateko negozioaren arauak atzitu ditzakezu orrirako negozio-prozesuaren fluxu editorea irekiz eta, ondoren, **Negozioaren arauak** hautatuz.</span><span class="sxs-lookup"><span data-stu-id="2aa80-222">You can access the business rules for a TBX page by opening the business process flow editor for the page and then selecting **Business Rules**.</span></span> <span data-ttu-id="2aa80-223">Lehendik dauden negozioaren arauak editatu edo beste negozioaren arau batzuk gehitu ditzakezu.</span><span class="sxs-lookup"><span data-stu-id="2aa80-223">You can then edit the existing business rules or add a new business rule.</span></span> <span data-ttu-id="2aa80-224">Balidazio pertsonalizatuagoak lortzeko, negozioaren araua erabil dezakezu JavaScript exekutatzeko.</span><span class="sxs-lookup"><span data-stu-id="2aa80-224">For even more customized validations, you can use a business rule to run JavaScript.</span></span>
+
+#### <a name="plug-in-validations"></a><span data-ttu-id="2aa80-225">Plugin-en balidazioak</span><span class="sxs-lookup"><span data-stu-id="2aa80-225">Plug-in validations</span></span>
+<span data-ttu-id="2aa80-226">Erabili plugin-en balidazioak denbora-sarrera erregistro bakarrean eskuragarri dagoen testuingurua baino gehiago behar duten balidazioetarako edo saretako lineako eguneratzeetan exekutatu nahi dituzun balidazioetarako.</span><span class="sxs-lookup"><span data-stu-id="2aa80-226">Use plug-in validations for any validations that require more context than is available in a single time entry record, or for any validations that you want to run on inline updates in the grid.</span></span> <span data-ttu-id="2aa80-227">Balidazioa osatzeko, sortu plugin pertsonalizatua **Denbora-sarrera** erakundean.</span><span class="sxs-lookup"><span data-stu-id="2aa80-227">To complete the validation, create a custom plug-in on the **Time Entry** entity.</span></span>
+
+### <a name="copying-time-entries"></a><span data-ttu-id="2aa80-228">Denbora-sarrerak kopiatzea</span><span class="sxs-lookup"><span data-stu-id="2aa80-228">Copying time entries</span></span>
+<span data-ttu-id="2aa80-229">Erabili ikuspegia **Kopiatu denbora sartzeko zutabeak** denbora sartzean kopiatu beharreko eremuen zerrenda definitzeko.</span><span class="sxs-lookup"><span data-stu-id="2aa80-229">Use the view **Copy Time Entry Columns** to define the list of fields to copy during time entry.</span></span> <span data-ttu-id="2aa80-230">**Data** eta **Iraupena** derrigorrezko eremuak dira eta ez dira bistatik kendu behar.</span><span class="sxs-lookup"><span data-stu-id="2aa80-230">**Date** and **Duration** are required fields and shouldn't be removed from the view.</span></span>

@@ -3,67 +3,67 @@ title: Inportatu proiektuaren aurreikuspenak proiektuan oinarritutako eskaintzar
 description: Gai honek proiektu batetik eskaintza-lerro batera aurreikuspenak inportatzeari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75511f0d7ef1d2d1b3bf5cc598a8f51d0c553939
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907831"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070952"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Inportatu proiektuaren aurreikuspenak proiektuan oinarritutako eskaintzaren lerrora
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a><span data-ttu-id="aeaa9-103">Inportatu proiektuaren aurreikuspenak proiektuan oinarritutako eskaintzaren lerrora</span><span class="sxs-lookup"><span data-stu-id="aeaa9-103">Import estimates for a project to a project-based quote line</span></span>
 
-_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
+<span data-ttu-id="aeaa9-104">_**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_</span><span class="sxs-lookup"><span data-stu-id="aeaa9-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
 
-Salmenta aurreko fasean proiektu bat sortzen bada, proiektuaren finantza-aurrekontua proiektuan oinarritutako aurrekontu-lerrora inportatzea hauta dezakezu.
+<span data-ttu-id="aeaa9-105">Salmenta aurreko fasean proiektu bat sortzen bada, proiektuaren finantza-aurrekontua proiektuan oinarritutako aurrekontu-lerrora inportatzea hauta dezakezu.</span><span class="sxs-lookup"><span data-stu-id="aeaa9-105">If a project is created during the pre-sales stage, you can select to import the financial estimate from the project to the project-based quote line.</span></span>
 
-1. Ziurtatu proiektuan oinarritutako aurrekontu lerroak proiektuaren informazioa duela **Proiektua** eremua.
-2. **Eskaintza-lerroaren xehetasunak** fitxan, hautatu **Inportatu proiektuaren aurreikuspenak**.
-3. Irekitzen den elkarrizketa-orrian, hautatu laburtzeko aukera hauetako bat.
+1. <span data-ttu-id="aeaa9-106">Ziurtatu proiektuan oinarritutako aurrekontu lerroak proiektuaren informazioa duela **Proiektua** eremua.</span><span class="sxs-lookup"><span data-stu-id="aeaa9-106">Make sure that the project-based quote line has the project information in the **Project** field.</span></span>
+2. <span data-ttu-id="aeaa9-107">**Eskaintza-lerroaren xehetasunak** fitxan, hautatu **Inportatu proiektuaren aurreikuspenak**.</span><span class="sxs-lookup"><span data-stu-id="aeaa9-107">On the **Quote line details** tab, select **Import from Project Estimation**.</span></span>
+3. <span data-ttu-id="aeaa9-108">Irekitzen den elkarrizketa-orrian, hautatu laburtzeko aukera hauetako bat:</span><span class="sxs-lookup"><span data-stu-id="aeaa9-108">On the dialog page opens, select one of the following summarization options:</span></span>
 
-  - **Transakzio-klasea**
-  - **Kategoria**
-  - **Funtzioa** 
-  - **Proiektuaren zeregina**
+  - <span data-ttu-id="aeaa9-109">**Transakzio-klasea**</span><span class="sxs-lookup"><span data-stu-id="aeaa9-109">**Transaction class**</span></span>
+  - <span data-ttu-id="aeaa9-110">**Kategoria**</span><span class="sxs-lookup"><span data-stu-id="aeaa9-110">**Category**</span></span>
+  - <span data-ttu-id="aeaa9-111">**Funtzioa**</span><span class="sxs-lookup"><span data-stu-id="aeaa9-111">**Role**</span></span> 
+  - <span data-ttu-id="aeaa9-112">**Proiektuaren zeregina**</span><span class="sxs-lookup"><span data-stu-id="aeaa9-112">**Project task**</span></span>
 
-Aukeratutakoan oinarrituta, aurrekontu lerro honetan sartutako transakzio klase guztietarako proiektuaren aurrekontua kopiatzen da. Zein transakzio klase sartzen diren egiaztatzeko, hautatu **Orokorra** proiektuan oinarritutako aurrekontu lerroan fitxa eta egiaztatu balioak **Sartu denbora**, **Sartu gastuak** eta **Sartu Tasak**.
+<span data-ttu-id="aeaa9-113">Aukeratutakoan oinarrituta, aurrekontu lerro honetan sartutako transakzio klase guztietarako proiektuaren aurrekontua kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="aeaa9-113">Based on your selection, the estimate from the project for all transaction classes included on this quote line are copied over.</span></span> <span data-ttu-id="aeaa9-114">Zein transakzio klase sartzen diren egiaztatzeko, hautatu **Orokorra** proiektuan oinarritutako aurrekontu lerroan fitxa eta egiaztatu balioak **Sartu denbora** , **Sartu gastuak** eta **Sartu Tasak**.</span><span class="sxs-lookup"><span data-stu-id="aeaa9-114">To check what transaction classes are included, select the **General** tab on the project-based quote line, and check the values for **Include Time** , **Include Expenses** , and **Include Fees**.</span></span>
 
-Aurrekontuak inportatzerakoan, sistemak aurrekontuak lehenetsiko ditu aurrekontuari erantsitako proiektuen prezioen zerrendetan eta proiektuan oinarritutako aurrekontu lerroan ezarritako fakturazio motaren arabera. Proiektuan oinarritutako aurrekontu lerroan eginkizun edo kategoria ez bada kargagarritzat konfiguratzen bada, inportatutako estimazio lerroa ez da kargagarritzat ezarriko eta ez da aurrekontu lerroaren balio batuketara gehituko.
+<span data-ttu-id="aeaa9-115">Aurrekontuak inportatzerakoan, sistemak aurrekontuak lehenetsiko ditu aurrekontuari erantsitako proiektuen prezioen zerrendetan eta proiektuan oinarritutako aurrekontu lerroan ezarritako fakturazio motaren arabera.</span><span class="sxs-lookup"><span data-stu-id="aeaa9-115">When you import estimates, the system will default pricing based on the project price lists attached to the quote and the billing type set up on the project-based quote line.</span></span> <span data-ttu-id="aeaa9-116">Proiektuan oinarritutako aurrekontu lerroan eginkizun edo kategoria ez bada kargagarritzat konfiguratzen bada, inportatutako estimazio lerroa ez da kargagarritzat ezarriko eta ez da aurrekontu lerroaren balio batuketara gehituko.</span><span class="sxs-lookup"><span data-stu-id="aeaa9-116">If a role or category is set up on the project-based quote line as non-chargeable, the imported estimate line will set as non-chargeable and won't add up to the quoted value of quote line.</span></span>
 
-Aurrekontuaren lerroak lerroaren xehetasunak dituenean, **Aipatu balioa** eta **Aurreikusitako zerga** aurrekontuaren lerroan eremuak laburbilduta daude eta ezin dira editatu.
+<span data-ttu-id="aeaa9-117">Aurrekontuaren lerroak lerroaren xehetasunak dituenean, **Aipatu balioa** eta **Aurreikusitako zerga** aurrekontuaren lerroan eremuak laburbilduta daude eta ezin dira editatu.</span><span class="sxs-lookup"><span data-stu-id="aeaa9-117">When a quote line has line details, the **Quote Value** and the **Estimated Tax** fields on the quote line are summarized and can't be edited.</span></span>
 
-Laburpen aukera anitzak hautatzen direnean, laburpena hautatutako aukera guztien arabera laburbiltzen saiatzen da. Horrek esan nahi du inportatutako aurrekontu lerroen irteera laburpen aukera bakarra hautatuz gero baino gehiago izango dela.
+<span data-ttu-id="aeaa9-118">Sistema-aukera anitzak hautatzen direnean, laburpena hautatutako aukera guztien arabera laburbiltzen saiatzen da.</span><span class="sxs-lookup"><span data-stu-id="aeaa9-118">When multiple summarization options are selected, the system attempts to summarize by all selected options.</span></span> <span data-ttu-id="aeaa9-119">Emaitza da inportatutako aurrekontu lerroen irteera laburpen aukera bakarra hautatuz gero baino gehiago izango dela.</span><span class="sxs-lookup"><span data-stu-id="aeaa9-119">The result is that the output of imported quote lines will be more than if you selected only one summarization option.</span></span>
 
-Adibidez, proiektuak gastuen aurrekontu lerro hauek baditu.
+<span data-ttu-id="aeaa9-120">Adibidez, proiektuak gastuen aurrekontu lerro hauek baditu.</span><span class="sxs-lookup"><span data-stu-id="aeaa9-120">For example, if the project has the following estimate lines for expenses.</span></span>
 
-| Ataza | Kategoria | Data | Kopurua | Unitate-prezioa | Kopurua |
+| <span data-ttu-id="aeaa9-121">Ataza</span><span class="sxs-lookup"><span data-stu-id="aeaa9-121">Task</span></span> | <span data-ttu-id="aeaa9-122">Kategoria</span><span class="sxs-lookup"><span data-stu-id="aeaa9-122">Category</span></span> | <span data-ttu-id="aeaa9-123">Data</span><span class="sxs-lookup"><span data-stu-id="aeaa9-123">Date</span></span> | <span data-ttu-id="aeaa9-124">Kopurua</span><span class="sxs-lookup"><span data-stu-id="aeaa9-124">Quantity</span></span> | <span data-ttu-id="aeaa9-125">Unitate-prezioa</span><span class="sxs-lookup"><span data-stu-id="aeaa9-125">Unit price</span></span> | <span data-ttu-id="aeaa9-126">Kopurua</span><span class="sxs-lookup"><span data-stu-id="aeaa9-126">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| A zeregina | Hegazkin-txartelak | 2020/01/10 | 4 | 400 | 1600 |
-| B zeregina | Hotela | 2020/01/10 | 4 | 200 | 800 |
-| C zeregina | Hotela | 2020/11/01 | 2 | 200 | 400 |
+| <span data-ttu-id="aeaa9-127">A zeregina</span><span class="sxs-lookup"><span data-stu-id="aeaa9-127">Task A</span></span> | <span data-ttu-id="aeaa9-128">Hegazkin-txartelak</span><span class="sxs-lookup"><span data-stu-id="aeaa9-128">Airfare</span></span> | <span data-ttu-id="aeaa9-129">2020/01/10</span><span class="sxs-lookup"><span data-stu-id="aeaa9-129">10/1/2020</span></span> | <span data-ttu-id="aeaa9-130">4</span><span class="sxs-lookup"><span data-stu-id="aeaa9-130">4</span></span> | <span data-ttu-id="aeaa9-131">400</span><span class="sxs-lookup"><span data-stu-id="aeaa9-131">400</span></span> | <span data-ttu-id="aeaa9-132">1600</span><span class="sxs-lookup"><span data-stu-id="aeaa9-132">1600</span></span> |
+| <span data-ttu-id="aeaa9-133">B zeregina</span><span class="sxs-lookup"><span data-stu-id="aeaa9-133">Task B</span></span> | <span data-ttu-id="aeaa9-134">Hotela</span><span class="sxs-lookup"><span data-stu-id="aeaa9-134">Hotel</span></span> | <span data-ttu-id="aeaa9-135">2020/01/10</span><span class="sxs-lookup"><span data-stu-id="aeaa9-135">10/1/2020</span></span> | <span data-ttu-id="aeaa9-136">4</span><span class="sxs-lookup"><span data-stu-id="aeaa9-136">4</span></span> | <span data-ttu-id="aeaa9-137">200</span><span class="sxs-lookup"><span data-stu-id="aeaa9-137">200</span></span> | <span data-ttu-id="aeaa9-138">800</span><span class="sxs-lookup"><span data-stu-id="aeaa9-138">800</span></span> |
+| <span data-ttu-id="aeaa9-139">C zeregina</span><span class="sxs-lookup"><span data-stu-id="aeaa9-139">Task C</span></span> | <span data-ttu-id="aeaa9-140">Hotela</span><span class="sxs-lookup"><span data-stu-id="aeaa9-140">Hotel</span></span> | <span data-ttu-id="aeaa9-141">2020/11/01</span><span class="sxs-lookup"><span data-stu-id="aeaa9-141">11/1/2020</span></span> | <span data-ttu-id="aeaa9-142">2</span><span class="sxs-lookup"><span data-stu-id="aeaa9-142">2</span></span> | <span data-ttu-id="aeaa9-143">200</span><span class="sxs-lookup"><span data-stu-id="aeaa9-143">200</span></span> | <span data-ttu-id="aeaa9-144">400</span><span class="sxs-lookup"><span data-stu-id="aeaa9-144">400</span></span> |
 
-Erabiltzaileak Transakzio klasearen arabera laburbiltzea hautatzen duenean, informazio hau inportatuko da.
+<span data-ttu-id="aeaa9-145">Erabiltzaileak Transakzio klasearen arabera laburbiltzea hautatzen duenean, informazio hau inportatuko da.</span><span class="sxs-lookup"><span data-stu-id="aeaa9-145">When the user selects to summarize by Transaction class, the following information will be imported.</span></span>
 
-| Ataza | Kategoria | Data | Kopurua | Unitate-prezioa | Kopurua |
+| <span data-ttu-id="aeaa9-146">Ataza</span><span class="sxs-lookup"><span data-stu-id="aeaa9-146">Task</span></span> | <span data-ttu-id="aeaa9-147">Kategoria</span><span class="sxs-lookup"><span data-stu-id="aeaa9-147">Category</span></span> | <span data-ttu-id="aeaa9-148">Data</span><span class="sxs-lookup"><span data-stu-id="aeaa9-148">Date</span></span> | <span data-ttu-id="aeaa9-149">Kopurua</span><span class="sxs-lookup"><span data-stu-id="aeaa9-149">Quantity</span></span> | <span data-ttu-id="aeaa9-150">Unitate-prezioa</span><span class="sxs-lookup"><span data-stu-id="aeaa9-150">Unit price</span></span> | <span data-ttu-id="aeaa9-151">Kopurua</span><span class="sxs-lookup"><span data-stu-id="aeaa9-151">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| | | 2020/01/10 | 3.34 | 840 | 2800 |
+| | | <span data-ttu-id="aeaa9-152">2020/01/10</span><span class="sxs-lookup"><span data-stu-id="aeaa9-152">10/1/2020</span></span> | <span data-ttu-id="aeaa9-153">3.34</span><span class="sxs-lookup"><span data-stu-id="aeaa9-153">3.34</span></span> | <span data-ttu-id="aeaa9-154">840</span><span class="sxs-lookup"><span data-stu-id="aeaa9-154">840</span></span> | <span data-ttu-id="aeaa9-155">2800</span><span class="sxs-lookup"><span data-stu-id="aeaa9-155">2800</span></span> |
 
-Erabiltzaileak Transakzio klasearen eta Kategoriaren arabera laburbiltzea hautatzen duenean, informazio hau inportatuko da.
+<span data-ttu-id="aeaa9-156">Erabiltzaileak Transakzio klasearen eta Kategoriaren arabera laburbiltzea hautatzen duenean, informazio hau inportatuko da.</span><span class="sxs-lookup"><span data-stu-id="aeaa9-156">When the user selects to summarize by Transaction class and Category, the following information will be imported.</span></span>
 
-| Ataza | Kategoria | Data | Kopurua | Unitate-prezioa | Kopurua |
+| <span data-ttu-id="aeaa9-157">Ataza</span><span class="sxs-lookup"><span data-stu-id="aeaa9-157">Task</span></span> | <span data-ttu-id="aeaa9-158">Kategoria</span><span class="sxs-lookup"><span data-stu-id="aeaa9-158">Category</span></span> | <span data-ttu-id="aeaa9-159">Data</span><span class="sxs-lookup"><span data-stu-id="aeaa9-159">Date</span></span> | <span data-ttu-id="aeaa9-160">Kopurua</span><span class="sxs-lookup"><span data-stu-id="aeaa9-160">Quantity</span></span> | <span data-ttu-id="aeaa9-161">Unitate-prezioa</span><span class="sxs-lookup"><span data-stu-id="aeaa9-161">Unit price</span></span> | <span data-ttu-id="aeaa9-162">Kopurua</span><span class="sxs-lookup"><span data-stu-id="aeaa9-162">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| A zeregina | Hegazkin-txartelak | 2020/01/10 | 4 | 400 | 1600 |
-| | Hotela | 2020/01/10 | 6 | 200 | 1200 |
+| <span data-ttu-id="aeaa9-163">A zeregina</span><span class="sxs-lookup"><span data-stu-id="aeaa9-163">Task A</span></span> | <span data-ttu-id="aeaa9-164">Hegazkin-txartelak</span><span class="sxs-lookup"><span data-stu-id="aeaa9-164">Airfare</span></span> | <span data-ttu-id="aeaa9-165">2020/01/10</span><span class="sxs-lookup"><span data-stu-id="aeaa9-165">10/1/2020</span></span> | <span data-ttu-id="aeaa9-166">4</span><span class="sxs-lookup"><span data-stu-id="aeaa9-166">4</span></span> | <span data-ttu-id="aeaa9-167">400</span><span class="sxs-lookup"><span data-stu-id="aeaa9-167">400</span></span> | <span data-ttu-id="aeaa9-168">1600</span><span class="sxs-lookup"><span data-stu-id="aeaa9-168">1600</span></span> |
+| | <span data-ttu-id="aeaa9-169">Hotela</span><span class="sxs-lookup"><span data-stu-id="aeaa9-169">Hotel</span></span> | <span data-ttu-id="aeaa9-170">2020/01/10</span><span class="sxs-lookup"><span data-stu-id="aeaa9-170">10/1/2020</span></span> | <span data-ttu-id="aeaa9-171">6</span><span class="sxs-lookup"><span data-stu-id="aeaa9-171">6</span></span> | <span data-ttu-id="aeaa9-172">200</span><span class="sxs-lookup"><span data-stu-id="aeaa9-172">200</span></span> | <span data-ttu-id="aeaa9-173">1200</span><span class="sxs-lookup"><span data-stu-id="aeaa9-173">1200</span></span> |
 
-Erabiltzaileak Transakzio klasearen, Kategoriaren eta Hosto-nodoaren zereginaren arabera laburbiltzea hautatzen duenean, informazio hau inportatuko da. Ohartu emaitza hau proiektuan zegoenaren berdina dela.
+<span data-ttu-id="aeaa9-174">Erabiltzaileak Transakzio klasearen, Kategoriaren eta Hosto-nodoaren zereginaren arabera laburbiltzea hautatzen duenean, informazio hau inportatuko da.</span><span class="sxs-lookup"><span data-stu-id="aeaa9-174">When the user selects to summarize by Transaction class, Category, and Leaf Node Task, the following information will be imported.</span></span> <span data-ttu-id="aeaa9-175">Ohartu emaitza hau proiektuan zegoenaren berdina dela.</span><span class="sxs-lookup"><span data-stu-id="aeaa9-175">Notice that this result is the same as what was on the project.</span></span>
 
-| Ataza | Kategoria | Data | Kopurua | Unitate-prezioa | Kopurua |
+| <span data-ttu-id="aeaa9-176">Ataza</span><span class="sxs-lookup"><span data-stu-id="aeaa9-176">Task</span></span> | <span data-ttu-id="aeaa9-177">Kategoria</span><span class="sxs-lookup"><span data-stu-id="aeaa9-177">Category</span></span> | <span data-ttu-id="aeaa9-178">Data</span><span class="sxs-lookup"><span data-stu-id="aeaa9-178">Date</span></span> | <span data-ttu-id="aeaa9-179">Kopurua</span><span class="sxs-lookup"><span data-stu-id="aeaa9-179">Quantity</span></span> | <span data-ttu-id="aeaa9-180">Unitate-prezioa</span><span class="sxs-lookup"><span data-stu-id="aeaa9-180">Unit price</span></span> | <span data-ttu-id="aeaa9-181">Kopurua</span><span class="sxs-lookup"><span data-stu-id="aeaa9-181">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| A zeregina | Hegazkin-txartelak | 2020/01/10 | 4 | 400 | 1600 |
-| B zeregina | Hotela | 2020/01/10 | 4 | 200 | 800 |
-| C zeregina | Hotela | 2020/11/01 | 2 | 200 | 400 |
+| <span data-ttu-id="aeaa9-182">A zeregina</span><span class="sxs-lookup"><span data-stu-id="aeaa9-182">Task A</span></span> | <span data-ttu-id="aeaa9-183">Hegazkin-txartelak</span><span class="sxs-lookup"><span data-stu-id="aeaa9-183">Airfare</span></span> | <span data-ttu-id="aeaa9-184">2020/01/10</span><span class="sxs-lookup"><span data-stu-id="aeaa9-184">10/1/2020</span></span> | <span data-ttu-id="aeaa9-185">4</span><span class="sxs-lookup"><span data-stu-id="aeaa9-185">4</span></span> | <span data-ttu-id="aeaa9-186">400</span><span class="sxs-lookup"><span data-stu-id="aeaa9-186">400</span></span> | <span data-ttu-id="aeaa9-187">1600</span><span class="sxs-lookup"><span data-stu-id="aeaa9-187">1600</span></span> |
+| <span data-ttu-id="aeaa9-188">B zeregina</span><span class="sxs-lookup"><span data-stu-id="aeaa9-188">Task B</span></span> | <span data-ttu-id="aeaa9-189">Hotela</span><span class="sxs-lookup"><span data-stu-id="aeaa9-189">Hotel</span></span> | <span data-ttu-id="aeaa9-190">2020/01/10</span><span class="sxs-lookup"><span data-stu-id="aeaa9-190">10/1/2020</span></span> | <span data-ttu-id="aeaa9-191">4</span><span class="sxs-lookup"><span data-stu-id="aeaa9-191">4</span></span> | <span data-ttu-id="aeaa9-192">200</span><span class="sxs-lookup"><span data-stu-id="aeaa9-192">200</span></span> | <span data-ttu-id="aeaa9-193">800</span><span class="sxs-lookup"><span data-stu-id="aeaa9-193">800</span></span> |
+| <span data-ttu-id="aeaa9-194">C zeregina</span><span class="sxs-lookup"><span data-stu-id="aeaa9-194">Task C</span></span> | <span data-ttu-id="aeaa9-195">Hotela</span><span class="sxs-lookup"><span data-stu-id="aeaa9-195">Hotel</span></span> | <span data-ttu-id="aeaa9-196">2020/11/01</span><span class="sxs-lookup"><span data-stu-id="aeaa9-196">11/1/2020</span></span> | <span data-ttu-id="aeaa9-197">2</span><span class="sxs-lookup"><span data-stu-id="aeaa9-197">2</span></span> | <span data-ttu-id="aeaa9-198">200</span><span class="sxs-lookup"><span data-stu-id="aeaa9-198">200</span></span> | <span data-ttu-id="aeaa9-199">400</span><span class="sxs-lookup"><span data-stu-id="aeaa9-199">400</span></span> |
