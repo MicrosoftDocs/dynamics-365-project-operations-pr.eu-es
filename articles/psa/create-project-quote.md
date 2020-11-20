@@ -3,7 +3,7 @@ title: Sortu proiektu-eskaintzak
 description: Nola sortu proiektu-eskaintza Project Service-n
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071144"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133128"
 ---
 # <a name="create-a-project-quote-project-service"></a>Sortu proiektu-eskaintza (Project Service)
 
@@ -37,7 +37,7 @@ Eskaintza bat sortzea abagune bat sortzearen oso antzekoa da. Abagunea informazi
   
 3. **Laburpena** eremuan, aldatu behar den edozein informazio.  
   
-4. Sakatu **Gorde** , eskaintza sortzeko, editatzen jarraitu ahal izateko.  
+4. Sakatu **Gorde**, eskaintza sortzeko, editatzen jarraitu ahal izateko.  
   
 5. Eskaintzan produktu bat gehitzeko, sakatu **Berria** **Produktuan oinarritutako lerroak** aukeran, **Eskaintza-lerroak** eremuan. Hautatu elementu bat **Produktuaren izena** eremuan eta, ondoren, zehaztu kopurua, salmenta-prezioa eta eskaintza egindako zenbatekoa.  
   

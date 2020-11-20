@@ -1,29 +1,23 @@
 ---
-title: Salmenta-prozesuen informazio orokorra
+title: Salmenta-prozesuaren informazio orokorra
 description: Gai honek oinarrizko salmenta-prozesuei buruzko informazioa ematen du.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071235"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177586"
 ---
-# <a name="sales-processes-overview"></a>Salmenta-prozesuen informazio orokorra
+# <a name="sales-process-overview"></a>Salmenta-prozesuaren informazio orokorra
+
+_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 Proiektuetan oinarritutako erakunde batean erabiltzen diren salmenta-prozesuak eta produktuetan oinarritutako erakunde batean erabiltzen diren salmenta-prozesuak desberdinak dira. Alde hori gertatzen da proiektuetan oinarritutako erakundeen salmenta-zikloak luzeagoak direlako eta aurreikuspen bakoitzarentzako eskaintzak aztertu eta kalkulatzeko teknika pertsonalizatuak behar dituztelako. Dynamics 365 Project Operations-ek salmenta-prozesuan erabilitako funtzionaltasun bera erabiltzen du:
 
@@ -56,7 +50,7 @@ Adibidez, zure enpresak hurrengo sei faseak izan ditzake salmenta-prozesuan:
  
 Erakundeak hainbat entitate erabil ditzake eboluzionatu duen akordio bera irudikatzeko. Salmenta-prozesuan hasieran, tratua Abagunea entitatearen bidez adierazten da. Denbora igaro ahala eta xehetasun gehiago azaltzen diren heinean, baliteke goi mailako aurreikuspenak erabil daitezkeela eskaintza bat edo gehiago sortzeko. Eskaintza horietako bat barneko bezeroen eta interes taldeek berrikusten badute, Eskaintza entitateak tratua adierazten du. Bezeroak eskaintza onartu ondoren, proiektu-kontratuak edo SOWk tratua adierazten du. Jokabide hori onartzeko, BPFak egituratzen dira, prozesuko fase bakoitza datu baseko taula desberdin batekin lotuta egon dadin.
 
-**Gaitu** fasean salmenta-prozesuan Abagunea entite batek babestu dezake. **Aurreikuspena** eta **Barne-berrikuspena** faseak Eskaintza entitate batek babestu ditzake. **Kontratua** , **Entrega** , eta **Itxi** faseak Proiektu-kontratua entitate batek babestu ditzake.
+**Gaitu** fasean salmenta-prozesuan Abagunea entite batek babestu dezake. **Aurreikuspena** eta **Barne-berrikuspena** faseak Eskaintza entitate batek babestu ditzake. **Kontratua**, **Entrega**, eta **Itxi** faseak Proiektu-kontratua entitate batek babestu ditzake.
 
 Tratuak faseetan zehar mugitzen dituzunean, prozesuan zehar laguntzeko eta gidatzeko entitate erregistro egokia sortzeko eskatuko zaizu. Faseak baldintzatuak izan daitezke. Adibidez, eskaintzaren barne-berrikuspena behar baduzu eskaintzak prezio-zerrenda pertsonalizatua erabiltzen badu soilik, baldintza hori konfigura dezakezu negozio prozesuaren fase egokian. **Barne-berrikuspena** fasea, ondoren, pertsonalizatutako prezio-zerrenda erabiltzen duten eskaintzetarako bakarrik erakutsiko da. Gainerako tratu eta eskaintzetarako, **Aurreikuspena** fasearen ostean **Kontratua** fasea izango da.
 

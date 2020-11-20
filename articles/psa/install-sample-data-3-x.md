@@ -3,7 +3,7 @@ title: Adibide-datuen instalazioa
 description: Gai honek Project Service Automation-eko lagin-datuak instalatzeari buruzko informazioa eskaintzen du.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071101"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132408"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service aplikazioaren adibide-datuen instalazioa
 
@@ -43,13 +43,13 @@ Adibideko konfigurazioaren/erreferentziaren datu-paketeak dira:
 Adibide-datuak paketeak hauek daude erabilgarri ingelesez soilik.
 
 > [!IMPORTANT]
-> **Ezin dira inolaz adibide-datuak desinstalatu.** Pakete hauek instalatu behar dituzu adibide- ebaluazio, trebakuntza- edo proba-sistemetan. Ere kontutan banakako paketea instalatu eta, ondoren, instalatu beste banakako paketea, ez da onartzen. (Hau da, ezin instalatu duzu **FSMasterData** atzetik **PSMasterData** , edo vice versa.) Ikusi aplika diezaiokezu zeure buruari beharra adibide-datuak aldi berean bi aplikazioak etorkizunean, instalatu behar duzu, **v902FPSMasterData** paketea.
+> **Ezin dira inolaz adibide-datuak desinstalatu.** Pakete hauek instalatu behar dituzu adibide- ebaluazio, trebakuntza- edo proba-sistemetan. Ere kontutan banakako paketea instalatu eta, ondoren, instalatu beste banakako paketea, ez da onartzen. (Hau da, ezin instalatu duzu **FSMasterData** atzetik **PSMasterData**, edo vice versa.) Ikusi aplika diezaiokezu zeure buruari beharra adibide-datuak aldi berean bi aplikazioak etorkizunean, instalatu behar duzu, **v902FPSMasterData** paketea.
 
 Instalatzerakoan adibide-datuak paketeak-, instalazio prozesuan ekintzak burutzen ditu hauek:
 
 - Sortu eta erabili Project Service, Field Service edo bi aplikazioak (zerga aplikagarriak) parametroak lehenetsia ezartzen du.
 
-- Inportazioen adibide-aplikazio batzuk, esaterako bookable baliabideak, funtzioak aplikazio zehatz, salmentak eta kostua prezio-zerrendak, erakundeen unitateak, salmenta-prozesuak erregistroak eta beste entitateen gako ahalmenak demonstrate, datuak.  
+- Inportazioen adibide-aplikazio batzuk, esaterako bookable baliabideak, funtzioak aplikazio zehatz, salmentak eta kostua prezio-zerrendak, erakundeen unitateak, salmenta-prozesuak erregistroak eta beste entitateen gako ahalmenak demonstrate, datuak.  
 
 **Demo-datuak** paketearekin, duzun lehenengo urratsak eremu egokira eta gehigarria transactional datuak, hala nola, lana eskaera eta projects.
 
@@ -80,7 +80,7 @@ Protokoloa instalazioa burutu aurretik, zure helburuko instantzia (erakunde) bur
 
 Window-en azken bertsioa (Windows 10 hobetsia) duen ordenagailua, instalatzailea abiarazi behar duzu.
 
-Ordenagailua sarera konektatuta mantentzea planeatu behar duzu, instalazioa exekutatzeko **1 orduz** **konfigurazio-/erreferentzia-datuetarako**. (Duzuenan instalazioak minutu ez ditu irauten around 30- **FPSMasterData** , zein aplikazio bi adibide-datuak ditu.) -- **FPSDemoData** , instalazioa egingo aplikazioa **3 ordu**.
+Ordenagailua sarera konektatuta mantentzea planeatu behar duzu, instalazioa exekutatzeko **1 orduz** **konfigurazio-/erreferentzia-datuetarako**. (Duzuenan instalazioak minutu ez ditu irauten around 30- **FPSMasterData**, zein aplikazio bi adibide-datuak ditu.) -- **FPSDemoData**, instalazioa egingo aplikazioa **3 ordu**.
 
 Ordenagailua aktibatuta pantaila saver funtzioa izan behar ditu. Bestela, saioa kredentzialak instalaziorako galduko dira pantaila saver (ez duzu mantendu saioa aktibo erabiliko den) engages denean.
 
@@ -112,15 +112,15 @@ Eta arabera, sistema eragilearen segurtasun-ezarpenak, baliteke behar zip fitxat
 
 **FPSMasterData** pakete izeneko Spencer txikia Balioa hemen azaldutako ezarpenekin erabiltzaile instalatzeko diseinatuta dago. Instalatzeko behar bezala paketea, behar duzun sortu (edo aldi baterako aldatu) erabiltzaileak zure ingurunean sarrerako adibide-datuak konfigurazio bat etor daitezen.
 
-Sortu edo konfiguratu erabiltzaileak, joan **Ezarpenak** > **Segurtasuna** > **Erabiltzaileak** , eta egin honako hau:
+Sortu edo konfiguratu erabiltzaileak, joan **Ezarpenak** > **Segurtasuna** > **Erabiltzaileak**, eta egin honako hau:
 
-1. Ezarri UserFullname = "Spencer txikia Balioa" eskatuko "spencerl" batekin ( **lowercase** ) funtzio Proiektua Kudeatzailea eta Practice Kudeatzailea.
+1. Ezarri UserFullname = "Spencer txikia Balioa" eskatuko "spencerl" batekin (**lowercase**) funtzio Proiektua Kudeatzailea eta Practice Kudeatzailea.
 
 2. Hautatu **Spencer Low** erabiltzailea eta, ondoren, hautatu **Kudeatu Funtzioak**. Bilatu eta hautatu, **Sistemaren administratzailea** funtzioak eta, ondoren, hautatu **ados** Spencer txikia Balioa osoa administrazio-eskubideak emateko. Urrats honen da duzun adibidea erregistroak dagokien erabiltzaile jabetza batekin sortzen dira eta beraz betetzeko ikuspegiak behar bezala.
 
-3. Deskargatutako paketea batetik eguneratu behar dizkiezun datu-esleipen fitxategia lehenetsiak erabiltzaile-testuinguru helbide elektroniko batekin. Hori egiteko, ireki **PkgFolder** , eta, ondoren, bilatu eta ireki, **ImportUserMapFile.xml** ohar-Blokarekin (edo Visual Studio edo beste XML editorea) fitxategia. Ezarri, **DefaultUserToMapTo =** eremua Spencer txikia Balioa erabiltzaile baten helbide elektronikoa.
+3. Deskargatutako paketea batetik eguneratu behar dizkiezun datu-esleipen fitxategia lehenetsiak erabiltzaile-testuinguru helbide elektroniko batekin. Hori egiteko, ireki **PkgFolder**, eta, ondoren, bilatu eta ireki, **ImportUserMapFile.xml** ohar-Blokarekin (edo Visual Studio edo beste XML editorea) fitxategia. Ezarri, **DefaultUserToMapTo =** eremua Spencer txikia Balioa erabiltzaile baten helbide elektronikoa.
 
-4. Spencer txikia Balioa erabiltzen ez duen eskatuko **spencerl** , fitxategi gehiago eguneratu behar duzu. Ireki, **DemoDataPreImportConfig.xml** fitxategia eta, ondoren, bilaketa- **userstocreateandconfigure** tag. Eguneratu **\<login\>** etiketa Gotzon Galarraga erabiltzailearen erabiltzaile-izenarekin. Informazio osagarria eskuratzeko, ikusi [Ohar teknikoak](#technical-notes).
+4. Spencer txikia Balioa erabiltzen ez duen eskatuko **spencerl**, fitxategi gehiago eguneratu behar duzu. Ireki, **DemoDataPreImportConfig.xml** fitxategia eta, ondoren, bilaketa- **userstocreateandconfigure** tag. Eguneratu **\<login\>** etiketa Gotzon Galarraga erabiltzailearen erabiltzaile-izenarekin. Informazio osagarria eskuratzeko, ikusi [Ohar teknikoak](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Sortu edo konfiguratu erabiltzaile - erakusgai datuak paketea
 
@@ -143,9 +143,9 @@ Datuak erakusgai paketea sei erabiltzaileak behar du. Behar bezala instalatu pak
    > [!div class="mx-imgBorder"]
    > ![UserMapFile pantaila-argazkia](media/sample-data-7.png)
 
-4. Izen-abizenak "Spencer txikia Balioa" erabiltzaileak baino beste erabiltzaile ID batekin badu **"spencerl"** , gero gehigarria fitxategia eguneratu behar duzu. Ireki **DemoDataPreImportConfig.xml** fitxategia eta, ondoren, bilaketa- **userstocreateandconfigure** tag. Eguneratu **\<login\>** etiketa saioa hasteko IDarekin (maiuskulak eta minuskulak bereizten ditu). 
+4. Izen-abizenak "Spencer txikia Balioa" erabiltzaileak baino beste erabiltzaile ID batekin badu **"spencerl"**, gero gehigarria fitxategia eguneratu behar duzu. Ireki **DemoDataPreImportConfig.xml** fitxategia eta, ondoren, bilaketa- **userstocreateandconfigure** tag. Eguneratu **\<login\>** etiketa saioa hasteko IDarekin (maiuskulak eta minuskulak bereizten ditu). 
 
-5. Lehen erabiltzailearen egutegia (aplikazioan- **userstocreateandconfigure** tag) erakusgai datuak atalean bookable baliabide guztiak lanorduak betetzeko erabiltzen da. Joan **Ezarpenak** > **Segurtasun** > **Erabiltzaileak** "Spencer txikia Balioa" erabiltzaileak aurkitzeko, eta ireki "Lanorduak" aukera. Dauden lanorduak, hautatu editatu, **asteko antolaketa errepikaria hasieratik amaiera Osoa** aukera. Ziurtatu **lanorduak konfiguratuta badaude, 8 AM - 5 PM (9 Ordu iraungo ditu), Bostetara Ostiralera eta ezarri Pazifikoko Ordua (aeb eta Kanada) Timezone batekin**. Ziurtatu Proiektua eta Antolaketa board bezala erakutsi egin behar da hau.
+5. Lehen erabiltzailearen egutegia (aplikazioan- **userstocreateandconfigure** tag) erakusgai datuak atalean bookable baliabide guztiak lanorduak betetzeko erabiltzen da. Joan **Ezarpenak** > **Segurtasun** > **Erabiltzaileak**"Spencer txikia Balioa" erabiltzaileak aurkitzeko, eta ireki "Lanorduak" aukera. Dauden lanorduak, hautatu editatu, **asteko antolaketa errepikaria hasieratik amaiera Osoa** aukera. Ziurtatu **lanorduak konfiguratuta badaude, 8 AM - 5 PM (9 Ordu iraungo ditu), Bostetara Ostiralera eta ezarri Pazifikoko Ordua (aeb eta Kanada) Timezone batekin**. Ziurtatu Proiektua eta Antolaketa board bezala erakutsi egin behar da hau.
 
 **Recommendation:** Hartu orain, zure erakundea babeskopia sortzen kasuen leheneratu edukitzeko hasiera zure zerbait behar da adibide-datuen instalazioa egiterakoan baduzu beharko duzu. Informazio gehiago eskuratzeko, ikusi [Egin instantzien babeskopia eta leheneratu](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -241,7 +241,7 @@ Ez dago inportazio aurreko konfigurazio-fitxategia hau konfigurazio beste osagai
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Fabrikam Robotics itxurazkoak agertoki
 
-Instalatzeko, Field Service eta Project Service adibideko erreferentzia-datuak paketeak, **Fabrikam Fabrikazioa Nagusia Datuak (v3.0.0.0) soluzio** , bai eta erregistro 4.000 inguru eta entitate 40 inguru. Aplikazioko funtzioen azpimultzo bat izan Field Service edo Project Service paketeak datuak beste adibide- **v902FPSMasterData** adibidea aplikazio hori datuak. **Erakusgai Datuak** instalazioetan paketatzeko, **Fabrikam Produkzio-Erakusgai Datuak (v3.0.0.7) soluzio** 22.000 inguru erregistroekin 148 entitate zutabetan zehar.
+Instalatzeko, Field Service eta Project Service adibideko erreferentzia-datuak paketeak, **Fabrikam Fabrikazioa Nagusia Datuak (v3.0.0.0) soluzio**, bai eta erregistro 4.000 inguru eta entitate 40 inguru. Aplikazioko funtzioen azpimultzo bat izan Field Service edo Project Service paketeak datuak beste adibide- **v902FPSMasterData** adibidea aplikazio hori datuak. **Erakusgai Datuak** instalazioetan paketatzeko, **Fabrikam Produkzio-Erakusgai Datuak (v3.0.0.7) soluzio** 22.000 inguru erregistroekin 148 entitate zutabetan zehar.
 
 Fictional enpresaren, Fabrikam Robotics muntaia lineako robots gutunaren gailu manufacturer bat da eta beren produktu kalitatea, innovation eta lerro bezeroarentzako arreta-zerbitzua, instalazioa antolatu, inplementazio eta mantentze jarraitua barne ezagutzen zerbitzuak. Fabrikam ameriketako Estatu Batuez (Fabrikam U.S.) headquartered da, eta Frantzia, India, Erresuma Batua eta Suitza proiektua oinarritutako zerbitzu-eragiketak da.
 

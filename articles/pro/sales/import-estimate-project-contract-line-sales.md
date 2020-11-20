@@ -1,29 +1,29 @@
 ---
-title: Aurreikuspen bat proiektuetan oinarritutako kontratuaren lerro batera inportatzea
+title: Inportatu aurreikuspen bat proiektuetan oinarritutako kontratuaren lerro batera - arina
 description: Gai honek proiektu batetik kontratuaren lerro batera aurreikuspenak finantza-inportatzeari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9ac367baba4529e86a42d812b7d9b2550812e297
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4071269"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177451"
 ---
-# <a name="importing-an-estimate-to-a-project-based-contract-line"></a>Aurreikuspen bat proiektuetan oinarritutako kontratuaren lerro batera inportatzea
+# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Inportatu aurreikuspen bat proiektuetan oinarritutako kontratuaren lerro batera - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
 Dynamics 365 Project Operations-en, kalkuluak proiektu batetik inporta ditzakezu proiektuan oinarritutako kontratu lerro batera.
 
 1. Egiaztatu **Proiektua** proiektuan oinarritutako kontratu lerroaren eremua betetzen da.
-2. **Kontratu-lerroaren xehetasunak** fitxan, azpisarean, hautatu **Inportatu proiektuaren zenbatespenetik**. Laburpen aukerak dituen elkarrizketa-orria irekiko da. Laburpen aukera erabilgarriak hauek dira: **Transakzio klasea** , **Kategoria** , **Rola** eta **Proiektuaren zeregina**.
-3. Laburpenen hautapenetan oinarrituta, kontratuaren lerro honetan sartutako transakzio klase eta zeregin guztietarako proiektuaren aurrekontua kopiatzen da. Zein transakzio klase sartzen diren egiaztatzeko, hautatu kontratuetan oinarritutako kontratuaren lerroko **Orokorra** fitxan eta egiaztatu balioak **Sartu denbora** , **Sartu gastuak** eta **Sartu Tasak**. 
+2. **Kontratu-lerroaren xehetasunak** fitxan, azpisarean, hautatu **Inportatu proiektuaren zenbatespenetik**. Laburpen aukerak dituen elkarrizketa-orria irekiko da. Laburpen aukera erabilgarriak hauek dira: **Transakzio klasea**, **Kategoria**, **Rola** eta **Proiektuaren zeregina**.
+3. Laburpenen hautapenetan oinarrituta, kontratuaren lerro honetan sartutako transakzio klase eta zeregin guztietarako proiektuaren aurrekontua kopiatzen da. Zein transakzio klase sartzen diren egiaztatzeko, hautatu kontratuetan oinarritutako kontratuaren lerroko **Orokorra** fitxan eta egiaztatu balioak **Sartu denbora**, **Sartu gastuak** eta **Sartu Tasak**. 
 4. Zein zeregin sartzen diren ikusteko, hautatu **Zeregin kargagarriak** kontratuaren lerroan fitxa. **Sartutako transakzio klaseak** eremua **Bai** duten lotutako zereginetan oinarrituta, ataza eta transakzio klase konbinazio horien kalkuluak kontratuaren lerroan inportatzen dira.
 
 Aurrekontuak inportatzerakoan, sistemak kontratuak lehenetsiko ditu aurrekontuari erantsitako proiektuen prezioen zerrendetan eta proiektuan oinarritutako aurrekontu lerroan ezarritako fakturazio motaren arabera. Proiektuan oinarritutako kontratuaren lerroan eginkizun edo kategoria ez-kargagarritzat konfiguratzen bada, zereginaren, rolaren edo kategoriaren inportatutako estimazio lerroa ez-kargagarritzat ezarriko eta ez da kontratuaren lerroaren balio batuketara gehituko.
@@ -53,7 +53,7 @@ Erabiltzaileak **Transakzio klasea** eta **Kategoria** arabera laburbiltzea haut
 | A zeregina | Hegazkin-txartelak | 2020/01/10 | 4 | 400 | 1600 |
 | &nbsp;| Hotela | 2020/01/10 | 6 | 200 | 1200 |
 
-Erabiltzaileak **Transakzio klasearen** , **Kategoriaren** eta **Hosto-nodoaren zereginaren** arabera laburbiltzea hautatzen duenean, hau inportatuko da. Ohartu emaitza hau proiektuan zegoenaren berdina dela:
+Erabiltzaileak **Transakzio klasearen**, **Kategoriaren** eta **Hosto-nodoaren zereginaren** arabera laburbiltzea hautatzen duenean, hau inportatuko da. Ohartu emaitza hau proiektuan zegoenaren berdina dela:
 
 | Ataza | Kategoria | Data | Kantitatea | Unitate-prezioa | Kopurua |
 | --- | --- | --- | --- | --- | --- |

@@ -3,7 +3,7 @@ title: Erakundearen unitateak
 description: Gai honek entitate-unitate eta unitateei buruzko informazioa ematen du Dynamics 365 Project Service Automation-en.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071148"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130608"
 ---
 # <a name="organizational-units"></a>Erakundearen unitateak 
 
@@ -50,8 +50,8 @@ Gainera, baliabide entitatearen erakundearen unitate atributu bat dago. Baliabid
 
 Erakundearen unitateak bi funtzio betetzen ditu PSAn:
 
-- **Kontratazio Unitatea** : salmenta irabaztea eta bezeroari lana eta zerbitzuak entregatzea kudeatzeaz arduratzen den enpresa-taldea edo zatiketa ordezkatzen duen antolakuntza-unitatea. Kontratazio unitateak identifikatzen du **Kontratazio Unitatea** eremua goiburuko ataleko goiburuko atalean **Abagunea** , **Eskaintza** , **Proiektuaren kontratua** , eta **Proiektua** orrietakoak.
-- **Baliabide Unitatea** : baliabide bat dagokion edo esleitzen zaion unitate antolatzailea. Erakundearen unitate honek bere baliabideak eman ditzake laneko aitorpenetan (SOWs) eta unitate kontratatzailearen jabetzakoak diren eginkizunetarako.
+- **Kontratazio Unitatea**: salmenta irabaztea eta bezeroari lana eta zerbitzuak entregatzea kudeatzeaz arduratzen den enpresa-taldea edo zatiketa ordezkatzen duen antolakuntza-unitatea. Kontratazio unitateak identifikatzen du **Kontratazio Unitatea** eremua goiburuko ataleko goiburuko atalean **Abagunea**, **Eskaintza**, **Proiektuaren kontratua**, eta **Proiektua** orrietakoak.
+- **Baliabide Unitatea**: baliabide bat dagokion edo esleitzen zaion unitate antolatzailea. Erakundearen unitate honek bere baliabideak eman ditzake laneko aitorpenetan (SOWs) eta unitate kontratatzailearen jabetzakoak diren eginkizunetarako.
 
 > ![Kontratazio unitateak eta baliabide unitateak](media/advanced-1.png)
 

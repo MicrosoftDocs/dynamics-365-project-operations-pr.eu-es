@@ -1,12 +1,12 @@
 ---
-title: Proiektuaren prezio-zerrendak
+title: Kudeatu proiektuen prezio-zerrendak eskaintza batean
 description: Gai honek proiektuaren prezio-zerrendaren entitateari buruzko informazioa ematen du.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071262"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177181"
 ---
-# <a name="project-price-lists"></a>Proiektuaren prezio-zerrendak
+# <a name="manage-project-price-lists-on-a-quote"></a>Kudeatu proiektuen prezio-zerrendak eskaintza batean
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
@@ -34,16 +34,16 @@ Dynamics 365 Project Operations-ek Prezioen zerrenda entitatea luzatzen du Dynam
 
 Prezio-zerrendan lau erakunde desberdinek eskaintzen duten informazioa biltzen da:
 
-- **Prezio-zerrenda** : entitate honek testuinguruari, monetari, daten eraginkortasunari eta denbora unitateari buruzko informazioa gordetzen du prezio-denborarako. Testuinguruak erakusten du prezio-zerrendan kostu-tasak edo salmenta-tasak adierazten diren ala ez. 
-- **Moneta** : entitate honek prezioen moneta prezio-zerrendan gordetzen du. 
-- **Data** : entitate hau sistemak transakzio bateko prezio lehenetsiak sartzen saiatzen denean erabiltzen da. Transakzioaren data biltzen duen data eraginkortasuna duen prezioen zerrenda hautatzen du. Transakziorako data eraginkorra den prezio-zerrenda bat baino gehiago aurkitzen badu eta horri lotutako eskaintzari, kontratuei edo antolakuntza unitateari erantsita, orduan ez da preziorik lehenetsiko. 
-- **Ordua** : entitate honek prezioak adierazitako denbora-unitatea gordetzen du, hala nola eguneko- edo orduko-tasak. 
+- **Prezio-zerrenda**: entitate honek testuinguruari, monetari, daten eraginkortasunari eta denbora unitateari buruzko informazioa gordetzen du prezio-denborarako. Testuinguruak erakusten du prezio-zerrendan kostu-tasak edo salmenta-tasak adierazten diren ala ez. 
+- **Moneta**: entitate honek prezioen moneta prezio-zerrendan gordetzen du. 
+- **Data**: entitate hau sistemak transakzio bateko prezio lehenetsiak sartzen saiatzen denean erabiltzen da. Transakzioaren data biltzen duen data eraginkortasuna duen prezioen zerrenda hautatzen du. Transakziorako data eraginkorra den prezio-zerrenda bat baino gehiago aurkitzen badu eta horri lotutako eskaintzari, kontratuei edo antolakuntza unitateari erantsita, orduan ez da preziorik lehenetsiko. 
+- **Ordua**: entitate honek prezioak adierazitako denbora-unitatea gordetzen du, hala nola eguneko- edo orduko-tasak. 
 
 Prezio-zerrendako erakundeak erlazionatutako hiru taula ditu, prezioak gordetzen dituztenak:
 
-  - **Funtzio-prezioa** : taula honek funtzio- eta antolaketa-unitateen balioak konbinatzeko tasa gordetzen du eta giza baliabideen funtzioan oinarritutako prezioak ezartzeko erabiltzen da.
-  - **Transakzioen kategoria prezioa** : taula honek prezioak transakzioen kategorien arabera gordetzen ditu eta gastu kategoriako prezioak ezartzeko erabiltzen da.
-  - **Prezio-zerrendako elementuak** : taula honek katalogoko produktuen prezioak gordetzen ditu.
+  - **Funtzio-prezioa**: taula honek funtzio- eta antolaketa-unitateen balioak konbinatzeko tasa gordetzen du eta giza baliabideen funtzioan oinarritutako prezioak ezartzeko erabiltzen da.
+  - **Transakzioen kategoria prezioa**: taula honek prezioak transakzioen kategorien arabera gordetzen ditu eta gastu kategoriako prezioak ezartzeko erabiltzen da.
+  - **Prezio-zerrendako elementuak**: taula honek katalogoko produktuen prezioak gordetzen ditu.
  
 Prezio-zerrenda tasa-txartela da. Tasa-txartela prezio-zerrendako entitatearen eta erlazionatutako errenkaden funtzio-prezioaren konbinaketa da, transakzioen kategoriako prezioa eta prezio zerrendako elementuen tauletan daude.
 
@@ -59,9 +59,9 @@ Giza baliabideen denbora normalean proiektu jakin batean betetzen duen eginkizun
 
 Proiektuen aholkulariek sortzen dituzten bidaiak eta gainerako gastuak normalean bezeroari fakturatzen zaizkio. Gastu kategorien prezioak prezio-zerrendaren arabera eginda daude. Aireportua, hotela eta autoen alokairua gastu kategorien adibide dira. Gastuen prezio-zerrendaren lerro bakoitzak gastu-kategoria jakin baterako prezioak zehazten ditu. Hiru metodo hauek erabiltzen dira gastuen kategoriak preziatzeko:
 
-- **Kostuan** : gastuaren kostua bezeroari fakturatzen zaio eta ez da gainpreziorik aplikatuko.
-- **Gainprezio portzentajea** : benetako kostuaren gaineko portzentajea bezeroari fakturatzen zaio. 
-- **Prezioa unitateko** : gastu-kategoriako unitate bakoitzeko fakturazio-prezioa ezartzen da. Bezeroari fakturatzen zaion zenbatekoa kontsultariak jakinarazten duen gastu unitateen arabera kalkulatzen da. Kilometrajeak prezio bakoitzeko prezioaren metodoa erabiltzen du. Adibidez, kilometro-gastuen kategoria 30 dolar (USD) eguneko edo 2 USD kilometroko izateko konfiguratu daiteke. Aholkulari batek proiektu baten kilometrajea jakinarazten duenean, fakturatu beharreko zenbatekoa aholkulariak jakinarazi duen kilometro kopuruaren arabera kalkulatzen da.
+- **Kostuan**: gastuaren kostua bezeroari fakturatzen zaio eta ez da gainpreziorik aplikatuko.
+- **Gainprezio portzentajea**: benetako kostuaren gaineko portzentajea bezeroari fakturatzen zaio. 
+- **Prezioa unitateko**: gastu-kategoriako unitate bakoitzeko fakturazio-prezioa ezartzen da. Bezeroari fakturatzen zaion zenbatekoa kontsultariak jakinarazten duen gastu unitateen arabera kalkulatzen da. Kilometrajeak prezio bakoitzeko prezioaren metodoa erabiltzen du. Adibidez, kilometro-gastuen kategoria 30 dolar (USD) eguneko edo 2 USD kilometroko izateko konfiguratu daiteke. Aholkulari batek proiektu baten kilometrajea jakinarazten duenean, fakturatu beharreko zenbatekoa aholkulariak jakinarazi duen kilometro kopuruaren arabera kalkulatzen da.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Proiektuen salmentako prezioak eta baliogabetzeak
 

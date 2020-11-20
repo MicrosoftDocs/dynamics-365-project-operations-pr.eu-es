@@ -3,7 +3,7 @@ title: Sortu proiektua
 description: Nola sortu proiektu-abagunea Project Service-n
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1a229641d0694311ecb7019e3915d0e8e6783c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071048"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133083"
 ---
 # <a name="create-a-project-project-service"></a>Sortu proiektua (Project Service)
 
@@ -37,7 +37,7 @@ Sortu proiektua [!INCLUDE[pn_project_service_auto](../includes/pn-project-servic
   
 3.  **Laburpena** eremuan, idatzi proiektuaren izena eta, ondoren, bete ahalik eta xehetasun gehiago. Izartxo gorriarekin (*) markatutako elementuak beharrezkoak dira.  
   
-4.  Sakatu **Gorde** , proiektua sortzeko, editatzen jarraitu ahal izateko.  
+4.  Sakatu **Gorde**, proiektua sortzeko, editatzen jarraitu ahal izateko.  
   
 Ondoren, proiektuko atazen xehapenaren egitura sortuko duzu, proiektuan behar diren zereginak, ordutegia eta baliabide-funtzioak definitzeko.  
 

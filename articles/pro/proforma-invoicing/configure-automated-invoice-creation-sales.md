@@ -1,22 +1,22 @@
 ---
-title: Konfiguratu proforma automatikoa sortzeko aukera
+title: Konfiguratu fakturen sortze automatikoa - arina
 description: Gai honetan proformako fakturak automatikoko sortzea konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070945"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176551"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Konfiguratu proforma automatikoa sortzeko aukera
-
+# <a name="configure-automatic-invoice-creation---lite"></a>Konfiguratu fakturen sortze automatikoa - arina
+ 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
 Dynamics 365 Project Operations-en konfigura dezakezu fakturak automatikoki sortzea. Sistemak proforma faktura zirriborro bat sortzen du proiektuaren kontratu eta kontratu lerro bakoitzaren faktura egutegian oinarrituta. Fakturen ordutegiak kontratu lerro mailan konfiguratuta daude. Kontratu bateko lerro bakoitzak faktura ordutegi desberdina izan dezake, edo faktura ordutegi bera kontratuaren lerro guztietan sar daiteke.
@@ -48,21 +48,21 @@ Bi lerro-elementu horietako bakoitzean zehaztutako fakturen ordutegiek honako ta
 
 Fakturazio automatikoa martxan dagoenean adibide honetan:
 
-- **Urriaren 4a edo aurreko edozein data** : Ez da fakturarik sortu kontratu honengatik **Fakturen ordutegia** Kontratu-linea horietako bakoitzaren taulak ez du urriaren 4a, igandea deitzen, faktura exekutatzeko data gisa.
-- **Urriak 5, astelehena** : Faktura bat sortzen da honetarako:
+- **Urriaren 4a edo aurreko edozein data**: Ez da fakturarik sortu kontratu honengatik **Fakturen ordutegia** Kontratu-linea horietako bakoitzaren taulak ez du urriaren 4a, igandea deitzen, faktura exekutatzeko data gisa.
+- **Urriak 5, astelehena**: Faktura bat sortzen da honetarako:
 
     - Mugarria barne hartzen duen prototipo lana, gisa markatuta badago **Fakturatzeko prest**.
     - Urriak 4, igandea, transakzioaren amaiera eguna baino lehen sortutako Denborazko transakzio guztiak biltzen dituen inplementazio lana, honela markatuta dagoena **Fakturatzeko prest**.
     - Urriak 4, igandea, transakzioaren amaiera eguna baino lehen sortutako Gastuen transakzio guztiak biltzen dituen egindako gastuak, honela markatuta dagoena **Fakturatzeko prest**.
   
-- **Urriaren 6an edo urriak 19 baino aurreko edozein data** : Ez da fakturarik sortu kontratu honengatik **Fakturen ordutegia** Kontratu-linea horietako bakoitzaren taulak ez du urriaren 6 edo urriaren 19 baino aurreko edozein data deitzen, faktura exekutatzeko data gisa.
-- **Urriak 19, astelehena** : Urriak 18, igandea, transakzioaren amaiera eguna baino lehen sortutako Denborazko transakzio guztiak biltzen dituen inplementazio lanaren faktura bat sortu da, honela markatuta dagoena **Fakturatzeko prest**.
-- **Azaroak 2, astelehena** : Faktura bat sortzen da honetarako:
+- **Urriaren 6an edo urriak 19 baino aurreko edozein data**: Ez da fakturarik sortu kontratu honengatik **Fakturen ordutegia** Kontratu-linea horietako bakoitzaren taulak ez du urriaren 6 edo urriaren 19 baino aurreko edozein data deitzen, faktura exekutatzeko data gisa.
+- **Urriak 19, astelehena**: Urriak 18, igandea, transakzioaren amaiera eguna baino lehen sortutako Denborazko transakzio guztiak biltzen dituen inplementazio lanaren faktura bat sortu da, honela markatuta dagoena **Fakturatzeko prest**.
+- **Azaroak 2, astelehena**: Faktura bat sortzen da honetarako:
 
     - Azaroak 1, igandea, transakzioaren amaiera eguna baino lehen sortutako Denborazko transakzio guztiak biltzen dituen inplementazio lana, honela markatuta dagoena **Fakturatzeko prest**.
     - Azaroak 1, igandea, transakzioaren amaiera eguna baino lehen sortutako Gastuen transakzio guztiak biltzen dituen egindako gastuak, honela markatuta dagoena **Fakturatzeko prest**.
 
-- **Azaroak 3, asteartea** : Faktura bat sortzen da 12000 USD-en mugarria barne hartzen duen prototipo lanetarako, gisa markatuta badago **Fakturatzeko prest**.
+- **Azaroak 3, asteartea**: Faktura bat sortzen da 12000 USD-en mugarria barne hartzen duen prototipo lanetarako, gisa markatuta badago **Fakturatzeko prest**.
 
 ## <a name="configure-automatic-invoicing"></a>Konfiguratu fakturatze automatikoa
 

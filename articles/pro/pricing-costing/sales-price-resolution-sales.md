@@ -1,21 +1,21 @@
 ---
-title: Aurreikuspenen eta benetako datuen salmentak ebaztea
+title: Ebatzi aurreikuspenen eta benetako datuen salmentak - arina
 description: Gai honek kostuaren prezioa ebazteko moduari eta estimazioei buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c8972bd7710735e9acdbf951079f2da24a00bd7f
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087791"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176731"
 ---
-# <a name="resolving-sales-prices-for-estimates-and-actuals"></a>Aurreikuspenen eta benetako datuen salmentak ebaztea
+# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Ebatzi aurreikuspenen eta benetako datuen salmentak - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
@@ -27,12 +27,12 @@ Project Operations-en, denbora kalkulatzeko lerroak erabiltzen dira aurrekontuar
 
 Salmenten prezio zerrenda ebatzi ondoren, sistemak urrats hauek betetzen ditu faktura tasa lehenesteko.
 
-1. Sistemak **Rola** eta **Baliabideen unitatea** denbora kalkulatzeko lerroaren eremuak, ebatzitako prezio zerrendako rol prezioen lerroekin bat etortzeko. Partida honek suposatzen du kutxaz kanpoko prezioen neurriak erabiltzen dituzula fakturazio-tasetarako. Prezioak beste edozein eremutan oinarrituta konfiguratu badituzu edo ez horren ordez **Rola** eta **Baliabideen unitatea** , orduan hori da bat datorren rolaren prezio lerroa berreskuratzeko erabiliko den konbinazioa.
+1. Sistemak **Rola** eta **Baliabideen unitatea** denbora kalkulatzeko lerroaren eremuak, ebatzitako prezio zerrendako rol prezioen lerroekin bat etortzeko. Partida honek suposatzen du kutxaz kanpoko prezioen neurriak erabiltzen dituzula fakturazio-tasetarako. Prezioak beste edozein eremutan oinarrituta konfiguratu badituzu edo ez horren ordez **Rola** eta **Baliabideen unitatea**, orduan hori da bat datorren rolaren prezio lerroa berreskuratzeko erabiliko den konbinazioa.
 2. Sistemak fakturazio tasa duen rola prezio lerro bat aurkitzen badu **Rola** eta **Baliabideen unitatea** eremuen konbinazioa, faktura tasa lehenetsita dago.
 3. Sistema ezin bada **Rola** eta **Baliabideen unitatea** eremuko balioak, ondoren, rolen prezioen lerroak berreskuratzen ditu bat datozen rolekin baina balio baliogabeak **Baliabideen unitatea**. Sistemak bat datorren rolaren prezioen erregistroa aurkitu ondoren, faktura-tasa lehenetsiko du erregistro horretatik. Bat etortze honek kutxaz kanpoko konfigurazioa suposatzen du **Rola** vs **Baliabideen Unitatea** salmenten prezioen dimentsio gisa.
 
 > [!NOTE]
-> Lehenespen desberdina konfiguratu baduzu **Rola** eta **Baliabideen unitatea** , edo lehentasun handiagoa duten beste dimentsio batzuk badituzu, portaera horren arabera aldatuko da. Sistemak rolen prezioen erregistroak berreskuratzen ditu prezioen dimentsioen balio bakoitzarekin bat datozen balioekin lehentasunen arabera ordenatuta azken dimentsioetarako balio baliorik gabeko errenkadekin.
+> Lehenespen desberdina konfiguratu baduzu **Rola** eta **Baliabideen unitatea**, edo lehentasun handiagoa duten beste dimentsio batzuk badituzu, portaera horren arabera aldatuko da. Sistemak rolen prezioen erregistroak berreskuratzen ditu prezioen dimentsioen balio bakoitzarekin bat datozen balioekin lehentasunen arabera ordenatuta azken dimentsioetarako balio baliorik gabeko errenkadekin.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Ebatzi benetako salmenten tasak eta gastuetarako kalkulatutako lerroak
 

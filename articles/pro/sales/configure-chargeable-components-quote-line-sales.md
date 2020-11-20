@@ -1,21 +1,21 @@
 ---
-title: Konfiguratu eskaintzaren lerro bateko kobra daitezkeen osagaiak
+title: Konfiguratu eskaintzaren lerro bateko kobra daitezkeen osagaiak - arina
 description: Gai honek proiektuan oinarritutako aurrekontu lerro batean kargagarriak eta kargagarriak ez diren osagaiak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071157"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177091"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Konfiguratu eskaintzaren lerro bateko kobra daitezkeen osagaiak
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Konfiguratu eskaintzaren lerro bateko kobra daitezkeen osagaiak - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
@@ -44,21 +44,21 @@ Eskaintzaren lerro bateko transakzio-kategorietan definitutako kobragarritasuna 
 
 Proiektuaren zeregina proiektuetan oinarritutako eskaintzaren lerro zehatz baten testuinguruan kargagarria edo ez kargagarria izan daiteke eta horrek konfigurazio hau posible egiten du:
 
-Proiektuan oinarritutako aurrekontu lerroak biltzen badu **Denbora** eta zeregina **T1** , zeregina aurrekontu lerroarekin lotzen da kobratzeko moduan. Horrek barne hartzen duen bigarren eskaintzaren lerro bat badago **Gastuak** , **T1** zeregina eskaintzaren lerroan lotu dezakezu kobratzeko moduan. Emaitza da zereginean grabatutako denbora guztia kargagarria dela eta kargagarriak ez diren zereginetako gastu guztiak ez direla erregistratzen.
+Proiektuan oinarritutako aurrekontu lerroak biltzen badu **Denbora** eta zeregina **T1**, zeregina aurrekontu lerroarekin lotzen da kobratzeko moduan. Horrek barne hartzen duen bigarren eskaintzaren lerro bat badago **Gastuak**, **T1** zeregina eskaintzaren lerroan lotu dezakezu kobratzeko moduan. Emaitza da zereginean grabatutako denbora guztia kargagarria dela eta kargagarriak ez diren zereginetako gastu guztiak ez direla erregistratzen.
 
-Ataza baten fakturazio mota konfiguratu daiteke **Zeregin kargagarriak** proiektuetan oinarritutako eskaintzaren lerroaren fitxa eguneratuz **Fakturazio mota** eremua **Eskaintzaren lerroaren zereginak** azpi-saretan. Bestela, **Fakturazio mota** eremuko proiektuaren fakturazio mota egunera dezakezu zereginaren azpi-saretako zeregin bati lotutako eskaintzaren lerroak erakusten dituen proiektu baten fakturazio konfigurazioa.
+Ataza baten fakturazio mota konfiguratu daiteke **Zeregin kargagarriak** proiektuan oinarritutako eskaintzaren lerroaren fitxa eguneratuz **Fakturazio mota** eremua **Kontratu lerroaren atazak** azpisarea. Bestela, eguneratu dezakezu **Fakturazio mota** eremuko proiektu-zereginaren fakturazio motaren azpisarea eremuan, zeregin bati lotutako kontratu lerroak erakusten dituen proiektu baten fakturazio konfigurazioa.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Eguneratu funtzioa kargagarria edo kargagarria ez den moduan
 
 Eginkizun bat kargagarria edo ez kargagarria izan daiteke proiektuan oinarritutako aurrekontu lerro jakin baten testuinguruan.
 
-Funtzio baten fakturazio mota konfiguratu daiteke **Funtzio kargagarriak** eskaintzaren lerroaren fitxa eguneratuz **Fakturazio mota** eremua **Funtzio kargagarriak** azpi-saretan.
+Funtzioa baten fakturazio mota konfiguratu daiteke **Funtzio kargagarriak** eskaintzaren lerroaren fitxa eguneratuz **Fakturazio mota** eremua **Funtzio kargagarriak** azpisarea.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Eguneratu transakzio-kategoria kargagarria edo kargagarria ez den moduan
 
 Transakzio-kategoria bat kargagarria edo ez kargagarria izan daiteke eskaintzaren lerro jakin batean.
 
-Transakzio baten fakturazio mota konfiguratu daiteke **Kategoria kargagarriak** eskaintzaren lerroaren fitxa eguneratuz **Fakturazio mota** eremua **Kategoria kargagarriak** azpi-saretan.
+Transakzioaren fakturazio mota konfiguratu daiteke **Kategoria kargagarriak** eskaintzaren lerroaren fitxa eguneratuz **Fakturazio mota** eremua **Kategoria kargagarriak** azpisarea.
 
 ### <a name="resolve-chargeability"></a>Kargagarritasuna ebatzi
 Denborarako sortutako aurrekontua edo benetakoa soilik kobratuko da **Denbora** eskaintzaren lerroan sartzen da, eta bada **Egitekoa** eta **Rola** eskaintzaren lerroan kargatzeko moduan konfiguratuta daude.

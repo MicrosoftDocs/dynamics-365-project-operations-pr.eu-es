@@ -3,7 +3,7 @@ title: Konfiguratu fakturen maiztasunak
 description: Nola konfiguratu faktura-maiztasuna Project Service-n
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2739db966b332db35e383589e06e023ff156ed45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071252"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132004"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Konfiguratu faktura-maiztasuna (Project Service)
 
@@ -37,11 +37,11 @@ ms.locfileid: "4071252"
   
 3.  **Orokorra** eremuan, adierazi faktura-maiztasunaren izena **Izena** aukeran.  
   
-4.  **Aldia** aukeran, hautatu **Hilero** , **Bi astez behin** edo **Astero**.  
+4.  **Aldia** aukeran, hautatu **Hilero**, **Bi astez behin** edo **Astero**.  
   
-5.  Hilabeteko edo bi astero,-tarte bat zehaztu baduzu **exekutatzen Egun** , hautatu **aldi Egun** epea zehaztutako eguna fakturatu (ala weekday edo asteburuko), edo hautatu **Weekday aldi** -epea zehaztutako weekday fakturatu.  
+5.  Hilabeteko edo bi astero,-tarte bat zehaztu baduzu **exekutatzen Egun**, hautatu **aldi Egun** epea zehaztutako eguna fakturatu (ala weekday edo asteburuko), edo hautatu **Weekday aldi** -epea zehaztutako weekday fakturatu.  
   
-6.  Hilabeteko, tarte jakin bat zehaztu baduzu **bakoitzeko, hilabete bakoitzeko Den** , hautatu hilero faktura exekutatu nahi duzun aldi-kopurua.  
+6.  Hilabeteko, tarte jakin bat zehaztu baduzu **bakoitzeko, hilabete bakoitzeko Den**, hautatu hilero faktura exekutatu nahi duzun aldi-kopurua.  
   
 7.  **Faktura Maiztasuna Xehetasunak** eremuan, egun zuzena edo weekday zehaztu aldi exekutatzen egun edo weekday xehetasunak ziurtatzeko faktura behar bezala aldatu.  
   

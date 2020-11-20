@@ -1,21 +1,21 @@
 ---
-title: Gehitu Azure harpidetza LCS proiektuan
+title: Gehitu Azure harpidetza LCS proiektu batean
 description: Gai honek zure Azure harpidetza LCS proiektu batera konektatzeko moduari buruzko informazioa eskaintzen du.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e741f35f9b229d2897cec06054d91ae620397228
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070907"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175786"
 ---
-# <a name="add-an-azure-subscription-to-lcs-project"></a>Gehitu Azure harpidetza LCS proiektuan
+# <a name="add-an-azure-subscription-to-an-lcs-project"></a>Gehitu Azure harpidetza LCS proiektu batean
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
@@ -50,7 +50,7 @@ Baimena amaitu da.
 ![Azure harpidetzaren xehetasunak](./media/6AzureSubscription.png)
 
 2. Aukeratu **Sarbide kontrola (IAM)** nabigazio panelean, eta hautatu **Gehitu rol esleipena**.
-3. Eskuineko aldean, hautatu **Laguntzaile-funtzioa** , eta emandako zerrendan, bilatu eta hautatu **Dynamics-en inplementazio-zerbitzuak**. 
+3. Eskuineko aldean, hautatu **Laguntzaile-funtzioa**, eta emandako zerrendan, bilatu eta hautatu **Dynamics-en inplementazio-zerbitzuak**. 
 4. Sakatu **Gorde**.
 
 ![Harpidetzaren sarbidea](./media/7SubscriptionAccess.png)

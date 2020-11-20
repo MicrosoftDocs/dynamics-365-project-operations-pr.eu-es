@@ -3,7 +3,7 @@ title: Onartu beste norbaitek denbora edo gastuak sartzea
 description: Nola baimendu beste norbaiti zure denbora edo gastuak sartzea Project Service-n
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071009"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130339"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Baimendu beste norbaiti zure denbora edo gastuak sartzea (Project Service)
 
@@ -37,13 +37,13 @@ Konfiguratu ordezkari bat beste norbaitek denbora eta gastuak sartzeko zure izen
   
 2.  Sakatu **Berria** komando-barran.  
   
-3. **Izena** : Idatzi erregistroaren izena.  
+3. **Izena**: Idatzi erregistroaren izena.  
   
-4. **Mota** : Hautatu ordezkariak denbora eta gastuak idatz ote ditzakeen zure izenean.  
+4. **Mota**: Hautatu ordezkariak denbora eta gastuak idatz ote ditzakeen zure izenean.  
   
-5. **Ordezkaria** : Hautatu ordezkaria izan dadin nahi duzun pertsonaren izena.  
+5. **Ordezkaria**: Hautatu ordezkaria izan dadin nahi duzun pertsonaren izena.  
   
-6. **Hasiera- eta amaiera-datak** : Aukeratu ordezkaritza hasten eta amaitzen den datak.  
+6. **Hasiera- eta amaiera-datak**: Aukeratu ordezkaritza hasten eta amaitzen den datak.  
   
 7.  Amaitutakoan, sakatu **Gorde eta itxi**.  
   
@@ -65,7 +65,7 @@ Konfiguratu ordezkari bat beste norbaitek denbora eta gastuak sartzeko zure izen
   
 3.  Sakatu **Ados**.  
   
-4.  Egutegia agerrarazten du. Aurreko edo hurrengo asteko egutegia ikusteko, sakatu **Aurrekoa** edo **Hurrengoa**. Sakatu **Gaur** , uneko astera itzultzeko.  
+4.  Egutegia agerrarazten du. Aurreko edo hurrengo asteko egutegia ikusteko, sakatu **Aurrekoa** edo **Hurrengoa**. Sakatu **Gaur**, uneko astera itzultzeko.  
   
 5.  Ordua sartzeko, sakatu **Berria** edo sakatu bi aldiz egutegia ordua sartu nahi duzun egunean.  
   
@@ -81,7 +81,7 @@ Konfiguratu ordezkari bat beste norbaitek denbora eta gastuak sartzeko zure izen
   
 3.  Sakatu **Ados**.  
   
-4.  Aurreko edo hurrengo asteko egutegia ikusteko, sakatu **Aurrekoa** edo **Hurrengoa**. Sakatu **Gaur** , uneko astera itzultzeko.  
+4.  Aurreko edo hurrengo asteko egutegia ikusteko, sakatu **Aurrekoa** edo **Hurrengoa**. Sakatu **Gaur**, uneko astera itzultzeko.  
   
 5.  Gastuak idazteko, sakatu **Berria**  
   

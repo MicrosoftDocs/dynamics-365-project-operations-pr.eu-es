@@ -3,7 +3,7 @@ title: Salmenta-unitateak eta unitateak
 description: Gai honek salmenta-unitate eta unitateei buruzko informazioa ematen du.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071052"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130563"
 ---
 # <a name="unit-groups-and-units"></a>Salmenta-unitateak eta unitateak
 
@@ -33,14 +33,14 @@ Salmenta-unitate eta unitateak oinarrizko erakundeak dira Microsoft Dynamics 365
 
 Hona hemen unitate eta salmenta-unitateen adibide batzuk:
  
-- **Salmenta-unitateak** : distantzia 
+- **Salmenta-unitateak**: distantzia 
     - **Unitateak** : milia, kilometroa eta abar.
-- **Salmenta-unitatea** : denbora
+- **Salmenta-unitatea**: denbora
     - **Unitateak** : ordua, eguna, astea eta abar. 
 
 Salmenta-unitate batean hainbat unitate konfiguratzen dituzunean, haien arteko bihurketa-faktore bat ere ezarri behar duzu salmenta-unitate lehenetsi edo lehenetsi gisa ezarri duzun lehen unitatea izendatuz. 
 
-Adibidez, **Denbora** salmenta-unitatean, konfiguratzen baduzu **Ordua** lehen unitate gisa, sistemak izendatzen du **Ordua** unitate lehenetsi gisa. Konfiguratu duzun hurrengo unitatea bada **Eguna** , bihurketa faktorea konfiguratu behar duzu **Eguna** unitatetik **Ordua** unitatera. Gero gehitzen baduzu **Astea** hirugarren unitate gisa, bihurketa faktore bat ezarri behar duzu **Astea** unitaterako **Eguna** edo **Ordua** unitateei jarraituz. 
+Adibidez, **Denbora** salmenta-unitatean, konfiguratzen baduzu **Ordua** lehen unitate gisa, sistemak izendatzen du **Ordua** unitate lehenetsi gisa. Konfiguratu duzun hurrengo unitatea bada **Eguna**, bihurketa faktorea konfiguratu behar duzu **Eguna** unitatetik **Ordua** unitatera. Gero gehitzen baduzu **Astea** hirugarren unitate gisa, bihurketa faktore bat ezarri behar duzu **Astea** unitaterako **Eguna** edo **Ordua** unitateei jarraituz. 
 
 Hurrengo irudian, adibideen konfigurazioa erakusten da **Eguna** unitaterako, non **Kopurua** eremuak egun bateko ordu kopurua erakusten duen, eta **Astea** unitaterako, non **Kopurua** eremuak aste barruan dauzkan egun kopurua erakusten duen.
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation-ek unitateak eta salmenta-unitateak erab
 
 Gastuetarako, gastu kategoria bakoitzak unitate eta salmenta-unitate lehenetsiak ditu. Balio horiek balio lehenetsiak bezala sartzen dira gastu kategorien prezioen zerrendako sarreretan. 
 
-Adibidez, **Distantzia** izena duen gastu kategoria bat duzu. **Distantzia** izena duen salmenta-unitatea da eta izen bereko unitate lehenetsia **Mile** da. Konfiguratu baduzu **Distantzia** unitate multzoa bi unitate izan dezan ( **Milia** eta **Kilometroa** ) bi prezio ezar ditzakezu **Distantzia** prezio-zerrenda bateko kategorian: miliako prezioa eta kilometroko prezioa.
+Adibidez, **Distantzia** izena duen gastu kategoria bat duzu. **Distantzia** izena duen salmenta-unitatea da eta izen bereko unitate lehenetsia **Mile** da. Konfiguratu baduzu **Distantzia** unitate multzoa bi unitate izan dezan (**Milia** eta **Kilometroa**) bi prezio ezar ditzakezu **Distantzia** prezio-zerrenda bateko kategorian: miliako prezioa eta kilometroko prezioa.
 
 | Gastu-kategoria  | Salmenta-unitatea  | Unitatea      | Prezio-metodoa  | Prezioa unitate bakoitzeko  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Denbora luzez, prezio-zerrendako goiburu bakoitzak **Lehenespeneko denbora-unita
 Hurrengo adibidean, PSAk salmenta-unitateak, unitateak eta bihurketa faktoreak nola erabiltzen dituen erakusten du.
 - Unitateak
 
-   - **Salmenta-unitatea** : denbora 
+   - **Salmenta-unitatea**: denbora 
    - **Unitateak** : ordua 
     
-    - **Eguna** : bihurketa-faktorea: 8 ordu       
-    - **Astea** : bihurketa-faktorea: 40 ordu  
+    - **Eguna**: bihurketa-faktorea: 8 ordu       
+    - **Astea**: bihurketa-faktorea: 40 ordu  
         
 - Prezio-zerrenda A proiektuaren konfigurazioan:
 
     - **Izena** : Erresuma Batuko salmenta prezioak 2016 
     - **Lehenetsitako denbora-unitatea** : eguna 
-    - **Moneta** : GBP
+    - **Moneta**: GBP
 
 | Funtzioa      | Salmenta-unitatea | Unitatea | Erakunde-unitatea | Prezioa   |
 |-----------|------------|------|---------------------|---------|
