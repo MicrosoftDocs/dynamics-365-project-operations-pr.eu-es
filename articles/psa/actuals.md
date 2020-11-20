@@ -3,7 +3,7 @@ title: Benetako datuen ikuspegi orokorra
 description: Gai honek benetako datuen antolaketari buruzko informazioa ematen du.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071234"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129753"
 ---
 # <a name="actuals-overview"></a>Benetako datuen ikuspegi orokorra
 
@@ -39,7 +39,7 @@ PSAn, denboraren eta materialen kontratu-lerro batera mapatutako proiektu batera
 
 Prezio lehenetsiak sartzeko logika kutxako liburuaren lerroan dago. Aldi bateko sarrera-eremuko balio guztiak kutxako liburuaren lerroan kopiatzen dira. Eremu hauetan daude transakzioaren data, proiektua esleitu duen kontratuaren lerroa eta dibisaren emaitza prezioen zerrenda egokian. 
 
-Prezio lehenetsiei eragiten dieten eremuak, adibidez **Funtzioa** eta **Organo Unitatea** , lehenetsitako kutxako liburuaren linean linean sartu behar izatea. Denboraren sarreran eremu pertsonalizatu bat gehitzen baduzu eta eremuaren balioa aktualitatera hedatu nahi baduzu, sortu eremua Aktualitateko entitatean eta erabili eremuko mapak eremua kopiatzeko garaian benetako sarrerara.
+Prezio lehenetsiei eragiten dieten eremuak, adibidez **Funtzioa** eta **Organo Unitatea**, lehenetsitako kutxako liburuaren linean linean sartu behar izatea. Denboraren sarreran eremu pertsonalizatu bat gehitzen baduzu eta eremuaren balioa aktualitatera hedatu nahi baduzu, sortu eremua Aktualitateko entitatean eta erabili eremuko mapak eremua kopiatzeko garaian benetako sarrerara.
 
 ## <a name="submitting-an-expense-entry"></a>Gastu sarrera aurkeztuz
 

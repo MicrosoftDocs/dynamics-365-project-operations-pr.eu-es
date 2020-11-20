@@ -2,7 +2,7 @@
 title: Nola egin ditzaket Proiektua Faseak negozio-prozesuaren fluxua?
 description: Proiektua faseen negozio-prozesuaren fluxua pertsonalizatzeko ikuspegi orokorra.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071222"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125009"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Nola egin ditzaket Proiektua Faseak negozio-prozesuaren fluxua?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Muga ezagun bat dago Project Service-ren aplikazioan eta negozio-prozesuaren fluxuko Proiektu-faseek bat etorri behar dute ingelesezko izenekin ( **Quote** , **Plan** , **Close** ). Bestela, eta negozio-logika, relies izenak Ingelesez fasea arabera, zer ez du funtzionatzen bezala. Why dagoen bai ekintzak esaterako ikusten ez **modura Aldaketa Prozesu** edo **Editatu Prozesua** proiektua inprimakian erabilgarri, eta pertsonalizatu negozio-prozesuaren fluxua encouraged ez dago. 
+Muga ezagun bat dago Project Service-ren aplikazioan eta negozio-prozesuaren fluxuko Proiektu-faseek bat etorri behar dute ingelesezko izenekin (**Quote**, **Plan**, **Close**). Bestela, eta negozio-logika, relies izenak Ingelesez fasea arabera, zer ez du funtzionatzen bezala. Why dagoen bai ekintzak esaterako ikusten ez **modura Aldaketa Prozesu** edo **Editatu Prozesua** proiektua inprimakian erabilgarri, eta pertsonalizatu negozio-prozesuaren fluxua encouraged ez dago. 
 
 Muga honi 2.4.5.48 bertsioan edo berriagoan ekin zaio. Artikulu honek iradokitako konponbideak ematen ditu, bertsio berriagoen negozio-prozesuaren fluxu lehenetsia pertsonalizatu nahi baduzu.  
 
@@ -48,7 +48,7 @@ Aplikazioa bertsioan Project Service 8.2 plataforma, 1.x fasea izenak aplikazioa
 
 Project Service aplikazioa bertsioan 2.4.4.30 edo aurrekoa 9.0 plataforma, gertatu da bat asko arkitekturala aldatu negozio-prozesuaren fluxuak, eskatzen bat berriro idatzi negozio prozesuaren fluxu negozioen logikan. Ondorioz, prozesu-fasearen izenak aurreikusitako izenak Ingelesez ez badatoz bat, jasotzen errore-mezu bat. 
 
-Beraz, Proiektua Faseak negozio-prozesuaren fluxua proiektua entitate pertsonalizatu nahi badituzu soilik gehi ditzakezu brand berria faseak lehenetsia negozio-prozesuaren fluxua proiektua entitaterako, zu, **Eskaintza** , **Plana** eta **Itxi** gisa faseak-da. Murrizketa hau kontutan duzun duzun ez lortu erroreak negozio-prozesuaren fluxua izenak Ingelesez fasea expects negozio-logika ziurtatzen.
+Beraz, Proiektua Faseak negozio-prozesuaren fluxua proiektua entitate pertsonalizatu nahi badituzu soilik gehi ditzakezu brand berria faseak lehenetsia negozio-prozesuaren fluxua proiektua entitaterako, zu, **Eskaintza**, **Plana** eta **Itxi** gisa faseak-da. Murrizketa hau kontutan duzun duzun ez lortu erroreak negozio-prozesuaren fluxua izenak Ingelesez fasea expects negozio-logika ziurtatzen.
 
 2.4.5.48 bertsioan edo berriagoan, artikulu honetan azaldutako negozio-logika negozio-prozesuaren fluxu lehenetsitik kendu da proiektu-entitaterako. Horren bertsioa edo berriagoa bertsioa berritzen ahalko dituzu pertsonalizatu edo ordezkatu lehenetsitako negozio-prozesuaren fluxua bat izatea. 
 
@@ -56,12 +56,12 @@ Beraz, Proiektua Faseak negozio-prozesuaren fluxua proiektua entitate pertsonali
 
 Aukera ez bertsio-berritzen, Proiektua Faseak negozio-prozesuaren fluxua bi moduetan bateko proiektua entitate pertsonaliza dezakezu:
 
-1. Gehitu faseak gehigarria lehenetsia konfigurazioa, izenak Ingelesez fasea retaining da **Eskaintza** , **Antolatu** , eta **Itxi**.
+1. Gehitu faseak gehigarria lehenetsia konfigurazioa, izenak Ingelesez fasea retaining da **Eskaintza**, **Antolatu**, eta **Itxi**.
 
 
 ![Lehenetsitako konfigurazio-fluxuari faseak gehitzeak-Eginbideei](media/FAQ-Customize-BPF-1.png)
  
-2. Zure negozio-prozesuaren fluxua sortzeko eta egin nagusia negozio-prozesuaren fluxua entitaterako proiektua, nahi dituzun fase guztiak izenak duzu lezake. Hala ere, estandarra proiektua faseak bera erabili nahi baduzu **Eskaintza** , **Antolatu** , eta **Itxi** , zenbait pertsonalizazio izen pertsonalizatuak fasea desaktibatu driven egin behar duzu. Konplexu logika duzu oraindik batzuek eragin bakarrik desaktibatu proiektua erregistroa zein, proiektua ixten da.
+2. Zure negozio-prozesuaren fluxua sortzeko eta egin nagusia negozio-prozesuaren fluxua entitaterako proiektua, nahi dituzun fase guztiak izenak duzu lezake. Hala ere, estandarra proiektua faseak bera erabili nahi baduzu **Eskaintza**, **Antolatu**, eta **Itxi**, zenbait pertsonalizazio izen pertsonalizatuak fasea desaktibatu driven egin behar duzu. Konplexu logika duzu oraindik batzuek eragin bakarrik desaktibatu proiektua erregistroa zein, proiektua ixten da.
 
 ![BPF pertsonalizazioa](media/FAQ-Customize-BPF-2.png)
 
@@ -81,7 +81,7 @@ Proiektu-entitatearen negozio-prozesuaren fluxua sortzeko, egin hau:
 
   ![Sortu prozesua](media/FAQ-Customize-BPF-3.png)
 
-2. Prozesu-Diseinatzailea sortzeko erabili nahi dituzun fase izenak. Funtzionalitate bera fase lehenetsi gisa nahi duzun **Eskaintza** , **Antolatu** , eta **Itxi** , zure pertsonalizatutako negozio-prozesuaren fluxu baten fasearen izenak oinarrituta sortu behar duzu.
+2. Prozesu-Diseinatzailea sortzeko erabili nahi dituzun fase izenak. Funtzionalitate bera fase lehenetsi gisa nahi duzun **Eskaintza**, **Antolatu**, eta **Itxi**, zure pertsonalizatutako negozio-prozesuaren fluxu baten fasearen izenak oinarrituta sortu behar duzu.
 
    ![Eginbideei-Prozesua Diseinatzailea erabiltzen BPF pertsonalizatu](media/FAQ-Customize-BPF-4.png) 
 

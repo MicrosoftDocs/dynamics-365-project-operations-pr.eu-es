@@ -3,7 +3,7 @@ title: Bidali baliabide-eskaerak
 description: Nola bidali baliabide-eskaerak Project Service-n
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1978a9212db25ac32ff2dc5f9050ec43fc1ccbd7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f66d1157b932a91224a63d91ea2aeccc2c209f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071128"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126873"
 ---
 # <a name="submit-resource-requests-project-service"></a>Bidali baliabide-eskaerak (Project Service)
 
@@ -41,7 +41,7 @@ Proiektu-kontratua irabazi ostean, proiektua bete beharko duzu. Atazen xehapenar
   
 5.  Baliabide bat fisikoki erreserbatzeko, hautatu funtzioa eta sakatu **Erreserba fisikoa**. Baliabide guztien egutegi-ikuspegia eta euren eskuragarritasuna erakusten du, baliabidearen erreserba-egoeraren ikusizko ikuspegia ematen duen kolore-koderekin. Egin ekintza hauetako bat, zure bilaketa hobetzeko:  
   
-    -   Hautatu ikuspegia edo ordenatu pantailaren goialdetik. **Eguneko** , **Asteko** edo **Hilabeteko** erabilgarritasuna erakutsi nahi duzun ere aukera dezakezu, eta geziak erabil ditzakezu aurreko eta hurrengo denbora-tarteak ikusteko. Erabili bilaketa-koadroa, baliabide jakin bat bilatzeko.  
+    -   Hautatu ikuspegia edo ordenatu pantailaren goialdetik. **Eguneko**, **Asteko** edo **Hilabeteko** erabilgarritasuna erakutsi nahi duzun ere aukera dezakezu, eta geziak erabil ditzakezu aurreko eta hurrengo denbora-tarteak ikusteko. Erabili bilaketa-koadroa, baliabide jakin bat bilatzeko.  
   
     -   Sakatu **Aukerak** zer bistaratu aldatzeko. Esate baterako, erreserba mota desberdinak erakusten dituen kolore-eskema erakusten duen legenda bat erakuts dezakezu edo erreserba mota jakin bat soilik erakustea aukera dezakezu (adibidez, erreserba asko edo erreserba gutxi).  
   

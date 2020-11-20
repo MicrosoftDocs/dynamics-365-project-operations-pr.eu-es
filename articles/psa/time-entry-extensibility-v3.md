@@ -3,7 +3,7 @@ title: Pertsonalizatu asteroko denbora-sarrera
 description: Gai honek erakundearen praktikak onartzen dituzten negozioaren arau pertsonalizatuak inplementatzeko moduari buruzko informazioa ematen du.
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4a508f2a67f87302f8b81640d2031fd5d2627b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071123"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127908"
 ---
 # <a name="customize-weekly-time-entry"></a>Pertsonalizatu asteroko denbora-sarrera 
 
@@ -51,12 +51,12 @@ Asteko denbora-sarrera sareta berria kontrol pertsonalizatua da, eta tresna-barr
 Iraupena sekzioak asteko egunak zutabeetako goiburu gisa erakusten ditu. Sekzio honek lineako edizioa ahalbidetzen du. Neurri egokiak dituen denbora-sarreraren errenkada bat sortu ondoren, erabiltzaileek azkar sar dezakete linean neurri horietan igarotzen duten denbora.
 
 ## <a name="create-a-new-time-entry"></a>Sortu beste denbora-sarrera bat
-Beste denbora-sarrera bat sartzeko denbora-sarreraren saretan, hautatu **Berria**. **Denbora-sarreraren sorrera bizkorra** elkarrizketa-koadroa agertuko da. Elkarrizketa-koadro horretan, erabiltzaileek denbora-sarreraren data aukeratu dezakete, eta, ondoren, **Proiektua** , **Proiektuaren zeregina** , **Funtzioa** , eta **Iraupena** neurrietarako datuak idatzi ditzakete minutu, ordu edo egunetan **h** , **m** , edo **d** , zenbakiarekin batera. Erabiltzaileek kanpokoekin partekatu daitezkeen denbora-sarreraren deskribapenak eta iruzkinak ere sar ditzakete. Erabiltzaileek aldaketak gordetzean, neurrietan sartu dituzten balioak **Neurriak** sekzioan agertzen dira. **Iraupena** eremuan idatzi duten iraupenari buruzko informazioa denbora-sarrera sortu zen datan agertzen da.
+Beste denbora-sarrera bat sartzeko denbora-sarreraren saretan, hautatu **Berria**. **Denbora-sarreraren sorrera bizkorra** elkarrizketa-koadroa agertuko da. Elkarrizketa-koadro horretan, erabiltzaileek denbora-sarreraren data aukeratu dezakete, eta, ondoren, **Proiektua**, **Proiektuaren zeregina**, **Funtzioa**, eta **Iraupena** neurrietarako datuak idatzi ditzakete minutu, ordu edo egunetan **h**, **m**, edo **d**, zenbakiarekin batera. Erabiltzaileek kanpokoekin partekatu daitezkeen denbora-sarreraren deskribapenak eta iruzkinak ere sar ditzakete. Erabiltzaileek aldaketak gordetzean, neurrietan sartu dituzten balioak **Neurriak** sekzioan agertzen dira. **Iraupena** eremuan idatzi duten iraupenari buruzko informazioa denbora-sarrera sortu zen datan agertzen da.
 
 Sistemaren ikuspegiek bilatze-eremuak babesten dituzte. Adibidez, erabiltzaile bat proiektu batean sartu ondoren, **Proiektuaren zeregina** eremuan **Kopia** ikuspegi gisa ezarrita dago lehenespenez. Erabiltzaile bati esleitu ez zaizkion zereginetarako denbora-sarrerak sortzeko, hautatu **Aldatu ikuspegia** bilaketaren elkarrizketa-koadroan eta, ondoren, hautatu **Proiektu aktiboko zeregin guztiak** ikuspegia.
 
 ## <a name="edit-a-time-entry"></a>Editatu denbora-sarrera
-Denbora-sarrera orrialdeko eremu batzuetako xehetasunak, adibidez **Deskribapena** eta **Kanpoko iruzkinak** , ez dira asteroko denbora-sarreraren saretan agertzen. Horren ordez, xehetasun osagarri horiek dituen hiruki adierazle txiki bat agertzen da iraupen-gelaxkan. Hautatu gelaxka eta, ondoren, hautatu **Editatu xehetasunak** aukera **Edizio bizkorra** panelean datuak ikusteko. Asteko denbora-sarrerako denbora-sarearen zati ez den denbora-sarrera jakin baterako editatu edo eguneratzeko, erabiltzaileek **Edizio bizkorra** panela ireki behar dute.
+Denbora-sarrera orrialdeko eremu batzuetako xehetasunak, adibidez **Deskribapena** eta **Kanpoko iruzkinak**, ez dira asteroko denbora-sarreraren saretan agertzen. Horren ordez, xehetasun osagarri horiek dituen hiruki adierazle txiki bat agertzen da iraupen-gelaxkan. Hautatu gelaxka eta, ondoren, hautatu **Editatu xehetasunak** aukera **Edizio bizkorra** panelean datuak ikusteko. Asteko denbora-sarrerako denbora-sarearen zati ez den denbora-sarrera jakin baterako editatu edo eguneratzeko, erabiltzaileek **Edizio bizkorra** panela ireki behar dute.
 
 ## <a name="copy-a-time-entry-row"></a>Kopiatu denbora-sarreraren errenkada bat
 Lehenengo denbora-sarreraren errenkada sortu ondoren, erabiltzaileek **Kopiatu errenkada** aukera dezakete errenkada osoa errenkada berri batean kopiatzeko. Errenkada bat modu horretan kopiatzean, neurriak eta iraupenak ere kopiatzen dira. Erabiltzaileek **Editatu errenkada** ere aukera dezakete neurrien balioak eta iraupenen linean eguneratzeko **Iraupena** sekzioan.

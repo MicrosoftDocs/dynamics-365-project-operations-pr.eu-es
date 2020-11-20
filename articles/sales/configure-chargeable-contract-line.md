@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070973"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128673"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfiguratu proiektuetan oinarritutako kontratuaren lerro bateko kobra daitezkeen osagaiak
 
@@ -35,13 +35,13 @@ Proiektuaren kontratuaren lerro bateko transakzio-kategorietan definitutako kobr
 
 Eginkizun bat kargagarria edo ez kargagarria izan daiteke proiektuan oinarritutako kontratu-lerro jakin batean.
 
-Proiektuetan oinarritutako kontratuaren lerroko **Funtzio kargagarriak** fitxan, **Kategoria kargagarriak** azpisaretan, **Fakturazio mota** eremuan, eguneratu funtzio baten fakturazio mota.
+Proiektuetan oinarritutako kontratuaren lerroko **Funtzio kargagarriak** fitxan, **Kategoria kargagarriak** azpisarean, **Fakturazio mota** eremuan, eguneratu funtzio baten fakturazio mota.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Eguneratu transakzio-kategoria kargagarria edo kargagarria ez den moduan
 
 Transakzio-kategoria bat kargagarria edo ez kargagarria izan daiteke proiektuetan oinarritutako kontratu-lerro jakin batean.
 
-Proiektuetan oinarritutako kontratuaren lerroko **Kategoria kargagarriak** fitxan, **Kategoria kargagarriak** azpisaretan, **Fakturazio mota** eremuan, eguneratu transakzio baten fakturazio mota.
+Proiektuetan oinarritutako kontratuaren lerroko **Kategoria kargagarriak** fitxan, **Kategoria kargagarriak** azpisarean, **Fakturazio mota** eremuan, eguneratu funtzio baten fakturazio mota.
 
 ### <a name="resolve-chargeability"></a>Kargagarritasuna ebatzi
 

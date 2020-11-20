@@ -3,7 +3,7 @@ title: Erabili Project Service gehigarria Microsoft Project-ekin lanaren plangin
 description: Gai honek Microsoft Project gehigarria Microsoft Project Service-en nola gehitu, konfiguratu eta erabiltzeko informazioa ematen du.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071166"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129663"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Antolatu Microsoft Project lana formateatzeko, Project Service Automation Proiektua Gehitu add-in erabili
 
@@ -141,7 +141,7 @@ Proiektuan inportatzeko da [!INCLUDE[pn_project_service_auto](../includes/pn-pro
 
 3. **Gaitu Ireki [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** elkarrizketan, hautatu **Bai** edo **Ez**.  
 
-   - **Bai** sakatzen baduzu, **Ireki [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** -en botoia hautatu ahal izango duzu Project Service Automation aplikazioan eta [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] abiarazi eta proiektu-fitxategia kargatu ahal izango duzu SharePoint dokumentu-liburutegian.  
+   - **Bai** sakatzen baduzu, **Ireki [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**-en botoia hautatu ahal izango duzu Project Service Automation aplikazioan eta [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] abiarazi eta proiektu-fitxategia kargatu ahal izango duzu SharePoint dokumentu-liburutegian.  
 
    - **Ez** sakatzen baduzu, **Ireki [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** botoiaren estekak ez du funtzionatuko.  
 
@@ -155,7 +155,7 @@ Proiektuan inportatzeko da [!INCLUDE[pn_project_service_auto](../includes/pn-pro
 
 3. **Gaitu Ireki [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** elkarrizketan, hautatu **Bai** edo **Ez**.  
 
-   - **Bai** sakatzen baduzu, **Ireki [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** -en botoia hautatu ahal izango duzu Project Service Automation aplikazioan eta [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] abiarazi eta proiektu-fitxategia kargatu ahal izango duzu SharePoint dokumentu-liburutegian.  
+   - **Bai** sakatzen baduzu, **Ireki [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**-en botoia hautatu ahal izango duzu Project Service Automation aplikazioan eta [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] abiarazi eta proiektu-fitxategia kargatu ahal izango duzu SharePoint dokumentu-liburutegian.  
 
    - **Ez** sakatzen baduzu, **Ireki [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** botoiaren estekak ez du funtzionatuko.  
 

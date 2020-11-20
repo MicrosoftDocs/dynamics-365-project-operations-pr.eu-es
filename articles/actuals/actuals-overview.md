@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071026"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126288"
 ---
 # <a name="actuals"></a>Benetako datuak 
 
@@ -45,7 +45,7 @@ Prezio finkoa kontratu-lerro batera lotutako proiektu baterako denbora-sarrera b
 
 Prezio lehenetsiak sortzeko logika kutxako liburuaren lerroan dago. Aldi bateko sarrera-eremuko balioak kutxako liburuaren lerroan kopiatzen dira. Balio hauetan daude transakzioaren data, proiektua esleitu duen kontratuaren lerroa eta dibisaren emaitza prezioen zerrenda egokian.
 
-Prezio lehenetsiei eragiten dieten eremuak, adibidez **Funtzioa** eta **Organo-unitatea** , kutxako liburuaren lerroko prezio egokia zehazteko erabiltzen dira. Eremu pertsonalizatua gehi dezakezu denbora-sarreran. Eremuaren balioa aktualitatera hedatu nahi baduzu, sortu eremua Aktualitateko entitatean eta erabili eremuko mapak eremua kopiatzeko garaian benetako sarrerara.
+Prezio lehenetsiei eragiten dieten eremuak, adibidez **Funtzioa** eta **Organo-unitatea**, kutxako liburuaren lerroko prezio egokia zehazteko erabiltzen dira. Eremu pertsonalizatua gehi dezakezu denbora-sarreran. Eremuaren balioa aktualitatera hedatu nahi baduzu, sortu eremua Aktualitateko entitatean eta erabili eremuko mapak eremua kopiatzeko garaian benetako sarrerara.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Aldizkari lerroak eta oinarrizko gastuen aurkezpena
 

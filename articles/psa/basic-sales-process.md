@@ -3,7 +3,7 @@ title: Salmenta-prozesuak
 description: Gai honek oinarrizko salmenta-prozesuei buruzko informazioa ematen du.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071150"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129303"
 ---
 # <a name="sales-processes"></a>Salmenta-prozesuak
 
@@ -70,7 +70,7 @@ Sei fase hauek xebroien bidez irudikatzen dira (\>), sortu duzun abagune entitat
  
 Erakundeak hainbat entitate erabil ditzake eboluzionatu duen akordio bera irudikatzeko. Salmenta-prozesuan hasieran, tratua Abagunea entitatearen bidez adierazten da. Denbora igaro ahala eta xehetasun gehiago azaltzen diren heinean, baliteke goi mailako aurreikuspenak erabil daitezkeela eskaintza bat edo gehiago sortzeko. Eskaintza horietako bat barneko bezeroen eta interes taldeek berrikusten badute, Eskaintza entitateak tratua adierazten du. Bezeroak eskaintza onartu ondoren, proiektu-kontratuak edo SOWk tratua adierazten du. Jokabide hori onartzeko, BPFak egituratzen dira, prozesuko fase bakoitza datu baseko taula desberdin batekin lotuta egon dadin.
 
-**Gaitu** fasean salmenta-prozesuan Abagunea entite batek babestu dezake. **Aurreikuspena** eta **Barne-berrikuspena** faseak Eskaintza entitate batek babestu ditzake. **Kontratua** , **Entrega** , eta **Itxi** faseak Proiektu-kontratua entitate batek babestu ditzake.
+**Gaitu** fasean salmenta-prozesuan Abagunea entite batek babestu dezake. **Aurreikuspena** eta **Barne-berrikuspena** faseak Eskaintza entitate batek babestu ditzake. **Kontratua**, **Entrega**, eta **Itxi** faseak Proiektu-kontratua entitate batek babestu ditzake.
 
 Tratuak faseetan zehar mugitzen dituzunean, prozesuan zehar laguntzeko eta gidatzeko entitate erregistro egokia sortzeko eskatuko zaizu. Faseak baldintzatuak izan daitezke. Adibidez, eskaintzaren barne-berrikuspena behar baduzu eskaintzak prezio-zerrenda pertsonalizatua erabiltzen badu soilik, baldintza hori konfigura dezakezu negozio prozesuaren fase egokian. **Barne-berrikuspena** fasea, ondoren, pertsonalizatutako prezio-zerrenda erabiltzen duten eskaintzetarako bakarrik erakutsiko da. Gainerako tratu eta eskaintzetarako, **Aurreikuspena** fasearen ostean **Kontratua** fasea izango da.
 
@@ -82,9 +82,9 @@ Tratuak faseetan zehar mugitzen dituzunean, prozesuan zehar laguntzeko eta gidat
 ## <a name="differences-between-project-service-automation-and-sales"></a>Project Service Automation eta Sales-en arteko desberdintasunak
 Salmenta-prozesuak PSAn Sales-en erabilitako salmenta-prozesuaren oinarrizko gaitasunak erabiltzen baditu ere, funtsezko desberdintasunak ditu proiektuan oinarritutako erakundeen negozio praktiken aldaketengatik. Hona hemen zenbait adibideak:
 
-- **Proiektuaren aurrekontuak** : ,Project Service Automation-en eskaintza itxi egiten da proiektu-kontratua eskaintza batetik sortu ondoren. Sales-en, eskaintza irekita mantendu dezakezu irabazi ondoren. Alde horren arrazoia da eskaintzaren eta proiektu-kontratu baten arteko partida hobea dela proiektuan oinarritutako erakundeentzat. 
-- **Aktibazioa eta berrikuspenak** : PSAn, aktibazioa eta berrikuspenak ez dira onartzen proiektuen eskaintzetarako. Sales-en, eskaintza blokeatu daiteke, aldaketa gehigarriak ekiditeko.
-- **Eskaintza itxi galduta edo irabazita moduan** : PSAn, proiektuaren eskaintza irabazita edo galduta moduan itxita dagoenean, abaguneak irekia izaten jarraitzen du. Abaguneko gainerako eskaintza guztiak galduta moduan daude itxita. Sales-en, eskaintza irabazita edo galduta moduan itxita dagoenean, erabiltzaileari abaguneari buruzko ekintza bat eskatzen zaio. Erabiltzailearen sarreren arabera, azpiko abagunea itxita edo irekita egon liteke.
+- **Proiektuaren aurrekontuak**: ,Project Service Automation-en eskaintza itxi egiten da proiektu-kontratua eskaintza batetik sortu ondoren. Sales-en, eskaintza irekita mantendu dezakezu irabazi ondoren. Alde horren arrazoia da eskaintzaren eta proiektu-kontratu baten arteko partida hobea dela proiektuan oinarritutako erakundeentzat. 
+- **Aktibazioa eta berrikuspenak**: PSAn, aktibazioa eta berrikuspenak ez dira onartzen proiektuen eskaintzetarako. Sales-en, eskaintza blokeatu daiteke, aldaketa gehigarriak ekiditeko.
+- **Eskaintza itxi galduta edo irabazita moduan**: PSAn, proiektuaren eskaintza irabazita edo galduta moduan itxita dagoenean, abaguneak irekia izaten jarraitzen du. Abaguneko gainerako eskaintza guztiak galduta moduan daude itxita. Sales-en, eskaintza irabazita edo galduta moduan itxita dagoenean, erabiltzaileari abaguneari buruzko ekintza bat eskatzen zaio. Erabiltzailearen sarreren arabera, azpiko abagunea itxita edo irekita egon liteke.
 
 ## <a name="tracking-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Salmenta-zikloko eskaintzen eta proiektu-planen berrikuspenak jarraitzea
 PSAn, ezin duzu eskaintzetan egiten diren berrikuspenik egin. Horren ordez, lehendik dagoen eskaintza markatu behar duzu **Galdu bezala itxita** moduan eta sortu eskaintza berria. Eskaintza kopiatu edo proiektuan oinarritutako eskaintza kopiatu dezakezu PSA erabiliz.

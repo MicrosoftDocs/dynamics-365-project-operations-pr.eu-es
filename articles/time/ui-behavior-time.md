@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070971"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124488"
 ---
 # <a name="time-entry-ui-behavior"></a>Denbora sartzeko UI portaera
 
@@ -40,7 +40,7 @@ Iraupena sekzioak asteko egunak zutabeetako goiburu gisa erakusten ditu. Sekzio 
 
 1. Asteroko denbora-sarreraren saretan, hautatu **Berria**. 
 2. **Denbora-sarrera azkar sortzeko** elkarrizketa-koadroan, hautatu ordua sartzeko data.
-3. Idatzi datuak **Proiektua** , **Proiektuaren zeregina** , **Rola** eta **Iraupena** dimentsioak. Informazio hori minututan, ordutan edo egunetan gehitu behar da idatziz **h** , **m** edo **e** , zenbakiarekin batera. 
+3. Idatzi datuak **Proiektua**, **Proiektuaren zeregina**, **Rola** eta **Iraupena** dimentsioak. Informazio hori minututan, ordutan edo egunetan gehitu behar da idatziz **h**, **m** edo **e**, zenbakiarekin batera. 
 4. Kanpokoekin partekatu daitezkeen denbora-sarreraren deskribapenak eta iruzkinak ere sar ditzakete. 
 
 Sarrera gordetzean, sartutako balioak agertzen dira **Neurriak** sekzioan. **Iraupena** eremuan idatzitako informazioa denbora-sarrera sortu zen datan agertzen da.
@@ -48,7 +48,7 @@ Sarrera gordetzean, sartutako balioak agertzen dira **Neurriak** sekzioan. **Ira
 Sistemaren ikuspegiek bilatze-eremuak babesten dituzte. Adibidez, erabiltzaile bat proiektu batean sartu ondoren, **Proiektuaren zeregina** eremuan **Kopia** ikuspegi gisa ezarrita dago lehenespenez. Erabiltzaile bati esleitu ez zaizkion zereginetarako denbora-sarrerak sortzeko, hautatu **Aldatu ikuspegia** bilaketaren elkarrizketa-koadroan eta, ondoren, hautatu **Proiektu aktiboko zeregin guztiak** ikuspegia.
 
 ## <a name="edit-a-time-entry"></a>Editatu denbora-sarrera 
-Denbora-sarrera orrialdeko eremu batzuetako xehetasunak, adibidez **Deskribapena** eta **Kanpoko iruzkinak** , ez dira asteroko denbora-sarreraren saretan agertzen. Horren ordez, xehetasun osagarri horiek dituen hiruki adierazle txiki bat agertzen da **Iraupena** gelaxketan. 
+Denbora-sarrera orrialdeko eremu batzuetako xehetasunak, adibidez **Deskribapena** eta **Kanpoko iruzkinak**, ez dira asteroko denbora-sarreraren saretan agertzen. Horren ordez, xehetasun osagarri horiek dituen hiruki adierazle txiki bat agertzen da **Iraupena** gelaxketan. 
 
 1. Denbora sarrera bat editatzeko, hautatu eguneratu nahi duzun gelaxka.
 2. Aukeratu **Editatu xehetasunak** fitxategian datuak eguneratzeko **Denbora sartzeko inprimaki nagusia** panelean. 
@@ -67,10 +67,10 @@ Bidali dituzun denbora-sarrerak berreskura ditzakezu. Denbora-sarrera bakarra, d
 
 ## <a name="time-entry-status"></a>Denbora-sarreraren egoera
 
-- **Zirriborroa** : Denbora-sarrera berriei automatikoki esleitzen zaie **Zirriborroa** egoera. **Zirriborroa** egoera duten denbora-sarrerak soilik ezaba daitezke.
-- **Bidalita** :Denbora-sarrera bidaltzen denean, **Bidalita** egoerara eguneratzen da. 
-- **Onartuta** : Bidalitako denbora-sarrera onartzen denean, **Onartuta** egoerara eguneratzen da. 
-- **Itzulita** : Denbora-sarrera onartzen ez bada, **Itzulita** egoera eguneratuko da, eta sarrera eskuragarri egongo da zuzentzeko eta berriz bidaltzeko. 
+- **Zirriborroa**: Denbora-sarrera berriei automatikoki esleitzen zaie **Zirriborroa** egoera. **Zirriborroa** egoera duten denbora-sarrerak soilik ezaba daitezke.
+- **Bidalita**:Denbora-sarrera bidaltzen denean, **Bidalita** egoerara eguneratzen da. 
+- **Onartuta**: Bidalitako denbora-sarrera onartzen denean, **Onartuta** egoerara eguneratzen da. 
+- **Itzulita**: Denbora-sarrera onartzen ez bada, **Itzulita** egoera eguneratuko da, eta sarrera eskuragarri egongo da zuzentzeko eta berriz bidaltzeko. 
 
 ## <a name="view-rejection-comments"></a>Ikusi baztertze-iruzkinak
 Onartzaile batek denbora-sarrera bat baztertzen duenean, onartzaileak iruzkinak gehitu ditzake baliabideak baztertzearen zergatia uler dezan. Denbora-sarrera baten baztertze-iruzkinak ikusteko, hautatu **Ireki sarrera**. Baztertze-iruzkinak kronologian erakutsiko dira. Erabiltzaileak sarrera berriro bidali aurretik erantzun diezaieke uko egiteko iruzkinei.

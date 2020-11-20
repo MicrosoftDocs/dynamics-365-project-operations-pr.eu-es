@@ -3,7 +3,7 @@ title: Project Service Automation eguneratzearen 21, V3 bertsioko berrikuntzak e
 description: Gai honek Project Service Automation V3, 21. eguneratzean erabilgarri dauden eginbideak eta konponketak ditu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070987"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126693"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation 21, V3 eguneratze-bertsioa
 
@@ -54,7 +54,7 @@ Arazo hauek konpondu dira:
 
 Arazo hauek konpondu dira:
 
-- **Proiektua** eratutako sareta ( **Baliabideen esleipena** , **Zeregin** , **Adiskidetzea** ikuspegia, **Gastuen kalkuluak** ) jarraitu editagarriak, proiektu bat aktibo ez dagoenean ere.
+- **Proiektua** eratutako sareta (**Baliabideen esleipena**, **Zeregin**, **Adiskidetzea** ikuspegia, **Gastuen kalkuluak**) jarraitu editagarriak, proiektu bat aktibo ez dagoenean ere.
 - Bezero bikoiztuak ezin dira berretsi proiektuaren kontratuei lotuta dauden bezeroekin.
 - Baliozko egutegirik ez duen baliabidea gehitzen denean, sistemak ez du erabiltzaileen errore-mezurik itzultzen.
 - **Gehitu Ataza** Zereginen saretako botoian gaituta dago proiektua lotuta dagoenean **Microsoft Project gehigarria**.
@@ -71,7 +71,7 @@ Arazo hauek konpondu dira:
 - **Salmenta prezioa, guztira** zero da (0) **Kategoria** nahiz eta **Funtzioa** zero ez den salmenta prezioa du.
 - Bezeroek ezin dute aldatu balioa **Fakturaren egoera** eremua **Fakturatzeko prest** Neurrira egindako beste prozesu bat eremu gehigarri bat eguneratzen denean.
 - **Eguneratu faktura-ildoak** botoiak bikoiztu lerro bat baino gehiago sor ditzake behin eta berriz hautatzen bada.
-- **Eguneratu prezioak** Botoiak ez du funtzionatzen **Funtzio-prezioak** azpi-sarea **Ikuspegi azkarra** osatzen.
+- **Eguneratu Prezioak** botoiak ez du funtzionatzen **Funtzioaren prezioak** azpisarea **Ikuspegi azkarra** forma.
 - **Salmenta prezioen zerrenda ebaztea** logikak gaizki kudeatzen ditu ordu-zonak, prezioen zerrenden aukeraketa okerra sortuz.
 - Proiektu batena **Benetako kostu totala** Zatiki kopuru bat desgaitu daiteke, sarrera bakar bat onartu ondoren.
 - **Prezioen Ebazpena** logikak ez du erabilgarritasun errorerik ematen **Berreskuratutako RolePrice** ez du balorean **"Lehen Unitatea"** eta **"Prezioa Lehen Unitatean"** eremuak.

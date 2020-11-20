@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070935"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124623"
 ---
 # <a name="extending-time-entries"></a>Denbora-sarrerak luzatzea
 
@@ -33,7 +33,7 @@ Denbora sarrerak luzatzea posible da bi eremutan:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Gehitu denbora pertsonalizatutako sarrera zure erabilerarako
 
-Denbora-sarrerak agertoki anitzetan erabilitako oinarrizko entitatea dira. 2020ko apirilaren 1ean, TESAren oinarrizko irtenbidea aurkeztu zen. TESAk eskaintzen du **Ezarpenak** entitatea eta berria **Denbora sartzeko erabiltzailea** segurtasun-funtzio. Eremu berriak, **msdyn_start** eta **msdyn_end** erlazio zuzena dutenak **msdyn_duration** , ere sartu ziren. Entitate berriak, segurtasun-funtzio, eta eremuek produktuaren arteko denborarekiko ikuspegi bateratuagoa ahalbidetzen dute.
+Denbora-sarrerak agertoki anitzetan erabilitako oinarrizko entitatea dira. 2020ko apirilaren 1ean, TESAren oinarrizko irtenbidea aurkeztu zen. TESAk eskaintzen du **Ezarpenak** entitatea eta berria **Denbora sartzeko erabiltzailea** segurtasun-funtzio. Eremu berriak, **msdyn_start** eta **msdyn_end** erlazio zuzena dutenak **msdyn_duration**, ere sartu ziren. Entitate berriak, segurtasun-funtzio, eta eremuek produktuaren arteko denborarekiko ikuspegi bateratuagoa ahalbidetzen dute.
 
 
 ### <a name="time-source-entity"></a>Denboraren iturburuko entitatea

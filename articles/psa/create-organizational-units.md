@@ -3,7 +3,7 @@ title: Sortu erakunde-unitateak
 description: Nola sortu antolaketa-unitateak Project Service-n
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c653f5bd066fd174c8fb0996820628c1b281519
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebb00b9838773560404a9e3f7a19cc83408d7889
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071085"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125070"
 ---
 # <a name="create-organizational-units-project-service"></a>Sortu antolaketa-unitateak (Project Service)
 
@@ -40,7 +40,7 @@ Enpresak ziurrenik geografiaren, funtzioaren edo beste arlo batzuen arabera anto
   
 3.  **Orokorra** eremuan, adierazi antolaketa-unitatearen izena **Izena** eremuan eta bete gainerako eremuak, behar diren bezala.  
   
-4.  Sakatu **Gorde** , erregistroa sortzeko, editatzen jarraitu ahal izateko.  
+4.  Sakatu **Gorde**, erregistroa sortzeko, editatzen jarraitu ahal izateko.  
   
 5.  **Kostuen prezio-zerrendak** atalean, sakatu **+** prezio-zerrenda gehitzeko. **Kostua** testuinguru duten prezio-zerrendak soilik gehi ditzakezu hemen.  
   

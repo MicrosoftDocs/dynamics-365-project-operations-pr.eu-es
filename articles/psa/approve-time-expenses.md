@@ -3,7 +3,7 @@ title: Onartu denbora eta gastuak
 description: Nola onartu denbora eta gastuak Project Service-n
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071214"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127098"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Onartu denbora eta gastuak (Project Service)
 
@@ -35,7 +35,7 @@ Aholkulariek proiektuko denbora eta gastuak sartu ostean, onartu egin behar ditu
   
 2.  Sakatu onartzeko elementua.  
   
-3.  **Ordu-sarrerak** , **Gastu-sarrerak** eta **Kanpoan/Oporrak** fitxetan, berrikusi elementu bakoitza eta egin beharrezko aldaketak.  
+3.  **Ordu-sarrerak**, **Gastu-sarrerak** eta **Kanpoan/Oporrak** fitxetan, berrikusi elementu bakoitza eta egin beharrezko aldaketak.  
   
 4.  Elementua onartzeko, hautatu eta sakatu **Onartu**. Elementu bat baino gehiago hautatu eta onar ditzakezu batera.  
   
