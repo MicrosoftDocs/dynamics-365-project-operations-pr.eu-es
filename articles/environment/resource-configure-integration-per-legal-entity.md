@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096737"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122868"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfiguratu Project Operations-en integrazioa legezko entitatearen arabera 
 
@@ -26,7 +26,7 @@ Gai honek pertsona juridiko bakoitzeko Dynamics 365 Project Operations konfigura
 Bete urrats hauek beharrezko eginbideak gaitzeko.
 
 1. Dynamics 365 Finance-n, joan **Eginbideen kudeaketa** lan-eremura.
-2. **Ezaugarrien zerrenda** , aurkitu eta gaitu ezaugarri hauek:
+2. **Ezaugarrien zerrenda**, aurkitu eta gaitu ezaugarri hauek:
   
     - **Gaitu proiektu baterako hainbat kontratu lerro**
     - **Gaitu Project Operations Dynamics 365 Customer Engagement**
@@ -48,6 +48,6 @@ Project Operations-en gaitu ditzakezu Dynamics 365 Customer Engagement entitate 
 
 Proiektuaren eragiketak erabiltzen dituen pertsona juridiko bakoitza Dynamics 365 Customer Engagement parametro lehenetsien multzo bat behar du. Parametro hauek **Proiektuaren eragiketak** fitxako **Proiektuen kudeaketa eta kontabilitate parametroak** orrialdean. Parametroak dira:
 
-  - **Fakturazio mota lehenetsiak** : Project Operations-ek fakturazio mota lehenetsien multzo finko bat erabiltzen du, Finantza lineako propietateekin mapatu behar dena. Sortu erregistro bat fakturazio mota bakoitzerako: **Zehaztu gabea** , **Kargagarria** , **Ez da ordaindu behar** , **Osagarria** eta **Ez dago erabilgarri**.
-  - **Proiektuaren kategoria lehenetsiak** : Hautatu transakzio mota bakoitzerako erabiliko diren lehenetsitako proiektuen kategoriak. Lehenetsi hauek fitxategian erabiliko dira **Project Operations Integration aldizkaria** eta proiektuaren benetako transakzio kategoriarik zehazten ez den estimazioetan.
-  - **Iragarpenak** : Aukeratu iragarpen eredua denbora eta gastuen kalkuluak egiteko.
+  - **Fakturazio mota lehenetsiak**: Project Operations-ek fakturazio mota lehenetsien multzo finko bat erabiltzen du, Finantza lineako propietateekin mapatu behar dena. Sortu erregistro bat fakturazio mota bakoitzerako: **Zehaztu gabea**, **Kargagarria**, **Ez da ordaindu behar**, **Osagarria** eta **Ez dago erabilgarri**.
+  - **Proiektuaren kategoria lehenetsiak**: Hautatu transakzio mota bakoitzerako erabiliko diren lehenetsitako proiektuen kategoriak. Lehenetsi hauek fitxategian erabiliko dira **Project Operations Integration aldizkaria** eta proiektuaren benetako transakzio kategoriarik zehazten ez den estimazioetan.
+  - **Iragarpenak**: Aukeratu iragarpen eredua denbora eta gastuen kalkuluak egiteko.

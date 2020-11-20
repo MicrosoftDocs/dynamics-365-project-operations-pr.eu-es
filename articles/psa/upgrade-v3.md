@@ -2,7 +2,7 @@
 title: Bertsio-berritzeko gogoetak. Microsoft Dynamics 365 Project Service Automation aplikazioaren 2.x edo 1.x bertsiotik 3. bertsiora
 description: Gai honek Project Service Automation aplikazioaren 2.x edo 1.x bertsiotik 3. bertsiora bertsio-berritzean egin behar dituzun gogoetei buruzko informazioa ematen du.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071116"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121698"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Bertsio-berritzeko gogoetak. PSA aplikazioaren 2.x edo 1.x bertsiotik 3. bertsiora
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]

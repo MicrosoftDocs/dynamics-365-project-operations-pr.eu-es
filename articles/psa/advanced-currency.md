@@ -3,7 +3,7 @@ title: Dibisa anitzeko agertokiak (3.x bertsioa)
 description: Gai honek dibisa anitzeko agertokiei buruzko informazioa ematen du.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071146"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123363"
 ---
 # <a name="multiple-currency-scenarios"></a>Dibisa anitzeko gertaerak
 
@@ -31,8 +31,8 @@ ms.locfileid: "4071146"
 
 Microsoft Dynamics 365 dibisa bi kontzeptu ditu:
 
-- **Transakzio-dibisa** : transakzio bat gertatzen den dibisa. 
-- **Oinarrizko dibisa** : Dynamics 365 instantziaren dibisa. Dibisa hau Dynamics 365 instantzia hornitzen denean konfiguratzen da. Ezin da aldatu.
+- **Transakzio-dibisa**: transakzio bat gertatzen den dibisa. 
+- **Oinarrizko dibisa**: Dynamics 365 instantziaren dibisa. Dibisa hau Dynamics 365 instantzia hornitzen denean konfiguratzen da. Ezin da aldatu.
 
 Adibidez, Badiola Gasteizek 100 kamiseta saldu zizkieten Erresuma Batuko bezero bati, 15 euroko esterlina (GBP) bakoitzeko. Hurrengo taulan, transakzio hau nola erregistratu den eskaera produktuaren entitatean agertzen da.
 

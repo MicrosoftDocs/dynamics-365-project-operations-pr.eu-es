@@ -3,17 +3,17 @@ title: Eman ingurune berri bat
 description: Gai honek Project Operations ingurune berri bat emateari buruzko informazioa eskaintzen du.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070923"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121158"
 ---
 # <a name="provision-a-new-environment"></a>Eman ingurune berri bat
 
@@ -177,7 +177,7 @@ Freskatzeak 20 minutu inguru iraungo du. Amaitutakoan alerta jasoko duzu.
 
 5. Freskatzen osatu eta gero, exekutatu mapa. Hurrengo mapa gaitu aurretik, egiaztatu taulako mapa egoera batean dagoela **Exekutatzen**. Aurrebaldintza kopuru handiagoa duten mapak exekutatzeak denbora pixka bat behar izan dezake.
 
-Aurrebaldintzak dituen mapa exekutatzeko, gaitu **Erakutsi erlazionatutako entitateen mapak** txandakatu. Taulak adierazten badu **Hasierako sinkronizazioa** da **Ez** , egiaztatu **Hasierako sinkronizazioa** bandera da **Desaktibatuta** exekutatu aurretik aurrebaldintza-mapa guztietan.
+Aurrebaldintzak dituen mapa exekutatzeko, gaitu **Erakutsi erlazionatutako entitateen mapak** txandakatu. Taulak adierazten badu **Hasierako sinkronizazioa** da **Ez**, egiaztatu **Hasierako sinkronizazioa** bandera da **Desaktibatuta** exekutatu aurretik aurrebaldintza-mapa guztietan.
 
 ![Exekutatu mapa](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Aurrebaldintzak dituen mapa exekutatzeko, gaitu **Erakutsi erlazionatutako entit
 
 ![Mapa guztiak martxan](./media/22AllMapsRunning.png)
 
-Zure Project Operations ingurunea hornitu eta konfiguratuta dago orain.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Aplikatu konfigurazio-datuak Project Operations-en CDS-n (aukerakoa)
+
+Demo datuak Finantza inguruneari aplikatu badizkiozu, ikusi [Konfiguratu eta aplikatu konfigurazio datuak Common Data Service Project Operations-erako](resource-apply-pro-setup-config-data.md) CDS inguruneari demo datuak aplikatzeko.
+
+
+Zure Project Operations ingurunea hornitu eta konfiguratuta dago orain. 

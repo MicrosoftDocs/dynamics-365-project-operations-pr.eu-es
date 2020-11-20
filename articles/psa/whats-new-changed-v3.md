@@ -2,7 +2,7 @@
 title: Zer den berria edo zer aldatu den Project Service Automation-en 3. bertsioan
 description: Gai honek Project Service Automation-en 3. bertsioan berria denari eta aldatu denari buruzko informazioa eskaintzen du.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070998"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119988"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Zer den berria edo zer aldatu den Project Service Automation-en 3. bertsioan
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -192,7 +192,7 @@ Common Data Service plataformak ez du onartzen erabiltzaile batek beste batzuk o
 Pertsonalizazioak **Baliabide erreserbagarria** sortu eta editu esperientzian gehitzeko aukera ematen du, erabiltzaileari delegatu gisa jarduteko aukera emango diona **Baliabide erreserbagarria** eremua este erabiltzaile batera aldatuz, zeinaren denbora- eta gastu-sarrerak erregistratu behar diren. Ondorengo urratsek denbora-sarreraren delegazioa hartzen dute. Informazio bera aplikatzen zaio gastu-sarrerako ordezkaritzari. 
  
 1.  Ziurtatu erabiltzaile delegatuak segurtasunerako sarbide globala duela proiektuetan eta proiektuen zereginetan. 
-1.  **Baliabide erreserbagarriak** , hau da **Denbora-sarrera** entitatearen eremua, ez dagoenez agerian **Sorrera bizkorra** orrialdean, gehitu behar duzu.
+1.  **Baliabide erreserbagarriak**, hau da **Denbora-sarrera** entitatearen eremua, ez dagoenez agerian **Sorrera bizkorra** orrialdean, gehitu behar duzu.
 
     edo
 
@@ -201,7 +201,7 @@ Pertsonalizazioak **Baliabide erreserbagarria** sortu eta editu esperientzian ge
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate
  
-1. Sortu beste plugin bat **Kudeatzailea** eremua gainidazteko **Baliabide erreserbagarriak** eremuan esleitutako erabiltzailearen kudeatzaileari. Erabili **Exekuzio-fasea** bera bandaz kanpoko (OOB) plugin gisa (aurre-balioztapena) eta erabili OOB plugin-a baino handiagoa den (1 baino handiagoa) **Exekuzio-agindua**. Horrek plugin pertsonalizatua OOB plugin-a exekutatu ondoren exekutatuko dela ziurtatuko du.  
+1. Sortu beste plugin bat **Kudeatzailea** eremua gainidazteko **Baliabide erreserbagarriak** eremuan esleitutako erabiltzailearen kudeatzaileari. Erabili **Exekuzio-fasea** bera bandaz kanpoko (OOB) plugin gisa (aurre-balioztapena) eta erabili OOB plugin-a baino handiagoa den (1 baino handiagoa)**Exekuzio-agindua**. Horrek plugin pertsonalizatua OOB plugin-a exekutatu ondoren exekutatuko dela ziurtatuko du.  
  
 ### <a name="end-user-experience"></a>Amaitu erabiltzailearen esperientzia
 1.  Sorrera bizkorreko orrialdean denbora-sarrera bat sortzen duzunean, sartu Proiektua eta Proiektuaren zereginen xehetasunak eta, ondoren, aukeratu erabiltzailea **Baliabide erreserbagarria** eremuan noiz sartu behar den erregistratzeko. 

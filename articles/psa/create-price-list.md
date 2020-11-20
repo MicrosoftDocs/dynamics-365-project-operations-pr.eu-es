@@ -3,7 +3,7 @@ title: Sortu prezio-zerrenda
 description: Nola sortu prezio-zerrenda Project Service-n
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071072"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122013"
 ---
 # <a name="create-a-price-list-project-service"></a>Sortu prezio-zerrenda (Project Service)
 
@@ -39,7 +39,7 @@ Prezio-zerrendak funtzioen eta gastuen kategorietan oinarritzen dira, eta beraz,
   
 2.  Sakatu **Berria**.  
   
-3.  **Testuingurua** aukeran, hautatu prezio-zerrenda **Kostua** , **Erosketa** edo **Salmenta** ekintzarako den.  
+3.  **Testuingurua** aukeran, hautatu prezio-zerrenda **Kostua**, **Erosketa** edo **Salmenta** ekintzarako den.  
   
 4.  **Izena** aukeran, idatzi prezio-zerrendaren izena.  
   
@@ -47,9 +47,9 @@ Prezio-zerrendak funtzioen eta gastuen kategorietan oinarritzen dira, eta beraz,
   
 6.  **Denbora-unitatea** aukeran, zehaztu prezioa aplikatzen den denbora-tartea, eguna edo ordua, esaterako.  
   
-7.  Bete **Hasiera-data** , **Amaiera-data** eta **Azalpena** eremuak.  
+7.  Bete **Hasiera-data**, **Amaiera-data** eta **Azalpena** eremuak.  
   
-8.  Sakatu **Gorde** , erregistroa sortzeko, editatzen jarraitu ahal izateko.  
+8.  Sakatu **Gorde**, erregistroa sortzeko, editatzen jarraitu ahal izateko.  
   
 9. Prezio-zerrendari funtzio-prezio bat gehitzeko, sakatu **+** **Funtzio-prezioak** aukeran.  
   

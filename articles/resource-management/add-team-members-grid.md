@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 0f975d295b4c0ccef9827767beabd32ffd761faa
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070914"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121518"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Gehitu Team kideen saretako taldeko kideak
 
@@ -21,9 +21,9 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 Dynamics 365 Project Operations-ek Resource Manager panela biltzen du baliabideen eskaeraren eta erakundearen erabileraren ikuspegi orokorra eskaintzen duena. Panel honetako diagramak erabil ditzakezu informazioa ikusteko:
 
-- **Baliabideen eskaria** : **Baliabide aktiboen eskaera** taulan aurkeztu diren baliabideak erakusten dira. Baliabideak funtzioaren edo proiektuaren arabera biltzen dira.
-- **Bidali gabeko baliabideen eskaria** : **Esleitu gabeko baliabideen eskaria** taulan aurkeztu ez diren baliabide-eskakizun guztiak erakusten dira. Grafiko honekin, Baliabideen kudeatzailek eskaera ez dela irmoa ikusten dute eta baliabide eskaera bidez bidaltzen laguntzen die.
-- **Erabilera erabilgarriak azken astean** : **Erabilera funtzioa** taulan ikus daiteke erakundearen benetako fakturazioaren portzentajea bere eginkizunaren arabera fakturazioaren aldera.
+- **Baliabideen eskaria**: **Baliabide aktiboen eskaera** taulan aurkeztu diren baliabideak erakusten dira. Baliabideak funtzioaren edo proiektuaren arabera biltzen dira.
+- **Bidali gabeko baliabideen eskaria**: **Esleitu gabeko baliabideen eskaria** taulan aurkeztu ez diren baliabide-eskakizun guztiak erakusten dira. Grafiko honekin, Baliabideen kudeatzailek eskaera ez dela irmoa ikusten dute eta baliabide eskaera bidez bidaltzen laguntzen die.
+- **Erabilera erabilgarriak azken astean**: **Erabilera funtzioa** taulan ikus daiteke erakundearen benetako fakturazioaren portzentajea bere eginkizunaren arabera fakturazioaren aldera.
 
     > [!NOTE]
     > **Erabilera funtzioa** taula eskuragarri egoteko, sortu **UpdateRoleUtilization** lan-fluxua exekutatzen duen lana. Lan errepikari hau zazpi egunez behin egiten da aurreko zazpi egunetako erabilgarritasuna kalkulatzeko. Emaitzak funtzioaren arabera batu dira.
@@ -36,9 +36,9 @@ Proiektuaren kudeatzaileek Baliabideen kudeatzailearen panela erabil dezakete pr
 
 Taldekide bat zuzenean proiektu batean gehitzeko, **Proiektuak** inprimakian **Taldea** fitxan, aukeratu **Berria**. **Sorrera bizkorra: proiektuko taldekidea** elkarrizketa-koadroa agertuko da. Elkarrizketa-koadro honetan zeregin hauek egin ditzakezu:
 
-- **Erreserbatu izendatutako baliabidea** : **Baliabide erreserbagarria** eremuan, hautatu baliabidearen izena. Ondoren, hautatu funtzioa, zehaztu epea eta hautatu esleipen metodoa. Aukeratu duzun izena duen baliabidea proiektuari gehitzen zaio hautatutako esleipen metodoa eta baliabideen egutegia erabiliz.
-- **Gehitu baliabide generikoa** : utzi **Baliabide erreserbagarria** eremua hutsik eta, ondoren, hautatu funtzioa, ezarri aldia eta hautatu hobetsitako esleipen metodoa. Baliabide generiko bat gehitzen zaio taldeari leku-marka gisa. Leku-hartzaileak taldean izendatutako baliabideak erreserbatzeko erabiltzen den eskaera eredua du. Baldintza proiektuaren egutegiaren arabera egiten da.
-- **Gehitu izendatutako baliabidea taldeari baliabideen ahalmena kontsumitu gabe** : **Baliabide erreserbagarria** eremuan, hautatu baliabide bat. Hautatu aldia eta hautatu **Ez** esleipen metodoa. Baliabidea taldeari gehitzen zaio, baina baliabidearen ahalmena ez da erreserba bidez kontsumitzen.
+- **Erreserbatu izendatutako baliabidea**: **Baliabide erreserbagarria** eremuan, hautatu baliabidearen izena. Ondoren, hautatu funtzioa, zehaztu epea eta hautatu esleipen metodoa. Aukeratu duzun izena duen baliabidea proiektuari gehitzen zaio hautatutako esleipen metodoa eta baliabideen egutegia erabiliz.
+- **Gehitu baliabide generikoa**: utzi **Baliabide erreserbagarria** eremua hutsik eta, ondoren, hautatu funtzioa, ezarri aldia eta hautatu hobetsitako esleipen metodoa. Baliabide generiko bat gehitzen zaio taldeari leku-marka gisa. Leku-hartzaileak taldean izendatutako baliabideak erreserbatzeko erabiltzen den eskaera eredua du. Baldintza proiektuaren egutegiaren arabera egiten da.
+- **Gehitu izendatutako baliabidea taldeari baliabideen ahalmena kontsumitu gabe**: **Baliabide erreserbagarria** eremuan, hautatu baliabide bat. Hautatu aldia eta hautatu **Ez** esleipen metodoa. Baliabidea taldeari gehitzen zaio, baina baliabidearen ahalmena ez da erreserba bidez kontsumitzen.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Erreserbatu taldekide bat baliabide generiko baterako eskakizunak betetzeko
 
@@ -48,7 +48,7 @@ Jarraitu urrats hauei garatzaileentzako baliabide generiko batean eskatutako tre
 
 1. **Proiektuak** inprimakian **Taldea** fitxan, hautatu **Berria** baliabide generikoa erreserbatzeko.
 2. **Taldekide guztiak** ikuspegian, **Baliabideen eskakizuna** zutabean, hautatu esteka baliabide generikorako beharrezkoak diren trebetasunak gehitzeko.
-3. **Baliabideen eskakizuna** inprimakian, **Trebetasunak** saretan, hautatu elipsia ( **...** ) eta hautatu **Gehitu eskakizun berriaren ezaugarria** sustatzailearentzako beharrezkoak diren gaitasunak gehitzeko.
+3. **Baliabideen eskakizuna** inprimakian, **Trebetasunak** saretan, hautatu elipsia (**...**) eta hautatu **Gehitu eskakizun berriaren ezaugarria** sustatzailearentzako beharrezkoak diren gaitasunak gehitzeko.
 4. **Sorrera bizkorra: eskakizunaren ezaugarria** elkarrizketa-inprimakian **Ezaugarria** eremuan agertzen denean, hautatu eskatutako trebetasuna.
 5. **Balorazioaren balioa** eremuan, hautatu trebetasun horren maila. 
 6. **Baliabideen eskakizuna** eremuan, ezarri eskakizuna baliabide iturriak antolakuntza unitateetatik edo baita izendatutako baliabideak ere. Bukatu duzunean, hautatu **Gorde**.
@@ -61,9 +61,9 @@ Jarraitu urrats hauei garatzaileentzako baliabide generiko batean eskatutako tre
 
    Hauek dira gehien erabiltzen diren iragazkiak:
 
-    - **Ezaugarriak puntuazioarekin batera** : gaitasunak, ziurtagiriak eta baliabideen beste ezaugarri batzuen arabera iragazi, gaitasunen balorazioez gain.
-    - **Funtzioak** : iragazi baliabide erreserbagarrietan esleitzen zaizkion funtzio lehenetsiak.
-    - **Antolamendu unitateak** : erreserbatu baliabideak esleitzen zaizkion antolaketa unitateen arabera.
+    - **Ezaugarriak puntuazioarekin batera**: gaitasunak, ziurtagiriak eta baliabideen beste ezaugarri batzuen arabera iragazi, gaitasunen balorazioez gain.
+    - **Funtzioak**: iragazi baliabide erreserbagarrietan esleitzen zaizkion funtzio lehenetsiak.
+    - **Antolamendu unitateak**: erreserbatu baliabideak esleitzen zaizkion antolaketa unitateen arabera.
 
 8. Hasierako eskakizunaren emaitzarekin konforme ez bazaude, iragazkiaren irizpideak alda ditzakezu. Zabaldu **Iragazkiaren ikuspegia** orria ezkerrean eta ondoren hautatu **Bilatu** baliabide osagarriak aurkitzeko. Emaitzak nola ordenatzen diren aldatzeko, hautatu **Ordenatu**.
 9. Hautatu baliabideak eskakizunean zehaztutako eskaeraren arabera, saretaren goiko aldean adierazten den moduan. Saretako gelaxken aukera garbitu eta baliabide-ahalmena irekita utzi dezakezu. Baliabide bakarra aldi berean erreserbatu daiteke.
@@ -130,10 +130,10 @@ Lehenetsitako edo pertsonalizatutako erreserba egoera alda dezakezu.
 
 Egoera hauek daude Project Operations aplikazioan:
 
-- **Utzita** : baliabideen erreserba bertan behera uzten du eta baliabidearen ahalmena askatzen du.
-- **Erreserba tinkoa** : baliabideen ahalmena kontsumitzen du. Erreserbak normalean egoera hau du **Mantendu Erreserbak** **Taldekide guztiak** saretatik **Proiektuak** inprimakian irekitzen duzunean.
-- **Behin-behineko erreserba** : baliabide bat gehitzen dio taldeari baina ez du baliabidearen ahalmena kontsumitzen. Egoera honek baliabidea lan potentzialerako erreserbatu dela adierazten du, baina hala ere, gaitasuna badu beste lan batzuetan behar bada. Baliabideen erabilgarritasun orokorraren iritziz, erreserba leunek erreserba gogorrak baino beste egoera bat dute.
-- **Proposatua** : Baliabideen kudeatzailearen edo Proiektuaren kudeatzailearen proposamena adierazten du. Proposamenek ez dute baliabide baten ahalmena kontsumitzen eta baliabidea ez da proiektuko taldeari gehitzen. Baliabidea taldean erreserbatzeko, Proiektuaren zuzendariak proposamena onartu behar du.
+- **Utzita**: baliabideen erreserba bertan behera uzten du eta baliabidearen ahalmena askatzen du.
+- **Erreserba tinkoa**: baliabideen ahalmena kontsumitzen du. Erreserbak normalean egoera hau du **Mantendu Erreserbak** **Taldekide guztiak** saretatik **Proiektuak** inprimakian irekitzen duzunean.
+- **Behin-behineko erreserba**: baliabide bat gehitzen dio taldeari baina ez du baliabidearen ahalmena kontsumitzen. Egoera honek baliabidea lan potentzialerako erreserbatu dela adierazten du, baina hala ere, gaitasuna badu beste lan batzuetan behar bada. Baliabideen erabilgarritasun orokorraren iritziz, erreserba leunek erreserba gogorrak baino beste egoera bat dute.
+- **Proposatua**: Baliabideen kudeatzailearen edo Proiektuaren kudeatzailearen proposamena adierazten du. Proposamenek ez dute baliabide baten ahalmena kontsumitzen eta baliabidea ez da proiektuko taldeari gehitzen. Baliabidea taldean erreserbatzeko, Proiektuaren zuzendariak proposamena onartu behar du.
 
 ### <a name="submit-resource-requests"></a>Bidali baliabide-eskaerak
 
@@ -190,12 +190,12 @@ Fitxak proiektuaren guztizko garbi osoa ere erakusten du, zutabe guztiekin bater
 
 Baliabide bakoitzerako, fitxak taldekidearen erreserben desberdintasunak kalkulatzen ditu eta taldekideen zereginen esleipenekin bateratzen ditu. Egokiena, aldea 0 (zero) izatea da. Beste modu batera esanda, ez litzateke alderik egon behar erreserbaren eta esleipenen artean. Desberdintasunak koloreztatuta eta itzalpean daude bi baldintzetan arreta jartzeko:
 
-- **Erreserba eskasia** : baliabideek erreserbak baino esleipen gehiago dituztenean gertatzen da. Ez denez erreserbatu gaitasun hori, baliteke Proiektu-kudeatzaileak baldintza hori zuzentzea baliabideen erreserbak hedatuz defizita estaltzeko.
-- **Gehiegizko erreserbak** : baliabide bat proiektuan erreserbatuta dagoenean baina zereginetara esleitu ez denean gertatzen da. Baldintza hau onargarria izan daiteke zereginen esleipena gertatu baino lehen proiektuan erreserbatu den kasuetan. Hala ere, baliteke beste kasu batzuetan baliabidea ez izatea aurreikusita zereginei esleitzeko. Kasu horietan, Proiektu-kudeatzaileak baliabidearen erreserbak bertan behera uztea pentsatu beharko luke, gaitasuna beste proiektu baterako erabili ahal izateko.
+- **Erreserba eskasia**: baliabideek erreserbak baino esleipen gehiago dituztenean gertatzen da. Ez denez erreserbatu gaitasun hori, baliteke Proiektu-kudeatzaileak baldintza hori zuzentzea baliabideen erreserbak hedatuz defizita estaltzeko.
+- **Gehiegizko erreserbak**: baliabide bat proiektuan erreserbatuta dagoenean baina zereginetara esleitu ez denean gertatzen da. Baldintza hau onargarria izan daiteke zereginen esleipena gertatu baino lehen proiektuan erreserbatu den kasuetan. Hala ere, baliteke beste kasu batzuetan baliabidea ez izatea aurreikusita zereginei esleitzeko. Kasu horietan, Proiektu-kudeatzaileak baliabidearen erreserbak bertan behera uztea pentsatu beharko luke, gaitasuna beste proiektu baterako erabili ahal izateko.
 
 Zenbait kasutan, eguneko maila baino maila altuagoan ikusten baduzu (adibidez, hilabetearen maila), baliteke zero diferentzia garbia izatea baliabide batentzat. beste modu batera esanda, erreserbak = zereginak. Hala ere, Astea mailari erreparatuz gero, baliteke 0 (zero) orduko esleipenak eta 40 orduko erreserbak daudela ikustea lehenengo astean, baina 40 orduko esleipenak eta 0 (zero) orduko erreserbak bigarren astean. Oro har, erreserbak eta zereginak bateratu egiten dira, baina aste batetik bestera desberdinak dira.
 
-Denbora-maila altuagoak ikusten dituzunean, **Kontziliazioa** fitxak gelaxkak adierazle bat du denbora maila baxuagoetan desberdintasunak daudela jakinarazteko. Sakatu bi aldiz gelaxka bat handiagotu dezakezu aldea ikusteko. Ondoren, egin klik eskuineko botoiarekin hurbiltzeko. Baliabide bat hautatuta eta, ondoren, erabilita **Hurrengo aldea** saretako tresna-barran, baliabide horren erreserbak eta zereginen arteko hurrengo diferentziara joan zaitezke. Hautatu **Aurreko aldea** , itzultzeko. Alderantzizko adierazlea eta nabigazio portaera ere desaktiba ditzakezu **Ezarpenak** aukeran.
+Denbora-maila altuagoak ikusten dituzunean, **Kontziliazioa** fitxak gelaxkak adierazle bat du denbora maila baxuagoetan desberdintasunak daudela jakinarazteko. Sakatu bi aldiz gelaxka bat handiagotu dezakezu aldea ikusteko. Ondoren, egin klik eskuineko botoiarekin hurbiltzeko. Baliabide bat hautatuta eta, ondoren, erabilita **Hurrengo aldea** saretako tresna-barran, baliabide horren erreserbak eta zereginen arteko hurrengo diferentziara joan zaitezke. Hautatu **Aurreko aldea**, itzultzeko. Alderantzizko adierazlea eta nabigazio portaera ere desaktiba ditzakezu **Ezarpenak** aukeran.
 
 Zereginen esleipenak dituzun baina erreserbarik ez baduzu, **Proiektuak** inprimakian, **Kontziliazioa** fitxan, erreserba eskasia aukeratu dezakezu eta, ondoren, hautatu **Hedatu erreserba**. **Luzatu Erreserba** elkarrizketa-koadroa agertuko da eta baliabidearen eskasiari aurre egiteko beharrezkoa den erreserba erakusten du. Elkarrizketa-koadroan baliabideek dituzten erreserbak agertzen dira proiektu guztietan edo beste erakunde antolatzaile batzuetan. Aukeratzen baduzu **Ados** baliabidearen erreserba sortzeko, baliabidearen erabilgarritasuna edozein dela ere, gerta daiteke erreserba gehiegi egotea.
 

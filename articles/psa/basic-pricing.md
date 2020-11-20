@@ -3,7 +3,7 @@ title: Proiektu-prezioak.
 description: Gai honek Dynamics 365 Project Service Automation-en prezioek nola funtzionatzen dutenari buruzko informazioa eskaintzen du.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071233"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120753"
 ---
 # <a name="project-pricing"></a>Proiektu-prezioak. 
 
@@ -35,16 +35,16 @@ Dynamics 365 Project Service Automation-ek prezio-zerrendako entitatea hedatzen 
 
 Prezio-zerrendan lau erakunde desberdinek eskaintzen duten informazioa biltzen da:
 
-- **Prezio-zerrenda** : entitate honek testuinguruari, monetari, daten eraginkortasunari eta denbora unitateari buruzko informazioa gordetzen du prezio-denborarako. Testuinguruak erakusten du prezio-zerrendan kostu-tasak edo salmenta-tasak adierazten diren ala ez. 
-- **Moneta** : entitate honek prezioen moneta prezio-zerrendan gordetzen du. 
-- **Data** : entitate hau sistemak transakzio bateko prezio lehenetsiak sartzen saiatzen denean erabiltzen da. PSAren prezioak transakzioaren data biltzen duen data eraginkortasuna duen prezioen zerrenda hautatzen du. PSAren prezioak transakziorako data eraginkorra den prezio-zerrenda bat baino gehiago aurkitzen badu horri lotutako eskaintzari, kontratuei edo antolakuntza unitateari erantsita, orduan ez da preziorik lehenetsiko. 
-- **Ordua** : entitate honek prezioak adierazitako denbora-unitatea gordetzen du, hala nola eguneko- edo orduko-tasak. 
+- **Prezio-zerrenda**: entitate honek testuinguruari, monetari, daten eraginkortasunari eta denbora unitateari buruzko informazioa gordetzen du prezio-denborarako. Testuinguruak erakusten du prezio-zerrendan kostu-tasak edo salmenta-tasak adierazten diren ala ez. 
+- **Moneta**: entitate honek prezioen moneta prezio-zerrendan gordetzen du. 
+- **Data**: entitate hau sistemak transakzio bateko prezio lehenetsiak sartzen saiatzen denean erabiltzen da. PSAren prezioak transakzioaren data biltzen duen data eraginkortasuna duen prezioen zerrenda hautatzen du. PSAren prezioak transakziorako data eraginkorra den prezio-zerrenda bat baino gehiago aurkitzen badu horri lotutako eskaintzari, kontratuei edo antolakuntza unitateari erantsita, orduan ez da preziorik lehenetsiko. 
+- **Ordua**: entitate honek prezioak adierazitako denbora-unitatea gordetzen du, hala nola eguneko- edo orduko-tasak. 
 
 Prezio-zerrendako erakundeak erlazionatutako hiru taula ditu, prezioak gordetzen dituztenak:
 
-  - **Funtzio-prezioa** : taula honek funtzio- eta antolaketa-unitateen balioak konbinatzeko tasa gordetzen du eta giza baliabideen funtzioan oinarritutako prezioak ezartzeko erabiltzen da.
-  - **Transakzioen kategoria prezioa** : taula honek prezioak transakzioen kategorien arabera gordetzen ditu eta gastu kategoriako prezioak ezartzeko erabiltzen da.
-  - **Prezio-zerrendako elementuak** : taula honek katalogoko produktuen prezioak gordetzen ditu.
+  - **Funtzio-prezioa**: taula honek funtzio- eta antolaketa-unitateen balioak konbinatzeko tasa gordetzen du eta giza baliabideen funtzioan oinarritutako prezioak ezartzeko erabiltzen da.
+  - **Transakzioen kategoria prezioa**: taula honek prezioak transakzioen kategorien arabera gordetzen ditu eta gastu kategoriako prezioak ezartzeko erabiltzen da.
+  - **Prezio-zerrendako elementuak**: taula honek katalogoko produktuen prezioak gordetzen ditu.
 
 > ![Konfiguratu prezioak prezio-zerrenda erabiliz](media/basic-guide-12.png)
  
@@ -64,9 +64,9 @@ Giza baliabideen denbora normalean proiektu jakin batean betetzen duen eginkizun
 
 Proiektuen aholkulariek sortzen dituzten bidaiak eta gainerako gastuak normalean bezeroari fakturatzen zaizkio. PSAk gastu kategorien prezioak onartzen ditu prezio-zerrendaren arabera. Aireportua, hotela eta autoen alokairua gastu kategorien adibide dira. Gastuen prezio-zerrendaren lerro bakoitzak gastu-kategoria jakin baterako prezioak zehazten ditu. Gastuen kategorien prezioari dagokionez, PSAk hiru prezio metodo hauek onartzen ditu:
 
-- **Kostuan** : gastuaren kostua bezeroari fakturatzen zaio eta ez da gainpreziorik aplikatuko.
-- **Gainprezio portzentajea** : benetako kostuaren gaineko portzentajea bezeroari fakturatzen zaio. 
-- **Prezioa unitateko** : gastu-kategoriako unitate bakoitzeko fakturazio-prezioa ezartzen da. Bezeroari fakturatzen zaion zenbatekoa kontsultariak jakinarazten duen gastu unitateen arabera kalkulatzen da. Kilometrajeak prezio bakoitzeko prezioaren metodoa erabiltzen du. Adibidez, kilometro-gastuen kategoria 30 dolar (USD) eguneko edo 2 USD kilometroko izateko konfiguratu daiteke. Aholkulari batek proiektu baten kilometrajea jakinarazten duenean, fakturatu beharreko zenbatekoa aholkulariak jakinarazi duen kilometro kopuruaren arabera kalkulatzen da.
+- **Kostuan**: gastuaren kostua bezeroari fakturatzen zaio eta ez da gainpreziorik aplikatuko.
+- **Gainprezio portzentajea**: benetako kostuaren gaineko portzentajea bezeroari fakturatzen zaio. 
+- **Prezioa unitateko**: gastu-kategoriako unitate bakoitzeko fakturazio-prezioa ezartzen da. Bezeroari fakturatzen zaion zenbatekoa kontsultariak jakinarazten duen gastu unitateen arabera kalkulatzen da. Kilometrajeak prezio bakoitzeko prezioaren metodoa erabiltzen du. Adibidez, kilometro-gastuen kategoria 30 dolar (USD) eguneko edo 2 USD kilometroko izateko konfiguratu daiteke. Aholkulari batek proiektu baten kilometrajea jakinarazten duenean, fakturatu beharreko zenbatekoa aholkulariak jakinarazi duen kilometro kopuruaren arabera kalkulatzen da.
 
 > ![Gastu kategorien prezioak konfiguratzea](media/basic-guide-14.png)
  

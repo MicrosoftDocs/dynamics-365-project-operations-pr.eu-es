@@ -3,7 +3,7 @@ title: Proiektuen antolaketa
 description: Gai honek antolaketa sortzeari buruzko informazioa ematen du.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071071"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123204"
 ---
 # <a name="project-schedules"></a>Proiektuen antolaketa 
 
@@ -83,12 +83,12 @@ Zeregin bati koska kentzean, ez da gehiago zeregin nagusiaren bigarren mailako z
 
 **Antolaketa** sareta guztiz eskuragarria da eta pantaila-irakurleekin erabil daiteke, esaterako, JAWS edo NVDA. Saretako eremuan mugi zaitezke gezi-teklak erabiliz (Microsoft Excel-en bezala), Tab tekla erabil dezakezu interfazearen UI elementutan aurrera egiteko, eta Behera gezi-tekla, Sartu tekla edo Zuriune-barra erabil ditzakezu goitibeherako menuak hautatzeko eta deitzeko. Zutabeen goiburuak ere interaktiboak dira. Zutabeak ezkutatu eta erakusteko, erabili Tab tekla eta gezi-teklak zutabeetako goiburuetatik mugitzeko eta erabili tresna-barrako ekintza-botoiak. Gainera, honako laster-tekla hauek erabil ditzakezu:
 
-- **Freskatu** : ALT+MAIUS+F5
-- **Gehitu** : ALT+MAIUS+Txertatu
-- **Ezabatu** : ALT+MAIUS+Ezabatu
-- **Mugitu gora/behera** : ALT+MAIUS+Gora/Behera geziak
-- **Jarri koska / Kendu koska** : ALT_MAIUS+Ezker/Eskuineko geziak
-- **Hedatu/Tolestu hierarkiak** : ALT+MAIUS+Gehi/Ken teklak
+- **Freskatu**: ALT+MAIUS+F5
+- **Gehitu**: ALT+MAIUS+Txertatu
+- **Ezabatu**: ALT+MAIUS+Ezabatu
+- **Mugitu gora/behera**: ALT+MAIUS+Gora/Behera geziak
+- **Jarri koska / Kendu koska**: ALT_MAIUS+Ezker/Eskuineko geziak
+- **Hedatu/Tolestu hierarkiak**: ALT+MAIUS+Gehi/Ken teklak
 
 ## <a name="task-attributes"></a>Zeregin-atributuak
 
@@ -98,19 +98,19 @@ Zereginaren izenak egin beha den lana deskribatzen du. PSA-n, zeregin bati lotut
  
 ### <a name="schedule-attributes"></a>Antolaketa-atributuak
 
-**Ahalegina** , **Hasiera-data** , **Amaiera-data** , eta **Iraupena** atributuek zereginaren antolaketa zehazten dute.
+**Ahalegina**, **Hasiera-data**, **Amaiera-data**, eta **Iraupena** atributuek zereginaren antolaketa zehazten dute.
 
 Antolaketa atributu gehigarrien artean hauek daude:
 
-- **Ahalegin orduak** : idatzi zeregina burutzeko behar diren orduen aurreikuspena. 
-- **Iraupena** : zehaztu zeregina burutzeko behar den lanegun kopurua.
-- **Antolaketaren IDa** : automatikoki sortutako ID hau hierarkian zereginak ordenatzeko erabiltzen da. Zereginen arteko mendekotasunak atazak lantzen diren benetako ordena kudeatzen du.
+- **Ahalegin orduak**: idatzi zeregina burutzeko behar diren orduen aurreikuspena. 
+- **Iraupena**: zehaztu zeregina burutzeko behar den lanegun kopurua.
+- **Antolaketaren IDa**: automatikoki sortutako ID hau hierarkian zereginak ordenatzeko erabiltzen da. Zereginen arteko mendekotasunak atazak lantzen diren benetako ordena kudeatzen du.
  
 ### <a name="staffing-attributes"></a>Betetze-atributuak
 
 Langileen atributuak **Baliabideak** eremuaren bidez atzitzen dira antolaketan. Lehendik dagoen baliabide bat bilatu dezakezu edo egin klik **Sortu** aukeran eta **Sorrera bizkorra** panelean, gehitu proiektu-taldeko kide bat baliabide berri gisa.
 
-**Funtzioa** , **Baliabide-unitatea** , eta **Lanpostuaren izena** eremuak zereginerako langileen eskakizunak deskribatzeko erabiltzen dira. Langileen atributu horiek, zereginen antolaketarekin batera, zeregina egiteko erabilgarri dauden baliabideak aurkitzeko erabiltzen dira.
+**Funtzioa**, **Baliabide-unitatea**, eta **Lanpostuaren izena** eremuak zereginerako langileen eskakizunak deskribatzeko erabiltzen dira. Langileen atributu horiek, zereginen antolaketarekin batera, zeregina egiteko erabilgarri dauden baliabideak aurkitzeko erabiltzen dira.
 
 **Funtzioa** - Zehaztu zeregina egiteko behar den baliabide mota.
 

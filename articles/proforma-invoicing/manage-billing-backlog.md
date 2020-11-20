@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec77f3911a460b96414a61bc44ea254f1b7da660
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087795"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122328"
 ---
 # <a name="manage-the-billing-backlog"></a>Kudeatu fakturazio atzeratua
 
@@ -23,9 +23,9 @@ Dynamics 365 Project Operations-ek bi ikuspegi eskaini ditu fakturazio-zorroarek
 
 ## <a name="fixed-price-milestones"></a>Prezio finkoaren mugarriak
 
-Ikuspegi honek sistemako proiektuen kontratu lerro guztietako prezio finkoen mugarri guztiak zerrendatzen ditu. Mugarri bakar edo anitz gisa markatu daitezke **Fakturatzeko prest** edo **Ez dago fakturatzeko prest** ikuspegi honetatik. Mugarri gisa markatzen duzunean **Fakturatzeko prest** , mugarria faktura zirriborro baterako eskuragarri egongo da.
+Ikuspegi honek sistemako proiektuen kontratu lerro guztietako prezio finkoen mugarri guztiak zerrendatzen ditu. Mugarri bakar edo anitz gisa markatu daitezke **Fakturatzeko prest** edo **Ez dago fakturatzeko prest** ikuspegi honetatik. Mugarri gisa markatzen duzunean **Fakturatzeko prest**, mugarria faktura zirriborro baterako eskuragarri egongo da.
 
-Bezero anitzeko kontratu lerroek prezio finkoko fakturazio metodoa dutenean, mugarri bat sortzen da kontratu lerroan bezero bakoitzarentzat. Erabiltzaileak mugarri bat sortzen du eta mugarri hori bezeroaren arabera = mugarri zehatzen erregistroetan banatzen da, kontratuaren lerroan bezero bakoitzarentzat zehaztutako fakturazio ehunekoaren arabera. **Prezio finkoaren mugarriak** ikuspegian, bezeroaren berariazko mugarrien erregistroak ikusiko dituzu. Mugarrien erregistro horietako bakoitza honela markatu daiteke **Fakturatzeko prest** ikuspegi honetatik bereizita. Lotutako mugarrietako bat edo gehiago honela markatzen direnean **Fakturatzeko prest** , goiburua egoera batera pasatzen da **Eraikitzen** aukeratik **Ez da hasi** aukerara. Mugarri banaketa guztiak fakturatu direnean, goiburuaren mugarri egoera bihurtzen da **Osatuta**.
+Bezero anitzeko kontratu lerroek prezio finkoko fakturazio metodoa dutenean, mugarri bat sortzen da kontratu lerroan bezero bakoitzarentzat. Erabiltzaileak mugarri bat sortzen du eta mugarri hori bezeroaren arabera = mugarri zehatzen erregistroetan banatzen da, kontratuaren lerroan bezero bakoitzarentzat zehaztutako fakturazio ehunekoaren arabera. **Prezio finkoaren mugarriak** ikuspegian, bezeroaren berariazko mugarrien erregistroak ikusiko dituzu. Mugarrien erregistro horietako bakoitza honela markatu daiteke **Fakturatzeko prest** ikuspegi honetatik bereizita. Lotutako mugarrietako bat edo gehiago honela markatzen direnean **Fakturatzeko prest**, goiburua egoera batera pasatzen da **Eraikitzen** aukeratik **Ez da hasi** aukerara. Mugarri banaketa guztiak fakturatu direnean, goiburuaren mugarri egoera bihurtzen da **Osatuta**.
 
 Fakturaren zirriborroaren mugarria erakusten da ikuspegi honetan fakturazio egoerarekin **Bezeroaren faktura sortu da**. Faktura zirriborroa baieztatzen denean, erregistro honetako fakturazio egoera eguneratzen da **Faktura argitaratua**. Ez da gomendagarria egoera balio hori eguneratzea kode pertsonalizatua erabiliz. Proiektuaren eragiketek ez dute behar bezala funtzionatuko egoera balio horiek kode pertsonalizatuarekin eguneratzen badira.
 

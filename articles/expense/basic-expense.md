@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 746d5d9ff56222e7d6b9b6e264db75d5814365c7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070920"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121068"
 ---
 # <a name="expense-entry-lite"></a>Oinarrizko gastuen sarrera (arina)
 
@@ -27,14 +27,14 @@ Dynamics 365 Project Operations-en gastuen gaitasunei buruzko informazio gehiago
 
 Zure gastuak har ditzakezu, homologatzaileari bidali ahal izateko.
 
-1. Joan **Gastuak** , eta hautatu **Berria**.
+1. Joan **Gastuak**, eta hautatu **Berria**.
 2. **Gastu berria** orrian, sartu beharrezko gastuen informazioa eta hautatu **Gorde**.
 
 ## <a name="submit-a-basic-expense"></a>Bidali oinarrizko gastua
 
 Zure gastu guztiak jasotzen amaitu ondoren, eta horiek onartzeko prest zaudenean, bidali egin beharko dituzu.
 
-1. Joan **Gastuak** , eta hautatu gastu bat. Edo hautatu gastu guztiak goiburuko kontrol-laukia erabiliz.
+1. Joan **Gastuak**, eta hautatu gastu bat. Edo hautatu gastu guztiak goiburuko kontrol-laukia erabiliz.
 2. Hautatu **Bidali**. Sistemak hautatutako sarrerak prozesatzen ditu eta gero gastuak onartzeko eskaerak sortzen ditu.
 
 ## <a name="recall-a-basic-expense"></a>Berreskuratu oinarrizko gastua

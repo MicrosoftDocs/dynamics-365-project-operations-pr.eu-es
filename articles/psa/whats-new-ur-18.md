@@ -3,7 +3,7 @@ title: Project Service Automation eguneratzearen 18, V3 bertsioko berrikuntzak e
 description: Gai honek Project Service Automation V3, 18. eguneratzean erabilgarri dauden eginbideak eta konponketak ditu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070990"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119853"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Project Service Automation 18, V3 eguneratze-bertsioa
 
@@ -36,7 +36,7 @@ Gai honek Project Service Automation V3, 18. eguneratzea bertsioan berriak diren
 
 **Denbora eta gastua**
 
-- Konponduta: **Berreskuratu** , **Eskatu** eta **Utzi onespena** fluxuek salbuespenak botatzen dituzte errore-mezu ilunekin.
+- Konponduta: **Berreskuratu**, **Eskatu** eta **Utzi onespena** fluxuek salbuespenak botatzen dituzte errore-mezu ilunekin.
 - Konponduta: **Utzi onespena** aukerak huts egiten duenean gastu batean, dagokion salbuespen-errorea ez da erakusten.
 - Konponduta: Orduaren sarrera saretak oker kudeatzen ditu lanegunak ez diren egunak Australian, neguko ordutegira (DST) aldatzean urrian.
 - Konponduta: Lehenesteko logika okerrak ez du uzten gastuak bidaltzen.
@@ -60,4 +60,4 @@ Gai honek Project Service Automation V3, 18. eguneratzea bertsioan berriak diren
 
 **Sales**
 
-- Konponduta: Denbora-sarrerak berriro onartzen direnean ( **Onartu > Utzi >** onartu berriro), kargatu ezin daitekeen benetako datuen kopia bat sortzen da.
+- Konponduta: Denbora-sarrerak berriro onartzen direnean (**Onartu > Utzi >** onartu berriro), kargatu ezin daitekeen benetako datuen kopia bat sortzen da.

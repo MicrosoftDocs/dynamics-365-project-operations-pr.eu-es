@@ -3,7 +3,7 @@ title: Project Service Automation-en datu-ereduarekin lan egitea
 description: Gai honek datu-ereduarekin lana egiteko moduari buruzko informazioa ematen du.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071221"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120258"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Project Service Automation-en datu-ereduarekin lan egitea
 
@@ -33,13 +33,13 @@ Dynamics 365 Project Service Automation aplikazioak beste aplikazio entitate bat
 
 ## <a name="reporting-on-opportunities"></a>Abaguneen txostenak
 
-Project Service Automation-ek Dynamics 365 Sales-eko **Abagunea** entitatea hedatzen du proiektuan oinarritutako egoerak ahalbidetzen dituzten eremuak gehituz. Eremu hauek **msdyn \_** aurrizkida duten eskema-izenarekin identifikatzen dira. PSA-ko abaguneen berri emateko garrantzitsua den eremu berri bat da **Eskaera mota**. Eremu horretarako **Lanean oinarrituta** balioak abagunea PSA abagunea dela adierazten du. Hauek dira erakundeari gehitu zaizkion beste eremu batzuk: **Kontratatu erakundea** , abaguneari eusten dion erakundea harrapatzen duena, eta **Kontu-kudeatzailea** , abagunearen erantzulea den kontu-kudeatzailearen izena biltzen duena.
+Project Service Automation-ek Dynamics 365 Sales-eko **Abagunea** entitatea hedatzen du proiektuan oinarritutako egoerak ahalbidetzen dituzten eremuak gehituz. Eremu hauek **msdyn \_** aurrizkida duten eskema-izenarekin identifikatzen dira. PSA-ko abaguneen berri emateko garrantzitsua den eremu berri bat da **Eskaera mota**. Eremu horretarako **Lanean oinarrituta** balioak abagunea PSA abagunea dela adierazten du. Hauek dira erakundeari gehitu zaizkion beste eremu batzuk: **Kontratatu erakundea**, abaguneari eusten dion erakundea harrapatzen duena, eta **Kontu-kudeatzailea**, abagunearen erantzulea den kontu-kudeatzailearen izena biltzen duena.
 
 **Abagunearen lerroa** entitateak Project Service-ri lotutako eremuak ere biltzen ditu. **Fakturazio metodoa** aukerak adierazten du abagunearen lerroa denbora eta materialaren edo prezio finkoaren arabera fakturatu behar ote den, eta **Proiektua** aukerak abagunea babesten ari den proiektuaren izena jasotzen du. Txostena egiteko erabil ditzakezun beste eremu batzuk lerroko elementuen kostuak eta bezeroaren aurrekontuaren zenbatekoa harrapatzen dituzte.
 
 ## <a name="reporting-on-quotes"></a>Eskaintzaren txostena
 
-PSA-k Sales-en **Eskaintza** entitatea hedatzen du proiektuarekin lotutako eremuak gehituz. **Eskaera mota** aukerak PSA-ren eskaintzak PSA-koak ez diren eskaintzetatik bereizten ditu. Eremu horretarako **Lanean oinarrituta** balioak eskaintza PSA-ko eskaintza dela adierazten du. PSA-ren eskaintzan berri emateko garrantzitsuak izan daitezkeen beste eremu batzuen artean zenbatekoak daude, besteak beste, **Kobratu daitezkeen kostuak** , **Kobratu ezin daitezkeen kostuak** , **Marjina gordina** , **Aurreikuspenak** eta **Aurrekontua**. Beste eremu erabilgarri batzuek adierazten dute eskaintza errentagarria den ala ez, antolaketan osatuko den ala ez eta bezeroaren aurrekontuen itxaropenak betetzen dituen ala ez.
+PSA-k Sales-en **Eskaintza** entitatea hedatzen du proiektuarekin lotutako eremuak gehituz. **Eskaera mota** aukerak PSA-ren eskaintzak PSA-koak ez diren eskaintzetatik bereizten ditu. Eremu horretarako **Lanean oinarrituta** balioak eskaintza PSA-ko eskaintza dela adierazten du. PSA-ren eskaintzan berri emateko garrantzitsuak izan daitezkeen beste eremu batzuen artean zenbatekoak daude, besteak beste, **Kobratu daitezkeen kostuak**, **Kobratu ezin daitezkeen kostuak**, **Marjina gordina**, **Aurreikuspenak** eta **Aurrekontua**. Beste eremu erabilgarri batzuek adierazten dute eskaintza errentagarria den ala ez, antolaketan osatuko den ala ez eta bezeroaren aurrekontuen itxaropenak betetzen dituen ala ez.
 
 PSA-k Sales-en **Eskaintzaren lerroa** erakundea ere hedatzen du. PSA-k gehitzen duen eremua bat **Fakturazio metodoa** da, eskaintzaren lerroa nola fakturatuko den adierazten duena (denbora eta materialak edo prezio finkoa). Entitatera gehitu diren beste eremu batzuek eskaintzaren lerroa, fakturazioa, kostua eta aurrekontua babesten dituen proiektu bat harrapatzen dute.
 
@@ -50,13 +50,13 @@ PSA-k eskaintzari lotutako entitate berriak ere gehitu ditu Dynamics 365-eko dat
 - **Eskaintzaren lerroko mugarria** - Entitate honek prezio finkoko eskaintzaren lerroen fakturazio-mugarriak ditu.
 - **Eskaintzaren lerroko analisiaren xehapena** - Entitate honek eskaintzaren lerroko finantzaren xehetasunak ditu. Xehetasun horiek erabilgarriak izan daitezke eskainitako salmenten eta aurreikusitako kostuen zenbatekoen berri emateko hainbat neurriren arabera.
 
-PSA-k eskaintzei gehitzen dien beste erakundeak **Eskaintzaren lerroko proiektuen prezio-zerrenda** , **Eskaintzaren lerroko baliabideen kategoria** eta **Eskaintzaren lerroko transakzio kategoria** dira.
+PSA-k eskaintzei gehitzen dien beste erakundeak **Eskaintzaren lerroko proiektuen prezio-zerrenda**, **Eskaintzaren lerroko baliabideen kategoria** eta **Eskaintzaren lerroko transakzio kategoria** dira.
 
 ![Aurrekontua, aurrekontuaren lerroa eta proiektuaren erlazioak erakusten dituen diagrama](media/PS-Reporting-image2.png "Aurrekontua, aurrekontuaren lerroa eta proiektuaren erlazioak erakusten dituen diagrama")
 
 ## <a name="reporting-on-project-contracts"></a>Proiektu-kontratuen txostena
 
-PSA-k Sales-en **Eskaera** entitatea hedatzen du, proiektu-kontratuak erregistratzen direnean erabiltzen den entitatea. Beste eremu garrantzitsu bat gehitzen du, **Eskaera mota** , kontratua PSA proiektu-kontratu gisa identifikatzen duena salmenta eskaeraren ordez. Eremu horretarako **Lanean oinarrituta** balioak eskaera PSA-ko proiektu-kontratua dela adierazten du. **Eskaera** entitatera gehitzen diren beste eremu batzuk kostuei, PSA-ko kontratuaren egoerari eta kontratuaren jabe den erakundearen xehetasunak ateratzen dituzte.
+PSA-k Sales-en **Eskaera** entitatea hedatzen du, proiektu-kontratuak erregistratzen direnean erabiltzen den entitatea. Beste eremu garrantzitsu bat gehitzen du, **Eskaera mota**, kontratua PSA proiektu-kontratu gisa identifikatzen duena salmenta eskaeraren ordez. Eremu horretarako **Lanean oinarrituta** balioak eskaera PSA-ko proiektu-kontratua dela adierazten du. **Eskaera** entitatera gehitzen diren beste eremu batzuk kostuei, PSA-ko kontratuaren egoerari eta kontratuaren jabe den erakundearen xehetasunak ateratzen dituzte.
 
 PSA-k Sales-en **Salmenta-eskaeraren lerroak** erakundea ere hedatzen du. Gehitzen dituen eremuen artean, fakturazio metodoa (denbora eta materialak edo prezio finkoa), bezeroaren aurrekontuaren zenbatekoak eta azpian dagoen proiektua biltzen dituzten eremuak daude.
 
@@ -66,7 +66,7 @@ PSA-k proiektu-kontratuetarako diseinatuta dauden beste entitate batzuk ere gehi
 - **Kontratuaren lerroaren fakturazio-antolaketa** - Entitate honek kontratuaren lerroari esleitzen zaion faktura maiztasunaren arabera sortzen den fakturazio antolaketa dauka.
 - **Kontratuaren mugarriak** - Entitate honek prezio finkoko fakturaziorako epea duten kontratuaren lerroen mugarriak ditu.
 
-PSA-k kontratuei gehitzen dien beste erakundeak **Eskaintzaren lerroko proiektuen prezio-zerrenda** , **Proiektu-kontratuaren lerroko baliabide-kategoria** eta **Proiektu-kontratuaren lerroko transakzio-kategoria** dira.
+PSA-k kontratuei gehitzen dien beste erakundeak **Eskaintzaren lerroko proiektuen prezio-zerrenda**, **Proiektu-kontratuaren lerroko baliabide-kategoria** eta **Proiektu-kontratuaren lerroko transakzio-kategoria** dira.
 
 ![Eskaera, eskaera lerroa eta proiektuaren erlazioak erakusten dituen diagrama](media/PS-Reporting-image3.png "Eskaera, eskaera lerroa eta proiektuaren erlazioak erakusten dituen diagrama")
 

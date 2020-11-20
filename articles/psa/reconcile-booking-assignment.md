@@ -3,7 +3,7 @@ title: Bateratu erreserbak eta esleipenak
 description: Gai honek benetako datuei buruzko informazioa ematen du.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071082"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120438"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Bateratu erreserbak eta esleipenak
 
@@ -35,7 +35,7 @@ Proiektuen erreserben eta zereginen esleipenen bateratze ez zehatzaren ondorioz,
 
 Izendatutako taldekide bakoitzeko, **Kontziliazioa** fitxak erreserbak eta zereginak erakusten ditu zereginen esleipen bakoitzean. Orduak erakusten ditu gelaxkatan, hilabetetik egunera arteko epeak.
 
-**Denbora-eskala** eremuan, **Hilabetea** , **Astea** , edo **Eguna** hauta dezakezu. **Astea** hautatzen da modu lehenetsian. Hala ere, balio lehenetsia alda dezakezu **Ezarpenak** botoia hautatuz. **Kontziliazio** fitxa irekitzean, uneko data erakusten du, baina egutegiaren kontrola erabil dezakezu denboran aurrera edo atzera egiteko. Proiektu batek etorkizuneko hasitako data duenean, fitxak data hori erakusten du irekitzen denean. Egutegiaren kontrolak proiektuaren hasiera eta amaiera datetara mugitzeko aukera ematen duten aukerak ere baditu.
+**Denbora-eskala** eremuan, **Hilabetea**, **Astea**, edo **Eguna** hauta dezakezu. **Astea** hautatzen da modu lehenetsian. Hala ere, balio lehenetsia alda dezakezu **Ezarpenak** botoia hautatuz. **Kontziliazio** fitxa irekitzean, uneko data erakusten du, baina egutegiaren kontrola erabil dezakezu denboran aurrera edo atzera egiteko. Proiektu batek etorkizuneko hasitako data duenean, fitxak data hori erakusten du irekitzen denean. Egutegiaren kontrolak proiektuaren hasiera eta amaiera datetara mugitzeko aukera ematen duten aukerak ere baditu.
 
 Baliabide bakoitzeko hedatzaileen kontrolak erabil ditzakezu baliabideen erreserbaren xehetasunak erakusteko. Baliabide bakoitzaren esleipenak banakako zereginen mailara ere zabaldu ditzakezu.
 
