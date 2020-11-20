@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,28 +17,28 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 24538ed1d610a0cae4c2badc0fd33c2f738a8338
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8738a4743554704ef76807c81fdefcd74e668e1b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070980"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124758"
 ---
-# <a name="define-skills-and-proficiencies"></a><span data-ttu-id="d779a-103">Zehaztu gaitasunak eta trebetasunak</span><span class="sxs-lookup"><span data-stu-id="d779a-103">Define skills and proficiencies</span></span>
+# <a name="define-skills-and-proficiencies"></a><span data-ttu-id="55110-103">Zehaztu gaitasunak eta trebetasunak</span><span class="sxs-lookup"><span data-stu-id="55110-103">Define skills and proficiencies</span></span>
 
-<span data-ttu-id="d779a-104">_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_</span><span class="sxs-lookup"><span data-stu-id="d779a-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="55110-104">_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_</span><span class="sxs-lookup"><span data-stu-id="55110-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="d779a-105">Gaitasunak Dynamics 365 Project Operations aplikazioaren eta, aurkezten bada, Dynamics 365 Field Service aplikazioaren artean partekatzen diren baliabideen ezaugarriak dira.</span><span class="sxs-lookup"><span data-stu-id="d779a-105">Skills are resource characteristics that are shared between Dynamics 365 Project Operations and if present, Dynamics 365 Field Service.</span></span> 
+<span data-ttu-id="55110-105">Gaitasunak Dynamics 365 Project Operations aplikazioaren eta, aurkezten bada, Dynamics 365 Field Service aplikazioaren artean partekatzen diren baliabideen ezaugarriak dira.</span><span class="sxs-lookup"><span data-stu-id="55110-105">Skills are resource characteristics that are shared between Dynamics 365 Project Operations and if present, Dynamics 365 Field Service.</span></span> 
 
-- <span data-ttu-id="d779a-106">Gaitasunen biltegia Project Operations-en mantentzeko, joan **Baliabideak** \> **Baliabideen gaitasunak** atalera.</span><span class="sxs-lookup"><span data-stu-id="d779a-106">To maintain the repository of skills in Project Operations, go to **Resources** \> **Resource Skills**.</span></span> 
+- <span data-ttu-id="55110-106">Gaitasunen biltegia Project Operations-en mantentzeko, joan **Baliabideak** \> **Baliabideen gaitasunak** atalera.</span><span class="sxs-lookup"><span data-stu-id="55110-106">To maintain the repository of skills in Project Operations, go to **Resources** \> **Resource Skills**.</span></span> 
 
-## <a name="use-proficiency-models-to-rate-resources"></a><span data-ttu-id="d779a-107">Erabili gaitasun ereduak baliabideak baloratzeko</span><span class="sxs-lookup"><span data-stu-id="d779a-107">Use proficiency models to rate resources</span></span>
+## <a name="use-proficiency-models-to-rate-resources"></a><span data-ttu-id="55110-107">Erabili gaitasun ereduak baliabideak baloratzeko</span><span class="sxs-lookup"><span data-stu-id="55110-107">Use proficiency models to rate resources</span></span>
 
-<span data-ttu-id="d779a-108">Baliabideetarako trebetasunak gaitasun ereduen arabera sailkatzen dira.</span><span class="sxs-lookup"><span data-stu-id="d779a-108">Skills for resources are rated by proficiency models.</span></span> <span data-ttu-id="d779a-109">Banakako balorazioak gaitasun ereduan daude.</span><span class="sxs-lookup"><span data-stu-id="d779a-109">The individual ratings are in a proficiency model.</span></span> 
+<span data-ttu-id="55110-108">Baliabideetarako trebetasunak gaitasun ereduen arabera sailkatzen dira.</span><span class="sxs-lookup"><span data-stu-id="55110-108">Skills for resources are rated by proficiency models.</span></span> <span data-ttu-id="55110-109">Banakako balorazioak gaitasun ereduan daude.</span><span class="sxs-lookup"><span data-stu-id="55110-109">The individual ratings are in a proficiency model.</span></span> 
 
-1. <span data-ttu-id="d779a-110">Gaitasun eredua sortzeko, joan **Baliabideak** \> **Gaitasun ereduak** atalera eta, ondoren, hautatu **Berria**.</span><span class="sxs-lookup"><span data-stu-id="d779a-110">To create a proficiency model, go to **Resources** \> **Proficiency Models** , and then select **New**.</span></span>
-2. <span data-ttu-id="d779a-111">Ebaluazio-eredu berrian, zehaztu gutxieneko balorazioaren balioa, gehienezko balorazioaren balioa eta kalifikatzen den entitatea.</span><span class="sxs-lookup"><span data-stu-id="d779a-111">In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.</span></span>
-3. <span data-ttu-id="d779a-112">**Balorazioaren balioak** azpi-saretaren, balorazioaren balio desberdinak definitu ditzakezu, gutxieneko baliotik gehienekora.</span><span class="sxs-lookup"><span data-stu-id="d779a-112">In the **Rating Values** sub-grid, you can define the different rating values, from the minimum to the maximum.</span></span>
+1. <span data-ttu-id="55110-110">Gaitasun eredua sortzeko, joan **Baliabideak** \> **Gaitasun ereduak** atalera eta, ondoren, hautatu **Berria**.</span><span class="sxs-lookup"><span data-stu-id="55110-110">To create a proficiency model, go to **Resources** \> **Proficiency Models**, and then select **New**.</span></span>
+2. <span data-ttu-id="55110-111">Ebaluazio-eredu berrian, zehaztu gutxieneko balorazioaren balioa, gehienezko balorazioaren balioa eta kalifikatzen den entitatea.</span><span class="sxs-lookup"><span data-stu-id="55110-111">In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.</span></span>
+3. <span data-ttu-id="55110-112">**Balorazioaren balioak** azpisaretaren, balorazioaren balio desberdinak definitu ditzakezu, gutxieneko baliotik gehienekora.</span><span class="sxs-lookup"><span data-stu-id="55110-112">In the **Rating Values** subgrid, you can define the different rating values, from the minimum to the maximum.</span></span>
 
 
-<span data-ttu-id="d779a-113">Balorazioaren balio horiek **Baliabide-eskakizunak** , **Antolaketa-panela** eta **Antolaketa-laguntzailea** iragazkietan erakusten dira.</span><span class="sxs-lookup"><span data-stu-id="d779a-113">These rating values are shown on the **Resource Requirements** , **Schedule Board** , and **Schedule Assistant** filters.</span></span>
+<span data-ttu-id="55110-113">Balorazioaren balio horiek **Baliabide-eskakizunak**, **Antolaketa-panela** eta **Antolaketa-laguntzailea** iragazkietan erakusten dira.</span><span class="sxs-lookup"><span data-stu-id="55110-113">These rating values are shown on the **Resource Requirements**, **Schedule Board**, and **Schedule Assistant** filters.</span></span>
