@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,11 +17,11 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9487997066c1a3cadcd4fabec9dcf9aaee1a3cb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 73ba4e2b79b41a94bfea225240555319531ac896
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071065"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119763"
 ---
-# <a name="resource-management-overview"></a><span data-ttu-id="c7a2e-103">Baliabideen kudeaketaren informazio orokorra</span><span class="sxs-lookup"><span data-stu-id="c7a2e-103">Resource management overview</span></span>
+# <a name="resource-management-overview"></a><span data-ttu-id="fa371-103">Baliabideen kudeaketaren informazio orokorra</span><span class="sxs-lookup"><span data-stu-id="fa371-103">Resource management overview</span></span>
