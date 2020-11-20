@@ -1,21 +1,21 @@
 ---
-title: Proiektuaren aurreikuspenak proiektuetan oinarritutako eskaintzaren lerrora inportatzea
+title: Inportatu proiektuaren aurreikuspenak proiektuetan oinarritutako eskaintzaren lerrora - arina
 description: Gai honek proiektu batetik eskaintzaren lerro batera aurreikuspenak inportatzeari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070938"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177721"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Proiektuaren aurreikuspenak proiektuetan oinarritutako eskaintzaren lerrora inportatzea
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Inportatu proiektuaren aurreikuspenak proiektuetan oinarritutako eskaintzaren lerrora - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
@@ -30,7 +30,7 @@ Salmenta aurreko fasean proiektu bat sortzen bada, proiektuaren finantza-aurreko
   - **Funtzioa** 
   - **Proiektuaren zeregina**
 
-Aukeratutakoan oinarrituta, aurrekontu lerro honetan sartutako transakzio klase guztietarako proiektuaren aurrekontua kopiatzen da. Zein transakzio klase sartzen diren egiaztatzeko, hautatu **Orokorra** proiektuan oinarritutako aurrekontu lerroan fitxa eta egiaztatu balioak **Sartu denbora** , **Sartu gastuak** eta **Sartu Tasak**.  Zein zeregin sartzen diren egiaztatzeko, hautatu **Zeregin kargagarriak** aurrekontuaren lerroan fitxa.
+Aukeratutakoan oinarrituta, aurrekontu lerro honetan sartutako transakzio klase guztietarako proiektuaren aurrekontua kopiatzen da. Zein transakzio klase sartzen diren egiaztatzeko, hautatu **Orokorra** proiektuan oinarritutako aurrekontu lerroan fitxa eta egiaztatu balioak **Sartu denbora**, **Sartu gastuak** eta **Sartu Tasak**.  Zein zeregin sartzen diren egiaztatzeko, hautatu **Zeregin kargagarriak** aurrekontuaren lerroan fitxa.
 
 Lotutako zereginen eta sartutako transakzio klaseen arabera, ataza eta transakzio klase konbinazio horien kalkuluak aurrekontuaren lerroan inportatzen dira.
 

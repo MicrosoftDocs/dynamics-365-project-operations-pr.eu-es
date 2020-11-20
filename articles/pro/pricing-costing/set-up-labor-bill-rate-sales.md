@@ -1,21 +1,21 @@
 ---
-title: Lanaren fakturazio-tasak konfiguratzea
+title: Konfiguratu lanaren fakturazio-tasak - arina
 description: Gai honek Project Operations-eko lanaren fakturazio-tasak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071098"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181156"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Lan-tasaren fakturazioari buruzko fakturak ezartzea 
+# <a name="set-up-labor-bill-rates---lite"></a>Konfiguratu lanaren fakturazio-tasak - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
@@ -27,7 +27,7 @@ Prezio zerrenda bakoitzak prezio zerrendaren edo lan-tasak edukiarekin eta datar
 
   Ondorengo taulan eremuko eremuak biltzen dira **Orokorra** fitxa eta **Sorrera bizkorra** kontuan izan behar duzun rol-prezioen lerroaren panela, salmenta-prezioen zerrendan rol-prezioak sortzen dituzunean:
 
-  | Eremua | Kokapena | Garrantzia, xedea eta orientazioa | Downstream eragina |
+  | Eremua | Kokapena | Deskribapena | Downstream eragina |
   | --- | --- | --- | --- |
   | Funtzioa | **Orokorra** fitxa eta **Sortu bizkor** panela | Hautatu fakturazio-tasa ezartzen ari zaren funtzioa. | Sarrerako estimazioaren edo benetako eginkizuna lerro honekin parekatuko da fakturazio-tasaren kostua lehenetsi ahal izateko. |
   | Baliabide-unitatea | **Orokorra** fitxa eta **Sortu bizkor** panela | Aukeratu enpresaren antolakuntza unitatea edo banaketa zeregin funtzioa non erabiliko den. Adibidez, Fabrikam Indiako Robotika dibisioko garatzailea edo Fabrikam AEBetako Software dibisioaren garatzailea. | Sarrerako estimazioaren edo benetako unitateko baliabideak lerro honekin parekatuko da rolaren fakturazio-tasa lehenetsi ahal izateko. |
@@ -45,7 +45,7 @@ Adibidez, Fabrikam Indiako garatzaile batek AEBetako proiektu batean lan egiten 
 
 ### <a name="example-set-up-a-bill-rate"></a>Adibidez: konfiguratu faktura-tasa
 
-1. Sortu izeneko salmenta prezioen zerrenda *Fabrikam AEBetako fakturen tasak* , eta data efektibitatea ezarri.
+1. Sortu izeneko salmenta prezioen zerrenda *Fabrikam AEBetako fakturen tasak*, eta data efektibitatea ezarri.
 2. Salmenten prezio-zerrenda inprimakian, ondorengo tasa-informazioa sartu:
 
     | Funtzioa | Erakunde-unitatea | Fakturazio-tasa |

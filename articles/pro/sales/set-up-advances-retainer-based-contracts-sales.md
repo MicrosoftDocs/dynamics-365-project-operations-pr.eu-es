@@ -1,21 +1,21 @@
 ---
-title: Aurrerakinak eta atxikipenetan oinarritutako kontratuak
+title: Aurrerakinak eta atxikipenetan oinarritutako kontratuak - arina
 description: Gai honek proiektuetan oinarritutako kontratazio-ereduetan eta aurrerakinari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087790"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180852"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Aurrerakinak eta atxikipenetan oinarritutako kontratuak 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Aurrerakinak eta atxikipenetan oinarritutako kontratuak - arina
 
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
@@ -33,7 +33,7 @@ Aldizkako mantentze-lanetan oinarritutako ordutegiaz gain, Proiektuaren Eragiket
 
 Proiektuaren eragiketetako atxikipena ez dago erabiltzeko erabilgarri bezeroari fakturatu arte. Azpisarean aurrerapen eta atxikipenetarako honako eremuek adierazten dute hori.
 
-| Eremua | Garrantzia, xedea eta orientazioa | Downstream eragina |
+| Eremua | Deskribapena | Downstream eragina |
 | --- | --- | --- |
 | Eskuragarri dagoen zenbatekoa | Atxikipenean edo aurretiazko erregistroan erabil daitekeen kopurua. | Aurrerakina edo atxikipena fakturatu arte, ez da erabilgarri egongo, hau da, eskuragarri dagoen zenbatekoa zero izango da. |
 | Erabilitako zenbatekoa | Atxikipenean edo aurrerapenean erabilitako kopurua. | Aurrerakina edo atxikipena fakturan partzialki bateratu daitezke benetako kostuekin, zati bat lehendik erabilitako edo kontsumitutako gisa markatuta egongo baita. Aurrerakinaren edo atxikipenaren gainerako zenbatekoa eskuragarri dago etorkizuneko fakturan benetako kostuekin bateratzeko. |

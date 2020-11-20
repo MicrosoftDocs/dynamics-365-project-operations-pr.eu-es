@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071060"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180672"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>Konfiguratu lan-tasaren fakturazioari buruzko fakturak 
+# <a name="set-up-labor-bill-rates"></a>Konfiguratu lanaren fakturazio-tasak
 
 **Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations
 
@@ -27,7 +27,7 @@ Prezio zerrenda bakoitzak prezio zerrendaren edo lan-tasak edukiarekin eta datar
 
    Ondorengo taulan eremuko eremuak biltzen dira **Orokorra** fitxa eta **Sorrera bizkorra** kontuan izan behar duzun rol-prezioen lerroaren panela, salmenta-prezioen zerrendan rol-prezioak sortzen dituzunean:
 
-    | Eremua | Kokapena | Garrantzia, xedea eta orientazioa | Downstream eragina |
+    | Eremua | Kokapena | Deskribapena | Downstream eragina |
     | --- | --- | --- | --- |
     | Funtzioa | **Orokorra** fitxa eta **Sortu bizkor** panela | Hautatu fakturazio-tasa ezartzen ari zaren funtzioa. | Sarrerako estimazioaren edo benetako eginkizuna lerro honekin parekatuko da fakturazio-tasaren kostua lehenetsi ahal izateko. |
     | Baliabideen enpresa | **Orokorra** fitxa eta **Sortu bizkor** panela | Aukeratu enpresa edo rola esleitutako pertsona juridikoa. Adibidez, Fabrikam Indiako garatzaile bat edo Fabrikam USAko garatzaile bat. | Sarrerako estimazioaren edo benetako enpresako baliabideak lerro honekin parekatuko da rolaren fakturazio-tasa lehenetsi ahal izateko. |
@@ -45,7 +45,7 @@ Adibidez, Fabrikam Indiako Robotics saila garatzaile batek AEBetako proiektu bat
 
 ### <a name="example-set-up-a-bill-rate"></a>Adibidez: konfiguratu faktura-tasa 
 
-1. Sortu izeneko salmenta prezioen zerrenda *Fabrikam AEBetako fakturen tasak* , eta data efektibitatea ezarri.
+1. Sortu izeneko salmenta prezioen zerrenda *Fabrikam AEBetako fakturen tasak*, eta data efektibitatea ezarri.
 2. Salmenten prezio-zerrenda inprimakian, ondorengo tasa-informazioa sartu:
 
     | Funtzioa | Baliabideen enpresa | Baliabide-unitatea | Fakturazio-tasa |

@@ -1,23 +1,33 @@
 ---
-title: Konfiguratu eta aplikatu konfigurazio-datuak Project Operations-en Common Data Service-n
+title: Konfiguratu eta aplikatu konfigurazio-datuak Common Data Service-n
 description: Gai honek Project Operations-eko konfigurazio-datuak konfiguratzeari eta aplikatzeari buruzko informazioa eskaintzen du.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070909"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401113"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Konfiguratu eta aplikatu konfigurazio-datuak Project Operations-en Common Data Service-n
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfiguratu eta aplikatu konfigurazio-datuak Common Data Service-n 
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
+
+## <a name="prerequisites"></a>Aurrebaldintzak
+
+Fitxategian datuak konfiguratzeko eskatu aurretik Common Data Service (CDS), honako baldintza hauek bete behar dira:
+
+1.  CDS ingurunea eta Dynamics 365 Finance Project Operations-etarako ingurunea.
+2.  Pertsona juridikoen informazioa Dynamics 365 Finance CDS ingurunearekin partekatzen da. Horrek esan nahi du **Enpresa** CDS erakundeak konpainiaren erregistro hauek ditu:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Instalatu konfigurazioa eta konfigurazio-datuak
 
@@ -34,7 +44,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 ![Konfigurazioaren saio-hasiera](./media/2ConfigurationSignin.png)
 
 7. 3. orrialdean, maizterraren erakundeen zerrendan, hautatu zein erakundetan inportatu nahi dituzun demo datuak eta hautatu **Saioa hasi**.
-8. 4. orrialdean, hautatu zip fitxategia, *SampelSetupAndConfigData* , paketatu gabeko karpetatik.
+8. 4. orrialdean, hautatu zip fitxategia, *SampelSetupAndConfigData*, paketatu gabeko karpetatik.
 
 ![Zip fitxategien hautaketa](./media/3ZipFile.png)
 
@@ -114,10 +124,10 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
  
 12. Eguneratu eremu hauek:
 
- - **Enpresa lehenetsia** : USPM
- - **Antolakuntza Unitate Lehenetsia** : Contoso Robotics Global
- - **Fakturen maiztasuna** : Zazpigarren eta Azken eguna
- - **Lan orduko txantiloia** : Sortu duzun txantiloira aldatu.
+ - **Enpresa lehenetsia**: USPM
+ - **Antolakuntza Unitate Lehenetsia**: Contoso Robotics Global
+ - **Fakturen maiztasuna**: Zazpigarren eta Azken eguna
+ - **Lan orduko txantiloia**: Sortu duzun txantiloira aldatu.
 
 13. Sakatu **Gorde**. 
 

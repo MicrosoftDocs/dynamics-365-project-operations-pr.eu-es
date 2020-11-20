@@ -1,33 +1,33 @@
 ---
-title: Lanaren kostu-tasak konfiguratzea
+title: Konfiguratu lanaren kostu-tasak - arina
 description: Gai honek Project Operations-eko lanaren kostuak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070947"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180683"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Lanaren kostu-tasak konfiguratzea 
+# <a name="set-up-labor-cost-rates---lite"></a>Konfiguratu lanaren kostu-tasak - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
 Prezio zerrenda bakoitzak prezio zerrendaren edukiarekin eta datarekin eraginkortasunarekin bat datozen lan tasen (rol prezioak) multzoa du.
 
-1. Sortu prezioen zerrenda eta **Rolaren prezioa** fitxa, azpi-saretan, hautatu **Rol berria**.
+1. Sortu prezioen zerrenda eta **Rolaren prezioa** fitxa, azpisarean, hautatu **Rol berria**.
 2. **Sortu bizkor** orrian, hautatu rola eta antolakuntza unitatea.
 3. Idatzi beharrezko eremuaren beste edozein informazio.
 
 Hurrengo taulan kostuen prezioen zerrendan eskulan tasak sortzerakoan garrantzitsuak diren zenbait arlo biltzen dira.
 
-| Eremua | Kokapena | Garrantzia, xedea eta orientazioa | Downstream eragina |
+| Eremua | Kokapena | Deskribapena | Downstream eragina |
 | --- | --- | --- | --- |
 | Funtzioa | **Orokorra** fitxa eta **Sortu bizkor** orrialdeak | Hautatu kostu-tasa aplikatzen zaion funtzioa. | Sarrerako estimazioaren edo benetako eginkizuna lerro honekin parekatuko da rolaren kostua lehenetsi ahal izateko. |
 | Baliabide-unitatea | **Orokorra** fitxa eta **Sortu bizkor** orrialdeak | Aukeratu enpresaren antolakuntza unitatea edo banaketa zeregin hori non erabiliko den. Adibidez, Fabrikam Indiako Robotika dibisioko garatzailea edo Fabrikam AEBetako Software dibisioaren garatzailea. | Sarrerako estimazioaren edo benetako baliabide-unitateak lerro honekin parekatuko da rolaren kostua lehenetsi ahal izateko. |
@@ -46,7 +46,7 @@ Fabrikam India-Robotic-eko garatzaile batek 100 $ kobratzen du Fabrikam US-Robot
 
 ### <a name="set-up-costs-for-outside-resources"></a>Ezarri kanpoko baliabideen kostuak
 
-1. Sortu kostuen prezioen zerrenda, *Fabrikam US-Robotics kostuen tasak* eta ezarri data-barruti eraginkorra.
+1. Sortu kostuen prezioen zerrenda,*Fabrikam US-Robotics kostuen tasak* eta ezarri data-barruti eraginkorra.
 2. Kostuen prezioen zerrendan, ezarri tarifak ondoko taulako informazioa erabiliz. 
 
 | Funtzioa | Baliabideen enpresa | Baliabide-unitatea | Kostuaren tasa |

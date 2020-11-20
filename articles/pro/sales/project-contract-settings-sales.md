@@ -1,21 +1,21 @@
 ---
-title: Proiektu-kontratuaren eremuak eta informazioa
+title: Proiektu-kontratuaren ezarpenak - arina
 description: Gai honek kontratu-lerroetan eragina duten eremuei buruzko informazioa eskaintzen du eta kontratuari buruzko informazioa lerro-elementu guztietan laburbilduta dago.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087792"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180897"
 ---
-# <a name="project-contract-fields-and-information"></a>Proiektu-kontratuaren eremuak eta informazioa 
+# <a name="project-contract-settings---lite"></a>Proiektu-kontratuaren ezarpenak - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
@@ -23,7 +23,7 @@ Gai honek proiektuaren kontratu osoari aplikatzen zaizkion eremuei buruzko infor
 
 Hurrengo taulan proiektuaren kontratuaren eremuak zerrendatzen dira, Dynamics 365 Project Operations-erako bakarrak direnak edo Dynamics 365 Sales-en salmenta-eskaeren aldaketa garrantzitsuak dituztenak.
 
-| Eremua | Kokapena | Garrantzia, xedea eta orientazioa | Downstream eragina |
+| Eremua | Kokapena | Deskribapena | Downstream eragina |
 | --- | --- | --- | --- |
 | Idatzi | **Laburpena** fitxa (ezkutatuta) | Aukera multzo eremu honek aukera hauek ditu:</br>- - **Lanean oinarrituta** (Project Operations instalatuta dagoenean soilik eskuragarri)</br>- **Elementuetan oinarrituta** (Project Operations eta Sales instalatuta badituzu soilik)</br>- **Zerbitzua mantentze lanetan oinarrituta** (Dynamics 365 Field Service instalatuta dagoenean eskuragarri) | Project Operations-en, eremu honen balioa lehenetsia da **Lanean oinarrituta** eta kontratua proiektuetan oinarritutako kontratu gisa sailkatzen du. Kontratuak proiektuan oinarrituta egon behar du proiektuaren berariazko luzapen eta funtzionalitate guztiak ahalbidetzeko. |
 | Balizko bezeroa | **Laburpena** fitxa | Bezeroen enpresaren edo kontuaren erregistroaren erreferentzia. Eskaintza batetik kontratua bat sortzen denean, eremu hori eskaintzaren erregistroan dagokion eremutik kopiatzen da. | Proiektuaren kontratu lehenetsiko moneta dago bezeroaren monetan oinarrituta. Hori ezin da aldatu kontratua gorde baino lehen. |
@@ -36,7 +36,7 @@ Hurrengo taulan proiektuaren kontratuaren eremuak zerrendatzen dira, Dynamics 36
 
 Ondorengo KPIak eskuragarri daude **Kontratuaren gauzatzea** proiektuaren kontratuaren fitxa.
 
-| Eremua | Kokapena | Garrantzia, xedea eta orientazioa |
+| Eremua | Kokapena | Deskribapena |
 | --- | --- | --- |
 | Kontratuaren balioa | Kontratu orokorra | Proiektuaren kontratuaren guztizko balioa. |
 | Fakturatutako zenbatekoa | Kontratu orokorra | Kontratu honen aurkako faktura guztien zenbatekoen batura. |

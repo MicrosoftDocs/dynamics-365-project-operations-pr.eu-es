@@ -1,23 +1,30 @@
 ---
-title: Aplikatu demo-konfigurazioa eta konfigurazio-datuak
+title: Aplikatu demo-konfigurazioa eta konfigurazio-datuak - arina
 description: Gai honek Project Operations-eko demo-konfigurazioa eta konfigurazio datuak nola aplikatu jakiteko informazioa eskaintzen du.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070901"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401248"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Aplikatu demo konfigurazio eta konfigurazio datuak Project Operations lite inplementazioan - aurre proforma fakturazioari
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplikatu Project Operations-erako demo-konfigurazioa eta konfigurazio-datuak - arina 
 
 _**Oinarrizko inplementazioa: kudeatu proformako fakturak_
+
+## <a name="prerequisites"></a>Aurrebaldintzak
+
+Konfigurazioa hasi aurretik, hau eduki behar duzu Common Data Service (CDS) ingurunea Dynamics 365 Project Operations-etarako hornituta.
+
+
+## <a name="instructions"></a>Instrukzioak
 
 1. Deskargatu [Datu nagusien paketea](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Joan *ProjOpsDemoDataSetupAndMaster - CMT integratua* karpetara eta exekutatu fitxategi exekutagarria, *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _**Oinarrizko inplementazioa: kudeatu proformako fakturak_
 10. Inportazioa gutxi gorabehera bi-hamar minutu iraungo du sareko abiaduraren arabera. Bukatu ondoren, irten CMT morroitik. 
 11. Egiaztatu zure erakundeak 20 entitate hauetako datuak dituen:
 
-- Moneta
-- Erakundearen unitatea
-- Contact
-- Zerga Taldea
-- Bezero-taldea
-- Unitatea
-- Salmenta-unitatea
-- Prezio-zerrenda
-- Proiektuaren parametroen prezio-zerrenda
-- Fakturen maiztasuna
-- Fakturen maiztasunaren xehetasunak
-- Baliabide erreserbagarriaren kategoria
-- Transakzio-kategoria
-- Gastu-kategoria
-- Funtzioaren prezioa
-- Transakzio-kategoriaren prezioa
-- Ezaugarria
-- Baliabide erreserbagarria
-- Baliabide erreserbagarriaren kategoriaren erlazioa
-- Baliabide erreserbagarriaren ezaugarria
+-   Moneta
+-   Account
+-   Erakundearen unitatea
+-   Contact
+-   Zerga Taldea
+-   Bezero-taldea
+-   Unitatea
+-   Salmenta-unitatea
+-   Prezio-zerrenda
+-   Proiektuaren parametroen prezio-zerrenda 
+-   Fakturen maiztasuna
+-   Baliabide erreserbagarriaren kategoria
+-   Transakzio-kategoria
+-   Gastu-kategoria
+-   Funtzioaren prezioa
+-   Transakzio-kategoriaren prezioa
+-   Ezaugarria
+-   Baliabide erreserbagarria
+-   Baliabide erreserbagarriaren kategoriaren erlazioa
+-   Baliabide erreserbagarriaren ezaugarria
 
 ![Inportazio osoa](./media/6CompleteImport.png)

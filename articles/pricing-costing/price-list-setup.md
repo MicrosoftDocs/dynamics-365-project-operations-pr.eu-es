@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 578f5641659a5d05785781afe7055fe4449cf799
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087796"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180177"
 ---
 # <a name="set-up-price-lists"></a>Konfiguratu prezio-zerrendak
 
@@ -23,15 +23,15 @@ Dynamics 365 Project Operations-eko prezio zerrendek tasen katalogoa adierazten 
 
 Hurrengo luzapenak Proiektuaren eragiketetarako zehatzak dira eta Dynamics 365 Sales-eko prezio zerrendetan aplikatzen dira.
 
-- **Testuingurua** : Eremu honek onartutako balioak ditu, **Kostua** eta **Salmentak**. Ez da onartzen **Erosi** balioa. Testuingurua ezarri **Kostua** kostuen prezioen zerrenda egiteko edo testuingurua ezartzeko **Salmentak** salmenta prezioen zerrenda lortzeko. Kostuen prezioen zerrendek kostu motaren prezioa ebazten dute eta benetako erregistroetan ebazten dute. Salmenta prezioen zerrendek fakturatu gabeko eta fakturatutako salmenta moten erregistro estimatuen eta errealen prezioa ebazten dute.
-- **Denbora Unitatea** : Horrekin erlazionatutako prezioa ezartzen den denbora unitate lehenetsia da **Rolaren prezioa** prezio zerrenda honetarako taula.
-- **Prezioen zerrendako entitatea** : Ezkutuko eremu hau Proiektuaren Eragiketen arabera da, aurrekontu edo kontratuaren araberako prezioen zerrendak bereizteko eta orokorrean aplikagarriak direnak.
+- **Testuingurua**: Eremu honek onartutako balioak ditu, **Kostua** eta **Salmentak**. Ez da onartzen **Erosi** balioa. Testuingurua ezarri **Kostua** kostuen prezioen zerrenda egiteko edo testuingurua ezartzeko **Salmentak** salmenta prezioen zerrenda lortzeko. Kostuen prezioen zerrendek kostu motaren prezioa ebazten dute eta benetako erregistroetan ebazten dute. Salmenta prezioen zerrendek fakturatu gabeko eta fakturatutako salmenta moten erregistro estimatuen eta errealen prezioa ebazten dute.
+- **Denbora Unitatea**: Horrekin erlazionatutako prezioa ezartzen den denbora unitate lehenetsia da **Rolaren prezioa** prezio zerrenda honetarako taula.
+- **Prezioen zerrendako entitatea**: Ezkutuko eremu hau Proiektuaren Eragiketen arabera da, aurrekontu edo kontratuaren araberako prezioen zerrendak bereizteko eta orokorrean aplikagarriak direnak.
 
 ## <a name="price-list-header"></a>Prezio-zerrendaren goiburua
 
 Ondorengo taulan eremuko eremuak biltzen dira **Orokorra** salmentetako prezioen zerrenden arabera Proiektuen eragiketetarako soilik diren edo portaeran aldaketa nabarmenak dituzten prezioen zerrendaren fitxa.
 
-| Eremua | Kokapena | Garrantzia, xedea eta orientazioa | Downstream eragina |
+| Eremua | Kokapena | Deskribapena | Downstream eragina |
 | --- | --- | --- | --- |
 | Eman izena | **Orokorra** fitxa eta **Sortu bizkor** inprimakiak | Prezio-zerrendaren nortasuna. | Prezioen-zerrendak balio hori zerrendako orrialde eta goitibeherako aukera guztietan erakusten du.|
 | Testuingurua | **Orokorra** fitxa eta **Sortu bizkor** inprimakiak | Eremu hau ezar daiteke **Kostua** edo **Salmentak**. | Prezio zerrenda **Kostua** kalkulatzeko eta kostuen benetako prezioa bilatzeko erabiltzen da. Prezio zerrenda **Salmentak** kalkulatzeko eta salmenten benetako prezioa bilatzeko erabiltzen da. Testuingurua ezarrita duten prezioen zerrendak soilik **Salmentak** bezeroaren, proiektuaren aurrekontuen edo proiektuaren kontratuaren proiektuen prezioen zerrendara erants daiteke. |

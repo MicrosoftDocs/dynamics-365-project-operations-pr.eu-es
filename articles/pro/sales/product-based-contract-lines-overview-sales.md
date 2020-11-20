@@ -1,21 +1,21 @@
 ---
-title: Produktuetan oinarritutako kontratuaren lerroen ikuspegi orokorra
+title: Produktuetan oinarritutako kontratuaren lerroen ikuspegi orokorra - arina
 description: Gai honek kontratu eta produktuetan oinarritutako lerroei buruzko informazioa ematen du.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070963"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177856"
 ---
-# <a name="product-based-contract-lines-overview"></a>Produktuetan oinarritutako kontratuaren lerroen ikuspegi orokorra
+# <a name="product-based-contract-lines-overview---lite"></a>Produktuetan oinarritutako kontratuaren lerroen ikuspegi orokorra - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
@@ -43,6 +43,6 @@ Kontratuaren lerro bat produktuen katalogoan oinarrituta badago, salmenta-prezio
 - **Gainidatzi prezioa**
 - **Erabili balio lehenetsiak**
 
-**Prezioak** eremua **Gainidatzi prezioa** gisa ezartzen baduzu, ez da prezio lehenetsirik zehazten. Idatzi kontratuaren lerroko produktuaren prezioa. Eremua ezartzen baduzu **Erabili lehenetsia** , salmenta prezio lehenetsia erabiltzen da eta eremua ezin da editatu.
+**Prezioak** eremua **Gainidatzi prezioa** gisa ezartzen baduzu, ez da prezio lehenetsirik zehazten. Idatzi kontratuaren lerroko produktuaren prezioa. Eremua ezartzen baduzu **Erabili lehenetsia**, salmenta prezio lehenetsia erabiltzen da eta eremua ezin da editatu.
 
 Project Operations instalatu ondoren, salmenta prezio lehenetsiak produktuaren araberako lerroetan sartzen dira kontratu batean. **Prezioa** eremua, eremuan ezarri behar da **Gainidatzi prezioak** kontratuaren lerroetan prezio lehenetsia editatu ahal izateko. Project Operations-ek produktuan oinarritutako lerroen portaera berraztertzen dute Dynamics 365 Sales-en.

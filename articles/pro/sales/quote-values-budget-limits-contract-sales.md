@@ -1,21 +1,21 @@
 ---
-title: Proiektuaren eskaintzako laburpen-informazioa (salmentak)
+title: Proiektuaren eskaintzako laburpen-informazioa - arina
 description: Gai honek proiektuaren aurrekontuei aplikatzen zaien eta ezartzen duen informazioari eta ezarpenei buruzko informazioa eskaintzen du. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070967"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180922"
 ---
-# <a name="summary-information-on-a-project-quote-sales"></a>Proiektuaren eskaintzako laburpen-informazioa (salmentak)
+# <a name="summary-information-on-a-project-quote---lite"></a>Proiektuaren eskaintzako laburpen-informazioa - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
@@ -23,9 +23,9 @@ Artikulu honetan proiektuaren aurrekontuari aplikatzen zaion informazioa azaltze
 
 Hurrengo taulan proiektuaren aurrekontuaren laburpeneko informazio eremuak zerrendatzen dira, Dynamics 365 Project Operations-erako bakarrak direnak edo Dynamics 365 Sales-en aurrekontuen portaera aldaketa garrantzitsuak dituztenak.
 
-| **Eremua** | **Kokalekua** | **Garrantzia, xedea eta orientazioa** | **Downstream eragina** |
+| **Eremua** | **Kokalekua** | **Azalpena** | **Downstream eragina** |
 | --- | --- | --- | --- |
-| Mota | Laburpen fitxa (ezkutatuta) | Aukera multzo eremu honek aukera hauek ditu:</br>- Lanean oinarrituta (Project Operations instalatuta dagoenean soilik eskuragarri)</br>- Elementuetan oinarrituta (Project Operations eta Sales instalatuta badituzu soilik)</br>- Zerbitzua mantentze lanetan oinarrituta (Dynamics 365 Field Service instalatuta dagoenean eskuragarri) | Project Operations aplikazioa erabiltzen duzunean, eremuaren balio hau automatikoki ezartzen da **Lanean oinarrituta** gisa. Honek aurrekontua proiektuan oinarritutako aurrekontu gisa sailkatzen du. Aurrekontuak proiektuan oinarrituta egon behar du proiektuaren berariazko luzapen eta funtzionalitate guztiak ahalbidetzeko. |
+| Idatzi | Laburpen fitxa (ezkutatuta) | Aukera multzo eremu honek aukera hauek ditu:</br>- Lanean oinarrituta (Project Operations instalatuta dagoenean soilik eskuragarri)</br>- Elementuetan oinarrituta (Project Operations eta Sales instalatuta badituzu soilik)</br>- Zerbitzua mantentze lanetan oinarrituta (Dynamics 365 Field Service instalatuta dagoenean eskuragarri) | Project Operations aplikazioa erabiltzen duzunean, eremuaren balio hau automatikoki ezartzen da **Lanean oinarrituta** gisa. Honek aurrekontua proiektuan oinarritutako aurrekontu gisa sailkatzen du. Aurrekontuak proiektuan oinarrituta egon behar du proiektuaren berariazko luzapen eta funtzionalitate guztiak ahalbidetzeko. |
 | Balizko bezeroa | Laburpena fitxa | Bezeroaren enpresaren edo kontuaren erregistroaren erreferentzia. Abagune batetik eskaintza bat sortzen denean, eremu hori abagunean dagokion eremutik kopiatzen da. | Proiektuaren aurrekontuaren moneta lehenetsita dago bezeroaren monetan oinarrituta. Alabaina, hori ezin da aldatu eskaintza gorde baino lehen. |
 | Kontu-kudeatzailea | Laburpena fitxa | Eskaintzaren kontu-kudeatzailearen izena. Abagune batetik eskaintza bat sortzen denean, eremu hori abagunean dagokion eremutik kopiatzen da. | Kontuaren kudeatzailea bezeroarekin harremana kudeatzeaz arduratzen da proiektu hau burutu bitartean. Kontuaren kudeatzaileari lotuta dagoen baliabide erreserbagarrien erregistroan oinarrituta, kontratazio unitatea lehenetsia da proiektuaren eskaintzan. |
 | Kontratatzailea | Laburpena fitxa | Eskaintza honekin lotutako proiektua edo proiektuak entregatzeaz arduratzen den antolakuntza unitatea. Abagune batetik eskaintza bat sortzen denean, eremu hori abagunean dagokion eremutik kopiatzen da. | Kontratazio-unitatea akordioa itxi ondoren proiektuak exekutatuko dituen enpresaren banaketa da. Kontratazio unitate guztiek moneta bat dute, eta moneta hori proiektua exekutatzean egindako kostu estimatuen eta benetakoen berri emateko erabiltzen da. |
@@ -36,7 +36,7 @@ Hurrengo taulan proiektuaren aurrekontuaren laburpeneko informazio eremuak zerre
 
 Jarraian, proiektuaren aurrekontuetan eskuragarri dauden fitxak eta KPIak daude, proiektuaren eragiketetarako bakarrak direnak edo salmenten aurrekontuen portaeran aldaketa garrantzitsuak dituztenak:
 
-| **Eremua** | **Kokalekua** | **Garrantzia, xedea eta orientazioa** |
+| **Eremua** | **Kokalekua** | **Azalpena** |
 | --- | --- | --- |
 | Errentagarritasun-analisia | Eskaintzako fitxa | Fitxak neurketa hauek ditu:</br>- Kobra daitekeen kostua, guztira</br></br>- Kobra ezin daitekeen kostua, guztira</br>- Diru-sarrerak, guztira</br>- Diru-sarrerak, guztira (oinarrizkoa)</br>- Marjina gordina</br>- Marjina gordin doitua|
 | Bezeroen aurreikuspenekiko konparazioa | Eskaintzako fitxa | Fitxa honek neurketa hauek ditu:</br>- Aurreikusitako osatze-data</br>- Eskatutako osatze-data</br>- Bezeroaren aurrekontua</br>- Eskainitako balioa |

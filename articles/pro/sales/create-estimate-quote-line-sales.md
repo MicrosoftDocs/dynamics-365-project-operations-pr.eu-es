@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070940"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180357"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Proiektuetan oinarritutako eskaintzaren lerroa aurreikustea
 
@@ -30,9 +30,9 @@ Proiektuan oinarritutako aurrekontu lerroa kalkulatzeko, hautatu proiektuan oina
 
 Proiektuan oinarritutako aurrekontu lerro batean aurrekontua sortzeko, hautatu **Aipatu lerroaren xehetasuna** fitxa. Fitxa honetan sortzen duzun lerroaldean aurrekontu lerro honetarako aipatutako balioa laburbilduko da. 
 
-Aurrekontuaren lerroaren xehetasunak sortzeko, hautatu **+ Aurrekontuaren lerroaren xehetasun berria** gainean **Aipatu lerroaren xehetasunak** azpisareta. Sortzeko graduatzaile bizkorra irekiko da. **Eskaintzaren lerroa** inprimakiko eremu hauek:
+Aurrekontuaren lerroaren xehetasunak sortzeko, hautatu **+ Aurrekontuaren lerroaren xehetasun berria** gainean **Aipatu lerroaren xehetasunak** azpisarea. Sortzeko graduatzaile bizkorra irekiko da. **Eskaintzaren lerroa** inprimakiko eremu hauek:
 
-| **Eremua** | **Kokalekua** | **Garrantzia, xedea eta orientazioa** | **Downstream eragina** |
+| **Eremua** | **Kokalekua** | **Azalpena** | **Downstream eragina** |
 | --- | --- | --- | --- |
 | Deskribapena | Sorrera bizkorra | Aurreikuspen jakin baten azalpena. | Eremu honek lehenetsitako lerroaren xehetasunen arabera lehenetsitakoa da automatikoki sortzen den kostua. |
 | Transakzio-klasea | Sorrera bizkorra | Goitibeherako zerrenda honek aukeran dauden transakzio klaseak eskaintzen ditu **Orokorra** proiektuan oinarritutako aurrekontu lerroaren fitxa.  | Eremu honek lehenetsitako lerroaren xehetasunen arabera lehenetsitakoa da automatikoki sortzen den kostua. |
@@ -50,11 +50,11 @@ Aurrekontuaren lerroaren xehetasunak sortzeko, hautatu **+ Aurrekontuaren lerroa
 
 ## <a name="update-prices-on-quote-line-details"></a>Eguneratu prezioak aurrekontuaren lerroaren xehetasunetan
 
-Aurrekontuan erantsitako proiektuaren prezioen zerrendan edo kontratazio unitatearen kostuen prezioen zerrendan prezioak aldatu badituzu, hauta dezakezu **Birkalkulatu** **Aurrekontua** orrialdean, banakako aurrekontuaren lerroaren xehetasunetan prezioak freskatzeko, aldaketa hori islatzeko. Hautatzen duzunean **Birkalkulatu** Aurrekontu lerro guztietako xehetasunen prezioak berrezarriko direla jakinarazten dizun abisua gertatzen da. Aukeratu **Bai** , salmenten zein kostuen aurrekontuaren lerroaren xehetasunak freskatzeko.
+Aurrekontuan erantsitako proiektuaren prezioen zerrendan edo kontratazio unitatearen kostuen prezioen zerrendan prezioak aldatu badituzu, hauta dezakezu **Birkalkulatu** **Aurrekontua** orrialdean, banakako aurrekontuaren lerroaren xehetasunetan prezioak freskatzeko, aldaketa hori islatzeko. Hautatzen duzunean **Birkalkulatu** Aurrekontu lerro guztietako xehetasunen prezioak berrezarriko direla jakinarazten dizun abisua gertatzen da. Aukeratu **Bai**, salmenten zein kostuen aurrekontuaren lerroaren xehetasunak freskatzeko.
 
 ## <a name="access-quote-line-details-for-cost"></a>Sar ezazu aurrekontuaren lerroaren kostua
 
-**Aipatu lerroaren xehetasunak** fitxan, hautatu errenkadan sarean azpi-sarearen tresna-barran zenbait ekintza gaitzeko. Azpi-sarearen tresna-barran aurreneko ekintza aurrekontuaren lerroaren xehetasuna hautatzen denean da **Ireki kostuaren xehetasuna**. Aukeratu **Ireki kostuaren xehetasuna** aurrekontu lerro honi lotutako kostu tasa eta zenbatekoa ikusteko.
+**Eskaintzaren lerroaren xehetasunak** fitxa, hautatu lerro bat saretan azpi-sarearen tresna-barran ekintzak gaitzeko. Azpi-sarearen tresna-barran aurreneko aurrekontua lerroaren xehetasuna hautatzen denean lehenengo ekintza da **Ireki kostuaren xehetasuna**. Aukeratu **Ireki kostuaren xehetasuna** aurrekontu lerro honi lotutako kostu tasa eta zenbatekoa ikusteko.
 
 > [!NOTE]
 > Aurrekontuaren lerroaren xehetasunean baliabideen hornikuntza-unitatea, kantitatea, datak, rola edo kategoriako balioak aldatzeak salmentetarako aurrekontuaren lerroaren xehetasunetan dagozkien balioak aldatuko ditu.

@@ -1,21 +1,21 @@
 ---
-title: Proiektu-kontratuak kopiatzea
+title: Kopiatu proiektu-kontratuak - arina
 description: Gai honek proiektu-kontratuak kopiatzeari buruzko informazioa eskaintzen du Project Operations-en.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6da8e3ba8e062f3e06dc7f440caebdd93e496c65
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070941"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181392"
 ---
-# <a name="copying-project-contracts"></a>Proiektu-kontratuak kopiatzea
+# <a name="copy-project-contracts---lite"></a>Kopiatu proiektu-kontratuak - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
@@ -26,7 +26,7 @@ Proiektuen kontratu berriak erraz sor ditzakezu lehendik dauden kontratuen kopia
 
 Elkarrizketa-orria irekiko da eta bertan kopiatutako kontratuaren parametroak hauta ditzakezu. Eremu hauek izango dira elkarrizketan. Elkarrizketa honetan aukeratzen dituzun balioen arabera, kopia prozesua alda daiteke.
 
-| **Eremua** | **Garrantzia, xedea eta orientazioa** | **Downstream eragina** |
+| **Eremua** | **Azalpena** | **Downstream eragina** |
 | --- | --- | --- |
 | Gaia | Sartu helburuko kontratuaren gaia. Elkarrizketa-orria irekitzen denean, sistemak iturburuko kontratuaren izenaren eramuari **kopia** erantsi dio. | Ez dago alor honen beherako eraginik. |
 | Bezeroa | Bezeroaren enpresaren edo kontuaren erregistroaren erreferentzia. Elkarrizketa-koadroa irekitzen denean, sistemak iturburuko kontratuko kontuan ezarriko du. | Eremu hau kontratuaren bezero nagusia da. |

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087797"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181122"
 ---
 # <a name="project-contract-settings"></a>Proiektu-kontratuaren ezarpenak
 
@@ -23,7 +23,7 @@ Gai honek proiektuaren kontratu osoari aplikatzen zaizkion eremuei buruzko infor
 
 Hurrengo taulan proiektuaren kontratuaren eremuak zerrendatzen dira, Dynamics 365 Project Operations-erako bakarrak direnak edo Dynamics 365 Sales-en salmenta-eskaeren aldaketa garrantzitsuak dituztenak.
 
-| Eremua | Kokapena | Garrantzia, xedea eta orientazioa | Downstream eragina |
+| Eremua | Kokapena | Deskribapena | Downstream eragina |
 | --- | --- | --- | --- |
 | Idatzi | **Laburpena** fitxa (ezkutatuta) | Aukera multzo eremu honek aukera hauek ditu:</br>- - **Lanean oinarrituta** (Project Operations instalatuta dagoenean soilik eskuragarri)</br>- **Elementuetan oinarrituta** (Project Operations eta Sales instalatuta badituzu soilik)</br>- **Zerbitzua mantentze lanetan oinarrituta** (Dynamics 365 Field Service instalatuta dagoenean eskuragarri) | Project Operations-en, eremu honen balioa lehenetsia da **Lanean oinarrituta** eta kontratua proiektuetan oinarritutako kontratu gisa sailkatzen du. Kontratuak proiektuan oinarrituta egon behar du proiektuaren berariazko luzapen eta funtzionalitate guztiak ahalbidetzeko. |
 | Jabetzadun enpresa | **Laburpena** fitxa | Proiektu honetatik edo kontratu honekin lotutako proiektuetatik sortzen diren kostuak eta diru-sarrerak kontabilizatuko dituen pertsona juridikoa. Eskaintza batetik kontratua bat sortzen denean, eremu hori eskaintzaren erregistroan dagokion eremutik kopiatzen da. | Enpresa titularra pertsona juridikoaren kontzeptuarekin bat dator **Proiektuen kudeaketa eta kontabilitatea** proiektuaren eragiketen modulua. Proiektu honetatik sortzen diren kostu eta diru-sarrera guztiak enpresa jabearen liburu nagusian kontabilizatuko dira. |
@@ -37,7 +37,7 @@ Hurrengo taulan proiektuaren kontratuaren eremuak zerrendatzen dira, Dynamics 36
 
 Ondorengo KPIak eskuragarri daude **Kontratuaren gauzatzea** proiektuaren kontratuaren fitxa.
 
-| Eremua | Kokapena | Garrantzia, xedea eta orientazioa |
+| Eremua | Kokapena | Deskribapena |
 | --- | --- | --- |
 | Kontratuaren balioa | Kontratu orokorra | Proiektuaren kontratuaren guztizko balioa. |
 | Fakturatutako zenbatekoa | Kontratu orokorra | Kontratu honen aurkako faktura guztien zenbatekoen batura. |

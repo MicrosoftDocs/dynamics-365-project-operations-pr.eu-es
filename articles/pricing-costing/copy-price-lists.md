@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071075"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181482"
 ---
 # <a name="copy-price-lists"></a>Kopiatu prezio-zerrendak
 
@@ -26,7 +26,7 @@ Prezioen zerrendaren kopia bat egiteko, jarraitu urrats hauek.
 1. Ireki kopia bat egin nahi duzun prezio zerrenda eta hautatu **Kopiatu**.
 2. Sartu beharrezko informazioa prezioen zerrenda kopiatzeko. Hurrengo taulan informazioa sartzerakoan kontuan hartu beharreko gogoetak agertzen dira.
 
-| Eremua | Garrantzia, xedea eta orientazioa | Downstream eragina |
+| Eremua | Deskribapena | Downstream eragina |
 | --- | --- | --- |
 | Eman izena | Iturriaren prezioen zerrendaren izena **kopia** erantsita. | Prezioen zerrendak balio hori zerrendako orrialde eta goitibeherako aukera guztietan biltzen du. |
 | Testuingurua | Idatzi helburuko prezioen zerrendarako nahi duzun testuingurua. | Testuingurua ezarrita duen prezio zerrenda **Kostua** kalkulatzeko eta kostuen benetako prezioa bilatzeko erabiltzen da. Testuingurua ezarrita duen prezio zerrenda **Salmenta** kalkulatzeko eta salmenten benetako prezioa bilatzeko erabiltzen da. Testuingurua ezarrita duten prezioen zerrendak soilik **Salmentak** bezeroaren, aurrekontuen edo kontratuaren proiektuen prezioen zerrendara erants daiteke. |
@@ -40,6 +40,6 @@ Prezioen zerrendaren kopia bat egiteko, jarraitu urrats hauek.
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>Eguneratu prezioen zerrenda prezio guztiei marka gehituz
 
-1. **Rola** , **Kategoria** eta **Prezioen zerrendako elementua** prezioen zerrenda baten fitxak, hauta ditzakezu **Eguneratu prezioak** azpisareko prezio guztientzako marka aplikatzeko. 
+1. **Funtzioa**, **Kategoria** eta **Prezioen zerrendako elementua** prezioen zerrenda baten fitxak, hauta ditzakezu **Eguneratu prezioak** azpisareko prezio guztiei marka bat aplikatzeko. 
 2. Irekitzen den elkarrizketa-orrian, sartu marka bat. Halaber, ehuneko negatiboa gehi dezakezu prezioak ehuneko jakin batean jaisteko. 
 3. Aukeratu **Ados** elkarrizketa-orrian eta egiaztatu azpisareko prezioek egindako aldaketak islatzen dituztela.

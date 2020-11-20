@@ -1,21 +1,21 @@
 ---
-title: Fakturatu atxikipen edo aurrerakin bat
+title: Fakturatu atxikipen edo aurrerakin bat - arina
 description: Gai honek proiektuaren eragiketetan atxikipena edo aurrerakina fakturatzeko moduari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087793"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180537"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Fakturatu atxikipen edo aurrerakin bat
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fakturatu atxikipen edo aurrerakin bat - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
@@ -43,7 +43,7 @@ Atxikimenduak edo aurrerakinak fakturatu dituen proiektuaren kontratu batengatik
 
 Hori ikus daiteke **Atxikitzaile eta aurrerapen aplikatuak** saretan **Faktura** orrialdea. Ondorengo taulan fitxategien eremuei buruzko informazioa ematen da **Atxikitzaile eta aurrerapen aplikatuak** sareta **Proiektuaren faktura** orrialdea.
 
-| Eremua | Kokapena | Garrantzia, xedea eta orientazioa | Downstream eragina |
+| Eremua | Kokapena | Deskribapena | Downstream eragina |
 | --- | --- | --- | --- |
 | Deskribapena | Hori ikus daiteke **Aplikatutako atxikipenak eta aurrerapenak** saretan **Proiektuaren faktura** orrialdean |Irakurtzeko soilik den eremu honek faktura honetan erabilitako atxikipenaren edo aurrerakinaren deskribapena eskaintzen du. Balioa ezin da aldatu fakturan. Balio hau egunkarian azpisarean eguneratu daiteke **Proiektuaren kontratua** orrialdean. | Eremu hau bezeroari bistaratu dakioke inprimatutako fakturan, fakturan zein atxikipen edo aurrerakin aplikatzen den adierazteko. |
 | Entrega-data | Hori ikus daiteke **Aplikatutako atxikipenak eta aurrerapenak** saretan **Proiektuaren faktura** orrialdean  | Irakurtzeko soilik den eremu honek faktura honetan erabilitako atxikipenaren edo aurrerakinaren faktura-data eskaintzen du. Balioa ezin da aldatu fakturan. Balio hau egunkarian azpisarean eguneratu daiteke **Proiektuaren kontratua** orrialdean. | Eremu hau bezeroari bistaratu dakioke inprimatutako fakturan, atxikipena edo aurrerakina bezeroari aplikatuko zitzaion data adierazteko. |

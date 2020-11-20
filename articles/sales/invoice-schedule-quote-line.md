@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070969"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180807"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Fakturazio-antolaketak proiektuetan oinarritutako eskaintza-lerroetan
 
@@ -32,7 +32,7 @@ Proiektuetan oinarritutako aurrekontu lerro baten fakturazio metodoa Denbora eta
 3. Ireki dataren araberako fakturen ordutegia sortzeko behar duzun denbora eta materialaren aurrekontua. 
 4. **Faktura-antolaketa** fitxan, hautatu balioak **Fakturazioaren hasiera** eta **Fakturen maiztasuna** eremuak. 
 5. Azpisaretan, hautatu **Sortu faktura-antolaketa**.
-6. Aplikazioak fakturaren egutegia sortzen du **Faktura exekutatzeko data** , **Transakzioen ebazpen-data** eta **Exekutatu egoera** eremuak honela ezarrita:
+6. Aplikazioak fakturaren egutegia sortzen du **Faktura exekutatzeko data**, **Transakzioen ebazpen-data** eta **Exekutatu egoera** eremuak honela ezarrita:
 
     - **Faktura exekutatzeko data** fakturazio maiztasunaren arabera diktatutako datan ezartzen da.
     - **Transakzioaren amaiera eguna** egunaren aurreko egunean ezartzen da **Faktura exekutatzeko data**.
@@ -58,9 +58,9 @@ Proiektuan oinarritutako aurrekontu lerroak a duenean **Finkoa** fakturazio-meto
 
 Prezio finkoaren mugarriak eskuz ere sor daitezke, aldian-aldian banatzen ez direnean. Mugarriak eskuz sortzeko:
 
-Ireki mugarriak sortzeko behar duzun prezio finkoaren aurrekontua. **Fakturen antolaketa** fitxan, azpi-saretan, hautatu **+ Sortu aurrekontu lerro mugarria** eta sartu beharrezko informazioa hurrengo taulan oinarrituta.
+Ireki mugarriak sortzeko behar duzun prezio finkoaren aurrekontua. **Fakturen ordutegia** fitxan, azpisarean, hautatu **+ Sortu aurrekontu lerroaren mugarri berria** eta sartu beharrezko informazioa hurrengo taulan oinarrituta.
 
-| **Eremua** | **Kokalekua** | **Garrantzia, xedea eta orientazioa** | **Downstream eragina** |
+| **Eremua** | **Kokalekua** | **Azalpena** | **Downstream eragina** |
 | --- | --- | --- | --- |
 | Mugarriaren izena | Sorrera bizkorra | Mugarriaren izena. | Hori proiektuaren kontratu-lerroaren mugarrira eta fakturara hedatzen da |
 | Proiektuaren zeregina | Sorrera bizkorra | Mugarria proiektuaren zereginarekin lotuta badago, erreferentzia hau erabil dezakezu logika pertsonalizatua gehitzeko mugarriaren egoera atazaren egoeran oinarrituta. | Aplikazioak ez du zeregin baterako erreferentzia honen beherako eraginik. |

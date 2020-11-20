@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070913"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181797"
 ---
 # <a name="copy-project-based-quotes"></a>Kopiatu proiektuetan oinarritutako eskaintzak
 
@@ -21,11 +21,11 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 Proiektuaren aurrekontu berri bat erraz sor dezakezu lehendik dagoen bat kopiatuz. 
 
-- Proiektuaren aurrekontua kopiatzeko, **Proiektuaren aurrekontuak** zerrendaren orria edo **Proiektuaren aurrekontua** xehetasunen orria, hautatu kopiatu nahi duzun proiektuaren aurrekontua eta, ondoren, hautatu **Kopiatu**.
+- Proiektuaren aurrekontua kopiatzeko,**Proiektuaren aurrekontuak** zerrendaren orria edo **Proiektuaren aurrekontua** xehetasunen orria, hautatu kopiatu nahi duzun proiektuaren aurrekontua eta, ondoren, hautatu **Kopiatu**.
 
 Elkarrizketa-orria irekiko da eta bertan kopiaren parametroak sar ditzakezu. Hurrengo taulan elkarrizketa-orrian agertzen diren eremuak zerrendatzen dira. Aukeratzen dituzun balioen arabera, kopia prozesua alda daiteke.
 
-| **Eremua** | **Garrantzia, xedea eta orientazioa** | **Downstream eragina** |
+| **Eremua** | **Azalpena** | **Downstream eragina** |
 | --- | --- | --- |
 | Gaia | Idatzi xede-aurrekontuaren dagokion gaia edo izena. Elkarrizketa-koadroa irekitzen denean, sistemak iturburuko aurrekontuaren gaia ezarriko du **-kopia** erantsi zaio. | |
 | Balizko bezeroa | Bezeroaren enpresaren edo kontuaren erregistroaren erreferentzia. Elkarrizketa-koadroa irekitzen denean, sistemak iturburuko aurrekontuko kontuan ezarriko du. | Eremu hau aurrekontuaren bezero nagusia da. |

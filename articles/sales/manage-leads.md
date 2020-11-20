@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070894"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181752"
 ---
 # <a name="manage-leads"></a>Kudeatu bezerogaiak
 
@@ -38,7 +38,7 @@ Bezerogai kualifikatuak aukera automatikoki sor dezan, ezarri **Mota** atributua
 
 Ondorengo taulan, lider baten eremuko informazio garrantzitsua eta eremu horien ondorioak dituzten ondorioak daude.
  
-| **Eremua** | **Kokalekua** | **Garrantzia, xedea eta orientazioa** | **Downstream eragina** |
+| **Eremua** | **Kokalekua** | **Azalpena** | **Downstream eragina** |
 | --- | --- | --- | --- |
 | Gaia | Fitxa orokorra | Testu-eremu honek akordioaren deskribapen laburra izan behar du. | Bezerogaiaren gaia lehenetsita egongo da Abagunearen gai gisa, eta Eskaintzaren izena eta Proiektuaren kontratua. |
 | Mota | Fitxa orokorra | Aukera multzo eremu honek aukera hauek ditu:</br>- Lanean oinarrituta (Project Operations instalatuta dagoenean soilik eskuragarri)</br>- Elementuetan oinarrituta (Project Operations eta Sales instalatuta badituzu soilik)</br>- Zerbitzua mantentze lanetan oinarrituta (Field Service instalatuta dagoenean eskuragarri) | Eremu honen balioa ezarrita dagoenean **Lanean oinarrituta** markagailuan, liderra proiektuan oinarritutako aukera sortzeko gaituta dago. Proiektuan abagunea behar da akordio honetarako salmenta prozesuan proiektuaren berariazko luzapen eta funtzionalitate guztiak ahalbidetzeko. |

@@ -1,21 +1,21 @@
 ---
-title: Projektuetan oinarritutako abagunearen lerroak (Pro)
+title: Proiektuetan oinarritutako abagunearen lerroak - arina
 description: Gai honek proiektuan oinarritutako abagune-lerroei buruzko informazioa eskaintzen du. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070961"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180987"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Projektuetan oinarritutako abagunearen lerroak (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Proiektuetan oinarritutako abagunearen lerroak - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
@@ -25,7 +25,7 @@ Proiektuetan oinarritutako aukera-lerroak proiektuaren bidez bezeroari entregatu
 
 Jarraian proiektuan oinarritutako aukera lerro bateko eremuak daude:
 
-| **Eremua** | **Kokalekua** | **Garrantzia, xedea eta orientazioa** | **Downstream eragina** |
+| **Eremua** | **Kokalekua** | **Azalpena** | **Downstream eragina** |
 | --- | --- | --- | --- |
 | Produktu mota | Fitxa orokorra (ezkutatuta) | Aukera hauetako hauta dezakezu:</br>- Proiektuetan oinarrituako zerbitzua (Dynamics 365 Project Operations instalatuta baduzu soilik)</br>- Produktua (Project Operations eta Dynamics 365 Sales instalatuta badituzu soilik) | Eremu honen balioa ezarrita dago **Proiektuetan oinarritutako zerbitzua** proiektuan oinarritutako aukera-lerroa Aukeran Aukeran proiektuan oinarritutako lerroen saretik sortzen duzunean. <br> Balio hau aldatzen edo gainidazten baduzu, proiektuaren funtzionalitatea ez da gaituko proiektuan oinarritutako lineako elementuetan. |
 | Abagunea | Fitxa orokorra | Eremu hau irakurtzeko soilik da eta lerro-elementu honi dagokion Abagunea erregistro nagusia aipatzen du. | Ez dago alor honen beherako eraginik. |

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e5a2402a2c1059ff11dbe1a331a028da77958235
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070955"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180267"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Konfiguratu gastuen kostu- eta salmenta-tasak
 
@@ -24,17 +24,17 @@ Transakzio-kategorien kostua eta salmenta-prezioak konfigura ditzakezu Dynamics 
 Transakzio kategorien kostua eta salmenta tasak konfiguratzeko, jarraitu urrats hauek. 
 
 1. Sortu prezio zerrenda prezio zerrendaren goiburuan oinarrituta. 
-2. **Kategoria-prezioak** aukerako azpisareko menuan, hautatu **+ Kategoria berria**. 
+2. **Kategoriaren prezioak** eremuan, azpisarea menuan, hautatu **+ Kategoria berria**. 
 3. **Sorrera bizkorra** orrian, sartu prezio berria sortzen ari zaren transakzio kategoria eta unitatea.
 
 Ondorengo taulan eremuko eremuak biltzen dira **Orokorra** fitxa eta **Sorrera bizkorra** kontuan izan behar duzun prezioen lerroaren panela, salmenten edo kostuaren prezioen zerrendan rol-prezioak sortzen dituzunean:
 
-| Eremua | Kokapena | Garrantzia, xedea eta orientazioa | Downstream eragina |
+| Eremua | Kokapena | Deskribapena | Downstream eragina |
 | --- | --- | --- | --- |
 | Transakzio-kategoria | **Orokorra** fitxa eta **Sortu bizkor** orrialdeak | Aukeratu salmenta edo kostu prezioa sortzen ari zaren transakzio kategoria. | Sarrerako transakzioren kategoria edo gastuen benetako enpresako baliabideak lerro honekin parekatuko da rolaren kostu edo salmenta-tasa lehenetsi ahal izateko. |
 | Unitate-antolaketa | **Orokorra** fitxa eta **Sortu bizkor** orrialdeak | Unitate-programak transakzio-kategoriako unitate-programaren lehenetsiak dira. | Ez dago alor honen beherako eraginik. |
 | Unitatea | **Orokorra** fitxa eta **Sortu bizkor** orrialdeak | Aukeratu tasak ezartzeko unitatea. | Sarrerako aurrekontuaren edo benetako unitatea linea honetako unitatearen parekoa da gastuaren aurrekontuaren edo benetakoaren tasa lehenesteko. |
-| Prezio-metodoa | **Orokorra** fitxa eta **Sortu bizkor** orrialdeak | **Prezioen metodoa** eremua dira, **Unitateko prezioa** , **Kostata** eta **Markaketa kostuaren gainetik**. | Prezioa konfiguratzerakoan, hautatu **Unitateko prezioa** blokeatzen du **Ehunekoa** kategoria prezioen lerroan. **Kostata** hautatuta dago **Prezioa** eta **Ehunekoa** eremuak salmenta prezioen zerrendan blokeatuta daude. **Markaketa kostuaren gainetik** blokeatzen du **Prezioa** salmenta prezioen zerrendako eremua. Gastuetarako sarrerako benetako lerro batean **Kostata** edo **Markaketa kostuaren gainetik** prezioen metodoari esker, dagokion fakturaziorik gabeko salmenta-lerroa egiazko kostuaren prezioaren berdina edo prezioaren gaineko marka gisa kalkulatutako prezioa esleitzen da. |
+| Prezio-metodoa | **Orokorra** fitxa eta **Sortu bizkor** orrialdeak | **Prezioen metodoa** eremua dira, **Unitateko prezioa**, **Kostata** eta **Markaketa kostuaren gainetik**. | Prezioa konfiguratzerakoan, hautatu **Unitateko prezioa** blokeatzen du **Ehunekoa** kategoria prezioen lerroan. **Kostata** hautatuta dago **Prezioa** eta **Ehunekoa** eremuak salmenta prezioen zerrendan blokeatuta daude. **Markaketa kostuaren gainetik** blokeatzen du **Prezioa** salmenta prezioen zerrendako eremua. Gastuetarako sarrerako benetako lerro batean **Kostata** edo **Markaketa kostuaren gainetik** prezioen metodoari esker, dagokion fakturaziorik gabeko salmenta-lerroa egiazko kostuaren prezioaren berdina edo prezioaren gaineko marka gisa kalkulatutako prezioa esleitzen da. |
 | Prezioa | **Orokorra** fitxa eta **Sortu bizkor** orrialdeak | Ezarri unitate bakoitzeko tarifa transakzio kategoria eta unitate konbinaziorako. Adibidez, kilometrajearen tasa miliako 10 USD da eta Kilometro bakoitzeko 8 USD. | Kilometroen tasa aurrekontuaren prezio edo kostu unitateko edo lineako benetako lerroaren kostu lehenetsia da gastuen transakzio klasea.|
 | Ehunekoa | **Orokorra** fitxa eta **Sortu bizkor** orrialdeak | Konfiguratu unitate bakoitzeko tarifa transakzio kategoria eta unitate konbinaziorako. Adibidez, hegazkinen salmenta-tasa ehuneko 10 markatu behar da sortutako hegaldiaren gastuaren gainetik. | Kostuaren gainprezioaren salmenten prezio-zerrendari aplikatuko zaio soilik prezio-metoda **Kostuaren gainprezioa** denean soilik. |
 | Moneta | **Orokorra** fitxa eta **Sortu bizkor** orrialdeak | Berez, balioa kostuen prezioen zerrendako goiburutik dator. Transakzio-kategorien prezioetarako, ezin da moneta gainidatzi. | Fakturazio-sarrerako aurrekontuaren benetako salmenten lerroaren kostu lehenetsia da. |

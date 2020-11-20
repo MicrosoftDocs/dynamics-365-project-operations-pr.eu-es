@@ -3,17 +3,17 @@ title: Zehaztu inplementazio mota
 description: Gai honek zure enpresako Proiektuaren eragiketen inplementazio mota zuzena determinatzen laguntzeari buruzko informazioa eskaintzen du.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071040"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401203"
 ---
 # <a name="determine-your-deployment-type"></a>Zehaztu inplementazio mota
 
@@ -25,11 +25,11 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation erabiltzen duten Dynamics-eko lehengo bezeroak
-Project Operations-ek Project Service Automation-ekin hornitutako gaitasunak biltzen ditu. Aurrerantzean bezero horien bertsio berritzeko bidea argitaratuko da.
+Project Operations-ek Project Service Automation-ekin hornitutako gaitasunak biltzen ditu. Bezero hauen bertsio berritzeko bide bat kaleratuko da 2021 bertsio 1 olatuan.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Proiektu-kudeaketa eta kontabilitatea erabiltzen duten Dynamics 365 Finance-ren lehendik dauden bezeroak 
 
-Proiektuen kudeaketa eta kontabilitate funtzionalitatea erabiltzen duten Finantzetako lehendik dauden bezeroek bere horretan jarraitzeko. Ikusi [Izakinak edo ekoizpen-eskaerak izatearen egoeretarako Project Operations](#pma).
+Proiektuen kudeaketa eta kontabilitate funtzionalitatea erabiltzen duten Finantzetako lehendik dauden bezeroek bere horretan erabiltzen jarrai dezakete. Ikusi [Izakinak edo ekoizpen-eskaerak izatearen egoeretarako Project Operations](#pma).
 
 
 ## <a name="deployment-types"></a>Inplementazio motak
@@ -47,12 +47,13 @@ Project Operations-ek ingurune berean biltegiratutako / ekoizteko eskaerak eta e
 
 Lite inplementazioak gaitasun hauek ditu:
 
+- Dynamics 365 Sales aplikazioen esperientziak luzatzen dituzten proiektuen salmenta prozesua
 - Proiektuaren plangintza Microsoft Project weberako
 - Dimentsio anitzeko prezioak
 - Baliabide-kudeaketa bateratua
 - Denboraren jarraipena
 - Oinarrizko gastua
-- Faktura-proposamena
+- Proforma eta bezeroari begira fakturazioa 
 
 #### <a name="deployment-steps"></a>Inplementazio-urratsak
 Erabili proiektuaren eragiketen hedapen eredu onena [Inplementazio-galdetegia](https://aka.ms/provisionprojectoperations).
@@ -62,7 +63,8 @@ Inplementazio honetarako, ikusi [Izena eman aurrebista harpidetzak lortzeko](lit
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Baliabideak edo izakinik gabeko produktuak izatearen egoeretarako Project Operations
 Baliabideen / hornitu gabeko eszenatokien Poject Operations-ek gaitasun hauek biltzen ditu:
-  
+ 
+- Dynamics 365 Sales aplikazioak luzatzen dituzten proiektuen salmenta prozesua
 - Proiektuaren plangintza Microsoft Project weberako
 - Dimentsio anitzeko prezioak
 - Baliabide-kudeaketa bateratua
@@ -70,8 +72,8 @@ Baliabideen / hornitu gabeko eszenatokien Poject Operations-ek gaitasun hauek bi
 - Oinarrizko gastua
 - Gastu osoa
 - OCR agiria
-- Fakturazio osoa
-- Diru-sarreren aitorpena
+- Proforma eta bezeroari begira fakturazioa 
+- Proiektuen diru-sarreren aitorpena
 
 #### <a name="deployment-steps"></a>Inplementazio-urratsak
 Erabili proiektuaren eragiketen hedapen eredu onena [Inplementazio-galdetegia](https://aka.ms/provisionprojectoperations).
