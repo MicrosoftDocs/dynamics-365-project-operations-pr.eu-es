@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Berritasunak
       items:
+        - name: 2020ko abendua - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: 2020ko azaroa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Proiektuaren salmenta-prozesua
@@ -87,7 +89,7 @@
                 - name: Kudeatu proiektuetan oinarritutako eskaintzaren lerroetako hainbat bezero
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Konfiguratu proiektuko eskaintzaren lerro bateko kobra daitezkeen osagaiak
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Sortu aurrekontuak eskaintzaren lerro batean
                   href: sales/create-estimate-quote-line.md
                 - name: Inportatu proiektuko aurreikuspenak proiektuetan oinarritutako eskaintzaren lerrora
@@ -109,7 +111,7 @@
             - name: Kudeatu proiektuen prezio-zerrendak proiektuko kontratuetan
               href: sales/contracts-manage-project-price-lists.md
             - name: Kudeatu hainbat bezero proiektuaren kontratuetan
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Proiektuetan oinarritutako kontratuaren lerroak
               items:
                 - name: Proiektuetan oinarritutako kontratuaren lerroen ikuspegi orokorra
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Kopiatu proiektu-kontratu bat
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Aurrerakinak eta aurrerapenak
+              items:
+                - name: Aurrerakinak eta atxikipenetan oinarritutako kontratuak - arina
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Konfiguratu aurrerapenen antolaketa - arina
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Sortu ad hoc aurrerakin bat kontratu batean - arina
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prezioak eta kostuak kudeatzea
       items:
         - name: Prezio-zerrendaren konfigurazioa
@@ -158,19 +168,29 @@
           items:
             - name: Prezioen dimentsioen informazio orokorra
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Sortu prezio-dimentsio pertsonalizatuetarako soluzioa
+              href: sales/create-solution-custompd.md
             - name: Erabili lehendik dauden eremuak prezio-dimentsio gisa
               items:
                 - name: Project Operations eremuak prezio-dimentsio gisa
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Erabili baliabide erreserbagarriak prezio-dimentsio gisa
+                  href: sales/use-br-as-pd.md
+                - name: Erabili Transakzioen kategoria prezio-dimentsio gisa
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Proiektu batean hainbat funtzio dituen baliabide erreserbagarria
+                  href: sales/br-playing-multiple-roles.md
             - name: Eremu pertsonalizatuak prezio-dimentsio gisa
               items:
                 - name: Sortu eremu eta entitate pertsonalizatuak prezio-dimentsio gisa
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta transakzio-entitateetan
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa
+                - name: 'Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
-            - name: Desaktibatu prezio-dimentsioa
+                - name: Eguneratu plugin-atributuak prezio-dimentsio berriak gehitzeko
+                  href: pricing-costing/update-plugin-attributes-pd.md
+            - name: Desaktibatu prezio-dimentsioak
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Proiektuen kudeaketa
       items:
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Baliabideen administrazioa
           items:
+            - name: Sortu baliabideak
+              href: resource-management/create-resources.md
             - name: Zehaztu gaitasunak eta trebetasunak
               href: resource-management/define-skills-proficiencies.md
+            - name: Zehaztu rolak
+              href: resource-management/define-roles.md
             - name: Zehaztu baliabide-egutegiak
               href: resource-management/define-resource-calendars.md
         - name: Erreserbak esleitzeko metodoak
           href: resource-management/booking-allocation-methods.md
+        - name: Erreserben egoerak
+          href: resource-management/booking-status.md
         - name: Gaitasun- eta trebetasun-ereduak
           href: resource-management/skills-proficiency-models.md
         - name: Baliabideen berdinkatzea
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Kudeatu proformako proiektuaren faktura
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Fakturatu atxikipen edo aurrerakin bat
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Berretsi proformako proiektuaren faktura
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Konfiguratu proiektuaren faktura automatizatzea
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Project Operations-eko integrazio-aldizkaria
           href: project-accounting/project-operations-integration-journal.md
+        - name: Enpresen arteko fakturazioa
+          items:
+            - name: Enpresen arteko fakturazioaren informazio orokorra
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfiguratu enpresen arteko fakturazioa
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Sortu enpresen arteko bezeroa eta saltzaileen fakturak
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Sortu enpresen arteko transakzioak
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Diru-sarreren aitorpena
+      items:
+        - name: Diru sarreren ezagutzaren ikuspegi orokorra
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Konfiguratu diru-sarreren aitorpena
+          items:
+            - name: Konfiguratu aldi motak
+              href: project-accounting/period-types.md
+            - name: Konfiguratu kostuen txantiloiak
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Kudeatu diru-sarreren kalkuluak
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Prezio finkoko diru-sarrerak kalkulatzeko proiektuak
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Metodoak osatzeko kostua
+          href: revenue-recognition/cost-complete-methods.md
 - name: 'Oinarrizko inplementazioa: kudeatu proformako fakturak'
   items:
     - name: Hasi erabiltzen
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Berritasunak
       items:
+        - name: 2020ko abenduko berrikuntzak - inplementazio arina - kudeatu proformako fakturak
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: 2020ko azaroko berrikuntzak - inplementazio arina - kudeatu proformako fakturak
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Proiektuaren salmenta-prozesua
@@ -538,19 +594,29 @@
           items:
             - name: Prezioen dimentsioen informazio orokorra
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Sortu prezio-dimentsio pertsonalizatuetarako soluzioa
+              href: sales/create-solution-custompd.md
             - name: Erabili lehendik dauden eremuak prezio-dimentsio gisa
               items:
-                - name: Erabili lehendik dagoen eremua prezioen dimentsio gisa
+                - name: Project Operations eremuak prezio-dimentsio gisa
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Erabili baliabide erreserbagarriak prezio-dimentsio gisa
+                  href: sales/use-br-as-pd.md
+                - name: Erabili Transakzioen kategoria prezio-dimentsio gisa
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Proiektu batean hainbat funtzio dituen baliabide erreserbagarria
+                  href: sales/br-playing-multiple-roles.md
             - name: Eremu pertsonalizatuak prezio-dimentsio gisa
               items:
                 - name: Sortu eremu eta entitate pertsonalizatuak prezio-dimentsio gisa
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta transakzio-entitateetan
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa
+                - name: 'Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
-            - name: Desaktibatu prezio-dimentsioa
+                - name: Eguneratu plugin-atributuak prezio-dimentsio berriak gehitzeko
+                  href: pricing-costing/update-plugin-attributes-pd.md
+            - name: Desaktibatu prezio-dimentsioak
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Proiektuen kudeaketa
       items:
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Baliabideen administrazioa
           items:
+            - name: Sortu baliabideak
+              href: resource-management/create-resources.md
             - name: Zehaztu gaitasunak eta trebetasunak
               href: resource-management/define-skills-proficiencies.md
+            - name: Zehaztu rolak
+              href: resource-management/define-roles.md
             - name: Zehaztu baliabide-egutegiak
               href: resource-management/define-resource-calendars.md
         - name: Erreserbak esleitzeko metodoak
           href: resource-management/booking-allocation-methods.md
+        - name: Erreserben egoerak
+          href: resource-management/booking-status.md
         - name: Gaitasun- eta trebetasun-ereduak
           href: resource-management/skills-proficiency-models.md
         - name: Baliabideen berdinkatzea
@@ -834,6 +906,8 @@
       items:
         - name: Project Service 3.x zerbitzuaren eguneratze-bertsioen antolaketa
           href: psa/version-history-ps.md
+        - name: '26. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-26.md
         - name: '25. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur-25.md
         - name: '24. eguneratze-bertsioko berritasunak edo aldaketak, V3'
@@ -942,7 +1016,7 @@
                   href: psa/transaction-category-pricing-dimension.md
             - name: Proiektu batean hainbat funtzio dituen baliabide erreserbagarria
               href: psa/bookable-resource-multiple-roles.md
-            - name: Desaktibatu prezio-dimentsioa
+            - name: Desaktibatu prezio-dimentsioak
               href: psa/turn-off-pricing-dimension.md
         - name: 'Eskaintzak, prezioak eta fakturazioa'
           items:
