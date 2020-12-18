@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121113"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642933"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Eman izena Project Operations-en aurrebista harpidetzak baliabideetan / hornitu gabeko agertokietan
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Gai honetan aurrebista/bazkide eskaintzara nola harpidetu eta Project Operations-en ingurunea nola hornitu azaltzen da baliabideetan/stockean oinarritutako eszenatokietan.
 
@@ -75,7 +77,7 @@ Errepikatu urrats berdinak Ongietorri posta elektronikoko azken eskaintzarekin.
 
 ![Esleitu lizentziak](./media/15AssignLicenses.png)
 
-3. Egiaztatu **Dynamics 365 Project Operations (CRM)** aurrebista eta **Office 365 Project Operations - Aurrebista** lizentzia hautatu da eta hautatu **Gorde aldaketak**.
+3. Egiaztatu **Dynamics 365 Project Operations (CRM) Aurrebista** eta **Office 365 Proiektuaren eragiketak - Aurrebista** lizentzia hautatu eta hautatu **Aldaketak gorde**.
 
 > [!NOTE]
 > Finantza probako eskaintza ez zaio erabiltzaile bati esleitu behar.
