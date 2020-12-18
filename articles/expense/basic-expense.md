@@ -3,17 +3,17 @@ title: Oinarrizko gastuen sarrera (arina)
 description: Gai honek lite inplementazio batean gastuen sarrerarekin lan egiteko moduari buruzko informazioa eskaintzen du.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121068"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590931"
 ---
 # <a name="expense-entry-lite"></a>Oinarrizko gastuen sarrera (arina)
 
@@ -21,7 +21,7 @@ _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako faktura
 
 Oinarrizko edo oinarrizko gastuen kudeaketa gastu sinpleak erregistratzeko gaitasuna da. Proiektu baten kontrako gastuak erregistratu ditzakezu eta, ondoren, proiektuaren onartzaileak berrikusi eta onartuko ditu.
 
-Dynamics 365 Project Operations-en gastuen gaitasunei buruzko informazio gehiago lortzeko, ikusi [Gastuen ikuspegi orokorra](expense-overview.md).
+Dynamics 365 Project Operations-eko gastuen gaitasunen inguruko informazio gehiago lortzeko, ikusi [Gastuen ikuspegi orokorra](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Hartu oinarrizko gastua
 
@@ -36,6 +36,10 @@ Zure gastu guztiak jasotzen amaitu ondoren, eta horiek onartzeko prest zaudenean
 
 1. Joan **Gastuak**, eta hautatu gastu bat. Edo hautatu gastu guztiak goiburuko kontrol-laukia erabiliz.
 2. Hautatu **Bidali**. Sistemak hautatutako sarrerak prozesatzen ditu eta gero gastuak onartzeko eskaerak sortzen ditu.
+
+## <a name="add-an-attachment"></a>Gehitu eranskin bat
+
+Baliteke homologatzaileari zure gastuari buruzko dokumentazio osagarria eman behar izatea. Ordainagiria erants dezakezu gastuaren sarreraren kronograman. Aukeratu **Editatu** eta **Denbora-lerroa** atalean, hautatu papertxoaren ikonoa ordainagiria erantsi ahal izateko.
 
 ## <a name="recall-a-basic-expense"></a>Berreskuratu oinarrizko gastua
 

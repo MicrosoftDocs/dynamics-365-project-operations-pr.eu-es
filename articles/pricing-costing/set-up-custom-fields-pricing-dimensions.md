@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119403"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650179"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa
 
@@ -41,9 +41,15 @@ Gai honek prezio-dimentsio pertsonalizatuak ezartzeko informazioa eskaintzen du.
 Eremu bat prezio-dimentsio bihurtzeko, honelakoa izan behar da:
 
 - Eremu gisa sortua **Funtzio-prezioa** eta **Funtzio-prezioen gainprezioa** entitateetan. Hori egiteko moduari buruzko informazio gehiago lortzeko, ikusi [Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan](add-custom-fields-price-setup-transactional-entities.md).
+
 - Errenkada gisa sortua **Prezio-dimentsioa** taulan. Adibidez, gehitu prezio-dimentsioen errenkadak hurrengo grafikoan erakusten den bezala. 
 
+![Zenbatekoan oinarritutako prezio-dimentsioen errenkadak](media/Amt-based-PD.png)
+
 Baliabideen lanorduak (**msdyn_resourceworkhours**) gainprezioan oinarritutako dimentsio gisa gehitu da eta saretan gehitu da **Gainprezioan oinarritutako prezio-dimentsioa** fitxan.
+
+![Gainprezioan oinarritutako prezio-dimentsioen errenkadak](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Taula honetako prezio-dimentsioko datuen aldaketa guztiak, lehendik daudenak edo berriak, prezioen negozio logikara hedatzen dira cachea freskatu ondoren soilik. Cachea freskatzeko denbora 10 minutu ingurukoa da. Onartu denbora hori prezio-dimentsioko datuen aldaketek eragin behar duten prezioen lehenetsitako logikaren aldaketak ikusteko.

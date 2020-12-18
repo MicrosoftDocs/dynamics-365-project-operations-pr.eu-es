@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180492"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513774"
 ---
 # <a name="manage-leads---lite"></a>Kudeatu bezerogaiak - arina
 
@@ -23,7 +23,7 @@ Proiektuetan oinarritutako bezeroak Project Operations-etan kudeatu eta kualifik
 
 ## <a name="list-of-project-sales-leads"></a>Proiektuetako salmenta-bezerogaien zerrenda
 
-**Salmentak** atalean, ezkerreko nabigazio panelean, ireki **Bezerogaiak** zerrenda orria sistemako berunezko erregistro guztien zerrenda ikusteko. Erakutsitako eramangarrien zerrenda laneko oinarritutako eta beste sorkuntza mota batzuk sor daitezke, Dynamics 365 Sales edo Dynamics 365 Field Service aplikazioak.
+**Salmentak** atalean, ezkerreko nabigazio panelean, ireki **Bezerogaiak** zerrenda orria sistemako berunezko erregistro guztien zerrenda ikusteko. Zerrendako abantailak lanean oinarritutako eta beste abiapuntu mota batzuk sor daitezke, Dynamics 365 Sales edo Dynamics 365 Field Service aplikazioak.
 
 Iragazitako ikuspegia sor dezakezu proiektuan oinarritutako eramangarriak soilik ikusteko, iragazkia sortuz **Mota** balioan. Adibidez, lanean oinarritutako bezeroak soilik erakustea hauta dezakezu.
 

@@ -1,5 +1,5 @@
 ---
-title: Aurrerakinak eta atxikipenetan oinarritutako kontratuak - arina
+title: Aurrerakinak eta atxikipenetan oinarritutako kontratuak
 description: Gai honek proiektuetan oinarritutako kontratazio-ereduetan eta aurrerakinari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180852"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596087"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Aurrerakinak eta atxikipenetan oinarritutako kontratuak - arina
+# <a name="advances-and-retainer-based-contracts"></a>Aurrerakinak eta atxikipenetan oinarritutako kontratuak
 
 
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations-ek kontratuak onartzen ditu. Atxikipenean oinarritutako kontratua bezeroak proiektu baten iraupen berdinean banatutako ordainketen multzo negoziatua da. Kontratu mota hau denboran eta materialean edo kontsumoan oinarritutako fakturazio ereduetarako erabiltzen da, bezeroari aurreikusteko faktura eta ordainketa egutegia emateko beharra dagoenean. Aldi bakoitzean sortutako diru-sarrerak bezeroarengandik jasotako ordainketarekin bateratzen dira aldi horren hasieran. Denboraren eta materialaren fakturazio ereduaren kontzeptuarekin bat etorriz, aldi bakoitzean sortutako diru-sarreren balioak sortutako kostuen arabera alda daitezke. Sortutako diru-sarrerak aldiaren hasieran jasotako zenbatekoa baino gehiago badira, proiektua entregatzeko enpresak honako hau egin dezake:
+Dynamics 365 Project Operations-ek atxikipenetan oinarritutako kontratuak onartzen ditu. Atxikipenean oinarritutako kontratua bezeroak proiektu baten iraupen berdinean banatutako ordainketen multzo negoziatua da. Kontratu mota hau denboran eta materialean edo kontsumoan oinarritutako fakturazio ereduetarako erabiltzen da, bezeroari aurreikusteko faktura eta ordainketa egutegia emateko beharra dagoenean. Aldi bakoitzean sortutako diru-sarrerak bezeroarengandik jasotako ordainketarekin bateratzen dira aldi horren hasieran. Denboraren eta materialaren fakturazio ereduaren kontzeptuarekin bat etorriz, aldi bakoitzean sortutako diru-sarreren balioak sortutako kostuen arabera alda daitezke. Sortutako diru-sarrerak aldiaren hasieran jasotako zenbatekoa baino gehiago badira, proiektua entregatzeko enpresak honako hau egin dezake:
 
 - Gehitu bezeroari faktura soilik 
 - Atzeratu diru-sarreren bateragarritasuna hurrengo fakturazio-aldira eta egin azken faktura bat proiektuaren amaieran bateratu gabeko gainerako diru-sarrerengatik

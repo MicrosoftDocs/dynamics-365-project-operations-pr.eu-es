@@ -1,5 +1,5 @@
 ---
-title: Fakturatu atxikipen edo aurrerakin bat - arina
+title: Fakturatu atxikipen edo aurrerakin bat
 description: Gai honek proiektuaren eragiketetan atxikipena edo aurrerakina fakturatzeko moduari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180537"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596177"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fakturatu atxikipen edo aurrerakin bat - arina
+# <a name="invoice-a-retainer-or-an-advance"></a>Fakturatu atxikipen edo aurrerakin bat
 
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations-ek mantentze-lanetan oinarritutako kontratuak eta aurrerapen puntualak onartzen ditu. Proiektuaren kontratuan, atxikitzaileen ordutegia edo behin-behineko aurrerapen bat erregistratu dezakezu. Hala ere, proiektuaren kontratu mailan grabatzeak ez du berehala atxikipena edo aurrerapena erabilgarri egongo. Bezeroari benetan kobratzen duen fakturan atxikipena edo aurrerakina erabiltzeko, lehenik atxikipena edo aurrerakina fakturatu behar da.
+Dynamics 365 Project Operations-ek aurrerakinetan oinarritutako kontratuak eta aldi bateko aurrerakinak onartzen ditu. Proiektuaren kontratuan, atxikitzaileen ordutegia edo behin-behineko aurrerapen bat erregistratu dezakezu. Hala ere, proiektuaren kontratu mailan grabatzeak ez du berehala atxikipena edo aurrerapena erabilgarri egongo. Bezeroari benetan kobratzen duen fakturan atxikipena edo aurrerakina erabiltzeko, lehenik atxikipena edo aurrerakina fakturatu behar da.
 
 Osatu urrats hauek atxikipena edo aurrerakina fakturatzeko.
 

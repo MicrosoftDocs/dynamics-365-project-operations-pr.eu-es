@@ -1,5 +1,5 @@
 ---
-title: Ad hoc aurrerakin bat sortzean kontratu batean - arina
+title: Ad hoc aurrerakin bat kontratu batean sortzea
 description: Gai honetan beharrezkoa da kontratuaren aurrerakina sortzeari buruzko informazioa.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181347"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595923"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Ad hoc aurrerakin bat sortzean kontratu batean - arina
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Ad hoc aurrerakin bat kontratu batean sortzea
 
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 Microsoft Dynamics 365 Project Operations-ek aurrez ordainketak eta aurrerakinak dakartzan fakturazio-egoerak onartzen ditu. Erabilera prozesua **Aurrerapenak** **Project Operations** antzekoa da **Atxikitzailea** kontratuak. 
 

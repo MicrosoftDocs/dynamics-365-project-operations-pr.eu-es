@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071170"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642618"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronizatu proiektuaren kontratuak eta proiektuak zuzenean Project Service Automation-etik Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Gai honek deskribatzen du txantiloia eta azpiko zereginak erabiliak direnak sinkronizatzeko kontratuak eta proiektuak proiektuak zuzenean Dynamics 365 Project Service Automation hurrengora Dynamics 365 Finance.
 
@@ -133,9 +135,9 @@ Power Query erabili behar baduzu, jarraitu jarraibide hauek:
 ## <a name="template-mapping-in-data-integration"></a>Datuen integrazioan txantiloien mapaketa
 
 > [!NOTE] 
-> **Bezeroaren erreferentzia** , **HelbideaHiria** , **HelbideaHerrialdeaEskualdeID** , **Helbidea Deskribapena** , **Helbidea 1. lerroa** , **HelbideLinea2** , **HelbideaEstatua** , eta **HelbideaZipKodea** eremuak ez daude proiektuen kontratuen mapaketa lehenetsian sartuta. Datu horiek proiektuen kontratuetarako sinkronizatzea eskatzen baduzu mapak gehi ditzakezu.
+> **Bezeroaren erreferentzia**, **HelbideaHiria**, **HelbideaHerrialdeaEskualdeID**, **Helbidea Deskribapena**, **Helbidea 1. lerroa**, **HelbideLinea2**, **HelbideaEstatua**, eta **HelbideaZipKodea** eremuak ez daude proiektuen kontratuen mapaketa lehenetsian sartuta. Datu horiek proiektuen kontratuetarako sinkronizatzea eskatzen baduzu mapak gehi ditzakezu.
 >
-> **Deskribapena** , **Guraso IDa** , **ProiektuTaldea** , **ProjectManagerPersonnelNumber** , eta **Proiektu mota** eremuak ez daude proiektuen mapaketa lehenetsian sartuta. Datu horiek proiektuen sinkronizatzea eskatzen baduzu mapak gehi ditzakezu.
+> **Deskribapena**, **Guraso IDa**, **ProiektuTaldea**, **ProjectManagerPersonnelNumber**, eta **Proiektu mota** eremuak ez daude proiektuen mapaketa lehenetsian sartuta. Datu horiek proiektuen sinkronizatzea eskatzen baduzu mapak gehi ditzakezu.
 
 Ondorengo ilustrazioak Datuen integrazioan txantiloien atazen maparen adibide bat erakusten du. Kartografiak Project Service Automation-etik Finantzara sinkronizatuko den eremuko informazioa erakusten du.
 

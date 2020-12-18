@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129663"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642753"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Antolatu Microsoft Project lana formateatzeko, Project Service Automation Proiektua Gehitu add-in erabili
 
@@ -173,6 +173,59 @@ Proiektuan inportatzeko da [!INCLUDE[pn_project_service_auto](../includes/pn-pro
 4. Sakatu **Argitaratu**.  
 
 Esteka bat Project fitxategia [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] nagusia fitxategi Proiektua eta lana diren kanpaina-xehatzea egitura [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] txantiloi batera irakurtzeko soilik.  Proiektu-planean aldaketak egiteko, [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] aplikazioan egin eta eguneratze gisa argitaratu behar dituzu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] aplikazioan.
+
+## <a name="read-a-resource-loaded-schedule"></a>Irakurri baliabideak kargatutako programazioa
+
+Project Service Automation-etik proiektu bat irakurtzean, baliabidearen egutegia ez da mahaigaineko bezeroarekin sinkronizatzen. Zereginen iraupenean, esfortzuan edo amaieran desberdintasunak badaude, ziurrenik baliabideek eta mahaigaineko bezeroak ez dutelako proiektuari aplikatutako lan ordu txantiloien egutegi bera.
+
+
+## <a name="data-synchronization"></a>Datuen sinkronizazioa
+
+Hurrengo taulan datuak Project Service Automation eta Microsoft Project mahaigaineko gehigarriaren artean nola sinkronizatzen diren azaltzen da.
+
+| **Entitatea** | **Eremua** | **Microsoft Project Project Service Automation-en** | **Project Service Automation Microsoft Project-en** |
+| --- | --- | --- | --- |
+| Proiektuaren zeregina | Epemuga | ● | - |
+| Proiektuaren zeregina | Aurreikusitako ahalegina | ● | - |
+| Proiektuaren zeregina | MS Project bezeroaren IDa | ● | - |
+| Proiektuaren zeregina | Zeregin nagusia | ● | - |
+| Proiektuaren zeregina | Project | ● | - |
+| Proiektuaren zeregina | Proiektuaren zeregina | ● | - |
+| Proiektuaren zeregina | Proiektuaren zereginaren izena | ● | - |
+| Proiektuaren zeregina | Baliabidearen unitatea (zaharkitua 3.0 bertsioan) | ● | - |
+| Proiektuaren zeregina | Antolatutako iraupena | ● | - |
+| Proiektuaren zeregina | Hasiera-data | ● | - |
+| Proiektuaren zeregina | WBS IDa | ● | - |
+
+| **Entitatea** | **Eremua** | **Microsoft Project Project Service Automation-en** | **Project Service Automation Microsoft Project-en** |
+| --- | --- | --- | --- |
+| Taldeko kidea | MS Project bezeroaren IDa | ● | - |
+| Taldeko kidea | Lanpostuaren izena | ● | - |
+| Taldeko kidea | proiektua | ● | ● |
+| Taldeko kidea | Proiektu-taldea | ● | ● |
+| Taldeko kidea | Baliabide-unitatea | - | ● |
+| Taldeko kidea | Funtzioa | - | ● |
+| Taldeko kidea | Lanorduak | Sinkronizatu gabe | Sinkronizatu gabe |
+
+| **Entitatea** | **Eremua** | **Microsoft Project Project Service Automation-en** | **Project Service Automation Microsoft Project-en** |
+| --- | --- | --- | --- |
+| Baliabide-esleipena | Hasiera-data | ● | - |
+| Baliabide-esleipena | ordu | ● | - |
+| Baliabide-esleipena | MS Project bezeroaren IDa | ● | - |
+| Baliabide-esleipena | Planifikatutako lana | ● | - |
+| Baliabide-esleipena | Project | ● | - |
+| Baliabide-esleipena | Proiektu-taldea | ● | - |
+| Baliabide-esleipena | Baliabide-esleipena | ● | - |
+| Baliabide-esleipena | Ataza | ● | - |
+| Baliabide-esleipena | Amaiera-data | ● | - |
+
+| **Entitatea** | **Eremua** | **Microsoft Project Project Service Automation-en** | **Project Service Automation Microsoft Project-en** |
+| --- | --- | --- | --- |
+| Proiektuen zereginen mendekotasunak | Proiektuaren zereginen mendekotasuna | ● | - |
+| Proiektuen zereginen mendekotasunak | Esteka mota | ● | - |
+| Proiektuen zereginen mendekotasunak | Aurreko zeregina | ● | - |
+| Proiektuen zereginen mendekotasunak | Project | ● | - |
+| Proiektuen zereginen mendekotasunak | Hurrengo zeregina | ● | - |
 
 ### <a name="see-also"></a>Ikusi baita ere  
  [Proiektu-kudeatzailearen gida](../psa/project-manager-guide.md)

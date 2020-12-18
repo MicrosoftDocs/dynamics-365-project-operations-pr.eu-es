@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180762"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513909"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Sortu faktura-antolaketa proiektuetan oinarritutako kontratuaren lerro batean 
 
@@ -49,7 +49,7 @@ Osatu urrats hauek egutegi aldirako berdin banatzen diren mugarrietan oinarritut
 3. Ireki **Prezio finkoa** kontratuaren lerroa, mugarrien egitaraua sortzeko erabiltzen ari zarena. **Fakturazio-mugarriak** fitxan, hautatu fakturazioaren hasiera-data eta fakturen maiztasuna. 
 4. Azpisaretan, hautatu **Sortu tartekako mugarriak**. Fakturen egutegia fitxategiarekin sortzen da **Mugarriaren izena**, **Mugarri Data** eta **Mugarri kopurua** eremuak honela ezartzen dira:
 
-    - **Mugarriaren izena**: fakturazio maiztasunaren arabera diktatutako datan ezartzen da.
+    - **Mugarriaren izena**: Izen hori fakturaren maiztasunak agintzen du.
     - **Mugarriaren data**: fakturazio maiztasunaren arabera diktatutako datan ezartzen da.
     - **Mugarriaren zenbatekoa**: zenbatekoa kalkulatzeko kontratuaren lerroan kontratuaren zenbatekoa maiztasunaren eta fakturazioaren hasierako eta eskatutako entrega datek agindutako mugarri kopuruaren arabera zatituz kalkulatzen da.
 

@@ -1,28 +1,20 @@
 ---
 title: Prezioen dimentsioen informazio orokorra
-description: Gai honek prezio-dimentsioei buruzko informazioa eskaintzen du Dynamics 365 Project Operations-en.
+description: Gai honek Dynamics 365 Project Operations-eko prezio-dimentsioei buruzko informazioa eskaintzen du.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128448"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650169"
 ---
 # <a name="pricing-dimensions-overview"></a>Prezioen dimentsioen informazio orokorra
 
@@ -40,9 +32,21 @@ Hori dela eta, prezioen dimentsioko bi balore daude eskuragarri:
 
 ## <a name="pricing-dimensions"></a>Prezioen dimentsioak
 
-Dynamics 365 Project Operations prezioen dimentsio multzo lehenetsiekin hornitzen da. Prezio-dimentsio horiek ikus ditzakezu **Project Operations** > **Parametroak** atalean. Parametroen erregistroan, **Zenbatekoan oinarritutako prezioen dimentsioak** fitxan, egiaztatu **msdyn_resourcecategory** funtzioak eta **msdyn_organizationalunit** baliabideak antolatzeko unitateak **Salmentetan aplikagarria** eta **Kostuetan aplikagarria** eremuetan **Bai** aukera ezarrita dutela. Eremu horiek gaituta dituzula, eginkizun eta antolaketa unitateen konbinazio bakoitzeko prezioa eta kostua konfiguratu ahal izango dituzu.
+Dynamics 365 Project Operations prezioen dimentsio multzo lehenetsia da. Prezio-dimentsio horiek ikus ditzakezu **Project Operations** > **Parametroak** atalean. Parametroen erregistroan, **Zenbatekoan oinarritutako prezioen dimentsioak** fitxan, egiaztatu **msdyn_resourcecategory** funtzioak eta **msdyn_organizationalunit** baliabideak antolatzeko unitateak **Salmentetan aplikagarria** eta **Kostuetan aplikagarria** eremuetan **Bai** aukera ezarrita dutela. Eremu horiek gaituta dituzula, eginkizun eta antolaketa unitateen konbinazio bakoitzeko prezioa eta kostua konfiguratu ahal izango dituzu.
 
-Baliabideen prezioa edo kostua behar baduzu atributu osagarriak erabiliz, eremu, entitate eta dimentsio pertsonalizatuak sor ditzakezu.
+![Project Service-en parametroen pantaila-argazkia, "Salmentetan aplikagarria" eremua nabarmenduta dutela](media/PS-OOB-parameters.png)
+
+Baliabideen prezioa edo kostua behar baduzu atributu osagarriak erabiliz, eremu, entitate eta dimentsio pertsonalizatuak sor ditzakezu. Informazio gehiagorako, ikus gai hauek. 
+  
+  > [!NOTE]
+  > Izapideak zerrendatutako ordenan bete behar dira.
+
+1. [Sortu prezio-dimentsio pertsonalizatuetarako soluzioa](../sales/create-solution-custompd.md)
+2. [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities-pricing-dimensions.md)
+3. [Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa ](set-up-custom-fields-pricing-dimensions.md)
+5. [Eguneratu plugin atributuak prezio-dimentsio berriak sartzeko](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Giza baliabideen denborari prezio jartzea
 Erakunde batek giza baliabideen denborari prezioa nola jartzen dion kontuan izan ohi da, erakundearen errentagarritasunean zuzenean eragiten duelako. Lan egin finantza taldeekin eta praktikatu arduradunekin zure erakundea giza baliabideen denboraren faktura eta kostu tasak nola ezarri nahi dituen identifikatzeko prest dagoenean.

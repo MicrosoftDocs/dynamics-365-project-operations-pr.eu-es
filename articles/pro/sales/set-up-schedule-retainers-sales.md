@@ -1,5 +1,5 @@
 ---
-title: Konfiguratu aurrerapenen antolaketa - arina
+title: Konfiguratu aurrerapenaren antolaketa
 description: Gai honek Project Operations-en atxikipen-egutegia nola konfiguratu jakiteko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181257"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596357"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Konfiguratu aurrerapenen antolaketa - arina
+# <a name="set-up-a-retainer-schedule"></a>Konfiguratu aurrerapenaren antolaketa
 
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 Atxikitzaileen ordutegiak **Proiektuaren kontratua** orria Dynamics 365 Project Operations-en.
 
