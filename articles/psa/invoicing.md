@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8107a660f9993c7b6a32d69047a81fb7e0abef8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071100"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151373"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturak egin Project Service Automation-en
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -103,7 +105,7 @@ Proiektuen fakturaren zirriborroa sortzen duzunean, fakturazioan sartu behar dir
 - Editatu eta doitu kantitatea eta fakturazio mota.
 - Fakturan transakzio gisa denbora, gastua eta tasak zuzenean gehitu. Ezaugarri hau erabil dezakezu faktura-lerroa transakzio-klase horiek baimentzen dituen kontratu-lerrora esleituta badago.
 
-Aukeratu **Berretsi** faktura berresteko. Berretsi ekintza norabide bakarreko ekintza da. Hautatzen duzunean **Berretsi** , sistemak faktura irakurtzeko bakarrik egiten du eta fakturazioaren lineako xehetasunetatik fakturatutako salmenta errealak sortzen ditu. Fakturen linearen xehetasunak fakturatu gabeko salmenten benetako erreferentzia izanez gero, sistemak fakturatu gabeko salmenten benetako itzulketa ere itzuliko du. (Denbora- edo gastu-sarreratik sortu den edozein fakturaren lerroko xehetasunek fakturatu gabeko salmenten erreferentzia izango dute.) Liburu nagusiaren integrazio-sistemek berraztertze hau erabil dezakete martxan dagoen proiektuaren (WIP) alderantzizko kontabilitaterako.
+Aukeratu **Berretsi** faktura berresteko. Berretsi ekintza norabide bakarreko ekintza da. Hautatzen duzunean **Berretsi**, sistemak faktura irakurtzeko bakarrik egiten du eta fakturazioaren lineako xehetasunetatik fakturatutako salmenta errealak sortzen ditu. Fakturen linearen xehetasunak fakturatu gabeko salmenten benetako erreferentzia izanez gero, sistemak fakturatu gabeko salmenten benetako itzulketa ere itzuliko du. (Denbora- edo gastu-sarreratik sortu den edozein fakturaren lerroko xehetasunek fakturatu gabeko salmenten erreferentzia izango dute.) Liburu nagusiaren integrazio-sistemek berraztertze hau erabil dezakete martxan dagoen proiektuaren (WIP) alderantzizko kontabilitaterako.
 
 ### <a name="correct-a-confirmed-psa-invoice"></a>Zuzendu berretsitako PSAren faktura
 

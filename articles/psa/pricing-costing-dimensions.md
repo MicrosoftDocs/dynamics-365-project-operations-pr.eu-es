@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071077"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151283"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Prezioak eta kostuen neurriak hasierako orria
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Proiektuetan oinarritutako erakundeetan eskulanaren prezioak eta kostuak ezartzeko erabilitako dimentsioek atributu hauek eragiten dituzte:
 
@@ -33,7 +35,7 @@ Proiektuetan oinarritutako erakundeetan eskulanaren prezioak eta kostuak ezartze
 
 Lanaren joera hauen izaera tipikoa eta lana burutzeko behar diren pertsonak kontuan hartuta, bi zerbitzu mota daude eskuragarri Project Service Automation-en: 
 
-- **Aukera multzoak** : balio multzo baterako enumerazio finkoak diren atributuak.
+- **Aukera multzoak**: balio multzo baterako enumerazio finkoak diren atributuak.
 - **Entitateetan oinarritutako balioak** - Mugatuak diren baina denbora zehar alda daitezkeen balio multzo anitza izan dezaketen atributuak.
 
 ## <a name="pricing-dimensions"></a>Prezioen dimentsioak
@@ -55,7 +57,7 @@ Baliabideen prezioa edo kostua behar baduzu atributu osagarriak erabiliz, eremu,
 ## <a name="pricing-human-resource-time"></a>Giza baliabideen denborari prezio jartzea
 Erakunde batek giza baliabideen denborari prezioa nola jartzen dion kontuan izan ohi da, erakundearen errentagarritasunean zuzenean eragiten duelako. Lan egin finantza taldeekin eta praktikatu arduradunekin zure erakundea giza baliabideen denboraren faktura eta kostu tasak nola ezarri nahi dituen identifikatzeko prest dagoenean.
 
-Prezioei buruzko beste gogoeta batzuk dira gaur egun prezioen dimentsioak ez dituzten eremuak edo entitateak berriro erabiltzea, baina zure erakundeak prezio dimentsio gisa aplikatzea. **Transakzioen kategoria** ( **msdyn_transactioncategory** ) eta **Baliabide erreserbagarria** ( **bookableresource** ) motako eremuak hautagaien dimentsioen adibideak dira. 
+Prezioei buruzko beste gogoeta batzuk dira gaur egun prezioen dimentsioak ez dituzten eremuak edo entitateak berriro erabiltzea, baina zure erakundeak prezio dimentsio gisa aplikatzea. **Transakzioen kategoria** (**msdyn_transactioncategory**) eta **Baliabide erreserbagarria** (**bookableresource**) motako eremuak hautagaien dimentsioen adibideak dira. 
 
 Zure prezioen dimentsioa taula bat edo aukera multzo izan behar den ere hausnartu beharko zenuke. 10 edo 12 gaindituko duten dimentsioen balioen aldaketak aurreikusten badituzu eta balio horietarako atributu gehigarriak behar badituzu, sortu entitate bat aukera multzo bat sortu beharrean. Aukera multzoa mantentzeak, hala nola balioak gehitzea edo kentzea, administratzailea edo garatzailea eskatzen du, mahai batean errenkada berriak gehitzea negozio-erabiltzaile gehienek egin dezakete.
 
