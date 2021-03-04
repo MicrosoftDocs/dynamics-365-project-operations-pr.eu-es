@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fed8d1d478dfcceb7a1e848b6432563e3b94dcf8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071251"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150338"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Eremu pertsonalizatuak prezio-dimentsio gisa konfiguratzea 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Hasi aurretik, gai honek honako gai hauetan azaldutako prozedurak bete dituzula suposatzen du: [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities.md) eta [Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan](field-references.md). Prozedura horiek bete ez badituzu, itzuli, bete itzazu eta, ondoren, itzuli gai honetara. 
 
@@ -34,7 +36,7 @@ Gai honek prezio-dimentsio pertsonalizatuak ezartzeko informazioa eskaintzen du.
 - **msdyn_OrganizationalUnit** (Erakundearen unitatea)
 
 > [!IMPORTANT]
-> Ez ezabatu errenkada horiek. Hala ere, ez badituzu behar, testuinguru zehatz batean ez aplikagarri gisa ezar daitezke **Kostuari aplikagarria** , **Salmentei aplikagarria** eta **Erosketei aplikagarria** eremuak **Ez** gisa ezarriz. Atributu-balio horiek **Ez** gisa ezartzeak eremua prezio-dimentsio gisa ez izatearen eragin bera du.
+> Ez ezabatu errenkada horiek. Hala ere, ez badituzu behar, testuinguru zehatz batean ez aplikagarri gisa ezar daitezke **Kostuari aplikagarria**, **Salmentei aplikagarria** eta **Erosketei aplikagarria** eremuak **Ez** gisa ezarriz. Atributu-balio horiek **Ez** gisa ezartzeak eremua prezio-dimentsio gisa ez izatearen eragin bera du.
 
 Eremu bat prezio-dimentsio bihurtzeko, honelakoa izan behar da:
 
@@ -43,7 +45,7 @@ Eremu bat prezio-dimentsio bihurtzeko, honelakoa izan behar da:
 
 ![Zenbatekoan oinarritutako prezio-dimentsioen errenkadak](media/Amt-based-PD.png)
 
-Kontuan izan Baliabideen lanorduak ( **msdyn_resourceworkhours** ) gainprezioan oinarritutako dimentsio gisa gehitu dela eta saretan gehitu dela **Gainprezioan oinarritutako prezio-dimentsioa** fitxan.
+Kontuan izan Baliabideen lanorduak (**msdyn_resourceworkhours**) gainprezioan oinarritutako dimentsio gisa gehitu dela eta saretan gehitu dela **Gainprezioan oinarritutako prezio-dimentsioa** fitxan.
 
 ![Gainprezioan oinarritutako prezio-dimentsioen errenkadak](media/Markup-based-PD.png)
 
@@ -60,8 +62,8 @@ Balio horrek prezio-dimentsio pertsonalizatuetarako **Funtzio-prezioa** taulan g
 ### <a name="type-of-dimension"></a>Dimentsio mota
 Bi prezio-dimentsio mota daude:
   
-  - **Zenbatekoaren araberako dimentsioak** : sarrerako testuinguruko dimentsio-balioak bat datoz **Funtzio-prezioa** lerroko dimentsio-balioekin eta prezioa/kostua zuzenean lehenesten dira **Funtzio-prezioa** taulatik.
-  - **Gainprezioan oinarritutako dimentsioak** : dimentsio horietan Project Service-k jarraian azaltzen den hiru pausoko prozesua hasiko du prezioa/kostua lortzeko
+  - **Zenbatekoaren araberako dimentsioak**: sarrerako testuinguruko dimentsio-balioak bat datoz **Funtzio-prezioa** lerroko dimentsio-balioekin eta prezioa/kostua zuzenean lehenesten dira **Funtzio-prezioa** taulatik.
+  - **Gainprezioan oinarritutako dimentsioak**: dimentsio horietan Project Service-k jarraian azaltzen den hiru pausoko prozesua hasiko du prezioa/kostua lortzeko
  
     1. Project Service-k sarrerako testuinguruko gainprezioan oinarritzen ez diren dimentsio-balioak Funtzio-prezioaren lerroarekin lotzen ditu oinarrizko tasa lortzeko.
     2. Project Service-k sarrerako testuinguruko dimentsio-balio guztiak **Funtzio-prezioaren gainprezioa** lerroarekin lotzen ditu gainprezioaren ehunekoa lortzeko.
@@ -90,5 +92,5 @@ Aukera hori **Bai** gisa ezarrita badago, sarrerako testuinguruko dimentsioaren 
 ### <a name="priority"></a>Lehentasuna
 Dimentsioaren lehentasuna zehazteak Project Service-ren prezioari prezio bat sortzen laguntzen dio sarrerako dimentsio-balioen eta **Funtzio-prezioa** edo **Funtzio-prezioaren gainprezioa** tauletako balioen arteko bat etortzea aurkitu ezin duenean. Egoera honetan, Project Service-k balio nuluak erabiliko ditu bat etortzerik gabeko dimentsio-balioetarako, dimentsioak beren lehentasunen arabera neurtuz.
 
-- **Kostuen lehentasuna** : dimentsio baten kostuaren lehentasunaren balioak dimentsio horren pisua adieraziko du kostuen prezioen konfigurazioarekin bat datorrenean. **Kostuen lehentasuna** eremuaren balioak bakarra izan behar du **Kostuari aplikagarria** dimentsioetan.
-- **Salmenten lehentasuna** : dimentsio baten salmenten lehentasunaren balioak dimentsio horren pisua adieraziko du salmenten prezioen edo faktura-tasen konfigurazioarekin bat datorrenean. **Salmenten lehentasuna** eremuaren balioak bakarra izan behar du **Salmentei aplikagarria** dimentsioetan.
+- **Kostuen lehentasuna**: dimentsio baten kostuaren lehentasunaren balioak dimentsio horren pisua adieraziko du kostuen prezioen konfigurazioarekin bat datorrenean. **Kostuen lehentasuna** eremuaren balioak bakarra izan behar du **Kostuari aplikagarria** dimentsioetan.
+- **Salmenten lehentasuna**: dimentsio baten salmenten lehentasunaren balioak dimentsio horren pisua adieraziko du salmenten prezioen edo faktura-tasen konfigurazioarekin bat datorrenean. **Salmenten lehentasuna** eremuaren balioak bakarra izan behar du **Salmentei aplikagarria** dimentsioetan.

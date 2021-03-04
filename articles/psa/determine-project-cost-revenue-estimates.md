@@ -3,6 +3,7 @@ title: Zehaztu proiektu baten kostuaren eta diru-sarreren aurreikuspenak
 description: Nola zehaztu proiektu-kostua eta diru-sarreren estimazioak Project Service-n
 author: ruhercul
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a91e988632d2b2cdebfe7fd17516c5d6886728fc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132993"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148808"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Zehaztu proiektu baten kostuaren eta diru-sarreren aurreikuspenak 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ Proiektua estimates finantza ikuspegi ematen lanerako estimatua eta proiektua-la
 ## <a name="cost-price-defaulting"></a>Kostu-prezio lehenetsia  
 Behin proiektua dagokion erakunde bat (adierazita **Jabetzadun Unitate** proiektuan aplikazioan). Zure erakundearen unitatearekin erlazionatutako prezio-zerrendaren unitatearen kostuen prezioa zehazten dute. [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]ek funtzioen kostu-prezioak zehazten dituzte, kostuaren prezio-zerrendako funtzioaren, unitatearen eta erakunde-unitatearen konbinazioa bilatuta, kostuaren prezio zuzena lortzeko estimatutako lerroetako data eraginkorrerako.  
   
-Baduzu konbinazioa funtzio-unitatea. eta zure unitatea prezio-zerrenda batetik kostua bat prezioa result ez antolakuntza unitatea, unitate-funtzioak eta antolakuntza unitatea konbinazio in favor of disregarded. Prezio hau bihurtzen kostua prezio bat bada, unitate-aukeratzen dagozkionak lerroan.  
+Funtzioaren, unitatearen eta erakunde-unitatearen konbinazioa ez bada jabe-unitatearen prezio-zerrendako kostuaren prezio batean dago, unitateak ez du funtzioaren eta erakunde-unitatearen konbinazioaren aldekoa. Prezio hau bihurtzen kostua prezio bat bada, unitate-aukeratzen dagozkionak lerroan.  
   
 Funtzio eta antolakuntza unitatea konbinazio kostua prezioa result ez antolakuntza unitatea funtzioa eta unitate konbinazio in favor of disregarded eta prezioa bihurketa edozein aplikatu ondoren defaulted da eskatuz gero.  
   
@@ -58,9 +61,9 @@ Ikuspegia estimates unitate eta guztizko kostua eta salmentako prezioan dagozkio
 Ordua phased ikuspegiak proiektua estimates, sareta-ikuspegia estimates datuak da pivoted lehenespenez funtzioaren eta aukeratutako timescale aplikazioan timeline zehar dagozkionak datuen spread erakusten du.  
   
 ## <a name="effort-estimate-allocation-based-on-task-mode"></a>Ahalegina dagozkionak kopuruan oinarrituta zeregina modua  
-Ordua phased ikuspegian, zeregina estimatuak guztira ahalegina banatzen arabera allocating ahalegina ordu unitateko denbora-tarte aukeratutako timescale-zenbaki bat. Project Service zeregina modua zehazten zeregina iraupena zehar ahalegina nola esleituta dago. Esleipen mota bi baita guztirako baldintza kopuruak dira eta kopuruan oinarrituta lanorduekin lan egin  
+Ordua phased ikuspegian, zeregina estimatuak guztira ahalegina banatzen arabera allocating ahalegina ordu unitateko denbora-tarte aukeratutako timescale-zenbaki bat. Project Service zeregina modua zehazten zeregina iraupena zehar ahalegina nola esleituta dago. Esleipen mota bi baita guztirako baldintza kopuruak dira eta kopuruan oinarrituta lanorduekin lan egin. 
   
-## <a name="work-hours-based-allocation"></a>Lanorduak kopuruan oinarrituta  
+## <a name="work-hours-based-allocation"></a>Lanorduetan oinarritutako esleipena  
 Antolaketa-zereginak zeregina modua automatikoki governs duzun zeregina estimatua baliabide-kopuruaren, duten dira estimatua osoa lanorduak eguneko-utilized. Aplikatzen duzunean ikuspegi ere phased allocating ahalegina, iraupena ordua zeregin zehar zatikatzea arabera. Instance, bat 'Egun' timescale, zeregin bat estimatua, baliabide bat osatu, egunaren esleitutako ahalegina lanorduak, proiektua egutegian zehaztutako egunaren ezin dira. Beraz, ahalegina guztirako baldintza kopuruak beti ziurtatzen diren baliabideak egun horretarako antolatzen utilized, estimatua dira.  
   
 ## <a name="even-distribution"></a>Banaketa berdina  
@@ -69,12 +72,12 @@ Zeregina antolatutako eskuz modua lanorduak, proiektua egutegi edo zeregin entit
 Modu honetan, zeregin entitate nagusian zehaztutako zeregina modua zehazten ahalegina banaketa edo guztirako baldintza kopuruak unitateko alderatuta ordua phased estimates aldiko ordua.  
   
 ## <a name="grouping-and-time-phasing-options"></a>Taldekatzea eta denbora phasing aukerak  
-Ikuspegi hau laguntzen ulertzen ahalegina, kostua eta estimates salmenta banaketa atalean bat eguneko, asteko, hilabeteko edo urte oinarri bakoitzeko. Elkartu aukera ematen bi beste neurriak dira estimates datuen pivoting: kategoria eta baliabideak. Sareta-ikuspegia, eta denbora phased ikuspegia eremuak bistaratuko diren hauta dezakezu. Denbora-tarteen bakoitzeko guztizkoak, guztira estimatutako ahalegina, kostua adierazten beheko bistaratuko da. eta salmentak eguneko, asteko, hilabeteko edo urte.  
+Ikuspegi hau laguntzen ulertzen ahalegina, kostua eta estimates salmenta banaketa atalean bat eguneko, asteko, hilabeteko edo urte oinarri bakoitzeko. Elkartu aukera ematen bi beste neurriak dira estimates datuen pivoting: kategoria eta baliabideak. Sareta-ikuspegia, eta denbora phased ikuspegia eremuak bistaratuko diren hauta dezakezu. Denbora-tarteen bakoitzeko guztizkoak, eta eguneko, asteko, hilabeteko edo urteko aurreikusitako ahaleginen, kostuen eta salmenten guztizkoa adierazten dute behealdean.  
   
-Data efektiboak da prezioa egiten defaulting kostua eta salmenta — duzunean funtzioak aldaketa-tasak izango da gehiago ordua phased ikuspegian 'Baliabide' aukeran pivoted dagozkionak datuak ikusten duzunean transparent eta denbora-phased astearen arabera.  
+Kostuaren eta salmenta-prezio lehenetsia data batean sartuko dira indarrean. Funtzioak aldaketa-tasak izango da gehiago ordua fasekatutako ikuspegian 'Baliabide' aukeran ainguratutako dagozkionak datuak ikusten duzunean garden eta denbora-fasekatutako astearen arabera.  
   
 ## <a name="expense-estimates"></a>Expense estimates  
-Izango da incurred ez zuzenean erlazionatuta dagoen kontratuan expended da proiektua expense edozein sareta ikuspegian proiektua estimates aplikazioan erregistratzen dira. Erabiliz, **Gehitu expense dagozkionak** aukera sareta ikuspegian duzu dezakezu lortzeko hau. Expense estimates zeregina jakin baterako edo osoa proiektua; erregistratu da aukera horiek lineatan expense kategoriak eta duzunean, expense bezerogaitik incurred da momentuaren data bat hautatu. Baldin lotutako kostua eta salmenta-prezio-zerrenda prezio lehenetsien ordez edo prezio-igoeraren ehunekoak diren zehaztutako expense kategoriak, hori izango da defaulted erlazioaren atalean dagozkionak ilaran.  
+Izango da incurred ez zuzenean erlazionatuta dagoen kontratuan expended da proiektua expense edozein sareta ikuspegian proiektua estimates aplikazioan erregistratzen dira. Erabiliz, **Gehitu expense dagozkionak** aukera sareta ikuspegian duzu dezakezu lortzeko hau. Aurreikusitako gastuak zeregin jakin batena edo proiektu oso batena izan daitezke. Lerro hauetan gastuen kategoriak aukeratu ditzakezu eta behin-behineko data aukeratu dezakezu gastua sortuko dela. Baldin lotutako kostua eta salmenta-prezio-zerrenda prezio lehenetsien ordez edo prezio-igoeraren ehunekoak diren zehaztutako expense kategoriak, hori izango da defaulted erlazioaren atalean dagozkionak ilaran.  
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Proiektu-kudeatzailearen gida](../psa/project-manager-guide.md)

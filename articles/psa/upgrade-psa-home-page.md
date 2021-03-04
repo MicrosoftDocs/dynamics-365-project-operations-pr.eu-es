@@ -2,6 +2,7 @@
 title: Eguneratu orri nagusia
 description: Gai honek Dynamics 365 Project Service Automation aplikazioko eginbide berri eta aldatuak bilatzeko tokiari eta azken bertsiora eguneratzeko prozesuari buruzko informazioa eskaintzen du.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121743"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150068"
 ---
 # <a name="upgrade-home-page"></a>Eguneratu orri nagusia
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ ms.locfileid: "4121743"
 
 ### <a name="existing-instances"></a>Lehendik dauden instantziak
 
-Aurrez, PSA-ren 2.x bertsioko instantzia zuten bezeroek eta 3.x bertsiora eguneratu behar zuten, zeina PSA-ren bezeroaren interfaze bateratuan (UCI) oinarritutako bertsioa zen, Microsoft laguntza bilatu eta instantzien xehetasunak eskaini behar zituen laguntzak instantzia 3.x bertsiora eguneratzeko gaitu zitzan. 2020ko martxoaren 1etik aurrera, PSA 2.x bertsioaren instantzia bat duten eta 3.x bertsiora bertsio berritu behar duten bezeroek administrazioaren ataritik zuzenean eguneratu ahal izango dute Microsoft laguntzarekin harremanetan jarri beharrik izan gabe.  
+Lehenago, PSA-ren 2.x bertsioko instantzia duten bezeroek eta 3.x bertsiora eguneratu behar zutenek, zeina PSA-ren bezeroaren interfaze bateratuan (UCI) oinarritutako bertsioa zen, laguntza bilatu eta instantzien xehetasunak eskaini behar zituen Microsoft Laguntza teknikoak instantzia 3.x bertsiora eguneratzeko gaitu zezan. 2020ko martxoaren 1etik aurrera, PSA 2.x bertsioaren instantzia duten eta 3.x bertsiora aldatu behar duten bezeroek beren instantziak zuzenean Administrazio ataritik eguneratu ahal izango dituzte, Microsoft Laguntza teknikoarekin harremanetan jarri beharrik izan gabe.  
 
 > [!NOTE]
 > PSA-ren 3.x bertsioak aldaketa garrantzitsuak ditu. Interfaze bateratuaren markoan sortu da erabiltzaileran esperientzia hobe bat eskaintzeko. Berriro diseinatutako aplikazioak erabiltzailearen iterfaze koherente eta uniformea bidaltzen du, eta diseinuaren printzipio dinamikoei jarraitzen dio edozein tamainako pantailako edo gailuko ikuspegi egokiena lortzeko. Beste aldaketa batzuk egon dira aplikazioan. Prezioak, erreserba eta esleipen baliabideak, denbora, gastuak eta onarpenak dira aldatu diren area batzuk.
@@ -58,7 +61,7 @@ Aipatutako gaiak berrikusi ondoren eta PSA-ren 3.x bertsiora edo Bezeroaren inte
 
 2019ko maiatzaren 17tik aurrera, instantzia berri guztiek UCIa izango dute lehenetsitako bezero gisa. Aldaketa honekin lerrokatzeko, PSA-ren 3.x bertsioa eta Field Service-ren 8.x bertsioa lehenespenez hornituko dira, bertsio horiek UCI bezeroarekin lan egiteko diseinatuta daudelako.
 
-2020ko martxoaren 1etik aurrera, Dynamics PSAko bezeroek ezin izango dute ingurune berririk sortu PSA bertsio zaharragoekin, adibidez PSA 2.x bertsioa edo zaharragoa erabiliz. Edozein ingurune berrik PSA 3.x bertsioa soilik lortuko du.
+2020ko martxoaren 1etik aurrera, Dynamics PSA-ko bezeroek ezin izango dute ingurune berri bat sortu PSAren bertsio zaharrekin, adibidez PSA 2.x bertsioa edo txikiagoa. Edozein ingurune berrik PSA 3.x bertsioa soilik lortuko du.
 
 > [!NOTE]
 > Field Service eta PSA aplikazioen bertsio zaharrak erabiltzen dituzunean esperientzia onena izateko, joan **Sistemaren ezarpenak** orrira eta **Erabili Interfaze bateratu berria bakarrik (gomendagarria)** eremurako, hautatu **Ez** bertsio horiek ez baitaude UCI-n behar bezala kargatzeko diseinatuta. UCI desaktibatu ondoren, Field Service eta PSA-ren bertsio horiek ireki eta exekutatu ditzakezu web-bezero zaharra erabilita. 

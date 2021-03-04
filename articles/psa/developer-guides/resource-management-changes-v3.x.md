@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071227"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148628"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Baliabide-kudeaketa gida (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Gai honen atalek Dynamics 365 Project Service Automation aplikazioaren 3.x bertsioako baliabideak kudeatzeko eremuan egin diren aldaketen inguruko informazioa ematen dute.
 
 ## <a name="project-estimates"></a>Proiektuaren aurreikuspenak
 
-**msdyn \_projecttask** entitatean ( **Proiektuaren zeregina** ) oinarrituta egon beharrean, proiektuaren aurreikuspenak **msdyn \_resourceassignment** entitatean ( **Baliabide-esleipena** ) oinarritzen dira. Baliabide-esleipenak zereginen planifikazioa eta prezioak egiteko "egia iturri" bihurtu dira.
+**msdyn \_projecttask** entitatean (**Proiektuaren zeregina**) oinarrituta egon beharrean, proiektuaren aurreikuspenak **msdyn \_resourceassignment** entitatean (**Baliabide-esleipena**) oinarritzen dira. Baliabide-esleipenak zereginen planifikazioa eta prezioak egiteko "egia iturri" bihurtu dira.
 
 ## <a name="line-tasks"></a>Lerro-zereginak
 
@@ -65,7 +67,7 @@ PSA-ren 3.x bertsion, esleitu gabeko esleipena **NULUA** taldekidea eta **NULUA*
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Proiektuaren zereginen entitateko eremuak antolatzea
 
-**msdyn \_projecttask** entitateko eremuak zaharkituta geratu dira, **msdyn \_resourceassignment** entitatera mugitu dira edo orain **msdyn \_projectteam** entitatean ( **Proiektu-taldeko kidea** ) aipatzen dira.
+**msdyn \_projecttask** entitateko eremuak zaharkituta geratu dira, **msdyn \_resourceassignment** entitatera mugitu dira edo orain **msdyn \_projectteam** entitatean (**Proiektu-taldeko kidea**) aipatzen dira.
 
 | Zaharkitutako eremua on msdyn\_projecttask atalean (Proiektuaren zeregina) | Eremu berria msdyn\_resourceassignment atalean (Baliabideen esleipena) | Iruzkina |
 |---|---|---|
@@ -77,7 +79,7 @@ PSA-ren 3.x bertsion, esleitu gabeko esleipena **NULUA** taldekidea eta **NULUA*
 
 ## <a name="schedule-contour"></a>Antolaketaren ingerada
 
-Antolaketaren ingerada **Aurreikusitako lana** eremuan gordetzen da ( **msdyn \_plannedwork** ) **Baliabide-esleipena** entitate bakoitzean ( **msdyn \_resourceassignment** ).
+Antolaketaren ingerada **Aurreikusitako lana** eremuan gordetzen da (**msdyn \_plannedwork**) **Baliabide-esleipena** entitate bakoitzean (**msdyn \_resourceassignment**).
 
 ### <a name="structure"></a>Egitura
 
@@ -139,7 +141,7 @@ Adibide honetan, zeregina bi baliabideri esleitzen zaie eta automatikoki antolat
 
 ## <a name="pricing-dimensions"></a>Prezio-dimentsioak
 
-PSA-ren 3.x bertsioan, baliabide zehatzei buruzko prezioen dimentsioaren eremuak (adibidez, **Funtzioa** eta **Antolaketa-unitatea** ) kendu dira **msdyn \_projecttask** erakundetik. Eremu horiek dagoeneko proiektu-taldeko kidetik ( **msdyn\_projectteam** ), baliabide-esleipenekoa ( **msdyn\_resourceassignment** ), eskura daitezke proiektuaren aurreikuspenak sortzen direnean. Beste eremu bat, **msdyn\_organizationaluni** , gehitu da **msdyn\_projectteam** entitatean.
+PSA-ren 3.x bertsioan, baliabide zehatzei buruzko prezioen dimentsioaren eremuak (adibidez, **Funtzioa** eta **Antolaketa-unitatea**) kendu dira **msdyn \_projecttask** erakundetik. Eremu horiek dagoeneko proiektu-taldeko kidetik (**msdyn\_projectteam**), baliabide-esleipenekoa (**msdyn\_resourceassignment**), eskura daitezke proiektuaren aurreikuspenak sortzen direnean. Beste eremu bat, **msdyn\_organizationaluni**, gehitu da **msdyn\_projectteam** entitatean.
 
 | Zaharkitutako eremua on msdyn\_projecttask atalean (Proiektuaren zeregina) | Horren ordez erabiltzen den msdyn\_projectteam (proiektu-taldeko kidea) ataleko eremua |
 |---|---|
