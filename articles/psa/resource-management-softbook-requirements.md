@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124083"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147368"
 ---
 # <a name="soft-book-requirements"></a>Behin behineko erreserba-eskakizunak
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Baldiabide-eskaera bat behin betiko erreserbatu daiteke Behin betiko erreserbak baliabideen ahalmena kontsumitzen duen proposamena sortzen du. Proposamena eskatzaileari igortzen zaio onar dezan. Behin behineko erreserba batek baliabidea gehitzen du proiektu-taldean eta egoera desberdina du antolaketa-panelean, baina ez du baliabidearen ahalmena kontsumitzen. Antolaketa-paneletik baliabide baten behin behineko erreserba egiteko, ezarri **Erreserbaren egoera** eremua **Behin behinekoa** gisa.
 
