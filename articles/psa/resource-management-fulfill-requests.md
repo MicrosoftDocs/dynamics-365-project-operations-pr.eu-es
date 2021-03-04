@@ -18,29 +18,31 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7156e1beb0df033331d91abf9ca7f6ddc18df796
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 858662b62e511f80413e2354832bf2b0bcfc3fc5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124398"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147593"
 ---
-# <a name="fulfilling-resource-requests"></a><span data-ttu-id="e9a46-103">Baliabide-eskaerak betetzea</span><span class="sxs-lookup"><span data-stu-id="e9a46-103">Fulfilling resource requests</span></span>
+# <a name="fulfilling-resource-requests"></a><span data-ttu-id="96b61-103">Baliabide-eskaerak betetzea</span><span class="sxs-lookup"><span data-stu-id="96b61-103">Fulfilling resource requests</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="e9a46-104">Baliabide-eskakizunak eskaera horiek betetzeaz arduratzen den baliabide-kudeatzaileari bidali ahal zaizkio baliabide-eskaera gisa.</span><span class="sxs-lookup"><span data-stu-id="e9a46-104">Resource requirements can be sent as resource requests to the resource manager who is responsible for fulfilling those requests.</span></span>
+<span data-ttu-id="96b61-104">Baliabide-eskakizunak eskaera horiek betetzeaz arduratzen den baliabide-kudeatzaileari bidali ahal zaizkio baliabide-eskaera gisa.</span><span class="sxs-lookup"><span data-stu-id="96b61-104">Resource requirements can be sent as resource requests to the resource manager who is responsible for fulfilling those requests.</span></span>
 
-<span data-ttu-id="e9a46-105">Baliabide-eskaerak zerrendan agertzen dira **Baliabide aktiboen eskaerak** ikuspegian.</span><span class="sxs-lookup"><span data-stu-id="e9a46-105">Resource requests are shown as a list in the **Active Resource Requests** view.</span></span>
+<span data-ttu-id="96b61-105">Baliabide-eskaerak zerrendan agertzen dira **Baliabide aktiboen eskaerak** ikuspegian.</span><span class="sxs-lookup"><span data-stu-id="96b61-105">Resource requests are shown as a list in the **Active Resource Requests** view.</span></span>
 
 > ![Baliabide-eskaeren zerrenda](media/Resource-Management-image59.png)
 
-<span data-ttu-id="e9a46-107">Eskaera bat betetzeko, hautatu zerrendan eta, ondoren, hautatu **Bilatu baliabideak**.</span><span class="sxs-lookup"><span data-stu-id="e9a46-107">To fulfill a request, select it in the list, and then select **Find Resources**.</span></span> <span data-ttu-id="e9a46-108">Bestela, egin klik bikoitza errenkadan eskaera irekitzeko.</span><span class="sxs-lookup"><span data-stu-id="e9a46-108">Alternatively, double-click a row to open the request.</span></span> <span data-ttu-id="e9a46-109">Ondoren, **Baliabide-eskakizuna** fitxa hauta dezakezu, eskaera horretarako eskakizunak ikusteko.</span><span class="sxs-lookup"><span data-stu-id="e9a46-109">You can then select the **Resource Requirement** tab to view the requirements for that request.</span></span> <span data-ttu-id="e9a46-110">Eskaera betetzen hasteko, hautatu **Bilatu baliabideak**.</span><span class="sxs-lookup"><span data-stu-id="e9a46-110">To start to fulfill the request, select **Find Resources**.</span></span>
+<span data-ttu-id="96b61-107">Eskaera bat betetzeko, hautatu zerrendan eta, ondoren, hautatu **Bilatu baliabideak**.</span><span class="sxs-lookup"><span data-stu-id="96b61-107">To fulfill a request, select it in the list, and then select **Find Resources**.</span></span> <span data-ttu-id="96b61-108">Bestela, egin klik bikoitza errenkadan eskaera irekitzeko.</span><span class="sxs-lookup"><span data-stu-id="96b61-108">Alternatively, double-click a row to open the request.</span></span> <span data-ttu-id="96b61-109">Ondoren, **Baliabide-eskakizuna** fitxa hauta dezakezu, eskaera horretarako eskakizunak ikusteko.</span><span class="sxs-lookup"><span data-stu-id="96b61-109">You can then select the **Resource Requirement** tab to view the requirements for that request.</span></span> <span data-ttu-id="96b61-110">Eskaera betetzen hasteko, hautatu **Bilatu baliabideak**.</span><span class="sxs-lookup"><span data-stu-id="96b61-110">To start to fulfill the request, select **Find Resources**.</span></span>
 
 > ![Baliabide-eskaeren xehetasunak](media/Resource-Management-image60.png)
 
-<span data-ttu-id="e9a46-112">Antolaketa-laguntzailea agertzen da eta eskakizunen arabera iragazten du.</span><span class="sxs-lookup"><span data-stu-id="e9a46-112">The Schedule Assistant appears and is filtered by the requirements.</span></span> <span data-ttu-id="e9a46-113">Hautatu baliabidea eta, ondoren, hautatu **Erreserbatu**.</span><span class="sxs-lookup"><span data-stu-id="e9a46-113">Select the resource, and then select **Book**.</span></span>
+<span data-ttu-id="96b61-112">Antolaketa-laguntzailea agertzen da eta eskakizunen arabera iragazten du.</span><span class="sxs-lookup"><span data-stu-id="96b61-112">The Schedule Assistant appears and is filtered by the requirements.</span></span> <span data-ttu-id="96b61-113">Hautatu baliabidea eta, ondoren, hautatu **Erreserbatu**.</span><span class="sxs-lookup"><span data-stu-id="96b61-113">Select the resource, and then select **Book**.</span></span>
 
 > ![Hautatutako baliabidea](media/Resource-Management-image61.png)
 
-<span data-ttu-id="e9a46-115">Taldekide orokorra erreserba-izen irmoa duten baliabidearekin ordezkatzen da proiektuaren antolaketako proiektuaren taldean eta eginkizunen esleipenetan.</span><span class="sxs-lookup"><span data-stu-id="e9a46-115">The generic team member is replaced with the hard-booked named resource on the project team and task assignments in the project schedule.</span></span>
+<span data-ttu-id="96b61-115">Taldekide orokorra erreserba-izen irmoa duten baliabidearekin ordezkatzen da proiektuaren antolaketako proiektuaren taldean eta eginkizunen esleipenetan.</span><span class="sxs-lookup"><span data-stu-id="96b61-115">The generic team member is replaced with the hard-booked named resource on the project team and task assignments in the project schedule.</span></span>
