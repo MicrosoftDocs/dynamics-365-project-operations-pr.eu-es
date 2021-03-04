@@ -1,6 +1,6 @@
 ---
 title: Kudeatu gastuen ordezkaritza
-description: Gastu delegatuen erabiltzaile batek erakundeko beste langile baten izenean sortu eta kudea ditzake gastuen txostenak.
+description: Gastu delegatuen erabiltzaile batek erakundeko beste langile baten gastuen txostenak sor eta kudea ditzake.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071188"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960772"
 ---
 # <a name="manage-expense-delegation"></a>Kudeatu gastuen ordezkaritza
 
-[!include [banner](../includes/banner.md)]
+Gastu delegatu batek beste langile baten gastu txostenak sor eta kudea ditzake.
 
-Gastu delegatuen erabiltzaile batek erakundeko beste langile baten izenean sortu eta kudea ditzake gastuen txostenak.
+## <a name="configure-expense-delegation"></a>Konfiguratu gastuen ordezkaritza
 
-## <a name="configuring-expense-delegation"></a>Gastuen delegazioa konfiguratzea
+1. Erabiltzailea gastu delegatu gisa konfiguratzeko, joan hona: **Gastuen kudeaketa > Konfigurazioa > Orokorra> Ordezkariak**.
+2. **Ordezkariak** orrian, hautatu **Berria**.
+3. Aukeratu ordezkaria zehaztuko duen langilea. 
+4. Idatzi erabiltzaile delegatuaren ezizena eta delegazio aldiaren hasiera eta amaiera data.
 
-Erabiltzailea gastu delegatu gisa konfiguratzeko, joan hona: **Gastuen kudeaketa > Konfigurazioa > Orokorra> Ordezkariak** irekitzeko **Ordezkariak** orrialdea. Hautatu **Berria** eta, ondoren, hautatu ordezkaria zehaztuko duen langilea. Idatzi erabiltzaile delegatuaren ezizena eta delegazio aldiaren hasiera eta amaiera data.
+## <a name="manage-expense-delegation-for-another-employee"></a>Kudeatu beste langile baten gastuen ordezkaritza
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Gastuen ordezkaritza kudeatzea beste langile baten izenean
+Ezaugarrien kudeaketa gakoa denean **Gaitu gastuen ordezkarien zerrenda orria** gaituta dago, **Niri eskuordetutako gastuak** zerrenda orria eskuragarri egongo da. Joan **Gastuen kudeaketa** > **Nire gastuak** > **Niri eskuordetutako gastuak**.
 
-Ezaugarrien kudeaketa gakoa bada **Gaitu gastuen ordezkarien zerrenda orria** gaituta dago, **Niri eskuordetutako gastuak** zerrendaren orria eskuragarri egongo da hona: nabigatuz **Gastuen kudeaketa> Nire gastuak> Niri eskuordetutako gastuak**.
+Erabiltzaile delegatu batek bere esku utzitako lehendik dauden gastuen txostenak azkar iragazi eta bila ditzake. Beste erabiltzaileentzako gastuen txosten berri bat ere sor dezakete hautatuta **Gastu-txosten berria**.
 
-Erabiltzaile-ordezkari batek azkar iragazi eta bila ditzake lehendik dauden gastuen txostenak. Erabiltzaileak beste erabiltzaileen izenean gastu txosten berri bat sor dezake azkar hautatuta **Gastu txosten berria**.
-
-Erabiltzaile-ordezkariek beste langileen izenean gastuen txostenak sortu eta kudea ditzakete bertara joanda **Gastuen kudeaketa > Nire gastuak > Gastuen txostenak** eta hautatzea **Ireki beste erabiltzaileen gastuak** botoia.
+Erabiltzaile delegatuek beste langileentzako gastuen txostenak sortu eta kudea ditzakete bertara joanda **Gastuen kudeaketa** > **Nire gastuak** > **Gastuen txostenak** eta hautatzea **Ireki beste erabiltzaileen gastuak**.

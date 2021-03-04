@@ -3,17 +3,17 @@ title: Aplikatu demo-konfigurazioa eta konfigurazio-datuak - arina
 description: Gai honek Project Operations-eko demo-konfigurazioa eta konfigurazio datuak nola aplikatu jakiteko informazioa eskaintzen du.
 author: sigitac
 manager: Annbe
-ms.date: 11/04/2020
+ms.date: 01/27/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 762b0cf317d442565a033f56033a53a5b5cc435c
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642078"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089104"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplikatu Project Operations-erako demo-konfigurazioa eta konfigurazio-datuak - arina 
 
@@ -32,47 +32,45 @@ Konfigurazioa hasi aurretik, hau eduki behar duzu Common Data Service (CDS) ingu
 2. Joan *ProjOpsDemoDataSetupAndMaster - CMT integratua* karpetara eta exekutatu fitxategi exekutagarria, *DataMigrationUtility*.
 3. Common Data Service konfigurazio-migrazioaren (CMT) morroiko 1. orrian, hautatu **Inportatu datuak** eta, ondoren, hautatu **Jarraitu**.
 
-![Konfigurazioaren migrazioa](./media/1ConfigurationMigration.png)
+    ![Konfigurazioaren migrazioa](./media/1ConfigurationMigration.png)
 
 4. CMT morroiaren 2. orrian, hautatu **Microsoft 365** **Inplementazio mota** gisa.
 5. Aukeratu **Erakutsi eskuragarri dauden erakundeen zerrenda** eta **Erakutsi aurreratua** kontrol-laukiak.
 6. Aukeratu zure maizterraren eskualdea, sartu zure kredentzialak eta hautatu **Saioa hasi**.
 
-![Konfigurazioaren saio-hasiera](./media/2ConfigurationSignin.png)
+   ![Konfigurazioaren saio-hasiera](./media/2ConfigurationSignin.png)
 
 7. 3. orrialdean, Maizterraren Erakundeen zerrendan, hautatu zein erakundetan inportatu nahi dituzun demo datuak eta hautatu **Saioa hasi**.
 8. 4. orrialdean, hautatu zip fitxategia, *MasterAndSetupData* paketatu gabeko karpetatik, *ProjOpsDemoDataSetupAndMaster - CMT integratua*.
 
-![Zip fitxategia](./media/3ZipFile.png)
+   ![Zip fitxategia](./media/3ZipFile.png)
 
-![Hautatu fitxategia.](./media/4SelectAFile.png)
+   ![Hautatu fitxategia.](./media/4SelectAFile.png)
 
 9. Zip fitxategia hautatu ondoren, hautatu **Inportatu datuak**.
 
-![Inportatu datuak](./media/5ImportData.png)
+   ![Inportatu datuak](./media/5ImportData.png)
 
 10. Inportazioa gutxi gorabehera bi-hamar minutu iraungo du sareko abiaduraren arabera. Bukatu ondoren, irten CMT morroitik. 
 11. Egiaztatu zure erakundeak 20 entitate hauetako datuak dituen:
 
--   Moneta
--   Account
--   Erakundearen unitatea
--   Contact
--   Zerga Taldea
--   Bezero-taldea
--   Unitatea
--   Salmenta-unitatea
--   Prezio-zerrenda
--   Proiektuaren parametroen prezio-zerrenda 
--   Fakturen maiztasuna
--   Baliabide erreserbagarriaren kategoria
--   Transakzio-kategoria
--   Gastu-kategoria
--   Funtzioaren prezioa
--   Transakzio-kategoriaren prezioa
--   Ezaugarria
--   Baliabide erreserbagarria
--   Baliabide erreserbagarriaren kategoriaren erlazioa
--   Baliabide erreserbagarriaren ezaugarria
+    -   Moneta
+    -   Account
+    -   Erakundearen unitatea
+    -   Contact
+    -   Unitatea
+    -   Salmenta-unitatea
+    -   Prezio-zerrenda
+    -   Proiektuaren parametroen prezio-zerrenda 
+    -   Fakturen maiztasuna
+    -   Baliabide erreserbagarriaren kategoria
+    -   Transakzio-kategoria
+    -   Gastu-kategoria
+    -   Funtzioaren prezioa
+    -   Transakzio-kategoriaren prezioa
+    -   Ezaugarria
+    -   Baliabide erreserbagarria
+    -   Baliabide erreserbagarriaren kategoriaren erlazioa
+    -   Baliabide erreserbagarriaren ezaugarria
 
-![Inportazio osoa](./media/6CompleteImport.png)
+    ![Inportazio osoa](./media/6CompleteImport.png)

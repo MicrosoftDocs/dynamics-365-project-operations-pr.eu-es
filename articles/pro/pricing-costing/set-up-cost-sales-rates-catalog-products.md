@@ -5,23 +5,24 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 135b182af73bdab7a3520589431332ad059ec497
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5e851193df8151821e112e01a9f33df5afee7df7
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176686"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764534"
 ---
 # <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a>Konfiguratu katalogoko produktuen kostu- eta salmenta-tasak - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
 
-Produktuen katalogoko elementuen prezioak konfiguratzea Dynamics 365 Project Operations-en Dynamics 365 Sales-en bezalakoa da.
+Produktuen katalogoko elementuen prezioak ezartzea Dynamics 365 Project Operations Dynamics 365 Sales-en bezalakoa da.
 
-Produktuak Project Operations-en proiektuetan ezin direnez kalkulatu edo erabili, ez da beharrezkoa produktuen katalogoaren prezioak finkatzea proiektuen prezioen zerrendetan aurrekontu eta kontratuetarako.
+Project Operations-en, produktuak ezin dira kalkulatu edo proiektuetan erabili, beraz, produktuen katalogoaren prezioak ez dira zehaztu behar proiektuen prezioen zerrendetan aurrekontuetan eta kontratuetan.
 
-Produktuen katalogoaren prezioak atalean ezarri behar dira **Produktuaren prezioa** aurrekontu, kontratu edo kontu baten eremua. Ez ezarri produktu horien katalogoaren prezioak proiektu horietako entitateen prezioen zerrendetan. Project Operations-en zerrendak proiektuaren eragiketetarako soilik dira. Aplikazio espezifikoen negozio logika dago, prezioen zerrendak aurrekontu batetik kontratu batera kopiatzen dituena. Emaitza kontratuaren araberako proiektuaren prezio-zerrenda da. Kopiatze eragiketak aurrekontua irabazteko prozesua atzeratu dezake aurrekontuaren proiektuaren prezio zerrenda handiegia bada. Produktuen prezioen zerrendak ez dira kopiatzen kontratuetako prezioen zerrenda pertsonalizatuak sortzeko. Horrek esan nahi du produktuen prezioen zerrendek ez dutela aurrekontua irabazteko prozesuaren errendimenduan eraginik.
+Erabili **Produktuaren prezioa** aurrekontu, kontratu edo kontu baten eremua produktuen katalogoaren prezioak ezartzeko. Ez ezarri produktuen katalogoaren prezioak proiektuaren prezioen zerrendetan. Project Operations-en zerrendak proiektuaren eragiketetarako soilik dira. Aplikazio espezifikoen negozio logikak prezio zerrendak aurrekontu batetik kontratu batera kopiatzen ditu. Emaitza kontratuaren araberako proiektuaren prezio-zerrenda da. Kopiatze eragiketak aurrekontua irabazteko prozesua atzeratu dezake aurrekontuaren proiektuaren prezio zerrenda handiegia bada. Produktuen prezioen zerrendak ez dira kopiatzen kontratuetako prezioen zerrenda pertsonalizatuak sortzeko. Kopiatzerik ez dagoenez, aurrekontuaren prozesuaren errendimenduak ez du eraginik.

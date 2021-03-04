@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a924de6efc377e28a20e038e7deac04616b95aa
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176371"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764488"
 ---
 # <a name="create-a-manual-proforma-invoice---lite"></a>Sortu proformako faktura bat eskuz - arina
 
@@ -31,6 +32,6 @@ Sortutako proiektuaren faktura guztiak eskuragarri daude **Faktura** orrialdean 
 
 ## <a name="project-contract-details-page"></a>Proiektu-kontratuaren xehetasunen orria
 
-Proforma faktura bat ere sor daiteke **Proiektuaren kontratua** xehetasunen orria, proiektuaren kontratu zehatz horren faktura sortzen duena. Sistemak proiektuaren kontratua egiaztatzen du, **Fakturatzeko prest** atzerapena gaurko data baino lehenagokoa. Kontratu horietatik sistemak proforma fakturen zirriborroak sortzen ditu kontratu lerro bakoitzeko bezero kopuruaren arabera.
+Proforma faktura bat ere sor daiteke **Proiektuaren kontratua** xehetasunen orria. Sistemak proiektuen kontratuak **Fakturatzeko prest** atzerapena gaurko data baino lehenagokoa dela egiaztatzen du. Kontratu horietatik sistemak proforma fakturen zirriborroak sortzen ditu kontratu lerro bakoitzeko bezero kopuruaren arabera.
 
-Proforma faktura bakarra sortzen denean, **Faktura** orria irekitzen da. Proiektuaren kontratu horretarako faktura ugari sortu badira, **Fakturak** zerrenda orria irekitako sortutako faktura guztiak erakusteko.
+Proforma faktura bakarra sortzen denean, **Faktura** orria irekitzen da. Proiektuaren kontratu horretarako faktura ugari sortzen badira, **Fakturak** zerrenda orria irekitako sortutako faktura guztiak erakusteko.

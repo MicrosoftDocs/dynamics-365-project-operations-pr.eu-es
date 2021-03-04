@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700665"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727865"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020ko Abenduko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
 
@@ -24,6 +24,8 @@ Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie
 
 - Project Operations Dataverse ingurunearen 4.5.0.134 bertsioa
 - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.15 bertsioa
+
+Bertsio hau eguneratzeko moduari buruzko informazioa lortzeko, ikusi [Eguneratu Project Operations zure Finantza ingurunean](ur5-nonstocked-installation.md).
 
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
 Eginbide hauek sartzen dira bertsio honetan:

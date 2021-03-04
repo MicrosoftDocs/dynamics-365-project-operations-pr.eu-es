@@ -1,9 +1,9 @@
 ---
-title: Sinkronizatu proiektuaren kontratuak eta proiektuak zuzenean Project Service Automation-etik Finance and Operations
+title: Sinkronizatu proiektuen kontratuak eta proiektuak zuzenean Project Service Automation-etik Finance-ra
 description: Gai honek deskribatzen du txantiloia eta azpiko zereginak erabiliak direnak sinkronizatzeko kontratuak eta proiektuak proiektuak zuzenean Microsoft Dynamics 365 Project Service Automation hurrengora Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642618"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764804"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronizatu proiektuaren kontratuak eta proiektuak zuzenean Project Service Automation-etik Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sinkronizatu proiektuen kontratuak eta proiektuak zuzenean Project Service Automation-etik Finance-ra 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ Eskuragarri dauden txantiloietara sartzeko, Microsoft Power Apps administratzail
 Ondorengo txantiloiak eta azpiko zereginak proiektuaren kontratuak eta proiektuak Project Service Automation-etik Finantzara sinkronizatzeko erabiltzen dira:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Honekin integratzea Dynamics 365 Project Service Automation v2.x
-- **Datuen integrazioko txantiloiaren izena:** Proiektuak eta kontratuak (PSA Fin eta Ops)
+- **Datuen integrazioko txantiloiaren izena:** Proiektuak eta kontratuak (Project Service Automation-etik Finance-ra)
 - **Proiektuko zereginaren izena:**
 
-    - Proiektuak PSA kontratatzen ditu Fin eta Ops enpresekin
-    - Proiektuak PSA Fin eta Ops
-    - Proiektuak PSA kontratu-lerroak Fin eta Ops enpresekin
-    - Proiektuak PSA kontratu-lerroaren mugarriak Fin eta Ops enpresekin
+    - Proiektu-kontratuak Project Service Automation-etik Finance-ra
+    - Proiektuak Project Service Automation-etik Finance-ra
+    - Proiektuaren kontratuaren lerroak Project Service Automation-etik Finance-ra
+    - Proiektuaren kontratuaren lerroaren mugarriak Project Service Automation-etik Finance-ra
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Honekin integratzea Dynamics 365 Project Service Automation v3.x
 Project Service Automation-en eskema-aldaketa dago eta horrek Project contract line mugarriko txantiloian eragiten du eta txantiloiaren v2 bertsioaren erabilera beharrezkoa da Project Service Automation v3.x Dynamics 365-ekin integratzeko.
 
-- **Datuen integrazioko txantiloiaren izena:** Proiektuak eta kontratuak (PSA 3.x Fin eta Ops) - v2
+- **Datuen integrazioko txantiloiaren izena:** Proiektuak eta kontratuak (Project Service Automation 3.x bertsiotik Finance-ra) - v2
 - **Proiektuko zereginaren izena:**
 
-    - Proiektuak PSA kontratatzen ditu Fin eta Ops enpresekin
-    - Proiektuak PSA Fin eta Ops
-    - Proiektuak PSA kontratu-lerroak Fin eta Ops enpresekin
-    - Proiektuak PSA kontratu-lerroaren mugarriak Fin eta Ops enpresekin
+    - Proiektu-kontratuak Project Service Automation-etik Finance-ra
+    - Proiektuak Project Service Automation-etik Finance-ra
+    - Proiektuaren kontratuaren lerroak Project Service Automation-etik Finance-ra
+    - Proiektuaren kontratuaren lerroaren mugarriak Project Service Automation-etik Finance-ra
 
 Proiektuen kontratuen eta proiektuen sinkronizazioa gertatu aurretik, kontuak sinkronizatu behar dituzu.
 
@@ -87,7 +87,8 @@ Proiektuen kontratuen eta proiektuen sinkronizazioa gertatu aurretik, kontuak si
 
 Proiektuaren kontratuak Project Service Automation-en kudeatzen dira eta Finantzarekin sinkronizatzen dira proiektuaren kontratuak gisa. Integrazio txantiloiaren zati gisa, Finantzako integrazio iturria ezar dezakezu proiektuaren kontraturako.
 
-Denbora eta materialaren proiektuaren eta konpondutako prezioaren proiektuak kudeatuta daude Project Service Automation eta sinkronizatuta dago finantzara proiektu gisa. Integrazio txantiloiaren zati gisa, Finantzako integrazio iturria ezar dezakezu proiektuaren.
+Denbora, materiala eta prezio finkoko proiektuak Project Service Automation-en kudeatzen dira eta Finantzarekin sinkronizatzen dira proiektu gisa. Txantiloien integrazioaren zati gisa, proiektuaren integrazio iturria Finantzan ezar dezakezu. Gaur egun, denbora, materiala eta prezio finkoa duten proiektuak bakarrik onartzen dira.
+
 
 Proiektuaren kontratu-lerroak Project Service Automation-en kudeatzen dira eta Finantzarekin sinkronizatzen dira proiektuaren kontratuaren fakturazio-arauak. Fakturazio-metodoa proiektu mota lehenetsiaren aldean badago, sinkronizazioak proiektu mota kontratu lerroaren proiektuaren eta proiektu taldearen eguneratzen du.
 
@@ -122,7 +123,7 @@ Project Service Automation to Finance integrazio irtenbidea aplikatzen denean, b
 
 ## <a name="power-query"></a>Power Query
 
-Microsoft Power Query Excel-era erabili behar duzu datuak iragazteko baldintza hauek betetzen badira:
+Erabili Excel-erako Microsoft Power Query datuak iragazteko baldintza hauek betetzen badira:
 
 - Salmenta aginduak dituzu Dynamics 365 Sales zerbitzuan.
 - Antolakuntza unitate ugari dituzu Project Service Automation zerbitzuan, eta antolakuntza unitate horiek Finantzako pertsona juridiko anitzetara mapatuko dira.
@@ -130,7 +131,7 @@ Microsoft Power Query Excel-era erabili behar duzu datuak iragazteko baldintza h
 Power Query erabili behar baduzu, jarraitu jarraibide hauek:
 
 - Proiektuak eta kontratuak (PSA Fin eta Ops) txantiloiak iragazki lehenetsia du, salmenta aginduak soilik biltzen dituena **Laneko elementua (msdyn\_ordertype = 192350001)** mota. Iragazki honek Finantzako salmenta-eskaeretarako proiektuen kontratuak ez direla bermatzen laguntzen du. Zure txantiloia sortzen baduzu, iragazki hau gehitu behar duzu.
-- Power Query iragazkia sortu behar duzu, integrazio konexio multzoaren entitate juridikoarekin sinkronizatu beharko liratekeen kontratu erakundeak soilik biltzen dituena. Adibidez, Contoso AEBetako kontratuaren antolakuntza-unitatearekin dituzun proiektuen kontratuak USSI entitate juridikoarekin sinkronizatuta egon beharko lirateke, baina Contoso Global-en kontratuaren antolakuntza-unitatearekin dituzun proiektuen kontratuak USMF entitate juridikoarekin sinkronizatu beharko lirateke. Iragazki hau zure zereginen mapetan gehitzen ez baduzu, proiektuaren kontratu guztiak konexio multzoarentzako definitutako pertsona juridikoarekin sinkronizatuko dira, kontratuaren antolakuntza unitatea edozein dela ere.
+- Sortu Power Query iragazkia, integrazio konexio multzoaren entitate juridikoarekin sinkronizatuta egon beharko luketen kontratu erakundeak soilik biltzen dituena. Adibidez, Contoso AEBetako kontratuaren antolakuntza-unitatearekin dituzun proiektuen kontratuak USSI entitate juridikoarekin sinkronizatuta egon beharko lirateke, baina Contoso Global-en kontratuaren antolakuntza-unitatearekin dituzun proiektuen kontratuak USMF entitate juridikoarekin sinkronizatu beharko lirateke. Iragazki hau zure zereginen mapetan gehitzen ez baduzu, proiektuaren kontratu guztiak konexio multzoarentzako definitutako pertsona juridikoarekin sinkronizatuko dira, kontratuaren antolakuntza unitatea edozein dela ere.
 
 ## <a name="template-mapping-in-data-integration"></a>Datuen integrazioan txantiloien mapaketa
 

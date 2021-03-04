@@ -3,17 +3,18 @@ title: Eman ingurune berri bat
 description: Gai honek Project Operations ingurune berri bat emateari buruzko informazioa eskaintzen du.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642941"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727775"
 ---
 # <a name="provision-a-new-environment"></a>Eman ingurune berri bat
 
@@ -60,17 +61,15 @@ Erabili urrats hauek zure LCS proiekturako Project Operations hornidura-fluxu au
 
 ![Inplementazioaren onespena](./media/2DeploymentConsent.png)
 
-7. Osatu morroian beharrezko gainerako eremuak eta berretsi inplementazioa. Ingurumena hornitzeko denbora aldatu egiten da ingurune motaren arabera. Hornidurak sei ordu behar izan ditzake.
+7. Aukerakoa - Aplikatu demo datuak inguruneari. Joan **Ezarpen aurreratuak** aukerara, hautatu **Pertsonalizatu SQL datu basearen konfigurazioa**, eta ezarri **Zehaztu datu-basea aplikazioen datu-baserako** **Demoa** gisa.
+
+8. Osatu morroian beharrezko gainerako eremuak eta berretsi inplementazioa. Ingurunea hornitzeko denbora aldatu egiten da ingurune motaren arabera. Hornidurak sei ordu behar izan ditzake.
 
   Inplementazioa ondo burutu ondoren, ingurunea honela agertuko da **Inplementatuta**.
 
-8. Ingurunea ondo zabaldu dela ziurtatzeko, hautatu **Saioa hasi** eta saioa hasi ingurunean berresteko.
+9. Ingurunea behar bezala zabaldu dela baieztatzeko, hautatu **Hasi saioa** eta saioa hasi ingurunean berresteko.
 
 ![ Ingurune-xehetasunak](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Aplikatu Project Operations Finance demo-datuak (aukerako urratsa)
-
-Aplikatu Project Operations Finance demo-datuak 10.0.13 zerbitzuaren bertsioan Hodeian ostatatutako ingurunean deskribatutako moduan [artikulu hau](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aplikatu eguneratzeak Finance ingurunean
 
@@ -151,6 +150,21 @@ Entitateak aplikatu ondoren, erabilgarri dauden mapaketa guztiak ingurunean zerr
 Freskatzeak 20 minutu inguru iraungo du. Amaitutakoan alerta jasoko duzu.
 
 ![Freskatzeko berrespena](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Eguneratu Project Operations-eko segurtasun-ezarpenak aktibatuta Dataverse-n
+
+1. Joan Project Operations aukerara, Dataverse ingurunean. 
+2. Joan **Ezarpenak** > **Segurtasuna** > **Segurtasun-funtzioak** aukerara. 
+3. **Segurtasun-funtzioak** orrialdean, funtzioen zerrendan, hautatu **idazketa bikoitzeko aplikazioaren erabiltzailea** eta hautatu **Entitate pertsonalizatuak** fitxa.  
+4. Egiaztatu rolak funtzioak badituela **Irakurri** eta **Erantsi honi** honetarako baimenak:
+      
+      - **Monetaren truke-tasaren mota**
+      - **Kontuen sailkapena**
+      - **Egutegi fiskala**
+      - **Liburua**
+
+5. Segurtasun-funtzio eguneratu ondoren, joan **Ezarpenak** > **Segurtasuna** > **Taldeak** aukerara, eta hautatu lehenetsitako taldea **Tokiko negozioaren jabea** taldearen ikuspegia.
+6. Aukeratu **Kudeatu funtzioak** eta egiaztatu **idazketa bikoitzeko aplikazioaren erabiltzailea** segurtasun-pribilegioa talde honi aplikatzen zaio.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Exekutatu Proiektuaren eragiketen idazketa dualaren esleipenak
 

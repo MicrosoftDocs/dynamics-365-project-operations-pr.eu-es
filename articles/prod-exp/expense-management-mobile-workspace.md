@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 080c086dc4059d8efe5075162aabf70ac1068a21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6d577861a6ebfae55b64a8a06143256e0f1ff40
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071195"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960457"
 ---
 # <a name="expense-management-mobile-workspace"></a>Gastuen kudeaketaren lan-eremu mugikorra
-
-[!include [banner](../includes/banner.md)]
 
 Gai hori emateko informazioa buruz **Gastuaren kudeaketaren** mugikorreko laneko area. Laneko espazio horri esker, erabiltzaileek ordainagiria harrapatu eta kargatu dezakete, gero gastu-txosten batera erantsi ahal izateko. Erabiltzaileek ere azkar sor dezakete gastu lerro bat erantsitako ordainagiria erabiliz eta beren gastuen txostenak sortu eta kudeatu ditzakete. Gainera, onartzaileek **Gastuen kudeaketa** mugikorreko lan eremua, esleitzen zaizkien gastuen txostenak ikusteko eta gastu-txosten horiek onartzeko edo baztertzeko.
 
@@ -139,7 +137,7 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 9. Jarraitu urrats hauetako bat:
 
     - **Atera argazkia** hautatu baduzu, zure gailu mugikorreko kamerara eramaten zaituzte, ordainagiriaren argazkia atera ahal izateko. Argazkia ateratzen amaitutakoan, hautatu **Ados** argazkia onartzeko.
-    - Aukeratu baduzu **Aukeratu irudia** , hautatu zerrendako irudi bat.
+    - Aukeratu baduzu **Aukeratu irudia**, hautatu zerrendako irudi bat.
 
 10. Hautatu **Eginda**.
 
@@ -172,7 +170,7 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 14. Hautatu gastuaren moneta. Lineaz kanpo erabiltzeko aplikazioan kargatutako moneta-kodeen zerrenda bat ikusiko duzu. Berez, 400 moneta kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) ikusi behar dute. Zure moneta zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu moneten arabera edo aldatu bilaketa izenaren arabera.
 15. Hautatu **Eginda**.
 16. Gastuari xehetasun gehiago emateko, hautatu **Gehitu xehetasun gehiago**. Eskuragarri dauden eremuak zure enpresako gastuen kudeaketaren konfigurazioaren araberakoak dira.
-17. Enpresaren gidalerroak gastuaren ordainagiria eskatzen badu, hautatu **Ordainagiriak** , eta jarraitu urrats hauei:
+17. Enpresaren gidalerroak gastuaren ordainagiria eskatzen badu, hautatu **Ordainagiriak**, eta jarraitu urrats hauei:
 
     1. Aukeratu **Hartu ordainagiria** edo **Erantsi ordainagiria**.
     2. Jarraitu urrats hauetako bat:
@@ -201,9 +199,9 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 
     3. Aukeratu **Itzuli** botoia gastuaren xehetasunetara itzultzeko.
 
-18. Enpresaren gidalerroak gastuaren gonbidatuak eskatzen badu, hautatu **Gonbidatuak** , eta jarraitu urrats hauei:
+18. Enpresaren gidalerroak gastuaren gonbidatuak eskatzen badu, hautatu **Gonbidatuak**, eta jarraitu urrats hauei:
 
-    1. Aukeratu **Gonbidatua** , **Aurreko gonbidatuak** , edo **Lankideak**.
+    1. Aukeratu **Gonbidatua**, **Aurreko gonbidatuak**, edo **Lankideak**.
     2. Jarraitu urrats hauetako bat:
 
         - **Gonbidatua** hautatu baduzu, jarraitu urrats hauei:
@@ -225,7 +223,7 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 
     3. Aukeratu **Itzuli** botoia gastuaren xehetasunetara itzultzeko.
 
-19. Enpresaren gidalerroak gastua elementu egitea eskatzen badu, hautatu **Bihurtu elementu** , eta jarraitu urrats hauei:
+19. Enpresaren gidalerroak gastua elementu egitea eskatzen badu, hautatu **Bihurtu elementu**, eta jarraitu urrats hauei:
 
     1. Hautatu zehaztu nahi duzun lehen data.
     2. Aukeratu **Gehitu itemizazioa**.

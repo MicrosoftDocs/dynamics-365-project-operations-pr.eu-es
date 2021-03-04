@@ -3,19 +3,19 @@ title: Diru-aurrerakina
 description: Gai honek eskudiru-aurrerakinak egiteari buruzko informazioa ematen du.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122734"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098869"
 ---
 # <a name="cash-advance"></a>Diru-aurrerakina
 
@@ -24,8 +24,9 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 Diru-aurrerakinari esker, langileek dirua maileguan hartu dezakete beren enpresari, edozein gastu egin aurretik. Eskatutako eskudirua aurreratzea onartzen eta ordaintzen denean, langileak dirua erabil dezake egin beharreko negozio gastuetarako. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Sortu eta bidali eskudirua aurreratzeko eskaera
+Diru-aurrerakin berria sortzeko eta dirua aurreratzeko eskaera aurkezteko, egin hau: 
 
-1. **Nire gastuak** aukeran, hautatu **Diru-aurrerakinak** > **Berria** diru aurrerakin berria sortzeko. 
+1. **Nire gastuak** atalean, hautatu **Diru-aurrerakinak** > **Berria**. 
 2. **Eskudirua aurreratzeko eskaera berria** orrialdean, sartu gastuaren xedea eta hautatu zein tokitan egingo den gastua.
 3. Idatzi eskatutako zenbatekoa eta moneta, eta hautatu **Gorde**. 
 4. Dirua aurreratzeko eskaera bidaltzeko prest zaudenean, **Dirua aurreratzeko eskaera** orrialdean, hautatu **Lan-fluxua** > **Bidali**.
@@ -34,7 +35,7 @@ Diru-aurrerakinari esker, langileek dirua maileguan hartu dezakete beren enpresa
 
 Dirua aurreratzeko eskaera alda dezakezu, onarpenerako aurkeztu ez bada.
 
-1. **Nire gastuak: diruzko aurrerakinak** aukeran aurkitu eta hautatu editatu nahi duzun diru-aurrerakina.
+1. **Nire gastuak: diru-aurrerakinak** aukeran editatu nahi duzun dirua aurreratu eta hautatu.
 2. Aukeratu **Editatu**, eta diru-aurrerakinaren eskaeran beharrezko aldaketak egin. 
 3. Hautatu **Gorde eta itxi**.
 
@@ -57,7 +58,8 @@ Ondorengo prozedura kontulari batek edo kontabilitate baimenak dituen erabiltzai
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Bidali gastu-txostena ordaindutako diruaren aurrerakinaren aurka 
 
-Jada jaso zenuen dirua aurreratzeko gastuen txostena sortu eta aurkezten duzunean, gastuak automatikoki egokituko dira aurrerakin horren arabera. Zure diru-aurrerakina gastatutako zenbatekoa baino handiagoa bada, saldoa enpresari itzuli beharko diozu **Itzuli dirua** gastu kategoria. Enpresak ordaindutako dirua aurreratzea gastatu duzun zenbatekoa baino txikiagoa bada, enpresak saldoa itzuli beharko dizu. 
+Jada jaso zenuen dirua aurreratzeko gastuen txostena sortu eta aurkezten duzunean, gastuak automatikoki egokituko dira aurrerakin horren arabera. Zure diru-aurrerakina gastatutako zenbatekoa baino handiagoa bada, saldoa enpresari itzuli beharko diozu **Itzuli dirua** gastu kategoria. Konpainiak ordaindutako dirua aurreratzea gastatu duzun zenbatekoa baino txikiagoa bada, enpresak saldoa itzuli beharko dizu. 
 
 ### <a name="example"></a>Adibidez
-Seattletik New Yorkera joateko asmoa duzu. 3000,00 USD-ren eskudirua aurreratzeko eskaera bat sortzen duzu, konferentziaren sarreraren, hegaldien, hotelaren, otorduen eta taxiaren kostua zenbateko hori gutxi gorabehera kalkulatu duzula eta. Ez duzu ordainduko zure kudeatzaileak eskaera hori onartu ezean. Zure kudeatzaileak onartu ondoren, eskatutako dirua aurreratzea 3000,00 USD gisa ordainduko da zure bankuko kontuan. Ondoren kongresura joango zara. Bidaia amaitu ondoren, gastu osoa 2790,00 USD bakarrik izan dela ikusiko duzu. Aukeratu **Dirua** urtean **Ordainketa modua** eremuan, eta zure gastua bidaltzen du 2790,00 USD-rentzat. Aurkeztutako gastuaren zenbatekoa automatikoki egokitzen da mailegatu zaizun 3000,00 USD-en dirua aurreratzeko. Orain 210,00 USD (3000,00-2790,00) saldoa zor diozu konpainiari, eta konpainiari itzul dezakezu **Itzuli dirua** gastu kategoria. 
+Seattle-tik New York-era joateko asmoa duzu hitzaldi baterako. 3000,00 USD dirua aurreratzeko eskaera bat sortzen duzu konferentzia txartelaren, hegaldien, hotelaren, otorduen eta taxiaren kostuaren arabera. Ez duzu ordainduko zure kudeatzaileak eskaera hori onartu ezean. Zure kudeatzaileak onartu ondoren, eskatutako dirua aurreratzea 3000,00 USD gisa ordainduko da zure bankuko kontuan. Ondoren kongresura joango zara. Bidaia amaitu ondoren, gastu osoa 2790,00 USD bakarrik izan dela ikusiko duzu. Aukeratu **Eskudirua** **Ordainketa modua** eremuan, eta bidali zure gastua 2790,00 USD. Aurkeztutako gastuaren zenbatekoa automatikoki egokitzen da mailegatu zaizun 3000,00 USD-en dirua aurreratzeko. 210,00 USD (3000,00 - 2790,00) saldoa zor duzu orain, eta enpresari itzul dezakezu **Itzuli dirua** gastu kategoria.
+
