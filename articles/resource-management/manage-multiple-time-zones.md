@@ -68,3 +68,6 @@ Baliabide bakoitzerako hedapenaren erreserbaren funtzionalitatea erabili ondoren
 Kontuan izan erreserben xehetasunak aztertuz gero, erreserbak hasteko orduaren aldeak erakusten dituela. Erreserbak esleipenaren sestra hasierako ordua baino lehenago hasten dira eta baliabidearen erabilgarri dagoen ordua baino lehenago hasten dira.
 
 ![Antolaketa-taulako baliabideen erreserba berriak](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

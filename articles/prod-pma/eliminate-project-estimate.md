@@ -51,3 +51,6 @@ Aurrekontuen proiektua ezabatzeko, osatuta egon behar du. Ondorengo urratsetan k
 5. Ezabatze prozesua amaitu ondoren, ezabatutako estimazio proiektua balio negatiboarekin bistaratuko da. 
 
 Estimazio bat ezabatzeko asmorik ez baduzu, ezabatutako aurrekontua hauta dezakezu eta hautatu **Alderantzizko kanporaketa**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

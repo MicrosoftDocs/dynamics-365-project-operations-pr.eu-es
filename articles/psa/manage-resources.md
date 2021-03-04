@@ -344,3 +344,6 @@ Zereginen esleipenak dituzun baina erreserbarik ez baduzu, **Proiektuak** aorria
 ![Luzatu Erreserba elkarrizketa-koadroa](media/Resource-Management-image58.png)
 
 Orduan, proiektu-kudeatzaileak edo baliabide-kudeatzaileak antolaketa-panela erabil dezake baliabide batek bere ahalmenetatik harago gaitasunak gainditutako edozein egoera kudeatzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Ez gainditzeko egoeraren berriro ebaluatze masiboa egin dezakezu. Ez gainditzeko
 Ez gainditzeko egoera berrebaluatzeko, hautatu benetako bat edo gehiago **Denboraren eta materialaren fakturazio-zorroa** edo **Benetakoak** ikusi eta hautatu **Berrebaluatu gainditu gabeko egoera**.
 
 Ez gainditzeko muga duten hautatutako datu guztiak ebaluatuko dira gainditzeko muga ezartzeko. Gehienez gainditu gabeko egoera berrebaluatzeko duten egitateak fakturatu gabeko salmenten benetako fakturak dira, fakturazio zirriborro batean ez daudenak eta kobratzeko modukoak. Aukeratutako benetako beste edozein.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

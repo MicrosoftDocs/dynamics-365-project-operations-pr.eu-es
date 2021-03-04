@@ -76,3 +76,6 @@ Proiektuen kudeaketan eta kontabilitatean erosketa eskaera bat sortzeko metodo h
 
 Informazio gehiagorako, ikus [Jaso erosketa eskaeran elementuak eskakizunetik](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

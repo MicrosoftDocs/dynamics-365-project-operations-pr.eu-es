@@ -60,3 +60,6 @@ Erabiltzaileak **Transakzio klasearen**, **Kategoriaren** eta **Hosto-nodoaren z
 | A zeregina | Hegazkin-txartelak | 2020/01/10 | 4 | 400 | 1600 |
 | B zeregina | Hotela | 2020/01/10 | 4 | 200 | 800 |
 | C zeregina | Hotela | 2020/11/01 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Nire denbora-orriak (Mugikorrerako optimizatua) eta Nire berrikuspenerako Orriak
 - [Proiektuaren sarrera-ordua]( project-time-entry-mobile-workspace.md)
 - [Proiektuaren orriak gailu mugikorrean](Mobile-timesheets.md)
 - [Inplementatu pertsonalizatutako eremuak hurrengorako Microsoft Dynamics 365 Project Timesheet mugikorreko aplikazioan iOS eta Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Erabili proiektuaren eragiketen hedapen eredu onena [Inplementazio-galdetegia](h
 
 Inplementazio honetarako, ikusi [Izena eman aurrebista harpidetzak lortzeko](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) eta [Ingurune berria hornitzea](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

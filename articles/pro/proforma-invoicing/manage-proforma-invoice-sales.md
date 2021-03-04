@@ -144,3 +144,6 @@ Faktura sortu ondoren sartu diren datuak badituzu, faktura horiek sar ditzakezu 
 Project Operations-etan, fakturazio lerroak sor ditzakezu edozein proiekturi aplikatzen ez zaizkien produktuetarako edo proiektu guztietarako proiektuetan oinarritutako faktura lerroekin batera. Faktura-lerro hauek produktuan oinarritutako kontratu-lerro gisa sortzen dira eta fakturatzeko prest daudela markatu ondoren, produktuan oinarritutako faktura-lerro gisa gehitzen dira.
 
 Produktuan oinarritutako faktura lerroak gehitu ondoren, ezin dira aldatu. Hala ere, proforma fakturaren zirriborroan ezaba daitezke.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

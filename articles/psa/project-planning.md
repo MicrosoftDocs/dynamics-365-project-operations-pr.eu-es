@@ -52,3 +52,6 @@ Ondorengo gaiek proiektu-kudeatzaileei lagunduko die lana aurreikusten, proiektu
 - [Proiektuen txantiloiak](project-templates.md)
 - [Proiektuaren faseak](project-stages.md)
 - [Proiektuaren ezarpenak](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

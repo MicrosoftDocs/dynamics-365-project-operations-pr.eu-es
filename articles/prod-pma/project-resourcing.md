@@ -55,3 +55,6 @@ Gai hauetan baliabideak hornitzeko proiektuetan lanean ari zarenean bete beharre
 - [Proiektu-baliabideen antolaketa-errendimendua](project-scheduling-performance.md)
 - [Konfiguratu funtzioak zereginen xehetasunen egituraren txantiloietan](set-up-roles-wbs-template.md)
 - [Aurreikusitako baliabideetarako baliabideak betetzea](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

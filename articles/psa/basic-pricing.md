@@ -131,3 +131,6 @@ Fakturen tasak bezala, giza baliabideen kostu tasak ere ezartzen dira prezio-zer
     1. Unitate antolatzaileari atxikitako kostuen prezio-zerrenda.
     2. Project Service-eko parametroei atxikitako kostuen prezio-zerrenda. Project Service-eko parametroetara kostuen prezio-zerrendak erantsi daitezkeenez, PSAk moneta bat egiten du proiektuaren, kontratuaren edo eskaintzaren unitate antolatzailearen kontratuaren moneta eta kostuen prezio-zerrendaren monetaren artean.
     3. Gastuei dagokienez, kostu prezioen eta gainprezioaren gaineko prezioen metodoak ez dira kostuen prezio-zerrendetan aplikatzen. Nahiz eta prezio metodo horiek kostu prezio-zerrendako lerroetan erabili, transakzioen kategorien kostuak konfiguratzeko, sistemak ez ditu jaramonik egiten eta ez da kostu prezio lehenetsirik sartuko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

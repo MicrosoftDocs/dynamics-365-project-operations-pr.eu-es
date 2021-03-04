@@ -143,3 +143,6 @@ Argitaratu aurretik faktura ikusteko, garbitu **Argitaratzen** kontrol-laukia. *
 Horrez gain, **Faktura proposamena** orrialdean, fakturen proposamenak aldian-aldian lan eginez ere bidal daitezke, **Faktura proposamenak bidali**. Lan hau aurkitzeko, joan **Proiektuen kudeaketa eta kontabilitatea** > **Aldizkakoa** > **Proiektuaren fakturak** > **Faktura-proposamenak bidali** aukerara.
 
 Orrialde honetan argitaratzeko prest dauden faktura proposamen guztiak agertzen dira. Faktura proposamenak bidaltzeko programatu dezakezu **Sorta** hautatuta. Ezarri **Sortaka prozesatzeko parametroa** **Bai** gisa, eta ezarri sortaka prozesatzeko errepikapena **Errepikapena** hautatuta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

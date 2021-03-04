@@ -45,3 +45,6 @@ Elkarrizketa-koadroa irekitzen denean, sistemak iturburuko aurrekontuko kontrata
 > - Proiektuaren erreferentzia proiektuan oinarritutako aurrekontu lerroetan -Bezeroaren aurrekontuaren informazioa
 >
 >Informazio hau aurrekontu bakoitzerako oso zehatza denez, eremu eta erregistro horiek ez dira kopiatzen. Proiektuen eta produktuen aurrekontu lerroak, aurrekontu lerroaren xehetasunen inguruko kalkuluak eta aurrekontu mailan ez gainditzeko balioak kopiatzen dira. Prezioaren eta kostuaren tasaren lehenespenen arabera **Kopiatu prezioak** aukeran hautatutako aukera **Kopiatu parametroak** elkarrizketa-orria.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

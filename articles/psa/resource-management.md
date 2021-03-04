@@ -53,3 +53,6 @@ Zure proiektuan langileak gehitu ditzakezu talde generiko batekin edo izendatuta
 - [Erreserbatu izendatutako baliabideak baliabide-eskakizunetatik](book-named-resource.md)
 - [Bidali baliabide-eskaera bat](submit-resource-request.md)
 - [Onartu edo baztertu proposatutako proiektuaren baliabidea baliabide-eskaera batetik](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

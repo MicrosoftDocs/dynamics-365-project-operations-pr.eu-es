@@ -41,3 +41,6 @@ Baliabideak dira zerbitzuetan oinarritutako erakunde baten aktibo garrantzitsuen
 - [Behin behineko erreserba-eskakizunak](resource-management-softbook-requirements.md)
 - [Gaitasun eta trebetasunen ereduak](resource-management-skills-proficiency.md)
 - [Baliabide-kudeaketari buruz maiz egiten diren galderak](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

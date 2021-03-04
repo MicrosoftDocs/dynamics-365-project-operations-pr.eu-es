@@ -44,3 +44,6 @@ Hurrengo gaietan PSA-n dauden eskaintzen, prezioen eta fakturazioaren funtzional
 - [Talde-unitateak eta unitateak](advanced-units.md)
 - [Unitate anitzeko moneta](advanced-currency.md)
 - [Datu errealak erregistratzen](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

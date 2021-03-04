@@ -149,3 +149,6 @@ Hurrengo taulan, aurreko lan-fluxuaren transakzioaren konexio entitateko erregis
 | Faktura-zirriborroen zuzenketa       | Fakturaren lerroaren transakzioak GIDA | Ordezkapena          | msdyn_invoicelinetransaction | Fakturatutako salmentak GIDA            | Jatorrizkoa           | msdyn_actual       |
 | Berretsi faktura zuzenketa     | Fakturatutako salmenten itzulera GIDA    | Itzultzea          | msdyn_actual                 | Fakturatutako salmentak GIDA            | Jatorrizkoa           | msdyn_actual       |
 | Fakturatu gabeko bentako salmenta berrien GIDA | Ordezkapena                     | msdyn_actual       | Fakturatutako salmentak GIDA            | Jatorrizkoa                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

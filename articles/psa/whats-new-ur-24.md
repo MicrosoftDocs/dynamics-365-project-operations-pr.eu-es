@@ -81,3 +81,6 @@ Arazo hauek konpondu dira:
 - **Freskatu benetako datuak** botoiak gaizki kalkulatzen ditu laburpen-zereginak.
 - Microsoft Project Add-in: konpondu erreferentzia-errore hutsa talde-kideren batek baliabide-unitate huts bat baldin badu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

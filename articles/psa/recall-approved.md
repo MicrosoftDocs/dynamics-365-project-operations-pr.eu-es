@@ -107,3 +107,6 @@ Hurrengo irudian, berreskuratzen direnean onartutako denbora-sarreretan gertatze
 Hurrengo irudian, berreskuratzen direnean onartutako gastu-sarreretan gertatzen diren aldaketak erakusten dira.
 
 ![Gastu-sarreraren egoera trantsizioak](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Dynamics 365 Project Service Automation aplikazioak sistemaren bi aginte-panel d
 ## <a name="resource-manager"></a>Baliabide-kudeatzailea 
 
 **Baliabide-kudeatzailea** panelak baliabide-kudeatzaileei panelaren egoera grafikoa eskaintzen die baliabide eskaerak eta baliabideen eskaria eta erabilera kontrolatzeko. Baliabide-kudeatzaileei kontrolatutako informazioa hainbat dimentsiotan zatitzen ere uzten die.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Baliabideen erabilera egiazta dezakezu baliabideen erabilera-mailak zehazteko et
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Baliabide-kudeatzailearen gida](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

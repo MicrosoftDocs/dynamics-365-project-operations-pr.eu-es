@@ -316,3 +316,6 @@ Bestela, planifikazio akatsak banan-banan zuzendu ditzakezu zeregin bakoitzerako
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

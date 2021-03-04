@@ -43,3 +43,6 @@ Gainera, denbora-sarreren entitatearen inprimaki guztiak dituzten aplikazio-modu
 
 ### <a name="currently-extended-time-entry-changes"></a>Gaur egun hedatutako denbora-sarreraren aldaketak
 Denbora-sarreraren oraingo erabiltzaileen inpaktua gutxitzeko, funtzio-aldaketa hau denbora-sarrera erabiltzen jarraitzeko eskakizun nagusia bakarra da. Ikuspegi pertsonalizatuak edo denbora sartzeko esperientzia bereziak sortu badituzu, **Ordu-sarreraren ezarpena** eremuak PSA balio zuzenarekin ezarri behar dituzu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

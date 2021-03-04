@@ -55,3 +55,6 @@ Adibidez, Fabrikam Indiako Robotics saila garatzaile batek AEBetako proiektu bat
     | Garatzailea | Fabrikam US | Fabrikam US - Robotics | 150 $ |
 
 3. Erantsi salmenta prezioen zerrenda, **Fabrikam AEBetako fakturen tasak** proiektuaren kontratuaren proiektuaren prezioen zerrendara edo kontu jakin batera.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

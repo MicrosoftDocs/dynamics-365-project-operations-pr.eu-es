@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4119763"
 ---
 # <a name="resource-management-overview"></a>Baliabideen kudeaketaren informazio orokorra
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

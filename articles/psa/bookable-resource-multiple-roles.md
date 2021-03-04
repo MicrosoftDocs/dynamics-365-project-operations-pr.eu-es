@@ -74,3 +74,6 @@ Talde-kideen erregistro horren errenkada zabaltzen duzunean, bi zeregin horietak
 **Aurreikuspenak** sarera nabigatzen duzunean, baliabide beraren bi zereginek prezio desberdinak dituztela ohartuko zara.
 A zeregineko baliabidearen esleipena **Aholkularitza-arduraduna** eremuaren **Funtzioa** atributuaren balioa erabiliz. B zeregineko baliabide beraren esleipena **Sare-teknikaria** eremuaren **Funtzioa** atributuaren balioa erabiliz.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

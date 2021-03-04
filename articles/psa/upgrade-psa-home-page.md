@@ -65,3 +65,6 @@ Aipatutako gaiak berrikusi ondoren eta PSA-ren 3.x bertsiora edo Bezeroaren inte
 
 > [!NOTE]
 > Field Service eta PSA aplikazioen bertsio zaharrak erabiltzen dituzunean esperientzia onena izateko, joan **Sistemaren ezarpenak** orrira eta **Erabili Interfaze bateratu berria bakarrik (gomendagarria)** eremurako, hautatu **Ez** bertsio horiek ez baitaude UCI-n behar bezala kargatzeko diseinatuta. UCI desaktibatu ondoren, Field Service eta PSA-ren bertsio horiek ireki eta exekutatu ditzakezu web-bezero zaharra erabilita. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

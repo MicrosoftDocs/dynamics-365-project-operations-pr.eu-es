@@ -52,3 +52,6 @@ Prezio zerrenda horietako bakoitza erabil dezakezu eta eskulanaren (rolaren prez
 Proiektuaren kontratu batean, proiektuaren prezioak beti lehenetsitako prezioen zerrenda pertsonalizatu gisa kontratuaren izenarekin eta sortutako data-ordu zigilua izenarekin erantsita daude. Egia da kontratua aurrekontua irabazi zenean sortu zen edo kontratua hutsetik sortu zen. Behar izanez gero, elkarte hau pertsonalizatutako prezioen zerrendara ken dezakezu eta horren ordez prezio zerrenda estandarra proiektuaren kontratuarekin lotu.
 
 Prezio zerrenda estandar bat aurrekontuan edo kontratuan proiektuaren prezio zerrendekin lotzen duzunean, prezio zerrendako prezioetan egindako aldaketek eragina izango dute prezio zerrenda erabiltzen duten aurrekontu eta kontratu guztietan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

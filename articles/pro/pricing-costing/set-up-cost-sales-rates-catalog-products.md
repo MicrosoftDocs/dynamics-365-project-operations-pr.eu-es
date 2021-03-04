@@ -26,3 +26,6 @@ Produktuen katalogoko elementuen prezioak ezartzea Dynamics 365 Project Operatio
 Project Operations-en, produktuak ezin dira kalkulatu edo proiektuetan erabili, beraz, produktuen katalogoaren prezioak ez dira zehaztu behar proiektuen prezioen zerrendetan aurrekontuetan eta kontratuetan.
 
 Erabili **Produktuaren prezioa** aurrekontu, kontratu edo kontu baten eremua produktuen katalogoaren prezioak ezartzeko. Ez ezarri produktuen katalogoaren prezioak proiektuaren prezioen zerrendetan. Project Operations-en zerrendak proiektuaren eragiketetarako soilik dira. Aplikazio espezifikoen negozio logikak prezio zerrendak aurrekontu batetik kontratu batera kopiatzen ditu. Emaitza kontratuaren araberako proiektuaren prezio-zerrenda da. Kopiatze eragiketak aurrekontua irabazteko prozesua atzeratu dezake aurrekontuaren proiektuaren prezio zerrenda handiegia bada. Produktuen prezioen zerrendak ez dira kopiatzen kontratuetako prezioen zerrenda pertsonalizatuak sortzeko. Kopiatzerik ez dagoenez, aurrekontuaren prozesuaren errendimenduak ez du eraginik.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

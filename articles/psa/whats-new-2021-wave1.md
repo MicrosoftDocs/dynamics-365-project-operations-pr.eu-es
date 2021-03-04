@@ -43,3 +43,6 @@ Arazo hauek konpondu dira:
 
 - Amaiera-datak automatikoki betetzen dira denbora-sarrera sortzen denean iraupena nulua bada.
 - Erabiltzaileek zeregina aldatu edo bidali duten denbora-sarrera batean alda dezakete.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

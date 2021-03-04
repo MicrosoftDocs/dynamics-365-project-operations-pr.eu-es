@@ -70,3 +70,6 @@ Baimena amaitu da.
 Azure harpidetza behar bezala konektatu duzu. Orain zabaldu dezakezu Dynamics 365 Finance hodeian ostatatutako inguruneak.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

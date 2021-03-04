@@ -56,3 +56,6 @@ Aukeratu onartu nahi duzun bidaia-eskaera, eta hautatu **Lan-fluxua** > **Onartu
 
 > [!NOTE]
 > Gastu-txostena onartutako bidaia-eskaera batera lotzen duzunean, transakzioaren zenbatekoa ezin da baimendutakoa baino handiagoa izan. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

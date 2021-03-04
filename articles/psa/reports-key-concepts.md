@@ -48,3 +48,6 @@ Hurrengo taulan, Dynamics 365 Project Service Automation aplikazioan erabiltzen 
 | Ingerada                    | Zereginak, eskakizunak edo esleipen orduak egunero banatzen dira. Adibidez, bost eguneko 40 orduko zeregina 5 egunez jar daiteke eguneko zortzi ordu eginda. |
 | Kontziliazioaren ikuspegia        | Proiektu-taldeko kide bakoitzeko erreserbak eta zereginak erakusten dituen ikuspegia. Ikuspegi honek proiektu-kudeatzaileari erreserben eta zereginen arteko desoreka bilatzeko eta bat ez datozenean zuzentzeko neurriak hartzeko aukera ematen dio. |
 | Lanorduak                 | Baliabideen ahalmena eta lanaldiko zein lanaldikoak ez diren orduak identifikatzeko erabiltzen den entitatea. Erakunde horri baliabideen egutegia ere deitzen zaio. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

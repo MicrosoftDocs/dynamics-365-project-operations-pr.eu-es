@@ -127,3 +127,6 @@ Microsoft Project Client erabiliz lanaren banakako egitura berria sortzeko eta l
 8.  Aukeratu **Egutegia** baliabideetarako erabiltzeko.
 
 11. Sakatu **Ados**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

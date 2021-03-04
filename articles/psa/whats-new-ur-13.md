@@ -59,3 +59,6 @@ Gai honek Project Service Automation V3, 13. eguneratzea bertsioan berriak diren
      - Konponduta: botoiak gehitzeko **Aukera berria**, **Aurrekontua**, **Eskaera lerroa** eta **Gehitu produktua** aukerak, aurrekontuak, eskaerak produktuak eta proiektuetan oinarritutako lerroen azpisarea aginduetan daude ikusgai.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

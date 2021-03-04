@@ -56,3 +56,6 @@ Zeregin honek USSI datu multzoa erabiltzen du.
 21. **Produktuaren ordainagiria** eremua, idatzi balio bat.
 22. Hautatu **Ados**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

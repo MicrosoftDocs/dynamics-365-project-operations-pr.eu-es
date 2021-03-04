@@ -160,3 +160,6 @@ Gastuen berri emateko gidalerroak sortuz, zure erakundeari denbora eta dirua aur
 - Noiz iraungitzen da politika?
 - Zein da politika araua?
 - Zein da politikaren arauaren irteera?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

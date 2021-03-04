@@ -52,3 +52,6 @@ Gai honetan aurretik zegoen PDF esteka kendu da eta edukia honako gai hauetara e
 
 > [!NOTE]
 > Gai hau etorkizuneko dokumentazio-eguneratze batean kenduko da. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

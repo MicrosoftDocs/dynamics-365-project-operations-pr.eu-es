@@ -112,3 +112,6 @@ Ez. Antolaketaren aurreikuspena orduetara mugatuta dago eta ezin da aldatu.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Unitateak eta salmenta-unitateak editatu, ezabatu eta gehitu al daitezke?
 Bai. Salbuespena: **Denbora** salmenta-unitatea eta **Ordua** unitatea. Beste unitate guztiak ezabatu edo editatu daitezke eta unitate berriak gehitu daitezke. PSAn, **Denbora** unitate multzoa eta **Ordua** unitatea ezin dira ezabatu. Hala ere, itzulpenerako testu batekin eguneratu daitezke **Izena** eremurako.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

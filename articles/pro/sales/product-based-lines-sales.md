@@ -28,3 +28,6 @@ Produktuetan oinarritutako lerroak katalogoko elementuak edo idazteko produktuak
 
 Aukera laburpenaren diru-sarreren metodoa denean **Kalkulatutako sistema**, aukera-lerroetako bezeroen aurrekontuaren balioak laburbiltzen dira kalkulatutako diru-sarrerak kalkulatzeko. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

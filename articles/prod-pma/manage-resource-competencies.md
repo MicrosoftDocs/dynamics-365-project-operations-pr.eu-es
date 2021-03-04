@@ -53,3 +53,6 @@ Langilearen konpetentziak konfiguratzeko, bai erabil dezakezu **Langileak** zerr
 5. **Mailaren data** eremua, hautatu **2014/01/14**.
 6. **Urteetako esperientzia** eremua, sartu **10**.
 7. Aukeratu **Gorde** , eta gero itxi orria.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Hurrengo taula erabiltzeko prest dauden inprimakien eta ikuspegien zerrenda zaba
 2. **Parametroak** orrialdean, **Zenbatekoan oinarritutako prezio-dimentsioak** fitxan, ohartu fitxan agertzen den saretak **Prezio-dimentsioak** entitateko erregistroak erakusten dituela.
 3. Gehitu **Transakzioen kategoria** zerrenda honetara eta ezarri **Kostuari aplikagarria** eta **Salmentari aplikagarria** eremuak **Bai** gisa.
 4. **Dimentsio mota** eremuan, hautatu **Zenbatekoan oinarrituta** eta, ondoren, hautatu **Transakzioen kategoria** aukerarekin erlazionatutako kostu eta salmentetarako lehentasuna.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

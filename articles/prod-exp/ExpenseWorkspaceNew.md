@@ -78,3 +78,6 @@ Hurrengo eginbideak lehendik dauden orrian daude baina oraindik ez daude orri be
 - Linea mailako lan-fluxua
 - Behin-behineko onarpen laguntza
 - Zehaztapen aurreratua
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

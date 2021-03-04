@@ -69,3 +69,6 @@ Errentagarritasunaren kalkuluek kontratuaren lerroaren xehetasunen zenbatekoak b
 
 > [!NOTE]
 > Moneta biribiltzeko akatsak eta aldatutako marjinak gerta litezke data truke-tasa eraginkorrik ez dagoelako. Erabili kalkulu horiek proiektuen kontratuetan gutxi gorabeherako gisa eta ez estatistikako benetako txostenetarako edo biribiltzeko zehaztasun handiagoa behar dutenak eta truke-tasen dataren eraginkortasuna ezagutzea.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

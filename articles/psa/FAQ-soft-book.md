@@ -67,3 +67,6 @@ Erreserbatuta disko taldearen kide soft erreserbatuta taldearen kide baliabide a
 2. **Aldatu Egoera** atalean erreserbatu, egin klik eskuineko botoiarekin, hautatu **Erreserba irmoa** \> **Irmoa**. Erreserba-egoera **Irmoa** da.
 3. Antolaketa-panela itxi ostean, itzuli proiektura eta ireki **Taldea** fitxa, eta ikusiko duzu baliabideen orduak mugitu direla **Erreserbatutako ordu bigunak** zutabetik **Erreserbatutako ordu irmoetara** zutabera **Taldea** fitxan **Izena duten taldekideak** ikuspeagian. Baliabidea ez ikusiko duten zereginak esleitu erakutsiko erreserbatu defizita **Kontziliazioa** fitxan bookings beren orain dira disko gisa.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

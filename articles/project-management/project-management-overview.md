@@ -26,3 +26,6 @@ Dynamics 365 Project Operations-en proiektuak kudeatzeko tresnek proiektuak erra
 - Erabili proiektuaren aurreikuspenak salmenta prozesuan.
 - Aurreikusi baliabide-eskakizunak bideratzean dauden proiektuentzat.
 - Entregatu proiektuak garapena eta kostuen kontsumoa jarraituz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Proiektu-antolaketak sortu baino lehen, lan-orduak definitzen dituen proiektu-eg
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Baliabideak konfiguratu](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

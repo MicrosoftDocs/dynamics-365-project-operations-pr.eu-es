@@ -57,3 +57,6 @@ Antolatu oporraldia edo absentzia-baimenak proiekturako denbora sartzen duzun mo
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Denboraren, gastuen eta lankidetzaren gida](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

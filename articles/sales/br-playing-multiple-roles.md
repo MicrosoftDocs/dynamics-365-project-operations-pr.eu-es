@@ -106,3 +106,6 @@ Taldekideen erregistro horren errenkada zabaltzen duzunean, zeregin desberdinak 
 ### <a name="estimates-grid"></a>Aurreikuspenen sareta 
 
 **Aurrekontuak** saretan, baliabide beraren bi zereginek prezio desberdinak dituzte. **A zeregineko** baliabidearen esleipena **Aholkularitza-arduraduna** eremuaren **Funtzioa** atributuaren balioa erabiliz. **B zeregineko** baliabide beraren esleipena **Sare-teknikaria** eremuaren **Funtzioa** atributuaren balioa erabiliz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

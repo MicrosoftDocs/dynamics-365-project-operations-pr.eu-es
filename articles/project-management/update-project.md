@@ -48,3 +48,6 @@ Jarraian, proiektu bat sortu ondoren egunera daitezkeen eremuen laburpena eta eg
 - **Proiektuaren egoera orokorra**: Proiektuaren zuzendariak emandako proiektuaren osasun orokorra.
 - **Iruzkinak**: Proiektuaren zuzendariak emandako proiektuaren egungo osasunari buruzko kontakizuna.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

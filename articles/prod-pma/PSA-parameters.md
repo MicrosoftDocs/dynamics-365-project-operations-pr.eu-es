@@ -47,3 +47,6 @@ Irekitzeko **Project Service Automation integrazio parametroak** orrialdea, joan
 | Fakturazio mota lehenetsiak  | Fakturazio mota         | Egin klik **Berria** jabetza-lerro lehenetsia ezartzeko fakturazio mota hautatzeko errenkada bat gehitzeko. Fakturazio mota zehatz bat konfigurazioan behin bakarrik hauta daiteke. |
 |                        | Linearen jabetza        | Aukeratu lehenetsitako lerroaren jabetza hautatutako fakturazio-motarako. Ordu berrien kalkuluak, gastu berrien kalkuluak edo egiazko berriak sinkronizatzen direnean Project Service Automation-etik **Linearen jabetza** eremuak fakturazio motaren lehenetsitako balioa du. |
 | Funtzionaltasuna blokeatzea  | Ez da aplikagarria       | Aukeratu Finantzan desgaitzeko funtzionalitatea Project Service Automation-etik sortutako proiektu eta kontratuetarako. Adibidez, kontratuak eta proiektuak editatzeko gaitasuna desaktiba dezakezu, lanen banakako egiturak sor ditzakezu eta Finantzetan denbora-orriak sartu. Kontabilitatearekin lotutako eremuak gaitzen jarraituko dute, parametroaren ezarpenak erabilgarri ez uzten baditu ere. Berez, funtzionalitate guztiak gaituta daude. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

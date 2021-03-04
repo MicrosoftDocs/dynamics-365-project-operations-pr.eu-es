@@ -37,3 +37,5 @@ Proiektu kudeatzaile gisa, jarraitu urrats hauek taldekide baten baliabide eskak
 ## <a name="edit-resource-assignment-contours"></a>Baliabideak esleitzeko sestra editatu
 
 Baliabideen eskakizunen xehetasunak editatzeaz gain, proiektuaren kudeatzaile batek baliabidearen eskakizunaren banakako inguruneak eguneratu ditzake **Zehaztu eredua** funtzionaltasuna. **Zehaztu eredua** hautatuta dagoenean, orri bat irekitzen da eta eguneko, asteko edo hilabeteko eskalan sestra ikus dezakezu. Sestra bakoitza hasiera-ordua, amaiera-ordua eta epe zehatz batean egokitu daiteke.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

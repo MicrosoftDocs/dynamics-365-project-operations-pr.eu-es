@@ -45,3 +45,6 @@ Produktuaren propietateetatik Kopuru faktoreak sortzeko, jarraitu urrats hauei:
 6. Gorde eta itxi inprimakia. Errepikatu urrats hauek produktuan oinarritutako aurrekontu lerroaren kantitatea kalkulatzeko erabili beharreko propietate guztietan.
 
 Produktuan oinarritutako aurrekontu lerroa sortzen duzunean, aurrekontu lerroaren kopurua blokeatuta egongo da. Kopurua aurrekontu lerro horretarako sartu dituzun propietate balioen produktu gisa kalkulatuko da.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Laneko ahalegina eta antolaketaren aurreikuspenak zehaztu ditzakezu **Antolaketa
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Inportatu aurreikuspenak proiektu batetik eskaintza batera
 
 Proiektuaren aurreikuspenak zehaztu ondoren, eskaintzaren lerrora inporta ditzakezu. **Eskaintzaren lerroaren xehetasunak** orrian, hautatu **Inportatu kalkuluetatik** aukera zintan proiektuaren aurreikuspenak laburbiltzeko transakzio mota, funtzioa edo zeregin mailaren arabera.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

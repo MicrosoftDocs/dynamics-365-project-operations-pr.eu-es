@@ -62,3 +62,6 @@ Dynamics 365 Project Operations aplikazioak Universal Resource Scheduling motorr
 
 Baliabide indibidualei buruzko xehetasun gehiago ikusteko, egin klik eskuineko botoiarekin gainean baliabide-txartela irekitzeko.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Laguntza osagarria eskuragarri dago zereginen gidaliburu gisa. Ataza gidetara sa
 ### <a name="videos"></a>Bideoak
 
 Ikusi orain eskuragarri dauden bideoak [Microsoft Dynamics 365 YouTube kanala](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

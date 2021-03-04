@@ -64,3 +64,6 @@ Gehitu Project Service entitate hauek zure prezioen soluziora prezioen soluzioan
 5.  Hautatutako entitateen menpeko entitateak sartzeko eskatzen zaizunean, hautatu **Ez, ez sartu beharrezko osagaiak**.
 
     ![Menpeko erakundeak barne](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Eskaintzaren lerroaren xehetasunean eremu pertsonalizatu bat gehitu baduzu eta s
 7. Hautatu **Ados** aukera elkarrizketa-koadroa ixteko eta, ondoren, hautatu **Eguneratu urratsa**.
 8. Errepikatu 1-7. urratsak bigarren pluginerako.
 9. Itxi **PluginRegistrationTool** tresna.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Proiektuaren antolaketa sortzeko, sortu eguneko lan-orduak definitzen dituen pro
 8. **Lan-txantiloia** elkarrizketa-koadroan, idatzi lan-txantiloiaren izena eta hautatu **Aplikatu**. 
 
 Orain lan-txantiloia proiektuaren egutegi txantiloiarekin lotu dezakezu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Arazo hauek konpondu dira:
 - Aurrekontuan edo kontratuan proiektuan oinarritutako lerro bat hautatzerakoan **Iradokizuna** botoiak lehendik dagoen produktu batekin lotutako produktuan oinarritutako linea hautatzerakoan soilik egon behar du ikusgai.
 - Zatitu **Sortu_Product** pribilegioa **Create_ProjectContract** pribilegiotik.
 - Faktura lerro bat ezabatzeak erreferentzia huts hutsa eragiten du **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

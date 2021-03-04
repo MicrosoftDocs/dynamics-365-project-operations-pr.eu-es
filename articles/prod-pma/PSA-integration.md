@@ -75,3 +75,6 @@ Project Service Automation to Finance integrazio irtenbidea erabiltzeko, osagai 
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Instalatu Project Service Automation to Finance integrazio konponbidea zure Project Service Automation instantzia
 
 Deskargatu Project Service Automation to Finance integrazio irtenbidea [Microsoft Deskarga Zentroa](https://www.microsoft.com/download/details.aspx?id=57016), eta jarraitu irtenbidearekin bat datozen argibideak.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

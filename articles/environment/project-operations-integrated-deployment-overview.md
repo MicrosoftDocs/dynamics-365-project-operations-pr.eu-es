@@ -43,3 +43,6 @@ Inplementazio hau aukeratu beharko litzateke proiektuaren eragiketen itxaropena 
 - Enpresa mailako salmenten gaineko zergaren eta truke tasaren motor aberatsa behar du, proiektuetarako bezeroei begira fakturak sortzeko.
 - Nazioarteko Financial Reporting Arauak (IFRS) bateragarriak diren proiektuen kontabilitate eta diru sarrerak ezagutzeko sistema.
 - Finance edo Supply Chain Management aplikazioak eta proiektuetan oinarritutako transakzioen integrazioa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

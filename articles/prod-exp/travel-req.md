@@ -32,3 +32,6 @@ Baliteke zure erakundeak langileek erakundeari kobratzen dizkioten gastuak egin 
 Bidaia eskaerak eta gidalerroak erabil daitezke aurrekontua kontrolatzen laguntzeko. Adibidez, zure erakundeak bidaia behar duen prezio finkoaren proiektuan lan egiten badu, proiektuko taldekideen bidaia gastuak proiektuaren aurrekontuaren barruan sartu behar dira. Bidaia gastuak onartu baino lehen onartuz gero, erakundeak proiektua aurrekontuaren barruan mantenduko dela ziurtatu dezake.
 
 Helbidetik bidaia eskaeren gidalerroak ezar ditzakezu **Bidaia-eskaera** orrialdea.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

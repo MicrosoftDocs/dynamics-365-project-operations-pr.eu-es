@@ -20,3 +20,6 @@ ms.locfileid: "4514484"
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 Hemen emandako funtzionalitatea erabil dezakezu Dynamics 365 Field Service zure rolak definitzeko Dynamics 365 Project Operations ingurunea. Konfigurazio hau osatzeko, ikusi [Konfiguratu erreserba daitezkeen baliabideen kategoriak](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

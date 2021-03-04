@@ -30,3 +30,6 @@ Proiektuaren kudeatzaileak fakturatu gabeko salmenten transakzioak berrikusi dit
 [Eskuz sor dezakezu proforma faktura](../proforma-invoicing/create-manual-proforma-invoice.md) edo [aldian aldiko prozesua](../proforma-invoicing/configure-automated-invoice-creation.md) erabil dezakezu. Proiektu-kudeatzaileak [proforma faktura zirriborroa egokitu](../proforma-invoicing/manage-proforma-invoice.md) dezake behar den moduan eta gero berretsi.
 
 Baieztatutako proforma faktura helbidera bidaltzen da **Proiektuen kudeaketa eta kontabilitatea** modulua Finance-n. Proiektuaren kontulariak proiektuaren faktura proposamena formateatu eta eguneratu egiten du eta, ondoren, dokumentua argitaratu eta inprimatzen du. Bidalitako proiektuaren fakturak Liburu Nagusian erregistratzen dira, baita Bezeroaren eta Proiektuaren azpiegituretan ere.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Errepikatu eskaintzaren lehen kodearen urrats berdinak. Ziurtatu bigarren eskain
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instalatu CDS konfigurazioa eta konfiguratu demo-datuak
 
 Instalatu CDS konfigurazioa eta konfiguratu demo datuak gaiko argibideak jarraituz, [Aplikatu demo konfigurazio eta konfigurazio datuak](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

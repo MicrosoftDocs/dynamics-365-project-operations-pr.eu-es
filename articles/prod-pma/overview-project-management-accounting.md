@@ -440,3 +440,6 @@ Adierazpena kalkulatu ondoren, ondorengo informazioa ikus dezakezu fitxako fitxe
 -   **Kontsumoa** - Orduen, elementuen, gastuen eta nominen transakzioen kontsumoari buruzko informazioa.
 -   **Faktura** - Fakturei eta konturako fakturazioei buruzko informazioa.
 -   **Ordu tasa** - Diru-sarreren eta kostuen kontuetan kontabilizatzen diren orduen orduak.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

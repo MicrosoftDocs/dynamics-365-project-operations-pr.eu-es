@@ -78,3 +78,6 @@ Prezioen dimentsioaren erregistroa **msydn_bookableresource** aldea jakinarazi b
 5. Gehitu **msdyn_bookableresourceid** **Eremuaren izenean**.
 
  ![Prezio-dimentsioaren eremu-izena](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

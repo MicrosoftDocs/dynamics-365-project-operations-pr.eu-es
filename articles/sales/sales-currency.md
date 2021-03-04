@@ -71,3 +71,6 @@ Prozedura hau hasi aurretik, egiaztatu zure segurtasun-funtzio-k sistemaren admi
 
 > [!IMPORTANT]
 >  Beste erregistro batzuek erabiltzen dituzten monetak ezin dira ezabatu; desaktibatu soilik egin ditzakezu. Moneta-erregistroak desaktibatzean, ez da erregistroetan gordetako monetaren informazioa ezabatzen, esaterako, abaguneak edo eskaerak. Hala ere, ezingo duzu desaktibatutako monetarik hautatu transakzio berrietarako.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

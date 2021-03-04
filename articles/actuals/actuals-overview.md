@@ -342,3 +342,6 @@ Project Operations-ek proiektu batean gertatzen diren finantza-transakzioak erre
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

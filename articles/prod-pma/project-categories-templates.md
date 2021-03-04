@@ -124,3 +124,6 @@ Ondorengo ilustrazioak Datuen integrazioan txantiloien atazen maparen adibide ba
 > Kartografiak Project Service Automation-etik Finantzara sinkronizatuko den eremuko informazioa erakusten du.
 
 [![Project Service Automation Finance txantiloiei esleitzea](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

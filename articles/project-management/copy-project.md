@@ -61,3 +61,6 @@ Proiektu talde bat jatorrizko proiektutik kopiatzen denean, baliabide generikoak
 Proiektua kopiatzerakoan, baliabideak eta gastuak kalkulatzeko lerroak jatorrizko proiektuetik kopiatzen dira. 
 
 Kopiatu proiektua aukerara programaren bidez nola sartu jakiteko, ikusi [Garatu proiektuaren txantiloiak Kopiatu proiektua aukerarekin](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Enpresak ziurrenik geografiaren, funtzioaren edo beste arlo batzuen arabera anto
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Konfiguratu Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

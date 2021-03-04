@@ -33,3 +33,6 @@ Proiektuan kontratu guztien zerrenda ikus daiteke **Kontratuak** zerrenda orria.
 2. Aukeratu **Ikusi aldatzailea** (ikuspegiaren izenaren ondoan dagoen goitibeherako gezia) iragazitako beste ikuspegi batzuk hautatzeko. Zure ikuspegiak sor ditzakezu iragazki pertsonalizatuko irizpideekin.
 
 Kontratuak zerrenda edo orrialde honetatik sortu edo ezabatu daitezke.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

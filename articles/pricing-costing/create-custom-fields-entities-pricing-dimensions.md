@@ -77,3 +77,6 @@ Erakundeetan oinarritutako dimentsioetarako datuak sor ditzakezu eskuz edo Micro
 5. Errepikatu 1-3 urratsak "Sistemen ingeniari nagusia" titulu estandarra sortzeko.
 
 > ![Titulu estandarraren entitatearen laginak](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

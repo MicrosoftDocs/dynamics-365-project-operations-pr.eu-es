@@ -63,3 +63,6 @@ Gai honek PSA V3, 15. eguneratzea bertsioan berriak diren edo aldatu diren eginb
   - Konponduta: Ez duzu errore-mezurik jasoko **Proiektuaren bilaketa** eremuan **Eskaintzaren lerroa** inprimakian, 1000 proiektu baino gehiago daudenean.
   - Konponduta: gutxi gorabeherako lanen eta gutxi gorabeherako gastuen **Gutxi gorabeherakoak** saretak moneta-ikur zuzena bistaratzen du.
   - Konponduta: Erakunde batek PSA 14. eguneratze-bertsiotik 15. eguneratze-bertsiora eguneratu ondoren, **Antolaketa** fitxa ez da agertuko hutsik **Proiektua** inprimakian.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

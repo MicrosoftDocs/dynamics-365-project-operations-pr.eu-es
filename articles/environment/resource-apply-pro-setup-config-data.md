@@ -134,3 +134,6 @@ Fitxategian datuak konfiguratzeko eskatu aurretik Common Data Service (CDS), hon
 13. Sakatu **Gorde**. 
 
 ![Proiektuen parametro eguneratuak](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

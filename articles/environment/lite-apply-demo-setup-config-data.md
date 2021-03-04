@@ -74,3 +74,6 @@ Konfigurazioa hasi aurretik, hau eduki behar duzu Common Data Service (CDS) ingu
     -   Baliabide erreserbagarriaren ezaugarria
 
     ![Inportazio osoa](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

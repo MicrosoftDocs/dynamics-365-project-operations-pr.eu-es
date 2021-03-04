@@ -39,3 +39,6 @@ Ezaugarrien kudeaketa gakoa bada **Gaitu gastuen ordezkarien zerrenda orria** ga
 Ordezkaritza batek azkar iragazi eta bila ditzake lehendik dauden gastuen txostenak. Ordezkariak beste erabiltzaileentzako gastu txosten berri bat sor dezake azkar hautatuta **Gastu txosten berria**.
 
 Ordezkariek beste langileentzako gastuen txostenak sortu eta kudea ditzakete bertara joanda **Gastuen kudeaketa** > **Nire gastuak** > **Gastuen txostenak** eta hautatzea **Ireki beste erabiltzaileen gastuak**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

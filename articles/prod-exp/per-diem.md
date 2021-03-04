@@ -28,3 +28,6 @@ ms.locfileid: "4960007"
 *Eguneko dieta* bat lanagatik bidaiatzen duen langileari ematen zaion hobaria da. Gastuen kudeaketan, eguneko arauak sor ditzakezu bidaia-egoera desberdinetarako. Eguneko tasak urteko garaian, bidaiaren kokapenean edo bietan oinarrituta egon daitezke. Eguneko araua sortzen duzunean, eguneko tasaren ehuneko bat gordeko dela zehaztu dezakezu langileak osagarriak diren otorduak edo zerbitzuak jasotzen baditu. Halaber, eguneko tasak langilearen bidaiari aplikatu ahal izateko gutxieneko eta gehieneko ordu kopurua ere ezar dezakezu.
 
 Eguneko zenbateko osoaren kalkulua hasieran eta amaiera datetan ezarri ditzakezun datetan oinarritzen da **Dietak** orrialdea.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Hurrengo urratsek pluginak erregistratzeko prozesua azaltzen dute.
 
 9. Itxi plugina erregistratzeko tresna.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Atributu hauek zehazten dira gastu lerro bakoitzerako:
 - **Unitatearen kostuaren prezioa**: Gastuaren kostua kalkulatzeko erabilitako unitateko prezioa.
 - **Unitatearen salmentaren prezioa**: Salmenta-prezioen kostua kalkulatzeko erabilitako unitateko prezioa.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

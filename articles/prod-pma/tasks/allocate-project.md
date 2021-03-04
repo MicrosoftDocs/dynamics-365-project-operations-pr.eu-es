@@ -44,3 +44,6 @@ Aurrekontua edo aurrekontuen berrikuspena esleitu ondoren, esleipenaren zenbatek
 10. Esleipena nahi duzun moduan dagoenean, egin klik Bidali proiektuaren aurrekontuaren orrian aurrekontua edo aurrekontuen berrikuspenak onarpen lanera bidaltzeko.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Konfiguratu ordezkari bat beste norbaitek denbora eta gastuak sartzeko zure izen
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Denboraren, gastuen eta lankidetzaren gida](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

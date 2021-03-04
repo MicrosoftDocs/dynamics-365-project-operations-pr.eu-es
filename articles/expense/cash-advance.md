@@ -63,3 +63,6 @@ Jada jaso zenuen dirua aurreratzeko gastuen txostena sortu eta aurkezten duzunea
 ### <a name="example"></a>Adibidez
 Seattle-tik New York-era joateko asmoa duzu hitzaldi baterako. 3000,00 USD dirua aurreratzeko eskaera bat sortzen duzu konferentzia txartelaren, hegaldien, hotelaren, otorduen eta taxiaren kostuaren arabera. Ez duzu ordainduko zure kudeatzaileak eskaera hori onartu ezean. Zure kudeatzaileak onartu ondoren, eskatutako dirua aurreratzea 3000,00 USD gisa ordainduko da zure bankuko kontuan. Ondoren kongresura joango zara. Bidaia amaitu ondoren, gastu osoa 2790,00 USD bakarrik izan dela ikusiko duzu. Aukeratu **Eskudirua** **Ordainketa modua** eremuan, eta bidali zure gastua 2790,00 USD. Aurkeztutako gastuaren zenbatekoa automatikoki egokitzen da mailegatu zaizun 3000,00 USD-en dirua aurreratzeko. 210,00 USD (3000,00 - 2790,00) saldoa zor duzu orain, eta enpresari itzul dezakezu **Itzuli dirua** gastu kategoria.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

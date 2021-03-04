@@ -140,3 +140,6 @@ Ondorengo ilustrazioak Datuen integrazioan txantiloien atazen maparen adibide ba
 [![Txantiloien mapaketa - Egiazko datuen eguneratzea](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Txantiloien mapaketa - Transakzioen eguneratzea](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

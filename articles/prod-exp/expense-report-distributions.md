@@ -37,3 +37,6 @@ Frankfurten zegoela, bi proiektu desberdinetan lan egin zuenez, gastuen txostena
 |Hotela         |725 EUR              |557 EUR                        |168 EUR                          |
 |Otorduak         |346 EUR              |284 EUR                        |62 EUR                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

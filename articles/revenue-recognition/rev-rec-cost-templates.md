@@ -79,3 +79,6 @@ Kostuen txantiloiak sortzeko, jarraitu urrats hauei:
 7. **Kategoriak** fitxan, hautatu kostuaren txantiloiaren lerroan sartu beharreko proiektuen kategoriak.
 8. **Orokorra** fitxan, hautatu lerro hau osatze-kalkuluaren ehunekoan sartuko den.
 9. Aukeratu osatzeko portzentaia kalkulatzeko erabili beharreko metodoa osatzeko kostua.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

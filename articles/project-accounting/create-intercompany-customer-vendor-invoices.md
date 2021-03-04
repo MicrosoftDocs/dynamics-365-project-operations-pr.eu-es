@@ -61,3 +61,6 @@ Enpresa arteko faktura anitz sor ditzakezu aldi berean maileguan dauden pertsona
 ## <a name="post-the-intercompany-vendor-invoice"></a>Bidali enpresen arteko saltzailearen faktura
 
 Mailegu-hartzailea den legezko proiektuko kontulariak enpresa arteko saltzaileen fakturak berrikusi ditzake, enpresa arteko bezeroaren faktura argitaratzen denean. Finantzetan, maileguan dagoen pertsona juridikoan, joan **Ordaintzeko kontuak** > **Fakturak** > **Saltzailearen faktura zain** aukerara. Zain dagoen faktura zenbakia enpresen arteko bezeroaren faktura zenbakiarekin bat etorriko da. Egiaztatu faktura zuzena dela eta bidali faktura. Enpresen arteko saltzailearen faktura argitaratzeak proiektuaren azpiegitura bat eta liburu orokorreko transakzio bat sortzen ditu mailegu-entitate juridikoan transakzio kostuak islatzen dituena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

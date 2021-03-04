@@ -53,3 +53,6 @@ Hona hemen gastuak kudeatzeko politika berriak sortzen lagun zaitzaketen iradoki
 ## <a name="when-to-evaluate-policies"></a>Noiz ebaluatu politikak
 
 Gastua kudeatzeko parametroetan, gastuak kudeatzeko politikak ebaluatzea hauta dezakezu lerro bat gordetzen denean edo gastuen txostena aurkezten denean. Lerro bat noiz gordetzen den ebaluatzea aukeratzen baduzu, erabiltzaileek lehenago ikusiko dute zer egin behar duten beren gastuen txostena aldi berean osatzeko. Bestela, gidalerroen ebaluazioa atzeratu eta denbora aurrez dezakezu amaieran baliozkotuz, lan-fluxura bidalitakoan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

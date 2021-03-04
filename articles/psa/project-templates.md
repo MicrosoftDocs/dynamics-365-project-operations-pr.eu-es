@@ -69,3 +69,6 @@ Proiektuen aurreikuspenaren lerroetan kopiatzean, prezio-zerrendak eguneratzen d
 ### <a name="copying-a-project-team"></a>Kopiatu proiektuaren taldea
 
 Proiektu-talde bat proiektuaren txantiloitik proiektura kopiatzen denean, baliabideak orokorrak kopiatzen dira txantiloian zehaztutako gaitasun eta trebetasunekin batera. Baliabide orokorren esleipenak ere mantendu egiten dira proiektuaren txantiloian zeudelako. Baliabide izendatuak ez dira onartzen proiektuaren txantiloietan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

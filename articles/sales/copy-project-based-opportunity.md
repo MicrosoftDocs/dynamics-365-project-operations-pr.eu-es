@@ -34,3 +34,6 @@ Proiektu aukerak erraz kopiatu daitezke proiektu aukera berriak sortzeko.
     | Kopiatu prezioak | Aukeraren prezioa jatorrizko aukeratik kopiatu behar den adierazten duen Bai / Ez balioa. | **Bai** hautatuta badago, prezioen zerrendak iturburutik xede aukerara kopiatzen dira. **Ez** hautatuta badago, prezioen zerrendak lehenetsita daude ezarri ziren azken prezioen zerrendetan oinarrituta. |
 
 3. Hautatu **Ados**. Sistemak aukeratutako parametroetan oinarrituta proiektuaren aukeraren kopia sortzen du eta proiektuaren aukera berria irekitzen da.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

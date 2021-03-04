@@ -24,3 +24,6 @@ Proiektuaren aukerak Irabazi edo Galdu bezala itxi daitezke. **Itxi abagunea** e
 Ez duzu aukera ixteko baimenik horrekin lotutako aurrekontu aktiborik baldin badago. Aukera bati lotutako aurrekontu aktibo eta zirriborro guztiak aldi berean itxi ditzakezu. Orduan, aukera ixteko baimena izango duzu.
 
 Abaguneak ixteari buruzko informazio gehiagorako, ikusi [Itxi abaguneak irabazita edo galdatu gisa](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

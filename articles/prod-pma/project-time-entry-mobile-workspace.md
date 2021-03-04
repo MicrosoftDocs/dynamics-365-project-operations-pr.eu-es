@@ -113,3 +113,6 @@ Deskargatu eta instalatu Finance and Operations mugikorreko aplikazioa:
 11. Aukeratu lerroaren jabetza.
 12. Hautazkoa: Idatzi edozein kanpoko eta barneko iruzkinak.
 13. Hautatu **Eginda**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

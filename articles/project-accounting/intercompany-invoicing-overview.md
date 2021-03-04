@@ -43,3 +43,6 @@ Ondorengo diagramak enpresen arteko fakturazioa erakusten du kontabilitateko ger
 - [Konfiguratu enpresen arteko fakturazioa](configure-intercompany-invoicing.md)
 - [Grabatu enpresen arteko transakzioak](create-intercompany-transactions.md)
 - [Sortu enpresen arteko bezeroa eta saltzaileen fakturak](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Gai honek PSA V3, 14. eguneratzea bertsioan berriak diren edo aldatu diren eginb
      - Konponduta: Salmenta-prezio totala ez da kalkulatzen erabiltzaileak proiektu bateko gutxi gorabeherako kostuaren prezioak ere idatzi arte.
      - Konponduta: Eskaintza bat **Irabazita** gisa ixteak huts egiten du, lotutako proiektuaren kontratua ez badago **Zirriborroa** egoeran.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Prozedura honetan azaltzen nola proiektuaren taldea sortu:
 ## <a name="monitor-project-teams"></a>Proiektu taldeak kontrolatu
 1. **Proiektu guztiak** orria, hautatu **Proiektuaren ID-a** esteka **XYZ Bertsio berritu fasea 2** proiektua.
 2. Gainean **Proiektu taldea eta programazioa** FastTab, egiaztatu zerrendan agertzen diren proiektuaren baliabideak zuzenak direla.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

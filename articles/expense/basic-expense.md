@@ -55,3 +55,6 @@ Oraindik bidali ez diren gastuak ezabatu daitezke. Lehendik bidalitako gastua ez
 ## <a name="see-also"></a>Ikus baita ere
 
 - [Onespenen ikuspegi orokorra](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

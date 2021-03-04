@@ -68,3 +68,6 @@ Erakunde guztiek ezarri behar dituzte funtzio horiek **Baliabide aktiboen katego
 ## <a name="price-lists"></a>Prezio-zerrendak
 
 Prezio-zerrendei esker, erakundeko baliabide-funtzioen kostuak eta salmenta-prezioak, kategorien gastuak, produktuak eta elementu gehiago ezar ditzakezu. Proiektu baterako bidali behar den lanaren finantza kalkuluak ezarri aurretik, laguntza kostu bat eta salmentako prezio-zerrenda bat sortu beharko zenituzke. Parametroen atalean, erakundean sortutako proiektu guztiei aplikatzen zaien kostu eta salmenta-prezioen zerrenda lehenetsia ere ezarri beharko zenituzke. **Proiektu aktiboen parametroak** orrialdea, ziurtatu kostu eta salmenta-prezioen zerrenda lehenetsia konfiguratzen duzula.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

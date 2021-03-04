@@ -37,3 +37,6 @@ Proiektuaren eragiketetako atxikipena ez dago erabiltzeko erabilgarri bezeroari 
 | --- | --- | --- |
 | Eskuragarri dagoen zenbatekoa | Atxikipenean edo aurretiazko erregistroan erabil daitekeen kopurua. | Aurrerakina edo atxikipena fakturatu arte, ez da erabilgarri egongo, hau da, eskuragarri dagoen zenbatekoa zero izango da. |
 | Erabilitako zenbatekoa | Atxikipenean edo aurrerapenean erabilitako kopurua. | Aurrerakina edo atxikipena fakturan partzialki bateratu daitezke benetako kostuekin, zati bat lehendik erabilitako edo kontsumitutako gisa markatuta egongo baita. Aurrerakinaren edo atxikipenaren gainerako zenbatekoa eskuragarri dago etorkizuneko fakturan benetako kostuekin bateratzeko. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

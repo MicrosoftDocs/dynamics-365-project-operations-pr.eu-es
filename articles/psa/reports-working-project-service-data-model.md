@@ -123,3 +123,6 @@ Ordutegi edo gastu bat onartzen duzunean edo kontratu bat PSA-n fakturatzen duzu
 **Transakzioaren jatorria** entitateak **Benetako datua** erregistroaren jatorria erregistratzen du, eta **Transakzioaren konexioa** entitateak **Benetako datua** entitateak erlazionatutako erregistroak erregistratzen ditu. Gainera, **Benetako datua** erregistroak proiektuaren, proiektuaren kontratua (eskaera), baliabide erreserbagarria eta bezeroaren erreferentziak ditu.
 
 ![Transakzioen konexioa, jatorria eta benetako harremanak erakusten dituen diagrama](media/PS-Reporting-image6.png "Transakzioen konexioa, jatorria eta benetako harremanak erakusten dituen diagrama")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

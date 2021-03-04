@@ -31,3 +31,6 @@ Eguneko egun bat lanagatik bidaiatzen duen langileari ematen zaion hobaria da. G
     
 ## <a name="submit-expenses-using-per-diem"></a>Bidali egun bakoitzeko gastuak
 Dietak erabiliz gastuak bidaltzeko, erabili **Eguneko** gastuen kategoria gastuen txostena sortzen duzunean. Sartu **Eguneko egunetik aurrera**, **Eguneko egunerokoa** eta **Eguneko kokapena**. Zenbatekoa hautatutako kokapeneko eguneko tasen arabera kalkulatuko da eta otorduen murrizketa eguneko tasen mailen arabera kalkulatuko da.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Proiektuko lanak amaitutakoan, proiektu-kudeatzaileak fasea eguneratu dezake **O
 ## <a name="close"></a>Itxi
 
 Proeikturako trantsakzio guztiak erregistratu direnean, proiektu-kudeatzaileak fasea eguneratu dezake **Itxi** fasera. Puntu horretan, ezin da transakziorik erregistratu, eta proiektua irakurtzeko soilik egongo da.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

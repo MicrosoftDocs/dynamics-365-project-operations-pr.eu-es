@@ -45,3 +45,6 @@ Gainera, eginkizun lehenetsi bat esleitu behar zaio erreserbatu daitekeen baliab
 **Project Service** fitxan, helburuko erabilera indibiduala ere ezar dezakezu baliabiderako. Ondoren, erabileraren kalkuluak helburuko erabilera hori erabiltzen du baliabidearen helburua ebaluatzeko, baliabidearen funtzio lehenetsiaren helburua ebaluatu beharrean.
 
 Erabilera baliabide gisa erakusten da baliabideak saretan agertzen den aldian kobratu daitekeen denbora onartu badu soilik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

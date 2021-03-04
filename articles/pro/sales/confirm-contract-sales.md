@@ -35,3 +35,6 @@ Galdutako itxita dagoen proiektuaren kontratuak bere lerroetan proiektu bat aipa
 
 > [!NOTE]
 > Dynamics 365 Project Operations-en, proiektuaren kontratua galdutako moduan ixteak ez du eragingo lotutako aukeraren egoera horretan. Aukera irekita egongo da eta eskuz itxi behar da.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Gomendatzen dizugu erabiltzea sorta gisa. Aukerak eskuragarri daude edukiera err
     | Amaiera-data    | Idatzi baliabideen edukiera biltzeko prozesuen sinkronizazio prozesuaren amaiera data. |
 
 [![Sinkronizazio-prozesua](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

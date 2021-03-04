@@ -200,3 +200,6 @@ Denbora-maila altuagoak ikusten dituzunean, **Kontziliazioa** fitxak gelaxkak ad
 Zereginen esleipenak dituzun baina erreserbarik ez baduzu, **Proiektuak** inprimakian, **Kontziliazioa** fitxan, erreserba eskasia aukeratu dezakezu eta, ondoren, hautatu **Hedatu erreserba**. **Luzatu Erreserba** elkarrizketa-koadroa agertuko da eta baliabidearen eskasiari aurre egiteko beharrezkoa den erreserba erakusten du. Elkarrizketa-koadroan baliabideek dituzten erreserbak agertzen dira proiektu guztietan edo beste erakunde antolatzaile batzuetan. Aukeratzen baduzu **Ados** baliabidearen erreserba sortzeko, baliabidearen erabilgarritasuna edozein dela ere, gerta daiteke erreserba gehiegi egotea.
 
 Orduan, Proiektu-kudeatzaileak edo Baliabide-kudeatzaileak antolaketa-panela erabil dezake baliabide batek bere ahalmenetatik harago gaitasunak gainditutako edozein egoera kudeatzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

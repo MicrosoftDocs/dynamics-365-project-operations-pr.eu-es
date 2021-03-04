@@ -124,3 +124,6 @@ Adibidez, propietate hauek badaude:
 - **SKU produktua** 
 
 **Erabiltzaile kop** eta **Hilabete kop** propietateak kantitate faktore gisa markatu daitezke produktuaren lerroko propietateak editatzean. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

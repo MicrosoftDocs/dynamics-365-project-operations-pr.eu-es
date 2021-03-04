@@ -96,3 +96,6 @@ Egin klik **Bidali** denbora-orria onarpen-lanera bidaltzeko.
 ## <a name="review-timesheets"></a>Berrikusi denbora-orriak
 
 Menuan eskuragarri dago berrikusi behar diren ordu-orrien zerrenda. Aukera hau erabilgarri dago lan-fluxuaren onartzaile izendatu bazaituzte. Goiburukoa eta lineako onarpena onartzen dira. Linea maila onartzeak onartzeko lerro bat edo gehiago markatzeko aukera eskaintzen du. Ordutegiaren informazioa berrikusi ondoren, egin klik **Onartu** , **Ordezkaria** , edo **Itzuli** lan-fluxuarekin jarraitzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

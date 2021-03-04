@@ -55,3 +55,6 @@ Proiektu-kontratua irabazi ostean, proiektua bete beharko duzu. Atazen xehapenar
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Proiektu-kudeatzailearen gida](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

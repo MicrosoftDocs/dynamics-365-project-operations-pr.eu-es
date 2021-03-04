@@ -43,3 +43,6 @@ Jarraian, proiektuaren aurrekontuetan eskuragarri dauden fitxak eta KPIak daude,
 | Errentagarritasun-analisia | Eskaintzako fitxa | Fitxak neurketa hauek ditu:</br>- Kobra daitekeen kostua, guztira</br></br>- Kobra ezin daitekeen kostua, guztira</br>- Diru-sarrerak, guztira</br>- Diru-sarrerak, guztira (oinarrizkoa)</br>- Marjina gordina</br>- Marjina gordin doitua|
 | Bezeroen aurreikuspenekiko konparazioa | Eskaintzako fitxa | Fitxa honek neurketa hauek ditu:</br>- Aurreikusitako osatze-data</br>- Eskatutako osatze-data</br>- Bezeroaren aurrekontua</br>- Eskainitako balioa |
 | Eskaintzaren analisia | Eskaintzako fitxa | Fitxa honek proiektuaren aurrekontua lortzeko ondorengo KPI nagusiak laburbiltzen ditu</br>- Aurrekontuaren eta ordutegiaren bezeroen itxaropenekin alderatzea</br>- Marjina gordina</br>- Marjina gordin doitua |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

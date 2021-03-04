@@ -41,3 +41,6 @@ Proiektuetan oinarritutako salmenta aginduak bi modutan sor ditzakezu:
 - Joan proiektura bertara. Ekintza panelean, hautatu **Kudeatu > Elementuen zereginak > Salmenta agindua**. Proiektuaren informazioa proiektuaren salmenta eskaera lehenetsiko da. Proiektuaren kontratuak finantzaketa iturri bat baino gehiago baditu, finantzaketa iturria hautatu beharko duzu bezeroa salmenta eskaerarako ezartzeko. Proiektua finantzatzeko iturri bakarra baldin badago, bezeroa automatikoki konfiguratuko da.
 - Joan **Salmenta eskaera guztiak** zerrendaren orria eta salmenta eskaera berria sortu. Salmenta eskaeraren proiektua hautatu beharko duzu. Proiektua hautatu ondoren, bezeroa finantziazio iturritik ezarriko da edo finantzaketa iturria hautatu beharko duzu proiektuaren kontratuak finantzazio iturri anitz baditu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

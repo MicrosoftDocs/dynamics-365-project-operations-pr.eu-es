@@ -30,3 +30,6 @@ Katalogoko produktu baterako produktuan oinarritutako kontratu lerroa sortzen de
 Produktuan oinarritutako kontratuaren lerro batean kostu unitarioa edukitzearen helburua salmenta bakoitzeko produktu baten kostu desberdinak ahalbidetzea da. Beharrezkoak ez diren arren, hornitzaileek produktuaren kostua beheratu dezakete bezeroaren kasuan. Hartu kontuan egoera hau:
 
 Fabrikam Robotics Adatum Corporation-en muntaia lerroetan beso robotikoak instalatzen ari da. Fabrikam-ek instalazio zerbitzuak eskaintzen ditu baina beso robotikoak Trey Research enpresakoak dira. Adatum Corporation-en beso robotikoak instalatzeak Trey Research-en industria bertikal berria irekitzen badu, Trey-k deskontu berezia eman diezaioke Fabrikam-i akordio horretarako. Kasu honetan, Fabrikam-ek produktuetan oinarritutako kontratu lerro bat sortzen du Robotic Arms-entzat. Kontratu honetarako unitateko kostu bakoitza sartzen da. Trey Research-eko arma robotikoen kostua ezberdina da.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

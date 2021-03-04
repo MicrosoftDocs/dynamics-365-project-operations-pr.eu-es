@@ -59,3 +59,6 @@ Proiektu bakoitzak proiektuko taldekide ugari ditu. Taldekideak proiektuaren ona
 3. Sakatu **Gorde**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Faktura zuzentzailea baieztatzen duzunean, fakturatutako jatorrizko salmenten be
 
 - Fakturatutako salmentak sei orduz fakturatu dira.
 - Bete gabeko salmentak benetako gainerako bi orduetan. Transakzio hau beranduago fakturatu daiteke edo kargagabea izan daiteke, bezeroarekin izandako negoziazioen arabera.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

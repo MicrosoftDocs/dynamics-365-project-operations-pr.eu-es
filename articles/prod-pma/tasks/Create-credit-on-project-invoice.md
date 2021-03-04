@@ -39,3 +39,6 @@ ms.locfileid: "4071013"
 10. Sakatu Ados. 
 
 Urrats honen ondoren, Kreditu Oharra faktura proposamenerako erabilgarri egongo da.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

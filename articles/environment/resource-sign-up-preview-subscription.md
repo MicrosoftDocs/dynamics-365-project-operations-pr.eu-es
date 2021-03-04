@@ -98,3 +98,6 @@ Jarraitu gaiaren argibideak, [Ingurune berria hornitzea](resource-provision-new-
 
 Instalatu CDS konfigurazio eta konfigurazio datuak gaian deskribatutako moduan, [Konfiguratu eta aplikatu konfigurazio datuak Common Data Service](resource-apply-pro-setup-config-data.md).
 Osatu urrats hau Finantza demo ingurunea zabaldu eta FOko demo datuak prest egon ondoren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,5 @@ Baliabideen eskakizunei ezaugarriak gehitzeak baliabide batek proiektu bateko ze
 3. **Trebetasunak** azpisarean, hautatu **+Gehitu eskakizunen ezaugarri berria**.
 4. Sortu azkarreko panelean, bilatu eta hautatu beharrezko ezaugarriak eta gehitu **Balorazio-balioa**.
 5. Hautatu **Gorde eta itxi**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

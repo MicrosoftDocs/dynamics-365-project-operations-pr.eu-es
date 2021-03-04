@@ -31,3 +31,6 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 **Benetako datuak** entitateak baliabideetan oinarritutako prezioen prezio-dimentsio gisa erabil daitezkeen eremu asko ditu. Adibidez, eremu arrunt bat **Baliabide erreserbagarria** da. Baliteke 20-30 baliabide fakturagarri baino gutxiago dituzten enpresa txikien iritziz, baliabide bakoitzerako faktura eta kostu tasak edukitzea ikuspegi sinpleagoa izatea. Hala ere, fakturatzeko plantilla hazten den neurrian, baliabideen araberako tasak mantentzea ez da errealista bihur daiteke. Baliabideen kostua eta fakturazio tasak aldatzen hasten dira baliabideak sustatu, esperientzia gehiago lortzen edo beste gaitasun multzo bat eskuratzen duten heinean. 
 
 Beste adibide bat transakzioaen kategoria da. Bezeroek eta inplementatzaileek transakzioen kategoria erabili dute lana sailkatzeko eta eremua erabili dute prezioa eta kostua lanaren kategorian oinarrituta ezartzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

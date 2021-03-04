@@ -34,3 +34,6 @@ Kostu, salmenta eta transferentzia prezio guztiak eginkizunetarako konfigura dai
 1. Gainean **Salmenta prezioa (ordua)** orrialdea, hautatu **Berria** , eta sartu data eraginkorra.
 2. **Rola** zutabean, hautatu rol bat.
 3. **Prezioak** zutabean, sartu hautatutako baliabide rolaren prezioa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

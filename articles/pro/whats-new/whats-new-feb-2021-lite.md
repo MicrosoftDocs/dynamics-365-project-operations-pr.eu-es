@@ -38,3 +38,6 @@ Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie
 | **Proiektuaren antolaketa eta jarraipena** | 2164035 | Arazoak konpondu dira **Kopiatu proiektua** funtzioa. |
 | **Denbora-sarrera** | 2129161 | Murrizketa estuagoak aplikatzen dira erabiltzaileek bidalitako edo onartutako denbora sarrera aldatu eta eguneratu ezin dutela ziurtatzeko. |
 | **Denbora-sarrera** | 2103572 | Proiektuak ez diren denbora-sarreren denbora onartzeak ez du proiektua onartzeko eginkizunik bilatu behar. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

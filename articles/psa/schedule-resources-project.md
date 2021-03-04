@@ -83,3 +83,6 @@ Bertsio zahar bat erabiltzen ari bazara, baliabide erabilgarritasuna jakiteko, i
   
 ### <a name="additional-resources"></a>Baliabide gehigarriak  
  [Baliabide-kudeatzailearen gida](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

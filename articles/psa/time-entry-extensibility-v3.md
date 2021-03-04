@@ -132,3 +132,6 @@ Plugin-en balidazioak erabili beharko zenituzke denbora-sarrera erregistro bakar
 
 > [!IMPORTANT] 
 > Gaur egun, TBX orrietan ezagutzen den arazo batek erabiltzaileei informazioa zuzentzea eta berriro "Eginda" aukeratzea galarazten die eguneratzeak pluginen balioztapena huts egiten duenean. Konponbide gisa, konfiguratu negozioaren arauen balidazioa egoera hori ahalik eta gehien saihesteko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

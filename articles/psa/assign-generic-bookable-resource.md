@@ -59,3 +59,6 @@ Gainera, **baliabide eskakizuna** atalean ere klik egin dezakezu taldeko sarean 
 
 ![Baliabideen eskakizuna](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

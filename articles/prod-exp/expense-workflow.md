@@ -55,3 +55,6 @@ Hurrengo prozesua gastu-txosten baten kudeaketa-fluxuaren adibidea da.
 Baldintza horiek egiaztatu ondoren, gastuen txostena argitaratuko da.
 
 Gastuen txostena argitaratu ondoren, gastuen txostena ordaintzeko baimena ematen da eta langileari itzulketa egiten zaio.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

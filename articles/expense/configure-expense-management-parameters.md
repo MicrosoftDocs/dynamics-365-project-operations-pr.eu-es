@@ -83,3 +83,6 @@ Gai honetan Gastuen kudeaketako portaera orokorra kontrolatzen duten parametroak
 | Erakutsi ustelkeriaren aurkako agiria   | Aukeratu aukera hau gastuaren txostena sortzen denean ustelkeriaren aurkako testua erakusteko. Gastu-kategoria zehatzak gaitu daitezke, ustelkeriaren aurkako egiaztagiria gastu-txostenean hautatzea eskatuko dutenak. Adibidez, gobernuko ofizialen gastuekin lotutako opari kategoria batek langileak baieztatu beharko du gastuak gobernuko funtzionarioekin zerikusia duen enpresaren politika betetzen duela baieztatzea. |
 | Ustelkeriaren aurkako mezua bidaltzailearentzat | Idatzi gastu-txostena sortzen ari den langile bati erakutsi behar zaion testua. Erabiltzailearen hizkuntzan oinarrituta erakutsiko den hizkuntza zehatzeko testua sartzeko, hautatu **Itzulpenak**. |
 | Ustelkeriaren aurkako mezua onartzailearentzat  | Idatzi gastu-txostena sortzen denean onartzaileari erakutsi behar zaion testua. Erabiltzailearen hizkuntzan oinarrituta erakutsiko den hizkuntza zehatzeko testua sartzeko, hautatu **Itzulpenak**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

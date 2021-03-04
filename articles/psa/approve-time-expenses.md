@@ -47,3 +47,6 @@ Aholkulariek proiektuko denbora eta gastuak sartu ostean, onartu egin behar ditu
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Proiektu-kudeatzailearen gida](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

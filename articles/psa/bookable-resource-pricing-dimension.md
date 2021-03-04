@@ -76,3 +76,6 @@ Honek irekitzen du **Prezioen dimentsioaren eremu berriaren izena** orrialdea **
 5. Gehitu **msdyn_projectteam** **Erakundearen izena** eremuan eta **msdyn_bookableresourceid** **Eremuaren izena** eremuan. Erregistroa gorde
 
  ![Prezio-dimentsioaren eremu-izena](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Arazo hauek konpondu dira:
 - Bezeroek errendimendu degradatua izan dezakete proiektu bat sortzerakoan **GetBookableResourceIdFromUser** parametroak baliabide erreserbagarrien zutabe guztiak berreskuratzen dituelako ID nagusia bakarrik berreskuratu beharrean.
 - **TransactionType** entitateari aurre-balioztatzea eguneratzeko plugina falta zaio, erabiltzaileak transakzio motetarako baliozkoak ez diren **Unitateak** eta **UnitGroups** transakzio motetan ez sartzeko.
 - **Kendu** urratsak ez du funtzionatzen denbora-sarreren inportaziorako.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

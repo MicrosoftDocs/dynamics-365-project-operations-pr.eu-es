@@ -27,3 +27,6 @@ Proiektu taldeko kideek denbora-sarrerak sortu eta bidaltzen dituzte onarpenerak
 
 Sarrera bat sortu, bidali edo gogora ekartzeko moduari buruzko informazioa eta txostenak osatzen laguntzeko beste tresna batzuk ikusteko, ikusi [Erabiltzaileen portaera denbora sartzean](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

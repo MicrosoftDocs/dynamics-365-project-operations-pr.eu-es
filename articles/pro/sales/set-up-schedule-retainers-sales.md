@@ -32,3 +32,6 @@ Atxikitzaileen ordutegiak **Proiektuaren kontratua** orria Dynamics 365 Project 
 | Sortzeko aurrerapen kopurua | Sortu beharreko atxikitzaile kopurua sartzen duzunean, sistemak hasiera-data eta maiztasuna erabiltzen ditu eremuko zenbakia sortzeko. | Eremu hau eskuz eguneratzen denean, sistemak ez dio jaramonik egiten **Atxikitzaileen ordutegiaren amaiera** eremuan eta horren ordez atxikipen edo aurrerapen kopuru zehatza sortzen du. |
 | Fakturen maiztasuna | Aplikazioak zenbat aldiz sortuko dituen atxikipenak eta aurrerakuntzak. | Balio horrek zuzenean eragiten du atxikipen eta aurrerapen kopuruan eta sortutako datetan. |
 | Zenbatekoa guztira | Zenbateko osoa sortuko den atxikipen indibidualean edo aurrerakinetan banatzen den zenbatekoa da. | Ez dago alor honen beherako eraginik. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

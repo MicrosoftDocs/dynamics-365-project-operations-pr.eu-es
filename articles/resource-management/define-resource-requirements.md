@@ -26,3 +26,5 @@ Baliabideen eskakizunak Proiektuaren kudeatzaileak definitzen ditu proiektuan la
 3.  **Talde-kidea** fitxan, hautatu talde-kidea eta hautatu **Sortu eskakizuna**.
 
 Baliabide-eskakizuna aldatzeko moduari buruzko informazioari gehiago lortzeko, ikusi [Eguneratu Baliabide-eskakizunen xehetasunak](define-resource-requirements.md) baliabide-eskakizuna aldatzeko.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

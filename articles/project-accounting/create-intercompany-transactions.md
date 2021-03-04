@@ -113,3 +113,6 @@ Molly Clark, GBPMn lan egiten duen garatzaileak 10 orduko lana erregistratzen du
     - Kreditua: proiektua - Metatutako diru-sarrerak 120 USD
 
     Sistema enpresaren bezeroen arteko faktura sortzeko prest dago.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

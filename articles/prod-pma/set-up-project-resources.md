@@ -75,3 +75,6 @@ Aurreko zereginak amaitu ondoren, zeregin hauek bete ditzakezu nahi duzun moduan
 - Baliabide-eskaerak bete.
 - Eskatu baliabide pertsonal bat WBS bati.
 - Erreserbatu baliabideak proiektu batera, pertsonaleko baliabiderik eskatu gabe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Project Operations-ek inplementazio eredu ugari onartzen ditu. Inplementazio ere
 2. Instalatu **Microsoft Dynamics 365 Project Operations** Dynamics 365 aplikazioen hedapen zerrendatik. Informazio gehiago eskuratzeko, irakurri [Kudeatu Dynamics 365 aplikazioak](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Egutegiak ez ditu onartzen egutegi indibidualeko elementuetan egindako ekintzak 
 ## <a name="extensibility"></a>Hedagarritasuna
 
 Denbora-sarreraren gelaxka duen **Denbora-sarrerak** orrian, pertsonalizatutako eremuak gehi ditzakezu, bilaketa eremuak konfiguratu ditzakezu eta ikuspegi pertsonalizatuak sor ditzakezu. Pertsonalizatutako eremuetan hautatutako edo idatzitako balioetan oinarritzen den negozio-logika pertsonalizatua ere konfiguratu dezakezu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

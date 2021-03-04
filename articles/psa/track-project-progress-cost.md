@@ -40,3 +40,6 @@ Batzuetan baliteke zereginean hasieran aurreikusitakoa aldatu behar izatea. Lite
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Proiektu-kudeatzailearen gida](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -242,3 +242,6 @@ Hurrengo taulan Project Task mendekotasunak esleitzeko entitatearen datuak Proje
 
 ### <a name="additional-resources"></a>Baliabide gehigarriak
  [Proiektu-kudeatzailearen gida](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

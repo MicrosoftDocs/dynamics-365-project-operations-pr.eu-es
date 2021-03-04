@@ -48,3 +48,6 @@ Zereginen esleipenak dituzun baina erreserbarik ez baduzu, hautatu erreserba-fal
 Webgunearen bidez sortzen diren erreserbak **Luzatu erreserba** ekintza lehen proiektuaren eskakizunarekin lotzen da. Luzapen bat hasten denean, ezin da zehaztu luzatu behar den eskakizun zehatza, baliabidea proiekturako baldintza bat baino gehiagorekin lotu baitaiteke.
 
 Orduan, proiektu-kudeatzaileak edo baliabide-kudeatzaileak antolaketa-panela erabil dezake baliabide batek bere ahalmenetatik harago gaitasunak gainditutako edozein egoera kudeatzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

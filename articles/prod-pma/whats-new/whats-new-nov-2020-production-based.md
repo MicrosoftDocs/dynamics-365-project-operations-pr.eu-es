@@ -26,3 +26,6 @@ Eguneratze honetan jasotako konponketen inguruko informazioa lortzeko, hasi Life
 ## <a name="regulatory-updates"></a>Araudiaren eguneratzeak
 
 Eguneratze arautzaileei buruzko informazioa lortzeko Dynamics 365 Finance and Operations aplikazioak, ikusi [Araudiaren eguneratzeak](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). LCS-en saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

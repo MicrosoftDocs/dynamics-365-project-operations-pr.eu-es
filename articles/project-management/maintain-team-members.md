@@ -42,3 +42,6 @@ Hautapena egiten duzunean, baliabidea proiektuko taldeari gehitu eta zereginari 
 **Berdinkatzea** fitxaren luzatzeko erreserba gaitasuna erabil dezakezu edo **Antolaketa-panela** aukera baliabidearen gaitasuna proiektua erreserbatzeko.
 
 Taldekide bat zure proiektuan erreserbatu ondoren, **Mantendu erreserbak** edo **Antolaketa-panela** erabil dezakezu erreserbak kudeatzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

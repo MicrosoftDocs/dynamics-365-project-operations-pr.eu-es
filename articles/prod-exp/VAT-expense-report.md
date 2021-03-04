@@ -72,3 +72,6 @@ Arnie BEZa berreskuratzeko aitorpena aurkeztuko duen hirugarren saltzaileari gas
 Arniek egiaztatu behar du gastuen txostenen transakzioak BEZa berreskuratzeko modukoak direla, eta ordainagiri digitalak txostenetara erantsita daudela. Etxean berreskuratzeko hautagarriak diren gastuak prozesatzen hasteko, Arnie-k irekitzen du **Gastuen zerga berreskuratzea** orrialdean eta egiaztatzea eskatzen duen gastuen txostena hautatzen du. Egiaztagiriak langilearen ordez enpresaren izenean daudela egiaztatzen du. BEZa berreskuratzeko, ordainagiriak enpresaren izenean egon behar dira. Orduan, Arniek baieztatu du salmenten gaineko zergaren talde zuzena eta salmenten gaineko zergaren kodeak aplikatu direla.
 
 Arniek paperezko ordainagiriak jasotzen dituenean, gastuen txostenaren egoera aldatzen du **Berreskuratzeko prest**. Ondoren, aitorpena dagokion zerga agintaritzan aurkeztu dezake. Kasu honetan, AEBtako zerga agintari egokia Internal Revenue Service (IRS) da.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Lanaren banakako egiturari eguneratze bat edo gehiago egiten zaizkionean, azkene
   - Project Operations sistema
   - Proiektuaren sistema
   - Project Operations-en idazketa bikoitzeko sistema (funtzio hau beharrezkoa da Project Operations-en baliabidea/biltegiratu gabeko oinarritutako egoera hedatzen ari bazara.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

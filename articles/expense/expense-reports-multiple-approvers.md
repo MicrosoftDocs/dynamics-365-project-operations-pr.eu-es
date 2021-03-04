@@ -41,3 +41,6 @@ Gastu-txostenen onarpen anitz behar izatea erabakitzen baduzu, lan-fluxuko eleme
 
     1. Langilearen zuzendariak gastuen txostena onartzen du.
     2. Aurrekontuaren jabeak gastuen txostena onartzen du.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

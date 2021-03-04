@@ -62,3 +62,6 @@ Proiektuak CDS-n sortu eta mantentzen dira. Proiektuen kontabilitate atributuak 
 4. Ezarri finantza-dimentsio lehenetsiak. Kontuan izan finantza dimentsioak bezeroaren kontutik lehenetsita daudela. Proiektua proiektu kontratuko bezero anitzekin kontratu lerro batekin lotzen bada, bezero nagusia lehenetsitako finantza dimentsioetarako erabiltzen da.
 
 Proiektuaren lehenetsitako finantza dimentsioak egunkariaren lerroaren lehenespenak ezartzeko erabiltzen dira denbora, gastu eta kuoten transakzioetarako **Project Operations Integration Journal** eta lotutako proiektuen faktura-lerroetan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

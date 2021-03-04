@@ -69,3 +69,6 @@ Baliabideen programazioaren errendimendua hobetzeko gaitu, jarraitu urrats hauek
 
 > [!NOTE]
 > Honek datu orokorrak banatuko ditu **ResRollup** zure inguruneko enpresa guztien artean egin ezazu, beraz, sorta lana pertsona juridiko bakarrean exekutatu behar da. Batch lan hau beharrezkoa da guztientzat **Baliabideen erabilgarritasuna** ikuspegiak. Batch lan hau exekutatzen ez bada, **ResRollup** datuak hegan sortuko dira eta horrek denbora behar dezake.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

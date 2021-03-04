@@ -142,3 +142,6 @@ Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie
 ## <a name="regulatory-updates"></a>Araudiaren eguneratzeak
 
 Eguneratze arautzaileei buruzko informazioa lortzeko Dynamics 365 Finance, ikusi [Araudiaren eguneratzeak](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Araudi-eguneratzeak ezagutzeko beste modu bat Lifecycle Services (LCS) saioa hastea da eta aurreikusitako erregulazio-eguneratzeak ikustea arazoa bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Proiektuen iragarpena erabiltzen baduzu, ereduak azpimodelo gisa identifika ditz
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

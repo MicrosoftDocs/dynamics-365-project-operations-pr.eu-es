@@ -72,3 +72,6 @@ Bezeroei buruzko proiektuaren prezioen zerrendak ere konfigura ditzakezu zure be
 ## <a name="custom-pricing-on-a-project-contract"></a>Proiektuaren kontratuaren prezio pertsonalizatuak
 
 Erakundearen eta bezeroaren berariazko proiektuen prezioen zerrenda lehenetsiak izan ondoren, zure proiektuen kontratuak proiektuen prezioen zerrenda elkarte horiekin sortuko dira automatikoki. Hala ere, proiektuaren kontratu bateko proiektuen prezioen zerrendak beti erantsitako data eta kontratuaren izenarekin kopiatzen dira. Kontu eta proiektuen kudeatzaileak kopia hauen prezioen aldaketak egiten has daitezke. Aldatutako prezio hauek proiektuaren kontratu honi soilik aplikatuko zaizkio.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

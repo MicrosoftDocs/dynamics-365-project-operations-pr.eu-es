@@ -55,3 +55,6 @@ Informazio gehiago lortzeko, ikusi [blog](https://blogs.msdn.microsoft.com/crm/2
  [Proiektu-kudeatzailearen gida](../psa/project-manager-guide.md)   
  [Baliabide-kudeatzailearen gida](../psa/resource-manager-guide.md)   
  [Denboraren, gastuen eta lankidetzaren gida](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

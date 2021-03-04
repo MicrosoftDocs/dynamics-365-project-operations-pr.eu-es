@@ -102,3 +102,6 @@ Jarraian proiektuaren plangintza fitxetan dauden kontrol tipikoen ikuspegi labur
 **Gehitu zutabea**: Erabiltzaileari sarean ikusgai dauden zutabeak definitzeko aukera ematen dio. Kutxaz kanpoko zutabeak soilik gehitu daitezke sarean **Proiektuaren plangintza** inprimakia.
 
 ![Gehitu zutabea botoia](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Ondorengo adibidean **CopyProject** ekintza pertsonalizatua **removeNamedResourc
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

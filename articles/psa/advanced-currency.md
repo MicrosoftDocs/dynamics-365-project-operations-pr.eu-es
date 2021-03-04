@@ -105,3 +105,6 @@ Dynamics 365-ek automatikoki kudeatzen ditu diru-kopuruak moneta desberdinetan. 
 | Gastua           | Fakturatu gabeko salmentak   | 17-eka | Dabid  | Auto-alokairua           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159.57 USD     |
 
 Proiektuan fakturatu gabeko salmenten balio osoa kalkulatzeko, bildu eremua sor dezakezu **Zenbatekoa** eremua, fakturatu gabeko salmenten inguruko errealitate guztietan. Bidalitako eremua Dynamics 365-en eraikuntza da, eta horrekin erlazionatutako erregistroetan formulak azkar egiteko aukera ematen du.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

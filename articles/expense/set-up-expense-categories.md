@@ -61,3 +61,6 @@ Konfigurazio prozesua hasi aurretik, erabaki hauek hartu behar dira gastu katego
 
     - Zerga berreskuratzetik kanpo dago azpikategorietako bat?
     - Zein da azpikategorien salmenten gaineko zergaren taldea?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

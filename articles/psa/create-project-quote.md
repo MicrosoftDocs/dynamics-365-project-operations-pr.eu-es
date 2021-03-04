@@ -55,3 +55,6 @@ Eskaintza bat sortzea abagune bat sortzearen oso antzekoa da. Abagunea informazi
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Kontu-kudeatzailearen gida](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

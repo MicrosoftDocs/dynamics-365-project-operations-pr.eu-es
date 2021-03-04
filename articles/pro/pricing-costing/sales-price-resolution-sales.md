@@ -54,3 +54,6 @@ Salmenten prezio zerrenda ebatzi ondoren, sistemak urrats hauek betetzen ditu un
     | &nbsp; | Markaketa kostuaren gainetik | Aplikatu kategoria prezioen lerroak lotutako kostu errealaren unitateko kostuaren tasan markatutako marka |
 
 4. Sistema ezin bada **Kategoria** eta **Unitatea** eremuko balioak, salmenten tasa zero (0) lehenetsita dago.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

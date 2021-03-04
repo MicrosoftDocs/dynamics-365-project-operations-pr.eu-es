@@ -90,3 +90,6 @@ Bete urrats hauek gastuen sarrera bat edo gehiago zuzentzeko.
 8. Proiektuaren orrian, **Benetako datuak** fitxan, berrikusi **Ikuspegiarekin erlazionatutako benetako datuak**. Jatorrizko sarrerak eta zuzendutako sarrerak zerrendatzen dira. Grafiko hauetan jatorrizko gastuen sarrera-zenbatekoak eta dagozkion zuzendutako gastuen sarrera-zenbatekoak erakusten dira. 
 
 ![Gastuen benetako datuak](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

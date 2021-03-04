@@ -344,3 +344,6 @@ Lehenengo hilabetean, guztira 800 ordu grabatzen dituzte aholkulariek proiektuan
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

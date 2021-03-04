@@ -31,3 +31,6 @@ Gastu txosteneko gastuak langilea enplegatzen duen enpresa ez den beste enpresa 
 Gastu txostena argitaratzeko,**Onartutako gastuen txostenak** orrian, hautatu gastuen txostena eta, ondoren, Ekintza panelean, hautatu **Bidali**.
 
 Zerrendako gastuen txosten guztiak aldi berean bidal ditzakezu. Aukeratu gastuen txosten guztiak, eta hautatu **Bidali**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

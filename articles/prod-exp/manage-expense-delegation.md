@@ -41,3 +41,6 @@ Ezaugarrien kudeaketa gakoa denean **Gaitu gastuen ordezkarien zerrenda orria** 
 Erabiltzaile delegatu batek bere esku utzitako lehendik dauden gastuen txostenak azkar iragazi eta bila ditzake. Beste erabiltzaileentzako gastuen txosten berri bat ere sor dezakete hautatuta **Gastu-txosten berria**.
 
 Erabiltzaile delegatuek beste langileentzako gastuen txostenak sortu eta kudea ditzakete bertara joanda **Gastuen kudeaketa** > **Nire gastuak** > **Gastuen txostenak** eta hautatzea **Ireki beste erabiltzaileen gastuak**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

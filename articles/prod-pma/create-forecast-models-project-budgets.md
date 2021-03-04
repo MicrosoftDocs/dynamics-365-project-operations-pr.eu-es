@@ -57,3 +57,6 @@ Gai honetan gainerako aurrekontuetarako aurreikuspen eredua nola sortu deskribat
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Arazo hauek konpondu dira:
 - Erreferentzia nuluko salbuespena sortzen da **GetEstimatesForProject** plugina deitzen da.
 - **Markatu fakturatzeko prest** mugarriko saretan atributuak partzialki eguneratzen ditu soilik, **FakturaEgoera** atributua, eguneratu dena.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Dimentsioaren lehentasuna zehazteak prezioari prezio bat sortzen laguntzen dio s
 
 - **Kostuen lehentasuna**: dimentsio baten kostuaren lehentasunaren balioak dimentsio horren pisua adieraziko du kostuen prezioen konfigurazioarekin bat datorrenean. **Kostuen lehentasuna** eremuaren balioak bakarra izan behar du **Kostuari aplikagarria** dimentsioetan.
 - **Salmenten lehentasuna**: dimentsio baten salmenten lehentasunaren balioak dimentsio horren pisua adieraziko du salmenten prezioen edo faktura-tasen konfigurazioarekin bat datorrenean. **Salmenten lehentasuna** eremuaren balioak bakarra izan behar du **Salmentei aplikagarria** dimentsioetan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

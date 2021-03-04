@@ -45,3 +45,6 @@ Proposamena ezesteko, sakatu **Baliabidea**.
 ![Baliabide proposamena onartzea](media/RM-how-to-20.png) 
 
 Baliabide generikoen eskaera izendatutako baliabide batekin zuzenean betetzeko antzekoa, baliabide generikoa ordezkatuko da eta esleitutako zereginak taldeko kide izendatuarekin eguneratuko dira.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Prezio finkoen diru-sarreren kalkuluen proiektuak berrikusteko, jarraitu urrats 
 
   Proiektuaren kostua, diru-sarreren profila, kostuen txantiloia eta aldiaren kodea eskuz ezar daitezke. Eskuz ezarrita ez badaude, balioek lehenetsitakoak izango dira proiektuaren lehenengo kalkulu kalkuluan proiektuaren kostu eta diru-sarreren profiletarako konfiguratutako arauak erabiliz.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -144,3 +144,6 @@ Erabili plugin-en balidazioak denbora-sarrera erregistro bakarrean eskuragarri d
 
 ### <a name="copying-time-entries"></a>Denbora-sarrerak kopiatzea
 Erabili ikuspegia **Kopiatu denbora sartzeko zutabeak** denbora sartzean kopiatu beharreko eremuen zerrenda definitzeko. **Data** eta **Iraupena** derrigorrezko eremuak dira eta ez dira bistatik kendu behar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

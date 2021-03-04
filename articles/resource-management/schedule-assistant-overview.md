@@ -57,3 +57,6 @@ Iragazki-panelak lanarekin lotutako aukerak erakusten ditu, besteak beste:
 -   Baliabideen enpresa
 -   Baliabide motak
 -   Hobetsitako baliabideak
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

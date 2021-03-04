@@ -96,3 +96,6 @@ Jarraitu urrats hauei bertsio pertsonalizatua sortzeko, **Proiektuaren informazi
     ```
 
 6. Gorde eta, gero, argitaratu pertsonalizazioak.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

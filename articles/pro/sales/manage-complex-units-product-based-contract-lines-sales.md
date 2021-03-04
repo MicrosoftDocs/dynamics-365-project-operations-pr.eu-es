@@ -46,3 +46,6 @@ Produktuaren propietateetatik kantitate faktoreak sortzeko, jarraitu urrats haue
 7. Errepikatu 2-6 urratsak batera produktuan oinarritutako kontratu linearen kopurua osatuko duten propietate guztientzat.
 
 Kopuru faktoreak konfiguratuta, erabiltzaileak produktu honetarako kontratu lerro bat sortzen duenean, kontratu lerroaren kopurua blokeatuta dago. Kopurua kontratu lerro horretako jabetza balioen produktu gisa kalkulatzen da.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

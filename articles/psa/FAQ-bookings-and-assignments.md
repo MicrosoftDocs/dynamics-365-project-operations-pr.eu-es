@@ -68,3 +68,6 @@ Erreserbak eta esleipenak ez daudenek oso elkartuta, posiblea da profilak errese
 > [!NOTE]
 > Zuk profila emandako zeregin bat mugitzen baduzu, profil horiek ez dira mantenduko. Contours, proiektua egutegiak kontu lan egin ataleko aldaketak lanorduekin eta oporrak arabera regenerated dira. Hau sistemak jatorrizko profilaren asmoa zein den ez dakielako gertatzen da, eta ezin du zehaztu mantentzeak zentzua duen edo ez denbora-epe berri batean. Erreserbak eta esleipenak deskonektatuta daudenez, erreserbek jatorrizko erreserba-profilak mantentzen dituzte. Kasu horretan, behar duzu bertan behera utzi eta berri esleipena-contour rebook.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

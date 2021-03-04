@@ -52,3 +52,6 @@ Osatu urrats hauek pluginak eguneratzeko eta berriro erregistratzeko.
 7. Hautatu **Ados** aukeran orria ixteko eta, ondoren, hautatu **Eguneratu urratsa**.
 8. Errepikatu 2-7. urratsak bigarren pluginerako, **PreOperationQuoteLineDetail**. Plugin honetarako, **Eguneratu msdyn_quotelinetransaction** urratsa eguneratu behar duzu.
 9. Itxi **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

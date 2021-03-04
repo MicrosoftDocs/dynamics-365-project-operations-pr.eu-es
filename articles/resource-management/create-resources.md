@@ -20,3 +20,6 @@ ms.locfileid: "4514482"
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 Erabil dezakezu Dynamics 365 Field Service zure erabilgarri dauden baliabide erreserbagarriak sortzeko Dynamics 365 Project Operations ingurunea. Baliabide horiek sortzeko, ikusi [Konfiguratu erreserbatzeko baliabideak](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

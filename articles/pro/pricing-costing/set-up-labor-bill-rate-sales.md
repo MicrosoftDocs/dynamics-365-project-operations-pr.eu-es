@@ -55,3 +55,6 @@ Adibidez, Fabrikam Indiako garatzaile batek AEBetako proiektu batean lan egiten 
     | Garatzailea | Fabrikam US | 150 $ |
 
 3. Erantsi salmenta prezioen zerrenda, **Fabrikam AEBetako fakturen tasak** proiektuaren kontratuaren proiektuaren prezioen zerrendara edo kontu jakin batera.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

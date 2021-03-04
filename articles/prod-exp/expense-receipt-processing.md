@@ -95,3 +95,6 @@ Gaur egun, Estatu Batuak onartzen dira.
 Finance-k Cognitive Service harremanetan jarriko da eremuko datuak ateratzeko. Cognitive Service-k zure ordainagiriaren kopia mantenduko dute 24 orduz gehienez prozesamendua gertatu bitartean. Prozesamendua amaitu ondoren, Cognitive Services-ek ordainagiria kenduko du. Ordainagiriak Finantzan gordetzen dira oraindik.
 
 Informazio gehiagorako, ikus [Gaitu ordainagiriak ulertzeko inprimakia hautagaiaren gaitasun berriarekin](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Proiektu-kudeatzaileak bi modutara birproiektatu ditzake zereginetako ahaleginak
 - Gainidatzi garapenaren ehuneko lehenetsia zereginen benetako garapenaren beste kalkulu batekin.
 
 Planteamendu horietako bakoitzak zereginaren ETC, osatzeko aurreikuspena (EAC) eta garapenaren ehunekoa eta zeregin baten proiektatutako ahaleginaren bariantza berriro kalkulatzea eragiten du. Laburpen zereginetan EAC, ETC eta garapenaren ehunekoa berriro kalkulatzen dira eta ahaleginaren bariantzaren proiekzio berri bat sortzen dute.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

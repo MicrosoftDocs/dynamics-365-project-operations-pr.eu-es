@@ -55,3 +55,6 @@ Gastu-kategoria bakoitzak bere unitate-taldea eta unitatea izan dezake. Gastu-ka
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Konfiguratu Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

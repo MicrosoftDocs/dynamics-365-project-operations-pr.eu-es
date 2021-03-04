@@ -65,3 +65,6 @@ Saltzailearen atxikitzeko baldintzak sortu ondoren, saltzaile horrentzako edozei
 6. Proiektuak saltzailearentzako ordaindutako ordainketa (PWP) baldintzak ere baditu, sartu proiektuaren atalase portzentajea **PWP atalasearen ehunekoa** eremua.
 
 Saltzaileari atxikitzeko baldintzak saltzailearentzat sortzen dituzun erosketa-eskaeretan ere agertzen dira.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

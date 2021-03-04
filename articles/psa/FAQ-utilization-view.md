@@ -101,3 +101,6 @@ Ez chargeable utilization ikusten ari zara, baduzu hona hemen zenbait gauza deza
   - Funtzioa proiektua kontratu-lineak proiektuan backing konfiguratu da. ez-chargeable.
   - Proiektuak ez du erlazionatutako kontratuaren lerrorik.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

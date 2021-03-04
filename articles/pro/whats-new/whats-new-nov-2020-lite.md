@@ -37,3 +37,6 @@ Ondorengo taulan CDS ingurumeneko Project Operations bertsioko eguneratzeak zerr
 | Denbora eta gastuen sarrera bizkorra | 2047499          | **Berria** Denbora sartzeko orrian botoiak irekitzen du **Posta elektronikoaren sinadura berria** orrialdea.                                                                                               |
 | Denbora eta gastuen sarrera bizkorra | 2059859          | Gastu sarrera sortzerakoan ustekabeko leihoa irekitzen da.                                                                                                                         |
 | Beste batzuk                        | 2044181          | [PO desinstalatzea] - Errorea, "Erregistroa ez dago erabilgarri" gertatzen da **msdyn_ProjectServiceCore_Patch** eta msdyn Project Service-ren oinarrizko irtenbideak desinstalatzen saiatzean.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

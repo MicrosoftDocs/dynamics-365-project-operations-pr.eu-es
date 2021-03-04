@@ -60,3 +60,6 @@ Fakturatu gabeko salmenten benetakoak **Ez gainditzeko** egoera **Huts egin du**
 Bezero anitzeko kontratu lerroek denbora eta materialen fakturazio metodoa baldin badute, denbora eta gastuak onartzen direnean, fakturatu gabeko salmenta erreal bat sortzen da kontratu lerroan bezero bakoitzarentzat, bezero bakoitzarentzat zehaztutako fakturazio ehunekoaren arabera. **Denboraren eta materialaren fakturazio-zorroa** ikuspegian, bezeroaren berariazko fakturaziorik gabeko salmenta errealak ikusiko dituzu. Faktura gabeko salmenten benetako datuen erregistro horietako bakoitza honela markatu daiteke **Fakturatzeko prest** ikuspegi honetatik bereizita.
 
 Fakturatu gabeko salmenten benetako datuen zirriborroan agertzen den produktuan oinarritutako kontratu lerroa fakturazio egoerarekin erakusten da ikuspegi honetan **Bezeroaren faktura sortu da**. Faktura zirriborroa baieztatzen denean, erregistro honetako fakturazio egoera eguneratzen da **Bezeroaren faktura argitaratua**. Ez eguneratu egoera balio hau kode pertsonalizatua erabiliz. Project Operations-ek ez du ondo funtzionatzen egoera balio horiek kode pertsonalizatuarekin eguneratzen direnean.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Hautatu inplementazio mota hau Dynamics 365 Project Operations proiektuaren bizi
 - Enpresa mailako salmenten gaineko zergaren eta truke tasaren motorra, proiektuetarako bezeroei begira fakturak sortzeko.
 - Nazioarteko Financial Reporting Arauak (IFRS) bateragarriak diren proiektuen kontabilitate eta diru sarrerak ezagutzeko sistema.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

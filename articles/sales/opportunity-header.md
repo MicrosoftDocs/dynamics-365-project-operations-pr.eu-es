@@ -36,3 +36,6 @@ Hurrengo taulan proiektuan oinarritutako aukera bateko eremuak biltzen dira, Pro
 | Kontratatzailea | Fitxa orokorra | Akordio honekin lotutako proiektua edo proiektuak entregatzeaz arduratzen den Antolakuntza unitatea. | Kontratazio unitatea akordioa itxi ondoren proiektuak osatuko dituen enpresaren banaketa da. Kontratazio unitate guztiek moneta bat dute, eta moneta hori proiektuan zehar egindako kostu estimatuen eta benetakoen berri emateko erabiltzen da. |
 
 Abagunearen **Laburpena** fitxako gainerako eremuei eta sekzioei buruzko informazio gehiago lortzeko, ikusi [Sortu edo editatu abaguneak (Salmentak eta Salmenten atala)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

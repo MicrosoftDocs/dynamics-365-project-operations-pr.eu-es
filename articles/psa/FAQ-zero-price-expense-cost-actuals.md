@@ -38,3 +38,6 @@ Hau ri buruzko FAQ aplikatzen expense emaitzetan non transakzio heredatzen da Ex
 Erlazionatutako expense sarrera joan eta dela bat expense sarrera eremu ziurtatzeko. Jatorrizko expense sarrera zenbatekoa eremua bete behar ez, ondoren, duzu izan isolated arazoa.
  
 Arazo hau merkatura, sortu berriro zenbatekoa baliogabea duen expense sarrera eta onartu da.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

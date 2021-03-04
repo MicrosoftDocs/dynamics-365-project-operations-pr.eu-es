@@ -71,3 +71,6 @@ Hurrengo adibidean, baliabideari dagokion funtzioaren eta hornikuntza-unitateare
 | ----------------|-------------|----------|----------:|----------|
 | Nire company_Band1 | Contoso US  |Hour | 145|USD     |
 | Nire company_Band2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

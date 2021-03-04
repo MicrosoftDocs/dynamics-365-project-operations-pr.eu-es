@@ -88,3 +88,6 @@ Fakturen ordutegiak kontratu lerro bakoitzari dagozkio eta fakturazio automatiko
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Dynamics 365 Sales-en eskaeren aldaketak
 
 Project Operations-en kontratuak Dynamics 365 Sales-en eskaeren gainean eraikitzen dira. Hala ere, funtzionaltasunean desbideratze eta desberdintasun garrantzitsuak dira. Kontratuek beren forma eta interfazeko elementu propioak dituzte, negozio arauak, negozio logika plug-inetan eta bezeroen aldeko scriptak, eskaeretatik bakarrak bihurtzen dituztenak. Arrazoi horiek direla eta, ez erabili salmenta-eskaerarik eta Project Operations kontraturik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

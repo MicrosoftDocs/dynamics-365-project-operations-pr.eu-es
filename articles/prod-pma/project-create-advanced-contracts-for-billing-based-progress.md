@@ -103,3 +103,6 @@ Aurrekontu kategoriak kategoria bakoitzerako egindako lan portzentajearen faktur
 8. Aukerakoa: esleitu fakturazio araua proiektu osagarriei. **Proiektua** FastTab fitxategian **Eskuragarri dauden proiektuak** atalean, hautatu proiektu bat eta, ondoren, hautatu eskuineko geziaren botoia proiektua gehitzeko **Aukeratutako proiektuak** atala.
 9. Aukerakoa: kalkulatu fakturak fakturatutako ordainketetan bezeroak gordetzen duen ehuneko kopurua. **Ordainketak atxikitzeko baldintzak** FastTab-en, hautatu finantzaketa iturria eta, ondoren, **Atxikipen portzentajea** eremuan, sartu atxikipen ehunekoa.
 10. Errepikatu urrats hauek proiektuaren kontratuaren fakturazio arau osagarriak sortzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

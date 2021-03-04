@@ -42,3 +42,6 @@ Arazo hauek konpondu dira:
 
 - Programatu laguntza bilaketa errendimendua hondatzea
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

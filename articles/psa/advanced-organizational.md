@@ -167,3 +167,6 @@ Zure enpresak kostuen prezioen zerrenda bat duen unitate gisa funtzionatzen badu
 Proiektua bere kabuz sortutakoan, proiektuaren kontratazio unitate lehenetsia sortzen duen erabiltzailea da. Erabiltzailea ere proiektu kudeatzaile lehenetsia da. Proiektua salmentako entitate batera mapatzen bada, aurrekontu edo proiektu kontratu gisa, proiektuaren kontratazio unitatea salmenta entitatean oinarritzen da. Kasu honetan, proiektuaren kalkuluak berriro kalkulatu litezke, izan ere, kostu-estimazioen aldaketak kalkulatzeko kostu-prezioen zerrenda erabiltzen da kontratazio-unitatea aldatzen bada. Salmenten prezioen zerrenda aldatuko diren salmenten kalkuluak kalkulatzeko erabiltzen da, proiektuaren prezioen zerrenda aurrekontuarekin sinkronizatzeko.
 
 The **Kontratazio Unitatea** eta **Moneta** Proiektuko eremuak editatzeko blokeatuta daude, proiektuaren mapak egiten dituen salmenta-erakundean (aurrekontua edo proiektu kontratua) dituzten balioekin sinkronizatuta egon behar dutelako.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

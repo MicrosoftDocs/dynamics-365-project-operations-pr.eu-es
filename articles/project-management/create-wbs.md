@@ -116,3 +116,6 @@ Zereginaren moduak ez du eraginik aurreko/mendeko zereginen hasiera- eta amaiera
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Erabilerraztasuna eta teklatuko lasterbideak
 
 **Antolaketa** sareta guztiz eskuragarria da eta pantaila-irakurleekin erabil daiteke, esaterako, JAWS edo NVDA. Saretako eremuan mugi zaitezke gezi-teklak erabiliz (Microsoft Excel-en bezala), Tab tekla erabil dezakezu interfazearen erabiltzaile-interfazearen elementutan aurrera egiteko, eta Behera gezi-tekla, Sartu tekla edo Zuriune-barra erabil ditzakezu goitibeherako menuak hautatzeko eta irekitzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

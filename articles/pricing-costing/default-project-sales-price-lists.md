@@ -57,3 +57,6 @@ Kostuen prezioen zerrendek ez dituzte lehenetsitako proiektuen eragiketetako ent
 5. Hurrena, sistemak sarrerako estimazioaren edo benetako lerroaren datarekin bat datozen prezio zerrenden dataren eraginkortasuna aztertzen du. 
 6. Sarrerako estimazioan edo benetako egunean eraginkorrak diren prezio zerrenda bat baino gehiago badira, azkenaldian sortutako prezio zerrenda hautatuko da.
 7. Proiektuaren parametroei moneta eta efektibitate datarekin bat datozen kostu prezioen zerrendarik ez badago, sistemak kostu tasa zero (0) lehenetsiko du sarrerako estimazioan edo benetako lerroan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

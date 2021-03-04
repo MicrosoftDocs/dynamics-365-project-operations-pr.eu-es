@@ -62,3 +62,6 @@ Android bateragarria izango da Plataformaren 16. eguneratzearekin, erabilgarri d
 13. Aukerakoa: Idatzi denbora-orriaren lerro osagarriak.
 
 14. Denbora-orriaren lerroak idazten amaitu ondoren, hautatu **Lan-fluxua** \> **Bidali** zure denbora-orria lan-fluxua onartzeko prozesura bidaltzeko ekintza.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ Sari Federalen Gastuen Ordutegiak kontsultak honako zutabe hauek ditu:
 - Barne Laguntza Federalaren katalogoa
 - Agiriak
 - Gastuak
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

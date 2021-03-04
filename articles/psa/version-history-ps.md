@@ -73,3 +73,6 @@ Project Service-ko eguneratzeei buruzko informazio gehiago lortzeko, joan [Dynam
 >[!Note]
 > - Eskualdeetako egunetan Gobernuaren Erkidegoko Hodeiak (GCC) izan ezik, hurrengo eguneratze automatikoaren ordua adierazten da. GCC-ko datetan bertsioen erabilgarritasuna adierazten da; une honetan, ez dago eguneratze automatikoki eskualde hauetarako.
 > - Gainerako eskualde guztientzat, eguneratze gehienak aurreikusitako gauean osatu behar diren arren, denbora gehiago behar duten eguneraketak ordu ilunetan osatu daitezke asteburuan adierazitako moduan **Aurkeztutako data** zutabea.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

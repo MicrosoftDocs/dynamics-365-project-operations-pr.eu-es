@@ -52,3 +52,6 @@ PSA-n txostenak egiteari buruzko informazio gehiago lortzeko, ikusi gai hauek:
 - [Project Service-ren datu ereduarekin lan egitea](reports-working-project-service-data-model.md)
 - [Aginte-panelak](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

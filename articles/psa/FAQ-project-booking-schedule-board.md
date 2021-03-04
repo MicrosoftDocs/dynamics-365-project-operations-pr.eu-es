@@ -91,3 +91,6 @@ Jarraitu hurrengo pausoak baliabide bat antolaketa paneletik liburu bat biguntze
 
 4. Baliabideari booked, dela orain zereginak eskuz esleitu behar duzu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

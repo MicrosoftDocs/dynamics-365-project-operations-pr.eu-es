@@ -96,3 +96,6 @@ Bertsio-berritze arrakastatsua ziurtatzeko, harreman hauek ongi mantendu behar d
 
 - Proiektuaren zereginen mendekotasun guztiak proiektu berarekin lotuta egon behar dute.
 - Zeregin batek ezin dio erreferentzia egin mendekotasun berari behin baino gehiagotan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Gasturako sortutako aurrekontua edo benetakoa soilik kobratuko da **Gastua** esk
 | +Ez | Yes | Proiektu osoa | Ezin da ezarri | Ezin da kargatu | Ezin da ezarri | Fakturazioa denbora errealean: Ez dago erabilgarri </br>Fakturazio mota benetako gastuan: Ez-kargagarria |
 | Yes | +Ez | Proiektu osoa | Kobra daiteke | Ezin da ezarri | Ezin da ezarri | Fakturazioa denbora errealean: Kargagarria</br>Fakturazio mota benetako gastuan: Ez dago erabilgarri |
 | Yes | +Ez | Proiektu osoa | Ezin da kargatu | Ezin da ezarri | Ezin da ezarri | Fakturazioa denbora errealean: Ez-kargagarria </br>Fakturazio mota benetako gastuan: Ez dago erabilgarri |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

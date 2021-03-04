@@ -288,3 +288,6 @@ Ez dira onartzen </p>
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

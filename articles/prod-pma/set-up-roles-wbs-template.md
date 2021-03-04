@@ -107,3 +107,6 @@ Aukera osagarriak gehitu dira WBSn, baliabideen funtzionalitatea hobeto erabiltz
     > Ez duzu ohartarazten zehaztutako baliabidea 2 dela, baliabide kopurua 1 izaten jarraitzen duelako.
 
 14. Gainean **Lanen matxuren egitura** orrialdean, baliozkotu baliabideen esleipena WBSn eta hautatu **Gorde**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

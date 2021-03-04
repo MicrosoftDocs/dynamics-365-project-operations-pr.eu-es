@@ -35,3 +35,6 @@ Proiektuaren etapek proiektuaren bizitza zikloaren gida izan daitezke. Zure proi
 4. Zerrendan, hautatu aurrez definitutako edo erabiltzaileak definitutako egoera, aldatu nahi duzuna. 
 5. Proiektuaren fasearen eremuan, idatzi izen berria.
 6. Sakatu Gorde.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

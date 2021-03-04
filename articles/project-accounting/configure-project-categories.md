@@ -53,3 +53,6 @@ Proiektuen kategoriek kategoriaren konfigurazio maila zehatzena adierazten dute 
 Kategoria-taldeak propietateak partekatzeko erabiltzen dira, batez ere profilak argitaratzeko, erlazionatutako proiektu kategorien artean. Transakzio mota bakoitzerako gutxienez kategoria talde bat egon behar da eta proiektu kategoria bakoitzari talde bat esleitzen zaio.
 
 Project Operations-en argitaratzeko zehaztapenak proiektuaren kostu eta diru-sarreren profileko arauek, proiektuen kategoriek eta kategoria taldeek definitzen dituzte. Kategoria taldeak konfigura ditzakezu hona joan **Proiektuen kudeaketa eta kontabilitatea** \> **Konfigurazioa** \> **Kategoriak** \> **Kategoria taldeak**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Gastuen txostenetarako, transakzio batetik Gastuen kudeaketan gordetako jatorriz
 Transakzio bat agertu zeneko jatorrizko gastuen txostena sakontzeko, hautatu transakzioa eta, ondoren, hautatu **Jatorrizko dokumentua**.
 
 Banakako transakzioak ikustean, transakzio bati erantsitako datu osagarriak ere ikus ditzakezu. Adibidez, hoteleko gastu zehatzetarako, Interneterako sarbidea, telefono deiak eta gela zerbitzua bezalako gastuen zerrenda zehatza ikus dezakezu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

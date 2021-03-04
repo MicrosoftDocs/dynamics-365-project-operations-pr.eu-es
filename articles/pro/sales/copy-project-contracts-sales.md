@@ -45,3 +45,6 @@ Informazio hau ez da **Iturritik** **Xede kontratutik** kopiatuta:
   - Bezeroaren aurrekontu-informazioa
 
 Informazio hau kontratu bakoitzerako zehatza denez, eremu eta erregistro horiek ez dira kopiatzen. Proiektuen eta produktuen kontratu lerroak, kontratuaren lerroaren xehetasunen inguruko kalkuluak eta kontratu-mailan ez gainditzeko balioak kopiatzen dira. Hautapeneko prezioaren eta kostuaren tasaren lehenespenen arabera **Kopiatu prezioak** eremuan hautatutako aukera **Kopiatu parametroak** elkarrizketa-orria.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

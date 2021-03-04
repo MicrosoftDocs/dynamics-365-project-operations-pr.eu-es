@@ -85,3 +85,6 @@ Denbora sarrera batzuk sortu ondoren, erabiltzaileek aldi berean hainbat sarrera
 
 ## <a name="import"></a>Inportatu
 Oinarrizko prozesu bera erreserbetatik, zereginetatik eta trukeetatik inportatzeko erabiltzen da. Inportatuko diren erreserben data zehaztu dezakezu eta, ondoren, modu esplizituan hautatu behar dira zirriborroen denbora-sarrerak gisa sortu behar diren erreserbak. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

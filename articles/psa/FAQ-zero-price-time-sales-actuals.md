@@ -57,3 +57,6 @@ Badago errenkada ez dago prezio-prezioen neurriak dira benetako denbora-salmenta
 
 Oraindik ikusten ez baduzu baliozko prezio benetako denbora salmenta atalean egiten egiaztapenak hiru goiko ondoren, itxaron saioa laguntza tiketa, gertaera bat. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

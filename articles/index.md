@@ -42,3 +42,6 @@ Honi buruzko informazio gehiago ikusi hemen:
 - [Project Operations-en ikuspegi orokorra](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [Dynamics 365 Project Operations 2020 bertsioaren 1. zatiaren ikuspegi orokorra](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

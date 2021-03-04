@@ -83,3 +83,6 @@ Power Query erabili behar baduzu, jarraitu jarraibide hori:
 Ondorengo ilustrazioak Datuen integrazioan txantiloien atazen mapen adibide bat erakusten du. Kartografiak Project Service Automation-etik Finantzara sinkronizatuko den eremuko informazioa erakusten du.
 
 [![Txantiloien mapaketa](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

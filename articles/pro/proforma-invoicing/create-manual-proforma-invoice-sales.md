@@ -35,3 +35,6 @@ Sortutako proiektuaren faktura guztiak eskuragarri daude **Faktura** orrialdean 
 Proforma faktura bat ere sor daiteke **Proiektuaren kontratua** xehetasunen orria. Sistemak proiektuen kontratuak **Fakturatzeko prest** atzerapena gaurko data baino lehenagokoa dela egiaztatzen du. Kontratu horietatik sistemak proforma fakturen zirriborroak sortzen ditu kontratu lerro bakoitzeko bezero kopuruaren arabera.
 
 Proforma faktura bakarra sortzen denean, **Faktura** orria irekitzen da. Proiektuaren kontratu horretarako faktura ugari sortzen badira, **Fakturak** zerrenda orria irekitako sortutako faktura guztiak erakusteko.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

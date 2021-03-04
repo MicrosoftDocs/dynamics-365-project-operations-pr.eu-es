@@ -170,3 +170,6 @@ Aurreikusitako, benetako eta gainerako kostuen eta salmenten eremuak aldatu gabe
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

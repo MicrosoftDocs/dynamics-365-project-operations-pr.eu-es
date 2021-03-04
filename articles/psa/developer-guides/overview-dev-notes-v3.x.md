@@ -33,3 +33,6 @@ Dynamics 365 Project Service Automation 3.x-k funtzio berriak eskaintzen ditu, p
 - [Denbora eta gastuen aldaketak (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
 - [Baliabide-kudeaketa gida (Project Service Automation 3.x)](../developer-guides/resource-management-changes-v3.x.md)
 - [Gaitzetsitako web baliabideak Project Service Automation-en 3.x bertsioan](../developer-guides/web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

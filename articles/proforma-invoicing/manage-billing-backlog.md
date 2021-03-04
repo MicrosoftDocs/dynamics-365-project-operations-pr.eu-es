@@ -38,3 +38,6 @@ A duten fakturatutako salmenten benetakoak **Ez gainditzeko** egoera **Huts egin
 Denbora eta materialen fakturazio metodoa duten bezero anitzeko kontratu lerroen kasuan, denbora eta gastuak onartzen direnean, fakturatu gabeko salmenta erreal bat sortzen da kontratu lerroan bezero bakoitzarentzat, bezero bakoitzerako zehaztutako fakturazio ehunekoaren arabera. kontratu lerroa. **Denboraren eta materialaren fakturazio-zorroa** ikuspegian, bezeroaren berariazko fakturaziorik gabeko salmenta errealak ikusiko dituzu. Faktura gabeko salmenten benetako datuen erregistro horietako bakoitza honela markatu daiteke **Fakturatzeko prest** ikuspegi honetatik bereizita.
 
 Fakturatu gabeko salmenten benetako datuak zirriborroaren mugarria erakusten da ikuspegi honetan **Fakturazio egoerarekin** **Bezeroaren faktura sortu da**. Faktura zirriborroa baieztatzen denean, erregistro honetako fakturazio egoera eguneratzen da **Bezeroaren faktura argitaratua**. Egoera horretan dagoenean, ez da gomendagarria egoera balio hori eguneratzea kode pertsonalizatua erabiliz. Proiektuaren eragiketek ez dute behar bezala funtzionatuko egoera balio horiek kode pertsonalizatuarekin eguneratzen direnean.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Project Operations-en aurrekontuak Dynamics 365 Sales-en aurrekontuen gainean er
 - Project Operations-en aurrekontuek beren forma eta interfazeko elementu propioak dituzte, negozio arauak, negozio logika plug-inetan eta bezeroen aldeko scriptak, Salmenten aurrekontuetatik bakarrak bihurtzen dituztenak.
 
 Arrazoi hauengatik, ez da gomendagarria Salmenten aurrekontua eta Project Operations-en aurrekontua modu aldakorrean erabiltzea.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Gida honetan proiektuak sortzeko eta kudeatzeko informazioa ematen da:
  [Baliabide-kudeatzailearen gida](../psa/resource-manager-guide.md)   
  [Denboraren, gastuen eta lankidetzaren gida](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

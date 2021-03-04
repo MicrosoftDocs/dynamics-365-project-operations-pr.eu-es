@@ -64,3 +64,6 @@ Aukera, aurrekontua eta Proiektuen kontratuaren entitateek produktu honen prezio
 Berez, **Produktua** eskaintzaren lerroko eremuan produktuen prezioen zerrendako produktu aktibo guztiak agertzen dira. Produktu bat aktibatuta egon bada edo produktu zirriborroa bada, ez da zerrendatzen, nahiz eta prezioen zerrendan egon. 
 
 Produktuen katalogoko lineak faktura-lerro gisa gehitzen dira proiektuko kontratu baterako sortzen den lehen fakturan. Zerga faktura batean, faktura lerro horiek ezaba daitezke. Kasu horretan, lerroak ondorengo faktura batean agertuko dira fakturatu arte edo faktura bezeroari bidali arte. PSAn, ezin duzu produktuen faktura-lerro bateko kantitate partziala fakturatu. Proiektuko kontratuaren produktu-lerroak fakturatzen direnean, errealak sortzen dira. Hala ere, egiazkoak ez daude lotuta proiektuaren entitatearekin. Alegia, produktuetan oinarritutako proiektuen kontratu-ildoak proiektuan oinarritutako edozein erabilerarekiko independentea dira. PSAk ez du materialen kontsumoa kontrolatzen proiektuetan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

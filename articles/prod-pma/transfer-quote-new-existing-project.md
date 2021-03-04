@@ -36,3 +36,6 @@ Morroia erabiltzeko, jarraitu urrats hauei.
 1. Joan **Proiektuen kudeaketa eta kontabilitatea** > **Eskaintzak** > **Proiektu-eskaintzak**.
 2. Aukeratu transferitu nahi duzun aurrekontua eta **Segimendua egin** fitxan, **Aldatu** taldea, hautatu **Transferitu proiektura**.
 3. Jarraitu **Transferitu aurrekontua proiektura** morroia aurrekontua proiektu batekin lotzeko eta transferitzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

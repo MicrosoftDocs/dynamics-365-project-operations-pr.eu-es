@@ -29,3 +29,6 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 - **Oharrak** eremuak proiektu-kudeatzaileari egoerari buruzko iruzkin zehatzak sartzen uzten dio. 
 - **Egoeraren eguneratze-data** eremua ez da editagarria. Eremu honetako balioa egoera azkenekoz noiz eguneratu zen adierazten duen denbora-marka da.
 - **Antolaketaren errendimendua** eta **Kostuen errendimendua** eremuak jarraipen-saretatik ezartzen dira. Erro-nodoaren antolaketa eta kostuaren bariantza positiboak direnean **Ahaleginaren jarraipena** ikuspegian, eremu horiek **Aurreratua** gisa egunera ditzakezu. Erro-nukleoaren antolaketa eta kostuaren bariantza negatiboak direnean, eremu horiek **Atzeratuta** gisa ezartzen dira.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

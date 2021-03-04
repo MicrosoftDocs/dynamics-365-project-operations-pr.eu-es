@@ -67,3 +67,6 @@ Erakundearen eta bezeroaren berariazko proiektuen prezioen zerrenda lehenetsiak 
 
 1. **Proiektuaren aurrekontua** aukeran, **Proiektuaren prezio-zerrenda** fitxan, egiaztatu azpisarean ez dagoela prezioen zerrendako erregistro zehatzik hautatuta.
 2. Hautatu **Sortu prezio pertsonalizatua**. Honek aurrekontuarekin lotzen diren prezio zerrenda estandar guztien kopiak egingo ditu eta kopia horiek aurrekontuarekin lotuko ditu. Prezioen zerrenda estandarretarako dauden elkarteak kenduko dira. Orduan, saltzailea kopia hauen prezioen aldaketak egiten has daiteke. Aldatutako prezio hauek proiektuaren aurrekontu honi soilik aplikatuko zaizkio.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

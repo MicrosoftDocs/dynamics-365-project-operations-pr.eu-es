@@ -74,3 +74,6 @@ Prezio finkoaren mugarriak eskuz sor ditzakezu, aldian-aldian banatzen ez direne
 | Zergak | Sorrera bizkorra | Mugarrian aplikatutako zergaren zenbatekoa. | Hori proiektuaren kontratu-lerroaren mugarrira eta fakturara hedatzen da. |
 
 3. Hautatu **Gorde eta itxi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

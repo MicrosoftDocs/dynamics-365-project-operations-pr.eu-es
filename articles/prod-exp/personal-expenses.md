@@ -33,3 +33,6 @@ Langilearen gastu pertsonalak kudeatzeko bi metodo daude:
 - **Enpresak ordainduta**: Zure erakundeak korporazioko kreditu txartelaren faktura osoa ordaintzen du eta gero langilearen kontua gastu pertsonalengatik kargatzen du.
 
 Zure erakundeak erabiltzen duen metodoa hauta dezakezu **Gastuak kudeatzeko parametroak** orrialdea.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Beka sor dezakezu xehetasun guztiak erregistro berri batean sartuz, edo lehendik
 2. Aukeratu aldatu nahi den beka.
 3. Ekintza panelean, **Baimena** fitxan, **Mantendu** taldea, hautatu **Editatu**.
 4. Berrikusi bekaren xehetasunak eta egin beharrezko aldaketak.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -297,3 +297,6 @@ Hautatu erabiltzaile bat (adibidez, Spencer txikia Balioa) eta erabiltzaile bati
 
 > [!div class="mx-imgBorder"]
 > ![Baliabide erreserbagarri aktiboen bilaketa bizkorraren pantaila-argazkia](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

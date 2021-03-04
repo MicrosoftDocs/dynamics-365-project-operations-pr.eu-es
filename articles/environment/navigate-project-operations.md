@@ -38,3 +38,6 @@ Aukeratu **Saioa hasi** > **Ingurumenean saioa hasi** helbidera nabigatzeko **Pr
 
 > [!NOTE]
 > Project Operations-era sar zaitezke Common Data Service eta **Proiektuen kudeaketa eta kontabilitatea** modulua zuzenean dagozkien URLak erabiliz. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

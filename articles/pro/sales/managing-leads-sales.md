@@ -72,3 +72,6 @@ Bezerogaitik abagunerako negozio-prozesuak fase hauek onartzen ditu:
 | Garatu | Abagunea | Garatu aukera inplikatutako lanari, funtsezko eragileei eta lehiari buruzko informazio gehiago gehitzeko. |
 | Proposatu | Abagunea | Garatu proposamena eta lortu barne ebaluazio taldearen onespena. |
 | Itxi | Abagunea | Irabazi abagunea mahuka ixteko. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

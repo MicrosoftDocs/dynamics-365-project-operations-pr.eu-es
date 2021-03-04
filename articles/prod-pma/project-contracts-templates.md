@@ -153,3 +153,6 @@ Ondorengo ilustrazioak Datuen integrazioan txantiloien atazen maparen adibide ba
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Proiektuen kontratuaren lerro mugarriaren proiektuak eta kontratuak (PSA 3.x-ra dinamikara) - v2 txantiloia:
 
 [![Proiektuen kontratuaren lerroen mugarrien mapaketa bertsioaren bi txantiloiekin](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

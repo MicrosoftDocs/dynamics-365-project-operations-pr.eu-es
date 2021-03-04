@@ -101,3 +101,6 @@ Hurrengo adibidean, Contoso Robotics USA (USPM) da mailegu-entitatea eta Contoso
           - **Baliabideen enpresa** = **Contoso Robotics UK**
           - **Fakturazio-tasa** = **200 USD**
       9. Joan **Salmentak** > **Proiektuen kontratuak** eta erantsi **Adventure Works fakturen tasak** proiektuaren kontratuaren Adventure Works proiektuaren prezioen zerrenda.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

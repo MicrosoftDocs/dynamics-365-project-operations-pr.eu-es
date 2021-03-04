@@ -48,3 +48,6 @@ Ondoren, proiektuko atazen xehapenaren egitura sortuko duzu, proiektuan behar di
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Proiektu-kudeatzailearen gida](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

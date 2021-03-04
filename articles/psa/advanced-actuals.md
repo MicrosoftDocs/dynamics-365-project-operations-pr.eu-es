@@ -34,3 +34,6 @@ ms.locfileid: "5145703"
 Proiektu batean zehar gertatzen diren transakzio-ekonomiko guztiak erregistratzen dira. Transakzio hauek honela erregistratzen dira: **unekoak**. Hurrengo taulan, sortzen diren errealitate mota desberdinak daude, proiektuaren denbora eta materiala, prezio finkoa edo barne proiektua den ala ez, edo aurrez aurreko fasean dagoen ala ez.
 
 > ![Unekoak nola grabatzen diren erakusten duen taula](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

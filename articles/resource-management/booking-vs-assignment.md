@@ -26,3 +26,6 @@ Erreserbak ez bezala, esleipenak proiektuaren antolaketako proiektuaren zeregine
 Normalean, baliabide baten erreserben baturak baliabideen zereginen batura berdina izango da zeregin batean edo gehiagotan. Hala ere, Project Operations-ek ez du hitzarmen hori betearazten. **Kontziliazioa** ikuspegiak proiektu-kudeatzaileari baliabideen erreserbak eta esleipenak bat ez datozen tokiak erakusten dizkio.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

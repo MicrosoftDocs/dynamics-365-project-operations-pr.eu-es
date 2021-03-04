@@ -60,3 +60,6 @@ Dynamics 365 Project Operations-en, diru-sarrerak ezagutzeko printzipioak aldatu
 [Kudeatu diru-sarreren kalkuluak](rev-rec-completed-contract-method.md)
 
 [Metodoak osatzeko kostua](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

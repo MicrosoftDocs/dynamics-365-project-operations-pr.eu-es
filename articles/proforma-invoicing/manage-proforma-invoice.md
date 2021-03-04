@@ -135,3 +135,6 @@ Faktura sortu ondoren sartu diren datuak badituzu, faktura horiek sar ditzakezu 
 2. Ireki proforma faktura zirriborroa eta, **Ekintzak** zintan, sakatu **Freskatu faktura lineako transakzioak**.
 
   Honek fakturazio-lerroaren xehetasunak sortzen ditu iraganeko data gisa eta gisa markatuta dagoen edozein **Fakturatzeko prest**; baina ez dago fakturan sartuta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

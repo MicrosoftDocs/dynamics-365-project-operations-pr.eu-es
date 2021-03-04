@@ -113,3 +113,6 @@ Dynamics 365 Project Service Automation aplikazioak Universal Resource Schedulin
 Baliabide indibidualei buruzko xehetasun gehiago ikusteko, egin klik eskuineko botoiarekin gainean baliabide-txartela irekitzeko.
 
 ![Baliabide-txartela](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

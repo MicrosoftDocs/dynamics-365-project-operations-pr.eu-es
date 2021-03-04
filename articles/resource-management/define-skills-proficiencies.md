@@ -42,3 +42,6 @@ Baliabideetarako trebetasunak gaitasun ereduen arabera sailkatzen dira. Banakako
 
 
 Balorazioaren balio horiek **Baliabide-eskakizunak**, **Antolaketa-panela** eta **Antolaketa-laguntzailea** iragazkietan erakusten dira.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

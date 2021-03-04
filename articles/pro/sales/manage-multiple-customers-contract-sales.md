@@ -52,3 +52,6 @@ Kontratuaren bezero bat sortu, eguneratu edo ezabatu daiteke **Bezeroak** fitxan
 Fakturazio zatitutako ehunekoak saretan editatzeko esperientzia. Fakturazio zatitutako ehunekoak ehuneko 100 guztira ez direnean, errore bat jasoko da. Fakturazio zatien ehunekoak editatu ondoren, freskatu orria errorea baztertzeko.
 
 Aukeratu ere egin dezakezu **Banatu uniformeki** **Kontratuaren bezeroak** azpisarean fakturazio banaketak kontratuko bezero guztiei modu uniformean banatzeko. Biribiltze faktorerik badago, biribiltze bezeroari gehituko zaio. Kontratuko bezeroetako bat beti bezala etiketatuta dago **biribiltzea** bezeroak, horrek esan nahi du kontratuaren bezeroaren erregistroak biribiltze bandera ezarrita duela **Bai**. Normalean, hau da kontratuko bezero nagusia, baina alda daiteke ere.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Proiektuen erreserbetatik eta zereginetatik inportatu ditzakezu datuak. Datuak i
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Taldekatu, ordenatu, bilatu eta iragazi gaitasunak
 
 Denbora-sarrerak zutabeetan zehaztutako neurrien arabera multzokatu eta iragazi ditzakezu. **Taldekatu honela** eremuan, hautatu denbora-sarrerak iragazteko erabili beharreko neurria. Denbora-sarreraren erregistroak goranzko edo beheranzko ordenan ordenatu ditzakezu zutabeetako izenburuak ordenatzeko gezia erabilita. Gainera, sarrerak erakutsi edo ezkutatu ditzakezu zutabearen goiburuko **Iragazkia** botoia hautatua eta, ondoren, **Bilatu** laukian, proiektuaren izenaren, proiektuaren ataza, denbora-sarreraren edo baliabidearen arabera denbora-sarrerak bilatzeko erabili behar den testua idatziz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

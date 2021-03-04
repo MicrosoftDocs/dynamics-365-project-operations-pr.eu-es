@@ -48,3 +48,6 @@ Erreserbatu baliabide bat zuzenean proiektu bati:
 Erreserbatu baliabide bat baliabide-eskakizunetatik:
 - [Esleitu baliabide erreserbagarri generikoak zeregin bati eta sortu baliabide-eskakizunak](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Erreserbatu izena duten baliabideak baliabide-eskakizunetatik](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

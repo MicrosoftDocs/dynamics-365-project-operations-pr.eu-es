@@ -89,3 +89,6 @@ Ondorengo parametroek Gastuen kudeaketan jokabide orokorra kontrolatzen dute.
 | <strong>Ustelkeriaren aurkako mezua bidaltzailearentzat</strong> |                                                                                             Idatzi langileari gastu txosten berria sortzerakoan erakutsiko zaion testua. Sakatu <strong>Itzulpenak</strong> botoia, erabiltzailearen hizkuntzan oinarrituta erakutsiko den hizkuntza zehatzeko testua sartzeko.                                                                                             |
 | <strong>Ustelkeriaren aurkako mezua onartzailearentzat</strong>  |                                                                                             Idatzi langileari gastu txosten berria sortzerakoan erakutsiko zaion testua. Sakatu <strong>Itzulpenak</strong> botoia, erabiltzailearen hizkuntzan oinarrituta erakutsiko den hizkuntza zehatzeko testua sartzeko.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

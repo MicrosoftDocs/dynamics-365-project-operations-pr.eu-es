@@ -40,3 +40,6 @@ Galdutako itxita dagoen proiektuaren aurrekontuak bere lerroetako edozein proiek
 
 > [!NOTE]
 > Project Operations-en, aurrekontua Irabazita edo Galduta gisa ixteak ez du Aukeraren egoera horretan eragingo, irekita egongo da eskuz itxi arte.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

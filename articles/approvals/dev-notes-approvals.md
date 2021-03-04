@@ -23,3 +23,6 @@ Dynamics 365 Project Operations-ek onarpen-etapetan erregistroaren trantsizio zu
 
   - Laguntzeko errenkada guztiak erlazionatutako tauletan sortzen dira, hala nola aldizkarietan eta egunkarietan.
   - Onartzailea a gisa markatuta dago **Proiektuaren onartzailea** proiektuan aurrera egin aurretik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

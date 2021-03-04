@@ -49,3 +49,6 @@ ms.locfileid: "5149258"
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Denboraren, gastuen eta lankidetzaren gida](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

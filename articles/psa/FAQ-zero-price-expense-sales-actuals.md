@@ -72,3 +72,6 @@ Kategoria expense instalazio-programak prezio baliogabea ez, ondoren, duzu izan 
 Oraindik ikusten ez baduzu baliozko prezio salmentak expense benetako atalean egiten egiaztapenak hiru goiko ondoren, itxaron saioa laguntza tiketa, gertaera bat.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

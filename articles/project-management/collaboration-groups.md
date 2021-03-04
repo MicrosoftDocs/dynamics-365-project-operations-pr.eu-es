@@ -26,3 +26,6 @@ Office taldeak proiektuko beste taldeko kideekin partekatzeko aukera ematen du C
 > [!NOTE] 
 > Erabiltzaileak sakatzen baduzu soilik gehituko dira taldera **Taldeak** eta gehitu. Proiektuak Weberako duen jokabidearekiko desberdina da. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

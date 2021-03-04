@@ -84,3 +84,6 @@ Web-baliabide hauek gaitzetsi dira:
 > Gaitzetsitako baliabideen zerrenda osoa ikusteko, ikusi [gaitzetsitako web baliabideak Project Service Automation v3.x-en](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

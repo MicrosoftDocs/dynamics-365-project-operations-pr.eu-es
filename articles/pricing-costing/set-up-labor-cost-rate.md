@@ -84,3 +84,6 @@ Fabrikam UK-Robotics-en kostuen prezioen zerrendan, kostuen tasak honela adieraz
 | Garatzailea | Fabrikam UK | 115 GBP |
 
 Kostuen prezioen zerrendak lan-tasak moneta anitzetan eman ditzake. Proiektuaren kostu estimazioa sortzerakoan, Project Operations-en eragiketek kostu tasa horiek proiektuaren monetara bihurtuko dituzte eta erabiltzaileari bistaratuko dizkiete. Denbora sarrera onartzen denean eta kostu erreala sortzen denean, kostu erreala kostu prezioen zerrendako bat datorren rolaren prezio lerro horren monetan tasatzen da. Proiektu bakarreko denboraren kostu errealak moneta anitzetan erregistratu daitezke. Hala ere, proiektuaren benetako eskulanaren kostuak bildu edo laburtzerakoan, Project Operations-ek eskulanaren kostu kopuru guztiak proiektuaren monetara bihurtuko dituzte, erabiltzaileak ikus ditzakeenak.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

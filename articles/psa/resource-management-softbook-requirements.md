@@ -63,3 +63,6 @@ Behin betiko erreserba edo behin behineko erreserba bertan behera uzteko metodo 
 Proiektuaren **Taldea** fitxan dagoen baliabide bat behin behineko erreserba behin betiko bihurtzeko, hautatu baliabidea eta, ondoren, hautatu **Berretsi**.
 
 ![Berretsi komandoa](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -240,3 +240,6 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 22. Hautatu **Bidali**.
 23. Sartu onartzailearentzako iruzkinak.
 24. Hautatu **Eginda**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

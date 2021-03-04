@@ -34,3 +34,6 @@ Salmenta prezioak behin aplikatzen dira akordio bakoitzeko. Salmenta prezioen ze
 1. Erakundea
 2. Bezeroa
 3. Eskaintza/Kontratua
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

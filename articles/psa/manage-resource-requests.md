@@ -51,3 +51,6 @@ Kontu-kudeatzaileek eta proiektu-kudeatzaileek maiz eskatzen dituzte baliabideak
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Baliabide-kudeatzailearen gida](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

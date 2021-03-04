@@ -80,3 +80,6 @@ Saltzaile batek proiektu batean egindako lana amaitzen duenean eta faktura bat b
 2. **Saltzailearen fakturak ordaindutako ordainduta** orrialdean, bilaketa eremuan, sartu balioak berrikusi nahi duzun saltzailearen faktura aurkitzeko, eta hautatu **Bilatu**.
 3. **Saltzailearen faktura lerroak** FastTab-en, hautatu aldatu nahi dituzun lerroak.
 4. **Ordaindu ordaintzen denean** fakturazio lerroan baldintzak betetzen dira, hautatu **Saltzailearen ordainketa askatu**. **Ordaindu ordaintzen denean** aukera garbitu egiten da, eta **Ordaintzeko prest** eremua aldatu egiten da **Bai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

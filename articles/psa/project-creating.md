@@ -149,3 +149,6 @@ Modu lehenetsian, hosto-nodoaren zereginak aurrekaririk ez badu, haren hasiera-d
 ### <a name="manual-scheduling"></a>Eskuzko antolaketa
 
 Planifikazio automatikoaren arauak zure baldintzak betetzen ez badituzu, zereginerako modua alda dezakezu **Eskuz programatuta** modura. Ezarpen horrek beste antolaketa-atributu batzuen balioak kalkulatzea eragozten dio antolaketa-motorrari. Zereginaren modua edozein dela ere, zereginetan aurrekoak ezartzen badituzu, beti eragomgp dio menpeko zereginaren hasiera-datari.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

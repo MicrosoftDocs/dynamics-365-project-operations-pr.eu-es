@@ -20,3 +20,6 @@ ms.locfileid: "4514483"
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 Hemen emandako funtzionalitatea erabil dezakezu Universal Resource Scheduling for Dynamics 365 Field Service zure erakundearen erreserba egoerak konfiguratzeko. Konfigurazio hau nola osatu jakiteko, ikusi [Konfiguratu erreserbaren egoerak](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

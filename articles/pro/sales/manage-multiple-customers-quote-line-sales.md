@@ -43,3 +43,6 @@ Hurrengo taulan proiektuan oinarritutako aurrekontu lerro bateko aurrekontu lerr
 Fakturazio zatitutako ehunekoak linean edita ditzakezu. Fakturazio zatitutako ehunekoak % 100 guztira ez direnean, errore bat gertatzen da. Fakturazio zatitutako ehunekoak editatu ondoren, freskatu aurrekontuaren lerroaren orria errorea ezabatzeko.
 
 Erabili aurrekontu lerroaren bezeroen azpisailean modu uniformean banatu ekintza aurrekontu lerro bezero guztiei fakturazio zatiak banatzeko. Biribiltze faktore bat badago, hori biribiltze bezeroari gehituko zaio. Aurrekontu lerroetako bezeroetako bat beti biribildutako bezero gisa etiketatuta dago, hau da, aurrekontu lerroaren bezeroaren erregistroak biribiltze bandera ezarrita du **Bai**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

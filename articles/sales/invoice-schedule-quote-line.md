@@ -68,3 +68,6 @@ Ireki mugarriak sortzeko behar duzun prezio finkoaren aurrekontua. **Fakturen or
 | Fakturaren egoera | Sorrera bizkorra | Mugarri bat sortzen denean, egoera hau beti ezartzen da **Ez dago fakturatzeko prest**. | Hori proiektuaren kontratu-lerroaren mugarrira eta fakturara hedatzen da. |
 | Lerroaren zenbatekoa | Sorrera bizkorra | Bezeroari fakturatuko zaion mugarriaren zenbatekoa edo balioa. | Hori proiektuaren kontratu-lerroaren mugarrira eta fakturara hedatzen da. |
 | Zergak | Sorrera bizkorra | Mugarrian aplikatuko den zerga kopurua. | Hori proiektuaren kontratu-lerroaren mugarrira eta fakturara hedatzen da. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

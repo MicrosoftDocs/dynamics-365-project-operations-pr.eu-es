@@ -35,3 +35,6 @@ Langile batek enpresen arteko gastuak sortu eta bidali aurretik, enpresen arteko
 
 Mailegu (iturburu) erakunde juridikoarekin lotutako mailegu (destino) entitate juridikoarekin lotutako zerga taldeak erabili aurretik, zure gastuaren txostenean, funtzionalitatea gaitu behar duzu liburu nagusien salmenten gaineko zergaren konfigurazioan. **Enpresen arteko zergak argitaratzeko pertsona juridikoa** parametroa ezarrita dagoenean **Iturria** eta **Salmenten gaineko zergaren gaineko zerga arauak aplikatzea** ezarrita dago **Ez**, mailegu-entitate juridikoaren zerga-konbinazioa erabiltzen da. Parametro bera ezarrita dagoenean **Helmuga**, zorpetutako entitate juridikoaren zerga-konbinazioa erabiliko da. Estatu Batuetako pertsona juridikoetarako, parametroa ezarrita dagoenean **Iturria**, **Kobratu beharreko salmenten gaineko zerga** eremua berrian konfiguratu behar da **Liburuak argitaratzeko taldeak** orrialdea. Kontabilitate motorrak eremu honetako informazioa erabiliko du zergekin lotutako kontabilitate sarrera egiteko.   
 Jokabidea koherentea da proiektuarekin edo proiekturik gabe argitaratutako gastu lerroetan.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

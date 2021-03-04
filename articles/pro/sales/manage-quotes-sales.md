@@ -33,3 +33,6 @@ Proiektuan eskaintzaaren zerrenda ikus daiteke **Eskaintzak** zerrenda orria.
 2. Erabili **Ikusi Aldatzailea** komatxoen beste ikuspegi iragaziak hautatzeko. Iragazki pertsonalizatuko irizpideak erabiliz, zure ikuspegiak eta nabigazio aukerak konfigura ditzakezu.
 
 Eskaintzak zerrenda edo orrialde honetatik sortu edo ezabatu daitezke.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

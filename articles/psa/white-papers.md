@@ -45,3 +45,6 @@ Paper zuri horiek [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Pr
 
 ### <a name="see-also"></a>Ikusi baita ere
  [Project Service-ren informazio orokorra](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

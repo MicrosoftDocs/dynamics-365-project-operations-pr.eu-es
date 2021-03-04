@@ -32,3 +32,6 @@ Jarraian proiektuan oinarritutako aukera lerro bateko eremuak daude:
 | Izena | Fitxa orokorra | Lerro-elementua identitate laburra emateko erabil daitekeen testu-eremu editagarria da. | Balio hau aurrekontuaren marrara eramaten da aukera honetatik aurrekontua sortzen duzunean. |
 | Bezeroaren aurrekontua | Fitxa orokorra | Moneta-eremu editagarri hau bezeroak lerro-elementu honetarako gastatzeko prest dagoen zenbatekoaren jarraipena egiteko erabil daiteke. | Balio hau eskintzako dagokion eremura eramaten da aukera honetatik aurrekontua sortzen duzunean. |
 | Fakturazio-metodoa | Fitxa orokorra | Eremu editagarriak balio hauek ditu:</br>- Denbora eta materiala</br>- Prezio finkoa | Balio hau eskintzako dagokion eremura eramaten da aukera honetatik aurrekontua sortzen duzunean. Aurrekontuaren lerroa sortu ondoren, eremua blokeatuta dago eta ezin da aldatu. Esleitu eremuaren balioa ahalik eta zehatzen. Eremu honen balioa aurrekontuaren lerroan aldatu behar baduzu, ezabatu eta berriro sortu aurrekontua. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

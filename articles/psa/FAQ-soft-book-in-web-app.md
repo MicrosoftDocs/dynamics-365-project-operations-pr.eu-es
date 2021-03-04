@@ -87,3 +87,6 @@ Erreserbatuta disko taldearen kide soft erreserbatuta taldearen kide baliabide a
 2. Antolaketa board irekitzen duenean, zabaldu baliabide bookings beren erakusteko. Ikusiko duzu, erreserbatu Soft gisa ezarrita.
 3. Aldatu Egoera atalean erreserbatu, egin klik eskuineko botoiarekin, hautatu Liburua Gogorra eta Gogorra ondoren. Erreserba-egoera Gogorra da.
 4. Itxi ostean antolaketa board, ikusiko duzu duzun baliabide-orduak aldatu Disko batetik Gogorra taldearen kide saretan. Baliteke orain esleitzen baliabidea zereginak (emandako erreserbatuta disko ordu eta esleipena zereginaren ahalegina ordu arteko lerrokatzea da). Oharra duzun duzu ondoren elementu #3. urratsak, baliabide orokorra fulfilment urratsak disko, soft erreserbatuta bookable baliabidea egoera aldatzen duzunean, orokorra taldeko kide da kendu taldetik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Gainerako aurrekontuaren zenbatekoak prozesatzen dituzunean, liburu nagusian tra
 5. Prozesatu nahi duzun proiektu bakoitzerako, hautatu proiektuaren lerroaren hasieran dagoen aukera. 
 6. Aukeratu **Prozesua** hautatutako proiektuen gainerako aurrekontu kopuruak hautatutako urte fiskalera transferitzeko.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

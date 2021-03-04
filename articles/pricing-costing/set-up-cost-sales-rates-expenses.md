@@ -55,3 +55,6 @@ Prezio-metodo hau salmenta-prezioen zerrenda batekin lotuta dagoen kategoriako p
 
 ### <a name="markup-over-cost"></a>Markaketa kostuaren gainetik
 Prezio-metodo hau salmenta-prezioen zerrenda batekin lotuta dagoen kategoriako prezioen lerroan hautatzen denean, kategoria eta unitate konbinazioaren prezioak lehenetsitakoak soilik dira benetako gastuak. Adibidez, fakturatu gabeko salmenten fakturak gastuen transakzio klaserako. Unitate-prezio hori fakturatu gabeko salmenten gainean ezartzen da gastu horren kostu errealaren gaineko balio kalkulatuaren arabera, zehaztutako ehuneko markatua aplikatu ondoren. Kostuaren araberako prezio lehenetsia ez da gastuetarako proiektuaren aurrekontuetan edo aurrekontuaren lerroan eta kontratuaren lerroaren xehetasunetan egiten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ Hautatu **Erreserbatu** orokorra baliabidea, eta, ondoren, erabil dezakezu antol
 Baliabidea orokorra baliabide named beteta dagoenean, orokorra baliabide-taldetik kendu eta orokorra baliabide esleitutako zeregina orokorra baliabide baliabide eskakizun beteta baliabidea named esleitzen zaizkio.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

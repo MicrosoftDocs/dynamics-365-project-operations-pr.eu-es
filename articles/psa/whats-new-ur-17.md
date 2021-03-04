@@ -57,3 +57,6 @@ Gai honek PSA V3, 17. eguneratzea bertsioan berriak diren edo aldatu diren eginb
 - Konponduta: Transakzioaren klasea **Ordua** denean, **UnitGroup** ezin da editatu erakunde guztietan: **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** eta **ContractLineDetails**. Alabaina, **Unitatea** ez da editagarria **JournalLine** eta **InvoiceLineDetails** parametroetan soilik.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

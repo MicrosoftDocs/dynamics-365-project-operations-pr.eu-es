@@ -34,3 +34,6 @@ Garai motak sortzeko eta lantzeko, jarraitu urrats hauek:
 4. Hautatu aldi mota erregistroa eta hautatu **Sortu epeak** aldi motarako aldiak sortzeko. Aukeratu duzun aldiaren maiztasunean oinarrituta, hasiera data edo sortu beharreko aldi kopurua zehazteko aukera izan dezakezu.
 5. Aukeratu **Aldiak** sortutako aldiak berrikusteko.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

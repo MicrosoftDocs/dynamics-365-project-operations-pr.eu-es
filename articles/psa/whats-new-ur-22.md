@@ -72,3 +72,6 @@ Arazo hauek konpondu dira:
 - Irabazitako aurrekontua ixteak ez du sortutako kontratura nabigatuko aurrekontuari atxikitako BPF bat azken fasean badago.
 - **Saldu gabeko salmentak** kentzea Denborako sarrera gogorarazten denean kostu originalarekin lotzen da.
 - Hautatu ondoren **Baieztatu** botoian, fakturaren egoera ez da aldatuko **baieztatu** faktura freskatu ezean.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

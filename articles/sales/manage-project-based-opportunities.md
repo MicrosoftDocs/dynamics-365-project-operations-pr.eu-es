@@ -65,3 +65,6 @@ Project Operations-en Aukera salmenta prozesua Salmenta aplikazioko Aukera salme
 > Zure proiektuan oinarritutako akordioa Abagune batekin hasi bada, Bezerogai-salmenten negozio prozesuak lehentasuna du.
 
 Negozio-prozesuaren fluxu produktua editatu edo zure negozio prozesuen fluxuak sor ditzakezu zure salmenta prozesua behar bezala jarraitzeko. Negozio-prozesuaren fluxuari buruz gehiago jakiteko, ikusi [Negozio-prozesuaren fluxu informazio orokorra](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

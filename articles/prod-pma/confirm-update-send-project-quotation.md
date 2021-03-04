@@ -57,3 +57,6 @@ Lehendik dagoen proiektuaren aurrekontua aldatzeko, aurrekontuaren egoerak izan 
 
 > [!NOTE]
 > Ezin duzu proiektuaren aurrekontua aldatu egoera aldatu ondoren **Bidalita**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

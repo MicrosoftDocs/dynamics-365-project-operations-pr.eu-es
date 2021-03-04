@@ -60,3 +60,6 @@ Eskaintzak aztertu eta diagramak sor ditzakezu bezeroen itxaropenen arabera, ant
 Antolaketaren inguruko bezeroen itxaropenen analisia eskaintzaren lerroaren azken dataren eskaintza aldez aurretik eskatutako entrega-datarekin alderatuz egiten da eskaintzaren lerro guztietan.
 
 Bezeroaren aurrekontuen itxaropenaren analisia bezeroaren aurrekontuaren guztizko zenbatekoa eskaintzaren lerroarekin konparatuz egiten da.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

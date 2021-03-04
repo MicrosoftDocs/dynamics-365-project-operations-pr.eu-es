@@ -42,3 +42,6 @@ Bilaketa-koadroa erabil dezakezu **Baliabide hautatzailea** eremuan baliabide er
 1. Zereginen sareta, taula edo kronogramatik, joan **Honi esleituta** gelaxkara.
 2. Bilaketa-koadroan, hasi izena idazten. Bilaketaren emaitzak **Beste baliabideak** ataleko **Baliabide hautatzailea** eremuan bistaratzen dira.
 3. Aukeratu zereginari esleitu nahi diozun baliabidea edo hautatu baliabidearen izena **Taldeko beste baliabide batzuk** aukeran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

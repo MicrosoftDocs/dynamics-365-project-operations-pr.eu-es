@@ -79,3 +79,6 @@ Minutu pare bat behar dira. Admin erabiltzailea ondo eguneratu dela baieztatzeko
 18. Itxi urruneko mahaigaineko saioa eta erabili LCS **Ingurumenaren xehetasunak** orria ingurunean saioa hasteko espero bezala funtzionatzen duela baieztatzeko.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

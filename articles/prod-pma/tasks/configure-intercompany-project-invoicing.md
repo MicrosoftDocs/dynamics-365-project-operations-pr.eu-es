@@ -64,3 +64,6 @@ Gai honek proiektuaren fakturazioa zure erakundeko bi enpresen artean nola konfi
 32. **Prezioa** eremuan, idatzi zenbakia.
 33. Sakatu **Gorde**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

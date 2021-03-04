@@ -64,3 +64,6 @@ Gai honek PSA V3, 16. eguneratzea bertsioan berriak diren edo aldatu diren eginb
 
     -   Konponduta: erabiltzaileak 2.X bertsiotik 3.X bertsiora berritzen dutenean, proiektuaren NULL balioa duten proiektuak baimenduko dira.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

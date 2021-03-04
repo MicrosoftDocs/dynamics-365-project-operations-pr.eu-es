@@ -54,3 +54,6 @@ Baliabideak erreserbatu ondoren, hautatu **Mantendu Erreserbak** eskatzen diren 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Zein da esleipenaren eta erreserbaren arteko desberdintasuna?
 
 Esleipenak proiektuaren antolaketako proiektuaren zereginei esleitutako baliabideen esleipenak dira. Baliabideak benetako baliabideak edo baliabide orokorrak izan daitezke. Erreserbak proiektu batekiko baliabide baten behin behineko edo behin betiko esleipenak dira. Behin betiko erreserbak baliabideen ahalmena kontsumitzen du. Egokiena, benetako baliabideetarako, erreserbak eta zereginak ados egotea izango litzateke, ez baitira desberdinak. Hala ere, PSA-k ez du hitzarmen hori betearazten. Kontziliazio ikuspegiak proiektu-kudeatzaileari baliabideen erreserbak eta esleipenak bat ez datozen tokiak erakusten dizkio.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

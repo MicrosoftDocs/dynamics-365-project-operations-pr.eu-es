@@ -113,3 +113,6 @@ USSI mailegu-emaileak enpresa arteko bezeroen faktura argitaratzen duenean, zain
 Informazio gehiagorako, ikus [Konfiguratu enpresen arteko proiektuen fakturazioa](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

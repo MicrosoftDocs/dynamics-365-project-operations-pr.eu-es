@@ -60,3 +60,6 @@ Taldekideen saretik, ekintza hauek egin daitezke:
 
 - **Berria**: Egutegitik baliabideak zuzenean gehitzeaz gain, proiektuen arduradunek taldekide izendatutako edo generiko berriak gehitu ditzakete taldeko kideen saretik.
 - **Ezabatu**: Taldeko kide bat edo gehiago hautatuta, proiektuaren kudeatzaileak proiektuan parte hartuko ez duten baliabideak ezaba ditzake. Taldekide bat ezabatzeak lotutako baliabideen esleipen guztiak ezabatuko ditu eta dauden erreserba guztiak bertan behera utziko ditu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

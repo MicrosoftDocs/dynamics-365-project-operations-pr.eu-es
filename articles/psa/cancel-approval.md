@@ -62,3 +62,6 @@ Proiektu bat ere ekonomikoki kaltetuta dago onespen bat uzten denean. Lehenik et
 Ondoren, itzulera-sarrerak Datu errealak taulan sortzen dira. Itzulera-sarrerak sortzeko, sistemak eremuko balioak baino gehiago kopiatzen ditu jatorrizko datu errealetatik. Kopiatzen ez diren balio bakarrak kantitatearen balioak dira. Horren ordez itzuli egiten dira balio horiek. Itzulitako datu errealak hauetarako sortzen dira: **Kostua** eta **Fakturatu gabeko salmentak**. **Egokitzearen egoera** eremua, itzulitako datu errealetan, **Egokiezina** eremuan ezarrita dago eta fakturazio-egoera ezarrita dago **Utzita** egoeran.
 
 Aldaketa horiek egin ondoren, proiektuan gastatu bezala erregistratzen diren diru-sarrerak eta proiektuan egindako sarreren atzerapenak denbora gehiago izango dute gertaera horiek ordezkatzen dituzten kontuak baino.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Bezeroen proiektuek trebezia pila eskatzen dituzte lana osatzeko, hala nola, SQL
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Baliabideak konfiguratu](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

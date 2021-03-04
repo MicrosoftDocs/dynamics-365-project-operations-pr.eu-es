@@ -59,3 +59,6 @@ Funtzioak garrantzitsu dira proiektuen plangintza egitean, baliabideen eskakizun
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Baliabideak konfiguratu](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

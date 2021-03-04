@@ -73,3 +73,6 @@ Sakatu beheko esteka, [!INCLUDE[pn_project_service_auto](../includes/pn-project-
  [Kontu-kudeatzailearen gida](../psa/account-manager-guide.md)   
  [Proiektu-kudeatzailearen gida](../psa/project-manager-guide.md)   
  [Baliabide-kudeatzailearen gida](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

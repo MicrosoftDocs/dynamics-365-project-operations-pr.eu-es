@@ -77,3 +77,6 @@ Argitaratutako datak aldatu egin daitezke. Informazio gehiago eskuratzeko, ikusi
 | --- | --- |
 | 10.0.17 | 2021eko martxoaren 19a |
 | 10.0.18 | 2021eko apirilaren 16a |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

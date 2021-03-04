@@ -56,3 +56,6 @@ Lehendik dagoen aurrekontua Aukera batekin lotu daiteke. Bete urrats hauek lehen
    Aukera etapa honetara mugitzen duzunean, aurrekontu hau aukera honekin lotutako aurrekontuen zerrendatik hauta dezakezu. Aurrekontu hau hautatzeak berarekin aurrera egiten duzula adierazten du.
 
    Aukerarekin lotutako gainerako aurrekontu guztiak erabilgarri eta aktibo egongo dira horietako bat irabazi arte. Salmenta prozesua aurreko fasera eraman dezakezu **Gaitu**, eta aukeratu beste aurrekontu batekin aurrera egiteko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

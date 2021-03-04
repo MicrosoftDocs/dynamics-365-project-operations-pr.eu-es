@@ -131,3 +131,6 @@ Prezio-finkoko eskaintzen lerrorako, erabil dezakezu **Fakturen egutegia** saret
 - Berdin banatzen diren fakturazio-mugarriak sortzeko, hautatu fakturen maiztasuna, sartu fakturazioaren hasiera-data aurrekontuen lerroan eta hautatu **Eskatutako amaiera-data** orrialdeko eskaintza lortzeko **Laburpena** sekzioan eskaintzaren goiburuan. Ondoren, hautatu **Sortu aldizkako mugarriak** hautatutako fakturen maiztasunean oinarritutako mugarri berdinak sortzeko. 
 - Ordainpeko fakturaziorako mugarri bat sortzeko, mugarri bat sortu eta, ondoren, sartu eskaintzaren lerroko balioa mugarri zenbateko gisa.
 - Proiektu-planean zeregin zehatzetan oinarritutako fakturazio-mugarriak sortzeko, mugarri bat sortu eta proiektuaren egitarauaren elementua esleitu ezazu fakturazio-mugarriko erabiltzailearen interfazean.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

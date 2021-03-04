@@ -53,3 +53,6 @@ Antolaketa-paneletik erreserbatu aurretik, baliabide-eskakizunak sortu behar dit
 Eskakizuna hautatutako baliabidea erabiliz betetzen da. **Erreserba-eskakizunak** panelean, ohartu eskakizuna eguneratu dela eta baliabidea proiektuan erreserbatuta dagoela erakusten da.
 
 ![Proiektuan erreserbatutako baliabidea](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

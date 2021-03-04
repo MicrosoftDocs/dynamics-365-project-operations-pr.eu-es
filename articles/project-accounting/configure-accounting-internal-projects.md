@@ -32,3 +32,6 @@ Dynamics 365 Project Operations-en kontratuarekin loturarik ez dagoen edozein pr
 Transakzioak proiektuan argitaratu ondoren, proiektua proiektuko kontratu batekin lotzen bada, sistemak metatutako transakzio guztiak alderantzikatzen ditu eta fakturagarriak diren transakzio berriak sortzen ditu. Fakturagarriak diren eragiketek Proiektuaren kostu eta diru-sarreren profilean zehaztutako kontabilitate arauak jarraitzen dituzte.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Ondorengo taulan sortu ditzakezun lan-fluxu motak zerrendatzen dira **Gastuak**.
 |      <strong>Diru-aurrerakinaren eskaera</strong>      |         Sortu onarpen-fluxuak dirua aurreratzeko eskaeretarako.          |
 |        <strong>BEZ zergaren berreskurapena</strong>        | Balio erantsiaren gaineko zerga (BEZ) berreskuratzeko onarpen-fluxuak sortu.  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Gai honek Project Service Automation V3, 18. eguneratzea bertsioan berriak diren
 **Sales**
 
 - Konponduta: Denbora-sarrerak berriro onartzen direnean (**Onartu > Utzi >** onartu berriro), kargatu ezin daitekeen benetako datuen kopia bat sortzen da.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

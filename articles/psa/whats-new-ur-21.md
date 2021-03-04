@@ -77,3 +77,6 @@ Arazo hauek konpondu dira:
 - **Salmenta prezioen zerrenda ebaztea** logikak gaizki kudeatzen ditu ordu-zonak, prezioen zerrenden aukeraketa okerra sortuz.
 - Proiektu batena **Benetako kostu totala** Zatiki kopuru bat desgaitu daiteke, sarrera bakar bat onartu ondoren.
 - **Prezioen Ebazpena** logikak ez du erabilgarritasun errorerik ematen **Berreskuratutako RolePrice** ez du balorean **"Lehen Unitatea"** eta **"Prezioa Lehen Unitatean"** eremuak.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Lanorduen txantiloia sortu ostean, baliabideei esleitu behar diozu txantiloian z
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Baliabideak konfiguratu](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Prezio-zerrendak funtzioen eta gastuen kategorietan oinarritzen dira, eta beraz,
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Konfiguratu Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

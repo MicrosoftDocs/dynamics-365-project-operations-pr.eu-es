@@ -146,3 +146,6 @@ Hurrengo taulak erabiltzeko prest dauden inprimakien eta ikuspegien zerrenda zab
 |  Benetakoa|• Informazioa<br>• Benetako datu aktiboak|• Benetako datuen ikuspegia|
 
 Eremu pertsonalizatuak negozioaren arauetan ere gehitu behar dira zehaztutakoaren arabera. Berezko adibide bat negozioaren araudirako **Denbora-sarreraren editagarritasuna egoeraren arabera** entitatea da. Arau honek definitzen du zer eremu blokeatu behar diren, denbora-sarrerak aldatzen ez den egoera duenean, hala nola **Onartutakoa** egoera. Gehitu eremuak negozioaren arau honetara, eremuak editatzeko blokeatuta gera daitezen, denbora-sarrera **Zirriborroa** edo **Itzulia** ez den beste egoera batean dagoenean.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

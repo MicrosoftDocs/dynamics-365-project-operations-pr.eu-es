@@ -67,3 +67,6 @@ Aurrekontuaren lerroaren kostuen xehetasuneko moneta eskaintzaren kontratatze-un
 Errentagarritasunaren kalkuluek kostuaren eta salmenten aurrekontuaren lerroaren xehetasunen zenbatekoa inguruneko oinarrizko moneta bihurtzen dute aurrekontuan estimatutako marjina orokorra jakinarazteko.
 
 Horrek moneta biribiltzeko akatsak eta marjinak aldatzea eragin lezake, data truke-tasa eraginkorrak ez daudelako. Erabili kalkulu hauek Proiektuaren aurrekontuetan, gutxi gorabehera, gutxi gorabehera eta ez legezko txostenak edo bestelako txostenak behar dituztenak, biribiltzeko zehaztasun handiagoa eta truke-tasen dataren eraginkortasuna ezagutzea.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Kontabilitate atributu hauek soilik egunera daitezke Project Operations bateratz
 Integrazio egunkariaren lerroak ezabatu daitezke, hala ere, argitaratu gabeko lerroak egunkarian berriro txertatuko dira berriro exekutatu ondoren **Inportatu eszenaratzetik** aldian aldiko prozesua.
 
 Integrazio aldizkaria argitaratzen duzunean, proiektuaren azpiegitura eta liburu nagusien transakzioak sortzen dira. Hauek beheranzko bezeroen fakturazioan, diru sarreren ezagutzan eta finantza txostenetan erabiltzen dira.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

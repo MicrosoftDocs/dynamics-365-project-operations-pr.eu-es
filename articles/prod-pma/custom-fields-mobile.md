@@ -429,3 +429,6 @@ Denbora-orrien sarreretan proiektuaren kategoria lehenetsia sartzea hiru mailata
 1. Aplikazioa proiektuaren baliabidetik kategoria lehenetsia jartzen saiatzen da. Kategoria lehenetsi hau **getCurrentUserResource** eta **getDelegatedResourcesForCurrentUser** metodoan **TSTimesheetSettingsService** klasea.
 2. Kategoria lehenetsia proiektuaren baliabide mailan ematen ez bada, aplikazioa proiektuaren jardueratik ateratzen saiatuko da. Kategoria lehenetsi hau **getActivitiesForProject** metodoa **TSTimesheetProjectService** klasea.
 3. Kategoria lehenetsia proiektuaren jarduera mailan ematen ez bada, lehenetsitako kategoria aterako da proiektuaren parametroetatik. Kategoria lehenetsi hau **getProjectDetailsbyRule** metodoa **TSTimesheetProjectService** klasea.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

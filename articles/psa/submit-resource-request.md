@@ -41,3 +41,6 @@ Sortutako baliabide-eskakizuna baliabide-eskaera gisa bidal dezakezu. Ondoren, e
 Taldekide orokorraren eskaera-egoerara aldatu egingo da **Bidalita** egoerara.
 
 Baliabide-kudeatzaileak eskaera bete ondoren, baliabide orokorra baliabide izendatu batekin ordezkatuko da baliabide-kudeatzaileak eskaera izendatutako baliabidearen erreserba eginez betetzen badu. Bestela, baliabide orokorra taldean geratuko da eta eskaeraren egoera aldatu egingo da **Berrikusi behar da** egoerara, baliabide-kudeatzaileak izendatutako baliabidea proposatu badu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

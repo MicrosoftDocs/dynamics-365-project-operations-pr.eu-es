@@ -43,3 +43,6 @@ Jarraian, eremuko eremuak daude **Kontratua** proiektuan oinarritutako kontratu 
 Fakturazio zatitutako ehunekoak saretan editatu daitezke. Fakturazio zatitutako ehunekoak ehuneko 100 guztira ez direnean, errore bat gertatuko da. Fakturazio zatien ehunekoak editatu ondoren, freskatu orria errorea ezabatzeko.
 
 Aukeratu ere egin dezakezu **Banatu uniformeki** kontratu-lerroan bezeroen azpisarean. Ekintza honek fakturazio banaketak banatzen dizkie kontratu lineako bezero guztiei. Biribiltze faktorerik badago, biribiltze bezeroari gehituko zaio. Kontratu lineako bezero bat beti bezala etiketatuta dago **Biribilketa** bezeroarekin **Biribilketa** bandera ezarri da **Bai**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

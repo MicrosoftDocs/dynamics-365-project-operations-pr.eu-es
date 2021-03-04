@@ -44,3 +44,6 @@ Zereginen gida honek proiektu batean transakzio bat nola egokitu erakusten du. H
 13. Zerrendan, markatu hautatutako errenkada. 
 14. Kostuaren prezioa eremuan, idatzi zenbaki bat. 
 15. Egin klik Bidali. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

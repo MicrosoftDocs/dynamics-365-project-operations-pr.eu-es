@@ -68,3 +68,6 @@ Hau egiten duzunean, baliabidea proiektuko taldeari gehitu eta zereginari esleit
 ![Taldekide bati erreserbak luzatzea baliabide berdinkatzea fitxan](media/RM-how-to-7.png)
 
 Taldekide bat zure proiektuan erreserbatu ondoren, erreserbak mantendu edo antolaketa-panela erabil dezakezu erreserbak kudeatzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

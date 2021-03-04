@@ -47,3 +47,6 @@ Sortu lanean ari zaren bezero bakoitzaren kontua, proiektu batean aipatzen dituz
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Kontu-kudeatzailearen gida](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Gai honek Project Service Automation V3, 12. eguneratzea bertsioan berriak diren
     - Konponduta: Objektuen ID bikoiztuak aurkitu dira **Kontratu nagusia** inprimakian.
     - Konponduta: Logika eguneratu egin da **Eskaintzaren azterketa** fitxa ikusgai egiteko, fitxaren metadatuen konfigurazioa bistara dadin.
     - Konponduta: Egiazko erregistroan kontabilitate-data denboraren/gastuen sarrera-datatik dator eta ez onespen-datatik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

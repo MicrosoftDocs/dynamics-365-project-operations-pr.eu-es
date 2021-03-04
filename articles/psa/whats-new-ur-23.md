@@ -67,3 +67,6 @@ Arazo hauek konpondu dira:
 Arazo hauek konpondu dira:
 
 - **Eskuratu transakzio kategoria guztiak** bi aldiz sakatuta lerro anitz sortzen dira.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Proiektu batean lan egiten duen baliabide erreserbagarri bakoitzak lanorduen egu
 2. Sareta ikuspegian, hautatu 25 **Erreserbatzeko baliabide** eguneratzeko.
 3. Aukeratu **Ezarri egutegia** eta elkarrizketa-koadro batek erabilgarri dauden lan orduen txantiloien zerrenda eskatuko dizu.
 4. Hautatu erabili nahi duzun txantiloia eta sakatu **Aplikatu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

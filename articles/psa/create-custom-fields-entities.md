@@ -73,3 +73,6 @@ Erakundeetan oinarritutako dimentsioetarako datuak sor ditzakezu eskuz edo Micro
 > ![Titulu estandarraren entitatearen laginak ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Laburtu, ondorengo esleipen metodoak bezerogaia overbooking baliabidea dagoeneko
 - Banatu orduak modu uniformean
 
 Metodoetako horiek hiru guztirako baldintza kopuruak erabiliz gero duzun ez jakinaraztea baliabidea overbooked da. Gehiegizko erreserbak zuzentzeko, antolaketa-panela erabili beharko duzu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

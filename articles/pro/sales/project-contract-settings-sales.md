@@ -57,3 +57,6 @@ Ondorengo KPIak eskuragarri daude **Kontratuaren gauzatzea** proiektuaren kontra
 | Egindako kostua | Produktuetan oinarritutako lerroak | Kontratuaren lerroan oinarritutako erregistratutako kostu erreal guztien batura. |
 | Marjina gordina | Proiektuetan oinarritutako lerroak | Fakturatutako zenbatekoa - Orain arte sortutako kostua / Fakturatutako zenbatekoa |
 | Aurreikusitako marjina | Produktuetan oinarritutako lerroak | (Kontratuaren lerroko balioa - Kontratuaren lerrorako aurreikusitako kostuak) / Kontratuaren lerroaren balioa |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

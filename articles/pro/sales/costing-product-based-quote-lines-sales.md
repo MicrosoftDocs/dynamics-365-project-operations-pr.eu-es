@@ -33,3 +33,6 @@ Adibidez:
 Fabrikam Robotics A Datum Corporation-en muntaia lerroetan beso robotikoak instalatzen ari da. Fabrikam-ek instalazio zerbitzuak eskaintzen ditu, baina beso robotikoak Trey robotikatik eskuratzen dira. A Datum Corporation-en beso robotikoak instalatzeak Trey-ren beso robotikoen industria bertikal berria irekitzen badu, Trey-k deskontu berezia eman diezaioke Fabrikam-i akordio horretarako.
 
 Kasu honetan, Fabrikam-ek produktuetan oinarritutako aurrekontu lerroa sortuko du Arma Robotikoetarako eta aurrekontu honetarako unitateko kostu berezia sartuko du. Kostu hori Trey Robotic Arms-en kostu estandarretik ezberdina da.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

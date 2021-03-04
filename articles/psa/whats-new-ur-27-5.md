@@ -42,3 +42,6 @@ Gai honek Project Service Automation V3, 27.5. eguneratzea bertsioan berriak dir
 Arazo hauek konpondu dira:
 
 - Programatu laguntza bilaketa errendimendua hondatzea
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

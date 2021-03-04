@@ -33,3 +33,6 @@ Lehendik dauden erreserbak eguneratzea eskatzen duten proiektuetan aldaketak ger
 ## <a name="schedule-board"></a>Antolaketa-panela
 
 **Antolaketa-panela** aukeran, Baliabideen kudeatzaileak erakunde bateko erreserba guztien zorroaren ikuspegia du. Ikuspegi honetatik, Baliabideen kudeatzaileak dauden erreserbak luzatu, laburtu edo mugi ditzake eskaintzen diren gaitasunen antzekoak **Erreserbak mantendu**. Baliabideen kudeatzaileak erreserba zehatz bati esleitutako lehendik dauden baliabideak ordezka ditzake erreserban eskuineko botoiarekin klik eginez eta hautatuta **Ordeztu baliabidea**. Baliabideen kudeatzaileek lehendik dauden erreserben inguruak editatu ditzakete erreserban eskuineko botoiarekin klik eginez eta hautatuta **Editatu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

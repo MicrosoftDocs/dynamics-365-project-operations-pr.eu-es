@@ -82,3 +82,6 @@ Adibidez, Dynamics 365-ek propietate hauek izan ditzake:
 
 > ![Erabiltzaileen kopurua eta hilabete kopurua ez izatea kalitate faktore gisa](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

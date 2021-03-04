@@ -54,3 +54,6 @@ Gai honetan eskulanaren kostu estandarrak eta proiektu bateko gastuak nola ezarr
 22. **Prezioa** eremuan, idatzi zenbakia. Benetako salmenta prezioa, langileak gastuaren aldizkarian transakzioak egiten duenean aplikatzen dena, xehetasun maila altueneko salmenta prezioa da. Adibidez, orokorra eta langilearen berariazko salmenta prezioa ezartzen badira, langilearen berariazko salmenta prezioa erabiltzen da.  
 23. Sakatu **Gorde**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Proiektua bat sortzen duzunean, ezarri maiztasuna fakturak sortzeko. Bezeroei bi
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Proiektu-kudeatzailearen gida](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

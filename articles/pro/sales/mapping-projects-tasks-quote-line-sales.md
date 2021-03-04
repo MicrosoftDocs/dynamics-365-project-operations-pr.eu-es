@@ -90,3 +90,6 @@ Proiektuaren zereginak ere aska ditzakezu **Kobratzeko zereginak** fitxa **Aipat
 
 >[!NOTE]
 > Prozedura honek ez du zeregina proiektutik ezabatzen. Zereginen elkartea proiektuan oinarritutako aurrekontu lerroatik bakarrik kentzen du.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

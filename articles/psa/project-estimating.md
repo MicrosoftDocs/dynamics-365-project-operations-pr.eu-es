@@ -97,3 +97,6 @@ Bai saretaren ikuspegian, bai denbora-fasearen ikuspegian, erakusten diren eremu
 ## <a name="expense-estimates"></a>Expense estimates
 
 Sareko ikuspegiko **Gehitu gastuen aurreikuspen berria** botoiak proiektuan sor daitezkeen gastuak erregistratzeko aukera ematen dizu, baina lanarekin zerikusirik ez dutenak. Zeregin jakin baterako edo proiektu osorako gastuen aurreikuspenak erregistratu ditzakezu. Aukeratu gastuen kategoriak eta gastua jasotzea espero duzun behin-behineko data. Lotuta dauden kostuen prezio-zerrendak eta salmenten prezio-zerrendak prezio lehenetsiak badituzte (edo gainprezioaren ehunekoak diren gastuen kategoriarako zehaztuta badaude), automatikoki gehituko dira aurreikuspenen lerroan esleipena egitean.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

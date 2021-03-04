@@ -35,3 +35,6 @@ Baliabideak dira zerbitzuetan oinarritutako erakunde baten aktibo garrantzitsuen
 
 
 Zure proiektuan langileak gehitu ditzakezu talde generiko batekin edo izendatutako baliabideekin Project Operations-en. Hainbat metodo erabil ditzakezu taldekideak gehitu eta esleitzeko eta haien erreserbak eta esleipenak kudeatzeko. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

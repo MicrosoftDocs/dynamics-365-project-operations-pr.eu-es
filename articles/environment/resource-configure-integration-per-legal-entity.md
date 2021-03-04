@@ -51,3 +51,6 @@ Proiektuaren eragiketak erabiltzen dituen pertsona juridiko bakoitza Dynamics 36
   - **Fakturazio mota lehenetsiak**: Project Operations-ek fakturazio mota lehenetsien multzo finko bat erabiltzen du, Finantza lineako propietateekin mapatu behar dena. Sortu erregistro bat fakturazio mota bakoitzerako: **Zehaztu gabea**, **Kargagarria**, **Ez da ordaindu behar**, **Osagarria** eta **Ez dago erabilgarri**.
   - **Proiektuaren kategoria lehenetsiak**: Hautatu transakzio mota bakoitzerako erabiliko diren lehenetsitako proiektuen kategoriak. Lehenetsi hauek fitxategian erabiliko dira **Project Operations Integration aldizkaria** eta proiektuaren benetako transakzio kategoriarik zehazten ez den estimazioetan.
   - **Iragarpenak**: Aukeratu iragarpen eredua denbora eta gastuen kalkuluak egiteko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

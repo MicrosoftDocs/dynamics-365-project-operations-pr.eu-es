@@ -41,3 +41,6 @@ Bezeroak proiektuaren aurrekontua onartzen badu, proiektuaren aurrekontuko infor
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

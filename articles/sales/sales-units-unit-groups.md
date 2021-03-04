@@ -46,3 +46,6 @@ Gai honetako urratsak osatzeko, ziurtatu Sistema administratzailea edo Sales Pro
 3. **Kopurua** eremuan, sartu unitateak izango duen kantitatea. Adibidez, kutxa batek bi pieza baditu, idatzi "2". 
 4. **Oinarrizko unitatea** eremuan, hautatu oinarrizko unitate bat unitatearen neurketa-unitate baxuena ezartzeko. Adibidez, "Pieza" hautatu dezakezu.
 5. Sakatu **Gorde**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

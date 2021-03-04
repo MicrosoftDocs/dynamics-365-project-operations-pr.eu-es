@@ -125,3 +125,6 @@ Prezio finkoa - ehunekoaren osaketa
 Proiektuaren kostuaren eta diru-sarreren profilaren arauek zehazten dute proiektuaren fakturen edozein transakzio prozesatzerakoan erabili behar den Proiektuaren kostu eta diru-sarreren profila. Definitu arauak **Proiektuen kudeaketa eta kontabilitatea** \> **Konfigurazioa** \> **Bidalketa** \> **Proiektuaren kostua eta diru-sarreren profileko arauak** aukeran.
 
 Arauak proiektuaren kontratuaren, proiektuaren taldearen edo proiektu zehatz baten arabera defini daitezke. Sistemak beti zehaztasun handieneko araua hautatuko du lehenik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

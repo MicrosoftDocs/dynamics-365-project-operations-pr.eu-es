@@ -170,3 +170,6 @@ Ondorengo ilustrazioak Datuen integrazioan txantiloien atazen maparen adibide ba
 [![Gastuen aurreikusitako transakzioen txantiloien mapaketa](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Gastuen aurreikuspenen txantiloien mapaketa](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

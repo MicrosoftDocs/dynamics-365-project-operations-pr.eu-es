@@ -44,3 +44,6 @@ Gai honek V3, 17.5. eguneratzea bertsioan berriak diren edo aldatu diren eginbid
 - Konponduta: 24 orduko lanen txantiloiak zehaztasunik gabe gehitzea egun osagarria zereginetan.
 - Konponduta: +13 GMT laneko orduen txantiloiak zehaztasunik gabe aldatzeko zereginak egun batetik bestera.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

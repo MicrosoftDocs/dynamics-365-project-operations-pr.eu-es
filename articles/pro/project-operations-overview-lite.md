@@ -37,3 +37,6 @@ Erabili inplementazio mota hau aukeratu beharko litzateke Project Operations-en 
 - Sistema integratua, proiektuen salmentetatik hasi eta kontabilitaterako barne programak eta fakturagarriak kudeatzen dituena.
 - Enpresa baliabideen plangintza hirugarren bat (ERP / Finantza kontabilitate sistema), Project Operations-ekin integratzeko.
 - Salmenten gaineko zergekin, truke tasekin, gastuen itzulketekin eta proiektuak ez diren gastuekin lan egiteko hirugarrenen sistema.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

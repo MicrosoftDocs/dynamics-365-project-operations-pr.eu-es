@@ -110,3 +110,6 @@ Kontratazio proiektuaren erakunde unitatearengandik desberdina den erakunde-unit
  
 Sortu gabeko taldekideen baliabide desberdinen erakunde-unitatearen lehenespenak aldatzea da eguneratu aurretik baliabide orokorrak dituzten proiektu bakoitzeko taldekideak sortzea edo berriro sortzea gomendatzearen arrazoia, erakunde-unitateen esleipenak galdu ez daitezen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

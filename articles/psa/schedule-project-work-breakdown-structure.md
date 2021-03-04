@@ -152,3 +152,6 @@ Zeregin mota hauek erabiliko dituzu atazen xehapenaren egitura sortzean:
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Proiektu-kudeatzailearen gida](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

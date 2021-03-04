@@ -47,3 +47,6 @@ Kontratuaren bezero bat sortu, eguneratu edo ezabatu daiteke **Kontratuaren beze
 Fakturazio zatitutako ehunekotan edita ditzakezu sareta editatuta. Fakturazio zatitutako ehunekoak ehuneko 100 guztira ez direnean, errore bat gertatuko da. Fakturazio zatien ehunekoak editatu ondoren, **Proiektuaren kontratua** orria errorea ezabatzeko.
 
 Aukeratu ere egin dezakezu **Banatu uniformeki** proiektuaren kontratu-bezeroen azpisarean. Fakturazioaren zatitzeak berdin banatzen dira proiektuaren kontratuko bezero guztien artean. Biribiltze faktorerik badago, faktorea biribiltze bezeroari gehituko zaio. Kontratuko bezeroetako batek beti du **Biribilketa** bandera ezarri da **Bai**. Bezero hori bezero biribila da. Normalean, biribiltzeko bezeroa ere kontratuko bezero nagusia da, baina hori ez da beharrezkoa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

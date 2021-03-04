@@ -68,3 +68,6 @@ Baliabideek Project Finder Mobile aplikazioa erabil dezakete telefonoetan [!INCL
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Baliabideak konfiguratu](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Arazo hauek konpondu dira:
 - Dynamics 365 Field Service eta Project Service Automation instalatuta badaude, **Blokeatu prezioak** eta **Erabili uneko prezioak** aukerak ez dira aldi berean bistaratzen **Faktura** orrialdean.
 - Japoniako hizkuntzari dagokionez, ez dago itzulpen koherenterik egutegian oinarritutako beste orriekin.
 - **Aktibatu** eta **Desaktibatu** kendu dira **Prezio-zerrenden elkartea** entitateak Project Service Automation-en.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Baliabideetarako trebetasunak gaitasun ereduen arabera sailkatzen dira. Banakako
 > ![Zehaztutako gutxieneko eta gehieneko balorazioak](media/Resource-Management-image85.png)
 
 Balorazioaren balio horiek **Baliabide-eskakizunak**, **Antolaketa-panela** eta **Antolaketa-laguntzailea** iragazkietan erakusten dira.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

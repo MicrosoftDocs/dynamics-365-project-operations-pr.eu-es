@@ -66,3 +66,6 @@ Proiektu kudeatzailea zarenez, baliteke proiektu baterako baliabide bat erreserb
 
 > [!NOTE]
 > Metodo honek ez du baliabiderako erreserbarik sortzen. Edo, baliabidea gehitzen du taldean. Taldekidea proiektuan gehitu ondoren, proiektuaren zuzendariak erreserbak mantendu edo erreserbak luzatu ahal izango ditu baliabidean beharrezko erreserbak gehitzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

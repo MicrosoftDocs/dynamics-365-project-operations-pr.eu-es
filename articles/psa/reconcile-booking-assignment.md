@@ -101,3 +101,6 @@ Baliabide bakoitzean Hedatu erreserba baliabidea exekutatu ostean, behar bezala 
 
 Hala ere, erreserben xehetasunei gertuagotik begiratuz gero erreserben hasiera-orduetako aldeak erakusten dira. Erreserbak ez dira hasi esleipen-sarreraren hasiera-ordua baino lehenago, ezta baliabidearen hasiera-ordu librea baino lehenago ere.
  ![Antolaketa-taulako baliabideen erreserba berriak](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

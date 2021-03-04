@@ -125,3 +125,6 @@ Entitateen segurtasun pribilegioen eguneratze hauek beharrezkoak dira UR5 eguner
  
  ![Liburuaren esleipenaren sinkronizazioa](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

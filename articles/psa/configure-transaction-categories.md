@@ -43,3 +43,6 @@ Konfiguratu transakzio-kategoriak gastu-kategorien gaineko multzoa zehazteko.
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Konfiguratu Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

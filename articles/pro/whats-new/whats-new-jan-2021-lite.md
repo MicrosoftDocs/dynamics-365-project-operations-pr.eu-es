@@ -41,3 +41,6 @@ Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie
 | **Abaguneen kudeaketa** | 2040713 | Kontratu batetik faktura bat sortzerakoan gertatzen den script errorea konpondu da eta Field Service instalatuta dago. |
 | **Proiektuaren antolaketa eta jarraipena** | 2090202 | Jada erabiltzen ez diren negozio-arauak **Zaharkituta** gisa markatuta. |
 | **Denbora eta gastua** | 2091249 | Estutu kontrolak erabiltzaileek zeregina ezin aldatzeko bidalitako edo onartutako denbora-sarrera batean. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

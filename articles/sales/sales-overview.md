@@ -63,3 +63,6 @@ Project Operations-en, ezin duzu eskaintzetan egiten diren berrikuspenik egin. H
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Eskaintzen eta proiektu-kontratuen iruzkinak eta onespenak jarraitu
 Eskaintzen eta proiektu-kontratuen berrikuspena eta onespena kudeatu ahal izango dituzu erregistroen horma eta mezuak erabiliz. Erakundeak lan-fluxuak eta plugin pertsonalizatuak sor ditzake, berrikusteko eta onesteko lan-elementuen jakinarazpenak kudeatzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

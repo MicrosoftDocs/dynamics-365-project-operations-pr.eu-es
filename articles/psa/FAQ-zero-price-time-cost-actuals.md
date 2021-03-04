@@ -66,3 +66,6 @@ Oraindik ikusten ez baduzu baliozko denbora-kostua benetako atalean egiten egiaz
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Prezio finkoko fakturazio-metodoa duen proiektuaren kontratuaren lerro bakoitzak
 Fakturazio-mugarriak berrikusteko, joan **Salmentak** \> **Fakturazioa** \> **Prezio finkoen mugarriak** atalera. Hautatu fakturatzeko prest dauden mugarriak eta, ondoren, hautatu **Fakturatzeko prest**. Mugarri horien fakturazio-egoera aldatu egingo da **Fakturatzeko prest** egoerara.
 
 ![Prezio finkoaren mugarriak](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

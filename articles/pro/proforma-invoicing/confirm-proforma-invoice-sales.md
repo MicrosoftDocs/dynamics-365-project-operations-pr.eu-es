@@ -273,3 +273,6 @@ Produktu-lerroaren fakturatutako salmentak, produktuan oinarritutako kontratu-le
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

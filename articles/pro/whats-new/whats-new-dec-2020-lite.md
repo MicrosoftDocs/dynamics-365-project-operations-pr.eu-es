@@ -57,3 +57,6 @@ Ondorengo taulan Dataverse ingurumeneko Project Operations bertsioko eguneratzea
 | Denbora eta gastua | 2034882 | **Berria** botoia bi aldiz bistaratzen da komando barran denbora sartzeko Dynamics 365 Field Service instalatuta dago. |
 | Denbora eta gastua | 2056028 | Eguneratu **Editatu ordua** denbora lerroa sartzeko orria. |
 | Denbora eta gastua | 1983747 | Denbora sartzeko taulan datu osagarriak agertzen dira. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

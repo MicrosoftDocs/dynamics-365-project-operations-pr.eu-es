@@ -330,3 +330,6 @@ Psak proiektu batean zehar gertatzen diren transakzio-ekonomiko guztiak erregist
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

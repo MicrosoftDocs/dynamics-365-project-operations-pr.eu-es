@@ -45,3 +45,6 @@ Lan-sortaren prozesua lan errepikaria da. Prozesu-sorta hau askotan exekutatzen 
 
 > [!NOTE]
 > Sortako fakturazioa fakturen egutegien arabera konfiguratutako proiektuen kontratu lerroetarako bakarrik exekutatzen da. Prezio finkoko fakturazio metodoa duen kontratu-lerroak mugarriak konfiguratu behar ditu. Ordua eta materiala fakturatzeko metodoa duen proiektu-kontratuen lerroak fakturen egitaraua finkatuko du. Gauza bera gertatzen da proiektuan oinarritutako kontratu lerroan.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

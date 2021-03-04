@@ -43,3 +43,6 @@ Prezioen zerrendaren kopia bat egiteko, jarraitu urrats hauek.
 1. **Funtzioa**, **Kategoria** eta **Prezioen zerrendako elementua** prezioen zerrenda baten fitxak, hauta ditzakezu **Eguneratu prezioak** azpisareko prezio guztiei marka bat aplikatzeko. 
 2. Irekitzen den elkarrizketa-orrian, sartu marka bat. Halaber, ehuneko negatiboa gehi dezakezu prezioak ehuneko jakin batean jaisteko. 
 3. Aukeratu **Ados** elkarrizketa-orrian eta egiaztatu azpisareko prezioek egindako aldaketak islatzen dituztela.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ Baliabideak erreserbatu bitartean, proiektuen arduradunek proiektuetan lan egite
 
 3. Aukeratu **Gorde** , eta gero itxi orria.
 4. Gainean **Konpetentziak** fitxa, gehitu **ProjectMgmt** trebetasuna eta **PMP** ziurtagiria.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

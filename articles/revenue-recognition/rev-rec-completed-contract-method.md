@@ -90,3 +90,6 @@ Estimazioak egoera aldatzen du **Ezabatuta**.
 Erabili orrialde hau aurrez zehaztutako data batekin eta aurrekontuaren egoerarekin ezabatze guztiak alderantzikatzeko **Ezabatuta**. Transakzioaren egoera aldatu egiten da eremu egokiak hautatu ondoren.
 
 Honek ere automatikoki aldatzen du proiektuaren egoera **Prozesuan** proiektuaren etapa amaituta badago. Proiektuaren aldiaren aurrekontuaren egoera berriro aldatzen da **Argitaratua**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

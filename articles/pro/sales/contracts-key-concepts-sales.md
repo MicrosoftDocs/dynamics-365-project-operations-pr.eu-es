@@ -93,3 +93,6 @@ Project Operations-en kontratuak Dynamics 365 Sales-en kontraktuen gainean eraik
 - Project Operations-en kontratuek beren forma eta interfazeko elementu propioak dituzte, negozio arauak, negozio logika plug-inetan eta bezeroen aldeko scriptak, Salmenten kontratuetatik bakarrak bihurtzen dituztenak.
 
 Arrazoi horiek direla eta, ez zenuke salmenta kontratua eta proiektu kontratua erabili beharrik izango.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -209,3 +209,6 @@ Demo datuak Finantza inguruneari aplikatu badizkiozu, ikusi [Konfiguratu eta apl
 
 
 Zure Project Operations ingurunea hornitu eta konfiguratuta dago orain. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

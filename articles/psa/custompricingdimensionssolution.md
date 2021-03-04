@@ -68,3 +68,6 @@ Project Service-eko entitate hauek gehitu beharko dituzu prezio-soluzioan. Osatu
 > ![Ez sartu erlazionatutako osagaiak](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -257,3 +257,6 @@ Hurrengo irudia prezio-zerrenda pertsonalizatuak sortu ondorengoa da.
 
 > [!NOTE]
 > Atzerapena egon daiteke **Sortu pertsonalizatutako prezioak** aukeran klik egitean prezio-zerrenda pertsonalizatua sortzen denean. Hainbat aldiz klik egin beharrean, sareta freskatzea gomendatzen dugu. Prezio-zerrenda pertsonalizatua sortu da lotutako prezio-zerrendaren izenak eskaintzaren izena edo proiektuaren kontratuaren izena eransten badu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

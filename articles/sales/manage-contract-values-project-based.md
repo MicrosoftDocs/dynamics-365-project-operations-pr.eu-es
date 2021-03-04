@@ -57,3 +57,6 @@ Araua: Proiektu bat eta transakzio klase jakin bat proiektuan oinarritutako kont
 | C1       | CL2           | A1      | +Ez           | Yes             | +Ez          | Baliozkoa           | P1 proiektuaren denbora eta tasak CL1ean sartzen dira. P1 proiektuaren gastuak QL2n sartzen dira. </br>   Kontratu lerro bakoitzean sartzen den horretan ez dago gainjartzerik eta, beraz, balio du.  |
 | C1       | CL1           | A1      | Yes          | Yes             | Yes         | Baliogabea da       | Araua urratzen du. P1 proiektuaren denbora, gastua eta tasak kontratuaren linea bietan, bi kontratuetan daude.                                                                                               |
 | CL2      | CL2           | A1      | Yes          | Yes             | Yes         | Baliogabea da       | Araua urratzen du. P1 proiektuaren denbora, gastua eta tasak kontratuaren linea bietan, bi kontratuetan daude.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

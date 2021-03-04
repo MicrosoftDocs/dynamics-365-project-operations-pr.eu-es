@@ -51,3 +51,6 @@ Aurrekontuaren bezero bat sortu, eguneratu edo ezabatu daiteke **Aipatu bezeroak
 Fakturazio zatitutako ehunekoak editatu ditzakezu lineako sareta editatzeko esperientzia erabiliz. Fakturazio zatitutako ehunekoak % 100 guztira ez direnean, errore bat gertatuko da. Fakturazio zatitutako ehunekoak eguneratu ondoren, freskatu orria errorea ezabatzeko.
 
 Aukeratzen ere saia zaitezke **Banatu uniformeki** eskaintzaren bezeroen azpisarean. Ekintza honek fakturazio zatiak banatzen dizkie aurrekontu bezero guztiei. Biribiltze faktore bat badago, hori biribiltze bezeroari gehituko zaio. Aurrekontuaren bezeroetako bat beti biribildutako bezero gisa etiketatuta dago. Horrek esan nahi du aurrekontuaren bezeroaren erregistroak hau duela **Biribilketa** bandera ezarri da **Bai**. Normalean, aurrekontuaren bezero nagusia da hau, baina hori alda daiteke.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Horrela esleitutako baliabideak erreserbatu gabe taldeari gehitzen zaizkio. Hau 
 
 3. Hautatu zereginari esleitu nahi diozun balabidea.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

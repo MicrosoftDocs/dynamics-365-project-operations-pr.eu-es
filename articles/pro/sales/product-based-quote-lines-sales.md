@@ -46,3 +46,6 @@ Aurrekontu-lerro bat produktuen katalogoan oinarrituta badago, salmenta-prezioa 
 Hautatzen baduzu **Gainidatzi prezioak**, lehenetsitako prezioa ez dago ezarrita. Edo, produktuaren prezioa sartu behar duzu aurrekontuen lerroan. Hautatzen baduzu **Erabili lehenetsia**, salmenta prezio lehenetsia erabiltzen da eta eremua blokeatuta dago editatzeko.
 
 Salmenta prezio lehenetsiak produktuaren araberako lerroetan sartzen dira aurrekontu batean. **Prezioa** eremua, eremuan ezarri behar da **Gainidatzi prezioak** eskaintzaren lerroetan prezio lehenetsia editatu ahal izateko. Hau da, Dynamics 365 Sales-en produktuan oinarritutako lerroen portaeraren gaineko Project Operations-en berariazko gainidazketa.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

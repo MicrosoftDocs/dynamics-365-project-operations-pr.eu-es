@@ -36,3 +36,6 @@ Erabili Lifecycle Services (LCS) Dynamics 365 Project Operations inguruneak kude
 
 Erabili LCS proiektu hau zure Project Operations ingurunea zabaltzeko.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

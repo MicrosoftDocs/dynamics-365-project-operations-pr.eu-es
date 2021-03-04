@@ -46,3 +46,6 @@ Antolaketa-laguntzailea agertzen da eta eskakizunen arabera iragazten du. Hautat
 > ![Hautatutako baliabidea](media/Resource-Management-image61.png)
 
 Taldekide orokorra erreserba-izen irmoa duten baliabidearekin ordezkatzen da proiektuaren antolaketako proiektuaren taldean eta eginkizunen esleipenetan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

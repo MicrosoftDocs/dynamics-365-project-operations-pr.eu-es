@@ -44,3 +44,6 @@ Informazio gehiagorako, ikusi [Gastuen sarrera (arina)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>Zehaztu gastuen inplementazioa
 Oinarrizko Gastuak kudeatzeko inplementazioa exekutatzen ari zaren jakiteko, egiaztatu URL helbidea honekin amaitzen dela **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

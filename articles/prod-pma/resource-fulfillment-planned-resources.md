@@ -40,3 +40,6 @@ Proiektu kudeatzaile batek proiektu baterako beharrezko baliabide rolak planifik
 7. Hautatu langile bat, eta ondoren, hautatu **Esleitu**.
 8. Egiaztatu lerro hori **Software garatzailea 1** kendu da **XYZ Berritze proiektua 2. fasea** proiektua.
 9. Gainean **Proiektu taldea eta programazioa** fitxa, **XYZ berritzea 2. fasea** proiektua, egiaztatu aurreko urratsean hautatu zenuen langilea honela gehitu dela **Software garatzailea**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

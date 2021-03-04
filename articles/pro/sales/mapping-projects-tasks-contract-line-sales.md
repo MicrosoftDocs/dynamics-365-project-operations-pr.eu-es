@@ -82,3 +82,6 @@ Hau esperientzia egokiena da proiektuaren zereginak kontratatutako lerroetatik a
 4. Irekitzen den elkarrizketa-orrian, hautatu kontratu lerro bat goitibeherakoan.
 5. Hautatu kontrol laukia elkarteak hautatutako atazetako haurren atazetatik ere atera behar dituen adierazteko. Laukia markatuta hautatutako atazetako haurren zereginak kontratu-lerrotik askatuko dira.
 6. Hautatu **Ados**. Abisu mezu batek adierazten du elkarte hau kentzeak zereginean aurretik grabatutako benetakoak itzul ditzakeela. Aukeratu **Ados** abisu-koadroan, atazaren eta proiektuan oinarritutako kontratu-lerroaren arteko lotura kentzeko.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

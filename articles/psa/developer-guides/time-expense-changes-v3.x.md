@@ -32,3 +32,6 @@ Dynamics 365 Project Service Automation aplikazioaren 3.0 bertsioan, Ordua eta G
 Lehen, Denbora eta Gastua ikuspegiko egutegiaren eta saretaren ikuspegiak DHTMLX kontrol gisa inplementatzen ziren. Egutegiaren eta saretaren ikuspegien inplementazio horrekin zerikusia duten artefaktuak zaharkituta daude.
 
 Zaharkitutako baliabideen zerrenda osoa ikusteko, ikusi [Zaharkitutako web baliabideak Project Service Automation-en v3.x bertsioan](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
