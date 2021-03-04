@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071105"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144848"
 ---
 # <a name="create-custom-fields-and-entities"></a>Sortu eremu eta entitate pertsonalizatuak 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Jarraitu urrats hauei aukera multzo edo entitate pertsonalizatu bat sortu nahi duzunean Power Apps plataforman.  
 Gai honetako prozedurak Project Service Automation-en (PSA) web interfazea erabiliz osatu behar dira.
@@ -61,7 +63,7 @@ Aukera multzoan oinarritutako bi dimentsio sor ditzakezu. **Baliabideen lanaren 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Sortu datuak erakundeetan oinarritutako dimentsioetarako
 
-Erakundeetan oinarritutako dimentsioetarako datuak sor ditzakezu eskuz edo Microsoft Excel inportazio edo zerbitzu deiak erabiliz. Erabili prozedura honen urratsak bi titulu estandar sortzeko, adibidez, **Sistemen ingeniaria** eta **Sistemen ingeniari nagusia** , **Titulu estandarra** entitatean oinarritutako dimentsiotik. Sortu nahi dituzun datuak txikiak badira, hurrengo adibidean bezala, inprimaki estandarra erabil dezakezu.
+Erakundeetan oinarritutako dimentsioetarako datuak sor ditzakezu eskuz edo Microsoft Excel inportazio edo zerbitzu deiak erabiliz. Erabili prozedura honen urratsak bi titulu estandar sortzeko, adibidez, **Sistemen ingeniaria** eta **Sistemen ingeniari nagusia**, **Titulu estandarra** entitatean oinarritutako dimentsiotik. Sortu nahi dituzun datuak txikiak badira, hurrengo adibidean bezala, inprimaki estandarra erabil dezakezu.
 
 1. PSAn, sakatu **Bilaketa aurreratua**. Hautatu entitatea eta, ondoren, **Titulu estandarra** atalean, sakatu **Emaitzak**. **Titulu estandarra** entitateko errenkada guztiak erakutsiko dira.
 2. Sakatu **Berria**. **Izena** atalean, idatzi "Sistemen ingeniaria" eta, ondoren, sakatu **Gorde**.

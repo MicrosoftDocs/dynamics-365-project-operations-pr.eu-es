@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071135"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144983"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Erabili baliabide erreserbagarriak prezio-dimentsio gisa
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Gai honek baliabide erreserbagarriak prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du. Hasi aurretik, prezio-dimentsioaren soluzioa sortu ez baduzu, bat sortu beharko duzu. Prezioen dimentsioko irtenbidea baduzu, orduan aldaketak egin ditzakezu soluzio horretan. Zure erakunderako prezio-dimentsio soluzio berririk sortu ez baduzu, jarraitu [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities.md) gaian azaldutako prozedurei.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Gehitu baliabide erreserbagarriak inprimakietan eta ikuspegietan
@@ -57,7 +60,7 @@ Ireki soluzio-arakatzailea prezio-dimentsioaren soluzioa lortzeko eta, ondoren, 
 ## <a name="set-up-pricing-dimension-field-names"></a>Konfiguratu prezio-dimentsio aktiboen eremuak
 
 Prezioen dimentsioaren eremuaren izena denean **Funtzioaren prezioa** taula bere eremuaren izenaren desberdina da prezioen lehenetsiak funtzionatu behar duen beste edozein entitateren kasuan, prezioen dimentsioaren erregistroa izen desberdinen berri izan behar da.    
-Baliabide erresbagarrietarako, **Proiektuko taldekideak** entitateak beste izen bat du ( **msdyn_bookableresourceid** ) **Funtzioaren prezioa** entitatearekin konparatuta ( **msdyn_bookableresource** ). Prezioen dimentsioaren erregistroa **msydn_bookableresource** baliabiderako horretaz jabetu behar da. 
+Baliabide erresbagarrietarako, **Proiektuko taldekideak** entitateak beste izen bat du (**msdyn_bookableresourceid**) **Funtzioaren prezioa** entitatearekin konparatuta (**msdyn_bookableresource**). Prezioen dimentsioaren erregistroa **msydn_bookableresource** baliabiderako horretaz jabetu behar da. 
 1. Horretarako, egin klik bikoitza errenkadan **Prezioen neurriak** saretan dimentsio orria irekitzeko **msdyn_bookableresource** baliabidekoa.
 2. Dimentsioaren orrian, **Erlazionatutakoa** fitxan, egin klik **Prezioen dimentsioaren eremu-izenak** aukeran.
 

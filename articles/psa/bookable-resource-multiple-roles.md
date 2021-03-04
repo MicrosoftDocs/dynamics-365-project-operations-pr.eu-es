@@ -1,6 +1,6 @@
 ---
-title: Aurreikusi proiektuen salmentak eta kostuak erreserba daitekeen baliabide batek proiektu bateko hainbat funtzio betetzen dituenean
-description: Gai honek prezioen dimentsioak proiektu batean hainbat funtzio betetzen dituen baliabide baten prezioei eta kostuei laguntzeko moduari buruzko informazioa eskaintzen du.
+title: Kalkulatu proiektuaren salmentak eta kostuak, erreserbatu daitekeen baliabide batek proiektu bateko eginkizun ugari betetzen dituenean
+description: Gai honetan prezioen dimentsioak proiektu bateko eginkizun ugari betetzen dituen baliabide baten prezioei eta kostuei buruzko estimazioak onartzeko nola erabil daitekeen azaltzen da.
 author: rumant
 manager: kfend
 ms.custom:
@@ -17,16 +17,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8ddc827a4170c5576c0a4350b51e6a119094ac50
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071088"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145028"
 ---
-# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-mulitple-roles-on-a-project"></a>Aurreikusi proiektuen salmentak eta kostuak erreserba daitekeen baliabide batek proiektu bateko hainbat funtzio betetzen dituenean 
+# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Kalkulatu proiektuaren salmentak eta kostuak, erreserbatu daitekeen baliabide batek proiektu bateko eginkizun ugari betetzen dituenean 
 
-Proiektuetan oinarritutako konpainiek askotan baliabide baten beharra izaten dute proiektu batean hainbat funtzio betetzeko. Eginkizun horietako bakoitzaren prezioak eta kostuak desberdinak izan litezke; horrek esan nahi du baliabide berdinak proiektuan izandako denborak finantza-estimazio desberdina lor dezakeela eginkizun bakoitzaren fakturaren eta kostuen tasen arabera. Project Service Automation-ek izendatutako baliabiderako taldekideen erregistroan dauden balioak konfiguratzea ahalbidetzen du eta taldekideari esleitutako zeregin bakoitzean gainidatziak egiteko aukera ematen du.
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+Proiektuetan oinarritutako enpresek baliabide baten beharra izaten dute proiektu batean eginkizun ugari egiteko. Eginkizun horietako bakoitzaren prezioak eta kostuak desberdinak izan litezke; horrek esan nahi du baliabide berdinak proiektuan izandako denborak finantza-estimazio desberdina lor dezakeela eginkizun bakoitzaren fakturaren eta kostuen tasen arabera. Project Service Automation-ek izendatutako baliabiderako taldekideen erregistroan dauden balioak konfiguratzea ahalbidetzen du eta taldekideari esleitutako zeregin bakoitzean gainidatziak egiteko aukera ematen du.
 
 Ondorengo adibidean azaltzen da nola balio horren gainidazte soilak baliabide batek proiektu batean funtzio anitz izatea kostuen eta fakturen tasa desberdinekin.
 
@@ -48,19 +50,19 @@ Errepikatu B zereginaren urrats horiek eta ziurtatu B zereginean sortutako talde
 2. **Zereginaren xehetasunak** orrian, aurkitu **Funtzioa** eta **Antolaketa-unitatea** eremuak, gehitu zeregin hori egiteko behar den baliabide bat gehitzeko. 
 
   > [!NOTE]
-  > Project Service Automation demo-datuak erabiliz agertoki hau osatzen ari bazara, hautatu funtzioaren **Aholkularitza-arduraduna** , eta **Fabrikam US** antolaketa-unitate gisa.
+  > Project Service Automation demo-datuak erabiliz agertoki hau osatzen ari bazara, hautatu funtzioaren **Aholkularitza-arduraduna**, eta **Fabrikam US** antolaketa-unitate gisa.
 
 3. Hautatu B zeregina eta, ondoren, hautatu **Editatu zeregina**.
-4. **Zereginaren xehetasunak** orrian, aurkitu **Funtzioa** eta **Antolaketa-unitatea** eremuak, gehitu zeregin hori egiteko behar den baliabide bat gehitzeko. Ziurtatu **Funtzioa** eta **Antolaketa-unitatea** eremuetako balioak desberdinak direla B zereginean eta A zereginean. 
+4. **Zereginaren xehetasunak** orrian, aurkitu **Funtzioa** eta **Antolaketa-unitatea** eremuak, gehitu zeregin hori egiteko behar den baliabide bat gehitzeko. Ziurtatu fitxategiko balioak **Funtzioa** eta **Antolakuntza-unitatea** eremuak desberdinak dira B ataza egiteko A ataza balioekin alderatuta. 
 
   > [!NOTE]
-  > Project Service Automation demo-datuak erabiliz agertoki hau osatzen ari bazara, hautatu funtzioaren **Sare-teknikaria** , eta **Fabrikam US** antolaketa-unitate gisa.
+  > Project Service Automation demo-datuak erabiliz agertoki hau osatzen ari bazara, hautatu funtzioaren **Sare-teknikaria**, eta **Fabrikam US** antolaketa-unitate gisa.
 
 5. Gorde eta itxi **Zereginaren xehetasunak** orria. 
 
-## <a name="team-member-and-estimates-behaviour"></a>Talde-kidea eta aurreikuspenen portaera 
+## <a name="team-member-and-estimates-behavior"></a>Taldekidea eta portaera kalkulatzen du 
 
-1. **Zereginaren xehetasunak** orrian, **Talde-kidea** atalean, hautatu bi talde-kide orokor eta hautatu **Sortu eskakizunak**. Baliabideen eskakizun orokorrak sortuko dira. 
+1. **Zereginaren xehetasunak** orrian, **Talde-kidea** atalean, hautatu bi talde-kide orokor eta hautatu **Sortu eskakizunak**. 
 2. Hautatu **Aholkularitza-arduraduna** eginbidearen talde-kidea eta, ondoren, hautatu **Erreserbatu**. Antolaketa-panelak eskakizun horretarako baliabide bat irekitzen eta erreserbatzen du.
 3. Hautatu **Sare-teknikaria** eginbidearen talde-kidea eta, ondoren, hautatu **Erreserbatu**. Antolaketa-panelak eskakizun horretako baliabide bera irekitzen eta erreserbatzen du.
 
@@ -71,8 +73,4 @@ Talde-kideen erregistro horren errenkada zabaltzen duzunean, bi zeregin horietak
 ### <a name="estimates-grid"></a>Aurreikuspenen sareta 
 **Aurreikuspenak** sarera nabigatzen duzunean, baliabide beraren bi zereginek prezio desberdinak dituztela ohartuko zara.
 A zeregineko baliabidearen esleipena **Aholkularitza-arduraduna** eremuaren **Funtzioa** atributuaren balioa erabiliz. B zeregineko baliabide beraren esleipena **Sare-teknikaria** eremuaren **Funtzioa** atributuaren balioa erabiliz.
-
-
-
-
 

@@ -3,6 +3,7 @@ title: Gaitu Project Finder Mobile aplikazioaren eginbidea
 description: Nola gaitu Project Finder Mobile aplikazioaren eginbidea Project Service-rako
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132948"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144533"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Gaitu Project Finder Mobile aplikazioaren eginbidea (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Baliabideek Project Finder Mobile aplikazioa erabil dezakete telefonoetan [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] eginbidearekin, lan egiteko proiektu berriak aurkitzeko eta gaitasun multzoak eguneratzeko.  
   
  Aplikazioa erabilgarri dago [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] eta [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)] telefonoetarako.  
-  
- Erabiltzaileek aukera pare bat ezarri behar dituzte zure erakunde-unitateko parametroen ezarpenetan, erabiltzaileek proiektu-baliabideen eskakizunak ikusi eta beren trebeziak egunera ditzaten.  
+    
+ Erabiltzaileek proiektu-baliabidearen eskakizunak ikusi eta trebeziak eguneratzeko, aukerak hautatu egin behar dira zure erakunde-unitatearen parametro-ezarpenetan.
   
 > [!NOTE]
 >  Project Finder Mobilereko aplikazioak [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] aplikazioarekin soilik funtzionatzen du, lokala ez den instalazioak.  
@@ -57,8 +60,8 @@ Baliabideek Project Finder Mobile aplikazioa erabil dezakete telefonoetan [!INCL
   
 |Hartzailea|Gertaera|  
 |---------------|-----------|  
-|Proiektu-kudeatzailea|-   Project Finder Mobileraren aplikazioarekin proiektuan erregistratzen denean baliabidea.|  
-|Baliabidea|-   Baliabidea erregistratu den proiektuko lana dagoeneko beste baliabide batek egin duenean.<br />-   Trebeziaren onesteko eskaera onartu edo baztertu denean.<br />-   Proiektuan erregistratzeko eskaera onartu edo baztertu denean.|  
+|Proiektu-kudeatzailea|- Baliabide bat erregistratzen da Project Finder Mobile aplikazioarekin proiektuan.|  
+|Baliabidea|- Baliabidea erregistratu den proiektuko lana dagoeneko beste baliabide batek egin du.<br />- Trebeziaren onesteko eskaera onartu edo baztertu da.<br />- Proiektuan erregistratzeko eskaera onartu edo baztertu da.|  
   
 ## <a name="privacy-notice"></a>Pribatutasun-oharra  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  

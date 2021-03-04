@@ -2,6 +2,7 @@
 title: Bertsio-berritzeko gogoetak. Microsoft Dynamics 365 Project Service Automation aplikazioaren 2.x edo 1.x bertsiotik 3. bertsiora
 description: Gai honek Project Service Automation aplikazioaren 2.x edo 1.x bertsiotik 3. bertsiora bertsio-berritzean egin behar dituzun gogoetei buruzko informazioa ematen du.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121698"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144132"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Bertsio-berritzeko gogoetak. PSA aplikazioaren 2.x edo 1.x bertsiotik 3. bertsiora
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation eta Field Service
-Dynamics 365 Project Service Automation eta Dynamics 365 Field Service aplikazioek Universal Resourcing Scheduling (URS) soluzioa erabiltzen dute baliabideak antolatzeko. Zure instantzian Project Service Automation eta Field Service badituzu, bi soluzioak bertsio-berritu beharko zenituzke azken bertsiora (Project Service Automation-en 3.x bertsioa eta Field Service-ren 8.x bertsioa). Project Service Automation edo Field Service eguneratzeak URS-ren azken bertsioa instalatuko du. Horrek esan nahi du portaera inkoherenteak egon daitezkeela Project Service Automation eta Field Service soluzioak azken bertsiora bertsio-berritzen ez badira.
+Dynamics 365 Project Service Automation eta Dynamics 365 Field Service aplikazioek Universal Resourcing Scheduling (URS) soluzioa erabiltzen dute baliabideak antolatzeko. Project Service Automation eta Field Service badauzkazu zure instantzian, bertsio-berritu bi soluzioak azken bertsiora. Project Service Automation-erako, 3.x bertsioa da. Field Service-rako, 8.x bertsioa da. Project Service Automation edo Field Service bertsio-berritzeak URSren azken bertsioa instalatuko du. Project Service Automation eta Field Service soluzioak instantzia berean bertsiorik berritzen ez badira, bertsio desegokiak izan daitezke.
 
 ## <a name="resource-assignments"></a>Baliabide-esleipenak
 Project Service Automation aplikazioaren 2. bertsioan eta 1. bertsioan, zereginen esleipenak bigarren mailako zeregin gisa (lineako zereginak ere deitzen dira) gorde ziren **Zereginen entitatea** atalean, eta zeharka erlazionatuta daude **Baliabideen esleipena** erakundearekin. Lineako zeregina ikusgai zegoen Work Breakdown Structure (WBS) zerbitzuko leiho gainerakorrean.
@@ -40,9 +44,9 @@ Project Service Automation aplikazioaren 3. bertsioan, baliabide erreserbagarria
 Aldaketa horiek eragina dute projektu talde batean erreserbagarriak diren baliabide izendatuetarako eta baliabide orokorretarako baliabide-esleipena duten lehendik dagoen edozein proiekturen bertsio-berritzean. Gai honek 3. bertsiora eguneratzen duzunean proiektuan kontuan hartu beharko dituzun puntuak zeintzuk diren erakusten du. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Izendatutako baliabideei esleitutako zereginak
-Azpiko zereginen entitatea erabiliz, 2. bertsioan eta 1. bertsioan egin ziren zereginei esker, taldekideek lehenetsitako zereginaz gain beste funtzio bat har zezaketen. Adibidez, Rakel Eguzkiagirreri, modu lehentsian programa-kudeatzailearen funtzioa esleitu zitzaionari, garatzailearen eginkizuna duen zeregin bat esleitu ziezaioken. 3. bertsioan, izendatutako taldekide baten eginkizuna lehenetsia da beti. Beraz, Rakel Eguzkiagirreri esleitzen zaion edozein zereginek programa-kudeatzailearen eginkizun lehenetsia erabiltzen du.
+Azpiko zereginen entitatea erabiliz, 2. bertsioan eta 1. bertsioan egin ziren zereginei esker, taldekideek lehenetsitako zereginaz gain beste funtzio bat har zezaketen. Adibidez, Rakel Eguzkiagirreri, modu lehentsian programa-kudeatzailearen funtzioa esleitu zitzaionari, garatzailearen eginkizuna duen zeregin bat esleitu ziezaioken. 3. bertsioan, izendatutako taldekide baten eginkizuna lehenetsia da beti. Beraz, Rakel Eguzkiagirreri esleitzen zaion edozein zereginek programa-kudeatzaileko Rakelen eginkizun lehenetsia erabiltzen du.
 
-2. bertsioan eta 1. bertsioan baliabide bati funtzio lehenetsitik kanpoko zeregin bat esleitu baduzu, bertsio-berritzean, izendatutako baliabideari zereginen esleipen guztientzako eginkizun lehenetsia emango zaio, 2. bertsioko funtzioen esleipena kontuan izan gabe. Horrek kalkulatutako estimazioen aldeak ekarriko ditu 2. bertsiotik edo 1. bertsiotik 3. bertsiora pasatzean, estimazioak baliabidearen funtzioaren arabera kalkulatzen baitira eta ez lerroaren zereginaren esleipenaren arabera. Adibidez, 2. bertsioan bi zeregin esleitu zaizkio Nerea Ibarrondori. 1. zereginaren lerroko zereginaren funtzioa garatzailea da eta 2. zereginarena, programa-kudeatzailea. Nerea Ibarrondok programa-kudeatzailearen funtzio lehenetsia du.
+2. bertsioan eta 1. bertsioan baliabide bati funtzio lehenetsitik kanpoko zeregin bat esleitu baduzu, bertsio-berritzean, izendatutako baliabideari zereginen esleipen guztientzako eginkizun lehenetsia emango zaio, 2. bertsioko funtzioen esleipena kontuan izan gabe. Esleipenaren emaitzak kalkulatutako estimazioen aldeak ekarriko ditu 2. bertsiotik edo 1. bertsiotik 3. bertsiora pasatzean, estimazioak baliabidearen funtzioaren arabera kalkulatzen baitira eta ez lerroaren zereginaren esleipenaren arabera. Adibidez, 2. bertsioan bi zeregin esleitu zaizkio Nerea Ibarrondori. 1. zereginaren lerroko zereginaren funtzioa garatzailea da eta 2. zereginarena, programa-kudeatzailea. Nerea Ibarrondok programa-kudeatzailearen funtzio lehenetsia du.
 
 ![Baliabide bati esleitutako funtzio anitzak](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ Garatzaile eta programa-kudeatzaile funtzioak desberdinak direnez, hauek dira ko
 
 ![Baliabide-esleipenak](media/resource-assignment-v2-05.png)
 
-Estimazioak baliabidearen funtzio lehenetsian oinarrituta daudenez, salmenten eta kostuen kalkuluak aldatu egin daitezke. Kontuan izan hurrengo grafikoan ez duzula ikusten **Garatzailea** funtzioa, orain, baliabide erreserbagarriaren lehenetsitako funtziotik hartzen baita.
+Estimazioak baliabidearen funtzio lehenetsian oinarrituta daudenez, salmenten eta kostuen kalkuluak aldatu egin daitezke. Hurrengo grafikoan ez duzu **Garatzailea** funtzioa ikusiko, orain, baliabide erreserbagarriaren lehenetsitako funtziotik hartzen baita.
 
 ![Funtzio lehenetsien kostuen kalkuluak](media/resource-assignment-cost-estimate-06.png)
 ![Funtzio lehenetsien salmenten kalkulua](media/resource-assignment-sales-estimate-07.png)
 
-Bertsio-berritzea amaitu ondoren, taldekideen rola editatu dezakezu esleitutako lehenespenezkoa ez den beste zerbait izateko. Hala ere, taldekide baten eginkizuna aldatzen baduzu, esleitutako zeregin guztietan aldatuko da; izan ere, 3. bertsioan ezin zaie esleitu taldekideei funtzio bat baino gehiago.
+Bertsio-berritzea amaitu ondoren, taldekideen rola editatu dezakezu esleitutako lehenespenezkoa ez den beste zerbait izateko. Hala ere, taldekide baten eginkizuna aldatzen baduzu, esleitutako zeregin guztietan aldatuko da; izan ere, 3. bertsioan ezingo zaie esleitu taldekideei funtzio bat baino gehiago.
 
 ![Baliabide funtzioa eguneratzea](media/resource-role-assignment-08.png)
 
@@ -102,7 +106,7 @@ Erakundearen unitatea kalkuluen ikuspegian ikus dezakezu.
  
 Bertsio-berritzea amaitutakoan, taldekide orokorrari dagokion lerroko zereginari buruzko erakunde-unitatea taldekide orokorrari gehitzen zaio eta lerroko zeregina kentzen da. Hori dela eta, bertsioa eguneratu aurretik, taldea sortzea edo berriro sortzea gomendatzen dugu baliabide generikoak dituen proiektu bakoitzean.
 
-Kontratazio proiektuaren erakunde unitatearengandik desberdina den erakunde-unitate bat duen funtzio bati esleitutako zereginetarako, eta talde bat sortu ez bada, eguneratzeak taldekide orokorra sortuko du funtziorako, baina taldekidearen erakunde-unitaterako proiektuaren kontratazio unitatea erabiliko du. Proiektua Z-ren adibidera itzuliz, horrek esan nahi du Contoso US kontratazio erakunde-unitatea eta inplementazio faseko proiektuaren planak probatzeko zereginei aholkulari teknikoa funtzioa esleitu zaiela Contoso India-ri esleitutako erakunde unitatearekin. Inplementazioaren fasea aholkulari teknikoaren funtzioari esleitu ondoren osatutako integrazio probaren zeregina. Erakunde-unitatea Contoso US da eta ez da talderik sortu. Eguneratzeak taldekide orokor bat, hiru zereginetarako esleitutako orduak dituen aholkulari tekniko bat eta Contoso US-en erakunde-unitate bat, hau da, roiektuaren kontratazioaren erakunde-unitatea sortuko ditu.   
+Kontratazio proiektuaren erakunde unitatearengandik desberdina den erakunde-unitate bat duen funtzio bati esleitutako zereginetarako, eta talde bat sortu ez bada, eguneratzeak taldekide orokorra sortuko du funtziorako, baina taldekidearen erakunde-unitaterako proiektuaren kontratazio unitatea erabiliko du. Proiektua Z-ren adibidera itzuliz, Contoso US kontratazio erakunde-unitatea eta inplementazio faseko proiektuaren planak probatzeko zereginei aholkulari teknikoa funtzioa esleitu zaie Contoso India-ri esleitutako erakunde unitatearekin. Inplementazioaren fasea aholkulari teknikoaren funtzioari esleitu ondoren osatutako integrazio probaren zeregina. Erakunde-unitatea Contoso US da eta ez da talderik sortu. Eguneratzeak taldekide orokor bat, hiru zereginetarako esleitutako orduak dituen aholkulari tekniko bat eta Contoso US-en erakunde-unitate bat, hau da, roiektuaren kontratazioaren erakunde-unitatea sortuko ditu.   
  
 Sortu gabeko taldekideen baliabide desberdinen erakunde-unitatearen lehenespenak aldatzea da eguneratu aurretik baliabide orokorrak dituzten proiektu bakoitzeko taldekideak sortzea edo berriro sortzea gomendatzearen arrazoia, erakunde-unitateen esleipenak galdu ez daitezen.
 
