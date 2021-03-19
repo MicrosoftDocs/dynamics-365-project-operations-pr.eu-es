@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131958"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287628"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfiguratu proiektu fakturagarrien kontabilitatea
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations-ek kontabilitate aukera ugari onartzen ditu fakturagarriak diren proiektuetarako, denbora eta materiala eta prezio finkoko transakzioak barne.
+Dynamics 365 Project Operations hainbat kontabilitate aukera onartzen ditu fakturazio proiektuetarako, denbora eta material eta prezio finkoko transakzioak barne.
 
 - **Denbora eta material transakzioak**: Transakzio hauek fakturatzen dira lanak aurrera egin ahala proiektuaren orduen, gastuen, elementuen edo kuoten kontsumoaren arabera. Transakzio kostu horiek transakzio bakoitzeko diru sarrerekin pareka daitezke eta proiektua fakturatzen da lanak aurrera egin ahala. Proiektuaren diru-sarrerak transakzioa gertatzen den unean ere lor daitezke. Fakturazioan zehar, diru-sarrerak aitortzen dira eta, hala badagokio, metatutako diru-sarrerak alderantzikatzen dira.
 - **Prezio finkoko transakzioak**: Transakzio horiek fakturazio-egutegi baten arabera fakturatzen dira, proiektuaren kontratuan oinarrituta. Prezio finko transakzio diru-sarrerak izango dira fakturazio erregistratzen daiteke edo kalkulatu eta aldian behin argitaratua, **Bukatutako kontratua** edo **Osatutako ehunekoa** metodoen arabera.

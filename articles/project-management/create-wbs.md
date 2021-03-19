@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841298"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286998"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Sortu zereginen xehetasunen egitura (WBS)
 
@@ -92,6 +92,8 @@ Hurrengo taulan ordutegiaren atributu osagarriak agertzen dira.
 | Hasi | Hasiera-data eta -ordua. |
 | Izena | Zereginaren izena. |
 | ID | Zereginen xehetasunen egiturako zereginaren IDa. |
+
+Administratzaile gisa, eremu pertsonalizatuak defini ditzakezu atazako entitatean. Hala ere, eremuak ezin dira programazio-saretan bistaratu. Zure eremu pertsonalizatuak ikusteko, gehitu **Proiektuaren zeregina** xehetasunen orria.
 
 ## <a name="staffing-attributes"></a>Betetze-atributuak
 

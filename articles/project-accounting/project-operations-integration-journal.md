@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133271"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287223"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations-eko integrazio-aldizkaria
 
@@ -28,9 +28,9 @@ Denbora eta gastu sarrerak sortzen dira **Benetakoa** proiektu baten aurka egind
 Project Operations Integration aldizkarian erregistroak aldian aldiko prozesuaren bidez sortzen dira, **Inportatu taulako taulatik**. Prozesu hau joan zaitezke **Dynamics 365 Finance** > **Proiektuen kudeaketa eta kontabilitatea** > **Aldizkakoa** > **Project Operations-en Integrazioa** > **Inportatu taulako taulatik**. Prozesua modu interaktiboan exekutatu edo atzeko planoan exekutatzeko konfiguratu dezakezu beharren arabera.
 
 Aldian aldiko prozesua exekutatzen denean, oraindik Project Operations-en Integrazio aldizkarian gehitzen ez diren egiazkoak aurkitzen dira. Benetako transakzio bakoitzeko egunkari lerro bat sortzen da.
-Sistemak aldizkari lerroak aldizkari banatan taldekatzen ditu fitxategian hautatutako balioaren arabera **Project Operations Integration aldizkariaren aldiko unitatea** eremua (**Finantzak** > **Proiektuen kudeaketa eta kontabilitatea** > **Konfigurazioa** > **Proiektuen kudeaketa eta kontabilitate parametroak**, **Proiektuaren eragiketak aktibatuta Dynamics 365 Customer Engagement** _ fitxa). Eremu honetarako balore posibleak hauek dira:
+Sistemak aldizkari lerroak aldizkari banatan taldekatzen ditu fitxategian hautatutako balioaren arabera **Project Operations Integration aldizkariaren aldiko unitatea** eremua (**Finantzak** > **Proiektuen kudeaketa eta kontabilitatea** > **Konfigurazioa** > **Proiektuen kudeaketa eta kontabilitate parametroak**, **Proiektuaren eragiketak aktibatuta Dynamics 365 Customer Engagement** fitxa). Eremu honetarako balore posibleak hauek dira:
 
-  - _*Egunak**: benetako datuak transakzio dataren arabera biltzen dira. Egun bakoitzeko aldizkari bat sortzen da.
+  - **Egunak**: benetako datuak transakzio dataren arabera biltzen dira. Egun bakoitzeko aldizkari bat sortzen da.
   - **Hilabeteak**: Egunak hilabete naturalaren arabera biltzen dira. Hilabete bakoitzeko aldizkari bat sortzen da.
   - **Urteak**: Urteak hilabete naturalaren arabera biltzen dira. Urte bakoitzeko aldizkari bat sortzen da.
   - **Guztiak**: Benetako transakzio guztiak integrazio aldizkari berean sartzen dira. Aldizkaria eskuragarri ez badago aldian aldiko prozesua exekutatzen denean, adibidez, aldizkaria transakzioak bidaltzeko prozesuan badago, egunkari berria sortzen da.

@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131688"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287043"
 ---
 # <a name="expense-estimates"></a>Expense estimates
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Baliabideetan oinarritutako kalkuluak definitzearekin batera, Dynamics 365 Project Operations proiektuetako kudeatzaileek proiektu bakoitzerako proiektuetan oinarritutako gastuak definitzeko aukera ematen du. Gastu-elementu bakoitza proiektuko zeregin jakin batekin edo gastu-kategoriarekin lotu daiteke. Gastu kategoriak normalean antolakuntza mailan definitzen dira. Gastu-kategoria bakoitzaren prezioak normalean hierarkia honetan definitzen dira:
+Baliabideetan oinarritutako kalkuluak definitzearekin batera, Dynamics 365 Project Operations proiektuen kudeatzaileek proiektu bakoitzeko proiektuetan oinarritutako gastuak definitzeko aukera ematen du. Gastu-elementu bakoitza proiektuko zeregin jakin batekin edo gastu-kategoriarekin lotu daiteke. Gastu kategoriak normalean antolakuntza mailan definitzen dira. Gastu-kategoria bakoitzaren prezioak normalean hierarkia honetan definitzen dira:
 
 - Erakundea
 - Bezeroa

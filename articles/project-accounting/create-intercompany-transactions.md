@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0a9d34d69ff59f0cb470bb852d8a80ecaedf6544
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595417"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287403"
 ---
 # <a name="create-intercompany-transactions"></a>Sortu enpresen arteko transakzioak
 
@@ -69,7 +69,7 @@ Molly Clark, GBPMn lan egiten duen garatzaileak 10 orduko lana erregistratzen du
     5. Sortu proiektu berria eta lotu kontratu lerro honekin.
 4. Saioa hasi baliabide gisa, **Molly Clark**. Joan **Proiektuak** > **Denbora-sarrerak** aukerak, eta sortu Adventure Works proiektuaren denbora sarrera.
 5. Saioa hasi proiektuaren kudeatzaile gisa. Joan **Proiektuak** > **Onarpenak** aukerara, eta onartu Molly Clark-ek erregistratutako denbora sartzeko transakzioa.
-6. Joan Adventure Works proiektura eta hautatu **Erlazionatuta** >**Benetakoak**. Egiazko transakzio hauek sortzen dira.
+6. Joan Adventure Works proiektura eta hautatu **Erlazionatuta** > **Benetakoak**. Egiazko transakzio hauek sortzen dira.
 
 | **Transakzio mota** | **Prezioa** | **Transakzio-moneta** | **Zenbatekoa** |
 | --- | --- | --- | --- |
