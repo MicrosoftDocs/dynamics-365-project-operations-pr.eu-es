@@ -16,15 +16,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 177e0a6f676000c148346f7f7b7a2391326bc78b
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 32ea14941344660ae0d384c8b046a50ba98d46bd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960007"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271428"
 ---
-# <a name="per-diem-rules"></a><span data-ttu-id="f7a41-103">Eguneko dietaren arauak</span><span class="sxs-lookup"><span data-stu-id="f7a41-103">Per diem rules</span></span>
+# <a name="per-diem-rules"></a><span data-ttu-id="dd950-103">Eguneko dietaren arauak</span><span class="sxs-lookup"><span data-stu-id="dd950-103">Per diem rules</span></span>
 
-<span data-ttu-id="f7a41-104">*Eguneko dieta* bat lanagatik bidaiatzen duen langileari ematen zaion hobaria da.</span><span class="sxs-lookup"><span data-stu-id="f7a41-104">A *per diem* is an allowance that is paid to a worker who is traveling for work.</span></span> <span data-ttu-id="f7a41-105">Gastuen kudeaketan, eguneko arauak sor ditzakezu bidaia-egoera desberdinetarako.</span><span class="sxs-lookup"><span data-stu-id="f7a41-105">In Expense management, you can create per diem rules for various travel situations.</span></span> <span data-ttu-id="f7a41-106">Eguneko tasak urteko garaian, bidaiaren kokapenean edo bietan oinarrituta egon daitezke.</span><span class="sxs-lookup"><span data-stu-id="f7a41-106">Per diem rates can be based on the time of year, the travel location, or both.</span></span> <span data-ttu-id="f7a41-107">Eguneko araua sortzen duzunean, eguneko tasaren ehuneko bat gordeko dela zehaztu dezakezu langileak osagarriak diren otorduak edo zerbitzuak jasotzen baditu.</span><span class="sxs-lookup"><span data-stu-id="f7a41-107">When you create a per diem rule, you can specify that a percentage of the per diem rate will be withheld if a worker receives complimentary meals or services.</span></span> <span data-ttu-id="f7a41-108">Halaber, eguneko tasak langilearen bidaiari aplikatu ahal izateko gutxieneko eta gehieneko ordu kopurua ere ezar dezakezu.</span><span class="sxs-lookup"><span data-stu-id="f7a41-108">You can also set a minimum and maximum number of hours that the per diem rate can apply to a worker's travel.</span></span>
+<span data-ttu-id="dd950-104">*Eguneko dieta* bat lanagatik bidaiatzen duen langileari ematen zaion hobaria da.</span><span class="sxs-lookup"><span data-stu-id="dd950-104">A *per diem* is an allowance that is paid to a worker who is traveling for work.</span></span> <span data-ttu-id="dd950-105">Gastuen kudeaketan, eguneko arauak sor ditzakezu bidaia-egoera desberdinetarako.</span><span class="sxs-lookup"><span data-stu-id="dd950-105">In Expense management, you can create per diem rules for various travel situations.</span></span> <span data-ttu-id="dd950-106">Eguneko tasak urteko garaian, bidaiaren kokapenean edo bietan oinarrituta egon daitezke.</span><span class="sxs-lookup"><span data-stu-id="dd950-106">Per diem rates can be based on the time of year, the travel location, or both.</span></span> <span data-ttu-id="dd950-107">Eguneko araua sortzen duzunean, eguneko tasaren ehuneko bat gordeko dela zehaztu dezakezu langileak osagarriak diren otorduak edo zerbitzuak jasotzen baditu.</span><span class="sxs-lookup"><span data-stu-id="dd950-107">When you create a per diem rule, you can specify that a percentage of the per diem rate will be withheld if a worker receives complimentary meals or services.</span></span> <span data-ttu-id="dd950-108">Halaber, eguneko tasak langilearen bidaiari aplikatu ahal izateko gutxieneko eta gehieneko ordu kopurua ere ezar dezakezu.</span><span class="sxs-lookup"><span data-stu-id="dd950-108">You can also set a minimum and maximum number of hours that the per diem rate can apply to a worker's travel.</span></span>
 
-<span data-ttu-id="f7a41-109">Eguneko zenbateko osoaren kalkulua hasieran eta amaiera datetan ezarri ditzakezun datetan oinarritzen da **Dietak** orrialdea.</span><span class="sxs-lookup"><span data-stu-id="f7a41-109">The calculation of a total per diem amount is based on the start dates and end dates that you can set on the **Per diems** page.</span></span>
+<span data-ttu-id="dd950-109">Eguneko zenbateko osoaren kalkulua hasieran eta amaiera datetan ezarri ditzakezun datetan oinarritzen da **Dietak** orrialdea.</span><span class="sxs-lookup"><span data-stu-id="dd950-109">The calculation of a total per diem amount is based on the start dates and end dates that you can set on the **Per diems** page.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
