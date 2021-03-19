@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401203"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479549"
 ---
 # <a name="determine-your-deployment-type"></a>Zehaztu inplementazio mota
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 > [!IMPORTANT]
-> Lizentzia erosi ondoren, hasi hemen Dynamics 365 Project Operations-en inplementazio eredu onena zehazteko [Instalazio gidatuko fluxua](https://aka.ms/provisionprojectoperations).
+> Lizentzia erosi eta gero, hasi Dynamics 365 Project Operations erabiliz [Instalazio gidatuko fluxua](https://aka.ms/provisionprojectoperations).
 > Gidatutako instalazio-fluxua finkatu ondoren, kudeaketa-atarira zuzenduko zara zure instalazioa osatzeko. Instalazioa osatzeko, ikusi inplementazioaren xehetasunak.
 
 
@@ -31,6 +31,9 @@ Project Operations-ek Project Service Automation-ekin hornitutako gaitasunak bil
 
 Proiektuen kudeaketa eta kontabilitate funtzionalitatea erabiltzen duten Finantzetako lehendik dauden bezeroek bere horretan erabiltzen jarrai dezakete. Ikusi [Izakinak edo ekoizpen-eskaerak izatearen egoeretarako Project Operations](#pma).
 
+
+## <a name="deployment-regions"></a>Inplementazio-eskualdeak
+Project Operations inplementazioa onartzen duten eskualdeak zehazteko, ikusi [Erabilgarritasun geografikoa Dynamics 365 eta Power Platform txostena](https://dynamics.microsoft.com/en-us/geographic-availability/). Aukeratu **Ikusi txostena**, eta zabaldu **Dynamics 365 > Operations aplikazioak > Dynamics 365 Project Operations** onartutako eskualdeak ikusteko.
 
 ## <a name="deployment-types"></a>Inplementazio motak
 Project Operations-ek zure eskakizunekin bat etortzeko hainbat aukera onartzen ditu. Dynamics 365 bezero berria edo lehendik zaren, Project Operations-ek zure beharrak onar ditzake.

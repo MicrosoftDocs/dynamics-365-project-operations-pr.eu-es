@@ -3,17 +3,17 @@ title: Denbora sartzeko UI portaera
 description: Gai honek Denbora-sarreraren EIren portaerari buruzko informazioa ematen du.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124488"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499599"
 ---
 # <a name="time-entry-ui-behavior"></a>Denbora sartzeko UI portaera
 
@@ -21,6 +21,19 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 
 **Asteko denbora-sarrera** sareta berria kontrol pertsonalizatua da, eta bi atal nagusi ditu: **Neurriak** eta **Iraupena**.
+
+## <a name="keyboard-shortcuts"></a>Teklatuko lasterbideak
+| Jarduera        | Lasterbidea                  |
+|------------   |------------------------   |
+| Berria           | Alt + Maius + n           |
+| Kopiatu errenkada      | Alt + Maius + c           |
+| Editatu sarrera    | Alt + Maius + e           |
+| Editatu errenkada      | Alt + Maius + Ktrl + e    |
+| Ireki sarrera    | Alt + Maius + o           |
+| Bidali        | Alt + Maius + s           |
+| Berreskuratu        | Alt + Maius + r           |
+| Ezabatu        | Alt + Maius + d           |
+| Kopiatu astea     | Alt + Maius + w           |
 
 ## <a name="dimensions"></a>Dimentsioak
 **Neurriak** sekzioak denboraren aurka sartu daitezkeen dimentsio guztiak erakusten ditu. Hauek dira onartzen diren neurri integratuak:

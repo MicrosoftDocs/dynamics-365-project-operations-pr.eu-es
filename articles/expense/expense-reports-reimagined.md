@@ -1,9 +1,9 @@
 ---
 title: Gastu-txostenen itxura berria
-description: Gai honek gastua txostena sartzeko birmoldatu eta berriro pentsatutako esperientziari buruzko informazioa eskaintzen du.
+description: Gai honek gastuen txostenak sartzeko esperientzia birmoldatu eta berriro pentsatutakoa azaltzen du.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122778"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499701"
 ---
 # <a name="expense-reports-reimagined"></a>Gastu-txostenen itxura berria
 
@@ -59,25 +59,22 @@ Esperientzia berria aktibatzeko, erabili **Ezaugarrien kudeaketa** laneko gunea 
 | Mezuen murrizketa mezu barran| Infolog mezuen kopurua gutxitu egin zen eta kasu askotan mezu bikoiztuak agertzea ekiditeko ahalegina egin zen. |
 | Ekintza komunak multzokatuta | Interfazea garbitu egin zen lerro mailako ekintza komun gehienetarako ekintza botoia gehituta eta elipsi botoia gehituta (...) goiburua eta gutxiagoko beste ekintza batzuetarako. |
 | Laneko espazio berria ikusgarritasuna handitzeko | Laneko espazio berri batek erabiltzaileak arlo desberdinetara mugitzen uzten dituzten funtzioak eta estekak bateratzen ditu. |
-| Gehitu dauden gastuak eta ordainagiriak gastuak sortzean | Gastuen txostenak sortzen dituzunean, hautatutako gastuak eta ordainagiriak gehi ditzakezu. |
+| Gehitu dauden gastuak eta ordainagiriak gastuak sortzean | Gastuen txostenak sortzen dituzunean, gastu guztiak gehi ditzakezu edo erantsi gabeko gastuak hautatu. Erantsi gabeko gastuak korporazioko kreditu txartelaren jarioan inportatutako gastuak dira edo erabiltzaileak eskuz sortutako gastuak baina gastu txosten batera erantsi ez direnak.|
 | Kanbio-tasaren kalkulagailua | Dibisa anitzeko transakzioen kanbio-tasa kalkulatzeko aukera ematen duen kanbio-tasaren kalkulagailua gehitzen da. |
 | Gorde eta gehitu gastu lerro berriak | **Gorde** eta **Berria** botoiak erabilgarri daude gastu berriak sartzen direnean, gastu lerroak azkar sartzen laguntzeko. |
 | Ikusgarritasun hobea lerro zatitu eta zehatzetan | Lerro xehatuak eta zatituak zuzenean gehitzen dira gastuen zerrendan ikusgarritasuna handitzeko eta akatsik dagoen ala ez erraz zehazten laguntzeko. |
 | Erakutsi ordainagiriak zehaztapenean | Ordainagiriak ezin dira erakutsi zehaztapenean. |
+| Diru-aurrerakinaren hautapena | Aukeratu diru aurrerakin bat edo gehiago gastu transakzio bakarra betetzeko. |
+| Diru-aurrerakinaren saldoa | Berrikusi eskudiruzko aurrerakinaren saldoa denbora errealean, onartutako eta ordaindutako eskudiruzko aurrerakinen aurkako sarrera sortzen duzunean. |
 
 Hasierako bertsioa gastuak sartzeko eszenatokietara bideratuta dago. Gastuen txostenak berrikusteko edo onartzeko agertokiek lehendik dagoen gastua sartzeko orria erabiltzen jarraituko dute.
 
-Hurrengo eginbideak lehendik dauden orrian daude baina oraindik ez daude orri berrian. Ezaugarri hauek hurrengo bertsioetan berriro sartuko dira:
+Honako eginbide hauek ez dira onartzen Reimagined Expense Workspace-n:
 
-- Onarpenak
-- Ordaindu beharreko kontuen onarpenak eta kontabilitatea editatzeko gaitasuna
-- Sarrera puntu anitz
 - Bidaiatzeko eskakizunen integrazioa
-- Gastuen eremuko ikusgarritasuna lortzeko datu-entitatea
-- Eguneko gastuetarako sarrera
-- Linea mailako lan-fluxua
+- Eguneko gastuen sarrera
 - Behin-behineko onarpen laguntza
-- Zehaztapen aurreratua
+- Lan-fluxuen historia ikusteko gaitasuna
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
