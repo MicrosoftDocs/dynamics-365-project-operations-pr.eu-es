@@ -1,6 +1,6 @@
 ---
 title: Benetako datuak
-description: Gai honek Microsoft Dynamics 365 Project Operations-en benetako datuekin lan egiteari buruzko informazioa eskaintzen du.
+description: Gai honek Microsoft Dynamics 365 Project Operations-en errealitateekin lan egiteko moduari buruzko informazioa eskaintzen du.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126288"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291784"
 ---
 # <a name="actuals"></a>Benetako datuak 
 
@@ -70,7 +70,7 @@ Gastu-sarreretan unitate bakoitzeko prezioen lehenetsitako kategorien sarrera ez
 Aldizkariek kostua edo diru-sarrerak erregistratzen dizkizute material, kuota, denbora, gastu edo zerga transakzio klaseetan. Aldizkariak helburu hauetarako erabil daitezke:
 
 - Erregistratu proiektuko materialen eta salmenten benetako datuen kostua.
-- Eraman transakzioen benetako datuak beste sistema batetik Microsoft Dynamics 365 Project Operations-era.
+- Eraman transakzioen egitateak beste sistema batetik Microsoft Dynamics 365 Project Operations-era.
 - Beste sistema batean gertatu diren kostuak erregistratu. Kostu horien artean kontratazio edo azpikontratazio kostuak sar daitezke.
 
 > [!IMPORTANT]

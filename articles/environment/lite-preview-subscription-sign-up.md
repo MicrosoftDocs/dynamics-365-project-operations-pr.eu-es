@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175876"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290029"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Erregistratu aurrebista-harpidetzan - arina 
 
-Gai honek Dynamics 365 Project Operations lite-en bazkide-eskaintzaren aurrerapenenera harpidetzeko eta hura inplementatzeko moduari buruzko informazioa azaltzen du. Aurre egin fakturazio proformari.
+Gai honetan aurrebista bazkideen eskaintzara nola harpidetu eta nola zabaldu azaltzen da Dynamics 365 Project Operations inplementazio arina proforma fakturazioari aurre egin.
 
 > [!NOTE]
 > Prozesu hau aldatu egingo da datozen Project Operations-en bertsioetan.
@@ -71,7 +71,7 @@ Errepikatu eskaintzaren lehen kodearen urrats berdinak. Ziurtatu bigarren eskain
 
 ![Esleitu lizentziak](./media/15AssignLicenses.png)
 
-3. Egiaztatu **Dynamics 365 Project Operations (CRM) aurrebista** eta **Office 365 Project Operations - Aurrebista** lizentziak hautatzen dira. 
+3. Egiaztatu **Dynamics 365 Project Operations (CRM) Aurrebista** eta **Office 365 Project Operations - Aurrebista** lizentziak hautatzen dira. 
 4. Hatatu **Gorde aldaketak**.
 
 ## <a name="create-a-new-cds-environment"></a>Sortu CDS ingurune bat
@@ -84,7 +84,7 @@ Errepikatu eskaintzaren lehen kodearen urrats berdinak. Ziurtatu bigarren eskain
 
 ![Gehitu datu-basea](./media/20CreateEnvironment1.png)
 
-4. Ingurunea sortu ondoren, instalatu **Microsoft Dynamics 365 Project Operations** irtenbidea. 
+4. Ingurunea sortu ondoren, instalatu **Microsoft Dynamics 365 Project Operations** konponbidea. 
 
 ![Instalatu soluzioa](./media/21InstallSolution.png)
 
