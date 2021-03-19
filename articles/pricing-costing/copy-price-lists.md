@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e49a95a04e9506e983d920c49d4c504d9f944c88
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181482"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275703"
 ---
 # <a name="copy-price-lists"></a>Kopiatu prezio-zerrendak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Prezio zerrenden kopiak sor ditzakezu Dynamics 365 Project Operations zerbitzuan. Adibidez, hurrengo urteko prezioen zerrendak sor ditzakezu uneko urteko prezioen zerrenda erabiliz.  Edo, fakturen tasen eta salmenta prezioen prezioen zerrenda kopiatu dezakezu kostuaren prezioen zerrendetatik. 
+Prezio zerrenden kopiak hemen sor ditzakezu Dynamics 365 Project Operations-en. Adibidez, hurrengo urteko prezioen zerrendak sor ditzakezu uneko urteko prezioen zerrenda erabiliz.  Edo, fakturen tasen eta salmenta prezioen prezioen zerrenda kopiatu dezakezu kostuaren prezioen zerrendetatik. 
 
 Prezioen zerrendaren kopia bat egiteko, jarraitu urrats hauek.
 

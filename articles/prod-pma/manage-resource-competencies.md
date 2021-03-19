@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071061"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270618"
 ---
 # <a name="manage-resource-competencies"></a>Kudeatu baliabide-gaitasunak
 
@@ -41,8 +41,8 @@ Langilearen konpetentziak konfiguratzeko, bai erabil dezakezu **Langileak** zerr
 
 1. Gainean **Langileak** zerrendaren orria, hautatu langileari ziurtagiriaren informazioa gehitzeko.
 2. Ekintza panelean, **Langilea** fitxan, **Konpetentziak** taldea, hautatu **Ziurtagiriak**.
-3. Hautatu **Berria** , eta gero, **Ziurtagiriaren mota** eremua, hautatu **PMP**.
-4. **Hasiera data** eremua, hautatu **2015/10/01** , eta hautatu **Gorde**.
+3. Hautatu **Berria**, eta gero, **Ziurtagiriaren mota** eremua, hautatu **PMP**.
+4. **Hasiera data** eremua, hautatu **2015/10/01**, eta hautatu **Gorde**.
 
 ## <a name="set-up-competencies-skills"></a>Konfiguratu gaitasunak: gaitasunak
 
@@ -52,7 +52,7 @@ Langilearen konpetentziak konfiguratzeko, bai erabil dezakezu **Langileak** zerr
 4. **Maila** eremua, hautatu **5 Aditua**.
 5. **Mailaren data** eremua, hautatu **2014/01/14**.
 6. **Urteetako esperientzia** eremua, sartu **10**.
-7. Aukeratu **Gorde** , eta gero itxi orria.
+7. Aukeratu **Gorde**, eta gero itxi orria.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

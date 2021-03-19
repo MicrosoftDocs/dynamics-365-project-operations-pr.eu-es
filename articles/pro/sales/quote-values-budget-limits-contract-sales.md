@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180922"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272418"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Proiektuaren eskaintzako laburpen-informazioa - arina
 
@@ -21,7 +21,7 @@ _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako faktura
 
 Artikulu honetan proiektuaren aurrekontuari aplikatzen zaion informazioa azaltzen da. Honek aurrekontu lerro guztietan eragina duten ezarpenak eta proiektuaren aurrekontuaren KPIak gidatzeko lerro elementu guztietan laburbiltzen den aurrekontuari buruzko informazioa biltzen ditu.
 
-Hurrengo taulan proiektuaren aurrekontuaren laburpeneko informazio eremuak zerrendatzen dira, Dynamics 365 Project Operations-erako bakarrak direnak edo Dynamics 365 Sales-en aurrekontuen portaera aldaketa garrantzitsuak dituztenak.
+Hurrengo taulan proiektuaren aurrekontuaren laburpeneko informazio eremuak zerrendatzen dira Dynamics 365 Project Operations edo portaera aldaketa garrantzitsu batzuk izan Dynamics 365 Sales aurrekontuetatik.
 
 | **Eremua** | **Kokalekua** | **Azalpena** | **Downstream eragina** |
 | --- | --- | --- | --- |

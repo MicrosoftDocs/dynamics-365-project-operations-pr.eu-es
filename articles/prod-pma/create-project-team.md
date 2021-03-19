@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7eb9101352afd27b527bf6b8acc6f92198f44ea
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071201"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270843"
 ---
 # <a name="create-a-project-team"></a>Sortu proiektuaren taldea
 
 [!include [banner](../includes/banner.md)]
 
-Aurretik proiektu batean konfiguratutako eginkizunak erabiltzeko, proiektuaren kudeatzaileak eginkizunak proiektuarekin lotu behar ditu. Hainbat eginkizun esleitu daitezke proiektu baterako. Nahasmena ekiditeko, funtzio hauek automatikoki etiketatzen dira erreserbatu bitartean. Adibidez, proiektuaren zuzendariak hiru software ingeniari behar baditu, hiru Software ingeniari funtzio betetzen dituzte **software ingeniaria 1** , **software ingeniaria 2** , eta **software ingeniaria 3** haien etiketak automatikoki sortzen baitira. Aurretik rolaren ezaugarriak rolerako ezarri badira, iragazki gisa aplikatuko dira baliabide bat bilatzerakoan. Ezaugarri osagarriak gehi daitezke, bilaketa gehiago zehazteko beharrezkoak diren moduan.
+Aurretik proiektu batean konfiguratutako eginkizunak erabiltzeko, proiektuaren kudeatzaileak eginkizunak proiektuarekin lotu behar ditu. Hainbat eginkizun esleitu daitezke proiektu baterako. Nahasmena ekiditeko, funtzio hauek automatikoki etiketatzen dira erreserbatu bitartean. Adibidez, proiektuaren zuzendariak hiru software ingeniari behar baditu, hiru Software ingeniari funtzio betetzen dituzte **software ingeniaria 1**, **software ingeniaria 2**, eta **software ingeniaria 3** haien etiketak automatikoki sortzen baitira. Aurretik rolaren ezaugarriak rolerako ezarri badira, iragazki gisa aplikatuko dira baliabide bat bilatzerakoan. Ezaugarri osagarriak gehi daitezke, bilaketa gehiago zehazteko beharrezkoak diren moduan.
 
 Ikuspegi ezarpenak pertsonaliza daitezke, baliabideen erabilgarritasuna hobeto ikusteko. Ordubeteko, eguneroko, asteko, hileko, hiruhileko eta urteko erabilgarritasuna erakusteko aukerak daude. Baliabideetan eskuragarri eta geratzen den gaitasuna erakusteko aukera ere badago. Aukera hau erabilgarria da denbora kudeatzeko, jardueretarako edo baliabideen erabilgarritasunerako denbora librea kalkulatzen duzunean.
 
@@ -37,7 +37,7 @@ Proiektuaren kudeatzaileak orrialdeko rol bat hauta dezake eta, gero, eskakizune
 
 [![Eginkizunak eta benetako baliabideak biltzen dituen proiektu taldeen zerrenda](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
-Proiektuaren kudeatzaileak proiektu baterako baliabide bat erreserbatzeko hainbat aukera ditu, adibidez **Gainerako gaitasuna** , **Edukiera osoa** , **Edukiera ehunekoa** , eta **Zehaztu orduak**. Erreserba aukera hauek edozein unetan bertan behera utzi daitezke baliabideen esleipenak aldatzen badira. Bi erreserba mota onartzen dira:
+Proiektuaren kudeatzaileak proiektu baterako baliabide bat erreserbatzeko hainbat aukera ditu, adibidez **Gainerako gaitasuna**, **Edukiera osoa**, **Edukiera ehunekoa**, eta **Zehaztu orduak**. Erreserba aukera hauek edozein unetan bertan behera utzi daitezke baliabideen esleipenak aldatzen badira. Bi erreserba mota onartzen dira:
 
 - **Liburu gogorra** - Baliabideen erreserba onartu eta baieztatu zen konpromisoan zehaztutako iraupenean lan egiteko.
 - **Behin behineko erreserba** - Baliabideen erreserbak behin-behinean zen konpromisoan zehaztutako iraupenean lan egiteko.

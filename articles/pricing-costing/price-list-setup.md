@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180177"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275478"
 ---
 # <a name="set-up-price-lists"></a>Konfiguratu prezio-zerrendak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations-eko prezio zerrendek tasen katalogoa adierazten dute. Tarifek kostua, salmentak eta fakturen tasak adierazten dituzte. Prezioen zerrendak kostuen tasak edo salmenten eta fakturen tasak adierazten dituen arabera, prezioen zerrendaren testuingurua da **Salmentak** edo **Kostua**.
+Prezioen zerrendak Dynamics 365 Project Operations-en tasen katalogoa irudikatzen du. Tarifek kostua, salmentak eta fakturen tasak adierazten dituzte. Prezioen zerrendak kostuen tasak edo salmenten eta fakturen tasak adierazten dituen arabera, prezioen zerrendaren testuingurua da **Salmentak** edo **Kostua**.
 
 Hurrengo luzapenak Proiektuaren eragiketetarako zehatzak dira eta Dynamics 365 Sales-eko prezio zerrendetan aplikatzen dira.
 

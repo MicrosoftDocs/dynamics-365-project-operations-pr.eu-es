@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 87921221ea210e67a3ddc53bd124f292de80de99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177811"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272913"
 ---
 # <a name="manage-project-quotes"></a>Kudeatu proiektuaren eskaintzak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations proiektuan proiektuen aurrekontuak proiektu lanetarako proposamenak sortzen laguntzeko diseinatuta daude. Project Operations-en proiektuaren eskaintzaren egitura proiektuan oinarritutako lanetara egokitzen da osagai hauek dituena:
+Dynamics 365 Project Operations-en, proiektuan proiektuen aurrekontuak proiektu lanetarako proposamenak sortzen laguntzeko diseinatuta daude. Project Operations-en proiektuaren eskaintzaren egitura proiektuan oinarritutako lanetara egokitzen da osagai hauek dituena:
 
   - Goi-mailako osagai gisa aurkeztuko diren laneko osagai diskretuak identifikatzen dituzten eskaintzaren lerroak.
   - Goi-mailako osagai edo eskaintza-lerro bakoitzeko lana identifikatu eta kalkulatzen duten eskaintza-lerroaren xehetasunak. Antolaketaren edo datuen aurreikuspenak eta eskaintzaren lerroari lotutako lanen egutegia eta alderdi ekonomikoak biltzen ditu.

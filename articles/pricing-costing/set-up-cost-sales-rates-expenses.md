@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180267"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274893"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Konfiguratu gastuen kostu- eta salmenta-tasak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Transakzio-kategorien kostua eta salmenta-prezioak konfigura ditzakezu Dynamics 365 Project Operations-en. Kostua eta salmenta prezioak Gastuetarako diseinatuta daudenez, hauek biltzen dituen transakzio kategoria bakoitza gastu kategoria gisa ere ezarri behar da. Konfigurazio honek beheranzko funtzionaltasunean zehaztasuna bermatzen du. Transakzio kategorien kostua eta salmenta prezioak moneta bakarrean zerrendatu daitezke, hau da, prezio zerrendaren goiburuko moneta izan behar da.
+Transakzio kategorien kostua eta salmenta prezioak konfigura ditzakezu Dynamics 365 Project Operations-en. Kostua eta salmenta prezioak Gastuetarako diseinatuta daudenez, hauek biltzen dituen transakzio kategoria bakoitza gastu kategoria gisa ere ezarri behar da. Konfigurazio honek beheranzko funtzionaltasunean zehaztasuna bermatzen du. Transakzio kategorien kostua eta salmenta prezioak moneta bakarrean zerrendatu daitezke, hau da, prezio zerrendaren goiburuko moneta izan behar da.
 
 Transakzio kategorien kostua eta salmenta tasak konfiguratzeko, jarraitu urrats hauek. 
 

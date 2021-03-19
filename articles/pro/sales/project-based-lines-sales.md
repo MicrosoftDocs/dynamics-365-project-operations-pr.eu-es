@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180987"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272508"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Proiektuetan oinarritutako abagunearen lerroak - arina
 
@@ -27,7 +27,7 @@ Jarraian proiektuan oinarritutako aukera lerro bateko eremuak daude:
 
 | **Eremua** | **Kokalekua** | **Azalpena** | **Downstream eragina** |
 | --- | --- | --- | --- |
-| Produktu mota | Fitxa orokorra (ezkutatuta) | Aukera hauetako hauta dezakezu:</br>- Proiektuetan oinarrituako zerbitzua (Dynamics 365 Project Operations instalatuta baduzu soilik)</br>- Produktua (Project Operations eta Dynamics 365 Sales instalatuta badituzu soilik) | Eremu honen balioa ezarrita dago **Proiektuetan oinarritutako zerbitzua** proiektuan oinarritutako aukera-lerroa Aukeran Aukeran proiektuan oinarritutako lerroen saretik sortzen duzunean. <br> Balio hau aldatzen edo gainidazten baduzu, proiektuaren funtzionalitatea ez da gaituko proiektuan oinarritutako lineako elementuetan. |
+| Produktu mota | Fitxa orokorra (ezkutatuta) | Aukera hauetako hauta dezakezu:</br>- Proiektuetan oinarritutako zerbitzua (Dynamics 365 Project Operations instalatuta dagoenean soilik)</br>- Produktua (Project Operations eta Dynamics 365 Sales instalatuta badituzu soilik) | Eremu honen balioa ezarrita dago **Proiektuetan oinarritutako zerbitzua** proiektuan oinarritutako aukera-lerroa Aukeran Aukeran proiektuan oinarritutako lerroen saretik sortzen duzunean. <br> Balio hau aldatzen edo gainidazten baduzu, proiektuaren funtzionalitatea ez da gaituko proiektuan oinarritutako lineako elementuetan. |
 | Abagunea | Fitxa orokorra | Eremu hau irakurtzeko soilik da eta lerro-elementu honi dagokion Abagunea erregistro nagusia aipatzen du. | Ez dago alor honen beherako eraginik. |
 | Izena | Fitxa orokorra | Lerro-elementua identitate laburra emateko erabil daitekeen testu-eremu editagarria da. | Balio hau aurrekontuaren marrara eramaten da aukera honetatik aurrekontua sortzen duzunean. |
 | Bezeroaren aurrekontua | Fitxa orokorra | Moneta-eremu editagarri hau bezeroak lerro-elementu honetarako gastatzeko prest dagoen zenbatekoaren jarraipena egiteko erabil daiteke. | Balio hau eskintzako dagokion eremura eramaten da aukera honetatik aurrekontua sortzen duzunean. |

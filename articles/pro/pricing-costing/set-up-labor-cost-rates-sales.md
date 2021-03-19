@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180683"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274353"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Konfiguratu lanaren kostu-tasak - arina
 
@@ -38,7 +38,7 @@ Hurrengo taulan kostuen prezioen zerrendan eskulan tasak sortzerakoan garrantzit
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Transferitu prezioak eta kostuak zure dibisio edo pertsona juridikotik kanpoko baliabideengatik
 
-Proiektuetan oinarritutako enpresetan, ohikoa da proiektuetan lege-erakunde edo sail desberdinetako langileak proiektuetan lan egiteko erabiltzeko. Proiektu bat pertsona juridiko batek exekutatu dezake, baina proiektuan lan egiten duten langile edo aholkulariak pertsona juridiko beretik edo beste batetik etor daitezke, edo bien konbinazioa egon daiteke. Dynamics 365 Project Operations-en, proiektuaren entregaren jabe den pertsona juridikoa da **Enpresa titularra** eta banaketaren jabea da **Kontratazio Unitatea**. Baliabideak eskaintzen dituzten beste pertsona juridikoak dira **Enpresa hornitzaileak** eta baliabideak eskaintzen dituzten zatiketak dira **Baliabideak hornitzeko unitateak**. Herrialde gehienetan, enpresek hornitzaileen pertsona juridikoa edo zatiketa ziurtatu behar dute, enpresa jabeari eta kontratazio unitateari baliabideak erabiltzeagatik kobratzen dutela.
+Proiektuetan oinarritutako enpresetan, ohikoa da proiektuetan lege-erakunde edo sail desberdinetako langileak proiektuetan lan egiteko erabiltzeko. Proiektu bat pertsona juridiko batek exekutatu dezake, baina proiektuan lan egiten duten langile edo aholkulariak pertsona juridiko beretik edo beste batetik etor daitezke, edo bien konbinazioa egon daiteke. Dynamics 365 Project Operations-en, proiektua entregatzeko jabe den pertsona juridikoa da **Enpresa titularra** eta banaketaren jabea da **Kontratazio-unitatea**. Baliabideak eskaintzen dituzten beste pertsona juridikoak dira **Enpresa hornitzaileak** eta baliabideak eskaintzen dituzten zatiketak dira **Baliabideak hornitzeko unitateak**. Herrialde gehienetan, enpresek hornitzaileen pertsona juridikoa edo zatiketa ziurtatu behar dute, enpresa jabeari eta kontratazio unitateari baliabideak erabiltzeagatik kobratzen dutela.
 
 Adibidez, Fabrikam korporazioak Fabrikam India-Robotics-ek Fabrikam US-Robotics edo Fabrikam UK-Robotics-ekin kostu tasa txartela negoziatu duela ziurtatu behar du.
 

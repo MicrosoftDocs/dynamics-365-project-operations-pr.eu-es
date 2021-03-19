@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071171"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270708"
 ---
 # <a name="create-a-new-project"></a>Sortu proiektua
 
@@ -31,7 +31,7 @@ ms.locfileid: "4071171"
 
 Osatu urrats hauek proiektu berria sortzeko.
 
-1. **Proiektuaren kudeaketa** orria, hautatu **Proiektu berria** , eta idatzi hurrengo balioak:
+1. **Proiektuaren kudeaketa** orria, hautatu **Proiektu berria**, eta idatzi hurrengo balioak:
 
     - **Proiektu mota:** Denbora eta materiala
     - **Proiektuaren izena:** XYZ berritzea 2. fasea
@@ -59,7 +59,7 @@ Proiektu kudeatzaile batek proiektuaren baliabideen funtzionalitatea erabil deza
 
 Ondorengo pausoek erakusten dute baliabideen kudeatzaileak proiektuaren arduradun nagusiaren eginkizuna nola konfigura dezakeen eta baliabideen ezaugarriak harekin lotzen dituen. Geroago, eginkizuna eskatutako baliabideen eskumenekin bat datozen baliabide erabilgarriak bilatzeko erabil daiteke.
 
-1. **Konfigurazio-funtzioak** orria, hautatu **Berria** , eta idatzi hurrengo balioak:
+1. **Konfigurazio-funtzioak** orria, hautatu **Berria**, eta idatzi hurrengo balioak:
 
     - **Rolaren IDa:** Proiektu zuzendari nagusia
     - **Deskribapena:** Proiektu zuzendari nagusia
@@ -96,13 +96,13 @@ Baliabideak erreserbatu bitartean, proiektuen arduradunek proiektuetan lan egite
 **Eszenatokia:** Onartutako proiektua hasi da, eta proiektuaren zuzendari nagusiaren eginkizuna planifikatutako baliabide gisa gorde da proiektuaren plangintza fasean. Baliabideen kudeatzaileak baliabide bat eskuratu du orain Senior proiektuaren kudeatzaile rola betetzeko.
 
 1. Gainean **Baliabideen zerrenda** orrialdea, hautatu **Daniel Goldschmidt**.
-2. **Baliabide-funtzioa** orria, hautatu **Berria** , eta idatzi hurrengo balioak:
+2. **Baliabide-funtzioa** orria, hautatu **Berria**, eta idatzi hurrengo balioak:
 
     - **Eraginkorra:** Sartu uneko data.
     - **Iraungipena:** Sartu **Inoiz ez**.
     - **Funtzioa:** Idatzi **Proiektu zuzendari nagusia**.
 
-3. Aukeratu **Gorde** , eta gero itxi orria.
+3. Aukeratu **Gorde**, eta gero itxi orria.
 4. Gainean **Konpetentziak** fitxa, gehitu **ProjectMgmt** trebetasuna eta **PMP** ziurtagiria.
 
 

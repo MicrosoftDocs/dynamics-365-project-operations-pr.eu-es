@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128268"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273813"
 ---
 # <a name="confirm-a-project-contract"></a>Berretsi proiektu-kontratua
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations proiektuaren kontratua aktiboa izan daiteke **Baieztatuta**, edo itxi arrazoiarekin **Galdua**. Proiektuaren kontratua berresten duzunean, egoera **Zirriborroa** egoeratik **Aktiboa** egoerara eguneratzen da eta egoeraren arrazoia **Baieztatuta** da. Ezin da kontratu aktibo edo itxi bat editatu edo berriro ireki. 
+Dynamics 365 Project Operations-eko proiektu-kontratu bat **Baieztatuta** arrazoiarekin aktibo egon daiteke, **Galduta** arrazoiarekin itxi egin daiteke. Proiektuaren kontratua berresten duzunean, egoera **Zirriborroa** egoeratik **Aktiboa** egoerara eguneratzen da eta egoeraren arrazoia **Baieztatuta** da. Ezin da kontratu aktibo edo itxi bat editatu edo berriro ireki. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Proiektuaren kontratua berrestearen finantza-eragina
 
@@ -34,7 +34,7 @@ Proiektuaren kontratua galdu gisa ixten duzunean, kontratuaren egoera eguneratu 
 Galdutako itxita dagoen proiektuaren kontratuak bere lerroetan proiektu bat aipatzen badu, proiektu hori itxita dagoela ere markatuko da. Egun horretatik aurrera edozein baliabide erreserba bertan behera geratzen da. Proiektuaren kontratuan fakturatu gabeko salmenten fakturak aurrez fakturan ez badaude, atzera botako dira.
 
 > [!NOTE]
-> Dynamics 365 Project Operations-en, proiektuaren kontratua galdutako moduan ixteak ez du eragingo lotutako aukeraren egoera horretan. Aukera irekita egongo da eta eskuz itxi behar da.
+> Dynamics 365 Project Operations-en, proiektuaren kontratua galdutako moduan ixteak ez du lotutako aukeraren egoeran eragingo. Aukera irekita egongo da eta eskuz itxi behar da.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

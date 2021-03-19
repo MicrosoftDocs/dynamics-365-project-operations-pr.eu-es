@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071090"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270978"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Ezarri eremu pertsonalizatuak Microsoft Dynamics 365 Project Timesheet mugikorretarako aplikazioa iOS eta Android
 
@@ -179,9 +179,9 @@ Jarraian, pantaila-argazkia erakusten da Visual Studio Aplikazioaren Objektuen Z
 
 Kode honek aplikazioaren eremuko pantailako ezarpenak kontrolatzen ditu. Adibidez, kontrolatzen ditu eremu mota, etiketa, eremua derrigorrezkoa den eta eremua zein ataletan agertzen den.
 
-Hurrengo adibidean denbora-sarreren kate-eremua erakusten da. Eremu honek bi aukera ditu, **Lehen aukera** eta **Bigarren aukera** , aukera botoien bidez (irrati botoiak) eskuragarri daudenak. Aplikazioko eremua **TestLineString** TSTimesheetLine taulan gehitzen den eremua.
+Hurrengo adibidean denbora-sarreren kate-eremua erakusten da. Eremu honek bi aukera ditu, **Lehen aukera** eta **Bigarren aukera**, aukera botoien bidez (irrati botoiak) eskuragarri daudenak. Aplikazioko eremua **TestLineString** TSTimesheetLine taulan gehitzen den eremua.
 
-Kontuan izan **TSTimesheetCustomField::newFromMetatdata()** eremu pertsonalizatuen propietateen hasiera errazteko metodoa: **fieldBaseType** , **taulaIzena** , **eremu izena** , **etiketa** , **editagarria da** , **derrigorrezkoa da** , **kateaLuzera** , eta **ZenbakiarenZenbakiak**. Parametro hauek eskuz ere ezar ditzakezu, nahi duzun moduan.
+Kontuan izan **TSTimesheetCustomField::newFromMetatdata()** eremu pertsonalizatuen propietateen hasiera errazteko metodoa: **fieldBaseType**, **taulaIzena**, **eremu izena**, **etiketa**, **editagarria da**, **derrigorrezkoa da**, **kateaLuzera**, eta **ZenbakiarenZenbakiak**. Parametro hauek eskuz ere ezar ditzakezu, nahi duzun moduan.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Datu-base mailan denbora-orrien funtzionaltasunerako dagoen logikak espero bezal
 
 - Bada **validateWrite** TSTimesheetLine taulan itzultzen da **faltsua** denbora-orrialde bat gordetzeko eragiketan, errore-mezu bat agertzen da mugikorretarako aplikazioan.
 - Bada **validateSubmit** TSTimesheetTable taulan itzultzen da **faltsua** denbora-orrialde bat bidalketa aplikazioan, errore-mezu bat agertzen da erabiltzaileari.
-- Eremuak betetzen dituen logika (adibidez, **Linearen jabetza** ) zehar **txertatu** TSTimesheetLine taulako metodoa oraindik exekutatuko da.
+- Eremuak betetzen dituen logika (adibidez, **Linearen jabetza**) zehar **txertatu** TSTimesheetLine taulako metodoa oraindik exekutatuko da.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Kutxaz kanpoko eremuak ezkutatu eta markatu konfigurazioaren bidez irakurtzeko soilik
 

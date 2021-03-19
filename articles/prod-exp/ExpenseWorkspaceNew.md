@@ -1,6 +1,6 @@
 ---
 title: Berdiseinatutako gastu-txostenak
-description: Gai honek Microsoft Dynamics 365 Finance-n gastua txostena sartzeko birmoldatu eta berriro pentsatutako esperientziari buruzko informazioa eskaintzen du. Esperientzia berriak gastuen txostenak osatzeko prozesua errazten du eta behar den denbora gutxitzen du.
+description: Gai honek gastua txostena sartzeko birmoldatu eta berriro pentsatutako esperientziari buruzko informazioa eskaintzen du.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960232"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271968"
 ---
 # <a name="redesigned-expense-reports"></a>Berdiseinatutako gastu-txostenak
 
@@ -41,15 +41,9 @@ Esperientzia berria aktibatzeko, erabili **Ezaugarrien kudeaketa** laneko gunea 
 - Ez da gastuen txostenetarako (dagoen orrialdea) edo gastuen txostenetarako eremurik dagoen menu elementurik kentzen.
 - Lan-fluxuek eta edozein onarpenek lehendik dauden gastuen txostenen orrialdera eramaten zaituzte.
 
-## <a name="getting-started-video-for-new-users"></a>Erabiltzaile berrientzako bideoa hasteko
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Gastu-esperientzia Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) bideoa (goian agertzen dena) [Finance and Operations erreprodukzio-zerrendan](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) eskuragarri dago YouTube-n.
-
 ## <a name="new-features"></a>Eginbide berriak
 
-| Eginbide berria | Deskribapena |
+| Eginbide berria | Deskribapenak |
 |---|----|
 | Gastuak eremuaren ikusgaitasuna | Konfigurazio orri berri batek erakunde batentzat zein eremu desgaitu behar diren, zein eremu behar diren eta zein eremu gomendagarriak diren zehazteko aukera ematen du. |
 | Beharrezko eremuak | Konfigurazio sinple berriak politika esparrua erabili beharrik gabe beharrezkoak diren zenbait eremu egin ditzakezu. |

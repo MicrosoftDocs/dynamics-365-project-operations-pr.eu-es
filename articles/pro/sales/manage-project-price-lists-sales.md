@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175966"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273003"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Kudeatu proiektuen prezio-zerrendak proiektu-eskaintzetan - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Proiektuaren aurrekontuak salmenta prezioen zerrenda eraginkor bat baino gehiagorako diseinatuta daude. Dynamics 365 Project Operations-ekin, lotutako entitate berri bat deitzen da **Proiektuen prezioen zerrendak** gehitzen da. Entitate honek 1etik askorako harremana du proiektuaren aurrekontuarekin.
+Proiektuaren aurrekontuak salmenta prezioen zerrenda eraginkor bat baino gehiagorako diseinatuta daude. Dynamics 365 Project Operations-ekin, izeneko entitate elkartu berria **Proiektuen prezioen zerrendak** gehitzen da. Entitate honek 1etik askorako harremana du proiektuaren aurrekontuarekin.
 
 Proiektuen prezioen zerrendak proiektu bateko denbora eta gastuen transakzioak preziatzeko erabiltzen dira. Aipamen batek proiektuaren prezio zerrenda bat edo gehiago dituenean, prezioen zerrenda hauek aurrekontuaren lerroaren bidez aurrekontuarekin lotzen diren proiektuen denbora eta gastuen kalkuluak eta egiazkoak preziatzeko erabiltzen dira.
 

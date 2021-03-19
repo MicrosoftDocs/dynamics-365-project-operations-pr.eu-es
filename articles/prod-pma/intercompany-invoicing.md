@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071062"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270753"
 ---
 # <a name="intercompany-invoicing"></a>Enpresen arteko fakturazioa
 
@@ -31,7 +31,7 @@ ms.locfileid: "4071062"
 
 Artikulu honek enpresen arteko fakturazioari buruzko informazioa eta adibideak eskaintzen ditu proiektuetarako.
 
-Zure erakundeak dibisio, filial eta beste pertsona juridiko ugari izan ditzake produktuak eta zerbitzuak elkarri proiektuetarako transferitzen dituztenak. Zerbitzua edo produktua eskaintzen duen pertsona juridikoari deitzen zaio *pertsona juridiko mailegu-emailea* , eta zerbitzua edo produktua jasotzen duen pertsona juridikoari *zor juridikoa*. 
+Zure erakundeak dibisio, filial eta beste pertsona juridiko ugari izan ditzake produktuak eta zerbitzuak elkarri proiektuetarako transferitzen dituztenak. Zerbitzua edo produktua eskaintzen duen pertsona juridikoari deitzen zaio *pertsona juridiko mailegu-emailea*, eta zerbitzua edo produktua jasotzen duen pertsona juridikoari *zor juridikoa*. 
 
 Ondorengo ilustrazioak agertoki tipikoa erakusten du; bi pertsona juridikok, SI FRk (mailegu maileguan dagoen pertsona juridikoa) eta SI USAk (mailegu maileguaren pertsona juridikoa) baliabideak partekatzen dituzte bezeroarentzako A. Eszenatoki honetarako, SI FR kontratatuta dago lana bezeroarentzako A. 
 
@@ -65,13 +65,13 @@ Adibide honetarako, FRSIk USSI entitate juridikoan bezeroa izan behar du eta USS
    |  C   |                                  FRSIn, ireki sortu berri duzun saltzailearen erregistroa.                                  | Ekintza panelean, <strong>Orokorra</strong> fitxan, <strong>Konfiguratu</strong> taldea, klik egin <strong>Enpresen artekoa</strong>. Gainean <strong>Enpresa artekoa</strong> orrialdean, <strong>Negoziazio harremana</strong> fitxa, ezarri <strong>Aktiboa</strong> hurrengora graduatzailea <strong>Bai</strong>. <strong>Bezeroen enpresa</strong> eremuan, hautatu A urratsean sortu duzun bezeroaren erregistroa. |
 
 
-2. Egin klik **Proiektuen kudeaketa eta kontabilitatea** &gt; **Konfigurazioa** &gt; **Proiektuak kudeatzeko kontabilitate parametroak** , eta egin klik **Enpresa artekoa** fitxa. Parametroak konfiguratzeko modua maileguan dagoen pertsona juridikoa edo mailegu-emailea denaren araberakoa da.
+2. Egin klik **Proiektuen kudeaketa eta kontabilitatea** &gt; **Konfigurazioa** &gt; **Proiektuak kudeatzeko kontabilitate parametroak**, eta egin klik **Enpresa artekoa** fitxa. Parametroak konfiguratzeko modua maileguan dagoen pertsona juridikoa edo mailegu-emailea denaren araberakoa da.
    -   Mailegu-hartzaile juridikoa bazara, hautatu kontratazio-kategoria, automatikoki sortzen diren saltzailearen fakturekin bat egiteko erabili beharko litzatekeena.
    -   Mailegu-entitate juridikoa bazara, mailegu-entitate bakoitzerako, hautatu lehenetsitako proiektuaren kategoria transakzio mota bakoitzerako. Proiektuen kategoriak zerga konfiguraziorako erabiltzen dira, enpresa arteko eragiketetan fakturatutako kategoria mailegu-entitate juridikoan bakarrik dagoenean. Enpresen arteko transakzioengatik diru-sarrerak eskuratzea aukera dezakezu. Metaketa hori transakzioak erregistratzen direnean egiten da, eta gero alderantziz egiten da enpresen arteko faktura argitaratzen denean.
 
 3. Egin klik **Proiektuen kudeaketa eta kontabilitatea** &gt; **Konfigurazioa** &gt; **Prezioak** &gt; **Transferentziaren prezioa**.
 4. Aukeratu moneta, transakzio mota eta transferentziaren prezioaren eredua. Fakturan erabiltzen den moneta mailegu-entitate juridikoan mailegu-entitate juridikoarentzako bezeroaren erregistroan konfiguratuta dagoen moneta da. Moneta transferentzia prezioen taulako sarrerekin bat egiteko erabiltzen da.
-5. Egin klik **Liburu nagusia** &gt; **Mezuaren konfigurazioa** &gt; **Enpresen arteko kontabilitatea** , eta harreman bat sortu USSI eta FRSI-rentzat.
+5. Egin klik **Liburu nagusia** &gt; **Mezuaren konfigurazioa** &gt; **Enpresen arteko kontabilitatea**, eta harreman bat sortu USSI eta FRSI-rentzat.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>2. adibidea: Enpresen arteko orri bat sortu eta argitaratu
 USSIk, mailegu-emaile den entitateak, FRSI-k (mailegu-entitate juridikoa) proiektu baten denbora-orria sortu eta argitaratu behar du. Zeregin horretarako beharrezkoak diren urratsetarako bi sarrera puntu daude.

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 733b7c83de8137aba6c084d5f03a2a4cf076a16c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181156"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274398"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Konfiguratu lanaren fakturazio-tasak - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Prezio zerrenda bakoitzak prezio zerrendaren edo lan-tasak edukiarekin eta datarekin eraginkortasunarekin bat datozen lan tasen multzoa du. Dynamics 365 Project Operations zerbitzuaren fakturazio tasak moneta bakarrean konfigura daitezke, hau da, Prezio zerrendaren goiburuko moneta.
+Prezio zerrenda bakoitzak prezio zerrendaren edo lan-tasak edukiarekin eta datarekin eraginkortasunarekin bat datozen lan tasen multzoa du. Dynamics 365 Project Operations-eko denboraren fakturazio-tasak moneta bakarrean konfigura daitezke, hau da, Prezio zerrendaren goiburuko monetan.
 
 1. Salmenta prezioen zerrendako lan fakturaren tasak ezartzeko, sortu prezioen zerrenda prezio zerrendaren goiburuan oinarrituta. 
 2. **Funtzio-prezioak** fitxan, azpisaretan, hautatu **+Rol berriaren prezioa**. 

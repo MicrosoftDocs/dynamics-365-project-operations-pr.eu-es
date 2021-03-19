@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071089"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270663"
 ---
 # <a name="eliminate-a-project-estimate"></a>Ezabatu proiektuaren aurreikuspena
 
@@ -37,15 +37,15 @@ Aurrekontuen proiektua ezabatzeko, osatuta egon behar du. Ondorengo urratsetan k
 2. **Kudeatu** fitxan, hautatu **Aurrekontuak** eta **Estimazioa** orrian hautatu **Ezabatu**.
 3. **Ezabatu aurrekontua** orrialdean **Orokorra** fitxa, ezarri aukera hauek:
 
-   - **Garai kodea** : Aukeratu epearen kodea aurrekontu proiektu egokiak aukeratzeko. 
-   - **Aurreikusitako data** : Aukeratu ezabatzeko data egokia.
-   - **Ezabatu WIP abisuekin** : Gaitu aukera hau jakinarazpenak bidaltzeko egiten ari diren lanekin (WIP) lotutako estimazioa ezabatzen denean. Aukera hau gaituta ez dagoenean, ezabatzeak ezin du jarraitu estimatu gabeko transakziorik baldin badago. 
+   - **Garai kodea**: Aukeratu epearen kodea aurrekontu proiektu egokiak aukeratzeko. 
+   - **Aurreikusitako data**: Aukeratu ezabatzeko data egokia.
+   - **Ezabatu WIP abisuekin**: Gaitu aukera hau jakinarazpenak bidaltzeko egiten ari diren lanekin (WIP) lotutako estimazioa ezabatzen denean. Aukera hau gaituta ez dagoenean, ezabatzeak ezin du jarraitu estimatu gabeko transakziorik baldin badago. 
    > [!NOTE]
    > Aukera hau aurrekontu proiektu bati ezabatzea aplikatzen zaionean bakarrik dago erabilgarri. Ez dago erabilgarri aldizkako mezuak erabiltzen ari bazara. Ezarpen honek ezarpenekin funtzionatzen du **Estimazioa** fitxan **Proiektuaren parametroak** orrialdean, **Baimendu ezabatzea kalkulatu gabeko transakzioak daudenean** zelai taldea.
-   - **Ezarri etapa amaituta** : Gaitu aukera hau aurrekontuaren proiektuaren etapa zehazteko **Amaituta** kanporaketa exekutatu ondoren.
-   - **Inprimatu aurrekontuen zerrenda** : Hautatu aurrekontuen zerrenda inprimatzean sartu beharreko informazioa.
-   - **Erakutsi Infolog** : Gaitu aukera hau Infolog bistaratzeko.
-   - **Bidalketa data** : Aukeratu aurrekontuaren liburutegiaren data.
+   - **Ezarri etapa amaituta**: Gaitu aukera hau aurrekontuaren proiektuaren etapa zehazteko **Amaituta** kanporaketa exekutatu ondoren.
+   - **Inprimatu aurrekontuen zerrenda**: Hautatu aurrekontuen zerrenda inprimatzean sartu beharreko informazioa.
+   - **Erakutsi Infolog**: Gaitu aukera hau Infolog bistaratzeko.
+   - **Bidalketa data**: Aukeratu aurrekontuaren liburutegiaren data.
 
 4.  Hautatu **Ados**.
 5. Ezabatze prozesua amaitu ondoren, ezabatutako estimazio proiektua balio negatiboarekin bistaratuko da. 

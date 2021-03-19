@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071172"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271023"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Sortu proiektuaren aurrekontuen aurreikuspen ereduak 
 
@@ -41,9 +41,9 @@ Gai honetan gainerako aurrekontuetarako aurreikuspen eredua nola sortu deskribat
 5. Proiektuaren data faktura-data gisa erabiltzeko, hautatu **Iragarpenaren faktura-data** aukeran **Bai**. 
 6. **Aurrekontu mota** eremuan, hautatu eredu mota hauetako bat:
 
-   - **Jatorrizko aurrekontua** : Hasierako aurrekontua sortu eta onartzen denean konprometitutako jatorrizko aurrekontuaren zenbatekoak erabili.
-   - **Gainerako aurrekontua** : Erabili gainerako aurrekontuaren zenbatekoak proiektuaren bizitzan zehar. Aurreikuspen eredu honetako saldoak benetako transakzioen bidez murrizten dira eta aurrekontuen berrikuspenen arabera handitzen edo murrizten dira.
-   - **Aurrera eraman** : Erabili proiektuaren aurrekontuaren zenbatekoak. Aurreratzea aukerako prozesua da, erabili gabeko aurrekontu kopuruak urte fiskal batetik bestera transferitzeko exekutatu daitekeena.
+   - **Jatorrizko aurrekontua**: Hasierako aurrekontua sortu eta onartzen denean konprometitutako jatorrizko aurrekontuaren zenbatekoak erabili.
+   - **Gainerako aurrekontua**: Erabili gainerako aurrekontuaren zenbatekoak proiektuaren bizitzan zehar. Aurreikuspen eredu honetako saldoak benetako transakzioen bidez murrizten dira eta aurrekontuen berrikuspenen arabera handitzen edo murrizten dira.
+   - **Aurrera eraman**: Erabili proiektuaren aurrekontuaren zenbatekoak. Aurreratzea aukerako prozesua da, erabili gabeko aurrekontu kopuruak urte fiskal batetik bestera transferitzeko exekutatu daitekeena.
 
 7. Ezarri ondoko aukerak behar ahala:
 
