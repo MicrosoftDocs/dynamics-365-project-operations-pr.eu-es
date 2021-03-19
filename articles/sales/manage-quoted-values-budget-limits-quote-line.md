@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e61a9fbf357123884397b930662d11f22bfdeaa0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181842"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277773"
 ---
 # <a name="project-based-quote-lines-overview"></a>Proiektuetan oinarritutako eskaintzaren lerroen ikuspegi orokorra
 
@@ -34,7 +34,7 @@ Ondorengo taulan fitxategien eremuei buruzko informazioa ematen da **Orokorra** 
 | **Eremua** | **Azalpena** | **Downstream eragina** |
 | --- | --- | --- |
 | Eman izena | Estimatzen ari den aurrekontuaren osagai diskretua identifikatzen lagunduko dizun aurrekontuaren lerroaren izena. | Aurrekontua lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
-| Fakturazio-metodoa | Aukera batetik sortutako aurrekontuan, balio hori aukera-lerroan dagokion eremutik kopiatzen da. Eremu honek Dynamics 365 Project Operations-ek onartzen dituen kontratazio eredu nagusiak biltzen ditu:</br>- Prezio finkoa</br>- Denbora eta materiala.| Eremuaren balioa eskaintzaren lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
+| Fakturazio-metodoa | Aukera batetik sortutako aurrekontuan, balio hori aukera-lerroan dagokion eremutik kopiatzen da. Eremu honek Dynamics 365 Project Operations-ek onartzen dituen bi kontratazio-eredu nagusiak biltzen ditu:</br>- Prezio finkoa</br>- Denbora eta materiala.| Eremuaren balioa eskaintzaren lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
 | Project | Erabili aukerako eremu hau konpromiso horretan lana emateko erabiliko den proiektua identifikatzeko. Proiektu bat aurrekontu lerro batera mapeatzen denean, kargagarriak diren atazak ezartzen laguntzen du eta proiektuan oinarritutako aurrekontua aurrekontuaren lerroan aurrekontuaren lerroaren xehetasun gisa ekartzen laguntzen du. Proiektu bat proiektuan oinarritutako aurrekontu lerro batera mapatuta ez dagoenean, aurrekontua eskuz sortu beharko litzateke aurrekontu lerroaren xehetasun bakoitza sortuz. | Eremuaren balioa eskaintzaren lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
 | Idatzi denbora | **Bai**/**Ez** banderak adierazten du hautatutako proiektuaren denborako transakzioak edo lan kostuak aurrekontu lerro honetako aurrekontuan sartuko diren. **Ez** balioak adierazten du denbora-transakzioak edo lan-kostuak ez direla sartuko aurrekontu honen eskaintzaren lerroan. **Bai** balioak adierazten du denbora-transakzioak edo lan-kostuak sartuko direla aurrekontu honen eskaintzaren lerroan. | Eremuaren balioa eskaintzaren lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
 | Idatzi gastua | **Bai**/**Ez** banderak adierazten du hautatutako proiektuaren denborako gastuak aurrekontu lerro honetako aurrekontuan sartuko diren. **Ez** balioak adierazten du gastuak ez direla sartuko aurrekontu honen eskaintzaren lerroan. **Bai** balioak adierazten du gastuak sartuko direla aurrekontu honen eskaintzaren lerroan. | Eremuaren balioa eskaintzaren lerro honetatik sortzen den proiektuaren kontratu lerro baten gainean kopiatu da aurrekontua irabazten denean. |

@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121293"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277503"
 ---
 # <a name="quotes---key-concepts"></a>Eskaintzak - Gako-kontzeptuak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations-en, bi aurrekontu mota daude, proiektuak eta salmentak. Kuoten bi motak modu desberdinetan bereizten dira:
+Dynamics 365 Project Operations-en bi eskaintza mota daude: proiektuak eta salmentak. Kuoten bi motak modu desberdinetan bereizten dira:
 
 - **Lerro-elementuen saretak**: Salmenta-eskaintzetan, lerroentzako elementuen sareta bakarra dago. Edo proiektu-eskaintza batean, lerroentzako bi sareta ditu. Sareta bat proiektu-lerroetarako da eta bestea produktu-lerroetarako.
 - **Aktibazioa eta berrikuspenak**: Salmenten aurrekontuek aktibazioa eta berrikuspenak onartzen dituzte. Prozesu hauek ez dira onartzen proiektuaren aurrekontuan.

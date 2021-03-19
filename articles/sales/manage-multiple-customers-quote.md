@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181977"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277863"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Kudeatu hainbat bezero proiektuaren eskaintza batean
 
@@ -23,7 +23,7 @@ Proiektuaren aurrekontuek proposamena akordioa finantzatuko duten bezero anitzek
 
 Aurrekontuaren bezero guztiak **Bezeroak** proiektuaren aurrekontuaren fitxa lehenetsitako lerroen bezero gisa, aurrekonturako sortutako proiektuetan oinarritutako aurrekontu lerro **berrietan**. Lehendik dauden proiektuetan oinarritutako aurrekontu lerroek ez dituzte ondoren sortutako aurrekontu bezeroen erregistro berriak jasotzen.
 
-Aurrekontuaren bezeroak eta aurrekontuen linea bezeroak gehitu, eguneratu edo ezabatu daitezke aurrekontua irabazi aurretik. Aurrekontuaren baliozko bezeroa bezero titular gisa eratu behar da enpresa titularrean edo pertsona juridikoan **Bezeroak** orrialdea. Pertsona juridikoak **Proiektuen kudeaketa eta kontabilitatea** Dynamics 365 Project Operations modulua eta Enpresa gisa eskuragarri jartzen dira **Proiektuaren salmenta eta entrega** proiektuaren eragiketen moduluak.
+Aurrekontuaren bezeroak eta aurrekontuen linea bezeroak gehitu, eguneratu edo ezabatu daitezke aurrekontua irabazi aurretik. Aurrekontuaren baliozko bezeroa bezero titular gisa eratu behar da enpresa titularrean edo pertsona juridikoan **Bezeroak** orrialdea. Pertsona juridikoak **Proiektuen kudeaketa eta kontabilitatea** modulua Dynamics 365 Project Operations eta enpresa gisa egiten dira eskuragarri Project Operations-en **Proiektuen salmenta eta Entrega** moduluetan.
 
 ## <a name="concept-of-a-primary-customer"></a>Lehen bezero baten kontzeptua
 

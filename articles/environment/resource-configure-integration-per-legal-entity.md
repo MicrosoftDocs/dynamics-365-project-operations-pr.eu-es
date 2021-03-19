@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ccdbdce6b7d006adc9be2b5f3573dd8e79dd2b8d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122868"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276963"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfiguratu Project Operations-en integrazioa legezko entitatearen arabera 
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Gai honek pertsona juridiko bakoitzeko Dynamics 365 Project Operations konfiguratzeko beharrezko urratsak ematen dizkizu.
+Gai honek konfiguratzeko beharrezko pausoak ematen dizkizu Dynamics 365 Project Operations pertsona juridiko bakoitzeko.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Gaitu gako nagusiak Dynamics 365 Finance-n
 

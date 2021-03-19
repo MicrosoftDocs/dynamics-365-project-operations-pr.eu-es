@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118458"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277818"
 ---
 # <a name="manage-project-based-opportunities"></a>Kudeatu proiektuetan oinarritutako abaguneak
 
@@ -21,7 +21,7 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 Proiektuetan oinarritutako konpainiek herrialde eta geografi anitzetan banatzeko eragiketak izaten dituzte. Proiektuaren exekuzioaren eta entregaren kostua alda daiteke banaketa kudeatzen duen geografiaren edo sailaren arabera. Aldiz, horrek akordioaren marjinetan eragina izan dezake. Proiektuetan oinarritutako zerbitzuak emateak giza baliabideen denbora kopuru handia, bidaiatzeko gastu handiak, kostu materialak eta bestelako gastuak dakartza normalean.
 
-Dynamics 365 Project Operations-eko proiektuetan oinarritutako abaguneak Dynamics 365 Sales-en luzapenekin diseinatuta daude. Gaiak proiektuetan oinarritutako enpresek proiektuetan oinarritutako aukerak kudeatzeko eskatzen duten funtzionalitate osagarriaren barne dauden arlo eta negozio logikari buruzko xehetasunak eskaintzen ditu.
+Dynamics 365 Project Operations-eko proiektuan oinarritutako abaguneak Dynamics 365 Sales-erako luzapenekin diseinatuta daude. Gaiak proiektuetan oinarritutako enpresek proiektuetan oinarritutako aukerak kudeatzeko eskatzen duten funtzionalitate osagarriaren barne dauden arlo eta negozio logikari buruzko xehetasunak eskaintzen ditu.
 
 ## <a name="view-all-project-based-opportunities"></a>Ikusi proiektuetan oinarritutako abagune guztiak
 

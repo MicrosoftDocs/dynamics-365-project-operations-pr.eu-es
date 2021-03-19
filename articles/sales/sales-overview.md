@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177586"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277368"
 ---
 # <a name="sales-process-overview"></a>Salmenta-prozesuaren informazio orokorra
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Proiektuetan oinarritutako erakunde batean erabiltzen diren salmenta-prozesuak eta produktuetan oinarritutako erakunde batean erabiltzen diren salmenta-prozesuak desberdinak dira. Alde hori gertatzen da proiektuetan oinarritutako erakundeen salmenta-zikloak luzeagoak direlako eta aurreikuspen bakoitzarentzako eskaintzak aztertu eta kalkulatzeko teknika pertsonalizatuak behar dituztelako. Dynamics 365 Project Operations-ek salmenta-prozesuan erabilitako funtzionaltasun bera erabiltzen du:
+Proiektuetan oinarritutako erakunde batean erabiltzen diren salmenta-prozesuak eta produktuetan oinarritutako erakunde batean erabiltzen diren salmenta-prozesuak desberdinak dira. Alde hori gertatzen da proiektuetan oinarritutako erakundeen salmenta-zikloak luzeagoak direlako eta aurreikuspen bakoitzarentzako eskaintzak aztertu eta kalkulatzeko teknika pertsonalizatuak behar dituztelako. Dynamics 365 Project Operations-ek salmenta prozesu batean erabiltzen diren funtzionalitate hauetako batzuk erabiltzen ditu:
 
 - Erregistro nagusi bat salmenta-prozesuaren jarraipena egiteko erabiltzen da.
 - Bezerogai kalifikatzaileak abagune gisa jarraitzen dira.

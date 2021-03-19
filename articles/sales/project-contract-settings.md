@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181122"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277593"
 ---
 # <a name="project-contract-settings"></a>Proiektu-kontratuaren ezarpenak
 
@@ -21,7 +21,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 Gai honek proiektuaren kontratu osoari aplikatzen zaizkion eremuei buruzko informazioa eskaintzen du, kontratu lerro guztietan eragina duten ezarpenak barne. Proiektuaren kontratuaren KPIak gidatzeko lerro-elementu guztietan laburbiltzen den kontratuari buruzko informazioa ere sartzen da.
 
-Hurrengo taulan proiektuaren kontratuaren eremuak zerrendatzen dira, Dynamics 365 Project Operations-erako bakarrak direnak edo Dynamics 365 Sales-en salmenta-eskaeren aldaketa garrantzitsuak dituztenak.
+Hurrengo taulan proiektuaren kontratuaren eremuak zerrendatzen dira Dynamics 365 Project Operations edo portaera aldaketa garrantzitsu batzuk izan Dynamics 365 Sales salmenta-eskaeratatik.
 
 | Eremua | Kokapena | Deskribapena | Downstream eragina |
 | --- | --- | --- | --- |

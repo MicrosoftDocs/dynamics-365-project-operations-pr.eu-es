@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180222"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277548"
 ---
 # <a name="project-quote-settings"></a>Proiektuko eskaintzaren ezarpenak
 
@@ -22,7 +22,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 Artikulu honetan proiektuaren aurrekontuari aplikatzen zaion informazioa azaltzen da. Honek aurrekontu lerro guztietan eragina duten ezarpenak eta proiektuaren aurrekontuaren KPIak gidatzeko lerro elementu guztietan laburbiltzen den aurrekontuari buruzko informazioa biltzen ditu.
 
-Hurrengo taulan proiektuaren aurrekontuaren laburpeneko informazio eremuak zerrendatzen dira, Dynamics 365 Project Operations-erako bakarrak direnak edo Dynamics 365 Sales-en aurrekontuen portaera aldaketa garrantzitsuak dituztenak.
+Hurrengo taulan proiektuaren aurrekontuaren laburpeneko informazio eremuak zerrendatzen dira Dynamics 365 Project Operations edo portaera aldaketa garrantzitsu batzuk izan Dynamics 365 Sales aurrekontuetatik.
 
 | **Eremua** | **Kokalekua** | **Azalpena** | **Downstream eragina** |
 | --- | --- | --- | --- |
