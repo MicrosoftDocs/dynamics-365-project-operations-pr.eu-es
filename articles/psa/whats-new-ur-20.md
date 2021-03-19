@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147098"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280653"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation 20, V3 eguneratze-bertsioa
 
@@ -42,7 +42,7 @@ Arazo hauek konpondu dira:
 
 - Orduak eskatzen dituen esleipen-metodoak dituen proiektuko taldekideak inportatzean garbi geratzen ez den errore-mezu agertzen da zero ordu zehazten direnean.
 - Erabiltzaileek akats okerra jasotzen dute gehieneko karaktere kopurua idatzi dutenean proiektu-zeregin baten **Deskribapena** eremuan.
-- **Microsoft Dynamics 365 Project Service Automation gehigarrien deskarga** orrialdeak ingeleseko deskargen orrialdera birbideratzen du erabiltzailearen hizkuntza-ezarpenak japonieraz ezarrita daudenean.
+- **Microsoft Dynamics 365 Project Service Automation gehigarrien deskarga** orrialdeak ingelesez deskargatzeko orrialdera birbideratzen du erabiltzailearen hizkuntza ezarpenak japonierara ezartzen direnean.
 - Zerbitzariaren errorea gertatzen denean, **Antolaketa** fitxaren sinkronizazio-etiketa, **Proiektuak** inprimakian, batzuetan geratu egiten da.
 - Beharrezkoak ez diren zeregin-eguneratzeak bidaltzen ari dira zeregin bat aldatzen denean.
 
