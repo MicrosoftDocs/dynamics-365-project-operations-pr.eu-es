@@ -18,18 +18,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec0d53e9d294b12be9af9bb03885a45b68fb3388
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071012"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288078"
 ---
 # <a name="transfer-a-quotation-to-a-project"></a>Transferitu aurrekontua proiektu batera
 
 [!include [banner](../includes/banner.md)]
 
-Proiektuaren aurrekontu batek egoera duenean **Baieztatuta** , aipamen lerro batzuk edo guztiak proiektu berri edo lehendik dagoen proiektu batera transferi ditzakezu **Transferitu proiektura** morroia. 
+Proiektuaren aurrekontu batek egoera duenean **Baieztatuta**, aipamen lerro batzuk edo guztiak proiektu berri edo lehendik dagoen proiektu batera transferi ditzakezu **Transferitu proiektura** morroia. 
 
 Morroia erabiltzeko, jarraitu urrats hauei.
 

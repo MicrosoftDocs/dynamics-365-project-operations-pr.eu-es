@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071015"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288565"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Konfiguratu eta erabili ordaindu ordaintzean saltzailearen ordainketak
 
@@ -52,11 +52,11 @@ Proiektu baterako PWP baldintzak konfiguratzen dituzunean, portzentaje gisa zeha
 3. **Saltzaileen akordioak** FastTab-en, hautatu **Gehitu lerroa**.
 3. **Kontuaren kodea** eremuan, hautatu aukera hauetako bat:
 
-    - **Taula** : PWP baldintzak saltzaile bakar bati aplikatzen zaizkio.
-    - **Taldea** : PWP baldintzak saltzaile talde bateko saltzaile guztiei aplikatzen zaizkie.
-    - **Guztiak** : PWP baldintzak saltzaile guztiei aplikatzen zaizkie.
+    - **Taula**: PWP baldintzak saltzaile bakar bati aplikatzen zaizkio.
+    - **Taldea**: PWP baldintzak saltzaile talde bateko saltzaile guztiei aplikatzen zaizkie.
+    - **Guztiak**: PWP baldintzak saltzaile guztiei aplikatzen zaizkie.
 
-4. Aukeratu baduzu **Taula** edo **Taldea** aurreko urratsean, **Saltzailea/Saltzaile taldea** eremuan, hautatu PWP baldintzak aplikatzen zaizkion saltzailea edo saltzaile taldea. Aukeratu baduzu **Guztiak** aurreko urratsean, **Saltzailea/Saltzaile taldea** eremua ezin da editatu.
+4. Aukeratu baduzu **Taula** edo **Taldea** aurreko urratsean, **Saltzailea/Saltzaile taldea** eremuan, hautatu PWP baldintzak aplikatzen zaizkion saltzailea edo saltzaile taldea. Aukeratu baduzu **Guztiak** aurreko urratsean,**Saltzailea/Saltzaile taldea** eremua ezin da editatu.
 5. Saltzailearen atxikipen baldintzak proiektuan saltzailearentzat ezarrita badaude, **Saltzailearen atxikitze baldintzak** eremuan, hautatu erregelaren IDa atxikipen baldintzetarako.
 6. **PWP atalasearen ehunekoa** eremuan, sartu proiektuaren atalase portzentajea. Proiektuan sartzen duzun ehunekoak bezeroak saltzaileari ordaindu aurretik ordaindu behar dizun gutxieneko zenbatekoa definitzen du.
 

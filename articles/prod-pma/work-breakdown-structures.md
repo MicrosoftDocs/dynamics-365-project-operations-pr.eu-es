@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071011"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287943"
 ---
 # <a name="work-breakdown-structures-overview"></a>Zereginen xehetasunen egituraren ikuspegi orokorra
 
@@ -98,11 +98,11 @@ Une honetan, ezin duzu WBS numerazioa pertsonalizatu.
 
 **Outdent zeregina** Zeregin bat gainditzen duzunean, jada ez da bere gurasoen zeregin osagarria. Ataza honen WBS zenbakia automatikoki birkalkulatzen da atazaren hierarkian maila berria islatzeko. Aurreko zeregin nagusiaren esfortzua, kostua eta datak berriro kalkulatuko dira kanpo uzteko zeregina. 
 
-**Mugitu gora eta behera** Klik egitean **Mugitu gora** eta **Mugitu behera** , zeregin baten posizioa aldatu egiten duzu gurasoen hierarkiaren barruan. Posizioaren zereginak ez du eragin zereginaren esfortzua, kostua, datak edo iraupena. Hala ere, WBS kopurua zereginaren automatikoki kalkulatuko da berriz islatzeko zereginaren posizio berria.
+**Mugitu gora eta behera** Klik egitean **Mugitu gora** eta **Mugitu behera**, zeregin baten posizioa aldatu egiten duzu gurasoen hierarkiaren barruan. Posizioaren zereginak ez du eragin zereginaren esfortzua, kostua, datak edo iraupena. Hala ere, WBS kopurua zereginaren automatikoki kalkulatuko da berriz islatzeko zereginaren posizio berria.
 
 ### <a name="schedule-estimation"></a>Antolaketa-balioztatzea
 
-Ordutegien estimazioa normalean WBS bat sortzeko bigarren urratsa izan ohi da. Praktika egoki gisa, eginkizunak sortu ondoren ordutegiaren estimazioa osatu beharko zenuke. **Lanen matxuren egitura** Finantzak orrialdeak bi atal ditu. Goiko panela ordutegiak kalkulatzeko pentsatuta dago, eta beheko panelak an **Aurreikusitako kostuak eta diru-sarrerak** kostua kalkulatzeko erabil dezakezu fitxa. 
+Ordutegien estimazioa normalean WBS bat sortzeko bigarren urratsa izan ohi da. Praktika egoki gisa, eginkizunak sortu ondoren ordutegiaren estimazioa osatu beharko zenuke. Finance-ko **Lanen matxuren egitura** orriak bi atal ditu. Goiko panela ordutegiak kalkulatzeko pentsatuta dago, eta beheko panelak an **Aurreikusitako kostuak eta diru-sarrerak** kostua kalkulatzeko erabil dezakezu fitxa. 
 **Zereginen mendekotasunak** WBS batean, aurreko lanen arteko harremana sor dezakezu. Zeregin bati aurrenekoen balioak esleitzean, zeregina aurreko zeregin guztiak osatu direnean soilik abiarazi daiteke. Zereginaren hasierako data automatikoki ezartzen da aurreko guztien azken data. 
 
 **Zereginen programazioa** Hurrengo faktoreek zehazten dute hosto-nodoen atazen antolaketa:

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2bab78628333f2d8a6996277ca3a9e63052e939
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071022"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289084"
 ---
 # <a name="project-resourcing-home-page"></a>Proiektu-baliabideen hasierako orria
 
@@ -49,10 +49,10 @@ Gai hauetan baliabideak hornitzeko proiektuetan lanean ari zarenean bete beharre
 - [Konfiguratu proiektuan baliabideak](set-up-project-resources.md)
 - [Kudeatu baliabide-gaitasunak](manage-resource-competencies.md)
 - [Sortu proiektua](create-new-project.md)
-- [Konfiguratu roletan oinarritutako prezioak](set-up-role-based-pricing.md)
-- [Sortu proiektuaren taldea](create-project-team.md)
-- [Sinkronizatu baliabideen gaitasuna](synchronize-resource-capacity.md)
-- [Proiektu-baliabideen antolaketa-errendimendua](project-scheduling-performance.md)
+- [Konfiguratu funtzioetan oinarritutako prezioak](set-up-role-based-pricing.md)
+- [Sortu proiektu taldea](create-project-team.md)
+- [Sinkronizatu baliabide-ahalmena](synchronize-resource-capacity.md)
+- [Proiektuko baliabideen antolaketa-errendimendua](project-scheduling-performance.md)
 - [Konfiguratu funtzioak zereginen xehetasunen egituraren txantiloietan](set-up-roles-wbs-template.md)
 - [Aurreikusitako baliabideetarako baliabideak betetzea](resource-fulfillment-planned-resources.md)
 

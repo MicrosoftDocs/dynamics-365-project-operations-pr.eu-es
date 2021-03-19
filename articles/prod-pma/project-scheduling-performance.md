@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071019"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288994"
 ---
 # <a name="project-resource-scheduling-performance"></a>Proiektuko baliabideen antolaketa-errendimendua
 
@@ -39,7 +39,7 @@ Baliabideen antolaketarekin lotutako errendimendu arazoak gerta daitezke proiekt
 ## <a name="enable-resource-scheduling-performance-enhancement"></a>Gaitu baliabideak antolatzeko errendimendua hobetzea
 Baliabideen programazioaren errendimendua hobetzeko gaitu, jarraitu urrats hauek.
 
-1. Joan **Ezaugarrien kudeaketa** > **Guztiak** , eta eginbideen zerrendan, bilatu **Gaitu proiektuaren baliabideen antolaketa errendimendua hobetzeko eginbidea**.
+1. Joan **Ezaugarrien kudeaketa** > **Guztiak**, eta eginbideen zerrendan, bilatu **Gaitu proiektuaren baliabideen antolaketa errendimendua hobetzeko eginbidea**.
 2. Hautatu **Gaitu orain**.
 
 > [!NOTE]
@@ -54,7 +54,7 @@ Baliabideen programazioaren errendimendua hobetzeko gaitu, jarraitu urrats hauek
  > [!NOTE]
  > Honek datu orokorrak banatuko ditu **ResCalendarCapacity** zure inguruneko enpresa guztien artean egin ezazu, beraz, sorta lana pertsona juridiko bakarrean exekutatu behar da. Loteko lan honetako datuak beharrezkoak dira baliabideen ahalmena lotutako egutegiaren bidez kalkulatzeko.
 
-8. Joan **Proiektuen kudeaketa eta kontabilitatea** > **Aldizkakoa** > **Proiektuaren baliabideak** > **Bideratu proiektuaren baliabideak enpresa guztietan** eta, ondoren, hautatu **Ados**. Hau da datuen bertsio berriaren gidoia **ResProjectResource** , **ResCalendarDateTimeRange** eta **ResEffectiveDateTimeRange** mahaiak. **PSAPRojSchedRole.RootActivity** eremuko balioak ere eguneratu dira. Hau exekutatzen ez bada, abisu bat jasoko duzu baliabideak antolatzeko eragiketak egiten saiatzean.
+8. Joan **Proiektuen kudeaketa eta kontabilitatea** > **Aldizkakoa** > **Proiektuaren baliabideak** > **Bideratu proiektuaren baliabideak enpresa guztietan** eta, ondoren, hautatu **Ados**. Hau da datuen bertsio berriaren gidoia **ResProjectResource**, **ResCalendarDateTimeRange** eta **ResEffectiveDateTimeRange** mahaiak. **PSAPRojSchedRole.RootActivity** eremuko balioak ere eguneratu dira. Hau exekutatzen ez bada, abisu bat jasoko duzu baliabideak antolatzeko eragiketak egiten saiatzean.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>Desaktibatu baliabideak antolatzeko errendimendua hobetzea
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071179"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289759"
 ---
 # <a name="project-management-and-accounting-overview"></a>Proiektuen kudeaketa eta kontabilitate ikuspegi orokorra
 
@@ -232,7 +232,7 @@ Informazio gehiagorako nola prozesatu proiektuen fakturei buruz, ikusi [Proiektu
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Kalkulatu kostua proiektu bat osatzeko
 
-Aurrekontua sortzen duzunean, proiektua osatzeko kostua kalkulatzeko erabiltzen den metodoa aukera dezakezu. Metodo bat hautatzen duzu **Metodoa osatzeko kostua** eremuan **Sortu aurrekontua** orrialdea. Aukeratzen duzun metodoa kostu-lerro bakoitzari bereiz aplikatzen zaio kostuaren kalkuluan. Lerro batek egoera duen bitartean **Sortu** , aplikatzen zaion metodoa alda dezakezu **Kostuen aurrekontua** orrialdea. 
+Aurrekontua sortzen duzunean, proiektua osatzeko kostua kalkulatzeko erabiltzen den metodoa aukera dezakezu. Metodo bat hautatzen duzu **Metodoa osatzeko kostua** eremuan **Sortu aurrekontua** orrialdea. Aukeratzen duzun metodoa kostu-lerro bakoitzari bereiz aplikatzen zaio kostuaren kalkuluan. Lerro batek egoera duen bitartean **Sortu**, aplikatzen zaion metodoa alda dezakezu **Kostuen aurrekontua** orrialdea. 
 
 Hurrengo taulan proiektu bat osatzeko kostua kalkulatzeko metodoak azaltzen dira.
 
@@ -300,7 +300,7 @@ Zure konfigurazioan oinarrituta, hautatutako proiektu baterako diru sarrerak aur
 -   **Proiektuaren data:** 2012ko martxoaren 5a.
 -   **Faktura data:** 2012ko martxoaren 31. Data hori fakturen maiztasunaren arabera zehazten da. Adibide honetarako, fakturaren maiztasuna uneko hilean ezarriko duzu. Hori dela eta, martxoan argitaratzen diren transakzio guztiak hileko azken egunean fakturatzen dira.
 -   **Epemuga:** 2012ko apirilaren 14a. Data hori proiektuarentzako ezarri ziren ordainketa baldintzen arabera zehazten da. Adibide honetarako, 14 eguneko ordainketa baldintzak hautatu dituzu. Hori dela eta, 14 egun gehitzen zaizkio fakturaren datari 2012ko apirilaren 14ko epemuga iristeko.
--   **Salmenta ordaintzeko aurreikusitako data:** 2012ko apirilaren 27a. Data hau egunkarian egun kopurua gehituz kalkulatzen da **Buffer egun orokorrak** eremuan **Proiektuen kudeaketa eta kontabilitate parametroak** eguneko egun kopurua **Banakako buffer egunak** zelaia gainean **Proiektuen kontratuak** orrialdean, eta gero egunkarian egun osoa gehitu **Epemuga** zelaia. Adibide honetarako, sartu zara **3** urtean **Buffer egun orokorrak** zelaia eta **10** urtean **Banakako buffer egunak** zelaia. Hori dela eta, 13 egun gehitzen zaizkio epemuga iristeko espero den salmenta ordainketa baten data 2012ko apirilaren 27an.
+-   **Salmenta ordaintzeko aurreikusitako data:** 2012ko apirilaren 27a. Data hau egunkarian egun kopurua gehituz kalkulatzen da **Buffer egun orokorrak** eremuan **Proiektuen kudeaketa eta kontabilitate parametroak** eguneko egun kopurua **Banakako buffer egunak** eremua **Proiektuen kontratuak** orrialdean, eta gero egunkarian egun osoa gehitu **Epemuga** eremuan. Adibide honetarako, sartu zara **3** urtean **Buffer egun orokorrak** zelaia eta **10** urtean **Banakako buffer egunak** zelaia. Hori dela eta, 13 egun gehitzen zaizkio epemuga iristeko espero den salmenta ordainketa baten data 2012ko apirilaren 27an.
 
 Buffer egun orokorrak banakako buffer egunak ordezka ditzakete edo banako buffer egunetara gehitu:
 
@@ -323,9 +323,9 @@ Definitzen diren egunetan oinarrituta, kostua ordaintzeko data proiektuaren data
 
 Adibidez, transakzioaren proiektuaren data 2012ko martxoaren 5a da eta ordainketa baldintza hauek ezartzen dira:
 
--   **Ordutegia:** Uneko hilabetea ( **M** )
--   **Gastuak:** 14 egun ( **D14** )
--   **Elementuak:** 30 egun ( **D30** )
+-   **Ordutegia:** Uneko hilabetea (**M**)
+-   **Gastuak:** 14 egun (**D14**)
+-   **Elementuak:** 30 egun (**D30**)
 
 Ezarpen hauetan oinarrituta, hona transakzio mota bakoitzaren kostua ordaintzeko data:
 
@@ -371,7 +371,7 @@ Bada **Gainerako aurrekontua** fitxategia kostuen kontrol metodo gisa hautatzen 
 -   **Gainerako aurrekontua** - Aukeratutako kostu lerroan oraindik eskuragarri dagoen jatorrizko aurrekontuaren zenbatekoaren zenbatekoa. Gainerako aurrekontuaren zenbatekoa **Liburu nagusiaren aurrebista** orrialdea.
 -   **Guztizko kostua** - Benetako kostuaren, konprometitutako kostuaren eta gainerako aurrekontuaren zenbatekoen batura.
 
-Gainean **Kostuen kontrola** orrialdean, **Desbideraketa** fitxa, itxarotako kostu osoa jatorrizko aurrekontuarekin alderatzea ikus dezakezu. Konparazio honek zenbateko horien arteko desberdintasunak erakusten ditu. Hori dela eta, datuak non ez datozen bat ikus dezakezu. Desbideratze kopuruak modu hauetan kalkulatzen dira:
+**Kostuen kontrola** orrialdean, **Desbideraketa** fitxa, esperotako kostu osoa jatorrizko aurrekontuarekin alderatzea ikus dezakezu. Konparazio honek zenbateko horien arteko desberdintasunak erakusten ditu. Hori dela eta, datuak non ez datozen bat ikus dezakezu. Desbideratze kopuruak modu hauetan kalkulatzen dira:
 
 -   **Jatorrizko aurrekontua** - Jatorriz hautatutako kostu lerroarentzako aurrekontua zeukan. Jatorrizko aurrekontuaren zenbatekoa **Liburu nagusiaren aurrebista** orrialdea.
 -   **Guztizko kostua** – Benetako kostuaren, konprometitutako kostuaren eta gainerako aurrekontua **Orokorra** fitxan adierazten den bezala.
@@ -381,7 +381,7 @@ Gainean **Kostuen kontrola** orrialdean, **Desbideraketa** fitxa, itxarotako kos
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Aurrekontutako guztizko zenbatekoak ikustea
 
-Bada **Aurrekontu osoa** fitxategian kostuak kontrolatzeko metodo gisa hautatzen da **Proiektuen kudeaketa eta kontabilitate parametroak** orrialdea **Kostuen kontrola** orrialdeak benetako kostuak eta proiektuaren guztizko kostuak kalkulatzen ditu bien arteko desberdintasunak antzematen laguntzeko. Zehazki, **Kostuaren kontrola** orria, kopuruak zutabeetan beheko panelean **Orokorra** fitxan kalkulatzen dira hurrengo bideen bitartez:
+Bada **Aurrekontu osoa** fitxategian kostuak kontrolatzeko metodo gisa hautatzen da **Proiektuen kudeaketa eta kontabilitate parametroak** orrialdea **Kostuen kontrola** orrialdeak benetako kostuak eta proiektuaren guztizko kostuak kalkulatzen ditu bien arteko desberdintasunak antzematen laguntzeko. Zehazki, **Kostuaren kontrola** orrian, kopuruak zutabeetan beheko panelean **Orokorra** fitxan kalkulatzen dira hurrengo bideen bitartez:
 
 -   **Aurrekontuz osatutako kostua** - Aukeratutako kostu-lerroarentzako aurrekontua duen zenbatekoa.
 -   **Uneko kostua** – Guztizko kopurua kostuena egindakoak proiektuak gaur arte hautatutako kostu-lerroak.

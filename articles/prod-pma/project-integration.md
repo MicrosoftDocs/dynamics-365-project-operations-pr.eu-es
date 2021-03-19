@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071097"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289309"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project client integrazioa
 
@@ -39,7 +39,7 @@ Microsoft Project Client-ekin bateratzea ahalbidetzeko, a Microsoft Dynamics 365
 
 •   Egin klik **Konfiguratu proiektuaren bezeroaren gehigarria** hurrengotik **Estekak** > **Konfigurazioa** lan-eremuko atala.
 
-•   Egin klik **Ireki** , egin klik **Exekutatu** galdetutakoan.
+•   Egin klik **Ireki**, egin klik **Exekutatu** galdetutakoan.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Ireki eta editatu lehendik dagoen proiektuaren zirriborroen egitura Microsoft Project Client-en
 Proiektu bat bada Dynamics 365 Finance dagoeneko zereginen xehetasunen egitura sortu da, zereginen xehetasunen egitura Microsoft Project Client aplikazioan ireki ahal izango da lan banakako egitura zirriborro egoeran badago. Irekitzeko **Proiektua** orrialdean, egin klik **Ireki Microsoft Project-en** estekatik **Plana** fitxa. Orri hau Microsoft Project Client aplikazioaren barruan ere ireki daiteke klik eginez **Irekia** urtean **Microsoft Dynamics 365** fitxa. Aukeratu **Pertsona juridikoa** eta **Proiektua** zerrendatik.
@@ -118,11 +118,11 @@ Microsoft Project Client erabiliz lanaren banakako egitura berria sortzeko eta l
 
 4.  Hautatu **Legezko entitatea** proiektuarentzat.
 
-5.  Sartu **Proiektuaren IDa** , Beharrezkoa bada.
+5.  Sartu **Proiektuaren IDa**, Beharrezkoa bada.
 
 6.  Idatzi **Proiektuaren izena**.
 
-7.  Aukeratu **Proiektu mota** , **Proiektu taldea** eta **Proiektuaren kontratuaren IDa**. Bestela, proiektuaren kontratu berria sor dezakezu klik eginez **Berria**.
+7.  Aukeratu **Proiektu mota**, **Proiektu taldea** eta **Proiektuaren kontratuaren IDa**. Bestela, proiektuaren kontratu berria sor dezakezu klik eginez **Berria**.
 
 8.  Aukeratu **Egutegia** baliabideetarako erabiltzeko.
 

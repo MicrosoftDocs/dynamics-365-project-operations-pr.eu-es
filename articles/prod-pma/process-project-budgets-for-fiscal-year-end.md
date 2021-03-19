@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071169"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289714"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Transferitu proiektuaren aurrekontuak urte fiskalaren amaieran
 
@@ -56,13 +56,13 @@ Gainerako aurrekontuaren zenbatekoak prozesatzen dituzunean, liburu nagusian tra
 ## <a name="carry-forward-budget-amounts-and-create-general-ledger-transactions"></a><a name="carry-forward"></a>Aurreratu aurrekontuaren zenbatekoak eta liburu handien transakzioak sortu
 
 1.  Hautatu **Proiektuen kudeaketa eta kontabilitatea** > **Aldizkakoa** > **Aurrekontuak** > **Egin aurrera aurrekontuak**. 
-2. **Proiektuaren aurrekontua aurrera eramateko prozesua** orrialdean, hautatu **Urte amaiera** , eta, ondoren, gaitu **Egin aurrera proiektuaren gainerako aurrekontuaren zenbatekoak** eta **Sortu aurrekontuen erregistroaren sarrerak liburu nagusian**. 
+2. **Proiektuaren aurrekontua aurrera eramateko prozesua** orrialdean, hautatu **Urte amaiera**, eta, ondoren, gaitu **Egin aurrera proiektuaren gainerako aurrekontuaren zenbatekoak** eta **Sortu aurrekontuen erregistroaren sarrerak liburu nagusian**. 
 3. **Parametroak** fitxan, **Proiektuaren parametroak** eremuen taldea, hautatu hau:
 
-   - **Proiektuaren urteko aurrekontua** : Hautatu urte fiskalaren hasiera zeinaren gainerako aurrekontu kopurua ikusi nahi duzun. 
-   - **Irabaziak eta galerak** : Emaitza eta irabazien transakzioak liburu nagusian sortzea. 
-   -  **WIP** : Sortu Work in Progress (WIP) transakzioak liburu nagusian.
-   -  **Nominak** : Nominak esleitzeko transakzioak liburu nagusian sortu. 
+   - **Proiektuaren urteko aurrekontua**: Hautatu urte fiskalaren hasiera zeinaren gainerako aurrekontu kopurua ikusi nahi duzun. 
+   - **Irabaziak eta galerak**: Emaitza eta irabazien transakzioak liburu nagusian sortzea. 
+   -  **WIP**: Sortu Work in Progress (WIP) transakzioak liburu nagusian.
+   -  **Nominak**: Nominak esleitzeko transakzioak liburu nagusian sortu. 
 
 5. **Liburu nagusi orokorra** eremu taldean, eman honako informazio hau: 
 

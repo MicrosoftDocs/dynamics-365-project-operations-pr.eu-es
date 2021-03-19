@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071209"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288814"
 ---
 # <a name="project-timesheet-mobile-application"></a>Proiektuaren orrialde mugikorretarako aplikazioa
 
@@ -76,13 +76,13 @@ Aukeratu proiektuarekin lotutako bezeroa denbora-orriarentzat. Bertsioaren hasie
 
 Bezeroen eta proiektuen bilaketek bezeroen eta proiektuen artean bilaketak egitea ahalbidetzen dute.
 
-Aukeratu informazioa **Kategoria** , **Jarduera** , **Linearen jabetza** , **Salmenten gaineko zerga taldea** , eta **Artikuluen salmenten gaineko zergaren taldea** eremuak behar bezala. Eremu hauek gainidatz daitezke.
+Aukeratu informazioa **Kategoria**, **Jarduera**, **Linearen jabetza**, **Salmenten gaineko zerga taldea**, eta **Artikuluen salmenten gaineko zergaren taldea** eremuak behar bezala. Eremu hauek gainidatz daitezke.
 
 **Linearen jabetza** eremuak balio lehenetsia ezarriko du, proiektuaren kudeaketa eta kontabilitate parametroetan oinarrituta. Proiektu / kategoria eta kategoria / baliabide parametroak gaituta daudenean, **Linearen jabetza** balioa baliozkotze honetarako definitu duzun balio lehenetsian ezarriko da. Proiektu / kategoria eta kategoria / baliabide parametroak gaituta ez daudenean, **Linearen jabetza** balioa lehenetsia izango da **Gaitu lineako propietate lehenetsia** eremuan **Proiektuen kudeaketa eta kontabilitate parametroak** orrialdea. **Linearen jabetza** balioa gainidatz daiteke.
 
 Aukeratu egun bat denbora gehitzeko. Idatzi egunero lan egin duzun ordu kopurua.
 
-Sartzen ari zaren orduei buruzko iruzkinak gehitzeko, egin klik **Gehitu iruzkinak** , eta, ondoren, sartu iruzkinak barne audientzia, bezero audientzia edo bietarako.
+Sartzen ari zaren orduei buruzko iruzkinak gehitzeko, egin klik **Gehitu iruzkinak**, eta, ondoren, sartu iruzkinak barne audientzia, bezero audientzia edo bietarako.
 Barne iruzkinak proiektuaren arduradunek ikusi ahal izango dituzte. Bezeroen iruzkinak fakturetan daude.
 
 Lerroa gogoko gisa gordetzeko, hautatu kontrol laukia eta egin klik **Gorde gogoko gisa**.
@@ -95,7 +95,7 @@ Egin klik **Bidali** denbora-orria onarpen-lanera bidaltzeko.
 
 ## <a name="review-timesheets"></a>Berrikusi denbora-orriak
 
-Menuan eskuragarri dago berrikusi behar diren ordu-orrien zerrenda. Aukera hau erabilgarri dago lan-fluxuaren onartzaile izendatu bazaituzte. Goiburukoa eta lineako onarpena onartzen dira. Linea maila onartzeak onartzeko lerro bat edo gehiago markatzeko aukera eskaintzen du. Ordutegiaren informazioa berrikusi ondoren, egin klik **Onartu** , **Ordezkaria** , edo **Itzuli** lan-fluxuarekin jarraitzeko.
+Menuan eskuragarri dago berrikusi behar diren ordu-orrien zerrenda. Aukera hau erabilgarri dago lan-fluxuaren onartzaile izendatu bazaituzte. Goiburukoa eta lineako onarpena onartzen dira. Linea maila onartzeak onartzeko lerro bat edo gehiago markatzeko aukera eskaintzen du. Ordutegiaren informazioa berrikusi ondoren, egin klik **Onartu**, **Ordezkaria**, edo **Itzuli** lan-fluxuarekin jarraitzeko.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

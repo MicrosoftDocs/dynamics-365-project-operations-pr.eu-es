@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122328"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287718"
 ---
 # <a name="manage-the-billing-backlog"></a>Kudeatu fakturazio atzeratua
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations-ek bi ikuspegi eskaini ditu fakturazio-zorroarekin lan egiten eta kudeatzen laguntzeko. **Prezio finkoaren mugarriak** eta **Denboraren eta materialaren fakturazio-zorroa** Ikuspegia hautatzeko, **Salmentak** proiektuaren eragiketen eremua, ezkerreko nabigazio orrian, hautatu **Fakturazioa**. Fakturazioaren atzerapen estekak bertan gordetzen dira.
+Dynamics 365 Project Operations-ek bi ikuspegi eskaintzen ditu fakturazio-zorroa lantzen eta kudeatzen laguntzeko. **Prezio finkoaren mugarriak** eta **Denboraren eta materialaren fakturazio-zorroa** Ikuspegia hautatzeko, **Salmentak** proiektuaren eragiketen eremua, ezkerreko nabigazio orrian, hautatu **Fakturazioa**. Fakturazioaren atzerapen estekak bertan gordetzen dira.
 
 ## <a name="fixed-price-milestones"></a>Prezio finkoaren mugarriak
 
