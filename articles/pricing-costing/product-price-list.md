@@ -3,7 +3,7 @@ title: Produktuaren prezio-zerrendak
 description: Gai honek proiektuen aurrekontuetarako eta kontratuetarako erabilitako katalogoko prezioen zerrendei buruzko informazioa eskaintzen du.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -14,23 +14,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0f30bec159254c078024549b7b0dd0c048ef65d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e37f0bf9eef946ab4ebd658cef4e1269cbaf686d
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275343"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877475"
 ---
 # <a name="product-price-lists"></a>Produktuaren prezio-zerrendak
 
-_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
+_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Prezio-zerrendak eta prezioen zerrendako entitateek produktuaren katalogoaren prezioei laguntza ematen diete. Gehienetan, funtzionalitate hau katalogoan oinarritutako ildoetarako erabiltzen da proiektuaren aurrekontuetan eta proiektuen kontratuetan.
-
-Proiektuetan oinarritutako ildoetarako, kontratu batek akordioa irabazi ondoren adierazten du. Negoziazio prozesua irabazi aurretik, izan ere, aurrekontuari atxikitako prezioak beti kopiatzen dira prezioen zerrenda berri batean eta kontratuaren erantsita. Prezioen zerrenda berri hau ezin da aldatu kontratuaren eremutik kanpo. Muga horrek prezioen zerrenda nagusian gertatzen diren prezio aldaketetatik negoziatutako tasa txartela babesten laguntzen du.
+ Project Operations-en, **Produktuen prezioen zerrendak** eta erlazionatutako prezioen zerrendako elementu entitateek produktuak oinarritutako aurrekontu eta kontratu lerroetan produktuak tasatzeko funtzionalitatea onartzen dute. Proiektuetan erabilitako produktuetarako, proiektuen prezio zerrendetako prezioen zerrendako elementuen erregistroak erabiltzen dira. 
 
 Produktuak produktuen katalogoan kostu eta prezio zerrendak lehenetsi behar dira. Erabili zerrenda prezioa, kostu estandarra eta uneko kostua kostu lehenetsiak eta zerrenda prezioak konfiguratzeko. Lehenetsitako zerrenda-prezioak aurrekontu-lerro batean edo proiektu-kontratuaren lerroan erabiltzen dira sistemak ezin badu produktu horren prezio-lerro bat aurkitu produktuen prezioen zerrendan aurrekontuaren edo proiektuaren kontratuan.
 
@@ -40,9 +38,7 @@ Produktuen katalogoko lineen kostu prezioa aldatu egin daiteke aurrekontuen arte
 
 Produktuen katalogoko produktuak prezioen zerrendetara gehitu ditzakezu. Produktuen prezioen zerrenda-lerroek unitate zehatz bat aipatzen dute beti. Prezioen zerrendako produktuen prezioa moneta kopuru gisa konfigura daiteke. Bestela, zerrenda prezioaren, uneko kostuaren edo estandar kostuaren funtzio gisa konfigura daiteke.
 
-PSAk biribiltze aukera ugari onartzen ditu prezioak zerrenda prezioaren, kostu estandarraren edo uneko kostuaren funtzio gisa konfiguratutakoan. Prezio metodo ugari eta biribiltzeko aukerak aprobetxatzeaz gain, deskontu zerrendak prezioen zerrendako elementuekin lotu ditzakezu. 
-
-Aurrekontuen zerrenda pertsonalizatuko zerrenda berria sortzen duzunean, hautatuta **Sortu pertsonalizatutako prezioak** orrian **Proiektuaren eskaintza** orrialdea, prezioen zerrendaren kopia egiten du eta **Erakundea** prezioen zerrenda berriaren goiburuko eremuan ezarrita dago **Salmenta-erakundea**. Prezioen zerrenda berriaren izena aurrekontuaren izenarekin eta marka-denborarekin eransten da. Prezioen zerrenda berriaren izena eta aurrekontuaren izena erabil ditzakezu laneko fluxu pertsonalizatuetan, berrikuspen eta onarpen osagarriak abiarazteko prezio pertsonalizatuak erabiltzen dituzten aurrekontuetarako.
+Prezioen funtzionalitateak biribiltze aukera ugari onartzen ditu produktu-prezioak zerrenda prezioaren, kostu estandarraren edo uneko kostuaren funtzio gisa konfiguratutakoan. Prezio metodo ugari eta biribiltzeko aukerak aprobetxatzeaz gain, deskontu zerrendak prezioen zerrendako elementuekin lotu ditzakezu. 
 
  
 ## <a name="default-product-price-list"></a>Prezio-zerrenda lehenetsia
@@ -57,7 +53,7 @@ Aukera, aurrekontua eta Proiektuen kontratuaren entitateek produktu honen prezio
 
 Berez, **Produktua** eskaintzaren lerroko eremuan produktuen prezioen zerrendako produktu aktibo guztiak agertzen dira. Produktu bat aktibatuta egon bada edo produktu zirriborroa bada, ez da zerrendatzen, nahiz eta prezioen zerrendan egon. 
 
-Produktuen katalogoko lineak faktura-lerro gisa gehitzen dira proiektuko kontratu baterako sortzen den lehen fakturan. Zerga faktura batean, faktura lerro horiek ezaba daitezke. Kasu horretan, lerroak ondorengo faktura batean agertuko dira fakturatu arte edo faktura bezeroari bidali arte. Ezin duzu produktuen faktura-lerro bateko kantitate partziala fakturatu. Proiektuko kontratuaren produktu-lerroak fakturatzen direnean, errealak sortzen dira. Hala ere, egiazkoak ez daude lotuta proiektuaren entitatearekin. Alegia, produktuetan oinarritutako proiektuen kontratu-ildoak proiektuan oinarritutako edozein erabilerarekiko independentea dira. Ez da materialen kontsumoa kontrolatzen proiektuetan.
+Produktuen katalogoko lineak faktura-lerro gisa gehitzen dira proiektuko kontratu baterako sortzen den lehen fakturan. Zerga faktura batean, faktura lerro horiek ezaba daitezke. Kasu horretan, lerroak ondorengo faktura batean agertuko dira fakturatu arte edo faktura bezeroari bidali arte. Ezin duzu produktuen faktura-lerro bateko kantitate partziala fakturatu. Proiektuko kontratuaren produktu-lerroak fakturatzen direnean, errealak sortzen dira. Hala ere, egiazkoak ez daude lotuta proiektuaren entitatearekin. Alegia, produktuetan oinarritutako proiektuen kontratu-ildoak proiektuan oinarritutako edozein erabilerarekiko independentea dira. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

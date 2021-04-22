@@ -1,23 +1,23 @@
 ---
-title: Proiektuetan oinarritutako eskaintzaren lerroen ikuspegi orokorra - arina
-description: Gai honek proiektu-lanaren produktuetan oinarritutako eskaintza-lerroak erabiltzeari buruzko lerroei buruzko informazioa ematen du. (Pro)
+title: Proiektuetan oinarritutako eskaintzaren lerroen ikuspegi orokorra
+description: Gai honek proiektu-lanaren produktuetan oinarritutako eskaintza-lerroak erabiltzeari buruzko lerroei buruzko informazioa ematen du.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4865c06691fba09eacf5fe6449adfaf542444520
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cfe98fc89130c93dd0a36af8583881fdcb4550c0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272958"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858683"
 ---
-# <a name="project-based-quote-lines-overview---lite"></a>Proiektuetan oinarritutako eskaintzaren lerroen ikuspegi orokorra - arina
+# <a name="project-based-quote-lines-overview"></a>Proiektuetan oinarritutako eskaintzaren lerroen ikuspegi orokorra 
 
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honetarako aplikatzen da:** inplementazio arina - mahukatik proformako fakturaziora, Baliabideen / stockean oinarritutako eszenatokien Project Operations_
 
 Proiektuetan oinarritutako aurrekontu lerroak proiektu baten konpromisoa kalkulatzen laguntzeko diseinatuta daude. Proiektuan oinarritutako aurrekontu lerroaren egitura proiektuaren kalkuluen arabera hedatzen da, honako kontzeptu hauekin:
 
@@ -33,18 +33,19 @@ Ondorengo taulan fitxategien eremuei buruzko informazioa ematen da **Orokorra** 
 
 | **Eremua** | **Azalpena** | **Downstream eragina** |
 | --- | --- | --- |
-| Eman izena | Estimatzen ari den aurrekontuaren osagai diskretua identifikatzen lagunduko dizun aurrekontuaren lerroaren izena. | Aurrekontua lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
-| Fakturazio-metodoa | Aukera batetik sortutako aurrekontuan, balio hori aukera-lerroan dagokion eremutik kopiatzen da. Eremu honek Dynamics 365 Project Operations-ek onartzen dituen bi kontratazio-eredu nagusiak biltzen ditu:</br>- Prezio finkoa</br>- Denbora eta materiala.| Eremuaren balioa eskaintzaren lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
-| Project | Erabili aukerako eremu hau konpromiso horretan lana emateko erabiliko den proiektua identifikatzeko. Proiektu bat aurrekontu lerro batera mapeatzen denean, kargagarriak diren atazak ezartzen laguntzen du eta proiektuan oinarritutako aurrekontua aurrekontuaren lerroan aurrekontuaren lerroaren xehetasun gisa ekartzen laguntzen du. Proiektu bat proiektuan oinarritutako aurrekontu lerro batera mapatuta ez dagoenean, aurrekontua eskuz sortu beharko litzateke aurrekontu lerroaren xehetasun bakoitza sortuz. | Eremuaren balioa eskaintzaren lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean.|
-| Gehitutako zereginak | Aipu lerro hau hautatutako proiektuaren proiektuko zeregin guztietarako edo batzuetarako erabiltzen den adierazten du. Eremuak balio hauek izan ditzake:</br>- Proiektuaren zeregin guztiak</br>- Hautatutako proiektu-zereginak soilik</br>Eremu honetako balio hutsa balioaren baliokidea da **Proiektuaren zeregin guztiak** aukera. | **Aukeratutako proiektuaren zereginak soilik** hautatzen denean proiektuaren orrian, **Zereginen fakturazio konfigurazioa** fitxak zeregin zehatzak hautatzeko aukera ematen du aurrekontu lerro honekin lotzeko. Eremuaren balioa eskaintzaren lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
-| Idatzi denbora | **Bai**/**Ez** banderak adierazten du hautatutako proiektuaren denborako transakzioak edo lan kostuak aurrekontu lerro honetako aurrekontuan sartuko diren. **Ez** balioak adierazten du denbora-transakzioak edo lan-kostuak ez direla sartuko aurrekontu honen eskaintzaren lerroan. **Bai** balioak adierazten du denbora-transakzioak edo lan-kostuak sartuko direla aurrekontu honen eskaintzaren lerroan. | Eremuaren balioa eskaintzaren lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
-| Idatzi gastua | **Bai**/**Ez** banderak adierazten du hautatutako proiektuaren denborako gastuak aurrekontu lerro honetako aurrekontuan sartuko diren. **Ez** balioak adierazten du gastuak ez direla sartuko aurrekontu honen eskaintzaren lerroan. **Bai** balioak adierazten du gastuak sartuko direla aurrekontu honen eskaintzaren lerroan. | Eremuaren balioa eskaintzaren lerro honetatik sortzen den proiektuaren kontratu lerro baten gainean kopiatu da aurrekontua irabazten denean. |
-| Idatzi prezioa | **Bai**/**Ez** banderak adierazten du hautatutako proiektuaren denborako komisioak aurrekontu lerro honetako aurrekontuan sartuko diren. **Ez** balioak adierazten du komisioak ez direla sartuko aurrekontu honen eskaintzaren lerroan. **Bai** balioak adierazten du komisioak sartuko direla aurrekontu honen eskaintzaren lerroan. | Eremuaren balioa eskaintzaren lerro honetatik sortzen den Proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
-| Eskainitako zenbatekoa | Proiektuan oinarritutako aurrekontu lerro honetan aurreikusitako lan guztiari bezeroari aipatuko zaion zenbatekoa da. Aukera batetik sortutako aurrekontuan, balio hori aukera-lerroaren **Bezeroaren aurrekontua** eremutik kopiatzen da. Proiektuan oinarritutako aurrekontu lerroak lerroaren xehetasunak dituenean, eremu hau blokeatuta dago editatzeko eta aurrekontuaren lerroaren xehetasunetan agertzen den zenbatekoaren arabera laburbiltzen da. | Eremuaren balioa eskaintzaren lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
-| Aurreikusitako zerga | Eremu editagarria da erabiltzaileak aurrekontu lerroan zenbatetsitako zerga kopurua gehitzeko. Proiektuan oinarritutako aurrekontu lerroak lerroaren xehetasunak dituenean, eremu hau blokeatuta dago editatzeko eta aurrekontuaren lerroaren xehetasunetan agertzen den zerga-zenbatekoaren arabera laburbiltzen da. | Eremuaren balioa eskaintzaren lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
-| Eskainitako zenbatekoa, zergaren ondoren | Eremu hau zerga ondorengo aurrekontuaren zenbatekoa da eta irakurtzeko soilik da. Eremu honetako zenbatekoa honela kalkulatzen da *Aipatutako zenbatekoa + Zerga*. | Eremuaren balioa eskaintzaren lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
-| Ez gainditzeko muga | Eremu hau editagarria da eta proiektu bat duten aurrekontu lerroetan soilik dago erabilgarri **Denbora eta materiala** fakturazio metodoa. | Eremuaren balioa eskaintzaren lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
-| Bezeroaren aurrekontua | Eremu hau editagarria da eta balio hori aukera-lerroan dagokion eremutik kopiatzen da, abagunea eskaintza batetik sorten bada. | Eremuaren balioa eskaintzaren lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
+| Izena | Estimatzen ari den aurrekontuaren osagai diskretua identifikatzen laguntzen duen aurrekontuaren lerroaren izena. | Aurrekontua lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean. |
+| Fakturazio-metodoa | Aukera batetik sortutako aurrekontuan, balio hori aukera-lerroan dagokion eremutik kopiatzen da. Eremu honek Dynamics 365 Project Operations-ek onartzen dituen bi kontratazio-eredu nagusiak biltzen ditu:</br>- Prezio finkoa</br>- Denbora eta materiala.| Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da. |
+| Project | Erabili aukerako eremu hau konpromiso horretan lana emateko erabiliko den proiektua identifikatzeko. Proiektu bat aurrekontu lerro batera mapeatzen denean, kargagarriak diren atazak ezartzen laguntzen du eta proiektuan oinarritutako aurrekontua aurrekontuaren lerroan aurrekontuaren lerroaren xehetasun gisa ekartzen laguntzen du. Proiektu bat proiektuan oinarritutako aurrekontu lerro batera mapatuta ez dagoenean, aurrekontua eskuz sortu beharko litzateke aurrekontu lerroaren xehetasun bakoitza sortuz. | Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.|
+| Gehitutako zereginak | Aipu lerro hau hautatutako proiektuaren proiektuko zeregin guztietarako edo batzuetarako erabiltzen den adierazten du. Eremuak balio hauek izan ditzake:</br>- Proiektuaren zeregin guztiak</br>- Hautatutako proiektu-zereginak soilik</br>Eremu honetako balio hutsa balioaren baliokidea da **Proiektuaren zeregin guztiak** aukera. | **Aukeratutako proiektuaren zereginak soilik** proiektuaren orrian hautatzen da **Zereginen fakturazio konfigurazioa** fitxak zeregin zehatzak hautatzeko aukera ematen du aurrekontu lerro honekin lotzeko. Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da. |
+| Idatzi denbora | **Bai**/**Ez** balioa adierazten du hautatutako proiektuaren denborako transakzioak edo lan kostuak aurrekontu lerro honetako aurrekontuan sartuko diren. **Ez** balioak adierazten du denbora-transakzioak edo lan-kostuak ez direla sartuko aurrekontu honen eskaintzaren lerroan. **Bai** balioak adierazten du denbora-transakzioak edo lan-kostuak sartuko direla aurrekontu honen eskaintzaren lerroan. | Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da. |
+| Idatzi gastua | **Bai**/**Ez** balioa adierazten du hautatutako proiektuaren gastuen kostuak aurrekontu lerro honetako aurrekontuan sartuko diren. **Ez** balioak adierazten du gastuak ez direla sartuko aurrekontu honen eskaintzaren lerroan. **Bai** balioak adierazten du gastuak sartuko direla aurrekontu honen eskaintzaren lerroan. | Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da. |
+| Sartu materiala | **Bai**/**Ez** balioa adierazten du hautatutako proiektuaren materialaren kostuak aurrekontu lerro honetako aurrekontuan sartuko diren. **Ez** balioa adierazten du materialaren kostuak aurrekontu lerro honetako aurrekontuan ez diren sartuko. **Bai** balioa adierazten du materialaren kostuak aurrekontu lerro honetako aurrekontuan sartuko diren. | Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da. |
+| Idatzi prezioa | **Bai**/**Ez** balioa adierazten du hautatutako proiektuaren kostuen aurrekontu lerro honetako aurrekontuan sartuko diren. **Ez** balioak adierazten du komisioak ez direla sartuko aurrekontu honen eskaintzaren lerroan. **Bai** balioak adierazten du komisioak sartuko direla aurrekontu honen eskaintzaren lerroan. | Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da. |
+| Eskainitako zenbatekoa | Proiektuan oinarritutako aurrekontu lerro honetan aurreikusitako lan guztiari bezeroari aipatuko zaion zenbatekoa da. Aukera batetik sortutako aurrekontuan, balio hori aukera-lerroaren **Bezeroaren aurrekontua** eremutik kopiatzen da. Proiektuan oinarritutako aurrekontu lerroak lerroaren xehetasunak dituenean, eremu hau blokeatuta dago editatzeko eta aurrekontuaren lerroaren xehetasunetan agertzen den zenbatekoaren arabera laburbiltzen da. | Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da. |
+| Aurreikusitako zerga | Eremu editagarria da erabiltzaileak aurrekontu lerroan zenbatetsitako zerga kopurua gehitzeko. Proiektuan oinarritutako aurrekontu lerroak lerroaren xehetasunak dituenean, eremu hau blokeatuta dago editatzeko eta aurrekontuaren lerroaren xehetasunetan agertzen den zerga-zenbatekoaren arabera laburbiltzen da. | Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da. |
+| Eskainitako zenbatekoa, zergaren ondoren | Eremu hau zerga ondorengo aurrekontuaren zenbatekoa da eta irakurtzeko soilik da. Eremu honetako zenbatekoa honela kalkulatzen da *Aipatutako zenbatekoa + Zerga*. | Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da. |
+| Ez gainditzeko muga | Eremu hau editagarria da eta proiektu bat duten aurrekontu lerroetan soilik dago erabilgarri **Denbora eta materiala** fakturazio metodoa. | Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da. |
+| Bezeroaren aurrekontua | Eremu hau editagarria da eta balio hori aukera-lerroan dagokion eremutik kopiatzen da, abagunea eskaintza batetik sorten bada. | Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da. |
 
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Proiektuetan oinarritutako aurrekontu lerroen Orokorra fitxako eremuen baliozkotze arauak
@@ -62,755 +63,818 @@ Ondorengo taulan fitxategien eremuei buruzko informazioa ematen da **Orokorra** 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     <strong>Abagunea</strong>
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     <strong>Eskaintza</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     <strong>Eskaintzaren lerroa</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     <strong>Project</strong>
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     <strong>Gehitutako zereginak</strong>
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     <strong>Idatzi denbora</strong>
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     <strong>Idatzi gastua</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-                    <strong>Sartu</strong>
-                </p>
-                <p>
-                    <strong>Prezioa</strong>
+                    <strong>Sartu materiala</strong>
                 </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
+                <p>
+                    <strong>Gehitu</strong>
+                </p>
+                <p>
+                    <strong>Tasa</strong>
+                </p>
+            </td>
+            <td width="49" valign="top">
                 <p>
                     <strong>Baliozkoa/Baliogabea da</strong>
                 </p>
             </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
                 <p>
                     <strong>Arrazoia</strong>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 1H </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 A1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Hutsik </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 Baliogabea da </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-2. araua haustea. P1 proiektuaren denbora, gastuak eta tasak aurrekontu lerroetan, QL1 eta QL2 barne daude.
-                </p>
+2. araua haustea. P1 proiektuaren denbora, gastuak eta tasak aurrekontu lerroetan, QL1 eta QL2 barne daude </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 1H </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 A1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Hutsik </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 Yes </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 1H </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 A1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Hutsik </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-+Ez </p>
+No </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 Baliogabea da </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-2. araua haustea. P1 proiektuaren denbora eta tasak aurrekontu lerroetan, QL1 eta QL2 barne daude.
-                </p>
+2. araua haustea. P1 proiektuaren denbora, materialak eta tasak aurrekontu lerroetan, QL1 eta QL2 barne daude </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 1H </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 A1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Hutsik </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 Yes </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 1H </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 A1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Hutsik </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-+Ez </p>
+No </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 Baliozkoa </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
-                  <p>
-P1 proiektuaren denbora eta tasak QL1-en sartzen dira.
-P1 proiektuaren gastuak QL2n sartzen dira.
-Aurrekontu lerro bakoitzean sartzen den horretan ez dago gainjartzerik, eta balio du.
+            <td width="200" rowspan="2" valign="top">
+                <p>
+P1 proiektuaren denbora, materialak eta tasak QL1 barne daude <br>
+P1 proiektuaren gastuak QL2n sartzen dira <br>
+Aurrekontu lerro bakoitzean sartzen denaren gainetik ez dago gainjartzerik eta, beraz, baliozkoa da.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 1H </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 A1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Hutsik </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-+Ez </p>
+No </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-+Ez </p>
+No </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+No </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 1H </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 A1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Hautatutako zereginak soilik </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 Baliogabea da </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-2. araua haustea eta gehiago </p>
+2. araua haustea </p>
                 <p>
-P1 proiektuan P1 proiektuaren zereginen azpimultzo baten denbora, gastuak eta tasak sartzen dira.
-                </p>
+P1 proiektuan P1 proiektuaren zereginen azpimultzo baten denbora, materiala, gastuak eta tasak sartzen dira </p>
                 <p>
-QL2-k P1 proiektu osorako Denbora, Gastuak eta Tasak barne hartzen ditu eta Q1-n sartutakoarekin gainjartzen da.
+QL2-k P1 proiektu osorako denbora, gastuak eta tasak biltzen ditu eta, beraz, Q1-en sartutakoarekin gainjartzen da.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 1H </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 A1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Hutsik </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 Yes </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 1H </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 A1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Hautatutako zereginak soilik </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 Baliozkoa </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-3. arauaren eta abarren arabera, </p>
+3. arauaren arabera, </p>
                 <p>
-P1 proiektuan P1 proiektuaren zereginen azpimultzo baten denbora, gastuak eta tasak sartzen dira.
+P1 proiektuan P1 proiektuaren zereginen azpimultzo baten denbora, materiala, gastuak eta tasak sartzen dira.
                 </p>
                 <p>
-P1 proiektuan P1 proiektuaren zereginen azpimultzo baten denbora, gastuak eta tasak sartzen dira.
+QL2k proiektuan P1 proiektuaren zereginen azpimultzo baten denbora, materiala, gastuak eta tasak sartzen dira.
                 </p>
                 <p>
-Balidazio osagarri bakarra QL1-eko zereginen azpimultzoaren inguruan kokatzen da, QL2-ren zereginen azpimultzoarekin alderatuta. Honek gainjartzerik ez dagoela ziurtatzen du. Sistemak zereginak lotzen dituenean egiten du.
+Balidazio osagarri bakarra QL1-eko zereginen azpimultzoaren inguruan kokatzen da, QL2-ren zereginen azpimultzoaren desberdina dela gainjartzerik ez dagoela ziurtatzeko. Sistemak zereginak lotzen dituenean egiten du.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 1H </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 A1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Hautatutako zereginak soilik </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 Yes </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 1H </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 A1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Proiektuaren zeregin guztiak edo hutsik </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 Baliozkoa </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-5. arauan oinarrituta, Q1 eta Q2 aukera berdineko bi komatxo dira, beraz, biek proiektu baten osagai berberak kalkula ditzakete.
+5. arauaren arabera, Q1 eta Q2 aukera berdineko bi komatxo dira, beraz, biek proiektu baten osagai berberak kalkula ditzakete.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 2H </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 A1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Proiektuaren zeregin guztiak edo hutsik </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
+                <p>
+Yes </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 1H </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 A1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Proiektuaren zeregin guztiak edo hutsik </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
                 <p>
-Baliozkoa </p>
+Yes </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-4. arauan oinarrituta, Q1 eta Q2 aukera desberdineko bi komatxo dira, beraz, proiektu berean ezin dira osagai berberak kalkulatu.
+Baliogabea da </p>
+            </td>
+            <td width="200" rowspan="2" valign="top">
+                <p>
+4. arauaren arabera, Q1 eta Q2 aukera desberrdineko bi komatxo dira, beraz, biek proiektu berean osagai berberak kalkula ditzakete.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O2 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 1H </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 A1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Proiektuaren zeregin guztiak edo hutsik </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Yes </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
                 <p>
-Baliogabea da </p>
+Yes </p>
             </td>
         </tr>
     </tbody>
 </table>
-
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

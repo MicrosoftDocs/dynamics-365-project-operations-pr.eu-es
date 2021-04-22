@@ -3,17 +3,17 @@ title: Konfiguratu gastuen kostu- eta salmenta-tasak
 description: Gai honek transakzioen eta gastuen kategorien kostu- eta salmenta-tasak konfiguratzeko moduari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274893"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877205"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Konfiguratu gastuen kostu- eta salmenta-tasak
 
@@ -23,9 +23,10 @@ Transakzio kategorien kostua eta salmenta prezioak konfigura ditzakezu Dynamics 
 
 Transakzio kategorien kostua eta salmenta tasak konfiguratzeko, jarraitu urrats hauek. 
 
-1. Sortu prezio zerrenda prezio zerrendaren goiburuan oinarrituta. 
-2. **Kategoriaren prezioak** eremuan, azpisarea menuan, hautatu **+ Kategoria berria**. 
-3. **Sorrera bizkorra** orrian, sartu prezio berria sortzen ari zaren transakzio kategoria eta unitatea.
+1. Joan **Salmentak** > **Bezeroak** > **Prezio-zerrendak**.
+2. Hautatu **Berria** prezio-zerrenda berri bat sortzeko. 
+3. **Kategoriaren prezioak** eremuan, azpisarea menuan, hautatu **Kategoria berria**. 
+4. **Sorrera bizkorra** orrian, sartu prezio berria sortzen ari zaren transakzio kategoria eta unitatea.
 
 Ondorengo taulan eremuko eremuak biltzen dira **Orokorra** fitxa eta **Sorrera bizkorra** kontuan izan behar duzun prezioen lerroaren panela, salmenten edo kostuaren prezioen zerrendan rol-prezioak sortzen dituzunean:
 

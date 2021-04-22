@@ -1,21 +1,21 @@
 ---
-title: Kudeatu proformako faktura
-description: Gai honek Proformako fakturak kudeatzeko eta haiekin lan egiteko moduari buruzko informazioa ematen du.
+title: Kudeatu proiektuetan oinarritutako fakturaren proforma
+description: Gai honek proforma proiektuan oinarritutako fakturak kudeatu eta horiekin lan egiteko moduari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 29e301062f8f3ba955a95953bc2e891f3acaf765
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9fd357648f8166cbcbe91ca1922739585f9fcfa9
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287673"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867206"
 ---
-# <a name="manage-a-proforma-invoice"></a>Kudeatu proformako faktura
+# <a name="manage-a-proforma-project-based-invoice"></a>Kudeatu proiektuetan oinarritutako fakturaren proforma
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
@@ -28,113 +28,117 @@ Dynamics 365 Project Operations-en, proforma fakturak Dynamics 365 Sales-en fakt
 
 Informazio hau Proforma fakturaren goiburuan dago eskuragarri Project Operations-en.
 
-| Eremua | Kokapena | Deskribapena | Downstream eragina |
-| --- | --- | --- | --- |
-| **Fakturaren IDa** | **Laburpena** fitxa | Normalean automatikoki sortuko IDa da proformako faktura sortzen denean. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremu hau proformako faktura bakoitzerako erreferentzia gisa erabiltzen da. |
-| **Izena** | **Laburpena** fitxa | Ezarri proiektuaren kontratuaren izena lehenespenez. Eremu hau erabiltzaileak editatu dezake. | &nbsp;  |
-| **Moneta** | **Laburpena** fitxa | Ezarri proiektuaren kontratuaren moneta lehenespenez. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |&nbsp; |
-| **Prezio-zerrenda** | **Laburpena** fitxa | Ezarri proiektuaren kontratuaren prezio-zerrenda lehenespenez. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Abagunea** | **Laburpena** fitxa | Lotutako aukeraren erreferentzia. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp;  |
-| **Kontratua** | **Laburpena** fitxa | Lotutako proiektuaren kontratuari egindako erreferentzia. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Bezeroa** | **Laburpena** fitxa | Lotutako proiektuaren kontratuari egindako erreferentzia. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |&nbsp;  |
-| **Azalpena** | **Laburpena** fitxa | Faktura deskribatzen duen testu eremua. Eremu hau erabiltzaileak editatu dezake. | &nbsp; |
-| **Kobratu** eta erlazionatutako eremuak | **Laburpena fitxa** | Lehenespenak proiektuaren kontratuko bezeroarengandik ezartzen dira. Eremu hau erabiltzaileak editatu dezake.  | &nbsp; |
-| **Egoera** | **Laburpena** fitxa | Aukera hauek ezartzen ditu: **Aktiboa**, **Itxita**, **Ordainduta** eta **Bertan behera utzi da**, eta erabiltzaileak editatu dezake. | Proiektuaren eragiketetarako egoera onartezinak daude **Itxita** eta **Bertan behera utzi da**. </br> Egoera ezarrita dago **Aktiboa** faktura sortzen denean. </br>Egoera ezarri behar da **Ordainduta** soilik faktura baieztatu ondoren. |
-| **Proiektuaren fakturaren egoera** | **Laburpena** fitxa | Aukera hauek ezartzen ditu: **Zirriborroa**, **Berrikusten** eta **Berretsita**, eta erabiltzaileak editatu dezake. | Bietan **Zirriborroa** eta **Berrikusten** egoerak, faktura editatu daiteke. Faktura ezin da editatu baieztatu ondoren. |
-| **Zenbateko xehatua** | **Laburpena** fitxa | Faktura-lerro guztietako zenbatekoen batura aurrerakinak eta kenkariak egin ondoren. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremu hau azken zenbatekoa kalkulatzeko erabiltzen da. |
-| **Deskontua (%)** | **Laburpena** fitxa | Eremu hau edita daiteke deskontu ehunekoa sartzeko. Eremu hau ez dago Project Operations funtzionaltasunarekin onartuta. | Onartzen ez den eremua da. |
-| **Deskontuaren zenbatekoa** | **Laburpena** fitxa | Eremu hau edita daiteke deskontuaren zenbatekoa sartzeko. Eremu hau ez dago Project Operations funtzionaltasunarekin onartuta. | Onartzen ez den eremua da. |
-| **Pleit gabeko zenbatekoa** | **Laburpena fitxa** | Deskontuen ondorengo fakturaren zenbateko osoa aplikatu da. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremu hau azken zenbatekoa kalkulatzeko erabiltzen da. |
-| **Pleitaren zenbatekoa** | **Laburpena** fitxa | Eremu hau edita daiteke pleitaren zenbatekoa sartzeko. Eremu hau ez dago Project Operations funtzionaltasunarekin onartuta. | Onartzen ez den eremua da. |
-| **Zergak guztira** | **Laburpena** fitxa | Fakturan faktura lerro guztietako zerga osoa. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Bat ere ez. |
-| **Zenbatekoa guztira** | **Laburpena** fitxa | Deskontuen eta zergen ondorengo zenbatekoaren batura. | Batuketa bezeroak ordaindu behar duen zenbatekoa da. |
+| Eremua | Kokapena | Deskribapenak |
+| --- | --- | --- | 
+| **Fakturaren IDa** | **Laburpena** fitxa | Normalean automatikoki sortuko IDa da proformako faktura sortzen denean. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. Eremu hau proformako faktura bakoitzerako erreferentzia gisa erabiltzen da. |
+| **Izena** | **Laburpena** fitxa | Ezarri proiektuaren kontratuaren izena lehenespenez. Eremu hau edita dezake. | 
+| **Moneta** | **Laburpena** fitxa | Ezarri proiektuaren kontratuaren moneta lehenespenez. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |
+| **Prezio-zerrenda** | **Laburpena** fitxa | Ezarri proiektuaren kontratuaren prezio-zerrenda lehenespenez. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Abagunea** | **Laburpena** fitxa | Lotutako aukeraren erreferentzia. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Kontratua** | **Laburpena** fitxa | Lotutako proiektuaren kontratuari egindako erreferentzia. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Bezeroa** | **Laburpena** fitxa | Lotutako proiektuaren kontratuari egindako erreferentzia. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |
+| **Azalpena** | **Laburpena** fitxa | Faktura deskribatzen duen testu eremua. Eremu hau edita dezake. | 
+| **Kobratu** eta erlazionatutako eremuak | **Laburpena fitxa** | Lehenespenak proiektuaren kontratuko bezeroarengandik ezartzen dira. Eremu hau edita dezake.  | 
+| **Egoera** | **Laburpena** fitxa | Aukera hauek ezartzen ditu: **Aktiboa**, **Itxita**, **Ordainduta** eta **Bertan behera utzi da**, eta editatu egin daiteke. Proiektuaren eragiketetarako egoera onartezinak daude **Itxita** eta **Bertan behera utzi da**. </br> Egoera ezarrita dago **Aktiboa** faktura sortzen denean. </br>Egoera ezarri behar da **Ordainduta** soilik faktura baieztatu ondoren.  | 
+| **Proiektuaren fakturaren egoera** | **Laburpena** fitxa | Aukera hauek ezartzen ditu: **Zirriborroa**, **Berrikuspenean** eta **Baieztatuta**, eta editatu egin daiteke. Bietan **Zirriborroa** eta **Berrikusten** egoerak, faktura editatu daiteke. Faktura ezin da editatu baieztatu ondoren. | 
+| **Zenbateko xehatua** | **Laburpena** fitxa | Faktura-lerro guztietako zenbatekoen batura aurrerakinak eta kenkariak egin ondoren. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua.  Eremu hau azken zenbatekoa kalkulatzeko erabiltzen da. | 
+| **Deskontua (%)** | **Laburpena** fitxa | Eremu hau edita daiteke deskontu ehunekoa sartzeko. Eremu hau ez dago Project Operations funtzionaltasunarekin onartuta. Onartzen ez den eremua da.|  
+| **Deskontuaren zenbatekoa** | **Laburpena** fitxa | Eremu hau edita daiteke deskontuaren zenbatekoa sartzeko. Eremu hau ez dago Project Operations funtzionaltasunarekin onartuta. Onartzen ez den eremua da. |  
+| **Pleit gabeko zenbatekoa** | **Laburpena fitxa** | Deskontuen ondorengo fakturaren zenbateko osoa aplikatu da. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. Eremu hau azken zenbatekoa kalkulatzeko erabiltzen da.  | 
+| **Pleitaren zenbatekoa** | **Laburpena** fitxa | Eremu hau edita daiteke pleitaren zenbatekoa sartzeko. Eremu hau ez dago Project Operations funtzionaltasunarekin onartuta. Onartzen ez den eremua da. |
+| **Zergak guztira** | **Laburpena** fitxa | Fakturan faktura lerro guztietako zerga osoa. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Zenbatekoa guztira** | **Laburpena** fitxa | Deskontuen eta zergen ondorengo zenbatekoaren batura. Batuketa bezeroak ordaindu behar duen zenbatekoa da. | 
 
 ## <a name="project-based-invoice-lines"></a>Proiektuetan oinarritutako fakturaren lerroak
 
 Project Operations-en, beti dago faktura lerro bat proiektuaren kontratu lerro bakoitzeko. Faktura lerroa benetakoak ez badira ere sortzen da. Informazio hau Proforma fakturaren lerroan dago eskuragarri.
 
-| Eremua | Kokapena | Deskribapena | Downstream eragina |
-| --- | --- | --- | --- |
-| **Fakturaren IDa** | **Orokorra** fitxa | Fakturaren IDaren erreferentzia. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Fakturaren ID esteka fakturaren goiburura itzultzeko erabil daiteke. |
-| **Izena** | **Orokorra** fitxa | Faktura-lerroaren izena lehenespenez kontratu-lerroaren izenetik ezarrita dago. Eremu hau erabiltzaileak editatu dezake. | &nbsp; |
-| **Project** | **Orokorra** fitxa | Proiektua lotutako proiektuaren kontratu lerroan. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Proiektuaren esteka proiektuan nabigatzeko erabil daiteke. |
-| **Fakturazio-metodoa** | **Orokorra** fitxa | Fakturazio-metodoa lotutako proiektuaren kontratu lerroan. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Kontratuaren lerroko zenbatekoa** | **Orokorra** fitxa | Lotutako proiektu-kontratuko kontratuaren zenbatekoa. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Data honetara arte fakturatutakoa** | **Orokorra** fitxa | Faktura horren faktura-lerroaren xehetasun guztien zenbatekoen batura. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Zenbatekoa** | **Orokorra** fitxa | Faktura horren faktura kargagarriaren lerroaren xehetasun guztien zenbatekoen batura. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremu hau fakturaren goiburuko azken zenbatekoa kalkulatzeko erabiltzen da. |
-| **Zerga** | **Orokorra** fitxa | Faktura horren faktura-lerroaren xehetasun guztien zerga-zenbatekoen batura. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremu hau fakturaren goiburuko azken zerga-zenbatekoa kalkulatzeko erabiltzen da. |
-| **Zenbateko hedatua** | **Orokorra** fitxa | Faktura horren fakturako lerro kargagarrien xehetasun guztien guztizko zenbatekoen batura (**Zerga + Zenbatekoak**). Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremu hau fakturaren goiburuko azken zenbatekoa kalkulatzeko erabiltzen da. |
+| Eremua | Kokapena | Deskribapenak | 
+| --- | --- | --- |
+| **Fakturaren IDa** | **Orokorra** fitxa | Fakturaren IDaren erreferentzia. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. Fakturaren ID esteka fakturaren goiburura itzultzeko erabil daiteke. | 
+| **Izena** | **Orokorra** fitxa | Faktura-lerroaren izena lehenespenez kontratu-lerroaren izenetik ezarrita dago. Eremu hau edita dezake. |
+| **Project** | **Orokorra** fitxa | Proiektua lotutako proiektuaren kontratu lerroan. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. Proiektuaren esteka proiektuan nabigatzeko erabil daiteke. | 
+| **Fakturazio-metodoa** | **Orokorra** fitxa | Fakturazio-metodoa lotutako proiektuaren kontratu lerroan. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |
+| **Kontratuaren lerroko zenbatekoa** | **Orokorra** fitxa | Lotutako proiektu-kontratuko kontratuaren zenbatekoa. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Data honetara arte fakturatutakoa** | **Orokorra** fitxa | Faktura horren faktura-lerroaren xehetasun guztien zenbatekoen batura. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Zenbatekoa** | **Orokorra** fitxa | Faktura horren faktura kargagarriaren lerroaren xehetasun guztien zenbatekoen batura. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. Eremu hau fakturaren goiburuko azken zenbatekoa kalkulatzeko erabiltzen da. | 
+| **Zerga** | **Orokorra** fitxa | Faktura horren faktura-lerroaren xehetasun guztien zerga-zenbatekoen batura. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. Eremu hau fakturaren goiburuko azken zerga-zenbatekoa kalkulatzeko erabiltzen da. | 
+| **Zenbateko hedatua** | **Orokorra** fitxa | Faktura horren fakturako lerro kargagarrien xehetasun guztien guztizko zenbatekoen batura (**Zerga + Zenbatekoak**). Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. Eremu hau fakturaren goiburuko azken zenbatekoa kalkulatzeko erabiltzen da. |
 
 ## <a name="invoice-line-details"></a>Fakturaren lerroaren xehetasunak
 
 Proiektuaren faktura bateko faktura lerro bakoitzak faktura lerroaren xehetasunak biltzen ditu. Lerroaren xehetasun horiek fakturazio-lerroak aipatzen duen kontratu-lerroarekin lotutako fakturazio gabeko salmenten faktoreekin eta mugarriekin lotuta daude. Transakzio horiek guztiak markatuta daude **Fakturatzeko prest**.
 
-**Denbora eta faktura materiala** lerroa, fakturaren lerroaren xehetasunak multzokatzen dira **Kargagarria**, **Ez da ordaindu behar** eta **Osagarria** gainean **Faktura-lerroa** orrialdea. **Faktura-linea kargagarria** xehetasunak fakturaren lerroaren guztirako gehitzen dira. **Osagarria** eta **Kobratu gabeko egileak** ez gehitu faktura-lerroaren guztirako.
+**Denbora eta faktura materiala** lerroan, fakturaren lerroaren xehetasunak multzokatzen dira **Kargagarria**, **Ez da ordaindu behar** eta **Osagarria** **Faktura-lerroa** orrialdean. **Faktura-linea kargagarria** xehetasunak fakturaren lerroaren guztirako gehitzen dira. **Osagarria** eta **Kobratu gabeko egileak** ez gehitu faktura-lerroaren guztirako.
 
-**Prezio finkoaren faktura** lerroa, fakturaren lerroaren xehetasunak honela markatuta dauden mugarrietatik sortzen dira **Fakturatzeko prest** lotutako kontratu lerroan. Fakturaren lerroaren xehetasuna mugarri batetik sortu ondoren, mugarriaren fakturazio egoera eguneratu egingo da **Bezeroaren faktura sortu da**.
+**Prezio finkoaren faktura** lerroan, fakturaren lerroaren xehetasunak honela markatuta dauden mugarrietatik sortzen dira **Fakturatzeko prest** lotutako kontratu lerroan. Fakturaren lerroaren xehetasuna mugarri batetik sortu ondoren, mugarriaren fakturazio egoera eguneratu egingo da **Bezeroaren faktura sortu da**.
 
 ### <a name="edit-invoice-line-details"></a>Editatu fakturaren lerroen xehetasunak
 
 Ondorengo eremuak fakturazio-lerroaren xehetasunetan daude eskuragarri, fakturatu gabeko salmenten benetako babesarekin.
 
-| Eremua | Deskribapena | Downstream eragina |
-| --- | --- | --- |
-| **Fakturaren lerroa** | **Fakturaren lerroaren IDa** eremuari erreferentzia. Irakurtzeko soilik eremua, blokeatuta editatzeko. | Esteka fakturaren goiburura itzultzeko erabil daiteke. |
-| **Azalpena** | Fakturaren lerroko xehetasunaren azalpena. Ezarri lehenetsita **Barne iruzkinak** eremuan **Denbora-sarrera** eta **Deskribapena** eremua **Gastuen sarrera** aukeran. Eremua erabiltzaileak editatu dezake.| &nbsp; |
-| **Kanpoko azalpena** | Fakturaren lerroko xehetasunaren azalpena. Ezarri lehenetsita **Kanpo iruzkinak** eremuan **Denbora-sarrera** eta **Deskribapena** eremua **Gastuen sarrera** aukeran. Eremua erabiltzaileak editatu dezake. | Deskribapen hau bezeroari bidaliko zaion faktura inprimatuan zer egon behar duen zehazteko erabil daiteke. Project Operations-en, proforma fakturak ez ditu faktura guztiak inprimatzeko ezarpenak konfiguratzeko beharrezko funtzionalitate guztiak. |
-| **Hasiera-data** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremu hau jatorrizko iturri batek babesten ez duen faktura lerroaren xehetasun berri batean editatu daiteke. |
-| **Project** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Ezarri lehenespenez lotutako kontratuaren lerroko proiektuan. |
-| **Zeregina** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremua jatorrizko iturri batek babesten ez duen faktura lerroaren xehetasun berri batean editatu daiteke. Goitibeherako zerrendan erlazionatutako proiektuaren kontratu lerroarekin lotutako zeregin guztiak agertzen dira.  |
-| **Transakzio-kategoria** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremua jatorrizko iturri batek babesten ez duen faktura lerroaren xehetasun berri batean editatu daiteke. |
-| **Funtzioa** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremua jatorrizko iturri batek babesten ez duen faktura lerroaren xehetasun berri batean edita daiteke. |
-| **Baliabide erreserbagarria** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremua jatorrizko iturri batek babesten ez duen faktura lerroaren xehetasun berri batean editatu daiteke. |
-| **Baliabideen enpresa** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremua jatorrizko iturri batek babesten ez duen faktura lerroaren xehetasun berri batean edita daiteke. |
-| **Baliabide-unitatea** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremua jatorrizko iturri batek babesten ez duen faktura lerroaren xehetasun berri batean edita daiteke. |
-| **Kopurua** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremua jatorrizko iturri batek babesten ez duen faktura lerroaren xehetasun berri batean edita daiteke. |
-| **Unitate-antolaketa** | Fakturazio lerroaren xehetasunetarako, hau beti ezarrita dago eta ezin da editatu. Gastuei dagokienez, lehenespenez ezartzen da jatorrizko gastutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Lehenespenez ezarri **Denbora** benetako batek babesten ez duen faktura-lerroaren xehetasun berri batean. |
-| **Unitatea** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremua jatorrizko iturri batek babesten ez duen faktura lerroaren xehetasun berri batean edita daiteke |
-| **Prezioa** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Eremua jatorrizko iturri batek babesten ez duen faktura lerroaren xehetasun berri batean edita daiteke. Balorerik sartzen ez bada, lehenespenez ezartzen da **Gorde**. |
-| **Moneta** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Ezartzen da lehenespenez fakturaren goiburutik fakturaren xehetasun berri bat sortzen denean babesik gabe.  Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |
-| **Zenbatekoa** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Honela kalkulatuta **Kopurua \* Prezioa** fakturaren xehetasun berri bat sortzen denean babesik izan gabe. Ondoren kalkulatzen da **Gorde**. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |
-| **Zerga** | Ezarri lehenetsitako iturburutik. Eremua erabiltzaileak editatu dezake | Erabiltzaileak editatu dezake eremua faktura lerroaren xehetasun berri bat sortzerakoan babesik izan gabe. |
-| **Zenbateko hedatua** | Kalkulatutako eremua, honela kalkulatuta **Zenbatekoa + Zerga**. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Fakturazio mota** | Ezarri lehenetsitako iturburutik. Eremua erabiltzaileak editatu dezake. | Aukeratzen **Kargagarria** lerroa faktura-lerroaren guztizkoari gehitzen dio. **Osagarria** eta **Ez da ordaindu behar** faktura-lerroaren guztitik kanpo utziko du. |
-| **Transakzio mota** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Lehenespenez ezarri **Fakturatutako salmentak** eta blokeatuta berria sortzean **Faktura lerroaren xehetasuna** benetako babesik gabe.  |
-| **Transakzio-klasea** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Ezarri lehenespenez erabiltzaileak fitxategi bat sortzea aukeratzen duenaren arabera **Denbora**, **Gastua** edo **Kuota** fakturaren lerroaren xehetasunak berri bat sortu bitartean **Faktura lerroaren xehetasuna** benetako babesik gabe. Blokeatuta ez editatzeko. |
+| Eremua | Deskribapenak |
+| --- | --- | 
+| **Fakturaren lerroa** | **Fakturaren lerroaren IDa** eremuari erreferentzia. Eremu hau irakurtzeko soilik dago eta editatzeko blokeatuta dago. Esteka fakturaren goiburura itzultzeko erabil daiteke. | 
+| **Azalpena** | Fakturaren lerroko xehetasunaren azalpena. Ezarri lehenetsita **Barne iruzkinak** eremuan **Denbora-sarrera** eta **Deskribapena** eremua **Gastuen sarrera** aukeran. Eremua edita dezake.| 
+| **Kanpoko azalpena** | Fakturaren lerroko xehetasunaren azalpena. Ezarri lehenetsita **Kanpo iruzkinak** eremuan **Denbora-sarrera** eta **Deskribapena** eremua **Gastuen sarrera** aukeran. Eremua edita dezake. Deskribapen hau bezeroari bidaliko zaion faktura inprimatuan zer egon behar duen zehazteko erabil daiteke. Project Operations-en, proforma fakturak ez ditu faktura guztiak inprimatzeko ezarpenak konfiguratzeko beharrezko funtzionalitate guztiak. | 
+| **Hasiera-data** | Irakurtzeko soilik den eremua da jatorrizko iturritik lehenespenez ezartzen dena. |
+| **Project** | Irakurtzeko soilik den eremua da, lehenespenez ezarrita dagoen iturburutik proiektuari lotutako kontratu-lerroan. |  
+| **Ataza** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |
+| **Transakzio-kategoria** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Funtzioa** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |  
+| **Baliabide erreserbagarria** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Baliabideen enpresa** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Baliabide-unitatea** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Kantitatea** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |  
+| **Unitate-antolaketa** | Fakturazio lerroaren xehetasunetarako, hau beti ezarrita dago eta ezin da editatu. Gastuei dagokienez, lehenespenez ezartzen da jatorrizko gastutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Unitatea** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |  
+| **Prezioa** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |
+| **Moneta** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Kopurua** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Zergak** | Ezarri lehenetsitako iturburutik. Eremua edita dezake.| 
+| **Zenbateko hedatua** | Kalkulatutako eremua, honela kalkulatuta **Zenbatekoa + Zerga**. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Fakturazio mota** | Ezarri lehenetsitako iturburutik. Eremua edita dezake. Aukeratzen **Kargagarria** lerroa faktura-lerroaren guztizkoari gehitzen dio. **Osagarria** eta **Ez da ordaindu behar** faktura-lerroaren guztitik kanpo utziko du.| 
+| **Hautatu produktua** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |
+| **Produktu** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Produktuaren izena** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |  
+| **Katalogotik kanpoko deskribapena** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |
+| **Transakzio mota** | Irakurtzeko soilik den eremua da jatorrizko iturritik lehenespenez ezartzen dena **Fakturatutako salmentak**. |  
+| **Transakzio-klasea** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
 
-Ondorengo eremuak fakturazio-lerroaren xehetasunetan daude eskuragarri, mugarri batekin:
+Ondorengo eremuak fakturazio-lerroaren xehetasunetan daude eskuragarri, mugarri batekin.
 
-| Eremua | Deskribapena | Downstream eragina |
-| --- | --- | --- |
-| **Fakturaren lerroa** | **Fakturaren lerroaren IDa** eremuari erreferentzia. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Esteka fakturaren goiburura itzultzeko erabil daiteke. |
-| **Azalpena** | Fakturaren lerroko xehetasunaren azalpena. Ezarri lehenespenez iturburu mugarriaren deskribapenetik. | &nbsp; |
-|**Kanpoko azalpena** | Jatorrizko mugarriaren deskribapenetik lehenespenez ezartzen den faktura-lerroaren deskribapena. | Eremu hau bezeroari bidaliko zaion faktura inprimatuan zer egon behar duen zehazteko erabil daiteke. Project Operations-en, proforma fakturak ez ditu faktura guztiak inprimatzeko ezarpenak konfiguratzeko beharrezko funtzionalitate guztiak. |
-| **Hasiera-data** | Ezarri lehenetsita **Mugarria** data iturriaren mugarrian. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Project** | Ezarri lehenetsitako iturburuaren mugarritik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Zeregina** | Ezarri lehenetsitako iturburuaren mugarritik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Transakzio-kategoria** | Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Funtzioa** | Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Baliabide erreserbagarria** | Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Baliabide-unitatea** | Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Unitate-antolaketa** | Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Unitatea** | Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Prezioa** | Ezarri lehenespenez iturburu mugarriaren zenbatekotik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Moneta** | Ezarri lehenetsitako iturburuaren mugarritik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |&nbsp; |
-| **Zenbatekoa** | Ezarri lehenespenez iturburu mugarriaren zenbatekotik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Zerga** | Ezarri lehenespenez iturburu mugarriaren zerga-zenbatekotik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Zenbateko hedatua** | Ezarri lehenespenez iturburu mugarriaren zenbateko hedatutik. Eremua erabiltzaileak editatu dezake | &nbsp; |
-| **Fakturazio mota** | Beti lehenetsita beti bezala **Kargagarria**. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Transakzio mota** | Ezarri lehenetsitako iturburuaren mugarritik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
-| **Transakzio-klasea** | Ezarri lehenetsitako iturburuaren mugarritik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
+| Eremua | Deskribapenak |
+| --- | --- | 
+| **Fakturaren lerroa** | **Fakturaren lerroaren IDa** eremuari erreferentzia. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. Esteka fakturaren goiburura itzultzeko erabil daiteke.  | 
+| **Azalpena** | Fakturaren lerroko xehetasunaren azalpena. Ezarri lehenespenez iturburu mugarriaren deskribapenetik. | 
+|**Kanpoko azalpena** | Jatorrizko mugarriaren deskribapenetik lehenespenez ezartzen den faktura-lerroaren deskribapena. Eremu hau bezeroari bidaliko zaion faktura inprimatuan zer egon behar duen zehazteko erabil daiteke. Project Operations-en, proforma fakturak ez ditu faktura guztiak inprimatzeko ezarpenak konfiguratzeko beharrezko funtzionalitate guztiak. | 
+| **Hasiera-data** | Ezarri lehenetsita **Mugarria** data iturriaren mugarrian. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Project** | Ezarri lehenetsitako iturburuaren mugarritik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |
+| **Zeregina** | Ezarri lehenetsitako iturburuaren mugarritik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Transakzio-kategoria** | Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |
+| **Funtzioa** | Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Baliabide erreserbagarria** | Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Baliabide-unitatea** | Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Unitate-antolaketa** | Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Unitatea** | Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Prezioa** | Ezarri lehenespenez iturburu mugarriaren zenbatekotik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |
+| **Moneta** | Ezarri lehenetsitako iturburuaren mugarritik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |
+| **Zenbatekoa** | Ezarri lehenespenez iturburu mugarriaren zenbatekotik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Zerga** | Ezarri lehenespenez iturburu mugarriaren zerga-zenbatekotik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |
+| **Zenbateko hedatua** | Ezarri lehenespenez iturburu mugarriaren zenbateko hedatutik. Eremua edita dezake. | 
+| **Fakturazio mota** | Beti lehenetsita beti bezala **Kargagarria**. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. |
+| **Transakzio mota** | Ezarri lehenetsitako iturburuaren mugarritik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
+| **Transakzio-klasea** | Ezarri lehenetsitako iturburuaren mugarritik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | 
 
 ## <a name="refresh-invoice-transactions"></a>Freskatu fakturaren transakzioak
 
 Faktura sortu ondoren sartu diren datuak badituzu, faktura horiek sar ditzakezu fakturan.
 
 1. **Fakturazio-zorroaren ikuspegia** eremuan, markatu datuak **Fakturatzeko prest**.   
-2. Ireki proforma faktura zirriborroa eta, **Ekintzak** zintan, sakatu **Freskatu faktura lineako transakzioak**.
+2. Ireki proforma faktura zirriborroa eta, **Ekintzak** zinta, hautatu **Freskatu faktura lineako transakzioak**.
 
-  Honek fakturazio-lerroaren xehetasunak sortzen ditu iraganeko data gisa eta gisa markatuta dagoen edozein **Fakturatzeko prest**; baina ez dago fakturan sartuta.
+  Fakturen lerroaren xehetasunak iraganean datatutako eta gisa markatutako benetako edozeinetarako sortzen dira **Fakturatzeko prest**, baina ez dago fakturan sartuta.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

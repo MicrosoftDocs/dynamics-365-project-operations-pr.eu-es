@@ -1,27 +1,27 @@
 ---
-title: Kudeatu proiektuen prezio-zerrendak proiektu-eskaintzetan - arina
-description: Gai honek proiektuko prezio-zerrendako eskaintzekin lan egiteari buruzko informazioa eskaintzen du. (Sales)
+title: Kudeatu proiektuen prezio-zerrendak proiektu-eskaintzetan
+description: Gai honek proiektuko prezio-zerrendako eskaintzekin lan egiteari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273003"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858593"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Kudeatu proiektuen prezio-zerrendak proiektu-eskaintzetan - arina
+# <a name="manage-project-price-lists-on-project-quotes"></a>Kudeatu proiektuen prezio-zerrendak proiektu-eskaintzetan 
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
 Proiektuaren aurrekontuak salmenta prezioen zerrenda eraginkor bat baino gehiagorako diseinatuta daude. Dynamics 365 Project Operations-ekin, izeneko entitate elkartu berria **Proiektuen prezioen zerrendak** gehitzen da. Entitate honek 1etik askorako harremana du proiektuaren aurrekontuarekin.
 
-Proiektuen prezioen zerrendak proiektu bateko denbora eta gastuen transakzioak preziatzeko erabiltzen dira. Aipamen batek proiektuaren prezio zerrenda bat edo gehiago dituenean, prezioen zerrenda hauek aurrekontuaren lerroaren bidez aurrekontuarekin lotzen diren proiektuen denbora eta gastuen kalkuluak eta egiazkoak preziatzeko erabiltzen dira.
+Proiektuen prezioen zerrendak proiektu bateko denbora, materiala eta gastuen transakzioak preziatzeko erabiltzen dira. Eskaintza batek proiektuen prezio zerrenda bat edo gehiago dituenean, prezio zerrenda hauek denboraren, materialaren, gastuen kalkuluen eta eskaintzari loturiko proiektuen eskaintzaren bidez lotzen diren proiektuen prezioak egiteko erabiltzen dira.
 
 Proiektuaren aurrekontuan proiektuaren prezio zerrendarik ez dagoenean, abisu mezua jasoko duzu. Mezuan esaten da proiektuaren prezioen zerrendarik ez dagoenez, zure proiektuaren eta kalkulatutako egiazko eta lanaren kostuak ez direla tasatuko. Horren ordez, zero (0) prezioa izango dute salmenten balioetarako.
 

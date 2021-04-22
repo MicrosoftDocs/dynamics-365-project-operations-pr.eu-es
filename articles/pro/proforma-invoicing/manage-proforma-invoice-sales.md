@@ -1,21 +1,21 @@
 ---
-title: Kudeatu proformako faktura - arina
-description: Gai honek Proformako fakturekin lan egiteko moduari buruzko informazioa ematen du.
+title: Kudeatu proformako proiektuaren faktura
+description: Gai honek proforma proiektuan oinarritutako fakturak horiekin lan egiteko moduari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273999"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866891"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Kudeatu proformako faktura - arina
+# <a name="manage-a-proforma-project-invoice"></a>Kudeatu proformako proiektuaren faktura 
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
@@ -69,9 +69,9 @@ Project Operations-en, beti dago faktura lerro bat proiektuaren kontratu lerro b
 
 Proiektuaren faktura bateko faktura lerro bakoitzak faktura lerroaren xehetasunak biltzen ditu. Lerroaren xehetasun horiek fakturazio-lerroak aipatzen duen kontratu-lerroarekin lotutako fakturazio gabeko salmenten faktoreekin eta mugarriekin lotuta daude. Transakzio horiek guztiak markatuta daude **Fakturatzeko prest**.
 
-**Denbora eta faktura materiala** lerroa, fakturaren lerroaren xehetasunak multzokatzen dira **Kargagarria**, **Ez da ordaindu behar** eta **Osagarria** gainean **Faktura-lerroa** orrialdea. **Faktura-linea kargagarria** xehetasunak fakturaren lerroaren guztirako gehitzen dira. **Osagarria** eta **Kobratu gabeko egileak** ez gehitu faktura-lerroaren guztirako.
+**Denbora eta faktura materiala** lerroan, fakturaren lerroaren xehetasunak multzokatzen dira **Kargagarria**, **Ez da ordaindu behar** eta **Osagarria** **Faktura-lerroa** orrialdean. **Faktura-linea kargagarria** xehetasunak fakturaren lerroaren guztirako gehitzen dira. **Osagarria** eta **Kobratu gabeko Egileak** ez gehitu faktura-lerroaren guztirako.
 
-**Prezio finkoaren faktura** lerroa, fakturaren lerroaren xehetasunak honela markatuta dauden mugarrietatik sortzen dira **Fakturatzeko prest** lotutako kontratu lerroan. Fakturaren lerroaren xehetasuna mugarri batetik sortu ondoren, mugarriaren fakturazio egoera eguneratu egingo da **Bezeroaren faktura sortu da**.
+**Prezio finkoaren faktura** lerroan, fakturaren lerroaren xehetasunak honela markatuta dauden mugarrietatik sortzen dira **Fakturatzeko prest** lotutako kontratu lerroan. Fakturaren lerroaren xehetasuna mugarri batetik sortu ondoren, mugarriaren fakturazio egoera eguneratu egingo da **Bezeroaren faktura sortu da**.
 
 ### <a name="edit-invoice-line-details"></a>Editatu fakturaren lerroen xehetasunak
 
@@ -98,8 +98,12 @@ Ondorengo eremuak fakturazio-lerroaren xehetasunetan daude eskuragarri, fakturat
 | **Zerga** | Ezarri lehenetsitako iturburutik. Eremua erabiltzaileak editatu dezake | Erabiltzaileak editatu dezake eremua faktura lerroaren xehetasun berri bat sortzerakoan babesik izan gabe. |
 | **Zenbateko hedatua** | Kalkulatutako eremua, honela kalkulatuta **Zenbatekoa + Zerga**. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | &nbsp; |
 | **Fakturazio mota** | Ezarri lehenetsitako iturburutik. Eremua erabiltzaileak editatu dezake. | Aukeratzen **Kargagarria** lerroa faktura-lerroaren guztizkoari gehitzen dio. **Osagarria** eta **Ez da ordaindu behar** faktura-lerroaren guztitik kanpo utziko du. |
+| **Hautatu produktua** | Ezarri lehenespenez iturburuko benetako datuetatik, irakurtzeko soilik da eremu hau. | Fakturazio-lerroaren xehetasun berri bat sortzen duzunean babesik izan gabe, eremu hau edita daiteke. |
+| **Produktu** | Ezarri lehenespenez iturburuko benetako datuetatik, irakurtzeko soilik da eremu hau. | Fakturazio lerroaren xehetasun berri bat babeskopiarik gabe sortzen duzunean, eremu hau edita daiteke **Aukeratu produktua** eremua ezarrita dago **Lehendik dagoen produktua**. |
+| **Produktuaren izena** | Ezarri lehenespenez iturburuko benetako datuetatik, irakurtzeko soilik da eremu hau. | Faktura-lerroaren xehetasun berri batean, produktuaren IDa katalogoan hautatuta dagoenean, eremu hau produktuaren izenarekin ezartzen da. Produktuan idazteko, eremuan izena idazteko ezarri da. |
+| **Katalogotik kanpoko deskribapena** | Ezarri lehenespenez iturburuko benetako datuetatik, eremua irakurtzeko soilik da. | Fakturaren lerroaren xehetasun berri bat sortzen duzunean babesik izan gabe, produktuaren deskribapenean idatz dezakezu. |
 | **Transakzio mota** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Lehenespenez ezarri **Fakturatutako salmentak** eta blokeatuta berria sortzean **Faktura lerroaren xehetasuna** benetako babesik gabe.  |
-| **Transakzio-klasea** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Ezarri lehenespenez erabiltzaileak fitxategi bat sortzea aukeratzen duenaren arabera **Denbora**, **Gastua** edo **Kuota** fakturaren lerroaren xehetasunak berri bat sortu bitartean **Faktura lerroaren xehetasuna** benetako babesik gabe. Blokeatuta ez editatzeko. |
+| **Transakzio-klasea** | Ezarri lehenetsitako iturburutik. Editatzetik blokeatuta dagoen irakurtzeko soilik den eremua. | Ezarri lehenespenez erabiltzaileak fitxategi bat sortzea aukeratzen duenaren arabera **Denbora**, **Gastua**, **Materiala** edo **Kuota** fakturaren lerroaren xehetasunak berria sortu bitartean **Faktura lerroaren xehetasuna** benetako babesik gabe. Blokeatuta ez editatzeko. |
 
 Ondorengo eremuak fakturazio-lerroaren xehetasunetan daude eskuragarri, mugarri batekin:
 

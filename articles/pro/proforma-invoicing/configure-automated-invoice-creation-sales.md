@@ -1,29 +1,27 @@
 ---
-title: Konfiguratu fakturen sortze automatikoa - arina
-description: Gai honetan proformako fakturak automatikoko sortzea konfiguratzeari buruzko informazioa eskaintzen du.
+title: Konfiguratu fakturen sortze automatikoa
+description: Gai honek proformako fakturak automatikoki sortzeari eta konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274308"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866766"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Konfiguratu fakturen sortze automatikoa - arina
+# <a name="set-up-automatic-invoice-creation"></a>Konfiguratu fakturen sortze automatikoa 
  
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honetarako aplikatzen da:** inplementazio arina - mahukatik proformako fakturaziora, Baliabideen / stockean oinarritutako eszenatokien Project Operations_
 
 Fakturen sortze automatikoa konfigura dezakezu Dynamics 365 Project Operations-en. Sistemak proforma faktura zirriborro bat sortzen du proiektuaren kontratu eta kontratu lerro bakoitzaren faktura egutegian oinarrituta. Fakturen ordutegiak kontratu lerro mailan konfiguratuta daude. Kontratu bateko lerro bakoitzak faktura ordutegi desberdina izan dezake, edo faktura ordutegi bera kontratuaren lerro guztietan sar daiteke.
 
-Faktura bat sortzen duzunean, sistemak gutxienez faktura bat sortzen du proiektuaren kontratu bakoitzeko. Zenbait kasutan, hainbat faktura sor daitezke.
-
-Adibidez, kontratuak bezero anitz baditu, faktura kopuru bera sortuko da proiektuaren kontratu horretan fakturatzeko fakturagarriak diren eragiketak dituzten bezeroen kopurua.
+Faktura bat sortzen duzunean, sistemak gutxienez faktura bat sortzen du proiektuaren kontratu bakoitzeko. Zenbait kasutan, hainbat faktura sor daitezke. Adibidez, kontratuak bezero anitz baditu, faktura kopuru bera sortuko da proiektuaren kontratu horretan fakturatzeko fakturagarriak diren eragiketak dituzten bezeroen kopurua.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Ulertu transakzioak nola sartzen diren faktura batean 
 

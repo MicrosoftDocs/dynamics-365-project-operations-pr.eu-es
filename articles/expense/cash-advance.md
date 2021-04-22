@@ -3,19 +3,19 @@ title: Diru-aurrerakina
 description: Gai honek eskudiru-aurrerakinak egiteari buruzko informazioa ematen du.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276693"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715545"
 ---
 # <a name="cash-advance"></a>Diru-aurrerakina
 
@@ -60,7 +60,22 @@ Ondorengo prozedura kontulari batek edo kontabilitate baimenak dituen erabiltzai
 
 Jada jaso zenuen dirua aurreratzeko gastuen txostena sortu eta aurkezten duzunean, gastuak automatikoki egokituko dira aurrerakin horren arabera. Zure diru-aurrerakina gastatutako zenbatekoa baino handiagoa bada, saldoa enpresari itzuli beharko diozu **Itzuli dirua** gastu kategoria. Konpainiak ordaindutako dirua aurreratzea gastatu duzun zenbatekoa baino txikiagoa bada, enpresak saldoa itzuli beharko dizu. 
 
-### <a name="example"></a>Adibidez
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Aukeratu zure gastuei aplikatzen zaizkien diru-aurrerakinak
+Gastuen txostena bidali aurretik, txosteneko gastu-transakzioekin bat datorren diru-aurrerakina hauta dezakezu. Funtzionalitate hau erabiltzeko, bi funtzio hauek gaitu behar dira **Ezaugarrien kudeaketa** lan eremua:
+
+  - Gastu-txostenen itxura berria
+  - Diru aurrerakinak gastu lerroetara mapatzeko gaitasuna
+ 
+ Ezaugarri hauek gaituta daudenean:
+ 
+  - Gastu lerro bakoitzeko diru aurrerakin bat edo gehiago trama ditzakezu.
+  - Diru-aurrerakinaren saldo erabilgarria denbora errealean ikusgai dago gastuen txostena gordetzen denean. Horri esker, gastuen transakzioak eta diruzko transakzioak aldi berean prozesatu ditzakezu.
+  - Gastu-transakzio baten hainbat diru aurrerakin hauta ditzakezu.
+  - Eskudirua aldez aurretik bateratzeko datuak kontsulta erabiliz erabilgarri daude. 
+ 
+Ezaugarri hauek erabiltzen ez badituzu, funtzionaltasunak berdin jarraituko dute, lehendik dauden diru aurrerakinak automatikoki murriztuko baitira gastu bat bidali ondoren.
+
+### <a name="example"></a>Adibidez 
 Seattle-tik New York-era joateko asmoa duzu hitzaldi baterako. 3000,00 USD dirua aurreratzeko eskaera bat sortzen duzu konferentzia txartelaren, hegaldien, hotelaren, otorduen eta taxiaren kostuaren arabera. Ez duzu ordainduko zure kudeatzaileak eskaera hori onartu ezean. Zure kudeatzaileak onartu ondoren, eskatutako dirua aurreratzea 3000,00 USD gisa ordainduko da zure bankuko kontuan. Ondoren kongresura joango zara. Bidaia amaitu ondoren, gastu osoa 2790,00 USD bakarrik izan dela ikusiko duzu. Aukeratu **Eskudirua** **Ordainketa modua** eremuan, eta bidali zure gastua 2790,00 USD. Aurkeztutako gastuaren zenbatekoa automatikoki egokitzen da mailegatu zaizun 3000,00 USD-en dirua aurreratzeko. 210,00 USD (3000,00 - 2790,00) saldoa zor duzu orain, eta enpresari itzul dezakezu **Itzuli dirua** gastu kategoria.
 
 

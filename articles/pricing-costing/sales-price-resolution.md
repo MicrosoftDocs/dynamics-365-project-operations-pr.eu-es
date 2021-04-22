@@ -3,17 +3,17 @@ title: Ebatzi aurreikuspenen eta benetako datuen salmentak
 description: Gai honek salmenten tasak ebazteko moduari eta estimazioei buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274938"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877430"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Ebatzi aurreikuspenen eta benetako datuen salmentak
 
@@ -54,6 +54,17 @@ Salmenten prezio zerrenda ebatzi ondoren, sistemak urrats hauek betetzen ditu un
     | &nbsp; | Markaketa kostuaren gainetik | Kategoria prezioen lerroak lotutako kostu errealaren unitateko kostuaren tasan markatutako marka aplikatuz |
 
 4. Sistema ezin bada **Kategoria** eta **Unitatea** eremuko balioak, salmenten tasa zero (0) lehenetsita dago.
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Ebatzi materialen salmenta-tasak eta materialaren estimazio lerroak
+
+Project Operations-en, materialaren zenbatespen lerroak erabiltzen dira materialen eskaintzaren lerroaren eta kontratuaren lerroaren xehetasunak eta proiektu bateko materialen estimazio lerroak aipatzen dituzte.
+
+Salmenten prezio zerrenda ebatzi ondoren, sistemak urrats hauek betetzen ditu unitateen salmenta-prezioa lehenesteko.
+
+1. Sistemak **Produktua** eta **Unitatea** material konbinazioa kalkulatutako lerroan ebatzi zen prezio zerrendako elementuen lerroekin bat etortzeko.
+2. Sistemak salmenta tasa duen prezioen zerrendako elementu lerro bat aurkitzen badu **Produktua** eta **Unitatea** eremuen konbinazioa eta prezioen metodoa da **Moneta zenbatekoa**, prezioen zerrendan zehaztutako salmenta-prezioa erabiltzen da.
+3. **Produktua** eta **Unitatea** eremuen balioak bat ez badatoz, salmenta-tasa zero da lehenetsita.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

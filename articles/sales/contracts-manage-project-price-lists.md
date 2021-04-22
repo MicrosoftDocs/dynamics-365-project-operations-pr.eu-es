@@ -3,17 +3,17 @@ title: Kudeatu proiektuen prezio-zerrendak proiektuko kontratuetan
 description: Gai honek proiektuan oinarritutako proiektuaren kontratuan proiektuaren prezio-zerrendak kudeatzeari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278583"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858548"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Kudeatu proiektuen prezio-zerrendak proiektuko kontratuetan
 
@@ -21,13 +21,13 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 Dynamics 365 Project Operations proiektuen kontratuak kontratu bateko salmenta prezioen data eraginkorreko hainbat datu onartzeko diseinatuta daude. Project Operations-en, lotutako erakunde berri bat dago **Proiektuen prezioen zerrendak**. Entitate honek bat-bateko eta besteko harremana du proiektuaren kontratuarekin.
 
-Proiektuen prezioen zerrendak proiektu bateko denbora eta gastuen transakzioak preziatzeko erabiltzen dira. Kontratu batek proiektuen prezio zerrenda bat edo gehiago dituenean, prezio zerrenda hauek denboraren eta gastuen kalkuluak eta kontratuak lerroaren bidez lotzen diren proiektuetako egiazkoak preziatzeko erabiltzen dira.
+Proiektuen prezioen zerrendak proiektu bateko denbora, materiala eta gastuen transakzioak preziatzeko erabiltzen dira. Kontratu batek proiektuen prezio zerrenda bat edo gehiago dituenean, prezio zerrenda hauek denboraren, materialaren, gastuen kalkuluen eta kontratuari loturiko proiektuen kontratuaren bidez lotzen diren proiektuen prezioak egiteko erabiltzen dira.
 
-Proiektuen kontratu batean proiektuen prezioen zerrendarik ez dagoenean, abisu-mezu bat ikusiko duzu proiektuaren prezioen zerrendarik ez dagoela eta zure aurrekontuak, egiazko proiektuaren lana eta gastuak ez direla tasatuko. Ez da salmenta balioen preziorik egongo.
+Proiektuaren kontratu batean proiektuen prezioen zerrendarik ez dagoenean, abisu-mezu bat ikusiko duzu proiektuaren prezioen zerrendarik ez dagoela eta zure aurrekontuak, egiazko proiektuaren lana, materiala eta erregistratutako gastuak ez direla tasatuko. Ez da salmenta balioen preziorik egongo.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Proiektuaren kontratu batean proiektuaren prezioen zerrenda elkartu edo ez lotu
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Sortu edo lotu prezioen zerrenda zehatz bat proiektuan oinarritutako lana eta gastuak kalkulatzeko
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Sortu edo lotu prezioen zerrenda zehatz bat proiektuan oinarritutako lana, materiala eta gastuak kalkulatzeko
 
 1. Proiektuaren kontratuan, hautatu **Proiektuen prezioen zerrendak** fitxa.
 2. Azpi-sarean, hautatu **+ Gehitu proiektu berriaren prezio zerrenda**.
@@ -52,7 +52,7 @@ Proiektuen kontratu batean proiektuen prezioen zerrendarik ez dagoenean, abisu-m
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Konfiguratu kontratu batean proiektuen prezioen zerrenden lehenespen automatikoak
 
-Proiektuen prezioen zerrenda proiektuaren kontratu bateko zerrenda lehenetsi gisa ezar daiteke. Konfigurazio honi esker, zure erakundeko kontratu guztiak prezio-aldi horretarako zerrenda estandar batekin hasten direla ziurtatzen da.
+Proiektuen prezioen zerrenda proiektuaren prezioen zerrenda lehenetsi gisa ezar daiteke. Konfigurazio horri esker, zure erakundeko kontratu guztiak proiektuaren prezio zerrenda estandar batekin hasten dira beti prezio aldi horretarako.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Konfiguratu proiektuaren prezio zerrenden antolakuntza lehenetsia
 

@@ -1,23 +1,23 @@
 ---
-title: Konfiguratu eskaintzaren lerro bateko kobra daitezkeen osagaiak - arina
+title: Konfiguratu eskaintzaren lerro bateko kobra daitezkeen osagaiak
 description: Gai honek proiektuan oinarritutako aurrekontu lerro batean kargagarriak eta kargagarriak ez diren osagaiak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273858"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858278"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Konfiguratu eskaintzaren lerro bateko kobra daitezkeen osagaiak - arina
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Konfiguratu eskaintzaren lerro bateko kobra daitezkeen osagaiak 
 
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honetarako aplikatzen da:** inplementazio arina - mahukatik proformako fakturaziora, Baliabideen / stockean oinarritutako eszenatokien Project Operations_
 
 Proiektuetan oinarritutako eskaintzaren lerroak *barne* osagaiak eta *kargagarriak* osagaiak kontzeptuak ditu.
 
@@ -42,7 +42,7 @@ Eskaintzaren lerro bateko transakzio-kategorietan definitutako kobragarritasuna 
 
 ### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a>Eguneratu proiektuaren zeregina kargagarria edo kargagarria ez den moduan
 
-Proiektuaren zeregina proiektuetan oinarritutako eskaintzaren lerro zehatz baten testuinguruan kargagarria edo ez kargagarria izan daiteke eta horrek konfigurazio hau posible egiten du:
+Proiektuaren zeregina proiektuetan oinarritutako eskaintzaren lerro zehatz baten testuinguruan kargagarria edo ez kargagarria izan daiteke eta horrek konfigurazio hau posible egiten du.
 
 Proiektuan oinarritutako aurrekontu lerroak biltzen badu **Denbora** eta zeregina **T1**, zeregina aurrekontu lerroarekin lotzen da kobratzeko moduan. Horrek barne hartzen duen bigarren eskaintzaren lerro bat badago **Gastuak**, **T1** zeregina eskaintzaren lerroan lotu dezakezu kobratzeko moduan. Emaitza da zereginean grabatutako denbora guztia kargagarria dela eta kargagarriak ez diren zereginetako gastu guztiak ez direla erregistratzen.
 
@@ -61,22 +61,575 @@ Transakzio-kategoria bat kargagarria edo ez kargagarria izan daiteke eskaintzare
 Transakzioaren fakturazio mota konfiguratu daiteke **Kategoria kargagarriak** eskaintzaren lerroaren fitxa eguneratuz **Fakturazio mota** eremua **Kategoria kargagarriak** azpisarea.
 
 ### <a name="resolve-chargeability"></a>Kargagarritasuna ebatzi
-Denborarako sortutako aurrekontua edo benetakoa soilik kobratuko da **Denbora** eskaintzaren lerroan sartzen da, eta bada **Egitekoa** eta **Rola** eskaintzaren lerroan kargatzeko moduan konfiguratuta daude.
+Denborarako sortutako aurrekontua edo benetakoa soilik kobratuko da:
 
-Gasturako sortutako aurrekontua edo benetakoa soilik kobratuko da **Gastua** eskaintzaren lerroan sartzen da, eta bada **Egitekoa** eta **Transakzioaren kategoria** eskaintzaren linean kargatzeko moduan konfiguratuta daude.
+   - **Denbora** eskaintza-lerroan sartzen da.
+   - **Rola** eskaintza-linean kargatzeko moduan konfiguratuta dago.
+   - **Zereginak barne** ezarrita dago **Aukeratutako zereginak** eskaintza-lerroan. 
 
-| Denbora barne | Gastua barne | Gehitutako zereginak | Funtzioa | Kategoria | Ataza | Fakturazioa |
-| --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Proiektu osoa | Kobra daiteke | Kobra daiteke | Ezin da ezarri | Fakturazioa denbora errealean: Kargagarria </br>Fakturazio mota benetako gastuan: Kargagarria |
-| Yes | Yes | Hautatutako zereginak soilik | Kobra daiteke | Kobra daiteke | Kobra daiteke | Fakturazioa denbora errealean: Kargagarria</br>Fakturazio mota benetako gastuan: Kargagarria |
-| Yes | Yes | Hautatutako zereginak soilik | Ezin da kargatu | Kobra daiteke | Kobra daiteke | Fakturazioa denbora errealean: Ez-kargagarria</br>Fakturazio mota benetako gastuan: Kargagarria |
-| Yes | Yes | Hautatutako zereginak soilik | Kobra daiteke | Kobra daiteke | Ezin da kargatu | Fakturazioa denbora errealean: Ez-kargagarria</br> Fakturazio mota benetako gastuan: Ez-kargagarria |
-| Yes | Yes | Hautatutako zereginak soilik | Ezin da kargatu | Kobra daiteke | Ezin da kargatu | Fakturazioa denbora errealean: Ez-kargagarria</br> Fakturazio mota benetako gastuan: Ez-kargagarria |
-| Yes | Yes | Hautatutako zereginak soilik | Ezin da kargatu | Ezin da kargatu | Kobra daiteke | Fakturazioa denbora errealean: Ez-kargagarria</br> Fakturazio mota benetako gastuan: Ez-kargagarria |
-| +Ez | Yes | Proiektu osoa | Ezin da ezarri | Kobra daiteke | Ezin da ezarri | Fakturazioa denbora errealean: Ez dago erabilgarri </br>Fakturazio mota benetako gastuan: Kargagarria |
-| +Ez | Yes | Proiektu osoa | Ezin da ezarri | Ezin da kargatu | Ezin da ezarri | Fakturazioa denbora errealean: Ez dago erabilgarri </br>Fakturazio mota benetako gastuan: Ez-kargagarria |
-| Yes | +Ez | Proiektu osoa | Kobra daiteke | Ezin da ezarri | Ezin da ezarri | Fakturazioa denbora errealean: Kargagarria</br>Fakturazio mota benetako gastuan: Ez dago erabilgarri |
-| Yes | +Ez | Proiektu osoa | Ezin da kargatu | Ezin da ezarri | Ezin da ezarri | Fakturazioa denbora errealean: Ez-kargagarria </br>Fakturazio mota benetako gastuan: Ez dago erabilgarri |
+Hiru gauza hauek egia badira, **Zeregina** kargatzeko moduan ere konfiguratzen da. 
+
+Gasturako sortutako aurrekontua edo benetakoa soilik kobratuko da: 
+
+   - **Gastua** eskaintza-lerroan sartzen da.
+   - **Transakzioaren kategoria** eskaintza-linean kargatzeko moduan konfiguratuta dago.
+   - **Zereginak barne** ezarrita dago **Aukeratutako zereginak** eskaintza-lerroan.
+
+Hiru gauza hauek egia badira, **Zeregina** kargatzeko moduan ere konfiguratzen da. 
+
+Materialerako sortutako aurrekontua edo benetakoa soilik kobratuko da:
+
+   - **Materialak** eskaintza-lerroan sartzen da.
+   - **Zereginak barne** ezarrita dago **Aukeratutako zereginak** eskaintza-lerroan.
+
+Bi gauza hauek egia badira, **Zeregina** kargatzeko moduan ere konfiguratzen da. 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Denbora barne</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Gastua barne</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Materialak barne</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Gehitutako zereginak</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Funtzioa</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kategoria</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ataza</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Kargagarritasunaren eragina</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Proiektu osoa </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kobra daiteke </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Kobra daiteke </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ezin da ezarri </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturazioa denbora errealean: Kargagarria </p>
+                <p>
+Fakturazio mota benetako gastuan: Kargagarria </p>
+                <p>
+Fakturazio mota benetako materialean: Kargagarria </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hautatutako zereginak soilik </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kobra daiteke </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Kobra daiteke </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kobra daiteke </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturazioa denbora errealean: Kargagarria </p>
+                <p>
+Fakturazio mota benetako gastuan: Kargagarria </p>
+                <p>
+Fakturazio mota benetako materialean: Kargagarria </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hautatutako zereginak soilik </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ezin da kargatu</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Kobra daiteke </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kobra daiteke </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturazioa denbora errealean: <strong>Ez-kargagarria</strong>
+                </p>
+                <p>
+Fakturazio mota benetako gastuan: Kargagarria </p>
+                <p>
+Fakturazio mota benetako materialean: Kargagarria </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hautatutako zereginak soilik </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kobra daiteke </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Kobra daiteke </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ez-kargagarria</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturazioa denbora errealean: <strong>Ez-kargagarria</strong>
+                </p>
+                <p>
+Fakturazio mota benetako gastuan: <strong>Ez-kargagarria</strong>
+                </p>
+                <p>
+Fakturazio mota benetako materialean: <strong>Ez-kargagarria</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hautatutako zereginak soilik </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ez-kargagarria</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Kobra daiteke </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ez-kargagarria</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturazioa denbora errealean: <strong>Ez-kargagarria</strong>
+                </p>
+                <p>
+Fakturazio mota benetako gastuan: <strong>Ez-kargagarria</strong>
+                </p>
+                <p>
+Fakturazio mota benetako materialean: <strong>Ez-kargagarria</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hautatutako zereginak soilik </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ez-kargagarria</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Ez-kargagarria</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kobra daiteke </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturazioa denbora errealean: <strong>Ez-kargagarria</strong>
+                </p>
+                <p>
+Fakturazio mota benetako gastuan: <strong>Ez-kargagarria</strong>
+                </p>
+                <p>
+Fakturazio mota benetako materialean: Kargagarria </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Proiektu osoa </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ezin da ezarri </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kobra daiteke</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ezin da ezarri </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturazioa denbora errealean: <strong>Ez dago erabilgarri</strong>
+                </p>
+                <p>
+Fakturazio mota benetako gastuan: Kargagarria </p>
+                <p>
+Fakturazio mota benetako materialean: Kargagarria </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Proiektu osoa </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ezin da ezarri </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Ez-kargagarria</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ezin da ezarri </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturazioa denbora errealean: <strong>Ez dago erabilgarri</strong>
+                </p>
+                <p>
+Fakturazio mota benetako gastuan: <strong> Ez-kargagarria</strong>
+                </p>
+                <p>
+Fakturazio mota benetako materialean: Kargagarria </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Proiektu osoa </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kobra daiteke </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Ezin da ezarri </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ezin da ezarri </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturazioa denbora errealean: Kargagarria </p>
+                <p>
+Fakturazio mota benetako gastuan: <strong>Ez dago erabilgarri</strong>
+                </p>
+                <p>
+Fakturazio mota benetako materialean: Kargagarria </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Proiektu osoa </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ez-kargagarria</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Ezin da ezarri </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ezin da ezarri </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturazioa denbora errealean: <strong>Ez-kargagarria</strong>
+                </p>
+                <p>
+Fakturazio mota benetako gastuan: <strong>Ez dago erabilgarri</strong>
+                </p>
+                <p>
+Fakturazio mota benetako materialean: Kargagarria </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Proiektu osoa </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kobra daiteke </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Kobra daiteke </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ezin da ezarri </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturazioa denbora errealean: Kargagarria </p>
+                <p>
+Fakturazio mota benetako gastuan: Kargagarria </p>
+                <p>
+Fakturazio mota benetako materialean: <strong> Ez dago erabilgarri</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Proiektu osoa </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ez-kargagarria</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Ezin da kargatu</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ezin da ezarri </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturazioa denbora errealean: <strong>Ez-kargagarria</strong>
+                </p>
+                <p>
+Fakturazio mota benetako gastuan: <strong> Ez-kargagarria</strong>
+                </p>
+                <p>
+Fakturazio mota benetako materialean: <strong> Ez dago erabilgarri</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

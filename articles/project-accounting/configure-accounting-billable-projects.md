@@ -3,17 +3,17 @@ title: Konfiguratu proiektu fakturagarrien kontabilitatea
 description: Gai honek fakturagarriak diren proiektuen kontabilitate aukerei buruzko informazioa eskaintzen du.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287628"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858638"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfiguratu proiektu fakturagarrien kontabilitatea
 
@@ -58,13 +58,25 @@ Bete urrats hauek proiektuaren kostuen eta diru-sarreren profil berria sortzeko.
 
          - **Saldoa**: Project Operations integrazio aldizkaria argitaratzean, gastuen transakzio kostua Liburu nagusia kontu motan kargatuko da *WIP - Kostuaren balioa* fitxategian definitzen den moduan **Kostua** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdean eta aldizkariaren lerroan konpentsatutako kontuan kreditatuta. Gastuaren lehenetsitako konpentsazio kontuak atalean definitzen dira **Proiektuen kudeaketa eta kontabilitatea** > **Konfigurazioa** \> **Bidalketa** \> **Gastuetarako lehenetsitako kontua**. Kontulariak **Argitaratu kostuak** funtzioa erabiliko du kostu hori saldo-kontutik irabazien eta galeren kontura aldiro aldatzeko.
         - **Irabaziak eta galera**: Project Operations integrazio aldizkaria argitaratzean, gastuen transakzio kostua Liburu nagusia kontu motan kargatuko da *WIP - Kostuaren balioa* fitxategian definitzen den moduan **Kostua** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdean eta aldizkariaren lerroan konpentsatutako kontuan kreditatuta. Gastuaren lehenetsitako konpentsazio kontuak atalean definitzen dira **Proiektuen kudeaketa eta kontabilitatea** \> **Konfigurazioa** \> **Bidalketa** \> **Gastuetarako lehenetsitako kontua**.
+      
+    - **Bidalketa kostuak - artikulua**:
+
+         - **Oreka**: Project Operations Integration aldizkaria argitaratzerakoan, transakzioaren kostua Ledger kontu motan kargatuko da *WIP - Kostuaren balioa - elementua* fitxategian definitzen den moduan **Kostua** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdean eta ondoko honi kreditatuta:
+    
+              - Dokumentu mota erabiltzeko: **Kostua - elementua** kontuan **Liburu nagusia argitaratzeko konfigurazioa**.  
+              - Dokumentu mota erosteko: **Kontratazioen integrazio kontua** **Proiektuen kudeaketa eta kontabilitate parametroak** aukeran.
+           Kontulariak **Argitaratu kostuak** funtzioa erabiliko du kostu hori saldo-kontutik irabazien eta galeren kontura aldiro aldatzeko.
+        - **Irabazia eta galera**: Project Operations Integration aldizkaria argitaratzerakoan, transakzioaren kostua Ledger kontu motan kargatuko da *WIP - Kostuaren balioa - elementua* fitxategian definitzen den moduan **Kostua** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdean eta ondoko honi kreditatuta:
+         
+             - Dokumentu mota erabiltzeko: **Kostua - elementua** kontuan **Liburu nagusia argitaratzeko konfigurazioa**.  
+             - Dokumentu mota erosteko: **Kontratazioen integrazio kontua** **Proiektuen kudeaketa eta kontabilitate parametroak** aukeran.
        
     - **Kontuko fakturazioa**:
 
         - **Balantzea**: Proiektuaren faktura proposamena argitaratzerakoan, kontuko transakzio bat (fakturazio mugarria) kobratuko da Liburu nagusiaren kontu motan *WIP fakturatua - kontura* fitxategian definitzen den moduan **Diru-sarrerak** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdean, eta Bezeroaren oreka kontuan zordunduta.
          - **Irabaziak eta galera**: Proiektuaren faktura proposamena argitaratzerakoan, kontuko transakzio bat (fakturazio mugarria) kobratuko da Liburu nagusiaren kontu motan *Fakturatutako diru-sarrera - kontura* fitxategian definitzen den moduan **Diru-sarrerak** fitxan **Liburu nagusia argitaratzeko konfigurazioa** orrialdean, eta Bezeroaren oreka kontuan zordunduta. Bezeroen balantze-kontuak **Kobratzeko kontuak** \> **Konfigurazioa** \> **Bezeroak bidaltzeko profilak**.
 
-   Denboraren eta materialaren fakturazio metodoen bidalketa-profilak zehazten dituzunean, transakzio mota bakoitzeko (ordua, gastua eta kuota) dirua irabazteko aukera duzu. **Eskuratu diru-sarrerak** aukera **Bai** bada, Project Operations Integration aldizkarian fakturatu gabeko salmenten transakzioak liburu nagusian erregistratuko dira. Salmenten balioa kobratuko da **WIP - salmenten balioaren kontua** eta **Sortutako diru-sarrerak - salmenten balioa** webgunean sortu zen kontua **Liburu nagusia argitaratzeko konfigurazioa** orrialdean, **Diru-sarrerak** fitxa. 
+   Denboraren eta materialaren fakturazio metodoen bidalketa profilak definitzen dituzunean, transakzio mota bakoitzeko (ordua, gastua, elementua eta kuota) irabaziak jasotzeko aukera duzu. **Eskuratu diru-sarrerak** aukera **Bai** bada, Project Operations Integration aldizkarian fakturatu gabeko salmenten transakzioak liburu nagusian erregistratuko dira. Salmenten balioa kobratuko da **WIP - salmenten balioaren kontua** eta **Sortutako diru-sarrerak - salmenten balioa** webgunean sortu zen kontua **Liburu nagusia argitaratzeko konfigurazioa** orrialdean, **Diru-sarrerak** fitxa. 
   
   > [!NOTE]
   > Aukera, **Eskuratu diru-sarrerak** eskuragarri dago dagokion transakzio mota denean **Kostua** irabazien eta galeren kontuan sartzen da.

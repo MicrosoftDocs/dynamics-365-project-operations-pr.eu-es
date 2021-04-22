@@ -1,22 +1,22 @@
 ---
-title: Ebatzi aurreikuspenetako eta benetako datuetako kostuaren prezioa - arina
-description: Gai honek kostuaren prezioa ebazteko moduari eta estimazioei buruzko informazioa eskaintzen du.
+title: Ebatzi proiektu-aurreikuspenen eta benetako datuen kostuaren prezioak
+description: Gai honek proiektuaren kalkuluen eta benetako datuen kostu-prezioak ebazteari buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274534"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877250"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Ebatzi aurreikuspenetako eta benetako datuetako kostuaren prezioa - arina
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Ebatzi proiektu-aurreikuspenen eta benetako datuen kostuaren prezioak 
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
@@ -36,6 +36,12 @@ Kostuen prezioen zerrenda ebatzi ondoren, **Funtzioa** eta **Baliabideen unitate
 Gastuaren zenbatespen lerroek proiektu bateko proiektu bateko gastuak eta aurreikusitako gastuen lerroaren eskaintzaren eta kontratuaren lerroko xehetasunak.
 
 Kostuen prezioen zerrenda ebatzi ondoren, sistemak konbinazio bat erabiltzen du **Kategoria** eta **Unitatea** gastua kalkulatzeko lerroaren eremuak **Kategoriaren prezioa** prezioen zerrendako lerroak. Sistemak kostu tasa duen kategoriako prezio lerro bat aurkitzen badu **Kategoria** eta **Unitatea** eremuen konbinazioa, kostu tasa lehenetsita dago. Sistema ez badator bat **Kategoria** eta **Unitatea** balioekin, edo bat datorren kategoria prezio lerro bat aurkitzeko gai bada, baina prezioen metodoa ez da **Unitateko prezioa**, kostuaren tasa zero (0) lehenetsita dago.
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Materialen kostu tasak ebaztea eta materialaren estimazio lerroak
+
+Materialaren zenbatespen lerroek materialen aurrekontuaren eta kontratuaren lerroaren xehetasunak eta proiektu bateko materialen estimazio lerroak aipatzen dituzte.
+
+Kostuen prezioen zerrenda ebatzi ondoren, sistemak konbinazio bat erabiltzen du **Produktua** eta **Unitatea** kalkulu-lerroaren eremuak kalkulu materialarekin bat etortzeko **Prezioen zerrendako elementuak** prezioen zerrendako lerroak. Sistemak kostu tasa duen produktuaren prezio lerroa aurkitzen badu **Produktua** eta **Unitatea** eremuen konbinazioa, kostu tasa lehenetsita dago. Sistema ezin bada **Produktua** eta **Unitatea** balioak edo bat datorren prezioen zerrendako elementu lerro bat aurkitzeko gai bada, baina prezioen metodoa kostu estandarrean edo kostu arruntean oinarritzen da eta produktuan ez dago zehaztuta, kostu unitarioa zero da lehenetsita.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

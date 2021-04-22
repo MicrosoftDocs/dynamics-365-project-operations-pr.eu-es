@@ -1,6 +1,6 @@
 ---
-title: Proiektuetan oinarritutako faktura zuzentzaileak
-description: Gai honek proiektuan oinarritutako faktura zuzentzaileak sortu eta berresteko Project Operations-en informazioa ematen du.
+title: Sortu proiektuetan oinarritutako faktura zuzentzaileak
+description: Gai honek faktura zuzentzailearen inguruko informazioa eskaintzen du Project Operations-en.
 author: rumant
 manager: Annbe
 ms.date: 03/29/2021
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fc96bb40f5207efc381986d46a3e37dfc1dc111c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867026"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788828"
 ---
-# <a name="corrective-project-based-invoices"></a>Proiektuetan oinarritutako faktura zuzentzaileak
+# <a name="create-corrective-project-based-invoices"></a>Sortu proiektuetan oinarritutako faktura zuzentzaileak 
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
@@ -24,18 +24,19 @@ Egiaztatutako proiektuaren faktura zuzendu daiteke bezeroarekin eta proiektuaren
 Berretsitako faktura batean aldaketak egiteko, ireki berretsitako faktura eta hautatu **Zuzendu faktura hau**. 
 
 > [!NOTE]
-> Aukeraketa hau ez dago erabilgarri proiektuaren faktura baieztatzen ez bada edo proiektuan oinarritutako fakturak aurrerakinak edo atxikipenak edo aurrerakinen edo atxikipenak bateratzeko.
+> Aukeraketa hau ez dago erabilgarri proiektuaren faktura baieztatu ezean.
 
-Berretsitako fakturatik faktura zirriborro berria sortzen da. Aurretik baieztatutako fakturaren faktura-lerroaren xehetasun guztiak zirriborro berrira kopiatzen dira. Honako hauek dira faktura zuzendu berriaren lerroaren xehetasunak ulertzeko gakoetako batzuk:
+Berretsitako fakturatik faktura zirriborro berria sortzen da. Aurretik baieztatutako fakturaren faktura-lerroaren xehetasun guztiak zirriborro berrira kopiatzen dira. Honako hauek dira faktura zuzendu berriaren lerroaren xehetasunak gehiago ulertzen laguntzeko funtsezko puntu batzuk:
 
-- Kopuru guztiak zero bihurtzen dira. Dynamics 365 Project Operations fakturatutako elementu guztiak guztiz kreditatuta daudela suposatzen du. Behar izanez gero, eskuz egunera ditzakezu kantitate horiek fakturatzen ari diren kopurua eta ez kreditatzen den kopurua. Sartzen duzun kantitatearen arabera, aplikazioak kreditatutako kantitatea kalkulatzen du. Zenbateko hori faktura zuzena baieztatzen denean sortzen diren errealetan islatzen da. Zergaren zenbatekoan aldaketak egiten ari bazara, zergaren zenbateko zuzena sartu behar duzu eta ez kreditatzen den zergaren zenbatekoa.
+- Kopuru guztiak zero bihurtzen dira. Fakturatutako elementu guztiak guztiz kreditatuta daudela suposatzen du. Behar izanez gero, eskuz egunera ditzakezu kantitate horiek fakturatzen ari diren kopurua eta ez kreditatzen den kopurua. Sartzen duzun kantitatearen arabera, aplikazioak kreditatutako kantitatea kalkulatzen du. Zenbateko hori faktura zuzena baieztatzen denean sortzen diren errealetan islatzen da. Zergaren zenbatekoan aldaketak egiten ari bazara, zergaren zenbateko zuzena sartu behar duzu eta ez kreditatzen den zergaren zenbatekoa.
 - Mugarrien zuzenketak kreditu oso gisa prozesatzen dira beti.
-
+- Atxikitako edo aurreratutako zenbatekoak zuzendu daitezke bezeroari zenbateko okerra fakturatzen bazaio.
+- Atxikitzaileen eta aurrerakinen bateragarritasuna zuzendu daiteke, aurrez baieztatutako faktura bateko kargekin bateratzeko zenbateko okerra erabili bada.
 
 > [!IMPORTANT]
-> Dagoeneko fakturatutako beste karga batzuen zuzenketak diren faktura lerroaren xehetasunetarako **Zuzenketa** eremua ezarrita dago **Bai**. Zuzendutako fakturaren lerroak dituzten fakturen xehetasunak, **Zuzenketak ditu** eremua ezarrita dago **Bai**.
+> Dagoeneko fakturatutako beste karga batzuen zuzenketak diren faktura lerroaren xehetasunek **Zuzenketa** eremua ezarrita dute **Bai**. Faktura lerroaren xehetasunak zuzendu dituzten fakturek izeneko eremua dute **Zuzenketak ditu** hori ere ezarrita dago **Bai**.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Faktura zuzentzailea baieztatzean sortutako datuak
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Faktura zuzentzailea berrestean sortutako datuak
 
 Hurrengo taulan faktura zuzentzailea baieztatzen denean sortzen diren errealitateak agertzen dira.
 
@@ -50,6 +51,72 @@ Hurrengo taulan faktura zuzentzailea baieztatzen denean sortzen diren errealitat
             <td width="808" valign="top">
                 <p>
                     <strong>Berrespenean sortutako datuak</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="4" valign="top">
+                <p>
+Berretsi fakturatutako aurrerakinaren edo atxikipenaren zuzenketa.<strong></strong>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Adiskidetzerako sortu zen atxikipenaren edo aurrerakinaren fakturaziorik gabeko salmentak. Zenbateko hori positiboa da, atxikipena edo aurrerakina fakturatu zenean sortutako negatiboa bertan behera uzteko pentsatuta dagoelako.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Fakturatutako salmenten berraztertzea jatorrizko fakturatutako salmentak alderantzikatzeko atxikipena edo aurrerakinaren zenbatekoa sortzen da.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Fakturatutako salmenta berria atxikipeneko zuzendutako zenbatekoarekin edo aurrerakinean oinarritutako zuzendutako kontratuaren lerroarekin sortzen da.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Adiskidetzerako erabili beharreko atxikipenaren edo aurrerakinean oinarritutako zuzendutako fakturaren lerroaren zenbateko negatiboaren fakturaziorik gabeko salmentak.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="4" valign="top">
+                <p>
+Aurretik bateratutako atxikipen edo aurrerakinaren zuzenketaren berrespena.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Adiskidetzerako sortu zen atxikipenaren edo aurrerakinaren fakturaziorik gabeko salmentak. Zenbateko hori positiboa da eta atxikipena edo aurrerakina fakturatu zenean kontziliazioa geratu zenerako pentsatuta dagoelako.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aurreko fakturako zenbatekoaren fakturatutako alderantzikako salmentak.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Fakturatutako salmenta berria atxikipeneko zuzendutako zenbatekoarekin zuzendutako kontratuaren lerroarekin sortzen da.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Adiskidetzerako erabili beharreko atxikipenaren lerroaren zenbateko negatiboaren fakturaziorik gabeko salmentak.
                 </p>
             </td>
         </tr>
@@ -143,51 +210,6 @@ Fakturarik gabeko salmenten faktura berri bat, fakturazio lerroaren xehetasunean
                 </p>
             </td>
         </tr>
-                <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Aurretik fakturatutako transakzio material baten kreditu osoa fakturatzea.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Fakturatutako salmenten itzulketa materialaren jatorrizko fakturaren lerroaren xehetasunean dagoen kantitatea eta zenbatekoa.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Fakturatu gabeko salmenten benetako datuak materialaren jatorrizko fakturaren lerroaren xehetasunean dagoen kantitatea eta zenbatekoa.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Transakzio material baten kreditu partziala fakturatzea.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Fakturatutako salmenten itzulketa materialaren jatorrizko fakturaren lerroaren xehetasunean dagoen fakturatutako kantitatea eta zenbatekoa.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Editatutako fakturaren lerroaren xehetasunean zenbatekoaren eta zenbatekoaren kargura dagoen fakturaziorik gabeko salmenta berri bat, honen itzulketa eta fakturatutako salmenten baliokide baliokidea.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Fakturarik gabeko salmenten faktura berri bat, fakturazio lerroaren xehetasunean zuzendu diren zifrak kendu ondorengo gainerako kopuruan eta zenbatekoan kobratuko dena
-                </p>
-            </td>
-        </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
@@ -249,10 +271,9 @@ Aurretik fakturatutako mugarri baten kredituaren zati bat fakturatzea.
             </td>
             <td width="408" valign="top">
                 <p>
-Egoera hau ez da onartzen.
-                </p>
+Ez dira onartzen </p>
             </td>
-        </tr>       
+        </tr>        
     </tbody>
 </table>
 

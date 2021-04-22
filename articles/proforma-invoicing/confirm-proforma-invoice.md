@@ -1,39 +1,102 @@
 ---
-title: Berretsi proformako faktura
-description: Gai honek proforma faktura berresteari buruzko informazioa eskaintzen du.
+title: Berretsi proiektuetan oinarritutako fakturaren proforma
+description: Gai honek proforma proiektuan oinarritutako fakturak horiek berresteari buruzko informazioa eskaintzen du.
 author: rumant
 manager: AnnBe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b2ed241509d2643d841ce55777e6e316612f70b8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 53c647dca506822312053fb5c9b086a2947974c2
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287853"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867110"
 ---
-# <a name="confirm-a-proforma-invoice"></a>Berretsi proformako faktura
+# <a name="confirm-a-proforma-project-based-invoice"></a>Berretsi proiektuetan oinarritutako fakturaren proforma
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Proforma faktura baieztatu ondoren, proiektuaren fakturaren egoera eguneratu egingo da **Baieztatuta**. Faktura bat baieztatzen denean, irakurtzeko soilik bihurtzen da. Aurrerantzean, faktura bezeroak hasitako zuzenketak edo kredituak badaude bakarrik zuzendu ahal izango da, edo ordainduta dagoela markatuta badago.
+Proforma faktura baieztatu ondoren, proiektuaren fakturaren egoera eguneratu egingo da **Baieztatuta**. Faktura bat baieztatzen denean, irakurtzeko soilik bihurtzen da. Aurrerantzean, fakturak bezeroak hasitako zuzenketak edo kredituak baldin badaude bakarrik konpondu ahal izango dira.
 
 Hurrengo taulan sistemak sortutako errealitateak zerrendatzen dira. Egitate horiek proiektuaren fakturaren zirriborroan eragiketa batzuk egiten direnean sortzen dira, hori baieztatu aurretik.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="416" valign="top">
+            <td width="216" valign="top">
                 <p>
                     <strong>Egoera</strong>
                 </p>
             </td>
-            <td width="608" valign="top">
+            <td width="808" valign="top">
                 <p>
                     <strong>Berrespenean sortutako datuak</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Atxikipen edo aurrerakin bat fakturatzea </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Mota bateko fakturatutako salmentak, <strong>Atxikitzailea</strong> aurrerakinaren edo atxikipenaren zenbatekoarengatik sortzen da.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Adiskidetzerako erabili beharreko atxikipenaren edo aurrerakinaren zenbateko negatiboa duen fakturaziorik gabeko salmentak.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Atxikimendu bat edo faktura baten aurrerapena guztiz bateratu ondoren.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Adiskidetzerako sortu zen atxikipenaren edo aurrerakinaren fakturaziorik gabeko salmentak. Zenbateko hori positiboa da, atxikipena edo aurrerakina fakturatu zenean sortutako negatiboa bertan behera uzteko pentsatuta dagoelako.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Faktura honetako zenbatekoaren fakturatutako salmentak.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Atxikimendu bat edo faktura baten aurrerapena zati batean bateratu ondoren.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Adiskidetzerako sortu zen atxikipenaren edo aurrerakinaren fakturaziorik gabeko salmentak. Zenbateko hori positiboa da, atxikipena edo aurrerakina fakturatu zenean sortutako negatiboa bertan behera uzteko pentsatuta dagoelako.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Faktura honetako zenbatekoaren fakturatutako salmentak.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Etorkizuneko fakturetan adiskidetzerako erabili beharreko geratzen den atxikipenaren edo aurrerakinaren fakturatu gabeko salmenta negatiboak.
                 </p>
             </td>
         </tr>
@@ -71,14 +134,14 @@ Jatorrizko denbora-onespen bateko orduen eta zenbatekoaren fakturatu gabeko salm
         <tr>
             <td width="408" valign="top">
                 <p>
-Editatutako fakturaren lerroaren xehetasunean orduak eta zenbatekoa kobratzen duen fakturaziorik gabeko salmenta berria, fakturatu gabeko salmenten itzulketa eta fakturatutako salmenten baliokide baliokidea.
+Editatutako fakturaren lerroaren xehetasunean orduak eta zenbatekoa kobratzen duen fakturaziorik gabeko salmenta berria, fakturatutako salmenten itzulketa eta fakturatutako salmenten baliokide baliokidea.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Editatutako fakturaren lerroaren xehetasunean geratzen diren orduak eta zuzendutako zenbakiak kendu eta gero zenbatekoa kobratzen ez duen fakturaziorik gabeko salmenta berria, fakturatutako salmenten itzulketa eta fakturatu gabeko salmenten baliokide baliokidea.
+Fakturatutako salmenten faktura berri bat, gainerako orduetan eta zenbatekoan kobratu ezin dena, editatutako faktura lerroaren xehetasunean zuzendu diren zifrak kendu ondoren, salmenten benetako itzulketa eta fakturatutako salmenten baliokidea.
                 </p>
             </td>
         </tr>
@@ -135,7 +198,7 @@ Zenbatekoaren eta zenbatekoaren fakturatu gabeko salmenten alderantzikatzeak jat
         <tr>
             <td width="408" valign="top">
                 <p>
-Editatutako fakturaren lerroaren xehetasunean kopurua eta zenbatekoa kobratzen duen fakturaziorik gabeko salmenta berria, fakturatu gabeko salmenten itzulketa eta fakturatutako salmenten baliokide baliokidea. 
+Editatutako fakturaren lerroaren xehetasunean kopurua eta zenbatekoa kobratzen duen fakturaziorik gabeko salmenta berria, fakturatu gabeko salmenten itzulketa eta fakturatutako salmenten baliokide baliokidea.
                 </p>
             </td>
         </tr>
@@ -155,6 +218,70 @@ Kopurua areagotzeko editatu den gastu-transakzio bat fakturatzea.
             <td width="408" valign="top">
                 <p>
 Zenbatekoaren eta zenbatekoaren fakturatu gabeko salmenten alderantzikatzeak jatorrizko gastuaren onarpenean.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Editatutako fakturaren lerroaren xehetasunean kopurua eta zenbatekoa kobratzen duen fakturaziorik gabeko salmenta berria, fakturatu gabeko salmenten itzulketa eta fakturatutako salmenten baliokide baliokidea. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Transakzio materiala fakturatzea zirriborroaren fakturan aldaketarik egin gabe.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Fakturatu gabeko salmenten itzulketa materialaren jatorrizko erabilera-onespenean dagoen kantitatea eta zenbatekoa.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Fakturatutako benetako salmentak materialaren jatorrizko erabilera-onespenean dagoen kantitatea eta zenbatekoa.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Kopurua murrizteko editatu den transakzio materiala fakturatzea.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Fakturatu gabeko salmenten itzulketa materialaren jatorrizko denbora-onespenean dagoen kantitatea eta zenbatekoa.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Editatutako fakturaren lerroaren xehetasunean kopurua eta zenbatekoa kobratzen duen fakturaziorik gabeko salmenta berria, fakturatu gabeko salmenten itzulketa eta fakturatutako salmenten baliokide baliokidea.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Editatutako fakturaren lerroaren xehetasunean geratzen diren kopuruak eta zuzendutako zenbakiak kendu eta gero zenbatekoa kobratzen ez duen fakturaziorik gabeko salmenta berria, fakturatutako salmenten itzulketa eta fakturatu gabeko salmenten baliokide baliokidea.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Kopurua areagotzeko editatu den transakzio materiala fakturatzea.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Fakturatu gabeko salmenten itzulketa materialaren jatorrizko erabilera-onespenean dagoen kantitatea eta zenbatekoa.
                 </p>
             </td>
         </tr>
@@ -196,8 +323,8 @@ Proiektuaren kontratu linearen jatorrizko mugarriaren zenbatekoaren fakturatutak
                 </p>
             </td>
         </tr>
+       
     </tbody>
 </table>
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

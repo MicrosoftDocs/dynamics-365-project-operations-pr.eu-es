@@ -3,50 +3,53 @@ title: Onespenen ikuspegi orokorra
 description: Gai honek Project Operations-eko onarpenekin lan egiteari buruzko informazioa eskaintzen du.
 author: stsporen
 manager: Annbe
-ms.date: 10/05/2020
+ms.date: 03/31/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: a7573b95998387453b72dbcb73c3de977ed7d913
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b2da22e10cf6c40a2c84bcd32437b2830f830d07
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290342"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852484"
 ---
 # <a name="approvals-overview"></a>Onespenen ikuspegi orokorra
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Denbora eta Gastua bidalketak onarpen lan baten bidez mugitzen dira. Sarrerak onartu ondoren, transakzioak benetakoetan erregistratzen dira edo ordutegian denbora gordetzen da.
+Denbora, gastuak eta materialaren erabileraren bidalketak onarpen lan baten bidez mugitzen dira. Sarrerak onartu ondoren, transakzioak benetakoetan erregistratzen dira edo ordutegian denbora gordetzen da.
 
 ## <a name="approvals-workflow"></a>Onespenen lan-fluxua
-Denbora edo gastuen sarrera sortu eta bidaltzen duzunean, onespen sarrera sortzen da. Proiektuaren onartzaileak edo zure kudeatzaileak zure sarrera berrikusi eta onartzen du. Sarrera proiektu batekin lotuta badago, onartzen denean, egiazkoak sortuko dira. Horrek kostuaren eta fakturazioaren jarraipena egitea ahalbidetzen du. 
+Denbora, gastu edo materialaren erabilera sarrera sortu eta bidaltzen duzunean, onarpen erregistroa sortzen da. Proiektuaren onartzaileak edo kudeatzaileak sarrera berrikusi eta onartzen du. Sarrera proiektu batekin lotuta badago, egiazkoak onartzen direnean sortuko dira. Horrek kostuaren eta fakturazioaren jarraipena egitea ahalbidetzen du.
 
 ## <a name="approve-an-entry"></a>Onartu sarrera bat
-**Onespenak** inprimakiak ikuspegi desberdinen artean aldatzeko aukera ematen du onarpen mota desberdinak ikusi ahal izateko.
+**Onarpenak** orrialdeak ikuspegi desberdinen artean aldatzeko aukera ematen du onarpen mota desberdinak ikusi ahal izateko.
   
-1. Joan **Onespenak** inprimakira eta hautatu **Gastuak**, **Denbora** edo **Berreskuratzeak**.
+1. **Onarpenak** orrialdera eta hautatu **Gastuak**, **Denbora**, **Materialaren erabilera** edo **Berreskuratzeak**.
 2. Berrikusi onespen bakoitza eta hautatu onartu nahi dituzunak.
 3. Hautatu **Onartu** hautatutako sarrerak onartzeko.
-Sistemak sarrera horiek prozesatu eta egiazkoak edo erreserba sortuko ditu.
+Sistemak sarrera horiek prozesatu eta benetakoak sortzen ditu.
 
 ## <a name="reject-an-entry"></a>Sarrera bat baztertu
 Proiektua onartzen duen moduan, baliteke sarrera bat bidali beharko diozula erabiltzaileari zuzentzeko.
   
-1. Joan **Onespenak** inprimakira eta hautatu ukatzeko sarrera. 
+1. Joan **Onarpenak** orrian eta hautatu ukatzeko sarrera. 
 2. Aukeratu **Baztertu**.
-3. Aukerakoa - Gehitu iruzkin bat **Baztertzeko iruzkinak** elkarrizketa-koadroan erabiltzaileari sarrera zergatik baztertzen den jakinarazteko.
+3. Aukeran, gehitu iruzkin bat **Baztertzeko iruzkinak** elkarrizketa-koadroa erabiltzaileari sarrera zergatik baztertzen den jakinarazteko.
 4. Hautatu **Ados**. Sarrera erabiltzaileari itzuliko zaio.
   
-## <a name="recall-entries"></a>Berreskuratu sarrerak
-Noizbait, bidalitako sarrera gogora ekarri beharko zenuke. Sarrera onartu ez bada, berehala itzuliko da. Onartutako sarrera batek, ordea, eragin materiala izan dezake. Proiektuaren onartzaileak berreskurapena onartu behar du Benetako transakzioa alderantzikatzeko.
+## <a name="cancel-approval"></a>Utzi onespena
+Zenbait kasutan, aurrez onartutako sarrera bat bertan behera utzi beharko duzu. Aurretik onartutako sarrera bat bertan behera uzteak eragin ekonomikoa izango du. 
+
+## <a name="approving-recall-requests"></a>Berreskuratze-eskaerak onartzea
+Zenbait kasutan, aholkulari batek aurrez onartutako sarrera gogora ekarri beharko du. Aurretik onartutako sarrera bat bertan behera uzteak eragin ekonomikoa izango du. Proiektuaren onarleak berreskurapena onartzeko eskatzen du transakzioa Benetako fitxategietan alderantzikatzeko.
 
 ## <a name="specify-project-approvers"></a>Zehaztu Proiektuaren onartzaileak
 Proiektu bakoitzak proiektuko taldekide ugari ditu. Taldekideak proiektuaren onarleak diren ere zehaztu dezakezu.
 
-1. Joan **Proiektuak** inprimakira eta ireki proiektua zerrendatik.
+1. Joan **Proiektuak** orrialdea eta ireki proiektua zerrendatik.
 2. **Taldea** fitxan, hautatu proiektuaren onartzailea izango den taldekidea eta hautatu **Editatu**.
 3. Ezarri **Proiektuaren onartzailea** eremua **Bai** gisa.
 4. Sakatu **Gorde**.

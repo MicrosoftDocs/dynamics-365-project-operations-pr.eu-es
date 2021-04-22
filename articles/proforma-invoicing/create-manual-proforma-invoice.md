@@ -1,42 +1,27 @@
 ---
-title: Sortu proformako faktura bat eskuz
-description: Gai honek proforma faktura sortzeari buruzko informazioa eskaintzen du.
+title: Proformako fakturak
+description: Gai honek Proformako fakturen inguruko informazioa eskaintzen du Project Operations-en.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287763"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866846"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Sortu proformako faktura bat eskuz
+# <a name="proforma-invoices"></a>Proformako fakturak
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Fakturak egitea erabilgarria da proiektuen kudeatzaileei bigarren onespen maila ematen dielako bezeroei fakturak sortu aurretik. Lehen onarpen maila proiektuko kideek bidaltzen dituzten denbora- eta gastu-sarrerak onartzen direnean amaitzen da.
+Proformako fakturak fakturak egitea erabilgarria da proiektuen kudeatzaileei bigarren onespen maila ematen dielako bezeroei fakturak sortu aurretik. Lehen onarpen maila proiektuko kideek bidaltzen dituzten denbora-, gastu- eta material-sarrerak onartzen direnean amaitzen da. Baieztatutako proforma fakturak eskuragarri daude Project Operations-en Proiektuen Kontabilitate moduluan. Proiektuaren kontulariek eguneratze osagarriak egin ditzakete, hala nola salmenten gaineko zerga, kontabilitatea eta fakturen diseinua.
 
-Dynamics 365 Project Operations ez dago diseinatuta bezeroaren aurrean fakturak sortzeko, arrazoi hauengatik:
-
-- Ez du zerga informaziorik.
-- Ezin ditu beste monetak fakturazio-moneta bihurtu behar bezala konfiguratutako kanbio-tasak erabiliz.
-- Ezin ditu fakturak behar bezala formatu inprimatu ahal izateko.
-
-Horren ordez, finantza- edo kontabilitate-sistema erabil dezakezu fakturen proposamenetatik sortutako informazioa erabiltzen duten bezeroei zuzendutako fakturak sortzeko.
 
 ## <a name="creating-project-invoices"></a>Sortu proiektuaren fakturak
 
@@ -50,7 +35,7 @@ Jarraitu urrats hau proiektu-kontratu jakin baterako faktura sortzeko.
 
 - **Proiektuen kontratuak** zerrenda-orrian, ireki proiektu-kontratua eta ondoren hautatu **Sortu faktura**.
 
-    Faktura sortzen da **Fakturatzeko prest** egoera daukaten hautatutako proiektu-kontratuaren transakzio guztientzat. Eragiketa horien artean, denbora, gastuak, mugak eta produktuetan oinarritutako kontratuaren lerroak daude.
+    Faktura sortzen da **Fakturatzeko prest** egoera daukaten hautatutako proiektu-kontratuaren transakzio guztientzat. Transakzio horien artean daude denbora, gastuak, materialak, mugarriak eta fakturatu gabeko beste salmenta aldizkari lerro batzuk.
 
 Jarraitu urrats hauei fakturak denak batera sortzeko.
 
@@ -60,7 +45,7 @@ Jarraitu urrats hauei fakturak denak batera sortzeko.
 
 2. Hautatu **Ados** mezu-koadroa ixteko.
 
-    Faktura sortzen da **Fakturatzeko prest** egoera daukaten proiektu-kontratuaren transakzio guztientzat. Eragiketa horien artean, denbora, gastuak, mugak eta produktuetan oinarritutako kontratuaren lerroak daude.
+    Faktura sortzen da **Fakturatzeko prest** egoera daukaten proiektu-kontratuaren transakzio guztientzat. Transakzio horien artean daude denbora, gastuak, materialak, mugarriak eta fakturatu gabeko beste salmenta aldizkari lerro batzuk.
 
 3. Sortzen diren fakturak ikusteko, joan **Salmentak** \> **Fakturazioa** \> **Fakturak** atalera. Proiektu-kontratu bakoitzeko faktura bat ikusiko duzu.
 
@@ -93,11 +78,10 @@ Lan-sortaren prozesua lan errepikaria da. Prozesu-sorta hau askotan exekutatzen 
  
 ### <a name="edit-a-draft-invoice"></a>Editatu fakturaren zirriborroa
 
-Proiektuen fakturaren zirriborroa sortzen duzunean, fakturazioan sartu behar dira denbora- eta gastu-sarrerak onartu zirenean sortu gabeko salmenta transakzio guztiak. Doikuntza hauek egin ditzakezu faktura oraindik zirriborro fasean dagoen bitartean:
+Proiektuen fakturaren zirriborroa sortzen duzunean, fakturazioan sartu behar dira denbora-, gastu- eta material erabileraren sarrerak onartu zirenean sortu gabeko salmenta transakzio guztiak. Doikuntza hauek egin ditzakezu faktura oraindik zirriborro fasean dagoen bitartean:
 
 - Ezabatu edo editatu fakturaren linearen xehetasunak.
 - Editatu eta doitu kantitatea eta fakturazio mota.
-- Fakturan transakzio gisa denbora, gastua eta tasak zuzenean gehitu. Ezaugarri hau erabil dezakezu faktura-lerroa transakzio-klase horiek baimentzen dituen kontratu-lerrora esleituta badago.
 
 Aukeratu **Berretsi** faktura berresteko. Berretsi ekintza norabide bakarreko ekintza da. Hautatzen duzunean **Berretsi**, sistemak faktura irakurtzeko bakarrik egiten du eta fakturazioaren lineako xehetasunetatik fakturatutako salmenta errealak sortzen ditu. Fakturen linearen xehetasunak fakturatu gabeko salmenten benetako erreferentzia izanez gero, sistemak fakturatu gabeko salmenten benetako itzulketa ere itzuliko du. (Denbora- edo gastu-sarreratik sortu den edozein fakturaren lerroko xehetasunek fakturatu gabeko salmenten erreferentzia izango dute.) Liburu nagusiaren integrazio-sistemek berraztertze hau erabil dezakete martxan dagoen proiektuaren (WIP) alderantzizko kontabilitaterako.
 
