@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: Konfiguratu Project Operations-en integrazioa legezko entitatearen arabera
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Konfiguratu idazketa dualeko integrazioa
+          items:
+            - name: Idazketa dualeko integrazioaren ikuspegi orokorra
+              href: environment/resource-dual-write-overview.md
+            - name: Project Operations idazketa dualeko esleipen-bertsioak
+              href: environment/resource-dual-write-maps.md
+            - name: Project Operations-en konfigurazioa eta konfigurazio-datuen integrazioa
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Proiektuaren kalkuluak eta benetako dauten integrazioa
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Proiektuaren fakturen integrazioa
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Gastu-kudeaketaren integrazioa
+              href: environment/resource-dual-write-expense.md
+            - name: Saltzaileen fakturen integrazioa
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Berritasunak
       items:
         - name: 2021eko apirila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: Zehaztu proiektuen egutegiak
           href: project-management/define-project-calendars.md
+        - name: Antolaketa moduak
+          href: project-management/scheduling-modes.md
         - name: Eguneratu proiektu bat
           href: project-management/update-project.md
         - name: Kopiatu proiektu bat
@@ -404,6 +422,12 @@
           items:
             - name: Sortu eta berretsi zuzenketa-egunkariak
               href: actuals/create-confirm-correction-journals.md
+    - name: Erosketak
+      items:
+        - name: Konfiguratu izakinik gabeko materialak eta ordaindu gabeko saltzaileen fakturak
+          href: procurement/configure-materials-nonstocked.md
+        - name: Erosi proiektuen izakinik gabeko materialak ordaindu gabeko saltzaileen fakturak erabiliz
+          href: procurement/pending-vendor-invoices.md
     - name: Fakturazioa
       items:
         - name: Fakturazio-prozesuaren informazio orokorra
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfiguratu proiektuetan oinarritutako faktura automatizatzea
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Kudeatu proiektuaren faktura-proposamenak
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Proiektuaren kontabilitatea
       items:
         - name: Finantza-dimentsio lehenetsiak
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: Zehaztu proiektuen egutegiak
           href: project-management/define-project-calendars.md
+        - name: Antolaketa moduak
+          hreF: project-management/scheduling-modes.md
         - name: Eguneratu proiektu bat
           href: project-management/update-project.md
         - name: Kopiatu proiektu bat
@@ -848,6 +876,8 @@
   items:
     - name: Berritasunak
       items:
+        - name: 2021eko apirileko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 2021eko martxoko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: 2021eko urtarrileko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
@@ -871,9 +901,9 @@
     - name: Konfiguratu eta erabili ordaindu ordaintzean saltzailearen ordainketak
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Proiektuaren kostuen metatzea ordainagirietan
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Proiektuaren fakturazioa
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Proiektuko faktura-proposamenen errendimendua
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Proiektu-kontratuak
@@ -996,8 +1026,10 @@
       href: psa/overview.md
     - name: Berritasunak
       items:
-        - name: Project Service 3.x zerbitzuaren eguneratze-bertsioen antolaketa
+        - name: Project Service 3.x bertsioaren eguneratze-bertsioen antolaketa
           href: psa/version-history-ps.md
+        - name: '31. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-31.md
         - name: '30. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur-30.md
         - name: '29.5 zuzenketako eguneratze-bertsioko berritasunak edo aldaketak, V3'
@@ -1327,7 +1359,7 @@
             - name: Ikusi baliabideen erabilera
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Proiektu-kudeatzailearen gida
           items:
             - name: Proiektu-kudeatzailearen gida (Project Service)
