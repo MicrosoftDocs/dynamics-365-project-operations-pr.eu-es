@@ -1,9 +1,9 @@
 ---
 title: Zehaztu proiektuen egutegiak
-description: Gai honek proiektuaren egutegia proiektuaren egutegia jarraitzeko erabiltzeari buruzko informazioa eskaintzen du.
+description: Gai honek egutegiaren txantiloia proiektu bati proiektuaren egutegia jarraitzeko nola aplikatu jakiteko informazioa eskaintzen du.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286953"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981285"
 ---
-# <a name="define-project-calendars"></a><span data-ttu-id="67b08-103">Zehaztu proiektuen egutegiak</span><span class="sxs-lookup"><span data-stu-id="67b08-103">Define project calendars</span></span>
+# <a name="define-project-calendars"></a><span data-ttu-id="ee728-103">Zehaztu proiektuen egutegiak</span><span class="sxs-lookup"><span data-stu-id="ee728-103">Define project calendars</span></span>
 
-<span data-ttu-id="67b08-104">_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_</span><span class="sxs-lookup"><span data-stu-id="67b08-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="ee728-104">_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_</span><span class="sxs-lookup"><span data-stu-id="ee728-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="67b08-105">Proiektuaren antolaketa sortzeko, sortu eguneko lan-orduak definitzen dituen proiektu-egutegia eta baita negozio-itxierak ere.</span><span class="sxs-lookup"><span data-stu-id="67b08-105">To create a project schedule, you create a project calendar template that defines the number of working hours per day and any business closures.</span></span> <span data-ttu-id="67b08-106">Proiektu-egutegiaren txantiloia sortzeko, lotu laneko txantiloi bat **Egutegiaren txantiloia** eremuarekin proiekturako.</span><span class="sxs-lookup"><span data-stu-id="67b08-106">To create a project calendar template, you associate a work template with the **Calendar template** field for the project.</span></span> <span data-ttu-id="67b08-107">Jarraitu urrats hauei lan-txantiloia sortzeko.</span><span class="sxs-lookup"><span data-stu-id="67b08-107">Follow these steps to create a work template.</span></span>
+<span data-ttu-id="ee728-105">Proiektu bat sortzeko eta kudeatzeko, egutegiaren txantiloia aplikatu behar diozu proiektuari.</span><span class="sxs-lookup"><span data-stu-id="ee728-105">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="ee728-106">Egutegiaren txantiloiak proiektuaren atributu hauek definitzen ditu:</span><span class="sxs-lookup"><span data-stu-id="ee728-106">The calendar template defines the following project attributes:</span></span>
 
-1. <span data-ttu-id="67b08-108">Ezkerreko nabigazio-panelean, hautatu **Baliabideak**.</span><span class="sxs-lookup"><span data-stu-id="67b08-108">In the left navigation pane, select **Resources**.</span></span> 
-2. <span data-ttu-id="67b08-109">**Baliabideak** zerrenda-orrian, ireki erabiltzaileen erregistroa eta hautatu hautatu **Erakutsi lanorduak**.</span><span class="sxs-lookup"><span data-stu-id="67b08-109">On the **Resources** list page, open a user record, and then select **Show Work Hours**.</span></span>
+- <span data-ttu-id="ee728-107">Lan orduak, hasiera eta amaiera orduak barne</span><span class="sxs-lookup"><span data-stu-id="ee728-107">Working hours, including start and end time</span></span>
+- <span data-ttu-id="ee728-108">Lanegunak</span><span class="sxs-lookup"><span data-stu-id="ee728-108">Working days</span></span>
+- <span data-ttu-id="ee728-109">Egutegiko salbuespenak, esate baterako, lanik gabeko egunak</span><span class="sxs-lookup"><span data-stu-id="ee728-109">Calendar exceptions such as non-working days</span></span>
 
-  > [!NOTE]
-  > <span data-ttu-id="67b08-110">Ziurtatu arakatzailearen orrian leiho gainerakorrak onartzen dituzula.</span><span class="sxs-lookup"><span data-stu-id="67b08-110">Make sure that you allow pop-ups on the browser page.</span></span> <span data-ttu-id="67b08-111">Horrek baliabiderako ezarritako lanorduak ikusteko aukera ematen du.</span><span class="sxs-lookup"><span data-stu-id="67b08-111">This lets you see the work hours set for the resource.</span></span>
-  
-3. <span data-ttu-id="67b08-112">**Hileroko ikuspegia** fitxan, hautatu **Konfiguratu** aukeran.</span><span class="sxs-lookup"><span data-stu-id="67b08-112">On the **Monthly View** tab, select **Set Up**.</span></span> <span data-ttu-id="67b08-113">Hiru aukeradun zerrenda bat agertzen da:</span><span class="sxs-lookup"><span data-stu-id="67b08-113">A list of three options appears:</span></span> 
+<span data-ttu-id="ee728-110">Proiektu bati aplikatu zaion egutegi txantiloia zure erakundearen ezarpenetan definitutako egutegi txantiloiaren kopia da.</span><span class="sxs-lookup"><span data-stu-id="ee728-110">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
 
-  - <span data-ttu-id="67b08-114">Asteko antolaketa berria</span><span class="sxs-lookup"><span data-stu-id="67b08-114">New Weekly Schedule</span></span>
-  - <span data-ttu-id="67b08-115">Egun baterako lan-antolaketa</span><span class="sxs-lookup"><span data-stu-id="67b08-115">Work Schedule for One Day</span></span>
-  - <span data-ttu-id="67b08-116">Astialdia</span><span class="sxs-lookup"><span data-stu-id="67b08-116">Time Off</span></span>
+> [!NOTE]
+> <span data-ttu-id="ee728-111">Egutegiaren txantiloia aldatzen baduzu, aldaketa horiek ez dira proiektuaren lan orduetara hedatuko.</span><span class="sxs-lookup"><span data-stu-id="ee728-111">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="ee728-112">Proiektuaren lan orduak aldatzeko, txantiloi berria aplikatu behar da.</span><span class="sxs-lookup"><span data-stu-id="ee728-112">To change the working hours of the project, a new template must be applied.</span></span>
 
-4. <span data-ttu-id="67b08-117">Hautatu **Asteko antolaketa berria** eta, ondoren, ezarri baliabideen antolaketa horretarako aukerak.</span><span class="sxs-lookup"><span data-stu-id="67b08-117">Select **New Weekly Schedule**, and then set the options for this resource schedule.</span></span> <span data-ttu-id="67b08-118">Asteroko ordutegi errepikakorra, eguneroko ordu-parametroak, negozioen itxiera eta beste batzuk ezar ditzakezu.</span><span class="sxs-lookup"><span data-stu-id="67b08-118">You can set a recurring weekly schedule, daily hour parameters, business closures, and more.</span></span>
-5. <span data-ttu-id="67b08-119">Ezarri data-tartea, hautatu **Gorde** eta, ondoren, hautatu **Itxi** aukeran.</span><span class="sxs-lookup"><span data-stu-id="67b08-119">Set the date range, select **Save**, and then select **Close**.</span></span> 
-6. <span data-ttu-id="67b08-120">Itzuli berriro **Baliabideak** zerrenda-orrira eta hautatu lanorduak zehaztu dituzun baliabidea.</span><span class="sxs-lookup"><span data-stu-id="67b08-120">Go back to the **Resources** list page, and select the resource that you set the work hours for.</span></span> 
-7. <span data-ttu-id="67b08-121">Hautatu **Ezarri egutegia honela** lan txantiloia ezartzeko.</span><span class="sxs-lookup"><span data-stu-id="67b08-121">Select **Set Calendar As** to set the work template.</span></span> 
-8. <span data-ttu-id="67b08-122">**Lan-txantiloia** elkarrizketa-koadroan, idatzi lan-txantiloiaren izena eta hautatu **Aplikatu**.</span><span class="sxs-lookup"><span data-stu-id="67b08-122">In the **Work Template** dialog box, enter a name for the work template, and then select **Apply**.</span></span> 
+<span data-ttu-id="ee728-113">Zure erakundearentzako egutegi txantiloia sortzeko, bi baldintza nagusi daude:</span><span class="sxs-lookup"><span data-stu-id="ee728-113">To create a calendar template for your organization, there are two key requirements:</span></span>
 
-<span data-ttu-id="67b08-123">Orain lan-txantiloia proiektuaren egutegi txantiloiarekin lotu dezakezu.</span><span class="sxs-lookup"><span data-stu-id="67b08-123">You can now associate the work template with a project calendar template.</span></span>
+- <span data-ttu-id="ee728-114">Zehaztu txantiloiaren nahi duzun lan ordua erreserbatzeko baliabide berri bat edo dagoeneko erabiliz.</span><span class="sxs-lookup"><span data-stu-id="ee728-114">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="ee728-115">Sortu egutegiaren txantiloi berria eta lotu txantiloia erreserbatzeko baliabidearekin.</span><span class="sxs-lookup"><span data-stu-id="ee728-115">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="ee728-116">**Definitu txantiloiko lanorduak**</span><span class="sxs-lookup"><span data-stu-id="ee728-116">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="ee728-117">Joan **Baliabideak** \> **Baliabideak** atalera.</span><span class="sxs-lookup"><span data-stu-id="ee728-117">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="ee728-118">Sortu baliabide berri bat egutegiaren txantiloian erreferentzia egiteko edo hautatu lehendik dagoen baliabide bat.</span><span class="sxs-lookup"><span data-stu-id="ee728-118">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="ee728-119">Aukeratu **Lanorduak** baliabidearen fitxa eta bete argibideak [Ezarri baliabide baten lan orduak](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) egutegiko arauak konfiguratzeko.</span><span class="sxs-lookup"><span data-stu-id="ee728-119">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="ee728-120">**Sortu egutegiaren txantiloi berri bat**</span><span class="sxs-lookup"><span data-stu-id="ee728-120">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="ee728-121">Joan **Ezarpenak** \> **Egutegiko txantiloia**.</span><span class="sxs-lookup"><span data-stu-id="ee728-121">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="ee728-122">Aukeratu **Berria**, eta idatzi izena, deskribapena eta txantiloiaren baliabidea.</span><span class="sxs-lookup"><span data-stu-id="ee728-122">Select **New**, and enter a name, description, and template resource.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="ee728-123">Baliabide bat egutegiaren txantiloian aipatzen denean, baliabidearen egutegiaren kopia egutegiaren txantiloiarekin lotzen da.</span><span class="sxs-lookup"><span data-stu-id="ee728-123">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="ee728-124">Kopiatutako txantiloiaren lanorduak aldatzen badituzu, aldaketa horiek ez dira egutegiko txantiloian automatikoki beteko.</span><span class="sxs-lookup"><span data-stu-id="ee728-124">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+<span data-ttu-id="ee728-125">Orain lan-txantiloia proiektuaren egutegi txantiloiarekin lotu dezakezu.</span><span class="sxs-lookup"><span data-stu-id="ee728-125">You can now associate the work template with a project calendar template.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
