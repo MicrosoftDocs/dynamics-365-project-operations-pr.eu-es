@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289579"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950384"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sinkronizatu proiektuen kontratuak eta proiektuak zuzenean Project Service Automation-etik Finance-ra 
 
@@ -109,8 +109,8 @@ Project Service Automation to Finance integrazio irtenbidea aplikatzen denean, b
 ## <a name="prerequisites-and-mapping-setup"></a>Aurrebaldintzak eta mapen konfigurazioa
 
 - Proiektuen kontratuen eta proiektuen sinkronizazioa gertatu aurretik, kontuak sinkronizatu behar dituzu.
-- Zure konexio multzoan, gehitu integrazio gako eremuen mapak **msdyn\_antolakuntza-unitateak** hurrengora **msdyn\_izena \[Izena\]**. Baliteke proiektu bat konexio multzoari gehitu behar izatea. Informazio gehiagorako, ikus [Integratu datuak Common Data Service Aplikazioetarako](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- Zure konexio multzoan, gehitu integrazio gako eremuen mapak **msdyn\_proiektuak** hurrengora **msdyn\_proiektuarenzenbakia \[Proiektuaren zenbakia\]**. Baliteke proiektu bat konexio multzoari gehitu behar izatea. Informazio gehiagorako, ikus [Integratu datuak Common Data Service Aplikazioetarako](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Zure konexio multzoan, gehitu integrazio gako eremuen mapak **msdyn\_antolakuntza-unitateak** hurrengora **msdyn\_izena \[Izena\]**. Baliteke proiektu bat konexio multzoari gehitu behar izatea. Informazio gehiagorako, ikus [Integratu datuak Common Data Service Aplikazioetarako](/powerapps/administrator/data-integrator).
+- Zure konexio multzoan, gehitu integrazio gako eremuen mapak **msdyn\_proiektuak** hurrengora **msdyn\_proiektuarenzenbakia \[Proiektuaren zenbakia\]**. Baliteke proiektu bat konexio multzoari gehitu behar izatea. Informazio gehiagorako, ikus [Integratu datuak Common Data Service Aplikazioetarako](/powerapps/administrator/data-integrator).
 - **SourceDataID** proiektuetarako kontratuak eta proiektuak beste balio batera eguneratu edo mapatik kendu daitezke. Txantiloi balio lehenetsia da **Project Service Automation**.
 - **Ordainketa baldintzak** mapak eguneratu behar dira, Finantzan ordainketa baldintzak baliozkoak izan daitezen. Kartografia proiektuaren zereginetik ere kendu dezakezu. Lehenetsitako balioen mapak balio lehenetsiak ditu demo datuetarako. Hurrengo taulan Project Service Automation-eko balioak agertzen dira.
 
@@ -131,7 +131,7 @@ Erabili Excel-erako Microsoft Power Query datuak iragazteko baldintza hauek bete
 Power Query erabili behar baduzu, jarraitu jarraibide hauek:
 
 - Proiektuak eta kontratuak (PSA Fin eta Ops) txantiloiak iragazki lehenetsia du, salmenta aginduak soilik biltzen dituena **Laneko elementua (msdyn\_ordertype = 192350001)** mota. Iragazki honek Finantzako salmenta-eskaeretarako proiektuen kontratuak ez direla bermatzen laguntzen du. Zure txantiloia sortzen baduzu, iragazki hau gehitu behar duzu.
-- Sortu Power Query iragazkia, integrazio konexio multzoaren entitate juridikoarekin sinkronizatuta egon beharko luketen kontratu erakundeak soilik biltzen dituena. Adibidez, Contoso AEBetako kontratuaren antolakuntza-unitatearekin dituzun proiektuen kontratuak USSI entitate juridikoarekin sinkronizatuta egon beharko lirateke, baina Contoso Global-en kontratuaren antolakuntza-unitatearekin dituzun proiektuen kontratuak USMF entitate juridikoarekin sinkronizatu beharko lirateke. Iragazki hau zure zereginen mapetan gehitzen ez baduzu, proiektuaren kontratu guztiak konexio multzoarentzako definitutako pertsona juridikoarekin sinkronizatuko dira, kontratuaren antolakuntza unitatea edozein dela ere.
+- Sortu Power Query iragazkia, integrazio konexio multzoaren entitate juridikoarekin sinkronizatuta egon beharko luketen kontratu erakundeak soilik biltzen dituena. Adibidez, kontratuaren antolakuntza-unitatearekin dituzun proiektuen kontratuak Contoso US USSI entitate juridikoarekin sinkronizatuta egon beharko lirateke, baina kontratuaren antolakuntza unitatearekin dituzun proiektuen kontratuak Contoso Global-ek USMF entitate juridikoarekin sinkronizatu behar du. Iragazki hau zure zereginen mapetan gehitzen ez baduzu, proiektuaren kontratu guztiak konexio multzoarentzako definitutako pertsona juridikoarekin sinkronizatuko dira, kontratuaren antolakuntza unitatea edozein dela ere.
 
 ## <a name="template-mapping-in-data-integration"></a>Datuen integrazioan txantiloien mapaketa
 

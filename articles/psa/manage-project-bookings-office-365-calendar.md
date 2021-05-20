@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275028"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950294"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Kudeatu proiektuak eta erreserbak egutegian (Project Service)
 
@@ -52,7 +52,7 @@ Ikusi hitzordu pertsonalak, proiektu-lanen erreserbak eta Field Service lan-eska
   
 - [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] Administratzaile Orokorraren edo Sistema Administratzailearen kredentzialak izan behar dituzu.  
   
-- Zure administratzaileak posta-zerbitzariaren profila konfiguratu beharko duzu eta erabiltzaile bakoitzak bere postontzia konfiguratu beharko du. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Konfiguratu posta prozesatzea zerbitzariaren sinkronizazioaren bidez](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Zure administratzaileak posta-zerbitzariaren profila konfiguratu beharko duzu eta erabiltzaile bakoitzak bere postontzia konfiguratu beharko du. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Konfiguratu posta prozesatzea zerbitzariaren sinkronizazioaren bidez](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Aktibatu erakundearen sinkronizazioa (administratzailearen zeregina)  
   

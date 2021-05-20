@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276873"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950519"
 ---
 # <a name="provision-a-new-environment"></a>Eman ingurune berri bat
 
@@ -36,7 +36,7 @@ Erabili urrats hauek zure LCS proiekturako Project Operations hornidura-fluxu au
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operations ingurunea hornitzea
 
-1. Ireki Dynamics 365 Finance [demo-ingurunea](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) edo [sandbox / produkzio ingurunea](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) inplementazioa. 
+1. Ireki Dynamics 365 Finance [demo-ingurunea](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) edo [sandbox / produkzio ingurunea](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) inplementazioa. 
 2. **Ingurumen hornidura** morroia eramatea. 
 
 > [!IMPORTANT]

@@ -1,6 +1,6 @@
 ---
 title: Sortu lanorduen-txantiloia
-description: Nola sortu lanorduen txantiloiak Project Service-n
+description: Gai honek nola sortu lanorduen txantiloiak Project Service-n deskribatzen du.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285018"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981240"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Sortu lanorduen txantiloiak (Project Service)
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Proiektu-antolaketak sortu baino lehen, lan-orduak definitzen dituen proiektu-egutegia konfiguratu behar duzu, antolaketa egunero egokitzeko baita negozio-itxierak ere. Lanorduen txantiloiekin egiten da hori. Egun bakoitzeko lanorduei, jaiegunei eta besteko negozio-itxierei buruzko informazioa baitute.  
-  
- Proiektua bat sortzen ari zerenean, lan-txantiloi bat proiektu-egutegi batekin lotu dezakezu, proiektu horren antolaketa aplikatzeko.  
-  
- Lanorduen txantiloia sortzeko bi modu daude:  
-  
--   Sortu lanorduen txantiloia baliabideen egutegian oinarrituta.  
-  
--   Sortu lanorduen txantiloi berri bat.  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>Lanorduen txantiloia baliabideen egutegian oinarrituta sortzeko  
-  
-1.  Joan **Project Service > Baliabideak** aukerara.  
-  
-2.  Hautatu lanorduen oinarri gisa hartu nahi duzun baliabidea.  
-  
-3.  Sakatu **Gorde egutegi gisa**, idatzi lanorduen txantiloiren izena eta, ondoren, sakatu **Gorde**.  
-  
-4.  Aukerak aldatzen amaitutakoan, sakatu **Gorde eta itxi**.  
-  
-5.  Sakatu **Gorde** pantailaren behe-eskuineko izkineko botoia.  
-  
-#### <a name="to-create-a-new-work-hours-template"></a>Lanorduen txantiloi berri bat sortzeko  
-  
-1.  Joan **Project Service > Lanorduen txantiloiak** aukerara.  
-  
-2.  Sakatu **Berria**.  
-  
-3.  Idatzi lanorduen txantiloiaren izena.  
-  
-4.  Hautatu lanorduak oinarritzeko baliabidea eta, ondoren, sakatu **Gorde**.  
-  
+Proiektu bat sortzeko eta kudeatzeko, egutegiaren txantiloia aplikatu behar diozu proiektuari. Egutegiaren txantiloiak proiektuaren atributu hauek definitzen ditu:
+
+- Lan orduak, hasiera eta amaiera orduak barne
+- Lanegunak
+- Egutegiko salbuespenak, esate baterako, lanik gabeko egunak
+
+Proiektu bati aplikatu zaion egutegi txantiloia zure erakundearen ezarpenetan definitutako egutegi txantiloiaren kopia da.
+
+> [!NOTE]
+> Egutegiaren txantiloia aldatzen baduzu, aldaketa horiek ez dira proiektuaren lan orduetara hedatuko. Proiektuaren lan orduak aldatzeko, txantiloi berria aplikatu behar da.
+
+Zure erakundearentzako egutegi txantiloia sortzeko, bi baldintza nagusi daude:
+
+- Zehaztu txantiloiaren nahi duzun lan ordua erreserbatzeko baliabide berri bat edo dagoeneko erabiliz.
+- Sortu egutegiaren txantiloi berria eta lotu txantiloia erreserbatzeko baliabidearekin.
+
+**Definitu txantiloiko lanorduak**
+
+1. Joan **Baliabideak** \> **Baliabideak** atalera.
+2. Sortu baliabide berri bat egutegiaren txantiloian erreferentzia egiteko edo hautatu lehendik dagoen baliabide bat.
+3. Aukeratu **Lanorduak** baliabidearen fitxa eta bete argibideak [Ezarri baliabide baten lan orduak](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) egutegiko arauak konfiguratzeko.
+
+**Sortu egutegiaren txantiloi berri bat**
+
+1. Joan **Ezarpenak** \> **Egutegiko txantiloia**.
+2. Aukeratu **Berria**, eta idatzi izena, deskribapena eta txantiloiaren baliabidea.
+
+
+> [!NOTE]
+> Baliabide bat egutegiaren txantiloian aipatzen denean, baliabidearen egutegiaren kopia egutegiaren txantiloiarekin lotzen da. Kopiatutako txantiloiaren lanorduak aldatzen badituzu, aldaketa horiek ez dira egutegiko txantiloian automatikoki beteko.
+
+
 ### <a name="see-also"></a>Ikusi baita ere  
- [Baliabideak konfiguratu](../psa/set-up-resources.md)
+ [Konfiguratu baliabideak](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

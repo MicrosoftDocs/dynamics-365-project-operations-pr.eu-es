@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 2cbce8fbfa622a143f3ebfc34d7d60a7da4a9171
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499881"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950871"
 ---
 # <a name="mobile-expense-app"></a>Mugikorreko gastuen aplikazioa
 
@@ -72,16 +72,16 @@ Plataformaren 3. eguneratzearekin edo berriagoarekin 1611 bertsioa zure erakunde
 <td>Sistemaren administratzailea</td>
 <td>KB 4019015 fitxategia duen X ++ eguneratze edo metadatuen zuzenketa zuzena da <strong>Gastuen kudeaketa</strong> mugikorreko lan eremua. KB 4019015 ezartzeko, zure sistemaren administratzaileak urrats hauek jarraitu behar ditu.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Deskargatu Lifecycle Services zerbitzuko eguneratzeak</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalatu metadatuen zuzenketa zuzena</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Sortu pakete inplementagarri bat</a> horrek dauka <strong>ApplicationSuite</strong> eta <strong>ExpenseMobile</strong> modeloak eta, ondoren, pakete inplementagarria LCS-ra igo.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplikatu pakete inplementagarria</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Deskargatu Lifecycle Services zerbitzuko eguneratzeak</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalatu metadatuen zuzenketa zuzena</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Sortu pakete inplementagarri bat</a> horrek dauka <strong>ApplicationSuite</strong> eta <strong>ExpenseMobile</strong> modeloak eta, ondoren, pakete inplementagarria LCS-ra igo.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplikatu pakete inplementagarria</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Argitaratu <strong>Gastuen kudeaketa</strong> mugikorreko lan eremua.</td>
 <td>Sistemaren administratzailea</td>
-<td>Ikusi <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Argitaratu mugikorreko lan eremua</a>.</td>
+<td>Ikusi <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Argitaratu mugikorreko lan eremua</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -122,11 +122,11 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 
 1. Zure gailu mugikorrean, ireki **Gastuen kudeaketa** lan eremua.
 2. Aukeratu **Gastuen sarrera azkarra**.
-3. Aukeratu gastuen kategoria. Lineaz kanpo erabiltzeko aplikazioan kargatutako gastuen kategoriaren zerrenda bat ikusiko duzu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) ikusi behar dute. Zure kategoria zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu gastuen kategorien arabera edo aldatu bilaketa gastu motaren arabera.
+3. Aukeratu gastuen kategoria. Lineaz kanpo erabiltzeko aplikazioan kargatutako gastuen kategoriaren zerrenda bat ikusiko duzu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) ikusi behar dute. Zure kategoria zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu gastuen kategorien arabera edo aldatu bilaketa gastu motaren arabera.
 4. Idatzi gastuaren transakzio data.
 5. Aukerakoa: sartu merkataria gastuaren truke.
 6. Idatzi gastuaren zenbatekoa.
-7. Hautatu gastuaren moneta. Lineaz kanpo erabiltzeko aplikazioan kargatutako moneta-kodeen zerrenda bat ikusiko duzu. Berez, 400 moneta kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) ikusi behar dute. Zure moneta zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu moneten arabera edo aldatu bilaketa izenaren arabera.
+7. Hautatu gastuaren moneta. Lineaz kanpo erabiltzeko aplikazioan kargatutako moneta-kodeen zerrenda bat ikusiko duzu. Berez, 400 moneta kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) ikusi behar dute. Zure moneta zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu moneten arabera edo aldatu bilaketa izenaren arabera.
 8. Aukeratu **Egin argazkia** edo **Aukeratu irudia**.
 9. Jarraitu urrats hauetako bat:
 
@@ -159,11 +159,11 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 7. Hautatu gastu bat edo gehiago zerrendan.
 8. Hautatu **Eginda**.
 9. Gastu txostenean gastu berri bat gehitzeko, hautatu **Gastu berria**.
-10. Aukeratu gastuaren kategoria. Lineaz kanpo erabiltzeko aplikazioan kargatutako gastuen kategoriaren zerrenda bat ikusiko duzu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) ikusi behar dute. Zure kategoria zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu gastuen kategorien arabera edo aldatu bilaketa gastu motaren arabera.
+10. Aukeratu gastuaren kategoria. Lineaz kanpo erabiltzeko aplikazioan kargatutako gastuen kategoriaren zerrenda bat ikusiko duzu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) ikusi behar dute. Zure kategoria zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu gastuen kategorien arabera edo aldatu bilaketa gastu motaren arabera.
 11. Aukerakoa: sartu merkataria gastuaren truke.
 12. Idatzi gastuaren transakzio data.
 13. Idatzi gastuaren zenbatekoa.
-14. Hautatu gastuaren moneta. Lineaz kanpo erabiltzeko aplikazioan kargatutako moneta-kodeen zerrenda bat ikusiko duzu. Berez, 400 moneta kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) ikusi behar dute. Zure moneta zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu moneten arabera edo aldatu bilaketa izenaren arabera.
+14. Hautatu gastuaren moneta. Lineaz kanpo erabiltzeko aplikazioan kargatutako moneta-kodeen zerrenda bat ikusiko duzu. Berez, 400 moneta kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) ikusi behar dute. Zure moneta zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu moneten arabera edo aldatu bilaketa izenaren arabera.
 15. Hautatu **Eginda**.
 16. Gastuari xehetasun gehiago emateko, hautatu **Gehitu xehetasun gehiago**. Eskuragarri dauden eremuak zure enpresako gastuen kudeaketaren konfigurazioaren araberakoak dira.
 17. Enpresaren gidalerroak gastuaren ordainagiria eskatzen badu, hautatu **Ordainagiriak**, eta jarraitu urrats hauei:
@@ -209,12 +209,12 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 
         - **Aurreko gonbidatuak** hautatu baduzu, jarraitu urrats hauei:
 
-            1. Hautatu aurreko gonbidatu bat edo gehiago zerrendan. Konexiorik gabe erabiltzeko zure aplikazioan kargatutako aurreko gastuen txostenetan gehitu dituzun aurreko gonbidatuen zerrenda ikusiko duzu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) ikusi behar dute. Zure aurreko gonbidatua zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu izenaren arabera edo aldatu erakundearen, herrialdearen edo izenburuaren arabera.
+            1. Hautatu aurreko gonbidatu bat edo gehiago zerrendan. Konexiorik gabe erabiltzeko zure aplikazioan kargatutako aurreko gastuen txostenetan gehitu dituzun aurreko gonbidatuen zerrenda ikusiko duzu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) ikusi behar dute. Zure aurreko gonbidatua zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu izenaren arabera edo aldatu erakundearen, herrialdearen edo izenburuaren arabera.
             2. Hautatu **Eginda**.
 
         - **Lankideak** hautatu baduzu, jarraitu urrats hauei:
 
-            1. Hautatu lankide bat edo gehiago zerrendan. Lineaz kanpo erabiltzeko aplikazioan kargatutako lankideen zerrenda bat ikusiko duzu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) ikusi behar dute. Zure lankide-zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu izenaren arabera edo aldatu enpresaren edo izenburuaren arabera.
+            1. Hautatu lankide bat edo gehiago zerrendan. Lineaz kanpo erabiltzeko aplikazioan kargatutako lankideen zerrenda bat ikusiko duzu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) ikusi behar dute. Zure lankide-zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu izenaren arabera edo aldatu enpresaren edo izenburuaren arabera.
             2. Hautatu **Eginda**.
 
     3. Aukeratu **Itzuli** botoia gastuaren xehetasunetara itzultzeko.
@@ -223,7 +223,7 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 
     1. Hautatu zehaztu nahi duzun lehen data.
     2. Aukeratu **Gehitu itemizazioa**.
-    3. Hautatu gastuen elementu egitearen azpikategoria. Lineaz kanpo erabiltzeko aplikazioan kargatutako gastuen azpikategoriaren zerrenda bat ikusiko duzu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) ikusi behar dute. Zure azpikategoria zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu gastuen azpikategoria izenaren arabera.
+    3. Hautatu gastuen elementu egitearen azpikategoria. Lineaz kanpo erabiltzeko aplikazioan kargatutako gastuen azpikategoriaren zerrenda bat ikusiko duzu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, garaitzaileek [Mugikorreko plataforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) ikusi behar dute. Zure azpikategoria zerrendan ez badago, hautatu **Bilatu** sareko bilaketa bat egiteko. Bilatu gastuen azpikategoria izenaren arabera.
     4. Idatzi transakzioaren zenbatekoa zehazteko.
     5. Editatu transakzioaren data beharrezkoa bada.
     6. Hautatu **Eginda**.

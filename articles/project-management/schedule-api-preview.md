@@ -3,17 +3,17 @@ title: Erabili Programazio APIak Planifikazio entitateekin eragiketak egiteko
 description: Gai honek Programazioa APIak erabiltzeko informazioa eta laginak eskaintzen ditu.
 author: sigitac
 manager: Annbe
-ms.date: 04/07/2021
+ms.date: 04/27/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a50a2c6220bb49de8146d0758019827e120e0526
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868114"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950789"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Erabili Programazio APIak Planifikazio entitateekin eragiketak egiteko
 
@@ -72,6 +72,190 @@ API hauek eremu pertsonalizatuak dituzten entitate objektuekin dei daitezke.
 
 Identifikazio propietatea aukerakoa da. Ematen bada, sistema erabiltzen saiatzen da eta salbuespen bat botatzen du ezin bada erabili. Ematen ez bada, sistemak sortuko du.
 
+## <a name="restricted-fields"></a>Eremu mugatuak
+
+Ondorengo tauletan mugatuta dauden eremuak zehazten dira **Sortu** eta **Editatu**.
+
+### <a name="project-task"></a>Proiektuaren zeregina
+
+| **Izen logikoa**                       | **Ez da sortu** | **Edita daiteke**     |
+|----------------------------------------|----------------|------------------|
+| msdyn_actualcost                       | ez             | ez               |
+| msdyn_actualcost_base                  | ez             | ez               |
+| msdyn_actualend                        | ez             | ez               |
+| msdyn_actualsales                      | ez             | ez               |
+| msdyn_actualsales_base                 | ez             | ez               |
+| msdyn_actualstart                      | ez             | ez               |
+| msdyn_costatcompleteestimate           | ez             | ez               |
+| msdyn_costatcompleteestimate_base      | ez             | ez               |
+| msdyn_costconsumptionpercentage        | ez             | ez               |
+| msdyn_effortcompleted                  | ez             | ez               |
+| msdyn_effortestimateatcomplete         | ez             | ez               |
+| msdyn_iscritical                       | ez             | ez               |
+| msdyn_iscriticalname                   | ez             | ez               |
+| msdyn_ismanual                         | ez             | ez               |
+| msdyn_ismanualname                     | ez             | ez               |
+| msdyn_ismilestone                      | ez             | ez               |
+| msdyn_ismilestonename                  | ez             | ez               |
+| msdyn_LinkStatus                       | ez             | ez               |
+| msdyn_linkstatusname                   | ez             | ez               |
+| msdyn_msprojectclientid                | ez             | ez               |
+| msdyn_plannedcost                      | ez             | ez               |
+| msdyn_plannedcost_base                 | ez             | ez               |
+| msdyn_plannedsales                     | ez             | ez               |
+| msdyn_plannedsales_base                | ez             | ez               |
+| msdyn_pluginprocessingdata             | ez             | ez               |
+| msdyn_progress                         | ez             | ez (bai P4W-rako) |
+| msdyn_remainingcost                    | ez             | ez               |
+| msdyn_remainingcost_base               | ez             | ez               |
+| msdyn_remainingsales                   | ez             | ez               |
+| msdyn_remainingsales_base              | ez             | ez               |
+| msdyn_requestedhours                   | ez             | ez               |
+| msdyn_resourcecategory                 | ez             | ez               |
+| msdyn_resourcecategoryname             | ez             | ez               |
+| msdyn_resourceorganizationalunitid     | ez             | ez               |
+| msdyn_resourceorganizationalunitidname | ez             | ez               |
+| msdyn_salesconsumptionpercentage       | ez             | ez               |
+| msdyn_salesestimateatcomplete          | ez             | ez               |
+| msdyn_salesestimateatcomplete_base     | ez             | ez               |
+| msdyn_salesvariance                    | ez             | ez               |
+| msdyn_salesvariance_base               | ez             | ez               |
+| msdyn_scheduleddurationminutes         | ez             | ez               |
+| msdyn_scheduledend                     | ez             | ez               |
+| msdyn_scheduledstart                   | ez             | ez               |
+| msdyn_schedulevariance                 | ez             | ez               |
+| msdyn_skipupdateestimateline           | ez             | ez               |
+| msdyn_skipupdateestimatelinename       | ez             | ez               |
+| msdyn_summary                          | ez             | ez               |
+| msdyn_varianceofcost                   | ez             | ez               |
+| msdyn_varianceofcost_base              | ez             | ez               |
+
+### <a name="project-task-dependency"></a>Proiektuaren zereginen mendekotasuna
+
+| **Izen logikoa**              | **Ez da sortu** | **Edita daiteke** |
+|-------------------------------|----------------|--------------|
+| msdyn_linktype                | ez             | ez           |
+| msdyn_linktypename            | ez             | ez           |
+| msdyn_predecessortask         | bai            | ez           |
+| msdyn_predecessortaskname     | bai            | ez           |
+| msdyn_project                 | bai            | ez           |
+| msdyn_projectname             | bai            | ez           |
+| msdyn_projecttaskdependencyid | bai            | ez           |
+| msdyn_successortask           | bai            | ez           |
+| msdyn_successortaskname       | bai            | ez           |
+
+### <a name="resource-assignment"></a>Baliabide-esleipena
+
+| **Izen logikoa**             | **Ez da sortu** | **Edita daiteke** |
+|------------------------------|----------------|--------------|
+| msdyn_bookableresourceid     | bai            | ez           |
+| msdyn_bookableresourceidname | bai            | ez           |
+| msdyn_bookingstatusid        | ez             | ez           |
+| msdyn_bookingstatusidname    | ez             | ez           |
+| msdyn_committype             | ez             | ez           |
+| msdyn_committypename         | ez             | ez           |
+| msdyn_effort                 | ez             | ez           |
+| msdyn_effortcompleted        | ez             | ez           |
+| msdyn_effortremaining        | ez             | ez           |
+| msdyn_finish                 | ez             | ez           |
+| msdyn_plannedcost            | ez             | ez           |
+| msdyn_plannedcost_base       | ez             | ez           |
+| msdyn_plannedcostcontour     | ez             | ez           |
+| msdyn_plannedsales           | ez             | ez           |
+| msdyn_plannedsales_base      | ez             | ez           |
+| msdyn_plannedsalescontour    | ez             | ez           |
+| msdyn_plannedwork            | ez             | ez           |
+| msdyn_projectid              | bai            | ez           |
+| msdyn_projectidname          | ez             | ez           |
+| msdyn_projectteamid          | ez             | ez           |
+| msdyn_projectteamidname      | ez             | ez           |
+| msdyn_start                  | ez             | ez           |
+| msdyn_taskid                 | ez             | ez           |
+| msdyn_taskidname             | ez             | ez           |
+| msdyn_userresourceid         | ez             | ez           |
+
+### <a name="project-team-member"></a>Proiektu-taldeko kidea
+
+| **Izen logikoa**                                 | **Ez da sortu** | **Edita daiteke** |
+|--------------------------------------------------|----------------|--------------|
+| msdyn_calendarid                                 | ez             | ez           |
+| msdyn_creategenericteammemberwithrequirementname | ez             | ez           |
+| msdyn_deletestatus                               | ez             | ez           |
+| msdyn_deletestatusname                           | ez             | ez           |
+| msdyn_effort                                     | ez             | ez           |
+| msdyn_effortcompleted                            | ez             | ez           |
+| msdyn_effortremaining                            | ez             | ez           |
+| msdyn_finish                                     | ez             | ez           |
+| msdyn_hardbookedhours                            | ez             | ez           |
+| msdyn_hours                                      | ez             | ez           |
+| msdyn_markedfordeletiontimer                     | ez             | ez           |
+| msdyn_markedfordeletiontimestamp                 | ez             | ez           |
+| msdyn_msprojectclientid                          | ez             | ez           |
+| msdyn_percentage                                 | ez             | ez           |
+| msdyn_requiredhours                              | ez             | ez           |
+| msdyn_softbookedhours                            | ez             | ez           |
+| msdyn_start                                      | ez             | ez           |
+
+### <a name="project"></a>Project
+
+| **Izen logikoa**                       | **Ez da sortu** | **Edita daiteke** |
+|----------------------------------------|----------------|--------------|
+| msdyn_actualexpensecost                | ez             | ez           |
+| msdyn_actualexpensecost_base           | ez             | ez           |
+| msdyn_actuallaborcost                  | ez             | ez           |
+| msdyn_actuallaborcost_base             | ez             | ez           |
+| msdyn_actualsales                      | ez             | ez           |
+| msdyn_actualsales_base                 | ez             | ez           |
+| msdyn_contractlineproject              | bai            | ez           |
+| msdyn_contractorganizationalunitid     | bai            | ez           |
+| msdyn_contractorganizationalunitidname | bai            | ez           |
+| msdyn_costconsumption                  | ez             | ez           |
+| msdyn_costestimateatcomplete           | ez             | ez           |
+| msdyn_costestimateatcomplete_base      | ez             | ez           |
+| msdyn_costvariance                     | ez             | ez           |
+| msdyn_costvariance_base                | ez             | ez           |
+| msdyn_duration                         | ez             | ez           |
+| msdyn_effort                           | ez             | ez           |
+| msdyn_effortcompleted                  | ez             | ez           |
+| msdyn_effortestimateatcompleteeac      | ez             | ez           |
+| msdyn_effortremaining                  | ez             | ez           |
+| msdyn_finish                           | bai            | bai          |
+| msdyn_globalrevisiontoken              | ez             | ez           |
+| msdyn_islinkedtomsprojectclient        | ez             | ez           |
+| msdyn_islinkedtomsprojectclientname    | ez             | ez           |
+| msdyn_linkeddocumenturl                | ez             | ez           |
+| msdyn_msprojectdocument                | ez             | ez           |
+| msdyn_msprojectdocumentname            | ez             | ez           |
+| msdyn_plannedexpensecost               | ez             | ez           |
+| msdyn_plannedexpensecost_base          | ez             | ez           |
+| msdyn_plannedlaborcost                 | ez             | ez           |
+| msdyn_plannedlaborcost_base            | ez             | ez           |
+| msdyn_plannedsales                     | ez             | ez           |
+| msdyn_plannedsales_base                | ez             | ez           |
+| msdyn_progress                         | ez             | ez           |
+| msdyn_remainingcost                    | ez             | ez           |
+| msdyn_remainingcost_base               | ez             | ez           |
+| msdyn_remainingsales                   | ez             | ez           |
+| msdyn_remainingsales_base              | ez             | ez           |
+| msdyn_replaylogheader                  | ez             | ez           |
+| msdyn_salesconsumption                 | ez             | ez           |
+| msdyn_salesestimateatcompleteeac       | ez             | ez           |
+| msdyn_salesestimateatcompleteeac_base  | ez             | ez           |
+| msdyn_salesvariance                    | ez             | ez           |
+| msdyn_salesvariance_base               | ez             | ez           |
+| msdyn_scheduleperformance              | ez             | ez           |
+| msdyn_scheduleperformancename          | ez             | ez           |
+| msdyn_schedulevariance                 | ez             | ez           |
+| msdyn_taskearlieststart                | ez             | ez           |
+| msdyn_teamsize                         | ez             | ez           |
+| msdyn_teamsize_date                    | ez             | ez           |
+| msdyn_teamsize_state                   | ez             | ez           |
+| msdyn_totalactualcost                  | ez             | ez           |
+| msdyn_totalactualcost_base             | ez             | ez           |
+| msdyn_totalplannedcost                 | ez             | ez           |
+| msdyn_totalplannedcost_base            | ez             | ez           |
+
+
 ## <a name="limitations-and-known-issues"></a>Mugak eta arazo ezagunak
 Jarraian agertzen diren mugen eta arazo ezagunen zerrenda:
 
@@ -85,12 +269,18 @@ Jarraian agertzen diren mugen eta arazo ezagunen zerrenda:
 - Gaur egun, Project Operations-ek gehienez 500 zeregin onartzen dituzte proiektu batean.
 - **OperationSet** hutsegiteen egoera eta hutsegiteen erregistroak ez daude erabilgarri une honetan.
 - Antolaketa APIak aurreargitalpen publikoan daude. API hauek ekoizpen-ingurunean erabiltzea ez da Microsoft-ek onartzen.
+- [Proiektuetako eta zereginetako mugak](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+
+## <a name="error-handling"></a>Errore-kudeaketa
+
+   - Eragiketa multzoetatik sortutako akatsak berrikusteko, joan **Ezarpenak** \> **Ordutegien integrazioa** \> **Eragiketa multzoak** aukerara.
+   - Proiektua Antolatzeko Zerbitzutik sortutako akatsak berrikusteko, joan **Ezarpenak** \> **Ordutegien integrazioa** \> **PSS erroreen erregistroak** aukerara.
 
 ## <a name="sample-scenario"></a>Laginaren egoera
 
 Eszenatoki honetan, proiektu bat, taldekide bat, lau ataza eta bi baliabide esleipen sortuko dituzu. Ondoren, zeregin bat eguneratu, proiektua eguneratu, zeregin bat ezabatu, baliabideen esleipen bat ezabatu eta atazaren mendekotasuna sortuko duzu.
 
-```C#
+```csharp
 Entity project = CreateProject();
 project.Id = CallCreateProjectAction(project);
 var projectReference = project.ToEntityReference();
@@ -106,18 +296,18 @@ var operationSetId = CallCreateOperationSetAction(project.Id, description);
 var task1 = GetTask("1WW", projectReference);
 var task2 = GetTask("2XX", projectReference, task1.ToEntityReference());
 var task3 = GetTask("3YY", projectReference);
-var task4 = GetTask("4ZZ";, projectReference);
+var task4 = GetTask("4ZZ", projectReference);
 
 var assignment1 = GetResourceAssignment("R1", teamMember, task2, project);
-var assignment2 = GetResourceAssignment"R2", teamMember, task3, project);
+var assignment2 = GetResourceAssignment("R2", teamMember, task3, project);
 
 var task1Response = CallPssCreateAction(task1, operationSetId);
 var task2Response = CallPssCreateAction(task2, operationSetId);
 var task3Response = CallPssCreateAction(task3, operationSetId);
 var task4Response = CallPssCreateAction(task4, operationSetId);
 
-varassignment1Response = CallPssCreateAction(assignment1, operationSetId);
-varassignment2Response = CallPssCreateAction(assignment2, operationSetId);
+var assignment1Response = CallPssCreateAction(assignment1, operationSetId);
+var assignment2Response = CallPssCreateAction(assignment2, operationSetId);
 
 task2["msdyn_subject"] = "Updated Task";
 var task2UpdateResponse = CallPssUpdateAction(task2, operationSetId);
@@ -127,7 +317,7 @@ var projectUpdateResponse = CallPssUpdateAction(project, operationSetId);
 
 var task4DeleteResponse = CallPssDeleteAction(task4.Id.ToString(), task4.LogicalName, operationSetId);
 
-varassignment2DeleteResponse = CallPssDeleteAction(assignment2.Id.ToString(), assignment2.LogicalName, operationSetId);
+var assignment2DeleteResponse = CallPssDeleteAction(assignment2.Id.ToString(), assignment2.LogicalName, operationSetId);
 
 var dependency1 = GetTaskDependency(project, task2, task3);
 var dependency1Response = CallPssCreateAction(dependency1, operationSetId);
@@ -138,16 +328,16 @@ Console.WriteLine("Done....");
 
 ## <a name="additional-samples"></a>Lagin osagarriak
 
-```C#
-#region Call actions 
+```csharp
+#region Call actions --- Sample code ----
 
-///<summary>
+/// <summary>
 /// Calls the action to create an operationSet
 /// </summary>
-/// <paramname="projectId">project id for the operations to be included in this operationSet>/param>
-/// <paramname="description">description of this operationSet</param>
+/// <param name="projectId">project id for the operations to be included in this operationSet</param>
+/// <param name="description">description of this operationSet</param>
 /// <returns>operationSet id</returns>
-privatestring CallCreateOperationSetAction(Guid projectId, string description)
+private string CallCreateOperationSetAction(Guid projectId, string description)
 {
     OrganizationRequest operationSetRequest = new OrganizationRequest("msdyn_CreateOperationSetV1");
     operationSetRequest["ProjectId"] = projectId.ToString();
@@ -159,9 +349,10 @@ privatestring CallCreateOperationSetAction(Guid projectId, string description)
 /// <summary>
 /// Calls the action to create an entity, only Task and Resource Assignment for now
 /// </summary>
-/// <paramname="entity">Task or Resource Assignment</param>
-/// <paramname="operationSetId">operationSet id</param>
+/// <param name="entity">Task or Resource Assignment</param>
+/// <param name="operationSetId">operationSet id</param>
 /// <returns>OperationSetResponse</returns>
+
 private OperationSetResponse CallPssCreateAction(Entity entity, string operationSetId)
 {
     OrganizationRequest operationSetRequest = new OrganizationRequest("msdyn_PssCreateV1");
@@ -170,11 +361,11 @@ private OperationSetResponse CallPssCreateAction(Entity entity, string operation
     return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
 }
 
-/// <summary<
+/// <summary>
 /// Calls the action to update an entity, only Task for now
 /// </summary>
-/// <paramname="entity">Task or Resource Assignment</param>
-/// <paramname="operationSetId">operationSet Id</param>
+/// <param name="entity">Task or Resource Assignment</param>
+/// <param name="operationSetId">operationSet Id</param>
 /// <returns>OperationSetResponse</returns>
 private OperationSetResponse CallPssUpdateAction(Entity entity, string operationSetId)
 {
@@ -186,10 +377,10 @@ private OperationSetResponse CallPssUpdateAction(Entity entity, string operation
 
 /// <summary>
 /// Calls the action to update an entity, only Task and Resource Assignment for now
-/// <summary>
-/// <paramname="recordId">Id of the record to be deleted</param>
-/// <paramname="entityLogicalName">Entity logical name of the record</param>
-/// <paramname="operationSetId">OperationSet Id</param>
+/// </summary>
+/// <param name="recordId">Id of the record to be deleted</param>
+/// <param name="entityLogicalName">Entity logical name of the record</param>
+/// <param name="operationSetId">OperationSet Id</param>
 /// <returns>OperationSetResponse</returns>
 private OperationSetResponse CallPssDeleteAction(string recordId, string entityLogicalName, string operationSetId)
 {
@@ -202,8 +393,8 @@ private OperationSetResponse CallPssDeleteAction(string recordId, string entityL
 
 /// <summary>
 /// Calls the action to execute requests in an operationSet
-/// <summary>
-/// <paramname="operationSetId">operationSet id</param>
+/// </summary>
+/// <param name="operationSetId">operationSet id</param>
 /// <returns>OperationSetResponse</returns>
 private OperationSetResponse CallExecuteOperationSetAction(string operationSetId)
 {
@@ -215,7 +406,7 @@ private OperationSetResponse CallExecuteOperationSetAction(string operationSetId
 /// <summary>
 /// This can be used to abandon an operationSet that is no longer needed
 /// </summary>
-/// <paramname="operationSetId">operationSet id</param>
+/// <param name="operationSetId">operationSet id</param>
 /// <returns>OperationSetResponse</returns>
 protected OperationSetResponse CallAbandonOperationSetAction(Guid operationSetId)
 {
@@ -224,27 +415,27 @@ protected OperationSetResponse CallAbandonOperationSetAction(Guid operationSetId
     return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
 }
 
+
 /// <summary>
 /// Calls the action to create a new project
 /// </summary>
-/// <paramname="project">Project</param>
+/// <param name="project">Project</param>
 /// <returns>project Id</returns>
 private Guid CallCreateProjectAction(Entity project)
 {
-    OrganizationRequest createProjectRequest = new OrganizationRequest("msdyn_CreateProjectV1";
+    OrganizationRequest createProjectRequest = new OrganizationRequest("msdyn_CreateProjectV1");
     createProjectRequest["Project"] = project;
     OrganizationResponse response = organizationService.Execute(createProjectRequest);
     var projectId = Guid.Parse((string)response["ProjectId"]);
-
     return projectId;
 }
 
 /// <summary>
 /// Calls the action to create a new project team member
 /// </summary>
-/// <paramname="teamMember">Project team member</param>
+/// <param name="teamMember">Project team member</param>
 /// <returns>project team member Id</returns>
-privatestring CallCreateTeamMemberAction(Entity teamMember)
+private string CallCreateTeamMemberAction(Entity teamMember)
 {
     OrganizationRequest request = new OrganizationRequest("msdyn_CreateTeamMemberV1");
     request["TeamMember"] = teamMember;
@@ -254,13 +445,12 @@ privatestring CallCreateTeamMemberAction(Entity teamMember)
 
 private OperationSetResponse GetOperationSetResponseFromOrgResponse(OrganizationResponse orgResponse)
 {
-    return JsonConvert.DeserializeObject><OperationSetResponse>
-    ((string)orgResponse.Results["OperationSetResponse";]);
+    return JsonConvert.DeserializeObject<OperationSetResponse>((string)orgResponse.Results["OperationSetResponse"]);
 }
 
 private EntityCollection GetDefaultBucket(EntityReference projectReference)
 {
-    var columnsToFetch = new ColumnSet(";msdyn_project", "msdyn_name");
+    var columnsToFetch = new ColumnSet("msdyn_project", "msdyn_name");
     var getDefaultBucket = new QueryExpression("msdyn_projectbucket")
     {
         ColumnSet = columnsToFetch,
@@ -273,6 +463,7 @@ private EntityCollection GetDefaultBucket(EntityReference projectReference)
             }
         }
     };
+
     return organizationService.RetrieveMultiple(getDefaultBucket);
 }
 
@@ -281,7 +472,7 @@ private Entity GetBucket(EntityReference projectReference)
     var bucketCollection = GetDefaultBucket(projectReference);
     if (bucketCollection.Entities.Count > 0)
     {
-    return bucketCollection[0].ToEntity<Entity>();
+        return bucketCollection[0].ToEntity<Entity>();
     }
 
     throw new Exception($"Please open project with id {projectReference.Id} in the Dynamics UI and navigate to the Tasks tab");
@@ -291,15 +482,18 @@ private Entity CreateProject()
 {
     var project = new Entity("msdyn_project", Guid.NewGuid());
     project["msdyn_subject"] = $"Proj {DateTime.Now.ToShortTimeString()}";
+
     return project;
 }
+
+
 
 private Entity GetTask(string name, EntityReference projectReference, EntityReference parentReference = null)
 {
     var task = new Entity("msdyn_projecttask", Guid.NewGuid());
     task["msdyn_project"] = projectReference;
     task["msdyn_subject"] = name;
-    task["msdyn_effort";] = 4d;
+    task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
     task["msdyn_progress"] = 0.34m;
@@ -309,10 +503,10 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
 
     //Custom field handling
     /*
-        task["new_custom1"] = "Just my test";
-        task[";new_age"] = 98;
-        task["new_amount"] = 591.34m;
-        task["new_isready"] = new OptionSetValue(100000000);
+    task["new_custom1"] = "Just my test";
+    task["new_age"] = 98;
+    task["new_amount"] = 591.34m;
+    task["new_isready"] = new OptionSetValue(100000000);
     */
 
     if (parentReference == null)
@@ -323,6 +517,7 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     {
         task["msdyn_parenttask"] = parentReference;
     }
+
     return task;
 }
 
@@ -335,6 +530,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_name"] = name;
     assignment["msdyn_start"] = DateTime.Now;
     assignment["msdyn_finish"] = DateTime.Now;
+
     return assignment;
 }
 
@@ -345,30 +541,32 @@ protected Entity GetTaskDependency(Entity project, Entity predecessor, Entity su
     taskDependency["msdyn_predecessortask"] = predecessor.ToEntityReference();
     taskDependency["msdyn_successortask"] = successor.ToEntityReference();
     taskDependency["msdyn_linktype"] = new OptionSetValue(192350000);
+
     return taskDependency;
 }
 
 #endregion
 
+
 #region OperationSetResponse DataContract --- Sample code ----
 
 [DataContract]
-publicclassOperationSetResponse
+public class OperationSetResponse
 {
-    [DataMember(Name = "operationSetId")]
-    public Guid OperationSetId { get; set; }
+[DataMember(Name = "operationSetId")]
+public Guid OperationSetId { get; set; }
 
-    [DataMember(Name = "operationSetDetailId")]
-    public Guid OperationSetDetailId { get; set; }
+[DataMember(Name = "operationSetDetailId")]
+public Guid OperationSetDetailId { get; set; }
 
-    [DataMember(Name = "operationType")]
-    publicstring OperationType { get; set; }
+[DataMember(Name = "operationType")]
+public string OperationType { get; set; }
 
-    [DataMember(Name = "recordId")]
-    publicstring RecordId { get; set; }
+[DataMember(Name = "recordId")]
+public string RecordId { get; set; }
 
-    [DataMember(Name = "correlationId")]
-    publicstring CorrelationId { get; set; }
+[DataMember(Name = "correlationId")]
+public string CorrelationId { get; set; }
 }
 
 #endregion

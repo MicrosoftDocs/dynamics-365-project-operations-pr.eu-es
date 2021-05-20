@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282273"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951374"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Hasi saioa Project Service Automation-en
 
@@ -39,7 +39,7 @@ Dynamics 365 aplikazioetan saioa hastean, administratzaileari buruzko informazio
   
 - Pasahitza  
   
-  Ziurrenik administratzaileak bidali dizun mezu elektronikoan jaso duzu informazio hori. Informazio hori falta bazaizu edo arazoak badituzu saioa hasteko, ikusi [Bilatu zure administratzailea edo laguntza-zerbitzuko teknikaria](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Ziurrenik administratzaileak bidali dizun mezu elektronikoan jaso duzu informazio hori. Informazio hori falta bazaizu edo arazoak badituzu saioa hasteko, ikusi [Bilatu zure administratzailea edo laguntza-zerbitzuko teknikaria](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Ezarri aukera pertsonalak mezu elektronikoari uzteko  
  Posta elektronikoaren ezarpenak konfiguratu behar dituzu besteei zure izenean mezu elektronikoak bidaltzen uzteko, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] eginbideak posta-jakinarazpenak bidali ahal izateko, denbora eta gastuak dituzunerako edo proiektuak erregistratzeko.  

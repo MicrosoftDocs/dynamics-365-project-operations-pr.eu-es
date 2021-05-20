@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288859"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950159"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Proiektuaren denbora sartzeko mugikorreko lan eremua
 
@@ -48,7 +48,7 @@ Zehazki, **Proiektuaren denbora sarrera** mugikorreko laneko eremuan, erabiltzai
 Aurrebaldintzak desberdinak dira, bertsioaren arabera Microsoft Dynamics 365 zure erakundean inplementatu dena.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Erabiliz gero aurrebaldintzak Dynamics 365 Finance
-Finantzak zure erakundean hedatu badira, sistemaren administratzaileak argitaratu beharko du **Proiektuaren denbora sarrera** mugikorreko lan eremua. Argibideak lortzeko, ikusi [Argitaratu mugikorreko lan eremua](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Finantzak zure erakundean hedatu badira, sistemaren administratzaileak argitaratu beharko du **Proiektuaren denbora sarrera** mugikorreko lan eremua. Argibideak lortzeko, ikusi [Argitaratu mugikorreko lan eremua](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Aurrebaldintzak 1611 bertsioa Plataformako 3. eguneratzearekin edo berriagoarekin erabiltzen baduzu
 Plataformaren 3. eguneratzearekin edo berriagoarekin 1611 bertsioa zure erakundean hedatu bada, sistemaren administratzaileak honako baldintza hauek bete beharko ditu. 
@@ -68,17 +68,17 @@ Plataformaren 3. eguneratzearekin edo berriagoarekin 1611 bertsioa zure erakunde
 <td>Sistemaren administratzailea</td>
 <td>KB 4018050 fitxategia duen X ++ eguneratze edo metadatuen zuzenketa zuzena da <strong>Proiektuaren denbora sarrera</strong> mugikorreko lan eremua. KB 4018050 ezartzeko, zure sistemaren administratzaileak urrats hauek jarraitu behar ditu.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Deskargatu metadatuen zuzenketa Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalatu metadatuen zuzenketa zuzena</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Sortu pakete inplementagarri bat</a> horrek dauka <strong>ApplicationSuite</strong> eta <strong>ProjectMobile</strong> modeloak eta, ondoren, pakete inplementagarria LCS-ra igo.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplikatu pakete inplementagarria</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Deskargatu metadatuen zuzenketa Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalatu metadatuen zuzenketa zuzena</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Sortu pakete inplementagarri bat</a> horrek dauka <strong>ApplicationSuite</strong> eta <strong>ProjectMobile</strong> modeloak eta, ondoren, pakete inplementagarria LCS-ra igo.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplikatu pakete inplementagarria</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Argitaratu <strong>Proiektuaren denbora-sarrera</strong> mugikorreko lan-eremua.</td>
 <td>Sistemaren administratzailea</td>
-<td>Ikusi <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Argitaratu mugikorreko lan eremua</a>.</td>
+<td>Ikusi <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Argitaratu mugikorreko lan eremua</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ Deskargatu eta instalatu Finance and Operations mugikorreko aplikazioa:
 2.  Hautatu **Denbora-sarrera**. Uneko asteko egutegiaren datak agertzen dira.
 3.  Aukeratutako data baterako, hautatu **Ekintzak** &gt; **Sarrera berria**.
 4.  Idatzi zenbakia orduena erregistratzeko.
-5.  Aukeratu proiektua denbora sarrerako. Zerrenda batek zure aplikazioan konexiorik gabe erabiltzeko kargatutako proiektuak erakusten ditu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, ikusi [Mugikorreko plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Aukeratu proiektua denbora sarrerako. Zerrenda batek zure aplikazioan konexiorik gabe erabiltzeko kargatutako proiektuak erakusten ditu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, ikusi [Mugikorreko plataforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Zure proiektua zerrendan ez badago, hautatu **Bilatu**. Bilatu izenaren arabera edo aldatu proiektuaren izenaren edo bezeroaren arabera.
-7.  Hautatu kategoria bat. Zerrenda batek zure aplikazioan konexiorik gabe erabiltzeko kargatutako kategoriak erakusten ditu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, ikusi [Mugikorreko plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Hautatu kategoria bat. Zerrenda batek zure aplikazioan konexiorik gabe erabiltzeko kargatutako kategoriak erakusten ditu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, ikusi [Mugikorreko plataforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Zure kategoria zerrendan ez badago, hautatu **Bilatu**. Bilatu kategorien arabera edo aldatu bilaketa kategoriaren izenaren arabera.
-9.  Hautatu jarduera. Zerrenda batek zure aplikazioan konexiorik gabe erabiltzeko kargatutako jarduerak erakusten ditu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, ikusi [Mugikorreko plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Hautatu jarduera. Zerrenda batek zure aplikazioan konexiorik gabe erabiltzeko kargatutako jarduerak erakusten ditu. Berez, 50 elementu kargatzen dira, baina garatzaile batek zenbaki hori alda dezake. Informazio gehiagorako, ikusi [Mugikorreko plataforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Zure jarduera zerrendan ez badago, hautatu **Bilatu**. Bilatu jardueraren zenbakiaren arabera edo aldatu helburuaren arabera.
 
 11. Aukeratu lerroaren jabetza.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290074"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950249"
 ---
 # <a name="deploy-project-operations---lite"></a>Inplementatu Project Operations - arina
 
@@ -34,14 +34,14 @@ Project Operations-ek inplementazio eredu ugari onartzen ditu. Inplementazio ere
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Instalatu Project Operations CDS ingurune berri batean
 
-1. [Globala edo Power Platform Administratzailea](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) Project Operations lizentziarekin, sortu CDS ingurune berria [PowerPlatform administrazio-zentroan](https://admin.powerplatform.com). Ziurtatu **CDS datu-basea** eta **Dynamics 365 aplikazioak** gaituta daudela. Informazio gehiago lortzeko, ikusi [Sortu eta kudeatu inguruneak Power Platform administrazio-zentroan](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. [Globala edo Power Platform Administratzailea](/power-platform/admin/global-service-administrators-can-administer-without-license) Project Operations lizentziarekin, sortu CDS ingurune berria [PowerPlatform administrazio-zentroan](https://admin.powerplatform.com). Ziurtatu **CDS datu-basea** eta **Dynamics 365 aplikazioak** gaituta daudela. Informazio gehiago lortzeko, ikusi [Sortu eta kudeatu inguruneak Power Platform administrazio-zentroan](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Aukeratu **Microsoft Dynamics 365 Project Operations** Dynamics 365 aplikazioen hedapen zerrendatik.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Instalatu Project Operations lehendik dagoen CDS ingurune batean
 
-1. [Orokorra edo Power Platform Administratzaile](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) gisa Project Operations lizentziarekin, kokatu ingurunea [PowerPlatform administrazio-zentroa](https://admin.powerplatform.com) Project Operations instalatu nahi dituzunean.
-2. Instalatu **Microsoft Dynamics 365 Project Operations** Dynamics 365 aplikazioen hedapen zerrendatik. Informazio gehiago eskuratzeko, irakurri [Kudeatu Dynamics 365 aplikazioak](https://docs.microsoft.com/power-platform/admin/manage-apps).
+1. [Orokorra edo Power Platform Administratzaile](/power-platform/admin/global-service-administrators-can-administer-without-license) gisa Project Operations lizentziarekin, kokatu ingurunea [PowerPlatform administrazio-zentroa](https://admin.powerplatform.com) Project Operations instalatu nahi dituzunean.
+2. Instalatu **Microsoft Dynamics 365 Project Operations** Dynamics 365 aplikazioen hedapen zerrendatik. Informazio gehiago eskuratzeko, irakurri [Kudeatu Dynamics 365 aplikazioak](/power-platform/admin/manage-apps).
 
 
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284163"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949619"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Zer da Dynamics 365 Project Service Automation?
 
@@ -47,10 +47,10 @@ Horrez gain, proiektua oinarritutako lanerako zure ideiekin lagun kontrolatu eta
 ## <a name="whats-new-in-psa"></a>PSAren berritasunak
 Taldearen eguneratzeak berrienetik gure announce excited da! Erabiltzaile-interfazean hobekuntzak, arazoak konpondu eta eginbide eta gaitasun garrantzitsuak gehitu dira. Egiten duzun; listened dugu.
 
-Begiratu [19ko urriko argitalpen-oharrak](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index), hobekuntza eta gehikuntza berrienak ikusteko.
+Begiratu [19ko urriko argitalpen-oharrak](/dynamics365-release-plan/2019wave2/index), hobekuntza eta gehikuntza berrienak ikusteko.
 
 ### <a name="in-development"></a>Garapenean
-Etorkizunerako pentsatu duguna ikusteko, joan [Dynamics 365: 2020ko bertsioaren 1. plana](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Etorkizunerako pentsatu duguna ikusteko, joan [Dynamics 365: 2019ko bertsioaren 1. plana](/dynamics365-release-plan/2020wave1/index) aukerara.
 
 ## <a name="get-help-with-psa-version-3x"></a>PSA aplikazioaren bertsioa laguntza 3.x
 Baliabideak antolatu inplementazioan laguntzeko bilatzen? Deskarga gidak horiek babesa.

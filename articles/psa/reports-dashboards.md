@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283353"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951509"
 ---
 # <a name="dashboards"></a>Aginte-panelak
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation aplikazioak sistemaren bi aginte-panel d
 
 ## <a name="practice-manager"></a>Praktika-administratzailea 
 
-**Praktika-administratzailea** panelak praktika-administratzaileei panelaren egoera grafikoa eskaintzen die kostuen, salmenten eta marjin gordinaren eta erabileraren jarraipena egiteko. Praktika-administratzaileei informazioa hainbat dimentsioren arabera zatitzen uzten die, hala nola, bezeroak, proiektua edo baliabidea funtzioa. Panelak sortzeko eta pertsonalizatzeko moduari buruzko informazio gehiago lortzeko, ikusi [Sortu edo editatu panelak](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+**Praktika-administratzailea** panelak praktika-administratzaileei panelaren egoera grafikoa eskaintzen die kostuen, salmenten eta marjin gordinaren eta erabileraren jarraipena egiteko. Praktika-administratzaileei informazioa hainbat dimentsioren arabera zatitzen uzten die, hala nola, bezeroak, proiektua edo baliabidea funtzioa. Panelak sortzeko eta pertsonalizatzeko moduari buruzko informazio gehiago lortzeko, ikusi [Sortu edo editatu panelak](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Baliabide-kudeatzailea 
 

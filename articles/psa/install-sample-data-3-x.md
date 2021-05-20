@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275073"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950564"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service aplikazioaren adibide-datuen instalazioa
 
@@ -136,7 +136,7 @@ Datuak erakusgai paketea sei erabiltzaileak behar du. Behar bezala instalatu pak
     - Erabiltzailearen Fullname = "Molly Clark" gisa Kontu-Kudeatzailea   
     - Erabiltzailearen Fullname = "Spencer txikia" Balioari Practice gisa eta Proiektua Kudeatzailea  
     - Erabiltzailearen Fullname = "Veronica Quek" Taldeko Kide gisa   
-    - Erabiltzailearen Fullname = "William Contoso"
+    - Erabiltzailearen izen-abizenak = "William Contoso"
   
 2. Datuak inportatzeko erakusgai helburuetarako, buruari esleitzen, Administratzailearen funtzioa gaineko sei erabiltzaileak adibidea erregistroak behar bezala inportatu. 
 
@@ -149,7 +149,7 @@ Datuak erakusgai paketea sei erabiltzaileak behar du. Behar bezala instalatu pak
 
 5. Lehen erabiltzailearen egutegia (aplikazioan- **userstocreateandconfigure** tag) erakusgai datuak atalean bookable baliabide guztiak lanorduak betetzeko erabiltzen da. Joan **Ezarpenak** > **Segurtasun** > **Erabiltzaileak**"Spencer txikia Balioa" erabiltzaileak aurkitzeko, eta ireki "Lanorduak" aukera. Dauden lanorduak, hautatu editatu, **asteko antolaketa errepikaria hasieratik amaiera Osoa** aukera. Ziurtatu **lanorduak konfiguratuta badaude, 8 AM - 5 PM (9 Ordu iraungo ditu), Bostetara Ostiralera eta ezarri Pazifikoko Ordua (aeb eta Kanada) Timezone batekin**. Ziurtatu Proiektua eta Antolaketa board bezala erakutsi egin behar da hau.
 
-**Recommendation:** Hartu orain, zure erakundea babeskopia sortzen kasuen leheneratu edukitzeko hasiera zure zerbait behar da adibide-datuen instalazioa egiterakoan baduzu beharko duzu. Informazio gehiago eskuratzeko, ikusi [Egin instantzien babeskopia eta leheneratu](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recommendation:** Hartu orain, zure erakundea babeskopia sortzen kasuen leheneratu edukitzeko hasiera zure zerbait behar da adibide-datuen instalazioa egiterakoan baduzu beharko duzu. Informazio gehiago eskuratzeko, ikusi [Egin instantzien babeskopia eta leheneratu](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Exekutatu Package Deployer.
 

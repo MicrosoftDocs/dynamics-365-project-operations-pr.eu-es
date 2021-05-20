@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282633"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951419"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Antolatu proiektuaren baliabideak (Project Service)
 
@@ -35,7 +35,7 @@ Baliabideen erabilgarritasuna egiazta dezakezu zure baliabideen okupazio-maila o
   
 Antolatu board erabilgarritasuna beren eta baliabide-zerrenda erakusten du. Erakutsi modu erabilgarritasuna ikuspegia modua **Ordu**, **Eguna**, **Asteko**, edo **Hilabeteko**.  
   
-Antolaketa-panela erabili aurretik, konfiguratu egin behar da. Informazio gehiago lortzeko, ikusi [Konfiguratu antolaketa-panela (Field Service edo Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Antolaketa-panela erabili aurretik, konfiguratu egin behar da. Informazio gehiago lortzeko, ikusi [Konfiguratu antolaketa-panela (Field Service edo Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Bertsio zahar bat erabiltzen ari bazara, baliabide erabilgarritasuna jakiteko, ikusi [Ikusi baliabideen erabilgarritasuna](../psa/view-resource-availability.md).  
 
