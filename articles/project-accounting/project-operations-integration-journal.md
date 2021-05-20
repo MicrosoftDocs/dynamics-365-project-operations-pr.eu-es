@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287223"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948315"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations-eko integrazio-aldizkaria
 
@@ -38,7 +38,7 @@ Sistemak aldizkari lerroak aldizkari banatan taldekatzen ditu fitxategian hautat
 Aldizkari-lerroak proiektuaren errealitatean oinarrituta sortzen dira. Ondorengo zerrendan lehenespen eta transformazio arau aipagarrienetako batzuk daude:
 
   - Proiektuaren benetako transakzio bakoitzak lerro bat du Project Operations Integration aldizkarian. Denboraren eta materialaren fakturazio motaren kostuaren eta fakturatu gabeko salmenten transakzioak linea desberdinetan agertzen dira.
-  - **Data** eremuak transakzioaren data adierazten du. **Kontabilitate data** eremuak transakzioa liburuan erregistratu den data adierazten du. Kontabilitate data [itxitako ekitaldi ekonomikoa](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), eta parametroa **Ezarri automatikoki kontabilitate data liburuaren epea irekitzeko** ezartzen da **Finantzarioa** fitxategiaren fitxa **Proiektuen kudeaketa eta kontabilitate parametroak** orrialdean, sistemak transakzioaren kontabilitate-data egokituko du liburu irekiaren hurrengo aldiko lehenengo datara.
+  - **Data** eremuak transakzioaren data adierazten du. **Kontabilitate data** eremuak transakzioa liburuan erregistratu den data adierazten du. Kontabilitate data [itxitako ekitaldi ekonomikoa](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), eta parametroa **Ezarri automatikoki kontabilitate data liburuaren epea irekitzeko** ezartzen da **Finantzarioa** fitxategiaren fitxa **Proiektuen kudeaketa eta kontabilitate parametroak** orrialdean, sistemak transakzioaren kontabilitate-data egokituko du liburu irekiaren hurrengo aldiko lehenengo datara.
   - **Bonua** eremuak benetako transakzio bakoitzaren bonuaren zenbakia erakusten du. Bonuaren zenbakien sekuentzia **Zenbaki-sekuentziak** fitxan, **Proiektuen kudeaketa eta kontabilitate parametroak** orrialdea. Lerro bakoitzari zenbaki berria esleitzen zaio. Bonoa argitaratu ondoren, kostua eta fakturaziorik gabeko salmenta transakzioa nola erlazionatzen diren ikus dezakezu hautatuta **Lotutako bonuak** gainean **Bonuen transakzioa** orrialdea.
   - **Kategoria** eremuak proiektuaren transakzio bat adierazten du eta lehenetsitakoa erlazionatutako proiektuaren transakzio kategorian oinarrituta dago.
     - **Transakzio-kategoria** Proiektuaren benetakoa eta erlazionatutakoa da **Proiektuaren kategoria** pertsona juridiko jakin batean dago, kategoria proiektuaren kategoria honetan lehenetsita dago.

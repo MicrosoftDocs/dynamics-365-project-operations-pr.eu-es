@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284298"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947909"
 ---
 # <a name="install-and-customize-project-service"></a>Instalatu eta pertsonalizatu (Project Service)
 
@@ -34,20 +34,20 @@ ms.locfileid: "5284298"
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Instalatu Project Service  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] hobetsitako soluzioa da. Soluzioa erosteko hainbat era daude. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Lagundu erakundeko langileei eta erabiltzaileei lanean hasten](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] hobetsitako soluzioa da. Soluzioa erosteko hainbat era daude. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Lagundu erakundeko langileei eta erabiltzaileei lanean hasten](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>Pertsonalizatu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] inprimakiak eta txostenak  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] inprimakiak, aginte-panelak edo txostenak pertsonalizatu nahi badituzu, zerrenda honetan aurki dezakezu informazio gehiago:  
   
-- [Erabiltzen hasteko aplikazioa ezarri eta pertsonalizazioa](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Erabiltzen hasteko aplikazioa ezarri eta pertsonalizazioa](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Sortu eta diseinatu inprimakiak](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Sortu eta diseinatu inprimakiak](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Sortu eta editatu aginte-panelak](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Sortu eta editatu aginte-panelak](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Prozesuak sortu eta editatu](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Prozesuak sortu eta editatu](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Txostenen eta analisien sarrera](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Txostenen eta analisien sarrera](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Administratzailearen gida](../psa/admin-guide.md)   

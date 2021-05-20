@@ -3,17 +3,17 @@ title: Sortu enpresen arteko transakzioak
 description: Gai honek enpresen arteko transakzioak nola sortu jakiteko informazioa eskaintzen du.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287403"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880433"
 ---
 # <a name="create-intercompany-transactions"></a>Sortu enpresen arteko transakzioak
 
@@ -94,7 +94,7 @@ Molly Clark, GBPMn lan egiten duen garatzaileak 10 orduko lana erregistratzen du
     Fakturarik gabeko salmenta hau fakturatzeko prest dago. Adventure Works bezeroaren faktura ekonomikoki bidal daiteke behar denean.
 
 10. Hasi saioa **GBPM** kontulari gisa. Ireki Project Operations-en Finantza instantzia, eta ireki enpresa, **GBPM**. 
-11. Joan **Proiektuen kudeaketa eta kontabilitatea** > **Aldizkakoa** > **Project Operations Customer Engagement-en** > **Inportatu eszenaratzetik** eta abiarazi aldiko prozesua Project Operations-en integrazio-egunkaria betetzeko.
+11. Joan **Proiektuen kudeaketa eta kontabilitatea** > **Aldizkakoa** > **Project Operations integrazioa** > **Inportatu taulako taulatik** eta abian jarri aldian aldiko prozesua Project Operations Integration aldizkaria betetzeko.
 12. Joan **Proiektuen kudeaketa eta kontabilitatea** > **Aldizkariak** > **Project Operations integrazio aldizkaria** eta lerroak berrikusi. Sistemak lerro hau sortzen du.
 
     | **Transakzio mota** | **Prezioa** | **Transakzio-moneta** | **Zenbatekoa** |

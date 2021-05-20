@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283758"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948112"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Erabiltzailearen gida Proiektu-baliabideen atalerako
 
@@ -48,7 +48,7 @@ Bi atributu-mota daude: [!INCLUDE[pn_dyn_365_project_service_auto](../includes/p
 ## <a name="install-the-mobile-app"></a>Instalatu mugikorrerako aplikazioa
 Proiektu-baliabideen atala plikazioa erabiltzen hasi baino lehen, mugikorrerako aplikazioa instalatu behar duzu gailuan. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Instalatu Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Instalatu Dynamics 365 for phones and tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
 ## <a name="basic-navigation"></a>Basic nabigazioa
 1.  Saioa hasten duzun mugikorrerako aplikazioan, atzitu dituzun aplikazioen zerrenda bat duen MyApps orri ikusiko duzu. 
@@ -99,7 +99,7 @@ Sartu asteko gutxieneko gastuak, kudeatzaileek eskatutako maiztasuna, bezeroei b
 5. Jarraitu asteko gastuak sartzen. Amaitzean eta guztiak itxura ona duenean, sakatu **Bidali**. Kudeatzaileak berrikusi eta onartuko ditu gastuak.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Mugikorrerako aplikazioak erabiltzeari buruzko informazio orokorra 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobile bertsioaren erabiltzailearen gida](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobile bertsioaren erabiltzailearen gida](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Ikusi baita ere  
  [Project Service-ren informazio orokorra](../psa/overview.md)   

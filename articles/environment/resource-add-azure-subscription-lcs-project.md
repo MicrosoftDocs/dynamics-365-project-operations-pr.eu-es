@@ -3,17 +3,17 @@ title: Gehitu Azure harpidetza LCS proiektu batean
 description: Gai honek zure Azure harpidetza LCS proiektu batera konektatzeko moduari buruzko informazioa eskaintzen du.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289894"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880523"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Gehitu Azure harpidetza LCS proiektu batean
 
@@ -62,7 +62,7 @@ Baimena amaitu da.
 3. **Konfiguratu Azure Resource Manager erabiltzeko** eremuan, hautatu **Bai**.
 4. Ziurtatu Azure Harpidetzaren AAD maizter domeinua erabiltzen ari zaren domeinuaren jabe den Azure harpidetzarekin bat datorrela eta hautatu **Hurrengoa**.
 5. **Microsoft Azure Konfigurazioa** pantailan, hautatu **Hurrengoa** baieztatzeko. Pantaila honetan errore bat jasotzen baduzu, itzuli [Eman Dynamics Deployment Services sarbidea Azure harpidetzarako](#provide) atalera gai honetan eta ziurtatu urrats guztiak bete dituzula.
-6. Deskargatu Azure kudeaketa ziurtagiria zure ordenagailuko karpeta lokal batera eta, ondoren, igo Azure kudeaketa atarira joan **Ezarpenak** >  **Kudeaketa ziurtagiriak**. Ziurtagiri honi esker, LCSk Azure-rekin zure izenean komunikatzeko aukera emango du. Urrats hau salta dezakezu zure erabiltzaileak harpidetzarako sarbidea badu.
+6. Deskargatu Azure kudeaketa ziurtagiria zure ordenagailuko karpeta lokal batera. Eskatu Azure harpidetzaren administratzaileari ziurtagiria Azure Management Portal-era kargatzeko harpidetza hautatuta eta **Ezarpenak** > **Kudeaketa ziurtagiriak** aukerara joanda. Ziurtagiri honi esker, LCS-k Azure-rekin zure izenean komunikatzeko aukera ematen du. Urrats hau salta dezakezu zure erabiltzaileak harpidetzarako sarbidea badu.
 7. Hautatu **Hurrengoa**.
 8. Aukeratu zabaltzeko Azure eskualdea eta hautatu sistema hau erabiltzeko asmoa duzun tokitik gertu dagoen datu zentroa.
 9.  Hautatu **Konektatu**.

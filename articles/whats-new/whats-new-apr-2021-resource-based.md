@@ -3,18 +3,18 @@ title: 2021eko apirileko berrikuntzak - Baliabideetan edo izakinik gabeko produk
 description: Gai honek 2021eko apirileko Project Operations bertsioan baliabideetan/izakinik gabekoetan oinarritutako agertokietarako eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867978"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935459"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021eko apirileko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
 
@@ -33,8 +33,26 @@ Eginbide hauek sartzen dira bertsio honetan:
   - Proiektu baten salmenta-zikloan stockik gabeko materialak kalkulatzea eta preziatzea. Informazio gehiago lortzeko, ikusi [Konfiguratu katalogoko produktuen kostu- eta salmenta-tasak - arina](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Biltegiratu gabeko materialen erabileraren jarraipena egitea proiektuaren entrega garaian. Informazio gehiago lortzeko, ikusi [Erregistratu proiektuetako eta proiektu-zereginetako material-erabilera](../material/material-usage-log.md).
   - Erabilitako materialik gabeko kostuen fakturazioa. Informazio gehiago lortzeko, ikusi [Kudeatu fakturazio atzeratua](../proforma-invoicing/manage-billing-backlog.md).
+  - Ezaugarri hau nola konfiguratu jakiteko, ikusi [Konfiguratu ez dauden materialak eta zain dauden saltzailearen fakturak](../procurement/configure-materials-nonstocked.md)
 - Zereginetan oinarritutako fakturazioa: proiektuaren zereginak proiektuko kontratu lerroekin lotzeko gaitasuna gehitu zen eta, horrela, fakturazio metodo, faktura maiztasun eta kontratu lerroan dauden bezero berberak ezarriko zaizkie. Elkarte honek fakturazio zehatza, kontabilitatea, diru-sarreren estimazioa eta aitorpena bermatzen ditu proiektuaren zereginetan konfigurazio honen arabera lan egiteko.
 - API berriak Dynamics 365-en Dataverse baimendu eragiketak sortu, eguneratu eta ezabatzearekin **Programazio entitateak**. Informazio gehiagorako, ikusi [Erabili Programazio APIak Planifikazio entitateekin eragiketak egiteko](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Project Operations zerbitzuaren idazketa dualeko esleipenen eguneratzeak
+
+Hurrengo zerrendan 2021eko apirileko Project Operations aldatu edo gehitu diren idazketa bikoitzeko mapak agertzen dira.
+
+| **Entitate-esleipena** | **Eguneratutako bertsioa** | **Iruzkinak** |
+| --- | --- | --- |
+| Project Operations-en integrazioaren benetako datuak (msdyn\_actuals) | 1.0.0.14 | Mapa aldatu da proiektuaren egiazkoak sinkronizatzeko. |
+| Project Operations-ek integratzeko entitatea gastuen kalkuluen arabera (msdyn\_estimateslines) | 1.0.0.2 | Gehitu da proiektuaren kontratu lerroaren sinkronizazioa Finance and Operations zereginetan oinarritutako fakturaziorako laguntza aplikazioak. |
+| Project Operations-ek integratzeko entitatea orduen kalkuluen arabera (msdyn\_resourceassignments) | 1.0.0.5 | Gehitu da proiektuaren kontratu lerroaren sinkronizazioa Finance and Operations zereginetan oinarritutako fakturaziorako laguntza aplikazioak. |
+| Project Operations integrazioaren taula materialen kalkuluen arabera (msdyn\_estimatelines) | 1.0.0.0 | Materialen kalkuluak sinkronizatzeko taula mapa berria Dataverse-tik Finance and Operations aplikazioetara. |
+| Project Operations integrazioa proiektuaren saltzailearen faktura esportatzeko entitatea (msdyn\_projectvendorinvoices) | 1.0.0.0 | Saltzailearen fakturaren goiburuak sinkronizatzeko taula mapa berria Finance and Operations aplikazioetatik Dataverse-ra. |
+| Project Operations integrazioa proiektuaren saltzailearen faktura-lerroa esportatzeko entitatea (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Saltzailearen fakturaren lerroak sinkronizatzeko taula mapa berria Finance and Operations aplikazioetatik Dataverse-ra. |
+
+Maparen azken bertsioa beti zure ingurunean exekutatu behar duzu eta erlazionatutako taulako mapa guztiak gaitu Project Operations eguneratzen dituzunean Dataverse konponbidea eta Finance and Operations irtenbide bertsioa. Zenbait eginbide eta gaitasunek agian ez dute behar bezala funtzionatuko maparen azken bertsioa aktibatuta ez badago. Maparen bertsio aktiboa helbidean ikus dezakezu **Bertsioa** zutabea **Idazketa bikoitza** orrialdean. Maparen bertsio berria aktiba dezakezu hautatuta **Taula maparen bertsioak**, azken bertsioa hautatuta, eta ondoren hautatutako bertsioa gorde. Kutxaz kanpoko taulako mapa pertsonalizatu baduzu, aldaketak berriro aplikatu. Informazio gehiago lortzeko, ikusi [Aplikazioaren bizi-zikloaren kudeaketa](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Mapa abiaraztearen arazoren bat baduzu, jarraitu argibideak [Taulen zutabeak falta dira mapetan](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) Idazketa Dualaren arazoak konpontzeko gidaren atalean.
 
 ## <a name="quality-updates"></a>Kalitatearen eguneratzeak
 
@@ -67,7 +85,7 @@ Eginbide hauek sartzen dira bertsio honetan:
 
 | **Ezaugarrien eremua** | **Erreferentzia-zenbakia** | **Kalitatearen eguneratzea** |
 | --- | --- | --- |
-| Proiektuaren kudeaketa eta kontabilitatea | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Alderantzizko kalkuluen ezabaketak ez du funtzionatzen **Aldizkakoa**.  |
+| Proiektuaren kudeaketa eta kontabilitatea | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Alderantzizko kalkuluen ezabaketak ez du funtzionatzen **Aldizkakoa** atala.  |
 | Proiektuaren kudeaketa eta kontabilitatea | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | **Kontabilitate doikuntza** Ezaugarriak arazo bat sortzen du kontabilitate kontuekin **Ez utzi eskuz sartzea** hautatuta. |
 | Proiektuaren kudeaketa eta kontabilitatea | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Enpresa logika gehitu da zuzenketa fakturak prozesatzeko, atxikipenaren zenbatekoa edo aplikatutako atxikipenaren zenbatekoa barne. |
 | Proiektuaren kudeaketa eta kontabilitatea | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | Enpresen arteko proiektuen fakturazioko WIP salmenten balioaren argitalpenak ustekabeko kontu bat aukeratzen du. |
