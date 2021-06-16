@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Berritasunak
       items:
+        - name: 2021eko maiatza - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: 2021eko apirila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 2021eko martxoa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Konfiguratu gastu-kategoriak
               href: expense/set-up-expense-categories.md
+            - name: Konfiguratu kilometrajea kilometrajearen tasaren mailak erabiliz
+              href: expense/set-up-mileage.md
         - name: Gastu pertsonalak
           href: expense/personal-expenses-expense-report.md
         - name: Enpresen arteko gastuak
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Berritasunak
       items:
+        - name: 2021eko maiatzeko berritasunak - oinarrizko inplementazioa
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 2021eko apirileko berritasunak - oinarrizko inplementazioa
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 2021eko martxoko berritasunak - oinarrizko inplementazioa
@@ -1028,6 +1034,8 @@
       items:
         - name: Project Service 3.x bertsioaren eguneratze-bertsioen antolaketa
           href: psa/version-history-ps.md
+        - name: '32. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-32.md
         - name: '31. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur-31.md
         - name: '30. eguneratze-bertsioko berritasunak edo aldaketak, V3'
@@ -1266,9 +1274,11 @@
               href: psa/time-entry-calendar.md
             - name: Pertsonalizatu asteroko denbora-sarrera
               href: psa/time-entry-extensibility-v3.md
+            - name: Onarpen multzoak
+              href: psa/approval-set.md
     - name: Maiz egiten diren galderak eta arazoen konponketa (3.x)
       items:
-        - name: Zergatik da prezioari lehenetsia zero balioa gastuetan oinarritutako kostuen benetako balioan?
+        - name: Zergatik da prezio lehenetsia zero gastuetan oinarritutako kostuen benetako balioetan?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
         - name: Zergatik ematen zaio prezioari zero-balio lehenetsia gastuetan oinarritutako salmenten benetako balioan?
           href: psa/FAQ-zero-price-expense-sales-actuals.md
