@@ -2,18 +2,16 @@
 title: Konfiguratu eta aplikatu konfigurazio-datuak Common Data Service-n
 description: Gai honek Project Operations-eko konfigurazio-datuak konfiguratzeari eta aplikatzeari buruzko informazioa eskaintzen du.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289804"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001276"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfiguratu eta aplikatu konfigurazio-datuak Common Data Service-n 
 
@@ -23,7 +21,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 ## <a name="prerequisites"></a>Aurrebaldintzak
 
-Fitxategian datuak konfiguratzeko eskatu aurretik Common Data Service (CDS), honako baldintza hauek bete behar dira:
+Datuak konfiguratzen hasi aurretik Common Data Service (CDS), honako baldintza hauek bete behar dira:
 
 1.  CDS ingurunea eta Dynamics 365 Finance Project Operations-etarako ingurunea.
 2.  Pertsona juridikoen informazioa Dynamics 365 Finance CDS ingurunearekin partekatzen da. Horrek esan nahi du **Enpresa** CDS erakundeak konpainiaren erregistro hauek ditu:
@@ -33,7 +31,7 @@ Fitxategian datuak konfiguratzeko eskatu aurretik Common Data Service (CDS), hon
 
 ## <a name="install-setup-and-configuration-data"></a>Instalatu konfigurazioa eta konfigurazio-datuak
 
-1. Deskargatu, desblokeatu eta deskonprimatu [Konfigurazio eta konfigurazio datu paketea](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Deskargatu, desblokeatu eta deskonprimatu [Konfigurazio eta konfigurazio datu paketea](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Joan deskonprimatutako karpetara eta exekutatu fitxategi exekutagarria, *DataMigrationUtility*.
 3. Common Data Service konfigurazio-migrazioaren (CMT) morroiko 1. orrian, hautatu **Inportatu datuak** eta, ondoren, hautatu **Jarraitu**.
 
@@ -57,13 +55,20 @@ Fitxategian datuak konfiguratzeko eskatu aurretik Common Data Service (CDS), hon
 ![Inportatu datuak](./media/5ImportData.png)
 
 10. Inportazioa gutxi gorabehera bi-hamar minutu iraungo du sareko abiaduraren arabera. Inportatu ondoren, irten CMT morroitik. 
-11. Egiaztatu zure erakundeak 19 entitate hauetako datuak dituen:
+11. Egiaztatu zure erakundeak 26 entitate hauetako datuak dituen:
 
   - Moneta
+  - Kontuen sailkapena
+  - Egutegi fiskala
+  - Moneta Truke Tasa Motak
+  - Ordainketa-eguna
+  - Ordainketa-antolaketa
+  - Ordainketa-baldintzak
   - Erakundearen unitatea
   - Contact
   - Zerga Taldea
   - Bezero-taldea
+  - Saltzaile taldea
   - Unitatea
   - Salmenta-unitatea
   - Prezio-zerrenda
@@ -127,7 +132,7 @@ Fitxategian datuak konfiguratzeko eskatu aurretik Common Data Service (CDS), hon
 12. Eguneratu eremu hauek:
 
  - **Enpresa lehenetsia**: USPM
- - **Antolakuntza Unitate Lehenetsia**: Contoso Robotics Global
+ - **Antolakuntza Unitate lehenetsia**: Contoso Robotics Global
  - **Fakturen maiztasuna**: Zazpigarren eta Azken eguna
  - **Lan orduko txantiloia**: Sortu duzun txantiloira aldatu.
 
