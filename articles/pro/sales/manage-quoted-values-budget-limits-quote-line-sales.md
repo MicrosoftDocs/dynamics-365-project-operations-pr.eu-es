@@ -2,146 +2,144 @@
 title: Proiektuetan oinarritutako eskaintzaren lerroen ikuspegi orokorra
 description: Gai honek proiektu-lanaren produktuetan oinarritutako eskaintza-lerroak erabiltzeari buruzko lerroei buruzko informazioa ematen du.
 author: rumant
-manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cfe98fc89130c93dd0a36af8583881fdcb4550c0
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 32337b05f09ef7c5b84fdff9870744d6367e2693
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858683"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994841"
 ---
-# <a name="project-based-quote-lines-overview"></a><span data-ttu-id="10ce5-103">Proiektuetan oinarritutako eskaintzaren lerroen ikuspegi orokorra</span><span class="sxs-lookup"><span data-stu-id="10ce5-103">Project-based quote lines overview</span></span> 
+# <a name="project-based-quote-lines-overview"></a><span data-ttu-id="d86d7-103">Proiektuetan oinarritutako eskaintzaren lerroen ikuspegi orokorra</span><span class="sxs-lookup"><span data-stu-id="d86d7-103">Project-based quote lines overview</span></span> 
 
-<span data-ttu-id="10ce5-104">_**Honetarako aplikatzen da:** inplementazio arina - mahukatik proformako fakturaziora, Baliabideen / stockean oinarritutako eszenatokien Project Operations_</span><span class="sxs-lookup"><span data-stu-id="10ce5-104">_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="d86d7-104">_**Honetarako aplikatzen da:** inplementazio arina - mahukatik proformako fakturaziora, Baliabideen / stockean oinarritutako eszenatokien Project Operations_</span><span class="sxs-lookup"><span data-stu-id="d86d7-104">_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="10ce5-105">Proiektuetan oinarritutako aurrekontu lerroak proiektu baten konpromisoa kalkulatzen laguntzeko diseinatuta daude.</span><span class="sxs-lookup"><span data-stu-id="10ce5-105">Project-based quote lines are designed to help estimate the project work on an engagement.</span></span> <span data-ttu-id="10ce5-106">Proiektuan oinarritutako aurrekontu lerroaren egitura proiektuaren kalkuluen arabera hedatzen da, honako kontzeptu hauekin:</span><span class="sxs-lookup"><span data-stu-id="10ce5-106">The structure of a project-based quote line is extended for project estimates with the following concepts:</span></span>
+<span data-ttu-id="d86d7-105">Proiektuetan oinarritutako aurrekontu lerroak proiektu baten konpromisoa kalkulatzen laguntzeko diseinatuta daude.</span><span class="sxs-lookup"><span data-stu-id="d86d7-105">Project-based quote lines are designed to help estimate the project work on an engagement.</span></span> <span data-ttu-id="d86d7-106">Proiektuan oinarritutako aurrekontu lerroaren egitura proiektuaren kalkuluen arabera hedatzen da, honako kontzeptu hauekin:</span><span class="sxs-lookup"><span data-stu-id="d86d7-106">The structure of a project-based quote line is extended for project estimates with the following concepts:</span></span>
 
-- <span data-ttu-id="10ce5-107">Fakturazio-metodoa</span><span class="sxs-lookup"><span data-stu-id="10ce5-107">Billing Method</span></span>
-- <span data-ttu-id="10ce5-108">Proiektuen eta zereginen esleipena</span><span class="sxs-lookup"><span data-stu-id="10ce5-108">Project and Task Mapping</span></span>
-- <span data-ttu-id="10ce5-109">Transakzio klaseak barne</span><span class="sxs-lookup"><span data-stu-id="10ce5-109">Included Transaction classes</span></span>
-- <span data-ttu-id="10ce5-110">Ez gainditzeko muga</span><span class="sxs-lookup"><span data-stu-id="10ce5-110">Not-to-Exceed Limit</span></span>
-- <span data-ttu-id="10ce5-111">Aplikagarritasun konfigurazioa</span><span class="sxs-lookup"><span data-stu-id="10ce5-111">Chargeability setup</span></span>
-- <span data-ttu-id="10ce5-112">Aurrekontua Lerroaren xehetasunak erabiliz</span><span class="sxs-lookup"><span data-stu-id="10ce5-112">Estimation using Quote Line Details</span></span>
-- <span data-ttu-id="10ce5-113">Eskaintzaren lerroaren bezeroak</span><span class="sxs-lookup"><span data-stu-id="10ce5-113">Quote line Customers</span></span>
+- <span data-ttu-id="d86d7-107">Fakturazio-metodoa</span><span class="sxs-lookup"><span data-stu-id="d86d7-107">Billing Method</span></span>
+- <span data-ttu-id="d86d7-108">Proiektuen eta zereginen esleipena</span><span class="sxs-lookup"><span data-stu-id="d86d7-108">Project and Task Mapping</span></span>
+- <span data-ttu-id="d86d7-109">Transakzio klaseak barne</span><span class="sxs-lookup"><span data-stu-id="d86d7-109">Included Transaction classes</span></span>
+- <span data-ttu-id="d86d7-110">Ez gainditzeko muga</span><span class="sxs-lookup"><span data-stu-id="d86d7-110">Not-to-Exceed Limit</span></span>
+- <span data-ttu-id="d86d7-111">Aplikagarritasun konfigurazioa</span><span class="sxs-lookup"><span data-stu-id="d86d7-111">Chargeability setup</span></span>
+- <span data-ttu-id="d86d7-112">Aurrekontua Lerroaren xehetasunak erabiliz</span><span class="sxs-lookup"><span data-stu-id="d86d7-112">Estimation using Quote Line Details</span></span>
+- <span data-ttu-id="d86d7-113">Eskaintzaren lerroaren bezeroak</span><span class="sxs-lookup"><span data-stu-id="d86d7-113">Quote line Customers</span></span>
 
-<span data-ttu-id="10ce5-114">Ondorengo taulan fitxategien eremuei buruzko informazioa ematen da **Orokorra** proiektuan oinarritutako aurrekontu lerroaren fitxa.</span><span class="sxs-lookup"><span data-stu-id="10ce5-114">The following table provides information about the fields on the **General** tab of project-based quote line.</span></span> <span data-ttu-id="10ce5-115">Eremu horiei esker, proiektuaren inguruko lanen estimazio zehatza eta zehatza egiteko oinarriak ezartzen dira.</span><span class="sxs-lookup"><span data-stu-id="10ce5-115">These fields help set up the basis for a detailed, ground-up estimation for project work.</span></span>
+<span data-ttu-id="d86d7-114">Ondorengo taulan fitxategien eremuei buruzko informazioa ematen da **Orokorra** proiektuan oinarritutako aurrekontu lerroaren fitxa.</span><span class="sxs-lookup"><span data-stu-id="d86d7-114">The following table provides information about the fields on the **General** tab of project-based quote line.</span></span> <span data-ttu-id="d86d7-115">Eremu horiei esker, proiektuaren inguruko lanen estimazio zehatza eta zehatza egiteko oinarriak ezartzen dira.</span><span class="sxs-lookup"><span data-stu-id="d86d7-115">These fields help set up the basis for a detailed, ground-up estimation for project work.</span></span>
 
-| <span data-ttu-id="10ce5-116">**Eremua**</span><span class="sxs-lookup"><span data-stu-id="10ce5-116">**Field**</span></span> | <span data-ttu-id="10ce5-117">**Azalpena**</span><span class="sxs-lookup"><span data-stu-id="10ce5-117">**Description**</span></span> | <span data-ttu-id="10ce5-118">**Downstream eragina**</span><span class="sxs-lookup"><span data-stu-id="10ce5-118">**Downstream impact**</span></span> |
+| <span data-ttu-id="d86d7-116">**Eremua**</span><span class="sxs-lookup"><span data-stu-id="d86d7-116">**Field**</span></span> | <span data-ttu-id="d86d7-117">**Azalpena**</span><span class="sxs-lookup"><span data-stu-id="d86d7-117">**Description**</span></span> | <span data-ttu-id="d86d7-118">**Downstream eragina**</span><span class="sxs-lookup"><span data-stu-id="d86d7-118">**Downstream impact**</span></span> |
 | --- | --- | --- |
-| <span data-ttu-id="10ce5-119">Izena</span><span class="sxs-lookup"><span data-stu-id="10ce5-119">Name</span></span> | <span data-ttu-id="10ce5-120">Estimatzen ari den aurrekontuaren osagai diskretua identifikatzen laguntzen duen aurrekontuaren lerroaren izena.</span><span class="sxs-lookup"><span data-stu-id="10ce5-120">The name of quote line that helps you to identify the discrete component of the quote that is being estimated.</span></span> | <span data-ttu-id="10ce5-121">Aurrekontua lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean.</span><span class="sxs-lookup"><span data-stu-id="10ce5-121">Copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="10ce5-122">Fakturazio-metodoa</span><span class="sxs-lookup"><span data-stu-id="10ce5-122">Billing Method</span></span> | <span data-ttu-id="10ce5-123">Aukera batetik sortutako aurrekontuan, balio hori aukera-lerroan dagokion eremutik kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-123">On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line.</span></span> <span data-ttu-id="10ce5-124">Eremu honek Dynamics 365 Project Operations-ek onartzen dituen bi kontratazio-eredu nagusiak biltzen ditu:</span><span class="sxs-lookup"><span data-stu-id="10ce5-124">This field includes the two main contracting models supported by Dynamics 365 Project Operations:</span></span></br><span data-ttu-id="10ce5-125">- Prezio finkoa</span><span class="sxs-lookup"><span data-stu-id="10ce5-125">- Fixed price</span></span></br><span data-ttu-id="10ce5-126">- Denbora eta materiala.</span><span class="sxs-lookup"><span data-stu-id="10ce5-126">- Time and material.</span></span>| <span data-ttu-id="10ce5-127">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-127">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="10ce5-128">Project</span><span class="sxs-lookup"><span data-stu-id="10ce5-128">Project</span></span> | <span data-ttu-id="10ce5-129">Erabili aukerako eremu hau konpromiso horretan lana emateko erabiliko den proiektua identifikatzeko.</span><span class="sxs-lookup"><span data-stu-id="10ce5-129">Use this optional field to identify the project that will be used to deliver the work on this engagement.</span></span> <span data-ttu-id="10ce5-130">Proiektu bat aurrekontu lerro batera mapeatzen denean, kargagarriak diren atazak ezartzen laguntzen du eta proiektuan oinarritutako aurrekontua aurrekontuaren lerroan aurrekontuaren lerroaren xehetasun gisa ekartzen laguntzen du.</span><span class="sxs-lookup"><span data-stu-id="10ce5-130">When a project is mapped to a quote line, it helps with setting up chargeable tasks and also with bringing in a project-based estimate to the quote line as quote line details.</span></span> <span data-ttu-id="10ce5-131">Proiektu bat proiektuan oinarritutako aurrekontu lerro batera mapatuta ez dagoenean, aurrekontua eskuz sortu beharko litzateke aurrekontu lerroaren xehetasun bakoitza sortuz.</span><span class="sxs-lookup"><span data-stu-id="10ce5-131">When a project is not mapped to a project-based quote line, the estimate should be created manually by creating each quote line detail.</span></span> | <span data-ttu-id="10ce5-132">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-132">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span>|
-| <span data-ttu-id="10ce5-133">Gehitutako zereginak</span><span class="sxs-lookup"><span data-stu-id="10ce5-133">Included Tasks</span></span> | <span data-ttu-id="10ce5-134">Aipu lerro hau hautatutako proiektuaren proiektuko zeregin guztietarako edo batzuetarako erabiltzen den adierazten du.</span><span class="sxs-lookup"><span data-stu-id="10ce5-134">Indicates if this quote line is used for all or some of the project tasks for the selected project.</span></span> <span data-ttu-id="10ce5-135">Eremuak balio hauek izan ditzake:</span><span class="sxs-lookup"><span data-stu-id="10ce5-135">This field has the following possible values:</span></span></br><span data-ttu-id="10ce5-136">- Proiektuaren zeregin guztiak</span><span class="sxs-lookup"><span data-stu-id="10ce5-136">- All project tasks</span></span></br><span data-ttu-id="10ce5-137">- Hautatutako proiektu-zereginak soilik</span><span class="sxs-lookup"><span data-stu-id="10ce5-137">- Selected project tasks only</span></span></br><span data-ttu-id="10ce5-138">Eremu honetako balio hutsa balioaren baliokidea da **Proiektuaren zeregin guztiak** aukera.</span><span class="sxs-lookup"><span data-stu-id="10ce5-138">A blank value in this field is equivalent to the **All project tasks** option.</span></span> | <span data-ttu-id="10ce5-139">**Aukeratutako proiektuaren zereginak soilik** proiektuaren orrian hautatzen da **Zereginen fakturazio konfigurazioa** fitxak zeregin zehatzak hautatzeko aukera ematen du aurrekontu lerro honekin lotzeko.</span><span class="sxs-lookup"><span data-stu-id="10ce5-139">When **Selected project tasks only** is selected on the project page, the **Task billing setup** tab allows you to select specific tasks to associate them to this quote line.</span></span> <span data-ttu-id="10ce5-140">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-140">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="10ce5-141">Idatzi denbora</span><span class="sxs-lookup"><span data-stu-id="10ce5-141">Include Time</span></span> | <span data-ttu-id="10ce5-142">**Bai**/**Ez** balioa adierazten du hautatutako proiektuaren denborako transakzioak edo lan kostuak aurrekontu lerro honetako aurrekontuan sartuko diren.</span><span class="sxs-lookup"><span data-stu-id="10ce5-142">A **Yes**/**No** value indicates if time transactions or labor costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="10ce5-143">**Ez** balioak adierazten du denbora-transakzioak edo lan-kostuak ez direla sartuko aurrekontu honen eskaintzaren lerroan.</span><span class="sxs-lookup"><span data-stu-id="10ce5-143">A **No** value indicates that the time transactions or labor cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="10ce5-144">**Bai** balioak adierazten du denbora-transakzioak edo lan-kostuak sartuko direla aurrekontu honen eskaintzaren lerroan.</span><span class="sxs-lookup"><span data-stu-id="10ce5-144">A **Yes** value indicates that the time transactions or labor cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="10ce5-145">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-145">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="10ce5-146">Idatzi gastua</span><span class="sxs-lookup"><span data-stu-id="10ce5-146">Include Expense</span></span> | <span data-ttu-id="10ce5-147">**Bai**/**Ez** balioa adierazten du hautatutako proiektuaren gastuen kostuak aurrekontu lerro honetako aurrekontuan sartuko diren.</span><span class="sxs-lookup"><span data-stu-id="10ce5-147">A **Yes**/**No** value indicates if expense costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="10ce5-148">**Ez** balioak adierazten du gastuak ez direla sartuko aurrekontu honen eskaintzaren lerroan.</span><span class="sxs-lookup"><span data-stu-id="10ce5-148">A **No** value indicates that the expense cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="10ce5-149">**Bai** balioak adierazten du gastuak sartuko direla aurrekontu honen eskaintzaren lerroan.</span><span class="sxs-lookup"><span data-stu-id="10ce5-149">A **Yes** value indicates that the expense cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="10ce5-150">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-150">This value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="10ce5-151">Sartu materiala</span><span class="sxs-lookup"><span data-stu-id="10ce5-151">Include Material</span></span> | <span data-ttu-id="10ce5-152">**Bai**/**Ez** balioa adierazten du hautatutako proiektuaren materialaren kostuak aurrekontu lerro honetako aurrekontuan sartuko diren.</span><span class="sxs-lookup"><span data-stu-id="10ce5-152">A **Yes**/**No** value indicates if material costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="10ce5-153">**Ez** balioa adierazten du materialaren kostuak aurrekontu lerro honetako aurrekontuan ez diren sartuko.</span><span class="sxs-lookup"><span data-stu-id="10ce5-153">A **No** value indicates that the material costs will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="10ce5-154">**Bai** balioa adierazten du materialaren kostuak aurrekontu lerro honetako aurrekontuan sartuko diren.</span><span class="sxs-lookup"><span data-stu-id="10ce5-154">A **Yes** value indicates that the material costs will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="10ce5-155">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-155">This value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="10ce5-156">Idatzi prezioa</span><span class="sxs-lookup"><span data-stu-id="10ce5-156">Include Fee</span></span> | <span data-ttu-id="10ce5-157">**Bai**/**Ez** balioa adierazten du hautatutako proiektuaren kostuen aurrekontu lerro honetako aurrekontuan sartuko diren.</span><span class="sxs-lookup"><span data-stu-id="10ce5-157">A **Yes**/**No** value indicates if fees on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="10ce5-158">**Ez** balioak adierazten du komisioak ez direla sartuko aurrekontu honen eskaintzaren lerroan.</span><span class="sxs-lookup"><span data-stu-id="10ce5-158">A **No** value indicates that the fees will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="10ce5-159">**Bai** balioak adierazten du komisioak sartuko direla aurrekontu honen eskaintzaren lerroan.</span><span class="sxs-lookup"><span data-stu-id="10ce5-159">A **Yes** value indicates that the fees will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="10ce5-160">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-160">This value is copied to the Project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="10ce5-161">Eskainitako zenbatekoa</span><span class="sxs-lookup"><span data-stu-id="10ce5-161">Quoted Amount</span></span> | <span data-ttu-id="10ce5-162">Proiektuan oinarritutako aurrekontu lerro honetan aurreikusitako lan guztiari bezeroari aipatuko zaion zenbatekoa da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-162">This is the amount that will be quoted to the customer for all the work forecasted on this project-based quote line.</span></span> <span data-ttu-id="10ce5-163">Aukera batetik sortutako aurrekontuan, balio hori aukera-lerroaren **Bezeroaren aurrekontua** eremutik kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-163">On a quote created from an opportunity, this value is copied from the **Customer Budget** field on the opportunity line.</span></span> <span data-ttu-id="10ce5-164">Proiektuan oinarritutako aurrekontu lerroak lerroaren xehetasunak dituenean, eremu hau blokeatuta dago editatzeko eta aurrekontuaren lerroaren xehetasunetan agertzen den zenbatekoaren arabera laburbiltzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-164">When the project-based quote line has line details, this field is locked for editing and is summarized from the amount on the quote line details.</span></span> | <span data-ttu-id="10ce5-165">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-165">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="10ce5-166">Aurreikusitako zerga</span><span class="sxs-lookup"><span data-stu-id="10ce5-166">Estimated Tax</span></span> | <span data-ttu-id="10ce5-167">Eremu editagarria da erabiltzaileak aurrekontu lerroan zenbatetsitako zerga kopurua gehitzeko.</span><span class="sxs-lookup"><span data-stu-id="10ce5-167">This is an editable field for the user to add the estimated tax amount on the quote line.</span></span> <span data-ttu-id="10ce5-168">Proiektuan oinarritutako aurrekontu lerroak lerroaren xehetasunak dituenean, eremu hau blokeatuta dago editatzeko eta aurrekontuaren lerroaren xehetasunetan agertzen den zerga-zenbatekoaren arabera laburbiltzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-168">When a project-based quote line has line details, this field is locked for editing and is summarized from the tax amount on the quote line details.</span></span> | <span data-ttu-id="10ce5-169">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-169">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="10ce5-170">Eskainitako zenbatekoa, zergaren ondoren</span><span class="sxs-lookup"><span data-stu-id="10ce5-170">Quoted Amount after Tax</span></span> | <span data-ttu-id="10ce5-171">Eremu hau zerga ondorengo aurrekontuaren zenbatekoa da eta irakurtzeko soilik da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-171">This field is the quote line amount after tax and is read-only.</span></span> <span data-ttu-id="10ce5-172">Eremu honetako zenbatekoa honela kalkulatzen da *Aipatutako zenbatekoa + Zerga*.</span><span class="sxs-lookup"><span data-stu-id="10ce5-172">The amount in this field is calculated as *Quoted Amount + Tax*.</span></span> | <span data-ttu-id="10ce5-173">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-173">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="10ce5-174">Ez gainditzeko muga</span><span class="sxs-lookup"><span data-stu-id="10ce5-174">Not-to-exceed Limit</span></span> | <span data-ttu-id="10ce5-175">Eremu hau editagarria da eta proiektu bat duten aurrekontu lerroetan soilik dago erabilgarri **Denbora eta materiala** fakturazio metodoa.</span><span class="sxs-lookup"><span data-stu-id="10ce5-175">This field is editable and is only available on project-based quote lines that have a **Time and Material** billing method.</span></span> | <span data-ttu-id="10ce5-176">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-176">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="10ce5-177">Bezeroaren aurrekontua</span><span class="sxs-lookup"><span data-stu-id="10ce5-177">Customer Budget</span></span> | <span data-ttu-id="10ce5-178">Eremu hau editagarria da eta balio hori aukera-lerroan dagokion eremutik kopiatzen da, abagunea eskaintza batetik sorten bada.</span><span class="sxs-lookup"><span data-stu-id="10ce5-178">This field is editable and is copied from the corresponding field on the opportunity line if the quote was created from an opportunity.</span></span> | <span data-ttu-id="10ce5-179">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-179">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="d86d7-119">Izena</span><span class="sxs-lookup"><span data-stu-id="d86d7-119">Name</span></span> | <span data-ttu-id="d86d7-120">Estimatzen ari den aurrekontuaren osagai diskretua identifikatzen laguntzen duen aurrekontuaren lerroaren izena.</span><span class="sxs-lookup"><span data-stu-id="d86d7-120">The name of quote line that helps you to identify the discrete component of the quote that is being estimated.</span></span> | <span data-ttu-id="d86d7-121">Aurrekontua lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatu da aurrekontua irabazten denean.</span><span class="sxs-lookup"><span data-stu-id="d86d7-121">Copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="d86d7-122">Fakturazio-metodoa</span><span class="sxs-lookup"><span data-stu-id="d86d7-122">Billing Method</span></span> | <span data-ttu-id="d86d7-123">Aukera batetik sortutako aurrekontuan, balio hori aukera-lerroan dagokion eremutik kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-123">On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line.</span></span> <span data-ttu-id="d86d7-124">Eremu honek Dynamics 365 Project Operations-ek onartzen dituen bi kontratazio-eredu nagusiak biltzen ditu:</span><span class="sxs-lookup"><span data-stu-id="d86d7-124">This field includes the two main contracting models supported by Dynamics 365 Project Operations:</span></span></br><span data-ttu-id="d86d7-125">- Prezio finkoa</span><span class="sxs-lookup"><span data-stu-id="d86d7-125">- Fixed price</span></span></br><span data-ttu-id="d86d7-126">- Denbora eta materiala.</span><span class="sxs-lookup"><span data-stu-id="d86d7-126">- Time and material.</span></span>| <span data-ttu-id="d86d7-127">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-127">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="d86d7-128">Project</span><span class="sxs-lookup"><span data-stu-id="d86d7-128">Project</span></span> | <span data-ttu-id="d86d7-129">Erabili aukerako eremu hau konpromiso horretan lana emateko erabiliko den proiektua identifikatzeko.</span><span class="sxs-lookup"><span data-stu-id="d86d7-129">Use this optional field to identify the project that will be used to deliver the work on this engagement.</span></span> <span data-ttu-id="d86d7-130">Proiektu bat aurrekontu lerro batera mapeatzen denean, kargagarriak diren atazak ezartzen laguntzen du eta proiektuan oinarritutako aurrekontua aurrekontuaren lerroan aurrekontuaren lerroaren xehetasun gisa ekartzen laguntzen du.</span><span class="sxs-lookup"><span data-stu-id="d86d7-130">When a project is mapped to a quote line, it helps with setting up chargeable tasks and also with bringing in a project-based estimate to the quote line as quote line details.</span></span> <span data-ttu-id="d86d7-131">Proiektu bat proiektuan oinarritutako aurrekontu lerro batera mapatuta ez dagoenean, aurrekontua eskuz sortu beharko litzateke aurrekontu lerroaren xehetasun bakoitza sortuz.</span><span class="sxs-lookup"><span data-stu-id="d86d7-131">When a project is not mapped to a project-based quote line, the estimate should be created manually by creating each quote line detail.</span></span> | <span data-ttu-id="d86d7-132">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-132">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span>|
+| <span data-ttu-id="d86d7-133">Gehitutako zereginak</span><span class="sxs-lookup"><span data-stu-id="d86d7-133">Included Tasks</span></span> | <span data-ttu-id="d86d7-134">Aipu lerro hau hautatutako proiektuaren proiektuko zeregin guztietarako edo batzuetarako erabiltzen den adierazten du.</span><span class="sxs-lookup"><span data-stu-id="d86d7-134">Indicates if this quote line is used for all or some of the project tasks for the selected project.</span></span> <span data-ttu-id="d86d7-135">Eremuak balio hauek izan ditzake:</span><span class="sxs-lookup"><span data-stu-id="d86d7-135">This field has the following possible values:</span></span></br><span data-ttu-id="d86d7-136">- Proiektuaren zeregin guztiak</span><span class="sxs-lookup"><span data-stu-id="d86d7-136">- All project tasks</span></span></br><span data-ttu-id="d86d7-137">- Hautatutako proiektu-zereginak soilik</span><span class="sxs-lookup"><span data-stu-id="d86d7-137">- Selected project tasks only</span></span></br><span data-ttu-id="d86d7-138">Eremu honetako balio hutsa balioaren baliokidea da **Proiektuaren zeregin guztiak** aukera.</span><span class="sxs-lookup"><span data-stu-id="d86d7-138">A blank value in this field is equivalent to the **All project tasks** option.</span></span> | <span data-ttu-id="d86d7-139">**Aukeratutako proiektuaren zereginak soilik** proiektuaren orrian hautatzen da **Zereginen fakturazio konfigurazioa** fitxak zeregin zehatzak hautatzeko aukera ematen du aurrekontu lerro honekin lotzeko.</span><span class="sxs-lookup"><span data-stu-id="d86d7-139">When **Selected project tasks only** is selected on the project page, the **Task billing setup** tab allows you to select specific tasks to associate them to this quote line.</span></span> <span data-ttu-id="d86d7-140">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-140">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="d86d7-141">Idatzi denbora</span><span class="sxs-lookup"><span data-stu-id="d86d7-141">Include Time</span></span> | <span data-ttu-id="d86d7-142">**Bai**/**Ez** balioa adierazten du hautatutako proiektuaren denborako transakzioak edo lan kostuak aurrekontu lerro honetako aurrekontuan sartuko diren.</span><span class="sxs-lookup"><span data-stu-id="d86d7-142">A **Yes**/**No** value indicates if time transactions or labor costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="d86d7-143">**Ez** balioak adierazten du denbora-transakzioak edo lan-kostuak ez direla sartuko aurrekontu honen eskaintzaren lerroan.</span><span class="sxs-lookup"><span data-stu-id="d86d7-143">A **No** value indicates that the time transactions or labor cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="d86d7-144">**Bai** balioak adierazten du denbora-transakzioak edo lan-kostuak sartuko direla aurrekontu honen eskaintzaren lerroan.</span><span class="sxs-lookup"><span data-stu-id="d86d7-144">A **Yes** value indicates that the time transactions or labor cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="d86d7-145">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-145">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="d86d7-146">Idatzi gastua</span><span class="sxs-lookup"><span data-stu-id="d86d7-146">Include Expense</span></span> | <span data-ttu-id="d86d7-147">**Bai**/**Ez** balioa adierazten du hautatutako proiektuaren gastuen kostuak aurrekontu lerro honetako aurrekontuan sartuko diren.</span><span class="sxs-lookup"><span data-stu-id="d86d7-147">A **Yes**/**No** value indicates if expense costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="d86d7-148">**Ez** balioak adierazten du gastuak ez direla sartuko aurrekontu honen eskaintzaren lerroan.</span><span class="sxs-lookup"><span data-stu-id="d86d7-148">A **No** value indicates that the expense cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="d86d7-149">**Bai** balioak adierazten du gastuak sartuko direla aurrekontu honen eskaintzaren lerroan.</span><span class="sxs-lookup"><span data-stu-id="d86d7-149">A **Yes** value indicates that the expense cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="d86d7-150">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-150">This value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="d86d7-151">Sartu materiala</span><span class="sxs-lookup"><span data-stu-id="d86d7-151">Include Material</span></span> | <span data-ttu-id="d86d7-152">**Bai**/**Ez** balioa adierazten du hautatutako proiektuaren materialaren kostuak aurrekontu lerro honetako aurrekontuan sartuko diren.</span><span class="sxs-lookup"><span data-stu-id="d86d7-152">A **Yes**/**No** value indicates if material costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="d86d7-153">**Ez** balioa adierazten du materialaren kostuak aurrekontu lerro honetako aurrekontuan ez diren sartuko.</span><span class="sxs-lookup"><span data-stu-id="d86d7-153">A **No** value indicates that the material costs will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="d86d7-154">**Bai** balioa adierazten du materialaren kostuak aurrekontu lerro honetako aurrekontuan sartuko diren.</span><span class="sxs-lookup"><span data-stu-id="d86d7-154">A **Yes** value indicates that the material costs will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="d86d7-155">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-155">This value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="d86d7-156">Idatzi prezioa</span><span class="sxs-lookup"><span data-stu-id="d86d7-156">Include Fee</span></span> | <span data-ttu-id="d86d7-157">**Bai**/**Ez** balioa adierazten du hautatutako proiektuaren kostuen aurrekontu lerro honetako aurrekontuan sartuko diren.</span><span class="sxs-lookup"><span data-stu-id="d86d7-157">A **Yes**/**No** value indicates if fees on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="d86d7-158">**Ez** balioak adierazten du komisioak ez direla sartuko aurrekontu honen eskaintzaren lerroan.</span><span class="sxs-lookup"><span data-stu-id="d86d7-158">A **No** value indicates that the fees will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="d86d7-159">**Bai** balioak adierazten du komisioak sartuko direla aurrekontu honen eskaintzaren lerroan.</span><span class="sxs-lookup"><span data-stu-id="d86d7-159">A **Yes** value indicates that the fees will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="d86d7-160">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-160">This value is copied to the Project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="d86d7-161">Eskainitako zenbatekoa</span><span class="sxs-lookup"><span data-stu-id="d86d7-161">Quoted Amount</span></span> | <span data-ttu-id="d86d7-162">Proiektuan oinarritutako aurrekontu lerro honetan aurreikusitako lan guztiari bezeroari aipatuko zaion zenbatekoa da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-162">This is the amount that will be quoted to the customer for all the work forecasted on this project-based quote line.</span></span> <span data-ttu-id="d86d7-163">Aukera batetik sortutako aurrekontuan, balio hori aukera-lerroaren **Bezeroaren aurrekontua** eremutik kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-163">On a quote created from an opportunity, this value is copied from the **Customer Budget** field on the opportunity line.</span></span> <span data-ttu-id="d86d7-164">Proiektuan oinarritutako aurrekontu lerroak lerroaren xehetasunak dituenean, eremu hau blokeatuta dago editatzeko eta aurrekontuaren lerroaren xehetasunetan agertzen den zenbatekoaren arabera laburbiltzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-164">When the project-based quote line has line details, this field is locked for editing and is summarized from the amount on the quote line details.</span></span> | <span data-ttu-id="d86d7-165">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-165">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="d86d7-166">Aurreikusitako zerga</span><span class="sxs-lookup"><span data-stu-id="d86d7-166">Estimated Tax</span></span> | <span data-ttu-id="d86d7-167">Eremu editagarria da erabiltzaileak aurrekontu lerroan zenbatetsitako zerga kopurua gehitzeko.</span><span class="sxs-lookup"><span data-stu-id="d86d7-167">This is an editable field for the user to add the estimated tax amount on the quote line.</span></span> <span data-ttu-id="d86d7-168">Proiektuan oinarritutako aurrekontu lerroak lerroaren xehetasunak dituenean, eremu hau blokeatuta dago editatzeko eta aurrekontuaren lerroaren xehetasunetan agertzen den zerga-zenbatekoaren arabera laburbiltzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-168">When a project-based quote line has line details, this field is locked for editing and is summarized from the tax amount on the quote line details.</span></span> | <span data-ttu-id="d86d7-169">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-169">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="d86d7-170">Eskainitako zenbatekoa, zergaren ondoren</span><span class="sxs-lookup"><span data-stu-id="d86d7-170">Quoted Amount after Tax</span></span> | <span data-ttu-id="d86d7-171">Eremu hau zerga ondorengo aurrekontuaren zenbatekoa da eta irakurtzeko soilik da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-171">This field is the quote line amount after tax and is read-only.</span></span> <span data-ttu-id="d86d7-172">Eremu honetako zenbatekoa honela kalkulatzen da *Aipatutako zenbatekoa + Zerga*.</span><span class="sxs-lookup"><span data-stu-id="d86d7-172">The amount in this field is calculated as *Quoted Amount + Tax*.</span></span> | <span data-ttu-id="d86d7-173">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-173">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="d86d7-174">Ez gainditzeko muga</span><span class="sxs-lookup"><span data-stu-id="d86d7-174">Not-to-exceed Limit</span></span> | <span data-ttu-id="d86d7-175">Eremu hau editagarria da eta proiektu bat duten aurrekontu lerroetan soilik dago erabilgarri **Denbora eta materiala** fakturazio metodoa.</span><span class="sxs-lookup"><span data-stu-id="d86d7-175">This field is editable and is only available on project-based quote lines that have a **Time and Material** billing method.</span></span> | <span data-ttu-id="d86d7-176">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-176">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="d86d7-177">Bezeroaren aurrekontua</span><span class="sxs-lookup"><span data-stu-id="d86d7-177">Customer Budget</span></span> | <span data-ttu-id="d86d7-178">Eremu hau editagarria da eta balio hori aukera-lerroan dagokion eremutik kopiatzen da, abagunea eskaintza batetik sorten bada.</span><span class="sxs-lookup"><span data-stu-id="d86d7-178">This field is editable and is copied from the corresponding field on the opportunity line if the quote was created from an opportunity.</span></span> | <span data-ttu-id="d86d7-179">Balio hori aurrekontua irabazten denean aurrekontu lerro honetatik sortzen den proiektuaren kontratu lerroan kopiatzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-179">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
 
 
-## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a><span data-ttu-id="10ce5-180">Proiektuetan oinarritutako aurrekontu lerroen Orokorra fitxako eremuen baliozkotze arauak</span><span class="sxs-lookup"><span data-stu-id="10ce5-180">Validation rules for fields on the General tab of project-based quote lines</span></span>
+## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a><span data-ttu-id="d86d7-180">Proiektuetan oinarritutako aurrekontu lerroen Orokorra fitxako eremuen baliozkotze arauak</span><span class="sxs-lookup"><span data-stu-id="d86d7-180">Validation rules for fields on the General tab of project-based quote lines</span></span>
 
-<span data-ttu-id="10ce5-181">**1. araua**: **Zereginak barne** eremua hutsik badago, edo ezarrita badago **Proiektuaren zeregin guztiak**, proiektu bat aurrekontuaren lerroan sartzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-181">**Rule 1**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project is included in the quote line.</span></span>
+<span data-ttu-id="d86d7-181">**1. araua**: **Zereginak barne** eremua hutsik badago, edo ezarrita badago **Proiektuaren zeregin guztiak**, proiektu bat aurrekontuaren lerroan sartzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-181">**Rule 1**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project is included in the quote line.</span></span>
 
-<span data-ttu-id="10ce5-182">**2. araua**: **Zereginak barne** eremua hutsik badago, edo ezarrita badago **Proiektuaren zeregin guztiak**, proiektu bat eta transakzio klase jakin bat aurrekontuaren proiektuan oinarritutako aurrekontu lerro batean bakarrik sar daitezke.</span><span class="sxs-lookup"><span data-stu-id="10ce5-182">**Rule 2**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project and a certain transaction class can only be included on one project-based quote line of a quote.</span></span>
+<span data-ttu-id="d86d7-182">**2. araua**: **Zereginak barne** eremua hutsik badago, edo ezarrita badago **Proiektuaren zeregin guztiak**, proiektu bat eta transakzio klase jakin bat aurrekontuaren proiektuan oinarritutako aurrekontu lerro batean bakarrik sar daitezke.</span><span class="sxs-lookup"><span data-stu-id="d86d7-182">**Rule 2**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project and a certain transaction class can only be included on one project-based quote line of a quote.</span></span>
 
-<span data-ttu-id="10ce5-183">**3. araua**: **Zereginak barne** eremua **Hautatutako proiektuaren zereginak soilik** gisa ezarrita badago, proiektu bat eta transakzio klase jakin bat aurrekontuaren proiektuan oinarritutako aurrekontuan sar daitezke.</span><span class="sxs-lookup"><span data-stu-id="10ce5-183">**Rule 3**: If the **Included Tasks** field is set to **Selected project tasks only**, a project and a certain transaction class can be included on multiple project-based quote lines of a quote.</span></span>
+<span data-ttu-id="d86d7-183">**3. araua**: **Zereginak barne** eremua **Hautatutako proiektuaren zereginak soilik** gisa ezarrita badago, proiektu bat eta transakzio klase jakin bat aurrekontuaren proiektuan oinarritutako aurrekontuan sar daitezke.</span><span class="sxs-lookup"><span data-stu-id="d86d7-183">**Rule 3**: If the **Included Tasks** field is set to **Selected project tasks only**, a project and a certain transaction class can be included on multiple project-based quote lines of a quote.</span></span>
 
-<span data-ttu-id="10ce5-184">**4. araua**: Aukera batek aurrekontu ugari baditu, aurrekontu desberdinetako aurrekontu lerroak egon daitezke, proiektu bera aipatzen dutenak eta transakzio klase bera barne hartzen dutenak.</span><span class="sxs-lookup"><span data-stu-id="10ce5-184">**Rule 4**: If an opportunity has multiple quotes, there can be quote lines from different quotes that all reference the same project and include the same transaction class.</span></span>
+<span data-ttu-id="d86d7-184">**4. araua**: Aukera batek aurrekontu ugari baditu, aurrekontu desberdinetako aurrekontu lerroak egon daitezke, proiektu bera aipatzen dutenak eta transakzio klase bera barne hartzen dutenak.</span><span class="sxs-lookup"><span data-stu-id="d86d7-184">**Rule 4**: If an opportunity has multiple quotes, there can be quote lines from different quotes that all reference the same project and include the same transaction class.</span></span>
 
-<span data-ttu-id="10ce5-185">**5. araua**: Aurrekontuak aukera berekoak ez badira, ezin dute proiektu eta transakzio klase bera sartu.</span><span class="sxs-lookup"><span data-stu-id="10ce5-185">**Rule 5**: If the quotes do not belong to the same opportunity, they can't include the same project and transaction class.</span></span>
+<span data-ttu-id="d86d7-185">**5. araua**: Aurrekontuak aukera berekoak ez badira, ezin dute proiektu eta transakzio klase bera sartu.</span><span class="sxs-lookup"><span data-stu-id="d86d7-185">**Rule 5**: If the quotes do not belong to the same opportunity, they can't include the same project and transaction class.</span></span>
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
             <td width="59" valign="top">
-                <p><span data-ttu-id="10ce5-186">
+                <p><span data-ttu-id="d86d7-186">
                     <strong>Abagunea</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="10ce5-186">
+                </span><span class="sxs-lookup"><span data-stu-id="d86d7-186">
                     <strong>Opportunity</strong>
                 </span></span></p>
             </td>
             <td width="39" valign="top">
-                <p><span data-ttu-id="10ce5-187">
+                <p><span data-ttu-id="d86d7-187">
                     <strong>Eskaintza</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="10ce5-187">
+                </span><span class="sxs-lookup"><span data-stu-id="d86d7-187">
                     <strong>Quote</strong>
                 </span></span></p>
             </td>
             <td width="40" valign="top">
-                <p><span data-ttu-id="10ce5-188">
+                <p><span data-ttu-id="d86d7-188">
                     <strong>Eskaintzaren lerroa</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="10ce5-188">
+                </span><span class="sxs-lookup"><span data-stu-id="d86d7-188">
                     <strong>Quote line</strong>
                 </span></span></p>
             </td>
             <td width="41" valign="top">
-                <p><span data-ttu-id="10ce5-189">
+                <p><span data-ttu-id="d86d7-189">
                     <strong>Project</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="10ce5-189">
+                </span><span class="sxs-lookup"><span data-stu-id="d86d7-189">
                     <strong>Project</strong>
                 </span></span></p>
             </td>
             <td width="77" valign="top">
-                <p><span data-ttu-id="10ce5-190">
+                <p><span data-ttu-id="d86d7-190">
                     <strong>Gehitutako zereginak</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="10ce5-190">
+                </span><span class="sxs-lookup"><span data-stu-id="d86d7-190">
                     <strong>Included tasks</strong>
                 </span></span></p>
             </td>
             <td width="45" valign="top">
-                <p><span data-ttu-id="10ce5-191">
+                <p><span data-ttu-id="d86d7-191">
                     <strong>Idatzi denbora</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="10ce5-191">
+                </span><span class="sxs-lookup"><span data-stu-id="d86d7-191">
                     <strong>Include Time</strong>
                 </span></span></p>
             </td>
             <td width="46" valign="top">
-                <p><span data-ttu-id="10ce5-192">
+                <p><span data-ttu-id="d86d7-192">
                     <strong>Idatzi gastua</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="10ce5-192">
+                </span><span class="sxs-lookup"><span data-stu-id="d86d7-192">
                     <strong>Include Expense</strong>
                 </span></span></p>
             </td>
             <td width="43" valign="top">
-                <p><span data-ttu-id="10ce5-193">
+                <p><span data-ttu-id="d86d7-193">
                     <strong>Sartu materiala</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="10ce5-193">
+                </span><span class="sxs-lookup"><span data-stu-id="d86d7-193">
                     <strong>Include Material</strong>
                 </span></span></p>
             </td>
             <td width="41" valign="top">
-                <p><span data-ttu-id="10ce5-194">
+                <p><span data-ttu-id="d86d7-194">
                     <strong>Gehitu</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="10ce5-194">
+                </span><span class="sxs-lookup"><span data-stu-id="d86d7-194">
                     <strong>Include</strong>
                 </span></span></p>
-                <p><span data-ttu-id="10ce5-195">
+                <p><span data-ttu-id="d86d7-195">
                     <strong>Tasa</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="10ce5-195">
+                </span><span class="sxs-lookup"><span data-stu-id="d86d7-195">
                     <strong>Fee</strong>
                 </span></span></p>
             </td>
             <td width="49" valign="top">
-                <p><span data-ttu-id="10ce5-196">
+                <p><span data-ttu-id="d86d7-196">
                     <strong>Baliozkoa/Baliogabea da</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="10ce5-196">
+                </span><span class="sxs-lookup"><span data-stu-id="d86d7-196">
                     <strong>Valid/ Not valid</strong>
                 </span></span></p>
             </td>
             <td width="200" valign="top">
-                <p><span data-ttu-id="10ce5-197">
+                <p><span data-ttu-id="d86d7-197">
                     <strong>Arrazoia</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="10ce5-197">
+                </span><span class="sxs-lookup"><span data-stu-id="d86d7-197">
                     <strong>Reason</strong>
                 </span></span></p>
             </td>
@@ -149,85 +147,85 @@ ms.locfileid: "5858683"
         <tr>
             <td width="59" valign="top">
                 <p>
-<span data-ttu-id="10ce5-198">O1</span><span class="sxs-lookup"><span data-stu-id="10ce5-198">O1</span></span> </p>
+<span data-ttu-id="d86d7-198">O1</span><span class="sxs-lookup"><span data-stu-id="d86d7-198">O1</span></span> </p>
             </td>
             <td width="39" valign="top">
                 <p>
-<span data-ttu-id="10ce5-199">1H</span><span class="sxs-lookup"><span data-stu-id="10ce5-199">Q1</span></span> </p>
+<span data-ttu-id="d86d7-199">1H</span><span class="sxs-lookup"><span data-stu-id="d86d7-199">Q1</span></span> </p>
             </td>
             <td width="40" valign="top">
                 <p>
-<span data-ttu-id="10ce5-200">QL1</span><span class="sxs-lookup"><span data-stu-id="10ce5-200">QL1</span></span> </p>
+<span data-ttu-id="d86d7-200">QL1</span><span class="sxs-lookup"><span data-stu-id="d86d7-200">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-201">A1</span><span class="sxs-lookup"><span data-stu-id="10ce5-201">P1</span></span> </p>
+<span data-ttu-id="d86d7-201">A1</span><span class="sxs-lookup"><span data-stu-id="d86d7-201">P1</span></span> </p>
             </td>
             <td width="77" valign="top">
                 <p>
-<span data-ttu-id="10ce5-202">Hutsik</span><span class="sxs-lookup"><span data-stu-id="10ce5-202">Blank</span></span> </p>
+<span data-ttu-id="d86d7-202">Hutsik</span><span class="sxs-lookup"><span data-stu-id="d86d7-202">Blank</span></span> </p>
             </td>
             <td width="45" valign="top">
                 <p>
-<span data-ttu-id="10ce5-203">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-203">Yes</span></span> </p>
+<span data-ttu-id="d86d7-203">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-203">Yes</span></span> </p>
             </td>
             <td width="46" valign="top">
                 <p>
-<span data-ttu-id="10ce5-204">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-204">Yes</span></span> </p>
+<span data-ttu-id="d86d7-204">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-204">Yes</span></span> </p>
             </td>
             <td width="43" valign="top">
                 <p>
-<span data-ttu-id="10ce5-205">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-205">Yes</span></span> </p>
+<span data-ttu-id="d86d7-205">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-205">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-206">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-206">Yes</span></span> </p>
+<span data-ttu-id="d86d7-206">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-206">Yes</span></span> </p>
             </td>
             <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="10ce5-207">Baliogabea da</span><span class="sxs-lookup"><span data-stu-id="10ce5-207">Not valid</span></span> </p>
+<span data-ttu-id="d86d7-207">Baliogabea da</span><span class="sxs-lookup"><span data-stu-id="d86d7-207">Not valid</span></span> </p>
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="10ce5-208">2. araua haustea.</span><span class="sxs-lookup"><span data-stu-id="10ce5-208">Violation of Rule #2.</span></span> <span data-ttu-id="10ce5-209">P1 proiektuaren denbora, gastuak eta tasak aurrekontu lerroetan, QL1 eta QL2 barne daude</span><span class="sxs-lookup"><span data-stu-id="10ce5-209">Time, Expense, and Fees on P1 project are included on quote lines QL1 and QL2</span></span> </p>
+<span data-ttu-id="d86d7-208">2. araua haustea.</span><span class="sxs-lookup"><span data-stu-id="d86d7-208">Violation of Rule #2.</span></span> <span data-ttu-id="d86d7-209">P1 proiektuaren denbora, gastuak eta tasak aurrekontu lerroetan, QL1 eta QL2 barne daude</span><span class="sxs-lookup"><span data-stu-id="d86d7-209">Time, Expense, and Fees on P1 project are included on quote lines QL1 and QL2</span></span> </p>
             </td>
         </tr>
         <tr>
             <td width="59" valign="top">
                 <p>
-<span data-ttu-id="10ce5-210">O1</span><span class="sxs-lookup"><span data-stu-id="10ce5-210">O1</span></span> </p>
+<span data-ttu-id="d86d7-210">O1</span><span class="sxs-lookup"><span data-stu-id="d86d7-210">O1</span></span> </p>
             </td>
             <td width="39" valign="top">
                 <p>
-<span data-ttu-id="10ce5-211">1H</span><span class="sxs-lookup"><span data-stu-id="10ce5-211">Q1</span></span> </p>
+<span data-ttu-id="d86d7-211">1H</span><span class="sxs-lookup"><span data-stu-id="d86d7-211">Q1</span></span> </p>
             </td>
             <td width="40" valign="top">
                 <p>
-<span data-ttu-id="10ce5-212">QL2</span><span class="sxs-lookup"><span data-stu-id="10ce5-212">QL2</span></span> </p>
+<span data-ttu-id="d86d7-212">QL2</span><span class="sxs-lookup"><span data-stu-id="d86d7-212">QL2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-213">A1</span><span class="sxs-lookup"><span data-stu-id="10ce5-213">P1</span></span> </p>
+<span data-ttu-id="d86d7-213">A1</span><span class="sxs-lookup"><span data-stu-id="d86d7-213">P1</span></span> </p>
             </td>
             <td width="77" valign="top">
                 <p>
-<span data-ttu-id="10ce5-214">Hutsik</span><span class="sxs-lookup"><span data-stu-id="10ce5-214">Blank</span></span> </p>
+<span data-ttu-id="d86d7-214">Hutsik</span><span class="sxs-lookup"><span data-stu-id="d86d7-214">Blank</span></span> </p>
             </td>
             <td width="45" valign="top">
                 <p>
-<span data-ttu-id="10ce5-215">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-215">Yes</span></span> </p>
+<span data-ttu-id="d86d7-215">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-215">Yes</span></span> </p>
             </td>
             <td width="46" valign="top">
                 <p>
-<span data-ttu-id="10ce5-216">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-216">Yes</span></span> </p>
+<span data-ttu-id="d86d7-216">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-216">Yes</span></span> </p>
             </td>
             <td width="43" valign="top">
                 <p>
-<span data-ttu-id="10ce5-217">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-217">Yes</span></span> </p>
+<span data-ttu-id="d86d7-217">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-217">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-218">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-218">Yes</span></span> </p>
+<span data-ttu-id="d86d7-218">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-218">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -257,85 +255,85 @@ ms.locfileid: "5858683"
         <tr>
             <td width="59" valign="top">
                 <p>
-<span data-ttu-id="10ce5-219">O1</span><span class="sxs-lookup"><span data-stu-id="10ce5-219">O1</span></span> </p>
+<span data-ttu-id="d86d7-219">O1</span><span class="sxs-lookup"><span data-stu-id="d86d7-219">O1</span></span> </p>
             </td>
             <td width="39" valign="top">
                 <p>
-<span data-ttu-id="10ce5-220">1H</span><span class="sxs-lookup"><span data-stu-id="10ce5-220">Q1</span></span> </p>
+<span data-ttu-id="d86d7-220">1H</span><span class="sxs-lookup"><span data-stu-id="d86d7-220">Q1</span></span> </p>
             </td>
             <td width="40" valign="top">
                 <p>
-<span data-ttu-id="10ce5-221">QL1</span><span class="sxs-lookup"><span data-stu-id="10ce5-221">QL1</span></span> </p>
+<span data-ttu-id="d86d7-221">QL1</span><span class="sxs-lookup"><span data-stu-id="d86d7-221">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-222">A1</span><span class="sxs-lookup"><span data-stu-id="10ce5-222">P1</span></span> </p>
+<span data-ttu-id="d86d7-222">A1</span><span class="sxs-lookup"><span data-stu-id="d86d7-222">P1</span></span> </p>
             </td>
             <td width="77" valign="top">
                 <p>
-<span data-ttu-id="10ce5-223">Hutsik</span><span class="sxs-lookup"><span data-stu-id="10ce5-223">Blank</span></span> </p>
+<span data-ttu-id="d86d7-223">Hutsik</span><span class="sxs-lookup"><span data-stu-id="d86d7-223">Blank</span></span> </p>
             </td>
             <td width="45" valign="top">
                 <p>
-<span data-ttu-id="10ce5-224">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-224">Yes</span></span> </p>
+<span data-ttu-id="d86d7-224">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-224">Yes</span></span> </p>
             </td>
             <td width="46" valign="top">
                 <p>
-<span data-ttu-id="10ce5-225">No</span><span class="sxs-lookup"><span data-stu-id="10ce5-225">No</span></span> </p>
+<span data-ttu-id="d86d7-225">No</span><span class="sxs-lookup"><span data-stu-id="d86d7-225">No</span></span> </p>
             </td>
             <td width="43" valign="top">
                 <p>
-<span data-ttu-id="10ce5-226">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-226">Yes</span></span> </p>
+<span data-ttu-id="d86d7-226">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-226">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-227">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-227">Yes</span></span> </p>
+<span data-ttu-id="d86d7-227">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-227">Yes</span></span> </p>
             </td>
             <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="10ce5-228">Baliogabea da</span><span class="sxs-lookup"><span data-stu-id="10ce5-228">Not valid</span></span> </p>
+<span data-ttu-id="d86d7-228">Baliogabea da</span><span class="sxs-lookup"><span data-stu-id="d86d7-228">Not valid</span></span> </p>
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="10ce5-229">2. araua haustea.</span><span class="sxs-lookup"><span data-stu-id="10ce5-229">Violation of Rule #2.</span></span> <span data-ttu-id="10ce5-230">P1 proiektuaren denbora, materialak eta tasak aurrekontu lerroetan, QL1 eta QL2 barne daude</span><span class="sxs-lookup"><span data-stu-id="10ce5-230">Time, Material, and Fees on P1 project are included on quote lines QL1 and QL2</span></span> </p>
+<span data-ttu-id="d86d7-229">2. araua haustea.</span><span class="sxs-lookup"><span data-stu-id="d86d7-229">Violation of Rule #2.</span></span> <span data-ttu-id="d86d7-230">P1 proiektuaren denbora, materialak eta tasak aurrekontu lerroetan, QL1 eta QL2 barne daude</span><span class="sxs-lookup"><span data-stu-id="d86d7-230">Time, Material, and Fees on P1 project are included on quote lines QL1 and QL2</span></span> </p>
             </td>
         </tr>
         <tr>
             <td width="59" valign="top">
                 <p>
-<span data-ttu-id="10ce5-231">O1</span><span class="sxs-lookup"><span data-stu-id="10ce5-231">O1</span></span> </p>
+<span data-ttu-id="d86d7-231">O1</span><span class="sxs-lookup"><span data-stu-id="d86d7-231">O1</span></span> </p>
             </td>
             <td width="39" valign="top">
                 <p>
-<span data-ttu-id="10ce5-232">1H</span><span class="sxs-lookup"><span data-stu-id="10ce5-232">Q1</span></span> </p>
+<span data-ttu-id="d86d7-232">1H</span><span class="sxs-lookup"><span data-stu-id="d86d7-232">Q1</span></span> </p>
             </td>
             <td width="40" valign="top">
                 <p>
-<span data-ttu-id="10ce5-233">QL2</span><span class="sxs-lookup"><span data-stu-id="10ce5-233">QL2</span></span> </p>
+<span data-ttu-id="d86d7-233">QL2</span><span class="sxs-lookup"><span data-stu-id="d86d7-233">QL2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-234">A1</span><span class="sxs-lookup"><span data-stu-id="10ce5-234">P1</span></span> </p>
+<span data-ttu-id="d86d7-234">A1</span><span class="sxs-lookup"><span data-stu-id="d86d7-234">P1</span></span> </p>
             </td>
             <td width="77" valign="top">
                 <p>
-<span data-ttu-id="10ce5-235">Hutsik</span><span class="sxs-lookup"><span data-stu-id="10ce5-235">Blank</span></span> </p>
+<span data-ttu-id="d86d7-235">Hutsik</span><span class="sxs-lookup"><span data-stu-id="d86d7-235">Blank</span></span> </p>
             </td>
             <td width="45" valign="top">
                 <p>
-<span data-ttu-id="10ce5-236">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-236">Yes</span></span> </p>
+<span data-ttu-id="d86d7-236">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-236">Yes</span></span> </p>
             </td>
             <td width="46" valign="top">
                 <p>
-<span data-ttu-id="10ce5-237">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-237">Yes</span></span> </p>
+<span data-ttu-id="d86d7-237">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-237">Yes</span></span> </p>
             </td>
             <td width="43" valign="top">
                 <p>
-<span data-ttu-id="10ce5-238">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-238">Yes</span></span> </p>
+<span data-ttu-id="d86d7-238">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-238">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-239">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-239">Yes</span></span> </p>
+<span data-ttu-id="d86d7-239">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-239">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -365,88 +363,88 @@ ms.locfileid: "5858683"
         <tr>
             <td width="59" valign="top">
                 <p>
-<span data-ttu-id="10ce5-240">O1</span><span class="sxs-lookup"><span data-stu-id="10ce5-240">O1</span></span> </p>
+<span data-ttu-id="d86d7-240">O1</span><span class="sxs-lookup"><span data-stu-id="d86d7-240">O1</span></span> </p>
             </td>
             <td width="39" valign="top">
                 <p>
-<span data-ttu-id="10ce5-241">1H</span><span class="sxs-lookup"><span data-stu-id="10ce5-241">Q1</span></span> </p>
+<span data-ttu-id="d86d7-241">1H</span><span class="sxs-lookup"><span data-stu-id="d86d7-241">Q1</span></span> </p>
             </td>
             <td width="40" valign="top">
                 <p>
-<span data-ttu-id="10ce5-242">QL1</span><span class="sxs-lookup"><span data-stu-id="10ce5-242">QL1</span></span> </p>
+<span data-ttu-id="d86d7-242">QL1</span><span class="sxs-lookup"><span data-stu-id="d86d7-242">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-243">A1</span><span class="sxs-lookup"><span data-stu-id="10ce5-243">P1</span></span> </p>
+<span data-ttu-id="d86d7-243">A1</span><span class="sxs-lookup"><span data-stu-id="d86d7-243">P1</span></span> </p>
             </td>
             <td width="77" valign="top">
                 <p>
-<span data-ttu-id="10ce5-244">Hutsik</span><span class="sxs-lookup"><span data-stu-id="10ce5-244">Blank</span></span> </p>
+<span data-ttu-id="d86d7-244">Hutsik</span><span class="sxs-lookup"><span data-stu-id="d86d7-244">Blank</span></span> </p>
             </td>
             <td width="45" valign="top">
                 <p>
-<span data-ttu-id="10ce5-245">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-245">Yes</span></span> </p>
+<span data-ttu-id="d86d7-245">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-245">Yes</span></span> </p>
             </td>
             <td width="46" valign="top">
                 <p>
-<span data-ttu-id="10ce5-246">No</span><span class="sxs-lookup"><span data-stu-id="10ce5-246">No</span></span> </p>
+<span data-ttu-id="d86d7-246">No</span><span class="sxs-lookup"><span data-stu-id="d86d7-246">No</span></span> </p>
             </td>
             <td width="43" valign="top">
                 <p>
-<span data-ttu-id="10ce5-247">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-247">Yes</span></span> </p>
+<span data-ttu-id="d86d7-247">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-247">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-248">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-248">Yes</span></span> </p>
+<span data-ttu-id="d86d7-248">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-248">Yes</span></span> </p>
             </td>
             <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="10ce5-249">Baliozkoa</span><span class="sxs-lookup"><span data-stu-id="10ce5-249">Valid</span></span> </p>
+<span data-ttu-id="d86d7-249">Baliozkoa</span><span class="sxs-lookup"><span data-stu-id="d86d7-249">Valid</span></span> </p>
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="10ce5-250">P1 proiektuaren denbora, materialak eta tasak QL1 barne daude</span><span class="sxs-lookup"><span data-stu-id="10ce5-250">Time, Material, and Fees on P1 project are included on QL1</span></span> <br>
-<span data-ttu-id="10ce5-251">P1 proiektuaren gastuak QL2n sartzen dira</span><span class="sxs-lookup"><span data-stu-id="10ce5-251">Expense on P1 project is included on QL2</span></span> <br>
-<span data-ttu-id="10ce5-252">Aurrekontu lerro bakoitzean sartzen denaren gainetik ez dago gainjartzerik eta, beraz, baliozkoa da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-252">No overlap in what is being included on each quote line and therefore valid.</span></span>
+<span data-ttu-id="d86d7-250">P1 proiektuaren denbora, materialak eta tasak QL1 barne daude</span><span class="sxs-lookup"><span data-stu-id="d86d7-250">Time, Material, and Fees on P1 project are included on QL1</span></span> <br>
+<span data-ttu-id="d86d7-251">P1 proiektuaren gastuak QL2n sartzen dira</span><span class="sxs-lookup"><span data-stu-id="d86d7-251">Expense on P1 project is included on QL2</span></span> <br>
+<span data-ttu-id="d86d7-252">Aurrekontu lerro bakoitzean sartzen denaren gainetik ez dago gainjartzerik eta, beraz, baliozkoa da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-252">No overlap in what is being included on each quote line and therefore valid.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="59" valign="top">
                 <p>
-<span data-ttu-id="10ce5-253">O1</span><span class="sxs-lookup"><span data-stu-id="10ce5-253">O1</span></span> </p>
+<span data-ttu-id="d86d7-253">O1</span><span class="sxs-lookup"><span data-stu-id="d86d7-253">O1</span></span> </p>
             </td>
             <td width="39" valign="top">
                 <p>
-<span data-ttu-id="10ce5-254">1H</span><span class="sxs-lookup"><span data-stu-id="10ce5-254">Q1</span></span> </p>
+<span data-ttu-id="d86d7-254">1H</span><span class="sxs-lookup"><span data-stu-id="d86d7-254">Q1</span></span> </p>
             </td>
             <td width="40" valign="top">
                 <p>
-<span data-ttu-id="10ce5-255">QL2</span><span class="sxs-lookup"><span data-stu-id="10ce5-255">QL2</span></span> </p>
+<span data-ttu-id="d86d7-255">QL2</span><span class="sxs-lookup"><span data-stu-id="d86d7-255">QL2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-256">A1</span><span class="sxs-lookup"><span data-stu-id="10ce5-256">P1</span></span> </p>
+<span data-ttu-id="d86d7-256">A1</span><span class="sxs-lookup"><span data-stu-id="d86d7-256">P1</span></span> </p>
             </td>
             <td width="77" valign="top">
                 <p>
-<span data-ttu-id="10ce5-257">Hutsik</span><span class="sxs-lookup"><span data-stu-id="10ce5-257">Blank</span></span> </p>
+<span data-ttu-id="d86d7-257">Hutsik</span><span class="sxs-lookup"><span data-stu-id="d86d7-257">Blank</span></span> </p>
             </td>
             <td width="45" valign="top">
                 <p>
-<span data-ttu-id="10ce5-258">No</span><span class="sxs-lookup"><span data-stu-id="10ce5-258">No</span></span> </p>
+<span data-ttu-id="d86d7-258">No</span><span class="sxs-lookup"><span data-stu-id="d86d7-258">No</span></span> </p>
             </td>
             <td width="46" valign="top">
                 <p>
-<span data-ttu-id="10ce5-259">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-259">Yes</span></span> </p>
+<span data-ttu-id="d86d7-259">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-259">Yes</span></span> </p>
             </td>
             <td width="43" valign="top">
                 <p>
-<span data-ttu-id="10ce5-260">No</span><span class="sxs-lookup"><span data-stu-id="10ce5-260">No</span></span> </p>
+<span data-ttu-id="d86d7-260">No</span><span class="sxs-lookup"><span data-stu-id="d86d7-260">No</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-261">No</span><span class="sxs-lookup"><span data-stu-id="10ce5-261">No</span></span> </p>
+<span data-ttu-id="d86d7-261">No</span><span class="sxs-lookup"><span data-stu-id="d86d7-261">No</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -476,90 +474,90 @@ ms.locfileid: "5858683"
         <tr>
             <td width="59" valign="top">
                 <p>
-<span data-ttu-id="10ce5-262">O1</span><span class="sxs-lookup"><span data-stu-id="10ce5-262">O1</span></span> </p>
+<span data-ttu-id="d86d7-262">O1</span><span class="sxs-lookup"><span data-stu-id="d86d7-262">O1</span></span> </p>
             </td>
             <td width="39" valign="top">
                 <p>
-<span data-ttu-id="10ce5-263">1H</span><span class="sxs-lookup"><span data-stu-id="10ce5-263">Q1</span></span> </p>
+<span data-ttu-id="d86d7-263">1H</span><span class="sxs-lookup"><span data-stu-id="d86d7-263">Q1</span></span> </p>
             </td>
             <td width="40" valign="top">
                 <p>
-<span data-ttu-id="10ce5-264">QL1</span><span class="sxs-lookup"><span data-stu-id="10ce5-264">QL1</span></span> </p>
+<span data-ttu-id="d86d7-264">QL1</span><span class="sxs-lookup"><span data-stu-id="d86d7-264">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-265">A1</span><span class="sxs-lookup"><span data-stu-id="10ce5-265">P1</span></span> </p>
+<span data-ttu-id="d86d7-265">A1</span><span class="sxs-lookup"><span data-stu-id="d86d7-265">P1</span></span> </p>
             </td>
             <td width="77" valign="top">
                 <p>
-<span data-ttu-id="10ce5-266">Hautatutako zereginak soilik</span><span class="sxs-lookup"><span data-stu-id="10ce5-266">Selected tasks only</span></span> </p>
+<span data-ttu-id="d86d7-266">Hautatutako zereginak soilik</span><span class="sxs-lookup"><span data-stu-id="d86d7-266">Selected tasks only</span></span> </p>
             </td>
             <td width="45" valign="top">
                 <p>
-<span data-ttu-id="10ce5-267">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-267">Yes</span></span> </p>
+<span data-ttu-id="d86d7-267">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-267">Yes</span></span> </p>
             </td>
             <td width="46" valign="top">
                 <p>
-<span data-ttu-id="10ce5-268">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-268">Yes</span></span> </p>
+<span data-ttu-id="d86d7-268">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-268">Yes</span></span> </p>
             </td>
             <td width="43" valign="top">
                 <p>
-<span data-ttu-id="10ce5-269">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-269">Yes</span></span> </p>
+<span data-ttu-id="d86d7-269">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-269">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-270">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-270">Yes</span></span> </p>
+<span data-ttu-id="d86d7-270">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-270">Yes</span></span> </p>
             </td>
             <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="10ce5-271">Baliogabea da</span><span class="sxs-lookup"><span data-stu-id="10ce5-271">Not valid</span></span> </p>
+<span data-ttu-id="d86d7-271">Baliogabea da</span><span class="sxs-lookup"><span data-stu-id="d86d7-271">Not valid</span></span> </p>
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="10ce5-272">2. araua haustea</span><span class="sxs-lookup"><span data-stu-id="10ce5-272">Violation of Rule #2</span></span> </p>
+<span data-ttu-id="d86d7-272">2. araua haustea</span><span class="sxs-lookup"><span data-stu-id="d86d7-272">Violation of Rule #2</span></span> </p>
                 <p>
-<span data-ttu-id="10ce5-273">P1 proiektuan P1 proiektuaren zereginen azpimultzo baten denbora, materiala, gastuak eta tasak sartzen dira</span><span class="sxs-lookup"><span data-stu-id="10ce5-273">Q1 includes Time, Material, Expenses and Fees on a subset of tasks on project P1</span></span> </p>
+<span data-ttu-id="d86d7-273">P1 proiektuan P1 proiektuaren zereginen azpimultzo baten denbora, materiala, gastuak eta tasak sartzen dira</span><span class="sxs-lookup"><span data-stu-id="d86d7-273">Q1 includes Time, Material, Expenses and Fees on a subset of tasks on project P1</span></span> </p>
                 <p>
-<span data-ttu-id="10ce5-274">QL2-k P1 proiektu osorako denbora, gastuak eta tasak biltzen ditu eta, beraz, Q1-en sartutakoarekin gainjartzen da.</span><span class="sxs-lookup"><span data-stu-id="10ce5-274">QL2 includes Time, Expenses, and Fees for the whole project P1 and therefore overlaps with what is included on Q1.</span></span>
+<span data-ttu-id="d86d7-274">QL2-k P1 proiektu osorako denbora, gastuak eta tasak biltzen ditu eta, beraz, Q1-en sartutakoarekin gainjartzen da.</span><span class="sxs-lookup"><span data-stu-id="d86d7-274">QL2 includes Time, Expenses, and Fees for the whole project P1 and therefore overlaps with what is included on Q1.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="59" valign="top">
                 <p>
-<span data-ttu-id="10ce5-275">O1</span><span class="sxs-lookup"><span data-stu-id="10ce5-275">O1</span></span> </p>
+<span data-ttu-id="d86d7-275">O1</span><span class="sxs-lookup"><span data-stu-id="d86d7-275">O1</span></span> </p>
             </td>
             <td width="39" valign="top">
                 <p>
-<span data-ttu-id="10ce5-276">1H</span><span class="sxs-lookup"><span data-stu-id="10ce5-276">Q1</span></span> </p>
+<span data-ttu-id="d86d7-276">1H</span><span class="sxs-lookup"><span data-stu-id="d86d7-276">Q1</span></span> </p>
             </td>
             <td width="40" valign="top">
                 <p>
-<span data-ttu-id="10ce5-277">QL2</span><span class="sxs-lookup"><span data-stu-id="10ce5-277">QL2</span></span> </p>
+<span data-ttu-id="d86d7-277">QL2</span><span class="sxs-lookup"><span data-stu-id="d86d7-277">QL2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-278">A1</span><span class="sxs-lookup"><span data-stu-id="10ce5-278">P1</span></span> </p>
+<span data-ttu-id="d86d7-278">A1</span><span class="sxs-lookup"><span data-stu-id="d86d7-278">P1</span></span> </p>
             </td>
             <td width="77" valign="top">
                 <p>
-<span data-ttu-id="10ce5-279">Hutsik</span><span class="sxs-lookup"><span data-stu-id="10ce5-279">Blank</span></span> </p>
+<span data-ttu-id="d86d7-279">Hutsik</span><span class="sxs-lookup"><span data-stu-id="d86d7-279">Blank</span></span> </p>
             </td>
             <td width="45" valign="top">
                 <p>
-<span data-ttu-id="10ce5-280">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-280">Yes</span></span> </p>
+<span data-ttu-id="d86d7-280">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-280">Yes</span></span> </p>
             </td>
             <td width="46" valign="top">
                 <p>
-<span data-ttu-id="10ce5-281">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-281">Yes</span></span> </p>
+<span data-ttu-id="d86d7-281">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-281">Yes</span></span> </p>
             </td>
             <td width="43" valign="top">
                 <p>
-<span data-ttu-id="10ce5-282">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-282">Yes</span></span> </p>
+<span data-ttu-id="d86d7-282">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-282">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-283">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-283">Yes</span></span> </p>
+<span data-ttu-id="d86d7-283">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-283">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -589,94 +587,94 @@ ms.locfileid: "5858683"
         <tr>
             <td width="59" valign="top">
                 <p>
-<span data-ttu-id="10ce5-284">O1</span><span class="sxs-lookup"><span data-stu-id="10ce5-284">O1</span></span> </p>
+<span data-ttu-id="d86d7-284">O1</span><span class="sxs-lookup"><span data-stu-id="d86d7-284">O1</span></span> </p>
             </td>
             <td width="39" valign="top">
                 <p>
-<span data-ttu-id="10ce5-285">1H</span><span class="sxs-lookup"><span data-stu-id="10ce5-285">Q1</span></span> </p>
+<span data-ttu-id="d86d7-285">1H</span><span class="sxs-lookup"><span data-stu-id="d86d7-285">Q1</span></span> </p>
             </td>
             <td width="40" valign="top">
                 <p>
-<span data-ttu-id="10ce5-286">QL1</span><span class="sxs-lookup"><span data-stu-id="10ce5-286">QL1</span></span> </p>
+<span data-ttu-id="d86d7-286">QL1</span><span class="sxs-lookup"><span data-stu-id="d86d7-286">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-287">A1</span><span class="sxs-lookup"><span data-stu-id="10ce5-287">P1</span></span> </p>
+<span data-ttu-id="d86d7-287">A1</span><span class="sxs-lookup"><span data-stu-id="d86d7-287">P1</span></span> </p>
             </td>
             <td width="77" valign="top">
                 <p>
-<span data-ttu-id="10ce5-288">Hautatutako zereginak soilik</span><span class="sxs-lookup"><span data-stu-id="10ce5-288">Selected tasks only</span></span> </p>
+<span data-ttu-id="d86d7-288">Hautatutako zereginak soilik</span><span class="sxs-lookup"><span data-stu-id="d86d7-288">Selected tasks only</span></span> </p>
             </td>
             <td width="45" valign="top">
                 <p>
-<span data-ttu-id="10ce5-289">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-289">Yes</span></span> </p>
+<span data-ttu-id="d86d7-289">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-289">Yes</span></span> </p>
             </td>
             <td width="46" valign="top">
                 <p>
-<span data-ttu-id="10ce5-290">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-290">Yes</span></span> </p>
+<span data-ttu-id="d86d7-290">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-290">Yes</span></span> </p>
             </td>
             <td width="43" valign="top">
                 <p>
-<span data-ttu-id="10ce5-291">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-291">Yes</span></span> </p>
+<span data-ttu-id="d86d7-291">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-291">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-292">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-292">Yes</span></span> </p>
+<span data-ttu-id="d86d7-292">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-292">Yes</span></span> </p>
             </td>
             <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="10ce5-293">Baliozkoa</span><span class="sxs-lookup"><span data-stu-id="10ce5-293">Valid</span></span> </p>
+<span data-ttu-id="d86d7-293">Baliozkoa</span><span class="sxs-lookup"><span data-stu-id="d86d7-293">Valid</span></span> </p>
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="10ce5-294">3. arauaren arabera,</span><span class="sxs-lookup"><span data-stu-id="10ce5-294">Per Rule #3,</span></span> </p>
+<span data-ttu-id="d86d7-294">3. arauaren arabera,</span><span class="sxs-lookup"><span data-stu-id="d86d7-294">Per Rule #3,</span></span> </p>
                 <p>
-<span data-ttu-id="10ce5-295">P1 proiektuan P1 proiektuaren zereginen azpimultzo baten denbora, materiala, gastuak eta tasak sartzen dira.</span><span class="sxs-lookup"><span data-stu-id="10ce5-295">Q1 includes Time, Material, Expenses, and Fees on a subset of tasks on project P1.</span></span>
+<span data-ttu-id="d86d7-295">P1 proiektuan P1 proiektuaren zereginen azpimultzo baten denbora, materiala, gastuak eta tasak sartzen dira.</span><span class="sxs-lookup"><span data-stu-id="d86d7-295">Q1 includes Time, Material, Expenses, and Fees on a subset of tasks on project P1.</span></span>
                 </p>
                 <p>
-<span data-ttu-id="10ce5-296">QL2k proiektuan P1 proiektuaren zereginen azpimultzo baten denbora, materiala, gastuak eta tasak sartzen dira.</span><span class="sxs-lookup"><span data-stu-id="10ce5-296">QL2 includes Time, Material, Expenses, and Fees for a subset of tasks on project P1.</span></span>
+<span data-ttu-id="d86d7-296">QL2k proiektuan P1 proiektuaren zereginen azpimultzo baten denbora, materiala, gastuak eta tasak sartzen dira.</span><span class="sxs-lookup"><span data-stu-id="d86d7-296">QL2 includes Time, Material, Expenses, and Fees for a subset of tasks on project P1.</span></span>
                 </p>
                 <p>
-<span data-ttu-id="10ce5-297">Balidazio osagarri bakarra QL1-eko zereginen azpimultzoaren inguruan kokatzen da, QL2-ren zereginen azpimultzoaren desberdina dela gainjartzerik ez dagoela ziurtatzeko.</span><span class="sxs-lookup"><span data-stu-id="10ce5-297">The only additional validation is around the subset of tasks on QL1 which is different from the subset of tasks on QL2 to ensure that there is no overlap.</span></span> <span data-ttu-id="10ce5-298">Sistemak zereginak lotzen dituenean egiten du.</span><span class="sxs-lookup"><span data-stu-id="10ce5-298">This is done by the system when tasks are associated.</span></span>
+<span data-ttu-id="d86d7-297">Balidazio osagarri bakarra QL1-eko zereginen azpimultzoaren inguruan kokatzen da, QL2-ren zereginen azpimultzoaren desberdina dela gainjartzerik ez dagoela ziurtatzeko.</span><span class="sxs-lookup"><span data-stu-id="d86d7-297">The only additional validation is around the subset of tasks on QL1 which is different from the subset of tasks on QL2 to ensure that there is no overlap.</span></span> <span data-ttu-id="d86d7-298">Sistemak zereginak lotzen dituenean egiten du.</span><span class="sxs-lookup"><span data-stu-id="d86d7-298">This is done by the system when tasks are associated.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="59" valign="top">
                 <p>
-<span data-ttu-id="10ce5-299">O1</span><span class="sxs-lookup"><span data-stu-id="10ce5-299">O1</span></span> </p>
+<span data-ttu-id="d86d7-299">O1</span><span class="sxs-lookup"><span data-stu-id="d86d7-299">O1</span></span> </p>
             </td>
             <td width="39" valign="top">
                 <p>
-<span data-ttu-id="10ce5-300">1H</span><span class="sxs-lookup"><span data-stu-id="10ce5-300">Q1</span></span> </p>
+<span data-ttu-id="d86d7-300">1H</span><span class="sxs-lookup"><span data-stu-id="d86d7-300">Q1</span></span> </p>
             </td>
             <td width="40" valign="top">
                 <p>
-<span data-ttu-id="10ce5-301">QL2</span><span class="sxs-lookup"><span data-stu-id="10ce5-301">QL2</span></span> </p>
+<span data-ttu-id="d86d7-301">QL2</span><span class="sxs-lookup"><span data-stu-id="d86d7-301">QL2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-302">A1</span><span class="sxs-lookup"><span data-stu-id="10ce5-302">P1</span></span> </p>
+<span data-ttu-id="d86d7-302">A1</span><span class="sxs-lookup"><span data-stu-id="d86d7-302">P1</span></span> </p>
             </td>
             <td width="77" valign="top">
                 <p>
-<span data-ttu-id="10ce5-303">Hautatutako zereginak soilik</span><span class="sxs-lookup"><span data-stu-id="10ce5-303">Selected tasks only</span></span> </p>
+<span data-ttu-id="d86d7-303">Hautatutako zereginak soilik</span><span class="sxs-lookup"><span data-stu-id="d86d7-303">Selected tasks only</span></span> </p>
             </td>
             <td width="45" valign="top">
                 <p>
-<span data-ttu-id="10ce5-304">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-304">Yes</span></span> </p>
+<span data-ttu-id="d86d7-304">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-304">Yes</span></span> </p>
             </td>
             <td width="46" valign="top">
                 <p>
-<span data-ttu-id="10ce5-305">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-305">Yes</span></span> </p>
+<span data-ttu-id="d86d7-305">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-305">Yes</span></span> </p>
             </td>
             <td width="43" valign="top">
                 <p>
-<span data-ttu-id="10ce5-306">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-306">Yes</span></span> </p>
+<span data-ttu-id="d86d7-306">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-306">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-307">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-307">Yes</span></span> </p>
+<span data-ttu-id="d86d7-307">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-307">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -706,86 +704,86 @@ ms.locfileid: "5858683"
         <tr>
             <td width="59" valign="top">
                 <p>
-<span data-ttu-id="10ce5-308">O1</span><span class="sxs-lookup"><span data-stu-id="10ce5-308">O1</span></span> </p>
+<span data-ttu-id="d86d7-308">O1</span><span class="sxs-lookup"><span data-stu-id="d86d7-308">O1</span></span> </p>
             </td>
             <td width="39" valign="top">
                 <p>
-<span data-ttu-id="10ce5-309">1H</span><span class="sxs-lookup"><span data-stu-id="10ce5-309">Q1</span></span> </p>
+<span data-ttu-id="d86d7-309">1H</span><span class="sxs-lookup"><span data-stu-id="d86d7-309">Q1</span></span> </p>
             </td>
             <td width="40" valign="top">
                 <p>
-<span data-ttu-id="10ce5-310">QL1</span><span class="sxs-lookup"><span data-stu-id="10ce5-310">QL1</span></span> </p>
+<span data-ttu-id="d86d7-310">QL1</span><span class="sxs-lookup"><span data-stu-id="d86d7-310">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-311">A1</span><span class="sxs-lookup"><span data-stu-id="10ce5-311">P1</span></span> </p>
+<span data-ttu-id="d86d7-311">A1</span><span class="sxs-lookup"><span data-stu-id="d86d7-311">P1</span></span> </p>
             </td>
             <td width="77" valign="top">
                 <p>
-<span data-ttu-id="10ce5-312">Proiektuaren zeregin guztiak edo hutsik</span><span class="sxs-lookup"><span data-stu-id="10ce5-312">All project tasks or blank</span></span> </p>
+<span data-ttu-id="d86d7-312">Proiektuaren zeregin guztiak edo hutsik</span><span class="sxs-lookup"><span data-stu-id="d86d7-312">All project tasks or blank</span></span> </p>
             </td>
             <td width="45" valign="top">
                 <p>
-<span data-ttu-id="10ce5-313">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-313">Yes</span></span> </p>
+<span data-ttu-id="d86d7-313">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-313">Yes</span></span> </p>
             </td>
             <td width="46" valign="top">
                 <p>
-<span data-ttu-id="10ce5-314">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-314">Yes</span></span> </p>
+<span data-ttu-id="d86d7-314">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-314">Yes</span></span> </p>
             </td>
             <td width="43" valign="top">
                 <p>
-<span data-ttu-id="10ce5-315">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-315">Yes</span></span> </p>
+<span data-ttu-id="d86d7-315">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-315">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-316">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-316">Yes</span></span> </p>
+<span data-ttu-id="d86d7-316">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-316">Yes</span></span> </p>
             </td>
             <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="10ce5-317">Baliozkoa</span><span class="sxs-lookup"><span data-stu-id="10ce5-317">Valid</span></span> </p>
+<span data-ttu-id="d86d7-317">Baliozkoa</span><span class="sxs-lookup"><span data-stu-id="d86d7-317">Valid</span></span> </p>
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="10ce5-318">5. arauaren arabera, Q1 eta Q2 aukera berdineko bi komatxo dira, beraz, biek proiektu baten osagai berberak kalkula ditzakete.</span><span class="sxs-lookup"><span data-stu-id="10ce5-318">Per Rule #5, Q1 and Q2 are two quotes on the same opportunity, so they can both estimate for the same components of a project.</span></span>
+<span data-ttu-id="d86d7-318">5. arauaren arabera, Q1 eta Q2 aukera berdineko bi komatxo dira, beraz, biek proiektu baten osagai berberak kalkula ditzakete.</span><span class="sxs-lookup"><span data-stu-id="d86d7-318">Per Rule #5, Q1 and Q2 are two quotes on the same opportunity, so they can both estimate for the same components of a project.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="59" valign="top">
                 <p>
-<span data-ttu-id="10ce5-319">O1</span><span class="sxs-lookup"><span data-stu-id="10ce5-319">O1</span></span> </p>
+<span data-ttu-id="d86d7-319">O1</span><span class="sxs-lookup"><span data-stu-id="d86d7-319">O1</span></span> </p>
             </td>
             <td width="39" valign="top">
                 <p>
-<span data-ttu-id="10ce5-320">2H</span><span class="sxs-lookup"><span data-stu-id="10ce5-320">Q2</span></span> </p>
+<span data-ttu-id="d86d7-320">2H</span><span class="sxs-lookup"><span data-stu-id="d86d7-320">Q2</span></span> </p>
             </td>
             <td width="40" valign="top">
                 <p>
-<span data-ttu-id="10ce5-321">QL1</span><span class="sxs-lookup"><span data-stu-id="10ce5-321">QL1</span></span> </p>
+<span data-ttu-id="d86d7-321">QL1</span><span class="sxs-lookup"><span data-stu-id="d86d7-321">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-322">A1</span><span class="sxs-lookup"><span data-stu-id="10ce5-322">P1</span></span> </p>
+<span data-ttu-id="d86d7-322">A1</span><span class="sxs-lookup"><span data-stu-id="d86d7-322">P1</span></span> </p>
             </td>
             <td width="77" valign="top">
                 <p>
-<span data-ttu-id="10ce5-323">Proiektuaren zeregin guztiak edo hutsik</span><span class="sxs-lookup"><span data-stu-id="10ce5-323">All project tasks or blank</span></span> </p>
+<span data-ttu-id="d86d7-323">Proiektuaren zeregin guztiak edo hutsik</span><span class="sxs-lookup"><span data-stu-id="d86d7-323">All project tasks or blank</span></span> </p>
             </td>
             <td width="45" valign="top">
                 <p>
-<span data-ttu-id="10ce5-324">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-324">Yes</span></span> </p>
+<span data-ttu-id="d86d7-324">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-324">Yes</span></span> </p>
             </td>
             <td width="46" valign="top">
                 <p>
-<span data-ttu-id="10ce5-325">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-325">Yes</span></span> </p>
+<span data-ttu-id="d86d7-325">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-325">Yes</span></span> </p>
             </td>
             <td width="43" valign="top">
                 <p>
-<span data-ttu-id="10ce5-326">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-326">Yes</span></span> </p>
+<span data-ttu-id="d86d7-326">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-326">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-327">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-327">Yes</span></span> </p>
+<span data-ttu-id="d86d7-327">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-327">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -815,86 +813,86 @@ ms.locfileid: "5858683"
         <tr>
             <td width="59" valign="top">
                 <p>
-<span data-ttu-id="10ce5-328">O1</span><span class="sxs-lookup"><span data-stu-id="10ce5-328">O1</span></span> </p>
+<span data-ttu-id="d86d7-328">O1</span><span class="sxs-lookup"><span data-stu-id="d86d7-328">O1</span></span> </p>
             </td>
             <td width="39" valign="top">
                 <p>
-<span data-ttu-id="10ce5-329">1H</span><span class="sxs-lookup"><span data-stu-id="10ce5-329">Q1</span></span> </p>
+<span data-ttu-id="d86d7-329">1H</span><span class="sxs-lookup"><span data-stu-id="d86d7-329">Q1</span></span> </p>
             </td>
             <td width="40" valign="top">
                 <p>
-<span data-ttu-id="10ce5-330">QL1</span><span class="sxs-lookup"><span data-stu-id="10ce5-330">QL1</span></span> </p>
+<span data-ttu-id="d86d7-330">QL1</span><span class="sxs-lookup"><span data-stu-id="d86d7-330">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-331">A1</span><span class="sxs-lookup"><span data-stu-id="10ce5-331">P1</span></span> </p>
+<span data-ttu-id="d86d7-331">A1</span><span class="sxs-lookup"><span data-stu-id="d86d7-331">P1</span></span> </p>
             </td>
             <td width="77" valign="top">
                 <p>
-<span data-ttu-id="10ce5-332">Proiektuaren zeregin guztiak edo hutsik</span><span class="sxs-lookup"><span data-stu-id="10ce5-332">All project tasks or blank</span></span> </p>
+<span data-ttu-id="d86d7-332">Proiektuaren zeregin guztiak edo hutsik</span><span class="sxs-lookup"><span data-stu-id="d86d7-332">All project tasks or blank</span></span> </p>
             </td>
             <td width="45" valign="top">
                 <p>
-<span data-ttu-id="10ce5-333">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-333">Yes</span></span> </p>
+<span data-ttu-id="d86d7-333">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-333">Yes</span></span> </p>
             </td>
             <td width="46" valign="top">
                 <p>
-<span data-ttu-id="10ce5-334">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-334">Yes</span></span> </p>
+<span data-ttu-id="d86d7-334">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-334">Yes</span></span> </p>
             </td>
             <td width="43" valign="top">
                 <p>
-<span data-ttu-id="10ce5-335">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-335">Yes</span></span> </p>
+<span data-ttu-id="d86d7-335">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-335">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-336">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-336">Yes</span></span> </p>
+<span data-ttu-id="d86d7-336">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-336">Yes</span></span> </p>
             </td>
             <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="10ce5-337">Baliogabea da</span><span class="sxs-lookup"><span data-stu-id="10ce5-337">Not Valid</span></span> </p>
+<span data-ttu-id="d86d7-337">Baliogabea da</span><span class="sxs-lookup"><span data-stu-id="d86d7-337">Not Valid</span></span> </p>
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="10ce5-338">4. arauaren arabera, Q1 eta Q2 aukera desberrdineko bi komatxo dira, beraz, biek proiektu berean osagai berberak kalkula ditzakete.</span><span class="sxs-lookup"><span data-stu-id="10ce5-338">Per Rule #4, Q1 and Q2 are two quotes on different opportunities, so they can't estimate for the same components of same project.</span></span>
+<span data-ttu-id="d86d7-338">4. arauaren arabera, Q1 eta Q2 aukera desberrdineko bi komatxo dira, beraz, biek proiektu berean osagai berberak kalkula ditzakete.</span><span class="sxs-lookup"><span data-stu-id="d86d7-338">Per Rule #4, Q1 and Q2 are two quotes on different opportunities, so they can't estimate for the same components of same project.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="59" valign="top">
                 <p>
-<span data-ttu-id="10ce5-339">O2</span><span class="sxs-lookup"><span data-stu-id="10ce5-339">O2</span></span> </p>
+<span data-ttu-id="d86d7-339">O2</span><span class="sxs-lookup"><span data-stu-id="d86d7-339">O2</span></span> </p>
             </td>
             <td width="39" valign="top">
                 <p>
-<span data-ttu-id="10ce5-340">1H</span><span class="sxs-lookup"><span data-stu-id="10ce5-340">Q1</span></span> </p>
+<span data-ttu-id="d86d7-340">1H</span><span class="sxs-lookup"><span data-stu-id="d86d7-340">Q1</span></span> </p>
             </td>
             <td width="40" valign="top">
                 <p>
-<span data-ttu-id="10ce5-341">QL1</span><span class="sxs-lookup"><span data-stu-id="10ce5-341">QL1</span></span> </p>
+<span data-ttu-id="d86d7-341">QL1</span><span class="sxs-lookup"><span data-stu-id="d86d7-341">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-342">A1</span><span class="sxs-lookup"><span data-stu-id="10ce5-342">P1</span></span> </p>
+<span data-ttu-id="d86d7-342">A1</span><span class="sxs-lookup"><span data-stu-id="d86d7-342">P1</span></span> </p>
             </td>
             <td width="77" valign="top">
                 <p>
-<span data-ttu-id="10ce5-343">Proiektuaren zeregin guztiak edo hutsik</span><span class="sxs-lookup"><span data-stu-id="10ce5-343">All project tasks or blank</span></span> </p>
+<span data-ttu-id="d86d7-343">Proiektuaren zeregin guztiak edo hutsik</span><span class="sxs-lookup"><span data-stu-id="d86d7-343">All project tasks or blank</span></span> </p>
             </td>
             <td width="45" valign="top">
                 <p>
-<span data-ttu-id="10ce5-344">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-344">Yes</span></span> </p>
+<span data-ttu-id="d86d7-344">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-344">Yes</span></span> </p>
             </td>
             <td width="46" valign="top">
                 <p>
-<span data-ttu-id="10ce5-345">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-345">Yes</span></span> </p>
+<span data-ttu-id="d86d7-345">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-345">Yes</span></span> </p>
             </td>
             <td width="43" valign="top">
                 <p>
-<span data-ttu-id="10ce5-346">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-346">Yes</span></span> </p>
+<span data-ttu-id="d86d7-346">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-346">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="10ce5-347">Yes</span><span class="sxs-lookup"><span data-stu-id="10ce5-347">Yes</span></span> </p>
+<span data-ttu-id="d86d7-347">Yes</span><span class="sxs-lookup"><span data-stu-id="d86d7-347">Yes</span></span> </p>
             </td>
         </tr>
     </tbody>
