@@ -2,81 +2,79 @@
 title: Aplikatu demo-datuak Finance-ren hodeian ostatatutako ingurune batean
 description: Gai honek Project Operations-etik demo datuak nola aplikatu azaltzen du Dynamics 365 Finance hodeian ostatatutako ingurunea.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7239301dc8b775dc4a53a1cf6c0bcba3956125a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7d8a198b3bfd71ae08bc338d17896519b5ffd6b8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289849"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000131"
 ---
-# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a><span data-ttu-id="9d0ec-103">Aplikatu demo-datuak Finance-ren hodeian ostatatutako ingurune batean</span><span class="sxs-lookup"><span data-stu-id="9d0ec-103">Apply demo data to a Finance Cloud-hosted environment</span></span>
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a><span data-ttu-id="85d0b-103">Aplikatu demo-datuak Finance-ren hodeian ostatatutako ingurune batean</span><span class="sxs-lookup"><span data-stu-id="85d0b-103">Apply demo data to a Finance Cloud-hosted environment</span></span>
 
-<span data-ttu-id="9d0ec-104">_**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_</span><span class="sxs-lookup"><span data-stu-id="9d0ec-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="85d0b-104">_**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_</span><span class="sxs-lookup"><span data-stu-id="85d0b-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="9d0ec-105">Gai hau Microsoft Dynamics 365 Finance 10.0.13 bertsioan soilik aplikatzen da eta hodeian ostatatutako ingurune batean bakarrik egin daiteke.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-105">This topic is only applicable only Microsoft Dynamics 365 Finance version 10.0.13 and can be performed only on a Cloud-hosted environment.</span></span> <span data-ttu-id="9d0ec-106">Osatu gai honetako urratsak **AURRETIK** ingurumenari kalitatezko eguneratzeak aplikatzen dizkiozu.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-106">Complete the steps in this topic **BEFORE** you apply quality updates to the environment.</span></span>
+> <span data-ttu-id="85d0b-105">Gai hau Microsoft Dynamics 365 Finance 10.0.13 bertsioan soilik aplikatzen da eta hodeian ostatatutako ingurune batean bakarrik egin daiteke.</span><span class="sxs-lookup"><span data-stu-id="85d0b-105">This topic is only applicable only Microsoft Dynamics 365 Finance version 10.0.13 and can be performed only on a Cloud-hosted environment.</span></span> <span data-ttu-id="85d0b-106">Osatu gai honetako urratsak **AURRETIK** ingurumenari kalitatezko eguneratzeak aplikatzen dizkiozu.</span><span class="sxs-lookup"><span data-stu-id="85d0b-106">Complete the steps in this topic **BEFORE** you apply quality updates to the environment.</span></span>
 
-1. <span data-ttu-id="9d0ec-107">Zure LCS proiektuan, ireki **Ingurumenaren xehetasunak** orrialdea.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-107">In your LCS project, open the **Environment details** page.</span></span> <span data-ttu-id="9d0ec-108">Ohar zaitez urruneko mahaigaineko protokoloa (RDP) erabiliz ingurunearekin konektatzeko behar diren xehetasunak biltzen dituela.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-108">Notice that it includes the details needed to connect to the environment by using Remote Desktop Protocol (RDP).</span></span>
+1. <span data-ttu-id="85d0b-107">Zure LCS proiektuan, ireki **Ingurumenaren xehetasunak** orrialdea.</span><span class="sxs-lookup"><span data-stu-id="85d0b-107">In your LCS project, open the **Environment details** page.</span></span> <span data-ttu-id="85d0b-108">Ohar zaitez urruneko mahaigaineko protokoloa (RDP) erabiliz ingurunearekin konektatzeko behar diren xehetasunak biltzen dituela.</span><span class="sxs-lookup"><span data-stu-id="85d0b-108">Notice that it includes the details needed to connect to the environment by using Remote Desktop Protocol (RDP).</span></span>
 
 ![ Ingurune-xehetasunak](./media/1EnvironmentDetails.png)
 
-<span data-ttu-id="9d0ec-110">Nabarmendutako kredentzialen lehen multzoa tokiko kontuaren egiaztagiriak dira eta urruneko mahaigaineko konexiorako hiperesteka bat dute.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-110">The first set of highlighted credentials are the local account credentials and contain a hyperlink to the remote desktop connection.</span></span> <span data-ttu-id="9d0ec-111">Kredentzialen artean, inguruneko administratzaile izena eta pasahitza daude.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-111">The credentials include the environment admin username and password.</span></span> <span data-ttu-id="9d0ec-112">Ingurune honetan SQL Server zerbitzuan saioa hasteko bigarren kredentzial multzoa erabiltzen da.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-112">The second set of credentials are used to log in to SQL Server in this environment.</span></span>
+<span data-ttu-id="85d0b-110">Nabarmendutako kredentzialen lehen multzoa tokiko kontuaren egiaztagiriak dira eta urruneko mahaigaineko konexiorako hiperesteka bat dute.</span><span class="sxs-lookup"><span data-stu-id="85d0b-110">The first set of highlighted credentials are the local account credentials and contain a hyperlink to the remote desktop connection.</span></span> <span data-ttu-id="85d0b-111">Kredentzialen artean, inguruneko administratzaile izena eta pasahitza daude.</span><span class="sxs-lookup"><span data-stu-id="85d0b-111">The credentials include the environment admin username and password.</span></span> <span data-ttu-id="85d0b-112">Ingurune honetan SQL Server zerbitzuan saioa hasteko bigarren kredentzial multzoa erabiltzen da.</span><span class="sxs-lookup"><span data-stu-id="85d0b-112">The second set of credentials are used to log in to SQL Server in this environment.</span></span>
 
-2. <span data-ttu-id="9d0ec-113">Konektatu ingurunearekin hiperesteka bidez **Tokiko kontuak**, eta erabili **Tokiko kontuaren egiaztagiriak** autentifikatzeko.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-113">Remote to the environment by the hyperlink in **Local Accounts**, and use the **Local Account credentials** to authenticate.</span></span>
-3. <span data-ttu-id="9d0ec-114">Joan **Interneteko Informazio Zerbitzuak** > **Aplikazio multzoak** > **AOSZerbitzua** eta zerbitzua gelditu.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-114">Go to **Internet Information Services** > **Application Pools** > **AOSService** and stop the service.</span></span> <span data-ttu-id="9d0ec-115">Une honetan zerbitzua gelditzen ari zara, SQL datu basea ordezkatzen jarrai dezazun.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-115">You are stopping the service at this point so that you can continue to replace the SQL database.</span></span>
+2. <span data-ttu-id="85d0b-113">Konektatu ingurunearekin hiperesteka bidez **Tokiko kontuak**, eta erabili **Tokiko kontuaren egiaztagiriak** autentifikatzeko.</span><span class="sxs-lookup"><span data-stu-id="85d0b-113">Remote to the environment by the hyperlink in **Local Accounts**, and use the **Local Account credentials** to authenticate.</span></span>
+3. <span data-ttu-id="85d0b-114">Joan **Interneteko Informazio Zerbitzuak** > **Aplikazio multzoak** > **AOSZerbitzua** eta zerbitzua gelditu.</span><span class="sxs-lookup"><span data-stu-id="85d0b-114">Go to **Internet Information Services** > **Application Pools** > **AOSService** and stop the service.</span></span> <span data-ttu-id="85d0b-115">Une honetan zerbitzua gelditzen ari zara, SQL datu basea ordezkatzen jarrai dezazun.</span><span class="sxs-lookup"><span data-stu-id="85d0b-115">You are stopping the service at this point so that you can continue to replace the SQL database.</span></span>
 
 ![Gelditu AOS](./media/2StopAOS.png)
 
-4. <span data-ttu-id="9d0ec-117">Joan **Zerbitzuak** eta gelditu bi elementu hauek:</span><span class="sxs-lookup"><span data-stu-id="9d0ec-117">Go to **Services** and stop the following two items:</span></span>
+4. <span data-ttu-id="85d0b-117">Joan **Zerbitzuak** eta gelditu bi elementu hauek:</span><span class="sxs-lookup"><span data-stu-id="85d0b-117">Go to **Services** and stop the following two items:</span></span>
 
-- <span data-ttu-id="9d0ec-118">Microsoft Dynamics 365 Unified Operations: Loteen kudeaketa zerbitzua</span><span class="sxs-lookup"><span data-stu-id="9d0ec-118">Microsoft Dynamics 365 Unified Operations: Batch Management Service</span></span>
-- <span data-ttu-id="9d0ec-119">Microsoft Dynamics 365 Unified Operations: Datuak Inportatzeko Esportazio Esparrua</span><span class="sxs-lookup"><span data-stu-id="9d0ec-119">Microsoft Dynamics 365 Unified Operations: Data Import Export Framework</span></span>
+- <span data-ttu-id="85d0b-118">Microsoft Dynamics 365 Unified Operations: Loteen kudeaketa zerbitzua</span><span class="sxs-lookup"><span data-stu-id="85d0b-118">Microsoft Dynamics 365 Unified Operations: Batch Management Service</span></span>
+- <span data-ttu-id="85d0b-119">Microsoft Dynamics 365 Unified Operations: Datuak Inportatzeko Esportazio Esparrua</span><span class="sxs-lookup"><span data-stu-id="85d0b-119">Microsoft Dynamics 365 Unified Operations: Data Import Export Framework</span></span>
 
 ![Gelditu zerbitzuak](./media/3StopServices.png)
 
-5. <span data-ttu-id="9d0ec-121">Ireki Microsoft SQL Server Management Studio.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-121">Open Microsoft SQL Server Management Studio.</span></span> <span data-ttu-id="9d0ec-122">Hasi saioa SQL zerbitzariaren egiaztagiriekin eta erabili axdbadmin erabiltzailea eta LCSko pasahitza **Inguruneen xehetasunak** orrialdea.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-122">Log in with SQL server credentials and use the axdbadmin user and password from the LCS **Environments details** page.</span></span>
+5. <span data-ttu-id="85d0b-121">Ireki Microsoft SQL Server Management Studio.</span><span class="sxs-lookup"><span data-stu-id="85d0b-121">Open Microsoft SQL Server Management Studio.</span></span> <span data-ttu-id="85d0b-122">Hasi saioa SQL zerbitzariaren egiaztagiriekin eta erabili axdbadmin erabiltzailea eta LCSko pasahitza **Inguruneen xehetasunak** orrialdea.</span><span class="sxs-lookup"><span data-stu-id="85d0b-122">Log in with SQL server credentials and use the axdbadmin user and password from the LCS **Environments details** page.</span></span>
 
 ![SQL Server Management Studio](./media/4SSMS.png)
 
-6. <span data-ttu-id="9d0ec-124">Object Explorer-en, **Datu-baseak** eta kokatu **AXDB**.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-124">In Object Explorer, **Databases** and locate **AXDB**.</span></span> <span data-ttu-id="9d0ec-125">Datu-basea datu-basean ordeztuko duzu [Deskarga-zentroan](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip).</span><span class="sxs-lookup"><span data-stu-id="9d0ec-125">You will replace database with a new database that is located in the [Download Center](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip).</span></span> 
-7. <span data-ttu-id="9d0ec-126">Kopiatu zip fitxategia urrun zauden VM-ra eta atera zip edukia.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-126">Copy the zip file to the VM you are remoted into and extract zip contents.</span></span>
-8. <span data-ttu-id="9d0ec-127">SQL Server Management Studio-n, egin klik eskuineko botoiaz **AxDB** eta, ondoren, hautatu **Zereginak** > **Berreskuratu** > **Datu basea**.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-127">In SQL Server Management Studio, right-click **AxDB**, and then select **Tasks** > **Restore** > **Database**.</span></span>
+6. <span data-ttu-id="85d0b-124">Object Explorer-en, **Datu-baseak** eta kokatu **AXDB**.</span><span class="sxs-lookup"><span data-stu-id="85d0b-124">In Object Explorer, **Databases** and locate **AXDB**.</span></span> <span data-ttu-id="85d0b-125">Datu-basea datu-basean ordeztuko duzu [Deskarga-zentroan](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip).</span><span class="sxs-lookup"><span data-stu-id="85d0b-125">You will replace database with a new database that is located in the [Download Center](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip).</span></span> 
+7. <span data-ttu-id="85d0b-126">Kopiatu zip fitxategia urrun zauden VM-ra eta atera zip edukia.</span><span class="sxs-lookup"><span data-stu-id="85d0b-126">Copy the zip file to the VM you are remoted into and extract zip contents.</span></span>
+8. <span data-ttu-id="85d0b-127">SQL Server Management Studio-n, egin klik eskuineko botoiaz **AxDB** eta, ondoren, hautatu **Zereginak** > **Berreskuratu** > **Datu basea**.</span><span class="sxs-lookup"><span data-stu-id="85d0b-127">In SQL Server Management Studio, right-click **AxDB**, and then select **Tasks** > **Restore** > **Database**.</span></span>
 
 ![Leheneratu datu-basea](./media/5RestoreDatabase.png)
 
-9. <span data-ttu-id="9d0ec-129">Aukeratu **Iturburu-gailua** eta joan kopiatu duzun zip-etik ateratako fitxategira.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-129">Select **Source Device** and navigate to the file extracted from zip you copied.</span></span>
+9. <span data-ttu-id="85d0b-129">Aukeratu **Iturburu-gailua** eta joan kopiatu duzun zip-etik ateratako fitxategira.</span><span class="sxs-lookup"><span data-stu-id="85d0b-129">Select **Source Device** and navigate to the file extracted from zip you copied.</span></span>
 
 ![Iturri gailuak](./media/6SourceDevice.png)
 
-10. <span data-ttu-id="9d0ec-131">Aukeratu **Aukerak** eta, ondoren, hautatu **Gainidatzi lehendik dagoen datu basea** eta **Itxi dauden konexioak helmugako datu basera**.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-131">Select **Options**, and then select **Overwrite the existing database** and **Close existing connections to destination database**.</span></span> 
-11. <span data-ttu-id="9d0ec-132">Hautatu **Ados**.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-132">Select **OK**.</span></span>
+10. <span data-ttu-id="85d0b-131">Aukeratu **Aukerak** eta, ondoren, hautatu **Gainidatzi lehendik dagoen datu basea** eta **Itxi dauden konexioak helmugako datu basera**.</span><span class="sxs-lookup"><span data-stu-id="85d0b-131">Select **Options**, and then select **Overwrite the existing database** and **Close existing connections to destination database**.</span></span> 
+11. <span data-ttu-id="85d0b-132">Hautatu **Ados**.</span><span class="sxs-lookup"><span data-stu-id="85d0b-132">Select **OK**.</span></span>
 
 ![Leheneratu ezarpenak](./media/7RestoreSetting.png)
 
-<span data-ttu-id="9d0ec-134">AXDB berreskurapena arrakastatsua izan dela baieztatuko duzu.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-134">You will receive confirmation that the AXDB restore was successful.</span></span> <span data-ttu-id="9d0ec-135">Baieztapen hau jaso ondoren, SQL Services Management Studio itxi dezakezu.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-135">After you receive this confirmation, you can close SQL Services Management Studio.</span></span>
+<span data-ttu-id="85d0b-134">AXDB berreskurapena arrakastatsua izan dela baieztatuko duzu.</span><span class="sxs-lookup"><span data-stu-id="85d0b-134">You will receive confirmation that the AXDB restore was successful.</span></span> <span data-ttu-id="85d0b-135">Baieztapen hau jaso ondoren, SQL Services Management Studio itxi dezakezu.</span><span class="sxs-lookup"><span data-stu-id="85d0b-135">After you receive this confirmation, you can close SQL Services Management Studio.</span></span>
 
-12. <span data-ttu-id="9d0ec-136">Itzuli **Interneteko Informazio Zerbitzuak** > **Aplikazio multzoak** > **AOSZerbitzua** aukerara eta hasi AOSZerbitzua.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-136">Go back to **Internet Information Services** > **Application Pools** > **AOSService** and start the AOSService.</span></span>
-13. <span data-ttu-id="9d0ec-137">Joan **Zerbitzuak** eta hasi lehen gelditu zenituen bi zerbitzuak.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-137">Go to **Services** and start the two services you stopped earlier.</span></span>
+12. <span data-ttu-id="85d0b-136">Itzuli **Interneteko Informazio Zerbitzuak** > **Aplikazio multzoak** > **AOSZerbitzua** aukerara eta hasi AOSZerbitzua.</span><span class="sxs-lookup"><span data-stu-id="85d0b-136">Go back to **Internet Information Services** > **Application Pools** > **AOSService** and start the AOSService.</span></span>
+13. <span data-ttu-id="85d0b-137">Joan **Zerbitzuak** eta hasi lehen gelditu zenituen bi zerbitzuak.</span><span class="sxs-lookup"><span data-stu-id="85d0b-137">Go to **Services** and start the two services you stopped earlier.</span></span>
 
-14. <span data-ttu-id="9d0ec-138">Aurkitu AdminUserProvisioning tresna VM honetan.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-138">Locate the AdminUserProvisioning tool on this VM.</span></span> <span data-ttu-id="9d0ec-139">Begiratu azpian, K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-139">Look under, K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.</span></span>
-15. <span data-ttu-id="9d0ec-140">Exekutatu .ext fitxategia zure erabiltzailearen helbidea erabiliz **Helbide elektronikoa** eremua.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-140">Run the .ext file using your user address in the **Email Address** field.</span></span> 
-16. <span data-ttu-id="9d0ec-141">Hautatu **Bidali**.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-141">Select **Submit**.</span></span>
+14. <span data-ttu-id="85d0b-138">Aurkitu AdminUserProvisioning tresna VM honetan.</span><span class="sxs-lookup"><span data-stu-id="85d0b-138">Locate the AdminUserProvisioning tool on this VM.</span></span> <span data-ttu-id="85d0b-139">Begiratu azpian, K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.</span><span class="sxs-lookup"><span data-stu-id="85d0b-139">Look under, K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.</span></span>
+15. <span data-ttu-id="85d0b-140">Exekutatu .ext fitxategia zure erabiltzailearen helbidea erabiliz **Helbide elektronikoa** eremua.</span><span class="sxs-lookup"><span data-stu-id="85d0b-140">Run the .ext file using your user address in the **Email Address** field.</span></span> 
+16. <span data-ttu-id="85d0b-141">Hautatu **Bidali**.</span><span class="sxs-lookup"><span data-stu-id="85d0b-141">Select **Submit**.</span></span>
 
 ![Administratzaile-erabiltzailearen hornitzea](./media/8AdminUserProvisioning.png)
 
-<span data-ttu-id="9d0ec-143">Minutu pare bat behar dira.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-143">This takes a couple of minutes to complete.</span></span> <span data-ttu-id="9d0ec-144">Admin erabiltzailea ondo eguneratu dela baieztatzeko mezua jaso beharko zenuke.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-144">You should receive a confirmation message that the Admin user was successfully updated.</span></span>
+<span data-ttu-id="85d0b-143">Minutu pare bat behar dira.</span><span class="sxs-lookup"><span data-stu-id="85d0b-143">This takes a couple of minutes to complete.</span></span> <span data-ttu-id="85d0b-144">Admin erabiltzailea ondo eguneratu dela baieztatzeko mezua jaso beharko zenuke.</span><span class="sxs-lookup"><span data-stu-id="85d0b-144">You should receive a confirmation message that the Admin user was successfully updated.</span></span>
 
-17. <span data-ttu-id="9d0ec-145">Azkenean, exekutatu komando-gonbita administratzaile gisa eta burutu iisreset</span><span class="sxs-lookup"><span data-stu-id="9d0ec-145">Lastly, run Command Prompt as Administrator and perform iisreset</span></span>
+17. <span data-ttu-id="85d0b-145">Azkenean, exekutatu komando-gonbita administratzaile gisa eta burutu iisreset</span><span class="sxs-lookup"><span data-stu-id="85d0b-145">Lastly, run Command Prompt as Administrator and perform iisreset</span></span>
 
 ![IIS berrezartzea](./media/9IISReset.png)
 
-18. <span data-ttu-id="9d0ec-147">Itxi urruneko mahaigaineko saioa eta erabili LCS **Ingurumenaren xehetasunak** orria ingurunean saioa hasteko espero bezala funtzionatzen duela baieztatzeko.</span><span class="sxs-lookup"><span data-stu-id="9d0ec-147">Close the remote desktop session and use the LCS **Environment details** page to log in to the environment to confirm it is working as expected.</span></span>
+18. <span data-ttu-id="85d0b-147">Itxi urruneko mahaigaineko saioa eta erabili LCS **Ingurumenaren xehetasunak** orria ingurunean saioa hasteko espero bezala funtzionatzen duela baieztatzeko.</span><span class="sxs-lookup"><span data-stu-id="85d0b-147">Close the remote desktop session and use the LCS **Environment details** page to log in to the environment to confirm it is working as expected.</span></span>
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
 
