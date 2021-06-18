@@ -2,18 +2,16 @@
 title: Aplikatu demo-konfigurazioa eta konfigurazio-datuak - arina
 description: Gai honek Project Operations-eko demo-konfigurazioa eta konfigurazio datuak nola aplikatu jakiteko informazioa eskaintzen du.
 author: sigitac
-manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 694dbc74591de74895095a9da6e590069711fc83
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290119"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997136"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplikatu Project Operations-erako demo-konfigurazioa eta konfigurazio-datuak - arina 
 
@@ -28,8 +26,8 @@ Konfigurazioa hasi aurretik, hau eduki behar duzu Common Data Service (CDS) ingu
 
 ## <a name="instructions"></a>Instrukzioak
 
-1. Deskargatu [Datu nagusien paketea](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. Joan *ProjOpsDemoDataSetupAndMaster - CMT integratua* karpetara eta exekutatu fitxategi exekutagarria, *DataMigrationUtility*.
+1. Deskargatu [Datu nagusien paketea](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
+2. Joan karpetara *ProjOpsSampleSetupData - CE bakarrik CMT* eta exekutatu fitxategi exekutagarria,*DataMigrationUtility*.
 3. Common Data Service konfigurazio-migrazioaren (CMT) morroiko 1. orrian, hautatu **Inportatu datuak** eta, ondoren, hautatu **Jarraitu**.
 
     ![Konfigurazioaren migrazioa](./media/1ConfigurationMigration.png)
@@ -41,18 +39,18 @@ Konfigurazioa hasi aurretik, hau eduki behar duzu Common Data Service (CDS) ingu
    ![Konfigurazioaren saio-hasiera](./media/2ConfigurationSignin.png)
 
 7. 3. orrialdean, Maizterraren Erakundeen zerrendan, hautatu zein erakundetan inportatu nahi dituzun demo datuak eta hautatu **Saioa hasi**.
-8. 4. orrialdean, hautatu zip fitxategia, *MasterAndSetupData* paketatu gabeko karpetatik, *ProjOpsDemoDataSetupAndMaster - CMT integratua*.
+8. 4. orrialdean, hautatu zip fitxategia, *SampleSetupAndConfigData* paketatu gabeko karpetatik, *ProjOpsSampleSetupData - CE bakarrik CMT*.
 
    ![Zip fitxategia](./media/3ZipFile.png)
 
-   ![Hautatu fitxategia.](./media/4SelectAFile.png)
+   ![Hautatu fitxategi bat](./media/4SelectAFile.png)
 
 9. Zip fitxategia hautatu ondoren, hautatu **Inportatu datuak**.
 
    ![Inportatu datuak](./media/5ImportData.png)
 
 10. Inportazioa gutxi gorabehera bi-hamar minutu iraungo du sareko abiaduraren arabera. Bukatu ondoren, irten CMT morroitik. 
-11. Egiaztatu zure erakundeak 20 entitate hauetako datuak dituen:
+11. Egiaztatu zure erakundeak 18 entitate hauetako datuak dituen:
 
     -   Moneta
     -   Account
