@@ -2,18 +2,16 @@
 title: Erabili Programazio APIak Planifikazio entitateekin eragiketak egiteko
 description: Gai honek Programazioa APIak erabiltzeko informazioa eta laginak eskaintzen ditu.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950789"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116782"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Erabili Programazio APIak Planifikazio entitateekin eragiketak egiteko
 
@@ -268,7 +266,6 @@ Jarraian agertzen diren mugen eta arazo ezagunen zerrenda:
 - Erabiltzaile bakoitzak gehienez 10 **OperationSet** ireki eduki ditzake.
 - Gaur egun, Project Operations-ek gehienez 500 zeregin onartzen dituzte proiektu batean.
 - **OperationSet** hutsegiteen egoera eta hutsegiteen erregistroak ez daude erabilgarri une honetan.
-- Antolaketa APIak aurreargitalpen publikoan daude. API hauek ekoizpen-ingurunean erabiltzea ez da Microsoft-ek onartzen.
 - [Proiektuetako eta zereginetako mugak](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Errore-kudeaketa
