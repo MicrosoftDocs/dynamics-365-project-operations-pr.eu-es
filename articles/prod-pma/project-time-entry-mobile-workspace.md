@@ -2,11 +2,9 @@
 title: Proiektuaren denbora sartzeko mugikorreko lan eremua
 description: Gai hori emateko informazioa buruz Proiektuaren denbora-sarreran mugikorreko laneko area. Laneko espazio honi esker, erabiltzaileek proiektu baten aurka sartu eta denbora aurrez dezakete beren gailu mugikorra erabiliz.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950159"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009916"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Proiektuaren denbora sartzeko mugikorreko lan eremua
 
