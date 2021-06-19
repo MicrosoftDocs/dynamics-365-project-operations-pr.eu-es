@@ -2,8 +2,6 @@
 title: Lortu Dynamics 365 Project Finder Mobile aplikazioak | MicrosoftDocs
 description: Nola lortu Dynamics 365 Project Finder Mobile aplikazioak
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.date: 8/03/2018
 ms.topic: article
@@ -17,25 +15,25 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea18b38a69be518bf072cd11ee8757034c0479c
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 9d04f47f588b615cd52696a49e0f8e531c35e439
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947954"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007396"
 ---
-# <a name="get-the-apps-project-service"></a><span data-ttu-id="87688-103">Lortu aplikazioak (Project Service)</span><span class="sxs-lookup"><span data-stu-id="87688-103">Get the apps (Project Service)</span></span>
+# <a name="get-the-apps-project-service"></a><span data-ttu-id="9037d-103">Lortu aplikazioak (Project Service)</span><span class="sxs-lookup"><span data-stu-id="9037d-103">Get the apps (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="87688-104">Gailu mugikorrean sartu nahi badituzu ordua eta gastuak, [Lortu eta instalatu Dynamics 365 for phones and tablets](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).</span><span class="sxs-lookup"><span data-stu-id="87688-104">If you want to enter your time and expenses on your mobile device, [Get and install Dynamics 365 for phones and tablets](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).</span></span>  
+<span data-ttu-id="9037d-104">Gailu mugikorrean sartu nahi badituzu ordua eta gastuak, [Lortu eta instalatu Dynamics 365 for phones and tablets](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).</span><span class="sxs-lookup"><span data-stu-id="9037d-104">If you want to enter your time and expenses on your mobile device, [Get and install Dynamics 365 for phones and tablets](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).</span></span>  
   
- <span data-ttu-id="87688-105">Project Finder Mobile aplikazioa telefonoan ere erabil dezakezu, lantzeko proiektua bilatu eta aplikatzeko.</span><span class="sxs-lookup"><span data-stu-id="87688-105">You can also use the Project Finder Mobile app on your phone to find a new project to work on and apply for it.</span></span> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="87688-106">[Bilatu hurrengo proiektua Project Finder Mobile aplikazioarekin](../psa/find-next-project-finder-mobile-app.md)</span><span class="sxs-lookup"><span data-stu-id="87688-106">[Find your next project with the Project Finder Mobile app](../psa/find-next-project-finder-mobile-app.md)</span></span> 
+ <span data-ttu-id="9037d-105">Project Finder Mobile aplikazioa telefonoan ere erabil dezakezu, lantzeko proiektua bilatu eta aplikatzeko.</span><span class="sxs-lookup"><span data-stu-id="9037d-105">You can also use the Project Finder Mobile app on your phone to find a new project to work on and apply for it.</span></span> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="9037d-106">[Bilatu hurrengo proiektua Project Finder Mobile aplikazioarekin](../psa/find-next-project-finder-mobile-app.md)</span><span class="sxs-lookup"><span data-stu-id="9037d-106">[Find your next project with the Project Finder Mobile app](../psa/find-next-project-finder-mobile-app.md)</span></span> 
   
-### <a name="see-also"></a><span data-ttu-id="87688-107">Ikusi baita ere</span><span class="sxs-lookup"><span data-stu-id="87688-107">See Also</span></span>  
- [<span data-ttu-id="87688-108">Denboraren, gastuen eta lankidetzaren gida</span><span class="sxs-lookup"><span data-stu-id="87688-108">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="9037d-107">Ikusi baita ere</span><span class="sxs-lookup"><span data-stu-id="9037d-107">See Also</span></span>  
+ [<span data-ttu-id="9037d-108">Denboraren, gastuen eta lankidetzaren gida</span><span class="sxs-lookup"><span data-stu-id="9037d-108">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
