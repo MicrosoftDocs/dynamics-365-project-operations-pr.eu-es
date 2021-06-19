@@ -1,9 +1,7 @@
 ---
 title: Bertsio-berritzeko kontuan hartu beharrekoak - Microsoft Dynamics 365 Project Service Automation 2.x edo 1.x bertsiotik 3 bertsiora
 description: Gai honek Project Service Automation aplikazioaren 2.x edo 1.x bertsiotik 3. bertsiora bertsio-berritzean egin behar dituzun gogoetei buruzko informazioa ematen du.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281643"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014866"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Bertsio-berritzeko gogoetak. PSA aplikazioaren 2.x edo 1.x bertsiotik 3. bertsiora
 
@@ -83,7 +81,7 @@ Bertsio-berritzea hasi aurretik, taldea berriro sortzea gomendatzen dizugu balia
 
 **Sortu taldea** eginbidearekin sortutako taldekide orokorrei esleitutako zereginetarako, bertsio-berritzeak baliabide generikoa taldean utziko du eta esleipena taldekide orokor horri utziko dio. Bertsio-berritzearen ondoren talde generikoko kideari baliabide eskakizuna sortzea gomendatzen dugu, baina baliabideen eskaera erreserbatu edo bidali aurretik. Horrek proiektuko kontratazioaren erakunde-unitatearengandik desberdinak diren entitate unitateen esleipenak gordeko ditu taldekide orokorretan.
 
-Adibidez, Project Z proiektuan, kontratazioareb erakunde-unitatea Contoso US da. Proiektuaren planean, Inplementazio fasean saiakuntzak egiteko zereginei aholkulari teknikoa funtzioa esleitu zaie eta esleitutako erakunde-unitatea Contoso India da.
+Adibidez, Project Z proiektuan, kontratazioaren erakunde-unitatea Contoso US da. Proiektuaren planean, Inplementazio fasean saiakuntzak egiteko zereginei aholkulari teknikoa funtzioa esleitu zaie eta esleitutako erakunde-unitatea Contoso India da.
 
 ![Ezarpen fasearen entitate esleipena](media/org-unit-assignment-09.png)
 
@@ -106,7 +104,7 @@ Erakundearen unitatea kalkuluen ikuspegian ikus dezakezu.
  
 Bertsio-berritzea amaitutakoan, taldekide orokorrari dagokion lerroko zereginari buruzko erakunde-unitatea taldekide orokorrari gehitzen zaio eta lerroko zeregina kentzen da. Hori dela eta, bertsioa eguneratu aurretik, taldea sortzea edo berriro sortzea gomendatzen dugu baliabide generikoak dituen proiektu bakoitzean.
 
-Kontratazio proiektuaren erakunde unitatearengandik desberdina den erakunde-unitate bat duen funtzio bati esleitutako zereginetarako, eta talde bat sortu ez bada, eguneratzeak taldekide orokorra sortuko du funtziorako, baina taldekidearen erakunde-unitaterako proiektuaren kontratazio unitatea erabiliko du. Proiektua Z-ren adibidera itzuliz, Contoso US kontratazio erakunde-unitatea eta inplementazio faseko proiektuaren planak probatzeko zereginei aholkulari teknikoa funtzioa esleitu zaie Contoso India-ri esleitutako erakunde unitatearekin. Inplementazioaren fasea aholkulari teknikoaren funtzioari esleitu ondoren osatutako integrazio probaren zeregina. Erakunde-unitatea Contoso US da eta ez da talderik sortu. Eguneratzeak taldekide orokor bat, hiru zereginetarako esleitutako orduak dituen aholkulari tekniko bat eta Contoso US-en erakunde-unitate bat, hau da, roiektuaren kontratazioaren erakunde-unitatea sortuko ditu.   
+Kontratazio proiektuaren erakunde unitatearengandik desberdina den erakunde-unitate bat duen funtzio bati esleitutako zereginetarako, eta talde bat sortu ez bada, eguneratzeak taldekide orokorra sortuko du funtziorako, baina taldekidearen erakunde-unitaterako proiektuaren kontratazio unitatea erabiliko du. Proiektua Z-ren adibidera itzuliz, Contosohorrek esan nahi du Contoso US kontratazio erakunde-unitatea eta inplementazio faseko proiektuaren planak probatzeko zereginei aholkulari teknikoa funtzioa esleitu zaie Contoso India-ri esleitutako erakunde unitatearekin. Inplementazioaren fasea aholkulari teknikoaren funtzioari esleitu ondoren osatutako integrazio probaren zeregina. Erakunde-unitatea Contoso US da eta ez da talderik sortu. Eguneratzeak taldekide orokor bat, hiru zereginetarako esleitutako orduak dituen aholkulari tekniko bat eta Contoso US-en erakunde-unitate bat, hau da, proiektuaren kontratazioaren erakunde-unitatea sortuko ditu.   
  
 Sortu gabeko taldekideen baliabide desberdinen erakunde-unitatearen lehenespenak aldatzea da eguneratu aurretik baliabide orokorrak dituzten proiektu bakoitzeko taldekideak sortzea edo berriro sortzea gomendatzearen arrazoia, erakunde-unitateen esleipenak galdu ez daitezen.
 

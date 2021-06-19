@@ -2,8 +2,6 @@
 title: Dibisa anitzeko agertokiak (3.x bertsioa)
 description: Gai honek dibisa anitzeko agertokiei buruzko informazioa ematen du.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291694"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014776"
 ---
 # <a name="multiple-currency-scenarios"></a>Dibisa anitzeko gertaerak
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 dibisa bi kontzeptu ditu:
 - **Transakzio-dibisa**: transakzio bat gertatzen den dibisa. 
 - **Oinarrizko dibisa**: Dynamics 365 instantziaren dibisa. Dibisa hau Dynamics 365 instantzia hornitzen denean konfiguratzen da. Ezin da aldatu.
 
-Adibidez, Badiola Gasteizek 100 kamiseta saldu zizkieten Erresuma Batuko bezero bati, 15 euroko esterlina (GBP) bakoitzeko. Hurrengo taulan, transakzio hau nola erregistratu den eskaera produktuaren entitatean agertzen da.
+Adibidez, Contoso US-ek 100 kamiseta saldu zizkieten Erresuma Batuko bezero bati, 15 euroko esterlina (GBP) bakoitzeko. Hurrengo taulan, transakzio hau nola erregistratu den eskaera produktuaren entitatean agertzen da.
 
 | Produktua | Kopurua | Prezioa unitate bakoitzeko | Moneta | Zenbatekoa | Kanbio-tasa | Prezioa unitate bakoitzeko (oinarrizkoa)| Zenbatekoa (oinarrizkoa)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -68,14 +66,14 @@ PSAk transakzio-dibisa kontzeptua kostuen eta salmenten bidez zabaltzen du modu 
 
 ## <a name="multiple-currency-scenario"></a>Dibisa anitzeko gertaera
 
-Atal honetan Badiola UK-k Fabrikam izena duen bezero batentzat entregatzen duen proiektuaren adibidea deskribatzen du. Hona hemen nola ezarri den eszenatokia:
+Atal honetan Contoso UK-k Fabrikam izena duen bezero batentzat entregatzen duen proiektuaren adibidea deskribatzen du. Hona hemen nola ezarri den eszenatokia:
 
 1. GBP eta yen japoniarra (JPY) daude konfiguratuta **Ezarpenak** \> **Negozio-kudeaketa** \> **Dibisak**. 
 2. Izena duen bezeroaren kontua **Fabrikam - Japonia** konfiguratuta dago eta JPY hautatuko da kontuko dibisa gisa.
-3. Erakunde unitate bat **Badiola Erresuma Batua** konfiguratuta dago eta GBP moneta gisa hautatzen da.
-4. Proiektu-kontratua sortzen da, non **Badiola Erresuma Batua** unitate kontratatzaile gisa zehazten den eta **Fabrikam - Japonia** bezero gisa.
+3. Erakunde unitate bat **Contoso UK** konfiguratuta dago eta GBP moneta gisa hautatzen da.
+4. Proiektu-kontratua sortzen da, non **Contoso UK** unitate kontratatzaile gisa zehazten den eta **Fabrikam - Japonia** bezero gisa.
 5. Proiektu-kontratuaren lerroak sortzen dira, proiektuko transakzio-klaseen fakturazio-antolamenduak oinarritzat hartuta, hala nola denboraren fakturazioa eta gastuen fakturazioa.
-6. Proiektu bat sortzen da non **Badiola Erresuma Batua** unitate kontratatzaile gisa zehazten den. Proiektu hau proiektuaren kontratu lerroetara sortu eta mapatzen da.
+6. Proiektu bat sortzen da non **Contoso UK** unitate kontratatzaile gisa zehazten den. Proiektu hau proiektuaren kontratu lerroetara sortu eta mapatzen da.
 
 
 Eskaintzaren lerroaren xehetasuna, proiektuaren kontratuaren lerroaren xehetasuna edo antolaketaren estimazio lerroan erabiltzen duten kalkuluan, bi erregistro sortzen dira beti entitatean. Erregistro bat kostua da, eta bestea, berriz, salmentarako.

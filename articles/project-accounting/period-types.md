@@ -2,18 +2,16 @@
 title: Aldi motak
 description: Gai honek diru-sarreren aurreikuspenen aldi motak konfiguratzeko informazioa ematen du.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 107cecbc1dabdf13147d847bf1816f44cc2703c5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 07cc9cde5fab10accb1fd6efede58926918f614c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287268"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013471"
 ---
 # <a name="period-types"></a>Aldi motak
 
@@ -28,7 +26,7 @@ Garai motak sortzeko eta lantzeko, jarraitu urrats hauek:
 2. Hautatu **Berria**, aldi mota berria sortzeko. Idatzi izena eta deskribapena.
 3. **Maiztasuna** eremuan, hautatu balio bat:
 
-    - **Astea**, **Bi astero**, **Hilean behin**, **Hilabetea**, **Eguna**, **Lau hilekoa** edo **Urtea** hautatzen baduzu, egutegia aldiak sortzeko erabiliko da. 
+    - **Astea**, **Bi astero**, **Hilean behin**, **Hilabetea**, **Eguna**, **Lau hilean behin** edo **Urtea** hautatzen baduzu, egutegia aldiak sortzeko erabiliko da. 
     - Hautatzen baduzu **Liburuaren aldia**, Liburu orokorraren konfigurazioko liburuen aldiak aldiak sortzeko erabiliko dira.
     - Hautatzen baduzu **Mugagabea**, aldi pertsonalizatuak zehaztu ditzakezu.
 4. Hautatu aldi mota erregistroa eta hautatu **Sortu epeak** aldi motarako aldiak sortzeko. Aukeratu duzun aldiaren maiztasunean oinarrituta, hasiera data edo sortu beharreko aldi kopurua zehazteko aukera izan dezakezu.
