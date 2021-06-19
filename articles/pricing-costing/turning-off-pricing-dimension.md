@@ -2,11 +2,9 @@
 title: Prezio-dimentsioa desaktibatu
 description: Gai honek prezio-dimentsio pertsonalizatuak desaktibatzeko moduari buruzko informazioa eskaintzen du.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d2e10c9ce782697fa4cbbe6eb63491ebb573a6f6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274713"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004516"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Prezio-dimentsioa desaktibatu
 
@@ -40,8 +38,8 @@ Errore-mezu horrek desaktibatu nahi den dimentsiorako aurrez konfiguratutako pre
 
 | Titulu estandarra         | Erakunde-unitatea    |Unitatea   |Prezioa  |Moneta  |
 | -----------------------|-------------|-------|-------|----------|
-| Sistemen ingeniaria|Contoso US|Hour| 100|USD|
-| Sistemen ingeniari nagusia|Contoso US|Hour| 150| USD|
+| Sistemen ingeniaria|Contoso AEBetan|Ordu| 100|USD|
+| Sistemen ingeniari nagusia|Contoso AEBetan|Ordu| 150| USD|
 
 
 **Titulu estandarra** prezio-dimentsio gisa desaktibatzen duzunean eta prezioen motorrak prezioa bilatzen duenean, sarrerako testuinguruko **Erakunde-unitatea** balioa soilik erabiliko du. Sarrerako testuinguruaren **Erakunde-unitatea** "Contoso US" bada, emaitza ez-determinista izango da bi errenkadak bat etorriko direlako. Egoera hori ekiditeko, **Funtzio-prezioa** erregistroak sortzen dituzunean, sistemak dimentsioen konbinazioa esklusiboa dela balioztatzen du. Dimentsioa **Funtzio-prezioa** erregistroak sortu ondoren desaktibatzen bada, muga hori urratu daiteke. Hori dela eta, beharrezkoa da dimentsioa desaktibatu aurretik dimentsio-balio hori beteta duten **Funtzio-prezioa** eta **Funtzio-prezioaren gainprezioa** errenkada guztiak ezabatzea.

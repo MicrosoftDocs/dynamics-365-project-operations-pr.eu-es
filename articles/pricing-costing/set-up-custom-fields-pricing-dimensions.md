@@ -2,11 +2,9 @@
 title: Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa
 description: Gai honek eremu pertsonalizatuak erabiliz prezio-dimentsioak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274848"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004696"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa
 
@@ -77,10 +75,10 @@ Bi prezio-dimentsio mota daude:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|In situ            |                    |Aparteko orduak                 |15     |
 |             | Contoso India|Lokala             |                    |Aparteko orduak                 |10     |
-|             | Contoso US   |Lokala             |                    |Aparteko orduak                 |20     |
+|             | Contoso AEBetan   |Lokala             |                    |Aparteko orduak                 |20     |
 
 
-Oinarrizko tasa 100 USD duen Contoso India-ko baliabide bat lanean ari bada, eta ohiko orduetan 8 ordu eta aparteko orduetan 2 ordu erregistratzen badituzte, prezioaren motorrak 100eko oinarri-tasa erabiliko du 8 orduetarako 800 USD grabatzeko. Aparteko 2 orduetarako, % 15eko gainprezioa aplikatuko zaio 100eko oinarrizko tasari 115 USD-eko unitate-prezioa lortzeko eta 230 USD-eko kostu osoa erregistratuko du.
+Oinarrizko tasa 100 USD duen Contoso Indiako baliabide bat lanean ari bada, eta ohiko orduetan 8 ordu eta aparteko orduetan 2 ordu erregistratzen badituzte, prezioaren motorrak 100eko oinarri-tasa erabiliko du 8 orduetarako 800 USD grabatzeko. Aparteko 2 orduetarako, % 15eko gainprezioa aplikatuko zaio 100eko oinarrizko tasari 115 USD-eko unitate-prezioa lortzeko eta 230 USD-eko kostu osoa erregistratuko du.
 
 ### <a name="applicable-to-cost"></a>Kostuari aplikagarria 
 Aukera hori **Bai** gisa ezarrita badago, sarrerako testuinguruko dimentsioaren balioa **Funtzio-prezioa** eta **Funtzio-prezioaren gainprezioa** eremuekin lotzeko erabili behar dela adierazten du kostu- eta balorazio-tasak berreskuratzean.

@@ -2,18 +2,16 @@
 title: Konfiguratu lanaren fakturazio-tasak - arina
 description: Gai honek Project Operations-eko lanaren fakturazio-tasak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
-manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 733b7c83de8137aba6c084d5f03a2a4cf076a16c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 26c3743283dd9032e044071b3127a2885ad5ae49
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274398"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004246"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Konfiguratu lanaren fakturazio-tasak - arina
 
