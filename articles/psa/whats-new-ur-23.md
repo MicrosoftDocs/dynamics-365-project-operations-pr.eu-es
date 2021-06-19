@@ -2,8 +2,6 @@
 title: Project Service Automation eguneratzearen 23, V3 bertsioko berrikuntzak edo aldaketak
 description: Gai honek Project Service Automation V3, 23. eguneratzean erabilgarri dauden eginbideak eta konponketak ditu.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 08/25/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f90c0d2168b261cf1b6ef10374f282274ea61af5
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: adf893a0627ae59f2132bb46686110dafda01d3d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948944"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006451"
 ---
 # <a name="project-service-automation-update-release-23-v3"></a>Project Service Automation 23, V3 eguneratze-bertsioa
 
