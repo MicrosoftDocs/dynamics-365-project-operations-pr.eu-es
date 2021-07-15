@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Inplementatu inguruneak
           items:
+            - name: Inplementatu eskuz Project Operations-en Dataverse aplikazioa idazketa dualaren bateragarritasunarekin
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Eman ingurune berri bat
               href: environment/resource-provision-new-environment.md
             - name: Segurtasunaren modeloa
@@ -50,8 +52,12 @@
               href: environment/resource-dual-write-expense.md
             - name: Saltzaileen fakturen integrazioa
               href: environment/resource-dual-write-vendor-invoice.md
-    - name: Berritasunak
+    - name: Zer berri
       items:
+        - name: '2021eko uztaila: Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: '2021eko ekaina: Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: 2021eko maiatza - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: 2021eko apirila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
@@ -282,7 +288,7 @@
           items:
             - name: Garatu proiektuaren txantiloiak Kopiatu proiektua eginbidearekin
               href: project-management/dev-copy-project.md
-            - name: Erabili antolaketa APIak (aurreargitalpen publikoa)
+            - name: Erabili proiektu-antolaketaren APIak (aurreargitalpen publikoa)
               href: project-management/schedule-api-preview.md
     - name: Baliabideen kudeaketa
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Fakturazio-prozesuaren informazio orokorra
           href: invoicing/post-project-invoices.md
-        - name: Kudeatu proiektuaren faktura-proposamenak
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Proformako faktura
           items:
             - name: Kudeatu proiektuetan oinarritutako fakturazioaren lan atzeratua
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfiguratu proiektuetan oinarritutako faktura automatizatzea
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Kudeatu proiektuaren faktura-proposamenak
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Bezeroen fakturazioa
+          items:
+            - name: Kudeatu proiektuaren faktura-proposamenak
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Zuzendu kontabilitatea zirriborro-proiektu baten fakturazio-proposamenetan
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Enpresen arteko fakturazioa
+          items:
+            - name: Enpresen arteko fakturazioaren informazio orokorra
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfiguratu enpresen arteko fakturazioa
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Sortu enpresen arteko transakzioak
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Sortu enpresen arteko bezeroa eta saltzaileen fakturak
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Proiektuaren kontabilitatea
       items:
         - name: Finantza-dimentsio lehenetsiak
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Project Operations-eko integrazio-aldizkaria
           href: project-accounting/project-operations-integration-journal.md
-        - name: Enpresen arteko fakturazioa
-          items:
-            - name: Enpresen arteko fakturazioaren informazio orokorra
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Konfiguratu enpresen arteko fakturazioa
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Sortu enpresen arteko transakzioak
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Sortu enpresen arteko bezeroa eta saltzaileen fakturak
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Diru-sarreren aitorpena
       items:
         - name: Diru sarreren ezagutzaren ikuspegi orokorra
@@ -510,11 +518,15 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Segurtasunaren modeloa
           href: environment/security-model.md
-    - name: Berritasunak
+    - name: Zer berri
       items:
-        - name: 2021eko maiatzeko berritasunak - oinarrizko inplementazioa
+        - name: '2021eko uztaileko: oinarrizko inplementazioa'
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: '2021eko ekaineko berritasunak: oinarrizko inplementazioa'
+          href: pro/whats-new/whats-new-june-2021-lite.md
+        - name: '2021eko maiatzeko berritasunak: oinarrizko inplementazioa'
           href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: 2021eko apirileko berritasunak - oinarrizko inplementazioa
+        - name: '2021eko apirileko berritasunak: oinarrizko inplementazioa'
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 2021eko martxoko berritasunak - oinarrizko inplementazioa
           href: pro/whats-new/whats-new-mar-2021-lite.md
@@ -762,7 +774,7 @@
           items:
             - name: Garatu proiektuaren txantiloiak Kopiatu proiektua eginbidearekin
               href: project-management/dev-copy-project.md
-            - name: Erabili antolaketa APIak (aurreargitalpen publikoa)
+            - name: Erabili proiektu-antolaketaren APIak (aurreargitalpen publikoa)
               href: project-management/schedule-api-preview.md
     - name: Baliabideen kudeaketa
       items:
@@ -880,9 +892,13 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
   items:
-    - name: Berritasunak
+    - name: Zer berri
       items:
-        - name: 2021eko apirileko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
+        - name: '2021eko uztaileko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: '2021eko maiatzeko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+        - name: '2021eko apirileko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 2021eko martxoko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
@@ -1030,10 +1046,14 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: Berritasunak
+    - name: Zer berri
       items:
-        - name: Project Service 3.x bertsioaren eguneratze-bertsioen antolaketa
+        - name: "Project Service\_3.x bertsioaren eguneratze-bertsioen antolaketa"
           href: psa/version-history-ps.md
+        - name: '33. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-33.md
+        - name: '32.5. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: '32. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur-32.md
         - name: '31. eguneratze-bertsioko berritasunak edo aldaketak, V3'
