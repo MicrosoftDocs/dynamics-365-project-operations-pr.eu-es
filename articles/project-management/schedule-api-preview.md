@@ -1,19 +1,19 @@
 ---
-title: Erabili Programazio APIak Planifikazio entitateekin eragiketak egiteko
-description: Gai honek Programazioa APIak erabiltzeko informazioa eta laginak eskaintzen ditu.
+title: Erabili Proiektuak programatzeko APIak Planifikazio entitateekin eragiketak egiteko
+description: Gai honek informazioa eta laginak eskaintzen ditu proiektuen programazio APIak erabiltzeko.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116782"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293212"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Erabili Programazio APIak Planifikazio entitateekin eragiketak egiteko
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Erabili Proiektuak programatzeko APIak Planifikazio entitateekin eragiketak egiteko
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
@@ -22,9 +22,9 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 ## <a name="scheduling-entities"></a>Antolaketa-entitateak
 
-Programatu APIek eragiketak sortu, eguneratu eta ezabatzeko gaitasuna eskaintzen dute **Programazio entitateak**. Entitate hauek Project for the Web-en antolaketa-motorearen bidez kudeatzen dira. Sortu, eguneratu eta ezabatu eragiketak honekin **Programazio entitateak** lehenago mugatu ziren Dynamics 365 Project Operations oharrak.
+Proiektuen programazio APIek eragiketak sortzeko, eguneratzeko eta ezabatzeko gaitasuna eskaintzen dute **Programazio entitateekin**. Entitate hauek Project for the Web-en antolaketa-motorearen bidez kudeatzen dira. Sortu, eguneratu eta ezabatu eragiketak honekin **Programazio entitateak** lehenago mugatu ziren Dynamics 365 Project Operations oharrak.
 
-Ondorengo taulan zerrenda oso bat ematen da **Programazio entitateak**.
+Hurrengo taulan Proiektuaren programazio entitateen zerrenda osoa ematen da.
 
 | Entitatearen izena  | Entitatearen izen logikoa |
 | --- | --- |
@@ -39,19 +39,19 @@ Ondorengo taulan zerrenda oso bat ematen da **Programazio entitateak**.
 
 OperationSet lan-unitate eredua da, eragiketen eskaerak eragiketen hainbat transakzio baten barruan prozesatu behar direnean erabil daitekeena.
 
-## <a name="schedule-apis"></a>Programatu APIak
+## <a name="project-schedule-apis"></a>Proiektuen antolaketa APIak
 
-Jarraian uneko Programazio APIen zerrenda dago.
+Jarraian, proiektuaren antolaketaren APIen zerrenda dago.
 
 - **msdyn_CreateProjectV1**: API hau proiektu bat sortzeko erabil daiteke. Proiektua eta lehenetsitako proiektua berehala sortzen dira.
 - **msdyn_CreateTeamMemberV1**: API hau proiektuko taldekide bat sortzeko erabil daiteke. Taldekideen erregistroa berehala sortzen da.
 - **msdyn_CreateOperationSetV1**: API hau transakzio baten barruan egin behar diren hainbat eskaera antolatzeko erabil daiteke.
-- **msdyn_PSSCreateV1**: API hau entitate bat sortzeko erabil daiteke. Erakundea sortu eragiketa onartzen duten Antolaketa-entitateetako edozein izan daiteke.
-- **msdyn_PSSUpdateV1**: API hau entitate bat eguneratzeko erabil daiteke. Erakundea eguneratu eragiketa onartzen duten Antolaketa-entitateetako edozein izan daiteke.
-- **msdyn_PSSDeleteV1**: API hau entitate bat ezabatzeko erabil daiteke. Erakundea ezabatu eragiketa onartzen duten Antolaketa-entitateetako edozein izan daiteke.
+- **msdyn_PSSCreateV1**: API hau entitate bat sortzeko erabil daiteke. Erakundea sortzeko eragiketa onartzen duten Proiektuak antolatzeko entitateetako edozein izan daiteke.
+- **msdyn_PSSUpdateV1**: API hau entitate bat eguneratzeko erabil daiteke. Erakundea eguneratzeko eragiketa onartzen duten Proiektuak antolatzeko entitateetako edozein izan daiteke.
+- **msdyn_PSSDeleteV1**: API hau entitate bat ezabatzeko erabil daiteke. Erakundea ezabatzeko eragiketa onartzen duten Proiektuak antolatzeko entitateetako edozein izan daiteke.
 - **msdyn_ExecuteOperationSetV1** : API hau emandako eragiketa multzoaren barneko eragiketa guztiak exekutatzeko erabiltzen da.
 
-## <a name="using-schedule-apis-with-operationset"></a>Ordutegi APIak erabiliz OperationSet-ekin
+## <a name="using-project-schedule-apis-with-operationset"></a>ProjectSet programarekin APIak erabiltzea OperationSet-ekin
 
 Biekin grabatzen delako **CreateProjectV1** eta **CreateTeamMemberV1** berehala sortzen dira, API horiek ezin dira **OperationSet** zuzenean. Hala ere, APIa erabil dezakezu beharrezko erregistroak sortzeko **OperationSet**, eta ondoren erabili aurrez sortutako erregistro hauek **OperationSet**.
 
@@ -257,7 +257,7 @@ Ondorengo tauletan mugatuta dauden eremuak zehazten dira **Sortu** eta **Editatu
 ## <a name="limitations-and-known-issues"></a>Mugak eta arazo ezagunak
 Jarraian agertzen diren mugen eta arazo ezagunen zerrenda:
 
-- Programazio APIak soilik erabil ditzake **Microsoft Project lizentzia duten erabiltzaileak.** Ezin dute hauek erabili:
+- Project Schedule APIak soilik erabil ditzake **Microsoft Project lizentzia duten erabiltzaileek.** Ezin dute hauek erabili:
     - Aplikazioaren erabiltzaileak
     - Sistema-erabiltzaileak
     - Integrazio-erabiltzaileak
@@ -271,7 +271,7 @@ Jarraian agertzen diren mugen eta arazo ezagunen zerrenda:
 ## <a name="error-handling"></a>Errore-kudeaketa
 
    - Eragiketa multzoetatik sortutako akatsak berrikusteko, joan **Ezarpenak** \> **Ordutegien integrazioa** \> **Eragiketa multzoak** aukerara.
-   - Proiektua Antolatzeko Zerbitzutik sortutako akatsak berrikusteko, joan **Ezarpenak** \> **Ordutegien integrazioa** \> **PSS erroreen erregistroak** aukerara.
+   - Proiektuaren programazio zerbitzutik sortutako akatsak berrikusteko, joan hona: **Ezarpenak** \> **Ordutegien integrazioa** \> **PSS erroreen erregistroak**.
 
 ## <a name="sample-scenario"></a>Laginaren egoera
 

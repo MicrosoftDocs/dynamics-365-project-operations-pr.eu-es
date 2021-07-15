@@ -2,7 +2,7 @@
 title: Proiektuko faktura-proposamenen errendimendua
 description: Gai honek proiektuaren faktura proposamenen errendimendu hobekuntzei buruzko informazioa eskaintzen du.
 author: Yowelle
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5a14acf51d277b16896d64c4b12ee00bfb326910
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999476"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269775"
 ---
 # <a name="project-invoice-proposal-performance"></a>Proiektuko faktura-proposamenen errendimendua
 
@@ -44,4 +44,6 @@ Osatu urrats hauek proiektuaren faktura proposamenaren errendimendua hobetzeko e
 3.  Freskatu arakatzailea.
 
 > [!NOTE]
-> Faktura proposamenen errendimendua ezin da aplikatu fakturazio arauak gaituta daudenean edo batch prozesuak martxan daudenean.
+> Faktura proposamenen errendimendua ezin da aplikatu fakturazio arauak gaituta daudenean.
+> 
+> Faktura proposamenak sortzeko sorta prozesuan zehar, azpi-zereginen kopurua zereginak gehienez banatuko dira fakturagarriak diren transakzioak dituzten kontratu kopuruaren arabera, sartu duzuna kontuan hartu gabe. Adibidez, sartzen baduzu **3** faktura proposamenak sortan azpiatazaren kopuruari dagokionez, eta fakturagarriak diren transakzioak dituzten bi kontratu besterik ez daude, bi azpiataza bakarrik sortzen dira.

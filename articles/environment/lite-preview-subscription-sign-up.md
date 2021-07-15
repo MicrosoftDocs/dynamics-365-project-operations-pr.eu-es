@@ -2,58 +2,40 @@
 title: Erregistratu aurrebista-harpidetzan - arina
 description: Gai honek Project Operations lite-ra harpidetzeko eta hura inplementatzeko moduari buruzko informazioa eskaintzen du. Aurre egin fakturazio proformari.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997406"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334767"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Erregistratu aurrebista-harpidetzan - arina 
 
-Gai honetan aurrebista bazkideen eskaintzara nola harpidetu eta nola zabaldu azaltzen da Dynamics 365 Project Operations inplementazio arina proforma fakturazioari aurre egin.
+Gai honek probako eskaintzan harpidetu eta nola inplementatu Dynamics 365 Project Operations lite inplementazioa azaltzen du - proforma fakturazioari aurre egin.
 
 > [!NOTE]
 > Prozesu hau aldatu egingo da datozen Project Operations-en bertsioetan.
 
 ## <a name="prerequisites"></a>Aurrebaldintzak
-
-- Mezu elektroniko bat jasoko duzu aurrebistan parte hartzera gonbidatzen zaituena. Aurreikuspena eska dezakezu [Project Operations webgunea](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Aurrebista zabaltzen duen erabiltzaileak Azure maizter administratzaile eskubide orokorrak izan behar ditu.
-- Berrikusi baldintza guztiak.
-
-## <a name="subscribe"></a>Harpidetu
-
-[Aurrebista-eskaeraren](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) onespena eskatzen duzunean, Microsoft-en bi eskaintza jasoko dituzu posta elektronikoz. Eskaintza hauei esker, Project Operations-en aurrebista hedatu dezakezu:
-
-- Dynamics 365 Project Operations (CRM) - Aurrebista proba
-- Office 365 Project Operations - Aurrebista proba
+- Aurrebista zabaltzen duen erabiltzaileak Azure maizter administratzaile eskubide orokorrak izan behar ditu. Maizterra sor dezakezu lehenengo eskaintzaren amortizazioan.
 
 > [!IMPORTANT]
 > Erakunde bateko pertsona bakarrak, maizter administratzaileak, egin behar du zeregin hori. Bertsio honen harpideduna ez bazara, itxaron zure erakundea erregistratu arte eta zure erabiltzaile kredentzialak jaso arte.
+> 
+> Probak erabilera bakarrekoak dira maizterrean. Probak behin bakarrik exekutatu ditzakezu. Probarako helburuarekin maizter berri bat sortzea gomendatzen dizugu.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Aurrebista proba 
+### <a name="dynamics-365-project-operations-trial"></a>Dynamics 365 Project Operations proba 
 
 Hasi aurretik, ziurtatu proiektuaren eragiketen aurrebista nahi duzun maizterrean erabiltzailearen laneko kontua duen arakatzailean saioa hasi duzula.
 
-1. Erabili lehen eskaintza kodea, **Dynamics 365 Project Operations (CRM) - Aurrebista proba** arakatzailearen URLan itsatsita.
-
-![Erabili Eskaintza](./media/16RedeemFirstOfferNew.png)
-
+1. Joan [Project Operations probara](https://aka.ms/try-po) lehenengo eskaintza kodea erabiltzeko, **Dynamics 365 Project Operations**.
 2. Berretsi eskaera.
-![Berretsi eskaera](./media/17ConfirmOrderNew.png)
 
-Baieztapen eskaintza behar bezala berreskuratu dela ikusiko duzu.
-
-![Berrespena](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - Aurrebista proba
-
-Errepikatu eskaintzaren lehen kodearen urrats berdinak. Ziurtatu bigarren eskaintza kodea gehitzen duzula lehen eskaintza kodearekin erabilitako erabiltzaile kontu bera erabiliz.
+  Berrespen eskaintza behar bezala berreskuratu dela ikusiko duzu.
 
 ## <a name="assign-licenses"></a>Esleitu lizentziak
 
@@ -62,25 +44,20 @@ Errepikatu eskaintzaren lehen kodearen urrats berdinak. Ziurtatu bigarren eskain
 
 
 1. Joan [Microsoft 365 administrazio zentroa](https://portal.office.com/) aukerara, zure erabiltzaileei lizentziak emateko.
-
-![Administrazio zentroaren hasierako orria](./media/14AdminPortal.png)
-
 2. **Erabiltzaile aktiboak** orrian, hautatu lizentzia esleitu nahi diezun erabiltzaileak.
-
-![Esleitu lizentziak](./media/15AssignLicenses.png)
-
-3. Egiaztatu **Dynamics 365 Project Operations (CRM) Aurrebista** eta **Office 365 Project Operations - Aurrebista** lizentziak hautatzen dira. 
+3. Egiaztatu **Dynamics 365 Project Operations** lizentzia hautatuta dagoela. 
 4. Hatatu **Gorde aldaketak**.
 
-## <a name="create-a-new-cds-environment"></a>Sortu CDS ingurune bat
+## <a name="create-a-new-dataverse-environment"></a>Sortu Dataverse ingurune berria
 
-1. Eman Project Operations CDS inplementazio ingurune berri bat gaian argibideak jarraituz, [CDS inplementazio-eredua](lite-deployment.md). Ingurune mota hautatzen duzunean, ziurtatu erabiltzen duzula **Proba (harpidetzan oinarrituta)**.
-![Ingurune berria](./media/19CreateEnvironment.png)
+1. Eman Project Operations Dataverse inplementazio ingurune berri bat gaiko argibideak jarraituz, [Dataverse inplementazio eredua](lite-deployment.md). Ingurune mota hautatzen duzunean, ziurtatu erabiltzen duzula **Proba (harpidetzan oinarrituta)**.
+
+  ![Ingurune berria](./media/19CreateEnvironment.png)
 
 2. Aukeratu **Gaitu Dynamics 365 aplikazioak** ezarpena, eta utzi **Aplikazio hauek automatikoki zabaldu** hutsik.  
 3. Hautatu **Gorde** ingurunea sortzeko.
 
-![Gehitu datu-basea](./media/20CreateEnvironment1.png)
+  ![Gehitu datu-basea](./media/20CreateEnvironment1.png)
 
 4. Ingurunea sortu ondoren, instalatu **Microsoft Dynamics 365 Project Operations** konponbidea. 
 
