@@ -832,6 +832,16 @@
           items:
             - name: Baliabide-erabileraren informazio orokorra
               href: resource-management/resource-utilization-overview.md
+    - name: Azpikontratuen kudeaketa Project Operations-en
+      items:
+        - name: Azpikontratuen kudeaketaren ikuspegi orokorra
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Azpikontratazioko kontzeptu nagusiak
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Saltzaileak eta proiektuen prezio-zerrendak kudeatzea
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Azpikontratatzaileak baliabide erreserbagarri gisa
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Denbora
       items:
         - name: Denboraren ikuspegi orokorra
@@ -1050,6 +1060,8 @@
       items:
         - name: "Project Service\_3.x bertsioaren eguneratze-bertsioen antolaketa"
           href: psa/version-history-ps.md
+        - name: '34. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-34.md
         - name: '33. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur-33.md
         - name: '32.5. eguneratze-bertsioko berritasunak edo aldaketak, V3'
