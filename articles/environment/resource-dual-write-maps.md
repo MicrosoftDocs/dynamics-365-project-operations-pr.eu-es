@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025759"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003801"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations idazketa dualeko esleipen-bertsioak
 
@@ -32,7 +32,7 @@ Ondorengo mapak Project Operations soluziorako ezinbesteko baldintzak dira. Ziur
 
 1. Mapen zerrendan, hautatu Liburua **(msdyn\_ledgers)** mapa aurrebaldintza guztiekin eta hautatu **Hasierako sinkronizazioa** kontrol-laukia. **Hasierako sinkronizaziorako maisua** eremua, hautatu **Finance and Operations aplikazioak** bai liburutegi maparako, bai aurrebaldintzako mapa guztietarako. Hautatu **Exekutatu**.
 
-![Liburuaren esleipenaren sinkronizazioa](media/DW6.png)
+![Liburuaren esleipenaren sinkronizazioa.](media/DW6.png)
 
 2. Jarrai itzazu urrats berberak goiko taulan zerrendatutako gainerako taula-mapa guztietan. Ez hautatu **Hasierako sinkronizazioa** kontrol laukia mapa horiek exekutatzean.
 
@@ -65,7 +65,7 @@ Osatu urrats hauek zerrendatutako mapak exekutatzeko.
 
 1. Gaitu proiektuaren baliabide rolak **enpresa guztiak (bookableresourcecategories)** taula mapa mapa honek hasierako sinkronizazioa behar du. **Hasierako sinkronizaziorako maisua** eremua, hautatu **Datu zerbitzu arrunta**. 
 
- ![Baliabideen rolen taulen maparen sinkronizazioa](media/6ResourceInitialSync.jpg)
+ ![Baliabideen rolen taulen maparen sinkronizazioa.](media/6ResourceInitialSync.jpg)
 
  Itxaron maparen egoera izan arte **Korrika** hurrengo urratsera pasa aurretik.
 

@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000511"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003621"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Sortu eremu eta entitate pertsonalizatuak prezio-dimentsio gisa
 
@@ -44,7 +44,7 @@ Entitateetan oinarritutako dimentsioak sortzeko, jarraitu urrats hauei:
 3. Hautatu **Berria** atalean **Titulu estandarra** izeneko entitate berria sortzeko. 
 4. Sartu geratzen den informazioa eta, ondoren, hautatu **Gorde** aukeran.
 
-> ![Titulu estandarraren entitatearen definizioa](media/Standard-Title-entity-definition.png)
+> ![Titulu estandarraren entitatearen definizioa.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Aukera multzoetan oinarritutako dimentsioak 
 Aukera multzoan oinarritutako bi dimentsio sor ditzakezu. 
@@ -54,11 +54,11 @@ Aukera multzoan oinarritutako bi dimentsio sor ditzakezu.
 
 Ondorengo grafikoan **Baliabideen lanaren kokapena** dimentsioa. 
 
-> ![Baliabideen lanaren kokalekua izeneko aukera multzoan oinarritutako prezio-dimentsioa](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Baliabideen lanaren kokalekua izeneko aukera multzoan oinarritutako prezio-dimentsioa.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Ondorengo grafikoan **Baliabideen lan-orduak** dimentsioa. 
 
-> ![Baliabideen lanorduen izeneko aukera multzoan oinarritutako prezio-dimentsioa](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Baliabideen lanorduen izeneko aukera multzoan oinarritutako prezio-dimentsioa.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Joan **Ezarpenak** > **Soluzioak** aukerara eta sakatu bi aldiz **\<your organization name> prezio-dimentsioa**. 
 2. Soluzio arakatzailean, ezkerreko nabigazio-panelean, hautatu **Aukera multzoak**. 
@@ -74,7 +74,7 @@ Erakundeetan oinarritutako dimentsioetarako datuak sor ditzakezu eskuz edo Micro
 4. Itxi orria. 
 5. Errepikatu 1-3 urratsak "Sistemen ingeniari nagusia" titulu estandarra sortzeko.
 
-> ![Titulu estandarraren entitatearen laginak](media/ST-data.png)
+> ![Titulu estandarraren entitatearen datuen laginak.](media/ST-data.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369361"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005376"
 ---
 # <a name="intercompany-invoicing-overview"></a>Enpresen arteko fakturazioaren informazio orokorra
 
@@ -22,7 +22,7 @@ Zure erakundeak dibisio, filial eta beste pertsona juridiko ugari izan ditzake p
 
 Ondorengo ilustrazioak bi pertsona juridiko, esate baterako, agertoki tipikoa erakusten du. Contoso Robotics USA (maileguan dagoen pertsona juridikoa) eta Contoso Robotics UK-k (mailegu-entitate juridikoa) baliabideak partekatzen ditu abentura lanak bezeroarentzako proiektu bat emateko. Eszenatoki honetarako, Contoso Robotics USA-k kontratua du lana Adventure Works-i entregatzeko.
 
-![Enpresen arteko fakturazioa](./media/IntercompanyScenario.png) 
+![Enpresen arteko fakturazioa.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations fluxua erabiltzen du enpresen arteko transakzioak prozesatzeko:
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations fluxua erabiltzen du enpresen arteko transakzioa
 
 Ondorengo diagramak enpresen arteko fakturazioa erakusten du kontabilitateko gertaerekin eta liburu nagusian espero diren bidalketekin erlazionatuta.
 
-![Enpresen arteko fluxua](./media/IntercompanyFlow.png)
+![Enpresen arteko fluxua.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Baliabide gehigarriak
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369001"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003756"
 ---
 # <a name="invoicing-process-overview"></a>Fakturazio-prozesuaren informazio orokorra
 
@@ -20,7 +20,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 Baliabideen/Stockean oinarritutako egoeretarako Project Operations-ek gaitasun integrala eskaintzen du, bai Proiektu zuzendariaren bai Kontu kobratuen bulegariaren / proiektuaren kontulariaren beharretara egokituta. Fakturazio prozesurako, Proiektuaren kudeatzaileak proiektuaren fakturazio-zorroa kudeatzen du eta Kontuak kobratu beharreko funtzionarioak / proiektuaren kontulariak bezeroari begira faktura dokumentu zehatza eta zehatza sortzen du.
 
-![Fakturazio-fluxuen diagrama](./media/invoicing-flow.png)
+![Fakturazio-fluxuen diagrama.](./media/invoicing-flow.png)
 
 Proiektuaren kontratu lerroak lotutako proiektuen transakzioen fakturazio metodoa definitzen du. Proiektu kudeatzaileak denbora eta gastuen transakzioak onartzen dituenean, sistemak transakzioak erregistratzen ditu **Proiektuaren benetako datuak** entitateari eta informazioa helbidera bidaltzen du **Proiektuen kudeaketa eta kontabilitatea** moduluan Dynamics 365 Finance-en. Proiektuaren kontulariak gero fitxategiak berrikusi eta argitaratzen ditu [Project Operations-en integrazio-aldizkaria](../project-accounting/project-operations-integration-journal.md). Aldizkari honek proiektuaren datuen kontabilitate-datu garrantzitsuak biltzen ditu, hala nola fakturazioa, salmenten gaineko zerga taldea, fakturazio elementuen salmenten gaineko zerga taldea eta finantza dimentsioak.
 
