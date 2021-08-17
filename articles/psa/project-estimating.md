@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009151"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002541"
 ---
 # <a name="project-costs-and-revenue"></a>Proiektuaren kostuak eta diru-sarrerak
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009151"
 
 Proiektuaren aurreikuspenek proiektuaren antolaketan aurreikusitako eta antolatutako lanaren finantza ikuspegia eskaintzen dute. **Aurreikuspenak** fitxak, **Proiektuak** orrialdean, antolatzen ari zaren lanaren kostuaren eta diru-sarreren eragina erakusten du. Aurrez definitutako dimentsio ugariri buruzko informazioa ere ematen du. 
 
-> ![Aurreikuspenen fitxa](media/project-5.png)
+> ![Aurreikuspenen fitxa.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Proiektuaren kostuen eta salementen balioak
 
@@ -66,13 +66,13 @@ Sistemak ez badu aurkitzen funtzioaren preziorik, aurreikuspenaren lerroko salme
 
 **Aurreikuspenak** fitxak aurreikuspenen lerroak erakusten dituen sareta ikuspegi bat du. Saretak unitateko zutabeak, kostuaren prezio osoa eta salmenten prezio osoa ditu, hurrengo irudian erakusten den moduan. 
 
-> ![Gelaxka-ikuspegia Aurreikuspenak fitxan](media/project-6.png)
+> ![Gelaxka-ikuspegia Aurreikuspenak fitxan.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Ikuspegi ordua phased proiektua estimates
 
 Proiektuen estimazioen denbora-fasea ikuspegiak saretaren ikuspegiko denbora-lerroan aurreikusitako datuak erakusten ditu, zuk aukeratutako denbora-eskalan. Modu lehenetsian, aurreikusitako datuak **Funtzioa** dimentsioan aktibatzen dira.
 
-> ![Proiektuen aurreikuspenetarako denbora-fasea ikuspegia](media/project-7.png)
+> ![Proiektuen aurreikuspenetarako denbora-fasea ikuspegia.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Esleitu zereginaren moduan oinarritutako aurreikusitako ahalegina
 

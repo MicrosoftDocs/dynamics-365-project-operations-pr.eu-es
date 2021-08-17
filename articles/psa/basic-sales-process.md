@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f01ba14baa0a2378b0a230a46aed3a682342ce6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014191"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000516"
 ---
 # <a name="sales-processes"></a>Salmenta-prozesuak
 
@@ -39,7 +39,7 @@ Proiektuetan oinarritutako erakunde batean erabiltzen diren salmenta-prozesuak e
 
 Hurrengo irudian proiektuan oinarritutako erakunde bateko salmenta-prozesua erakusten da.
 
-> ![Salmenta-prozesua proiektuan oinarritutako erakunde batean](media/basic-guide-1.png)
+> ![Salmenta-prozesua proiektuan oinarritutako erakunde batean.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Salmenta bat aurreikusten
 Salmenta baten balioa aurretik entregatutako proiektuen eta proiektuen konplexutasunaren arabera aurreikusi daiteke. Aurreko proiektuetara hedapenak inplikatzen dituzten proiektuetarako edo saltzailearen espezializazioa handia den eta ezagunak diren lan-txantiloiak erabiltzen dituzten proiektuetarako, aurreikuspen prozesu sinpleagoa erabil dezakezu. Proiektu konplexuagoek normalean erosketa-prozesu luzeagoa izaten dute. Hori dela eta, fase gehiago daude salmenten aurreikuspen prozesuan. Prozesu hasieran, salmenta-taldeak kontu kudeatzaileen eta gaien adituek (ETEak) egiten duten ekarpena erabiltzen da kotizatzen den lan osagai bakoitzerako goi mailako aurreikuspena sortzen hasteko. Lan osagai hauek eskaintzaren lerroen bidez irudikatzen dira. 
@@ -50,7 +50,7 @@ Proiekturako hainbat eskaintza sor ditzakezu eta abagune bakarreko entitate mota
 
 Abagune entitate mota baten pean ordezko eskaintzak sor ditzakezu edo sistema konfiguratu proiektu-kontratua eratzeko eskaintza bat irabazten denean. Kasu honetan, SOW ordezkatzen duen Word dokumentua erantsi diezaioke proiektuaren kontratuaren erregistroari.
 
-![Eskaintza ixtea proiektu-kontratua sortzeko](media/basic-guide-2.png)
+![Eskaintza ixtea proiektu-kontratua sortzeko.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Salmenta-prozesua konfiguratzea
 Negozio-prozesuaren fluxuak (BPF) erabil ditzakezu Microsoft Dynamics 365 salmenta-prozesuan konfiguratzeko. BPFek salmentako langileei zure negozio tipikoa duten faseetan aurrerakuntzak egiteko erabil ditzaketen bisual interfaze gidatua eskaintzen diete.
@@ -66,7 +66,7 @@ Adibidez, zure enpresak hurrengo sei faseak izan ditzake salmenta-prozesuan:
 
 Sei fase hauek xebroien bidez irudikatzen dira (\>), sortu duzun abagune entitate mota bakoitzean zabaltzeko hautatzen dituzunak.
 
-![Negozio-prozesuaren konfigurazioa Dynamics 365-en](media/basic-guide-3.png)
+![Negozio-prozesuaren konfigurazioa Dynamics 365-en.](media/basic-guide-3.png)
  
 Erakundeak hainbat entitate erabil ditzake eboluzionatu duen akordio bera irudikatzeko. Salmenta-prozesuan hasieran, tratua Abagunea entitatearen bidez adierazten da. Denbora igaro ahala eta xehetasun gehiago azaltzen diren heinean, baliteke goi mailako aurreikuspenak erabil daitezkeela eskaintza bat edo gehiago sortzeko. Eskaintza horietako bat barneko bezeroen eta interes taldeek berrikusten badute, Eskaintza entitateak tratua adierazten du. Bezeroak eskaintza onartu ondoren, proiektu-kontratuak edo SOWk tratua adierazten du. Jokabide hori onartzeko, BPFak egituratzen dira, prozesuko fase bakoitza datu baseko taula desberdin batekin lotuta egon dadin.
 
@@ -77,7 +77,7 @@ Tratuak faseetan zehar mugitzen dituzunean, prozesuan zehar laguntzeko eta gidat
 > [!NOTE]
 > PSAk orrialde espezifikoak ditu Abagunea, Eskaintza, Eskaera eta Faktura entitateetarako. Project Service abaguneak, eskaintzak, eskaerak eta fakturak sortu behar dituzu entitate horien proiektuaren informazio orriak erabiliz. Erregistro bat sortzeko beste orri bat erabiltzen baduzu, ezin izango duzu erregistroa ireki **Proiektuaren informazioa** orrian. Erregistro bat ireki nahi baduzu **Proiektuaren informazioa** orrian, erregistroa ezabatu eta birsortu egin behar duzu **Proiektuaren informazioa** orrian. **Proiektuaren informazioa** orrialdean, negozioen logika entitate mota bakoitzerako **Mota** erregistroaren eremua behar bezala finkatuta dagoela ziurtatzen du, eta nahitaezko kontzeptu guztiak behar bezala hasi direla.
 
-> ![Eskaera berri bat egiteko proiektuaren informazioa](media/basic-guide-4.png)
+> ![Eskaera berri bat egiteko proiektuaren informazioa.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Project Service Automation eta Sales-en arteko desberdintasunak
 Salmenta-prozesuak PSAn Sales-en erabilitako salmenta-prozesuaren oinarrizko gaitasunak erabiltzen baditu ere, funtsezko desberdintasunak ditu proiektuan oinarritutako erakundeen negozio praktiken aldaketengatik. Hona hemen zenbait adibideak:

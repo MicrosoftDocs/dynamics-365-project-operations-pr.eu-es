@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bbd6e8c711f6c15221143514efdd43a388ef4e7f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998036"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998221"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Erabili antolaketa-panela proiektuaren baliabideak erreserbatzeko
 
@@ -34,23 +34,23 @@ Antolaketa-paneletik erreserbatu aurretik, baliabide-eskakizunak sortu behar dit
 1. Orrialdearen behealdean dagoen **Erreserba-eskakizunak** panela tolestuta badago, hautatu hedatzailea kontrola zabaltzeko.
 2. **Erreserba-eskakizunak** panelean, **Proiektua** fitxan, hautatu erreserbatzeko eskakizuna.
 
-    ![Proiektua fitxan hautatutako eskakizuna](media/Resource-Management-image73.png)
+    ![Proiektua fitxan hautatutako eskakizuna.](media/Resource-Management-image73.png)
 
 3. Hautatu **Bilatu erabilgarritasuna** baliabide erreserbagarriak iragazi eta erabilgarri dauden baliabideak ikusteko. 
 4. Hautatu baliabide bat edo gehiago antolaketa-panelean. 
 5. Orriaren eskuinaldean dagoen **Sortu baliabide-erreserba** panelean, idatzi erreserbaren informazioa eta, ondoren, hautatu **Erreserbatu eta irten**.
 
-    ![Sortu Baliabide-erreserbako panela hautatutako baliabide erreserbagarriarentzat](media/Resource-Management-image74.png)
+    ![Sortu Baliabide-erreserbako panela hautatutako baliabide erreserbagarriarentzat.](media/Resource-Management-image74.png)
 
 6. Eskakizuna **Sortu baliabide-erreserba** panelean hautatzen den bitartean, hautatu baliabide baten gelaxka bat edo gehiago erreserba sortzeko.
 
-    ![Baliabide baterako hautatutako gelaxka anitz](media/Resource-Management-image75.png)
+    ![Baliabide baterako hautatutako gelaxka anitz.](media/Resource-Management-image75.png)
 
 7. Hautatu **Erreserbatu**.
 
 Eskakizuna hautatutako baliabidea erabiliz betetzen da. **Erreserba-eskakizunak** panelean, ohartu eskakizuna eguneratu dela eta baliabidea proiektuan erreserbatuta dagoela erakusten da.
 
-![Proiektuan erreserbatutako baliabidea](media/Resource-Management-image76.png)
+![Proiektuan erreserbatutako baliabidea.](media/Resource-Management-image76.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

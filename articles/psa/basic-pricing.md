@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014956"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000561"
 ---
 # <a name="project-pricing"></a>Proiektu-prezioak. 
 
@@ -46,7 +46,7 @@ Prezio-zerrendako erakundeak erlazionatutako hiru taula ditu, prezioak gordetzen
   - **Transakzioen kategoria prezioa**: taula honek prezioak transakzioen kategorien arabera gordetzen ditu eta gastu kategoriako prezioak ezartzeko erabiltzen da.
   - **Prezio-zerrendako elementuak**: taula honek katalogoko produktuen prezioak gordetzen ditu.
 
-> ![Konfiguratu prezioak prezio-zerrenda erabiliz](media/basic-guide-12.png)
+> ![Konfiguratu prezioak prezio-zerrenda erabiliz.](media/basic-guide-12.png)
  
 Prezio-zerrenda tasa-txartela da. Tasa-txartela prezio-zerrendako entitatearen eta erlazionatutako errenkaden funtzio-prezioaren konbinaketa da, transakzioen kategoriako prezioa eta prezio zerrendako elementuen tauletan daude.
 
@@ -58,7 +58,7 @@ Giza baliabideen denbora normalean proiektu jakin batean betetzen duen eginkizun
 
 **Ordua** salementa-taldea PSA instalatuta dagoenean enbalatzen da. Lehenetsitako unitate bat du: **Ordua**. Ezin dituzu atributuak ezabatu, berrizendatu edo editatu **Ordua** salmenta-unitaterako edo **Ordua** unitaterako. Hala ere, beste unitate batzuk gehitu ditzakezu **Ordua** salmenta-unitatean. Ezabatzen saiatzen bazara **Denbora** salmenta-unitatea edo **Ordua** unitatea, PSAren negozioaren logikan porrotak sor ditzakezu.
 
-> ![Prezioak konfiguratzea, funtzioaren arabera](media/basic-guide-13.png)
+> ![Prezioak konfiguratzea, funtzioaren arabera.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Transakzio kategoriak eta gastu kategoriak
 
@@ -68,7 +68,7 @@ Proiektuen aholkulariek sortzen dituzten bidaiak eta gainerako gastuak normalean
 - **Gainprezio portzentajea**: benetako kostuaren gaineko portzentajea bezeroari fakturatzen zaio. 
 - **Prezioa unitateko**: gastu-kategoriako unitate bakoitzeko fakturazio-prezioa ezartzen da. Bezeroari fakturatzen zaion zenbatekoa kontsultariak jakinarazten duen gastu unitateen arabera kalkulatzen da. Kilometrajeak prezio bakoitzeko prezioaren metodoa erabiltzen du. Adibidez, kilometro-gastuen kategoria 30 dolar (USD) eguneko edo 2 USD kilometroko izateko konfiguratu daiteke. Aholkulari batek proiektu baten kilometrajea jakinarazten duenean, fakturatu beharreko zenbatekoa aholkulariak jakinarazi duen kilometro kopuruaren arabera kalkulatzen da.
 
-> ![Gastu kategorien prezioak konfiguratzea](media/basic-guide-14.png)
+> ![Gastu kategorien prezioak konfiguratzea.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Proiektuen salmentako prezioak eta baliogabetzeak
 
@@ -114,7 +114,7 @@ Hala ere, eskaintzan, prezio-zerrenda maisua erabil dezakezu. Bestela, prezioe-z
 
 Proiektuen prezio-zerrenda pertsonalizatua sortzen duzunean, prezio-zerrendako proiektuaren osagaiak soilik kopiatzen dira. Bestela esanda, eskaintzan erantsitako proiektuaren prezio-zerrendaren kopia gisa sortu da prezio-zerrenda berria, eta prezio-zerrenda berri honek funtzio prezioak eta transakzioen kategorien prezioak soilik ditu.
 
-> ![Proiektu-kontratu baten prezio pertsonalizatuak ikusi eta konfiguratzea](media/basic-guide-15.png)
+> ![Proiektu-kontratu baten prezio pertsonalizatuak ikusi eta konfiguratzea.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Kostuen segimendua
 

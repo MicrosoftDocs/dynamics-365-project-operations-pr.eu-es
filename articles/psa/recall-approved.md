@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998171"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998311"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Berreskuratu onartutako denbora edo gastu-sarrerak
 
@@ -98,13 +98,13 @@ Berreskuratze eskaera baztertzen bada, ez dago eragin ekonomikorik proiektuan.
 
 Hurrengo irudian, berreskuratzen direnean onartutako denbora-sarreretan gertatzen diren aldaketak erakusten dira.
 
-![Denbora-sarreraren egoera trantsizioak](media/TimeEntryStateTransitions.png)
+![Denbora-sarreraren egoera trantsizioak.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Gastu-sarreraren erregistroen aldaketak
 
 Hurrengo irudian, berreskuratzen direnean onartutako gastu-sarreretan gertatzen diren aldaketak erakusten dira.
 
-![Gastu-sarreraren egoera trantsizioak](media/ExpenseEntryStateTransitions.png)
+![Gastu-sarreraren egoera trantsizioak.](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

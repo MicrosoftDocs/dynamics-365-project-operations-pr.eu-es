@@ -2,7 +2,7 @@
 title: Gastu-txostenen itxura berria
 description: Gai honek gastuen txostenak sartzeko esperientzia birmoldatu eta berriro pentsatutakoa azaltzen du.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6250989"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997816"
 ---
 # <a name="expense-reports-reimagined"></a>Gastu-txostenen itxura berria
 
@@ -57,12 +57,13 @@ Esperientzia berria aktibatzeko, erabili **Ezaugarrien kudeaketa** laneko area *
 | Kanbio-tasaren kalkulagailua | Dibisa anitzeko transakzioen kanbio-tasa kalkulatzeko aukera ematen duen kanbio-tasaren kalkulagailua gehitzen da. |
 | Gorde eta gehitu gastu lerro berriak | **Gorde** eta **Berria** botoiak erabilgarri daude gastu berriak sartzen direnean, gastu lerroak azkar sartzen laguntzeko. |
 | Ikusgarritasun hobea lerro zatitu eta zehatzetan | Lerro xehatuak eta zatituak zuzenean gehitzen dira gastuen zerrendan ikusgarritasuna handitzeko eta akatsik dagoen ala ez erraz zehazten laguntzeko. |
-| Ikusi azpikategoriaren xehetasunak lerro zehatzetan | Gastu nagusien lerro zehatzek azpikategoriaren etiketak erakusten dituzte gastuen txostenean, eta horrek xehetasun granularrak begirada batean berrikusten lagunduko dizu.|
+| Ikusi azpikategoriaren xehetasunak lerro zehatzetan | Gurasoen gastuaren lerro zehatzek gastuen txosteneko azpikategoriaren etiketak erakusten dituzte. Elementuen xehetasunak xehetasun pikorrak berrikusteko aukera ematen du.|
 | Erakutsi ordainagiriak zehaztapenean | Ordainagiriak ezin dira erakutsi zehaztapenean. |
 | Diru-aurrerakinaren hautapena | Aukeratu diru aurrerakin bat edo gehiago gastu transakzio bakarra betetzeko. |
 | Diru-aurrerakinaren saldoa | Berrikusi eskudiruzko aurrerakinaren saldoa denbora errealean, onartutako eta ordaindutako eskudiruzko aurrerakinen aurkako sarrera sortzen duzunean. |
 
 Hasierako bertsioa gastuak sartzeko eszenatokietara bideratuta dago. Gastuen txostenak berrikusteko edo onartzeko agertokiek lehendik dagoen gastua sartzeko orria erabiltzen jarraituko dute.
+
 
 Gastu txostenen berriro pentsatutako lan eremuan ez dira onartzen funtzio hauek, baina etorkizuneko bertsioetarako aurreikusita daude: 
 

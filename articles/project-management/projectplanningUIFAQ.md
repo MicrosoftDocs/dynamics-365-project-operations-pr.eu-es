@@ -2,17 +2,17 @@
 title: Zeregina saretan lan egiteko arazoak konpontzea
 description: Gai honek Atazen saretan lan egitean behar diren arazoak konpontzeko informazioa eskaintzen du.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213385"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989086"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Zeregina saretan lan egiteko arazoak konpontzea 
 
@@ -24,7 +24,7 @@ Gai honek kostuen kudeaketarekin lan egiterakoan topa ditzakezun arazoak nola ko
 
 Project Operations-ek hirugarrenen cookieak gaitzea eskatzen dute zereginen xehetasunen egitura bihurtzeko. Hirugarrenen cookieak gaituta ez daudenean, zereginak ikusi beharrean, orrialde huts bat ikusiko duzu **Zereginak** fitxan **Proiektua** orrialdean.
 
-![Fitxa hutsa hirugarrenen cookieak gaituta ez daudenean](media/blankschedule.png)
+![Fitxa hutsa hirugarrenen cookieak gaituta ez daudenean.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Irtenbidea
@@ -52,11 +52,22 @@ Microsoft Edge edo Google Chrome arakatzaileetarako, honako prozedura hauek azal
 Project Operations-ek proiektuaren parametro batek PEX amaiera puntua erreferentzia izatea eskatzen du. Amaierako puntu hau lanaren matxura egitura emateko erabiltzen den zerbitzuarekin komunikatzeko beharrezkoa da. Parametroa gaituta ez badago, "Proiektuaren parametroak ez du balio" errorea jasoko duzu. 
 
 ### <a name="workaround"></a>Irtenbidea
- ![PEX amaiera-puntua eremua proiektuaren parametroan](media/projectparameter.png)
 
 1. Gehitu **PEX amaiera puntua** eremua **Proiektuaren parametroak** orrialdean.
-2. Eguneratu eremua balio honekin: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Kendu eremua **Proiektuaren parametroak** orrialdetik.
+2. Identifikatu erabiltzen ari zaren produktu mota. Balio hau PEX amaiera puntua ezartzen denean erabiltzen da. Berreskuratu ondoren, produktu mota PEX amaiera puntuan definitzen da dagoeneko. Mantendu balio hori. 
+   
+    ![PEX amaiera-puntua eremua proiektuaren parametroan.](media/pex-endpoint.png)
+
+3. Eguneratu eremua balio honekin: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Produktu mota                         | Parametro mota |
+   |--------------------------------------|----------------|
+   | Project for the Web erakunde lehenetsian   | type=0         |
+   | Project for the Web CDS izeneko erakundean | type=1         |
+   | Project Operations                   | type=2         |
+   
+4. Kendu eremua **Proiektuaren parametroak** orrialdetik.
 
 ## <a name="privileges-for-project-for-the-web"></a>Webgunearen proiektuaren pribilegioak
 
@@ -67,7 +78,7 @@ Project Operations kanpoko planifikazio-zerbitzu batean oinarritzen da. Zerbitzu
 
 1. Joan **Ezarpena > Segurtasuna > Erabiltzaileak > Aplikazioaren erabiltzaileak** aukerara.  
 
-   ![Aplikazio-irakurgailua](media/applicationuser.jpg)
+   ![Aplikazio-irakurgailua.](media/applicationuser.jpg)
    
 2. Egin klik bikoitza aplikazioaren erabiltzaile erregistroan hau egiaztatzeko:
 
@@ -76,7 +87,7 @@ Project Operations kanpoko planifikazio-zerbitzu batean oinarritzen da. Zerbitzu
  
 3. Erabiltzailea ez bada existitzen, erabiltzaile-erregistro bat sor dezakezu. Hautatu **Erabiltzaile berriak**. Aldatu sarrera-inprimakia **Aplikazioaren erabiltzailea** aukeran, eta gehitu **Aplikazioaren IDa**.
 
-   ![Aplikazioaren erabiltzaile-xehetasunak](media/applicationuserdetails.jpg)
+   ![Aplikazioaren erabiltzaile-xehetasunak.](media/applicationuserdetails.jpg)
 
 4. Egiaztatu erabiltzaileari lizentzia zuzena esleitu zaiola eta zerbitzua lizentziaren zerbitzu planen xehetasunetan gaituta dagoela.
 5. Egiaztatu erabiltzaileak project.microsoft.com ireki dezakeela.

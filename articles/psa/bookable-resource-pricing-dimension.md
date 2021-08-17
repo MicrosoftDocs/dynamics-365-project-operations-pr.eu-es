@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ffbb1f7aa25e723c7842259f1c0127b3d2e26d6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012076"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988951"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Erabili baliabide erreserbagarriak prezio-dimentsio gisa
 
@@ -62,18 +62,18 @@ Baliabide erresbagarrietarako, **Proiektuko taldekideak** entitateak beste izen 
 1. Horretarako, egin klik bikoitza errenkadan **Prezioen neurriak** saretan dimentsio orria irekitzeko **msdyn_bookableresource** baliabidekoa.
 2. Dimentsioaren orrian, **Erlazionatutakoa** fitxan, egin klik **Prezioen dimentsioaren eremu-izenak** aukeran.
 
- ![Prezio-dimentsioaren eremu-izenak fitxa](media/PD-fieldname.png)
+ ![Prezio-dimentsioaren eremu-izenak fitxa.](media/PD-fieldname.png)
 
 4. Elkartzen den ikuspegian, egin klik **Gehitu prezioen dimentsioaren eremu berria** aukeran.
 
- ![Gehitu prezio-dimentsio eremu berriak](media/Add-NewPD-fieldname.png)
+ ![Gehitu prezio-dimentsio eremu berriak.](media/Add-NewPD-fieldname.png)
 
 
 Honek irekitzen du **Prezioen dimentsioaren eremu berriaren izena** orrialdea **msdyn_bookableresource** baliabiderako. 
 
 5. Gehitu **msdyn_projectteam** **Erakundearen izena** eremuan eta **msdyn_bookableresourceid** **Eremuaren izena** eremuan. Erregistroa gorde
 
- ![Prezio-dimentsioaren eremu-izena](media/PD-fieldname-Added.png)
+ ![Prezio-dimentsioaren eremu-izena.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

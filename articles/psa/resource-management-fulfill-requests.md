@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997991"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996826"
 ---
 # <a name="fulfilling-resource-requests"></a>Baliabide-eskaerak betetzea
 
@@ -33,15 +33,15 @@ Baliabide-eskakizunak eskaera horiek betetzeaz arduratzen den baliabide-kudeatza
 
 Baliabide-eskaerak zerrendan agertzen dira **Baliabide aktiboen eskaerak** ikuspegian.
 
-> ![Baliabide-eskaeren zerrenda](media/Resource-Management-image59.png)
+> ![Baliabide-eskaeren zerrenda.](media/Resource-Management-image59.png)
 
 Eskaera bat betetzeko, hautatu zerrendan eta, ondoren, hautatu **Bilatu baliabideak**. Bestela, egin klik bikoitza errenkadan eskaera irekitzeko. Ondoren, **Baliabide-eskakizuna** fitxa hauta dezakezu, eskaera horretarako eskakizunak ikusteko. Eskaera betetzen hasteko, hautatu **Bilatu baliabideak**.
 
-> ![Baliabide-eskaeren xehetasunak](media/Resource-Management-image60.png)
+> ![Baliabide-eskaeren xehetasunak.](media/Resource-Management-image60.png)
 
 Antolaketa-laguntzailea agertzen da eta eskakizunen arabera iragazten du. Hautatu baliabidea eta, ondoren, hautatu **Erreserbatu**.
 
-> ![Hautatutako baliabidea](media/Resource-Management-image61.png)
+> ![Hautatutako baliabidea.](media/Resource-Management-image61.png)
 
 Taldekide orokorra erreserba-izen irmoa duten baliabidearekin ordezkatzen da proiektuaren antolaketako proiektuaren taldean eta eginkizunen esleipenetan.
 

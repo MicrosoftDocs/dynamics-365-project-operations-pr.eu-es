@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012301"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995251"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Sortu prezio-dimentsioen soluzio pertsonalizatuak
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012301"
 1. Aukeratu **Ezarpenak** > **Soluzioak** eta, ondoren, hautatu **Berria**. 
 2. Soluzioari eman **\<your organization name> prezio-dimentsioak** izena, sartu gainerako beharrezko informazioa eta, ondoren, hautatu **Gorde** aukeran.
 
-> ![Sortu prezio-dimentsioetarako soluzio pertsonalizatua](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Sortu prezio-dimentsioetarako soluzio pertsonalizatua.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Gehitu beharrezko entitate guztiak eta horiekin lotutako osagaiak prezio-dimentsioaren soluzioan
 Project Service-eko entitate hauek gehitu beharko dituzu prezio-soluzioan. Osatu prozedura honen urratsak prezio-soluzioaren eskema garrantzitsu batzuk egiteko, entitateak prezio-dimentsio berriez jabetzeko.
@@ -54,16 +54,16 @@ Project Service-eko entitate hauek gehitu beharko dituzu prezio-soluzioan. Osatu
 - Funtzioaren prezioa 
 - Denbora-sarrera 
 
-> ![Gehitu lehendik dauden entitateak prezio-dimentsioen soluzioari](media/Existing-entities-to-PD-solution.png)
+> ![Gehitu lehendik dauden entitateak prezio-dimentsioen soluzioari.](media/Existing-entities-to-PD-solution.png)
 
-> ![Hautatu soluzioaren osagaiak](media/Dimension-Components.png)
+> ![Hautatu soluzioaren osagaiak.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Ziurtatu aukeratutako erakunde bakoitzerako inprimaki eta ikuspegi guztiak sartzea.
 
 4. Hautatutako entitateen menpeko erakunderen bat eskatuko zaizunean, hautatu **Ez** aukeran.
 
-> ![Ez sartu erlazionatutako osagaiak](media/Do-not-include-required.png)
+> ![Ez sartu erlazionatutako osagaiak.](media/Do-not-include-required.png)
 
 
 

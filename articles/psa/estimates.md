@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007576"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992371"
 ---
 # <a name="estimates"></a>Aurreikuspenak
 
@@ -83,24 +83,24 @@ Eskaintzaren lerroaren xehetasunean eremu pertsonalizatu bat gehitu baduzu eta s
 1. Ireki PluginRegistrationTool eta konektatu zure lineako instantziara.
 2. Hautatu **Bilatu** aukera eta bilatu eguneratu behar den plugina.
 
-    ![Bilaketa Zuhaitza elkarrizketa-koadroa](media/basic-guide-19.png)
+    ![Bilaketa Zuhaitza elkarrizketa-koadroa.](media/basic-guide-19.png)
 
 3. Hautatu plugina eta, ondoren, hautatu orri nagusian **Aukeratu** aukera.
 4. Hautatu eguneratzeko pluginaren urratsa, egin klik eskuineko botoiarekin eta, ondoren, hautatu **Eguneratu**.
 
-    ![Plugina sartzeko urratsa hautatzea](media/basic-guide-20.png)
+    ![Plugina sartzeko urratsa hautatzea.](media/basic-guide-20.png)
 
 5. **Eguneratu dagoen urratsa** elkarrizketa-koadroan **Atributuak iragaztea** eremuan, hautatu elipsi botoia (**...**):
  
-    ![Eguneratu Dagoen urratsa elkarrizketa-koadroa](media/basic-guide-21.png)
+    ![Eguneratu Dagoen urratsa elkarrizketa-koadroa.](media/basic-guide-21.png)
 
 6. **Hautatu atributuak** elkarrizketa-koadroan, hautatu atributu pertsonalizatuen kontrol-koadroak.
 
-    ![Hautatu Atributuak elkarrizketa-koadroa](media/basic-guide-22.png)
+    ![Hautatu Atributuak elkarrizketa-koadroa.](media/basic-guide-22.png)
 
 7. Hautatu **Ados** aukera elkarrizketa-koadroa ixteko eta, ondoren, hautatu **Eguneratu urratsa**.
  
-    ![Eguneratu Urratsa botoia](media/basic-guide-23.png)
+    ![Eguneratu Urratsa botoia.](media/basic-guide-23.png)
 
 8. Errepikatu 1-7. urratsak bigarren pluginerako.
 9. Itxi PluginRegistrationTool tresna.

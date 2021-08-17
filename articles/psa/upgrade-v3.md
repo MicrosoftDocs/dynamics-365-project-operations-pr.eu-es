@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014866"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000066"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Bertsio-berritzeko gogoetak. PSA aplikazioaren 2.x edo 1.x bertsiotik 3. bertsiora
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation eta Dynamics 365 Field Service aplikazio
 ## <a name="resource-assignments"></a>Baliabide-esleipenak
 Project Service Automation aplikazioaren 2. bertsioan eta 1. bertsioan, zereginen esleipenak bigarren mailako zeregin gisa (lineako zereginak ere deitzen dira) gorde ziren **Zereginen entitatea** atalean, eta zeharka erlazionatuta daude **Baliabideen esleipena** erakundearekin. Lineako zeregina ikusgai zegoen Work Breakdown Structure (WBS) zerbitzuko leiho gainerakorrean.
 
-![Project Service Automation 2. bertsioko eta 1. bertsioko WBSko lerro-zereginak](media/upgrade-line-task-01.png)
+![Project Service Automation 2. bertsioko eta 1. bertsioko WBSko lerro-zereginak.](media/upgrade-line-task-01.png)
 
 Project Service Automation aplikazioaren 3. bertsioan, baliabide erreserbagarriak zereginei esleitzeko azpiko eskema aldatu da. Lerroko zeregina zaharkitu egin da eta 1:1 erlazio zuzena dago **Zereginen entitatea** eremuko zereginaren eta **Baliabideen esleipena** entitateko taldekidearen artean. Proiektu-taldeko kide bati esleitzen zaizkion zereginak zuzenean gordetzen dira "Baliabideen esleipena" entitatean.  
 
@@ -46,26 +46,26 @@ Azpiko zereginen entitatea erabiliz, 2. bertsioan eta 1. bertsioan egin ziren ze
 
 2. bertsioan eta 1. bertsioan baliabide bati funtzio lehenetsitik kanpoko zeregin bat esleitu baduzu, bertsio-berritzean, izendatutako baliabideari zereginen esleipen guztientzako eginkizun lehenetsia emango zaio, 2. bertsioko funtzioen esleipena kontuan izan gabe. Esleipenaren emaitzak kalkulatutako estimazioen aldeak ekarriko ditu 2. bertsiotik edo 1. bertsiotik 3. bertsiora pasatzean, estimazioak baliabidearen funtzioaren arabera kalkulatzen baitira eta ez lerroaren zereginaren esleipenaren arabera. Adibidez, 2. bertsioan bi zeregin esleitu zaizkio Nerea Ibarrondori. 1. zereginaren lerroko zereginaren funtzioa garatzailea da eta 2. zereginarena, programa-kudeatzailea. Nerea Ibarrondok programa-kudeatzailearen funtzio lehenetsia du.
 
-![Baliabide bati esleitutako funtzio anitzak](media/upgrade-multiple-roles-02.png)
+![Baliabide bati esleitutako funtzio anitzak.](media/upgrade-multiple-roles-02.png)
 
 Garatzaile eta programa-kudeatzaile funtzioak desberdinak direnez, hauek dira kostuen eta salmenten kalkuluak:
 
-![Baliabideen funtzioen kostuen kalkuluak](media/upggrade-cost-estimates-03.png)
+![Baliabideen funtzioen kostuen kalkuluak.](media/upggrade-cost-estimates-03.png)
 
-![Baliabideen funtzioen salmenten kalkuluak](media/upgrade-sales-estimates-04.png)
+![Baliabideen funtzioen salmenten kalkuluak.](media/upgrade-sales-estimates-04.png)
 
 3. bertsiora bertsio-berritzean, lerroko zereginak baliabideen esleipenekin ordezkatuko dira baliabide erreserbagarriko taldekidearen zereginean. Esleipenak baliabide erreserbagarriaren eginkizun lehenetsia erabiliko du. Hurrengo grafikoan, programa-kudeatzailea funtzioa duen Nerea Ibarrondo, baliabidea agertzen da.
 
-![Baliabide-esleipenak](media/resource-assignment-v2-05.png)
+![Baliabide-esleipenak.](media/resource-assignment-v2-05.png)
 
 Estimazioak baliabidearen funtzio lehenetsian oinarrituta daudenez, salmenten eta kostuen kalkuluak aldatu egin daitezke. Hurrengo grafikoan ez duzu **Garatzailea** funtzioa ikusiko, orain, baliabide erreserbagarriaren lehenetsitako funtziotik hartzen baita.
 
-![Funtzio lehenetsien kostuen kalkuluak](media/resource-assignment-cost-estimate-06.png)
-![Funtzio lehenetsien salmenten kalkulua](media/resource-assignment-sales-estimate-07.png)
+![Funtzio lehenetsien kostuen kalkuluak.](media/resource-assignment-cost-estimate-06.png)
+![Funtzio lehenetsien salmenten kalkulua.](media/resource-assignment-sales-estimate-07.png)
 
 Bertsio-berritzea amaitu ondoren, taldekideen rola editatu dezakezu esleitutako lehenespenezkoa ez den beste zerbait izateko. Hala ere, taldekide baten eginkizuna aldatzen baduzu, esleitutako zeregin guztietan aldatuko da; izan ere, 3. bertsioan ezingo zaie esleitu taldekideei funtzio bat baino gehiago.
 
-![Baliabide funtzioa eguneratzea](media/resource-role-assignment-08.png)
+![Baliabide funtzioa eguneratzea.](media/resource-role-assignment-08.png)
 
 Berdina gertatzen da izendatutako baliabideei esleitutako lineako zereginekin baliabidearen antolaketa unitatea lehenetsitakotik beste erakunde unitate batera aldatzean. 3. bertsiorako bertsio-berritzea amaitu ondoren, esleipenak baliabidearen antolaketa unitate lehenetsia erabiliko du lineako zereginetan ezarritakoaren ordez.
 
@@ -83,24 +83,24 @@ Bertsio-berritzea hasi aurretik, taldea berriro sortzea gomendatzen dizugu balia
 
 Adibidez, Project Z proiektuan, kontratazioaren erakunde-unitatea Contoso US da. Proiektuaren planean, Inplementazio fasean saiakuntzak egiteko zereginei aholkulari teknikoa funtzioa esleitu zaie eta esleitutako erakunde-unitatea Contoso India da.
 
-![Ezarpen fasearen entitate esleipena](media/org-unit-assignment-09.png)
+![Ezarpen fasearen entitate esleipena.](media/org-unit-assignment-09.png)
 
 Ezarpen fasea igaro ondoren, integrazio probaren zeregina aholkulari teknikoari esleitzen zaio, baina entitatea Contoso US-en ezarrita dago.  
 
-![Integrazio probaren zereginen entitate esleipena](media/org-unit-generate-team-10.png)
+![Integrazio probaren zereginen entitate esleipena.](media/org-unit-generate-team-10.png)
 
 Proiekturako talde bat sortzen duzunean, bi taldekide generiko sortzen dira zereginetako erakunde-unitate desberdinengatik. 1. aholkulari teknikoari Contoso Indiako zereginak esleituko zaizkio eta 2. aholkulari teknikoak Contoso US zereginak izango ditu.  
 
-![Sortutako taldekide orokorrak](media/org-unit-assignments-multiple-resources-11.png)
+![Sortutako taldekide orokorrak.](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > Project Service Automation aplikazioaren 2. bertsioan eta 1. bertsioan, taldekideak ez du antolaketa unitatea, lerroko zereginean mantentzen dena.
 
-![Project Service Automation-eko 2. bertsioko eta 1. bertsioko lerro-zereginak](media/line-tasks-12.png)
+![Project Service Automation-eko 2. bertsioko eta 1. bertsioko lerro-zereginak.](media/line-tasks-12.png)
 
 Erakundearen unitatea kalkuluen ikuspegian ikus dezakezu. 
 
-![Erakunde-unitatearen kalkuluak](media/org-unit-estimates-view-13.png)
+![Erakunde-unitatearen kalkuluak.](media/org-unit-estimates-view-13.png)
  
 Bertsio-berritzea amaitutakoan, taldekide orokorrari dagokion lerroko zereginari buruzko erakunde-unitatea taldekide orokorrari gehitzen zaio eta lerroko zeregina kentzen da. Hori dela eta, bertsioa eguneratu aurretik, taldea sortzea edo berriro sortzea gomendatzen dugu baliabide generikoak dituen proiektu bakoitzean.
 

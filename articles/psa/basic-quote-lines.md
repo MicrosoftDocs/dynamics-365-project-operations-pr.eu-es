@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014891"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995431"
 ---
 # <a name="quotes-and-quote-lines"></a>Eskaintzak eta eskaintzaren lerroak
 
@@ -84,7 +84,7 @@ Zerbitzu profesionalen erakundeek normalean bezeroei eskaini eta fakturatzen die
 
 Transakzio-sailkapen hauetako bat edo gehiago eskaintzaren lerro bakoitzarekin erlazionatuta egon daiteke. Eskaintza irabazi ondoren, transakzio-sailkapenaren eta eskaintzaren lerroaren arteko esleipenak kontratuaren lerrora transferitzen dira.
  
-> ![Eskaintzen eta kontratazio lerroen esleipenak transakzio motei egiteko pantailaren argazkia](media/basic-guide-5.png)
+> ![Eskaintzen eta kontratazio lerroen esleipenak transakzio motei egiteko pantailaren argazkia.](media/basic-guide-5.png)
   
 Adibidez, eskaintzak bi eskaintzaren lerro izan ditzake: 
 - Ordua eta materiala fakturatzeko metodoa erabiltzen duten aholkularitza lana, denbora eta kuota transakzioen sailkapenak aplikagarriak direnean. Adibidez, ordainketa denbora eta kuota guztiak **Dinamika AX inplementazioa** adibide-proiekturako, bezeroari fakturatzen zaizkio erabiltzen diren denbora eta materialen arabera. 

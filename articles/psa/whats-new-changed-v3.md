@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 26d79ff79801f8ad0f80020d49fdc80f76dd9aef
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006991"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987061"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Zer den berria edo zer aldatu den Project Service Automation-en 3. bertsioan
 
@@ -36,7 +36,7 @@ Gai honek erabiltzaile-interfazeari (UI), funtzionaltasunari eta terminologiari 
 ## <a name="project-scheduling"></a>Proiektuen antolaketa
 Proiektuaren antolaketak, aurreko bertsioetan Zereginen xehetasunen egitura (WBS) izenarekin ezagutzen zena, Antolaketa izena hartu du eta **Antolaketa** fitxan klik eginez atzitu daiteke. 
 
-![Proiektuaren antolaketa](media/psa-schedule-01.png)
+![Proiektuaren antolaketa.](media/psa-schedule-01.png)
 
 Antolaketak elkarrekintzarako gainazal berria du, modernoa eta erabilerraza dena. Hala ere, azpian dagoen Project Service Automation antolaketa-motorra ez da aldatu. Antolaketa-saretaren zinta kontrolatzeko botoiek Project Service Automation-en aurreko bertsioaren antzeko antolaketarekin elkarreragiteko aukera ematen dute. Hauek dira antolaketan egindako aldaketa gehigarriak:
 
@@ -95,22 +95,22 @@ Lehendik dagoen proiektuaren antolaketa aurrera eramaten duzunean, hau gertatzen
 ## <a name="estimates"></a>Aurreikuspenak
 Aurreikuspenak bi fitxetan banatu dira, **Baliabide-esleipena** eta **Aurreikuspenak**. **Baliabide-esleipena** fitxak ahaleginaren aurreikuspenak biltzen ditu eta zereginetarako baliabide-zereginak erakusten ditu denbora-fasearen ikuspegian. Benetako datuak editatu ditzakezu antolaketa-motorrak sortutakoan oinarrituta.
 
-![Baliabide-esleipenaren fitxak ahaleginen aurreikuspenak eta baliabide-esleipenak erakusten ditu](media/resource-assignments-tab-02.png)
+![Baliabide-esleipenaren fitxak ahaleginen aurreikuspenak eta baliabide-esleipenak erakusten ditu.](media/resource-assignments-tab-02.png)
 
 **Aurreikuspenak** fitxak baliabide-esleipenen kostuen eta salmenten kopuruak erakusten ditu. Zenbatekoak irakurtzeko soilik dira. Kostuen eta salmenten prezioak taldekideen esleipenean oinarritzen dira egutegian. Horrek esan nahi du esleipenik babeko zeregin bat baduzu, zeregina esleitu gabeko multzoaren azpian agertuko dela. Horrek ere esan nahi du **Funtzioa** aukerarik gabe, hau da, prezioen dimentsio lehenetsirik gabe, ez dela aurreikusitako kostu edo salmentarik izango proiektuarekin lotutako bezero edo kontraturen/eskaintzaren bat izanez gero. 
 
-![Aurreikuspenen fitxak kostuen eta salmenten zenbatekoak erakusten ditu](media/estimates-tab-03.png)
+![Aurreikuspenen fitxak kostuen eta salmenten zenbatekoak erakusten ditu.](media/estimates-tab-03.png)
   
 Kategoria ere onartzen da antolaketa-ikuspegiko zereginetan. Denbora-sarreraren ikuspegiko aurreikuspenetako kategorien arabera sailkatzeak esperientzia hobea emango du, batez ere zure proiektuan gastuen aurreikuspenak ere izaten dituzunean. Gastuen aurreikuspenak bereizitako fitxa bateko sareta erabiliz sartzen dira. 
 
 Gastuen aurreikuspenak **Gastuen aurreikuspenak** fitxako saretan sar daitezke. 
 
-![Gastuen aurreikuspenen fitxak gastuen aurreikuspenen sareta erakusten du](media/expense-estimates-tab-04.png)
+![Gastuen aurreikuspenen fitxak gastuen aurreikuspenen sareta erakusten du.](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Baliabideen kudeaketa
 Project Service Automation-en 3. bertsioan, bezeroaren UI bateratu berriarekin eta erreserben eta esleipenen arteko erlazioak aldaketekin, baliabide orokorrak edo errealak dituen proiektu batean langileak sartzea izugarri aldatu da 2. bertsiotik eta 1. bertsiotik. Hala ere, baliabide erreserbagarrien kontzeptuak, biek **benetakoa** eta **orokorra** berdinak izaten jarraitzen dute, taldekideak, eskakizunak, esleipenak eta erreserbak bezala.   
 
-![Erabili baliabide-hautatzailea](media/resource-management-05.png)
+![Erabili baliabide-hautatzailea.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Esleitu benetako baliabide erreserbagarri bat 
 Project Service Automation-en 3. bertsioan, erreserbak eta zereginen esleipenak ez dira elkarren artean katramilatzen Project Service Automation-en aurreko bertsioetan bezala. Taldearen sareta erabil dezakezu taldekide **erreala** erreserbatzeko, merkatuan egiten den atzera.
@@ -151,19 +151,19 @@ Atal honetan Project Service Automation-en 3. bertsioko denborari, gastuei eta o
 ### <a name="landing-page"></a>Helburu-orria
 Hedagarria ez den denbora-sarrera pertsonalizatuaren esperientzia zaharkitu egin da 3. bertsioan. Horren ordez, eskuragarri dago jatorrizko sareta esperientzia hedagarri eta atzigarria. Denbora-sarreraren funtzionalitatean sar zaitezke ezkerreko gunearen mapa erabiliz. Aldaketa horrekin, ezin izango duzu denbora sartu astean behin. Horren ordez, saretan egun bakoitzeko denbora-sarrera bat sortu beharko duzu. Zenbait denbora-sarrera sortu ondoren, erabiltzaileek denbora-sarrerak modu masiboan sor ditzakete gai honetan geroago azalduko den **Kopiatu** funtzioa erabiliz. 
 
-![Denbora-sarrera helburu-orrian](media/time-entry-landing-page-07.png)
+![Denbora-sarrera helburu-orrian.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Sortu beste denbora-sarrera batzuk 
 Egin klik zintako **Berria** aukeran denbora minututan, ordutan edo egunetan sartuko duzun denbora-sarrerarako sorrera bizkorreko orria irekitzeko. Horretarako, hasi kantitatearekin batera h, m edo d idazten.  
 
-![Denbora-sarreraren sorrera bizkorra](media/quick-create-time-entry-08.png)
+![Denbora-sarreraren sorrera bizkorra.](media/quick-create-time-entry-08.png)
 
 Sistemaren ikuspegiek bilatze-eremuak babesten dituzte. Adibidez, proiektuaren informazioa sartu ondoren, **Proiektuaren zeregina** eremua lehenespenez ezarrita dago **Nire irekitako proiektuen zereginak** ikuspegian. Erabiltzaile bati esleitu ez zaizkion zereginetarako denbora-sarrerak sortzeko, egin klik **Aldatu ikuspegia** aukeran bilaketan eta hautatu **Proiektuko zeregin aktibko guztiak**. Denbora-sarrera sortzen denean eta saretan erakutsi ondoren, lerroko balioak zuzenean editatu ahal izango dituzu saretan.  
 
 ### <a name="bulk-createcopy"></a>Sortu edo kopiatu modu masiboan 
 Denbora-sarrera sortu eta minutu batzuk geroago, kopiatu funtzionaltasuna erabil dezakezu denbora-sarrera gehigarriak sortzeko modu masiboan. Egin klik **Kopiatu** aukeran **Kopiatu** elkarrizketa irekitzeko. **Epe honetatik: hasiera-data** atalean, ezarri denbora-epeak hortik kopiatu behar diren data-tarteak. **Epe honetara: hasiera-data** atalean, zehaztu denbora-sarrerak sortzeko data. Egin klik **Kopiatu** aukeran denbora-sarrerak **Epea honetara** atalean adierazitako dagokion asteko egunera kopiatzeko. Adibidez, pasa den asteko asteleheneko denbora-sarrera **Epe honetara** atalean zehaztutako asteko astelehenean kopiatuko da. 
 
-![Kopiatu denbora-sarrerak modu masiboan](media/bulk-copy-time-entry-09.png)
+![Kopiatu denbora-sarrerak modu masiboan.](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Inportatu datuak 
 Esleipenek eta trukeek UI eredu bera jarraitzen dute, erabiltzaileari erreserbak inportatu behar diren data-tartea zehazteko aukera ematen diotenak. Ondoren, modu esplizituan hautatu behar dituzu **Zirriborroa** denbora-sarreretan kopiatu beharko liratekeen erreserbak. 3. bertsioan ezin duzu jada ikusi **Iradokitakoak** denbora-sarreren ereduak saretan eta egutegian.  
@@ -179,7 +179,7 @@ Esleipenek eta trukeek UI eredu bera jarraitzen dute, erabiltzaileari erreserbak
 
 **Biladu datuak denbora- eta gastu-sarreren eremu pertsonalizatuetan eta hedatu bidalketa eta onarpen fluxuak onartzen dituzten entitateetan** - Denbora-sarreren prozesaketa tipikoa agertzen da hurrengo diagraman.
 
-![Prozesatu denbora-sarreraren fluxua](media/process-time-entries-10.png)
+![Prozesatu denbora-sarreraren fluxua.](media/process-time-entries-10.png)
 
 Negozioaren eskakizunek denbora- eta gastu-entitateek pertsonalizatutako prezio-dimentsioak bildu behar dituztela eta aurreko grafikoan zehaztetuako entitateetan pertsonalizatutako prezio-dimentsioetako denborak eta sarrera-baliabideak ezarritako balioak hedatu behar dituztela zehazten badute, ikusi [Ezarri eremu pertsonalizatuak prezioen dimentsio gisa](set-up-pricing-dimensions.md)
 
@@ -236,7 +236,7 @@ Project Service Automation-en 3. bertsioan eskaintzen eta kontratuen konfigurazi
 
 3. bertsiotik aurrera, funtzio eta gastuen kategorien bidezko kobragarritasun aukeren konfigurazioa eskaintzaren edo kontratuaren lerro mailan egingo da. Prezioen konfigurazioa kobragarritasun konfiguraziotik aparte dago. **Kobratzeko funtzioak** eta **Kobra daitezkeen kategoriak** fitxan gisa aurkituko dituzu **Eskaintzaren lerroa** eta **Kontratuaren lerroa** orrialdeetan goiko nabigazioa erabili beharrik izan gabe.
 
-![Kobra daitezkeen funtzioak](media/chargeable-12.png)
+![Kobra daitezkeen funtzioak.](media/chargeable-12.png)
  
 Kobra daitezkeen funtzioen eta kobra daitezkeen kategorien konfigurazioak erabiltzeko prest dagoen saretaren kontrol editagarria aprobexaten du. Funtzio eta kategoria bakoitzerako, Eskaintza eta kontratazio-fasean zehar fakturaziorako onartutako aukerak aldatu gabe jarraitzen dute aurreko bertsioetatik **Kobratu daitekeena** eta **Kobratu ezin daitekeena** gisa. **Osagarria** ez da Eskaintza edo Kontratazio fasean onartutako mota. **Osagarria** Denbora edo Gastuak onartzerakoan bakarrik onartzen da.  
  
@@ -247,11 +247,11 @@ Kobra daitezkeen funtzioen eta kobra daitezkeen kategorien konfigurazioak erabil
   
 Hurrengo irudia prezio-zerrenda pertsonalizatuak sortu baino lehenagokoa da.
 
-![Prezio-zerrenda pertsonalizatuak baino lehen](media/before-custom-price-lists-13.png)
+![Prezio-zerrenda pertsonalizatuak baino lehen.](media/before-custom-price-lists-13.png)
 
 Hurrengo irudia prezio-zerrenda pertsonalizatuak sortu ondorengoa da.
 
-![Prezio-zerrenda pertsonalizatuak eta gero](media/after-custom-price-lists-14.png)
+![Prezio-zerrenda pertsonalizatuak eta gero.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Atzerapena egon daiteke **Sortu pertsonalizatutako prezioak** aukeran klik egitean prezio-zerrenda pertsonalizatua sortzen denean. Hainbat aldiz klik egin beharrean, sareta freskatzea gomendatzen dugu. Prezio-zerrenda pertsonalizatua sortu da lotutako prezio-zerrendaren izenak eskaintzaren izena edo proiektuaren kontratuaren izena eransten badu.

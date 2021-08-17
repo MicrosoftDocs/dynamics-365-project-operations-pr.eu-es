@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002761"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995791"
 ---
 # <a name="intercompany-invoicing"></a>Enpresen arteko fakturazioa
 
@@ -33,7 +33,7 @@ Zure erakundeak dibisio, filial eta beste pertsona juridiko ugari izan ditzake p
 
 Ondorengo ilustrazioak agertoki tipikoa erakusten du; bi pertsona juridikok, SI FRk (mailegu maileguan dagoen pertsona juridikoa) eta SI USAk (mailegu maileguaren pertsona juridikoa) baliabideak partekatzen dituzte bezeroarentzako A. Eszenatoki honetarako, SI FR kontratatuta dago lana bezeroarentzako A. 
 
-[![Enpresen arteko fakturazioaren adibidea](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Enpresen arteko fakturazioaren adibidea.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Helburua konpainien arteko proiektuen transakzioen kostuen kontrola, diru-sarreren aitorpena, zergak eta transferentziaren prezioa malguagoak eta indartsuagoak izatea da. Gainera, gaitasun hauek eskaintzen dira:
 

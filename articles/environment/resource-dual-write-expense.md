@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999971"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986566"
 ---
 # <a name="expense-management-integration"></a>Gastu-kudeaketaren integrazioa
 
@@ -28,7 +28,7 @@ Gastu osoaren hedapenean, gastuen kategoriak sortu eta mantentzen dira Finance a
 2. Finantzetan, joan **Gastuen kudeaketa** > **Konfigurazioa** > **Kategoria partekatuak** eta hautatu partekatutako kategoria bat **Gastua** transakzio klasea. Ezarri **Gastuetan erabil daiteke** parametroa **Egia** eta zehaztu erabili beharreko gastu mota.
 3. Partekatutako kategoria erregistro hau erabiliz, sortu gastuen kategoria berri bat joan **Gastuen kudeaketa** > **Konfigurazioa** > **Gastu kategoriak** aukerara eta hautatu **Berria**. Erregistroa gordetzen denean, idazketa bikoitzak taula mapa erabiltzen du, **Project Operations integratzeko proiektuaren gastuen kategoriak esportazio entitatea (msdyn\_gastu-kategoriak)** erregistro hau sinkronizatzeko Dataverse-ra.
 
-  ![Gastu-kategorien integrazioa](./media/DW6ExpenseCategories.png)
+  ![Gastu-kategorien integrazioa.](./media/DW6ExpenseCategories.png)
 
 Gastu kategoriak Finance and Operations aplikazioetan enpresa edo pertsona juridiko zehatzak dira. Pertsona juridiko bakoitzari dagozkion erregistro bereiziak daude Dataverse-n. Proiektu kudeatzaile batek gastuak kalkulatzen dituenean, ezin ditu aukeratu lantzen ari diren proiektuaren jabea den beste enpresa batena den proiektu baterako sortutako gastu kategoriak. 
 
@@ -40,7 +40,7 @@ Gastuen txostenak urtean sortu eta onartzen dira Finance and Operations aplikazi
   - Idazketa bikoitza sinkronizatzen du Dataverse-ra **Project Operations integratzeko proiektuaren gastuak esportatzeko entitatea (msdyn\_expenses)** taulako mapa erabiliz.
   - Zerga azpiegitura, saltzailearen azpiegitura eta bestelako finantza bidalketak aplikagarri gisa erregistratzen dira gastuen txostenak argitaratzean.
 
-  ![Gastu-txostenen integrazioa](./media/DW6ExpenseReports.png)
+  ![Gastu-txostenen integrazioa.](./media/DW6ExpenseReports.png)
 
 Diskoan idazten denean **Gastua** entitatea Dataverse-n, sistemak erregistroaren onarpen prozesu automatizatua abiarazten du. Behar izanez gero, onartutako prozesuen egoera automatikoa berrikusi daiteke Dataverse-n, **Ezarpen aurreratuak** > **Sistema** > **Sistemako lanak** aukerara joanda. Onarpena amaitu ondoren, gastuen transakzio motaren erregistroak sortzen dira **Benetako datuak** entitatean.
 

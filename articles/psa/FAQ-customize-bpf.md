@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993131"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002946"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Nola egin ditzaket Proiektua Faseak negozio-prozesuaren fluxua?
 
@@ -60,11 +60,11 @@ Aukera ez bertsio-berritzen, Proiektua Faseak negozio-prozesuaren fluxua bi modu
 1. Gehitu faseak gehigarria lehenetsia konfigurazioa, izenak Ingelesez fasea retaining da **Eskaintza**, **Antolatu**, eta **Itxi**.
 
 
-![Lehenetsitako konfigurazio-fluxuari faseak gehitzeak-Eginbideei](media/FAQ-Customize-BPF-1.png)
+![Lehenetsitako konfigurazio-fluxuari faseak gehitzeak-eginbideei.](media/FAQ-Customize-BPF-1.png)
  
 2. Zure negozio-prozesuaren fluxua sortzeko eta egin nagusia negozio-prozesuaren fluxua entitaterako proiektua, nahi dituzun fase guztiak izenak duzu lezake. Hala ere, estandarra proiektua faseak bera erabili nahi baduzu **Eskaintza**, **Antolatu**, eta **Itxi**, zenbait pertsonalizazio izen pertsonalizatuak fasea desaktibatu driven egin behar duzu. Konplexu logika duzu oraindik batzuek eragin bakarrik desaktibatu proiektua erregistroa zein, proiektua ixten da.
 
-![BPF pertsonalizazioa](media/FAQ-Customize-BPF-2.png)
+![BPF pertsonalizazioa.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Project Service aplikazioa bertsioa 2.4.4.30 edo aurrekoa plataforma 9.0 considerations gehigarria
 
@@ -80,11 +80,11 @@ Proiektu-entitatearen negozio-prozesuaren fluxua sortzeko, egin hau:
 
 1. Joan **Ezarpenak** > **Prozesu-zentroak** atalera. Ez da negozio-prozesuaren fluxu ere kopiatzen Project Service-ren negozio-logika duen delako Proiektua Faseak kopiatu.
 
-  ![Sortu prozesua](media/FAQ-Customize-BPF-3.png)
+  ![Sortu prozesua.](media/FAQ-Customize-BPF-3.png)
 
 2. Prozesu-Diseinatzailea sortzeko erabili nahi dituzun fase izenak. Funtzionalitate bera fase lehenetsi gisa nahi duzun **Eskaintza**, **Antolatu**, eta **Itxi**, zure pertsonalizatutako negozio-prozesuaren fluxu baten fasearen izenak oinarrituta sortu behar duzu.
 
-   ![Eginbideei-Prozesua Diseinatzailea erabiltzen BPF pertsonalizatu](media/FAQ-Customize-BPF-4.png) 
+   ![Eginbideei-Prozesua Diseinatzailea erabiltzen BPF pertsonalizatua.](media/FAQ-Customize-BPF-4.png) 
 
 3. Prozesu-Diseinatzailea, sakatu **Ordenatu Prozesu-Fluxua** pertsonalizatutako negozio-prozesuaren fluxua nagusia negozio-prozesuaren fluxua proiektua entitate batek da Proiektua Faseak negozio-prozesuaren fluxua gaineko batera mugituz, zerrendaren goiko aldean jartzeko.
 
@@ -95,15 +95,15 @@ Proiektu-entitatearen negozio-prozesuaren fluxua sortzeko, egin hau:
 
 4. Pertsonalizatutako negozio-prozesuaren fluxu pertsonalizatuak faseak islatzeko proiektua entitateetan eremu pertsonalizatu berri bat gehitzeko. Negozio-logika (plugin edo lan-fluxuaren) pertsonalizatutako negozio-prozesuaren fluxua fasea eguneratzen eremua eguneratzeko, gehitu behar duzu.
 
-   ![Pertsonalizatu Proiektua entitate-Eginbideei](media/FAQ-Customize-BPF-6-720.png)
+   ![Pertsonalizatu Proiektua entitate-Eginbideei.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Aldatu, **Proiektua Fasea** eremu pertsonalizatu berri zure faseak erabili nahi duzun diagrama.
 
-   ![Eginbideei erabiltzearen arriskua Proiektua Fasea diagrama](media/FAQ-Customize-BPF-7-720.png)
+   ![Eginbideei erabiltzearen arriskua Proiektua Fasea diagrama.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Eremu pertsonalizatu berri zure faseak gehitzeko proiektua entitatearentzat ikuspegiak edozein aldatu.
 
-   ![Aldatu entitate Proiektua ikuspegiak Eginbideei](media/FAQ-Customize-BPF-8-720.png)
+   ![Aldatu entitate Proiektua ikuspegiak Eginbideei.](media/FAQ-Customize-BPF-8-720.png)
 
 
 

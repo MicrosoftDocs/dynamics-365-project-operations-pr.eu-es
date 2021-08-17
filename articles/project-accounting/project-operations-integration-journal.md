@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304241"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987916"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations-eko integrazio-aldizkaria
 
@@ -19,7 +19,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 Denbora eta gastu sarrerak sortzen dira **Benetakoa** proiektu baten aurka egindako lanaren ikuspegi operatiboa adierazten duten eragiketak. Dynamics 365 Project Operations-ek kontulariei tresna bat eskaintzen die transakzioak berrikusteko eta kontabilitate atributuak behar bezala doitzeko. Berrikuspena eta doikuntzak amaitu ondoren, transakzioak Proiektuaren liburu nagusian eta liburu nagusian argitaratzen dira. Kontulari batek jarduera hauek egin ditzake **Project Operations-en integrazioa** aldizkaria (**Dynamics 365 Finance** > **Proiektuen kudeaketa eta kontabilitatea** > **Aldizkariak** > **Project Operations-en Integrazioa** aldizkaria).
 
-![Integrazio aldizkariaren fluxua](./media/IntegrationJournal.png)
+![Integrazio aldizkariaren fluxua.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Sortu erregistroak Project Operations-eko integrazio-aldizkarian
 

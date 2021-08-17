@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013381"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000471"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Erreserbatu izendatutako baliabideak baliabide-eskakizunetatik
 
@@ -35,29 +35,29 @@ Izena duen baliabide bat erreserbatu dezakezu baliabide.eskakizuna duten baliabi
 2. Hautatu zerrendatik baliabide-eskakizunen bat duen baliabide orokorra eta egin klik **Erreserbatu** aukeran. Edo ireki baliabide-eskakizuna eta egin klik **Erreserbatu** aukeran.
 
 
-![Taldekide generiko bat erreserbatzea](media/RM-how-to-14.png)
+![Taldekide generiko bat erreserbatzea.](media/RM-how-to-14.png)
 
 
 3. **Antolaketa-laguntzailea** orrialdean, hautatu izena duen baliabidea proiektu taldean erreserbatzeko eta egin klik **Erresrbatu** aukeran.
 
-![Taldekide generiko bat erreserbatu, antolaketa-laguntzailea erabilita](media/RM-how-to-15.png)
+![Taldekide generiko bat erreserbatu, antolaketa-laguntzailea erabilita.](media/RM-how-to-15.png)
 
 Erreserba izena duen baliabide batek osatu eta betetzen duenean, baliabide generikoa izena duen baliabidearen bidez ordezkatuko da.
 
-![Izena duen taldekidea talde generikoko kide bat ordezkatuz](media/RM-how-to-16.png)
+![Izena duen taldekidea talde generikoko kide bat ordezkatuz.](media/RM-how-to-16.png)
 
 Antolaketako zereginak izena duen baliabidearekin ere eguneratzen dira.
 
-![Izena duen taldekidea proiektu-zereginari esleituta](media/RM-how-to-17.png)
+![Izena duen taldekidea proiektu-zereginari esleituta.](media/RM-how-to-17.png)
 
 ## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a>Bete baliabide generikoa izena duten hainbat baliabiderekin
 Baliabide generiko baten eskakizuna izena duten hainbat baliabiderekin betetzea, izena duen baliabide bakarra esleitzearen antzekoa da. Adibidez, bost eguneko eta 120 orduko iraupena duen zeregina dago. Zeregin hau ezin du bost eguneko astean zehar zortzi orduko lanordu tipikoa lantzen duen baliabide batek osatu. 
 
-![Bost egunetan 120 orduko ahalegina behar duen zeregina](media/RM-how-to-21.png)
+![Bost egunetan 120 orduko ahalegina behar duen zeregina.](media/RM-how-to-21.png)
 
 Eskakizuna 120 egunetan robotikako ingeniaritza bost egunetan zehar egiteko da, hau da, eguneko 24 ordukoa.
 
-![Eguneko eskakizuna](media/RM-how-to-22.png)
+![Eguneko eskakizuna.](media/RM-how-to-22.png)
 
 Izena duten hainbat baliabide behar direnean eskaera generiko bat betetzeko adibidea. Baliabide ugari erreserbatu beharko dituzu baldintza betetzeko.
 

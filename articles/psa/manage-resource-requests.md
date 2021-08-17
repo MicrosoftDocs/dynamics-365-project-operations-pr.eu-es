@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015001"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985126"
 ---
 # <a name="manage-resource-requests-project-service"></a>Kudeatu baliabide-eskaerak (Project Service)
 
@@ -43,7 +43,7 @@ Kontu-kudeatzaileek eta proiektu-kudeatzaileek maiz eskatzen dituzte baliabideak
   
    -   Sakatu **Iragazkia** **Iragazkia** panela erakusteko. Horrela, antolakuntza-unitatearen, funtzioaren, abilezioen edo beste atribtu batzuen araberako emaitzen arabera iragazi ahal izango duzu.  
   
-       ![Project Service Baliabideen eskaeren pantaila](../psa/media/project-service-resource-request-screen.png "Project Service Baliabideen eskaeren pantaila")  
+       ![Project Service Baliabideen eskaeren pantaila.](../psa/media/project-service-resource-request-screen.png "Project Service Baliabideen eskaeren pantaila")  
   
 3. Erreserbatu nahi duzun baliabidearen egutegian, hautatu baliabidea erreserbatzeko denbora-tartea eta, ondoren, sakatu **Erreserbatu** baliabidea erreserbatzeko edo **Proposatu erreserba** erreserba proposatzeko eta eskatzaileak onartzeko. Baliabide bat erreserbatzen duzunean, behin-behinean edo tinko erreserba dezakezu.  
   

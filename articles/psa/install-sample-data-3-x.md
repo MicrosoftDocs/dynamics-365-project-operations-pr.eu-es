@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007261"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985531"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service aplikazioaren adibide-datuen instalazioa
 
@@ -86,7 +86,7 @@ Ordenagailua sarera konektatuta mantentzea planeatu behar duzu, instalazioa exek
 Ordenagailua aktibatuta pantaila saver funtzioa izan behar ditu. Bestela, saioa kredentzialak instalaziorako galduko dira pantaila saver (ez duzu mantendu saioa aktibo erabiliko den) engages denean.
 
 > [!div class="mx-imgBorder"]
-> ![Pantaila-babeslearen pantaila-argazkiaren ezarpenak pantaila-babeslea itzalita dagoela](media/sample-data-1.png)
+> ![Pantaila-babeslearen pantaila-argazkiaren ezarpenak pantaila-babeslea itzalita dagoela.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Deskargatu eta unpack
 
@@ -142,7 +142,7 @@ Datuak erakusgai paketea sei erabiltzaileak behar du. Behar bezala instalatu pak
 3. Ireki **PkgFolder** eta, ondoren, bilatu eta ireki **ImportUserMapFile.xml**. Eguneratze- **Berriak =** eremuak zure sisteman dagokion Erabiltzaileen helbide elektronikoak.
 
    > [!div class="mx-imgBorder"]
-   > ![UserMapFile pantaila-argazkia](media/sample-data-7.png)
+   > ![UserMapFile pantaila-argazkia.](media/sample-data-7.png)
 
 4. Izen-abizenak "Spencer txikia Balioa" erabiltzaileak baino beste erabiltzaile ID batekin badu **"spencerl"**, gero gehigarria fitxategia eguneratu behar duzu. Ireki **DemoDataPreImportConfig.xml** fitxategia eta, ondoren, bilaketa- **userstocreateandconfigure** tag. Eguneratu **\<login\>** etiketa saioa hasteko IDarekin (maiuskulak eta minuskulak bereizten ditu). 
 
@@ -172,7 +172,7 @@ Datuak erakusgai paketea sei erabiltzaileak behar du. Behar bezala instalatu pak
 5. Hautatu **Hurrengo** ikusi arte, **Erakusgai Datuak Instalazio** elkarrizketa.
 
    > [!div class="mx-imgBorder"]
-   > ![Eginbideei leihoaren erakusgai datuak instalatzailea egoera](media/sample-data-3.png)
+   > ![Eginbideei leihoaren erakusgai datuak instalatzailea egoera.](media/sample-data-3.png)
 
 6. Jarraitu, aurretik kontuan duzun adibide-datuak instalatzen iraun gehienez ordu bakarrean (duzuenan ~ 10 minutuak). Ziurtatu ordenagailua atalean egoerarik eta sareko instalazio prozesuan erabiliko den konektatuta eta saioa aktibo egoerarik behar duzu.   
 
@@ -191,10 +191,10 @@ Ondoren guztiz kargatu adibide-datuak, hasi saioa Spencer txikia Balioa erabiltz
 - Field Service aplikazioa instalatuta badago, joan **Project Service** > **Ezarpenak** > **Prezio-zerrendak** aukerara. Berretsi den fakturazio-tasak eta kostu tasak dago. Joan **Field Service** > **Ezarpenak** > **Prezio-Zerrendak** eta markatu duzun fakturaziorako tasak eta kostu tasak badago, dagokion moneta, bakoitzak herrialdea/eskualdea datu multzo batekin.
 
   > [!div class="mx-imgBorder"]
-  > ![Aktibo prezio-zerrendak Eginbideei](media/sample-data-4.png)
+  > ![Aktibo prezio-zerrendak Eginbideei.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Eginbideei erakundeen unitate aktiboak](media/sample-data-5.png)
+  > ![Eginbideei erakundeen unitate aktiboak.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Ohar teknikoak
 
@@ -295,7 +295,7 @@ Aldatu adibidea bookable baliabideen lanorduekin lan egin nahi badituzu, joan **
 Hautatu erabiltzaile bat (adibidez, Spencer txikia Balioa) eta erabiltzaile bati baino gehiagori aplikatu nahi duzun ordu Spencer baten lanorduak aldatu. Joan **Universal Resource Scheduling** > **Ezarpenak** > **Lan ordu txantiloiak** eta editatzeko, **Lan yxantiloi lehenetsia** erregistroa. **Txantiloia Baliabide** eremuan, hautatu beste baliabide aplikatu nahi duzun lanorduak duen erabiltzaile bat. Joan **Universal Resource Scheduling** > **Programazioa** > **Baliabideak** > **Baliabide-erreserbatu aktiboak**. Aldatu eta, ondoren, hautatu nahi dituzun baliabideak hautatu **Ezarri Egutegi**. **Lan Txantiloia** goitibeherako zerrendan, hautatu, **Lehenetsia Lana Ordu** txantiloia edo zuzena templating baliabidearekin beste txantiloi. Antolaketa board zarenean, izan duzun baliabideak orain izan eguneratu lanorduak ikusteko gai.
 
 > [!div class="mx-imgBorder"]
-> ![Baliabide erreserbagarri aktiboen bilaketa bizkorraren pantaila-argazkia](media/sample-data-6.png)
+> ![Baliabide erreserbagarri aktiboen bilaketa bizkorraren pantaila-argazkia.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

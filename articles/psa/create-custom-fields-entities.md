@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998936"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992416"
 ---
 # <a name="create-custom-fields-and-entities"></a>Sortu eremu eta entitate pertsonalizatuak 
 
@@ -43,7 +43,7 @@ Prezio-dimentsioa aukera multzo edo entitate bat izan daiteke. Biak prezio-soluz
 2. Soluzio arakatzailean, ezkerreko nabigazio panelean, hautatu **Entitateak**.
 3. Egin klik **Berria** atalean **Titulu estandarra** izeneko entitate berria sortzeko. Sartu geratzen den informazioa eta, ondoren, egin klik **Gorde** aukeran.
 
-> ![Titulu estandarraren entitatearen definizioa](media/Standard-Title-entity-definition.png)
+> ![Titulu estandarraren entitatearen definizioa.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Aukera multzoetan oinarritutako dimentsioak 
@@ -54,9 +54,9 @@ Aukera multzoan oinarritutako bi dimentsio sor ditzakezu. **Baliabideen lanaren 
 2. Soluzio arakatzailean, ezkerreko nabigazio-panelean, hautatu **Aukera multzoak**. 
 3. Egin klik **Berria** aukeran aukera multzo berri bat sortzeko, sartu falta den informazioa eta egin klik **Gorde** aukeran.
 
-> ![Baliabideen lanaren kokalekua izeneko aukera multzoan oinarritutako prezio-dimentsioa ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Baliabideen lanaren kokalekua izeneko aukera multzoan oinarritutako prezio-dimentsioa.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Baliabideen lanorduen izeneko aukera multzoan oinarritutako prezio-dimentsioa ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Baliabideen lanorduen izeneko aukera multzoan oinarritutako prezio-dimentsioa.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Sortu datuak erakundeetan oinarritutako dimentsioetarako
@@ -68,7 +68,7 @@ Erakundeetan oinarritutako dimentsioetarako datuak sor ditzakezu eskuz edo Micro
 3. Itxi inprimakia. 
 4. Errepikatu 1-3 urratsak "Sistemen ingeniari nagusia" titulu estandarra sortzeko.
 
-> ![Titulu estandarraren entitatearen laginak ](media/ST-data.png)
+> ![Titulu estandarraren entitatearen laginak.](media/ST-data.png)
 
 
 

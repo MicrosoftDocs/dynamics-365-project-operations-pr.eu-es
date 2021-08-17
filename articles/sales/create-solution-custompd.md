@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010321"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992191"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Sortu prezio-dimentsio pertsonalizatuetarako soluzioa
 
@@ -26,7 +26,7 @@ ms.locfileid: "6010321"
 2.  Eman izena irtenbideari, *<your organization name> prezioen neurriak*.
 3. Sartu geratzen den informazioa eta, ondoren, hautatu **Gorde** aukeran.
 
-  ![Prezio-dimentsio pertsonalizatuen dimentsio-soluzioa sortzea](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Prezio-dimentsio pertsonalizatuen dimentsio-soluzioa sortzea.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Gehitu beharrezko entitate guztiak eta horiekin lotutako osagaiak prezio-dimentsioaren soluzioan
 
@@ -49,19 +49,19 @@ Gehitu Project Service entitate hauek zure prezioen soluziora prezioen soluzioan
    - **Funtzioaren prezioa**
    - **Denbora-sarrera**
  
-   ![Gehitu lehendik dauden entitateak prezio-dimentsioaren soluzioari](./media/Existing-entities-to-PD-solution.png)
+   ![Gehitu lehendik dauden entitateak prezio-dimentsioaren soluzioari.](./media/Existing-entities-to-PD-solution.png)
  
  4. Entitate bakoitzerako, berrikusi gehitzen diren osagaiak eta entitate bakoitzaren entitateen aktiboen behin betiko zerrenda. 
 
    >[!NOTE]
    > Sartu aukeratutako erakunde bakoitzerako inprimaki eta ikuspegi guztiak.
 
-  ![Gehitutako entitateak](./media/solution-component-selection.png)
+  ![Gehitutako entitateak.](./media/solution-component-selection.png)
 
 
 5.  Hautatutako entitateen menpeko entitateak sartzeko eskatzen zaizunean, hautatu **Ez, ez sartu beharrezko osagaiak**.
 
-    ![Menpeko erakundeak barne](./media/Do-not-include-required.png)
+    ![Menpeko erakundeak barne.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

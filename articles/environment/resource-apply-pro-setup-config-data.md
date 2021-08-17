@@ -6,12 +6,12 @@ ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001276"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986611"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfiguratu eta aplikatu konfigurazio-datuak Common Data Service-n 
 
@@ -35,24 +35,24 @@ Datuak konfiguratzen hasi aurretik Common Data Service (CDS), honako baldintza h
 2. Joan deskonprimatutako karpetara eta exekutatu fitxategi exekutagarria, *DataMigrationUtility*.
 3. Common Data Service konfigurazio-migrazioaren (CMT) morroiko 1. orrian, hautatu **Inportatu datuak** eta, ondoren, hautatu **Jarraitu**.
 
-![Konfigurazioaren migrazioa](./media/1ConfigurationMigration.png)
+![Konfigurazioaren migrazioa.](./media/1ConfigurationMigration.png)
 
 4. CMT morroiaren 2. orrian, hautatu **Microsoft 365** **Inplementazio mota** gisa.
 5. Aukeratu **Erakutsi eskuragarri dauden erakundeen zerrenda** eta **Erakutsi aurreratua** kontrol-laukiak.
 6. Aukeratu zure maizterraren eskualdea, sartu zure kredentzialak eta hautatu **Saioa hasi**.
 
-![Konfigurazioaren saio-hasiera](./media/2ConfigurationSignin.png)
+![Konfigurazioaren saio-hasiera.](./media/2ConfigurationSignin.png)
 
 7. 3. orrialdean, maizterraren erakundeen zerrendan, hautatu zein erakundetan inportatu nahi dituzun demo datuak eta hautatu **Saioa hasi**.
 8. 4. orrialdean, hautatu zip fitxategia, *SampelSetupAndConfigData*, paketatu gabeko karpetatik.
 
-![Zip fitxategien hautaketa](./media/3ZipFile.png)
+![Zip fitxategien hautaketa.](./media/3ZipFile.png)
 
-![Hautatu fitxategia.](./media/4SelectAFile.png)
+![Hautatu fitxategi bat.](./media/4SelectAFile.png)
 
 9. Zip fitxategia hautatu ondoren, hautatu **Inportatu datuak**.
 
-![Inportatu datuak](./media/5ImportData.png)
+![Inportatu datuak.](./media/5ImportData.png)
 
 10. Inportazioa gutxi gorabehera bi-hamar minutu iraungo du sareko abiaduraren arabera. Inportatu ondoren, irten CMT morroitik. 
 11. Egiaztatu zure erakundeak 26 entitate hauetako datuak dituen:
@@ -84,50 +84,50 @@ Datuak konfiguratzen hasi aurretik Common Data Service (CDS), honako baldintza h
   - Baliabide erreserbagarriaren kategoriaren erlazioa
   - Baliabide erreserbagarriaren ezaugarria
 
-![Inportazio osoa](./media/6CompleteImport.png)
+![Inportazio osoa.](./media/6CompleteImport.png)
 
 ## <a name="update-project-operations-configurations"></a>Eguneratu Project Operations-en konfigurazioak
 
 1. Nabigatu CE ingurunera. Fitxategia irekita aurki dezakezu [Power Platform Administrazio zentroa](https://admin.powerplatform.microsoft.com/environments), ingurunea hautatuz, eta ondoren hautatuz **Ingurune irekia**. 
 
-![Ireki ingurunea](./media/7OpenEnvironment.png)
+![Ireki ingurunea.](./media/7OpenEnvironment.png)
 
 2. Joan **Proiektuak** > **Baliabideak** aukerara eta, ondoren, hautatu **Berria** zure erabiltzailearentzako baliabide erreserbagarria sortzeko.
 
-![Baliabide erreserbagarriak](./media/8BookableResources.png)
+![Baliabide erreserbagarriak.](./media/8BookableResources.png)
 
 3. **Orokorra** fitxan, hautatu administratzailearen erabiltzailea. Egiaztatu ordu-zona bat zarenarekin bat datorrela. 
 
-![Baliabide erreserbagarri berria](./media/9NewBookableResource.png)
+![Baliabide erreserbagarri berria.](./media/9NewBookableResource.png)
 
 4. **Programazioa** fitxan, **Enpresa** eremuan, aukeratu **USPM** enpresa, eta gero hautatu **Gorde**. 
 
-![Antolaketa fitxa](./media/10SchedulingTab.png)
+![Antolaketa fitxa.](./media/10SchedulingTab.png)
 
 5. Hautatu **Lanorduak** fitxa.  
 
-![Lanorduak](./media/11WorkHours.png)
+![Lanorduak.](./media/11WorkHours.png)
 
 6. Egin klik bikoitza egutegiko edozein balioetan eta hautatu **Editatu** > **Serieko gertaera guztiak**. 
 
-![Lan-egutegia](./media/12WorkCalendar.png)
+![Lan-egutegia.](./media/12WorkCalendar.png)
 
 7. Aldatu laneko orduak zortzi (8) orduko lanegunera, markatu asteburuak lanik gabeko egun gisa eta ziurtatu ordu-zona bat datorrenarekin. 
 8. Hautatu **Gorde eta itxi**.
 
-![Eguneratu egutegia](./media/13UpdateCalendar.png)
+![Eguneratu egutegia.](./media/13UpdateCalendar.png)
 
 9. Joan **Ezarpenak** > **Egutegiaren txantiloiak** eta hautatu **Berria**.
  
- ![Egutegiaren txantiloiak](./media/14CalendarTemplates.png)
+ ![Egutegiaren txantiloiak.](./media/14CalendarTemplates.png)
  
  10. Idatzi izen bat, hautatu sortu duzun txantiloiaren baliabidea eta hautatu **Gorde**. 
  
- ![Gorde egutegiaren txantiloia](./media/15SaveCalendarTemplate.png)
+ ![Gorde egutegiaren txantiloia.](./media/15SaveCalendarTemplate.png)
  
  11. Joan **Parametroak** eta egin klik bikoitza erregistroan. 
  
- ![Proiektuaren parametroak](./media/16ProjectParameters.png)
+ ![Proiektuaren parametroak.](./media/16ProjectParameters.png)
  
 12. Eguneratu eremu hauek:
 
@@ -138,7 +138,7 @@ Datuak konfiguratzen hasi aurretik Common Data Service (CDS), honako baldintza h
 
 13. Sakatu **Gorde**. 
 
-![Proiektuen parametro eguneratuak](./media/17UpdatedProjectParameters.png)
+![Proiektuen parametro eguneratuak.](./media/17UpdatedProjectParameters.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

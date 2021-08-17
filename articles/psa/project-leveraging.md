@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998396"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995161"
 ---
 # <a name="sales-estimates-and-projects"></a>Salmenten aurreikuspenak eta proiektuak
 
@@ -35,11 +35,11 @@ Salmenta prozesuan zehar, salmenten aurreikuspenak sor ditzakezu proiektu bat sa
 
 Proiektuetan oinarritutako eskaintzaren lerroa sortzen duzunean, beste proiektu bat sor dezakezu edo lehendik dagoen proiektu batekin lotu **Eskaintzaren lerroa** orrian. 
 
-> ![Eskaintzaren lerroaren inprimakia](media/project-8.png)
+> ![Eskaintzaren lerroaren inprimakia.](media/project-8.png)
  
 Eskaintzaren lerroko xehetasunetatik abiatuta beste proiektu bat sortzen duzunean, proiektuaren txantiloiak aprobetxatu ditzakezu. Proiektuaren txantiloiak erakunde baten proiektu tipikoen planak eta finantza-aurreikuspenak adierazten dituzten proiektu ereduak dira. Aurreko proiektuetako proiektu-planen eta aurreikuspenen kopiak ere irudikatu ahal izango dituzte.
 
-> ![Eskaintzaren lerroaren xehetasunak](media/project-9.png)
+> ![Eskaintzaren lerroaren xehetasunak.](media/project-9.png)
   
 Proiektu bat eskaintza batetik sortzean, proiektua automatikoki lotuko da eskaintzaren lerroarekin.
 

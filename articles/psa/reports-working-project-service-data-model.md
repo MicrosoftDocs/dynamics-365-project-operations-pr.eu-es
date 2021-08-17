@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008791"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002406"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Project Service Automation-en datu-ereduarekin lan egitea
 
@@ -53,7 +53,7 @@ PSA-k eskaintzari lotutako entitate berriak ere gehitu ditu Dynamics 365-eko dat
 
 PSA-k eskaintzei gehitzen dien beste erakundeak **Eskaintzaren lerroko proiektuen prezio-zerrenda**, **Eskaintzaren lerroko baliabideen kategoria** eta **Eskaintzaren lerroko transakzio kategoria** dira.
 
-![Aurrekontua, aurrekontuaren lerroa eta proiektuaren erlazioak erakusten dituen diagrama](media/PS-Reporting-image2.png "Aurrekontua, aurrekontuaren lerroa eta proiektuaren erlazioak erakusten dituen diagrama")
+![Aurrekontua, aurrekontuaren lerroa eta proiektuaren erlazioak erakusten dituen diagrama.](media/PS-Reporting-image2.png "Aurrekontua, aurrekontuaren lerroa eta proiektuaren erlazioak erakusten dituen diagrama")
 
 ## <a name="reporting-on-project-contracts"></a>Proiektu-kontratuen txostena
 
@@ -69,7 +69,7 @@ PSA-k proiektu-kontratuetarako diseinatuta dauden beste entitate batzuk ere gehi
 
 PSA-k kontratuei gehitzen dien beste erakundeak **Eskaintzaren lerroko proiektuen prezio-zerrenda**, **Proiektu-kontratuaren lerroko baliabide-kategoria** eta **Proiektu-kontratuaren lerroko transakzio-kategoria** dira.
 
-![Eskaera, eskaera lerroa eta proiektuaren erlazioak erakusten dituen diagrama](media/PS-Reporting-image3.png "Eskaera, eskaera lerroa eta proiektuaren erlazioak erakusten dituen diagrama")
+![Eskaera, eskaera lerroa eta proiektuaren erlazioak erakusten dituen diagrama.](media/PS-Reporting-image3.png "Eskaera, eskaera lerroa eta proiektuaren erlazioak erakusten dituen diagrama")
 
 ## <a name="reporting-on-projects"></a>Proiektuen txostena
 
@@ -81,7 +81,7 @@ PSA-k kontratuei gehitzen dien beste erakundeak **Eskaintzaren lerroko proiektue
 - **Baliabideen eskakizuna** - Entitate honek baliabide generikoen taldekideen eskakizunak ditu.
 - **Aurreikuspena** eta **Aurreikuspenaren lerroa** - Entitate horiek goiburu/lerro harremana dute eta proiektuaren gastuen aurreikuspenak dituzte. Zereginen aurreikuspenak **Baliabideen estimazioa** erakundean gordetzen dira.
 
-![Baliabide eskakizuna eta proiektuaren erlazioak erakusten dituen diagrama](media/PS-Reporting-image4.png "Baliabide eskakizuna eta proiektuaren erlazioak erakusten dituen diagrama")
+![Baliabide eskakizuna eta proiektuaren erlazioak erakusten dituen diagrama.](media/PS-Reporting-image4.png "Baliabide eskakizuna eta proiektuaren erlazioak erakusten dituen diagrama")
 
 ## <a name="reporting-on-resources"></a>Baliabideen txostena
 
@@ -92,7 +92,7 @@ Proiektuko baliabideek beste aplikazio batzuekin partekatutako **Baliabide erres
 - **Baliabide erreserbagarrien kategoria** - Entitate honek erreserbagarria den baliabidearen funtzioa adierazten du.
 - **Baliabide erreserbagarrien erreserbak** - Entitate honek baliabideetarako proiektuetan erreserbatzen den denbora adierazten du. Erreserba bakoitzak goiburu entitateak eta lerroko entitateak ditu, eta lerro bakoitzak erreserbaren egoera adierazten duen egoera du.
 
-![Erreserbatzeko baliabideen ezaugarri erlazioak erakusten dituen diagrama](media/PS-Reporting-image5.png "Erreserbatzeko baliabideen ezaugarri erlazioak erakusten dituen diagrama")
+![Erreserbatzeko baliabideen ezaugarri erlazioak erakusten dituen diagrama.](media/PS-Reporting-image5.png "Erreserbatzeko baliabideen ezaugarri erlazioak erakusten dituen diagrama")
 
 ## <a name="reporting-on-actual-transactions"></a>Benetako trantsakzioen txostena
 
@@ -120,7 +120,7 @@ Ordutegi edo gastu bat onartzen duzunean edo kontratu bat PSA-n fakturatzen duzu
 
 **Transakzioaren jatorria** entitateak **Benetako datua** erregistroaren jatorria erregistratzen du, eta **Transakzioaren konexioa** entitateak **Benetako datua** entitateak erlazionatutako erregistroak erregistratzen ditu. Gainera, **Benetako datua** erregistroak proiektuaren, proiektuaren kontratua (eskaera), baliabide erreserbagarria eta bezeroaren erreferentziak ditu.
 
-![Transakzioen konexioa, jatorria eta benetako harremanak erakusten dituen diagrama](media/PS-Reporting-image6.png "Transakzioen konexioa, jatorria eta benetako harremanak erakusten dituen diagrama")
+![Transakzioen konexioa, jatorria eta benetako harremanak erakusten dituen diagrama.](media/PS-Reporting-image6.png "Transakzioen konexioa, jatorria eta benetako harremanak erakusten dituen diagrama")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

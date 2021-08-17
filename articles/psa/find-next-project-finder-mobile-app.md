@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007486"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990751"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Bilatu hurrengo proiektua Project Finder Mobile aplikazioarekin (Project Service)
 
@@ -38,12 +38,12 @@ ms.locfileid: "6007486"
   
  Sakatu interesatzen zaizun proiektuaren eskuinera gezia, xehetasun gehiago ikusteko eta bertan erregistratzeko.  
   
- ![Proiektuak bilatzeko mugikorreko aplikazioan bat datozen gaitasunak dituzten proiektuen zerrenda](../psa/media/project-service-project-finder-list.png "Proiektuak bilatzeko mugikorreko aplikazioan bat datozen gaitasunak dituzten proiektuen zerrenda")  
+ ![Proiektuak Project Finder Mobile aplikazioan bat datozen gaitasunak dituzten proiektuen zerrenda.](../psa/media/project-service-project-finder-list.png "Proiektuak bilatzeko mugikorreko aplikazioan bat datozen gaitasunak dituzten proiektuen zerrenda")  
   
 ## <a name="update-your-skills"></a>Eguneratu trebakuntzak  
  Sakatu pantailaren beheko eskuinaldean dagoen profileko botoia, trebakuntzak eta trebezia-mailak eguneratzeko.  
   
- ![Profil-botoia Proiektu-bilatzailearen mugikorreko aplikazioan](../psa/media/project-service-project-finder-profile.png "Profil-botoia Proiektu-bilatzailearen mugikorreko aplikazioan")  
+ ![Profil-botoia Project Finder Mobile aplikazioan.](../psa/media/project-service-project-finder-profile.png "Profil-botoia Proiektu-bilatzailearen mugikorreko aplikazioan")  
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Denboraren, gastuen eta lankidetzaren gida](../psa/time-expense-collaboration-guide.md)

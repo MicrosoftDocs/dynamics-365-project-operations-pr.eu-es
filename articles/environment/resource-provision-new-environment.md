@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995471"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988546"
 ---
 # <a name="provision-a-new-environment"></a>Eman ingurune berri bat
 
@@ -52,12 +52,12 @@ Erabili urrats hauek zure LCS proiekturako Project Operations hornidura-fluxu au
 
 6. Hautatu inplementazioaren ingurune mota. Harpidetzan oinarritutako probak CDS ingurunea 30 egunez zabaltzen utziko dizu. 
 
-![Inplementazio-ezarpenak](./media/1DeploymentSettings.png)
+![Inplementazio-ezarpenak.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Aukeratu **Ados** zerbitzuaren baldintzak onartzeko eta ondoren hautatu **Eginda** inplementazio-ezarpenetara itzultzeko.
 
-![Inplementazioaren onespena](./media/2DeploymentConsent.png)
+![Inplementazioaren onespena.](./media/2DeploymentConsent.png)
 
 7. Aukerakoa - Aplikatu demo datuak inguruneari. Joan **Ezarpen aurreratuak** aukerara, hautatu **Pertsonalizatu SQL datu basearen konfigurazioa**, eta ezarri **Zehaztu datu-basea aplikazioen datu-baserako** **Demoa** gisa.
 
@@ -67,7 +67,7 @@ Erabili urrats hauek zure LCS proiekturako Project Operations hornidura-fluxu au
 
 9. Ingurunea behar bezala zabaldu dela baieztatzeko, hautatu **Hasi saioa** eta saioa hasi ingurunean berresteko.
 
-![ Ingurune-xehetasunak](./media/3EnvironmentDetails.png)
+![Ingurumen-xehetasunak.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aplikatu eguneratzeak Finance ingurunean
 
@@ -77,19 +77,19 @@ Baliteke kalitate-eguneratzeak aplikatzea zure Finance inguruneari bertsio hau j
 
 1. LCSn **Ingurumenaren xehetasunak** orrialdean, **Eguneratze erabilgarriak** sekzioan, hautatu **Ikusi eguneratzea**.
 
-![Ikusi eguneratzeak](./media/5ViewUpdates.png)
+![Ikusi eguneratzeak.](./media/5ViewUpdates.png)
 
 2. **Eguneratze bitarrak** orrialdean, hautatu **Gorde paketea.**
 
-![Gorde paketea](./media/6SavePackage.png)
+![Gorde paketea.](./media/6SavePackage.png)
 
 3. Sakatu **Hautatu guztiak** eta hautatu **Gorde paketea**.
 
-![Berrikusi eta gorde eguneratzeak](./media/7ReviewAndSaveUpdates.png)
+![Berrikusi eta gorde eguneratzeak.](./media/7ReviewAndSaveUpdates.png)
 
 4. Idatzi paketearen izena eta deskribapena, eta hautatu **Gorde**. Interneteko konexioaren arabera, baliteke prozesu honek denbora pixka bat behar izatea.
 
-![Kargatu paketea Aktiboen liburutegira](./media/8UploadPackageToAssetsLibrary.png)
+![Kargatu paketea Aktiboen liburutegira.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Paketea gorde ondoren, hautatu **Eginda** eta gorde pakete hau Aktiboen liburutegian zure LCS proiektuan.
 
@@ -97,15 +97,15 @@ Paketea gorde eta balioztatzeak ~ 15 minutu behar izan ditzake.
 
 6. Eguneratzea aplikatzeko, joan **Ingurumenaren xehetasunak** orrialdea LCSn eta hautatu **Mantendu** > **Aplikatu eguneratzeak**.
 
-![Mantendu inguruneak](./media/9MaintainEnvironment.png)
+![Mantendu inguruneak.](./media/9MaintainEnvironment.png)
 
 7. Eguneratzeen zerrendan hautatu sortu duzun paketea eta hautatu **Aplikatu**.
 
-![Aplikatu eguneraketak](./media/10ApplyUpdates.png)
+![Aplikatu eguneratzeak.](./media/10ApplyUpdates.png)
 
 Ingurumena zaintzeko denbora pixka bat beharko da. Bukatu ondoren, ingurunea hedatutako egoerara itzuliko da.
 
-![Inplementatutako inguruneak](./media/11EnvironmentDeployed.png)
+![Inplementatutako inguruneak.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Ezarri idazketa dualeko konexioa 
 
@@ -113,41 +113,41 @@ Ingurumena zaintzeko denbora pixka bat beharko da. Bukatu ondoren, ingurunea hed
 2. **Common Data Service Ingurumenari buruzko informazioa** aukeran, hautatu **Lotu aplikazioetarako CDS**.
 3. Esteka osatu ondoren, hautatu **Estekatu aplikazioetarako CDS** berriro. Finantzetan Idazketa Dualera bideratuko zaituzte.
 
-![Estekatu CDSra](./media/12LinktoCDS.png)
+![Estekatu CDSra.](./media/12LinktoCDS.png)
 
 4. Aukeratu **Aplikatu irtenbidea** integrazioan mapatuko diren entitateetara sartzeko.
 
-![Aplikatu soluzioak](./media/13ApplySolutions.png)
+![Aplikatu soluzioak.](./media/13ApplySolutions.png)
 
 5. Aukeratu bi irtenbideak, **Dynamics 365 Finance and Operations Idazketa bikoitzeko entitateen mapa** eta **Dynamics 365 Project Operations Idazketa bikoitzeko entitateen mapak** eta, ondoren, hautatu **Aplikatu**.
 
-![Berretsi irtenbideak](./media/14ConfirmSolutions.png)
+![Berretsi irtenbideak.](./media/14ConfirmSolutions.png)
 
 Irtenbideak aplikatu ondoren, Idazketa Dualeko entitateak inguruneari aplikatuko zaizkio.
 
-![Soluzioak aplikatzea](./media/15ApplyingSolutions.png)
+![Soluzioak aplikatzea.](./media/15ApplyingSolutions.png)
 
 Entitateak aplikatu ondoren, erabilgarri dauden mapaketa guztiak ingurunean zerrendatzen dira.
 
-![Idazketa dualaren esleipenak](./media/15DWMappings.png)
+![Idazketa dualaren esleipenak.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Freskatu datu-entitateak eguneratu ondoren
 
 1. Finantzetan, joan **Datuen kudeaketa** lan eremua.
 
-![Datu-kudeaketarren laneko area](./media/16DataManagement.png)
+![Datu-kudeaketaren laneko area.](./media/16DataManagement.png)
 
 2. Aukeratu **Esparru parametroak** lauza.
 
-![Esparru-parametroak](./media/17FrameworkParameters.png)
+![Esparru-parametroak.](./media/17FrameworkParameters.png)
 
 3. **Entitatearen ezarpenak** orrialdean, hautatu **Freskatu entitate zerrenda**.
 
-![Freskatu entitate-zerrenda](./media/18RefreshEntityList.png)
+![Freskatu entitate-zerrenda.](./media/18RefreshEntityList.png)
 
 Freskatzeak 20 minutu inguru iraungo du. Amaitutakoan alerta jasoko duzu.
 
-![Freskatzeko berrespena](./media/19RefreshConfirmation.png)
+![Freskatzeko berrespena.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Eguneratu Project Operations-eko segurtasun-ezarpenak aktibatuta Dataverse-n
 
@@ -188,17 +188,17 @@ Freskatzeak 20 minutu inguru iraungo du. Amaitutakoan alerta jasoko duzu.
 4. Entitatea freskatzeko, hautatu maparen izena eta hautatu **Freskatu entitateak**. 
 
 
-![Freskatu mapa](./media/20RefreshMapping.png)
+![Freskatu mapa.](./media/20RefreshMapping.png)
 
 5. Freskatzen osatu eta gero, exekutatu mapa. Hurrengo mapa gaitu aurretik, egiaztatu taulako mapa egoera batean dagoela **Exekutatzen**. Aurrebaldintza kopuru handiagoa duten mapak exekutatzeak denbora pixka bat behar izan dezake.
 
 Aurrebaldintzak dituen mapa exekutatzeko, gaitu **Erakutsi erlazionatutako entitateen mapak** txandakatu. Taulak adierazten badu **Hasierako sinkronizazioa** da **Ez**, egiaztatu **Hasierako sinkronizazioa** bandera da **Desaktibatuta** exekutatu aurretik aurrebaldintza-mapa guztietan.
 
-![Exekutatu mapa](./media/21RunMap.png)
+![Exekutatu mapa.](./media/21RunMap.png)
 
 6. Balioztatu proiektuarekin lotutako mapa guztiak martxan daudenean.
 
-![Mapa guztiak martxan](./media/22AllMapsRunning.png)
+![Mapa guztiak martxan.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Aplikatu konfigurazio-datuak Project Operations-en CDS-n (aukerakoa)

@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997721"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988681"
 ---
 # <a name="manage-time-zones"></a>Kudeatu ordu-zonak
 
@@ -32,13 +32,13 @@ Erabiltzean emaitza zehatzak eta aurresatekoak lortzeko **Luzatu erreserba**, fu
 
 - Erabiltzaileak bere gailuaren ordu-eremua sisteman zehaztutako ordu-zonarekin bat etor dadin konfiguratu behar du **Pertsonalizazio-ezarpenak**.
  
-  ![Ordu-eremuaren ezarpenak Windows 10-en](media/reconcile-assignments-03.png)
+  ![Ordu-eremuaren ezarpenak Windows 10-en.](media/reconcile-assignments-03.png)
 
-  ![Ordutegi-eremuaren ezarpenak pertsonalizazio-ezarpenetan](media/reconcile-assignments-04.png)
+  ![Ordutegi-eremuaren ezarpenak pertsonalizazio-ezarpenetan.](media/reconcile-assignments-04.png)
  
 - Baliabide erreserbagarriak eskatutako luzapena definitzeko erabilitako sarrerak gainjartzen den lanaldiko minutu bat izan behar du gutxienez. Adibidez, goizeko 9:00etatik 19:00etara bitarteko lanorduekin honako baliabide hauek. 
 
-  ![Baliabideen sarrerak alderatzea](media/reconcile-assignments-05.png)
+  ![Baliabideen sarrerak alderatzea.](media/reconcile-assignments-05.png)
 
 Taula honek hau erakusten du:
 
@@ -47,25 +47,25 @@ Taula honek hau erakusten du:
 - B Baliabidea: Baliabide hau proiektuarekiko beste ordu-zona batean dago eta goizeko 7:00etan hasten da haien ordu-gunean. Hala ere, erreserbak goizeko 09:00etan hasiko dira, esleipen-sarreraren hasiera-ordu goiztiarrena delako.
 - C eta D baliabideak: baliabideak ordu-zona desberdinetan daude, bata bestearekin eta proiektuarekin desberdinak, eta erreserbak dagozkien hasiera-orduak baino lehenago hasten dira.
 
-|Entitatea  |Egutegia  |
+|Entity  |Egutegia  |
 |-|-|
-|Proiektuaren egutegi-txantiloia   | ![proiektuaren egutegia](media/reconcile-assignments-06.png) |
-|A baliabidea  | ![A baliabidearen egutegia](media/reconcile-assignments-06.png) |
-|B baliabidea  |  ![B baliabidearen egutegia](media/reconcile-assignments-07.png) |
-|C baliabidea  |  ![C baliabidearen egutegia](media/reconcile-assignments-08.png) |
-|D baliabidea  | ![D baliabidearen egutegia](media/reconcile-assignments-09.png)  |
+|Proiektuaren egutegi-txantiloia   | ![proiektuaren egutegia.](media/reconcile-assignments-06.png) |
+|A baliabidea  | ![A baliabidearen egutegia.](media/reconcile-assignments-06.png) |
+|B baliabidea  |  ![B baliabidearen egutegia.](media/reconcile-assignments-07.png) |
+|C baliabidea  |  ![C baliabidearen egutegia.](media/reconcile-assignments-08.png) |
+|D baliabidea  | ![D baliabidearen egutegia.](media/reconcile-assignments-09.png)  |
  
 Helbidera nabigatzen duzunean **Adiskidetzea** ikuspegia, baliabideen esleipenak eta horrekin lotutako erreserba eskasia bistaratzen dira.
 
-![Bateratze-ikuspegia hedapenaren aurretik](media/reconcile-assignments-10.png)
+![Bateratze-ikuspegia hedapenaren aurretik.](media/reconcile-assignments-10.png)
 
 Baliabide bakoitzerako hedapenaren erreserbaren funtzionalitatea erabili ondoren, erreserbak baliabide bakoitzerako behar bezala hedatzen dira, baliabide bakoitzaren lan orduak gabeziaren sestrarekin gainjartzen direlako.
 
-![Bateratze-ikuspegia erreserba luzatu ostean](media/reconcile-assignments-11.png) 
+![Bateratze-ikuspegia erreserba luzatu ostean.](media/reconcile-assignments-11.png) 
 
 Kontuan izan erreserben xehetasunak aztertuz gero, erreserbak hasteko orduaren aldeak erakusten dituela. Erreserbak esleipenaren sestra hasierako ordua baino lehenago hasten dira eta baliabidearen erabilgarri dagoen ordua baino lehenago hasten dira.
 
-![Antolaketa-taulako baliabideen erreserba berriak](media/reconcile-assignments-12.png)
+![Antolaketa-taulako baliabideen erreserba berriak.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

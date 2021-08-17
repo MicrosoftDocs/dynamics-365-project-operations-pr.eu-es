@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012796"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988771"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Eguneratu plugin atributuak prezio-dimentsio berriak sartzeko
 
@@ -42,25 +42,25 @@ Hurrengo urratsek pluginak erregistratzeko prozesua azaltzen dute.
 1. Ireki **PluginRegistrationTool** eta konektatu zure lineako instantziara.
 2. Egin klik **Bilatu** aukeran eta bilatu eguneratu behar den plugina.
 
- ![Bilaketa zuhaitzaren pantaila-argazkia](media/PRT-1.png)
+ ![Bilaketa zuhaitzaren pantaila-argazkia.](media/PRT-1.png)
 
 3. Plugina aurkitu ondoren, hautatu eta egin klik **Hautatu Inprimaki nagusian**.
 
 4. Hautatu eguneratu beharreko pluginaren urratsa, egin klik eskuineko botoiarekin eta, ondoren, hautatu **Eguneratu**.
 
- ![Eguneratu beharreko pluginaren pantaila-argazkia](media/PRT-2.png)
+ ![Eguneratu beharreko pluginaren pantaila-argazkia.](media/PRT-2.png)
  
 5. Eguneratze leihoan, sakatu elipsia (**...**) iragazkiaren atributuetan.
 
- ![Eguneratzeko lehendik dagoen urratsaren konfigurazioaren informazioa](media/PRT-3.png)
+ ![Eguneratzeko lehendik dagoen urratsaren konfigurazioaren informazioa.](media/PRT-3.png)
  
 6. Hautatu prezioaren atributuaren kontrol-laukiak.
 
- ![Prezio-atributuetarako kontrol-laukien hautaketa erakusten duen pantaila-argazkia](media/PRT-4.png)
+ ![Prezio-atributuetarako kontrol-laukien hautaketa erakusten duen pantaila-argazkia.](media/PRT-4.png)
 
 7. Egin klik **Ados** aukeran orria ixteko eta, ondoren, hautatu **Eguneratu urratsa**.
 
- !["Eguneratu urratsa" botoia erakusten duen pantaila-argazkia](media/PRT-5.png)
+ !["Eguneratu urratsa" botoia erakusten duen pantaila-argazkia.](media/PRT-5.png)
  
 8. Errepikatu prozesu hori bigarren pluginarekin, **PreOperationQuoteLineDetail - msdyn_quotelinetransaction eguneratzea**.
 
