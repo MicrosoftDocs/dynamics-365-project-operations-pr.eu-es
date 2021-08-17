@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008521"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006950"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Berrikusi proiektuen eta proiektuen kontratuen fakturazioaren lana
 
@@ -40,7 +40,7 @@ Fakturatu gabeko benetako salmentek fakturazioaren lana adierazten du eta faktur
 
 Denbora eta materialei dagokien fakturazioaren lana ikusteko, joan **Salmentak** \> **Fakturazioa** \> **Denboraren eta materialaren fakturazioaren atala**. Hautatu fakturatzeko prest dauden fakturatu gabeko benetako salmenta guztiak eta, ondoren, hautatu **Fakturatzeko prest**. Datu erreal horien fakturazio-egoera aldatu egingo da **Fakturatzeko prest** egoerara.
 
-![Denbora eta materialen fakturazioaren lana](media/TMBacklog.png)
+![Denbora eta materialen fakturazioaren lana.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Berrikusi produktuaren fakturazioaren lana
 
@@ -48,7 +48,7 @@ PSA-n, proiektuko kontratuak produktuetan oinarritutako kontratuaren lerroak dit
 
 Produktuen fakturazio lana berrikusteko, joan **Salmentak** \> **Fakturazioa** \> **Produktuen fakturazioaren lana** aukerara. Hautatu fakturatzeko prest dauden produktuan oinarritutako kontratuaren lerro guztiak eta, ondoren, hautatu **Fakturatzeko prest**. Lerro horien fakturazio-egoera aldatu egingo da **Fakturatzeko prest** egoerara.
 
-![Produktuaren fakturazioaren lana](media/ProductBacklog.png)
+![Produktuaren fakturazioaren lana.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Berrikusi prezio finkoko kontratuen mugarriak
 
@@ -56,7 +56,7 @@ Prezio finkoko fakturazio-metodoa duen proiektuaren kontratuaren lerro bakoitzak
 
 Fakturazio-mugarriak berrikusteko, joan **Salmentak** \> **Fakturazioa** \> **Prezio finkoen mugarriak** atalera. Hautatu fakturatzeko prest dauden mugarriak eta, ondoren, hautatu **Fakturatzeko prest**. Mugarri horien fakturazio-egoera aldatu egingo da **Fakturatzeko prest** egoerara.
 
-![Prezio finkoaren mugarriak](media/FPBacklog.png)
+![Prezio finkoaren mugarriak.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

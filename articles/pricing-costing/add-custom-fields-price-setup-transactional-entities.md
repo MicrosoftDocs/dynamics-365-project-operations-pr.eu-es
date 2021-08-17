@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a7268eb33c80f5e35d2ef21a8f4c7ed7ba322e27
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 36c95913cc72e293c3015e1b9d3055aac476eebb4cf7d7993741d3cb61de0e13
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000556"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006141"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Gehitu beharrezko eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan
 
@@ -47,7 +47,7 @@ Prezioen dimentsio pertsonalizatu bat aukera-multzoan oinarritutakoan, gehitu er
 > [!IMPORTANT]
 > Eremua entitate batean baino gehiagotan gehitzen duzunean, erabili eremu-izen bera entitate guztietan. 
 
-> ![Baliabideen lanaren kokapena gehitzea Funtzio-prezioari](media/RWL-Field.png)
+> ![Baliabideen lanaren kokapena gehitzea Funtzio-prezioari.](media/RWL-Field.png)
 
 Proiektu baten salmenta eta zenbatespen faseetan, **lokalean** eta **gunean** burutu behar den lan ahaleginaren kalkuluak, **Ohiko orduak** eta **Ordutegi gehigarria** ataletan, eskaintza/proiektuaren balioa kalkulatzeko erabiltzen dira. **Baliabideen lanaren kokalekua** eta **Baliabideen lana** eremuak **eskaintza lerroaren xehetasuna**, **Kontratuaren lerroaren xehetasuna**, **Proiektuko taldekidea**, eta **Estimazio lerroa** estimazio entitateei gehituko zaizkie.
 
@@ -59,7 +59,7 @@ Proiektu baten salmenta eta zenbatespen faseetan, **lokalean** eta **gunean** bu
 6. Errepikatu 1-5 urratsak eremu hau **Proiektuaren kontratuaren lerroaren xehetasuna**, **Proiektuko taldekidea**, eta **Estimazio lerroa** entitateei gehitzeko.
 7. Errepikatu 1-6 urratsak **Baliabideen lana** aukera-multzorako. 
 
-> ![Baliabideen lanaren kokapena gehitzea estimazio lerroari](media/RWL-Default-Value.png)
+> ![Baliabideen lanaren kokapena gehitzea estimazio lerroari.](media/RWL-Default-Value.png)
 
 Entrega eta fakturaziorako, amaitutako lana zehaztasunez preziatu behar da **lokalean** edo **gunean** egin den zehazteko, eta **ohiko orduetan** edo **aparteko orduetan** egin den hautatzeko proiektuaren benetako datuetan. **Baliabideen lanaren kokalekua** eta **Baliabideen lana** eremuak **sarrera-ordua**, **benetakoa**, **faktura lerroaren xehetasuna**, eta **kutxako liburuaren lerroa** entitateetan gehitu behar dira.
 
@@ -71,7 +71,7 @@ Entrega eta fakturaziorako, amaitutako lana zehaztasunez preziatu behar da **lok
 6. Errepikatu 1-5 urratsak eremua **Benetakoa**, **Faktura lerroaren xehetasuna**, eta **Kutxako liburuaren lerroa** entitateetan gehitzeko.
 7. Errepikatu 1-6 urratsak **Baliabideen lana** aukera-multzorako. 
 
-> ![Baliabideen lanaren kokapena gehitzea denbora-sarreran](media/RWL-time-entry.png)
+> ![Baliabideen lanaren kokapena gehitzea denbora-sarreran.](media/RWL-time-entry.png)
 
 Aukera-multzoan oinarritutako neurri pertsonalizatuetarako beharrezkoak diren eskema aldaketak osatzen ditu.
 
@@ -84,7 +84,7 @@ Prezioen dimentsio pertsonalizatua entitate bat denean, dimentsio-entitatearen e
 3. Zabaldu **Titulu estandarra** entitatea eta hautatu **1:N harremanak**.
 4. Hautatu **Berria** aukeran 1:N harreman berria sortzeko, **Titulu estandarretik baliabideak erreserbagarrira** izena duena. Sartu beharrezko informazioa eta, ondoren, hautatu **Gorde** aukeran.
 
-> ![Titulu estandarra gehitzea baliabide erreserbagarrietan erreferentzia-eremu gisa](media/ST-BR.png)
+> ![Titulu estandarra gehitzea baliabide erreserbagarrietan erreferentzia-eremu gisa.](media/ST-BR.png)
 
 Titulu estandarra prezio-erakundeei ere gehitu beharko zaie, hala nola **Funtzioaren prezioa** eta **Funtzioaren prezioaren gainprezioa**. Hau ere: **Titulu estandarra** eta **Funtzioaren prezioa** entitateen eta **Titulu estandarra** eta **Funtzioaren prezioen gainprezioa** entitateen artean 1:N harremanak erabiliz osatzen da.
 
@@ -102,13 +102,13 @@ Proiektuaren salmenta- eta estimazio-faseetan, eskaintza/proiektua preziatzeko, 
 
 5. Errepikatu 1-5 urratsak **Titulu estandarra** entitatetik **Eskaintzaren lerroaren xehetasuna**, **Proiektuaren kontratuaren lerroaren xehetasuna**, **Proiektuko taldekidea**, eta **Aurreikuspenaren lerroa** entitateetara 1:N harremanak sortzeko.
 
-> ![Titulu estandarra gehitzea aurreikuspenaren lerroa erreferentzia-eremu gisa](media/ST-Estimate-Line.png)
+> ![Titulu estandarra gehitzea aurreikuspenaren lerroa erreferentzia-eremu gisa.](media/ST-Estimate-Line.png)
 
   Entrega- eta fakturazio-faseetan, titulu estandar bakoitzak osatutako lanak proiektuaren benetakoa atalean zehaztasunez preziatu behar dira. Horrek esan nahi du 1: N harremanak izan behar direla **Titulu estandarra** entitatetik **Denbora-sarrera**, **Benetakoa**, **Faktura lerroaren xehetasuna**, eta **Kutxako liburuaren lerroa entitateak** entitateetara.
 
 6. Errepikatu 1-6 urratsak 1: N harremanak sortzeko **Titulu estandarra** entitatetik **Denbora-sarrera**, **Benetakoa**, **Faktura lerroaren xehetasuna**, eta- **Kutxako liburuaren lerroa entitateak** entitateetara.
 
-> ![Titulu estandarra gehitzea denbora-sarrera erreferentzia-eremu gisa](media/ST-Mapping.png)
+> ![Titulu estandarra gehitzea denbora-sarrera erreferentzia-eremu gisa.](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Konfiguratu lehenetsitako dimentsioaren balioa plataformako esleitze-ezaugarriak erabiliz
 Denbora-sarrera entitaterako, lagungarria izango litzateke sistemak lehenespenez denbora-sarrera entitatearen izena sarrera erregistratzen ari den baliabide erreserbagarritik hartzea. Jarraitu urrats hauei 1:N erlazioan eremuko mapak gehitzeko **Erreserbatzeko baliabidea** entitatetik **Denbora-sarrera** entitatera.
@@ -118,7 +118,7 @@ Denbora-sarrera entitaterako, lagungarria izango litzateke sistemak lehenespenez
 3. Egin klik bikoitza **Denbora-sarrerarako baliabide erreserbagarria** entitatean. **Harremana** orrian, hautatu **Erabili eremu-esleipenak** atalean. 
 4. Hautatu **Berria** aukeran eremu-esleipen berria sortzeko **Titulu estandarra** eremuaren, **Baliabide erresebagarria** entitatekoaren eta **Titulu estandarra** erreferentzia-eremuaren artean, **Denbora-sarrera** entitatekoa. 
 
-> ![Konfiguratu eremu-esleipenak, baliabide erreserbagarriak denbora-sarrerara izenburu estandarra lehenetsi ahal izateko](media/ST-Mapping2.png)
+> ![Konfiguratu eremu-esleipenak, baliabide erreserbagarriak denbora-sarrerara izenburu estandarra lehenetsi ahal izateko.](media/ST-Mapping2.png)
 
 Entitateetan oinarritutako neurri pertsonalizatuetarako beharrezkoak diren eskema aldaketak osatzen ditu.
 

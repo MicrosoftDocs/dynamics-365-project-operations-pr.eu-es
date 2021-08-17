@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369676"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007491"
 ---
 # <a name="project-management-and-accounting-overview"></a>Proiektuen kudeaketa eta kontabilitate ikuspegi orokorra
 
@@ -34,14 +34,14 @@ Proiektua zerbitzu bat eskaintzeko, produktu bat ekoizteko edo emaitza lortzeko 
 ## <a name="projects-across-industries"></a>Proiektuak industrien artean
 Proiektuen kudeaketa eta kontabilitate funtzionalitatea hainbat industriatan erabil daiteke, hurrengo ilustrazioan erakusten den moduan.
 
-[![Proiektuak industrien artean](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Proiektuak industrien artean.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Dei zentro batean, txartel bat erabil daiteke deiak ebazteko beharrezkoak diren ekintza multzoak deskribatzeko. Aholkularitza-enpresek, hala nola kudeaketa edo aholkularitza teknikoko erakundeak edo publizitate agentziak, beren jarduerak proiektu gisa izendatzen dituzte. Marketinean, kanpaina batek entregatu beharreko lan multzoa adierazten du. Proiektuetan oinarritutako fabrikazioan, produkzio eskaera batek amaitutako produktu batzuk ekoizteko egin behar diren hainbat lanekin erlazionatzen du. Edozein izen erabiltzen da haientzat, proiektu hauek baliabideak, ordutegiak eta kostuak dakartzate, eta proiektuaren kudeaketa eta kontabilitate funtzionaltasunak proiektu horien plangintza, exekuzioa eta analisia egiten lagun dezakete.
 
 ## <a name="project-phases"></a>Proiektuaren faseak
 Ondorengo prozesuen fluxua kanpoko proiektuetara edo bezero bat edo gehiagorentzat osatutako proiektuetara bideratuta badago ere, funtzionalitatea barne kostuetarako soilik duten proiektuei ere aplikatzen zaie. 
 
-![Proiektuaren 3 faseak](./media/3-stages-of-a-project.png) 
+![Proiektuaren 3 faseak.](./media/3-stages-of-a-project.png) 
 
 Aurreko ilustrazioan agertzen den moduan, proiektuen kudeaketa eta kontabilitatea hiru fasetan bana daitezke:
 
@@ -50,7 +50,7 @@ Aurreko ilustrazioan agertzen den moduan, proiektuen kudeaketa eta kontabilitate
 3.  Analizatu
 
 ## <a name="initiate-the-project"></a>Hasi proiektua
-Proiektuaren hasieran, funtsezko hainbat prozesu gertatzen dira. Proiektuaren aurrekontua erabil dezakezu kalkulatutako eskulana, gastuak eta materialak bezeroari jakinarazteko. Fakturazio baldintzak, mugak eta akordioak proiektuko kontratu batean erregistratu ditzakezu. Lanaren banakako egitura (WBS) erabil dezakezu lana planifikatzeko eta kalkulatzeko. Proiektuaren exekuzioa bideratzeko aurreikuspenak eta aurrekontuak konfigura ditzakezu. Ondorengo ilustrazioak proiektu baten egitura erakusten du.[![proiektuaren egitura](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Proiektuaren hasieran, funtsezko hainbat prozesu gertatzen dira. Proiektuaren aurrekontua erabil dezakezu kalkulatutako eskulana, gastuak eta materialak bezeroari jakinarazteko. Fakturazio baldintzak, mugak eta akordioak proiektuko kontratu batean erregistratu ditzakezu. Lanaren banakako egitura (WBS) erabil dezakezu lana planifikatzeko eta kalkulatzeko. Proiektuaren exekuzioa bideratzeko aurreikuspenak eta aurrekontuak konfigura ditzakezu. Ondorengo ilustrazioak proiektu baten egitura erakusten du.[![proiektuaren egitura.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Sortu proiektu-eskaintzk
 

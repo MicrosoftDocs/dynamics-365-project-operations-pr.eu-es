@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997496"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005601"
 ---
 # <a name="synchronize-resource-capacity"></a>Sinkronizatu baliabideen gaitasuna
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997496"
 
 Baliabideak sinkronizatzeko prozesuei esker, egutegiaren eta oinarrizko egutegiaren informazioa proiektuaren baliabideen programazioan sartzen da. Egutegia aldatzen bada, prozesuek beharrezko eguneratzeak egiten dituzte proiektuaren baliabideen programazioan. Prozesuek errendimendua hobetzen ere laguntzen dute, egutegiaren baliabideen informazioa aldez aurretik sinkronizatuta dagoelako. Hori dela eta, baliabideak antolatzeko informazioaren eguneratzeak azkarrago gertatzen dira. Prozesuak multzo gisa antolatzea gomendatzen dizugu, aldi berean ordez. Bestela, norbaitek informazioa azkeneko aldiz sinkronizatu zeneko egun biak barne ahazteko arriskua dago. Data inklusiboak erabiltzen ez badira, hutsuneak gerta daitezke data sinkronizatzean.
 
-![Egutegiaren sinkronizazioa](./media/projectresourcing04-1024x471.jpg)
+![Egutegiaren sinkronizazioa.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Sinkronizatu baliabide-gaitasuna bateratzea
 
@@ -46,7 +46,7 @@ Gomendatzen dizugu erabiltzea sorta gisa. Aukerak eskuragarri daude edukiera err
     | Hasiera-data  | Idatzi baliabideen edukiera biltzeko prozesuen sinkronizazio prozesuaren hasiera data. |
     | Amaiera-data    | Idatzi baliabideen edukiera biltzeko prozesuen sinkronizazio prozesuaren amaiera data. |
 
-[![Sinkronizazio-prozesua](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Sinkronizazio-prozesua.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 540b6f74d8e79116e5fdb2ceffaa4bbb487ff08f
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368416"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007896"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Project Operations idazketa dualeko integrazioaren ikuspegi orokorra
 
@@ -23,7 +23,7 @@ Project Operations-en erabilerak [idazketa bikoitzeko gaitasunak](/dynamics365/f
 
 Ondorengo ilustrazioak erakusten du nola sinkronizatzen diren datuak arteko integrazio horren zati gisa Dataverse eta Finance artean.
 
-![Project Operations-en datu-fluxuen ikuspegi orokorra](./media/ProjectOperationsFlows.jpg)
+![Project Operations-en datu-fluxuen ikuspegi orokorra.](./media/ProjectOperationsFlows.jpg)
 
 Project Operations Dataverse-n Erabiltzaile interfaze modernoa (UI) eta koderik gabeko / kode baxuko hedapen erraza erabiltzen ditu Power Platform gaitasunak. Proiektuen kudeatzaileek, baliabideen kudeatzaileek, proiektuko taldekideek eta lehen lerroko beste pertsona batzuek Project Operations-en egiten dituzte jarduerak Dataverse-n.
 

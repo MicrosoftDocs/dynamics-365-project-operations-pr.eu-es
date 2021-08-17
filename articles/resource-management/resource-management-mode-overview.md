@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367876"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008211"
 ---
 # <a name="resource-management-modes-overview"></a>Baliabideen kudeaketaren moduen informazio orokorra
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations-ek bi modu onartzen ditu erreserba-fluxu orokorr
 ## <a name="central-mode"></a>Modu zentrala
 Proiektuetarako baliabideen zuzkidura zentralizatzen duten erakundeentzat, Modu Zentralak proiektuaren kudeatzaileek proiektuaren mailan baliabideen eskakizunak definitu ahal izateko modua eskaintzen du. Baliabideen eskakizunak betetzea Baliabideen kudeatzaileari eskuordetzen zaio. Proiektuen kudeatzaileek baliabideen kudeatzaileak proposatutako baliabideak onartu edo baztertu ditzakete.
 
-![Modu zentrala](./media/resource-management-central.png)
+![Modu zentrala.](./media/resource-management-central.png)
 
 Baliabideak Erdiko moduarekin kudeatzeko, ikusi:
 
@@ -37,7 +37,7 @@ Baliabideak Erdiko moduarekin kudeatzeko, ikusi:
 ## <a name="hybrid-mode"></a>Modu hibridoa
 Baliabideen banaketan malgutasuna behar duten erakundeentzat, modu hibridoak proiektuen kudeatzaileei eta baliabideen kudeatzaileei baliabideak erreserbatzeko aukera ematen die.
 
-![Modu hibridoa](./media/resource-management-hybrid.png)
+![Modu hibridoa.](./media/resource-management-hybrid.png)
 
 Onartutako Erdiko moduaren prozesua ez ezik, ikusi gai hauek Hibrido moduan onartutako erreserba-fluxu guztiak kudeatzeko:
 

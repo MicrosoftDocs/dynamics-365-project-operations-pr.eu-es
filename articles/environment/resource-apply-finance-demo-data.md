@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7d8a198b3bfd71ae08bc338d17896519b5ffd6b8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000131"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009651"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplikatu demo-datuak Finance-ren hodeian ostatatutako ingurune batean
 
@@ -22,40 +22,40 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 1. Zure LCS proiektuan, ireki **Ingurumenaren xehetasunak** orrialdea. Ohar zaitez urruneko mahaigaineko protokoloa (RDP) erabiliz ingurunearekin konektatzeko behar diren xehetasunak biltzen dituela.
 
-![ Ingurune-xehetasunak](./media/1EnvironmentDetails.png)
+![Ingurumen-xehetasunak.](./media/1EnvironmentDetails.png)
 
 Nabarmendutako kredentzialen lehen multzoa tokiko kontuaren egiaztagiriak dira eta urruneko mahaigaineko konexiorako hiperesteka bat dute. Kredentzialen artean, inguruneko administratzaile izena eta pasahitza daude. Ingurune honetan SQL Server zerbitzuan saioa hasteko bigarren kredentzial multzoa erabiltzen da.
 
 2. Konektatu ingurunearekin hiperesteka bidez **Tokiko kontuak**, eta erabili **Tokiko kontuaren egiaztagiriak** autentifikatzeko.
 3. Joan **Interneteko Informazio Zerbitzuak** > **Aplikazio multzoak** > **AOSZerbitzua** eta zerbitzua gelditu. Une honetan zerbitzua gelditzen ari zara, SQL datu basea ordezkatzen jarrai dezazun.
 
-![Gelditu AOS](./media/2StopAOS.png)
+![Gelditu AOS.](./media/2StopAOS.png)
 
 4. Joan **Zerbitzuak** eta gelditu bi elementu hauek:
 
 - Microsoft Dynamics 365 Unified Operations: Loteen kudeaketa zerbitzua
 - Microsoft Dynamics 365 Unified Operations: Datuak Inportatzeko Esportazio Esparrua
 
-![Gelditu zerbitzuak](./media/3StopServices.png)
+![Gelditu zerbitzuak.](./media/3StopServices.png)
 
 5. Ireki Microsoft SQL Server Management Studio. Hasi saioa SQL zerbitzariaren egiaztagiriekin eta erabili axdbadmin erabiltzailea eta LCSko pasahitza **Inguruneen xehetasunak** orrialdea.
 
-![SQL Server Management Studio](./media/4SSMS.png)
+![SQL Server Management Studio.](./media/4SSMS.png)
 
 6. Object Explorer-en, **Datu-baseak** eta kokatu **AXDB**. Datu-basea datu-basean ordeztuko duzu [Deskarga-zentroan](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Kopiatu zip fitxategia urrun zauden VM-ra eta atera zip edukia.
 8. SQL Server Management Studio-n, egin klik eskuineko botoiaz **AxDB** eta, ondoren, hautatu **Zereginak** > **Berreskuratu** > **Datu basea**.
 
-![Leheneratu datu-basea](./media/5RestoreDatabase.png)
+![Leheneratu datu-basea.](./media/5RestoreDatabase.png)
 
 9. Aukeratu **Iturburu-gailua** eta joan kopiatu duzun zip-etik ateratako fitxategira.
 
-![Iturri gailuak](./media/6SourceDevice.png)
+![Iturri gailuak.](./media/6SourceDevice.png)
 
 10. Aukeratu **Aukerak** eta, ondoren, hautatu **Gainidatzi lehendik dagoen datu basea** eta **Itxi dauden konexioak helmugako datu basera**. 
 11. Hautatu **Ados**.
 
-![Leheneratu ezarpenak](./media/7RestoreSetting.png)
+![Leheneratu ezarpenak.](./media/7RestoreSetting.png)
 
 AXDB berreskurapena arrakastatsua izan dela baieztatuko duzu. Baieztapen hau jaso ondoren, SQL Services Management Studio itxi dezakezu.
 
@@ -66,17 +66,17 @@ AXDB berreskurapena arrakastatsua izan dela baieztatuko duzu. Baieztapen hau jas
 15. Exekutatu .ext fitxategia zure erabiltzailearen helbidea erabiliz **Helbide elektronikoa** eremua. 
 16. Hautatu **Bidali**.
 
-![Administratzaile-erabiltzailearen hornitzea](./media/8AdminUserProvisioning.png)
+![Administratzaile-erabiltzailearen hornitzea.](./media/8AdminUserProvisioning.png)
 
 Minutu pare bat behar dira. Admin erabiltzailea ondo eguneratu dela baieztatzeko mezua jaso beharko zenuke.
 
 17. Azkenean, exekutatu komando-gonbita administratzaile gisa eta burutu iisreset
 
-![IIS berrezartzea](./media/9IISReset.png)
+![IIS berrezartzea.](./media/9IISReset.png)
 
 18. Itxi urruneko mahaigaineko saioa eta erabili LCS **Ingurumenaren xehetasunak** orria ingurunean saioa hasteko espero bezala funtzionatzen duela baieztatzeko.
 
-![Finance and Operations](./media/10FinanceAndOperations.png)
+![Finance and Operations.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

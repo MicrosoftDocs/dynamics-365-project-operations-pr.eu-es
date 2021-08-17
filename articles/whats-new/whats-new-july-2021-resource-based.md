@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433503"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008031"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021eko uztaileko berrikuntzak - Balabideetan edo ekoizpenean oinarritutako egoeretarako Project Operations
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433503"
 
 Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
-   - Project Operations Microsoft Dataverse inguruneko bertsioan 4.12.0.148.
+   - Project Operations Microsoft Dataverse-ko inguruneko bertsioan 4.12.0.148 edo 4.12.0.152.
    - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.20 bertsioan.
 
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
@@ -79,7 +79,7 @@ Mapa hastean arazoren bat baduzu, jarraitu argibideak [Taulen zutabeak falta dir
 | Orokorrak                       | 2296857              | Iraupen luzeko lanetarako aurrerapenen jarraipena.                                                                                                                                                                        |
 | Orokorrak                       | 2253682              | Project Operations idazketa bikoitzeko soluzioa ezin da instalatu idazketa bikoitzeko nukleoa idazketa bikoitzeko orkestrazio soluziorik gabeko ingurune batean instalatuta dagoenean.                                                |
 | Orokorrak                       | 2316420              | Proiektuaren zerbitzuaren oinarrizko hornikuntzak huts egiten du aplikazioaren erabiltzailearen negozio unitatea aldatzen bada.                                                                                                                     |
-
+| Orokorrak                       | 2376405              | Argitaratzaileari zuzendutako eguneratze arazoa konpondu da (kalitatearen eguneratzea 4.12.0.152 bertsioan dago eskuragarri)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Proiektuaren kudeaketa eta kontabilitatea Dynamics 365 Finance-n
 
 | Ezaugarrien eremua                      | Erreferentzia-zenbakia | Kalitatearen eguneratzea                                                                                                                                                                                                                                                                                                                |

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000016"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006276"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Proiektuaren kalkuluak eta benetako dauten integrazioa
 
@@ -30,7 +30,7 @@ Aurrekontuak sortzeko proiektuak baliozko kontabilitate konfigurazioa behar du. 
 
 Lan-kalkuluak proiektuaren kudeatzaileak edo baliabideen kudeatzaileak sortzen ditu, eta proiektuaren zereginari baliabide generiko edo izendatutako bat ere esleitzen dio. Baliabideak esleitzeko erregistroak **Baliabideen esleipena** fitxan **Proiektuaren xehetasunak** orrialdea Dataverse-n. Baliabideak esleitzeko erregistroak Dataverse-n sortu orduen iragarpen erregistroak Finance and Operations aplikazioetan **Project Operations integratzeko entitatea orduen kalkuluen arabera (msdyn\_resourceassigments)**.
 
-   ![Lanak integrazioa kalkulatzen du](./Media/DW4LaborEstimates.png)
+   ![Lanak integrazioa kalkulatzen du.](./Media/DW4LaborEstimates.png)
 
 Idazketa bikoitzak baliabideak esleitzeko erregistroak taulako taularekin sinkronizatzen ditu (**ProjCDSEstimateHoursImport**), eta gero negozioaren logika erabiltzen du orduen iragarpen erregistroak sortzeko eta eguneratzeko (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Proiektuaren kontulariak urtean sortutako orduen erregistroak berrikusten ditu F
 
 Gastuen kalkuluak proiektuaren kudeatzaileak sortzen ditu **Gastuen aurrekontuak** fitxan **Proiektuaren xehetasunak** orrialdea Dataverse-n. Gastuen aurrekontuen erregistroak biltegian gordetzen dira **Kalkuluaren lerroa** entitatea Dataverse-n. Estimazio erregistro hauek transakzio klasea dute, **Gastua** eta sinkronizatuta daude gastuen aurreikuspenen erregistroekin Finance and Operations aplikazioetan **Project Operations integratzeko gastua kalkulatzeko (msdyn\_estimatelines)** erabiliz.
 
-   ![Gastuen kalkuluen integrazioa](./Media/DW4ExpenseEstimates.png)
+   ![Gastuen kalkuluen integrazioa.](./Media/DW4ExpenseEstimates.png)
 
 Idazketa bikoitzak baliabideak esleitzeko erregistroak taulako taularekin sinkronizatzen ditu **(ProjCDSEstimateExpenseImport)**, eta gero negozioaren logika erabiltzen du gastuen iragarpen erregistroak sortzeko eta eguneratzeko (**ProjForecastCost**). Lerroen kalkuluen arabera, salmenten estimazioa eta kostuen kalkuluak bereizita gordetzen dira. Enpresa logika Finance and Operations aplikazioetan Gastuen iragarpenen erregistro bakarra betetzen dute xehetasun hori taularen taulan.
 
@@ -50,7 +50,7 @@ Proiektuaren kontulariak urtean sortutako gastuak berrikusten ditu Finance and O
 
 Materialen kalkuluak proiektuaren kudeatzaileak sortzen ditu **Materialaren aurrekontuak** fitxan **Proiektuaren xehetasunak** orrialdea Dataverse-n. Materialen aurrekontuen erregistroak biltegian gordetzen dira **Kalkuluaren lerroa** entitatea Dataverse-n. Estimazio erregistro hauek transakzio klasea dute, **Materiala** eta sinkronizatuta daude elementuen aurreikuspenen erregistroekin Finance and Operations aplikazioetan **Project Operations integratzeko taula materialak kalkulatzeko (msdyn\_estimatelines)** erabiliz.
 
-   ![Materialen kalkuluen integrazioa](./Media/DW4MaterialEstimates.png)
+   ![Materialen kalkuluen integrazioa.](./Media/DW4MaterialEstimates.png)
 
 Idazketa bikoitzak baliabideak esleitzeko erregistroak taulako taularekin sinkronizatzen ditu **ProjForecastSalesImpor**, eta gero negozioaren logika erabiltzen du elementuen iragarpen erregistroak sortzeko eta eguneratzeko (**ForecastSales**). Lerroen kalkuluen arabera, salmenten estimazioa eta kostuen kalkuluak bereizita gordetzen dira. Enpresa logika Finance and Operations aplikazioetan Elementuen iragarpenen erregistro bakarra betetzen dute xehetasun hori taularen taulan.
 
@@ -60,7 +60,7 @@ Proiektuaren kontulariak elementu kalkulu-erregistroak berrikusten ditu Finance 
 
 Proiektuaren errealitatea urtean sortzen da Dataverse-n, denbora, gastu, material eta fakturazio jardueran oinarrituta. Transakzio horien atributu operatibo guztiak, zenbatekoa, kostuaren prezioa, salmenta prezioa eta proiektua barne hartzen dira Dataverse entitate honetan. Informazio gehiago lortzeko, ikusi [Benetako datuak](../actuals/actuals-overview.md). Benetako erregistroak sinkronizatuta daude Finance and Operations aplikazioak idazketa bikoitzeko taulako mapa erabiliz **Project Operations-en integrazioaren benetako datuak (msdyn\_actuals)** kontabilitaterako.
 
-   ![Benetako datuen integrazioa](./Media/DW4Actuals.png)
+   ![Benetako datuen integrazioa.](./Media/DW4Actuals.png)
 
 **Project Operations integratzeko datuak** taulako mapak erregistro guztiak sinkronizatzen ditu **Benetako datuak** entitatea Dataverse-n, atributuarekin **Saltatu sinkronizazioa (barne erabileran soilik)** ezarri **Gezurra** gisa. Atributuaren balio hau ezarrita dago Dataverse-n erregistroa sortzen denean automatikoki. Atributu hau ezarrita dagoen adibideak **Egia** dira:
 
