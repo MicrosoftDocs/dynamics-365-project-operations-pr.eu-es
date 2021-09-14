@@ -4,6 +4,8 @@
   items:
     - name: Zehaztu inplementazio mota
       href: environment/determine-deployment-type.md
+    - name: Eman izena Project Operations-en doako probak lortzeko
+      href: environment/admin-trials.md
     - name: Project Operations-en eguneratzeak
       href: whats-new/project-operations-updates.md
 - name: Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
@@ -32,7 +34,7 @@
               href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Eman ingurune berri bat
               href: environment/resource-provision-new-environment.md
-            - name: Segurtasunaren modeloa
+            - name: Segurtasun-eredua
               href: environment/security-model.md
             - name: Konfiguratu Project Operations-en integrazioa legezko entitatearen arabera
               href: environment/resource-configure-integration-per-legal-entity.md
@@ -54,7 +56,9 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Zer berri
       items:
-        - name: '2021eko uztaila: Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
+        - name: '2021eko abuztua: baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
+          href: whats-new/whats-new-august-2021-resource-based.md
+        - name: '2021eko uztaila: baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: '2021eko ekaina: Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
           href: whats-new/whats-new-june-2021-resource-based.md
@@ -416,11 +420,13 @@
           href: material/material-usage-log.md
     - name: Onarpenak
       items:
-        - name: Onespenen ikuspegi orokorra
+        - name: Onarpenen ikuspegi orokorra
           href: approvals/approvals-overview.md
+        - name: Onarpen multzoak
+          href: approvals/approval-sets.md
         - name: Garatzailearen oharrak
           items:
-            - name: Onespenetarako garatzaileen oharrak
+            - name: Onarpenetarako garatzaileen oharrak
               href: approvals/dev-notes-approvals.md
     - name: Benetako datuak
       items:
@@ -514,13 +520,17 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Inplementatu Project Operations - arina
           href: environment/lite-deployment.md
-        - name: Aplikatu demo-konfigurazioa eta konfigurazio-datuak - arina
+        - name: 'Aplikatu demo-konfigurazioa eta konfigurazio-datuak: oinarrizkoa'
           href: environment/lite-apply-demo-setup-config-data.md
-        - name: Segurtasunaren modeloa
+        - name: Segurtasun-eredua
           href: environment/security-model.md
     - name: Zer berri
       items:
-        - name: '2021eko uztaileko: oinarrizko inplementazioa'
+        - name: '2021eko berritasunen 2. uhinerako sarbide esklusiboa: oinarrizko inplementazioa'
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: '2021eko abuztuko berritasunak: oinarrizko inplementazioa'
+          href: pro/whats-new/whats-new-august-2021-lite.md
+        - name: '2021eko uztaileko berritasunak: oinarrizko inplementazioa'
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: '2021eko ekaineko berritasunak: oinarrizko inplementazioa'
           href: pro/whats-new/whats-new-june-2021-lite.md
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Azpikontratuen kudeaketa Project Operations-en
       items:
-        - name: Azpikontratuen kudeaketaren ikuspegi orokorra
+        - name: Azpikontratuen kudeaketa Project Operations-en
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: 2021eko azaroko azpikontratazioaren sarbide esklusiboa
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Azpikontratazioko kontzeptu nagusiak
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Saltzaileak eta proiektuen prezio-zerrendak kudeatzea
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Azpikontratatzaileak baliabide erreserbagarri gisa
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Azpikontratuen goiburuaren xehetasunak
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Azpikontratuaren lerroak denboraren arabera
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Azpikontratuaren lerroak gastuen arabera
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Azpikontratuaren lerroak produktuen arabera
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Azpikontratistaren lerroko baliabideak
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Azpikontratuaren lerroko mugarriak
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Denbora
       items:
         - name: Denboraren ikuspegi orokorra
@@ -866,11 +890,13 @@
           href: material/material-usage-log.md
     - name: Onarpenak
       items:
-        - name: Onespenen ikuspegi orokorra
+        - name: Onarpenen ikuspegi orokorra
           href: approvals/approvals-overview.md
+        - name: Onarpen multzoak
+          href: approvals/approval-sets.md
         - name: Garatzailearen oharrak
           items:
-            - name: Onespenetarako garatzaileen oharrak
+            - name: Onarpenetarako garatzaileen oharrak
               href: approvals/dev-notes-approvals.md
     - name: Benetako datuak
       items:
@@ -1060,6 +1086,8 @@
       items:
         - name: "Project Service\_3.x bertsioaren eguneratze-bertsioen antolaketa"
           href: psa/version-history-ps.md
+        - name: '35. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-35.md
         - name: '34. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur-34.md
         - name: '33. eguneratze-bertsioko berritasunak edo aldaketak, V3'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Pertsonalizatu asteroko denbora-sarrera
               href: psa/time-entry-extensibility-v3.md
-            - name: Onarpen multzoak
+            - name: Project Service Automation-eko onarpen multzoak
               href: psa/approval-set.md
     - name: Maiz egiten diren galderak eta arazoen konponketa (3.x)
       items:
