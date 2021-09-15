@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001641"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440762"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Kudeatu proiektu-eskaintzetako hainbat bezero - arina
 
@@ -37,7 +37,7 @@ Aurrekontuaren bezero bat sortu, eguneratu edo ezabatu daiteke **Aipatu bezeroak
 
 | **Eremua** | **Kokalekua** | **Azalpena** | **Downstream eragina** |
 | --- | --- | --- | --- |
-| Account | Sarean editagarria batean **Aipatu bezeroak** fitxa, inprimaki **Nagusia** eta aurrekontuaren bezeroarentzako **azkar sortzeko** inprimakia. | Kontu aktibo guztien zerrendak. Eremu hau blokeatuta dago erregistroa sortu ondoren. Eguneratu nahi baduzu, ezabatu erregistroa eta sortu berriro. Benetako datuak grabatu badituzu edo aurrekontuaren bezeroaren erregistroa bezero nagusia bada, erregistroa ezabatzeko baimena izango duzu. | Eskaintzaren bezeroak eskaintzaren lerroko bezeroen gainean kopiatzen dira, eskaintzaren lerro bat sortzen denean. Eskaintzaren bezeroak ere proiektuaren kontratuko bezeroei kopiatzen zaizkie eskaintza bat irabazten denean. |
+| Account | Sarean editagarria batean **Aipatu bezeroak** fitxa, inprimaki **Nagusia** eta aurrekontuaren bezeroarentzako **azkar sortzeko** inprimakia. | Kontu aktibo guztien zerrendak. Eremu hau blokeatuta dago erregistroa sortu ondoren. Eguneratu nahi baduzu, ezabatu erregistroa eta sortu berriro. Benetako datuak grabatu badituzu edo aurrekontuaren bezeroaren erregistroa bezero nagusia bada, ezin izango duzu erregistroa ezabatu. | Eskaintzaren bezeroak eskaintzaren lerroko bezeroen gainean kopiatzen dira, eskaintzaren lerro bat sortzen denean. Eskaintzaren bezeroak ere proiektuaren kontratuko bezeroei kopiatzen zaizkie eskaintza bat irabazten denean. |
 | Fakturazioko zatitzearen ehunekoa | Sarean editagarria batean **Aipatu bezeroak** fitxa, inprimaki **Nagusia** eta aurrekontuaren bezeroarentzako **azkar sortzeko** inprimakia. | Adierazi aurrekontu honen bezeroari egotziko zaion fakturatu gabeko salmenta transakzio bakoitzaren ehunekoa. | Aurrekontu lerro berrietara eta kontratupeko bezeroei kopiatuta. |
 | Fakturaziorako kontaktuaren izena | Sarean editagarria batean **Aipatu bezeroak** fitxa, inprimaki **Nagusia** eta aurrekontuaren bezeroarentzako **azkar sortzeko** inprimakia. | Testu-eremua da eta bezero honen Fakturako harremanetarako pertsona identifikatzeko erabili behar da. Horiek erlazionatutako kontu erregistroan lehenetsita daude | Eskaintza irabazten dutenean proiektuaren kontratuko bezeroei kopiatuta eta, aldi berean, Kontratuaren fakturaren izena bezero honentzat sortzen den Fakturaren eremua. |
 | Fakturaziorako izena | Sarean editagarria batean **Aipatu bezeroak** fitxa, inprimaki **Nagusia** eta aurrekontuaren bezeroarentzako **azkar sortzeko** inprimakia. | Testu-eremua da bezero honen fakturako harremanetarako pertsona identifikatzeko erabili behar da. | Aurrekontua irabazten dutenean proiektuaren kontratuko bezeroei kopiatuta eta, aldi berean, **Kontratuaren fakturaren izena** bezero honentzat sortzen den fakturaren eremua. |
