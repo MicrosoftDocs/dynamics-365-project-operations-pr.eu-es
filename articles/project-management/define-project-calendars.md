@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 181032b27ee67591a3bb40ab080477c51c1e34a46e9aac20039e4e5df3a5ab1d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000921"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487625"
 ---
 # <a name="define-project-calendars"></a>Zehaztu proiektuen egutegiak
 
@@ -46,7 +46,7 @@ Zure erakundearentzako egutegi txantiloia sortzeko, bi baldintza nagusi daude:
 
 1. Joan **Baliabideak** \> **Baliabideak** atalera.
 2. Sortu baliabide berri bat egutegiaren txantiloian erreferentzia egiteko edo hautatu lehendik dagoen baliabide bat.
-3. Aukeratu **Lanorduak** baliabidearen fitxa eta bete argibideak [Ezarri baliabide baten lan orduak](/dynamics365/field-service/set-work-hours-resource.md) egutegiko arauak konfiguratzeko.
+3. Aukeratu **Lanorduak** baliabidearen fitxa eta bete argibideak [Ezarri baliabide baten lan orduak](/dynamics365/field-service/set-work-hours-resource) egutegiko arauak konfiguratzeko.
 
 **Sortu egutegiaren txantiloi berri bat**
 

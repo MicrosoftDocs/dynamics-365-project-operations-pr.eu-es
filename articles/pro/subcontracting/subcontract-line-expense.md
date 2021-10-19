@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323806"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506084"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Azpikontratuaren lerroak gastuen kategorien arabera
 
@@ -29,23 +29,23 @@ Project Operations gastu kategorietarako azpikontratazio lerro bat sortzeko, osa
 
 Hurrengo taula hornitu informazioa eremuari buruz **Azpikontrataren lerroa** xehetasunak orria eta **Sortu bizkor** orria.
 
-| **Eremua** |  **Azalpena** |
-| ----------| ---------------- |
-| Izena | Azpikontratuaren lerroaren izena. |
-| Deskribapenak | Zerbitzu edo produktu kategorien deskribapen laburra erosten ari direnak azpikontratuaren lerroan. |
-| Lerro mota | Eremu honek balioa lehenetsia dauka **Kopuruan oinarrituta**.  |
-| Fakturazio-metodoa | Azpikontratazio lerroaren fakturazio metodoa. Aipatutako lerroaren fakturazio metodoan oinarrituta, Mugarrian oinarritutako fakturen egutegia eskuragarri dago Prezio finkoaren fakturazio metodoarentzat.  |
-| Transakzio-klasea | Eremu honek balioa lehenetsia dauka **Denbora**. Produktuak erosteko azpikontrata lerroak sortzeko ezarri **Transakzio Klase** eremua hautatu **Gastua**. Eremu balio honek adierazten du azpikontratazio lerroa proiektuetan erabilitako produktuen edo zerbitzuen kategoria erosketa erregistratzeko erabiltzen dela. |
-| Transakzio-kategoria | Hautatu transakzio-kategoria. |
-| Eskatutako hasiera | Erosketa kategoriak saltzailearen eskura egon behar duen eguna. Eskatutako hasiera azpikontratari atxikitako proiektuen prezioen zerrendetatik proiektuaren prezioen zerrenda hautatzeko ere erabiltzen da. Azpikontratazio linean kategoria kostua prezio zerrenda horretatik lehenetsita dago. |
-| Eskatutako amaiera | Erosketa kategoriak behar ez diren eguna. Data honek abisua deitzen du proiektuaren kudeatzaile batek azpikontratazio lerro hau data horretatik aurrera datatutako proiektuen gastu-kalkulu zehatzekin lotzen duenean. |
-| Eskatutako kopurua | Kategoriaren kantitatea erosten da saltzailean. Proiektu kudeatzailean gainjartzen dira erositako kantitatea, abisua agertuko da.  |
-| Salmenta-unitatea | Eremu honen balio lehenetsiak hautatutako kategorian ezarritako unitate talde lehenetsian oinarrituta daude. |
-| Unitatea | Eremu honen balio lehenetsiak hautatutako kategorian ezarritako unitate lehenetsian oinarrituta daude. Kategoria eta unitatea konbinazioa erabiltzen da lehenetsita prezio-unitatea azpikontratuaren lerroan. |
-| Unitate-prezioa | Prezio-unitatearen eremuaren balioak lehenetsia konbinazioa kategoria eta unitatea kategoriaren prezioetatik erlazionatuta proiektura prezio-zerrenda aplikagarria dena eskatutako hasiera azpikontratuaren lerrorako.  |
-| Guztizko partziala | Irakurtzeko soilik den eremua da automatikoki honela kalkulatzen dena prezio-unitatearen prezioa kantitatea eta prezio unitarioaren balioak sartzen badira. Eremuetako bat edo biak hutsik badaude, eskuz idatz dezakezu balioa eremu honetan.  |
-| Salmenten zerga | Idatzi salmenta-zergaren zenbatekoa.  |
-| Zenbatekoa guztira | Azpikontratuaren lerroaren guztizko kantitatea barne hartutako zergak. Eremu honetan kalkulatuta dago azpitotala + salmenten zerga.  |
+| **Eremua** | **Azalpena** | **Inpaktu funtzionala** |
+| --- | --- | --- |
+| Izena | Identifikazioan laguntzeko azpikontrata lerroaren izena. | Azpikontratazio lerroetan oinarritutako bilaketa guztietan lehen zutabe gisa erakutsiko da. |
+| Deskribapenak | Azpikontratazio lerroan erosten ari diren gastuen kategorien deskribapen laburra. | Batere ez |
+|Lerro mota | Eremu honek balioa lehenetsia dauka **Kopuruan oinarrituta**. |Batere ez |
+| Fakturazio-metodoa | Hau da aukera multzo Project Operations-ek onartzen dituzten bi kontratazio eredu nagusiak adierazten dituena: **Prezio finkoa** eta **Denbora eta materiala**. | Mugarrian oinarritutako faktura egutegia eskuragarri dago azpikontratazioaren lerroetarako, Prezio finkoaren fakturazio metodoa hautatuta badago. |
+| Transakzio-klasea | Eremu honek balioa lehenetsia dauka **Denbora**. Produktuak erosteko azpikontrata lerroak sortzeko ezarri **Transakzio klasea** eremuan **Gastua**.  | Horrek adierazten du azpikontratazio lerroa proiektuetan erabilitako gastuen kategoriaren erosketa erregistratzeko erabiltzen ari dela. |
+| Transakzio-kategoria | Sistemako transakzio aktiboen kategorien zerrenda erakusten du. |Batere ez |
+| Eskatutako hasiera | Idatzi erosketen kategoriak saltzailearen eskura egon behar duen eguna. | Eskatutako hasiera azpikontratari erantsitako proiektuen prezioen zerrendetatik proiektuaren prezioen zerrenda hautatzeko erabiltzen da. Azpikontratazio linearen kategoriaren kostua prezio zerrenda horretatik dator. |
+| Eskatutako amaiera | Idatzi erosketa-kategoriak behar ez diren eguna. | Hau erabiliko da abisuak erakusteko proiektuaren kudeatzaile batek azpikontratazio lerro hau data horretatik aurrera eskatzen diren proiektuaren gastu zehatzen kalkuluekin lotzen duenean. |
+| Eskatutako kopurua | Saltzailearengandik erositako kategoriaren kopurua. | Hau erabiliko da abisuak erakusteko proiektuaren kudeatzailea kopuru horretatik gora ateratzen denean.|
+| Salmenta-unitatea | Balio lehenetsia hautatutako kategorian konfiguratutako unitate talde lehenetsian oinarritzen da. |Batere ez |
+| Unitatea | Lehenetsia hautatutako kategorian konfiguratutako unitate lehenetsian oinarritzen da.  | **Kategoria** eta **Unitatea** balioen konbinazioa lehenetsitako moduan edo azpikontratatutako linearen unitateko prezioaren arabera kalkulatuko da.  |
+| Unitate-prezioa | Balio lehenetsiak konbinazioa erabiltzen du **Kategoria** eta **Unitatea** proiektuaren prezioen zerrendarekin lotutako kategoria-preziotik eskatutako hasiera azpikontrata lerroaren data. |Batere ez |
+| Guztizko partziala | Irakurtzeko soilik den eremua da Kantitatea X Unitatearen prezioa bezala kalkulatzen dena, bai kantitatearen bai unitateko prezioaren balioak sartzen badira. Eremu biak edo biak hutsik badaude, balio bat sar dezakezu eremu horretan. |Batere ez |
+| Salmenten zerga | Idatzi salmenta-zergaren zenbatekoa. |Batere ez |
+| Zenbatekoa guztira | Azpikontratuaren lerroaren guztizko kantitatea barne hartutako zergak. Eremu honetan kalkulatuta dago Azpitotala + Salmenten zerga. |Batere ez |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

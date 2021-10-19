@@ -2,16 +2,16 @@
 title: Azpikontratuen goiburuaren xehetasunak
 description: Gai honek Project Operations azpikontratatutako goiburuan emandako funtzionalitatea azaltzen du.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 49158af1a430033db3a5db57a840512c45bc17e2
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: ee863d31b45e7de962488fe804202ddfe580eb04
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323626"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501311"
 ---
 # <a name="header-details-for-subcontracts"></a>Azpikontratuen goiburuaren xehetasunak
 
@@ -28,26 +28,24 @@ Azpikontrata sortzeko, jarraitu urrats hauek.
 1. Nabigazio panelean, hautatu **Azpikontratak**, eta **Azpikontrata** orrialdea, hautatu **Berria**.
 2. Sartu beharrezko informazioa eta, ondoren, hautatu **Gorde** aukeran.
 
-    Hurrengo taulan Azpikontratatu goiburuko orriko eremuei buruzko informazioa ematen da.
+    Hurrengo taulan **Azpikontratatu goiburua** orriko eremuei buruzko informazioa ematen da.
 
-    | **Eremua** | **Azalpena** |
-    | --- | --- | 
-    | Izena | Azpikontratuaren izena. |
-    | Deskribapenak | Azpikontratuan erosten ari diren zerbitzuen eta produktuen deskribapen laburra. |
-    | Saltzailea | Produktuak eta zerbitzuak erosten ari den enpresaren izena. Erregistroaren kontuak **Saltzailea** edo **Hornitzailea** motako erlazioa du. |
-    | Azpikontratuaren data | Azpikontratua sortzen den eguna. |
-    | Egoeraren arrazoia | Azpikontratuaren egoera. |
-    | Moneta | Produktuak eta zerbitzuak erosteko moneta. Eremu honetako balioa saltzailearen kontutik lehenetsita dago baina alda daiteke. Azpikontratazioko produktuak eta zerbitzuak preziatzeko erabiltzen diren proiektuen prezioen zerrendak moneta honetan egon beharko lirateke. Beste edozein monetako prezioen zerrendak ezin dira azpikontratarekin lotu. Azpikontrata honetan sortutako produktuen eta zerbitzuen kostua proiektuan jasoko da moneta honetan. |
-    | Kontratatzailea | Saltzailearekin erosketa kontratua edo azpikontratua egiten ari den enpresaren banaketa. |
-    | Ordainketa-baldintzak | Azpikontratu honetan ematen diren saltzailearen fakturen ordainketa baldintzak. Eremu honetako balioa saltzailearen kontuaren erregistrotik lehenetsita dago. |
-    | Ordainketa-helbidea | Saltzailearen fakturen ordainketa bidaltzen den helbidea. Eremu honetako balioa saltzailearen kontuaren erregistrotik lehenetsita dago. |
-    | Fakturaziorako izena | Faktura bidaliko duen saltzailearen enpresako pertsonaren edo zatiketaren izena. Eremu honetako balioa saltzailearen kontu erregistroan lehenetsita dago eta azpikontratu honetarako sortutako saltzailearen fakturetan kontaktu nagusiaren izen gisa erabiliko da. |
-    | Fakturazio-helbidea | Saltzaile honen fakturetan erabilitako helbidea. Eremu honetako balioa saltzailearen kontuaren erregistrotik lehenetsita dago. Helbide hau azpikontratu honetarako sortutako saltzaileen fakturen helbidearen faktura gisa ere erabiltzen da. |
-    | Guztizko partziala | Azpikontrata batek lerroak ez baditu, sartu eremuan zerga aurretik ordena azpitotala adierazten duen balioa. Azpikontratazioak lerroak baditu, eremu hau soilik irakurtzen da. Bistaratutako zenbatekoa azpikontratako lerro guztietako azpitotala da. |
-    | Zergak, guztira | Azpikontrata batek lerroak ez baditu, sartu eremuan zerga azpikontrata honetan adierazten duen balioa. Azpikontratazioak lerroak baditu, eremu hau soilik irakurtzen da. Bistaratutako zenbatekoa azpikontratako lerro guztietako zergaren batura da. |
-    | Zenbatekoa guztira |  Kalkulatutako eremu honek zergak sartu ondoren azpikontrataren zenbateko osoa erakusten du.  |
-    | Berretsitako data | Data azpikontrata baieztatu zena.  |
-    | Eskatzailea | Eremu honetako balioa lehenetsita dago azpikontratua sortzen duen erabiltzailearen izena. Balio hori azpikontratuaren sortzaileak alda dezake azpikontratua sortzen ari den pertsona hori adierazteko.  |
-    | Saltzailearen kontuaren kudeatzailea | Saltzailearen kontuaren lehen kontaktuaren izena. Eremu honetako balioa saltzailearen kontuaren erregistrotik lehenetsita dago. Eremuaren balioa erabiltzaileak alda dezake azpikontrataren saltzailearen kontu kudeatzaile gisa beste kontaktu bat hautatzeko. Kontaktu honen bidez posta elektroniko bidezko alertak eta prezioen negoziazioa konfiguratu eta bidali daitezke. |
-
-
+    | Eremua | Deskribapenak |Inpaktu funtzionala |
+    |---|------|---| 
+    | Izena | Azpikontratuaren izena. | Azpikontrata goitibeherako zerrenda guztietan, azpikontratuaren izena lehen zutabean azaltzen da azpikontratua identifikatzen laguntzeko. | 
+    | Deskribapenak | Azpikontratuan erosten ari diren zerbitzuen eta produktuen deskribapen laburra. | Batere ez |
+    | Saltzailea | Produktuak eta zerbitzuak erosten ari den enpresaren izena. Erregistroaren kontuak **Saltzailea** edo **Hornitzailea** motako erlazioa du. | Aukeratutako saltzailearen arabera, balio lehenetsiak automatikoki sartzen dira eremu hauetarako:<br/> **• Moneta** </br> **• Prezio-zerrendak** </br> **• Ordainketa-baldintzak**</br> **• Ordainketa-helbidea**</br> **• Fakturazio-helbidea**</br> **• Fakturaziorako izena** </br>**• Saltzailearen kontuaren kudeatzailea**|
+    | Azpikontratuaren data | Azpikontratua sortzen den eguna. | Azpikontratazio data erosketa prezioen zerrenda zuzena hautatzeko erabiltzen da, erlazionatutako saltzaileari atxikitako prezioen zerrendetatik edo proiektuaren parametroetatik. |
+    | Egoeraren arrazoia | Azpikontratuaren egoera. | Egoerak zehazten du non dagoen azpikontratua negozio prozesuan eta ea editatu daitekeen. <br/>Balioak honakoak dira:<br>•**Zirriborroa**: Azpikontratua editatu daiteke. **Zirriborroa** egoera duten azpikontratuak soilik editatu ditzakezu.<br/>•**Baieztatuta**: Saltzailearekin negoziatzea amaitu da eta azpikontratua entregatzeko onartzen da. <br/>•**Itxita**: Azpikontrataren entrega amaitu da.<br/>•**Bertan behera utzita**: Azpikontratua bertan behera utzi da eta ez da aurreikusten entrega.  | 
+    | Moneta | Produktuak eta zerbitzuak erosten diren moneta. Lehenetsitako balioa automatikoki saltzailearen kontutik sartzen da, baina alda daiteke. | Azpikontratazioaren moneta erosketa prezioen zerrenda hautatzeko erabiltzen da, erlazionatutako saltzaileari atxikitako prezioen zerrendetatik edo proiektuaren parametroetatik. Beste moneta bateko prezio zerrendak ezin dira azpikontratarekin lotu. Saltzaileen baliabideek azpikontrata honetatik entregatzen dituzten denbora, gastuak eta materialen kostua moneta honetan erregistratzen dira proiektuan. Azpikontratazio erregistroa gorde ondoren, azpikontratako moneta ezin da aldatu.|
+    | Kontratatzailea | Saltzailearekin erosketa kontratua edo azpikontratua egiten ari den enpresaren banaketa. | Batere ez |
+    | Ordainketa-baldintzak | Azpikontratu honetan ematen diren saltzaileen fakturen ordainketa baldintzak. Lehenetsitako balioa automatikoki sartzen da saltzailearen kontuaren erregistrotik. | Azpikontratazioaren ordainketa baldintzak azpikontratu honekin erlazionatutako saltzaileen faktura guztietan kopiatzen dira. Ordainketa-baldintzak egunera daitezke azpikontratak egoera badu **Zirriborroa**. | 
+    | Ordainketa-helbidea | Ordainketak bidali behar zaizkion saltzailearen helbidea. Lehenetsitako balioa automatikoki sartzen da saltzailearen kontuaren erregistrotik. | Azpikontratako ordainketa helbidea azpikontratu honetarako sortzen diren saltzaile faktura guztietara ordaindutako helbide gisa kopiatzen da. Ordainketa-helbideak egunera daitezke azpikontratak egoera badu **Zirriborroa**.|
+    | Fakturaziorako izena | Faktura bidaliko duen saltzailearen enpresako pertsonaren edo zatiketaren izena. Lehenetsitako balioa automatikoki sartzen da saltzailearen kontuaren erregistrotik. | Azpikontratazioaren **Fakturatu izen honi** balioa azpikontratu honekin erlazionatutako saltzaileen faktura guztietan kopiatzen da. Eremu hau egunera daiteke azpikontratak egoera badu **Zirriborroa**.|
+    | Fakturaziorako helbidea | Saltzailearen fakturetan erabiltzen den helbidea. Lehenetsitako balioa automatikoki sartzen da saltzailearen kontuaren erregistrotik. | Helbide hau azpikontratu honetarako sortzen diren saltzaileen fakturetako "fakturatik" helbidea da. |
+    | Guztizko partziala | Azpikontrata batek lerroak ez baditu, sartu ordena azpitotala zergak baino lehen. Azpikontratazioak lerroak baditu, eremu hau soilik irakurtzen da. Erakusten den zenbatekoa azpikontratako lerro guztietako azpitotala da. | Batere ez |
+    | Zergak, guztira | Azpikontrata batek lerroak ez baditu, sartu azpikontrata honen guztizko zergak. Azpikontratazioak lerroak baditu, eremu hau soilik irakurtzen da. Erakusten den zenbatekoa azpikontratako lerro guztietako zergen batura da. | Batere ez |
+    | Zenbatekoa guztira | Kalkulatutako eremu honek zergak sartu ondoren azpikontrataren zenbateko osoa erakusten du. | Batere ez |
+    | Berretsitako data | Azpikontratua berretsi zeneko data. | Batere ez |
+    | Eskatzailea | Lehenespenez, eremu hau azpikontratua sortzen duen erabiltzailearen izena da. Hala ere, azpikontratuaren sortzaileak balioa alda dezake azpikontratua sortzen ari den pertsona adierazteko. | Batere ez |
+    | Saltzailearen kontuaren kudeatzailea | Saltzailearen kontuaren lehen kontaktuaren izena. Lehenetsitako balioa automatikoki sartzen da saltzailearen kontuaren erregistrotik. Azpikontrataren saltzailearen kontu kudeatzaile gisa beste kontaktu bat hauta dezakezu. | Prezioen negoziazioen ondorioz azpikontratetan aldaketak egiten direnean posta elektroniko bidezko alertak konfigura ditzakezu. |

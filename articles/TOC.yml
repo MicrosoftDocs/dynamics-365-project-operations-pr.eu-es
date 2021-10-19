@@ -56,7 +56,11 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Zer berri
       items:
-        - name: '2021eko abuztua: baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
+        - name: 2021eko urria - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: 2021eko iraila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+          href: whats-new/whats-new-sept-2021-resource-based.md
+        - name: 2021eko abuztua - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: '2021eko uztaila: baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
           href: whats-new/whats-new-july-2021-resource-based.md
@@ -292,7 +296,7 @@
           items:
             - name: Garatu proiektuaren txantiloiak Kopiatu proiektua eginbidearekin
               href: project-management/dev-copy-project.md
-            - name: Erabili proiektu-antolaketaren APIak (aurreargitalpen publikoa)
+            - name: Erabili proiektuaren antolaketa APIak
               href: project-management/schedule-api-preview.md
     - name: Baliabideen kudeaketa
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Erosi proiektuen izakinik gabeko materialak ordaindu gabeko saltzaileen fakturak erabiliz
           href: procurement/pending-vendor-invoices.md
+        - name: Eskatu proiektuen izakinik gabeko materialak proiektuko erosketa-eskaerak erabiliz
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Saltzailearen atxikipena
+          items:
+            - name: Saltzailearen atxikipenaren ikuspegi orokorra
+              href: procurement/vendor-retention-overview.md
+            - name: Konfiguratu saltzailearen atxikipena
+              href: procurement/set-up-vendor-retention.md
     - name: Fakturazioa
       items:
         - name: Fakturazio-prozesuaren informazio orokorra
@@ -526,11 +538,15 @@
           href: environment/security-model.md
     - name: Zer berri
       items:
-        - name: '2021eko berritasunen 2. uhinerako sarbide esklusiboa: oinarrizko inplementazioa'
+        - name: 2021eko berritasunen 2. uhinerako sarbide esklusiboa - oinarrizko inplementazioa
           href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: '2021eko abuztuko berritasunak: oinarrizko inplementazioa'
+        - name: 2021eko urriko berritasunak - oinarrizko inplementazioa
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: 2021eko iraileko berritasunak - oinarrizko inplementazioa
+          href: pro/whats-new/whats-new-sept-2021-lite.md
+        - name: 2021eko abuztuko berritasunak - oinarrizko inplementazioa
           href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: '2021eko uztaileko berritasunak: oinarrizko inplementazioa'
+        - name: 2021eko uztaileko berritasunak - oinarrizko inplementazioa
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: '2021eko ekaineko berritasunak: oinarrizko inplementazioa'
           href: pro/whats-new/whats-new-june-2021-lite.md
@@ -784,7 +800,7 @@
           items:
             - name: Garatu proiektuaren txantiloiak Kopiatu proiektua eginbidearekin
               href: project-management/dev-copy-project.md
-            - name: Erabili proiektu-antolaketaren APIak (aurreargitalpen publikoa)
+            - name: Erabili proiektuaren antolaketa APIak
               href: project-management/schedule-api-preview.md
     - name: Baliabideen kudeaketa
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Azpikontratuaren lerroak denboraren arabera
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Azpikontratuaren lerroak gastuen arabera
+        - name: Azpikontratuaren lerroak gastu-kategorien arabera
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Azpikontratuaren lerroak produktuen arabera
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: "Project Service\_3.x bertsioaren eguneratze-bertsioen antolaketa"
           href: psa/version-history-ps.md
+        - name: '36. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-36.md
         - name: '35. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur-35.md
         - name: '34. eguneratze-bertsioko berritasunak edo aldaketak, V3'

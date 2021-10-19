@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323761"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558487"
 ---
 # <a name="subcontract-line-milestones"></a>Azpikontratuaren lerroko mugarriak
 
@@ -50,15 +50,15 @@ Azpikontratazio lerro bateko prezio finkoaren mugarriak eskuz sor daitezke, aldi
 3. Gainean **Azpikontratazio lerro mugarriak** fitxa, azpi-saretan, hautatu **+ Azpikontrata lerro mugarri berria**.
 4. Gainean **Azpikontrata Line Mugarri berria** orrian, sartu beharrezko informazioa ondoko taulan oinarrituta.
 
-    | Eremua | Deskribapenak |
-    | --- | --- |
-    | Mugarriaren izena | Mugarriaren izena. |
-    | Deskribapenak | Mugarriaren azalpena.  |
-    | Mugarriaren data | Faktura automatikoki sortzeko prozesuak fakturatzeko kontuan hartzeko mugarri horren egoera bilatu behar duen eguna. Balio hori saltzailearen faktura lerroan sartzen da azpikontratu hori fakturatzerakoan. |
-    | Kopurua | Bezeroari fakturatuko zaion mugarriaren zenbatekoa edo balioa. Balio hori saltzailearen faktura lerroan sartzen da azpikontratu hori fakturatzerakoan. |
-    | Zergak | Mugarrian aplikatutako zergaren zenbatekoa. Balio hori saltzailearen faktura lerroan sartzen da azpikontratu hori fakturatzerakoan. |
-    | Zenbatekoa zergaren ondoren | Zenbatekoa + Zerga gisa kalkulatzen den irakurtzeko soilik den eremu hau. Balio hori saltzailearen faktura lerroan sartzen da azpikontratu hori fakturatzerakoan. |
-    | Fakturaren egoera | Mugarria sortzen denean, egoera hau beti ezartzen da **Ez dago fakturatzeko prest**.  Egoera dagoenean **Fakturatzeko prest**, saltzailearen faktura sortzeak mugarri hori biltzen du saltzailearen fakturan. |
+    | Eremua | Deskribapenak |Inpaktu funtzionala|
+    | --- | --- |----------------------|
+    | Mugarriaren izena | Mugarriaren izena. |Azpikontratazio lerroen mugarrietan oinarritutako bilaketa guztietan lehen zutabe gisa erakutsiko da. Mugarri horretan oinarrituta sortzen den saltzailearen faktura lerroak azpikontratazio lerro mugarriaren izena ere erabiliko du saltzailearen faktura lerroaren izen lehenetsi gisa.|
+    | Deskribapenak | Mugarriaren azalpena. |Mugarri horretan oinarrituta sortzen den saltzailearen faktura lerroak azpikontratazio lerro mugarriaren deskribapena ere erabiliko du saltzailearen faktura lerroaren deskribapen lehenetsi gisa.|
+    | Mugarriaren data | Faktura automatikoki sortzeko prozesuak fakturatzeko kontuan hartzeko mugarri horren egoera bilatu behar duen eguna.| Balio hori saltzailearen faktura lerroaren lehenetsitako data gisa erabiliko da azpikontratazio lerro hau fakturatzerakoan. |
+    | Kopurua | Bezeroari fakturatuko zaion mugarriaren zenbatekoa edo balioa. |Balio hori saltzailearen faktura lerroaren lehenetsitako zenbateko gisa erabiliko da azpikontratazio lerro hau fakturatzerakoan. |
+    | Zergak | Mugarrian aplikatutako zergaren zenbatekoa.| Balio hori saltzailearen faktura lerroaren lehenetsitako zerga-zenbateko gisa erabiliko da azpikontratazio lerro hau fakturatzerakoan. |
+    | Zenbatekoa zergaren ondoren | Irakurtzeko soilik den eremu hau Zenbatekoa + Zerga gisa kalkulatzen da.|Balio hori saltzailearen faktura lerroaren lehenetsitako gisa erabiliko da azpikontratazio lerro hau fakturatzerakoan. |
+    | Fakturaren egoera | Mugarria sortzen denean, egoera hau beti ezartzen da **Ez dago fakturatzeko prest**.|  Egoera dagoenean **Fakturatzeko prest**, saltzailearen faktura sortzeak mugarri hori biltzen du saltzailearen fakturan. |
 
 5. Hautatu **Gorde eta itxi**.
 

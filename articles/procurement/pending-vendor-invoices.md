@@ -2,17 +2,17 @@
 title: Erosi izakinik gabeko materialak ordaindu gabeko saltzaileen faktura bat erabiliz
 description: Gai honetan azaltzen diren saltzaileen fakturak nola grabatu azaltzen da.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009021"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547274"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Erosi izakinik gabeko materialak ordaindu gabeko saltzaileen faktura bat erabiliz
 
@@ -20,7 +20,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 Enpresa batek material baterako material ez hornituak proiektu baterako, kostuak berehala erregistratu daitezke proiektuaren aurka. 
 
-Adibidez, Contoso Robotics US ekipoak berritzeko proiektu bat egiten ari da eta software lizentziak behar ditu. Lizentzia horiek hirugarrenen saltzaile batek eskuratzen ditu.  Dynamics 365 Finance erabiliz, Ordaintzeko kontuetako idazkariak saltzailearen faktura dokumentu bat erregistratzen du eta lizentziaren kostuak ekipamendua berritzeko proiektuari zuzenean egozten dizkio. 
+Adibidez, Contoso Robotics US ekipoak berritzeko proiektua egiten ari da eta software lizentziak behar ditu. Lizentzia horiek hirugarrenen saltzaile batek eskuratzen ditu.  Dynamics 365 Finance erabiliz, Ordaintzeko kontuetako idazkariak saltzailearen faktura dokumentu bat erregistratzen du eta lizentziaren kostuak ekipamendua berritzeko proiektuari zuzenean egozten dizkio. 
 
 > [!IMPORTANT]
 > Gai honetan azaldutako funtzionalitatea erabili aurretik, berrikusi eta aplikatu beharrezko konfigurazioak. Informazio gehiagorako, ikusi [Gaitu ez dauden materialak eta saltzailearen faktura pendienteak](configure-materials-nonstocked.md). 
@@ -45,4 +45,5 @@ Saltzailearen fakturak zain daude **Saltzailearen fakturak zain** orrialdea (**O
     - Saltzailearen saldoaren zenbatekoa.
     - Salmenten zergen zenbatekoa.
     - Proiektuaren kostua kontratazioen integrazio kontuan erregistratzen da.
-    - Proiektuaren benetako transakzioa Dataverse-n. Transakzio hau gehiago prozesatzen da [Project Operations integrazio-aldizkaria](../project-accounting/project-operations-integration-journal.md) erabiliz. Aldizkari hau argitaratzeak zenbatekoa kontratazioen integrazio kontutik proiektuaren kostu kontura mugitzen du.
+    - Urtean proiektuaren kostu transakzioa Dataverse-n.  Transakzio hau gehiago prozesatzen da [Project Operations integrazio-aldizkaria](../project-accounting/project-operations-integration-journal.md) erabiliz. Aldizkari hau argitaratzeak zenbatekoa kontratazioen integrazio kontutik proiektuaren kostu kontura mugitzen du. 
+    - Proiektuaren bezeroari fakturatutako erosketak denbora eta materialen fakturazio metodoa erabiliz. Gainera, fakturatu gabeko salmenta transakzioak sortzen dira hemengo erosketetarako Dataverse-n. Produktuaren prezioen zerrenda Dataverse-n salmenta prezioetarako eta fakturatu gabeko salmenta eragiketetarako zenbatekoetarako erabiltzen da.

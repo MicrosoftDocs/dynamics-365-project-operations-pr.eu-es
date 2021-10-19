@@ -2,16 +2,16 @@
 title: Eman izena Project Operations-en doako probak lortzeko
 description: Gai honek Dynamics 365 Project Operations proba bat inplementatzeari buruzko informazioa ematen du.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418442"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599198"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Eman izena Project Operations-en doako probak lortzeko 
 
@@ -85,15 +85,9 @@ Hasi aurretik, hasi saioa arakatzailean erabiltzaileen laneko kontuarekin Projec
 
    Hornidura hasi ondoren, inguruneko zerrendara birbideratuko zaituzte Power Platform administratzaile zentroa. Hornidura martxan dagoen bitartean, zure ingurunearen egoera dago **Instantzia prestatzen**.
  
-  Hornidura amaitu ondoren, zure ingurunearen egoera dago **Prest**.
+  Hornidura amaitutakoan, zure ingurunearen egoera da **Prest**. Ingurunea hornitzeak demo datuak zabaltzea dakar.
  
-4.  Hornidura amaitutakoan, hautatu dagokiona Microsoft Dataverse URLa eta Finance and Operations aplikazioen URLak inplementazioa balioztatzeko.
-
-## <a name="demo-data-installation"></a>Demoaren datuak instalazioa
-
-Erabili esteka hauek material ez hornitzaileen eta lite inplementazio eszenatokien demo datuen paketeetara sartzeko. 
-- [Izakinak ez dituzten materialen inguruko demo-datuak](resource-apply-pro-setup-config-data.md)
-- [Lite demo-datuak](lite-apply-demo-setup-config-data.md)
+4.  Aukeratu dagokion Microsoft Dataverse URLa eta Finance and Operations aplikazioen URLak inplementazioa balioztatzeko.
 
 ## <a name="configuring-dual-write"></a>Konfiguratuz idazketa duala
 Hornitu gabeko materialen inplementazioetarako soilik, konfiguratu idazketa bikoitzeko mapak. Informazio gehiagorako, ikus [Project Operations idazketa bikoitzeko mapen bertsioak](resource-dual-write-maps.md).
