@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Saltzaileen fakturen integrazioa
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Desinstalatu Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Zer berri
       items:
         - name: 2021eko urria - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Erabili proiektuaren antolaketa APIak
               href: project-management/schedule-api-preview.md
+            - name: Proiektu-antolaketaren API errendimendua
+              href: project-management/project-schedule-api-performance.md
     - name: Baliabideen kudeaketa
       items:
         - name: Kontzeptu nagusiak
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Erabili proiektuaren antolaketa APIak
               href: project-management/schedule-api-preview.md
+            - name: Proiektu-antolaketaren API errendimendua
+              href: project-management/project-schedule-api-performance.md
     - name: Baliabideen kudeaketa
       items:
         - name: Kontzeptu nagusiak
@@ -1102,6 +1108,8 @@
       items:
         - name: "Project Service\_3.x bertsioaren eguneratze-bertsioen antolaketa"
           href: psa/version-history-ps.md
+        - name: '37. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-37.md
         - name: '36. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur-36.md
         - name: '35. eguneratze-bertsioko berritasunak edo aldaketak, V3'
