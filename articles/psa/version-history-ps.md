@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9ed9cb4615ba45c6b42154caffbd16806d30a8e7
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
+ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623304"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "7773558"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Eguneratu Project Service 3.x bertsioaren antolaketa
 
@@ -37,7 +37,7 @@ ms.locfileid: "7623304"
 
 | Soluzioa  | Azken bertsioa |
 |-------|----|
-| Project Service Automation    | 3.10.57.152 |
+| Project Service Automation    | 3.10.58.120 |
 | Project Service Automation-en mahaigaineko osagarria                | 3.15          |
 
 Project Service-ko eguneratzeei buruzko informazio gehiago lortzeko, joan [Dynamics 365-en bertsio-planak](/dynamics365/release-plans/). 
@@ -45,28 +45,29 @@ Project Service-ko eguneratzeei buruzko informazio gehiago lortzeko, joan [Dynam
 | Geltokia  | Eskualdea | Uneko bertsioa | Hurrengo bertsioa |  Antolatutako data
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>1. geltokia</strong> | |  |  | |
-| | <i>Lehenengo oharra</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021eko urriak 29
+| | <i>Lehenengo oharra</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduaren 03a
 |<strong>2. geltokia</strong> | |  |  | |
-| | <i>Hego Amerika</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021eko azaroak 5
-| | <i>Kanada</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021eko azaroak 5
-| | <i>India</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021eko azaroak 5
-| | <i>Frantzia</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021eko azaroak 5
-| | <i>Hego Afrika</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021eko azaroak 5
-| | <i>Alemania</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021eko azaroak 5
-| | <i>Suitza</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021eko azaroak 5
+| | <i>Hego Amerika</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduak 10
+| | <i>Kanada</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduak 10
+| | <i>India</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduak 10
+| | <i>Frantzia</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduak 10
+| | <i>Hego Afrika</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduak 10
+| | <i>Alemania</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduak 10
+| | <i>Suitza</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduak 10
 |<strong>3. geltokia</strong> | |  |  | |
-| | <i>Japonia</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021eko urriak 15
-| | <i>Asia pazifikoa</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021eko urriak 15
-| | <i>Britainia Handia</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021eko urriak 15
-| | <i>Oceana</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021eko urriak 15
-| | <i>Arabiar Emirerri Batuak</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021eko urriak 15
+| | <i>Japonia</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021eko azaroaren 12a
+| | <i>Asia pazifikoa</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021eko azaroaren 12a
+| | <i>Britainia Handia</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021eko azaroaren 12a
+| | <i>Oceana</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021eko azaroaren 12a
+| | <i>Arabiar Emirerri Batuak</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021eko azaroaren 12a
 |<strong>4. geltokia</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021eko urriaren 22a
+| | <i>Europa</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021eko azaroaren 19a
 |<strong>5. geltokia</strong> | |  |  | |
-| | <i>Ipar Amerika</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021eko urriak 29
+| | <i>Ipar Amerika</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021eko abenduaren 03a
 |<strong>6. geltokia</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021eko urriak 29
-| | <i>Eskainitako eskala-taldeak</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021eko azaroak 5
+| | <i>Government Community Cloud</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021eko abenduaren 03a
+| | <i>Eskainitako eskala-taldeak</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021eko abenduak 10
+
 
 
 >[!Note]

@@ -2,16 +2,16 @@
 title: Sortu zereginen xehetasunen egitura
 description: Gai honetan azaltzen da nola sortu lanaren matxuraren egitura (WBS) oinarrizko kontrolak barne antolaketa-interfaze berrian.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998716"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655402"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Sortu zereginen xehetasunen egitura (WBS)
 
@@ -117,5 +117,26 @@ Zereginaren moduak ez du eraginik aurreko/mendeko zereginen hasiera- eta amaiera
 
 **Antolaketa** sareta guztiz eskuragarria da eta pantaila-irakurleekin erabil daiteke, esaterako, JAWS edo NVDA. Saretako eremuan mugi zaitezke gezi-teklak erabiliz (Microsoft Excel-en bezala), Tab tekla erabil dezakezu interfazearen erabiltzaile-interfazearen elementutan aurrera egiteko, eta Behera gezi-tekla, Sartu tekla edo Zuriune-barra erabil ditzakezu goitibeherako menuak hautatzeko eta irekitzeko.
 
+## <a name="project-limitations"></a>Proiektuaren mugak 
+Ondoko mugak ezagutu behar dituzu Project Operations-en zereginen xehetasunen egitura erabiltzen ari bazara. Muga hauek proiektu eta zereginei aplikatzen zaizkie. Informazio gehiagorako, ikusi [Project for the Web-en mugak](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Eremua**                                          |  **Muga**           |
+|----------------------------------------------------|----------------------|
+| Proiektu baterako gehieneko zereginak                  | 500                  |
+| Proiektu baten gehieneko iraupena               | 3650 egun (10 urte) |
+| Proiektu baterako gehieneko baliabideak              | 150                  |
+| Proiektu bateko gehieneko estekak (ondorengoak soilik) | 600                  |
+| Proiektu baterako gehieneko eremu pertsonalizatuak          | 10                   |
+
+**Zereginen mugak**
+
+| **Eremua**                               |   **Muga**           |
+|-----------------------------------------|-----------------------|
+| Gehieneko hierarkia-maila                 | 10 maila             |
+| Gehieneko estekak (ondorengoa + aurrekoa) | 20                    |
+| Hosto-zereginaren gehienezko iraupena           | 1250 egun             |
+| Laburpen-zeregin baten gehieneko iraupena      | 3650 egun (10 urte)  |
+| Zeregin bati esleitutako gehieneko baliabideak    | 20 baliabide          |
+| Zeregin baterako onartutako data-tartea         | 2000/1/1 - 2149/12/31 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

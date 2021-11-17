@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
+ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623301"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783408"
 ---
 # <a name="project-operations-updates"></a>Project Operations-en eguneratzeak
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations bi osagai ditu:
 
 | Project Operations Dataverse ingurunean | Proiektuen kudeaketa eta kontabilitatea Finance and Operations aplikazioen inguruneak | 
 | --- | --- |
-| 4.25.0.91 | 10.0.20 |
+| 4.26.0.145 | 10.0.21 |
 
 Project Operations-en Baliabideetarako / stockik gabeko eszenatokietarako, Idazketa Dualeko Orkestrazioaren 2.2.2.83 bertsioa edo berriagoa erabiltzea gomendatzen dugu.
 
@@ -47,23 +47,23 @@ Hilero eskuragarri daude Dataverse ingurumeneko Project Operations-en eguneratze
 | Geltokia | Eskualdea | Uneko bertsio-zenbakia | Lite inplementaziorako eguneratze automatikoak | Eguneratze automatikoak Baliabidea/hornitu gabeko inplementaziorako | Hurrengo bertsio-zenbakia | Hurrengo bertsioa orokorrean eskuragarri |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. geltokia |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Lehenengo oharra         |  4.25.0.91      | Osatuta           | Osatuta            | TBD                 | 2021eko urriak 29    |
+|   &nbsp;  | Lehenengo oharra         |  4.26.0.145     | 2021eko azaroaren 12a  | 2021eko azaroaren 19a   | TBD                 | 2021eko abenduaren 03a   |
 | 2. geltokia |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Hego Amerika         |  4.25.0.91      | Osatuta           | 2021eko urriak 15    | TBD                 | 2021eko urriak 29    |
-|   &nbsp;  | Kanada                |  4.25.0.91      | Osatuta           | 2021eko urriak 15    | TBD                 | 2021eko urriak 29    |
-|   &nbsp;  | India                 |  4.25.0.91      | Osatuta           | 2021eko urriak 15    | TBD                 | 2021eko urriak 29    |
-|   &nbsp;  | Frantzia                |  4.25.0.91      | Osatuta           | 2021eko urriak 15    | TBD                 | 2021eko urriak 29    |
-|   &nbsp;  | Hego Afrika          |  4.25.0.91      | Osatuta           | 2021eko urriak 15    | TBD                 | 2021eko urriak 29    |
+|   &nbsp;  | Hego Amerika         |  4.26.0.145     | 2021eko azaroaren 12a  | 2021eko azaroaren 19a   | TBD                 | 2021eko abenduaren 03a   |
+|   &nbsp;  | Kanada                |  4.26.0.145     | 2021eko azaroaren 12a  | 2021eko azaroaren 19a   | TBD                 | 2021eko abenduaren 03a   |
+|   &nbsp;  | India                 |  4.26.0.145     | 2021eko azaroaren 12a  | 2021eko azaroaren 19a   | TBD                 | 2021eko abenduaren 03a   |
+|   &nbsp;  | Frantzia                |  4.26.0.145     | 2021eko azaroaren 12a  | 2021eko azaroaren 19a   | TBD                 | 2021eko abenduaren 03a   |
+|   &nbsp;  | Hego Afrika          |  4.26.0.145     | 2021eko azaroaren 12a  | 2021eko azaroaren 19a   | TBD                 | 2021eko abenduaren 03a   |
 | 3. geltokia |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonia                 |  4.25.0.91      | 2021eko urriak 15   | 2021eko urriaren 22a    | TBD                 | 2021eko azaroak 5   |
-|   &nbsp;  | Asia Pazifikoa          |  4.25.0.91      | 2021eko urriak 15   | 2021eko urriaren 22a    | TBD                 | 2021eko azaroak 5   |
-|   &nbsp;  | Britainia Handia         |  4.25.0.91      | 2021eko urriak 15   | 2021eko urriaren 22a    | TBD                 | 2021eko azaroak 5   |
-|   &nbsp;  | Ozeania               |  4.25.0.91      | 2021eko urriak 15   | 2021eko urriaren 22a    | TBD                 | 2021eko azaroak 5   |
-|   &nbsp;  | Arabiar Emirerri Batuak  |  4.25.0.91      | 2021eko urriak 15   | 2021eko urriaren 22a    | TBD                 | 2021eko azaroak 5   |
+|   &nbsp;  | Japonia                 |  4.26.0.145     | 2021eko azaroaren 12a  | 2021eko azaroaren 19a   | TBD                 | 2021eko abenduak 10   |
+|   &nbsp;  | Asia Pazifikoa          |  4.26.0.145     | 2021eko azaroaren 12a  | 2021eko azaroaren 19a   | TBD                 | 2021eko abenduak 10   |
+|   &nbsp;  | Britainia Handia         |  4.26.0.145     | 2021eko azaroaren 12a  | 2021eko azaroaren 19a   | TBD                 | 2021eko abenduak 10   |
+|   &nbsp;  | Ozeania               |  4.26.0.145     | 2021eko azaroaren 12a  | 2021eko azaroaren 19a   | TBD                 | 2021eko abenduak 10   |
+|   &nbsp;  | Arabiar Emirerri Batuak  |  4.26.0.145     | 2021eko azaroaren 12a  | 2021eko azaroaren 19a   | TBD                 | 2021eko abenduak 10   |
 | 4. geltokia |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.14.0.99      | Osatuta           | Osatuta            | 4.25.0.91           | 2021eko urriak 15    |
+|   &nbsp;  | Europa                |  4.25.0.91      | Osatuta           | Osatuta            | 4.26.0.145          | 2021eko azaroaren 12a   |
 | 5. geltokia |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ipar Amerika         |  4.14.0.99      | Osatuta           | 2021eko urriak 08    | 4.25.0.91           | 2021eko urriaren 22a    |
+|   &nbsp;  | Ipar Amerika         |  4.25.0.91      | Osatuta           | Osatuta            | 4.26.0.145          | 2021eko azaroaren 19a   |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Proiektuen kudeaketa eta kontabilitatea kaleratzeko egutegia Finance and Operations aplikazioen ingurunea
@@ -72,14 +72,15 @@ Proiektuen kudeaketarako eta kontabilitateko eguneratzeak urtean zortzi aldiz ar
 
 |Onartutako bertsioa| Aurreargitalpenaren eskuragarritasuna (PEAP) | Orokorrean eskuragarri (eguneratze automatikoa) | Eguneratze automatikoaren egutegia (LCS eguneratze ezarpenen bidez) produkzioaren hasiera data |   Zerbitzuaren amaiera   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      2021eko irailaren 3a      |        2021eko urriaren 22a           |                          2021eko azaroaren 5a                            | 2022eko urtarrilaren 14   |
 |    10.0.21      |         2021eko abuztuak 02     |           2021eko irailaren 17a      |                             2021eko urriak 1                          |  2021eko abenduak 10 |
-|    10.0.20      |         2021eko maiatzaren 28an        |           2021eko uztailaren 16a           |                             2021eko uztailaren 30a                            |  2021eko urriaren 22a  |
+
 
 Argitaratutako datak aldatu egin daitezke. Informazio gehiago eskuratzeko, ikusi [Zerbitzu-eguneratzearen erabilgarritasuna](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json) atala.
 
 |Helburuko bertsioa | Aurreargitalpenaren eskuragarritasuna (PEAP) | Orokorrean eskuragarri (eguneratze automatikoa) | Eguneratze automatikoaren egutegia (LCS eguneratze ezarpenen bidez) produkzioaren hasiera data |   Zerbitzuaren amaiera   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      2021eko irailaren 3a      |          2021eko urriaren 22a         |                           2021eko azaroaren 5a                           |  2022eko urtarrilaren 14  |
 |     10.0.23     |      2021eko urriak 15       |        2021eko abenduak 10          |                          2021eko abenduak 31                           | 2022ko martxoak 18     |
+|     10.0.24     |      2021eko abenduaren 03a       |        2022eko urtarrilaren 14           |                          2022ko otsailaren 4a                            | 2022ko apirilaren 15a     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
