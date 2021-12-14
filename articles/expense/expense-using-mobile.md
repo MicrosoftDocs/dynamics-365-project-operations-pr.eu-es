@@ -2,7 +2,7 @@
 title: Mugikorreko gastuen aplikazioa
 description: Gai hori emateko informazioa buruz Gastuaren kudeaketaren mugikorreko laneko area.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993181"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818168"
 ---
 # <a name="mobile-expense-app"></a>Mugikorreko gastuen aplikazioa
 
@@ -47,47 +47,14 @@ Eginbide hauek ere erabil ditzakezu:
 - Bidali gastu txostena onartzeko eta itzultzeko.
 - Onartu edo ukatu esleitutako onartzailea zaren gastuen txostenak.
 
-## <a name="prerequisites"></a>Aurrebaldintzak
-Aurrebaldintzak desberdinak dira, zure erakundean inplementatu den bertsioaren arabera.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Dynamics 365 Finance erabiltzen baduzu aurrebaldintzak
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Erabiliz gero aurrebaldintzak Dynamics 365 Finance 
 Finantzak zure erakundean hedatu badira, sistemaren administratzaileak argitaratu beharko du **Gastuen kudeaketa** mugikorreko lan eremua. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Aurrebaldintzak 1611 bertsioa plataformako 3. eguneratzearekin edo berriagoarekin erabiltzen baduzu
-Plataformaren 3. eguneratzearekin edo berriagoarekin 1611 bertsioa zure erakundean hedatu bada, sistemaren administratzaileak honako baldintza hauek bete beharko ditu. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Aurrebaldintza</th>
-<th>Funtzioa</th>
-<th>Deskribapena</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ezarri KB 4019015.</td>
-<td>Sistemaren administratzailea</td>
-<td>KB 4019015 fitxategia duen X ++ eguneratze edo metadatuen zuzenketa zuzena da <strong>Gastuen kudeaketa</strong> mugikorreko lan eremua. KB 4019015 ezartzeko, zure sistemaren administratzaileak urrats hauek jarraitu behar ditu.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Deskargatu Lifecycle Services zerbitzuko eguneratzeak</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalatu metadatuen zuzenketa zuzena</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Sortu pakete inplementagarri bat</a> horrek dauka <strong>ApplicationSuite</strong> eta <strong>ExpenseMobile</strong> modeloak eta, ondoren, pakete inplementagarria LCS-ra igo.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplikatu pakete inplementagarria</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Argitaratu <strong>Gastuen kudeaketa</strong> mugikorreko lan eremua.</td>
-<td>Sistemaren administratzailea</td>
-<td>Ikusi <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Argitaratu mugikorreko lan eremua</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa
 Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 
-- [Hurrengorako Android telefonoak](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Android telefonoetarako](https://go.microsoft.com/fwlink/?linkid=850662)
 - [iPhone-tarako](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Saio hasi mugikorreko aplikazioa
@@ -103,11 +70,11 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 3. Aukeratu **Egin argazkia** edo **Aukeratu irudia**.
 4. Jarraitu urrats hauetako bat:
 
-   - **Egin argazkia** hautatu baduzu, jarraitu urrats hauei:
+    - **Egin argazkia** hautatu baduzu, jarraitu urrats hauei:
 
-      1. Zure gailu mugikorreko kamerara eramaten zaituzte, ordainagiriaren argazkia atera ahal izateko. 
-      2. Argazkia ateratzen amaitutakoan, hautatu **Ados** argazkia onartzeko.
-      3. Aukerakoa: idatzi argazkiaren izena eta idatzi oharrak.
+        1. Zure gailu mugikorreko kamerara eramaten zaituzte, ordainagiriaren argazkia atera ahal izateko. 
+        2. Argazkia ateratzen amaitutakoan, hautatu **Ados** argazkia onartzeko.
+        3. Aukerakoa: idatzi argazkiaren izena eta idatzi oharrak.
 
     - **Aukeratu irudia** hautatu baduzu, jarraitu urrats hauei:
 
@@ -133,20 +100,20 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 
 10. Hautatu **Eginda**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Onartu gastuen txostena Gastuak kudeatzeko mugikorreko lan eremua erabiliz (2017ko uztaileko eguneratzea erabiltzen baduzu)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Onartu gastu-txosten bat Gastuen kudeaketa mugikorreko lan-eremua erabiliz
 
 1. Zure gailu mugikorrean, ireki **Gastuen kudeaketa** lan eremua.
 2. **Gastuen onarpenak** onarpenerako esleitzen zaizkizun gastuen txostenak erakusten ditu. Zenbakia 30 minuturo eguneratzen da gutxi gorabehera. Aukeratu **Gastuen onarpenak**.
 
     Onartzeko esleitu zaizkizun gastuen txostenen zerrenda bistaratzen da.
-    
+
 3. Aukeratu gastuen txostena, horren gastuen xehetasunak ikusteko.
 4. Aukeratu gastu bat, horren xehetasunak ikusteko. Gastuetarako erakusten den informazioa ordainagiriak, gonbidatuak eta banaketa xehetasunak biltzen ditu.
 5. Itzuli **Gastuen txostena** orrian, hautatu gastu-txostena onartzeko edo ukatzeko.
 6. Sartu iruzkinak onarpen ekintzarako.
 7. Hautatu **Eginda**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Sortu gastuen txosten bat eta bidali onartzeko, Gastuak kudeatzeko mugikorreko lan eremua erabiliz (2017ko uztaileko eguneratzea erabiltzen baduzu)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Sortu gastu-txosten berri bat eta bidali onar dezazun Gastuen kudeaketa mugikorreko lan-eremua erabiliz
 
 1. Zure gailu mugikorrean, ireki **Gastuen kudeaketa** lan eremua.
 2. Aukeratu **Gastuen sarrera**.
@@ -184,12 +151,12 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
                     1. Hautatu irudi bat zerrendan.
                     2. Aukerakoa: idatzi irudiaren izena eta idatzi oharrak.
 
-            3.  Hautatu **Eginda**.
+            3. Hautatu **Eginda**.
 
         - **Erantsi ordainagiria** hautatu baduzu, jarraitu urrats hauei:
 
-            1.  Hautatu irudi bat edo gehiago zerrendan.
-            2.  Hautatu **Eginda**.
+            1. Hautatu irudi bat edo gehiago zerrendan.
+            2. Hautatu **Eginda**.
 
     3. Aukeratu **Itzuli** botoia gastuaren xehetasunetara itzultzeko.
 
@@ -235,5 +202,30 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 23. Sartu onartzailearentzako iruzkinak.
 24. Hautatu **Eginda**.
 
+## <a name="frequently-asked-questions"></a>Ohiko galderak
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Zergatik ez du ordainketa-metodoa lehenespenez sartzen Expense aplikazio mugikorrak?
+
+Erakundeek pertsonalizatu dezakete **Ordainketa-metodo lehenetsia** gastu-kategoria bakoitzerako ezarpena sortu ahala. Gainera, ordainketa-metodoak konfiguratzen dituzunean, ezar dezakezu **Ordainketa-metodo lehenetsia** eremura **Inportatu bakarrik**.
+
+Noiz **Inportatu bakarrik** ordainketa-metodo baterako gaituta dago, ordainketa-metodoa ez da lehenespenez sartzen. Ordainketa-metodo hau ezarrita dagoen gastu-kategorietan hutsik egongo da. Jokaera hau koherentea da bai web-esperientzian eta baita mugikorreko esperientzian ere.
+    
+Noiz **Inportatu bakarrik** ez dago gaituta ordainketa-metodo baterako, ezarritako balioa lehenespenez sartzen da ordainketa-metodo hau konfiguratuta dagoen gastu-kategorietarako. Hala ere, arazo ezagun bat dago, non balio lehenetsia ez den Gastu mugikorrerako aplikazioan sartzen. Arazo honi aurre egiteko, hautatu eskuz ordainketa-metodo bat gastuen txostena gorde aurretik. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Zergatik ezin ditut gehitu edo editatu finantza-dimentsioak Expense mugikorrerako aplikazioan?
+
+Ez da onartzen neurriak eta banaketak sartzea. Muga horri aurre egiteko, eremu hauek lehenespenez ezarri ditzakezu mugikorreko aplikazioan, proiektu edo langile bakoitzeko finantza-dimentsio lehenetsiak ezarriz.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Zergatik ikusten dut batzuetan sinkronizazio-errore bat Expense mugikorreko aplikazioan?
+
+Gastu-lerroek politika-eskakizunak betetzen ez baditu eta erabiltzaileak gastu-txostena bidaltzen badu gidalerroaren abisua zuzendu gabe, datu mugikorrak ez dira zerbitzariarekin sinkronizatzen eta sinkronizazio-huts bat gertatzen da. Sinkronizazioaren hutsegite bat gertatu ondoren bidaltzen diren gastu-txosten guztiak huts-egoeran geratuko dira eta sinkronizazio akats gehiago eragingo dituzte. Egoera hau konpontzeko modu bakarra sinkronizazio jakinarazpenak eskuz ezabatzea da. Arazo hau konpondu da gastuen txostenak bidaltzeari utziz, politikaren abisuak konpondu ez direnean, sinkronizazio akatsak saihestu daitezen.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Zergatik ez da behar bezala islatzen proiektuaren eta kategorien baliozkotzea Expense aplikazio mugikorrean?
+
+Balioztatze hau ez da onartzen une honetan. Hala ere, baliteke etorkizunean laguntza gehitzea. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Zein dokumentu mota onartzen dira Expense mugikorreko aplikazioan?
+
+Expense mugikorreko aplikazioak irudiak soilik onartzen ditu. Une honetan ez ditu PDFrik edo bestelako dokumenturik onartzen.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

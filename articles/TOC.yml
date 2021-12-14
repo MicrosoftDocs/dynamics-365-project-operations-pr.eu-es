@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Zer berri
       items:
+        - name: 2021eko azaroa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: 2021eko urria - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: 2021eko iraila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Proiektu-antolaketaren API errendimendua
               href: project-management/project-schedule-api-performance.md
+            - name: Proiektuaren antolaketa-erregistroak
+              href: project-management/schedule-api-logs.md
     - name: Baliabideen kudeaketa
       items:
         - name: Kontzeptu nagusiak
@@ -544,6 +548,8 @@
       items:
         - name: 2021eko berritasunen 2. uhinerako sarbide esklusiboa - oinarrizko inplementazioa
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021eko azaroko berritasunak - oinarrizko inplementazioa
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 2021eko urriko berritasunak - oinarrizko inplementazioa
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: 2021eko iraileko berritasunak - oinarrizko inplementazioa
@@ -952,6 +958,10 @@
   items:
     - name: Zer berri
       items:
+        - name: 2021eko urriko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: 2021eko iraileko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: '2021eko uztaileko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: '2021eko maiatzeko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
@@ -1108,6 +1118,8 @@
       items:
         - name: "Project Service\_3.x bertsioaren eguneratze-bertsioen antolaketa"
           href: psa/version-history-ps.md
+        - name: '37.5. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: '37. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur-37.md
         - name: '36. eguneratze-bertsioko berritasunak edo aldaketak, V3'
