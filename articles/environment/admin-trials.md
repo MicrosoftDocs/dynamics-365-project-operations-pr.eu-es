@@ -2,16 +2,16 @@
 title: Eman izena Project Operations-en doako probak lortzeko
 description: Gai honek Dynamics 365 Project Operations proba bat inplementatzeari buruzko informazioa ematen du.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599198"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901602"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Eman izena Project Operations-en doako probak lortzeko 
 
@@ -90,7 +90,8 @@ Hasi aurretik, hasi saioa arakatzailean erabiltzaileen laneko kontuarekin Projec
 4.  Aukeratu dagokion Microsoft Dataverse URLa eta Finance and Operations aplikazioen URLak inplementazioa balioztatzeko.
 
 ## <a name="configuring-dual-write"></a>Konfiguratuz idazketa duala
-Hornitu gabeko materialen inplementazioetarako soilik, konfiguratu idazketa bikoitzeko mapak. Informazio gehiagorako, ikus [Project Operations idazketa bikoitzeko mapen bertsioak](resource-dual-write-maps.md).
+- Idazketa bikoitzerako segurtasun-rolak konfiguratzeko, ikus [Eguneratu segurtasun-ezarpenak Project Operations-n Dataverse](resource-provision-new-environment.md).
+- Idazketa bikoitzeko mapak konfiguratzeko, ikus [Exekutatu Project Operations idazketa bikoitzeko mapak](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Esleitu lizentziak
 

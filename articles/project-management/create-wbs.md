@@ -2,16 +2,16 @@
 title: Sortu zereginen xehetasunen egitura
 description: Gai honetan azaltzen da nola sortu lanaren matxuraren egitura (WBS) oinarrizko kontrolak barne antolaketa-interfaze berrian.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655402"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928600"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Sortu zereginen xehetasunen egitura (WBS)
 
@@ -95,11 +95,11 @@ Administratzaile gisa, eremu pertsonalizatuak defini ditzakezu atazako entitatea
 
 ## <a name="staffing-attributes"></a>Betetze-atributuak
 
-Langileen atributuak **Baliabideak** eremuaren bidez atzitzen dira antolaketan. Lehendik dagoen baliabide bat bilatu dezakezu edo hautatu **Sortu** eta **Sorrera bizkorra** panelean, gehitu proiektu-taldeko kide bat baliabide berri gisa.
+Langileen atributuak **Baliabideak** eremuaren bidez atzitzen dira antolaketan. Lehendik dagoen baliabide bat bilatu dezakezu edo hautatu **Sortu** eta **Sorrera bizkorra** panelean, gehitu proiektu-taldeko kide bat baliabide berri gisa.  Ataza-sareko, arbel-ikuspeko edo gantt-eko baliabide-hautatzailea erabiliz baliabide bat bilatzen duzunean, bilaketak lehendik dauden proiektuko taldeko kideak edo erreserba daitezkeen baliabide aktiboak itzultzen ditu.
 
 **Funtzioa**, **Baliabide-unitatea**, eta **Lanpostuaren izena** eremuak zereginerako langileen eskakizunak deskribatzeko erabiltzen dira. Langileen atributu horiek, zereginen antolaketarekin batera, zeregina egiteko erabilgarri dauden baliabideak aurkitzeko erabiltzen dira.
 
-   - **Funtzioa**: Zehaztu zeregina egiteko behar den baliabide mota.
+   - **Rola** : Zehaztu zeregina egiteko behar den baliabide mota.,
    - **Baliabide-unitatea**: Zehaztu zeregineko baliabideak zein unitatetik esleitu behar diren. Atributu horrek zereginerako kostuen eta salmenten aurreikuspenean eragiten du baliabidearen kostua eta faktura-tasa baliabide unitateetan oinarrituta ezartzen badira.
    - **Lanpostuaren izena**: idatzi lana egingo duen baliabiderako leku-marka gisa balio duen baliabide orokorrerako izena.
 
@@ -126,7 +126,8 @@ Ondoko mugak ezagutu behar dituzu Project Operations-en zereginen xehetasunen eg
 | Proiektu baten gehieneko iraupena               | 3650 egun (10 urte) |
 | Proiektu baterako gehieneko baliabideak              | 150                  |
 | Proiektu bateko gehieneko estekak (ondorengoak soilik) | 600                  |
-| Proiektu baterako gehieneko eremu pertsonalizatuak          | 10                   |
+| Proiektu baterako gehieneko eremu pertsonalizatuak          | 1,0                   |
+| Gehienezko zerrendako elementuak zeregin bakoitzeko                   | 20                   |
 
 **Zereginen mugak**
 

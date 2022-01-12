@@ -1,8 +1,8 @@
 ---
-title: Gastu-txostenen itxura berria
+title: Gastuen txostenak berriro irudikatu dira (bideoa dauka)
 description: Gai honek gastuen txostenak sartzeko esperientzia birmoldatu eta berriro pentsatutakoa azaltzen du.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997816"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941044"
 ---
 # <a name="expense-reports-reimagined"></a>Gastu-txostenen itxura berria
 
@@ -58,6 +58,7 @@ Esperientzia berria aktibatzeko, erabili **Ezaugarrien kudeaketa** laneko area *
 | Gorde eta gehitu gastu lerro berriak | **Gorde** eta **Berria** botoiak erabilgarri daude gastu berriak sartzen direnean, gastu lerroak azkar sartzen laguntzeko. |
 | Ikusgarritasun hobea lerro zatitu eta zehatzetan | Lerro xehatuak eta zatituak zuzenean gehitzen dira gastuen zerrendan ikusgarritasuna handitzeko eta akatsik dagoen ala ez erraz zehazten laguntzeko. |
 | Ikusi azpikategoriaren xehetasunak lerro zehatzetan | Gurasoen gastuaren lerro zehatzek gastuen txosteneko azpikategoriaren etiketak erakusten dituzte. Elementuen xehetasunak xehetasun pikorrak berrikusteko aukera ematen du.|
+|Azkar zehaztu ohiko gastuak | Berriz irudikaturiko gastuen lan-eremuak gastu errepikakorrak azkar banatzeko gaitasuna ematen du azpikategoria, hasiera-data eta kantitatea gehituz. Kantitatea karga etengabeko aldi batean errepikatzen den kopuruari dagokio. |
 | Erakutsi ordainagiriak zehaztapenean | Ordainagiriak ezin dira erakutsi zehaztapenean. |
 | Diru-aurrerakinaren hautapena | Aukeratu diru aurrerakin bat edo gehiago gastu transakzio bakarra betetzeko. |
 | Diru-aurrerakinaren saldoa | Berrikusi eskudiruzko aurrerakinaren saldoa denbora errealean, onartutako eta ordaindutako eskudiruzko aurrerakinen aurkako sarrera sortzen duzunean. |

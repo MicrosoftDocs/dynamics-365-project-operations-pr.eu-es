@@ -2,16 +2,16 @@
 title: Finantza-dimentsio lehenetsiak
 description: Gai honek dimentsio finantzarioaren lehenespenak konfiguratzeko moduari buruzko informazioa eskaintzen du.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005421"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922923"
 ---
 # <a name="financial-dimension-defaults"></a>Finantza-dimentsio lehenetsiak
 
@@ -60,6 +60,15 @@ Proiektuak CDS-n sortu eta mantentzen dira. Proiektuen kontabilitate atributuak 
 4. Ezarri finantza-dimentsio lehenetsiak. Kontuan izan finantza dimentsioak bezeroaren kontutik lehenetsita daudela. Proiektua proiektu kontratuko bezero anitzekin kontratu lerro batekin lotzen bada, bezero nagusia lehenetsitako finantza dimentsioetarako erabiltzen da.
 
 Proiektuaren lehenetsitako finantza dimentsioak egunkariaren lerroaren lehenespenak ezartzeko erabiltzen dira denbora, gastu eta kuoten transakzioetarako **Project Operations Integration Journal** eta lotutako proiektuen faktura-lerroetan.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Aplikatu finantza-dimentsioak proiektuaren denbora sarreretarako
+Proiektuaren denbora-sarreretarako finantza-dimentsioak aplikatzeko, kontuan izan dimentsio-balio lehenetsia hurrengo ordenan oinarritzen dela:
+
+1. Baliabidea
+2. Project
+3. Finantzaketa iturria
+
+Adibidez, baliabide batean dimentsio lehenetsia zehazten bada, proiektuan zehaztutako lehenetsi baten gainean aplikatuko da. Era berean, proiektuaren dimentsio lehenetsi bat aplikatuko da finantzaketa iturrian zehaztutako lehenetsiaren gainean.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

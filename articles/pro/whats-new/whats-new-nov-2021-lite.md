@@ -7,20 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e8560e7c7d6bae1bb2fda389a63bde1c57654bcb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: 0fd910fb1b1e4e4576afa386a600e56e6f2dd504
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827266"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942916"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>2021eko azaroko berriak - Project Operations lite inplementatzea
 
 _Honi aplikatzen zaio: Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Gai hau Dynamics 365 Project Operations Microsoft-en osagai eta bertsio hauei dagokie:
+Gai hau Microsoft-en osagai eta bertsio hauei dagokie Dynamics 365 Project Operations:
 
-- Proiektuaren Eragiketak Dataverse inguruneko bertsioan 4.26.0.145, 4.26.0.148, edo 4.26.0.150
+- Proiektuaren Eragiketak a Dataverse ingurunearen bertsioa 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
   
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
 
@@ -30,7 +30,7 @@ Eginbide hauek sartzen dira bertsio honetan:
 
 ## <a name="quality-updates"></a>Kalitatearen eguneratzeak
 
-### <a name="project-operations-in-dataverse"></a>Proiektuaren eragiketak Dataverse-n
+### <a name="project-operations-in-dataverse"></a>Proiektuaren Eragiketak urtean Dataverse
 
 | Ezaugarrien eremua | Erreferentzia-zenbakia | Kalitatearen eguneratzea |
 | --- | --- | --- |
