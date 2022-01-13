@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Project Operations-en eguneratzeak
       href: whats-new/project-operations-updates.md
+    - name: Kendutako edo zaharkitutako eginbideak
+      items:
+        - name: Project Operations-en kendutako edo zaharkitutako eginbideak
+          href: whats-new/removed-depreciated-features-project.md
 - name: Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
   items:
     - name: Hasi erabiltzen
@@ -56,8 +60,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Desinstalatu Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
-    - name: Zer berri
+    - name: Zer berri?
       items:
+        - name: 2021eko abendua - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 2021eko azaroa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: 2021eko urria - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Konfiguratu kilometrajea kilometrajearen tasaren mailak erabiliz
               href: expense/set-up-mileage.md
+        - name: Gastuen banaketa
+          href: prod-exp/expense-itemization.md
         - name: Gastu pertsonalak
           href: expense/personal-expenses-expense-report.md
         - name: Enpresen arteko gastuak
@@ -530,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Kudeatu diru-sarreren kalkuluak
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Arazoak konpontzea
+      items:
+        - name: Proiektuaren salmenta-prozesua
+          items:
+            - name: 'Dibisa bat ez etortzearen errorea proiektua, kontratua, eskaintza edo erreserba daitekeen baliabidea sortzean'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: 'Oinarrizko inplementazioa: kudeatu proformako fakturak'
   items:
     - name: Hasi erabiltzen
@@ -548,6 +562,8 @@
       items:
         - name: 2021eko berritasunen 2. uhinerako sarbide esklusiboa - oinarrizko inplementazioa
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021eko abenduko berritasunak - oinarrizko inplementazioa
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: 2021eko azaroko berritasunak - oinarrizko inplementazioa
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 2021eko urriko berritasunak - oinarrizko inplementazioa
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Azpikontratuaren lerroko mugarriak
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Proiektuko taldekideak azpikontratatzea
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Proiektuko taldekideak azpikontratatzeko aukerak
+          href: pro/subcontracting/subcon-options.md
+        - name: Azpikontratatutako baliabideen esleipenen kostuak kalkulatzea
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfiguratu kontratudun langileak eta azpikontratatutako ahalmena erakusteko Antolaketa-panela
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Proiektu bat kontratudun langileekin eta azpikontratatutako ahalmenarekin hornitzea
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Azpikontratatutako osagaien denbora, gastuak eta materialaren erabilera erregistratzea'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Azpikontratu bateko egoera-trantsizioak
+          href: pro/subcontracting/subcon-states.md
     - name: Denbora
       items:
         - name: Denboraren ikuspegi orokorra
@@ -1118,6 +1148,8 @@
       items:
         - name: "Project Service\_3.x bertsioaren eguneratze-bertsioen antolaketa"
           href: psa/version-history-ps.md
+        - name: '38. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-38.md
         - name: '37.5. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur-37-5.md
         - name: '37. eguneratze-bertsioko berritasunak edo aldaketak, V3'
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Txostenak sortzeko gida
           href: psa/implementation-guides/reporting-guide.md
+    - name: Berritu-berritu Project Service Automation-etik Project Operations - lite-ra
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation-en bertsio-berritzea (aplikazioaren 3.x bertsioa)
       items:
         - name: Project Service Automation-en bertsio-berritzea
