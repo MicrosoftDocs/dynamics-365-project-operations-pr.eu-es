@@ -2,16 +2,18 @@
 title: Garatu proiektuaren txantiloiak Kopiatu proiektua eginbidearekin
 description: Gai honek proiektuaren txantiloiak sortzeko proiektuari buruzko informazioa eskaintzen du Kopiatu proiektua ekintza pertsonalizatua erabiliz.
 author: stsporen
+manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989223"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044994"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Garatu proiektuaren txantiloiak Kopiatu proiektua eginbidearekin
 
@@ -42,7 +44,7 @@ Hiru sarrera-parametro daude:
 - **{"clearTeamsAndAssignments":true}** : Lehenetsitako portaera duzu proiektuarentzako Weberako eta zeregin guztiak eta taldekideak kenduko ditu.
 - **{"removeNamedResources":true}** Proiektuaren eragiketen portaera lehenetsia, eta zereginak baliabide generikoetara itzuliko ditu.
 
-Ekintzei buruzko informazio gehiagorako, ikusi [Erabili web API ekintzak](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Ekintzei buruzko informazio gehiagorako, ikusi [Erabili web API ekintzak](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Zehaztu kopiatu beharreko eremuak 
 Ekintza deitzen denean, **Kopiatu proiektua** proiektuaren ikuspegia aztertuko du **Kopiatu proiektuaren zutabeak** proiektua kopiatzerakoan zein eremu kopiatu zehazteko.
@@ -110,6 +112,3 @@ Ondorengo adibidean **CopyProject** ekintza pertsonalizatua **removeNamedResourc
     }
 }
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

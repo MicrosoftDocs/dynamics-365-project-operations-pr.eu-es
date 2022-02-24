@@ -2,23 +2,24 @@
 title: Salmenta-prozesuaren informazio orokorra
 description: Gai honek oinarrizko salmenta-prozesuei buruzko informazioa ematen du.
 author: rumant
+manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991831"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177586"
 ---
 # <a name="sales-process-overview"></a>Salmenta-prozesuaren informazio orokorra
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Proiektuetan oinarritutako erakunde batean erabiltzen diren salmenta-prozesuak eta produktuetan oinarritutako erakunde batean erabiltzen diren salmenta-prozesuak desberdinak dira. Alde hori gertatzen da proiektuetan oinarritutako erakundeen salmenta-zikloak luzeagoak direlako eta aurreikuspen bakoitzarentzako eskaintzak aztertu eta kalkulatzeko teknika pertsonalizatuak behar dituztelako. Dynamics 365 Project Operations-ek salmenta prozesu batean erabiltzen diren funtzionalitate hauetako batzuk erabiltzen ditu:
+Proiektuetan oinarritutako erakunde batean erabiltzen diren salmenta-prozesuak eta produktuetan oinarritutako erakunde batean erabiltzen diren salmenta-prozesuak desberdinak dira. Alde hori gertatzen da proiektuetan oinarritutako erakundeen salmenta-zikloak luzeagoak direlako eta aurreikuspen bakoitzarentzako eskaintzak aztertu eta kalkulatzeko teknika pertsonalizatuak behar dituztelako. Dynamics 365 Project Operations-ek salmenta-prozesuan erabilitako funtzionaltasun bera erabiltzen du:
 
 - Erregistro nagusi bat salmenta-prozesuaren jarraipena egiteko erabiltzen da.
 - Bezerogai kalifikatzaileak abagune gisa jarraitzen dira.
@@ -62,6 +63,3 @@ Project Operations-en, ezin duzu eskaintzetan egiten diren berrikuspenik egin. H
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Eskaintzen eta proiektu-kontratuen iruzkinak eta onespenak jarraitu
 Eskaintzen eta proiektu-kontratuen berrikuspena eta onespena kudeatu ahal izango dituzu erregistroen horma eta mezuak erabiliz. Erakundeak lan-fluxuak eta plugin pertsonalizatuak sor ditzake, berrikusteko eta onesteko lan-elementuen jakinarazpenak kudeatzeko.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

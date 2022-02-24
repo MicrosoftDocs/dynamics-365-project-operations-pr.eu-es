@@ -2,16 +2,18 @@
 title: Konfiguratu fakturak automatikoak sortzeko aukera
 description: Gai honetan sistemak fakturak automatikoki sortzeko konfiguratzeko moduari buruzko informazioa ematen du.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992641"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122418"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Konfiguratu fakturak automatikoak sortzeko aukera
 
@@ -43,6 +45,3 @@ Lan-sortaren prozesua lan errepikaria da. Prozesu-sorta hau askotan exekutatzen 
 
 > [!NOTE]
 > Sortako fakturazioa fakturen egutegien arabera konfiguratutako proiektuen kontratu lerroetarako bakarrik exekutatzen da. Prezio finkoko fakturazio metodoa duen kontratu-lerroak mugarriak konfiguratu behar ditu. Ordua eta materiala fakturatzeko metodoa duen proiektu-kontratuen lerroak fakturen egitaraua finkatuko du. Gauza bera gertatzen da proiektuan oinarritutako kontratu lerroan.     
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

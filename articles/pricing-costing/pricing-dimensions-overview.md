@@ -2,18 +2,19 @@
 title: Prezioen dimentsioen informazio orokorra
 description: Gai honek Dynamics 365 Project Operations-eko prezio-dimentsioei buruzko informazioa eskaintzen du.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001956"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650169"
 ---
 # <a name="pricing-dimensions-overview"></a>Prezioen dimentsioen informazio orokorra
 
@@ -33,7 +34,7 @@ Hori dela eta, prezioen dimentsioko bi balore daude eskuragarri:
 
 Dynamics 365 Project Operations prezioen dimentsio multzo lehenetsia da. Prezio-dimentsio horiek ikus ditzakezu **Project Operations** > **Parametroak** atalean. Parametroen erregistroan, **Zenbatekoan oinarritutako prezioen dimentsioak** fitxan, egiaztatu **msdyn_resourcecategory** funtzioak eta **msdyn_organizationalunit** baliabideak antolatzeko unitateak **Salmentetan aplikagarria** eta **Kostuetan aplikagarria** eremuetan **Bai** aukera ezarrita dutela. Eremu horiek gaituta dituzula, eginkizun eta antolaketa unitateen konbinazio bakoitzeko prezioa eta kostua konfiguratu ahal izango dituzu.
 
-![Project Service-en parametroen pantaila-argazkia, "Salmentetan aplikagarria" eremua nabarmenduta dutela.](media/PS-OOB-parameters.png)
+![Project Service-en parametroen pantaila-argazkia, "Salmentetan aplikagarria" eremua nabarmenduta dutela](media/PS-OOB-parameters.png)
 
 Baliabideen prezioa edo kostua behar baduzu atributu osagarriak erabiliz, eremu, entitate eta dimentsio pertsonalizatuak sor ditzakezu. Informazio gehiagorako, ikus gai hauek. 
   
@@ -60,16 +61,13 @@ Hurrengo adibidean, baliabideari dagokion funtzioaren eta hornikuntza-unitateare
 
 | Funtzioa        | Erakunde-unitatea    |Unitatea      |Prezioa      |Moneta  |
 | ------------|-------------|----------|----------:|----------|
-| Garatzailea   | Contoso AEBetan  |Ordu | 200|USD     |
-| Garatzailea   | Contoso India |Ordu|   112|USD     |
+| Garatzailea   | Contoso US  |Hour | 200|USD     |
+| Garatzailea   | Contoso India |Hour|   112|USD     |
 
 
 **Kostu-tasen adibidea**
 
 | Soldata Banda     | Erakunde-unitatea    |Unitatea      |Prezioa      |Moneta  |
 | ----------------|-------------|----------|----------:|----------|
-| Nire company_Band1 | Contoso AEBetan  |Ordu | 145|USD     |
-| Nire company_Band2 | Contoso India |Ordu|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Nire company_Band1 | Contoso US  |Hour | 145|USD     |
+| Nire company_Band2 | Contoso India |Hour|   67|USD     |

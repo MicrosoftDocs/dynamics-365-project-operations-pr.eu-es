@@ -2,17 +2,19 @@
 title: Lotu benetako datuak jatorrizko erregistroekin
 description: Gai honetan azaltzen da nola lotu errealak jatorrizko erregistroekin, hala nola denbora sartzearekin, gastuen sarrerarekin edo materialaren erabilera erregistroekin.
 author: rumant
+manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991741"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852574"
 ---
 # <a name="link-actuals-to-original-records"></a>Lotu benetako datuak jatorrizko erregistroekin
 
@@ -77,7 +79,7 @@ Elkarrekin, **Transakzioaren jatorria** eta **Transakzioen konexioa** erakundeek
 
 Hurrengo adibidean Project Operations proiektuaren bizi-zikloko denbora sarreren prozesaketa tipikoa erakusten da.
 
-> ![Prozesatzeko denbora Project Service-en bizi-zikloaren itxiera da.](media/basic-guide-17.png)
+> ![Prozesatzeko denbora Project Service-en bizi-zikloaren itxiera da](media/basic-guide-17.png)
  
 1. Garai bateko sarrera bidaltzeak kutxako liburuaren bi lerro sortzea eragiten du: bata kostuen lerroa eta besterik gabeko salmenten lerroa.
 2. Garai bateko sarrera onartzeak benetako bi datu sortzen ditu: bata benetako kostuetarako eta besterik gabeko benetako salmentarako.

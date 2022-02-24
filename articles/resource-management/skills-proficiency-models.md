@@ -2,16 +2,18 @@
 title: Trebetasunak eta ziurtagiriak
 description: Gai honek baliabideei trebetasunen eta ziurtagiriaren ezaugarriak gehitzeari buruzko informazioa eskaintzen du.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990166"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128853"
 ---
 # <a name="skills-and-certifications"></a>Trebetasunak eta ziurtagiriak
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
@@ -41,5 +43,3 @@ Baliabideen eskakizunei ezaugarriak gehitzeak baliabide batek proiektu bateko ze
 3. **Trebetasunak** azpisarean, hautatu **+Gehitu eskakizunen ezaugarri berria**.
 4. Sortu azkarreko panelean, bilatu eta hautatu beharrezko ezaugarriak eta gehitu **Balorazio-balioa**.
 5. Hautatu **Gorde eta itxi**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

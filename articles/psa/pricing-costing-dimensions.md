@@ -2,11 +2,12 @@
 title: Prezioak eta kostuen neurriak hasierako orria
 description: Gai honek prezioen dimentsioen ikuspegi orokorra eskaintzen du.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998446"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151283"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Prezioak eta kostuen neurriak hasierako orria
 
@@ -41,7 +42,7 @@ Lanaren joera hauen izaera tipikoa eta lana burutzeko behar diren pertsonak kont
 
 PSA prezioen dimentsio multzo lehenetsia da. Hauek ikus ditzakezu **Project Service** > **Parametroak** atalean. Parametroen erregistroan, **Zenbatekoan oinarritutako prezioen dimentsioak** fitxan, egiaztatu **msdyn_resourcecategory** funtzioak eta **msdyn_organizationalunit** baliabideak antolatzeko unitateak **Salmentetan aplikagarria** eta **Kostuetan aplikagarria** eremuetan **Bai** aukera ezarrita dutela. Horri esker, eginkizun eta antolaketa unitateen konbinazio bakoitzeko prezioa eta kostua konfiguratu ahal izango dituzu.
 
-![Project Service-en parametroen pantaila-argazkia, "Salmentetan aplikagarria" eremua nabarmenduta dutela.](media/PS-OOB-parameters.png)
+![Project Service-en parametroen pantaila-argazkia, "Salmentetan aplikagarria" eremua nabarmenduta dutela](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > PSAren 3. bertsioaren berezko funtzio eta antolaketa unitateak prezioen dimentsio gisa erabiltzen aritu bazara, ez da aldaketarik egongo. Project Service erabiltzen jarraitu dezakezu ohi bezala. 
@@ -66,16 +67,13 @@ Hurrengo adibidean, baliabideari dagokion funtzioaren eta hornikuntza-unitateare
 
 | Funtzioa        | Erakunde-unitatea    |Unitatea      |Prezioa      |Moneta  |
 | ------------|-------------|----------|----------:|----------|
-| Garatzailea   | Contoso AEBetan  |Ordu | 200|USD     |
-| Garatzailea   | Contoso India |Ordu|   112|USD     |
+| Garatzailea   | Contoso US  |Hour | 200|USD     |
+| Garatzailea   | Contoso India |Hour|   112|USD     |
 
 
 **Kostu-tasen adibidea**
 
 | Soldata Banda     | Erakunde-unitatea    |Unitatea      |Prezioa      |Moneta  |
 | ----------------|-------------|----------|----------:|----------|
-| Nire company_Band1 | Contoso AEBetan  |Ordu | 145|USD     |
-| Nire company_Band2 | Contoso India |Ordu|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Nire company_Band1 | Contoso US  |Hour | 145|USD     |
+| Nire company_Band2 | Contoso India |Hour|   67|USD     |

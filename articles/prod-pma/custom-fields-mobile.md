@@ -2,9 +2,11 @@
 title: Ezarri eremu pertsonalizatuak Microsoft Dynamics 365 Project Timesheet mugikorretarako aplikazioa iOS eta Android
 description: Gai honek luzapenak eremu pertsonalizatuak ezartzeko ohiko ereduak eskaintzen ditu.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005736"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270978"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Ezarri eremu pertsonalizatuak Microsoft Dynamics 365 Project Timesheet mugikorretarako aplikazioa iOS eta Android
 
@@ -153,13 +155,13 @@ Eremuetako **Data** mota, propietate honek zerbitzariaren eta aplikazioaren arte
 
 Jarraian, denbora-orriaren sarrera sortzeko mugikorretarako aplikazioaren pantaila-argazkia dago. Kutxaz kanpoko eremuak eta eremu pertsonalizatua erakusten ditu "Denbora sarrera" atalean "Proba katea" deiturikoa dagoeneko "Bigarren aukera" enum balioarekin.
 
-![Probatu katea eremu pertsonalizatua aplikazioan.](media/timesheet-entry.jpg)
+![Probatu katea eremu pertsonalizatua aplikazioan](media/timesheet-entry.jpg)
 
 
 
 Jarraian, "Probako katea" eremu pertsonalizaturako eskuragarri dauden enum aukeretako bat hautatzen duen erabiltzailearen mugikorretarako pantaila-argazkia dago.  Bi aukerak "Lehen aukera" eta "Bigarren aukera" dira botoi irudi gisa agertzen direnak. Une honetan bigarren aukera dago hautatuta.
 
-![Aukera botoiak (irrati botoiak) Probako katea pertsonalizatutako eremurako.](media/enum-option.jpg)
+![Aukera botoiak (irrati botoiak) Probako katea pertsonalizatutako eremurako](media/enum-option.jpg)
 
 
 
@@ -171,7 +173,7 @@ Kontuan izan eremu pertsonalizatuek ez dutela zertan babeskopia datu baserik iza
 
 Jarraian, pantaila-argazkia erakusten da Visual Studio Aplikazioaren Objektuen Zuhaitzaren. TSTimesheetLine taularen luzapena erakusten du TestLineString eremuak eremu pertsonalizatu gisa gehituta.
 
-![Lerro katea.](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Lerro katea](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Erabili komando katea TSTimesheetSettings klaseko buildCustomFieldList metodoan metodoa orriaren sarrera atalean eremua erakusteko
 
@@ -317,11 +319,11 @@ final class TSTimesheetEntryService_Extension
 
 Jarraian, denbora-orria ikusteko erabiltzailearen mugikorretarako aplikazioaren pantaila-argazkia dago. "Informazio gehiago" botoia goiko eskuineko izkinan hautatu da "Ikusi xehetasun gehiago" aukera erakusteko.  
 
-![Ikusi xehetasun gehiago komandoa.](media/show-more.png)
+![Ikusi xehetasun gehiago komandoa](media/show-more.png)
 
 Jarraian, denbora-orriaren "Gehiago" sekzioa erakutsiz mugikorretarako aplikazioaren pantaila-argazkia dago. "Orri honen erabilera-tasa (kalkulatutako eremu pertsonalizatua)" izeneko eremu pertsonalizatua gehitu da aldiz-orriaren goiburuko atalean. Irakurtzeko soilik den "0,667" balioa ezartzen da eremu pertsonalizatuan.
 
-![Atal gehiago.](media/more-section.jpg)
+![Atal gehiago](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Zabaldu TSTimesheetTable taula pertsonalizatutako eremua izan dezan
 
@@ -414,7 +416,7 @@ Datu-base mailan denbora-orrien funtzionaltasunerako dagoen logikak espero bezal
 
 Proiektuaren parametroetatik, kutxaz kanpoko eremuak irakurtzeko soilik edo mugikorreko aplikazioan ezkutatuta egin ditzakezu. Ezarri aukerak **Mugikorreko orriak** atala **Denbora-orria** fitxategiaren fitxa **Proiektuen kudeaketa eta kontabilitate parametroak** orrialdea.
 
-![Proiektuaren parametroak.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Proiektuaren parametroak](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Aukeratzeko dauden jarduerak luzapenen bidez aldatzea
 

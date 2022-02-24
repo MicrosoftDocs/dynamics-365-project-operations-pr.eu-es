@@ -2,6 +2,8 @@
 title: Erakundearen unitateak
 description: Gai honek entitate-unitate eta unitateei buruzko informazioa ematen du Dynamics 365 Project Service Automation-en.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005061"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145614"
 ---
 # <a name="organizational-units"></a>Erakundearen unitateak 
 
@@ -53,7 +55,7 @@ Erakundearen unitateak bi funtzio betetzen ditu PSAn:
 - **Kontratazio Unitatea**: salmenta irabaztea eta bezeroari lana eta zerbitzuak entregatzea kudeatzeaz arduratzen den enpresa-taldea edo zatiketa ordezkatzen duen antolakuntza-unitatea. Kontratazio unitateak identifikatzen du **Kontratazio Unitatea** eremua goiburuko ataleko goiburuko atalean **Abagunea**, **Eskaintza**, **Proiektuaren kontratua**, eta **Proiektua** orrietakoak.
 - **Baliabide Unitatea**: baliabide bat dagokion edo esleitzen zaion unitate antolatzailea. Erakundearen unitate honek bere baliabideak eman ditzake laneko aitorpenetan (SOWs) eta unitate kontratatzailearen jabetzakoak diren eginkizunetarako.
 
-> ![Kontratazio unitateak eta baliabide unitateak.](media/advanced-1.png)
+> ![Kontratazio unitateak eta baliabide unitateak](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Erakunde-unitatearen FAQak
 
@@ -77,14 +79,14 @@ Dynamics 365 ezartzen duzunean, optimizatu segurtasun baimena negozio unitateen 
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Erakunde unitateen eta negozio unitateen adibidea
 
-Contoso, Ltd.-ek Microsoft teknologiaren praktika oparoa du. Dabid eta Aizpea biak C\# garatzaileak dira, baina Aizpea Gasteizen dago, Dabid Iruñekoa den bitartean. Proiektuen konpromiso gehienek Contoso India eta Contoso US baliabideak behar dituzte, eta Dabid eta Aizpeak segurtasun maila bera eskatzen dute praktika arlo horretako proiektuetarako. Hala ere, Contoso India garatzaileen kostua ezberdina da Contoso US-eko garatzaileen kostua.
+Contoso, Ltd.-ek Microsoft teknologiaren praktika oparoa du. Dabid eta Aizpea biak C\# garatzaileak dira, baina Aizpea Gasteizen dago, Dabid Iruñekoa den bitartean. Proiektuen konpromiso gehienek Badiola Iruña eta Badiola Gasteizeko baliabideak behar dituzte, eta Dabid eta Aizpeak segurtasun maila bera eskatzen dute praktika arlo horretako proiektuetarako. Hala ere, Badiola Iruñeko garatzaileen kostua ezberdina da Badiola Gasteizeko garatzaileen kostua.
 
 Hemen gertakari hau diseinatzeko modu ezin hobea da Dynamics 365 eta PSA erabiliz.
 
 1. Sortu Microsoft teknologiaren praktika negozio unitate gisa eta lotu Dabid eta Aizpea berarekin. Horrela, bi langileek segurtasun maila berdina izan dezaketela bermatzen laguntzen duzu praktika arloko edozein proiektuetarako. Biek egiaztatu ahal izango dute aurrerapena eta denbora, gastuak eta zereginen eguneratzeak jakinarazi. 
 2. Sortu bi antolakuntza unitate proiektuaren kostua behar bezala islatzen dela bermatzeko. 
-3. Elkartu Aizpea Contoso US-ekin eta lotu Dabid Contoso Indiarekin.
-4. Esleitu kostu prezio-zerrenda egokiak erakunde biei. Horrela, Dabid eta Aizpea proiektuetan grabatutako kostuak zehatz-mehatz kontratatzen dituzu Contoso US eta Contoso India arteko kostuen aldea.
+3. Elkartu Aizpea Badiola Gasteizekin eta lotu Dabid Badiola Iruñearekin.
+4. Esleitu kostu prezio-zerrenda egokiak erakunde biei. Horrela, Dabid eta Aizpea proiektuetan grabatutako kostuak zehatz-mehatz kontratatzen dituzu Badiola Gasteiz eta Badiola Iruñea arteko kostuen aldea.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Dynamics 365-en salmenta lurraldeekin erlazionatuta daude antolakuntza unitateak?
 
@@ -94,11 +96,11 @@ Erakunde unitatea enpresako barne-talde edo zatiketa da, beste dibisio batzuei e
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Erakunde unitateen eta salmenta-lurraldeen adibidea
 
-Contoso, Ltd.-k bi garapen zentro ditu: Contoso US eta Contoso India. Baliabideen kostuak asko dira bi garapen zentro horien artean.
+Badila, Ltd.-k bi garapen zentro ditu: Badiola Gasteiz eta Badiola Iruñea. Baliabideen kostuak asko dira bi garapen zentro horien artean.
 
-Contoso-k nazioarteko merkatu askotan saltzen ditu bere IT zerbitzuak, hala nola Latinoamerikan, Ipar Amerikan, Asia-Pazifikoan, Mendebaldeko Europan eta Ekialde Hurbilean. Proiektu bereko funtzioen fakturen tasak oso alda daitezke merkatu hauetan.
+Badiolak nazioarteko merkatu askotan saltzen ditu bere IT zerbitzuak, hala nola Latinoamerikan, Ipar Amerikan, Asia-Pazifikoan, Mendebaldeko Europan eta Ekialde Hurbilean. Proiektu bereko funtzioen fakturen tasak oso alda daitezke merkatu hauetan.
 
-Contoso US eta Contoso Indiak erakundearen unitate gisa eratu beharko lirateke, eta erakundearen unitate bakoitzak bere kostuen prezio-zerrenda izan beharko luke. Asia-Pazifikoa, Latinoamerika, Ipar Amerika, Mendebaldeko Europa eta Ekialde Hurbilean salmenta-lurralde gisa ezarri beharko lirateke, eta salmenta-lurralde bakoitzak bere salmenta prezio-zerrenda izan beharko luke.
+Badiola Gasteizek eta Badiola Iruñeak erakundearen unitate gisa eratu beharko lirateke, eta erakundearen unitate bakoitzak bere kostuen prezio-zerrenda izan beharko luke. Asia-Pazifikoa, Latinoamerika, Ipar Amerika, Mendebaldeko Europa eta Ekialde Hurbilean salmenta-lurralde gisa ezarri beharko lirateke, eta salmenta-lurralde bakoitzak bere salmenta prezio-zerrenda izan beharko luke.
 
 ### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Zergatik dago murrizketarik prezio-zerrenden erakundearen unitateekin lotzeari dagokionez? 
 
@@ -122,7 +124,7 @@ Ez. PSAren oraingo oharrean, erakundearen unitateak ez dira hierarkikoak. Horrek
 Kostu zentroak, zatiketak, fakturazio bulegoak, etab., Hierarkia konplexua baduzu, konfiguratu hierarkia horren hosto-nodoak antolakuntza unitate desberdin gisa.
 Hurrengo adibidean hierarkia tipikoa agertzen da:
 
-**ContosoIndia**
+**Badiola Iruñea**
 
   - SAP praktika 
 
@@ -147,14 +149,14 @@ Hurrengo adibidean hierarkia tipikoa agertzen da:
     - Aholkularitza funtzionalak 
  
 Zure hierarkia antzekoa bada, zerrenda lau gisa ezarri behar duzu hemen:
-- Contoso India - SAP Praktika - Aholkulari Teknikoak 
-- Contoso India - SAP Praktika - Aholkulari funtzionala       
-- Contoso India - Microsoft Technology Aholkulari funtzionala 
-- Contoso India - Microsoft Technology Aholkulari funtzionala 
-- Contoso US - SAP Praktika - Aholkulari Teknikoak  
-- Contoso US - SAP Praktika - Aholkulari funtzionala  
-- Contoso US - Microsoft Technology Aholkulari teknikoak 
-- Contoso US - Microsoft Technology Aholkulari funtzionala
+- Badiola Iruñea - SAP Praktika - Aholkulari Teknikoak 
+- Badiola Iruñea - SAP Praktika - Aholkulari funtzionala       
+- Badiola Iruñea - Microsoft Technology Aholkulari funtzionala 
+- Badiola Iruñea - Microsoft Technology Aholkulari funtzionala 
+- Badiola Gasteiz - SAP Praktika - Aholkulari Teknikoak  
+- Badiola Gasteiz - SAP Praktika - Aholkulari funtzionala  
+- Badiola Gasteiz - Microsoft Technology Aholkulari teknikoak 
+- Badiola Gasteiz - Microsoft Technology Aholkulari funtzionala
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Zerbitzu profesionalean maila bakarrean lan egiten duen enpresa txiki bat gara. Nola erabil dezakegu erakundearen unitatearen kontzeptua PSAren egungo bertsioan?
 
@@ -165,6 +167,3 @@ Zure enpresak kostuen prezioen zerrenda bat duen unitate gisa funtzionatzen badu
 Proiektua bere kabuz sortutakoan, proiektuaren kontratazio unitate lehenetsia sortzen duen erabiltzailea da. Erabiltzailea ere proiektu kudeatzaile lehenetsia da. Proiektua salmentako entitate batera mapatzen bada, aurrekontu edo proiektu kontratu gisa, proiektuaren kontratazio unitatea salmenta entitatean oinarritzen da. Kasu honetan, proiektuaren kalkuluak berriro kalkulatu litezke, izan ere, kostu-estimazioen aldaketak kalkulatzeko kostu-prezioen zerrenda erabiltzen da kontratazio-unitatea aldatzen bada. Salmenten prezioen zerrenda aldatuko diren salmenten kalkuluak kalkulatzeko erabiltzen da, proiektuaren prezioen zerrenda aurrekontuarekin sinkronizatzeko.
 
 The **Kontratazio Unitatea** eta **Moneta** Proiektuko eremuak editatzeko blokeatuta daude, proiektuaren mapak egiten dituen salmenta-erakundean (aurrekontua edo proiektu kontratua) dituzten balioekin sinkronizatuta egon behar dutelako.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

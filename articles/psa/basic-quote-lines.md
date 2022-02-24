@@ -2,6 +2,8 @@
 title: Eskaintzak eta eskaintzaren lerroak
 description: Gai honek eskaintza eta eskaintzaren lerroei buruzko informazioa ematen du.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995431"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145092"
 ---
 # <a name="quotes-and-quote-lines"></a>Eskaintzak eta eskaintzaren lerroak
 
@@ -84,7 +86,7 @@ Zerbitzu profesionalen erakundeek normalean bezeroei eskaini eta fakturatzen die
 
 Transakzio-sailkapen hauetako bat edo gehiago eskaintzaren lerro bakoitzarekin erlazionatuta egon daiteke. Eskaintza irabazi ondoren, transakzio-sailkapenaren eta eskaintzaren lerroaren arteko esleipenak kontratuaren lerrora transferitzen dira.
  
-> ![Eskaintzen eta kontratazio lerroen esleipenak transakzio motei egiteko pantailaren argazkia.](media/basic-guide-5.png)
+> ![Eskaintzen eta kontratazio lerroen esleipenak transakzio motei egiteko pantailaren argazkia](media/basic-guide-5.png)
   
 Adibidez, eskaintzak bi eskaintzaren lerro izan ditzake: 
 - Ordua eta materiala fakturatzeko metodoa erabiltzen duten aholkularitza lana, denbora eta kuota transakzioen sailkapenak aplikagarriak direnean. Adibidez, ordainketa denbora eta kuota guztiak **Dinamika AX inplementazioa** adibide-proiekturako, bezeroari fakturatzen zaizkio erabiltzen diren denbora eta materialen arabera. 
@@ -129,6 +131,3 @@ Prezio-finkoko eskaintzen lerrorako, erabil dezakezu **Fakturen egutegia** saret
 - Berdin banatzen diren fakturazio-mugarriak sortzeko, hautatu fakturen maiztasuna, sartu fakturazioaren hasiera-data aurrekontuen lerroan eta hautatu **Eskatutako amaiera-data** orrialdeko eskaintza lortzeko **Laburpena** sekzioan eskaintzaren goiburuan. Ondoren, hautatu **Sortu aldizkako mugarriak** hautatutako fakturen maiztasunean oinarritutako mugarri berdinak sortzeko. 
 - Ordainpeko fakturaziorako mugarri bat sortzeko, mugarri bat sortu eta, ondoren, sartu eskaintzaren lerroko balioa mugarri zenbateko gisa.
 - Proiektu-planean zeregin zehatzetan oinarritutako fakturazio-mugarriak sortzeko, mugarri bat sortu eta proiektuaren egitarauaren elementua esleitu ezazu fakturazio-mugarriko erabiltzailearen interfazean.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

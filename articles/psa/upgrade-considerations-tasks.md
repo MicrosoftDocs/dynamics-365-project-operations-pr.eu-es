@@ -1,6 +1,8 @@
 ---
 title: Zereginen xehetasunen egiturari buruzko gogoeta eguneratuak
 description: Gai honek zereginen xehetasunen egitura Project Service Automation-en 2.x-tik 3.x-ra bertsio-berritzeari buruzko informazioa ematen du.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992326"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149528"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Zereginen xehetasunen egiturari buruzko gogoeta eguneratuak
 
@@ -32,20 +34,20 @@ Gai honek zereginen xehetasunen egitura Project Service Automation-en 2.x-tik 3.
 ## <a name="key-entities"></a>Entitate gakoak
 Jada baliabidez kargatutako zereginen xehetasunen egitura zehatza lortzeko, erakunde hauek behar dira:
 
-- [Proiektua](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Proiektu-taldea](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Proiektuaren zeregina](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Baliabide-esleipenak](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Proiektuaren zereginen mendekotasuna](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Baliabide erreserbagarriak](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Proiektua](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Proiektu-taldea](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Proiektuaren zeregina](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Baliabide-esleipenak](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Proiektuaren zereginen mendekotasuna](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Baliabide erreserbagarriak](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Baliabideek kargatutako zereginen xehetasunen egitura zehazteko, urrats hauei jarraitu behar diezu:
 
-1. Sortu proiektu berria. Proiektu berria sortzeari buruzko informazio gehiago lortzeko, ikusi [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Sortu zeregin bat edo gehiago. Zeregin bat sortzeari buruzko informazio gehiago lortzeko, ikusi [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Zehaztu zereginaren mendekotasunak. Informazio gehiago lortzeko, ikusi [Proiektuaren zereginen mendekotasuna](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Esleitu proiektuko taldekideak proiektuari. Informazio gehiago lortzeko, ikus [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Esleitu proiektuko taldekideak zereginei. Informazio gehiago lortzeko, ikus [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Sortu proiektu berria. Proiektu berria sortzeari buruzko informazio gehiago lortzeko, ikusi [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Sortu zeregin bat edo gehiago. Zeregin bat sortzeari buruzko informazio gehiago lortzeko, ikusi [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Zehaztu zereginaren mendekotasunak. Informazio gehiago lortzeko, ikusi [Proiektuaren zereginen mendekotasuna](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Esleitu proiektuko taldekideak proiektuari. Informazio gehiago lortzeko, ikus [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Esleitu proiektuko taldekideak zereginei. Informazio gehiago lortzeko, ikus [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Proiektu-taldeko erlazioak
 
@@ -94,6 +96,3 @@ Bertsio-berritze arrakastatsua ziurtatzeko, harreman hauek ongi mantendu behar d
 
 - Proiektuaren zereginen mendekotasun guztiak proiektu berarekin lotuta egon behar dute.
 - Zeregin batek ezin dio erreferentzia egin mendekotasun berari behin baino gehiagotan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

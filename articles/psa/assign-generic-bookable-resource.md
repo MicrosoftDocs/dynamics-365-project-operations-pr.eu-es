@@ -2,6 +2,8 @@
 title: Esleitu erreserbatzeko baliabide generikoak zeregin eta proiektu talde bati
 description: Gai honek zereginetara eta proiektu taldeetara baliabide generikoak erreserbatzeko informazioa eskaintzen du.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9a81d7242e78dafad871bb07c03459f1de21884d196c6ee7dd9619b2c410404
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 684167f0a68872ef871fbaa06c5161e78045c9a5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007086"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145388"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Esleitu baliabide erreserbagarri generikoak zeregin bati eta sortu baliabide eskakizunak 
 
@@ -33,21 +35,21 @@ Proiektuari izen edo benetako baliabideak erreserbatzeaz eta esleitzeaz gain, ba
 
 1. Project Service Automation (PSA) atalean, ireki **Proiektua** orrialdea eta **Ordutegiak** fitxan, sartu baliabide generikoaren izenaren posizioa ordutegiko **Baliabideak** gelaxkan. Edo egin klik **Baliabideak** ikonoa gelaxkan, baliabide hautatzailea irekitzeko eta ondoren sortu nahi duzun baliabide generikoaren izena.
 
-![Taldekide generiko bat sortzea eta esleitzea.](media/RM-how-to-9.png)
+![Taldekide generiko bat sortzea eta esleitzea](media/RM-how-to-9.png)
 
 Honek irekiko du **Sorrera bizkorra: proiektuko taldekidea** panela. 
 
 2. Sartu baliabide generikoen taldeko kidearen rola eta antolaketa unitatea eta egin klik **Gorde** botoian.
 
-![Taldekide generikoko kideak azkar sortu.](media/RM-how-to-10.png)
+![Taldekide generikoko kideak azkar sortu](media/RM-how-to-10.png)
 
 3. Baliabide generikoen taldeko kide berria sortu ondoren, zereginari esleitzen zaio. Baliabide generikoa zereginen egutegiko beste zeregin batzuei esleitzen jarraitu dezakezu.
 
-![Dauden taldekide generikoak zereginetara esleitzea.](media/RM-how-to-11.png)
+![Dauden taldekide generikoak zereginetara esleitzea](media/RM-how-to-11.png)
 
 4. Baliabide generikoa esleitu ondoren, baliabide eskakizuna sor dezakezu eta bete baliabideen kudeatzaileari zuzenean erreserbatuz edo bidaliz.
 
-![Taldekide generikorako baldintza bat sortzea.](media/RM-how-to-12.png)
+![Taldekide generikorako baldintza bat sortzea](media/RM-how-to-12.png)
 
 Taldekideen sarean, lehenago aipatu bezala baliabide hautatzailea erabiltzeaz gain, baliabide generikoak zuzenean gehi ditzakezu. Baliabideak fitxategian zehaztutako hasiera/amaiera datetan eta esleipen metodoan oinarritutako baliabide eskakizunarekin gehitzen dira **Sorrera bizkorra: proiektuko taldekidea** panelean.
 
@@ -55,8 +57,5 @@ Desberdintasun bat ikus dezakezu talde generikoko kidea zuzenean gehitzen baduzu
 
 Gainera, **baliabide eskakizuna** atalean ere klik egin dezakezu taldeko sarean eskakizuna irekitzeko eta trebetasunak, baliabide hobetsiak eta abar gehitzeko.
 
-![Baliabideen eskakizuna.](media/RM-how-to-13.png)
+![Baliabideen eskakizuna](media/RM-how-to-13.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

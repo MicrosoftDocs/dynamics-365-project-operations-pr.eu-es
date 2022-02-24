@@ -2,6 +2,8 @@
 title: Salmenten aurreikuspenak eta proiektuak
 description: Gai honek salmenta prozesuko antolaketa eta aurreikuspenak aprobetxatzeari buruzko informazioa eskaintzen du.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995161"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148358"
 ---
 # <a name="sales-estimates-and-projects"></a>Salmenten aurreikuspenak eta proiektuak
 
@@ -35,11 +37,11 @@ Salmenta prozesuan zehar, salmenten aurreikuspenak sor ditzakezu proiektu bat sa
 
 Proiektuetan oinarritutako eskaintzaren lerroa sortzen duzunean, beste proiektu bat sor dezakezu edo lehendik dagoen proiektu batekin lotu **Eskaintzaren lerroa** orrian. 
 
-> ![Eskaintzaren lerroaren inprimakia.](media/project-8.png)
+> ![Eskaintzaren lerroaren inprimakia](media/project-8.png)
  
 Eskaintzaren lerroko xehetasunetatik abiatuta beste proiektu bat sortzen duzunean, proiektuaren txantiloiak aprobetxatu ditzakezu. Proiektuaren txantiloiak erakunde baten proiektu tipikoen planak eta finantza-aurreikuspenak adierazten dituzten proiektu ereduak dira. Aurreko proiektuetako proiektu-planen eta aurreikuspenen kopiak ere irudikatu ahal izango dituzte.
 
-> ![Eskaintzaren lerroaren xehetasunak.](media/project-9.png)
+> ![Eskaintzaren lerroaren xehetasunak](media/project-9.png)
   
 Proiektu bat eskaintza batetik sortzean, proiektua automatikoki lotuko da eskaintzaren lerroarekin.
 
@@ -52,6 +54,3 @@ Laneko ahalegina eta antolaketaren aurreikuspenak zehaztu ditzakezu **Antolaketa
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Inportatu aurreikuspenak proiektu batetik eskaintza batera
 
 Proiektuaren aurreikuspenak zehaztu ondoren, eskaintzaren lerrora inporta ditzakezu. **Eskaintzaren lerroaren xehetasunak** orrian, hautatu **Inportatu kalkuluetatik** aukera zintan proiektuaren aurreikuspenak laburbiltzeko transakzio mota, funtzioa edo zeregin mailaren arabera.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

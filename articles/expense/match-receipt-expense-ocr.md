@@ -2,9 +2,11 @@
 title: Kapturatu ordainagiriak OCR erabiliz
 description: Gai honetan ordainagirien karaktereen ezagutza optikoa (OCR) prozesatzeari buruzko informazioa ematen da.
 author: suvaidya
-ms.date: 11/10/2021
+manager: AnnBe
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
-ms.translationtype: MT
+ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798025"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499836"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Kapturatu ordainagiriak OCR erabiliz
 
@@ -52,7 +54,7 @@ Gastua sortzeko edo ordainagiriaren gastuarekin bat egiteko, jarraitu urrats hau
 
 ## <a name="installation"></a>Instalazioa
 
-Gastu-gaitasun aurreratu hauek erabiltzeko, instalatu Microsoft-en Dynamics 365 Finance Expense Management Service gehigarria eta aktibatu eginbideak zure instantzian. Gehigarria zure proiektutik atzi dezakezu Microsoft Dynamics Lifecycle Services (LCS) atalean.
+Gastu-gaitasun aurreratu hauek erabiltzeko, instalatu Microsoft Dynamics 365 Finance-rako Gastuen kudeaketa-zerbitzua gehigarria, eta aktibatu funtzioak zure instantzian. Gehigarria zure proiektuan sar dezakezu Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Hasi saioa LCS-n eta ireki nahi duzun ingurunea.
 2. Joan **Xehetasun guztiak**.
@@ -73,7 +75,7 @@ Ezaugarri hauek aktibatzean ekintza hauek gertatzen dira:
 - Gastu eremuen ikusgarritasunerako menu elementu berria gehitzen da.
 - Lehenengoa ireki dezakezu **Gastuen txostenak** orrialdera joanda **Gastuen kudeaketa> Nire gastuak> Gastuen txostenak**.
 - Lan-fluxuek eta edozein onarpenek lehendik dauden gastuen txostenen orrialdera eramaten zaituzte.
-- Ordainagiriak Microsoft Azure Zerbitzu kognitiboen bidez prozesatuko dira, eta metadatuak atera eta gehituko dira.
+- Ordainagiriak bidez prozesatuko dira Microsoft Azure Cognitive Services-k eta metadatuak erauzi eta gehituko dira.
 - Erantsitako loturarik gabeko ordainagiriak biltzen dituen gastu-txostena sortzeko aukera ematen duen aukera gehitzen da.
 - Gastu txostenetan gehitzen den aukera batek ordainagiri batetik gastu lerro bat sortzeko aukera ematen du edo lehendik dagoen ordainagiria lehendik dagoen gastu lerro batekin parekatzen saiatzen da.
 
@@ -85,18 +87,7 @@ Ez, Microsoft-ek Ikaskuntza automatiko eredu orokorra eraiki du ordainagiriak pr
 
 **Non dago erabilgarri eta prozesatu eginbide hau?**
 
-Eginbide honen erabilgarritasuna eskualde ezberdinetan hurrengo taulan ageri da. Zure eskualdea ez bada onartzen, bidali eskaera zure eskualdeko OCR zerbitzuaren erabilgarritasunari lehentasuna emateko. 
-
-| Eskualdea | Onartzen da                         |
-|--------|-----------------------------------|
-| AEB    | Yes                               |
-| CAN    | Yes                               |
-| Erresuma Batua     | Yes                               |
-| AUS    | Yes                               |
-| EB     | Partzialki. Ingelesezko ordainagiriak soilik. |
-| Asia   | No                                |
-| Japonia  | No                                |
-| Afrika | No                                |
+Gaur egun, Estatu Batuak onartzen dira.
 
 **Nora doaz nire ordainagiriak?**
 

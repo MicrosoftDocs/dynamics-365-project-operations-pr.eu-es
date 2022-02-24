@@ -2,17 +2,18 @@
 title: Enpresen arteko fakturazioaren informazio orokorra
 description: Gai honek enpresen arteko fakturazioa proiektuen inguruko informazioa eta adibideak eskaintzen ditu.
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005376"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595415"
 ---
 # <a name="intercompany-invoicing-overview"></a>Enpresen arteko fakturazioaren informazio orokorra
 
@@ -20,9 +21,9 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 Zure erakundeak dibisio, filial eta beste pertsona juridiko ugari izan ditzake produktuak eta zerbitzuak elkarri proiektuetarako transferitzen dituztenak. Zerbitzua edo produktua eskaintzen duen pertsona juridikoari deitzen zaio *pertsona juridiko mailegu-emailea*. Zerbitzua edo produktua jasotzen duen pertsona juridikoari deitzen zaio *pertsona juridiko mailegu-hartzailea*.
 
-Ondorengo ilustrazioak bi pertsona juridiko, esate baterako, agertoki tipikoa erakusten du. Contoso Robotics USA (maileguan dagoen pertsona juridikoa) eta Contoso Robotics UK-k (mailegu-entitate juridikoa) baliabideak partekatzen ditu abentura lanak bezeroarentzako proiektu bat emateko. Eszenatoki honetarako, Contoso Robotics USA-k kontratua du lana Adventure Works-i entregatzeko.
+Hurrengo ilustrazioak agertoki tipikoa erakusten du, non bi pertsona juridikok, Contoso Robotics USA-k (mailegu-hartzailea den pertsona juridikoa) eta Contoso Robotics UK-k (mailegu-emaile den pertsona juridikoa) baliabideak partekatzen dituzten bezeroak, Adventure works-ek proiektu bat entregatzeko. Eszenatoki honetarako, Contoso Robotics USA-k kontratua du lana Adventure Works-i entregatzeko.
 
-![Enpresen arteko fakturazioa.](./media/IntercompanyScenario.png) 
+![Enpresen arteko fakturazioa](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations fluxua erabiltzen du enpresen arteko transakzioak prozesatzeko:
 
@@ -35,13 +36,10 @@ Dynamics 365 Project Operations fluxua erabiltzen du enpresen arteko transakzioa
 
 Ondorengo diagramak enpresen arteko fakturazioa erakusten du kontabilitateko gertaerekin eta liburu nagusian espero diren bidalketekin erlazionatuta.
 
-![Enpresen arteko fluxua.](./media/IntercompanyFlow.png)
+![Enpresen arteko fluxua](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Baliabide gehigarriak
 
 - [Konfiguratu enpresen arteko fakturazioa](configure-intercompany-invoicing.md)
 - [Grabatu enpresen arteko transakzioak](create-intercompany-transactions.md)
 - [Sortu enpresen arteko bezeroa eta saltzaileen fakturak](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

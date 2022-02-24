@@ -2,22 +2,24 @@
 title: Konfiguratu prezio-zerrendak
 description: Gai honek kostuen eta salmenten prezio-zerrendak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009471"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180177"
 ---
 # <a name="set-up-price-lists"></a>Konfiguratu prezio-zerrendak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Prezioen zerrendak Dynamics 365 Project Operations-en tasen katalogoa irudikatzen du. Tarifek kostua, salmentak eta fakturen tasak adierazten dituzte. Prezioen zerrendak kostuen tasak edo salmenten eta fakturen tasak adierazten dituen arabera, prezioen zerrendaren testuingurua da **Salmentak** edo **Kostua**.
+Dynamics 365 Project Operations-eko prezio zerrendek tasen katalogoa adierazten dute. Tarifek kostua, salmentak eta fakturen tasak adierazten dituzte. Prezioen zerrendak kostuen tasak edo salmenten eta fakturen tasak adierazten dituen arabera, prezioen zerrendaren testuingurua da **Salmentak** edo **Kostua**.
 
 Hurrengo luzapenak Proiektuaren eragiketetarako zehatzak dira eta Dynamics 365 Sales-eko prezio zerrendetan aplikatzen dira.
 
@@ -38,6 +40,3 @@ Ondorengo taulan eremuko eremuak biltzen dira **Orokorra** salmentetako prezioen
 | Moneta | **Orokorra** fitxa eta **Sortu bizkor** inprimakiak | Eremu hau prezio zerrenda honekin erlazionatutako rol, kategoria edo prezio zerrendako elementu bakoitzaren moneta lehenetsi ahal izateko erabiltzen da. | **Salmentak** prezioen zerrendan, rolak, kategoriak edo prezioen zerrendako elementuen lerroak ezin dira moneta ez den beste moneta batean sortu. **Kostua** prezioen zerrendan, edozein preziotan lerro bat sor dezakezu. Hemen definitutako moneta lehenetsi gisa erabiltzen da. Lotutako rolen prezioak dituen erabiltzailearen konfigurazioak balio hori gainidatz dezake laneko kostuen tasa konfiguratzea edozein monetan. Kategoriaren kostuen tasak eta prezioen zerrendako elementuen kostuak hemen definitutako monetan soilik konfigura daitezke. |
 | Denbora-unitatea | **Orokorra** fitxa eta **Sortu bizkor** inprimakiak | Eremu hau prezio zerrenda honekin erlazionatutako rol bakoitzaren denbora-unitate lehenetsi ahal izateko erabiltzen da. | Eremu balio hau erlazionatutako rol prezioen konfigurazioan soilik erabiltzen da. **Kostua** eta **Salmentak** prezioen zerrendetan, edozein denbora-unitatetan lerro bat sor dezakezu. Hemen definitutako denbora-unitate lehenetsi gisa erabiltzen da. Lotutako rolen prezioak dituen erabiltzailearen konfigurazioak balio hori gainidatz dezake laneko kostuen eta fakturazio-tasa konfiguratzea edozein denbora-unitatetan. |
 | Deskribapena | **Orokorra** fitxa eta **Sortu bizkor** inprimakiak | Testu eremua da prezio zerrendaren lerro anitzeko deskribapena egiteko aukera emateko. | Eremu hau **Elkartua** erlazionatutako prezio zerrendak dituzten hainbat erakundetako prezioen zerrendari buruzko ikuspegiak. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

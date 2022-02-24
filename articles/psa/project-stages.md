@@ -2,6 +2,8 @@
 title: Proiektuaren fase motak
 description: Gai honek proiektuaren faseei buruzko informazioa ematen du.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e4f50d12b4f0bf1586d0a5702bcd38b891590bffe0d3f9661d7f5d170877b54e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 61db23e19614f5c3be5c8b46fbf72463705e409c
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996871"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148088"
 ---
 # <a name="project-stage-types"></a>Proiektuaren fase motak 
 
@@ -63,6 +65,3 @@ Proiektuko lanak amaitutakoan, proiektu-kudeatzaileak fasea eguneratu dezake **O
 ## <a name="close"></a>Itxi
 
 Proeikturako trantsakzio guztiak erregistratu direnean, proiektu-kudeatzaileak fasea eguneratu dezake **Itxi** fasera. Puntu horretan, ezin da transakziorik erregistratu, eta proiektua irakurtzeko soilik egongo da.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

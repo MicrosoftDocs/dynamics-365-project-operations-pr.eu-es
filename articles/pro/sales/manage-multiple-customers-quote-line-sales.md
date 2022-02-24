@@ -2,16 +2,18 @@
 title: Kudeatu proiektuetan oinarritutako eskaintzaren lerroetako hainbat bezero - arina
 description: Gai honek proiektuak oinarritutako eskaintza-lerroetan bezero anitz kudeatzeko moduari buruzko informazioa azaltzen du.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001686"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176461"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Kudeatu proiektuetan oinarritutako eskaintzaren lerroetako hainbat bezero - arina
 
@@ -41,6 +43,3 @@ Hurrengo taulan proiektuan oinarritutako aurrekontu lerro bateko aurrekontu lerr
 Fakturazio zatitutako ehunekoak linean edita ditzakezu. Fakturazio zatitutako ehunekoak % 100 guztira ez direnean, errore bat gertatzen da. Fakturazio zatitutako ehunekoak editatu ondoren, freskatu aurrekontuaren lerroaren orria errorea ezabatzeko.
 
 Erabili aurrekontu lerroaren bezeroen azpisailean modu uniformean banatu ekintza aurrekontu lerro bezero guztiei fakturazio zatiak banatzeko. Biribiltze faktore bat badago, hori biribiltze bezeroari gehituko zaio. Aurrekontu lerroetako bezeroetako bat beti biribildutako bezero gisa etiketatuta dago, hau da, aurrekontu lerroaren bezeroaren erregistroak biribiltze bandera ezarrita du **Bai**. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

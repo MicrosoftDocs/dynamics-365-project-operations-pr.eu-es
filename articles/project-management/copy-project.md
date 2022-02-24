@@ -2,29 +2,30 @@
 title: Kopiatu proiektu bat
 description: Gai honek proiektuak Dynamics 365 Project Operations-en kopiatzeari buruzko informazioa ematen du.
 author: ruhercul
-ms.date: 05/21/2021
+manager: AnnBe
+ms.date: 02/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007176"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479504"
 ---
 # <a name="copy-a-project"></a>Kopiatu proiektu bat
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations-ekin, proiektu berriak azkar eraiki ditzakezu **Kopiatu proiektua** hautatuta **Proiektuak** inprimakian. Proiektu bat kopiatzeko, ireki kopiatu nahi duzun proiektua eta hautatu **Kopiatu proiektua**. Ekintzak honako hau kopiatuko du:
+Dynamics 365 Project Operations-ekin, proiektu berriak azkar eraiki ditzakezu **Kopiatu proiektua** hautatuta **Proiektuak** inprimakian. Proiektu bat kopiatzeko, ireki kopiatu nahi duzun proiektua eta hautatu **Kopiatu proiektua**. Ekintzak kopiatuko ditu:
 
-- Proiektuaren propietateak 
-- Atazen xehapenaren egitura
+- Proiektuaren propietateak (aurreikusitako hasiera-data jatorrizko proiektuan kopiatuta dago)
+- Zereginen xehetasunen egitura
 - Proiektuaren taldeko kideak
 - Proiektuaren aurreikuspenak
 - Proiektuaren gastuen aurreikuspenak
-- Proiektu-materialaren aurreikuspenak
 
 ## <a name="project-properties"></a>Proiektuaren propietateak
 
@@ -41,15 +42,11 @@ Proiektua kopiatzen denean, eremu hauetako balioak kopiatzen dira:
 - Proiektuaren egoera orokorra
 - Iruzkinak
 - Aurreikuspenak
-- Aurreikusitako Hasiera Data: proiektua kopiatik sortu den data da.
-- Kalkulatutako amaiera-data: data hau kopiatik egindako proiektu berriaren hasierako dataren arabera egokitzen da.
+- Aurreikusitako hasiera-data
+- Amaiera-data
 - Ahalegina (orduak)
 - Aurreikusitako lan-kostua
 - Gastuetan oinarritutako aurreikusitako kostua
-- Aurreikusitako materialaren kostua
-
-> [!NOTE]
-> Kopiatu proiektua martxan dagoen eragiketa da. Proiektuaren erregistroak, dagozkien atributuak eta erlazionatutako entitate asko ere kopiatzen dira. Eragiketaren iraupen luzea dela eta, kopia hasi ondoren, xede proiektuaren orria blokeatuta dago editatzeko, kopia eragiketa amaitu arte.
 
 ## <a name="work-breakdown-structure"></a>Atazen xehapenaren egitura
 
@@ -61,7 +58,7 @@ Proiektu talde bat jatorrizko proiektutik kopiatzen denean, baliabide generikoak
 
 ## <a name="estimates"></a>Aurreikuspenak
 
-Proiektua kopiatzen denean, baliabide, gastu eta materialen estimazio lerroak jatorrizko proiektuetik kopiatzen dira. 
+Proiektua kopiatzerakoan, baliabideak eta gastuak kalkulatzeko lerroak jatorrizko proiektuetik kopiatzen dira. 
 
 Kopiatu proiektua aukerara programaren bidez nola sartu jakiteko, ikusi [Garatu proiektuaren txantiloiak Kopiatu proiektua aukerarekin](dev-copy-project.md).
 

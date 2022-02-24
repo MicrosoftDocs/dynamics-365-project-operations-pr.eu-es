@@ -1,10 +1,12 @@
 ---
-title: Gastuen txostenak berriro irudikatu dira (bideoa dauka)
+title: Gastu-txostenen itxura berria
 description: Gai honek gastuen txostenak sartzeko esperientzia birmoldatu eta berriro pentsatutakoa azaltzen du.
 author: suvaidya
-ms.date: 12/16/2021
+manager: AnnBe
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
-ms.translationtype: MT
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7941044"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717680"
 ---
 # <a name="expense-reports-reimagined"></a>Gastu-txostenen itxura berria
 
@@ -26,13 +28,13 @@ Gastuen txostena berriro diseinatu da prozesua errazteko eta txostena osatzeko b
 
 - Gastuaren kudeaketa laneko espazio berria, zure delegatuaren gastuetara sartzeko aukera ematen duena.
 - Ordainagiriekin bat datorren esperientzia berria goiburu mailako ordainagiriak hobeto erakusteko eta ordainagiriak gastu lerroei eransteko prozesua errazteko.
-- Irakurtzeko soilik den sareta berri bat, gastu lerro eta beste datu zutabe gehiago ikusteko aukera ematen duena. Lerro banatu eta zatitu guztiak ikus ditzakezu, gurasoen gastuekin batera.
+- Irakurtzeko soilik den sareta berria, gastu lerro eta datu zutabe osagarri gehiago ikusteko aukera ematen duena. Lerro banatu eta zatitu guztiak ikus ditzakezu, gurasoen gastuekin batera.
 - Editatzeko gastuak errazteko panel bat.
 - Errore, abisu eta gidalerroen mezuak berriro diseinatu dira, arazoaren testuinguru eta ulermen zuzena eta nola konpondu jakiteko. Erabiltzaileek beren zereginak bete eta arazoei aurre egin baino lehen agertzen ziren hainbat mezu kendu ditugu.
 - Orrialde berria beharrezko eremuak, aukerako eremuak eta sartu behar ez diren eremuak zehazteko. Orri honek ezarri beharreko eremu kopurua murrizten laguntzen du.
 - Gastuen txostenen itxura berria da, txostenak jada pertsona kontabilitaterako diseinatuta daudela dirudi.
 
-Esperientzia berria aktibatzeko, erabili **Ezaugarrien kudeaketa** laneko area **Gastuen txostenen berriro irudikatutako laneko area** ezaugarria aktibatzeko. Ezaugarri hau aktibatzean ekintza hauek gertatzen dira:
+Esperientzia berria aktibatzeko, erabili **Ezaugarrien kudeaketa** laneko gunea **Gastuen txostenak berriro pentsatu ziren** ezaugarria. Ezaugarri hau aktibatzean ekintza hauek gertatzen dira:
 
 - Lehendik dauden gastuen lan-eremua lan-eremu berriarekin ordezkatzen da.
 - Gastu eremuen ikusgarritasunerako menu elementu berria gehitzen da.
@@ -45,7 +47,7 @@ Esperientzia berria aktibatzeko, erabili **Ezaugarrien kudeaketa** laneko area *
 
 | Eginbide berria | Deskribapenak |
 |---|----|
-| Gastuak eremuaren ikusgaitasuna | Konfigurazio orri berri batek erakunde batentzat desgaitu behar diren eremuak zehazteko aukera ematen du. Zein eremu behar diren eta zein gomendagarriak diren ere zehaztu dezakezu. |
+| Gastuak eremuaren ikusgaitasuna | Konfigurazio orri berri batek erakunde batentzat zein eremu desgaitu behar diren, zein eremu behar diren eta zein eremu gomendagarriak diren zehazteko aukera ematen du. |
 | Beharrezko eremuak | Konfigurazio sinple berriak politika esparrua erabili beharrik gabe beharrezkoak diren zenbait eremu egin ditzakezu. |
 | Aukerako eremuak | Aukerako eremuen bigarren orria gehitzen da. Horrela, langileak ez dira eremuak ezarri beharko balituzte bezala sentituko, baina eremuak erraz eskuratzeko modukoak dira. |
 | Erantsi gabeko erreziboak gehitu | Gastu-txostenean erantsi gabeko ordainagiriak gehitzeko gaitasuna lan-eremutik eta gastuen txostenean ikusgai dago. |
@@ -57,16 +59,13 @@ Esperientzia berria aktibatzeko, erabili **Ezaugarrien kudeaketa** laneko area *
 | Kanbio-tasaren kalkulagailua | Dibisa anitzeko transakzioen kanbio-tasa kalkulatzeko aukera ematen duen kanbio-tasaren kalkulagailua gehitzen da. |
 | Gorde eta gehitu gastu lerro berriak | **Gorde** eta **Berria** botoiak erabilgarri daude gastu berriak sartzen direnean, gastu lerroak azkar sartzen laguntzeko. |
 | Ikusgarritasun hobea lerro zatitu eta zehatzetan | Lerro xehatuak eta zatituak zuzenean gehitzen dira gastuen zerrendan ikusgarritasuna handitzeko eta akatsik dagoen ala ez erraz zehazten laguntzeko. |
-| Ikusi azpikategoriaren xehetasunak lerro zehatzetan | Gurasoen gastuaren lerro zehatzek gastuen txosteneko azpikategoriaren etiketak erakusten dituzte. Elementuen xehetasunak xehetasun pikorrak berrikusteko aukera ematen du.|
-|Azkar zehaztu ohiko gastuak | Berriz irudikaturiko gastuen lan-eremuak gastu errepikakorrak azkar banatzeko gaitasuna ematen du azpikategoria, hasiera-data eta kantitatea gehituz. Kantitatea karga etengabeko aldi batean errepikatzen den kopuruari dagokio. |
 | Erakutsi ordainagiriak zehaztapenean | Ordainagiriak ezin dira erakutsi zehaztapenean. |
 | Diru-aurrerakinaren hautapena | Aukeratu diru aurrerakin bat edo gehiago gastu transakzio bakarra betetzeko. |
 | Diru-aurrerakinaren saldoa | Berrikusi eskudiruzko aurrerakinaren saldoa denbora errealean, onartutako eta ordaindutako eskudiruzko aurrerakinen aurkako sarrera sortzen duzunean. |
 
 Hasierako bertsioa gastuak sartzeko eszenatokietara bideratuta dago. Gastuen txostenak berrikusteko edo onartzeko agertokiek lehendik dagoen gastua sartzeko orria erabiltzen jarraituko dute.
 
-
-Gastu txostenen berriro pentsatutako lan eremuan ez dira onartzen funtzio hauek, baina etorkizuneko bertsioetarako aurreikusita daude: 
+Honako eginbide hauek ez dira onartzen Reimagined Expense Workspace-n:
 
 - Bidaiatzeko eskakizunen integrazioa
 - Eguneko gastuen sarrera

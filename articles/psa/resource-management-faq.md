@@ -2,6 +2,8 @@
 title: Baliabide-kudeaketari buruz maiz egiten diren galderak
 description: Gai honek baliabide-kudeaketari buruz maiz egiten diren galderen erantzunak eskaintzen ditu.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002361"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144353"
 ---
 # <a name="resource-management-faq"></a>Baliabide-kudeaketari buruz maiz egiten diren galderak
 
@@ -52,6 +54,3 @@ Baliabideak erreserbatu ondoren, hautatu **Mantendu Erreserbak** eskatzen diren 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Zein da esleipenaren eta erreserbaren arteko desberdintasuna?
 
 Esleipenak proiektuaren antolaketako proiektuaren zereginei esleitutako baliabideen esleipenak dira. Baliabideak benetako baliabideak edo baliabide orokorrak izan daitezke. Erreserbak proiektu batekiko baliabide baten behin behineko edo behin betiko esleipenak dira. Behin betiko erreserbak baliabideen ahalmena kontsumitzen du. Egokiena, benetako baliabideetarako, erreserbak eta zereginak ados egotea izango litzateke, ez baitira desberdinak. Hala ere, PSA-k ez du hitzarmen hori betearazten. Kontziliazio ikuspegiak proiektu-kudeatzaileari baliabideen erreserbak eta esleipenak bat ez datozen tokiak erakusten dizkio.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

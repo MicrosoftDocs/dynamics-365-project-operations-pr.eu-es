@@ -1,258 +1,38 @@
 ---
-title: Proiektuetan oinarritutako faktura zuzentzaileak
-description: Gai honek proiektuan oinarritutako faktura zuzentzaileak sortu eta berresteko Project Operations-en informazioa ematen du.
+title: Zuzendutako fakturak
+description: Gai honek zuzendutako fakturak egiteari buruzko informazioa ematen du.
 author: rumant
-ms.date: 03/29/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
+ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: aaa61c8473da0aab369bbb25acb10e9a3661379997737acbcc0b3d4ab33e0ce9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 1ebfec053a59bbadd261d4333f6737cf16292e81
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997141"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122373"
 ---
-# <a name="corrective-project-based-invoices"></a>Proiektuetan oinarritutako faktura zuzentzaileak
+# <a name="corrected-invoices"></a>Zuzendutako fakturak
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Egiaztatutako proiektuaren faktura zuzendu daiteke bezeroarekin eta proiektuaren arduradunarekin negoziatutako aldaketak edo kredituak prozesatzeko.
+Berretsitako fakturak editatu daitezke. Berretsitako faktura editatzen duzunean, zuzendutako fakturaren zirriborro berria sortzen da. Jatorrizko fakturatik transakzio eta kantitate guztiak berraztertu nahi dituzulako hipotesiarekin, zuzendutako faktura honek jatorrizko fakturaren transakzio guztiak barne hartzen ditu, eta bertan dauden kantitate guztiak zero (0) dira.
 
-Berretsitako faktura batean aldaketak egiteko, ireki berretsitako faktura eta hautatu **Zuzendu faktura hau**. 
+Transakzioren bat zuzentzen ez bada, faktura zuzentzailearen zirriborrotik kendu dezakezu. Kantitate partziala soilik alderantzikatzeko edo itzultzeko, editatu dezakezu Kopurua eremuan, lerroaren xehetasunean. Fakturen lerroaren xehetasuna irekitzen baduzu, fakturaren jatorrizko kantitatea ikus dezakezu. Uneko fakturaren kantitatea editatu ahal izango duzu, fakturaren jatorrizko kantitatea baino gutxiago edo gehiago izan dadin.
 
-> [!NOTE]
-> Aukeraketa hau ez dago erabilgarri proiektuaren faktura baieztatzen ez bada edo proiektuan oinarritutako fakturak aurrerakinak edo atxikipenak edo aurrerakinen edo atxikipenak bateratzeko.
+Faktura zuzentzailea baieztatzen duzunean, fakturatutako jatorrizko salmenten benetakoa alderantzikatu egiten da eta fakturatutako salmenta erreal berria sortzen da. Kantitatea murriztuko balitz, aldaketak fakturatu gabeko salmenta berriak ere sortuko ditu. Adibidez, fakturatutako jatorrizko salmenta zortzi orduz izan bazenuen eta zuzendutako fakturaren linearen xehetasunak sei orduko kantitatera murriztu badu, jatorrizko fakturatutako salmenta-lerroa alderantzikatuko da eta bi berri sortuko dira:
 
-Berretsitako fakturatik faktura zirriborro berria sortzen da. Aurretik baieztatutako fakturaren faktura-lerroaren xehetasun guztiak zirriborro berrira kopiatzen dira. Honako hauek dira faktura zuzendu berriaren lerroaren xehetasunak ulertzeko gakoetako batzuk:
-
-- Kopuru guztiak zero bihurtzen dira. Dynamics 365 Project Operations fakturatutako elementu guztiak guztiz kreditatuta daudela suposatzen du. Behar izanez gero, eskuz egunera ditzakezu kantitate horiek fakturatzen ari diren kopurua eta ez kreditatzen den kopurua. Sartzen duzun kantitatearen arabera, aplikazioak kreditatutako kantitatea kalkulatzen du. Zenbateko hori faktura zuzena baieztatzen denean sortzen diren errealetan islatzen da. Zergaren zenbatekoan aldaketak egiten ari bazara, zergaren zenbateko zuzena sartu behar duzu eta ez kreditatzen den zergaren zenbatekoa.
-- Mugarrien zuzenketak kreditu oso gisa prozesatzen dira beti.
-
-
-> [!IMPORTANT]
-> Dagoeneko fakturatutako beste karga batzuen zuzenketak diren faktura lerroaren xehetasunetarako **Zuzenketa** eremua ezarrita dago **Bai**. Zuzendutako fakturaren lerroak dituzten fakturen xehetasunak, **Zuzenketak ditu** eremua ezarrita dago **Bai**.
-
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Faktura zuzentzailea baieztatzean sortutako datuak
-
-Hurrengo taulan faktura zuzentzailea baieztatzen denean sortzen diren errealitateak agertzen dira.
-
-<table border="0" cellspacing="0" cellpadding="0">
-    <tbody>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-                    <strong>Egoera</strong>
-                </p>
-            </td>
-            <td width="808" valign="top">
-                <p>
-                    <strong>Berrespenean sortutako datuak</strong>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Aurretik fakturatutako denbora transakzio baten kreditu osoa fakturatzea.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Denboraren jatorrizko fakturaren lerroko xehetasunen eta zenbatekoaren fakturatutako salmenten alderantzikatzea.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Denboraren jatorrizko fakturaren lerroko xehetasunen eta zenbatekoaren fakturatu gabeko salmenten alderantzikatzea.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Kreditu partziala fakturatzea denborako transakzio batean.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Denboraren jatorrizko fakturaren lerroko xehetasunen eta zenbatekoaren fakturatutako salmenten alderantzikatzea.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Editatutako fakturaren lerroaren xehetasunean orduak eta zenbatekoa kobratzen duen fakturaziorik gabeko salmenta berria, horien itzulketa eta fakturatutako salmenten baliokide baliokidea.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Fakturarik gabeko salmenten faktura berri bat, fakturazio lerroaren xehetasunean zuzendu diren zifrak kendu ondorengo gainerako orduetan eta zenbatekoan kobratuko dena.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Aurretik fakturatutako gastua transakzio baten kreditu osoa fakturatzea.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Gastuaren jatorrizko fakturaren lerroko xehetasunen eta zenbatekoaren fakturatutako zenbatekoaren alderantzikatzea.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Gastuaren jatorrizko fakturaren lerroko xehetasunen eta zenbatekoaren fakturatu gabeko zenbatekoaren alderantzikatzea.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Aurretik fakturatutako gastua transakzio baten kredituaren zati bat fakturatzea.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Gastuaren jatorrizko fakturatutako lerroko xehetasunen eta zenbatekoaren fakturatutako zenbatekoaren alderantzikatzea.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Editatutako fakturaren lerroaren xehetasunean kopurua eta zenbatekoa kobratzen duen fakturaziorik gabeko salmenta berria, horien itzulketa eta fakturatutako salmenten baliokide baliokidea.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Fakturarik gabeko salmenten faktura berri bat, fakturazio lerroaren xehetasunean zuzendu diren zifrak kendu ondorengo gainerako kopuruan eta zenbatekoan kobratuko dena
-                </p>
-            </td>
-        </tr>
-                <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Aurretik fakturatutako transakzio material baten kreditu osoa fakturatzea.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Fakturatutako salmenten itzulketa materialaren jatorrizko fakturaren lerroaren xehetasunean dagoen kantitatea eta zenbatekoa.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Fakturatu gabeko salmenten benetako datuak materialaren jatorrizko fakturaren lerroaren xehetasunean dagoen kantitatea eta zenbatekoa.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Transakzio material baten kreditu partziala fakturatzea.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Fakturatutako salmenten itzulketa materialaren jatorrizko fakturaren lerroaren xehetasunean dagoen fakturatutako kantitatea eta zenbatekoa.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Editatutako fakturaren lerroaren xehetasunean zenbatekoaren eta zenbatekoaren kargura dagoen fakturaziorik gabeko salmenta berri bat, honen itzulketa eta fakturatutako salmenten baliokide baliokidea.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Fakturarik gabeko salmenten faktura berri bat, fakturazio lerroaren xehetasunean zuzendu diren zifrak kendu ondorengo gainerako kopuruan eta zenbatekoan kobratuko dena
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Aurretik fakturatutako zerga transakzio baten kreditu osoa fakturatzea.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Zergaren jatorrizko fakturaren lerroko xehetasunen eta zenbatekoaren fakturatutako zenbatekoaren alderantzikatzea.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Zergaren jatorrizko fakturaren lerroko xehetasunen eta zenbatekoaren fakturatu gabeko zenbatekoaren alderantzikatzea.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Aurretik fakturatutako zerga transakzio baten kredituaren zati bat fakturatzea.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Zergaren jatorrizko fakturaren lerroko xehetasunen eta zenbatekoaren fakturatutako zenbatekoaren alderantzikatzea.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Editatutako fakturaren lerroaren xehetasunean kopurua eta zenbatekoa kobratzen duen fakturaziorik gabeko salmenta berria, horien itzulketa eta fakturatutako salmenten baliokidea.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Aurretik fakturatutako mugarri baten kreditu osoa fakturatzea.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Mugarriaren jatorrizko fakturaren lerroko xehetasunen eta zenbatekoaren fakturatutako salmenten alderantzikatzea.
-                </p>
-                <p>
-Mugarriaren fakturaren egoera eguneratzen da <b>Bezeroaren faktura argitaratua</b> <b>Fakturatzeko prest</b>.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Aurretik fakturatutako mugarri baten kredituaren zati bat fakturatzea.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Egoera hau ez da onartzen.
-                </p>
-            </td>
-        </tr>       
-    </tbody>
-</table>
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- Fakturatutako salmentak sei orduz fakturatu dira.
+- Bete gabeko salmentak benetako gainerako bi orduetan. Transakzio hau beranduago fakturatu daiteke edo kargagabea izan daiteke, bezeroarekin izandako negoziazioen arabera.

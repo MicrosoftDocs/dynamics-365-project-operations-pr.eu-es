@@ -4,14 +4,8 @@
   items:
     - name: Zehaztu inplementazio mota
       href: environment/determine-deployment-type.md
-    - name: Eman izena Project Operations-en doako probak lortzeko
-      href: environment/admin-trials.md
     - name: Project Operations-en eguneratzeak
       href: whats-new/project-operations-updates.md
-    - name: Kendutako edo zaharkitutako eginbideak
-      items:
-        - name: Project Operations-en kendutako edo zaharkitutako eginbideak
-          href: whats-new/removed-depreciated-features-project.md
 - name: Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
   items:
     - name: Hasi erabiltzen
@@ -34,11 +28,9 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Inplementatu inguruneak
           items:
-            - name: Inplementatu eskuz Project Operations-en Dataverse aplikazioa idazketa dualaren bateragarritasunarekin
-              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Eman ingurune berri bat
               href: environment/resource-provision-new-environment.md
-            - name: Segurtasun-eredua
+            - name: Segurtasunaren modeloa
               href: environment/security-model.md
             - name: Konfiguratu Project Operations-en integrazioa legezko entitatearen arabera
               href: environment/resource-configure-integration-per-legal-entity.md
@@ -58,26 +50,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Saltzaileen fakturen integrazioa
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Desinstalatu Dynamics 365 Project Operations
-          href: environment/uninstall-project-operations.md
-    - name: Zer berri?
+    - name: Berritasunak
       items:
-        - name: 2021eko abendua - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: 2021eko azaroa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: 2021eko urria - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: 2021eko iraila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: 2021eko abuztua - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: '2021eko uztaila: baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: '2021eko ekaina: Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: 2021eko maiatza - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-may-2021-resource-based.md
         - name: 2021eko apirila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 2021eko martxoa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
@@ -306,12 +280,8 @@
           items:
             - name: Garatu proiektuaren txantiloiak Kopiatu proiektua eginbidearekin
               href: project-management/dev-copy-project.md
-            - name: Erabili proiektuaren antolaketa APIak
+            - name: Erabili antolaketa APIak (aurreargitalpen publikoa)
               href: project-management/schedule-api-preview.md
-            - name: Proiektu-antolaketaren API errendimendua
-              href: project-management/project-schedule-api-performance.md
-            - name: Proiektuaren antolaketa-erregistroak
-              href: project-management/schedule-api-logs.md
     - name: Baliabideen kudeaketa
       items:
         - name: Kontzeptu nagusiak
@@ -404,10 +374,6 @@
               href: expense/set-up-credit-card-integration.md
             - name: Konfiguratu gastu-kategoriak
               href: expense/set-up-expense-categories.md
-            - name: Konfiguratu kilometrajea kilometrajearen tasaren mailak erabiliz
-              href: expense/set-up-mileage.md
-        - name: Gastuen banaketa
-          href: prod-exp/expense-itemization.md
         - name: Gastu pertsonalak
           href: expense/personal-expenses-expense-report.md
         - name: Enpresen arteko gastuak
@@ -440,13 +406,11 @@
           href: material/material-usage-log.md
     - name: Onarpenak
       items:
-        - name: Onarpenen ikuspegi orokorra
+        - name: Onespenen ikuspegi orokorra
           href: approvals/approvals-overview.md
-        - name: Onarpen multzoak
-          href: approvals/approval-sets.md
         - name: Garatzailearen oharrak
           items:
-            - name: Onarpenetarako garatzaileen oharrak
+            - name: Onespenetarako garatzaileen oharrak
               href: approvals/dev-notes-approvals.md
     - name: Benetako datuak
       items:
@@ -464,18 +428,12 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Erosi proiektuen izakinik gabeko materialak ordaindu gabeko saltzaileen fakturak erabiliz
           href: procurement/pending-vendor-invoices.md
-        - name: Eskatu proiektuen izakinik gabeko materialak proiektuko erosketa-eskaerak erabiliz
-          href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: Saltzailearen atxikipena
-          items:
-            - name: Saltzailearen atxikipenaren ikuspegi orokorra
-              href: procurement/vendor-retention-overview.md
-            - name: Konfiguratu saltzailearen atxikipena
-              href: procurement/set-up-vendor-retention.md
     - name: Fakturazioa
       items:
         - name: Fakturazio-prozesuaren informazio orokorra
           href: invoicing/post-project-invoices.md
+        - name: Kudeatu proiektuaren faktura-proposamenak
+          href: invoicing/format-update-project-invoice-proposals.md
         - name: Proformako faktura
           items:
             - name: Kudeatu proiektuetan oinarritutako fakturazioaren lan atzeratua
@@ -494,22 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfiguratu proiektuetan oinarritutako faktura automatizatzea
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Bezeroen fakturazioa
-          items:
-            - name: Kudeatu proiektuaren faktura-proposamenak
-              href: invoicing/format-update-project-invoice-proposals.md
-            - name: Zuzendu kontabilitatea zirriborro-proiektu baten fakturazio-proposamenetan
-              href: invoicing/correct-project-invoice-proposals.md
-        - name: Enpresen arteko fakturazioa
-          items:
-            - name: Enpresen arteko fakturazioaren informazio orokorra
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Konfiguratu enpresen arteko fakturazioa
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Sortu enpresen arteko transakzioak
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Sortu enpresen arteko bezeroa eta saltzaileen fakturak
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+        - name: Kudeatu proiektuaren faktura-proposamenak
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Proiektuaren kontabilitatea
       items:
         - name: Finantza-dimentsio lehenetsiak
@@ -522,6 +466,16 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Project Operations-eko integrazio-aldizkaria
           href: project-accounting/project-operations-integration-journal.md
+        - name: Enpresen arteko fakturazioa
+          items:
+            - name: Enpresen arteko fakturazioaren informazio orokorra
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfiguratu enpresen arteko fakturazioa
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Sortu enpresen arteko transakzioak
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Sortu enpresen arteko bezeroa eta saltzaileen fakturak
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Diru-sarreren aitorpena
       items:
         - name: Diru sarreren ezagutzaren ikuspegi orokorra
@@ -538,12 +492,6 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Kudeatu diru-sarreren kalkuluak
           href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: Arazoak konpontzea
-      items:
-        - name: Proiektuaren salmenta-prozesua
-          items:
-            - name: 'Dibisa bat ez etortzearen errorea proiektua, kontratua, eskaintza edo erreserba daitekeen baliabidea sortzean'
-              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: 'Oinarrizko inplementazioa: kudeatu proformako fakturak'
   items:
     - name: Hasi erabiltzen
@@ -554,31 +502,13 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Inplementatu Project Operations - arina
           href: environment/lite-deployment.md
-        - name: 'Aplikatu demo-konfigurazioa eta konfigurazio-datuak: oinarrizkoa'
+        - name: Aplikatu demo-konfigurazioa eta konfigurazio-datuak - arina
           href: environment/lite-apply-demo-setup-config-data.md
-        - name: Segurtasun-eredua
+        - name: Segurtasunaren modeloa
           href: environment/security-model.md
-    - name: Zer berri
+    - name: Berritasunak
       items:
-        - name: 2021eko berritasunen 2. uhinerako sarbide esklusiboa - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: 2021eko abenduko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: 2021eko azaroko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: 2021eko urriko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: 2021eko iraileko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: 2021eko abuztuko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: 2021eko uztaileko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: '2021eko ekaineko berritasunak: oinarrizko inplementazioa'
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: '2021eko maiatzeko berritasunak: oinarrizko inplementazioa'
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: '2021eko apirileko berritasunak: oinarrizko inplementazioa'
+        - name: 2021eko apirileko berritasunak - oinarrizko inplementazioa
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 2021eko martxoko berritasunak - oinarrizko inplementazioa
           href: pro/whats-new/whats-new-mar-2021-lite.md
@@ -826,10 +756,8 @@
           items:
             - name: Garatu proiektuaren txantiloiak Kopiatu proiektua eginbidearekin
               href: project-management/dev-copy-project.md
-            - name: Erabili proiektuaren antolaketa APIak
+            - name: Erabili antolaketa APIak (aurreargitalpen publikoa)
               href: project-management/schedule-api-preview.md
-            - name: Proiektu-antolaketaren API errendimendua
-              href: project-management/project-schedule-api-performance.md
     - name: Baliabideen kudeaketa
       items:
         - name: Kontzeptu nagusiak
@@ -886,44 +814,6 @@
           items:
             - name: Baliabide-erabileraren informazio orokorra
               href: resource-management/resource-utilization-overview.md
-    - name: Azpikontratuen kudeaketa Project Operations-en
-      items:
-        - name: Azpikontratuen kudeaketa Project Operations-en
-          href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: 2021eko azaroko azpikontratazioaren sarbide esklusiboa
-          href: pro/subcontracting/Subcontracting_EA_scope.md
-        - name: Azpikontratazioko kontzeptu nagusiak
-          href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Saltzaileak eta proiektuen prezio-zerrendak kudeatzea
-          href: pro/subcontracting/vendors-purchase-price-lists.md
-        - name: Azpikontratatzaileak baliabide erreserbagarri gisa
-          href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: Azpikontratuen goiburuaren xehetasunak
-          href: pro/subcontracting/subcontract-header-details.md
-        - name: Azpikontratuaren lerroak denboraren arabera
-          href: pro/subcontracting/subcontract-line-time.md
-        - name: Azpikontratuaren lerroak gastu-kategorien arabera
-          href: pro/subcontracting/subcontract-line-expense.md
-        - name: Azpikontratuaren lerroak produktuen arabera
-          href: pro/subcontracting/subcontract-line-products.md
-        - name: Azpikontratistaren lerroko baliabideak
-          href: pro/subcontracting/subcontract-line-resources.md
-        - name: Azpikontratuaren lerroko mugarriak
-          href: pro/subcontracting/subcontract-line-milestones.md
-        - name: Proiektuko taldekideak azpikontratatzea
-          href: pro/subcontracting/subcontracting-project-team-members.md
-        - name: Proiektuko taldekideak azpikontratatzeko aukerak
-          href: pro/subcontracting/subcon-options.md
-        - name: Azpikontratatutako baliabideen esleipenen kostuak kalkulatzea
-          href: pro/subcontracting/costing-subcon-ra.md
-        - name: Konfiguratu kontratudun langileak eta azpikontratatutako ahalmena erakusteko Antolaketa-panela
-          href: pro/subcontracting/configure-sb-subcon.md
-        - name: Proiektu bat kontratudun langileekin eta azpikontratatutako ahalmenarekin hornitzea
-          href: pro/subcontracting/staffing-cw.md
-        - name: 'Azpikontratatutako osagaien denbora, gastuak eta materialaren erabilera erregistratzea'
-          href: pro/subcontracting/recording-subcon-actuals.md
-        - name: Azpikontratu bateko egoera-trantsizioak
-          href: pro/subcontracting/subcon-states.md
     - name: Denbora
       items:
         - name: Denboraren ikuspegi orokorra
@@ -948,13 +838,11 @@
           href: material/material-usage-log.md
     - name: Onarpenak
       items:
-        - name: Onarpenen ikuspegi orokorra
+        - name: Onespenen ikuspegi orokorra
           href: approvals/approvals-overview.md
-        - name: Onarpen multzoak
-          href: approvals/approval-sets.md
         - name: Garatzailearen oharrak
           items:
-            - name: Onarpenetarako garatzaileen oharrak
+            - name: Onespenetarako garatzaileen oharrak
               href: approvals/dev-notes-approvals.md
     - name: Benetako datuak
       items:
@@ -986,17 +874,9 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
   items:
-    - name: Zer berri
+    - name: Berritasunak
       items:
-        - name: 2021eko urriko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: 2021eko iraileko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: '2021eko uztaileko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: '2021eko maiatzeko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: '2021eko apirileko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
+        - name: 2021eko apirileko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 2021eko martxoko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
@@ -1144,28 +1024,10 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: Zer berri
+    - name: Berritasunak
       items:
-        - name: "Project Service\_3.x bertsioaren eguneratze-bertsioen antolaketa"
+        - name: Project Service 3.x bertsioaren eguneratze-bertsioen antolaketa
           href: psa/version-history-ps.md
-        - name: '38. eguneratze-bertsioko berritasunak edo aldaketak, V3'
-          href: psa/whats-new-ur-38.md
-        - name: '37.5. eguneratze-bertsioko berritasunak edo aldaketak, V3'
-          href: psa/whats-new-ur-37-5.md
-        - name: '37. eguneratze-bertsioko berritasunak edo aldaketak, V3'
-          href: psa/whats-new-ur-37.md
-        - name: '36. eguneratze-bertsioko berritasunak edo aldaketak, V3'
-          href: psa/whats-new-ur-36.md
-        - name: '35. eguneratze-bertsioko berritasunak edo aldaketak, V3'
-          href: psa/whats-new-ur-35.md
-        - name: '34. eguneratze-bertsioko berritasunak edo aldaketak, V3'
-          href: psa/whats-new-ur-34.md
-        - name: '33. eguneratze-bertsioko berritasunak edo aldaketak, V3'
-          href: psa/whats-new-ur-33.md
-        - name: '32.5. eguneratze-bertsioko berritasunak edo aldaketak, V3'
-          href: psa/whats-new-ur-32-5.md
-        - name: '32. eguneratze-bertsioko berritasunak edo aldaketak, V3'
-          href: psa/whats-new-ur-32.md
         - name: '31. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur-31.md
         - name: '30. eguneratze-bertsioko berritasunak edo aldaketak, V3'
@@ -1236,8 +1098,6 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Txostenak sortzeko gida
           href: psa/implementation-guides/reporting-guide.md
-    - name: Berritu-berritu Project Service Automation-etik Project Operations - lite-ra
-      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation-en bertsio-berritzea (aplikazioaren 3.x bertsioa)
       items:
         - name: Project Service Automation-en bertsio-berritzea
@@ -1406,11 +1266,9 @@
               href: psa/time-entry-calendar.md
             - name: Pertsonalizatu asteroko denbora-sarrera
               href: psa/time-entry-extensibility-v3.md
-            - name: Project Service Automation-eko onarpen multzoak
-              href: psa/approval-set.md
     - name: Maiz egiten diren galderak eta arazoen konponketa (3.x)
       items:
-        - name: Zergatik da prezio lehenetsia zero gastuetan oinarritutako kostuen benetako balioetan?
+        - name: Zergatik da prezioari lehenetsia zero balioa gastuetan oinarritutako kostuen benetako balioan?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
         - name: Zergatik ematen zaio prezioari zero-balio lehenetsia gastuetan oinarritutako salmenten benetako balioan?
           href: psa/FAQ-zero-price-expense-sales-actuals.md

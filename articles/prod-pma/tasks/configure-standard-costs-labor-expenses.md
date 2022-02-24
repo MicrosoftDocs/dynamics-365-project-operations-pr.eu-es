@@ -2,9 +2,11 @@
 title: Konfiguratu eskulanaren eta gastuen kostu estandarrak
 description: Gai honetan eskulanaren kostu estandarrak eta proiektu bateko gastuak nola ezarri azaltzen da.
 author: Yowelle
+manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCostPriceHour, ProjSalesPriceHour, ProjCostPriceExpense, ProjSalesPriceCost
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b8f65709433ed6f9ff9d23ed6d99624ee1d4aaef6927ee689c9f7651807340c5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b3eb6b1d4d75b095383689dd53a59a15fe9e884a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987961"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071093"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Konfiguratu eskulanaren eta gastuen kostu estandarrak
 
@@ -52,6 +54,3 @@ Gai honetan eskulanaren kostu estandarrak eta proiektu bateko gastuak nola ezarr
 22. **Prezioa** eremuan, idatzi zenbakia. Benetako salmenta prezioa, langileak gastuaren aldizkarian transakzioak egiten duenean aplikatzen dena, xehetasun maila altueneko salmenta prezioa da. Adibidez, orokorra eta langilearen berariazko salmenta prezioa ezartzen badira, langilearen berariazko salmenta prezioa erabiltzen da.  
 23. Sakatu **Gorde**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

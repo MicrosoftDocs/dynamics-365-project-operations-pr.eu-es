@@ -2,6 +2,8 @@
 title: Erabiltzailearen gida Proiektu-baliabideen atalerako
 description: Project Resource Hub-en azken erabiltzailearen gida Project Service-rako
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987241"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948112"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Erabiltzailearen gida Proiektu-baliabideen atalerako
 
@@ -52,28 +54,28 @@ Proiektu-baliabideen atala plikazioa erabiltzen hasi baino lehen, mugikorrerako 
 1.  Saioa hasten duzun mugikorrerako aplikazioan, atzitu dituzun aplikazioen zerrenda bat duen MyApps orri ikusiko duzu. 
 2.  Hautatu **Proiektu-baliabideen atalaren modulua**.
 
-![Aukeratu aplikazio bat.](media/chooseApp_1.png "Aukeratu aplikazio bat")
+![Aukeratu aplikazio bat](media/chooseApp_1.png "Aukeratu aplikazio bat")
 
 **Nabigazio-barra**
 
-Zure lana lortu, erregistro, bilaketa berri bat sortzeko edo bestelako zeregin nav barra erabili. Komando gehiago sartzeko, sakatu ![Gehiago botoia.](media/MoreButton.png "Gehiago botoia")
+Zure lana lortu, erregistro, bilaketa berri bat sortzeko edo bestelako zeregin nav barra erabili. Komando gehiago sartzeko, sakatu ![Gehiago botoia](media/MoreButton.png "Gehiago botoia")
 
-![Nabigazio-barra.](media/NavBar_2.png "Nabigazio-barra")
+![Nabigazio-barra](media/NavBar_2.png "Nabigazio-barra")
 
 **Favorites eta erregistroak aldiz erabili**
 
 Favorites eta Aldiz Erabili sekzio eman sarbide azkarra izateko erregistroak, ikuspegiak eta aginte-panelak. 
 
-- Atal hauetara sartzeko, ukitu **Menua** ![Menu botoia.](media/MenuButton.png "Menua botoia") nabigazio-barrako botoia eta, ondoren, ukitu **Gogokoak eta Azkenak** ![Gogokoak botoia](media/FavButton.png "Gogokoak botoia") botoia.
+- Sekzio horiek sartzeko, sakatu **Menua** ![Menuaren botoia](media/MenuButton.png "Menua botoia") botoia nabigazio-barran, eta gero sakatu **Gogokoak eta azkenak** ![Gogoko botoia](media/FavButton.png "Gogokoak botoia") botoia.
 
 - Ainguratu elementua gisa favorite,-zerrenda batera **Erabilitako Azken** hau pin-elementuak. Ainguratu eta mugitu elementu, da hau Favorites .
 
-  ![Gogokoak eta azken elementuak.](media/Favs_3.png "Gogokoak eta azken elementuak")
+  ![Gogokoak eta azken elementuak](media/Favs_3.png "Gogokoak eta azken elementuak")
  
-## <a name="enter-time"></a>Idatzi ordua
+## <a name="enter-time"></a>Sartu ordua
 Sartu asteko gutxieneko orduak, kudeatzaileek eskatutako maiztasuna, bezeroei behar behar bezala fakturatzen zaiela eta zuk behar bezala kobratzen duzula ziurtatzeko.
 
-1. Ukitu menua ![Menuaren botoia.](media/MenuButton.png "Menua botoia") Botoia eta, ondoren, ukitu **Denbora-sarrerak**. Egutegia agerrarazten du.
+1. Sakatu menua ![Menuaren botoia](media/MenuButton.png "Menua botoia") botoia, eta gero sakatu **Denbora-sarrerak**. Egutegia agerrarazten du.
 
 2. Aurreko edo hurrengo asteko egutegia ikusteko, sakatu **Aurrekoa** edo **Hurrengoa**. Sakatu **Gaur**, uneko astera itzultzeko.
 

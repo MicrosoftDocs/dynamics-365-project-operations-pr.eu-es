@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7eccf5cd234df6ca4fc4c83b581f6c4c22b3396f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001461"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993626"
 ---
 # <a name="expense-management-mobile-workspace"></a>Gastuen kudeaketaren lan-eremu mugikorra
 
@@ -100,7 +100,7 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 5. Saioa hasi ondoren, zure enpresarako erabilgarri dauden lan-eremuak agertzen dira. Kontuan izan zure sistemaren administratzaileak gero laneko espazio berri bat argitaratzen badu, mugikorretarako laneko espazioak berritu beharko dituzula.
 
 
-[![Tira freskatzeko.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Tira freskatzeko](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Hartu ordainagiria Gastuak kudeatzeko mugikorreko lan eremua erabiliz
 

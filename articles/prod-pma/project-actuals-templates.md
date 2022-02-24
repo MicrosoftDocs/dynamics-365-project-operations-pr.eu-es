@@ -2,9 +2,11 @@
 title: Sinkronizatu proiektuaren errealitatea zuzenean Project Service Automation-etik proiektuaren integrazio aldizkariarekin argitaratzeko Finance and Operations
 description: Gai honek deskribatzen du txantiloiak eta azpiko zereginak erabiliak direnak sinkronizatzeko uneko proiektuak zuzenean Microsoft Dynamics 365 Project Service Automation hurrengora Finance and Operations.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988096"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071168"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinkronizatu proiektuaren errealitatea zuzenean Project Service Automation-etik proiektuaren integrazio aldizkariarekin argitaratzeko Finance and Operations
 
@@ -42,7 +44,7 @@ Project Service Automation to Finance integrazio irtenbideak Datu integrazio fun
 
 Ondorengo ilustrazioak erakusten du nola sinkronizatzen diren datuak Project Service Automation eta Finance artean.
 
-[![Datu-fluxua hurrengorako Project Service Automation integrazioa Finance and Operations-ekin.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Datu-fluxua hurrengorako Project Service Automation integrazioa hurrengoarekin Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Proiektuaren unekoa hurrengotik Project Service Automation
 
@@ -93,9 +95,9 @@ Eguneratzeko txertatutako baldintzaren zutabea txantiloian, klik egin **Mapa** g
 
 Ondorengo ilustrazioak Datuen integrazioan txantiloien atazen maparen adibide bat erakusten du. Kartografiak Project Service Automation-etik Finantzara sinkronizatuko den eremuko informazioa erakusten du.
 
-[![Txantiloien mapaketa - Egiazko datuak.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Txantiloien mapaketa - Egiazko datuak](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Txantiloien mapaketa - Transakzioen konexioak.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Txantiloien mapaketa - Transakzioen konexioak](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Inportatu etapako taulatik integratu ondoren Project Service Automation-etik
 
@@ -135,9 +137,6 @@ Proiektuaren datu bateratuak eguneratu txantiloian, Power Query erabili behar du
 
 Ondorengo ilustrazioak Datuen integrazioan txantiloien atazen maparen adibide bat erakusten du. Kartografiak Project Service Automation-etik Finantzara sinkronizatuko den eremuko informazioa erakusten du.
 
-[![Txantiloien mapaketa - Egiazko datuen eguneratzea.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Txantiloien mapaketa - Egiazko datuen eguneratzea](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Txantiloien mapaketa - Transakzioen eguneratzea.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Txantiloien mapaketa - Transakzioen eguneratzea](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)

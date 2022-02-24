@@ -1,25 +1,42 @@
 ---
-title: Proformako fakturak
-description: Gai honek Proformako fakturen inguruko informazioa eskaintzen du Project Operations-en.
+title: Sortu proformako faktura bat eskuz
+description: Gai honek proforma faktura sortzeari buruzko informazioa eskaintzen du.
 author: rumant
-ms.date: 04/05/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995611"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128042"
 ---
-# <a name="proforma-invoices"></a>Proformako fakturak
+# <a name="create-a-manual-proforma-invoice"></a>Sortu proformako faktura bat eskuz
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Proformako fakturak fakturak egitea erabilgarria da proiektuen kudeatzaileei bigarren onespen maila ematen dielako bezeroei fakturak sortu aurretik. Lehen onarpen maila proiektuko kideek bidaltzen dituzten denbora-, gastu- eta material-sarrerak onartzen direnean amaitzen da. Baieztatutako proforma fakturak eskuragarri daude Project Operations-en Proiektuen Kontabilitate moduluan. Proiektuaren kontulariek eguneratze osagarriak egin ditzakete, hala nola salmenten gaineko zerga, kontabilitatea eta fakturen diseinua.
+Fakturak egitea erabilgarria da proiektuen kudeatzaileei bigarren onespen maila ematen dielako bezeroei fakturak sortu aurretik. Lehen onarpen maila proiektuko kideek bidaltzen dituzten denbora- eta gastu-sarrerak onartzen direnean amaitzen da.
 
+Dynamics 365 Project Operations ez dago diseinatuta bezeroaren aurrean fakturak sortzeko, arrazoi hauengatik:
+
+- Ez du zerga informaziorik.
+- Ezin ditu beste monetak fakturazio-moneta bihurtu behar bezala konfiguratutako kanbio-tasak erabiliz.
+- Ezin ditu fakturak behar bezala formatu inprimatu ahal izateko.
+
+Horren ordez, finantza- edo kontabilitate-sistema erabil dezakezu fakturen proposamenetatik sortutako informazioa erabiltzen duten bezeroei zuzendutako fakturak sortzeko.
 
 ## <a name="creating-project-invoices"></a>Sortu proiektuaren fakturak
 
@@ -33,7 +50,7 @@ Jarraitu urrats hau proiektu-kontratu jakin baterako faktura sortzeko.
 
 - **Proiektuen kontratuak** zerrenda-orrian, ireki proiektu-kontratua eta ondoren hautatu **Sortu faktura**.
 
-    Faktura sortzen da **Fakturatzeko prest** egoera daukaten hautatutako proiektu-kontratuaren transakzio guztientzat. Transakzio horien artean daude denbora, gastuak, materialak, mugarriak eta fakturatu gabeko beste salmenta aldizkari lerro batzuk.
+    Faktura sortzen da **Fakturatzeko prest** egoera daukaten hautatutako proiektu-kontratuaren transakzio guztientzat. Eragiketa horien artean, denbora, gastuak, mugak eta produktuetan oinarritutako kontratuaren lerroak daude.
 
 Jarraitu urrats hauei fakturak denak batera sortzeko.
 
@@ -43,7 +60,7 @@ Jarraitu urrats hauei fakturak denak batera sortzeko.
 
 2. Hautatu **Ados** mezu-koadroa ixteko.
 
-    Faktura sortzen da **Fakturatzeko prest** egoera daukaten proiektu-kontratuaren transakzio guztientzat. Transakzio horien artean daude denbora, gastuak, materialak, mugarriak eta fakturatu gabeko beste salmenta aldizkari lerro batzuk.
+    Faktura sortzen da **Fakturatzeko prest** egoera daukaten proiektu-kontratuaren transakzio guztientzat. Eragiketa horien artean, denbora, gastuak, mugak eta produktuetan oinarritutako kontratuaren lerroak daude.
 
 3. Sortzen diren fakturak ikusteko, joan **Salmentak** \> **Fakturazioa** \> **Fakturak** atalera. Proiektu-kontratu bakoitzeko faktura bat ikusiko duzu.
 
@@ -76,10 +93,11 @@ Lan-sortaren prozesua lan errepikaria da. Prozesu-sorta hau askotan exekutatzen 
  
 ### <a name="edit-a-draft-invoice"></a>Editatu fakturaren zirriborroa
 
-Proiektuen fakturaren zirriborroa sortzen duzunean, fakturazioan sartu behar dira denbora-, gastu- eta material erabileraren sarrerak onartu zirenean sortu gabeko salmenta transakzio guztiak. Doikuntza hauek egin ditzakezu faktura oraindik zirriborro fasean dagoen bitartean:
+Proiektuen fakturaren zirriborroa sortzen duzunean, fakturazioan sartu behar dira denbora- eta gastu-sarrerak onartu zirenean sortu gabeko salmenta transakzio guztiak. Doikuntza hauek egin ditzakezu faktura oraindik zirriborro fasean dagoen bitartean:
 
 - Ezabatu edo editatu fakturaren linearen xehetasunak.
 - Editatu eta doitu kantitatea eta fakturazio mota.
+- Fakturan transakzio gisa denbora, gastua eta tasak zuzenean gehitu. Ezaugarri hau erabil dezakezu faktura-lerroa transakzio-klase horiek baimentzen dituen kontratu-lerrora esleituta badago.
 
 Aukeratu **Berretsi** faktura berresteko. Berretsi ekintza norabide bakarreko ekintza da. Hautatzen duzunean **Berretsi**, sistemak faktura irakurtzeko bakarrik egiten du eta fakturazioaren lineako xehetasunetatik fakturatutako salmenta errealak sortzen ditu. Fakturen linearen xehetasunak fakturatu gabeko salmenten benetako erreferentzia izanez gero, sistemak fakturatu gabeko salmenten benetako itzulketa ere itzuliko du. (Denbora- edo gastu-sarreratik sortu den edozein fakturaren lerroko xehetasunek fakturatu gabeko salmenten erreferentzia izango dute.) Liburu nagusiaren integrazio-sistemek berraztertze hau erabil dezakete martxan dagoen proiektuaren (WIP) alderantzizko kontabilitaterako.
 
@@ -93,6 +111,3 @@ Faktura zuzentzailea baieztatzen duzunean, fakturatutako jatorrizko salmenten be
 
 - Fakturatutako salmentak sei orduz fakturatu dira.
 - Bete gabeko salmentak benetako gainerako bi orduetan. Transakzio hau beranduago fakturatu daiteke edo kargagabea izan daiteke, bezeroarekin izandako negoziazioen arabera.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

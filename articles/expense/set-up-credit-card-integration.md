@@ -2,9 +2,11 @@
 title: Konfiguratu kreditu-txartelaren integrazioa
 description: Gai honetan gastuekin lotutako kreditu txarteleko transakzioekin nola lan egin azaltzen da.
 author: suvaidya
-ms.date: 11/17/2021
+manager: AnnBe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
-ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
-ms.translationtype: MT
+ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "7826241"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866668"
 ---
 # <a name="set-up-credit-card-integration"></a>Konfiguratu kreditu-txartelaren integrazioa
 
@@ -35,7 +37,7 @@ Kreditu txartelaren eragiketak inportatzeko, jarraitu urrats hauei:
 3. **Iturriaren datuen formatua** eremuan, hautatu inportatu beharreko kreditu txartelaren transakzioak dituen fitxategiaren formatua.
 4. Hautatu **Kargatu** eta, ondoren, bilatu eta hautatu inportatzeko fitxategia.
 5. Fitxategia kargatu ondoren, baliozkotu kreditu txartelaren transakzio fitxategiaren mapak eta kreditu-txartelaren transakzioen datu entitatearen zutabeak hautatu **Ikusi mapa** esteka fitxan. Kartografia akatsak badaude, edo mapaketa aldatu behar baduzu, egin maparen aldaketak **Mapen bistaratzea** fitxa edo **Kartografia xehetasunak** fitxa.
-6. Kreditu txartelaren eragiketak automatizatzeko, hautatu **Sortu aldizkako datuen lana**. Kreditu txartelaren eragiketak zenbat aldiz inportatu behar diren zehazten duen errepikapena ezar dezakezu. Amaitzen duzunean, hautatu **ADOS**.
+6. Kreditu txartelaren eragiketak automatizatzeko, hautatu **Sortu aldizkako datuen lana**. Kreditu txartelaren eragiketak zenbat aldiz inportatu behar diren zehazten duen errepikapena ezar dezakezu. Bukatu duzunean, hautatu **Ados**.
 7. Aukeratutako fitxategia orain inportatzeko, hautatu **Inportatu**.
 8. Inportazioan zehar akatsak gertatzen badira, exekuzio erregistroa edo faseko datuak ikus ditzakezu inportazio arrakastatsua ziurtatzen laguntzeko konpondu behar dituzun akatsak ikusteko.
 
@@ -44,24 +46,16 @@ Kreditu txartelaren eragiketak inportatzeko, jarraitu urrats hauei:
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Kargatu bajako langileentzako kreditu txartelaren eragiketak
 
-Langileen erregistroa amaitu ondoren, langilearen Active Directory Domain Services (AD DS) kontua desgaitu egiten da. Hala ere, baliteke kreditu txartelarekin egindako transakzio aktiboak oraindik gastatu eta itzuli behar direnak. **Kreditu txartelaren eragiketak** orrialdean, langilea berriro esleitu ahal izango duzu lotutako langilea amaitu den kreditu txartelarekin egindako edozein transakzioetarako.
+Langilearen erregistroa amaitu ondoren, langilearen Active Directory domeinu zerbitzuak (AD DS) kontua desgaituta dago. Hala ere, baliteke kreditu txartelarekin egindako transakzio aktiboak oraindik gastatu eta itzuli behar direnak. **Kreditu txartelaren eragiketak** orrialdean, langilea berriro esleitu ahal izango duzu lotutako langilea amaitu den kreditu txartelarekin egindako edozein transakzioetarako.
 
 Aukeratu kreditu txartelaren transakzio bat edo gehiago, eta hautatu **Transakzioak berriro esleitu**. Kreditu txartelaren eragiketak esleitzeko beste langile bat hauta dezakezu. Kreditu txartelaren eragiketak berriro esleitu ondoren, gastuen txostena aukeratu eta gastuen txostena itzultzeko ohiko prozesuaren bidez ordain daitezke.
 
 ## <a name="delete-credit-card-transactions"></a>Ezabatu kreditu txartelaren eragiketak 
 
-Batzuetan, kreditu txartelarekin egindako transakzioak inportatu ondoren, baliteke transakzio batzuk ezabatu behar izatea. Hau izan daiteke transakzioak bikoiztuak direlako edo datuak zehatzak ez direlako. Administratzaileek **"Ezabatu kreditu txartelaren transakzioak"** funtzioa diren kreditu txarteleko eragiketak hautatu eta ezabatzeko **erantsita ez** gastuen txosten batera. 
+Batzuetan, kreditu txartelarekin egindako transakzioak inportatu ondoren, baliteke transakzio batzuk ezabatu behar izatea. Gerta liteke transakzioak bikoiztuak direlako edo baliteke datuak zehatzak ez izateagatik. Administratzaileek **"Ezabatu kreditu txartelaren transakzioak"** funtzioa diren kreditu txarteleko eragiketak hautatu eta ezabatzeko **erantsita ez** gastuen txosten batera. 
 
 1. Joan **Aldizkako zereginak** > **Ezabatu kreditu txartelaren eragiketak**.
 2. Aukeratu **Iragazi** eta informazioa eman erregistroak identifikatzeko.
 3. Hautatu **Ados** erregistroak ezabatzeko. 
-
-## <a name="storing-credit-card-numbers"></a>Kreditu txartelaren zenbakiak gordetzea
-
-Hiru aukera daude kreditu-txartelen zenbakiak gordetzeko. Kreditu-txartelen zenbakiak gailuan gordetzen dira **Gastuak kudeatzeko parametroak** orrialdea.
-
-- **Saihestu txartelaren zenbakia sartzea** – Kreditu-txartelen zenbakiak ez dira gordetzen.
-- **Hash txartelaren zenbakiak (gordetu azken lau digituak)** – Kreditu-txartelen zenbakien azken lau digituak formatu enkriptatu batean gordetzen dira.
-- **Gorde txartelaren zenbakiak** – Kreditu-txartelen zenbakiak zifratu gabeko formatu batean gordetzen dira. Aukera honek ez du betetzen Payment Card Industry (PCI) Datuen Segurtasun Estandarra (DSS). Hori dela eta, beren erakundeak PCI DSS araudiak betetzen jarraitzeko, erakundeko administratzaileek aukeratu beharko lukete kreditu-txartelen zenbakiak ez gordetzea edo hash-txartelen zenbakiak gordetzea.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Proiektu-prezioak.
 description: Gai honek Dynamics 365 Project Service Automation-en prezioek nola funtzionatzen dutenari buruzko informazioa eskaintzen du.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000561"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148898"
 ---
 # <a name="project-pricing"></a>Proiektu-prezioak. 
 
@@ -46,7 +48,7 @@ Prezio-zerrendako erakundeak erlazionatutako hiru taula ditu, prezioak gordetzen
   - **Transakzioen kategoria prezioa**: taula honek prezioak transakzioen kategorien arabera gordetzen ditu eta gastu kategoriako prezioak ezartzeko erabiltzen da.
   - **Prezio-zerrendako elementuak**: taula honek katalogoko produktuen prezioak gordetzen ditu.
 
-> ![Konfiguratu prezioak prezio-zerrenda erabiliz.](media/basic-guide-12.png)
+> ![Konfiguratu prezioak prezio-zerrenda erabiliz](media/basic-guide-12.png)
  
 Prezio-zerrenda tasa-txartela da. Tasa-txartela prezio-zerrendako entitatearen eta erlazionatutako errenkaden funtzio-prezioaren konbinaketa da, transakzioen kategoriako prezioa eta prezio zerrendako elementuen tauletan daude.
 
@@ -58,7 +60,7 @@ Giza baliabideen denbora normalean proiektu jakin batean betetzen duen eginkizun
 
 **Ordua** salementa-taldea PSA instalatuta dagoenean enbalatzen da. Lehenetsitako unitate bat du: **Ordua**. Ezin dituzu atributuak ezabatu, berrizendatu edo editatu **Ordua** salmenta-unitaterako edo **Ordua** unitaterako. Hala ere, beste unitate batzuk gehitu ditzakezu **Ordua** salmenta-unitatean. Ezabatzen saiatzen bazara **Denbora** salmenta-unitatea edo **Ordua** unitatea, PSAren negozioaren logikan porrotak sor ditzakezu.
 
-> ![Prezioak konfiguratzea, funtzioaren arabera.](media/basic-guide-13.png)
+> ![Prezioak konfiguratzea, funtzioaren arabera](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Transakzio kategoriak eta gastu kategoriak
 
@@ -68,7 +70,7 @@ Proiektuen aholkulariek sortzen dituzten bidaiak eta gainerako gastuak normalean
 - **Gainprezio portzentajea**: benetako kostuaren gaineko portzentajea bezeroari fakturatzen zaio. 
 - **Prezioa unitateko**: gastu-kategoriako unitate bakoitzeko fakturazio-prezioa ezartzen da. Bezeroari fakturatzen zaion zenbatekoa kontsultariak jakinarazten duen gastu unitateen arabera kalkulatzen da. Kilometrajeak prezio bakoitzeko prezioaren metodoa erabiltzen du. Adibidez, kilometro-gastuen kategoria 30 dolar (USD) eguneko edo 2 USD kilometroko izateko konfiguratu daiteke. Aholkulari batek proiektu baten kilometrajea jakinarazten duenean, fakturatu beharreko zenbatekoa aholkulariak jakinarazi duen kilometro kopuruaren arabera kalkulatzen da.
 
-> ![Gastu kategorien prezioak konfiguratzea.](media/basic-guide-14.png)
+> ![Gastu kategorien prezioak konfiguratzea](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Proiektuen salmentako prezioak eta baliogabetzeak
 
@@ -114,7 +116,7 @@ Hala ere, eskaintzan, prezio-zerrenda maisua erabil dezakezu. Bestela, prezioe-z
 
 Proiektuen prezio-zerrenda pertsonalizatua sortzen duzunean, prezio-zerrendako proiektuaren osagaiak soilik kopiatzen dira. Bestela esanda, eskaintzan erantsitako proiektuaren prezio-zerrendaren kopia gisa sortu da prezio-zerrenda berria, eta prezio-zerrenda berri honek funtzio prezioak eta transakzioen kategorien prezioak soilik ditu.
 
-> ![Proiektu-kontratu baten prezio pertsonalizatuak ikusi eta konfiguratzea.](media/basic-guide-15.png)
+> ![Proiektu-kontratu baten prezio pertsonalizatuak ikusi eta konfiguratzea](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Kostuen segimendua
 
@@ -129,6 +131,3 @@ Fakturen tasak bezala, giza baliabideen kostu tasak ere ezartzen dira prezio-zer
     1. Unitate antolatzaileari atxikitako kostuen prezio-zerrenda.
     2. Project Service-eko parametroei atxikitako kostuen prezio-zerrenda. Project Service-eko parametroetara kostuen prezio-zerrendak erantsi daitezkeenez, PSAk moneta bat egiten du proiektuaren, kontratuaren edo eskaintzaren unitate antolatzailearen kontratuaren moneta eta kostuen prezio-zerrendaren monetaren artean.
     3. Gastuei dagokienez, kostu prezioen eta gainprezioaren gaineko prezioen metodoak ez dira kostuen prezio-zerrendetan aplikatzen. Nahiz eta prezio metodo horiek kostu prezio-zerrendako lerroetan erabili, transakzioen kategorien kostuak konfiguratzeko, sistemak ez ditu jaramonik egiten eta ez da kostu prezio lehenetsirik sartuko.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

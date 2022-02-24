@@ -2,16 +2,18 @@
 title: Eguneko dietak
 description: Gai honek Gastuen kudeaketan erabiltzen diren dieten arauei buruzko informazioa eskaintzen du.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986386"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128493"
 ---
 # <a name="per-diems"></a>Eguneko dietak
 
@@ -29,6 +31,3 @@ Eguneko egun bat lanagatik bidaiatzen duen langileari ematen zaion hobaria da. G
     
 ## <a name="submit-expenses-using-per-diem"></a>Bidali egun bakoitzeko gastuak
 Dietak erabiliz gastuak bidaltzeko, erabili **Eguneko** gastuen kategoria gastuen txostena sortzen duzunean. Sartu **Eguneko egunetik aurrera**, **Eguneko egunerokoa** eta **Eguneko kokapena**. Zenbatekoa hautatutako kokapeneko eguneko tasen arabera kalkulatuko da eta otorduen murrizketa eguneko tasen mailen arabera kalkulatuko da.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

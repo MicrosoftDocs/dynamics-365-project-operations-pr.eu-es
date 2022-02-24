@@ -2,16 +2,18 @@
 title: Kudeatu proiektuaren kontratuak
 description: Gai honek proiektuan oinarritutako kontratuei buruzko informazioa ikusten du.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001821"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177316"
 ---
 # <a name="manage-project-contracts"></a>Kudeatu proiektuaren kontratuak
 
@@ -31,6 +33,3 @@ Proiektuan kontratu guztien zerrenda ikus daiteke **Kontratuak** zerrenda orria.
 2. Aukeratu **Ikusi aldatzailea** (ikuspegiaren izenaren ondoan dagoen goitibeherako gezia) iragazitako beste ikuspegi batzuk hautatzeko. Zure ikuspegiak sor ditzakezu iragazki pertsonalizatuko irizpideekin.
 
 Kontratuak zerrenda edo orrialde honetatik sortu edo ezabatu daitezke.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

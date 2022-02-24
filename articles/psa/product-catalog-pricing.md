@@ -2,6 +2,8 @@
 title: Produktuen katalogoaren prezioak
 description: Gai honek produktuen katalogoaren prezioek nola funtzionatzen duten informazioa eskaintzen du Dynamics 365 Project Service Automation-en (PSA).
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000156"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151193"
 ---
 # <a name="product-catalog-pricing"></a>Produktuen katalogoaren prezioak 
 
@@ -62,6 +64,3 @@ Aukera, aurrekontua eta Proiektuen kontratuaren entitateek produktu honen prezio
 Berez, **Produktua** eskaintzaren lerroko eremuan produktuen prezioen zerrendako produktu aktibo guztiak agertzen dira. Produktu bat aktibatuta egon bada edo produktu zirriborroa bada, ez da zerrendatzen, nahiz eta prezioen zerrendan egon. 
 
 Produktuen katalogoko lineak faktura-lerro gisa gehitzen dira proiektuko kontratu baterako sortzen den lehen fakturan. Zerga faktura batean, faktura lerro horiek ezaba daitezke. Kasu horretan, lerroak ondorengo faktura batean agertuko dira fakturatu arte edo faktura bezeroari bidali arte. PSAn, ezin duzu produktuen faktura-lerro bateko kantitate partziala fakturatu. Proiektuko kontratuaren produktu-lerroak fakturatzen direnean, errealak sortzen dira. Hala ere, egiazkoak ez daude lotuta proiektuaren entitatearekin. Alegia, produktuetan oinarritutako proiektuen kontratu-ildoak proiektuan oinarritutako edozein erabilerarekiko independentea dira. PSAk ez du materialen kontsumoa kontrolatzen proiektuetan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Kudeatu ordezkaritza
 description: Gai honetan gastu delegatu batek beste langile baten gastu txostenak nola sortu eta kudeatu ditzakeen buruzko informazioa ematen da.
 author: suvaidya
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997771"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122688"
 ---
 # <a name="manage-delegation"></a>Kudeatu ordezkaritza
 Gastu delegatu batek beste langile baten gastu txostenak sor eta kudea ditzake.
@@ -37,6 +39,3 @@ Ezaugarrien kudeaketa gakoa bada **Gaitu gastuen ordezkarien zerrenda orria** ga
 Ordezkaritza batek azkar iragazi eta bila ditzake lehendik dauden gastuen txostenak. Ordezkariak beste erabiltzaileentzako gastu txosten berri bat sor dezake azkar hautatuta **Gastu txosten berria**.
 
 Ordezkariek beste langileentzako gastuen txostenak sortu eta kudea ditzakete bertara joanda **Gastuen kudeaketa** > **Nire gastuak** > **Gastuen txostenak** eta hautatzea **Ireki beste erabiltzaileen gastuak**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

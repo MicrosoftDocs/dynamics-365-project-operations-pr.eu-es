@@ -2,9 +2,11 @@
 title: Sinkronizatu baliabideen gaitasuna
 description: Gai honetan baliabidearen ahalmena egutegiekin eta proiektuekin sinkronizatzeko moduari buruzko informazioa eskaintzen da.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 006ebbfea42572f17663fab324a20a10321b78f0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005601"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071014"
 ---
 # <a name="synchronize-resource-capacity"></a>Sinkronizatu baliabideen gaitasuna
 
@@ -29,7 +31,7 @@ ms.locfileid: "7005601"
 
 Baliabideak sinkronizatzeko prozesuei esker, egutegiaren eta oinarrizko egutegiaren informazioa proiektuaren baliabideen programazioan sartzen da. Egutegia aldatzen bada, prozesuek beharrezko eguneratzeak egiten dituzte proiektuaren baliabideen programazioan. Prozesuek errendimendua hobetzen ere laguntzen dute, egutegiaren baliabideen informazioa aldez aurretik sinkronizatuta dagoelako. Hori dela eta, baliabideak antolatzeko informazioaren eguneratzeak azkarrago gertatzen dira. Prozesuak multzo gisa antolatzea gomendatzen dizugu, aldi berean ordez. Bestela, norbaitek informazioa azkeneko aldiz sinkronizatu zeneko egun biak barne ahazteko arriskua dago. Data inklusiboak erabiltzen ez badira, hutsuneak gerta daitezke data sinkronizatzean.
 
-![Egutegiaren sinkronizazioa.](./media/projectresourcing04-1024x471.jpg)
+![Egutegiaren sinkronizazioa](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Sinkronizatu baliabide-gaitasuna bateratzea
 
@@ -46,7 +48,4 @@ Gomendatzen dizugu erabiltzea sorta gisa. Aukerak eskuragarri daude edukiera err
     | Hasiera-data  | Idatzi baliabideen edukiera biltzeko prozesuen sinkronizazio prozesuaren hasiera data. |
     | Amaiera-data    | Idatzi baliabideen edukiera biltzeko prozesuen sinkronizazio prozesuaren amaiera data. |
 
-[![Sinkronizazio-prozesua.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Sinkronizazio-prozesua](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)

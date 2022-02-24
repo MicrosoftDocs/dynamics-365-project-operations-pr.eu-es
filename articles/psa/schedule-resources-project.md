@@ -2,6 +2,8 @@
 title: Antolatu proiektuaren baliabideak
 description: Nola antolatu proiektuaren baliabideak Project Service-n
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998131"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150428"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Antolatu proiektuaren baliabideak (Project Service)
 
@@ -33,7 +35,7 @@ Baliabideen erabilgarritasuna egiazta dezakezu zure baliabideen okupazio-maila o
   
 Antolatu board erabilgarritasuna beren eta baliabide-zerrenda erakusten du. Erakutsi modu erabilgarritasuna ikuspegia modua **Ordu**, **Eguna**, **Asteko**, edo **Hilabeteko**.  
   
-Antolaketa-panela erabili aurretik, konfiguratu egin behar da. Informazio gehiago lortzeko, ikusi [Konfiguratu antolaketa-panela (Field Service edo Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
+Antolaketa-panela erabili aurretik, konfiguratu egin behar da. Informazio gehiago lortzeko, ikusi [Konfiguratu antolaketa-panela (Field Service edo Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
 Bertsio zahar bat erabiltzen ari bazara, baliabide erabilgarritasuna jakiteko, ikusi [Ikusi baliabideen erabilgarritasuna](../psa/view-resource-availability.md).  
 
@@ -81,6 +83,3 @@ Bertsio zahar bat erabiltzen ari bazara, baliabide erabilgarritasuna jakiteko, i
   
 ### <a name="additional-resources"></a>Baliabide gehigarriak  
  [Baliabide-kudeatzailearen gida](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

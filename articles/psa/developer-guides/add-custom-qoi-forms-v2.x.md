@@ -2,10 +2,12 @@
 title: Gehitu entitate pertsonalizatuaren inprimaki berriak (Project Service Automation 2.x)
 description: Gai honek entitate pertsonalizatuaren inprimakiak gehitzeko informazioa eskaintzen du, aukerak, eskaintzak, eskaerak edo fakturak sartzeko Dynamics 365 Project Service Automation 2.x-n
 author: makk
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
+ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995206"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144578"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Gehitu entitate pertsonalizatuaren inprimaki berriak (Project Service Automation 2.x)
 
@@ -57,7 +59,7 @@ Jarraitu urrats hauei bertsio pertsonalizatua sortzeko, **Proiektuaren informazi
     - Esportatu **Nire proiektuaren informazioa** inprimakia kudeatu gabeko irtenbide baten zati gisa eta, ondoren, bilatu **formId** esportatutako soluzioaren customization.xml fitxategiaren balioa.
     - Ireki **Nire proiektuaren informazioa** inprimakia inprimaki-editorean, eta ondoren bilatu globalki identifikatzaile bakarra (GIDA) **fromId** parametroaren ondoan URLan, hurrengo irudian erakusten den moduan.
 
-    ![formId balioa inprimaki berriarena, URLan.](media/how-to-add-custom-forms-in-v2.0.png)
+    ![formId balioa inprimaki berriarena, URLan](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Sortu **msdyn\_ordertype** esleipenak **formId** baliorako msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js web baliabidea editatuz. Kendu kodea baliabidetik eta jarri hurrengo kodearekin.
 
@@ -94,6 +96,3 @@ Jarraitu urrats hauei bertsio pertsonalizatua sortzeko, **Proiektuaren informazi
     ```
 
 6. Gorde eta, gero, argitaratu pertsonalizazioak.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

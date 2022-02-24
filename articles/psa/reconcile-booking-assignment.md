@@ -2,6 +2,8 @@
 title: Bateratu erreserbak eta esleipenak
 description: Gai honek benetako datuei buruzko informazioa ematen du.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995116"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147908"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Bateratu erreserbak eta esleipenak
 
@@ -51,11 +53,11 @@ Zenbait kasutan, **Denbora-eskala** eremua **Eguna** baino handiagoa den maila b
 
 Denbora-maila altuagoak ikusten dituzunean, **Kontziliazioa** fitxak gelaxka adierazle bat erakusten du denbora maila baxuagoetan desberdintasunak daudela jakinarazteko. Adibidez, hurrengo irudian, gelaxkaren adierazle bat agertzen da 2018ko urriko gelaxkan Janire Garate izena duen baliabiderako. Beraz, baliabidearen erreserbak eta esleipenak berdinak badira ere **Hilabetea** mailan gehitzean, ez datoz bat beheko mailetan.
 
-![Bat ez datozen erreserbak eta esleipenak hileroko mailan.](media/reconcile-assignments-01.JPG)
+![Bat ez datozen erreserbak eta esleipenak hileroko mailan](media/reconcile-assignments-01.JPG)
 
 Egin klik bikoitza gelaxkan hurrengo maila txikiagora gerturatzeko eta aldea ikusteko. Adibidez, Janire Garateko 2018ko urriko aldean klik bikoitza egiten baduzu, **Astea** mailara jaisten zara. Ikusi ahal izango duzu baliabideak 16 orduko erreserbak dituela, baina ez duela esleipenik urriko lehen bi asteetan, eta 16 orduko esleipenak dituela baina ez duela erreserbarik urriaren hirugarren astean.
 
-![Bat ez datozen erreserbak eta esleipenak asteroko mailan.](media/reconcile-assignments-02.JPG)
+![Bat ez datozen erreserbak eta esleipenak asteroko mailan](media/reconcile-assignments-02.JPG)
 
 Egin klik eskuineko botoiarekin gelaxkan, hurrengo maila altuagoa txikitzeko. Gelaxkaren adierazlea ere itzali dezakezu **Ezarpenak** botoia hautatua. 
 
@@ -68,13 +70,13 @@ Hedatu erreserba erabiliz emaitza zehatzak eta iragar daitezkeenak ziurtatzeko, 
 
 - Erabiltzaileak bere gailuaren ordu-eremua konfiguratu behar du sistemaren Pertsonalizazio-ezarpenetan zehaztutako ordu-eremuarekin bat etortzeko.
  
-  ![Ordu-eremuaren ezarpenak Windows 10-en.](media/reconcile-assignments-03.png)
+  ![Ordu-eremuaren ezarpenak Windows 10-en](media/reconcile-assignments-03.png)
 
-  ![Ordutegi-eremuaren ezarpenak pertsonalizazio-ezarpenetan.](media/reconcile-assignments-04.png)
+  ![Ordutegi-eremuaren ezarpenak pertsonalizazio-ezarpenetan](media/reconcile-assignments-04.png)
  
 - Baliabide erreserbagarriak eskatutako luzapena definitzeko erabilitako sarrerak gainjartzen den lanaldiko minutu bat izan behar du gutxienez. Adibidez, adibide honetan 09:00etatik 19:00etara lan egiten dutenen berrikusteko baliabideak erakusten dira. 
 
-  ![Baliabideen sarrerak alderatzea.](media/reconcile-assignments-05.png)
+  ![Baliabideen sarrerak alderatzea](media/reconcile-assignments-05.png)
 
 Taula honek hau erakusten du:
 
@@ -83,22 +85,19 @@ Taula honek hau erakusten du:
 - B baliabideak: baliabide hau ez dago proiektuaren ordu-eremu berean eta, beraz, goizeko 07:00etatik aurrera hasten da bere ordu-eremuan. Hala ere, erreserbak goizeko 09:00etan hasiko dira, esleipen-sarreraren hasiera-ordu goiztiarrena delako.
 - C eta D baliabideak: baliabide hauek ere ordu-eremu desberdinetan daude, biek ordu-eremu desberdina dute bai elkarrekiko baita proiektuarekiko ere, eta euren erreserbak ez dira hasiko dagozkien hasiera-orduak baino lehenago.
 
-|Entity  |Egutegia  |
+|Entitatea  |Egutegia  |
 |-|-|
-|Proiektuaren egutegi-txantiloia   | ![proiektuaren egutegia.](media/reconcile-assignments-06.png) |
-|A baliabidea  | ![A baliabidearen egutegia.](media/reconcile-assignments-06.png) |
-|B baliabidea  |  ![B baliabidearen egutegia.](media/reconcile-assignments-07.png) |
-|C baliabidea  |  ![C baliabidearen egutegia.](media/reconcile-assignments-08.png) |
-|D baliabidea  | ![D baliabidearen egutegia.](media/reconcile-assignments-09.png)  |
+|Proiektuaren egutegi-txantiloia   | ![proiektuaren egutegia](media/reconcile-assignments-06.png) |
+|A baliabidea  | ![A baliabidearen egutegia](media/reconcile-assignments-06.png) |
+|B baliabidea  |  ![B baliabidearen egutegia](media/reconcile-assignments-07.png) |
+|C baliabidea  |  ![C baliabidearen egutegia](media/reconcile-assignments-08.png) |
+|D baliabidea  | ![D baliabidearen egutegia](media/reconcile-assignments-09.png)  |
  
 Bateratze-ikuspegira joatean, baliabideen esleipenak eta lotutako erreserba-eskasiak agertzen dira.
- ![Bateratze-ikuspegia hedapenaren aurretik.](media/reconcile-assignments-10.png)
+ ![Bateratze-ikuspegia hedapenaren aurretik](media/reconcile-assignments-10.png)
 
 Baliabide bakoitzean Hedatu erreserba baliabidea exekutatu ostean, behar bezala hedatuko dira baliabide bakoitzaren erreserbak. Baliabide bakoitzaren lan-orduak gabeziaren eskasiaren sarrerekin gainjartzen direlako gertatzen da hori.
- ![Bateratze-ikuspegia erreserba luzatu ostean.](media/reconcile-assignments-11.png) 
+ ![Bateratze-ikuspegia erreserba luzatu ostean](media/reconcile-assignments-11.png) 
 
 Hala ere, erreserben xehetasunei gertuagotik begiratuz gero erreserben hasiera-orduetako aldeak erakusten dira. Erreserbak ez dira hasi esleipen-sarreraren hasiera-ordua baino lehenago, ezta baliabidearen hasiera-ordu librea baino lehenago ere.
- ![Antolaketa-taulako baliabideen erreserba berriak.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Antolaketa-taulako baliabideen erreserba berriak](media/reconcile-assignments-12.png)

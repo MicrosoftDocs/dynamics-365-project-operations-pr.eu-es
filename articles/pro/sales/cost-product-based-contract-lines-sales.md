@@ -2,17 +2,19 @@
 title: Kudeatu produktuetan oinarritutako kontratuaren lerroen kostuak - arina
 description: Gai honek sortzeari buruzko informazioa ematen du
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 55f74b016b55945433083e11902003cea99f1aa463264cdd95b0aad389592e20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a81c972f36179621f0547c24fc53d294485f638c
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997321"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764444"
 ---
 # <a name="cost-product-based-contract-lines---lite"></a>Kudeatu produktuetan oinarritutako kontratuaren lerroen kostuak - arina
 
@@ -28,6 +30,3 @@ Katalogoko produktu baterako produktuan oinarritutako kontratu lerroa sortzen de
 Produktuan oinarritutako kontratuaren lerro batean kostu unitarioa edukitzearen helburua salmenta bakoitzeko produktu baten kostu desberdinak ahalbidetzea da. Beharrezkoak ez diren arren, hornitzaileek produktuaren kostua beheratu dezakete bezeroaren kasuan. Hartu kontuan egoera hau:
 
 Fabrikam Robotics Adatum Corporation-en muntaia lerroetan beso robotikoak instalatzen ari da. Fabrikam-ek instalazio zerbitzuak eskaintzen ditu baina beso robotikoak Trey Research enpresakoak dira. Adatum Corporation-en beso robotikoak instalatzeak Trey Research-en industria bertikal berria irekitzen badu, Trey-k deskontu berezia eman diezaioke Fabrikam-i akordio horretarako. Kasu honetan, Fabrikam-ek produktuetan oinarritutako kontratu lerro bat sortzen du Robotic Arms-entzat. Kontratu honetarako unitateko kostu bakoitza sartzen da. Trey Research-eko arma robotikoen kostua ezberdina da.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,17 +2,19 @@
 title: Eguneratu Project Operations zure Finantza ingurunean
 description: Gai honek Project Operations Dynamics 365 Finance ingurunean nola eguneratu jakiteko informazioa eskaintzen du.
 author: ruhercul
+manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
+ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986746"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816610"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Eguneratu Project Operations zure Finantza ingurunean
 
@@ -33,7 +35,7 @@ Gai honek Dynamics 365 Project Operations Dynamics 365 Finance ingurunean nola e
 4. Egiaztatu ingurunea martxan dagoela. Hasten ez bada, hasi ingurunea.
 5. **Argitalpen berria** sekzioan, **Eguneratze erabilgarriak** atalean, hautatu **Ikusi eguneratzea** 10.0.15 bertsioarena.
 
-![Ikusi eguneratzea botoia.](media/view-update.png)
+![Ikusi eguneratzea botoia](media/view-update.png)
 
 6. **Eguneratze bitarrak** orrialdean, hautatu **Gorde paketea**.
 7. **Berrikusi eta gorde eguneratzeak** orrialdean, hautatu **Gorde paketea**.
@@ -47,11 +49,11 @@ Gai honek Dynamics 365 Project Operations Dynamics 365 Finance ingurunean nola e
 2. Zerrendan, hautatu lehen gordetako paketea, eta hautatu **Aplikatu**.
 3. Aukeratu **Bai** paketea zabaldu nahi duzula baieztatzeko.
 
-![Berretsi paketeak inplementatzeko elkarrizketa-koadroa.](media/confirm-package-deployment.png)
+![Berretsi paketeak inplementatzeko elkarrizketa-koadroa](media/confirm-package-deployment.png)
 
 4. Aukeratu **Bai** aplikazioa eguneratu nahi duzula baieztatzeko.
 
-![Berretsi aplikazioa eguneratzeko elkarrizketa-koadroa.](media/confirm-application-update.png)
+![Berretsi aplikazioa eguneratzeko elkarrizketa-koadroa](media/confirm-application-update.png)
 
 Inplementazioa eta aplikazioaren eguneratzea hasiko da. 
 
@@ -84,7 +86,7 @@ Entitateen segurtasun pribilegioen eguneratze hauek beharrezkoak dira UR5 eguner
 
 1. Dataverse ingurunean, joan **Ezarpenak** aukerara, eta **Sistema** taldean, hautatu **Segurtasuna**.
 
-![Dataverse ingurune-ezarpenak.](media/Picture21.png)
+![Dataverse ingurunearen ezarpenak](media/Picture21.png)
 
 2. Hautatu **Segurtasun-funtzioak**.
 3. Funtzioen zerrendan, hautatu **idazketa bikoitzeko aplikazioaren erabiltzailea** eta hautatu **Entitate pertsonalizatuak** fitxa. 
@@ -121,8 +123,5 @@ Entitateen segurtasun pribilegioen eguneratze hauek beharrezkoak dira UR5 eguner
 6. Mapen zerrendan, hautatu **Liburua (msdyn_ledgers)** mapa aurrebaldintza guztiekin eta hautatu **Hasierako sinkronizazioa** kontrol-laukia. 
 7. **Hasierako sinkronizaziorako nagusia** eremuan, hautatu **Finance and Operations aplikazioak** eta, ondoren, hautatu **Exekutatu**.
  
- ![Liburuaren esleipenaren sinkronizazioa.](media/DW6.png)
+ ![Liburuaren esleipenaren sinkronizazioa](media/DW6.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

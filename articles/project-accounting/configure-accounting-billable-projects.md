@@ -2,16 +2,18 @@
 title: Konfiguratu proiektu fakturagarrien kontabilitatea
 description: Gai honek fakturagarriak diren proiektuen kontabilitate aukerei buruzko informazioa eskaintzen du.
 author: sigitac
+manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991009"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858638"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfiguratu proiektu fakturagarrien kontabilitatea
 
@@ -101,23 +103,23 @@ Bete urrats hauek proiektuaren kostuen eta diru-sarreren profil berria sortzeko.
 
 Denbora eta materialak - WIP gabe
 
-![Kostuen eta diru-sarreren profila: denbora eta materialak - WIP ez.](media/time-material-no-wip.png)
+![Kostuen eta diru-sarreren profila: denbora eta materialak - WIP ez](media/time-material-no-wip.png)
 
 Denbora eta materialak - WIP (diru-sarrerak)
 
-![Kostuen eta diru-sarreren profila: denbora eta materialak - WIP.](media/time-material-with-wip.png)
+![Kostuen eta diru-sarreren profila: denbora eta materialak - WIP](media/time-material-with-wip.png)
 
 Prezio finkoa - WIP gabe
 
-![Kostuen eta diru-sarreren profila: prezio finkoa - WIPrik ez.](media/fixed-price-no-wip.png)
+![Kostuen eta diru-sarreren profila: prezio finkoa - WIPrik ez](media/fixed-price-no-wip.png)
 
 Prezio finkoa - amaitutako kontratua
 
-![Kostuen eta diru-sarreren profila: prezio finkoa - amaitutako kontratua.](media/fixed-price-completed-contract.png)
+![Kostuen eta diru-sarreren profila: prezio finkoa - amaitutako kontratua](media/fixed-price-completed-contract.png)
 
 Prezio finkoa - ehunekoaren osaketa
 
-![Kostuen eta diru-sarreren profila: prezio finkoa - ehunekoaren osaketa.](media/fixed-price-completed-percentage.png)
+![Kostuen eta diru-sarreren profila: prezio finkoa - ehunekoaren osaketa](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Kontabilitate-gertaeraren adibideak proiektu-kostuen eta diru-sarreren profilen laginetarako.

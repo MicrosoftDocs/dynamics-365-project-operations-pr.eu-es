@@ -1,6 +1,8 @@
 ---
 title: Proposatutako proiektuaren baliabidea onartu edo ezetsi
 description: Gai honek proposatutako proiektuaren baliabidea onartu edo ezesteko informazioa ematen du.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e5c0e53c7fbde92c0f0b445847d2499532626637cf66fa1bb556eccc1e6079ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7ae129284d0d053b78c39907a78a0cfda60ea43c
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992506"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146153"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Proposatutako proiektuaren baliabidea onartu edo ezetsi
 
@@ -33,16 +35,13 @@ Gai honek proposatutako proiektuaren baliabidea onartu edo ezesteko informazioa 
 
 Baliabideen kudeatzaileak proiektu batentzako baliabide generikoen eskaera betetzeko izendatutako baliabidea proposatzen duenean, **Eskaeraren egoera** talde generikoko kideentzako eremua eguneratuko da **Beharrak berrikustea** egoerara. Eskaera proiektuko arduradunari bidaliko zaio onarpena edo ezetza egiteko.
 
-![Taldekide generikoa proposamen batekin.](media/RM-how-to-19.png)
+![Taldekide generikoa proposamen batekin](media/RM-how-to-19.png)
 
 **Proposatutako baliabideak** fitxako sareta **Proiektuko taldekidea** orrialdean proposatutako baliabidearen uneko erreserbak erakusten dira. Proposamena onartu ondoren, sarea eguneratzen da erreserba hori islatzeko. 
 
 Proposatutako baliabidea onartzeko eta taldean erreserbatzeko, egin klik **Onartu proposamenak** aukeran.  
 Proposamena ezesteko, sakatu **Baliabidea**.
 
-![Baliabide proposamena onartzea.](media/RM-how-to-20.png) 
+![Baliabide proposamena onartzea](media/RM-how-to-20.png) 
 
 Baliabide generikoen eskaera izendatutako baliabide batekin zuzenean betetzeko antzekoa, baliabide generikoa ordezkatuko da eta esleitutako zereginak taldeko kide izendatuarekin eguneratuko dira.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

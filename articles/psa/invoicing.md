@@ -2,10 +2,12 @@
 title: Fakturak egin Project Service Automation-en
 description: Gai honek fakturak egiteari buruzko informazioa ematen du.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985486"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151373"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturak egin Project Service Automation-en
 
@@ -50,7 +52,7 @@ Jarraitu urrats hau proiektu-kontratu jakin baterako faktura sortzeko.
 
 - **Proiektuen kontratuak** zerrenda-orrian, ireki proiektu-kontratua eta ondoren hautatu **Sortu faktura**.
 
-    ![Proiektu-fakturak sortzea proiektu jakin bateko kontratuetarako.](media/CreateProjectInvoicesOneByOne.png)
+    ![Proiektu-fakturak sortzea proiektu jakin bateko kontratuetarako](media/CreateProjectInvoicesOneByOne.png)
 
     Faktura sortzen da **Fakturatzeko prest** egoera daukaten hautatutako proiektu-kontratuaren transakzio guztientzat. Eragiketa horien artean, denbora, gastuak, mugak eta produktuetan oinarritutako kontratuaren lerroak daude.
 
@@ -58,7 +60,7 @@ Jarraitu urrats hauei fakturak denak batera sortzeko.
 
 1. **Proiektuen kontratuak** zerrenda-orria, hautatu faktura bat sortu behar dituzun proiektu kontratu bat edo gehiago eta, ondoren, hautatu **Sortu proiektu-Fakturak**.
 
-    ![Sortu proiektuaren fakturak denak batera.](media/CreateProjectInvoicesBulk.png)
+    ![Sortu proiektuaren fakturak denak batera](media/CreateProjectInvoicesBulk.png)
 
     Abisu mezu batek fakturak sortu aurretik atzerapen bat egon daitekeela jakinarazten dizu. Prozesua ere erakusten da.
 
@@ -115,6 +117,3 @@ Faktura zuzentzailea baieztatzen duzunean, fakturatutako jatorrizko salmenten be
 
 - Fakturatutako salmentak sei orduz fakturatu dira.
 - Bete gabeko salmentak benetako gainerako bi orduetan. Transakzio hau beranduago fakturatu daiteke edo kargagabea izan daiteke, bezeroarekin izandako negoziazioen arabera.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

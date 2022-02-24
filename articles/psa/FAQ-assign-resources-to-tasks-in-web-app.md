@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987691"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993268"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Nola eslei daiteke baliabide erreserbagarri bat zeregin bati web-aplikazioan (Project Service aplikazioa v2.x)?
 
@@ -43,7 +43,7 @@ Metodo honekin proiektua taldeari baliabide bat gehitu aurkitzea esleitu zeregin
 3.  Hautatu **Noiztik** eta **Noiz arte** datak.
 
     > [!div class="mx-imgBorder"] 
-    > ![Taldekidea gehitzeko pantaila-argazkia.](media/FAQ-Resources-to-Tasks2-1.png "Taldekidea gehitzeko pantaila-argazkia")
+    > ![Taldekidea gehitzeko pantaila-argazkia](media/FAQ-Resources-to-Tasks2-1.png "Taldekidea gehitzeko pantaila-argazkia")
  
 4.  Hautatu booking baliabidea-kopuruan metodoak ondorengo aukeretako bat:
     - **Gaitasun osoa** aukerarekin baliabidearen ahalmena osoa zehaztutako liburu batetik eta data.
@@ -63,12 +63,12 @@ Metodo honekin proiektua taldeari baliabide bat gehitu aurkitzea esleitu zeregin
     3. Hautatu **Ados**. Taldeko kide orain den esleitutako zeregina.
 
     > [!div class="mx-imgBorder"] 
-    > ![WBSekin baliabideak gehitzeko pantaila-argazkia.](media/FAQ-Resources-to-Tasks2-2.png "WBSekin baliabideak gehitzeko pantaila-argazkia")
+    > ![WBSekin baliabideak gehitzeko pantaila-argazkia](media/FAQ-Resources-to-Tasks2-2.png "WBSekin baliabideak gehitzeko pantaila-argazkia")
  
 Taldearen kide saretan, ikusiko duzu baliabideen agregatuen esleitutako Esleitutako Ordu atalean ordu. Izango da, baliabide-booked ordu berdina edo txikiagoa. 
 
 > [!div class="mx-imgBorder"] 
-> ![Baliabide bati esleitutako orduen pantaila-argazkia.](media/FAQ-Resources-to-Tasks2-3.png "Baliabide bati esleitutako orduen pantaila-argazkia")
+> ![Baliabide bati esleitutako orduen pantaila-argazkia](media/FAQ-Resources-to-Tasks2-3.png "Baliabide bati esleitutako orduen pantaila-argazkia")
  
 Baliabidea esleitzen saiatzen ari zara zeregina abiarazten baliabideak bookings amaiera-data ondoren, baliabidea ez agertuko-barrako goitibeheran.
 
@@ -92,22 +92,22 @@ Metodo hori assures baliabide-dituzte zereginak bookings nahikoa. Lehenik eta be
 4. Hautatu **Ados**.
 
     > [!div class="mx-imgBorder"] 
-    > ![WBS erabiliz baliabidea gehitzeko pantaila-argazkia.](media/FAQ-Resources-to-Tasks2-4.png "WBS erabiliz baliabidea gehitzeko pantaila-argazkia")
+    > ![WBS erabiliz baliabidea gehitzeko pantaila-argazkia](media/FAQ-Resources-to-Tasks2-4.png "WBS erabiliz baliabidea gehitzeko pantaila-argazkia")
  
 Administrazio-funtzioak, WBS zereginak osatu dituzunean, hautatu **Sortu proiektu-taldea**. Project Service-k orokorra taldekideak oinarrituta-funtzioak, resourcing erakundearen unitateak eta proiektua egutegi zeregina esleipenetan aggregating arabera kopurua gutxieneko sortzen du.
 
 > [!div class="mx-imgBorder"] 
-> ![Proiektuaren taldea sortzeko pantaila-argazkia.](media/FAQ-Resources-to-Tasks2-5.png "Proiektuaren taldea sortzeko pantaila-argazkia")
+> ![Proiektuaren taldea sortzeko pantaila-argazkia](media/FAQ-Resources-to-Tasks2-5.png "Proiektuaren taldea sortzeko pantaila-argazkia")
  
 Taldeko Kide saretan, ikusiko duzu baliabide-funtzioak eta posizio izen Orokorra Baliabide mota. Baliabideak bi ditu-funtzio bat behar diren, Sortu Taldearen eginbidea bi taldekideak sortzen du eta apart ezarri posizioaren izena erabiltzen.
 
 > [!div class="mx-imgBorder"] 
-> ![Bi baliabide generiko gehitzeko pantaila-argazkia.](media/FAQ-Resources-to-Tasks2-6.png "Bi baliabide generiko gehitzeko pantaila-argazkia")
+> ![Bi baliabide generiko gehitzeko pantaila-argazkia](media/FAQ-Resources-to-Tasks2-6.png "Bi baliabide generiko gehitzeko pantaila-argazkia")
  
 Baliabide Eskakizun atalean esteka hautatuta backing baliabide eskakizun orokorra taldearen kide ireki dezakezu.
 
 > [!div class="mx-imgBorder"] 
-> ![Ordezko baliabide-eskakizunak irekitzearen pantaila-argazkia.](media/FAQ-Resources-to-Tasks2-7.png "Ordezko baliabide-eskakizunak irekitzearen pantaila-argazkia")
+> ![Ordezko baliabide-eskakizunak irekitzearen pantaila-argazkia](media/FAQ-Resources-to-Tasks2-7.png "Ordezko baliabide-eskakizunak irekitzearen pantaila-argazkia")
 
 Hautatu **Erreserbatu** orokorra baliabidea, eta, ondoren, erabil dezakezu antolaketa board bilaketa eta erreserbatutako benetako baliabide. Baliabide kudeatzailea arabera betetze-eskakizun hautatuta bidali dezakezu ere **Eskatzeko Bidali**.
 

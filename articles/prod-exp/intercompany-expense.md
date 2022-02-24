@@ -1,25 +1,27 @@
 ---
 title: Enpresen arteko gastuak
 description: Gai honetan enpresen arteko gastuak langilearen gastuak lana burutu den entitate juridikoari esleitzeko moduari buruzko informazioa ematen da.
-author: Surya Vaidyanathan
-ms.date: 07/08/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: suvaidya
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d908a1c062f5b7f01cf340dcd6f7f24714a992bf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001191"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271518"
 ---
 # <a name="intercompany-expenses"></a>Enpresen arteko gastuak
 
@@ -34,17 +36,5 @@ Langile batek enpresen arteko gastuak sortu eta bidali aurretik, enpresen arteko
 Mailegu (iturburu) erakunde juridikoarekin lotutako mailegu (destino) entitate juridikoarekin lotutako zerga taldeak erabili aurretik, zure gastuaren txostenean, funtzionalitatea gaitu behar duzu liburu nagusien salmenten gaineko zergaren konfigurazioan. **Enpresen arteko zergak argitaratzeko pertsona juridikoa** parametroa ezarrita dagoenean **Iturria** eta **Salmenten gaineko zergaren gaineko zerga arauak aplikatzea** ezarrita dago **Ez**, mailegu-entitate juridikoaren zerga-konbinazioa erabiltzen da. Parametro bera ezarrita dagoenean **Helmuga**, zorpetutako entitate juridikoaren zerga-konbinazioa erabiliko da. Estatu Batuetako pertsona juridikoetarako, parametroa ezarrita dagoenean **Iturria**, **Kobratu beharreko salmenten gaineko zerga** eremua berrian konfiguratu behar da **Liburuak argitaratzeko taldeak** orrialdea. Kontabilitate motorrak eremu honetako informazioa erabiliko du zergekin lotutako kontabilitate sarrera egiteko.   
 Jokabidea koherentea da proiektuarekin edo proiekturik gabe argitaratutako gastu lerroetan.  
 
-## <a name="new-expense-expression-builder"></a>Gastu adierazpenen eraikitzaile berria
-
-Gastu adierazpenen eraikitzaile berriak proiektuak erabiltzen dituzten enpresen arteko gastu eszenatokiekin arazoak jorratzen ditu. Ezaugarri honi esker, enpresen arteko gastua sortzen duzunean, gastu-politika gastu-lerroan hautatutako proiektuaren aurka behar bezala balioztatzen dela eta gastuen txostena ongi bidal daitekeela ziurtatzen da.
-
-Gastuen adierazpenen eraikitzailearen funtzioak funtziona dezan, aktibatuta egon behar da. Gainera, proiektuaren IDa duen gastu politika ezarri beharko litzateke.
-
-Gastuaren lerroan proiektuaren IDa balioztatzen duten politikak konfiguratu badituzu, politika horiek erretiratu egin beharko dira. Eginbidea aktibatu eta gidalerroak berriro konfigura ditzakezu.
-
-Eginbide hau aktibatzeko, jarraitu ondorengo urratsak.
-
-1. Joan **Laneko areak** \> **Eginbideen kudeaketa** atalera.
-2. Zerrendan, hautatu **Gastu adierazpenen eraikitzaile berriak proiektuak erabiltzen dituzten enpresen arteko gastu eszenatokiekin arazoak jorratzen ditu**. Ondoren hautatu **Gaitu orain**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

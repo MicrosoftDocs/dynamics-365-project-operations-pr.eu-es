@@ -2,16 +2,18 @@
 title: Egin lan proiektuetan oinarritutako kontratuaren lerroekin
 description: Gai honek proiektuan oinarritutako kontratu lerroei buruzko informazioa eskaintzen du.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990031"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181687"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Egin lan proiektuetan oinarritutako kontratuaren lerroekin
 
@@ -55,6 +57,3 @@ Araua: Proiektu bat eta transakzio klase jakin bat proiektuan oinarritutako kont
 | C1       | CL2           | A1      | +Ez           | Yes             | +Ez          | Baliozkoa           | P1 proiektuaren denbora eta tasak CL1ean sartzen dira. P1 proiektuaren gastuak QL2n sartzen dira. </br>   Kontratu lerro bakoitzean sartzen den horretan ez dago gainjartzerik eta, beraz, balio du.  |
 | C1       | CL1           | A1      | Yes          | Yes             | Yes         | Baliogabea da       | Araua urratzen du. P1 proiektuaren denbora, gastua eta tasak kontratuaren linea bietan, bi kontratuetan daude.                                                                                               |
 | CL2      | CL2           | A1      | Yes          | Yes             | Yes         | Baliogabea da       | Araua urratzen du. P1 proiektuaren denbora, gastua eta tasak kontratuaren linea bietan, bi kontratuetan daude.                                                                                               |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

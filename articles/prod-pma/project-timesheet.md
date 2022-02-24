@@ -2,9 +2,11 @@
 title: Proiektuaren orrialde mugikorretarako aplikazioa
 description: Gai honek informazioari buruzko informazioa eskaintzen du Microsoft Dynamics 365 Project Timesheet mugikorretarako aplikazioa. Project Timesheet aplikazio mugikorrak erabiltzaileei gailu mugikorrean proiektuen fitxak aurkezteko eta onartzeko aukera ematen die.
 author: abruer
+manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997186"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071209"
 ---
 # <a name="project-timesheet-mobile-application"></a>Proiektuaren orrialde mugikorretarako aplikazioa
 
@@ -94,6 +96,3 @@ Egin klik **Bidali** denbora-orria onarpen-lanera bidaltzeko.
 ## <a name="review-timesheets"></a>Berrikusi denbora-orriak
 
 Menuan eskuragarri dago berrikusi behar diren ordu-orrien zerrenda. Aukera hau erabilgarri dago lan-fluxuaren onartzaile izendatu bazaituzte. Goiburukoa eta lineako onarpena onartzen dira. Linea maila onartzeak onartzeko lerro bat edo gehiago markatzeko aukera eskaintzen du. Ordutegiaren informazioa berrikusi ondoren, egin klik **Onartu**, **Ordezkaria**, edo **Itzuli** lan-fluxuarekin jarraitzeko.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

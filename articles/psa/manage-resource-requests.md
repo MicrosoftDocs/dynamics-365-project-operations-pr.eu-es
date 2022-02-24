@@ -2,6 +2,8 @@
 title: Kudeatu baliabide-eskaerak
 description: Nola kudeatu baliabide-eskaerak Project Service-n
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985126"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149843"
 ---
 # <a name="manage-resource-requests-project-service"></a>Kudeatu baliabide-eskaerak (Project Service)
 
@@ -43,12 +45,9 @@ Kontu-kudeatzaileek eta proiektu-kudeatzaileek maiz eskatzen dituzte baliabideak
   
    -   Sakatu **Iragazkia** **Iragazkia** panela erakusteko. Horrela, antolakuntza-unitatearen, funtzioaren, abilezioen edo beste atribtu batzuen araberako emaitzen arabera iragazi ahal izango duzu.  
   
-       ![Project Service Baliabideen eskaeren pantaila.](../psa/media/project-service-resource-request-screen.png "Project Service Baliabideen eskaeren pantaila")  
+       ![Project Service Baliabideen eskaeren pantaila](../psa/media/project-service-resource-request-screen.png "Project Service Baliabideen eskaeren pantaila")  
   
 3. Erreserbatu nahi duzun baliabidearen egutegian, hautatu baliabidea erreserbatzeko denbora-tartea eta, ondoren, sakatu **Erreserbatu** baliabidea erreserbatzeko edo **Proposatu erreserba** erreserba proposatzeko eta eskatzaileak onartzeko. Baliabide bat erreserbatzen duzunean, behin-behinean edo tinko erreserba dezakezu.  
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Baliabide-kudeatzailearen gida](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

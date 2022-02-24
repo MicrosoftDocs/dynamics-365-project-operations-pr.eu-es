@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007131"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992819"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Ikusi baliabideen erabilera kargagarria
 
@@ -29,7 +29,7 @@ ms.locfileid: "7007131"
  
 **Erabileraren ikuspegia** **Project Service-en baliabideen erabilera** orrialdean erreserbagarria den baliabidearen erabilera kargagarria erakusten da. Ikuspegia antolaketan oinarrituta dagoenez aurkituko dituzu funtzio berdin asko.
 
-> ![Ikuspegi erabilera-eginbideei.](media/FAQ-utilization-1.png)
+> ![Ikuspegi Utilization Eginbideei](media/FAQ-utilization-1.png)
  
 
 Kalkuluak chargeable utilization funtzionatzen duela honela:
@@ -48,7 +48,7 @@ Helburuko erabilera ezar daiteke edozer baliabideen funtzio lehenetsia edo balia
 2. Hautatu baliabide bat erregistroa irekitzeko. 
 3. **Project Service** fitxan, helburuko erabilera ere ezar dezakezu baliabiderako.
 
-> ![Eginbideei erabiltzearen arriskua helburuko erabilera ezartzeko Project Service fitxan aurki daiteke.](media/FAQ-utilization-2.png)
+> ![Eginbideei erabiltzearen arriskua helburuko utilization ezartzeko Project Service fitxan aurki daiteke](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Ezarri xedeen erabilera funtzio batean
 
@@ -56,7 +56,7 @@ Helburuko erabilera ezar daiteke edozer baliabideen funtzio lehenetsia edo balia
 2. Hautatu funtzio bat erregistroa irekitzeko. 
 3. Ezarri helburuko erabilera funtziorako.
 
-> ![Eginbideei erabiltzearen arriskua helburuko erabilera ezartzeko Project Service fitxan aurki daiteke.](media/FAQ-utilization-3.png)
+> ![Eginbideei erabiltzearen arriskua helburuko utilization ezartzeko Project Service fitxan aurki daiteke](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Kalkulatu baliabideen erabilera kargagarria
 

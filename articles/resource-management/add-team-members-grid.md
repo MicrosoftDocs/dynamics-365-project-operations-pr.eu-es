@@ -2,22 +2,24 @@
 title: Gehitu Team kideen saretako taldeko kideak
 description: Gai honek talde kideko baliabideak kudeatzeko moduari buruzko informazioa eskaintzen du.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008391"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121518"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Gehitu Team kideen saretako taldeko kideak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations-ek baliabideen kudeaketako panela biltzen du baliabideen eskaeraren eta erakundearen erabileraren ikuspegi orokorra eskaintzen duena. Panel honetako diagramak erabil ditzakezu informazioa ikusteko:
+Dynamics 365 Project Operations-ek Resource Manager panela biltzen du baliabideen eskaeraren eta erakundearen erabileraren ikuspegi orokorra eskaintzen duena. Panel honetako diagramak erabil ditzakezu informazioa ikusteko:
 
 - **Baliabideen eskaria**: **Baliabide aktiboen eskaera** taulan aurkeztu diren baliabideak erakusten dira. Baliabideak funtzioaren edo proiektuaren arabera biltzen dira.
 - **Bidali gabeko baliabideen eskaria**: **Esleitu gabeko baliabideen eskaria** taulan aurkeztu ez diren baliabide-eskakizun guztiak erakusten dira. Grafiko honekin, Baliabideen kudeatzailek eskaera ez dela irmoa ikusten dute eta baliabide eskaera bidez bidaltzen laguntzen die.
@@ -198,6 +200,3 @@ Denbora-maila altuagoak ikusten dituzunean, **Kontziliazioa** fitxak gelaxkak ad
 Zereginen esleipenak dituzun baina erreserbarik ez baduzu, **Proiektuak** inprimakian, **Kontziliazioa** fitxan, erreserba eskasia aukeratu dezakezu eta, ondoren, hautatu **Hedatu erreserba**. **Luzatu Erreserba** elkarrizketa-koadroa agertuko da eta baliabidearen eskasiari aurre egiteko beharrezkoa den erreserba erakusten du. Elkarrizketa-koadroan baliabideek dituzten erreserbak agertzen dira proiektu guztietan edo beste erakunde antolatzaile batzuetan. Aukeratzen baduzu **Ados** baliabidearen erreserba sortzeko, baliabidearen erabilgarritasuna edozein dela ere, gerta daiteke erreserba gehiegi egotea.
 
 Orduan, Proiektu-kudeatzaileak edo Baliabide-kudeatzaileak antolaketa-panela erabil dezake baliabide batek bere ahalmenetatik harago gaitasunak gainditutako edozein egoera kudeatzeko.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

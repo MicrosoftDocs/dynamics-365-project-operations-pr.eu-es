@@ -2,16 +2,18 @@
 title: Project Operations idazketa dualeko esleipen-bertsioak
 description: Gai honek idazketa bikoitzeko mapen zerrenda eskaintzen du Dynamics 365 Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
+ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547094"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938941"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations idazketa dualeko esleipen-bertsioak
 
@@ -32,40 +34,40 @@ Ondorengo mapak Project Operations soluziorako ezinbesteko baldintzak dira. Ziur
 
 1. Mapen zerrendan, hautatu Liburua **(msdyn\_ledgers)** mapa aurrebaldintza guztiekin eta hautatu **Hasierako sinkronizazioa** kontrol-laukia. **Hasierako sinkronizaziorako maisua** eremua, hautatu **Finance and Operations aplikazioak** bai liburutegi maparako, bai aurrebaldintzako mapa guztietarako. Hautatu **Exekutatu**.
 
-![Liburuaren esleipenaren sinkronizazioa.](media/DW6.png)
+![Liburuaren esleipenaren sinkronizazioa](media/DW6.png)
 
-2. Jarrai itzazu urrats berberak goiko taulan zerrendatutako gainerako taula-mapa guztietan. Ez hautatu **Hasierako sinkronizazioa** kontrol laukia mapa horiek exekutatzean.
+1. Jarrai itzazu urrats berberak goiko taulan zerrendatutako gainerako taula-mapa guztietan. Ez hautatu **Hasierako sinkronizazioa** kontrol laukia mapa horiek exekutatzean.
 
 ## <a name="project-operations-dual-write-maps"></a>Project Operations zerbitzuaren idazketa dualeko esleipenak
 
-Ondorengo mapak Project Operations soluziorako behar dira. Idazketa bikoitzeko mapen bertsioak zerrendatzen dira Project Operations 2021eko maiatzaren bertsioarekin hasita, 4.10.0.186 bertsioa.
+Ondorengo mapak Project Operations soluziorako behar dira.
 
 | **Entitate-esleipena** | **Azken bertsioa** | **Hasierako sinkronizazioa** |
 | --- | --- | --- |
 | Proiektuen transakzio harremanetarako integrazio entitatea (msdyn\_transactionconnections) | 1.0.0.0 | Ez da hornidura egiteko beharrezkoa. |
 | Proiektuen kontratuen goiburuak (salmenta aginduak) | 1.0.0.1 | Ez da hornidura egiteko beharrezkoa. |
 | Proiektuetako kontratuaren lerroak (salesorderdetails) | 1.0.0.0 | Ez da hornidura egiteko beharrezkoa. |
-| Proiektua finantzatzeko iturria (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Ez da hornidura egiteko beharrezkoa. |
+| Proiektua finantzatzeko iturria (msdyn_projectcontractsplitbillingrules) | 1.0.0.1 | Ez da hornidura egiteko beharrezkoa. |
 | Project Operations integrazioaren taula materialen kalkuluen arabera (msdyn\_estimatelines) | 1.0.0.0 | Ez da hornidura egiteko beharrezkoa. |
-| Proiektuaren faktura-proposamenak V2 (fakturak) | 1.0.0.3 | Ez da hornidura egiteko beharrezkoa. |
+| Proiektuaren faktura-proposamenak V2 (fakturak) | 1.0.0.2 | Ez da hornidura egiteko beharrezkoa. |
 | Project Operations-en integrazioaren benetako datuak (msdynactuals) | 1.0.0.14 | Ez da hornidura egiteko beharrezkoa. |
-| Project Operations-en integrazioaren kontratuaren lerroaren mugarria (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Ez da hornidura egiteko beharrezkoa. |
-| Project Operations-en integrazioaren entitatea gastua kalkulatzeko (msdyn_estimatelines) | 1.0.0.2 | Ez da hornidura egiteko beharrezkoa. |
+| Project Operations-ek integratzeko kontratu lerroaren mugarriak (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Ez da hornidura egiteko beharrezkoa. |
+| Project Operations-ek integratzeko entitatea gastuen kalkuluen arabera (msdyn_estimateslines) | 1.0.0.2 | Ez da hornidura egiteko beharrezkoa. |
 | Project Operations-ek integratzeko entitatea orduen kalkuluen arabera (msdyn_resourceassignments) | 1.0.0.5 | Ez da hornidura egiteko beharrezkoa. |
-| Project Operations-ek integratzeko proiektuaren gastuak kategoriak esportatzeko entitatea (msdyn_expensecategories) | 1.0.0.1 | Ez da hornidura egiteko beharrezkoa. |
+| Project Operations-ek integratzeko proiektuaren gastuak kategoriak esportatzeko entitatea (msdyn_expensecategories) | 1.0.0.2 | Ez da hornidura egiteko beharrezkoa. |
 | Project Operations-ek integratzeko proiektuaren gastuak esportatzeko entitatea (msdyn_expenses) | 1.0.0.2 | Ez da hornidura egiteko beharrezkoa. |
 | Project Operations integrazioa proiektuaren saltzailearen faktura esportatzeko entitatea (msdyn_projectvendorinvoices) | 1.0.0.0 | Ez da hornidura egiteko beharrezkoa. |
-| Project Operations integrazioa proiektuaren saltzailearen faktura-lerroa esportatzeko entitatea (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Ez da hornidura egiteko beharrezkoa. |
+| Project Operations integrazioa proiektuaren saltzailearen faktura-lerroa esportatzeko entitatea (msdyn_projectvendorinvoicelines) | 1.0.0.0 | Ez da hornidura egiteko beharrezkoa. |
 | Enpresa guztientzako proiektuaren baliabideen eginkizunak (bookableresourcecategories) | 1.0.0.1 | Taulako maparen hasierako sinkronizazioa eskatzen du Dynamics 365 Dataverse ingurunean betetzen diren Project Manager eta Taldeko kideen baliabide rolak sinkronizatzeko horniduran zehar. Dataverse hasierako sinkronizazioaren iturri nagusia da. |
 | Proiektuaren zereginak (msdyn_projecttasks) | 1.0.0.4 | Ez da hornidura egiteko beharrezkoa. |
 | Proiektuen transakzio kategoriak (msdyn_transactioncategories) | 1.0.0.0 | Ez da hornidura egiteko beharrezkoa. |
-| Proiektuak V2 (msdyn_projects) | 1.0.0.2 | Ez da hornidura egiteko beharrezkoa. |
+| Proiektuak V2 (msdyn_projects) | 1.0.0.1 | Ez da hornidura egiteko beharrezkoa. |
 
 Osatu urrats hauek zerrendatutako mapak exekutatzeko.
 
 1. Gaitu proiektuaren baliabide rolak **enpresa guztiak (bookableresourcecategories)** taula mapa mapa honek hasierako sinkronizazioa behar du. **Hasierako sinkronizaziorako maisua** eremua, hautatu **Datu zerbitzu arrunta**. 
 
- ![Baliabideen rolen taulen maparen sinkronizazioa.](media/6ResourceInitialSync.jpg)
+ ![Baliabideen rolen taulen maparen sinkronizazioa](media/6ResourceInitialSync.jpg)
 
  Itxaron maparen egoera izan arte **Korrika** hurrengo urratsera pasa aurretik.
 

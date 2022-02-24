@@ -2,9 +2,11 @@
 title: Konfiguratu eta erabili ordaindu ordaintzean saltzailearen ordainketak
 description: Gai honetan ordaindutakoan (PWP) baldintzak nola sortu azaltzen da, saltzaileen ordainketa partzialak askatu ahal izateko, bezeroen ordainketetan oinarrituta.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008841"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071015"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Konfiguratu eta erabili ordaindu ordaintzean saltzailearen ordainketak
 
@@ -78,6 +80,3 @@ Saltzaile batek proiektu batean egindako lana amaitzen duenean eta faktura bat b
 2. **Saltzailearen fakturak ordaindutako ordainduta** orrialdean, bilaketa eremuan, sartu balioak berrikusi nahi duzun saltzailearen faktura aurkitzeko, eta hautatu **Bilatu**.
 3. **Saltzailearen faktura lerroak** FastTab-en, hautatu aldatu nahi dituzun lerroak.
 4. **Ordaindu ordaintzen denean** fakturazio lerroan baldintzak betetzen dira, hautatu **Saltzailearen ordainketa askatu**. **Ordaindu ordaintzen denean** aukera garbitu egiten da, eta **Ordaintzeko prest** eremua aldatu egiten da **Bai**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
