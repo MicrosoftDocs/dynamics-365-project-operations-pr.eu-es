@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3526c5e2c968bdaa4d957592aed8d1b21c64b799
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127413"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286638"
 ---
 # <a name="project-team-members"></a>Proiektuaren taldeko kideak
 
@@ -60,3 +60,6 @@ Taldekideen saretik, ekintza hauek egin daitezke:
 
 - **Berria**: Egutegitik baliabideak zuzenean gehitzeaz gain, proiektuen arduradunek taldekide izendatutako edo generiko berriak gehitu ditzakete taldeko kideen saretik.
 - **Ezabatu**: Taldeko kide bat edo gehiago hautatuta, proiektuaren kudeatzaileak proiektuan parte hartuko ez duten baliabideak ezaba ditzake. Taldekide bat ezabatzeak lotutako baliabideen esleipen guztiak ezabatuko ditu eta dauden erreserba guztiak bertan behera utziko ditu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

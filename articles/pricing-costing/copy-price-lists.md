@@ -2,24 +2,22 @@
 title: Kopiatu prezio-zerrendak
 description: Gai honek prezio-zerrendak kopiatzeari buruzko informazioa eskaintzen du Project Operations-en.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181482"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003711"
 ---
 # <a name="copy-price-lists"></a>Kopiatu prezio-zerrendak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Prezio zerrenden kopiak sor ditzakezu Dynamics 365 Project Operations zerbitzuan. Adibidez, hurrengo urteko prezioen zerrendak sor ditzakezu uneko urteko prezioen zerrenda erabiliz.  Edo, fakturen tasen eta salmenta prezioen prezioen zerrenda kopiatu dezakezu kostuaren prezioen zerrendetatik. 
+Prezio zerrenden kopiak hemen sor ditzakezu Dynamics 365 Project Operations-en. Adibidez, hurrengo urteko prezioen zerrendak sor ditzakezu uneko urteko prezioen zerrenda erabiliz.  Edo, fakturen tasen eta salmenta prezioen prezioen zerrenda kopiatu dezakezu kostuaren prezioen zerrendetatik. 
 
 Prezioen zerrendaren kopia bat egiteko, jarraitu urrats hauek.
 
@@ -43,3 +41,6 @@ Prezioen zerrendaren kopia bat egiteko, jarraitu urrats hauek.
 1. **Funtzioa**, **Kategoria** eta **Prezioen zerrendako elementua** prezioen zerrenda baten fitxak, hauta ditzakezu **Eguneratu prezioak** azpisareko prezio guztiei marka bat aplikatzeko. 
 2. Irekitzen den elkarrizketa-orrian, sartu marka bat. Halaber, ehuneko negatiboa gehi dezakezu prezioak ehuneko jakin batean jaisteko. 
 3. Aukeratu **Ados** elkarrizketa-orrian eta egiaztatu azpisareko prezioek egindako aldaketak islatzen dituztela.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

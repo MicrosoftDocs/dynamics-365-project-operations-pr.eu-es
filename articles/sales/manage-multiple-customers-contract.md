@@ -2,18 +2,16 @@
 title: Kudeatu hainbat bezero proiektuaren kontratuetan
 description: Gai honek proiektuan oinarritutako proiektuaren kontratuan hainbat bezero kudeatzeari buruzko informazioa eskaintzen du.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
-ms.translationtype: HT
+ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643139"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992056"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Kudeatu hainbat bezero proiektuaren kontratuetan
 
@@ -47,3 +45,6 @@ Kontratuaren bezero bat sortu, eguneratu edo ezabatu daiteke **Kontratuaren beze
 Fakturazio zatitutako ehunekotan edita ditzakezu sareta editatuta. Fakturazio zatitutako ehunekoak ehuneko 100 guztira ez direnean, errore bat gertatuko da. Fakturazio zatien ehunekoak editatu ondoren, **Proiektuaren kontratua** orria errorea ezabatzeko.
 
 Aukeratu ere egin dezakezu **Banatu uniformeki** proiektuaren kontratu-bezeroen azpisarean. Fakturazioaren zatitzeak berdin banatzen dira proiektuaren kontratuko bezero guztien artean. Biribiltze faktorerik badago, faktorea biribiltze bezeroari gehituko zaio. Kontratuko bezeroetako batek beti du **Biribilketa** bandera ezarri da **Bai**. Bezero hori bezero biribila da. Normalean, biribiltzeko bezeroa ere kontratuko bezero nagusia da, baina hori ez da beharrezkoa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Eguneratu plugin atributuak prezio-dimentsio berriak sartzeko
 description: Gai honek prezio-dimentsioetarako plugin atributuak eguneratzeko informazioa eskaintzen du.
 author: Rumant
-manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147053"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988771"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Eguneratu plugin atributuak prezio-dimentsio berriak sartzeko
 
@@ -44,27 +42,30 @@ Hurrengo urratsek pluginak erregistratzeko prozesua azaltzen dute.
 1. Ireki **PluginRegistrationTool** eta konektatu zure lineako instantziara.
 2. Egin klik **Bilatu** aukeran eta bilatu eguneratu behar den plugina.
 
- ![Bilaketa zuhaitzaren pantaila-argazkia](media/PRT-1.png)
+ ![Bilaketa zuhaitzaren pantaila-argazkia.](media/PRT-1.png)
 
 3. Plugina aurkitu ondoren, hautatu eta egin klik **Hautatu Inprimaki nagusian**.
 
 4. Hautatu eguneratu beharreko pluginaren urratsa, egin klik eskuineko botoiarekin eta, ondoren, hautatu **Eguneratu**.
 
- ![Eguneratu beharreko pluginaren pantaila-argazkia](media/PRT-2.png)
+ ![Eguneratu beharreko pluginaren pantaila-argazkia.](media/PRT-2.png)
  
 5. Eguneratze leihoan, sakatu elipsia (**...**) iragazkiaren atributuetan.
 
- ![Eguneratzeko lehendik dagoen urratsaren konfigurazioaren informazioa](media/PRT-3.png)
+ ![Eguneratzeko lehendik dagoen urratsaren konfigurazioaren informazioa.](media/PRT-3.png)
  
 6. Hautatu prezioaren atributuaren kontrol-laukiak.
 
- ![Prezio-atributuetarako kontrol-laukien hautaketa erakusten duen pantaila-argazkia](media/PRT-4.png)
+ ![Prezio-atributuetarako kontrol-laukien hautaketa erakusten duen pantaila-argazkia.](media/PRT-4.png)
 
 7. Egin klik **Ados** aukeran orria ixteko eta, ondoren, hautatu **Eguneratu urratsa**.
 
- !["Eguneratu urratsa" botoia erakusten duen pantaila-argazkia](media/PRT-5.png)
+ !["Eguneratu urratsa" botoia erakusten duen pantaila-argazkia.](media/PRT-5.png)
  
 8. Errepikatu prozesu hori bigarren pluginarekin, **PreOperationQuoteLineDetail - msdyn_quotelinetransaction eguneratzea**.
 
 9. Itxi plugina erregistratzeko tresna.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

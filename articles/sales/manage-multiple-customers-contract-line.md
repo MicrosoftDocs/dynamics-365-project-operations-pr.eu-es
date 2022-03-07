@@ -2,18 +2,16 @@
 title: Kudeatu proiektuetan oinarritutako kontratuaren lerroetako hainbat bezero
 description: Gai honek bezero anitz dituzten kontratu lerroekin eta kontratuekin lan egiteari buruzko informazioa eskaintzen du.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181887"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992101"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Kudeatu proiektuetan oinarritutako kontratuaren lerroetako hainbat bezero
 
@@ -44,3 +42,6 @@ Jarraian, eremuko eremuak daude Kontratua proiektuan oinarritutako kontratu lerr
 Fakturazio zatitutako ehunekoak saretan editatu daitezke. Fakturazio zatitutako ehunekoak ehuneko 100 guztira ez direnean, errore bat gertatuko da. Fakturazio zatien ehunekoak editatu ondoren, freskatu orria errorea ezabatzeko.
 
 Aukeratzen ere saia zaitezke **Banatu uniformeki** kontratu-lerroan bezeroen azpisarean. Ekintza honek fakturazio banaketak banatzen dizkie kontratu lineako bezero guztiei. Biribiltze faktorerik badago, biribiltze bezeroari gehituko zaio. Kontratu lineako bezero bat beti bezala etiketatuta dago **Biribilketa** bezeroarekin **Biribilketa** bandera ezarri da **Bai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

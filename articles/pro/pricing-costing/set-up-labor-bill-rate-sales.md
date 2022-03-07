@@ -2,24 +2,22 @@
 title: Konfiguratu lanaren fakturazio-tasak - arina
 description: Gai honek Project Operations-eko lanaren fakturazio-tasak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
-manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181156"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007581"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Konfiguratu lanaren fakturazio-tasak - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Prezio zerrenda bakoitzak prezio zerrendaren edo lan-tasak edukiarekin eta datarekin eraginkortasunarekin bat datozen lan tasen multzoa du. Dynamics 365 Project Operations zerbitzuaren fakturazio tasak moneta bakarrean konfigura daitezke, hau da, Prezio zerrendaren goiburuko moneta.
+Prezio zerrenda bakoitzak prezio zerrendaren edo lan-tasak edukiarekin eta datarekin eraginkortasunarekin bat datozen lan tasen multzoa du. Dynamics 365 Project Operations-eko denboraren fakturazio-tasak moneta bakarrean konfigura daitezke, hau da, Prezio zerrendaren goiburuko monetan.
 
 1. Salmenta prezioen zerrendako lan fakturaren tasak ezartzeko, sortu prezioen zerrenda prezio zerrendaren goiburuan oinarrituta. 
 2. **Funtzio-prezioak** fitxan, azpisaretan, hautatu **+Rol berriaren prezioa**. 
@@ -55,3 +53,6 @@ Adibidez, Fabrikam Indiako garatzaile batek AEBetako proiektu batean lan egiten 
     | Garatzailea | Fabrikam US | 150 $ |
 
 3. Erantsi salmenta prezioen zerrenda, **Fabrikam AEBetako fakturen tasak** proiektuaren kontratuaren proiektuaren prezioen zerrendara edo kontu jakin batera.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

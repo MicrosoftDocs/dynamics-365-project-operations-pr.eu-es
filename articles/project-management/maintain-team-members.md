@@ -2,18 +2,16 @@
 title: Kudeatu taldeko kideak
 description: Gai honek proiektu taldeetara izena duten baliabideak erreserbatzeko eta hauek zereginetara esleitzeko informazioa eskaintzen du .
 author: ruhercul
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131508"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997051"
 ---
 # <a name="maintain-team-members"></a>Kudeatu taldeko kideak
 
@@ -42,3 +40,6 @@ Hautapena egiten duzunean, baliabidea proiektuko taldeari gehitu eta zereginari 
 **Berdinkatzea** fitxaren luzatzeko erreserba gaitasuna erabil dezakezu edo **Antolaketa-panela** aukera baliabidearen gaitasuna proiektua erreserbatzeko.
 
 Taldekide bat zure proiektuan erreserbatu ondoren, **Mantendu erreserbak** edo **Antolaketa-panela** erabil dezakezu erreserbak kudeatzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

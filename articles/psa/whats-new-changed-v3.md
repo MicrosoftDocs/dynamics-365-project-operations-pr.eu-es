@@ -1,8 +1,6 @@
 ---
 title: Zer den berria edo zer aldatu den Project Service Automation-en 3. bertsioan
 description: Gai honek Project Service Automation-en 3. bertsioan berria denari eta aldatu denari buruzko informazioa eskaintzen du.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 26d79ff79801f8ad0f80020d49fdc80f76dd9aef
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150653"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006991"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Zer den berria edo zer aldatu den Project Service Automation-en 3. bertsioan
 
@@ -257,3 +255,6 @@ Hurrengo irudia prezio-zerrenda pertsonalizatuak sortu ondorengoa da.
 
 > [!NOTE]
 > Atzerapena egon daiteke **Sortu pertsonalizatutako prezioak** aukeran klik egitean prezio-zerrenda pertsonalizatua sortzen denean. Hainbat aldiz klik egin beharrean, sareta freskatzea gomendatzen dugu. Prezio-zerrenda pertsonalizatua sortu da lotutako prezio-zerrendaren izenak eskaintzaren izena edo proiektuaren kontratuaren izena eransten badu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

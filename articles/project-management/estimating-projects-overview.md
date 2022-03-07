@@ -1,41 +1,31 @@
 ---
-title: Aurreikuspen ekonomikoaren kontzeptuak
-description: Gai honek proiektuen aurreikuspen ekonomikoaren inguruko informazioa eskaintzen du Project Operations-en.
-author: rumant
+title: Aurreikuspen-proiektuen informazio orokorra
+description: Gai honek Dynamics 365 Project Operations-eko aurreikuspenei buruzko informazioa eskaintzen du.
+author: ruhercul
 manager: AnnBe
-ms.date: 03/22/2021
+ms.date: 10/06/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.author: ruhercul
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701721"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131553"
 ---
-# <a name="financial-estimation-concepts"></a>Aurreikuspen ekonomikoaren kontzeptuak
+# <a name="estimate-projects-overview"></a>Aurreikuspen-proiektuen informazio orokorra
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations-en, ekonomikoki zure proiektuak bi etapatan kalkula ditzakezu: 
-1. Aurre-salmenta fasean tratua irabazi aurretik. 
-2. Proiektua kontratua sortu ondorengo exekuzio fasean. 
-
-Proiektuetan oinarritutako lanen aurrekontu ekonomikoa sor dezakezu 3 orrialde hauetakoren bat erabiliz:
-- **Eskaintzaren lerroa** orrialdea, aurrekontuaren lerroaren xehetasunak erabiliz.  
-- **Proiektuaren kontratuaren lerroa** orrialdea, kontratuaren lerroaren xehetasunak erabiliz. 
-- **Proiektua** orrialdean, **Zereginak** edo **Gastuen aurrekontuak** fitxa orriak.
-
-## <a name="use-a-project-quote-to-create-an-estimate"></a>Erabili proiektuaren aurrekontua aurrekontua sortzeko
 Proiektuetan oinarritutako eskaintzan, **Eskaintzaren lerroaren xehetasuna** entitatea erabil dezakezu proiektua entregatzeko behar den lana aurreikusteko. Aurreikuspen horiek bezeroarekin partekatu ditzakezu.
 
 Proiektuan oinarritutako eskaintzaren lerroek zero edo hainbat eskaintzaren lerroren xehetasunak izan ditzake. Eskaintzaren lerroaren xehetasunak denbora, gastuak edo tasak aurreikusteko erabiltzen dira. Microsoft Dynamics 365 Project Operations-ek ez du eskaintzaren lerroaren xehetasunetan materialaren aurreikuspenik egiten. Hauek transakzio-klaseak deitzen dira. Aurreikusitako zergen zenbatekoak transakzio-klase batean ere sar daitezke.
 
 Transakzio-klaseez gain, eskaintzaren lerroaren xehetasunek transakzio mota dute. Bi transakzio mota onartzen dira eskaintzaren lerroaren xehetasunak lortzeko: **Kostua** eta **Proiektu-kontratua**.
 
-## <a name="use-a-project-contract-to-create-an-estimate"></a>Erabili proiektuaren kontratua aurrekontua sortzeko
+## <a name="estimate-by-using-a-contract"></a>Aurreikusi kontratua erabiliz
 
 Proiektuan oinarritutako kontratua sortu zenuenean eskaintza erabili bazenuen, eskaintzaren lerro bakoitzeko egin zenuen aurreikuspena proiektu-kontratuan kopiatzen da. Proiektu-kontratuaren egitura, lerroak, lerro xehetasunak eta fakturen egutegiak dituzten proiektu-eskaintzaren egitura bezalakoa da.
 
@@ -45,17 +35,23 @@ Kontratuaren lerroaren xehetasunak denbora, gastuak edo tasak aurreikusteko erab
 
 Kontratuaren lerroaren xehetasunetan ez da onartzen materialaren aurreikuspenik.
 
-## <a name="use-a-project-to-create-an-estimate"></a>Erabili proiektua aurrekontua sortzeko 
+Proiektu-kontratu batean onartzen diren prozesuak fakturak sortzea eta berrestea dira. Fakturak sortzeak proiektuan oinarritutako fakturaren zirriborroa sortzen du, fakturatu gabeko salmenten kontu guztiak barne hartzen dituena orain arte.
 
-Proiektuetan denbora eta gastuak aurreikusi ditzakezu. Project Operations-en eragiketek ez dituzte onartzen proiektuen materialen edo tasen estimazioak.
+Baieztapenak kontratua irakurtzeko soilik egiten du eta egoera aldatu egiten da **Zirriborroa** aukera **Baieztatuta** aukerara aldatuz. Ekintza hau egin ondoren, ezin duzu desegin. Ekintza hau iraunkorra denez, praktika onena da kontratua **Zirriborroa** egoeran mantentzea.
+
+Kontratuen zirriborroen eta kontratu berrien arteko desberdintasun bakarrak dira haien egoera eta kontratuen zirriborroak editatu daitezkeela, baieztatutako kontratuetan hori egin ezin den bitartean. Fakturen sorrera eta jarraipen errealak egin daitezke bai zirriborroetan bai baieztatutako kontratuetan.
+
+Proiektu-eragiketek ez dute onartzen kontratu edo proiektuen aldaketa-eskaerarik.
+
+## <a name="estimating-projects"></a>Proiektuak aurreikusten
+
+Proiektuetan denbora eta gastuak aurreikusi ditzakezu. Proiektu-eragiketek ez dute proiektuen gaineko materialen edo tasen aurreikuspenik onartzen.
 
 Denboraren aurreikuspenak zeregin bat sortzen duzunean eta zeregina burutzeko beharrezkoa den baliabide generiko baten atributuak identifikatzen dira sortzen dira. Denboraren aurreikuspenak antolaketako zereginetatik sortzen dira. Denboraren aurreikuspenak ez dira sortzen taldeko kide generikoak sortzen badituzu egutegiaren antolaketatik kanpo.
 
-Gastuen aurreikuspenak **Gastuen aurreikuspenak** orriko saretan sartzen dira.
+Gastuen aurreikuspenak **Aurreikuspenak** orriko saretan sartzen dira.
 
-Proiektu baterako aurrekontua sortzea praktika egokitzat jotzen da, proiektuaren planeko zeregin bakoitzaren eskuineko lanaren edo denboraren eta gastuen kalkulu zehatzak behetik gora egin ditzakezu. Ondoren, estimazio zehatz hau erabil dezakezu aurrekontu lerro bakoitzerako estimazioak sortzeko eta bezeroarentzako aurrekontu sinesgarriagoa eraikitzeko. Proiektuaren plana erabiliz aurrekontuaren lerroan aurrekontu zehatza inportatzen edo sortzen duzunean, Project Operations-ek inportatzen dituzte salmenten balioak eta kalkulu horien kostuak. Inportatu ondoren, errentagarritasuna, marjinak eta bideragarritasun metrikak ikus ditzakezu proiektuaren aurrekontuan.
-
-## <a name="understanding-estimates"></a>Aurreikuspenak ulertzea
+## <a name="understanding-estimation"></a>Aurreikuspena ulertzea
 
 Erabili ondorengo taula enpresa-logika aurreikuspen-fasean ulertzeko gida gisa.
 
@@ -83,6 +79,3 @@ Eskaintzaren lerroaren xehetasunean eremu pertsonalizatu bat gehitu baduzu eta s
 7. Hautatu **Ados** aukera elkarrizketa-koadroa ixteko eta, ondoren, hautatu **Eguneratu urratsa**.
 8. Errepikatu 1-7. urratsak bigarren pluginerako.
 9. Itxi **PluginRegistrationTool** tresna.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Kalkulatu proiektuaren salmentak eta kostuak, erreserbatu daitekeen baliabide batek proiektu bateko eginkizun ugari betetzen dituenean
 description: Gai honetan azaltzen da nola erabili prezioen dimentsioak proiektu bateko eginkizun ugari betetzen dituen baliabide baten prezioei eta kostuei buruzko estimazioak onartzeko.
 author: rumant
-manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
-ms.translationtype: HT
+ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531349"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990121"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Kalkulatu proiektuaren salmentak eta kostuak, erreserbatu daitekeen baliabide batek proiektu bateko eginkizun ugari betetzen dituenean 
 
@@ -106,3 +104,6 @@ Taldekideen erregistro horren errenkada zabaltzen duzunean, zeregin desberdinak 
 ### <a name="estimates-grid"></a>Aurreikuspenen sareta 
 
 **Aurrekontuak** saretan, baliabide beraren bi zereginek prezio desberdinak dituzte. **A zeregineko** baliabidearen esleipena **Aholkularitza-arduraduna** eremuaren **Funtzioa** atributuaren balioa erabiliz. **B zeregineko** baliabide beraren esleipena **Sare-teknikaria** eremuaren **Funtzioa** atributuaren balioa erabiliz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Produktuetan oinarritutako eskaintzaren lerroak
 description: Gai honek eskaintza eta produktuetan oinarritutako lerroei buruzko informazioa ematen du.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151238"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008571"
 ---
 # <a name="product-based-quote-lines"></a>Produktuetan oinarritutako eskaintzaren lerroak
 
@@ -60,7 +58,7 @@ Eremu hau ezarrita baduzu **Gainidatzi prezioa**, Dynamics 365-ek ez du prezio l
 
 PSA instalatu ondoren, salmenta prezio lehenetsiak produktuaren araberako lerroetan sartzen dira aurrekontu batean. **Prezioa** eremua, eremuan ezarri behar da **Gainidatzi prezioak** eskaintzaren lerroetan prezio lehenetsia editatu ahal izateko.
 
-> ![Ezarri fakturaren prezioak](media/basic-guide-10.png)
+> ![Ezarri fakturaren prezioak.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Produktuen kantitate faktoreak
 
@@ -80,5 +78,8 @@ Adibidez, Dynamics 365-ek propietate hauek izan ditzake:
 
 **Erabiltzaile kop** eta **Hilabete kop** propietateak kantitate faktore gisa markatu daitezke produktuaren lerroko propietateak editatzean. 
 
-> ![Erabiltzaileen kopurua eta hilabete kopurua ez izatea kalitate faktore gisa](media/basic-guide-11.png)
+> ![Erabiltzaileen kopurua eta hilabete kopurua ez izatea kalitate faktore gisa.](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

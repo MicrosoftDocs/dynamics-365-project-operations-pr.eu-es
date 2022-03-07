@@ -3,7 +3,7 @@ title: Behin behineko erreserba-eskakizunak
 description: Gai honek baliabide-eskakizunak behin behineko erreserbak egiteari buruzko informazioa ematen du.
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147368"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071246"
 ---
 # <a name="soft-book-requirements"></a>Behin behineko erreserba-eskakizunak
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Baldiabide-eskaera bat behin betiko erreserbatu daiteke Behin betiko erreserbak baliabideen ahalmena kontsumitzen duen proposamena sortzen du. Proposamena eskatzaileari igortzen zaio onar dezan. Behin behineko erreserba batek baliabidea gehitzen du proiektu-taldean eta egoera desberdina du antolaketa-panelean, baina ez du baliabidearen ahalmena kontsumitzen. Antolaketa-paneletik baliabide baten behin behineko erreserba egiteko, ezarri **Erreserbaren egoera** eremua **Behin behinekoa** gisa.
 

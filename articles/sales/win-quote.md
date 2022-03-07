@@ -2,24 +2,22 @@
 title: Itxi eskaintza
 description: Gai honek Project Operations-eko eskaintzak ixteari buruzko informazioa ematen du.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124668"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993406"
 ---
 # <a name="close-a-quote"></a>Itxi eskaintza
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Proiektuaren eskaintzak Irabazi edo Galdu bezala itxi daitezke. Aktibatu eta Berrikusi eragiketak ez direnez onartzen Microsoft Dynamics 365 Project Operations-eko eskaintzetan, zirriborroko eskaintza itx dezakezu.
+Proiektuaren eskaintzak Irabazi edo Galdu bezala itxi daitezke. Aktibatu eta Berrikusi funtzioak ez direnez onartzen Microsoft Dynamics 365 Project Operations-eko eskaintzetan, zirriborroko eskaintza bat itxi dezakezu.
 
 ## <a name="close-a-quote-as-won"></a>Itxi eskaintza Irabazita gisa
 
@@ -43,3 +41,6 @@ Galduta gisa itxita dagoen proiektuaren aurrekontuak bere lerroetako batean proi
 
 > [!NOTE]
 > Project Operations-en, aurrekontua Irabazita edo Galduta gisa ixteak ez du Aukeraren egoera horretan eragingo, irekita egongo da eskuz itxi arte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

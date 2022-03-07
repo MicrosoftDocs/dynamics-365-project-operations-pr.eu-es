@@ -1,23 +1,23 @@
 ---
-title: Eguneratu proiektu bat
+title: Sortu eta eguneratu proiektu bat
 description: Gai honek proiektuak eguneratzeari buruzko informazioa eskaintzen du Project Operations-en.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
+ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993356"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7678334"
 ---
-# <a name="update-a-project"></a>Eguneratu proiektu bat
+# <a name="create-and-update-a-project"></a>Sortu eta eguneratu proiektu bat
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Jarraian, proiektu bat sortu ondoren egunera daitezkeen eremuen laburpena eta eguneratzeak izan ditzakeen inplikazioen laburpena dago.
+Jarraian proiektu bat sortu ondoren eguneratu daitezkeen eremuen laburpena da. Honek eguneratze hauetan oinarritutako ondorio aplikagarriak ere barne hartzen ditu.
 
 ## <a name="project-detail-fields"></a>Proiektuaren xehetasun eremuak
 
@@ -25,8 +25,8 @@ Jarraian, proiektu bat sortu ondoren egunera daitezkeen eremuen laburpena eta eg
 - **Azalpena**: proiektuaren ikuspegi orokorra.
 - **Bezeroa**: Proiektua entregatuko duen enpresa.
 - **Egutegiaren txantiloia**: Proiektuaren lan orduak. Eremua aldatzen denean, ordutegi osoa berriro kalkulatzen da.
-- **Moneta**: proiektuaren moneta. Eremu hau lehenetsitakoa da kontratazio unitatean definitutako monetan oinarrituta. Kontratazio unitatea eguneratzen denean, eremua ere eguneratzen da.
-- **Kontratazio-unitatea**: salmenta irabaztea eta bezeroari lana eta zerbitzuak entregatzea kudeatzeaz arduratzen den enpresa-taldea edo zatiketa ordezkatzen duen antolakuntza-unitatea. 
+- **Moneta**: proiektuaren moneta. Eremu honen balio lehenetsia kontratazio-unitatean definitutako monetan oinarritzen da. Kontratazio unitatea eguneratzen denean, eremua ere eguneratzen da.
+- **Kontratazio-unitatea**: salmenta irabaztea eta bezeroari lana eta zerbitzuak entregatzea kudeatzeaz arduratzen den enpresa-taldea edo zatiketa ordezkatzen duen antolakuntza-unitatea.  Proiektuaren kudeatzailearen antolakuntza-unitatea definituta ez dagoenean, eremu honek proiektuaren parametroetan zehaztutako balioa izango du lehenetsita.
 - **Proiektu-kudeatzailea**: Denbora-sarrerak eta gastuak berrikusteko eta onartzeko eskumena duen proiektuko taldekidea.
 
 ## <a name="estimate-fields"></a>Aurreikusi eremuak

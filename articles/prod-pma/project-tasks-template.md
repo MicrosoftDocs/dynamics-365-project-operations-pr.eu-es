@@ -2,11 +2,9 @@
 title: Sinkronizatu proiektuaren zereginak zuzenean Project Service Automation-etik Finance and Operations
 description: Gai honek deskribatzen du txantiloiak eta azpiko zeregina erabiliak direnak sinkronizatzeko zereginen proiektuak zuzenean Microsoft Dynamics 365 Project Service Automation hurrengora Dynamics 365 Finance.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071018"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992776"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronizatu proiektuaren zereginak zuzenean Project Service Automation-etik Finance and Operations
 
@@ -41,7 +39,7 @@ Project Service Automation to Finance integrazio irtenbideak Datu integrazio fun
 
 Ondorengo ilustrazioak erakusten du nola sinkronizatzen diren datuak Project Service Automation eta Finance artean.
 
-[![Project Service Automation Finantzarekin integratzeko datuen fluxua](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Project Service Automation Finantzarekin integratzeko datuen fluxua.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Txantiloia eta zeregina
 
@@ -82,4 +80,7 @@ Power Query erabili behar baduzu, jarraitu jarraibide hori:
 
 Ondorengo ilustrazioak Datuen integrazioan txantiloien atazen mapen adibide bat erakusten du. Kartografiak Project Service Automation-etik Finantzara sinkronizatuko den eremuko informazioa erakusten du.
 
-[![Txantiloien mapaketa](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+[![Txantiloien mapaketa.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

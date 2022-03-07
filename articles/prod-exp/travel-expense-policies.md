@@ -13,17 +13,19 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: suvaidya
+ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c014b0593a87ce50f09175b77d9cf498a65391e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f74f6906cc1137b9645a830360a546432dc5207f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271248"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071183"
 ---
 # <a name="set-up-expense-policies"></a>Konfiguratu gastu-gidalerroak
+
+[!include [banner](../includes/banner.md)]
 
 Zure langileek txostenak eta bidaia-eskaerak sartu eta bidaltzerakoan jarraitu behar dituzten gastu-politikak defini ditzakezu.         
 Gastu politikak ezartzeak gastuak modu eraginkorrean kudeatzen lagun zaitzake.         
@@ -51,6 +53,3 @@ Hona hemen gastuak kudeatzeko politika berriak sortzen lagun zaitzaketen iradoki
 ## <a name="when-to-evaluate-policies"></a>Noiz ebaluatu politikak
 
 Gastua kudeatzeko parametroetan, aukera bat dago gastuak kudeatzeko politikak ebaluatzeko lerro bat gordetzen denean edo gastuen txostena aurkezten denean. Lerro bat noiz gordetzen den ebaluatzea aukeratzen baduzu, horrela erabiltzaileek lehenago ikusiko dute zer egin behar duten beren gastuen txostena aldi berean osatzeko. Bestela, gidalerroen ebaluazioa atzeratu eta denbora aurrez dezakezu amaieran baliozkotatzen bada, lan-fluxura bidalitakoan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

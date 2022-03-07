@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947864"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181752"
 ---
 # <a name="manage-leads"></a>Kudeatu bezerogaiak
 
@@ -55,7 +55,7 @@ Bezerogaiek **Mota** balioa ezarri da **Lanean oinarrituta** proiektuetan oinarr
 - Kontuarekin erlazionatutako kontaktu erregistroa **Izena** eta **Abizena** eremuak bezerogaian.
 - Proiektuan oinarritutako aukera **Mota** eremua ezarrita dago **Lanetan oinarrituta**.
 
-Sailkapen abantailen inguruko informazio zehatzagoa lortzeko, ikusi [Liderrak sailkatu edo bihurtu](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Sailkapen abantailen inguruko informazio zehatzagoa lortzeko, ikusi [Liderrak sailkatu edo bihurtu](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Bezerogaiaren kalifikazio eta pertsona juridikoen informazioa 
 
@@ -80,6 +80,3 @@ Bezerogaitik abagunerako negozio-prozesuak fase hauek onartzen ditu:
 | Garatu | Abagunea | Garatu aukera inplikatutako lanari, funtsezko eragileei eta lehiari buruzko informazio gehiago gehitzeko. |
 | Proposatu | Abagunea | Garatu proposamena eta lortu barne ebaluazio taldearen onespena. |
 | Itxi | Abagunea | Irabazi abagunea mahuka ixteko. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,18 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 815658ef66fb8083fb066f8f4d64a503580bfad2
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: e0a31e71dd1e184e2e9539ecfd5f82f718a5f159
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642483"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131823"
 ---
 # <a name="collaboration-with-office-groups"></a>Lankidetza Office taldeekin
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Office taldeak proiektuko beste taldeko kideekin partekatzeko aukera ematen du Common Data Service-n. Erabiltzaileak taldera gehitzen dituzunean, proiektuaren jabetza taldera transferitzen da. Erabiltzaile guztiek proiektuan editatzeko baimena izango dute. Erabiltzaileek proiektua ere ikus dezakete administratzaileak pribilegioak eman baditu. Erabiltzaile hauek ez dira taldean bistaratuko.
 

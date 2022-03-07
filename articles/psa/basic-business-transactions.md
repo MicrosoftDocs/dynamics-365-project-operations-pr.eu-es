@@ -2,8 +2,6 @@
 title: Negozio-transakzioak
 description: Gai honek negozio-transakzioei buruzko informazioa ematen du.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149888"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987511"
 ---
 # <a name="business-transactions"></a>Negozio-transakzioak
 
@@ -90,7 +88,7 @@ Elkarrekin, transakzioaren jatorria eta transakzioen konexio-erakundeek negozio-
 
 Hurrengo adibidean PSA proiektuaren bizi-zikloko denbora sarreren prozesaketa tipikoa erakusten da.
 
-> ![Prozesatzeko denbora Project Service-en bizi-zikloaren itxiera da](media/basic-guide-17.png)
+> ![Prozesatzeko denbora Project Service-en bizi-zikloaren itxiera da.](media/basic-guide-17.png)
  
 1. Garai bateko sarrera bidaltzeak kutxako liburuaren bi lerro sortzea eragiten du: bata kostuetarako eta besterik gabeko salmentarako.
 2. Garai bateko sarrera onartzeak benetako bi datu sortzea eragiten du: bata kostuetarako eta besterik gabeko salmentarako.
@@ -149,3 +147,6 @@ Hurrengo taulan, aurreko lan-fluxuaren transakzioaren konexio entitateko erregis
 | Faktura-zirriborroen zuzenketa       | Fakturaren lerroaren transakzioak GIDA | Ordezkapena          | msdyn_invoicelinetransaction | Fakturatutako salmentak GIDA            | Jatorrizkoa           | msdyn_actual       |
 | Berretsi faktura zuzenketa     | Fakturatutako salmenten itzulera GIDA    | Itzultzea          | msdyn_actual                 | Fakturatutako salmentak GIDA            | Jatorrizkoa           | msdyn_actual       |
 | Fakturatu gabeko bentako salmenta berrien GIDA | Ordezkapena                     | msdyn_actual       | Fakturatutako salmentak GIDA            | Jatorrizkoa                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

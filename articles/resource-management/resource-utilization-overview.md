@@ -2,18 +2,17 @@
 title: Baliabide-erabileraren informazio orokorra
 description: Gai honek baliabideen erabilerari buruzko informazioa eskaintzen du Project Operations-en.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.custom: intro-internal
+ms.openlocfilehash: c9464b1de87211f8317a39a1d749e619769309ae
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401361"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6367921"
 ---
 # <a name="resource-utilization-overview"></a>Baliabide-erabileraren informazio orokorra
 
@@ -45,3 +44,6 @@ Gainera, eginkizun lehenetsi bat esleitu behar zaio erreserbatu daitekeen baliab
 **Project Service** fitxan, helburuko erabilera indibiduala ere ezar dezakezu baliabiderako. Ondoren, erabileraren kalkuluak helburuko erabilera hori erabiltzen du baliabidearen helburua ebaluatzeko, baliabidearen funtzio lehenetsiaren helburua ebaluatu beharrean.
 
 Erabilera baliabide gisa erakusten da baliabideak saretan agertzen den aldian kobratu daitekeen denbora onartu badu soilik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

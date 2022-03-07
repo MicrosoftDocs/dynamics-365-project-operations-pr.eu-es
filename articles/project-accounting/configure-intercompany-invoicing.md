@@ -2,18 +2,16 @@
 title: Konfiguratu enpresen arteko fakturazioa
 description: Gai honek enpresen arteko fakturazioa proiektuen inguruko informazioa eta adibideak eskaintzen ditu.
 author: sigitac
-manager: tfehr
-ms.date: 11/20/2020
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bdb6122d8aba84d2b449f9f17a4093388b585614
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 9894a405403d4faeb2f02387b03c77a40a6cea3f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595418"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001141"
 ---
 # <a name="configure-intercompany-invoicing"></a>Konfiguratu enpresen arteko fakturazioa
 
@@ -23,9 +21,9 @@ Bete urrats hauek enpresen arteko fakturazioa proiektuan konfiguratzeko Dynamics
 
 ## <a name="example-configure-intercompany-invoicing"></a>Adibidez: Konfiguratu enpresen arteko fakturazioa
 
-Hurrengo adibidean, Contoso Robotics USA (USPM) da mailegu-entitatea eta Contoso Robotics UK (GBPM) mailegu-entitatea da. 
+Hurrengo adibidean, Contoso Robotics USA (USPM) zor juridikoa da eta Contoso Robotics UK (GBPM) mailegu-entitate juridikoa da. 
 
-1. **Konfiguratu enpresen arteko kontabilitatea pertsona juridikoen artean**. Mailegu- eta mailegu-entitate juridiko bikote bakoitza liburu nagusian konfiguratu behar da [Enpresen arteko kontabilitatea](https://docs.microsoft.com/dynamics365/finance/general-ledger/intercompany-accounting-setup) orrialdea.
+1. **Konfiguratu enpresen arteko kontabilitatea pertsona juridikoen artean**. Mailegu- eta mailegu-entitate juridiko bikote bakoitza liburu nagusian konfiguratu behar da [Enpresen arteko kontabilitatea](/dynamics365/finance/general-ledger/intercompany-accounting-setup) orrialdea.
     
     1. Dynamics 365 Finance-n, joan **Liburu nagusia** > **Mezuaren konfigurazioa** > **Enpresen arteko kontabilitatea** aukerara. Sortu erregistroa informazio honekin:
 
@@ -37,17 +35,17 @@ Hurrengo adibidean, Contoso Robotics USA (USPM) da mailegu-entitatea eta Contoso
      1. Finantzetan, hautatu pertsona juridikoa **GBPM**.
      2. Joan **Kobratu beharreko kontuak** > **Bezeroa** > **Bezero guztiak**. Sortu erregistro berria pertsona juridikoarentzat, **USPM**.
      3. Zabaldu **Izena**, iragazi erregistroak **Mota** aukeraren arabera, eta hautatu **Pertsona juridikoak**. 
-     4. Bilatu eta hautatu bezeroarentzako erregistroa **Contoso Robotics AEB (USPM)**.
+     4. Bilatu eta hautatu bezeroarentzako erregistroa **Contoso Robotika AEB (USPM)**.
      5. Aukeratu **Erabili partida**. 
-     6. Aukeratu bezero taldea eta gorde erregistroa.
+     6. Aukeratu bezero taldea **50 - Enpresen arteko bezeroak** eta gero gorde erregistroa.
      7. Hautatu **USPM** legezko entitatea.
      8. Joan **Ordaintzeko kontuak** > **Saltzaileak** > **Saltzaile guztiak**. Sortu erregistro berria pertsona juridikoarentzat, **GBPM**.
      9. Zabaldu **Izena**, iragazi erregistroak **Mota** aukeraren arabera, eta hautatu **Pertsona juridikoak**. 
-     10. Bilatu eta hautatu bezeroarentzako erregistroa **Contoso Robotics UK (GBPM)**.
+     10. Bilatu eta hautatu bezeroarentzako erregistroa **Contoso Robotika UK (GBPM)**.
      11. Aukeratu **Erabili partida**, hautatu saltzaile taldea, eta gorde erregistroa.
      12. Saltzailearen erregistroan, hautatu **Orokorra** > **Konfiguratu** > **Enpresa artekoa**.
      13. **Negoziazio-harremana** fitxan, ezarri **Aktiboa** **Bai** gisa.
-     14. Aukeratu enpresa saltzailea **GBPM** eta urtean **Nire kontuaren erregistroa**, hautatu prozeduran lehenago sortu zenuen bezeroaren erregistroa.
+     14. Ezarri **Bezeroen enpresa** eremua **GBPM** gisa eta **Nire kontuaren erregistroa** aukeran, hautatu prozeduran lehenago sortu zenuen bezeroaren erregistroa.
 
 3. **Konfiguratu enpresen arteko ezarpenak Proiektuen kudeaketa eta kontabilitate parametroetan**. 
 
@@ -59,7 +57,7 @@ Hurrengo adibidean, Contoso Robotics USA (USPM) da mailegu-entitatea eta Contoso
     6. **Baliabideak mailegu ematean** taldean, hautatu **...** > **Berria**. 
     7. Saretan, idatzi edo hautatu informazio hau:
 
-          - **Pertsona juridikoa maileguan hartzea** = **GBPM**
+          - **Pertsona juridikoa maileguan hartzea** = **USPM**
           - **Diru sarrerak lortu** = **Bai**
           - **Denbora-orriaren kategoria lehenetsia** = **Lehenetsia - Ordua**
           - **Gastu kategoria lehenetsia** = **Lehenetsia - gastua**
@@ -71,33 +69,36 @@ Hurrengo adibidean, Contoso Robotics USA (USPM) da mailegu-entitatea eta Contoso
      3. **Kostuen kontuak** fitxan, **Liburu kontuen mota** aukeran, hautatu **Enpresen arteko kostua**. Sortu erregistro berria informazio honekin:
       
         - **Pertsona juridikoa maileguan ematea** = **GBPM**
-        - **Kontu nagusia** = Aukeratu enpresa nagusia kostuaren truke
+        - **Kontu nagusia** = Aukeratu enpresa nagusia kostuaren truke. Konfigurazio hau beharrezkoa da. Konfigurazioa enpresa arteko fluxuetarako erabiltzen da Finantzetan, baina ez proiektuekin lotutako enpresa arteko fluxuetan. Aukeraketa honek ez du downstream eraginik. 
         
      4. Hautatu dirua emandako **GBPM** legezko entitatea. 
      5. Joan **Proiektuen kudeaketa eta kontabilitatea** > **Konfigurazioa** > **Bidalketa** > **Liburu nagusia argitaratzeko konfigurazioa**. 
      6. **Diru-sarreren kontuak** fitxan, **Liburu kontuen mota** aukeran, hautatu **Enpresen arteko diru-sarrera**. Sortu erregistro berria informazio honekin:
 
         - **Pertsona juridikoa maileguan hartzea** = **USPM**
-        - **Kontu nagusia** = Aukeratu enpresa nagusia diru-sarreraren truke 
+        - **Kontu nagusia** = Aukeratu enpresa nagusia diru-sarreraren truke. Konfigurazio hau beharrezkoa da. Konfigurazioa enpresa arteko fluxuetarako erabiltzen da Finantzetan, baina ez proiektuekin lotutako enpresa arteko fluxuetan. Aukeraketa honek ez du downstream eraginik. 
 
 5. **Ezarri eskulanaren transferentzia prezioak**. Enpresen arteko transferentziaren prezioak Project Operations-en konfiguratuta daude Dataverse. Konfiguratu [eskulanaren kostuen tasak](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) eta [lan fakturaren tasak](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) enpresen arteko fakturaziorako. Transferentzia prezioak ez dira onartzen enpresen arteko gastuen transakzioetarako. Erakundeen arteko unitatearen salmenta-prezioa beti izango da baliabideen unitateko kostuaren prezioaren balio bera.
 
-      Contoso Robotics UK garatzailearen baliabideen kostua 88 GBP da orduko. Contoso Robotics UK-k Contoso Robotics USA fakturatuko du 120 USD baliabide honek AEBetako proiektuetan lan egin duen ordu bakoitzeko. Contoso Robotics USA-k bezeroari Adventure Works 200 USD fakturatuko dio Contoso Robotics UK garatzaile baliabideak egindako lana.
+      Garatzailearen baliabideen kostua Contoso Robotics UK 88 GBP orduko da. Contoso Robotics UK-k fakturatuko du Contoso Robotics USA 120 USD baliabide honek AEBetako proiektuetan lan egiten zuen ordu bakoitzeko. Contoso Robotics USA-k bezeroari Adventure Works 200 USD fakturatuko dio Contoso Robotics UK garatzaileentzako baliabidea.
 
       1. Project Operations-eko Dataverse atalean, joan **Salmenta** > **Prezio zerrendak**. Sortu kostuen prezioen zerrenda berria **Contoso Robotics UK kostu tasak**. 
       2. Kostuen prezioen zerrendan, sortu erregistro bat informazio honekin:
          - **Rola** = **Garatzailea**
          - **Kostua** = **88 GBP**
-      3. Joan **Ezarpenak** > **Antolakuntza unitateak** eta erantsi kostuen prezio zerrenda hau **Contoso Robotics UK** antolakuntza unitatea.
+      3. Joan **Ezarpenak** > **Antolakuntza unitateak** eta erantsi kostuen prezio zerrenda **Contoso Robotics UK** antolakuntza unitatea.
       4. Joan **Salmentak** > **Prezio zerrendak** aukerara. Sortu kostuen prezioen zerrenda **Contoso Robotics USA kostu tasak**. 
       5. Kostuen prezioen zerrendan, sortu erregistro bat informazio honekin:
           - **Rola** = **Garatzailea**
           - **Baliabideen enpresa** = **Contoso Robotics UK**
           - **Kostua** = **120 USD**
-      6. Joan **Ezarpenak** > **Antolakuntza unitateak** eta erantsi **Contoso Robotics USA kostu-tarifak** kostuen prezio zerrenda **Contoso Robotics USA** antolakuntza unitatea.
+      6. Joan **Ezarpenak** > **Antolakuntza unitateak** eta erantsi **Contoso Robotics USA kostu-tasak** kostuaren prezio-zerrenda **Contoso Robotics USA** antolakuntza unitatea.
       7. Joan **Salmentak** > **Prezio zerrendak** aukerara. Sortu izeneko salmenta prezioen zerrenda **Adventure Works fakturen tasak**. 
       8. Salmenten prezioen zerrendan, sortu erregistro bat informazio honekin:
           - **Rola** = **Garatzailea**
           - **Baliabideen enpresa** = **Contoso Robotics UK**
           - **Fakturazio-tasa** = **200 USD**
       9. Joan **Salmentak** > **Proiektuen kontratuak** eta erantsi **Adventure Works fakturen tasak** proiektuaren kontratuaren Adventure Works proiektuaren prezioen zerrenda.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

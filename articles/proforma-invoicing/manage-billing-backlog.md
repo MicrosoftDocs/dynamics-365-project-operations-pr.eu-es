@@ -2,39 +2,61 @@
 title: Kudeatu fakturazio atzeratua
 description: Gai honek Project Operations-en fakturazio-zorroa ikusi eta nola lan egin jakiteko informazioa eskaintzen du.
 author: rumant
-manager: Annbe
-ms.date: 10/20/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 2e839c1f32248fff6d97271796666b5031f66490ccd98574045b770100bf379f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122328"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991066"
 ---
-# <a name="manage-the-billing-backlog"></a>Kudeatu fakturazio atzeratua
+# <a name="manage-billing-backlog"></a>Kudeatu fakturazio atzeratua
 
-_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
+**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations
 
-Dynamics 365 Project Operations-ek bi ikuspegi eskaini ditu fakturazio-zorroarekin lan egiten eta kudeatzen laguntzeko. **Prezio finkoaren mugarriak** eta **Denboraren eta materialaren fakturazio-zorroa** Ikuspegia hautatzeko, **Salmentak** proiektuaren eragiketen eremua, ezkerreko nabigazio orrian, hautatu **Fakturazioa**. Fakturazioaren atzerapen estekak bertan gordetzen dira.
+Dynamics 365 Project Operations-ek ikuspegiak eskaintzen ditu fakturazio-zorroa kudeatzen laguntzeko. Fakturazio-zorroa kudeatzeko, hautatu estekak **Salmentak** area, **Fakturazioa** eremuan. 
+
+Ikuspegi hauek daude erabilgarri:
+
+- Aurrerapenak eta aurrerakinak
+- Erabilgarri dauden aurrerapenak eta aurrerakinak
+- Prezio finkoaren mugarriak
+- Denbora eta materialen fakturazioaren lana
+
+## <a name="retainers-and-advances"></a>Aurrerapenak eta aurrerakinak
+
+**Atxikitzaileak eta aurrerakinak** ikuspegiak proiektuen kontratu guztien atxikipenak eta aurrerapenak zerrendatzen ditu. Atxikipena edo aurrerakina fakturatu ondoren, aurrerakinaren zenbatekoa erabilgarri egongo da.
+
+## <a name="available-retainers-and-advances"></a>Erabilgarri dauden aurrerapenak eta aurrerakinak
+
+**Atxikitzaile eta aurrerakin erabilgarriak** ikuspegiak proiektuen kontratu guztien erabilgarri dauden atxikipenak eta aurrerapenak zerrendatzen ditu. Atxikipena edo aurrerakina fakturatu ondoren, aurrerakinaren zenbatekoa erabilgarri egongo da eta zerrendan gehitzen da. Atxikipenaren edo aurrerakinaren kopurua erabat erabili ondoren, zerrendatik kentzen da.
 
 ## <a name="fixed-price-milestones"></a>Prezio finkoaren mugarriak
 
-Ikuspegi honek sistemako proiektuen kontratu lerro guztietako prezio finkoen mugarri guztiak zerrendatzen ditu. Mugarri bakar edo anitz gisa markatu daitezke **Fakturatzeko prest** edo **Ez dago fakturatzeko prest** ikuspegi honetatik. Mugarri gisa markatzen duzunean **Fakturatzeko prest**, mugarria faktura zirriborro baterako eskuragarri egongo da.
+**Prezio finkoaren mugarriak** Ikusi proiektuaren kontratu lerro guztietako prezio finkoen mugarri guztiak zerrendatzen ditu. Ikuspegi honetatik, mugarri bakar edo anitz gisa markatu daitezke **Fakturatzeko prest** edo **Ez dago fakturatzeko prest**. Mugarri gisa markatzea **Fakturatzeko prest** faktura zirriborroan jartzeko erabilgarri jartzen du.
 
-Bezero anitzeko kontratu lerroek prezio finkoko fakturazio metodoa dutenean, mugarri bat sortzen da kontratu lerroan bezero bakoitzarentzat. Erabiltzaileak mugarri bat sortzen du eta mugarri hori bezeroaren arabera = mugarri zehatzen erregistroetan banatzen da, kontratuaren lerroan bezero bakoitzarentzat zehaztutako fakturazio ehunekoaren arabera. **Prezio finkoaren mugarriak** ikuspegian, bezeroaren berariazko mugarrien erregistroak ikusiko dituzu. Mugarrien erregistro horietako bakoitza honela markatu daiteke **Fakturatzeko prest** ikuspegi honetatik bereizita. Lotutako mugarrietako bat edo gehiago honela markatzen direnean **Fakturatzeko prest**, goiburua egoera batera pasatzen da **Eraikitzen** aukeratik **Ez da hasi** aukerara. Mugarri banaketa guztiak fakturatu direnean, goiburuaren mugarri egoera bihurtzen da **Osatuta**.
+Bezero anitzeko kontratu lerroek prezio finkoko fakturazio metodoa dutenean, kontratu lerroan bezero bakoitzarentzat mugarri bat sortzen da. Mugarri bat sor daiteke eta gero bezeroaren berariazko mugarrien erregistro banatu daiteke. Zatiketa hori barnekoa da eta kontratuaren lerroan bezero bakoitzarentzat zehaztutako fakturazio ehunekoaren arabera. **Prezio finkoaren mugarriak** ikuspegian, bezeroaren berariazko mugarrien erregistroak ikusiko dituzu. Mugarrien erregistro horietako bakoitza honela markatu daiteke **Fakturatzeko prest** ikuspegi honetatik bereizita. Lotutako mugarrietako bat edo gehiago honela markatzen direnean **Fakturatzeko prest**, goiburuaren egoera eguneratu da **Eraikitzen** **Ez da hasi**. Mugarri banaketa guztiak fakturatzen direnean, goiburuaren mugarri egoera eguneratu egiten da **Osatuta**.
 
-Fakturaren zirriborroaren mugarria erakusten da ikuspegi honetan fakturazio egoerarekin **Bezeroaren faktura sortu da**. Faktura zirriborroa baieztatzen denean, erregistro honetako fakturazio egoera eguneratzen da **Faktura argitaratua**. Ez da gomendagarria egoera balio hori eguneratzea kode pertsonalizatua erabiliz. Proiektuaren eragiketek ez dute behar bezala funtzionatuko egoera balio horiek kode pertsonalizatuarekin eguneratzen badira.
+Fakturaren zirriborroaren mugarria erakusten da ikuspegi honetan fakturazio egoerarekin **Bezeroaren faktura sortu da**. Faktura zirriborroa baieztatzen denean, erregistroan fakturazio egoera eguneratzen da **Bezeroaren faktura argitaratua**. 
+
+> [!NOTE] 
+> Ez eguneratu egoera balio hau kode pertsonalizatua erabiliz. Project Operations-ek ez du ondo funtzionatzen egoera balio horiek kode pertsonalizatuarekin eguneratzen direnean.
 
 ## <a name="time-and-material-billing-backlog"></a>Denbora eta materialen fakturazioaren lana
 
-Ikuspegi honek sistemako proiektuen kontratu guztietan fakturatu ez diren fakturatu gabeko salmenten faktore guztiak zerrendatzen ditu. Fakturatu gabeko salmenta bakarraren edo anitzen benetako datu gisa markatu daitezke **Fakturatzeko prest** edo **Ez dago fakturatzeko prest** ikuspegi honetatik. Fakturarik gabeko salmenten gisa markatzen da **Fakturatzeko prest** eskuragarri jartzen du faktura zirriborroan jartzeko.
+**Denboraren eta materialaren fakturazio-zorroa** ikuspegian fakturatu gabeko sistemako proiektuen kontratu guztietan fakturatu gabeko salmenten faktore guztiak zerrendatzen dira. Fakturatu gabeko salmenta bakarraren edo anitzen benetako datu gisa markatu daitezke **Fakturatzeko prest** edo **Ez dago fakturatzeko prest** ikuspegi honetatik. Fakturarik gabeko salmenten gisa markatzen da **Fakturatzeko prest** eskuragarri jartzen du faktura zirriborroan jartzeko.
 
-A duten fakturatutako salmenten benetakoak **Ez gainditzeko** egoera **Huts egin du** ezin da gisa markatu **Fakturatzeko prest**. Benetako hauek horrela markatu behar badira, berrezarri konpromisoa hartu duten kontratuaren lineako beste benetako egoera, eta gero ebaluatu **Ez gainditzeko** egoera.
+Fakturatu gabeko salmenten benetakoak **Ez gainditzeko** egoera **Huts egin du** ezin da gisa markatu **Fakturatzeko prest**. Egiazkoak honela markatu behar badira **Fakturatzeko prest**, berrezarri konpromisoa hartu duten kontratuaren lineako beste datu batzuen egoera eta, ondoren, berriro ebaluatu **Ez gainditzeko** egoera.
 
-Denbora eta materialen fakturazio metodoa duten bezero anitzeko kontratu lerroen kasuan, denbora eta gastuak onartzen direnean, fakturatu gabeko salmenta erreal bat sortzen da kontratu lerroan bezero bakoitzarentzat, bezero bakoitzerako zehaztutako fakturazio ehunekoaren arabera. kontratu lerroa. **Denboraren eta materialaren fakturazio-zorroa** ikuspegian, bezeroaren berariazko fakturaziorik gabeko salmenta errealak ikusiko dituzu. Faktura gabeko salmenten benetako datuen erregistro horietako bakoitza honela markatu daiteke **Fakturatzeko prest** ikuspegi honetatik bereizita.
+Bezero anitzeko kontratu lerroek denbora eta materialen fakturazio metodoa baldin badute, denbora eta gastuak onartzen direnean, fakturatu gabeko salmenta erreal bat sortzen da kontratu lerroan bezero bakoitzarentzat, bezero bakoitzarentzat zehaztutako fakturazio ehunekoaren arabera. **Denboraren eta materialaren fakturazio-zorroa** ikuspegian, bezeroaren berariazko fakturaziorik gabeko salmenta errealak ikusiko dituzu. Faktura gabeko salmenten benetako datuen erregistro horietako bakoitza honela markatu daiteke **Fakturatzeko prest** ikuspegi honetatik bereizita.
 
-Fakturatu gabeko salmenten benetako datuak zirriborroaren mugarria erakusten da ikuspegi honetan **Fakturazio egoerarekin** **Bezeroaren faktura sortu da**. Faktura zirriborroa baieztatzen denean, erregistro honetako fakturazio egoera eguneratzen da **Bezeroaren faktura argitaratua**. Egoera horretan dagoenean, ez da gomendagarria egoera balio hori eguneratzea kode pertsonalizatua erabiliz. Proiektuaren eragiketek ez dute behar bezala funtzionatuko egoera balio horiek kode pertsonalizatuarekin eguneratzen direnean.
+Fakturaren zirriborroan jasotako fakturaziorik gabeko salmentak erakusten dira ikuspegi honetan fakturazio egoerarekin **Bezeroaren faktura sortu da**. Faktura zirriborroa baieztatzen denean, erregistro honetako fakturazio egoera eguneratzen da **Bezeroaren faktura argitaratua**. 
+
+> [!NOTE] 
+> Ez eguneratu egoera balio hau kode pertsonalizatua erabiliz. Project Operations-ek ez du ondo funtzionatzen egoera balio horiek kode pertsonalizatuarekin eguneratzen direnean.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

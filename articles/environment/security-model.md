@@ -2,18 +2,16 @@
 title: Segurtasunaren modeloa
 description: Gai honek Dynamics 365 Project Operations-eko segurtasun-ereduei buruzko informazioa eskaintzen du.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642888"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002221"
 ---
 # <a name="security-model"></a>Segurtasunaren modeloa
 
@@ -58,7 +56,7 @@ Taldeek proiektuaren eta lankidetzako artefaktuen laguntza baimenak lankidetzan 
 
 Proiektuaren Eragiketek ez dute talderik sortzen ekintza inplizituaren bidez eta talde sakatuen ekintza esplizituaren bidez bakarrik egiten dute.
 
-Taldeko kideen bilaketa **Taldearen kudeaketa** elkarrizketa-koadroa, inguruneko segurtasun-taldearen zati gisa ezartzen direnetara mugatuta dago. Informazio gehiago lortzeko, ikusi [Kontrolatu erabiltzaileen sarbidea inguruneetara: segurtasun-taldeak eta lizentziak](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Taldeko kideen bilaketa **Taldearen kudeaketa** elkarrizketa-koadroa, inguruneko segurtasun-taldearen zati gisa ezartzen direnetara mugatuta dago. Informazio gehiago lortzeko, ikusi [Kontrolatu erabiltzaileen sarbidea inguruneetara: segurtasun-taldeak eta lizentziak](/power-platform/admin/control-user-access).
 
 ![Talde modua](./media/groupsmode.png)
 
@@ -70,7 +68,7 @@ Taldeko kideen bilaketa **Taldearen kudeaketa** elkarrizketa-koadroa, inguruneko
 ## <a name="deployment-recommendation"></a>Inplementazio-gomendioak
 Office taldearen lankidetza eredua garatu ahala, funtzionaltasuna gehituko da denboran kontrol zehatzagoa emateko. Gaur egun Project Operations inplementatzen dituzten bezeroei ohiko arreta jartzera animatzen zaie Microsoft Dynamics 365 segurtasun eredua.
 
-Informazio gehiagorako, ikusi [Segurtasuna Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+Informazio gehiagorako, ikusi [Segurtasuna Common Data Service](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations eta Microsoft Dynamics 365 Finance segurtasuna
 Project Operations-ek honako rol hauek biltzen ditu:
@@ -78,6 +76,9 @@ Project Operations-ek honako rol hauek biltzen ditu:
 - Proiektu-kudeatzailea
 - Proiektuaren kontabilitatea
 
-Finantzetako segurtasunari buruzko informazio gehiago lortzeko, ikusi [Funtzioetan oinarritutako segurtasuna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Finantzetako segurtasunari buruzko informazio gehiago lortzeko, ikusi [Funtzioetan oinarritutako segurtasuna](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

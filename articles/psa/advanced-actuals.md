@@ -2,8 +2,6 @@
 title: Unekoak erregistratzen
 description: Gai honek unekoak nola grabatzen diren informazioa ematen du.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e417a24d5291fa88dee6583f11439eac0a44a574
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 7d9ebc0b283731356e0b9b26f2d665a12183519f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145703"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014821"
 ---
 # <a name="recording-actuals"></a>Unekoak erregistratzen 
 
@@ -34,3 +32,6 @@ ms.locfileid: "5145703"
 Proiektu batean zehar gertatzen diren transakzio-ekonomiko guztiak erregistratzen dira. Transakzio hauek honela erregistratzen dira: **unekoak**. Hurrengo taulan, sortzen diren errealitate mota desberdinak daude, proiektuaren denbora eta materiala, prezio finkoa edo barne proiektua den ala ez, edo aurrez aurreko fasean dagoen ala ez.
 
 > ![Unekoak nola grabatzen diren erakusten duen taula](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,11 +1,10 @@
 ---
 title: Eguneratu Project Service 3.x bertsioaren antolaketa
-description: Gai honek eskuragarri dauden eta datozen Dynamics 365 Project Service Automation-en bertsioei buruzko informazioa eskaintzen du.
+description: Gai honek Dynamics 365 Project Service Automation-en eskuragarri eta datozen bertsioei buruzko informazioa eskaintzen du.
 ms.custom: dyn365-projectservice
-ms.date: 12/07/2020
+ms.date: 10/04/2021
 ms.reviewer: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -15,7 +14,6 @@ author: kfend
 ms.assetid: ''
 caps.latest.revision: 42
 ms.author: rumant
-manager: annbe
 search.audienceType:
 - admin
 - customizer
@@ -24,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 05111b51d482493a8c8a1d9c9da44d6cd95fc8d2
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981357"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892151"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Eguneratu Project Service 3.x bertsioaren antolaketa
 
@@ -39,7 +37,7 @@ ms.locfileid: "5981357"
 
 | Soluzioa  | Azken bertsioa |
 |-------|----|
-| Project Service Automation    | 3.10.52.77 |
+| Project Service Automation    | 3.10.58.130 |
 | Project Service Automation-en mahaigaineko osagarria                | 3.15          |
 
 Project Service-ko eguneratzeei buruzko informazio gehiago lortzeko, joan [Dynamics 365-en bertsio-planak](/dynamics365/release-plans/). 
@@ -47,28 +45,30 @@ Project Service-ko eguneratzeei buruzko informazio gehiago lortzeko, joan [Dynam
 | Geltokia  | Eskualdea | Uneko bertsioa | Hurrengo bertsioa |  Antolatutako data
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>1. geltokia</strong> | |  |  | |
-| | <i>Lehenengo oharra</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021eko maiatzaren 28an
+| | <i>Lehenengo oharra</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduaren 03a
 |<strong>2. geltokia</strong> | |  |  | |
-| | <i>Hego Amerika</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021eko ekainaren 4a
-| | <i>Kanada</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021eko ekainaren 4a
-| | <i>India</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021eko ekainaren 4a
-| | <i>Frantzia</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021eko ekainaren 4a
-| | <i>Arabiar Emirerri Batuak</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021eko ekainaren 4a
-| | <i>Hego Afrika</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021eko ekainaren 4a
-| | <i>Alemania</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021eko ekainaren 4a
-| | <i>Suitza</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021eko ekainaren 4a
+| | <i>Hego Amerika</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduak 10
+| | <i>Kanada</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduak 10
+| | <i>India</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduak 10
+| | <i>Frantzia</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduak 10
+| | <i>Hego Afrika</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduak 10
+| | <i>Alemania</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduak 10
+| | <i>Suitza</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021eko abenduak 10
 |<strong>3. geltokia</strong> | |  |  | |
-| | <i>Japonia</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021eko maiatzaren 7an
-| | <i>Asia pazifikoa</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021eko maiatzaren 7an
-| | <i>Britainia Handia</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021eko maiatzaren 7an
-| | <i>Oceana</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021eko maiatzaren 7an
+| | <i>Japonia</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021eko abenduaren 17a
+| | <i>Asia pazifikoa</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021eko abenduaren 17a
+| | <i>Britainia Handia</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021eko abenduaren 17a
+| | <i>Oceana</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021eko abenduaren 17a
+| | <i>Arabiar Emirerri Batuak</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021eko abenduaren 17a
 |<strong>4. geltokia</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021eko maiatzaren 14an
+| | <i>Europa</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022ko urtarrilaren 07a
 |<strong>5. geltokia</strong> | |  |  | |
-| | <i>Ipar Amerika</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021eko maiatzaren 21ean
+| | <i>Ipar Amerika</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022eko urtarrilaren 14
 |<strong>6. geltokia</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021eko maiatzaren 21ean
-| | <i>Eskainitako eskala-taldeak</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021eko maiatzaren 28an
+| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022eko urtarrilaren 14
+| | <i>Eskainitako eskala-taldeak</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 2021eko abenduak 10
+
+
 
 >[!Note]
 > - Eskualdeetako egunetan Gobernuaren Erkidegoko Hodeiak (GCC) izan ezik, hurrengo eguneratze automatikoaren ordua adierazten da. GCC-ko datetan bertsioen erabilgarritasuna adierazten da; une honetan, ez dago eguneratze automatikoki eskualde hauetarako.

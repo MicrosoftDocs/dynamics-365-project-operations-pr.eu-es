@@ -2,8 +2,6 @@
 title: Gako-kontzeptuak
 description: Gai honek Project Service Automation-en (PSA) baliabideen kudeaketa gako-kontzeptuen inguruko informazioa eskaintzen du.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147728"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995071"
 ---
 # <a name="key-concepts"></a>Gako-kontzeptuak
 
@@ -48,3 +46,6 @@ Hurrengo taulan, Dynamics 365 Project Service Automation aplikazioan erabiltzen 
 | Ingerada                    | Zereginak, eskakizunak edo esleipen orduak egunero banatzen dira. Adibidez, bost eguneko 40 orduko zeregina 5 egunez jar daiteke eguneko zortzi ordu eginda. |
 | Kontziliazioaren ikuspegia        | Proiektu-taldeko kide bakoitzeko erreserbak eta zereginak erakusten dituen ikuspegia. Ikuspegi honek proiektu-kudeatzaileari erreserben eta zereginen arteko desoreka bilatzeko eta bat ez datozenean zuzentzeko neurriak hartzeko aukera ematen dio. |
 | Lanorduak                 | Baliabideen ahalmena eta lanaldiko zein lanaldikoak ez diren orduak identifikatzeko erabiltzen den entitatea. Erakunde horri baliabideen egutegia ere deitzen zaio. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Sortu zereginen xehetasunen egitura
 description: Gai honetan azaltzen da nola sortu lanaren matxuraren egitura (WBS) oinarrizko kontrolak barne antolaketa-interfaze berrian.
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841298"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998716"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Sortu zereginen xehetasunen egitura (WBS)
 
@@ -93,6 +91,8 @@ Hurrengo taulan ordutegiaren atributu osagarriak agertzen dira.
 | Izena | Zereginaren izena. |
 | ID | Zereginen xehetasunen egiturako zereginaren IDa. |
 
+Administratzaile gisa, eremu pertsonalizatuak defini ditzakezu atazako entitatean. Hala ere, eremuak ezin dira programazio-saretan bistaratu. Zure eremu pertsonalizatuak ikusteko, gehitu **Proiektuaren zeregina** xehetasunen orria.
+
 ## <a name="staffing-attributes"></a>Betetze-atributuak
 
 Langileen atributuak **Baliabideak** eremuaren bidez atzitzen dira antolaketan. Lehendik dagoen baliabide bat bilatu dezakezu edo hautatu **Sortu** eta **Sorrera bizkorra** panelean, gehitu proiektu-taldeko kide bat baliabide berri gisa.
@@ -116,3 +116,6 @@ Zereginaren moduak ez du eraginik aurreko/mendeko zereginen hasiera- eta amaiera
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Erabilerraztasuna eta teklatuko lasterbideak
 
 **Antolaketa** sareta guztiz eskuragarria da eta pantaila-irakurleekin erabil daiteke, esaterako, JAWS edo NVDA. Saretako eremuan mugi zaitezke gezi-teklak erabiliz (Microsoft Excel-en bezala), Tab tekla erabil dezakezu interfazearen erabiltzaile-interfazearen elementutan aurrera egiteko, eta Behera gezi-tekla, Sartu tekla edo Zuriune-barra erabil ditzakezu goitibeherako menuak hautatzeko eta irekitzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

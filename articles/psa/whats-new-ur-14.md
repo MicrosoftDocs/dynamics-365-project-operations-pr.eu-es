@@ -2,8 +2,6 @@
 title: Project Service Automation eguneratzearen 14, V3 bertsioko berrikuntzak edo aldaketak
 description: Gai honek Project Service Automation eguneratzea 14, V3 bertsioko berritasunei buruzko informazioa ematen du.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f9347741d8dae2c9a810bb5b3a32d4d6c0a628ed
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 71971b96ea6955b95fa519884356a310b2885d0667d60ca07856a444de77dc64
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147143"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987016"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation 14, V3 eguneratze-bertsioa
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Atsegin handiz adierazten dugu Dynamics 365 Project Service Automation (PSA) aplikazioaren azken eguneratzea. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Argitalpen hau bateragarria da Dynamics 365 9.x bertsioarekin. Argitalpen honetara eguneratzeko, bisitatu Dynamics 365 (online) aplikazioaren administrazio-zentroa eta joan soluzioen orrira eguneratzea instalatzeko. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Atsegin handiz adierazten dugu Dynamics 365 Project Service Automation (PSA) aplikazioaren azken eguneratzea. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Argitalpen hau bateragarria da Dynamics 365 9.x bertsioarekin. Argitalpen honetara eguneratzeko, bisitatu Dynamics 365 (online) aplikazioaren administrazio-zentroa eta joan soluzioen orrira eguneratzea instalatzeko. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
 Gai honek PSA V3, 14. eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.4.21 konpilazio-zenbakia du eta antolaketa honetan dago erabilgarri:
 
@@ -64,3 +62,6 @@ Gai honek PSA V3, 14. eguneratzea bertsioan berriak diren edo aldatu diren eginb
      - Konponduta: Salmenta-prezio totala ez da kalkulatzen erabiltzaileak proiektu bateko gutxi gorabeherako kostuaren prezioak ere idatzi arte.
      - Konponduta: Eskaintza bat **Irabazita** gisa ixteak huts egiten du, lotutako proiektuaren kontratua ez badago **Zirriborroa** egoeran.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Sortu fakturazioaren araberako aurrerapenerako kontratu aurreratuak
 description: Gai honetan proiektuen kontratuak nola sortu azaltzen da, bezeroentzako fakturak sortu ahal izateko, egindako lanaren ehunekoan oinarrituta.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071165"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000966"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Sortu fakturazioaren araberako aurrerapenerako kontratu aurreratuak
 [!include [banner](../includes/banner.md)]
@@ -103,3 +101,6 @@ Aurrekontu kategoriak kategoria bakoitzerako egindako lan portzentajearen faktur
 8. Aukerakoa: esleitu fakturazio araua proiektu osagarriei. **Proiektua** FastTab fitxategian **Eskuragarri dauden proiektuak** atalean, hautatu proiektu bat eta, ondoren, hautatu eskuineko geziaren botoia proiektua gehitzeko **Aukeratutako proiektuak** atala.
 9. Aukerakoa: kalkulatu fakturak fakturatutako ordainketetan bezeroak gordetzen duen ehuneko kopurua. **Ordainketak atxikitzeko baldintzak** FastTab-en, hautatu finantzaketa iturria eta, ondoren, **Atxikipen portzentajea** eremuan, sartu atxikipen ehunekoa.
 10. Errepikatu urrats hauek proiektuaren kontratuaren fakturazio arau osagarriak sortzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Projektuetan oinarritutako abagunearen lerroak
 description: Gai honek proiektuan oinarritutako abagune-lerroekin lan egiteari buruzko informazioa eskaintzen du.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181932"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996331"
 ---
 # <a name="project-based-opportunity-lines"></a>Projektuetan oinarritutako abagunearen lerroak
 
@@ -33,3 +31,6 @@ Jarraian proiektuan oinarritutako aukera lerro bateko eremuak daude:
 | Izena | Fitxa orokorra | Lerro-elementu honi identitate laburra emateko erabil daitekeen testu-eremu editagarria da | Balio hau aurrekontuaren marrara eramaten da aukera honetatik aurrekontua sortzen duzunean |
 | Bezeroaren aurrekontua | Fitxa orokorra | Moneta-eremu editagarri hau bezeroak lerro-elementu honetarako gastatzeko prest dagoen zenbatekoaren jarraipena egiteko erabil daiteke. | Balio hau eskintzako dagokion eremura eramaten da aukera honetatik aurrekontua sortzen duzunean |
 | Fakturazio-metodoa | Fitxa orokorra | Eremu editagarriak balio hauek ditu:</br>- Denbora eta materiala</br>- Prezio finkoa | Balio hau eskintzako dagokion eremura eramaten da aukera honetatik aurrekontua sortzen duzunean. Aurrekontuaren lerroa sortu ondoren, eremua blokeatuta dago eta ezin da aldatu. Esleitu eremuaren balioa ahalik eta zehatzen. Eremu honen balioa aurrekontuaren lerroan aldatu behar baduzu, ezabatu eta berriro sortu aurrekontua. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

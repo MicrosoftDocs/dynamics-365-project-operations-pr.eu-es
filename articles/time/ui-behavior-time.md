@@ -2,18 +2,16 @@
 title: Denbora sartzeko UI portaera
 description: Gai honek Denbora-sarreraren EIren portaerari buruzko informazioa ematen du.
 author: stsporen
-manager: AnnBe
 ms.date: 03/03/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 0cb62231eb3b387b610b7510023994dce66b1cc9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499599"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995876"
 ---
 # <a name="time-entry-ui-behavior"></a>Denbora sartzeko UI portaera
 

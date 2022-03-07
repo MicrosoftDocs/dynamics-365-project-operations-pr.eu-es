@@ -2,18 +2,16 @@
 title: Fakturatu atxikipen edo aurrerakin bat
 description: Gai honek proiektuaren eragiketetan atxikipena edo aurrerakina fakturatzeko moduari buruzko informazioa eskaintzen du.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
-ms.translationtype: HT
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596177"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997456"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Fakturatu atxikipen edo aurrerakin bat
 
@@ -51,3 +49,6 @@ Hori ikus daiteke **Atxikitzaile eta aurrerapen aplikatuak** saretan **Faktura**
 | Erabilitako zenbatekoa | Hori ikus daiteke **Aplikatutako atxikipenak eta aurrerapenak** saretan **Proiektuaren faktura** orrialdean  | Irakurtzeko soilik den eremu honek atxikipenaren edo aurrerapenaren zenbatekoa erabili den laburbiltzen duen kalkulatutako balioa eskaintzen du. | Eremu hau bezeroari bistaratu dakioke inprimatutako fakturan atxikipen edo aurrerakin honetan jada erabilitako zenbatekoa adierazteko. |
 | Zenbateko hedatua | Hori ikus daiteke **Aplikatutako atxikipenak eta aurrerapenak** saretan **Proiektuaren faktura** orrialdean  | Eremu editagarri honek proiektu-faktura honetan erabiltzen ari den atxikipenaren edo aurrerakinaren zenbatekoa eskaintzen du. Kopuru hori ezin da aurrerapenean eskuragarri dagoena baino handiagoa izan. Sistemak automatikoki kalkulatzen du **Zenbatekoa** eta **Erabilitako kopurua** saretako eremuak. Kopuru hori txikiagotu dezakezu erabilgarri dagoena baino gutxiago erabiltzeko, baina ezin duzu kopurua eskuragarri dagoena baino gehiago erabili. | Eremu hau bezeroari bistaratu dakioke inprimatutako fakturan atxikipen edo aurrerakin honetan jada erabiltzen ari den zenbatekoa adierazteko. |
 | Aurrerapen zenbatekoaren balantzea. | Hori ikus daiteke **Aplikatutako atxikipenak eta aurrerapenak** saretan **Proiektuaren faktura** orrialdean  | Irakurtzeko soilik den eremu honek faktura baieztatu ondoren atxikipen edo aurrerakinaren zenbatekoa geratuko denaren balioa ematen du. | Eremu hau bezeroari bistaratu dakioke inprimatutako fakturan faktura berretsi eta ordaindu eta gero atxikipen edo aurrerakin honetan jada erabil gabe geratutako zenbatekoa adierazteko. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

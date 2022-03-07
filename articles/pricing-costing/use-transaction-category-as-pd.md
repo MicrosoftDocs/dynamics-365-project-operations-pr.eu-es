@@ -2,18 +2,16 @@
 title: Erabili Transakzioen kategoria prezio-dimentsio gisa
 description: Gai honek Transakzioen kategoria eremua prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
-ms.translationtype: HT
+ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513956"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996106"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Erabili Transakzioen kategoria prezio-dimentsio gisa
 
@@ -50,3 +48,6 @@ Hurrengo taulan kutxaz kanpoko forma eta ikuspegi guztiak zerrendatzen dira, ent
 2. **Parametroak** orrialdean, **Zenbatekoan oinarritutako prezio-dimentsioak** fitxan, egiaztatu agertzen den saretak **Prezio-dimentsioak** entitateko erregistroak erakusten dituela.
 3. Gehitu **Transakzioen kategoria** zerrenda honetara eta ezarri **Kostuari aplikagarria** eta **Salmentari aplikagarria** eremuak **Bai** gisa.
 4. **Dimentsio mota** eremuan, hautatu **Zenbatekoan oinarrituta** eta, ondoren, hautatu **Transakzioen kategoria** aukerarekin erlazionatutako kostu eta salmentetarako lehentasuna.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

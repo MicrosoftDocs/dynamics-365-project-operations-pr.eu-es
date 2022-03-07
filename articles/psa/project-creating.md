@@ -2,8 +2,6 @@
 title: Proiektuen antolaketa
 description: Gai honek antolaketa sortzeari buruzko informazioa ematen du.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148403"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998401"
 ---
 # <a name="project-schedules"></a>Proiektuen antolaketa 
 
@@ -96,7 +94,7 @@ Zeregin bati koska kentzean, ez da gehiago zeregin nagusiaren bigarren mailako z
 
 Zereginaren izenak egin beha den lana deskribatzen du. PSA-n, zeregin bati lotuta dauden atributuek zereginaren antolaketa eta langileen eskakizunak deskribatzen dituzte.
 
-> ![Zeregin-atributuak](media/project-2.png)
+> ![Zeregin-atributuak.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Antolaketa-atributuak
 
@@ -149,3 +147,6 @@ Modu lehenetsian, hosto-nodoaren zereginak aurrekaririk ez badu, haren hasiera-d
 ### <a name="manual-scheduling"></a>Eskuzko antolaketa
 
 Planifikazio automatikoaren arauak zure baldintzak betetzen ez badituzu, zereginerako modua alda dezakezu **Eskuz programatuta** modura. Ezarpen horrek beste antolaketa-atributu batzuen balioak kalkulatzea eragozten dio antolaketa-motorrari. Zereginaren modua edozein dela ere, zereginetan aurrekoak ezartzen badituzu, beti eragomgp dio menpeko zereginaren hasiera-datari.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

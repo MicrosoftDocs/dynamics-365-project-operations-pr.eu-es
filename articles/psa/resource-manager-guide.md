@@ -2,8 +2,6 @@
 title: Baliabide-kudeatzailearen gida
 description: Project Service-ekin baliabideak kudeatzeko gida
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 543be23d95b1b821fcdca628612d03c343fd5b06
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 0ad7d792450303c25fdac9f1191c809006d41541763b4f565b55abfa6da58a0a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147323"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984958"
 ---
 # <a name="resource-manager-guide-project-service"></a>Baliabide-kudeatzailearen gida (Project Service)
 
@@ -73,3 +71,6 @@ ms.locfileid: "5147323"
  [Kontu-kudeatzailearen gida](../psa/account-manager-guide.md)   
  [Proiektu-kudeatzailearen gida](../psa/project-manager-guide.md)   
  [Denboraren, gastuen eta lankidetzaren gida](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

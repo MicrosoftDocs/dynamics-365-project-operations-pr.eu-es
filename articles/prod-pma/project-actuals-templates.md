@@ -2,11 +2,9 @@
 title: Sinkronizatu proiektuaren errealitatea zuzenean Project Service Automation-etik proiektuaren integrazio aldizkariarekin argitaratzeko Finance and Operations
 description: Gai honek deskribatzen du txantiloiak eta azpiko zereginak erabiliak direnak sinkronizatzeko uneko proiektuak zuzenean Microsoft Dynamics 365 Project Service Automation hurrengora Finance and Operations.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071168"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999881"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinkronizatu proiektuaren errealitatea zuzenean Project Service Automation-etik proiektuaren integrazio aldizkariarekin argitaratzeko Finance and Operations
 
@@ -140,3 +138,6 @@ Ondorengo ilustrazioak Datuen integrazioan txantiloien atazen maparen adibide ba
 [![Txantiloien mapaketa - Egiazko datuen eguneratzea](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Txantiloien mapaketa - Transakzioen eguneratzea](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

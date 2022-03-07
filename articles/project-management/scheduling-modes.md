@@ -2,18 +2,16 @@
 title: Antolaketa moduak
 description: Gai honek antolaketa moduei buruzko informazioa ematen du.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981420"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116692"
 ---
 # <a name="scheduling-modes"></a>Antolaketa moduak
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations gaitasuna ematen die erakundeei lanaren banakako
 Project Operations-en hiru programazio modu daude eskuragarri:
 
   - Iraupen finkoa (modu lehenetsia da)
-  - Lan finkoa
+  - Ahalegin finkoa (*Lana*)
   - Unitate finkoak
 
 Programazio modu zehatz baten definizioak eragindako balioak honako formula honen bidez zehazten dira:
 
-  Esfortzua (*Lana*) = Iraupena x Unitateak
+  Esfortzua = Iraupena x Unitateak
 
 Proiektu baten antolaketa modua definitzen duzunean, balio horietako bat ezartzen ari zara, gero aldatu ezin direnak. Balio hori konstante gisa mantentzeak lehentasuna ematen dio balio horri, eta horrek sistemari beste bi balioak aldatzen direnean ez aldatzeko jakinarazten dio. Ondorengo taulan modu zehatz bat hautatzearen eraginari buruzko informazioa ematen da.
 

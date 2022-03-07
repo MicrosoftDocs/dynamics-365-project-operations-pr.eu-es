@@ -2,8 +2,6 @@
 title: Ikusi panelak eta txostenak
 description: Nola ikusi panelak eta txostenak Project Service-n
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efc03adf2bad942386731a6189828802aa468d42
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 00d42d6e79c592bd828bbf54353cde52900d288d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144083"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012931"
 ---
 # <a name="view-dashboards-and-reports-project-service"></a>Ikusi panelak eta txostenak (Project Service)
 
@@ -49,3 +47,6 @@ Panelek eta txostenek zure negozioaren egoeraren ideia orokorra ematen dizute. P
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Proiektu-kudeatzailearen gida](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

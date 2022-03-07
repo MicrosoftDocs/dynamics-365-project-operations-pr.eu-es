@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009201"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433638"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>2021eko uztaileko berritasunak: Project Operations lite-ren oinarrizko inplementazioa
 
@@ -20,7 +20,7 @@ _Honi aplikatzen zaio: Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
 Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
-  - Project Operations Dataverse-ko inguruneko bertsioan 4.12.0.148 edo 4.12.0.152.
+  - Project Operations Dataverse ingurunearen 4.12.0.148 bertsioa.
 
 ## <a name="quality-updates"></a>Kalitatearen eguneratzeak
 | **Ezaugarrien eremua**              | **Erreferentzia-zenbakia** | **Kalitatearen eguneratzea**                                                                                                                                                                                             |
@@ -59,4 +59,3 @@ Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie
 | Orokorrak                       | 2296857              | Iraupen luzeko lanetarako aurrerapenen jarraipena.                                                                                                                                                                        |
 | Orokorrak                       | 2253682              | Project Operations idazketa bikoitzeko soluzioa ezin da instalatu idazketa bikoitzeko nukleoa idazketa bikoitzeko orkestrazio soluziorik gabeko ingurune batean instalatuta dagoenean.                                                |
 | Orokorrak                       | 2316420              | Proiektuaren zerbitzuaren oinarrizko hornikuntzak huts egiten du aplikazioaren erabiltzailearen negozio unitatea aldatzen bada.                                                                                                                     |
-| Orokorrak                       | 2376405              | Argitaratzaileari zuzendutako eguneratze arazoa konpondu da (kalitatearen eguneratzea 4.12.0.152 bertsioan dago eskuragarri)                                                                                                                     |

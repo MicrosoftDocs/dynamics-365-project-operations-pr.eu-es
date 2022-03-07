@@ -2,11 +2,9 @@
 title: Berrikusi baliabide proposatuak
 description: Gai honek proiektuaren baliabideak proposatzeari buruzko informazioa ematen du.
 author: ruhercul
-manager: AnnBe
 ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 987ea08c77c1824182856c0d52ee0cd15e7029b9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401158"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000736"
 ---
 # <a name="review-proposed-resources"></a>Berrikusi baliabide proposatuak
 
@@ -62,3 +60,6 @@ Dynamics 365 Project Operations aplikazioak Universal Resource Scheduling motorr
 
 Baliabide indibidualei buruzko xehetasun gehiago ikusteko, egin klik eskuineko botoiarekin gainean baliabide-txartela irekitzeko.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

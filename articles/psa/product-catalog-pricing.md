@@ -3,7 +3,7 @@ title: Produktuen katalogoaren prezioak
 description: Gai honek produktuen katalogoaren prezioek nola funtzionatzen duten informazioa eskaintzen du Dynamics 365 Project Service Automation-en (PSA).
 author: rumant
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151193"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071067"
 ---
 # <a name="product-catalog-pricing"></a>Produktuen katalogoaren prezioak 
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

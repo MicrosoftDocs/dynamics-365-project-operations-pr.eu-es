@@ -3,26 +3,23 @@ title: Eman ingurune berri bat
 description: Gai honek Project Operations ingurune berri bat emateari buruzko informazioa eskaintzen du.
 author: sigitac
 manager: Annbe
-ms.date: 12/11/2020
+ms.date: 10/07/2020
 ms.topic: article
-ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727775"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070923"
 ---
 # <a name="provision-a-new-environment"></a>Eman ingurune berri bat
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-Gai honek baliabidean / pilatu gabeko egoeretako Dynamics 365 Project Operations ingurune berria emateko moduari buruzko informazioa ematen du.
+Gai honek Dynamics 365 Project Operations ingurune berri bat emateko moduari buruzko informazioa eskaintzen du berreskuratutako / stockean oinarritutako eszenatokietarako.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Gaitu Project Operations hornidura automatikoa LCS proiektu batean
 
@@ -61,15 +58,17 @@ Erabili urrats hauek zure LCS proiekturako Project Operations hornidura-fluxu au
 
 ![Inplementazioaren onespena](./media/2DeploymentConsent.png)
 
-7. Aukerakoa - Aplikatu demo datuak inguruneari. Joan **Ezarpen aurreratuak** aukerara, hautatu **Pertsonalizatu SQL datu basearen konfigurazioa**, eta ezarri **Zehaztu datu-basea aplikazioen datu-baserako** **Demoa** gisa.
-
-8. Osatu morroian beharrezko gainerako eremuak eta berretsi inplementazioa. Ingurunea hornitzeko denbora aldatu egiten da ingurune motaren arabera. Hornidurak sei ordu behar izan ditzake.
+7. Osatu morroian beharrezko gainerako eremuak eta berretsi inplementazioa. Ingurumena hornitzeko denbora aldatu egiten da ingurune motaren arabera. Hornidurak sei ordu behar izan ditzake.
 
   Inplementazioa ondo burutu ondoren, ingurunea honela agertuko da **Inplementatuta**.
 
-9. Ingurunea behar bezala zabaldu dela baieztatzeko, hautatu **Hasi saioa** eta saioa hasi ingurunean berresteko.
+8. Ingurunea ondo zabaldu dela ziurtatzeko, hautatu **Saioa hasi** eta saioa hasi ingurunean berresteko.
 
 ![ Ingurune-xehetasunak](./media/3EnvironmentDetails.png)
+
+## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Aplikatu Project Operations Finance demo-datuak (aukerako urratsa)
+
+Aplikatu Project Operations Finance demo-datuak 10.0.13 zerbitzuaren bertsioan Hodeian ostatatutako ingurunean deskribatutako moduan [artikulu hau](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aplikatu eguneratzeak Finance ingurunean
 
@@ -151,21 +150,6 @@ Freskatzeak 20 minutu inguru iraungo du. Amaitutakoan alerta jasoko duzu.
 
 ![Freskatzeko berrespena](./media/19RefreshConfirmation.png)
 
-## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Eguneratu Project Operations-eko segurtasun-ezarpenak aktibatuta Dataverse-n
-
-1. Joan Project Operations aukerara, Dataverse ingurunean. 
-2. Joan **Ezarpenak** > **Segurtasuna** > **Segurtasun-funtzioak** aukerara. 
-3. **Segurtasun-funtzioak** orrialdean, funtzioen zerrendan, hautatu **idazketa bikoitzeko aplikazioaren erabiltzailea** eta hautatu **Entitate pertsonalizatuak** fitxa.  
-4. Egiaztatu rolak funtzioak badituela **Irakurri** eta **Erantsi honi** honetarako baimenak:
-      
-      - **Monetaren truke-tasaren mota**
-      - **Kontuen sailkapena**
-      - **Egutegi fiskala**
-      - **Liburua**
-
-5. Segurtasun-funtzio eguneratu ondoren, joan **Ezarpenak** > **Segurtasuna** > **Taldeak** aukerara, eta hautatu lehenetsitako taldea **Tokiko negozioaren jabea** taldearen ikuspegia.
-6. Aukeratu **Kudeatu funtzioak** eta egiaztatu **idazketa bikoitzeko aplikazioaren erabiltzailea** segurtasun-pribilegioa talde honi aplikatzen zaio.
-
 ## <a name="run-project-operations-dual-write-maps"></a>Exekutatu Proiektuaren eragiketen idazketa dualaren esleipenak
 
 1. Zure LCS proiektuan, joan **Ingurumenaren xehetasunak** orrialdera.
@@ -174,10 +158,9 @@ Freskatzeak 20 minutu inguru iraungo du. Amaitutakoan alerta jasoko duzu.
 
 | **Entitate-esleipena** | **Freskatu entitatea** | **Hasierako sinkronizazioa** | **Hasierako sinkronizazioaren eredua** | **Exekutatu aurrebaldintzak** | **Aurrebaldintzen hasierako sinkronizazioa** |
 | --- | --- | --- | --- | --- | --- |
-| **Enpresa guztientzako proiektuaren baliabideen eginkizunak (bookableresourcecategories)** | No | Yes | Common Data Service | No | E/E |
-| **Legezko entitateak (cdm\_companies)** | No | Yes | Finance and Operations aplikazioak | No | E/E |
-| **Liburua (msdyn_ledgers)** | No | Yes | Finance and Operations aplikazioak | Yes | Bai, Finance and Operations aplikazioak |
-| **Project Operations-en integrazioaren benetako datuak (msdyn\_actuals)** | No | +Ez | E/E | Yes | +Ez |
+| **Enpresa guztientzako proiektuaren baliabideen eginkizunak (bookableresourcecategories)** | +Ez | Yes | Common Data Service | +Ez | E/E |
+| **Legezko entitateak (cdm\_companies)** | +Ez | Yes | Finance and Operations aplikazioak | +Ez | E/E |
+| **Project Operations-en integrazioaren benetako datuak (msdyn\_actuals)** | +Ez | +Ez | E/E | Yes | +Ez |
 | **Proiektuetako kontratuaren lerroak (salesorderdetails)** | +Ez | +Ez | E/E | +Ez | +Ez |
 | **Proiektuen transakzio harremanetarako integrazio entitatea (msdyn\_transactionconnections)** | +Ez | +Ez | E/E | +Ez | E/E |
 | **Project Operations-ek integratzeko kontratu lerroaren mugarriak (msdyn\_contractlinesscheduleofvalues)** | +Ez | +Ez | E/E | +Ez | E/E |
@@ -202,10 +185,4 @@ Aurrebaldintzak dituen mapa exekutatzeko, gaitu **Erakutsi erlazionatutako entit
 
 ![Mapa guztiak martxan](./media/22AllMapsRunning.png)
 
-
-## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Aplikatu konfigurazio-datuak Project Operations-en CDS-n (aukerakoa)
-
-Demo datuak Finantza inguruneari aplikatu badizkiozu, ikusi [Konfiguratu eta aplikatu konfigurazio datuak Common Data Service Project Operations-erako](resource-apply-pro-setup-config-data.md) CDS inguruneari demo datuak aplikatzeko.
-
-
-Zure Project Operations ingurunea hornitu eta konfiguratuta dago orain. 
+Zure Project Operations ingurunea hornitu eta konfiguratuta dago orain.

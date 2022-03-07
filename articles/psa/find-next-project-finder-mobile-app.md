@@ -2,8 +2,6 @@
 title: Bilatu hurrengo proiektua Project Finder Mobile aplikazioarekin
 description: Nola bilatu hurrengo proiektua Project Finder Mobile aplikazioarekin Project Service-rako
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149258"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990751"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Bilatu hurrengo proiektua Project Finder Mobile aplikazioarekin (Project Service)
 
@@ -40,12 +38,15 @@ ms.locfileid: "5149258"
   
  Sakatu interesatzen zaizun proiektuaren eskuinera gezia, xehetasun gehiago ikusteko eta bertan erregistratzeko.  
   
- ![Proiektuak bilatzeko mugikorreko aplikazioan bat datozen gaitasunak dituzten proiektuen zerrenda](../psa/media/project-service-project-finder-list.png "Proiektuak bilatzeko mugikorreko aplikazioan bat datozen gaitasunak dituzten proiektuen zerrenda")  
+ ![Proiektuak Project Finder Mobile aplikazioan bat datozen gaitasunak dituzten proiektuen zerrenda.](../psa/media/project-service-project-finder-list.png "Proiektuak bilatzeko mugikorreko aplikazioan bat datozen gaitasunak dituzten proiektuen zerrenda")  
   
 ## <a name="update-your-skills"></a>Eguneratu trebakuntzak  
  Sakatu pantailaren beheko eskuinaldean dagoen profileko botoia, trebakuntzak eta trebezia-mailak eguneratzeko.  
   
- ![Profil-botoia Proiektu-bilatzailearen mugikorreko aplikazioan](../psa/media/project-service-project-finder-profile.png "Profil-botoia Proiektu-bilatzailearen mugikorreko aplikazioan")  
+ ![Profil-botoia Project Finder Mobile aplikazioan.](../psa/media/project-service-project-finder-profile.png "Profil-botoia Proiektu-bilatzailearen mugikorreko aplikazioan")  
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Denboraren, gastuen eta lankidetzaren gida](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

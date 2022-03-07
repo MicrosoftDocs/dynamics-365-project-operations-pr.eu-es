@@ -2,18 +2,16 @@
 title: Prezio finkoko diru-sarrerak kalkulatzeko proiektuak
 description: Gai honek proiektuetako prezio finkoaren diru-sarrerei buruzko informazioa ematen du.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
-ms.translationtype: HT
+ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531348"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006411"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Prezio finkoko diru-sarrerak kalkulatzeko proiektuak 
 
@@ -35,3 +33,6 @@ Prezio finkoen diru-sarreren kalkuluen proiektuak berrikusteko, jarraitu urrats 
 
   Proiektuaren kostua, diru-sarreren profila, kostuen txantiloia eta aldiaren kodea eskuz ezar daitezke. Eskuz ezarrita ez badaude, balioek lehenetsitakoak izango dira proiektuaren lehenengo kalkulu kalkuluan proiektuaren kostu eta diru-sarreren profiletarako konfiguratutako arauak erabiliz.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

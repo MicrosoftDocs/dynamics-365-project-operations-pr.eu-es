@@ -16,16 +16,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144578"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071230"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Gehitu entitate pertsonalizatuaren inprimaki berriak (Project Service Automation 2.x)
-
-[!include [banner](../../includes/psa-now-project-operations.md)]
 
 ## <a name="type-field"></a>Eremu mota 
 

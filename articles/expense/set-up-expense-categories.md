@@ -2,18 +2,16 @@
 title: Konfiguratu gastu-kategoriak
 description: Gai honek gastuen txostenak egiteko kategoria partekatuak eta kategoria partekatuak konfiguratzeko moduari buruzko informazioa eskaintzen du.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 13e72e4b852fd0edac5ad35d5162e74b016bce33
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123768"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993091"
 ---
 # <a name="set-up-expense-categories"></a>Konfiguratu gastu-kategoriak
 
@@ -61,3 +59,6 @@ Konfigurazio prozesua hasi aurretik, erabaki hauek hartu behar dira gastu katego
 
     - Zerga berreskuratzetik kanpo dago azpikategorietako bat?
     - Zein da azpikategorien salmenten gaineko zergaren taldea?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

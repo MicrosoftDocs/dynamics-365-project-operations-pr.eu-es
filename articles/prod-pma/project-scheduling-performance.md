@@ -2,11 +2,9 @@
 title: Proiektuko baliabideen antolaketa-errendimendua
 description: Gai honetan proiektu ugarientzako baliabideen programazioaren errendimendua hobetzeko moduari buruzko informazioa ematen da.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071019"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007266"
 ---
 # <a name="project-resource-scheduling-performance"></a>Proiektuko baliabideen antolaketa-errendimendua
 
@@ -69,3 +67,6 @@ Baliabideen programazioaren errendimendua hobetzeko gaitu, jarraitu urrats hauek
 
 > [!NOTE]
 > Honek datu orokorrak banatuko ditu **ResRollup** zure inguruneko enpresa guztien artean egin ezazu, beraz, sorta lana pertsona juridiko bakarrean exekutatu behar da. Batch lan hau beharrezkoa da guztientzat **Baliabideen erabilgarritasuna** ikuspegiak. Batch lan hau exekutatzen ez bada, **ResRollup** datuak hegan sortuko dira eta horrek denbora behar dezake.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,26 @@
 title: Proiektuen kudeaketa eta kontabilitate ikuspegi orokorra
 description: Proiektuen kudeaketa eta kontabilitate funtzionalitatea hainbat industriatan erabil daiteke zerbitzua emateko, produktu bat ekoizteko edo emaitza lortzeko.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071179"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007491"
 ---
 # <a name="project-management-and-accounting-overview"></a>Proiektuen kudeaketa eta kontabilitate ikuspegi orokorra
 
@@ -36,14 +34,14 @@ Proiektua zerbitzu bat eskaintzeko, produktu bat ekoizteko edo emaitza lortzeko 
 ## <a name="projects-across-industries"></a>Proiektuak industrien artean
 Proiektuen kudeaketa eta kontabilitate funtzionalitatea hainbat industriatan erabil daiteke, hurrengo ilustrazioan erakusten den moduan.
 
-[![Proiektuak industrien artean](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Proiektuak industrien artean.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Dei zentro batean, txartel bat erabil daiteke deiak ebazteko beharrezkoak diren ekintza multzoak deskribatzeko. Aholkularitza-enpresek, hala nola kudeaketa edo aholkularitza teknikoko erakundeak edo publizitate agentziak, beren jarduerak proiektu gisa izendatzen dituzte. Marketinean, kanpaina batek entregatu beharreko lan multzoa adierazten du. Proiektuetan oinarritutako fabrikazioan, produkzio eskaera batek amaitutako produktu batzuk ekoizteko egin behar diren hainbat lanekin erlazionatzen du. Edozein izen erabiltzen da haientzat, proiektu hauek baliabideak, ordutegiak eta kostuak dakartzate, eta proiektuaren kudeaketa eta kontabilitate funtzionaltasunak proiektu horien plangintza, exekuzioa eta analisia egiten lagun dezakete.
 
 ## <a name="project-phases"></a>Proiektuaren faseak
 Ondorengo prozesuen fluxua kanpoko proiektuetara edo bezero bat edo gehiagorentzat osatutako proiektuetara bideratuta badago ere, funtzionalitatea barne kostuetarako soilik duten proiektuei ere aplikatzen zaie. 
 
-![Proiektuaren 3 faseak](./media/3-stages-of-a-project.png) 
+![Proiektuaren 3 faseak.](./media/3-stages-of-a-project.png) 
 
 Aurreko ilustrazioan agertzen den moduan, proiektuen kudeaketa eta kontabilitatea hiru fasetan bana daitezke:
 
@@ -52,7 +50,7 @@ Aurreko ilustrazioan agertzen den moduan, proiektuen kudeaketa eta kontabilitate
 3.  Analizatu
 
 ## <a name="initiate-the-project"></a>Hasi proiektua
-Proiektuaren hasieran, funtsezko hainbat prozesu gertatzen dira. Proiektuaren aurrekontua erabil dezakezu kalkulatutako eskulana, gastuak eta materialak bezeroari jakinarazteko. Fakturazio baldintzak, mugak eta akordioak proiektuko kontratu batean erregistratu ditzakezu. Lanaren banakako egitura (WBS) erabil dezakezu lana planifikatzeko eta kalkulatzeko. Proiektuaren exekuzioa bideratzeko aurreikuspenak eta aurrekontuak konfigura ditzakezu. Ondorengo ilustrazioak proiektu baten egitura erakusten du.[![proiektuaren egitura](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Proiektuaren hasieran, funtsezko hainbat prozesu gertatzen dira. Proiektuaren aurrekontua erabil dezakezu kalkulatutako eskulana, gastuak eta materialak bezeroari jakinarazteko. Fakturazio baldintzak, mugak eta akordioak proiektuko kontratu batean erregistratu ditzakezu. Lanaren banakako egitura (WBS) erabil dezakezu lana planifikatzeko eta kalkulatzeko. Proiektuaren exekuzioa bideratzeko aurreikuspenak eta aurrekontuak konfigura ditzakezu. Ondorengo ilustrazioak proiektu baten egitura erakusten du.[![proiektuaren egitura.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Sortu proiektu-eskaintzk
 
@@ -227,7 +225,7 @@ Proiektu motak zehazten du fakturazio prozedura zein den aplikatu behar den. Kan
 Proiektu baten bezeroaren faktura sortu aurretik, aurretiazko faktura edo faktura proposamena sor dezakezu. Faktura proposamen batean, proiektuaren transakzioak hauta ditzakezu proiektuaren fakturan sartzeko. Orduan, fakturaren xehetasunak berrikus ditzakezu proiektuaren faktura argitaratu aurretik eta bezeroari edo beste finantzaketa iturri bati bidali. 
 
 
-Informazio gehiagorako nola prozesatu proiektuen fakturei buruz, ikusi [Proiektuen fakturak](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Informazio gehiagorako nola prozesatu proiektuen fakturei buruz, ikusi [Proiektuen fakturak](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Kalkulatu kostua proiektu bat osatzeko
@@ -300,7 +298,7 @@ Zure konfigurazioan oinarrituta, hautatutako proiektu baterako diru sarrerak aur
 -   **Proiektuaren data:** 2012ko martxoaren 5a.
 -   **Faktura data:** 2012ko martxoaren 31. Data hori fakturen maiztasunaren arabera zehazten da. Adibide honetarako, fakturaren maiztasuna uneko hilean ezarriko duzu. Hori dela eta, martxoan argitaratzen diren transakzio guztiak hileko azken egunean fakturatzen dira.
 -   **Epemuga:** 2012ko apirilaren 14a. Data hori proiektuarentzako ezarri ziren ordainketa baldintzen arabera zehazten da. Adibide honetarako, 14 eguneko ordainketa baldintzak hautatu dituzu. Hori dela eta, 14 egun gehitzen zaizkio fakturaren datari 2012ko apirilaren 14ko epemuga iristeko.
--   **Salmenta ordaintzeko aurreikusitako data:** 2012ko apirilaren 27a. Data hau egunkarian egun kopurua gehituz kalkulatzen da **Buffer egun orokorrak** eremuan **Proiektuen kudeaketa eta kontabilitate parametroak** eguneko egun kopurua **Banakako buffer egunak** zelaia gainean **Proiektuen kontratuak** orrialdean, eta gero egunkarian egun osoa gehitu **Epemuga** zelaia. Adibide honetarako, sartu zara **3** urtean **Buffer egun orokorrak** zelaia eta **10** urtean **Banakako buffer egunak** zelaia. Hori dela eta, 13 egun gehitzen zaizkio epemuga iristeko espero den salmenta ordainketa baten data 2012ko apirilaren 27an.
+-   **Salmenta ordaintzeko aurreikusitako data:** 2012ko apirilaren 27a. Data hau egunkarian egun kopurua gehituz kalkulatzen da **Buffer egun orokorrak** eremuan **Proiektuen kudeaketa eta kontabilitate parametroak** eguneko egun kopurua **Banakako buffer egunak** eremua **Proiektuen kontratuak** orrialdean, eta gero egunkarian egun osoa gehitu **Epemuga** eremuan. Adibide honetarako, sartu zara **3** urtean **Buffer egun orokorrak** zelaia eta **10** urtean **Banakako buffer egunak** zelaia. Hori dela eta, 13 egun gehitzen zaizkio epemuga iristeko espero den salmenta ordainketa baten data 2012ko apirilaren 27an.
 
 Buffer egun orokorrak banakako buffer egunak ordezka ditzakete edo banako buffer egunetara gehitu:
 
@@ -371,7 +369,7 @@ Bada **Gainerako aurrekontua** fitxategia kostuen kontrol metodo gisa hautatzen 
 -   **Gainerako aurrekontua** - Aukeratutako kostu lerroan oraindik eskuragarri dagoen jatorrizko aurrekontuaren zenbatekoaren zenbatekoa. Gainerako aurrekontuaren zenbatekoa **Liburu nagusiaren aurrebista** orrialdea.
 -   **Guztizko kostua** - Benetako kostuaren, konprometitutako kostuaren eta gainerako aurrekontuaren zenbatekoen batura.
 
-Gainean **Kostuen kontrola** orrialdean, **Desbideraketa** fitxa, itxarotako kostu osoa jatorrizko aurrekontuarekin alderatzea ikus dezakezu. Konparazio honek zenbateko horien arteko desberdintasunak erakusten ditu. Hori dela eta, datuak non ez datozen bat ikus dezakezu. Desbideratze kopuruak modu hauetan kalkulatzen dira:
+**Kostuen kontrola** orrialdean, **Desbideraketa** fitxa, esperotako kostu osoa jatorrizko aurrekontuarekin alderatzea ikus dezakezu. Konparazio honek zenbateko horien arteko desberdintasunak erakusten ditu. Hori dela eta, datuak non ez datozen bat ikus dezakezu. Desbideratze kopuruak modu hauetan kalkulatzen dira:
 
 -   **Jatorrizko aurrekontua** - Jatorriz hautatutako kostu lerroarentzako aurrekontua zeukan. Jatorrizko aurrekontuaren zenbatekoa **Liburu nagusiaren aurrebista** orrialdea.
 -   **Guztizko kostua** – Benetako kostuaren, konprometitutako kostuaren eta gainerako aurrekontua **Orokorra** fitxan adierazten den bezala.
@@ -381,7 +379,7 @@ Gainean **Kostuen kontrola** orrialdean, **Desbideraketa** fitxa, itxarotako kos
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Aurrekontutako guztizko zenbatekoak ikustea
 
-Bada **Aurrekontu osoa** fitxategian kostuak kontrolatzeko metodo gisa hautatzen da **Proiektuen kudeaketa eta kontabilitate parametroak** orrialdea **Kostuen kontrola** orrialdeak benetako kostuak eta proiektuaren guztizko kostuak kalkulatzen ditu bien arteko desberdintasunak antzematen laguntzeko. Zehazki, **Kostuaren kontrola** orria, kopuruak zutabeetan beheko panelean **Orokorra** fitxan kalkulatzen dira hurrengo bideen bitartez:
+Bada **Aurrekontu osoa** fitxategian kostuak kontrolatzeko metodo gisa hautatzen da **Proiektuen kudeaketa eta kontabilitate parametroak** orrialdea **Kostuen kontrola** orrialdeak benetako kostuak eta proiektuaren guztizko kostuak kalkulatzen ditu bien arteko desberdintasunak antzematen laguntzeko. Zehazki, **Kostuaren kontrola** orrian, kopuruak zutabeetan beheko panelean **Orokorra** fitxan kalkulatzen dira hurrengo bideen bitartez:
 
 -   **Aurrekontuz osatutako kostua** - Aukeratutako kostu-lerroarentzako aurrekontua duen zenbatekoa.
 -   **Uneko kostua** – Guztizko kopurua kostuena egindakoak proiektuak gaur arte hautatutako kostu-lerroak.
@@ -440,3 +438,6 @@ Adierazpena kalkulatu ondoren, ondorengo informazioa ikus dezakezu fitxako fitxe
 -   **Kontsumoa** - Orduen, elementuen, gastuen eta nominen transakzioen kontsumoari buruzko informazioa.
 -   **Faktura** - Fakturei eta konturako fakturazioei buruzko informazioa.
 -   **Ordu tasa** - Diru-sarreren eta kostuen kontuetan kontabilizatzen diren orduen orduak.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

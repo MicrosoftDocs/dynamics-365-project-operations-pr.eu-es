@@ -5,16 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
+ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672216"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130833"
 ---
 # <a name="override-project-sales-price-lists"></a>Gainidatzi proiektuaren salmenten prezio-zerrendak
 
@@ -28,7 +27,7 @@ Bezeroaren proiektuaren prezioen zerrenda konfiguratzeko, **Salmentak** eremuan,
 
 1. Ireki **Kontuak** zerrenda orria.
 2. Aurkitu eta egin klik bikoitza bezeroaren erregistroan fitxategia irekitzeko **Kontua** xehetasunen orria.
-3. **Proiektuaren prezio-zerrendak** fitxan, hautatu **+ Proiektuaren prezio-zerrenda berria**.
+3. **Proiektuaren prezio-zerrendak** fitxan, hautatu **+ Proiektuaren prezio-zerrenda berria^^.
 4. **Proiektuaren prezio-zerrenda berrian** orrialdean, hautatu goitibeherako prezioen zerrenda. Testuingurua ezarrita duten prezioen zerrendak soilik **Salmentak** eta zeinen moneta bat datorren kontuaren moneta barne.
 5. Elkarketaren izena, eta ondoren egin klik **Gorde** botoian. Bezeroarentzako proiektuaren prezioen zerrenda sortzen da. Prezio zerrenda hau proiektu honen aurrekontuak edo bezero honentzat sortutako kontratuetan proiektuaren prezio lehenetsiak erabiliko dira, aurrekontuaren edo proiektuaren kontratuaren sortutako data prezioen zerrendaren eraginkortasun dataren barruan kokatzen bada.
 

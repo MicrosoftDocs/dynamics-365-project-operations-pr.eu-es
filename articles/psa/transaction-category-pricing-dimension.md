@@ -2,12 +2,10 @@
 title: Erabili transakzioen kategoria prezio-dimentsio gisa
 description: Gai honek transakzioen kategoria prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150743"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988827"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Erabili transakzioen kategoria prezio-dimentsio gisa
 
@@ -53,3 +51,6 @@ Hurrengo taula erabiltzeko prest dauden inprimakien eta ikuspegien zerrenda zaba
 2. **Parametroak** orrialdean, **Zenbatekoan oinarritutako prezio-dimentsioak** fitxan, ohartu fitxan agertzen den saretak **Prezio-dimentsioak** entitateko erregistroak erakusten dituela.
 3. Gehitu **Transakzioen kategoria** zerrenda honetara eta ezarri **Kostuari aplikagarria** eta **Salmentari aplikagarria** eremuak **Bai** gisa.
 4. **Dimentsio mota** eremuan, hautatu **Zenbatekoan oinarrituta** eta, ondoren, hautatu **Transakzioen kategoria** aukerarekin erlazionatutako kostu eta salmentetarako lehentasuna.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

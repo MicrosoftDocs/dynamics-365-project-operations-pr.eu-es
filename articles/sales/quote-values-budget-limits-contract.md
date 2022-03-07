@@ -1,32 +1,32 @@
 ---
-title: Proiektuko eskaintzaren ezarpenak
+title: Proiektuaren eskaintzako laburpen-informazioa
 description: Gai honek proiektuaren aurrekontuei aplikatzen zaien eta ezartzen duen informazioari eta ezarpenei buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5b1b88596ddac48ab8adce00c25c3ccd83cdd727
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663624"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070882"
 ---
-# <a name="header-details-for-project-based-quotes"></a>Proiektuetan oinarritutako eskaintzen goiburuaren xehetasunak
+# <a name="summary-information-on-a-project-quote"></a>Proiektuaren eskaintzako laburpen-informazioa
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
 
 Artikulu honetan proiektuaren aurrekontuari aplikatzen zaion informazioa azaltzen da. Honek aurrekontu lerro guztietan eragina duten ezarpenak eta proiektuaren aurrekontuaren KPIak gidatzeko lerro elementu guztietan laburbiltzen den aurrekontuari buruzko informazioa biltzen ditu.
 
-Hurrengo taulan proiektuaren aurrekontuaren laburpeneko informazio eremuak zerrendatzen dira Dynamics 365 Project Operations edo portaera aldaketa garrantzitsu batzuk izan Dynamics 365 Sales aurrekontuetatik.
+Hurrengo taulan proiektuaren aurrekontuaren laburpeneko informazio eremuak zerrendatzen dira, Dynamics 365 Project Operations-erako bakarrak direnak edo Dynamics 365 Sales-en aurrekontuen portaera aldaketa garrantzitsuak dituztenak.
 
-| **Eremua** | **Kokalekua** | **Azalpena** | **Downstream eragina** |
+| **Eremua** | **Kokalekua** | **Garrantzia, xedea eta orientazioa** | **Downstream eragina** |
 | --- | --- | --- | --- |
-| Idatzi | Laburpen fitxa (ezkutatuta) | Aukera multzo eremu honek aukera hauek ditu:</br>- Lanean oinarrituta (Project Operations instalatuta dagoenean soilik eskuragarri)</br>- Elementuetan oinarrituta (Project Operations eta Sales instalatuta badituzu soilik)</br>- Zerbitzua mantentze lanetan oinarrituta (Dynamics 365 Field Service instalatuta dagoenean eskuragarri) | Project Operations aplikazioa erabiltzen duzunean, eremuaren balio hau automatikoki ezartzen da **Lanean oinarrituta** gisa. Honek aurrekontua proiektuan oinarritutako aurrekontu gisa sailkatzen du. Aurrekontuak proiektuan oinarrituta egon behar du proiektuaren berariazko luzapen eta funtzionalitate guztiak ahalbidetzeko. |
+| Mota | Laburpen fitxa (ezkutatuta) | Aukera multzo eremu honek aukera hauek ditu:</br>- Lanean oinarrituta (Project Operations instalatuta dagoenean soilik eskuragarri)</br>- Elementuetan oinarrituta (Project Operations eta Sales instalatuta badituzu soilik)</br>- Zerbitzua mantentze lanetan oinarrituta (Dynamics 365 Field Service instalatuta dagoenean eskuragarri) | Project Operations aplikazioa erabiltzen duzunean, eremuaren balio hau automatikoki ezartzen da **Lanean oinarrituta** gisa. Honek aurrekontua proiektuan oinarritutako aurrekontu gisa sailkatzen du. Aurrekontuak proiektuan oinarrituta egon behar du proiektuaren berariazko luzapen eta funtzionalitate guztiak ahalbidetzeko. |
 | Jabetzadun enpresa | Laburpena | Proiektu honetatik edo aurrekontu honekin lotutako proiektuetatik sortzen diren kostuak eta diru-sarrerak kontabilizatuko dituen pertsona juridikoa. Abagune batetik eskaintza bat sortzen denean, eremu hori Abagunean dagokion eremutik kopiatzen da. | Enpresa titularra pertsona juridikoaren kontzeptuarekin bat dator **Proiektuen kudeaketa eta kontabilitatea** proiektuaren eragiketen modulua. Proiektu honetatik sortzen diren kostu eta diru-sarrera guztiak enpresa jabearen liburu nagusian kontabilizatuko dira. |
 | Balizko bezeroa | Laburpena fitxa | Bezeroaren enpresaren edo kontuaren erregistroaren erreferentzia. Baliozko bezero bat proiektuaren eskaintza batean erreferentzia egitean bezero gisa konfiguratu behar duenean, eskaintzaren jabe den enpresan. Enpresa titularra legezko entitatearen zerrenda erakusten du eta **Proiektuen kudeaketa eta kontabilitatea** proiektuaren eragiketen moduluan konfiguratzen dira. Abagune batetik eskaintza bat sortzen denean, eremu hori abagunean dagokion eremutik kopiatzen da. | Proiektuaren aurrekontuaren moneta lehenetsita dago bezeroaren monetan oinarrituta. Alabaina, hori ezin da aldatu eskaintza gorde baino lehen. |
 | Kontu-kudeatzailea | Laburpena fitxa | Eskaintzaren kontu-kudeatzailearen izena. Abagune batetik eskaintza bat sortzen denean, eremu hori abagunean dagokion eremutik kopiatzen da. | Kontuaren kudeatzailea bezeroarekin harremana kudeatzeaz arduratzen da proiektu hau burutu bitartean. Kontuaren kudeatzaileari lotuta dagoen baliabide erreserbagarrien erregistroan oinarrituta, kontratazio unitatea lehenetsia da proiektuaren eskaintzan.|
@@ -38,11 +38,8 @@ Hurrengo taulan proiektuaren aurrekontuaren laburpeneko informazio eremuak zerre
 
 Jarraian, proiektuaren aurrekontuetan eskuragarri dauden fitxak eta KPIak daude, proiektuaren eragiketetarako bakarrak direnak edo salmenten aurrekontuen portaeran aldaketa garrantzitsuak dituztenak:
 
-| **Eremua** | **Kokalekua** | **Azalpena** |
+| **Eremua** | **Kokalekua** | **Garrantzia, xedea eta orientazioa** |
 | --- | --- | --- |
 | Errentagarritasun-analisia | Eskaintzako fitxa | Fitxak neurketa hauek ditu:</br>- Kobra daitekeen kostua, guztira</br></br>- Kobra ezin daitekeen kostua, guztira</br>- Diru-sarrerak, guztira</br>- Diru-sarrerak, guztira (oinarrizkoa)</br>- Marjina gordina</br>- Marjina gordin doitua|
 | Bezeroen aurreikuspenekiko konparazioa | Eskaintzako fitxa | Fitxa honek neurketa hauek ditu:</br>- Aurreikusitako osatze-data</br>- Eskatutako osatze-data</br>- Bezeroaren aurrekontua</br>- Eskainitako balioa |
 | Eskaintzaren analisia | Eskaintzako fitxa | Fitxa honek proiektuaren aurrekontua lortzeko ondorengo KPI nagusiak laburbiltzen ditu</br>- Aurrekontuaren eta ordutegiaren bezeroen itxaropenekin alderatzea</br>- Marjina gordina</br>- Marjina gordin doitua |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

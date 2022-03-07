@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f1c8e150500334e87b25a1c8d04cf28c7b7beaeb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149618"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282048"
 ---
 # <a name="customize-weekly-time-entry"></a>Pertsonalizatu asteroko denbora-sarrera 
 
@@ -132,3 +132,6 @@ Plugin-en balidazioak erabili beharko zenituzke denbora-sarrera erregistro bakar
 
 > [!IMPORTANT] 
 > Gaur egun, TBX orrietan ezagutzen den arazo batek erabiltzaileei informazioa zuzentzea eta berriro "Eginda" aukeratzea galarazten die eguneratzeak pluginen balioztapena huts egiten duenean. Konponbide gisa, konfiguratu negozioaren arauen balidazioa egoera hori ahalik eta gehien saihesteko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

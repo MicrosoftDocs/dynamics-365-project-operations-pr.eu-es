@@ -2,18 +2,16 @@
 title: Prezio-zerrenda lehenetsiak
 description: Gai honek salmenten eta kostuen prezio-zerrenda lehenetsiei buruzko informazioa eskaintzen du Project Operations-en.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130923"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989851"
 ---
 # <a name="default-price-lists"></a>Prezio-zerrenda lehenetsiak
 
@@ -21,7 +19,7 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 ## <a name="sales-price-lists"></a>Salmenten prezio-zerrendak
 
-Dynamics 365 Project Operations proiektuaren aurrekontu eta kontratu guztiek salmenta prezioen zerrenda lehenetsia dute. 
+Dynamics 365 Project Operations-eko proiektuaren eskaintza eta kontratu bakoitzak salmenten prezio-zerrenda lehenetsia dauka. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Prezioen zerrenda lehenetsia proiektuaren aurrekontuetan
 Sistemak prozesu hau burutzen du proiektuaren aurrekontuan lehenetsitako prezio zerrenda zehazteko:
@@ -57,3 +55,6 @@ Kostuen prezioen zerrendek ez dituzte lehenetsitako proiektuen eragiketetako ent
 5. Hurrena, sistemak sarrerako estimazioaren edo benetako lerroaren datarekin bat datozen prezio zerrenden dataren eraginkortasuna aztertzen du. 
 6. Sarrerako estimazioan edo benetako egunean eraginkorrak diren prezio zerrenda bat baino gehiago badira, azkenaldian sortutako prezio zerrenda hautatuko da.
 7. Proiektuaren parametroei moneta eta efektibitate datarekin bat datozen kostu prezioen zerrendarik ez badago, sistemak kostu tasa zero (0) lehenetsiko du sarrerako estimazioan edo benetako lerroan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

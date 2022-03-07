@@ -2,11 +2,9 @@
 title: Sortu aurrekontuak eskaintzaren lerro batean
 description: Gai honek proiektu baterako aurrekontu lerro batean aurrekontua nola sortu jakiteko informazioa eskaintzen du.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 8d7e7df4830612f5a7c43adf37f75bdb623959ffe00fe219441d8e394ddecac3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122913"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996421"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Sortu aurrekontuak eskaintzaren lerro batean
 
@@ -88,3 +86,6 @@ Eskaintzaren lerroaren xehetasunean eremu pertsonalizatu bat gehitu baduzu eta s
 7. Hautatu **Ados** aukera elkarrizketa-koadroa ixteko eta, ondoren, hautatu **Eguneratu urratsa**.
 8. Errepikatu 1-7. urratsak bigarren pluginerako.
 9. Itxi PluginRegistrationTool tresna.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa
 description: Gai honek eremu pertsonalizatuak erabiliz prezio-dimentsioak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
-ms.translationtype: HT
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650179"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003576"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa
 
@@ -44,11 +42,11 @@ Eremu bat prezio-dimentsio bihurtzeko, honelakoa izan behar da:
 
 - Errenkada gisa sortua **Prezio-dimentsioa** taulan. Adibidez, gehitu prezio-dimentsioen errenkadak hurrengo grafikoan erakusten den bezala. 
 
-![Zenbatekoan oinarritutako prezio-dimentsioen errenkadak](media/Amt-based-PD.png)
+![Zenbatekoan oinarritutako prezio-dimentsioen errenkadak.](media/Amt-based-PD.png)
 
 Baliabideen lanorduak (**msdyn_resourceworkhours**) gainprezioan oinarritutako dimentsio gisa gehitu da eta saretan gehitu da **Gainprezioan oinarritutako prezio-dimentsioa** fitxan.
 
-![Gainprezioan oinarritutako prezio-dimentsioen errenkadak](media/Markup-based-PD.png)
+![Gainprezioan oinarritutako prezio-dimentsioen errenkadak.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -77,10 +75,10 @@ Bi prezio-dimentsio mota daude:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|In situ            |                    |Aparteko orduak                 |15     |
 |             | Contoso India|Lokala             |                    |Aparteko orduak                 |10     |
-|             | Contoso US   |Lokala             |                    |Aparteko orduak                 |20     |
+|             | Contoso AEBetan   |Lokala             |                    |Aparteko orduak                 |20     |
 
 
-Oinarrizko tasa 100 USD duen Contoso India-ko baliabide bat lanean ari bada, eta ohiko orduetan 8 ordu eta aparteko orduetan 2 ordu erregistratzen badituzte, prezioaren motorrak 100eko oinarri-tasa erabiliko du 8 orduetarako 800 USD grabatzeko. Aparteko 2 orduetarako, % 15eko gainprezioa aplikatuko zaio 100eko oinarrizko tasari 115 USD-eko unitate-prezioa lortzeko eta 230 USD-eko kostu osoa erregistratuko du.
+Oinarrizko tasa 100 USD duen Contoso Indiako baliabide bat lanean ari bada, eta ohiko orduetan 8 ordu eta aparteko orduetan 2 ordu erregistratzen badituzte, prezioaren motorrak 100eko oinarri-tasa erabiliko du 8 orduetarako 800 USD grabatzeko. Aparteko 2 orduetarako, % 15eko gainprezioa aplikatuko zaio 100eko oinarrizko tasari 115 USD-eko unitate-prezioa lortzeko eta 230 USD-eko kostu osoa erregistratuko du.
 
 ### <a name="applicable-to-cost"></a>Kostuari aplikagarria 
 Aukera hori **Bai** gisa ezarrita badago, sarrerako testuinguruko dimentsioaren balioa **Funtzio-prezioa** eta **Funtzio-prezioaren gainprezioa** eremuekin lotzeko erabili behar dela adierazten du kostu- eta balorazio-tasak berreskuratzean.
@@ -96,3 +94,6 @@ Dimentsioaren lehentasuna zehazteak prezioari prezio bat sortzen laguntzen dio s
 
 - **Kostuen lehentasuna**: dimentsio baten kostuaren lehentasunaren balioak dimentsio horren pisua adieraziko du kostuen prezioen konfigurazioarekin bat datorrenean. **Kostuen lehentasuna** eremuaren balioak bakarra izan behar du **Kostuari aplikagarria** dimentsioetan.
 - **Salmenten lehentasuna**: dimentsio baten salmenten lehentasunaren balioak dimentsio horren pisua adieraziko du salmenten prezioen edo faktura-tasen konfigurazioarekin bat datorrenean. **Salmenten lehentasuna** eremuaren balioak bakarra izan behar du **Salmentei aplikagarria** dimentsioetan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

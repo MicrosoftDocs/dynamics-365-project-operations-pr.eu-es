@@ -2,8 +2,6 @@
 title: Baliabide-eskakizunak betetzea
 description: Gai honek baliabide-eskakizunak betetzeari buruzko informazioa ematen du.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 858662b62e511f80413e2354832bf2b0bcfc3fc5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147593"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996826"
 ---
 # <a name="fulfilling-resource-requests"></a>Baliabide-eskaerak betetzea
 
@@ -35,14 +33,17 @@ Baliabide-eskakizunak eskaera horiek betetzeaz arduratzen den baliabide-kudeatza
 
 Baliabide-eskaerak zerrendan agertzen dira **Baliabide aktiboen eskaerak** ikuspegian.
 
-> ![Baliabide-eskaeren zerrenda](media/Resource-Management-image59.png)
+> ![Baliabide-eskaeren zerrenda.](media/Resource-Management-image59.png)
 
 Eskaera bat betetzeko, hautatu zerrendan eta, ondoren, hautatu **Bilatu baliabideak**. Bestela, egin klik bikoitza errenkadan eskaera irekitzeko. Ondoren, **Baliabide-eskakizuna** fitxa hauta dezakezu, eskaera horretarako eskakizunak ikusteko. Eskaera betetzen hasteko, hautatu **Bilatu baliabideak**.
 
-> ![Baliabide-eskaeren xehetasunak](media/Resource-Management-image60.png)
+> ![Baliabide-eskaeren xehetasunak.](media/Resource-Management-image60.png)
 
 Antolaketa-laguntzailea agertzen da eta eskakizunen arabera iragazten du. Hautatu baliabidea eta, ondoren, hautatu **Erreserbatu**.
 
-> ![Hautatutako baliabidea](media/Resource-Management-image61.png)
+> ![Hautatutako baliabidea.](media/Resource-Management-image61.png)
 
 Taldekide orokorra erreserba-izen irmoa duten baliabidearekin ordezkatzen da proiektuaren antolaketako proiektuaren taldean eta eginkizunen esleipenetan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

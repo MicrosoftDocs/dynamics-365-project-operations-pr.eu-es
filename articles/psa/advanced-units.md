@@ -2,8 +2,6 @@
 title: Salmenta-unitateak eta unitateak
 description: Gai honek salmenta-unitate eta unitateei buruzko informazioa ematen du.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145568"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987556"
 ---
 # <a name="unit-groups-and-units"></a>Salmenta-unitateak eta unitateak
 
@@ -46,7 +44,7 @@ Adibidez, **Denbora** salmenta-unitatean, konfiguratzen baduzu **Ordua** lehen u
 
 Hurrengo irudian, adibideen konfigurazioa erakusten da **Eguna** unitaterako, non **Kopurua** eremuak egun bateko ordu kopurua erakusten duen, eta **Astea** unitaterako, non **Kopurua** eremuak aste barruan dauzkan egun kopurua erakusten duen.
 
-> ![Salmenta-unitatea: informazio orria](media/advanced-2.png)
+> ![Salmenta-unitatea: informazio orria.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Unitateak eta salmenta-unitateak erabili
 
@@ -86,9 +84,9 @@ Hurrengo adibidean, PSAk salmenta-unitateak, unitateak eta bihurketa faktoreak n
     - **Lehenetsitako denbora-unitatea** : eguna 
     - **Moneta**: GBP
 
-| Funtzioa      | Salmenta-unitatea | Unitatea | Erakunde-unitatea | Prezioa   |
+| Funtzioa      | Salmenta-unitatea | Unitatea | Erakundearen unitatea | Prezioa   |
 |-----------|------------|------|---------------------|---------|
-| Garatzailea | Time       | Day  | Badiola UK          | 800 GBP |
+| Garatzailea | Denbora       | egun  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Denbora-sarrera
 
@@ -112,3 +110,6 @@ Ez. Antolaketaren aurreikuspena orduetara mugatuta dago eta ezin da aldatu.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Unitateak eta salmenta-unitateak editatu, ezabatu eta gehitu al daitezke?
 Bai. Salbuespena: **Denbora** salmenta-unitatea eta **Ordua** unitatea. Beste unitate guztiak ezabatu edo editatu daitezke eta unitate berriak gehitu daitezke. PSAn, **Denbora** unitate multzoa eta **Ordua** unitatea ezin dira ezabatu. Hala ere, itzulpenerako testu batekin eguneratu daitezke **Izena** eremurako.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

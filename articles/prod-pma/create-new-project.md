@@ -2,11 +2,9 @@
 title: Sortu proiektua
 description: Gai honek proiektu berri bat sortzeari buruzko informazioa ematen du.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270708"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985936"
 ---
 # <a name="create-a-new-project"></a>Sortu proiektua
 
@@ -53,9 +51,9 @@ Baliabide batentzako kategoriak ere eska ditzakezu nahi duzun moduan. Kategoria 
 
 Proiektu kudeatzaile batek proiektuaren baliabideen funtzionalitatea erabil dezake proiektuan beharrezkoak diren rolak sortzeko. Rolak erabil daitezke baliabideak erreserbatzen direnean berretsitako baliabideak oraindik ezezagunak badira. Eginkizunak aldi baterako gorde daitezke aurreikusitako baliabide gisa, proiektuaren plangintza faseak jarraitu ahal izateko.
 
-[![Rol baten adibidea](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Rol baten adibidea.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Eszenatokia:** Contoso kontratatu zen onartutako proiektuen karta duen Denbora eta material proiektu bat osatzeko. Proiektu zuzendari gaztea proiektuaren esparrua osatzen ari da oraindik. Baliabideen kudeatzailea proiektu berrian lan egiteko gordetako baliabide zehatzak identifikatzen ari da. Proiektuaren izaera kritikoa dela eta, proiektuaren babesleak proiektu nagusiko zuzendaria eskatu zuen eginkizunetako bat izateko. Baliabideen kudeatzaileak baliabide berria eskuratu behar du eta sistemako rola definitu behar du, proiektuaren kudeatzaile juniorrak proiektuaren plangintza egitean baliabideen informazioa behar badu.
+**Eszenatokia:** Contoso onartutako proiektuen gutuna duen Denbora eta material proiektua osatzeko kontratatu zen. Proiektu zuzendari gaztea proiektuaren esparrua osatzen ari da oraindik. Baliabideen kudeatzailea proiektu berrian lan egiteko gordetako baliabide zehatzak identifikatzen ari da. Proiektuaren izaera kritikoa dela eta, proiektuaren babesleak proiektu nagusiko zuzendaria eskatu zuen eginkizunetako bat izateko. Baliabideen kudeatzaileak baliabide berria eskuratu behar du eta sistemako rola definitu behar du, proiektuaren kudeatzaile juniorrak proiektuaren plangintza egitean baliabideen informazioa behar badu.
 
 Ondorengo pausoek erakusten dute baliabideen kudeatzaileak proiektuaren arduradun nagusiaren eginkizuna nola konfigura dezakeen eta baliabideen ezaugarriak harekin lotzen dituen. Geroago, eginkizuna eskatutako baliabideen eskumenekin bat datozen baliabide erabilgarriak bilatzeko erabil daiteke.
 

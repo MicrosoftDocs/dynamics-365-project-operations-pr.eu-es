@@ -2,19 +2,17 @@
 title: Project Operations-en konfigurazioa eta konfigurazio-datuen integrazioa
 description: Gai honek Project Operations idazketa bikoitzeko esleipenak konfiguratzeari buruzko informazioa eskaintzen du.
 author: sigitac
-manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d5fe81dca30039f99d5d7b9bb459214e540db945
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
-ms.translationtype: HT
+ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938943"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986521"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations-en konfigurazioa eta konfigurazio-datuen integrazioa
 
@@ -26,7 +24,7 @@ Gai honek Project Operations idazketa bikoitzeko integrazioari buruzko informazi
 
 Proiektuen kontratuak, kontratu ildoak eta proiektuak urtean sortzen dira Dataverse eta sinkronizatuta Finance and Operations aplikazioak kontabilitate osagarria lortzeko. Erakunde horietako erregistroak hemen bakarrik sortu eta ezabatu daitezke Dataverse-n. Hala ere, kontabilitate atributuak, hala nola salmenten gaineko zerga taldearen lehenespenak eta finantza dimentsioak, gehitu daitezke erregistro horietan Finance and Operations aplikazioak.
 
-  ![Proiektuko kontratua integratzeko kontzeptuak](./media/1ProjectContract.jpg)
+  ![Proiektuko kontratua integratzeko kontzeptuak.](./media/1ProjectContract.jpg)
 
 Salmenten jardueren abantailen, aukeren eta aurrekontuen jarraipena egiten da Dataverse-n eta ez sinkronizatu Finance and Operations aplikazioak ez dagoelako jarduera honekin lotutako kontabilitate ibaian behera.
 
@@ -53,7 +51,7 @@ Proiektuaren kontratu lerroak proiektuaren kontulariak berrikusi ditzake Finance
 
 Prezio finkoko fakturazio metodoa erabiliz proiektuen kontratu lerroak fakturazio mugarrien bidez fakturatzen dira. Fakturazio mugarriak kontuko transakzioak proiektatzeko sinkronizatzen dira Finance and Operations aplikazioak **Project Operations integratzeko kontratu lerroaren mugarriak (msdyn\_contractlinescheduleofvalues)** taulako mapa.
 
-  ![Fakturazio-mugarrien integrazioa](./media/2Milestones.jpg)
+  ![Fakturazio-mugarrien integrazioa.](./media/2Milestones.jpg)
 
 Kontulariak kontuko transakzioak berrikusi eta transakzio horien kontabilitate atributuak doitu ahal izango ditu **Proiektuen kudeaketa eta kontabilitatea** > **Proiektuen kontratuak** > **Mantendu** > **Kontuko transakzioak** edo **Proiektuen kudeaketa eta kontabilitatea** > **Proiektu guztiak** > **Mantendu** > **Kontuko transakzioak** aukeran.
 
@@ -63,13 +61,13 @@ Proiektu jakin baten kontratu lerroaren fakturazio mugarria lehenengo aldiz sort
 
 Proiektuaren zereginak sinkronizatuta daude Finance and Operations aplikazioak **Proiektuaren zereginak (msdyn\_projecttasks)** taula mapa erreferentzia helburuetarako soilik. Eragiketak sortzea, eguneratzea eta ezabatzea ez da onartzen Finance and Operations aplikazioen bidez.
 
-  ![Proiektu-zereginak integratzea](./media/3Tasks.jpg)
+  ![Proiektu-zereginak integratzea.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Proiektuko baliabideak
 
 **Proiektuaren baliabide rolak** entitatearekin sinkronizatuta dago Finance and Operations aplikazioekin **Proiektuak baliabide guztiak enpresa guztientzat (bookableresourcecategories)** taula mapa erreferentzia helburuetarako soilik erabiliz. Baliabide rolak Dataverse ez dira konpainiaren espezifikoak, sistemak automatikoki sortzen ditu konpainiaren berariazko baliabide rolen erregistroak Finance and Operations aplikazioak automatikoki idazketa bikoitzeko integrazio esparruan sartutako pertsona juridiko guztientzat.
 
-![Baliabide-rolen integrazioa](./media/5Resources.jpg)
+![Baliabide-rolen integrazioa.](./media/5Resources.jpg)
 
 Project Operations-eko proiektuaren baliabideak urtean mantentzen dira Dataverse eta ez daude sinkronizatuta Finance and Operations aplikazioak.
 
@@ -77,6 +75,6 @@ Project Operations-eko proiektuaren baliabideak urtean mantentzen dira Dataverse
 
 Urtean transakzio kategoriak mantentzen dira Dataverse eta sinkronizatuta Finance and Operations aplikazioak **Proiektuaren transakzioen kategoriak (msdyn\_transactoncategories)** taulako mapa. Transakzio kategoria erregistroa sinkronizatu ondoren, sistemak automatikoki lau kategoria erregistro partekatu sortzen ditu. Erregistro bakoitza transakzio mota bati dagokio Finance and Operations aplikazioak eta transakzio kategoria erregistroarekin lotzen ditu.
 
-![Transakzio-kategorien integrazioa](./media/4TransactionCategories.jpg)
+![Transakzio-kategorien integrazioa.](./media/4TransactionCategories.jpg)
 
 Transakzio-kategoriak estimazioetarako eta egiazkoetarako erabiltzeko, proiektuaren kontulariak edo sistemaren administratzaileak pertsona juridiko guztietan proiektu-kategoriak sortu behar ditu. Informazio gehiagorako, ikus [Konfiguratu proiektuaren kategoriak](../project-accounting/configure-project-categories.md).

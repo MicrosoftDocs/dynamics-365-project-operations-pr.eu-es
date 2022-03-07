@@ -2,11 +2,9 @@
 title: Baliabideen berdinkatzearen informazio orokorra
 description: Gai honek proiektuetarako baliabideen erreserbak eta zereginak bat datozela ziurtatzen lagunduko dizun informazioa eskaintzen du.
 author: ruhercul
-manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
-ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
+ms.openlocfilehash: be171063c21318f517a37f3088e3f577fd4b6715
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "4849609"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000826"
 ---
 # <a name="resource-reconciliation-overview"></a>Baliabideen berdinkatzearen informazio orokorra
 
@@ -48,3 +46,6 @@ Zereginen esleipenak dituzun baina erreserbarik ez baduzu, hautatu erreserba-fal
 Webgunearen bidez sortzen diren erreserbak **Luzatu erreserba** ekintza lehen proiektuaren eskakizunarekin lotzen da. Luzapen bat hasten denean, ezin da zehaztu luzatu behar den eskakizun zehatza, baliabidea proiekturako baldintza bat baino gehiagorekin lotu baitaiteke.
 
 Orduan, proiektu-kudeatzaileak edo baliabide-kudeatzaileak antolaketa-panela erabil dezake baliabide batek bere ahalmenetatik harago gaitasunak gainditutako edozein egoera kudeatzeko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Egokitu proiektuaren transakzioak
 description: Zereginen gida honek proiektu batean transakzio bat nola egokitu erakusten du.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7432dcdaa520c4eebb657f436575d017a7fd07cc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 92f5f998d7ecaed724298be16ff8680e56ee77d77a4ee3b7ba83fa5a8a1a4787
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071096"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985891"
 ---
 # <a name="adjust-project-transactions"></a>Egokitu proiektuaren transakzioak
 
@@ -44,3 +42,6 @@ Zereginen gida honek proiektu batean transakzio bat nola egokitu erakusten du. H
 13. Zerrendan, markatu hautatutako errenkada. 
 14. Kostuaren prezioa eremuan, idatzi zenbaki bat. 
 15. Egin klik Bidali. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

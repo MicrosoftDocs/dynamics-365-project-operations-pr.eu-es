@@ -2,8 +2,6 @@
 title: Denbora, gastua eta lankidetza-gida
 description: Denbora-, gastu- eta lankidetza-gida Project Service-rako
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06f5e6c64a15a79a3ed6501cad8653adbbbd5be9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ae95041bb6883cd7ae7a779eb6a3cf9741572802
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150113"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011761"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>Denbora-, gastu- eta lankidetza-gida (Project Service)
 
@@ -73,3 +71,6 @@ Sakatu beheko esteka, [!INCLUDE[pn_project_service_auto](../includes/pn-project-
  [Kontu-kudeatzailearen gida](../psa/account-manager-guide.md)   
  [Proiektu-kudeatzailearen gida](../psa/project-manager-guide.md)   
  [Baliabide-kudeatzailearen gida](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

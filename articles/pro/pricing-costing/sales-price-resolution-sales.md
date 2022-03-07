@@ -1,25 +1,25 @@
 ---
-title: Ebatzi proiektu-aurreikuspenen eta benetako datuen salmenta-prezioak
-description: Gai honek proiektuaren kalkuluen eta benetako salmenten prezioak ebazteari buruzko informazioa eskaintzen du.
+title: Aurreikuspenen eta benetako datuen salmentak ebaztea
+description: Gai honek kostuaren prezioa ebazteko moduari eta estimazioei buruzko informazioa eskaintzen du.
 author: rumant
 manager: Annbe
-ms.date: 04/07/2021
+ms.date: 10/19/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: c8972bd7710735e9acdbf951079f2da24a00bd7f
+ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877341"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4087791"
 ---
-# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Ebatzi proiektu-aurreikuspenen eta benetako datuen salmenta-prezioak
+# <a name="resolving-sales-prices-for-estimates-and-actuals"></a>Aurreikuspenen eta benetako datuen salmentak ebaztea
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Aurrekontuen eta benetako salmenten prezioak urtean ebazten direnean Dynamics 365 Project Operations-en, sistemak lehenengo proiektuaren edo kontratuaren data eta moneta erabiltzen ditu salmenta prezioen zerrenda konpontzeko. Salmenta prezioen zerrenda ebatzi ondoren, sistemak salmenten edo fakturen tasa ebazten du.
+Estimazioen eta benetako salmenten prezioak Dynamics 365 Project Operations-en ebazten direnean, sistemak lehenik eta behin lotutako proiektuaren aurrekontuaren edo kontratuaren data eta moneta erabiltzen ditu salmenta prezioen zerrenda konpontzeko. Salmenta prezioen zerrenda ebatzi ondoren, sistemak salmenten edo fakturen tasa ebazten du.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Ebatzi benetako salmenten tasak eta denborarako kalkulatutako lerroak
 
@@ -54,15 +54,3 @@ Salmenten prezio zerrenda ebatzi ondoren, sistemak urrats hauek betetzen ditu un
     | &nbsp; | Markaketa kostuaren gainetik | Aplikatu kategoria prezioen lerroak lotutako kostu errealaren unitateko kostuaren tasan markatutako marka |
 
 4. Sistema ezin bada **Kategoria** eta **Unitatea** eremuko balioak, salmenten tasa zero (0) lehenetsita dago.
-
-## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Materialen salmenta-tasak ebaztea eta materialaren estimazio lerroak
-
-Project Operations-en, materialaren zenbatespen lerroak erabiltzen dira materialen eskaintzaren lerroaren eta kontratuaren lerroaren xehetasunak eta proiektu bateko materialen estimazio lerroak aipatzen dituzte.
-
-Salmenten prezio zerrenda ebatzi ondoren, sistemak urrats hauek betetzen ditu unitateen salmenta-prezioa lehenesteko.
-
-1. Sistemak **Produktua** eta **Unitatea** material konbinazioa kalkulatutako lerroan ebatzi zen prezio zerrendako elementuen lerroekin bat etortzeko.
-2. Sistemak salmenta tasa duen prezioen zerrendako elementu lerro bat aurkitzen badu **Produktua** eta **Unitatea** eremuen konbinazioa eta prezioen metodoa da **Moneta zenbatekoa**, prezioen zerrendan zehaztutako salmenta-prezioa erabiltzen da.
-3. **Produktua** eta **Unitatea** eremuen balioak bat ez badatoz, salmenta-tasa zero da lehenetsita.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

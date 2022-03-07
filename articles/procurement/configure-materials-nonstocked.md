@@ -2,17 +2,17 @@
 title: Konfiguratu izakinik gabeko materialak eta ordaindu gabeko saltzaileen fakturak
 description: Gai honetan hornitzen ez diren materialak eta zain dauden saltzaileen fakturak nola gaitu azaltzen da.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993896"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003216"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfiguratu izakinik gabeko materialak eta ordaindu gabeko saltzaileen fakturak
 
@@ -59,11 +59,11 @@ Demo datu estandarrak erabiltzen ari bazara, baliteke entitateen mapa hauek geld
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktibatu lan-fluxua saltzailearen entitatean oinarritutako kontuak sortzeko
 
-Dual Write Orchestration irtenbideak eskaintzen du [Saltzaileek integrazio nagusia](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Ezaugarri honen aurrebaldintza gisa, saltzailearen datuak sortu behar dira **Kontuak** entitatea. Aktibatu txantiloien lan fluxuaren prozesua saltzaileak sortzeko **Kontuak** taula deskribatutako moduan [Saltzailearen diseinuen artean aldatu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Dual Write Orchestration irtenbideak eskaintzen du [Saltzaileek integrazio nagusia](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Ezaugarri honen aurrebaldintza gisa, saltzailearen datuak sortu behar dira **Kontuak** entitatea. Aktibatu txantiloien lan fluxuaren prozesua saltzaileak sortzeko **Kontuak** taula deskribatutako moduan [Saltzailearen diseinuen artean aldatu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
 
 ### <a name="set-products-to-be-created-as-active"></a>Ezarri produktuak aktibo gisa sortzeko
 
-Biltegiratu gabeko materialak honela konfiguratu behar dira **Kaleratutako produktuak** Finantzetan. Dual Write Orchestration irtenbideak kutxaz kanpoko zerbitzua eskaintzen du [Kaleratutako produktuen integrazioa Dataverse Produktuen katalogoa](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Berez, Finantzako produktuak sinkronizatuta daude Dataverse zirriborro egoeran. Produktua egoera aktiboarekin sinkronizatzeko, materiala erabiltzeko dokumentuetan edo zain dauden saltzailearen fakturetan zuzenean erabili ahal izateko, joan hona: **Sistema** > **Administrazioa** > **Sistemaren administrazioa** > **Sistemaren ezarpenak** eta **Salmentak** fitxa, ezarri **Sortu produktuak egoera aktiboan** aukera **Bai** gisa.
+Biltegiratu gabeko materialak honela konfiguratu behar dira **Kaleratutako produktuak** Finantzetan. Dual Write Orchestration irtenbideak kutxaz kanpoko zerbitzua eskaintzen du [Kaleratutako produktuen integrazioa Dataverse Produktuen katalogoa](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Berez, Finantzako produktuak sinkronizatuta daude Dataverse zirriborro egoeran. Produktua egoera aktiboarekin sinkronizatzeko, materiala erabiltzeko dokumentuetan edo zain dauden saltzailearen fakturetan zuzenean erabili ahal izateko, joan hona: **Sistema** > **Administrazioa** > **Sistemaren administrazioa** > **Sistemaren ezarpenak** eta **Salmentak** fitxa, ezarri **Sortu produktuak egoera aktiboan** aukera **Bai** gisa.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfiguratu aurrebaldintzak Finance-n
 
@@ -88,7 +88,7 @@ Project Operations-en, kaleratutako produktuen katalogoan konfiguratuta dauden k
 2. **Produktu mota** eremuan, hautatu **Elementua** eta **Produktuen azpimota** eremua, hautatu **Produktua** aukera.
 3. Idatzi produktuaren zenbakia (WRITEIN) eta produktuaren izena (Idatzi produktua).
 4. Aukeratu elementu eredu taldea. Ziurtatu hautatu duzun elementu eredu taldeak baduela **Inbentario-politika Produktu gordea** eremua ezarrita dago **Gezurra**.
-5. Hautatu balioak **Elementu taldea**, **Biltegiratze dimentsio taldea** eta **Jarraipen dimentsio taldea** eremuak. Erabili **Biltegiratze dimentsioa** **Gunea** aukerarako soilik, eta ez ezarri jarraipen neurririk.
+5. Hautatu balioak **Elementu taldea**, **Biltegiratze dimentsio taldea** eta **Jarraipen dimentsio taldea** eremuak. Erabili **Biltegiratze dimentsioa** **Gunean** bakarrik, eta **Jarraipenaren neurriak** eremuan, hautatu **Bat ere ez**.
 6. Hautatu balioak **Inbentarioaren unitatea**, **Erosketa unitatea** eta **Salmenta-unitatea** eremuetan eta gorde aldaketak.
 7. **Plana** fitxan, ezarri ordena ezarpen lehenetsiak eta **Inbentarioa** fitxa, ezarri gune eta biltegi lehenetsiak.
 8. Joan **Proiektuen kudeaketa eta kontabilitatea** > **Konfigurazioa** > **Proiektuen kudeaketa eta kontabilitate parametroak** eta ireki **Project Operations Dynamics 365 Dataverse-n**. 

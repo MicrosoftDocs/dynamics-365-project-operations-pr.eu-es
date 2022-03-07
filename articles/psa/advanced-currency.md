@@ -2,8 +2,6 @@
 title: Dibisa anitzeko agertokiak (3.x bertsioa)
 description: Gai honek dibisa anitzeko agertokiei buruzko informazioa ematen du.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145658"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005106"
 ---
 # <a name="multiple-currency-scenarios"></a>Dibisa anitzeko gertaerak
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 dibisa bi kontzeptu ditu:
 - **Transakzio-dibisa**: transakzio bat gertatzen den dibisa. 
 - **Oinarrizko dibisa**: Dynamics 365 instantziaren dibisa. Dibisa hau Dynamics 365 instantzia hornitzen denean konfiguratzen da. Ezin da aldatu.
 
-Adibidez, Badiola Gasteizek 100 kamiseta saldu zizkieten Erresuma Batuko bezero bati, 15 euroko esterlina (GBP) bakoitzeko. Hurrengo taulan, transakzio hau nola erregistratu den eskaera produktuaren entitatean agertzen da.
+Adibidez, Contoso US-ek 100 kamiseta saldu zizkieten Erresuma Batuko bezero bati, 15 euroko esterlina (GBP) bakoitzeko. Hurrengo taulan, transakzio hau nola erregistratu den eskaera produktuaren entitatean agertzen da.
 
 | Produktua | Kopurua | Prezioa unitate bakoitzeko | Moneta | Zenbatekoa | Kanbio-tasa | Prezioa unitate bakoitzeko (oinarrizkoa)| Zenbatekoa (oinarrizkoa)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -68,14 +66,14 @@ PSAk transakzio-dibisa kontzeptua kostuen eta salmenten bidez zabaltzen du modu 
 
 ## <a name="multiple-currency-scenario"></a>Dibisa anitzeko gertaera
 
-Atal honetan Badiola UK-k Fabrikam izena duen bezero batentzat entregatzen duen proiektuaren adibidea deskribatzen du. Hona hemen nola ezarri den eszenatokia:
+Atal honetan Contoso UK-k Fabrikam izena duen bezero batentzat entregatzen duen proiektuaren adibidea deskribatzen du. Hona hemen nola ezarri den eszenatokia:
 
 1. GBP eta yen japoniarra (JPY) daude konfiguratuta **Ezarpenak** \> **Negozio-kudeaketa** \> **Dibisak**. 
 2. Izena duen bezeroaren kontua **Fabrikam - Japonia** konfiguratuta dago eta JPY hautatuko da kontuko dibisa gisa.
-3. Erakunde unitate bat **Badiola Erresuma Batua** konfiguratuta dago eta GBP moneta gisa hautatzen da.
-4. Proiektu-kontratua sortzen da, non **Badiola Erresuma Batua** unitate kontratatzaile gisa zehazten den eta **Fabrikam - Japonia** bezero gisa.
+3. Erakunde unitate bat **Contoso UK** konfiguratuta dago eta GBP moneta gisa hautatzen da.
+4. Proiektu-kontratua sortzen da, non **Contoso UK** unitate kontratatzaile gisa zehazten den eta **Fabrikam - Japonia** bezero gisa.
 5. Proiektu-kontratuaren lerroak sortzen dira, proiektuko transakzio-klaseen fakturazio-antolamenduak oinarritzat hartuta, hala nola denboraren fakturazioa eta gastuen fakturazioa.
-6. Proiektu bat sortzen da non **Badiola Erresuma Batua** unitate kontratatzaile gisa zehazten den. Proiektu hau proiektuaren kontratu lerroetara sortu eta mapatzen da.
+6. Proiektu bat sortzen da non **Contoso UK** unitate kontratatzaile gisa zehazten den. Proiektu hau proiektuaren kontratu lerroetara sortu eta mapatzen da.
 
 
 Eskaintzaren lerroaren xehetasuna, proiektuaren kontratuaren lerroaren xehetasuna edo antolaketaren estimazio lerroan erabiltzen duten kalkuluan, bi erregistro sortzen dira beti entitatean. Erregistro bat kostua da, eta bestea, berriz, salmentarako.
@@ -105,3 +103,6 @@ Dynamics 365-ek automatikoki kudeatzen ditu diru-kopuruak moneta desberdinetan. 
 | Gastua           | Fakturatu gabeko salmentak   | 17-eka | Dabid  | Auto-alokairua           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159.57 USD     |
 
 Proiektuan fakturatu gabeko salmenten balio osoa kalkulatzeko, bildu eremua sor dezakezu **Zenbatekoa** eremua, fakturatu gabeko salmenten inguruko errealitate guztietan. Bidalitako eremua Dynamics 365-en eraikuntza da, eta horrekin erlazionatutako erregistroetan formulak azkar egiteko aukera ematen du.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

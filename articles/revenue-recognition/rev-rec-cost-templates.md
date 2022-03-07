@@ -2,18 +2,16 @@
 title: Konfiguratu kostuen txantiloiak
 description: Gai honek Project Operations-en kostuen txantiloiak nola sortu eta erabili informazioa eskaintzen du.
 author: sigitac
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: f4a515db31a31028af4a60927ab360be6c261a3f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642708"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013876"
 ---
 # <a name="set-up-cost-templates"></a>Konfiguratu kostuen txantiloiak
 
@@ -79,3 +77,6 @@ Kostuen txantiloiak sortzeko, jarraitu urrats hauei:
 7. **Kategoriak** fitxan, hautatu kostuaren txantiloiaren lerroan sartu beharreko proiektuen kategoriak.
 8. **Orokorra** fitxan, hautatu lerro hau osatze-kalkuluaren ehunekoan sartuko den.
 9. Aukeratu osatzeko portzentaia kalkulatzeko erabili beharreko metodoa osatzeko kostua.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

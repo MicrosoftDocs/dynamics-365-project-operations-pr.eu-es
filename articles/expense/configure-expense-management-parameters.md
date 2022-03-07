@@ -2,18 +2,16 @@
 title: Konfiguratu gastuak kudeatzeko parametroak
 description: Gai honetan Gastuen kudeaketako portaera orokorra kontrolatzen duten parametroak deskribatzen dira.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121023"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007761"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfiguratu gastuak kudeatzeko parametroak
 
@@ -83,3 +81,6 @@ Gai honetan Gastuen kudeaketako portaera orokorra kontrolatzen duten parametroak
 | Erakutsi ustelkeriaren aurkako agiria   | Aukeratu aukera hau gastuaren txostena sortzen denean ustelkeriaren aurkako testua erakusteko. Gastu-kategoria zehatzak gaitu daitezke, ustelkeriaren aurkako egiaztagiria gastu-txostenean hautatzea eskatuko dutenak. Adibidez, gobernuko ofizialen gastuekin lotutako opari kategoria batek langileak baieztatu beharko du gastuak gobernuko funtzionarioekin zerikusia duen enpresaren politika betetzen duela baieztatzea. |
 | Ustelkeriaren aurkako mezua bidaltzailearentzat | Idatzi gastu-txostena sortzen ari den langile bati erakutsi behar zaion testua. Erabiltzailearen hizkuntzan oinarrituta erakutsiko den hizkuntza zehatzeko testua sartzeko, hautatu **Itzulpenak**. |
 | Ustelkeriaren aurkako mezua onartzailearentzat  | Idatzi gastu-txostena sortzen denean onartzaileari erakutsi behar zaion testua. Erabiltzailearen hizkuntzan oinarrituta erakutsiko den hizkuntza zehatzeko testua sartzeko, hautatu **Itzulpenak**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

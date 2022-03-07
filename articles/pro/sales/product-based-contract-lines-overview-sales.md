@@ -1,25 +1,25 @@
 ---
-title: Produktuetan oinarritutako kontratuaren lerroen ikuspegi orokorra - arina
+title: Produktuetan oinarritutako kontratuaren lerroen ikuspegi orokorra
 description: Gai honek kontratu eta produktuetan oinarritutako lerroei buruzko informazioa ematen du.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272643"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070963"
 ---
-# <a name="product-based-contract-lines-overview---lite"></a>Produktuetan oinarritutako kontratuaren lerroen ikuspegi orokorra - arina
+# <a name="product-based-contract-lines-overview"></a>Produktuetan oinarritutako kontratuaren lerroen ikuspegi orokorra
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Produktuetan oinarritutako kontratuaren lerroak sor ditzakezu Dynamics 365 Project Operations-en. Produktuen araberako kontratuaren lerroak eskuz sortutako lerroak izan daitezke, edo produktuen katalogoko elementuak izan daitezke.
+Produktuetan oinarritutako kontratu lerroak sor ditzakezu Dynamics 365 Project Operations-en. Produktuen araberako kontratuaren lerroak eskuz sortutako lerroak izan daitezke, edo produktuen katalogoko elementuak izan daitezke.
 
 ## <a name="product-catalog"></a>Produktuen katalogoa
 
@@ -46,6 +46,3 @@ Kontratuaren lerro bat produktuen katalogoan oinarrituta badago, salmenta-prezio
 **Prezioak** eremua **Gainidatzi prezioa** gisa ezartzen baduzu, ez da prezio lehenetsirik zehazten. Idatzi kontratuaren lerroko produktuaren prezioa. Eremua ezartzen baduzu **Erabili lehenetsia**, salmenta prezio lehenetsia erabiltzen da eta eremua ezin da editatu.
 
 Project Operations instalatu ondoren, salmenta prezio lehenetsiak produktuaren araberako lerroetan sartzen dira kontratu batean. **Prezioa** eremua, eremuan ezarri behar da **Gainidatzi prezioak** kontratuaren lerroetan prezio lehenetsia editatu ahal izateko. Project Operations-ek produktuan oinarritutako lerroen portaera berraztertzen dute Dynamics 365 Sales-en.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Konfiguratu Gastuak kudeatzeko lan-fluxuak
 description: Bidaia eta gastuen dokumentuak berrikusi eta onartzeko erabiltzen den lan-fluxuaren prozesua konfigura dezakezu.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 883e871b434c910747e45904cc9dc0c46bb4e2df788f503b848ad41984884edd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127683"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997726"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Konfiguratu Gastuak kudeatzeko lan-fluxuak
 
@@ -48,3 +46,6 @@ Ondorengo taulan sortu ditzakezun lan-fluxu motak zerrendatzen dira **Gastuen ku
 |       <strong>Bidaiatzeko eskakizuna</strong>       |          Sortu onarpen-fluxuak bidaia-eskakizunetarako.           |
 |      <strong>Diru-aurrerakinaren eskaera</strong>      |         Sortu onarpen-fluxuak dirua aurreratzeko eskaeretarako.          |
 |        <strong>BEZ zergaren berreskurapena</strong>        | Balio erantsiaren gaineko zerga (BEZ) berreskuratzeko onarpen-fluxuak sortu.  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

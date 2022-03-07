@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: d2e10c9ce782697fa4cbbe6eb63491ebb573a6f6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650034"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274713"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Prezio-dimentsioa desaktibatu
 
@@ -45,3 +45,6 @@ Errore-mezu horrek desaktibatu nahi den dimentsiorako aurrez konfiguratutako pre
 
 
 **Titulu estandarra** prezio-dimentsio gisa desaktibatzen duzunean eta prezioen motorrak prezioa bilatzen duenean, sarrerako testuinguruko **Erakunde-unitatea** balioa soilik erabiliko du. Sarrerako testuinguruaren **Erakunde-unitatea** "Contoso US" bada, emaitza ez-determinista izango da bi errenkadak bat etorriko direlako. Egoera hori ekiditeko, **Funtzio-prezioa** erregistroak sortzen dituzunean, sistemak dimentsioen konbinazioa esklusiboa dela balioztatzen du. Dimentsioa **Funtzio-prezioa** erregistroak sortu ondoren desaktibatzen bada, muga hori urratu daiteke. Hori dela eta, beharrezkoa da dimentsioa desaktibatu aurretik dimentsio-balio hori beteta duten **Funtzio-prezioa** eta **Funtzio-prezioaren gainprezioa** errenkada guztiak ezabatzea.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

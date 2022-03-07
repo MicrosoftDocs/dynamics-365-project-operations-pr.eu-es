@@ -2,28 +2,26 @@
 title: Zereginen xehetasunen egituraren ikuspegi orokorra
 description: Zereginen xehetasunen egitura (WBS) deskribapen bat da egina izango da proiektuarena. Zereginen hierarkia da, proiektuaren taldeak lanaren osaera eta osagai edo zeregin bakoitzaren tamaina, kostua eta iraupena ulertzea adierazten duena.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 23861
+ms.custom: intro-internal
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eddaf8a868845bde11c8bb7bc04f63777d628cf4
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071011"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369406"
 ---
 # <a name="work-breakdown-structures-overview"></a>Zereginen xehetasunen egituraren ikuspegi orokorra
 
@@ -102,7 +100,7 @@ Une honetan, ezin duzu WBS numerazioa pertsonalizatu.
 
 ### <a name="schedule-estimation"></a>Antolaketa-balioztatzea
 
-Ordutegien estimazioa normalean WBS bat sortzeko bigarren urratsa izan ohi da. Praktika egoki gisa, eginkizunak sortu ondoren ordutegiaren estimazioa osatu beharko zenuke. **Lanen matxuren egitura** Finantzak orrialdeak bi atal ditu. Goiko panela ordutegiak kalkulatzeko pentsatuta dago, eta beheko panelak an **Aurreikusitako kostuak eta diru-sarrerak** kostua kalkulatzeko erabil dezakezu fitxa. 
+Ordutegien estimazioa normalean WBS bat sortzeko bigarren urratsa izan ohi da. Praktika egoki gisa, eginkizunak sortu ondoren ordutegiaren estimazioa osatu beharko zenuke. Finance-ko **Lanen matxuren egitura** orriak bi atal ditu. Goiko panela ordutegiak kalkulatzeko pentsatuta dago, eta beheko panelak an **Aurreikusitako kostuak eta diru-sarrerak** kostua kalkulatzeko erabil dezakezu fitxa. 
 **Zereginen mendekotasunak** WBS batean, aurreko lanen arteko harremana sor dezakezu. Zeregin bati aurrenekoen balioak esleitzean, zeregina aurreko zeregin guztiak osatu direnean soilik abiarazi daiteke. Zereginaren hasierako data automatikoki ezartzen da aurreko guztien azken data. 
 
 **Zereginen programazioa** Hurrengo faktoreek zehazten dute hosto-nodoen atazen antolaketa:
@@ -316,3 +314,6 @@ Bestela, planifikazio akatsak banan-banan zuzendu ditzakezu zeregin bakoitzerako
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

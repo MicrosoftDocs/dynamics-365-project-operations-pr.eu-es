@@ -2,11 +2,9 @@
 title: Sinkronizatu proiektuaren gastuen kategoriak Finance and Operations eta Project Service Automation
 description: Gai honek deskribatzen du txantiloiak eta azpiko zereginak erabiliak direnak sinkronizatzeko proiektuaren gastuaren kategoriak Microsoft Dynamics 365 Finance eta Dynamics 365 Project Service Automation artean.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071175"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001101"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinkronizatu proiektuaren gastuen kategoriak Finance and Operations eta Project Service Automation
 
@@ -58,7 +56,7 @@ Proiektuaren gastuen kategoriak Project Service Automation menderatzen badira, i
 
 Ondorengo ilustrazioak erakusten du nola sinkronizatzen diren datuak Project Service Automation eta Finance artean.
 
-[![Project Service Automation Finantzarekin integratzeko datuen fluxua](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Project Service Automation Finantzarekin integratzeko datuen fluxua.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Proiektuaren gastuaren kategoriaren sinkronizazioa hurrengotik Finantza hurrengora Project Service Automation
 
@@ -95,7 +93,7 @@ Project Service Automation-ekin sinkronizatzen ari zarenean, Microsoft Power Que
 
 Ondorengo ilustrazioak Datuen integrazioan txantiloien atazen maparen adibide bat erakusten du. Kartografiak Project Service Automation-etik Finantzara sinkronizatuko den eremuko informazioa erakusten du.
 
-[![Proiektuaren gastuaren kategoria Project Service Automation txantiloiei esleitzea](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Proiektuaren gastuaren kategoria Project Service Automation txantiloiei esleitzea.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Proiektuaren gastuaren kategoriaren sinkronizazioa hurrengotik Finantza hurrengora Project Service Automation
 
@@ -123,4 +121,7 @@ Ondorengo ilustrazioak Datuen integrazioan txantiloien atazen maparen adibide ba
 > [!NOTE]
 > Kartografiak Project Service Automation-etik Finantzara sinkronizatuko den eremuko informazioa erakusten du.
 
-[![Project Service Automation Finance txantiloiei esleitzea](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![Project Service Automation Finance txantiloiei esleitzea.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

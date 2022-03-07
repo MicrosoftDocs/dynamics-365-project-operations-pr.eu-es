@@ -1,29 +1,25 @@
 ---
-title: Konfiguratu fakturen sortze automatikoa - arina
-description: Gai honetan proformako fakturak automatikoko sortzea konfiguratzeari buruzko informazioa eskaintzen du.
+title: Konfiguratu fakturen sortze automatikoa
+description: Gai honek proformako fakturak automatikoki sortzeari eta konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176551"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997501"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Konfiguratu fakturen sortze automatikoa - arina
+# <a name="set-up-automatic-invoice-creation"></a>Konfiguratu fakturen sortze automatikoa 
  
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honetarako aplikatzen da:** inplementazio arina - mahukatik proformako fakturaziora, Baliabideen / stockean oinarritutako eszenatokien Project Operations_
 
-Dynamics 365 Project Operations-en konfigura dezakezu fakturak automatikoki sortzea. Sistemak proforma faktura zirriborro bat sortzen du proiektuaren kontratu eta kontratu lerro bakoitzaren faktura egutegian oinarrituta. Fakturen ordutegiak kontratu lerro mailan konfiguratuta daude. Kontratu bateko lerro bakoitzak faktura ordutegi desberdina izan dezake, edo faktura ordutegi bera kontratuaren lerro guztietan sar daiteke.
+Fakturen sortze automatikoa konfigura dezakezu Dynamics 365 Project Operations-en. Sistemak proforma faktura zirriborro bat sortzen du proiektuaren kontratu eta kontratu lerro bakoitzaren faktura egutegian oinarrituta. Fakturen ordutegiak kontratu lerro mailan konfiguratuta daude. Kontratu bateko lerro bakoitzak faktura ordutegi desberdina izan dezake, edo faktura ordutegi bera kontratuaren lerro guztietan sar daiteke.
 
-Faktura bat sortzen duzunean, sistemak gutxienez faktura bat sortzen du proiektuaren kontratu bakoitzeko. Zenbait kasutan, hainbat faktura sor daitezke.
-
-Adibidez, kontratuak bezero anitz baditu, faktura kopuru bera sortuko da proiektuaren kontratu horretan fakturatzeko fakturagarriak diren eragiketak dituzten bezeroen kopurua.
+Faktura bat sortzen duzunean, sistemak gutxienez faktura bat sortzen du proiektuaren kontratu bakoitzeko. Zenbait kasutan, hainbat faktura sor daitezke. Adibidez, kontratuak bezero anitz baditu, faktura kopuru bera sortuko da proiektuaren kontratu horretan fakturatzeko fakturagarriak diren eragiketak dituzten bezeroen kopurua.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Ulertu transakzioak nola sartzen diren faktura batean 
 
@@ -91,3 +87,6 @@ Lan-sortaren prozesua lan errepikaria da. Prozesu-sorta hau askotan exekutatzen 
 
 > [!NOTE]
 > Project Operations-eko sortako fakturazioa fakturen egutegien arabera konfiguratutako proiektuen kontratu lerroetarako bakarrik exekutatzen da. Prezio finkoko fakturazio metodoa duen kontratu-lerroak mugarriak konfiguratu behar ditu. Ordua eta materiala fakturatzeko metodoa duen proiektu-kontratuen lerroak fakturen egitaraua finkatuko du.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

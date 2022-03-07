@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 488c57527e6cc153093014438453001170f311dc
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663668"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121293"
 ---
-# <a name="concepts-unique-to-project-based-quotes"></a>Proiektuetan oinarritutako eskaintzen kontzeptu bakarrak
+# <a name="quotes---key-concepts"></a>Eskaintzak - Gako-kontzeptuak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations-en bi eskaintza mota daude: proiektuak eta salmentak. Kuoten bi motak modu desberdinetan bereizten dira:
+Dynamics 365 Project Operations-en, bi aurrekontu mota daude, proiektuak eta salmentak. Kuoten bi motak modu desberdinetan bereizten dira:
 
 - **Lerro-elementuen saretak**: Salmenta-eskaintzetan, lerroentzako elementuen sareta bakarra dago. Edo proiektu-eskaintza batean, lerroentzako bi sareta ditu. Sareta bat proiektu-lerroetarako da eta bestea produktu-lerroetarako.
 - **Aktibazioa eta berrikuspenak**: Salmenten aurrekontuek aktibazioa eta berrikuspenak onartzen dituzte. Prozesu hauek ez dira onartzen proiektuaren aurrekontuan.
@@ -128,6 +128,3 @@ Prezio-finkoko eskaintzen lerrorako, erabil dezakezu **Fakturen egutegia** saret
 - Berdin banatzen diren fakturazio-mugarriak sortzeko, hautatu fakturen maiztasuna, sartu fakturazioaren hasiera-data aurrekontuen lerroan eta hautatu **Eskatutako amaiera-data** orrialdeko eskaintza lortzeko **Laburpena** sekzioan eskaintzaren goiburuan. Ondoren, hautatu **Sortu aldizkako mugarriak** hautatutako fakturen maiztasunean oinarritutako mugarri berdinak sortzeko. 
 - Ordainpeko fakturaziorako mugarri bat sortzeko, mugarri bat sortu eta, ondoren, sartu eskaintzaren lerroko balioa mugarri zenbateko gisa.
 - Proiektu-planean zeregin zehatzetan oinarritutako fakturazio-mugarriak sortzeko, mugarri bat sortu eta proiektuaren egitarauaren elementua esleitu ezazu fakturazio-mugarriko erabiltzailearen interfazean.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
