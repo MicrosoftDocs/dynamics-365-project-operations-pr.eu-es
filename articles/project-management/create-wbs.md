@@ -2,16 +2,16 @@
 title: Sortu zereginen xehetasunen egitura
 description: Gai honetan azaltzen da nola sortu lanaren matxuraren egitura (WBS) oinarrizko kontrolak barne antolaketa-interfaze berrian.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998716"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928600"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Sortu zereginen xehetasunen egitura (WBS)
 
@@ -95,11 +95,11 @@ Administratzaile gisa, eremu pertsonalizatuak defini ditzakezu atazako entitatea
 
 ## <a name="staffing-attributes"></a>Betetze-atributuak
 
-Langileen atributuak **Baliabideak** eremuaren bidez atzitzen dira antolaketan. Lehendik dagoen baliabide bat bilatu dezakezu edo hautatu **Sortu** eta **Sorrera bizkorra** panelean, gehitu proiektu-taldeko kide bat baliabide berri gisa.
+Langileen atributuak **Baliabideak** eremuaren bidez atzitzen dira antolaketan. Lehendik dagoen baliabide bat bilatu dezakezu edo hautatu **Sortu** eta **Sorrera bizkorra** panelean, gehitu proiektu-taldeko kide bat baliabide berri gisa.  Ataza-sareko, arbel-ikuspeko edo gantt-eko baliabide-hautatzailea erabiliz baliabide bat bilatzen duzunean, bilaketak lehendik dauden proiektuko taldeko kideak edo erreserba daitezkeen baliabide aktiboak itzultzen ditu.
 
 **Funtzioa**, **Baliabide-unitatea**, eta **Lanpostuaren izena** eremuak zereginerako langileen eskakizunak deskribatzeko erabiltzen dira. Langileen atributu horiek, zereginen antolaketarekin batera, zeregina egiteko erabilgarri dauden baliabideak aurkitzeko erabiltzen dira.
 
-   - **Funtzioa**: Zehaztu zeregina egiteko behar den baliabide mota.
+   - **Rola** : Zehaztu zeregina egiteko behar den baliabide mota.,
    - **Baliabide-unitatea**: Zehaztu zeregineko baliabideak zein unitatetik esleitu behar diren. Atributu horrek zereginerako kostuen eta salmenten aurreikuspenean eragiten du baliabidearen kostua eta faktura-tasa baliabide unitateetan oinarrituta ezartzen badira.
    - **Lanpostuaren izena**: idatzi lana egingo duen baliabiderako leku-marka gisa balio duen baliabide orokorrerako izena.
 
@@ -117,5 +117,27 @@ Zereginaren moduak ez du eraginik aurreko/mendeko zereginen hasiera- eta amaiera
 
 **Antolaketa** sareta guztiz eskuragarria da eta pantaila-irakurleekin erabil daiteke, esaterako, JAWS edo NVDA. Saretako eremuan mugi zaitezke gezi-teklak erabiliz (Microsoft Excel-en bezala), Tab tekla erabil dezakezu interfazearen erabiltzaile-interfazearen elementutan aurrera egiteko, eta Behera gezi-tekla, Sartu tekla edo Zuriune-barra erabil ditzakezu goitibeherako menuak hautatzeko eta irekitzeko.
 
+## <a name="project-limitations"></a>Proiektuaren mugak 
+Ondoko mugak ezagutu behar dituzu Project Operations-en zereginen xehetasunen egitura erabiltzen ari bazara. Muga hauek proiektu eta zereginei aplikatzen zaizkie. Informazio gehiagorako, ikusi [Project for the Web-en mugak](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Eremua**                                          |  **Muga**           |
+|----------------------------------------------------|----------------------|
+| Proiektu baterako gehieneko zereginak                  | 500                  |
+| Proiektu baten gehieneko iraupena               | 3650 egun (10 urte) |
+| Proiektu baterako gehieneko baliabideak              | 150                  |
+| Proiektu bateko gehieneko estekak (ondorengoak soilik) | 600                  |
+| Proiektu baterako gehieneko eremu pertsonalizatuak          | 1,0                   |
+| Gehienezko zerrendako elementuak zeregin bakoitzeko                   | 20                   |
+
+**Zereginen mugak**
+
+| **Eremua**                               |   **Muga**           |
+|-----------------------------------------|-----------------------|
+| Gehieneko hierarkia-maila                 | 10 maila             |
+| Gehieneko estekak (ondorengoa + aurrekoa) | 20                    |
+| Hosto-zereginaren gehienezko iraupena           | 1250 egun             |
+| Laburpen-zeregin baten gehieneko iraupena      | 3650 egun (10 urte)  |
+| Zeregin bati esleitutako gehieneko baliabideak    | 20 baliabide          |
+| Zeregin baterako onartutako data-tartea         | 2000/1/1 - 2149/12/31 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

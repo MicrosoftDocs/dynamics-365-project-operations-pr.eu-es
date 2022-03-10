@@ -2,8 +2,6 @@
 title: Sortu proiektua
 description: Nola sortu proiektu-abagunea Project Service-n
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 164dff56bb61f6d9bc4cf0b0678a25e0169a31ee
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: f98e24d9d7abcd3dc8ef8071974d5fa8f53255a5df6704c2e166b0831a5935f1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285063"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002631"
 ---
 # <a name="create-a-project-project-service"></a>Sortu proiektua (Project Service)
 

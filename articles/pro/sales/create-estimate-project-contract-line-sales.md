@@ -2,18 +2,16 @@
 title: Aurreikusi proiektuetan oinarritutako kontratuaren lerroa - arina
 description: Gai honek proiektuan oinarritutako kontratu lerroak aurreikusteari buruzko informazioa eskaintzen du.
 author: rumant
-manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 186b982ee440576e10cf5b78922848b8877afd51
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 747a1abe5630cac3dc074eba3a469d8d858c5ef244b59e26921e35afa61645df
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273522"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999076"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>Aurreikusi proiektuetan oinarritutako kontratuaren lerroa - arina
 
@@ -28,28 +26,33 @@ Proiektuetan oinarritutako kontratu lerro bat kalkulatzeko, joan **Kontratu-lerr
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Sortu aurreikuspenak zuzenean proiektuetan oinarritutako kontratuaren lerro batean
 
-1. Joan kontratuaren lerrora eta hautatu **Kontratu-lerroaren xehetasuna** fitxa. Fitxa honetan sortzen dituzun lerroak laburtu eta bistaratzen dira **Kontratatutako balioa** **Kontratuaren lerroa** eremuan. 
-2. **Kontratuaren lerroaren xehetasunak** azpisarean, hautatu **+ Kontratu linea berrien xehetasuna**. Bizkor sortzeko graduatzailea irekitzen da. Ondorengo eremuak eskuragarri daude **Kontratu-lerroaren xehetasunak** forma:
+Proiektuan oinarritutako kontratu lerroan zenbatespena zuzenean sortzeko, jarraitu urrats hauei:
 
-| Eremua | Kokapena | Deskribapena | Downstream eragina |
+1. Joan kontratuaren lerrora eta hautatu **Kontratu-lerroaren xehetasuna** fitxa. Fitxa honetan sortzen dituzun lerroak laburtu eta bistaratzen dira **Kontratatutako balioa** **Kontratuaren lerroa** eremuan. 
+2. **Kontratuaren lerroaren xehetasunak** azpisarean, hautatu **Kontratu linea berrien xehetasuna**. Bizkor sortzeko graduatzailea irekitzen da. Ondorengo eremuak eskuragarri daude **Kontratu-lerroaren xehetasunak** orrialdea.
+
+| Eremua | Kokapena | Deskribapenak | Downstream eragina |
 | --- | --- | --- | --- |
-| **Azalpena** | **Sorrera bizkorra** | Aurreikuspen jakin baten azalpena. | Eremu honek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
-| **Transakzio-klasea** | **Sorrera bizkorra** | Goitibeherako fitxategian sartutako transakzio klaseen zerrenda da **Orokorra** proiektuan oinarritutako kontratu lerroaren fitxa. | Eremu honek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
-| **Funtzioa** | **Sorrera bizkorra** | Lan hori egiten ari den edo gastu hori eragiten duen pertsonaren papera. | Eremu honek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
-| **Kategoria** | **Sorrera bizkorra** | Lanaren edo gastuaren kategoria. | Eremu honek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
-| **Hasiera-data** | **Sorrera bizkorra** | Lanaren hasiera-data. | Eremu honek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
-| **Amaiera-data** | **Sorrera bizkorra** | Lanaren amaiera-data. | Eremu honek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen den kostua. |
-| **Baliabide-unitatea** | **Sorrera bizkorra** | Kostu hori suposatzen duen eta bertan lan egiteko baliabidea hornitzen duen baliabideen unitatea. | Eremu honek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. Eremu hau kostuen prezioak berreskuratzeko ere erabiltzen da. |
-| **Unitate-antolaketa** | **Sorrera bizkorra** | Lanaren edo gastuaren unitate taldea. Unitateak unitateen ordutegiari edo unitate talde bati dagozkie. Adibidez, *miliak* eta *kilometroak (km)* distantzia deskribatzen duten unitate multzo bateko kide diren unitateak dira. | Eremu honek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
-| **Unitatea** | **Sorrera bizkorra** | Lanaren edo gastuaren unitatea. | Eremu honek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
-| **Kopurua** | **Sorrera bizkorra** | Lanaren edo gastuaren zenbatekoa. | Eremu honek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
-| **Unitate-prezioa** | **Sorrera bizkorra** | Lana burutzen duen rolaren faktura-tasa edo gastu-kategoriako salmenta-prezioa. Eremu honek **Denbora** lehenetsia du hasierako datarako eraginkorra den proiektuaren prezioen zerrendako funtzio eta baliabideen konbinazioan oinarrituta. Gastuei dagokienez, eremu honen lehenetsia hasierako datarako eraginkorra den proiektuaren prezioen zerrendako transakzioen kategoriako prezioaren konfiguraziokoa da. Transakzio-kategoriaren prezio-metodoa **unitateko prezioa** ez bada, ez dago lehenespenik eta eremu hau hutsik geratuko da. | Lana burutzen duen rolaren kostua, edo kostua gastu-kategoriako unitateko kostua. Eremu honek lehenetsitakoa da **Rolean oinarritutako denbora** eta kontratazio unitateari atxikitako kostu prezioen zerrendako eginkizunen prezioen lerroan baliabideen hornikuntza konbinazioa hasiera datarako indarrean dago. Gastuei dagokienez, eremu honen lehenetsia hasierako datarako eraginkorra den kontratu-unitateen zerrendako transakzioen kategoriako prezioaren konfiguraziokoa da. Transakzio-kategoriaren prezio-metodoa unitateko prezioa ez bada, ez dago lehenespenik eta eremu hau hutsik geratuko da. |
-| **Aurreikusitako zerga** | **Sorrera bizkorra** | Lan honen edo gastuaren zerga zenbatetsia erabiltzaileak sartutako moduan. | Lan honen edo gastuaren zerga zenbatetsia erabiltzaileak sartutako moduan. |
-| **Zenbatekoa** | **Sorrera bizkorra** | Eremu honetako balio hau erabiltzaileak gehi dezake **Kopurua** eta **Prezioa** eremuak hutsik geratzen dira. **Kopurua** eta **Prezioa** betetzen dira **Zenbatekoa** eremua irakurtzeko soilik da eta honela kalkulatzen da **(Kopurua \*Unitateko prezioa) + Zerga**. | &nbsp; |
+| **Azalpena** | **Sorrera bizkorra** | Aurreikuspen jakin baten azalpena. | Balio horrek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
+| **Transakzio-klasea** | **Sorrera bizkorra** | Hau da fitxategian sartutako transakzio klaseen zerrenda **Orokorra** proiektuan oinarritutako kontratu lerroaren fitxa. | Balio horrek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
+| **Hautatu produktua** | **Sorrera bizkorra** | Transakzio klasea dagoenean aplikatzen da **Materiala**. Zehatz dezakezu aurreikusitako lerro hau **Lehendik dagoen** (katalogoa) produktu edo **Katalogotik kanpoko** produktu batena den. | Balio horrek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
+| **Produktu** | **Sorrera bizkorra** | Produktuen katalogoko produktuaren IDa. Eremu hau gaituta egoteko, **Lehendik dagoen produktuan** hautatu behar duzu **Aukeratu produktua** eremuan. IDa salmenta prezioa kontratuan jasotako proiektuaren zerrendatik berreskuratzeko erabiltzen da. | Balio horrek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
+| **Katalogotik kanpoko produktua** | **Sorrera bizkorra** | Produktuaren izena sartzeko testu eremua. Eremu hau hautatzen duzunean gaituta egongo da **Idatzi** produktuan **Aukeratu produktua** eremua.| Balio horrek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
+| **Funtzioa** | **Sorrera bizkorra** | Lan hori egiten ari den edo gastu hori eragiten duen pertsonaren papera. | Balio horrek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak.|
+| **Kategoria** | **Sorrera bizkorra** | Lanaren edo gastuaren kategoria. |Balio horrek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak.|
+| **Hasiera-data** | **Sorrera bizkorra** | Lanaren hasiera-data. | Balio horrek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
+| **Amaiera-data** | **Sorrera bizkorra** | Lanaren amaiera-data. | Balio horrek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
+| **Baliabide-unitatea** | **Sorrera bizkorra** | Kostu hori suposatzen duen eta bertan lan egiteko baliabidea eskaintzen duen baliabideen unitatea. |Balio horrek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak eta kostuaren prezioan erabiltzen da. |
+| **Unitate-antolaketa** | **Sorrera bizkorra** | Lanaren, produktuaren edo gastuaren unitate taldea. Unitateak unitateen ordutegiari edo unitate talde bati dagozkie. Adibidez, *miliak* eta *kilometroak (km)* distantzia deskribatzen duten unitate multzo bateko kide diren unitateak dira. | Balio horrek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
+| **Unitatea** | **Sorrera bizkorra** | Lanaren, produktuaren edo gastuaren unitatea. | Balio horrek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
+| **Kantitatea** | **Sorrera bizkorra** | Lanaren, produktuaren edo gastuaren zenbatekoa. | Balio horrek lehenetsitako lotura duen kontratuaren lerroaren xehetasunak lehenetsitakoak dira automatikoki sortzen diren kostuak. |
+| **Unitate-prezioa** | **Sorrera bizkorra** | Lana burutzen duen rolaren faktura-tasa, produktuaren unitateko prezioa edo produktuaren edo gastu-kategoriaren salmenta-prezioa. Eremu honek lehenetsitakoa da **Denbora** hasierako datarako eraginkorra den proiektuaren prezioen zerrendako rol prezioen lerroan prezioen dimentsio balioen konbinazioan oinarrituta. **Gastuak** eremuari dagokienez, eremu honen lehenetsia hasierako datarako eraginkorra den proiektuaren prezioen zerrendako transakzioen kategoriako prezioaren konfiguraziokoa da. Transakzio-kategoriaren prezio-metodoa **unitateko prezioa** ez bada, ez dago lehenespenik eta eremu hau hutsik geratuko da. Produktuetarako, eremu honen lehenetsia **Prezioen zerrendako elementua** hasiera datarako eraginkorra den proiektuaren prezioen zerrendan.| Lana burutzen duen rolaren kostu-tasa, edo gastuen kategoriaren kostua unitateko edo produktuaren kostua unitateko. Eremu honek lehenetsitakoa da **Denbora** hasierako datarako eraginkorra den kontratu-unitateari atxikiko kostuaren prezio-zerrendako rol prezioen lerroan prezioen dimentsio balioen konbinazioan oinarrituta. Gastuei dagokienez, eremu honen lehenetsia hasierako datarako eraginkorra den kontratu-unitateen zerrendako transakzioen kategoriako prezioaren konfiguraziokoa da. Transakzio-kategoriaren prezio-metodoa unitateko prezioa ez bada, ez dago lehenespenik eta eremu hau hutsik geratuko da. Produktuetarako, eremu honen lehenetsia **Prezioen zerrendako elementua** hasiera datarako eraginkorra den kontratu-unitateari atxikitako kostuaren prezio-zerrendan.|
+| **Aurreikusitako zerga** | **Sorrera bizkorra** | Lan edo gastu horren zerga zenbatetsia. | Lan edo gastu horren zerga zenbatetsia. |
+| **Kopurua** | **Sorrera bizkorra** | Eremu honetan balioa gehi dezakezu **Kopurua** eta **Prezioa** eremuak hutsik geratzen dira. **Kopurua** eta **Prezioa** betetzen dira **Zenbatekoa** eremua irakurtzeko soilik da eta honela kalkulatzen da **(Kopurua \*Unitateko prezioa) + Zerga**. | &nbsp; |
 
 ## <a name="update-prices-on-contract-line-details"></a>Eguneratu prezioak kontratuaren lineako xehetasunetan
 
-Kontratuarekin bat datorren proiektuaren prezioen zerrendan edo kontratazio unitatearen kostuen prezioen zerrendan prezioak aldatzen badituzu, kontratua banakako lerroaren xehetasunetan berritu ditzakezu aldaketa islatzeko. **Kontratua** orrian, hautatu **Kalkulatu berriro**. Abisu bat irekiko da kontratu honetako linea guztietako prezioak berrezarriko direla jakinarazteko. Aukeratu **Bai** salmenten zein kostuen kontratuaren lerroaren xehetasunak berritzeko.
+Kontratuarekin bat datorren proiektuaren prezioen zerrendan edo kontratazio unitatearen kostuen prezioen zerrendan prezioak aldatzen badituzu, kontratua banakako lerroaren xehetasunetan berritu ditzakezu aldaketa islatzeko. **Kontratua** orrian, hautatu **Kalkulatu berriro**. Abisu bat agertzen da kontratu honetako kontratu linea guztien prezioak berrezarri direla jakinarazteko. Aukeratu **Bai** salmenten zein kostuen kontratuaren lerroaren xehetasunak berritzeko.
 
 ## <a name="access-contract-line-details-for-cost"></a>Sarbidea kontratuaren lineako xehetasunak kostuaren truke
 
@@ -67,7 +70,7 @@ Kontratuaren lerroaren xehetasuna **Kostua** kontratuaren lerroaren xehetasunare
 Errentagarritasunaren kalkuluek kontratuaren lerroaren xehetasunen zenbatekoak bihurtzen dituzte **Kostua** eta **Salmentak** inguruneko oinarrizko monetara kontratuan benetako eta aurreikusitako marjina orokorrak jakinarazteko.
 
 > [!NOTE]
-> Moneta biribiltzeko akatsak eta aldatutako marjinak gerta litezke data truke-tasa eraginkorrik ez dagoelako. Erabili kalkulu horiek proiektuen kontratuetan gutxi gorabeherako gisa eta ez estatistikako benetako txostenetarako edo biribiltzeko zehaztasun handiagoa behar dutenak eta truke-tasen dataren eraginkortasuna ezagutzea.
+> Moneta biribiltzeko akatsak eta aldatutako marjinak gerta litezke data truke-tasa eraginkorrik ez dagoelako. Erabil itzazu kalkulu hauek proiektuen kontratuetan soilik, gutxi gorabeherakoak baitira eta ez baitira legezko biribilketarako edo bestelako biribiltzeetarako zehaztasun handiagoa eskatzen dutenak eta truke-tasen dataren eraginkortasunaz jabetzea.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

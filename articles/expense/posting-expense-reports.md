@@ -2,11 +2,9 @@
 title: Argitaratu gastuen txostenak
 description: Gai honetan gastuen txostenak nola bidali azaltzen da.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 866252c1961f359cecdb729ca909d96bcb03b1f4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: d799fd8d87ea254bfa288d210d203760f9347248006cdb644e79bcfd9e1aa678
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071000"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007671"
 ---
 # <a name="post-expense-reports"></a>Argitaratu gastuen txostenak
 
@@ -31,3 +29,6 @@ Gastu txosteneko gastuak langilea enplegatzen duen enpresa ez den beste enpresa 
 Gastu txostena argitaratzeko,**Onartutako gastuen txostenak** orrian, hautatu gastuen txostena eta, ondoren, Ekintza panelean, hautatu **Bidali**.
 
 Zerrendako gastuen txosten guztiak aldi berean bidal ditzakezu. Aukeratu gastuen txosten guztiak, eta hautatu **Bidali**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

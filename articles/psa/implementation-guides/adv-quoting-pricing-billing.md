@@ -2,8 +2,6 @@
 title: Eskaintza aurreratua, prezioak eta fakturazioa
 description: Gai honek Project Service Automation-en aurrekontuei, fakturazioari eta prezioei buruzko informazioa eskaintzen du.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a40eb80f2e46c1c976e27320cfa30116d19426b5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 4e589c83b8d9b0946f331b5ad03f4946fcddf6813a1529fb65d9b86f8ebf3a07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132634"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985621"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Quoting aurreratua, prezio- eta fakturazio-gida
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -50,3 +50,6 @@ Gai honetan aurretik zegoen PDF esteka kendu da eta edukia honako gai hauetara e
 
 > [!NOTE]
 > Gai hau etorkizuneko dokumentazio-eguneratze batean kenduko da. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,23 +2,22 @@
 title: Erabili Proiektuak programatzeko APIak Planifikazio entitateekin eragiketak egiteko
 description: Gai honek informazioa eta laginak eskaintzen ditu proiektuen programazio APIak erabiltzeko.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008751"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487670"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Erabili Proiektuak programatzeko APIak Planifikazio entitateekin eragiketak egiteko
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-> [!IMPORTANT] 
-> Gai honetan zehaztutako funtzionaltasun batzuk edo guztiak erabilgarri dago aurrebista-bertsioaren zati gisa. Edukia eta funtzionalitatea aldatu egin daitezke. 
+
 
 ## <a name="scheduling-entities"></a>Antolaketa-entitateak
 

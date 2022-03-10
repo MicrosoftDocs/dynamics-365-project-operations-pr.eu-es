@@ -2,18 +2,16 @@
 title: Finantza-dimentsio lehenetsiak
 description: Gai honek dimentsio finantzarioaren lehenespenak konfiguratzeko moduari buruzko informazioa eskaintzen du.
 author: sigitac
-manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642348"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922923"
 ---
 # <a name="financial-dimension-defaults"></a>Finantza-dimentsio lehenetsiak
 
@@ -21,7 +19,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations-ek erabiltzen du [Finantza-dimentsioak](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) esparrua Dynamics 365 Finance proiektu gehigarrien eta liburu nagusien transakzioen inguruko informazio osagarria eskaintzeko.
+Dynamics 365 Project Operations-ek erabiltzen du [Finantza-dimentsioak](/dynamics365/finance/general-ledger/financial-dimensions) esparrua Dynamics 365 Finance proiektu gehigarrien eta liburu nagusien transakzioen inguruko informazio osagarria eskaintzeko.
 
 Finantza dimentsio lehenetsiak bezero, proiektuaren finantzaketa iturri, mugarri, proiektu kontratu lerro edo proiektu batean ezar daitezke.
 
@@ -62,3 +60,15 @@ Proiektuak CDS-n sortu eta mantentzen dira. Proiektuen kontabilitate atributuak 
 4. Ezarri finantza-dimentsio lehenetsiak. Kontuan izan finantza dimentsioak bezeroaren kontutik lehenetsita daudela. Proiektua proiektu kontratuko bezero anitzekin kontratu lerro batekin lotzen bada, bezero nagusia lehenetsitako finantza dimentsioetarako erabiltzen da.
 
 Proiektuaren lehenetsitako finantza dimentsioak egunkariaren lerroaren lehenespenak ezartzeko erabiltzen dira denbora, gastu eta kuoten transakzioetarako **Project Operations Integration Journal** eta lotutako proiektuen faktura-lerroetan.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Aplikatu finantza-dimentsioak proiektuaren denbora sarreretarako
+Proiektuaren denbora-sarreretarako finantza-dimentsioak aplikatzeko, kontuan izan dimentsio-balio lehenetsia hurrengo ordenan oinarritzen dela:
+
+1. Baliabidea
+2. Project
+3. Finantzaketa iturria
+
+Adibidez, baliabide batean dimentsio lehenetsia zehazten bada, proiektuan zehaztutako lehenetsi baten gainean aplikatuko da. Era berean, proiektuaren dimentsio lehenetsi bat aplikatuko da finantzaketa iturrian zehaztutako lehenetsiaren gainean.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

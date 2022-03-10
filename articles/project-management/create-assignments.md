@@ -2,18 +2,16 @@
 title: Sortu baliabide-esleipenak
 description: Gai honek baliabideen esleipen generikoak eta izendatuak sortzeari buruzko informazioa eskaintzen du.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070949"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987871"
 ---
 # <a name="create-resource-assignments"></a>Sortu baliabide-esleipenak
 
@@ -42,3 +40,6 @@ Bilaketa-koadroa erabil dezakezu **Baliabide hautatzailea** eremuan baliabide er
 1. Zereginen sareta, taula edo kronogramatik, joan **Honi esleituta** gelaxkara.
 2. Bilaketa-koadroan, hasi izena idazten. Bilaketaren emaitzak **Beste baliabideak** ataleko **Baliabide hautatzailea** eremuan bistaratzen dira.
 3. Aukeratu zereginari esleitu nahi diozun baliabidea edo hautatu baliabidearen izena **Taldeko beste baliabide batzuk** aukeran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,17 @@
 title: Gainidatzi proiektuaren salmenten prezio-zerrendak
 description: Gai honek salmenta prezioen zerrenda pertsonalizatuak sortzeari buruzko informazioa eskaintzen du.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
+ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130833"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009561"
 ---
 # <a name="override-project-sales-price-lists"></a>Gainidatzi proiektuaren salmenten prezio-zerrendak
 
@@ -27,7 +26,7 @@ Bezeroaren proiektuaren prezioen zerrenda konfiguratzeko, **Salmentak** eremuan,
 
 1. Ireki **Kontuak** zerrenda orria.
 2. Aurkitu eta egin klik bikoitza bezeroaren erregistroan fitxategia irekitzeko **Kontua** xehetasunen orria.
-3. **Proiektuaren prezio-zerrendak** fitxan, hautatu **+ Proiektuaren prezio-zerrenda berria^^.
+3. **Proiektuaren prezio-zerrendak** fitxan, hautatu **+ Proiektuaren prezio-zerrenda berria**.
 4. **Proiektuaren prezio-zerrenda berrian** orrialdean, hautatu goitibeherako prezioen zerrenda. Testuingurua ezarrita duten prezioen zerrendak soilik **Salmentak** eta zeinen moneta bat datorren kontuaren moneta barne.
 5. Elkarketaren izena, eta ondoren egin klik **Gorde** botoian. Bezeroarentzako proiektuaren prezioen zerrenda sortzen da. Prezio zerrenda hau proiektu honen aurrekontuak edo bezero honentzat sortutako kontratuetan proiektuaren prezio lehenetsiak erabiliko dira, aurrekontuaren edo proiektuaren kontratuaren sortutako data prezioen zerrendaren eraginkortasun dataren barruan kokatzen bada.
 
@@ -51,3 +50,6 @@ Prezio zerrenda horietako bakoitza erabil dezakezu eta eskulanaren (rolaren prez
 Proiektuaren kontratu batean, proiektuaren prezioak beti lehenetsitako prezioen zerrenda pertsonalizatu gisa kontratuaren izenarekin eta sortutako data-ordu zigilua izenarekin erantsita daude. Egia da kontratua aurrekontua irabazi zenean sortu zen edo kontratua hutsetik sortu zen. Behar izanez gero, elkarte hau pertsonalizatutako prezioen zerrendara ken dezakezu eta horren ordez prezio zerrenda estandarra proiektuaren kontratuarekin lotu.
 
 Prezio zerrenda estandar bat aurrekontuan edo kontratuan proiektuaren prezio zerrendekin lotzen duzunean, prezio zerrendako prezioetan egindako aldaketek eragina izango dute prezio zerrenda erabiltzen duten aurrekontu eta kontratu guztietan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

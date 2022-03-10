@@ -1,33 +1,31 @@
 ---
-title: Lanaren kostu-tasak konfiguratzea
+title: Konfiguratu lanaren kostu-tasak - arina
 description: Gai honek Project Operations-eko lanaren kostuak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070947"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006096"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Lanaren kostu-tasak konfiguratzea 
+# <a name="set-up-labor-cost-rates---lite"></a>Konfiguratu lanaren kostu-tasak - arina
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
 Prezio zerrenda bakoitzak prezio zerrendaren edukiarekin eta datarekin eraginkortasunarekin bat datozen lan tasen (rol prezioak) multzoa du.
 
-1. Sortu prezioen zerrenda eta **Rolaren prezioa** fitxa, azpi-saretan, hautatu **Rol berria**.
+1. Sortu prezioen zerrenda eta **Rolaren prezioa** fitxa, azpisarean, hautatu **Rol berria**.
 2. **Sortu bizkor** orrian, hautatu rola eta antolakuntza unitatea.
 3. Idatzi beharrezko eremuaren beste edozein informazio.
 
 Hurrengo taulan kostuen prezioen zerrendan eskulan tasak sortzerakoan garrantzitsuak diren zenbait arlo biltzen dira.
 
-| Eremua | Kokapena | Garrantzia, xedea eta orientazioa | Downstream eragina |
+| Eremua | Kokapena | Deskribapena | Downstream eragina |
 | --- | --- | --- | --- |
 | Funtzioa | **Orokorra** fitxa eta **Sortu bizkor** orrialdeak | Hautatu kostu-tasa aplikatzen zaion funtzioa. | Sarrerako estimazioaren edo benetako eginkizuna lerro honekin parekatuko da rolaren kostua lehenetsi ahal izateko. |
 | Baliabide-unitatea | **Orokorra** fitxa eta **Sortu bizkor** orrialdeak | Aukeratu enpresaren antolakuntza unitatea edo banaketa zeregin hori non erabiliko den. Adibidez, Fabrikam Indiako Robotika dibisioko garatzailea edo Fabrikam AEBetako Software dibisioaren garatzailea. | Sarrerako estimazioaren edo benetako baliabide-unitateak lerro honekin parekatuko da rolaren kostua lehenetsi ahal izateko. |
@@ -38,7 +36,7 @@ Hurrengo taulan kostuen prezioen zerrendan eskulan tasak sortzerakoan garrantzit
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Transferitu prezioak eta kostuak zure dibisio edo pertsona juridikotik kanpoko baliabideengatik
 
-Proiektuetan oinarritutako enpresetan, ohikoa da proiektuetan lege-erakunde edo sail desberdinetako langileak proiektuetan lan egiteko erabiltzeko. Proiektu bat pertsona juridiko batek exekutatu dezake, baina proiektuan lan egiten duten langile edo aholkulariak pertsona juridiko beretik edo beste batetik etor daitezke, edo bien konbinazioa egon daiteke. Dynamics 365 Project Operations-en, proiektuaren entregaren jabe den pertsona juridikoa da **Enpresa titularra** eta banaketaren jabea da **Kontratazio Unitatea**. Baliabideak eskaintzen dituzten beste pertsona juridikoak dira **Enpresa hornitzaileak** eta baliabideak eskaintzen dituzten zatiketak dira **Baliabideak hornitzeko unitateak**. Herrialde gehienetan, enpresek hornitzaileen pertsona juridikoa edo zatiketa ziurtatu behar dute, enpresa jabeari eta kontratazio unitateari baliabideak erabiltzeagatik kobratzen dutela.
+Proiektuetan oinarritutako enpresetan, ohikoa da proiektuetan lege-erakunde edo sail desberdinetako langileak proiektuetan lan egiteko erabiltzeko. Proiektu bat pertsona juridiko batek exekutatu dezake, baina proiektuan lan egiten duten langile edo aholkulariak pertsona juridiko beretik edo beste batetik etor daitezke, edo bien konbinazioa egon daiteke. Dynamics 365 Project Operations-en, proiektua entregatzeko jabe den pertsona juridikoa da **Enpresa titularra** eta banaketaren jabea da **Kontratazio-unitatea**. Baliabideak eskaintzen dituzten beste pertsona juridikoak dira **Enpresa hornitzaileak** eta baliabideak eskaintzen dituzten zatiketak dira **Baliabideak hornitzeko unitateak**. Herrialde gehienetan, enpresek hornitzaileen pertsona juridikoa edo zatiketa ziurtatu behar dute, enpresa jabeari eta kontratazio unitateari baliabideak erabiltzeagatik kobratzen dutela.
 
 Adibidez, Fabrikam korporazioak Fabrikam India-Robotics-ek Fabrikam US-Robotics edo Fabrikam UK-Robotics-ekin kostu tasa txartela negoziatu duela ziurtatu behar du.
 
@@ -82,3 +80,6 @@ Fabrikam UK-Robotics-en kostuen prezioen zerrendan, kostuen tasak honela adieraz
 | Garatzailea | Fabrikam UK | 115 GBP |
 
 Kostuen prezioen zerrendak lan-tasak moneta anitzetan eman ditzake. Proiektuaren kostu estimazioa sortzerakoan, Project Operations-en eragiketek kostu tasa horiek proiektuaren monetara bihurtuko dituzte eta erabiltzaileari bistaratuko dizkiete. Denbora sarrera onartzen denean eta kostu erreala sortzen denean, kostu erreala kostu prezioen zerrendako bat datorren rolaren prezio lerro horren monetan tasatzen da. Proiektu bakarreko denboraren kostu errealak moneta anitzetan erregistratu daitezke. Hala ere, proiektuaren benetako eskulanaren kostuak bildu edo laburtzerakoan, Project Operations-ek eskulanaren kostu kopuru guztiak proiektuaren monetara bihurtuko dituzte, erabiltzaileak ikus ditzakeenak.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

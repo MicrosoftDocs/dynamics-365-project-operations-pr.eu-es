@@ -2,18 +2,16 @@
 title: Sortu enpresen arteko bezeroa eta saltzaileen fakturak
 description: Gai honek enpresen arteko bezeroen eta saltzaileen fakturak nola sortu jakiteko informazioa eskaintzen du.
 author: sigitac
-manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287448"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989222"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Sortu enpresen arteko bezeroa eta saltzaileen fakturak
 
@@ -25,7 +23,9 @@ Mailegu-entitate juridikoko proiektuaren kontulariak bat-bateko prozesua ezar de
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Eskuz sortu enpresen arteko bezeroaren faktura proiektuaren transakzioetarako 
 
-Erabili prozedura hori enpresen arteko bezeroaren faktura proiektuaren transakzioetarako eskuz sortzeko. Bilatu langileek mailegu-entitate juridikoetako proiektuetan langileek argitaratutako orduak eta zure entitate juridikoak mailegu-entitate juridikoen izenean egindako gastuak. Pertsona juridikoaren izenaren, proiektuaren kontratuaren zenbakiaren, proiektuaren zenbakiaren, data tartearen edo aukera horien edozein konbinazioen arabera bila dezakezu. Bilaketaren emaitzetan, hautatu enpresen arteko faktura batean gehitzeko eragiketak.
+Erabili prozedura hori enpresen arteko bezeroaren faktura proiektuaren transakzioetarako eskuz sortzeko. Bilatu langileek mailegu-entitate juridikoetako proiektuetan langileek argitaratutako orduak eta zure entitate juridikoak mailegu-entitate juridikoen izenean egindako gastuak. Pertsona juridikoaren izenaren, proiektuaren kontratuaren zenbakiaren, proiektuaren zenbakiaren, data tartearen edo aukera horien edozein konbinazioen arabera bila dezakezu. Bilaketaren emaitzetan, hautatu enpresen arteko faktura batean gehitzeko eragiketak. 
+
+Mailegu-entitate juridikoan urrats hauek eman behar dira. 
 
 1. Dynamics 365 Finance-n , joan **Proiektuen kudeaketa eta kontabilitatea** > **Proiektuaren fakturak** > **Enpresen arteko bezeroen fakturak** aukerara. **Enpresen arteko bezeroen fakturak** zerrenda-orrialdean, Ekintza panelean, hautatu **Berria**.
 2. **Enpresen arteko faktura sortu** orrialdean, **Pertsona juridikoa** eremuan, hautatu mailegu-entitate juridikoa.
@@ -35,9 +35,9 @@ Erabili prozedura hori enpresen arteko bezeroaren faktura proiektuaren transakzi
 6. Bilaketaren emaitzetan, hautatu enpresen arteko faktura proposamenean sartu beharreko transakzioak, eta hautatu **Ados**.
 7. **Enpresen arteko bezeroaren faktura** orrian, bilaketa-emaitzetan hautatu dituzun enpresen arteko proiektuen transakzioak bistaratzen dira. Eragiketak aldatzeko maileguan dagoen pertsona juridikoari faktura bidali aurretik, egin hau:
   
-    1. Ireki **Sortu faktura proposamena** orrialdea. Aukeratu konpainien arteko transakzio osagarriak uneko fakturarako eta, ondoren, hautatu **Gehitu lerroa**.
+    1. **Enpresen arteko bezeroaren faktura** orrialdean, ireki fakturaren xehetasunak eta hautatu **Gehitu lerroa**.
     2. Lerro bat kentzeko, hautatu **Kendu**.
-    3. Ikusi iruzkinak, arrazoiak, dimentsio ekonomikoak eta hautatutako linea bati buruzko beste informazioa **Faktura lerroak** FastTab.
+    3. Ikusi iruzkinak, arrazoiak, finantza dimentsioak eta hautatutako linea bati buruzko beste informazioa faktura lerroaren xehetasunetan.
     
 8. Enpresen arteko bezeroen faktura argitaratzeko, Ekintza panelean, hautatu **Argitaratu**.
 
@@ -52,7 +52,7 @@ Enpresa arteko faktura anitz sor ditzakezu aldi berean maileguan dauden pertsona
 2. **Enpresen arteko bezeroen fakturak** orrialdean, **Enpresa** eremuan, hautatu fakturaren legezko entitatea fakturatzeko. Enpresarik aukeratzen ez baduzu, bilaketa-irizpideak betetzen dituzten transakzio guztiak bistaratuko dira maileguan dauden pertsona juridiko guztientzat.
 3. **Sortu faktura bakoitzeko**, aukeratu enpresen arteko transakzioen faktura proiektu batean oinarrituta edo mailegu-erakunde juridiko batean oinarrituta sortuko den.
 4. Aukerakoa: enpresen arteko fakturak sortzeko proiektu zehatz bat eta proiektuen kontratua hautatzeko, egin klik **Aukeratu** aukeran. **Kontsulta** orrialdean, **Irizpideak** eremuan, hautatu proiektuaren kontratua, proiektuaren zenbakia edo biak, eta hautatu **Ados**.
-5. **Sorta** fitxan, konfiguratu sorta prozesua konpainien arteko fakturak behin eta berriro sortzeko. Informazio gehiagorako, ikusi [Bidali batch prozesatzeko lana inprimaki batetik](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. **Sorta** fitxan, konfiguratu sorta prozesua konpainien arteko fakturak behin eta berriro sortzeko. Informazio gehiagorako, ikusi [Bidali batch prozesatzeko lana inprimaki batetik](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Enpresen arteko fakturak argitaratzeko, Ekintza panelean, hautatu **Argitaratu**.
 
 > [!NOTE]

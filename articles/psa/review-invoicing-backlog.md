@@ -2,8 +2,6 @@
 title: Berrikusi proiektuen eta proiektuen kontratuen fakturazioaren lana
 description: Gai honek denbora, gastua eta produktuen atzerapenak nola berrikusi eta fakturaziorako prest daudela markatzeko moduari buruzko informazioa eskaintzen du.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,14 +14,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eb6d942d61bf8b5d20afb75c88716132a596bcbd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071245"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006950"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Berrikusi proiektuen eta proiektuen kontratuen fakturazioaren lana
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -40,7 +40,7 @@ Fakturatu gabeko benetako salmentek fakturazioaren lana adierazten du eta faktur
 
 Denbora eta materialei dagokien fakturazioaren lana ikusteko, joan **Salmentak** \> **Fakturazioa** \> **Denboraren eta materialaren fakturazioaren atala**. Hautatu fakturatzeko prest dauden fakturatu gabeko benetako salmenta guztiak eta, ondoren, hautatu **Fakturatzeko prest**. Datu erreal horien fakturazio-egoera aldatu egingo da **Fakturatzeko prest** egoerara.
 
-![Denbora eta materialen fakturazioaren lana](media/TMBacklog.png)
+![Denbora eta materialen fakturazioaren lana.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Berrikusi produktuaren fakturazioaren lana
 
@@ -48,7 +48,7 @@ PSA-n, proiektuko kontratuak produktuetan oinarritutako kontratuaren lerroak dit
 
 Produktuen fakturazio lana berrikusteko, joan **Salmentak** \> **Fakturazioa** \> **Produktuen fakturazioaren lana** aukerara. Hautatu fakturatzeko prest dauden produktuan oinarritutako kontratuaren lerro guztiak eta, ondoren, hautatu **Fakturatzeko prest**. Lerro horien fakturazio-egoera aldatu egingo da **Fakturatzeko prest** egoerara.
 
-![Produktuaren fakturazioaren lana](media/ProductBacklog.png)
+![Produktuaren fakturazioaren lana.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Berrikusi prezio finkoko kontratuen mugarriak
 
@@ -56,4 +56,7 @@ Prezio finkoko fakturazio-metodoa duen proiektuaren kontratuaren lerro bakoitzak
 
 Fakturazio-mugarriak berrikusteko, joan **Salmentak** \> **Fakturazioa** \> **Prezio finkoen mugarriak** atalera. Hautatu fakturatzeko prest dauden mugarriak eta, ondoren, hautatu **Fakturatzeko prest**. Mugarri horien fakturazio-egoera aldatu egingo da **Fakturatzeko prest** egoerara.
 
-![Prezio finkoaren mugarriak](media/FPBacklog.png)
+![Prezio finkoaren mugarriak.](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

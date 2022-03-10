@@ -2,8 +2,6 @@
 title: Project Service Automation eguneratzearen 27.6 konponketa, V3 bertsioko berrikuntzak edo aldaketak
 description: Gai honek Project Service Automation 27.6 konponketa, V3 eguneratzea bertsioan berrian eskuragarri dauden eginbideak eta konponketak ditu.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/17/2021
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 829f0941f255aab11a37cacd90c0dca6f99bc2d2
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: 8754af4a500ac9c9115f06920e33bd36eba0ddc02d420041e6d8415eecc8de50
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948719"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008481"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-276-v3"></a>Project Service Automation eguneratzearen 27.6, V3 bertsioko berrikuntzak edo aldaketak
 

@@ -7,21 +7,21 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
-ms.translationtype: HT
+ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827310"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942870"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021eko azaroko berritasunak - Baliabideetan edo hornituta ez dauden agertokietarako proiektuen eragiketak
 
 *Honi aplikatzen zaio: Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations*
 
-Gai hau Dynamics 365 Project Operations Microsoft-en osagai eta bertsio hauei dagokie:
+Gai hau Microsoft-en osagai eta bertsio hauei dagokie Dynamics 365 Project Operations:
 
-- Proiektuaren Eragiketak Dataverse inguruneko bertsioan 4.26.0.145, 4.26.0.148, edo 4.26.0.150
-- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.22 bertsioan
+- Proiektuaren Eragiketak a Dataverse ingurunearen bertsioa 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
+- Proiektuen kudeaketa eta kontabilitatea a Dynamics 365 Finance ingurunearen 10.0.22 bertsioa
 
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
 
@@ -33,13 +33,13 @@ Eginbide hauek sartzen dira bertsio honetan:
 
 Ez dago bertsio honetan Project Operations idazketa bikoitzeko mapen eguneratzerik. Project Operations idazketa bikoitzeko mapen uneko zerrenda eta bertsioak ikusteko, ikusi [Project Operations idazketa bikoitzeko mapen bertsioak](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
-Exekutatu beti maparen azken bertsioa zure ingurunean, eta gaitu erlazionatutako taula-mapa guztiak zure Project Operations Dataverse soluzioa eta Finantza irtenbidearen bertsioa eguneratzen dituzun bitartean. Baliteke eginbide eta gaitasun batzuk behar bezala ez funtzionatzea maparen azken bertsioa aktibatuta ez badago. Maparen bertsio aktiboa helbidean ikus dezakezu **Bertsioa** zutabea **Idazketa bikoitza** orrialdean. Maparen bertsio berria aktibatzeko, hautatu **Taula maparen bertsioak**, hautatu azken bertsioa, eta ondoren, gorde hautatutako bertsioa. Kutxaz kanpoko taula-mapa bat pertsonalizatu baduzu, aplikatu berriro aldaketak. Informazio gehiago lortzeko, ikusi [Aplikazioaren bizi-zikloaren kudeaketa](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Exekutatu beti maparen azken bertsioa zure ingurunean, eta gaitu erlazionatutako taula-mapa guztiak zure proiektuaren eragiketak eguneratzen dituzun bitartean.Dataverse irtenbidea eta Finantza irtenbidearen bertsioa. Baliteke eginbide eta gaitasun batzuk behar bezala ez funtzionatzea maparen azken bertsioa aktibatuta ez badago. Maparen bertsio aktiboa helbidean ikus dezakezu **Bertsioa** zutabea **Idazketa bikoitza** orrialdean. Maparen bertsio berria aktibatzeko, hautatu **Taula maparen bertsioak**, hautatu azken bertsioa, eta ondoren, gorde hautatutako bertsioa. Kutxaz kanpoko taula-mapa bat pertsonalizatu baduzu, aplikatu berriro aldaketak. Informazio gehiago lortzeko, ikusi [Aplikazioaren bizi-zikloaren kudeaketa](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Mapa abiaraztean arazoren bat aurkitzen baduzu, jarraitu argibideei [Mapetan taulako zutabeak falta dira](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) Idazketa bikoitzeko arazoak konpontzeko gidaliburuaren atalean.
 
 ## <a name="quality-updates"></a>Kalitatearen eguneratzeak
 
-### <a name="project-operations-in-dataverse"></a>Proiektuaren eragiketak Dataverse-n
+### <a name="project-operations-in-dataverse"></a>Proiektuaren Eragiketak urtean Dataverse
 
 | Ezaugarrien eremua | Erreferentzia-zenbakia | Kalitatearen eguneratzea |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ Mapa abiaraztean arazoren bat aurkitzen baduzu, jarraitu argibideei [Mapetan tau
 | Proiektuaren kudeaketa eta kontabilitatea | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Saltzaileen atxikipena askatzen denean, bonoaren bidalketak okerrak diren lerro gehigarriak ditu. |
 | Proiektuaren kudeaketa eta kontabilitatea | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Project Operations integrazio aldizkaria argitaratzen denean, huts egiten du argitaratzen ez den kontu baten dimentsioak falta direlako. |
 | Proiektuaren kudeaketa eta kontabilitatea | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | The **Proiektua** fitxa ezin da editatu zain dagoen saltzaileen faktura batean kontratazio-kategoria elementuari esleitzen zaionean. |
-| Proiektuaren kudeaketa eta kontabilitatea | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Nabigazio-panela falta da ez bazaude saioa hasi Project Operations Dataverse. |
+| Proiektuaren kudeaketa eta kontabilitatea | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Nabigazio-panela falta da Project Operations-en saioa hasita ez bazaude Dataverse. |
 | Proiektuaren kudeaketa eta kontabilitatea | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Proiektu-faktura baten diru-sarrerak aplikatutako atxikipen-kasu batean argitaratzen dituzunean, arazo bat gertatzen da bonoaren transakzioak ez direlako orekatzen. |
 | Proiektuaren kudeaketa eta kontabilitatea | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Faktura-proposamena argitaratu ondoren estimazio bat sortzeak zuzenketa-lerroak blokeatzen ditu inportaziotik. |
 | Proiektuaren kudeaketa eta kontabilitatea | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Ezin izan beharko litzateke guztiz fakturatutako mugarrien erregistroa aldatzea. |

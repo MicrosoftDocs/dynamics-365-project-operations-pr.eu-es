@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002221"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991471"
 ---
 # <a name="security-model"></a>Segurtasunaren modeloa
 
@@ -58,7 +58,7 @@ Proiektuaren Eragiketek ez dute talderik sortzen ekintza inplizituaren bidez eta
 
 Taldeko kideen bilaketa **Taldearen kudeaketa** elkarrizketa-koadroa, inguruneko segurtasun-taldearen zati gisa ezartzen direnetara mugatuta dago. Informazio gehiago lortzeko, ikusi [Kontrolatu erabiltzaileen sarbidea inguruneetara: segurtasun-taldeak eta lizentziak](/power-platform/admin/control-user-access).
 
-![Talde modua](./media/groupsmode.png)
+![Talde modua.](./media/groupsmode.png)
 
 1. Proiektua sortu duen erabiltzailearen jabetzakoa da.
 2. Proiektuaren jabea taldeari eguneratu zaio.

@@ -1,33 +1,31 @@
 ---
 title: Benetako datuak
-description: Gai honek Microsoft Dynamics 365 Project Operations-en benetako datuekin lan egiteari buruzko informazioa eskaintzen du.
+description: Gai honek Microsoft Dynamics 365 Project Operations-en errealitateekin lan egiteko moduari buruzko informazioa eskaintzen du.
 author: rumant
-manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a086fe0be67c21ed73793b6f3b58b47ad08eaa4e8a4c98870b4b2264562e3dce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071026"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991786"
 ---
 # <a name="actuals"></a>Benetako datuak 
 
-_**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
+_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako Project Operations, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Oraingoak proiektu batean burutu den lan kopurua da. Denbora eta gastuen sarreren, eta egunkariaren sarreren eta fakturen ondorioz sortzen dira.
+Eguneratzeek proiektu batean berrikusitako eta onartutako finantza eta egutegia adierazten dute. Denbora, gastua, materialaren erabileraren sarrerak eta egunkarietako sarrerak eta fakturak onartzearen ondorioz sortzen dira.
 
 ## <a name="journal-lines-and-time-submission"></a>Aldizkari lerroak eta denbora bidaltzea
 
@@ -45,7 +43,7 @@ Prezio finkoa kontratu-lerro batera lotutako proiektu baterako denbora-sarrera b
 
 Prezio lehenetsiak sortzeko logika kutxako liburuaren lerroan dago. Aldi bateko sarrera-eremuko balioak kutxako liburuaren lerroan kopiatzen dira. Balio hauetan daude transakzioaren data, proiektua esleitu duen kontratuaren lerroa eta dibisaren emaitza prezioen zerrenda egokian.
 
-Prezio lehenetsiei eragiten dieten eremuak, adibidez **Funtzioa** eta **Organo-unitatea**, kutxako liburuaren lerroko prezio egokia zehazteko erabiltzen dira. Eremu pertsonalizatua gehi dezakezu denbora-sarreran. Eremuaren balioa aktualitatera hedatu nahi baduzu, sortu eremua Aktualitateko entitatean eta erabili eremuko mapak eremua kopiatzeko garaian benetako sarrerara.
+Prezio lehenetsiei eragiten dieten eremuak, adibidez **Funtzioa** eta **Baliabide-unitatea**, kutxako liburuaren lerroko prezio egokia zehazteko erabiltzen dira. Eremu pertsonalizatua gehi dezakezu denbora-sarreran. Eremuaren balioa benetakoetara hedatzea nahi baduzu, sortu eremua **Benetako datuak** eta **Kutxako liburuaren lerroa** taulak. Erabili kode pertsonalizatua hautatutako eremuaren balioa Denbora-sarreratik Eguneraino aldizkariaren lerroaren bidez transakzio-jatorriak erabiliz hedatzeko. Transakzioen jatorriari eta konexioei buruzko informazio gehiago lortzeko, ikusi [Benetakoak jatorrizko erregistroekin lotzea](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Aldizkari lerroak eta oinarrizko gastuen aurkezpena
 
@@ -57,24 +55,42 @@ Aurkezten den oinarrizko gastuaren sarrera bat denbora eta materialen kontratu-l
 
 ### <a name="fixed-price"></a>Prezio finkoa
 
-Prezio finkoa kontratu-lerro batera lotutako proiektu baterako oinarrizko gastuaren sarrera bat bidaltzen denean, sistemak kostuaren kutxako liburuaren lerro bat sortzen du.
+Bidalitako oinarrizko gastua kontratu-lerro batera esleitutako proiektu baterako denbora-sarrera bat bidaltzen denean, sistemak kutxako liburuaren lerro bat sortzen du kostuetarako.
 
 ### <a name="default-pricing"></a>Prezio lehenetsia
 
-Gastuetarako lehenetsitako prezioak sartzeko logika gastuen kategorian oinarritzen da. Transakzioaren data, proiektua esleitu duen kontratuaren lerroa eta dibisaren emaitza prezio-zerrenda egokia zehazteko erabiltzen dira. Hala ere, lehenespenez, prezio gisa ezarritako zenbatekoa gastu aldizkariaren lineetan kostua eta salmentak lehenetsiko dira.
+Gastuetarako lehenetsitako prezioak sartzeko logika gastuen kategorian oinarritzen da. Transakzioaren data, proiektua esleitu duen kontratuaren lerroa eta dibisaren emaitza prezio-zerrenda egokia zehazteko erabiltzen dira. Prezio lehenetsiei eragiten dieten eremuak, adibidez **Transakzioaren kategoria** eta **Unitatea**, kutxako liburuaren lerroko prezio egokia zehazteko erabiltzen dira. Hala ere, honek prezioen zerrendako prezioen metodoa dagoenean bakarrik funtzionatzen du **Unitateko prezioa**. Prezioen metodoa bada **Kostuan** edo **Markaketa kostuaren gainetik**, gastu sarrera sortzerakoan sartutako prezioa kosturako erabiltzen da eta salmenta egunkariaren lerroan prezioa prezio metodoaren arabera kalkulatzen da. 
 
-Gastu-sarreretan unitate bakoitzeko prezioen lehenetsitako kategorien sarrera ez dago erabilgarri.
+Gastu sarreran eremu pertsonalizatua gehi dezakezu. Eremuaren balioa benetakoetara hedatzea nahi baduzu, sortu eremua **Benetako datuak** eta **Kutxako liburuaren lerroa** taulak. Erabili kode pertsonalizatua hautatutako eremuaren balioa Denbora-sarreratik Eguneraino aldizkariaren lerroaren bidez transakzio-jatorriak erabiliz hedatzeko. Transakzioen jatorriari eta konexioei buruzko informazio gehiago lortzeko, ikusi [Benetakoak jatorrizko erregistroekin lotzea](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Aldizkari lerroak eta materialaren erabilera erregistroa bidaltzea
+
+Gastuen sarrerari buruzko informazio gehiago lortzeko, ikusi [Materialaren erabilera erregistroa](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Denbora eta materialak
+
+Aurkeztutako materialaren erabilera erregistroaren sarrera denbora eta materialen kontratu lerro batera mapatuta dagoen proiektuarekin lotzen denean, sistemak aldizkari lerro bi sortzen ditu, bata kostuarena eta bestea fakturatu gabeko salmentetarako.
+
+### <a name="fixed-price"></a>Prezio finkoa
+
+Bidalitako materialaren erabilera-erregistroaren sarrera kontratu-lerro batera esleitutako proiektu baterako denbora-sarrera bat bidaltzen denean, sistemak kutxako liburuaren lerro bat sortzen du kostuetarako.
+
+### <a name="default-pricing"></a>Prezio lehenetsia
+
+Materialaren prezio lehenetsiak sartzeko logika produktuaren eta unitateen konbinazioan oinarritzen da. Transakzioaren data, proiektua esleitu duen kontratuaren lerroa eta dibisaren emaitza prezio-zerrenda egokia zehazteko erabiltzen dira. Prezio lehenetsiei eragiten dieten eremuak, adibidez **Produktuaren IDa** eta **Unitatea**, kutxako liburuaren lerroko prezio egokia zehazteko erabiltzen dira. Hala ere, katalogoko produktuetarako bakarrik funtzionatzen du. Idatzi produktuetan, materialaren erabilera erregistroa sortzen denean sartutako prezioa aldizkari lerroetako kostu eta salmenta preziorako erabiltzen da. 
+
+**Materialaren erabilera-erregistroa** sarreran eremu pertsonalizatua gehi dezakezu. Eremuaren balioa benetakoetara hedatzea nahi baduzu, sortu eremua **Benetako datuak** eta **Kutxako liburuaren lerroa** taulak. Erabili kode pertsonalizatua hautatutako eremuaren balioa Denbora-sarreratik Eguneraino aldizkariaren lerroaren bidez transakzio-jatorriak erabiliz hedatzeko. Transakzioen jatorriari eta konexioei buruzko informazio gehiago lortzeko, ikusi [Benetakoak jatorrizko erregistroekin lotzea](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Erabili sarreren aldizkariak kostuak erregistratzeko
 
 Aldizkariek kostua edo diru-sarrerak erregistratzen dizkizute material, kuota, denbora, gastu edo zerga transakzio klaseetan. Aldizkariak helburu hauetarako erabil daitezke:
 
-- Erregistratu proiektuko materialen eta salmenten benetako datuen kostua.
-- Eraman transakzioen benetako datuak beste sistema batetik Microsoft Dynamics 365 Project Operations-era.
+- Eraman transakzioen egitateak beste sistema batetik Microsoft Dynamics 365 Project Operations-era.
 - Beste sistema batean gertatu diren kostuak erregistratu. Kostu horien artean kontratazio edo azpikontratazio kostuak sar daitezke.
 
 > [!IMPORTANT]
 > Aplikazioak ez ditu aldizkari lerro mota edo aldizkari lerroan sartutako erlazionatutako prezioak balioztatzen. Hori dela eta, egiazkoek proiektuan duten kontabilitate-inpaktuaz guztiz jabetzen den erabiltzaileak soilik erabili beharko lituzke sarrera-aldizkariak egiazkoak sortzeko. Aldizkari mota honen eragina dela eta, arretaz aukeratu beharko zenuke nork duen sarbidea aldizkariak sortzeko.
+
 ## <a name="record-actuals-based-on-project-events"></a>Erregistratu proiektuen gertaeretan oinarritutako benetako datuak
 
 Project Operations-ek proiektu batean gertatzen diren finantza-transakzioak erregistratzen ditu. Transakzio hauek honela erregistratzen dira: unekoak. Hurrengo tauletan, sortzen diren errealitate mota desberdinak daude, proiektuaren denbora eta materialak, prezio finkoa edo barne proiektua den ala ez, edo aurrez aurreko fasean dagoen ala ez, edo barne-proiektua den.
@@ -342,3 +358,6 @@ Project Operations-ek proiektu batean gertatzen diren finantza-transakzioak erre
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

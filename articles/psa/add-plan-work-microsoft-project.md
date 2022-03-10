@@ -2,8 +2,6 @@
 title: Erabili Project Service gehigarria Microsoft Project-ekin lanaren plangintza egiteko | MicrosoftDocs
 description: Gai honek Microsoft Project gehigarria Microsoft Project Service-en nola gehitu, konfiguratu eta erabiltzeko informazioa ematen du.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
-ms.translationtype: HT
+ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642753"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005286"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Antolatu Microsoft Project lana formateatzeko, Project Service Automation Proiektua Gehitu add-in erabili
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -229,3 +229,6 @@ Hurrengo taulan datuak Project Service Automation eta Microsoft Project mahaigai
 
 ### <a name="see-also"></a>Ikusi baita ere  
  [Proiektu-kudeatzailearen gida](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

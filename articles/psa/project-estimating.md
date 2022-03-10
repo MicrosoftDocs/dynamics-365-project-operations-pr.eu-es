@@ -2,8 +2,6 @@
 title: Proiektuaren kostuak eta diru-sarrerak
 description: Gai honek proiektuaren kostuak eta dir-sarrerak aurreikusteari buruzko informazioa eskaintzen du.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,20 +16,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127953"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002541"
 ---
 # <a name="project-costs-and-revenue"></a>Proiektuaren kostuak eta diru-sarrerak
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Proiektuaren aurreikuspenek proiektuaren antolaketan aurreikusitako eta antolatutako lanaren finantza ikuspegia eskaintzen dute. **Aurreikuspenak** fitxak, **Proiektuak** orrialdean, antolatzen ari zaren lanaren kostuaren eta diru-sarreren eragina erakusten du. Aurrez definitutako dimentsio ugariri buruzko informazioa ere ematen du. 
 
-> ![Aurreikuspenen fitxa](media/project-5.png)
+> ![Aurreikuspenen fitxa.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Proiektuaren kostuen eta salementen balioak
 
@@ -66,13 +66,13 @@ Sistemak ez badu aurkitzen funtzioaren preziorik, aurreikuspenaren lerroko salme
 
 **Aurreikuspenak** fitxak aurreikuspenen lerroak erakusten dituen sareta ikuspegi bat du. Saretak unitateko zutabeak, kostuaren prezio osoa eta salmenten prezio osoa ditu, hurrengo irudian erakusten den moduan. 
 
-> ![Gelaxka-ikuspegia Aurreikuspenak fitxan](media/project-6.png)
+> ![Gelaxka-ikuspegia Aurreikuspenak fitxan.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Ikuspegi ordua phased proiektua estimates
 
 Proiektuen estimazioen denbora-fasea ikuspegiak saretaren ikuspegiko denbora-lerroan aurreikusitako datuak erakusten ditu, zuk aukeratutako denbora-eskalan. Modu lehenetsian, aurreikusitako datuak **Funtzioa** dimentsioan aktibatzen dira.
 
-> ![Proiektuen aurreikuspenetarako denbora-fasea ikuspegia](media/project-7.png)
+> ![Proiektuen aurreikuspenetarako denbora-fasea ikuspegia.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Esleitu zereginaren moduan oinarritutako aurreikusitako ahalegina
 
@@ -95,3 +95,6 @@ Bai saretaren ikuspegian, bai denbora-fasearen ikuspegian, erakusten diren eremu
 ## <a name="expense-estimates"></a>Expense estimates
 
 Sareko ikuspegiko **Gehitu gastuen aurreikuspen berria** botoiak proiektuan sor daitezkeen gastuak erregistratzeko aukera ematen dizu, baina lanarekin zerikusirik ez dutenak. Zeregin jakin baterako edo proiektu osorako gastuen aurreikuspenak erregistratu ditzakezu. Aukeratu gastuen kategoriak eta gastua jasotzea espero duzun behin-behineko data. Lotuta dauden kostuen prezio-zerrendak eta salmenten prezio-zerrendak prezio lehenetsiak badituzte (edo gainprezioaren ehunekoak diren gastuen kategoriarako zehaztuta badaude), automatikoki gehituko dira aurreikuspenen lerroan esleipena egitean.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

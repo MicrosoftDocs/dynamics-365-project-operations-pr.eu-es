@@ -1,23 +1,22 @@
 ---
-title: Egin lan proiektuetan oinarritutako kontratuaren lerroekin - arina
+title: Proiektuetan oinarritutako kontratuaren lerroen ikuspegi orokorra
 description: Gai honek proiektuan oinarritutako kontratu lerroekin lan egiteari buruzko informazioa eskaintzen du.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7ec8973df1def3f707603019cdd45147423c1ae3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.custom: intro-internal
+ms.openlocfilehash: 7da8a7f898e6f0bb46d4cf6de65812e3aabb7416a2fdf2f9d9c8bad07e77cd85
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180627"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999031"
 ---
-# <a name="work-with-projectbased-contract-lines---lite"></a>Egin lan proiektuetan oinarritutako kontratuaren lerroekin - arina
+# <a name="project-based-contract-lines-overview"></a>Proiektuetan oinarritutako kontratuaren lerroen ikuspegi orokorra
 
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 Dynamics 365 Project Operations proiektuan oinarritutako kontratu lerroak proiektu batean egindako lanen osagai zehatzen aurrekontua eta fakturazio akordioak atxikitzeko diseinatuta daude. Proiektuan oinarritutako kontratu lerroaren egitura proiektuaren kalkuluen eta fakturazio eszenatokietarako hedatzen da, honako kontzeptu hauekin:
 
@@ -35,11 +34,12 @@ Ondorengo taulan eremuko eremuak biltzen dira **Orokorra** proiektuan oinarritut
 | --- | --- | --- |
 | **Izena** | Kontratuaren lerroaren izena. Honek kalkulatzen ari den kontratuaren osagai diskretua identifikatzen du. Aurrekontu batetik sortutako proiektu kontratu baterako, balio hori proiektuan oinarritutako aurrekontu lerroaren dagokion balio batetik kopiatzen da. | Faktura sortzen denean kontratu lerro honetatik sortzen den proiektuaren faktura lerroan kopiatutako izena. |
 | **Fakturazio-metodoa** | Aurrekontu batetik sortutako proiektu kontratu baterako, aurrekontuaren lerroaren dagokion balio batetik kopiatzen da. Hau da aukera multzo, Project Operations-ek onartzen dituzten bi kontratazio eredu nagusiak adierazten dituena:</br>- **Prezio finkoa**</br>- **Denbora eta materiala** | Aipatutako kontratu lerroaren fakturazio metodoan oinarrituta, benetako transakzioa prozesatuko da. Benetakoak aipatzen duen kontratu lerroak denbora eta materiala fakturatzeko metodoa badu, kostuen eta fakturatu gabeko salmenten benetako erregistroak sortzen dira. Benetakoak aipatzen duen kontratu-lerroak prezio finkoko fakturazio-metodoa badu, benetako kostua soilik sortzen da. |
-| **Project** | Erabili eremu hau konpromiso horretan lana emateko erabiliko den proiektua identifikatzeko. | Balio hau honekin batera erabiliko da **Zereginak barne** eta **Barne transakzio klaseak** kontratu-lerroaren erreferentzia benetako edo aurrekontuko lerro erregistro batean ebazteko. |
+| **Project** | Erabili eremu hau konpromiso horretan lana emateko erabiliko den proiektua identifikatzeko. | Balio hau honekin batera erabiliko da **Zereginak barne** eta **Barne transakzio klaseak** kontratu-lerroaren erreferentzia benetako edo kalkulatutako linea-erregistro batean ebazteko. |
 | **Gehitutako zereginak** | Kontratu lerro honek hautatutako proiektuaren proiektuko zeregin guztiak edo zereginen azpimultzo bat bakarrik biltzen dituen adierazten du. Aukera multzo bat da, balore hauek ditu:</br>- **Proiektuen zeregin guztiak**</br>- - **Hautatutako proiektu-zereginak soilik**. Eremu honetako balio huts bat hautatzearen berdina da **Proiektuaren zeregin guztiak**. | **Aukeratutako zereginak soilik** hautatuta dago, zeregin zehatzak hautatu eta kontratu lerro honekin lotu ditzakezu **Zereginen fakturazio konfigurazioa** fitxan **Proiektua** orrialdea. Balio hau honekin batera erabiliko da **Proiektua** eta **Barne transakzio klaseak** kontratu-lerroaren erreferentzia benetako edo aurrekontuko lerro erregistro batean ebazteko. |
-| **Idatzi denbora** | Bandera batek hautatutako proiektuaren denborako transakzioak edo lan kostuak kontratu linea honetan sartuko diren adierazten du. **Ez** balioak kontratuaren lerroan sartzen ez diren transakzioak edo denbora-transakzioak adierazten du. **Bai** balioak egingo dutela adierazten du. | Balio hau honekin batera erabiliko da proiektua kontratu-lerroaren erreferentzia benetako edo aurrekontuko lerro erregistro batean ebazteko. |
-| **Idatzi gastua** | Bandera batek hautatutako proiektuaren kostuak kontratu linea honetan sartuko diren adierazten du. **Ez** balioak kontratuaren lerroan sartzen ez diren gastuen kostuak adierazten du. **Bai** balioak egingo dutela adierazten du. | Balio hau honekin batera erabiliko da proiektua kontratu-lerroaren erreferentzia benetako edo aurrekontuko lerro erregistro batean ebazteko. |
-| **Idatzi prezioa** | Bandera batek hautatutako proiektuaren zergak kontratu linea honetan sartuko diren adierazten du. **Ez** balioak kontratuaren lerroan sartzen ez diren zergak adierazten du. **Bai** balioak egingo dutela adierazten du. | Balio hau honekin batera erabiliko da proiektua kontratu-lerroaren erreferentzia benetako edo aurrekontuko lerro erregistro batean ebazteko. |
+| **Idatzi denbora** | **Bai**/**Ez** balioa adierazten du hautatutako proiektuaren denborako transakzioak edo lan kostuak kontratuaren lerro honetan sartuko diren. **Ez** balioak kontratuaren lerroan sartzen ez diren transakzioak edo denbora-transakzioak adierazten du. **Bai** balioak egingo dutela adierazten du. | Balio hori proiektuarekin batera erabiltzen da kontratu-lerroaren erreferentzia benetako edo kalkulu-lerro erregistro batean ebazteko. |
+| **Idatzi gastua** | **Bai**/**Ez** balioa adierazten du hautatutako proiektuaren gastuen kostuak kontratuaren lerro honetan sartuko diren. **Ez** balioak kontratuaren lerroan sartzen ez diren gastuen kostuak adierazten du. **Bai** balioak egingo dutela adierazten du. | Balio hori proiektuarekin batera erabiltzen da kontratu-lerroaren erreferentzia benetako edo kalkulu-lerro erregistro batean ebazteko. |
+| **Sartu materialak** | **Bai**/**Ez** balioa adierazten du hautatutako proiektuaren materialaren kostuak kontratuaren lerro honetan sartuko diren. **Ez** balioa adierazten du materialaren kostuak kontratuaren lerro honetan ez diren sartuko. **Bai** balioak egingo dutela adierazten du. | Balio hori proiektuarekin batera erabiltzen da kontratu-lerroaren erreferentzia benetako edo kalkulu-lerro erregistro batean ebazteko. |
+| **Idatzi prezioa** | **Bai**/**Ez** balioa adierazten du hautatutako proiektuaren komisioak kontratuaren lerro honetan sartuko diren. **Ez** balioak kontratuaren lerroan sartzen ez diren zergak adierazten du. **Bai** balioak egingo dutela adierazten du. | Balio hori proiektuarekin batera erabiltzen da kontratu-lerroaren erreferentzia benetako edo kalkulu-lerro erregistro batean ebazteko. |
 | **Kontratatutako zenbatekoa** | Prezio finkoko kontratu lerroan, zenbateko hori bezeroari fakturatuko zaion hitzarmenaren balioa da, kontratu lerro honi lotutako lan osagai guztiengatik. Denboraren eta materialaren kontratuaren lerroan, zenbateko hori bezeroari fakturatuko zaion aurreikusitako balioa da, kontratu lerro honi lotutako lan osagai guztiengatik. Aurrekontu batetik sortutako proiektu kontratu baterako, aurrekontuaren lerroaren dagokion balio batetik kopiatzen da. Proiektuan oinarritutako kontratu lerro batek lerroaren xehetasunak dituenean, eremu hau blokeatuta dago editatzeko eta kontratuaren lerroaren xehetasunen zenbatekoaren arabera laburbiltzen da. | Kontratu-lerroak lerroaren xehetasunak dituenean, balio hori alda daiteke lerroaren xehetasunen zenbatekoak aldatuta. Prezio finkoko kontratu lerroan, balio hori aldizkako fakturazio mugarrien gaineko zerga aurretik zenbatekoa sortzeko erabiltzen da. |
 | **Aurreikusitako zerga** | Erabiltzaileak eremu hau alda dezake, aurreikusitako zergaren zenbatekoa kontratu lerroan sartzeko. Proiektuan oinarritutako kontratu lerro batek lerroaren xehetasunak dituenean, eremu hau blokeatuta dago editatzeko eta kontratuaren lerroaren xehetasunen zerga-zenbatekoaren arabera laburbiltzen da. | Kontratu-lerroak lerroaren xehetasunak dituenean, balio hori alda daiteke lerroaren xehetasunen zerga-zenbatekoak aldatuta. Prezio finkoko kontratu lerroan, balio hori aldizkako fakturazio mugarrien gaineko zerga sortzeko erabiltzen da. |
 | **Kontratatutako zenbatekoa, zergaren ondoren** | Kontratatuaren lerroaren zenbatekoa zergaren ondoren. Eremu hau irakurtzeko soilik da eta honela kalkulatzen da **Kontratatutako zenbatekoa + Zerga**. | Prezio finkoko kontratu lerroan, balio hori aldizkako fakturazio mugarriak sortzeko erabiltzen da. |
@@ -54,15 +54,559 @@ Ondorengo taulan eremuko eremuak biltzen dira **Orokorra** proiektuan oinarritut
 
 3. araua: **Zereginak barne** eremua ezarrita dago **Hautatutako proiektuak soilik**, proiektu bat eta transakzio klase jakin bat kontratuaren proiektuan oinarritutako kontratuaren hainbat lerrotan sar daitezke.
 
-| Kontratua | Kontratuaren lerroa | Project | Gehitutako zereginak      | Idatzi denbora | Idatzi gastua | Idatzi prezioa | Baliozkoa/Baliogabea da | Arrazoia                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|----------|---------------|---------|---------------------|--------------|-----------------|-------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| C1       | CL1           | A1      | Hutsik               | Yes          | Yes             | Yes         | Baliogabea da       | 2. araua haustea. P1 proiektuaren denbora, gastua eta tasak kontratuaren linea bietan, CL1 eta CL2 barne daude.                                                                                                                                                                                                                                                                                                              |
-| C1       | CL2           | A1      | Hutsik               | Yes          | Yes             | Yes         | Baliogabea da       | 2. araua haustea. P1 proiektuaren denbora, gastua eta tasak kontratuaren linea bietan, CL1 eta CL2 barne daude.                                                                                                                                                                                                                                                                                                              |
-| C1       | CL1           | A1      | Hutsik               | Yes          | +Ez              | Yes         | Baliogabea da       | 2. araua haustea. P1 proiektuaren denbora eta tasak kontratuaren linea bietan, CL1 eta CL2 barne daude.                                                                                                                                                                                                                                                                                                                          |
-| C1       | CL2           | A1      | Hutsik               | Yes          | Yes             | Yes         | Baliogabea da       | 2. araua haustea. P1 proiektuaren denbora eta tasak kontratuaren linea bietan, CL1 eta CL2 barne daude.                                                                                                                                                                                                                                                                                                                          |
-| C1       | CL1           | A1      | Hutsik               | Yes          | +Ez              | Yes         | Baliozkoa           | P1 proiektuaren denbora eta tasak CL1ean sartzen dira. P1 proiektuaren gastuak QL2n sartzen dira. </br>   Kontratu lerro bakoitzean sartzen den horretan ez dago gainjartzerik eta, beraz, balio du.                                                                                                                                                                                                                         |
-| C1       | CL2           | A1      | Hutsik               | +Ez           | Yes             | +Ez          | Baliozkoa           | P1 proiektuaren denbora eta tasak CL1ean sartzen dira. P1 proiektuaren gastuak QL2n sartzen dira. </br>   Kontratu lerro bakoitzean sartzen den horretan ez dago gainjartzerik eta, beraz, balio du.                                                                                                                                                                                                                         |
-| C1       | CL1           | A1      | Hautatutako zereginak soilik | Yes          | Yes             | Yes         | Baliogabea da       | 2. araua haustea.   </br>- P1 proiektuan C1 proiektuaren zereginen azpimultzo baten denbora, gastuak eta tasak sartzen dira. </br>- CL2-k P1 proiektu osorako denbora, gastuak eta tasak biltzen ditu eta, beraz, C1-en sartutakoarekin gainjartzen da.                                                                                                                                                                                          |
-| C1       | CL2           | A1      | Hutsik               | Yes          | Yes             | Yes         | Baliogabea da       | 2. araua haustea.   </br>- P1 proiektuan C1 proiektuaren zereginen azpimultzo baten denbora, gastuak eta tasak sartzen dira. </br>- CL2-k P1 proiektu osorako denbora, gastuak eta tasak biltzen ditu eta, beraz, C1-en sartutakoarekin gainjartzen da.                                                                                                                                                                                          |
-| C1       | CL1           | A1      | Hautatutako zereginak soilik | Yes          | Yes             | Yes         | Baliozkoa           | 3. arauaren arabera</br>- P1 proiektuan C1 proiektuaren zereginen azpimultzo baten denbora, gastuak eta tasak sartzen dira. </br> - P1 proiektuan CL2 proiektuaren zereginen azpimultzo baten denbora, gastuak eta tasak sartzen dira. </br> Balidazio osagarri bakarra CL1-eko zereginen azpimultzoan dago, CL2-ko zereginen azpimultzoaren desberdina dela gainjartzerik ez dagoela ziurtatzeko. Balidazio hau sistemak burutzen du zereginak lotzen direnean. |
-| C1       | CL2           | A1      | Hautatutako zereginak soilik | Yes          | Yes             | Yes         | Baliozkoa           | 3. arauaren arabera</br>- P1 proiektuan C1 proiektuaren zereginen azpimultzo baten denbora, gastuak eta tasak sartzen dira. </br> - P1 proiektuan CL2 proiektuaren zereginen azpimultzo baten denbora, gastuak eta tasak sartzen dira. </br> Balidazio osagarri bakarra CL1-eko zereginen azpimultzoan dago, CL2-ko zereginen azpimultzoaren desberdina dela gainjartzerik ez dagoela ziurtatzeko. Balidazio hau sistemak burutzen du zereginak lotzen direnean. |
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    <strong>Kontratua</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Kontratuaren lerroa</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Project</strong>
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    <strong>Gehitutako zereginak</strong>
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    <strong>Idatzi denbora</strong>
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    <strong>Idatzi gastua</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Materialak barne</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Gehitu</strong>
+                </p>
+                <p>
+                    <strong>Tasa</strong>
+                </p>
+            </td>
+            <td width="53" valign="top">
+                <p>
+                    <strong>Baliozkoa/Baliogabea da</strong>
+                </p>
+            </td>
+            <td width="250" valign="top">
+                <p>
+                    <strong>Arrazoia</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+A1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Hutsik </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Baliogabea da </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+2. araua haustea. P1 proiektuaren denbora, gastuak, materialak eta tasak Kontratuaren lerroetan, CL1 eta CL2 barne daude.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+A1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Hutsik </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+A1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Hutsik </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Baliogabea da </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+2. araua haustea. P1 proiektuaren denbora, materialak eta tasak Kontratuaren lerroetan, CL1 eta CL2 barne daude.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+A1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Hutsik </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+A1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Hutsik </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Baliozkoa </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+P1 proiektuaren denbora, materialak eta tasak CL1 barne daude.
+                </p>
+                <ul>
+                    <li>
+P1 proiektuaren gastuak QL2n sartzen dira.
+                    </li>
+                </ul>
+                <p>
+Kontratuaren lerro bakoitzean sartzen denaren gainetik ez dago gainjartzerik eta, beraz, baliozkoa da.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+A1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Hutsik </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+No </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+A1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Hautatutako zereginak soilik </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Baliogabea da </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+2. araua haustea </p>
+                <p>
+P1 proiektuan P1 proiektuaren zereginen azpimultzo baten denbora, materialak, gastuak eta tasak sartzen dira.
+                </p>
+                <p>
+CL2-k P1 proiektu osorako denbora, materialak, gastuak eta tasak biltzen ditu eta, beraz, C1-en sartutakoarekin gainjartzen da.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+A1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Hutsik </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+A1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Hautatutako zereginak soilik </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Baliozkoa </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+3. arauaren arabera </p>
+                <p>
+P1 proiektuan P1 proiektuaren zereginen azpimultzo baten denbora, gastuak, materialak eta tasak sartzen dira.
+                </p>
+                <p>
+CL2k barne ditu P1 proiektuaren zereginen azpimultzo baten denbora, materiala, gastuak eta tasak sartzen dira.
+                </p>
+                <p>
+Balidazio osagarri bakarra CL1-eko zereginen azpimultzoaren inguruan kokatzen da, CL2-ren zereginen azpimultzoaren desberdina dela gainjartzerik ez dagoela ziurtatzeko. Sistemak zereginak lotzen dituenean egiten du.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+A1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Hautatutako zereginak soilik </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Yes </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

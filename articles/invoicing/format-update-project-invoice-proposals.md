@@ -2,18 +2,16 @@
 title: Kudeatu proiektuaren faktura-proposamenak
 description: Gai honek baliabideetan/stockean oinarritutako egoeren Project Operations-ekin bezeroari begirako fakturak prozesatzeari buruzko xehetasunak ematen ditu.
 author: sigitac
-manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275838"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989896"
 ---
 # <a name="manage-project-invoice-proposals"></a>Kudeatu proiektuaren faktura-proposamenak
 
@@ -80,7 +78,8 @@ Prezio finkoko fakturazio metodoa erabiliz proiektuen kontratu lineak fakturatze
     - **Bezeroa**: bezeroaren fakturazio salmenten gaineko zerga taldea lehenetsiko du beti.
     - **Bilatu**: goiko entitate guztietan bilatuko du eta eskuragarri dagoen lehen balioa hautatuko du. Bilaketa ikurrarekin hasten da **Proiektua** entitatea, **Proiektuaren kontratua** entitatea, eta **Bezeroa** entitatea.
 
-- **Prezio finkoaren mugarri elementuen salmenten gaineko zerga taldea** balioa balio lehenetsi gisa erabiltzen da **Artikuluen salmenten gaineko zergaren taldea** eremu gisa.
+- **Prezio finkoaren mugarriaren salmenten gaineko zerga taldea** fitxategian balio lehenetsi gisa erabiltzen da **Artikuluen salmenten gaineko zergaren taldea** fakturazio mugarriaren eremua. Kontulariak balio hori berrikusi eta alda dezake **Kontuko transakzioak** orrialdea. Sistemak kontuko transakzioaren balioa erabiltzen du proiektuaren faktura proposamen lerro bat sortzerakoan.
+ 
 
 ### <a name="financial-dimensions"></a>Finantza-dimentsioak
 
@@ -132,7 +131,7 @@ Proiektuaren kontulariak proiektuaren fakturen inprimaketa pertsonaliza dezake *
 
 Inprimatze kudeaketak txosten fitxategi desberdinak erabiltzen ditu fakturaren inprimatzeko, helmugak zehazteko eta orri-oina pertsonalizatzeko. Inprimatze kudeaketa modulu mailan konfigura daiteke, hala ere ezarpen horiek bezero, kontratu edo faktura proposamen zehatz baterako gainidatz daitezke. Funtzio honetara sartzeko **Proiektuaren faktura proposamena** orrialdean, hautatu **Inprimatu** > **Inprimatze-kudeaketa**.
 
-Inprimatze kudeaketa konfigurazioa zuhaitz ikuspegi gisa bistaratzen da, non nodo maila bakoitzak doitzeko dauden dokumentuak bistaratzen ditu. Inprimaketa pertsonalizatuak esleitu ditzakezu moduluan, bezeroan, kontratuan edo faktura proposamenaren dokumentu mailan. Jatorrizko dokumentuaren inprimaketa aldatzeko, zabaldu nahi duzun nodoa eta hautatu **Elementu originala**. **Txosten formatua** eremuan, hautatu inprimatzeko erabiliko den txosten formatua. Txosten formatu pertsonalizatuak erabil ditzakezu [Negozioaren dokumentu-kudeaketaren esparrua](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) erabiliz.
+Inprimatze kudeaketa konfigurazioa zuhaitz ikuspegi gisa bistaratzen da, non nodo maila bakoitzak doitzeko dauden dokumentuak bistaratzen ditu. Inprimaketa pertsonalizatuak esleitu ditzakezu moduluan, bezeroan, kontratuan edo faktura proposamenaren dokumentu mailan. Jatorrizko dokumentuaren inprimaketa aldatzeko, zabaldu nahi duzun nodoa eta hautatu **Elementu originala**. **Txosten formatua** eremuan, hautatu inprimatzeko erabiliko den txosten formatua. Txosten formatu pertsonalizatuak erabil ditzakezu [Negozioaren dokumentu-kudeaketaren esparrua](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) erabiliz.
 
 ## <a name="post-invoice-proposals"></a>Argitaratu fakturen proposamenak
 

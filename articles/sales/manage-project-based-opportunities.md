@@ -2,18 +2,16 @@
 title: Kudeatu proiektuetan oinarritutako abaguneak
 description: Gai honek proiektuekin erlazionatutako aukerekin lan egiteko moduari buruzko informazioa eskaintzen du.
 author: rumant
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: d640bda1f325c283e591eb8d1a100d4e6b09d76ae847833e9664c3631eabd154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118458"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991876"
 ---
 # <a name="manage-project-based-opportunities"></a>Kudeatu proiektuetan oinarritutako abaguneak
 
@@ -21,7 +19,7 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 Proiektuetan oinarritutako konpainiek herrialde eta geografi anitzetan banatzeko eragiketak izaten dituzte. Proiektuaren exekuzioaren eta entregaren kostua alda daiteke banaketa kudeatzen duen geografiaren edo sailaren arabera. Aldiz, horrek akordioaren marjinetan eragina izan dezake. Proiektuetan oinarritutako zerbitzuak emateak giza baliabideen denbora kopuru handia, bidaiatzeko gastu handiak, kostu materialak eta bestelako gastuak dakartza normalean.
 
-Dynamics 365 Project Operations-eko proiektuetan oinarritutako abaguneak Dynamics 365 Sales-en luzapenekin diseinatuta daude. Gaiak proiektuetan oinarritutako enpresek proiektuetan oinarritutako aukerak kudeatzeko eskatzen duten funtzionalitate osagarriaren barne dauden arlo eta negozio logikari buruzko xehetasunak eskaintzen ditu.
+Dynamics 365 Project Operations-eko proiektuan oinarritutako abaguneak Dynamics 365 Sales-erako luzapenekin diseinatuta daude. Gaiak proiektuetan oinarritutako enpresek proiektuetan oinarritutako aukerak kudeatzeko eskatzen duten funtzionalitate osagarriaren barne dauden arlo eta negozio logikari buruzko xehetasunak eskaintzen ditu.
 
 ## <a name="view-all-project-based-opportunities"></a>Ikusi proiektuetan oinarritutako abagune guztiak
 
@@ -64,4 +62,7 @@ Project Operations-en Aukera salmenta prozesua Salmenta aplikazioko Aukera salme
 >
 > Zure proiektuan oinarritutako akordioa Abagune batekin hasi bada, Bezerogai-salmenten negozio prozesuak lehentasuna du.
 
-Negozio-prozesuaren fluxu produktua editatu edo zure negozio prozesuen fluxuak sor ditzakezu zure salmenta prozesua behar bezala jarraitzeko. Negozio-prozesuaren fluxuari buruz gehiago jakiteko, ikusi [Negozio-prozesuaren fluxu informazio orokorra](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+Negozio-prozesuaren fluxu produktua editatu edo zure negozio prozesuen fluxuak sor ditzakezu zure salmenta prozesua behar bezala jarraitzeko. Negozio-prozesuaren fluxuari buruz gehiago jakiteko, ikusi [Negozio-prozesuaren fluxu informazio orokorra](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

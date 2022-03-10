@@ -2,12 +2,10 @@
 title: Eremu pertsonalizatuak prezio-dimentsio gisa konfiguratzea
 description: Gai honek prezio-dimentsio pertsonalizatuak ezartzeko informazioa eskaintzen du.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150338"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002316"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Eremu pertsonalizatuak prezio-dimentsio gisa konfiguratzea 
 
@@ -43,11 +41,11 @@ Eremu bat prezio-dimentsio bihurtzeko, honelakoa izan behar da:
 - Eremu gisa sortua **Funtzio-prezioa** eta **Funtzio-prezioen gainprezioa** entitateetan. Hori egiteko moduari buruzko informazio gehiago lortzeko, ikusi [Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan](field-references.md).
 - Errenkada gisa sortua **Prezio-dimentsioa** taulan. Adibidez, gehitu prezio-dimentsioen errenkadak hurrengo grafikoan erakusten den bezala. 
 
-![Zenbatekoan oinarritutako prezio-dimentsioen errenkadak](media/Amt-based-PD.png)
+![Zenbatekoan oinarritutako prezio-dimentsioen errenkadak.](media/Amt-based-PD.png)
 
 Kontuan izan Baliabideen lanorduak (**msdyn_resourceworkhours**) gainprezioan oinarritutako dimentsio gisa gehitu dela eta saretan gehitu dela **Gainprezioan oinarritutako prezio-dimentsioa** fitxan.
 
-![Gainprezioan oinarritutako prezio-dimentsioen errenkadak](media/Markup-based-PD.png)
+![Gainprezioan oinarritutako prezio-dimentsioen errenkadak.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Taula honetako prezio-dimentsioko datuen aldaketa guztiak, lehendik daudenak edo berriak, Project Service-ren prezioen negozio logikara hedatzen dira cachea freskatu ondoren soilik. Cachea freskatzeko denbora 10 minutu ingurukoa da. Onartu denbora hori prezio-dimentsioko datuen aldaketek eragin behar duten prezioen lehenetsitako logikaren aldaketak ikusteko.
@@ -75,7 +73,7 @@ Bi prezio-dimentsio mota daude:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|In situ            |                    |Aparteko orduak                 |15     |
 |             | Contoso India|Lokala             |                    |Aparteko orduak                 |10     |
-|             | Contoso US   |Lokala             |                    |Aparteko orduak                 |20     |
+|             | Contoso AEBetan   |Lokala             |                    |Aparteko orduak                 |20     |
 
 
 Oinarrizko tasa 100 USD duen Contoso India-ko baliabide bat lanean ari bada, eta ohiko orduetan 8 ordu eta aparteko orduetan 2 ordu erregistratzen badituzte, Project Service-ren prezioaren motorrak 100eko oinarri-tasa erabiliko du 8 orduetarako 800 USD grabatzeko. Aparteko 2 orduetarako, % 15eko gainprezioa aplikatuko zaio 100eko oinarrizko tasari 115 USD-eko unitate-prezioa lortzeko eta 230 USD-eko kostu osoa erregistratuko du.
@@ -94,3 +92,6 @@ Dimentsioaren lehentasuna zehazteak Project Service-ren prezioari prezio bat sor
 
 - **Kostuen lehentasuna**: dimentsio baten kostuaren lehentasunaren balioak dimentsio horren pisua adieraziko du kostuen prezioen konfigurazioarekin bat datorrenean. **Kostuen lehentasuna** eremuaren balioak bakarra izan behar du **Kostuari aplikagarria** dimentsioetan.
 - **Salmenten lehentasuna**: dimentsio baten salmenten lehentasunaren balioak dimentsio horren pisua adieraziko du salmenten prezioen edo faktura-tasen konfigurazioarekin bat datorrenean. **Salmenten lehentasuna** eremuaren balioak bakarra izan behar du **Salmentei aplikagarria** dimentsioetan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

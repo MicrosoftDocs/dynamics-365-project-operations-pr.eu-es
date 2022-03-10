@@ -2,11 +2,9 @@
 title: Sinkronizatu proiektuen kontratuak eta proiektuak zuzenean Project Service Automation-etik Finance-ra
 description: Gai honek deskribatzen du txantiloia eta azpiko zereginak erabiliak direnak sinkronizatzeko kontratuak eta proiektuak proiektuak zuzenean Microsoft Dynamics 365 Project Service Automation hurrengora Dynamics 365 Finance.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764804"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001056"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sinkronizatu proiektuen kontratuak eta proiektuak zuzenean Project Service Automation-etik Finance-ra 
 
@@ -44,7 +42,7 @@ Project Service Automation to Finance integrazio irtenbideak Datu integrazio fun
 
 Ondorengo ilustrazioak erakusten du nola sinkronizatzen diren datuak Project Service Automation eta Finance artean.
 
-[![Project Service Automation Finantzarekin integratzeko datuen fluxua](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Project Service Automation Finantzarekin integratzeko datuen fluxua.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Txantiloiak eta zereginak
 
@@ -109,8 +107,8 @@ Project Service Automation to Finance integrazio irtenbidea aplikatzen denean, b
 ## <a name="prerequisites-and-mapping-setup"></a>Aurrebaldintzak eta mapen konfigurazioa
 
 - Proiektuen kontratuen eta proiektuen sinkronizazioa gertatu aurretik, kontuak sinkronizatu behar dituzu.
-- Zure konexio multzoan, gehitu integrazio gako eremuen mapak **msdyn\_antolakuntza-unitateak** hurrengora **msdyn\_izena \[Izena\]**. Baliteke proiektu bat konexio multzoari gehitu behar izatea. Informazio gehiagorako, ikus [Integratu datuak Common Data Service Aplikazioetarako](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- Zure konexio multzoan, gehitu integrazio gako eremuen mapak **msdyn\_proiektuak** hurrengora **msdyn\_proiektuarenzenbakia \[Proiektuaren zenbakia\]**. Baliteke proiektu bat konexio multzoari gehitu behar izatea. Informazio gehiagorako, ikus [Integratu datuak Common Data Service Aplikazioetarako](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Zure konexio multzoan, gehitu integrazio gako eremuen mapak **msdyn\_antolakuntza-unitateak** hurrengora **msdyn\_izena \[Izena\]**. Baliteke proiektu bat konexio multzoari gehitu behar izatea. Informazio gehiagorako, ikus [Integratu datuak Common Data Service Aplikazioetarako](/powerapps/administrator/data-integrator).
+- Zure konexio multzoan, gehitu integrazio gako eremuen mapak **msdyn\_proiektuak** hurrengora **msdyn\_proiektuarenzenbakia \[Proiektuaren zenbakia\]**. Baliteke proiektu bat konexio multzoari gehitu behar izatea. Informazio gehiagorako, ikus [Integratu datuak Common Data Service Aplikazioetarako](/powerapps/administrator/data-integrator).
 - **SourceDataID** proiektuetarako kontratuak eta proiektuak beste balio batera eguneratu edo mapatik kendu daitezke. Txantiloi balio lehenetsia da **Project Service Automation**.
 - **Ordainketa baldintzak** mapak eguneratu behar dira, Finantzan ordainketa baldintzak baliozkoak izan daitezen. Kartografia proiektuaren zereginetik ere kendu dezakezu. Lehenetsitako balioen mapak balio lehenetsiak ditu demo datuetarako. Hurrengo taulan Project Service Automation-eko balioak agertzen dira.
 
@@ -131,7 +129,7 @@ Erabili Excel-erako Microsoft Power Query datuak iragazteko baldintza hauek bete
 Power Query erabili behar baduzu, jarraitu jarraibide hauek:
 
 - Proiektuak eta kontratuak (PSA Fin eta Ops) txantiloiak iragazki lehenetsia du, salmenta aginduak soilik biltzen dituena **Laneko elementua (msdyn\_ordertype = 192350001)** mota. Iragazki honek Finantzako salmenta-eskaeretarako proiektuen kontratuak ez direla bermatzen laguntzen du. Zure txantiloia sortzen baduzu, iragazki hau gehitu behar duzu.
-- Sortu Power Query iragazkia, integrazio konexio multzoaren entitate juridikoarekin sinkronizatuta egon beharko luketen kontratu erakundeak soilik biltzen dituena. Adibidez, Contoso AEBetako kontratuaren antolakuntza-unitatearekin dituzun proiektuen kontratuak USSI entitate juridikoarekin sinkronizatuta egon beharko lirateke, baina Contoso Global-en kontratuaren antolakuntza-unitatearekin dituzun proiektuen kontratuak USMF entitate juridikoarekin sinkronizatu beharko lirateke. Iragazki hau zure zereginen mapetan gehitzen ez baduzu, proiektuaren kontratu guztiak konexio multzoarentzako definitutako pertsona juridikoarekin sinkronizatuko dira, kontratuaren antolakuntza unitatea edozein dela ere.
+- Sortu Power Query iragazkia, integrazio konexio multzoaren entitate juridikoarekin sinkronizatuta egon beharko luketen kontratu erakundeak soilik biltzen dituena. Adibidez, kontratuaren antolakuntza-unitatearekin dituzun proiektuen kontratuak Contoso US USSI entitate juridikoarekin sinkronizatuta egon beharko lirateke, baina kontratuaren antolakuntza unitatearekin dituzun proiektuen kontratuak Contoso Global-ek USMF entitate juridikoarekin sinkronizatu behar du. Iragazki hau zure zereginen mapetan gehitzen ez baduzu, proiektuaren kontratu guztiak konexio multzoarentzako definitutako pertsona juridikoarekin sinkronizatuko dira, kontratuaren antolakuntza unitatea edozein dela ere.
 
 ## <a name="template-mapping-in-data-integration"></a>Datuen integrazioan txantiloien mapaketa
 
@@ -142,14 +140,17 @@ Power Query erabili behar baduzu, jarraitu jarraibide hauek:
 
 Ondorengo ilustrazioak Datuen integrazioan txantiloien atazen maparen adibide bat erakusten du. Kartografiak Project Service Automation-etik Finantzara sinkronizatuko den eremuko informazioa erakusten du.
 
-[![Proiektuen kontratuen txantiloien mapaketa](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Proiektuen kontratuen txantiloien mapaketa.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Proiektuen txantiloien mapaketa](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Proiektuen txantiloien mapaketa.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Proiektuen kontratuaren lerroen txantiloien mapaketa](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Proiektuen kontratuaren lerroen txantiloien mapaketa.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Proiektuen kontratuaren lerroen mugarrien txantiloien mapaketa](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Proiektuen kontratuaren lerroen mugarrien txantiloien mapaketa.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Proiektuen kontratuaren lerro mugarriaren proiektuak eta kontratuak (PSA 3.x-ra dinamikara) - v2 txantiloia:
 
-[![Proiektuen kontratuaren lerroen mugarrien mapaketa bertsioaren bi txantiloiekin](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![Proiektuen kontratuaren lerroen mugarrien mapaketa bertsioaren bi txantiloiekin.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Sortu proiektu-erreserba bat antolaketa-paneletik
 description: Gai honek proiektuaren erreserba egitasmoaren taulan sortzen den informazioa eskaintzen du.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7032af78168c742ac64cb2a7174cabcbda579ff8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146513"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987601"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Sortu proiektu-erreserba bat antolaketa-paneletik
 
@@ -45,7 +43,7 @@ Baliabide orokorra sortzeko eta zeregin bat edo gehiago proiektua barruan esleit
 
 1.  Tresna-barran antolaketa-panelan, baliabide hau erakutsiko tresna-barran, **Ireki Eskakizunak** fitxa. Baliteke erabili behar duzu zutabe iragazkiak saretan hainbat eskakizunak irekita baldin baduzu. 
 
-    ![Ireki Eskakizunak fitxa Antolaketa panelean](media/FAQ-Project-Booking-Schedule-Board-1.png "Taula bookings eta esleipenetan Eginbideei")
+    ![Ireki Eskakizunak fitxa Antolaketa panelean.](media/FAQ-Project-Booking-Schedule-Board-1.png "Taula bookings eta esleipenetan Eginbideei")
 
 2. Hautatu eskakizuna. **Bilaketa erabilgarritasuna** fitxa agertuko da hautatutako errenkada goialdean.
  
@@ -55,7 +53,7 @@ Baliabide orokorra sortzeko eta zeregin bat edo gehiago proiektua barruan esleit
 
     Hautatu **Liburua** books baliabide talde proiektua inprimatu.
 
-![Sortu baliabide-erreserba panela](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Sortu baliabide-erreserba panela.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Eskakizun Nagusia liburua
@@ -64,7 +62,7 @@ Xede proiektuaren Project Service automatikoki sortu Eskakizun Nagusia izeneko b
 
 1. Lehen eskakizunarekin baliabide bat erreserbatzeko, antolaketa-taulan, hautatu **Proiektua** fitxa. Baliteke zutabeko irizpidea erabiltzea **Proiektua** zutabean, hainbat proiektu badituzu.
 
-   ![Zutabe-iragazkiak Antolaketa panelean](media/FAQ-Project-Booking-Schedule-Board-2.png "Taula bookings eta esleipenetan Eginbideei")
+   ![Zutabe-iragazkiak Antolaketa panelean.](media/FAQ-Project-Booking-Schedule-Board-2.png "Taula bookings eta esleipenetan Eginbideei")
 
 2. Hautatu eskakizun batek bere izena proiektua izena eta 0-iraupena da.
 
@@ -91,3 +89,6 @@ Jarraitu hurrengo pausoak baliabide bat antolaketa paneletik liburu bat biguntze
 
 4. Baliabideari booked, dela orain zereginak eskuz esleitu behar duzu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

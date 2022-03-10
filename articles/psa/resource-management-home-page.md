@@ -2,10 +2,9 @@
 title: Baliabideen kudeaketaren orri nagusia
 description: Gai honek baliabideak kudeatzeko moduari buruzko informazioa eskaintzen du.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/28/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1a48dc3c814cfaaa08ba8c00834b0b37d6fbc5a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: a55b0f7c8190fd88017851a8e7c9b44cefacb483cd563f6f94110a7421de5d1d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071257"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998176"
 ---
 # <a name="resource-management-home-page"></a>Baliabideen kudeaketaren orri nagusia
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -39,3 +40,6 @@ Baliabideak dira zerbitzuetan oinarritutako erakunde baten aktibo garrantzitsuen
 - [Behin behineko erreserba-eskakizunak](resource-management-softbook-requirements.md)
 - [Gaitasun eta trebetasunen ereduak](resource-management-skills-proficiency.md)
 - [Baliabide-kudeaketari buruz maiz egiten diren galderak](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,24 @@
 title: Proiektu-kontratuak - Kontzeptu nagusiak - arina
 description: Gai honek proiektuaren kontratuaren kontzeptu nagusiei buruzko informazioa ematen du.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177046"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991426"
 ---
-# <a name="project-contracts---key-concepts---lite"></a>Proiektu-kontratuak - Kontzeptu nagusiak - arina
+# <a name="concepts-unique-to-project-contracts"></a>Proiektuko kontratuen kontzeptu bakarrak
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Gai honek Dynamics 365 Project Operations-eko proiektuaren kontratuak erabiltzen hasi aurretik kontuan izan beharreko funtsezko kontzeptuak ematen ditu:
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Gai honek Project kontratuak erabiltzen hasi aurretik ezagutu beharreko kontzeptu nagusiak eskaintzen ditu Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Kontratatzailea
 
@@ -91,3 +91,6 @@ Project Operations-en kontratuak Dynamics 365 Sales-en kontraktuen gainean eraik
 - Project Operations-en kontratuek beren forma eta interfazeko elementu propioak dituzte, negozio arauak, negozio logika plug-inetan eta bezeroen aldeko scriptak, Salmenten kontratuetatik bakarrak bihurtzen dituztenak.
 
 Arrazoi horiek direla eta, ez zenuke salmenta kontratua eta proiektu kontratua erabili beharrik izango.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

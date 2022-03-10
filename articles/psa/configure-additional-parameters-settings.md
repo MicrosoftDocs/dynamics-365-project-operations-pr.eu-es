@@ -2,8 +2,6 @@
 title: Konfiguratu parametro-ezarpen osagarriak
 description: Nola konfiguratu parametro gehigarriaren ezarpenak Project Service-n
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: fb23569db5136cd1b8b7d2f5735de8a91b441b76ab7e027d27087b3785f4636e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071036"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000426"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Konfiguratu parametro gehigarriaren ezarpenak (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -65,3 +65,6 @@ Proiektu-parametroak ezartzeko:
 
 ### <a name="see-also"></a>Ikusi baita ere  
  [Baliabideak konfiguratu](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

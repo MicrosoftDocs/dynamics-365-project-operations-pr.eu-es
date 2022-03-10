@@ -2,11 +2,9 @@
 title: Kudeatu proiektuen prezio-zerrendak eskaintza batean
 description: Gai honek proiektuaren prezio-zerrendaren entitateari buruzko informazioa ematen du.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177181"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003891"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Kudeatu proiektuen prezio-zerrendak eskaintza batean
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations-ek Prezioen zerrenda entitatea luzatzen du Dynamics 365 Sales-en. 
+Dynamics 365 Project Operations-ek prezio-zerrendako entitatea hedatzen du Dynamics 365 Sales-en. 
 
 ## <a name="key-entities"></a>Entitate gakoak
 
@@ -120,3 +118,6 @@ Fakturen tasak bezala, giza baliabideen kostu tasak ere ezartzen dira prezio-zer
     1. Unitate antolatzaileari atxikitako kostuen prezio-zerrenda.
     2. Project Operations-eko parametroei atxikitako kostuen prezio-zerrenda. Parametroetara kostuen prezio-zerrendak erantsi daitezkeenez, moneta bat egiten du proiektuaren, kontratuaren edo eskaintzaren unitate antolatzailearen kontratuaren moneta eta kostuen prezio-zerrendaren monetaren artean.
     3. Gastuei dagokienez, kostu prezioen eta gainprezioaren gaineko prezioen metodoak ez dira kostuen prezio-zerrendetan aplikatzen. Nahiz eta prezio metodo horiek kostu prezio-zerrendako lerroetan erabili, transakzioen kategorien kostuak konfiguratzeko, sistemak ez ditu jaramonik egiten eta ez da kostu prezio lehenetsirik sartuko.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

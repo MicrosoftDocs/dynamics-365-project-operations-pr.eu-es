@@ -2,11 +2,9 @@
 title: Eskaintzak - Gako-kontzeptuak
 description: Gai honek eskuragarri dauden proiektuen eskaintzei eta salmenta-eskaintzei buruzko informazioa eskaintzen du Project Operations-en.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 8a1b5152b76cbcdfb5160a0af78eceec2c42b9a13dfc76701b6ad935318c7ba8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121293"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997861"
 ---
-# <a name="quotes---key-concepts"></a>Eskaintzak - Gako-kontzeptuak
+# <a name="concepts-unique-to-project-based-quotes"></a>Proiektuetan oinarritutako eskaintzen kontzeptu bakarrak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations-en, bi aurrekontu mota daude, proiektuak eta salmentak. Kuoten bi motak modu desberdinetan bereizten dira:
+Dynamics 365 Project Operations-en bi eskaintza mota daude: proiektuak eta salmentak. Kuoten bi motak modu desberdinetan bereizten dira:
 
 - **Lerro-elementuen saretak**: Salmenta-eskaintzetan, lerroentzako elementuen sareta bakarra dago. Edo proiektu-eskaintza batean, lerroentzako bi sareta ditu. Sareta bat proiektu-lerroetarako da eta bestea produktu-lerroetarako.
 - **Aktibazioa eta berrikuspenak**: Salmenten aurrekontuek aktibazioa eta berrikuspenak onartzen dituzte. Prozesu hauek ez dira onartzen proiektuaren aurrekontuan.
@@ -128,3 +126,6 @@ Prezio-finkoko eskaintzen lerrorako, erabil dezakezu **Fakturen egutegia** saret
 - Berdin banatzen diren fakturazio-mugarriak sortzeko, hautatu fakturen maiztasuna, sartu fakturazioaren hasiera-data aurrekontuen lerroan eta hautatu **Eskatutako amaiera-data** orrialdeko eskaintza lortzeko **Laburpena** sekzioan eskaintzaren goiburuan. Ondoren, hautatu **Sortu aldizkako mugarriak** hautatutako fakturen maiztasunean oinarritutako mugarri berdinak sortzeko. 
 - Ordainpeko fakturaziorako mugarri bat sortzeko, mugarri bat sortu eta, ondoren, sartu eskaintzaren lerroko balioa mugarri zenbateko gisa.
 - Proiektu-planean zeregin zehatzetan oinarritutako fakturazio-mugarriak sortzeko, mugarri bat sortu eta proiektuaren egitarauaren elementua esleitu ezazu fakturazio-mugarriko erabiltzailearen interfazean.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

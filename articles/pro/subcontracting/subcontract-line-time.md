@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323851"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547229"
 ---
 # <a name="subcontract-lines-for-time"></a>Azpikontratuaren lerroak denboraren arabera
 
@@ -30,23 +30,22 @@ Project Operations produktuentzako azpikontratazio lerro bat sortzeko, osatu hur
 
   Hurrengo taula hornitu informazioa eremuari buruz **Azpikontrataren lerroa** orria eta **Sortu bizkor** orria.
 
-| **Eremua** | **Azalpena** |
-| --- | --- |
-| Izena | Azpikontratuaren lerroaren izena. |
-| Deskribapenak | Azpikontratuaren lerroan erosita dauden zerbitzuen deskribapen laburra. | 
-| Lerro mota | Eremu hori lehenetsitako balioa.  |
-| Fakturazio-metodoa | Hautatu fakturazio metodoa. Aipatutako azpikontratazio lerroaren fakturazio metodoan oinarrituta, Mugarrian oinarritutako fakturen egutegia eskuragarri dago Prezio finkoaren fakturazio metodoarentzat. |
-| Transakzio-klasea | Eremu hau azpikontratazio lerroa azpikontratazioaren denbora erosteko erregistratzeko erabiltzen den adierazten duen balio lehenetsia da. |
-| Funtzioa | Denbora erosten ari diren azpikontratatutako baliabideen eginkizuna. Azpikontratazioko baliabideei esleitutako eginkizunak erosketaren kostua zehazten du. |
-| Eskatutako hasiera | Azpikontratazioko baliabideak lanean hasteko eguna. Eskatutako hasiera azpikontratari atxikitako proiektuen prezioen zerrendetatik proiektuaren prezioen zerrenda hautatzeko ere erabiltzen da. Azpikontratazio linean funtzioaren kostua prezio zerrenda horretatik lehenetsita dago. |
-| Eskatutako amaiera | Azpikontratisten baliabideen esleipena amaitzen den eguna. Data hau abisuak erakusteko proiektuaren kudeatzaile bat data horretatik aurrera gertatzen diren baliabide eskakizunetarako gaitasun horretatik ateratzen ari denean. |
-| Eskatutako kopurua | Saltzaileari erosten zaizkion rol ordu kopurua. Balio hau abisuak erakusteko proiektuaren kudeatzaile bat gertatzen diren baliabide eskakizunetarako gaitasun horretatik ateratzen ari denean. |
-| Salmenta-unitatea | Eremu balio honek denbora unitate taldea du lehenetsita eta ezin da aldatu.  |
-| Unitatea | Eremu honek denbora-unitateko oinarrizko ordu-unitatea da lehenespenez. Balio hau alda dezakezu Denbora unitate taldeko edozein unitate erosteko, hala nola eguna edo astea. Konbinazioa Funtzioa eta Unitatea erabilita kalkulatzeko unitate-prezioa azpikontratuaren lerroa. |
-| Unitate-prezioa | Prezio unitarioa lehenetsita dago azpikontratazio lerroaren eskatutako entrega datarako aplikagarria den proiektuaren prezio zerrendarekin lotutako funtzioa eta unitatearen konbinazioa erabiliz. Aplikagarria den proiektuaren prezioen zerrendak azpikontratazio linearen unitatea ez den beste unitate batean ezarrita duenean, sistemak unitate bihurketa erabiltzen du prezio unitarioa kalkulatzeko. |
-| Guztizko partziala | Irakurtzeko soilik den eremua da automatikoki honela kalkulatzen dena **Kopurua x Unitateko prezioa** kantitatea eta prezio unitarioaren balioak sartzen badira. Kantitatea, prezio-unitatea, edo biak hutsik badaude, idatzi balioa eremuan. |
-| Salmenten zerga |  Idatzi salmenta-zergaren zenbatekoa. |
-| Zenbatekoa guztira | Zergak sartu ondoren azpikontrataren lerroaren zenbateko osoa erakusten du. |
-
+| **Eremua** | **Azalpena** | **Inpaktu funtzionala** |
+| --- | --- | --- |
+| Izena | Identifikazioan laguntzeko azpikontrata lerroaren izena. | Azpikontratazio lerroetan oinarritutako bilaketa guztietan lehen zutabe gisa erakutsiko da. |
+| Deskribapenak | Azpikontratuaren lerroan erosita dauden zerbitzuen deskribapen laburra. |Batere ez |
+| Lerro mota |   Eremu honek balioa lehenetsia dauka **Kopuruan oinarrituta**.| Batere ez |
+| Fakturazio-metodoa | Hau da aukera multzo Project Operations-ek onartzen dituzten bi kontratazio eredu nagusiak adierazten dituena: **Prezio finkoa** eta **Denbora eta materiala**. | Aukeratutako fakturazio metodoan oinarrituta, Mugarrian oinarritutako faktura egutegia eskuragarri dago Prezio finkoaren fakturazio metodoa duten azpikontratazio lerroetarako. |
+| Transakzio-klasea | Balio lehenetsia **Denbora** da. | Horrek adierazten du azpikontratazio lerroa azpikontratisten denboraren erosketa erregistratzeko erabiltzen ari dela. |
+| Funtzioa | Aukeratu denbora erosten ari diren azpikontratazio baliabideen eginkizuna. | Azpikontratazioko baliabideek betetzen duten eginkizunak erosketaren kostua zehazten du. |
+| Eskatutako hasiera | Sartu data kontratisten baliabideak behar direnean lanean hasteko. | Azpikontratari erantsitako proiektuen prezioen zerrendetatik proiektuaren prezioen zerrenda hautatzeko erabiltzen da. Azpikontratazio linearen rolaren kostua prezio zerrenda horretatik dator. |
+| Eskatutako amaiera | Idatzi azpikontratisten baliabidearen esleipena amaitzen den data. | Hau erabiliko da abisuak erakusteko proiektuaren kudeatzailea data horretatik aurrera gertatzen diren baliabide eskakizunetarako gaitasunetik ateratzen denean. |
+| Eskatutako kopurua | Idatzi saltzaileari erosi beharreko rolaren ordu kopurua. | Hau erabiliko da abisuak erakusteko proiektuaren kudeatzailea baliabide-eskakizunetarako gaitasun horretatik gora ateratzen denean. |
+| Salmenta-unitatea | Lehenetsitako balioa **Denboraren salmenta-unitatea** da, aldatu ezin dena. | Batere ez|
+| Unitatea | Eremu honen lehenetsia ordutik oinarrizko ordu unitatea **Denboraren salmenta-unitatea** da. Balio hau alda dezakezu **Denboraren salmenta-unitateko** edozein unitate erosteko, hala nola eguna edo astea. | **Funtzioa** eta **Unitatea** balioen konbinazioa lehenetsitako moduan edo azpikontratatutako linearen unitateko prezioaren arabera kalkulatuko da. |
+| Unitate-prezioa | Unitateko prezio lehenetsiak konbinazioa erabiltzen du **Funtzioa** eta **Unitatea** proiektuaren prezioen zerrendatik **Eskatutako hasiera** azpikontrata lerroaren data. | Aplikagarria den proiektuaren prezioen zerrendak azpikontratazio linearen unitatea ez den beste unitate batean ezarrita duenean, sistemak unitate bihurketa erabiltzen du prezio unitarioa kalkulatzeko. |
+| Guztizko partziala |    Irakurtzeko soilik den eremua da Kantitatea x Unitatearen prezioa bezala kalkulatzen dena, bai kantitatearen bai unitateko prezioaren balioak sartzen badira. Kantitatea, prezio-unitatea, edo biak hutsik badaude, idatzi balioa eremuan. | Batere ez|
+| Salmenten zerga |   Idatzi salmenta-zergaren zenbatekoa. |Batere ez |
+| Zenbatekoa guztira | Azpikontratuaren lerroaren guztizko kantitatea barne hartutako zergak. Eremu honetan kalkulatuta dago Azpitotala + Salmenten zerga.|Batere ez |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

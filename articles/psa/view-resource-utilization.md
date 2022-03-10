@@ -2,8 +2,6 @@
 title: Ikusi baliabide-erabilera
 description: Nola ikusi baliabideen erabilera Project Service-n
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e2c76ed1d1c14e1bdadfe919770c4625e2f98840
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: ae03b5e800add32286fe2226878621fe7286ec00efa131aba32957a63c9783cc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071109"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999886"
 ---
 # <a name="view-resource-utilization-project-service"></a>Ikusi baliabideen erabilera (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -41,3 +41,6 @@ Baliabideen erabilera egiazta dezakezu baliabideen erabilera-mailak zehazteko et
   
 ### <a name="see-also"></a>Ikusi baita ere  
  [Baliabide-kudeatzailearen gida](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
