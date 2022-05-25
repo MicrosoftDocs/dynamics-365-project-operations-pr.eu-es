@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Zer berri?
       items:
+        - name: 2022ko maiatza - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: 2022ko apirila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: 2022ko martxoa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: 2022ko otsaila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: 2021eko abendua - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 2021eko azaroa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Moneta
               href: sales/sales-currency.md
+            - name: Erakundearen unitateak
+              href: sales/OrgUnits.md
         - name: Kudeatu proiektuaren bezerogaiak
           href: sales/manage-leads.md
         - name: Kudeatu proiektuaren abaguneak
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: Proiektuetako laneko diru-sarreraren segimendua
               href: project-management/project-sales-tracking.md
-            - name: Eguneratu aurreikusitako kostua osatzen denerako
-              href: project-management/update-completed-estimate.md
         - name: Proiektuaren taldeko kideak
           items:
             - name: Proiektuaren taldeko kideen informazio orokorra
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: Erabili proiektuaren antolaketa APIak
               href: project-management/schedule-api-preview.md
+            - name: Erabili proiektuaren antolaketa APIak Power Automate-rekin
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Proiektu-antolaketaren API errendimendua
               href: project-management/project-schedule-api-performance.md
             - name: Proiektuaren antolaketa-erregistroak
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: Diru-aurrerakina
           href: expense/cash-advance.md
-        - name: Eguneko dietak
-          href: expense/per-diems.md
+        - name: Eguneko dietaren gastuak
+          href: expense/per-diem-expenses.md
         - name: Mugikorreko gastuen aplikazioa
           href: expense/expense-using-mobile.md
         - name: Finantza-kudeaketa
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: Onarpen multzoak
           href: approvals/approval-sets.md
+        - name: Utzi aurretik onartutako sarreren onarpena
+          href: approvals/cancelapproval.md
+        - name: Berreskuratu aurretik onartutako sarrerak
+          href: approvals/recall-cancel.md
         - name: Garatzailearen oharrak
           items:
             - name: Onarpenetarako garatzaileen oharrak
               href: approvals/dev-notes-approvals.md
     - name: Benetako datuak
       items:
+        - name: Enpresa-transakzioak Project Operations-en
+          href: actuals/businesstransactions.md
         - name: Benetako datuen ikuspegi orokorra
           href: actuals/actuals-overview.md
-        - name: Lotu benetako datuak jatorrizko erregistroekin
+        - name: Transakzioaren jatorria - Lotu benetako datuak iturburuarekin
           href: actuals/linkingactuals.md
-        - name: Zuzenketa-aldizkariak
+        - name: Transakzioaren konexioak - Lotu transakzio mota desberdinen benetako datuak
+          href: actuals/connectingactuals.md
+        - name: Kutxako liburuak
           items:
+            - name: Sortu eta berretsi sarrera-egunkariak
+              href: actuals/create-confirm-entry-journals.md
             - name: Sortu eta berretsi zuzenketa-egunkariak
               href: actuals/create-confirm-correction-journals.md
     - name: Erosketak
       items:
         - name: Konfiguratu izakinik gabeko materialak eta ordaindu gabeko saltzaileen fakturak
           href: procurement/configure-materials-nonstocked.md
-        - name: Erosi proiektuen izakinik gabeko materialak ordaindu gabeko saltzaileen fakturak erabiliz
+        - name: Konfiguratu proiektuaren kontratazio-kategoriak
+          href: procurement/configure-procurement-categories.md
+        - name: Erosi ondasunak eta zerbitzuak ordaindu gabeko saltzaileen fakturak erabiliz
           href: procurement/pending-vendor-invoices.md
-        - name: Eskatu proiektuen izakinik gabeko materialak proiektuko erosketa-eskaerak erabiliz
+        - name: Eskatu ondasunak eta zerbitzuak proiektuko erosketa-eskaerak erabiliz
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: Saltzailearen atxikipena
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Kudeatu diru-sarreren kalkuluak
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Konfigurazio aurreratua
+      items:
+        - name: Migratu guztiz fakturatutako fakturazio-mugarriak trantsizioan
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Bertsio-berritu
+      items:
+        - name: Bertsio-berritu Onarpen modernoen hausnarketak
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations aplikazioak
+      items:
+        - name: Project Operations-eko taldeko kidea aplikazioa
+          href: team-member/project-operations-team-member.md
     - name: Arazoak konpontzea
       items:
         - name: Proiektuaren salmenta-prozesua
@@ -562,6 +596,14 @@
       items:
         - name: 2021eko berritasunen 2. uhinerako sarbide esklusiboa - oinarrizko inplementazioa
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: '2022ko maiatzeko berritasunak: oinarrizko inplementazioa'
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: '2022ko apirileko berritasunak: oinarrizko inplementazioa'
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: 2022ko martxoko berritasunak - oinarrizko inplementazioa
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: 2022ko otsaileko berritasunak - oinarrizko inplementazioa
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: 2021eko abenduko berritasunak - oinarrizko inplementazioa
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: 2021eko azaroko berritasunak - oinarrizko inplementazioa
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Moneta
               href: sales/sales-currency.md
+            - name: Erakundearen unitateak
+              href: sales/OrgUnits.md
         - name: Kudeatu proiektuaren bezerogaiak
           href: pro/sales/managing-leads-sales.md
         - name: Kudeatu proiektuaren abaguneak
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: Proiektuetako laneko diru-sarreraren segimendua
               href: project-management/project-sales-tracking.md
-            - name: Eguneratu aurreikusitako kostua osatzen denerako
-              href: project-management/update-completed-estimate.md
         - name: Proiektuaren taldeko kideak
           items:
             - name: Proiektuaren taldeko kideen informazio orokorra
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: Erabili proiektuaren antolaketa APIak
               href: project-management/schedule-api-preview.md
+            - name: Erabili proiektuaren antolaketa APIak Power Automate-rekin
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Proiektu-antolaketaren API errendimendua
               href: project-management/project-schedule-api-performance.md
     - name: Baliabideen kudeaketa
@@ -886,29 +930,27 @@
           items:
             - name: Baliabide-erabileraren informazio orokorra
               href: resource-management/resource-utilization-overview.md
-    - name: Azpikontratuen kudeaketa Project Operations-en
+    - name: Azpikontratatuen kudeaketa
       items:
-        - name: Azpikontratuen kudeaketa Project Operations-en
+        - name: Azpikontratatuen kudeaketa Project Operations-en
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: 2021eko azaroko azpikontratazioaren sarbide esklusiboa
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Azpikontratazioko kontzeptu nagusiak
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Saltzaileak eta proiektuen prezio-zerrendak kudeatzea
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Azpikontratatzaileak baliabide erreserbagarri gisa
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: Azpikontratuen goiburuaren xehetasunak
+        - name: Azpikontratatuen goiburuaren xehetasunak
           href: pro/subcontracting/subcontract-header-details.md
-        - name: Azpikontratuaren lerroak denboraren arabera
+        - name: Azpikontratatuaren lerroak denboraren arabera
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Azpikontratuaren lerroak gastu-kategorien arabera
+        - name: Azpikontratatuaren lerroak gastu-kategorien arabera
           href: pro/subcontracting/subcontract-line-expense.md
-        - name: Azpikontratuaren lerroak produktuen arabera
+        - name: Azpikontratatuaren lerroak produktuen arabera
           href: pro/subcontracting/subcontract-line-products.md
         - name: Azpikontratistaren lerroko baliabideak
           href: pro/subcontracting/subcontract-line-resources.md
-        - name: Azpikontratuaren lerroko mugarriak
+        - name: Azpikontratatuaren lerroko mugarriak
           href: pro/subcontracting/subcontract-line-milestones.md
         - name: Proiektuko taldekideak azpikontratatzea
           href: pro/subcontracting/subcontracting-project-team-members.md
@@ -922,8 +964,30 @@
           href: pro/subcontracting/staffing-cw.md
         - name: 'Azpikontratatutako osagaien denbora, gastuak eta materialaren erabilera erregistratzea'
           href: pro/subcontracting/recording-subcon-actuals.md
-        - name: Azpikontratu bateko egoera-trantsizioak
+        - name: Azpikontratatu baten egoera-trantsizioak
           href: pro/subcontracting/subcon-states.md
+    - name: Proiektuaren saltzailearen fakturak
+      items:
+        - name: Saltzaileen fakturazioa - Kontzeptua eta sorkuntza
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Saltzaileen fakturen goiburuaren xehetasunak
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Denboraren saltzailearen fakturaren lerroak
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Produktuen saltzailearen fakturaren lerroak
+          href: pro/subcontracting/vi-line-material.md
+        - name: Mugarrien saltzailearen fakturaren lerroak
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Saltzailearen fakturaren lerroak gastu-kategorien arabera
+          href: pro/subcontracting/vi-line-expense.md
+        - name: Saltzailearen fakturen egiaztapena onartutako benetako datuekin
+          href: pro/subcontracting/VI-Verification.md
+        - name: Utzi proiektuaren saltzailearen faktura
+          href: pro/subcontracting/cancel-vi.md
+        - name: Berretsi proiektuaren saltzailearen faktura
+          href: pro/subcontracting/confirm-vi.md
+        - name: Saltzailearen faktura bateko egoera-trantsizioak
+          href: pro/subcontracting/vi-state-model.md
     - name: Denbora
       items:
         - name: Denboraren ikuspegi orokorra
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: Onarpen multzoak
           href: approvals/approval-sets.md
+        - name: Utzi aurretik onartutako sarreren onarpena
+          href: approvals/cancelapproval.md
+        - name: Berreskuratu aurretik onartutako sarrerak
+          href: approvals/recall-cancel.md
         - name: Garatzailearen oharrak
           items:
             - name: Onarpenetarako garatzaileen oharrak
               href: approvals/dev-notes-approvals.md
     - name: Benetako datuak
       items:
+        - name: Enpresa-transakzioak Project Operations-en
+          href: actuals/businesstransactions.md
         - name: Benetako datuen ikuspegi orokorra
           href: actuals/actuals-overview.md
-        - name: Lotu benetako datuak jatorrizko erregistroekin
+        - name: Transakzioaren jatorria - Lotu benetako datuak iturburuarekin
           href: actuals/linkingactuals.md
-        - name: Zuzenketa-aldizkariak
+        - name: Transakzioaren konexioak - Lotu transakzio mota desberdinen benetako datuak
+          href: actuals/connectingactuals.md
+        - name: Kutxako liburuak
           items:
+            - name: Sortu eta berretsi sarrera-egunkariak
+              href: actuals/create-confirm-entry-journals.md
             - name: Sortu eta berretsi zuzenketa-egunkariak
               href: actuals/create-confirm-correction-journals.md
     - name: Proformako faktura
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Konfiguratu proiektuaren faktura automatizatzea
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: Bertsio-berritu
+      items:
+        - name: Bertsio-berritu Onarpen modernoen hausnarketak
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations aplikazioak
+      items:
+        - name: Project Operations-eko taldeko kidea aplikazioa
+          href: team-member/project-operations-team-member.md
 - name: Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
   items:
     - name: Zer berri
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Proiektuaren kudeaketa eta kontabilitatearen ikuspegi orokorra
       href: prod-pma/overview-project-management-accounting.md
-    - name: Enpresen arteko fakturazioa
-      href: prod-pma/intercompany-invoicing.md
-    - name: Konfiguratu enpresen arteko proiektuen fakturazioa
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: Konfiguratu lanaren eta gastuen kostu estandarrak
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Sortu eta aplikatu saltzailearen ordainketa atxikitzeko baldintzak
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: Konfiguratu eta erabili ordaindu ordaintzean saltzailearen ordainketak
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: Proiektuaren kostuen metatzea ordainagirietan
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Proiektuaren fakturazioa
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Proiektuko faktura-proposamenen errendimendua
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Proiektu-kontratuak
-      href: prod-pma/project-contracts.md
-    - name: Sortu fakturazioaren araberako aurrerapenerako kontratu aurreratuak
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Proiektuaren aurreikuspenak eta aurrekontuak
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Sortu proiektuaren aurrekontuen aurreikuspen-ereduak
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: Transferitu proiektuaren aurrekontuak urte fiskalaren amaieran
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Proiektuaren salmenta-eskaerak
-      href: prod-pma/project-sales-orders.md
-    - name: Proiektuaren erosketa-eskaerak
-      href: prod-pma/project-purchase-orders.md
-    - name: Proiektuaren eskaintzak
-      href: prod-pma/project-quotations.md
-    - name: 'Berretsi, eguneratu eta bidali proiektuaren eskaintza'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Transferitu aurrekontua proiektu batera
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Proiektuko baliabideak
+    - name: Proiektuaren salmenta-prozesua
+      items:
+        - name: Proiektuaren eskaintzak
+          href: prod-pma/project-quotations.md
+        - name: 'Berretsi, eguneratu eta bidali proiektuaren eskaintza'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Transferitu aurrekontua proiektu batera
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Proiektu-kontratuak
+          href: prod-pma/project-contracts.md
+        - name: Proiektuaren baimenak
+          href: prod-pma/project-grants.md
+    - name: Prezioak eta kostuak kudeatzea
+      items:
+        - name: Konfiguratu lanaren eta gastuen kostu estandarrak
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Proiektuen kudeaketa
+      items:
+        - name: Zereginen xehetasunen egituraren ikuspegi orokorra
+          href: prod-pma/work-breakdown-structures.md
+        - name: Microsoft Project Client integrazioa
+          href: prod-pma/project-integration.md
+        - name: Proiektuaren mugikorreko aplikazioen ikuspegi orokorra
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Proiektuaren denbora sartzeko mugikorreko laneko area
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Project Timesheet-en mugikorreko aplikazioa
+          href: prod-pma/project-timesheet.md
+        - name: Proiektuaren denbora-orriak gailu mugikorrean
+          href: prod-pma/mobile-timesheets.md
+        - name: Inplementatu Project Timesheet-en mugikorreko aplikazioaren eremu pertsonalizatuak
+          href: prod-pma/custom-fields-mobile.md
+    - name: Baliabideen kudeaketa
       items:
         - name: Proiektuko baliabideen informazio orokorra
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: Aurreikusitako baliabideen baliabideak betetzea
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Jaso erosketa-eskaerako elementuak elementu-eskakizunetik
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: Zereginen xehetasunen egiturak
+    - name: Proiektuaren aurrekontuak eta aurreikuspenak
       items:
-        - name: Zereginen xehetasunen egituraren ikuspegi orokorra
-          href: prod-pma/work-breakdown-structures.md
-        - name: Microsoft Project Client integrazioa
-          href: prod-pma/project-integration.md
-        - name: Proiektuaren mugikorreko aplikazioen ikuspegi orokorra
-          href: prod-pma/project-mobile-application-overview.md
-        - name: Proiektuaren denbora sartzeko mugikorreko laneko area
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Proiektuaren denbora-orriaren mugikorreko aplikazioa
-          href: prod-pma/project-timesheet.md
-        - name: Proiektuaren denbora-orriak gailu mugikorrean
-          href: prod-pma/mobile-timesheets.md
-        - name: Inplementatu Proiektuaren denbora-orria mugikorreko aplikazioaren eremu pertsonalizatuak
-          href: prod-pma/custom-fields-mobile.md
-    - name: Proiektuaren baimenak
-      href: prod-pma/project-grants.md
-    - name: Ezabatu proiektuaren aurreikuspena
-      href: prod-pma/eliminate-project-estimate.md
+        - name: Proiektuaren aurreikuspenak eta aurrekontuak
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Sortu proiektuaren aurrekontuen aurreikuspen-ereduak
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: Transferitu proiektuaren aurrekontuak urte fiskalaren amaieran
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Denbora
+      items:
+        - name: Proiektuaren denbora-sarreren finantza-dimentsio lehenetsiak ezartzea
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Gastua
+      items:
+        - name: Gastuen ikuspegi orokorra
+          href: expense/expense-overview.md
+        - name: Gastuen eginbide berria
+          items:
+            - name: Gastu-txostenen itxura berria
+              href: expense/expense-reports-reimagined.md
+            - name: Kapturatu ordainagiriak OCR erabiliz
+              href: expense/match-receipt-expense-ocr.md
+        - name: Konfigurazioa eta instalazioa
+          items:
+            - name: Konfiguratu gidalerroak
+              href: expense/set-up-policies.md
+            - name: Konfiguratu lan-fluxuak
+              href: expense/set-up-workflows.md
+            - name: Kudeatu ordezkaritza
+              href: expense/manage-delegation.md
+            - name: Konfiguratu gastuak kudeatzeko parametroak
+              href: expense/configure-expense-management-parameters.md
+            - name: Konfiguratu kreditu-txartelaren integrazioa
+              href: expense/set-up-credit-card-integration.md
+            - name: Konfiguratu gastu-kategoriak
+              href: expense/set-up-expense-categories.md
+            - name: Konfiguratu kilometrajea kilometrajearen tasaren mailak erabiliz
+              href: expense/set-up-mileage.md
+        - name: Gastuen banaketa
+          href: prod-exp/expense-itemization.md
+        - name: Gastu pertsonalak
+          href: expense/personal-expenses-expense-report.md
+        - name: Enpresen arteko gastuak
+          href: prod-exp/intercompany-expense.md
+        - name: Sortu gastuen txostenak
+          items:
+            - name: Gastuen txosteneko banaketak
+              href: expense/distributions-expense-report.md
+        - name: Onartu gastuen txostenak
+          items:
+            - name: Gastuen txostenak eta hainbat onartzaile
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Argitaratu gastuen txostenak
+          href: expense/posting-expense-reports.md
+        - name: Bidaiatzeko eskakizuna
+          href: expense/travel-requisition.md
+        - name: Diru-aurrerakina
+          href: expense/cash-advance.md
+        - name: Eguneko dietaren gastuak
+          href: expense/per-diem-expenses.md
+        - name: Mugikorreko gastuen aplikazioa
+          href: expense/expense-using-mobile.md
+        - name: Finantza-kudeaketa
+          items:
+            - name: BEZaren berreskurapena
+              href: expense/vat-recovery.md
+    - name: Erosketak
+      items:
+        - name: Proiektuaren erosketa-eskaerak
+          href: prod-pma/project-purchase-orders.md
+        - name: Proiektuaren kostuen metatzea ordainagirietan
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Jaso erosketa-eskaerako elementuak elementu-eskakizunetik
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: Konfiguratu eta erabili ordaindu ordaintzean saltzailearen ordainketak
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Sortu eta aplikatu saltzailearen ordainketa atxikitzeko baldintzak
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Proiektuaren fakturazioa
+      items:
+        - name: Proiektuaren fakturazioa
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Proiektuko faktura-proposamenen errendimendua
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: Sortu fakturazioaren araberako aurrerapenerako kontratu aurreratuak
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Proiektuaren salmenta-eskaerak
+          href: prod-pma/project-sales-orders.md
+        - name: Funts-iturri ugari dituzten proiektu-kontratuen elementuen baldintzak
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Enpresen arteko fakturazioa
+      items:
+        - name: Enpresen arteko fakturazioa
+          href: prod-pma/intercompany-invoicing.md
+        - name: Konfiguratu enpresen arteko proiektuen fakturazioa
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Diru-sarreren aitorpena
+      items:
+        - name: Ezabatu proiektuaren aurreikuspena
+          href: prod-pma/eliminate-project-estimate.md
 - name: Gastuen kudeaketa
   items:
     - name: Gastu-kudeaketaren informazio orokorra
@@ -1148,6 +1304,16 @@
       items:
         - name: "Project Service\_3.x bertsioaren eguneratze-bertsioen antolaketa"
           href: psa/version-history-ps.md
+        - name: '43. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur43.md
+        - name: '42. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-42.md
+        - name: '41. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-41.md
+        - name: '40. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-40.md
+        - name: '39. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-39.md
         - name: '38. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur-38.md
         - name: '37.5. eguneratze-bertsioko berritasunak edo aldaketak, V3'
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Berritu-berritu Project Service Automation-etik Project Operations - lite-ra
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: Project Service Automation-etik Project Operations-erako eginbideen aldaketak
+      href: psa/psa-project-operations-changes.md
     - name: Project Service Automation-en bertsio-berritzea (aplikazioaren 3.x bertsioa)
       items:
         - name: Project Service Automation-en bertsio-berritzea
