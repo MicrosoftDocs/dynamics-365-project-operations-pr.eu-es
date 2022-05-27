@@ -1,25 +1,25 @@
 ---
 title: Eguneratu Project Operations zure Finantza ingurunean
-description: Gai honek Project Operations Dynamics 365 Finance ingurunean nola eguneratu jakiteko informazioa eskaintzen du.
+description: Gai honek zure Dynamics 365 Finance ingurunean Proiektu Eragiketak eguneratzeari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986746"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579907"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Eguneratu Project Operations zure Finantza ingurunean
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
 
-Gai honek Dynamics 365 Project Operations Dynamics 365 Finance ingurunean nola eguneratu jakiteko informazioa eskaintzen du. Project Operations-ek 5 eguneratzera (UR5) eguneratzeko hiru prozedura behar dira:
+Gai honek eguneratzeari buruzko informazioa eskaintzen du Dynamics 365 Project Operations zure Dynamics 365 Finance ingurunean. Project Operations-ek 5 eguneratzera (UR5) eguneratzeko hiru prozedura behar dira:
 
 - [Inportatu paketea aurrebista proiektuan](#import)
 - [Aplikatu eguneratzea](#apply)
@@ -119,7 +119,7 @@ Entitateen segurtasun pribilegioen eguneratze hauek beharrezkoak dira UR5 eguner
 4. **Taula-esleipenaren bertsioa** orrian, aplikatu maparen bertsio berria hiru entitate bakoitzari.
 5. **Idazketa bikoitza** orrian, hautatu exekutatu mapak berrabiarazteko.
 6. Mapen zerrendan, hautatu **Liburua (msdyn_ledgers)** mapa aurrebaldintza guztiekin eta hautatu **Hasierako sinkronizazioa** kontrol-laukia. 
-7. **Hasierako sinkronizaziorako nagusia** eremuan, hautatu **Finance and Operations aplikazioak** eta, ondoren, hautatu **Exekutatu**.
+7. urtean **Hasierako sinkronizaziorako maisua** eremua, hautatu **Finantza eta Operazio aplikazioak** eta gero hautatu **Korrika egin**.
  
  ![Liburuaren esleipenaren sinkronizazioa.](media/DW6.png)
  

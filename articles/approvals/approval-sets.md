@@ -2,18 +2,16 @@
 title: Onarpen multzoak
 description: Gai honek onarpen multzoekin, eskaerekin eta eragiketa horien azpimultzoekin nola lan egin azaltzen du.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323221"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576209"
 ---
 # <a name="approval-sets"></a>Onarpen multzoak
 
@@ -27,6 +25,18 @@ Onarpen multzoek erlazionatutako erregistroen prozesatze egoera orokorra adieraz
 Fitxategian prozesatzeko ilaran dauden onarpenak ikusgai daude **Onarpenak prozesatzen** ikuspegia. Sistemak sarrera guztiak hainbat aldiz prozesatzen ditu modu asinkronoan, aurreko saiakerak huts egiten badu baimena berriro saiatzea barne.
 
 **Onarpena ezarri Bizitza** eremuak multzoa prozesatzeko geratzen den saiakera kopurua erregistratzen du huts egin duela markatu aurretik.
+
+Onarpen-multzoak a-n oinarritutako aldizkako aktibazioaren bidez prozesatzen dira **Hodei-fluxua** izendatua **Proiektu-zerbitzua - Behin eta berriz programatu proiektuak onartzeko multzoak**. Hau aurkitzen da **Irtenbidea** izendatua **Proiektuaren Eragiketak**. 
+
+Ziurtatu fluxua aktibatuta dagoela hurrengo urratsak betez.
+
+1. Administratzaile gisa, hasi saioa [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Goiko eskuineko izkinan, aldatu erabiltzen duzun ingurunera Dynamics 365 Project Operations.
+3. Hautatu **Irtenbideak** ingurunean instalatutako irtenbideak zerrendatzeko.
+4. Irtenbideen zerrendan, hautatu **Proiektuaren Eragiketak**.
+5. Aldatu iragazkia honetatik **Denak** to **Hodei Fluxuak**.
+6. Egiaztatu hori **Proiektuen Zerbitzua - Behin eta berriz programatu proiektuak onartzeko multzoak** fluxua ezarrita dago **On**. Hala ez bada, hautatu fluxua eta, ondoren, hautatu **Piztu**.
+7. Egiaztatu prozesaketa bost minuturo gertatzen dela berrikusiz **Sistema-lanak** zerrendan **Ezarpenak** zure Proiektu Eragiketen barruan Dataverse ingurunea.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Ezin izan dira ezarri onarpenak eta onarpen multzoak
 **Hutsegitea onartu da** ikuspegia erabiltzailearen esku-hartzea eskatzen duten onarpen guztiak zerrendatzen ditu. Ireki lotutako onarpen multzoen erregistroak porrotaren zergatia identifikatzeko.

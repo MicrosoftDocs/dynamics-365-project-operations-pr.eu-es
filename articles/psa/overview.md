@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 9/23/2019
-ms.topic: article
+ms.topic: overview
 ms.author: ruhercul
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 4479f8b1d7cce5d3008ffa285c66da2669532576
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000246"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580165"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Zer da Dynamics 365 Project Service Automation?
 
@@ -42,14 +43,6 @@ Project Service Automation (PSA) aplikazioak erakundeei laguntzen die proiektuet
 - …eta abar
 
 Horrez gain, proiektua oinarritutako lanerako zure ideiekin lagun kontrolatu eta kontrola, banakako aholkularik erraz sartu eta jarraitu proiektua ordu eta gastuen fakturazioa edo piztuta mobile edo web-arakatzaile bat erabiliz.
-
-## <a name="whats-new-in-psa"></a>PSAren berritasunak
-Taldearen eguneratzeak berrienetik gure announce excited da! Erabiltzaile-interfazean hobekuntzak, arazoak konpondu eta eginbide eta gaitasun garrantzitsuak gehitu dira. Egiten duzun; listened dugu.
-
-Begiratu [19ko urriko argitalpen-oharrak](/dynamics365-release-plan/2019wave2/index), hobekuntza eta gehikuntza berrienak ikusteko.
-
-### <a name="in-development"></a>Garapenean
-Etorkizunerako pentsatu duguna ikusteko, joan [Dynamics 365: 2019ko bertsioaren 1. plana](/dynamics365-release-plan/2020wave1/index) aukerara.
 
 ## <a name="get-help-with-psa-version-3x"></a>PSA aplikazioaren bertsioa laguntza 3.x
 Baliabideak antolatu inplementazioan laguntzeko bilatzen? Deskarga gidak horiek babesa.
@@ -80,10 +73,6 @@ Baliabideak antolatu inplementazioan laguntzeko bilatzen? Deskarga gidak horiek 
  [Paper zuriak (aplikazioaren 2.x edo 1.x bertsioa)](../psa/white-papers.md)
 
  [Garatzaileentzako oharrak (aplikazioaren 2.x bertsioa)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## <a name="watch-a-2-minute-overview-video"></a>Ikusi 2 minutuko informazio orokorreko bideoa
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 

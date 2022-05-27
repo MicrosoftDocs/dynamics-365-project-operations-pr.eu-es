@@ -3,17 +3,16 @@ title: Prezioen dimentsioen informazio orokorra
 description: Gai honek Dynamics 365 Project Operations-eko prezio-dimentsioei buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001956"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579200"
 ---
 # <a name="pricing-dimensions-overview"></a>Prezioen dimentsioen informazio orokorra
 
@@ -60,16 +59,16 @@ Hurrengo adibidean, baliabideari dagokion funtzioaren eta hornikuntza-unitateare
 
 | Funtzioa        | Erakunde-unitatea    |Unitatea      |Prezioa      |Moneta  |
 | ------------|-------------|----------|----------:|----------|
-| Garatzailea   | Contoso AEBetan  |Ordu | 200|USD     |
-| Garatzailea   | Contoso India |Ordu|   112|USD     |
+| Garatzailea   | Contoso US  |Hour | 200|USD     |
+| Garatzailea   | Contoso India |Hour|   112|USD     |
 
 
 **Kostu-tasen adibidea**
 
 | Soldata Banda     | Erakunde-unitatea    |Unitatea      |Prezioa      |Moneta  |
 | ----------------|-------------|----------|----------:|----------|
-| Nire company_Band1 | Contoso AEBetan  |Ordu | 145|USD     |
-| Nire company_Band2 | Contoso India |Ordu|   67|USD     |
+| Nire company_Band1 | Contoso US  |Hour | 145|USD     |
+| Nire company_Band2 | Contoso India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,14 +4,14 @@ description: Gai honek proiektuetako prezio finkoaren diru-sarrerei buruzko info
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006411"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578693"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Prezio finkoko diru-sarrerak kalkulatzeko proiektuak 
 
@@ -26,7 +26,7 @@ Urtean proiektuaren kontratu lerro bat sortzen duzunean Dynamics 365 Project Ope
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Berrikusi prezio finkoko diru-sarreren aurreikuspenen proiektuak
 Prezio finkoen diru-sarreren kalkuluen proiektuak berrikusteko, jarraitu urrats hauek:
 
-1. Dynamics 365 Finance ingurunean, joan **Proiektuen kudeaketa eta kontabilitatea** > **Proiektuak** > **Prezio finkoko diru-sarrerak kalkulatzeko proiektuak**.
+1. Dynamics 365 Finance ingurunean, joan hona **Proiektuen kudeaketa eta kontabilitatea** > **Proiektuak** > **Prezio finkoko diru-sarreren estimazio proiektuak**.
 2. Aukeratu ikusi nahi duzun proiektua eta egin klik bikoitza botoian **Estimatu proiektuaren IDa** erregistroa ireki eta proiektuaren xehetasunak berrikusteko.
 3. Zabaldu **Proiektua** fitxa. Proiektuan ikusiko duzu **Aukeratutako proiektuak** sareta. Sistemak proiektu lehenetsi gisa erabiltzen du, proiektuaren kontratu lerroarekin lotutako proiektua delako. 
 4. Elkartea aldatzeko, hautatu proiektu osagarriak eta gehitu fitxategira **Aukeratutako proiektuak** sareta. Sareta honetan proiektu anitz hautatzen badira, proiektuaren ehunekoaren osaketa eta diru-sarreren kalkuluak batera kalkulatuko dira hautatutako proiektu guztietarako.

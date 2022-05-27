@@ -2,16 +2,16 @@
 title: Zuzendu kontabilitatea zirriborro-proiektu baten fakturazio-proposamenetan
 description: Gai honetan faktura proposamenaren zirriborroan kontabilitatearekin lotutako informazioa nola egokitu azaltzen da.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999301"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575059"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Zuzendu kontabilitatea zirriborro-proiektu baten fakturazio-proposamenetan
 
@@ -27,12 +27,21 @@ Lehenetsitako fakturazioaren salmenten gaineko zerga taldeak eta elementuen salm
 
 ## <a name="adjust-financial-dimensions"></a>Egokitu finantza-dimentsioak
 
+### <a name="header-dimensions"></a>Goiburuko dimentsioak
+
+Lehenespenez, fakturaren finantza-dimentsioak fakturatzen ari diren proiektuko transakzio-erregistroetatik ateratzen dira. Hala ere, sistemaren ezarpenek proiektuaren faktura-proposamenen goiburuko finantza-dimentsioak erabil ditzakezu bezeroen saldoak argitaratzeko. Funtzio hau gaitzeko, hautatu **Onartu proiektuaren dimentsioen eguneraketak kobratzeko kontuetarako** gainean **Finantza** fitxan **Proiektuen kudeaketa eta kontabilitate parametroak** orrialdea.
+
+Fakturen goiburuetako finantza-dimentsioak edita daitezke faktura bat argitaratu aurretik. Gainean **Proiektuaren faktura-proposamena** orrialdera, aldatu **Goiburua** ikusi, eta, gero, editatu balioak **Dimentsio finantzarioak** fitxa.
+
+The **Goiburua** ikuspegia sistema-administratzaileak gaitu ondoren bakarrik dago erabilgarri **Erabili Proiektuaren faktura-proposamena eta fakturen egunkari-inprimakiak Goiburua eta Lerroak ikuspegiarekin** ezaugarria **Ezaugarrien kudeaketa** lan-eremua. Eginbide honek Finantza eguneraketa 10.0.25 edo berriagoa behar du.
+
+### <a name="line-dimensions"></a>Lerroaren neurriak
+
 Finantza dimentsioak ezin dira zuzenean editatu proiektuaren faktura proposamenaren lerroan. Horren ordez, jarraitu urrats hauek proiektuaren faktura proposamen batean dimentsio ekonomikoak doitzeko.
 
 1. Proiektuaren faktura proposamenean, hautatu **Ezabatu guztiak** proiektuaren faktura proposamenen lerroak kentzeko.
 
-    > [!NOTE]
-    > **Ezabatu guztiak** botoia sistemaren administratzaileak gaitu ondoren bakarrik dago erabilgarri **Ezabatu faktura proposamenen lerroak Baliabideetan oinarritutako / gordeta ez dauden eszenatokietarako Project Operations erabiltzen dituzunean** funtzioan **Ezaugarrien kudeaketa** laneko arean.
+    **Ezabatu guztiak** botoia sistemaren administratzaileak gaitu ondoren bakarrik dago erabilgarri **Ezabatu faktura proposamenen lerroak Baliabideetan oinarritutako / gordeta ez dauden eszenatokietarako Project Operations erabiltzen dituzunean** funtzioan **Ezaugarrien kudeaketa** laneko arean.
 
 2. Egokitu finantza-dimentsioak:
 
