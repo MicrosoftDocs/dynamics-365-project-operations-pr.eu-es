@@ -4,14 +4,14 @@ description: Gai honek enpresen arteko bezeroen eta saltzaileen fakturak nola so
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989222"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591481"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Sortu enpresen arteko bezeroa eta saltzaileen fakturak
 
@@ -27,7 +27,7 @@ Erabili prozedura hori enpresen arteko bezeroaren faktura proiektuaren transakzi
 
 Mailegu-entitate juridikoan urrats hauek eman behar dira. 
 
-1. Dynamics 365 Finance-n , joan **Proiektuen kudeaketa eta kontabilitatea** > **Proiektuaren fakturak** > **Enpresen arteko bezeroen fakturak** aukerara. **Enpresen arteko bezeroen fakturak** zerrenda-orrialdean, Ekintza panelean, hautatu **Berria**.
+1. Dynamics 365 Finance atalean, joan hona **Proiektuen kudeaketa eta kontabilitatea** > **Proiektuaren fakturak** > **Enpresa arteko bezeroen fakturak**. **Enpresen arteko bezeroen fakturak** zerrenda-orrialdean, Ekintza panelean, hautatu **Berria**.
 2. **Enpresen arteko faktura sortu** orrialdean, **Pertsona juridikoa** eremuan, hautatu mailegu-entitate juridikoa.
 3. Aukerakoa: Idatzi proiektuaren kontratu zehatza eta proiektuaren zenbakia.
 4. Bilaketa mugatu data tartea hautatuta. Idatzi data zehatzak **Hasiera data** eta **Amaiera data** eremuetan. Data tarte horretan argitaratzen diren enpresen arteko transakzioak soilik bistaratzen dira bilaketaren emaitzetan.

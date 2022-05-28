@@ -1,5 +1,5 @@
 ---
-title: Erakundearen unitateak
+title: Antolamendu-unitate aurreratuak
 description: Gai honek entitate-unitate eta unitateei buruzko informazioa ematen du Dynamics 365 Project Service Automation-en.
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005061"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589411"
 ---
-# <a name="organizational-units"></a>Erakundearen unitateak 
+# <a name="about-organizational-units"></a>Antolaketa-unitateei buruz 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -77,14 +78,14 @@ Dynamics 365 ezartzen duzunean, optimizatu segurtasun baimena negozio unitateen 
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Erakunde unitateen eta negozio unitateen adibidea
 
-Contoso, Ltd.-ek Microsoft teknologiaren praktika oparoa du. Dabid eta Aizpea biak C\# garatzaileak dira, baina Aizpea Gasteizen dago, Dabid Iruñekoa den bitartean. Proiektuen konpromiso gehienek Contoso India eta Contoso US baliabideak behar dituzte, eta Dabid eta Aizpeak segurtasun maila bera eskatzen dute praktika arlo horretako proiektuetarako. Hala ere, Contoso India garatzaileen kostua ezberdina da Contoso US-eko garatzaileen kostua.
+Contoso, Ltd.-ek Microsoft teknologiaren praktika oparoa du. Dabid eta Aizpea biak C\# garatzaileak dira, baina Aizpea Gasteizen dago, Dabid Iruñekoa den bitartean. Proiektuen konpromiso gehienek Badiola Iruña eta Badiola Gasteizeko baliabideak behar dituzte, eta Dabid eta Aizpeak segurtasun maila bera eskatzen dute praktika arlo horretako proiektuetarako. Hala ere, Badiola Iruñeko garatzaileen kostua ezberdina da Badiola Gasteizeko garatzaileen kostua.
 
 Hemen gertakari hau diseinatzeko modu ezin hobea da Dynamics 365 eta PSA erabiliz.
 
 1. Sortu Microsoft teknologiaren praktika negozio unitate gisa eta lotu Dabid eta Aizpea berarekin. Horrela, bi langileek segurtasun maila berdina izan dezaketela bermatzen laguntzen duzu praktika arloko edozein proiektuetarako. Biek egiaztatu ahal izango dute aurrerapena eta denbora, gastuak eta zereginen eguneratzeak jakinarazi. 
 2. Sortu bi antolakuntza unitate proiektuaren kostua behar bezala islatzen dela bermatzeko. 
-3. Elkartu Aizpea Contoso US-ekin eta lotu Dabid Contoso Indiarekin.
-4. Esleitu kostu prezio-zerrenda egokiak erakunde biei. Horrela, Dabid eta Aizpea proiektuetan grabatutako kostuak zehatz-mehatz kontratatzen dituzu Contoso US eta Contoso India arteko kostuen aldea.
+3. Elkartu Aizpea Badiola Gasteizekin eta lotu Dabid Badiola Iruñearekin.
+4. Esleitu kostu prezio-zerrenda egokiak erakunde biei. Horrela, Dabid eta Aizpea proiektuetan grabatutako kostuak zehatz-mehatz kontratatzen dituzu Badiola Gasteiz eta Badiola Iruñea arteko kostuen aldea.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Dynamics 365-en salmenta lurraldeekin erlazionatuta daude antolakuntza unitateak?
 
@@ -94,11 +95,11 @@ Erakunde unitatea enpresako barne-talde edo zatiketa da, beste dibisio batzuei e
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Erakunde unitateen eta salmenta-lurraldeen adibidea
 
-Contoso, Ltd.-k bi garapen zentro ditu: Contoso US eta Contoso India. Baliabideen kostuak asko dira bi garapen zentro horien artean.
+Badila, Ltd.-k bi garapen zentro ditu: Badiola Gasteiz eta Badiola Iruñea. Baliabideen kostuak asko dira bi garapen zentro horien artean.
 
-Contoso-k nazioarteko merkatu askotan saltzen ditu bere IT zerbitzuak, hala nola Latinoamerikan, Ipar Amerikan, Asia-Pazifikoan, Mendebaldeko Europan eta Ekialde Hurbilean. Proiektu bereko funtzioen fakturen tasak oso alda daitezke merkatu hauetan.
+Badiolak nazioarteko merkatu askotan saltzen ditu bere IT zerbitzuak, hala nola Latinoamerikan, Ipar Amerikan, Asia-Pazifikoan, Mendebaldeko Europan eta Ekialde Hurbilean. Proiektu bereko funtzioen fakturen tasak oso alda daitezke merkatu hauetan.
 
-Contoso US eta Contoso Indiak erakundearen unitate gisa eratu beharko lirateke, eta erakundearen unitate bakoitzak bere kostuen prezio-zerrenda izan beharko luke. Asia-Pazifikoa, Latinoamerika, Ipar Amerika, Mendebaldeko Europa eta Ekialde Hurbilean salmenta-lurralde gisa ezarri beharko lirateke, eta salmenta-lurralde bakoitzak bere salmenta prezio-zerrenda izan beharko luke.
+Badiola Gasteizek eta Badiola Iruñeak erakundearen unitate gisa eratu beharko lirateke, eta erakundearen unitate bakoitzak bere kostuen prezio-zerrenda izan beharko luke. Asia-Pazifikoa, Latinoamerika, Ipar Amerika, Mendebaldeko Europa eta Ekialde Hurbilean salmenta-lurralde gisa ezarri beharko lirateke, eta salmenta-lurralde bakoitzak bere salmenta prezio-zerrenda izan beharko luke.
 
 ### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Zergatik dago murrizketarik prezio-zerrenden erakundearen unitateekin lotzeari dagokionez? 
 
@@ -122,7 +123,7 @@ Ez. PSAren oraingo oharrean, erakundearen unitateak ez dira hierarkikoak. Horrek
 Kostu zentroak, zatiketak, fakturazio bulegoak, etab., Hierarkia konplexua baduzu, konfiguratu hierarkia horren hosto-nodoak antolakuntza unitate desberdin gisa.
 Hurrengo adibidean hierarkia tipikoa agertzen da:
 
-**ContosoIndia**
+**Badiola Iruñea**
 
   - SAP praktika 
 
@@ -147,14 +148,14 @@ Hurrengo adibidean hierarkia tipikoa agertzen da:
     - Aholkularitza funtzionalak 
  
 Zure hierarkia antzekoa bada, zerrenda lau gisa ezarri behar duzu hemen:
-- Contoso India - SAP Praktika - Aholkulari Teknikoak 
-- Contoso India - SAP Praktika - Aholkulari funtzionala       
-- Contoso India - Microsoft Technology Aholkulari funtzionala 
-- Contoso India - Microsoft Technology Aholkulari funtzionala 
-- Contoso US - SAP Praktika - Aholkulari Teknikoak  
-- Contoso US - SAP Praktika - Aholkulari funtzionala  
-- Contoso US - Microsoft Technology Aholkulari teknikoak 
-- Contoso US - Microsoft Technology Aholkulari funtzionala
+- Badiola Iruñea - SAP Praktika - Aholkulari Teknikoak 
+- Badiola Iruñea - SAP Praktika - Aholkulari funtzionala       
+- Badiola Iruñea - Microsoft Technology Aholkulari funtzionala 
+- Badiola Iruñea - Microsoft Technology Aholkulari funtzionala 
+- Badiola Gasteiz - SAP Praktika - Aholkulari Teknikoak  
+- Badiola Gasteiz - SAP Praktika - Aholkulari funtzionala  
+- Badiola Gasteiz - Microsoft Technology Aholkulari teknikoak 
+- Badiola Gasteiz - Microsoft Technology Aholkulari funtzionala
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Zerbitzu profesionalean maila bakarrean lan egiten duen enpresa txiki bat gara. Nola erabil dezakegu erakundearen unitatearen kontzeptua PSAren egungo bertsioan?
 

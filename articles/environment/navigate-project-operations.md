@@ -4,25 +4,25 @@ description: Gai honek Lifecycle Services-eko Project Operations atzitzeari buru
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994576"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591849"
 ---
 # <a name="navigate-project-operations"></a>Nabigatu Project Operations-en
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Baliabideetako / hornitu gabeko eszenatokietarako Dynamics 365 Project Operations bi osagaik osatzen dute: 
 
  - **Project Operations Common Data Service (CDS) ingurunea**: Osagai honek abagunearen eta proforma fakturaziorako gaitasunak estaltzen ditu. 
- - **Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunea**: Osagai honek gastuak kudeatzeko gaitasunak, proiektuen kontabilitatea eta diru-sarreren aitorpena estaltzen ditu. 
+ - **Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean** : Osagai honek gastuak kudeatzeko gaitasunak, proiektuen kontabilitatea eta diru-sarreren aitorpena biltzen ditu. 
 
 Gai honetan deskribatutako Project Operations hornitu ondoren, Lifecycle Services (LCS) **Ingurumenaren xehetasunak** orrialdeak Project Operations-en bi osagaietarako sarbide erraza eskaintzen du.  
 

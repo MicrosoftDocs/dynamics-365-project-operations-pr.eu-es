@@ -1,19 +1,19 @@
 ---
-title: Konfiguratu Schedule Board lan-kontratuko langileak eta azpikontratatutako gaitasuna erakusteko
+title: Konfiguratu kontratudun langileak eta azpikontratatutako ahalmena erakusteko Antolaketa-panela
 description: Gai honek Microsoft-en Schedule Board nola konfiguratu deskribatzen du Dynamics 365 Project Operations azpikontratatutako baliabideen gaitasuna erakusteko proiektuaren baliabideen eskakizunak betetzean.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d645dee741a45dcb0219e4e4f58a329b7b873e10
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: 6e382b33fafe91c8b96a91d033fe12b998114bdc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903600"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587801"
 ---
-# <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>Konfiguratu Schedule Board lan-kontratuko langileak eta azpikontratatutako gaitasuna erakusteko 
+# <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>Konfiguratu kontratudun langileak eta azpikontratatutako ahalmena erakusteko Antolaketa-panela 
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -36,7 +36,7 @@ Baliabide bat bilatzen duzunean, programazio-taulan eskuragarri dauden iragazkia
   - Azpikontratu edo azpikontratu lerro zehatz bati dagozkion baliabideak.
     
 ### <a name="update-retrieve-resource-query"></a>Eguneratu baliabideen kontsulta berreskuratzeko
-Bilaketarako erabilitako kontsulta ere eguneratu behar da iragazki-atributu osagarri hauek erabiltzeko. Erabili urrats hauek Schedule Board konfigurazioa eguneratzeko baliabideen bilaketa orokorrerako:  
+Bilaketarako erabilitako kontsulta ere eguneratu egin behar da iragazki-atributu osagarri hauek erabiltzeko. Erabili urrats hauek Schedule Board konfigurazioa eguneratzeko baliabideen bilaketa orokorrerako:  
 1. Ireki **Antolatu taularen ezarpenak** Ordutegi Batzorde espezifiko baterako.
 2. Ireki **Ezarpen orokorrak** fitxa eta joan hona **Beste ezarpen batzuk**.
 3. Atal honetako ezarpenen zerrendan, eguneratu **Iragazkien diseinua** to **Iragazki-diseinu lehenetsia Project Operations Lite-rako**.
@@ -52,7 +52,7 @@ Baliabide bat bilatzen duzunean, programazio-taulan eskuragarri dauden iragazkia
  - Azpikontratu edo azpikontratu lerro zehatz bati dagozkion baliabideak.
 
 ### <a name="update-retrieve-resource-query-for-requirement-specific-resource-search"></a>Eguneratu berreskuratzeko baliabideen kontsulta eskakizunen berariazko baliabideen bilaketarako 
-Bilaketarako erabilitako kontsulta ere eguneratu behar da iragazki-atributu osagarri hauek erabiltzeko. Erabili urrats hauek Schedule Board konfigurazioa eskakizunetan oinarritutako baliabideen bilaketa eguneratzeko:
+Bilaketarako erabilitako kontsulta ere eguneratu egin behar da iragazki-atributu osagarri hauek erabiltzeko. Erabili urrats hauek Schedule Board konfigurazioa eguneratzeko eskakizunetan oinarritutako baliabideen bilaketarako:
 
 1. Ireki **Antolatu taularen ezarpenak** Ordutegi-taula zehatz baterako eta gero hautatu **Ireki Ezarpen lehenetsiak** eskakizun zehatzen bilaketarako ezarpenak irekitzeko.
 2. Ireki **Ezarpen orokorrak** fitxa eta joan hona **Beste ezarpen batzuk**.

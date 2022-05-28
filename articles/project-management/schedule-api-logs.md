@@ -1,23 +1,23 @@
 ---
-title: Proiektua antolatzeko erregistroak
+title: Proiektuaren antolaketa-erregistroak
 description: Gai honek Project Scheduling erregistroak erabiltzen lagunduko dizuten informazioa eta laginak eskaintzen ditu Project Scheduling Service eta Project Scheduling APIekin erlazionatutako hutsegiteen jarraipena egiteko.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1c5632a880fa30d1b863c326b22e3d930c9564dc
-ms.sourcegitcommit: 844ec8eacd0fc10d1659b437cc5cbb4480ec9e1e
+ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "7877504"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589503"
 ---
-# <a name="project-scheduling-logs"></a>Proiektua antolatzeko erregistroak
+# <a name="project-scheduling-logs"></a>Proiektuaren antolaketa-erregistroak
 
 _**Honi dagokio:** Baliabideetan/hornituta ez dauden agertokietarako proiektuen eragiketak, Lite inplementazioa - fakturazio proforma jorratu_, _proiektua_
 
-Microsoft Dynamics 365 Project Operations erabiltzen du [Weberako proiektua](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) bere programazio-motor nagusi gisa. Microsoft Dataverse Web aplikazioen programazio-interfazeak (API) estandarrak erabili beharrean, Project Operations-ek Project Scheduling API berriak erabiltzen ditu proiektuko zereginak, baliabide-esleipenak, ataza-menpekotasunak, proiektu-kuboak eta proiektu-taldeetako kideak sortzeko, eguneratzeko eta ezabatzeko. Dena den, sortu, eguneratu edo ezabatu eragiketak lanaren banaketa egituraren (WBS) entitateetan programatikoki exekutatzen direnean, akatsak gerta daitezke. Errore hauen eta eragiketen historiaren jarraipena egiteko, bi administrazio-erregistro berri ezarri dira: **Eragiketa multzoa** eta **Proiektuak Planifikatzeko Zerbitzua (PSS)**. Erregistro hauetara sartzeko, joan hona **Ezarpenak** \> **Ordutegien Integrazioa**.
+Microsoft Dynamics 365 Project Operations erabilerak [Weberako proiektua](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) bere programazio-motor nagusi gisa. Estandarra erabili beharrean Microsoft Dataverse Web aplikazioen programazio-interfazeak (API), Project Operations-ek Project Scheduling API berriak erabiltzen ditu proiektuko zereginak, baliabide-esleipenak, ataza-menpekotasunak, proiektu-kuboak eta proiektu-taldeetako kideak sortzeko, eguneratzeko eta ezabatzeko. Dena den, sortu, eguneratu edo ezabatu eragiketak lanaren banaketa egituraren (WBS) entitateetan programatikoki exekutatzen direnean, akatsak gerta daitezke. Errore hauen eta eragiketen historiaren jarraipena egiteko, bi administrazio-erregistro berri ezarri dira: **Eragiketa multzoa** eta **Proiektuak Planifikatzeko Zerbitzua (PSS)**. Erregistro hauetara sartzeko, joan hona **Ezarpenak** \> **Ordutegien Integrazioa**.
 
 Ondorengo ilustrazioak Proiektuaren Programazioaren erregistroen datu-eredua erakusten du.
 
@@ -36,7 +36,7 @@ Ondoko taulan, honekin erlazionatutako eremuak erakusten dira **Eragiketa multzo
 | msdyn_completedon     | Eragiketa ezarri edo huts egin den data/ordua.                                                | CompletedOn            |
 | msdyn_correlationid   | The **korrelazioId** eskaeraren balioa.                                                                  | CorrelationId          |
 | msdyn_description     | Eragiketa-multzoaren deskribapena.                                                                        | Deskribapenak            |
-| msdyn_executedon      | Erregistroa exekutatu zeneko data/ordua.                                                                       | Exekutatze-data            |
+| msdyn_executedon      | Erregistroa exekutatu zeneko data/ordua.                                                                       | Exekuzio-data            |
 | msdyn_operationsetId  | Entitate-instantziaren identifikatzaile bakarra.                                                                   | OperationSet           |
 | msdyn_Project         | Eragiketa multzoarekin zerikusia duen proiektua.                                                            | Project                |
 | msdyn_projectid       | The **projectId** eskaeraren balioa.                                                                      | ProjectId (zaharkituta) |
@@ -45,7 +45,7 @@ Ondoko taulan, honekin erlazionatutako eremuak erakusten dira **Eragiketa multzo
 | msdyn_PSSErrorLogName | Ez da aplikagarria.                                                                                              | Ez da aplikagarria         |
 | msdyn_status          | Eragiketa multzoaren egoera.                                                                             | Fasea                 |
 | msdyn_statusName      | Ez da aplikagarria.                                                                                              | Ez da aplikagarria         |
-| msdyn_useraadid       | Eskaera dagokion erabiltzailearen Azure Active Directory (Azure AD) objektuaren IDa.                     | UserAADID              |
+| msdyn_useraadid       | The Azure Active Directory (Azure AD) eskaerari dagokion erabiltzailearen objektuaren IDa.                     | UserAADID              |
 
 ### <a name="operation-set-detail"></a>Eragiketa-multzoaren xehetasuna
 
@@ -53,7 +53,7 @@ Ondoko taulan, honekin erlazionatutako eremuak erakusten dira **Eragiketa-multzo
 
 | Eskemaren izena                 | Deskribapenak                                                                                 | DisplayName           |
 |----------------------------|---------------------------------------------------------------------------------------------|-----------------------|
-| msdyn_cdspayload           | Eskaeraren Dataverse serializatutako eremuak.                                            | CdsPayload            |
+| msdyn_cdspayload           | Serializatua Dataverse eskaera egiteko eremuak.                                            | CdsPayload            |
 | msdyn_entityname           | Eskaera egiteko entitatearen izena.                                                     | EntityName            |
 | msdyn_httpaditza             | Eskaera metodoa.                                                                         | HTTP aditza (zaharkitua) |
 | msdyn_httpverbName         | Ez da aplikagarria.                                                                             | Ez da aplikagarria        |
@@ -82,7 +82,7 @@ Ondorengo taulak Project Scheduling Service erregistroan sartzen diren eremuak e
 |---------------------|--------------------------------------------------------------------------------|----------------|
 | msdyn_CallStack     | Salbuespenaren dei-pila.                                               | Dei-pila     |
 | msdyn_correlationid | Errorearen korrelazio IDa.                                               | CorrelationId  |
-| msdyn_errorcode     | Dataverse errore-kodea edo HTTP errore-kodea gordetzeko erabiltzen den eremua. | Errore-kodea     |
+| msdyn_errorcode     | Gordetzeko erabiltzen den eremua Dataverse errore-kodea edo HTTP errore-kodea. | Errore-kodea     |
 | msdyn_HelpLink      | Laguntza publikorako dokumentaziorako esteka.                                       | Laguntza-esteka      |
 | msdyn_log           | Proiektuak Antolatzeko Zerbitzuaren erregistroa.                                   | Egunkaria            |
 | msdyn_project       | Erroreen erregistroarekin lotutako proiektua.                             | Project        |
@@ -92,11 +92,11 @@ Ondorengo taulak Project Scheduling Service erregistroan sartzen diren eremuak e
 
 ## <a name="error-log-cleanup"></a>Errorea erregistroa garbitzean
 
-Lehenespenez, bai Project Scheduling Service erroreen erregistroak bai Operation Set erregistroa garbitu daitezke 90 egunean behin. 90 egun baino zaharragoak diren erregistroak ezabatu egingo dira. Hala ere, balioa aldatuz **msdyn_StateOperationSetAge** eremuan **Proiektuaren Parametroak** orrialdean, administratzaileek garbiketa-tartea doi dezakete, 1 eta 120 egun artean egon dadin. Balio hau aldatzeko hainbat metodo daude eskuragarri:
+Lehenespenez, bai Project Scheduling Service erroreen erregistroak bai Operation Set erregistroa garbitu daitezke 90 egunean behin. 90 egun baino zaharragoak diren erregistroak ezabatu egingo dira. Hala ere, balioa aldatuz **msdyn_StateOperationSetAge** eremuan **Proiektuaren Parametroak** orrialdean, administratzaileek garbiketa-tartea doi dezakete, 1 eta 120 egun artekoa izan dadin. Balio hau aldatzeko hainbat metodo daude eskuragarri:
 
 - Pertsonalizatu **Proiektuaren parametroa** entitatea orri pertsonalizatu bat sortuz eta gehituz **Stale Operations Set Age** eremua.
 - Erabili bezero-kodea erabiltzen duen [WebApi softwarea garatzeko kit (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
-- Erabili Xrm SDK erabiltzen duen Service SDK kodea **eguneratuErregistroa** metodoa (Client API reference) ereduetan oinarritutako aplikazioetan. Power Apps-ek deskribapen bat eta onartzen dituen parametroak biltzen ditu **eguneratuErregistroa** metodoa.
+- Erabili Xrm SDK erabiltzen duen Service SDK kodea **eguneratuErregistroa** metodoa (Client API reference) ereduetan oinarritutako aplikazioetan. Power Apps deskribapen bat eta onartzen dituen parametroak biltzen ditu **eguneratuErregistroa** metodoa.
 
     ```C#
     Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter').then(function (response) {

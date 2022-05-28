@@ -4,14 +4,14 @@ description: Gai honek Microsoft-en proiektuko taldeko kideak nola azpikontratat
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b98fc356d7de77fa7f05667acaa5569a7053e4d1
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: f43f817e59ef83fbf4dda6267327080f7c56e0f7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903599"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587815"
 ---
 # <a name="subcontracting-project-team-members"></a>Proiektuko taldekideak azpikontratatzea
 
@@ -24,7 +24,7 @@ Microsoft-en Dynamics 365 Project Operations, langilerik gabeko edo langilerik g
 - Langilerik gabeko proiektuko taldekideek baliabide generiko bat dute esleituta.
 - Langileen taldekideek baliabide izendatua dute.
 
-Proiektu-taldeko kide bat azpikontratu-lerro batera lotzen duzunean, taldekideak dituen zereginen esleipenak azpikontratazioari atxikitako erosketa-prezio-zerrendan oinarrituta egingo dira.  Gainean **Estimazioak** fitxan **Proiektuaren xehetasunak** orrialdea, hautatu **Eguneratu prezioak** botoia azpikontratatzeko erabakiaren ondoriozko prezio eguneratuak edo/eta kostuak ikusteko. 
+Proiektu-taldeko kide bat azpikontratu-lerro batera lotzen duzunean, taldekideak dituen zereginen esleipenak azpikontratuari atxikitako erosketa-prezio-zerrendan oinarrituta egingo dira.  Gainean **Estimazioak** fitxan **Proiektuaren xehetasunak** orrialdea, hautatu **Eguneratu prezioak** botoia azpikontratatzeko erabakiaren ondoriozko prezio eguneratuak edo/eta kostuak ikusteko. 
 
 ## <a name="subcontracting-an-unstaffed-project-team-member"></a>Langilerik gabeko proiektuko taldekide bat azpikontratatzea
 The **Taldekidearen xehetasunak** orrialdeak azpikontratazio eta azpikontratazio lerro-eremuak ditu, proiektuaren kudeatzaileak azpikontratu batetik eskatutako gaitasuna nola atera nahiko lukeen adierazteko aukera ematen diotenak. Proiektuko taldekide bat baliabide generiko gisa azpikontratatzeko, jarraitu urrats hauek:
@@ -39,7 +39,7 @@ The **Taldekidearen xehetasunak** orrialdeak azpikontratazio eta azpikontratazio
 
 5.  Proiektuko taldekideen erregistroaren rolak bat etorri behar du azpikontratuaren lerroko rolarekin. Horrek ziurtatzen du proiektuan estimatzen den rolaren denbora azpikontratazio lerroan erosten den rol bera dela. 
 
-Taldekide generiko bat azpikontratu eta azpikontratu lerro batekin lotuta dagoenean, **Langile mota** taldekideen errenkadako eremu orokorrean eguneratuko da **Lan-kontratuko langilea** eta **Azpikontratuaren Baliotasuna** moduan ezarriko da **Baliozkoa**.
+Taldekide generiko bat azpikontratu eta azpikontratu lerro batekin lotuta dagoenean, **Langile mota** taldekideen errenkada generikoko eremua eguneratuko da **Lan-kontratuko langilea** eta **Azpikontratuaren Baliotasuna** moduan ezarriko da **Baliozkoa**.
 
 ## <a name="subcontracting-a-staffed-project-team-member"></a>Proiektuko taldekide bat azpikontratatzea
 Taldekide generikoak edo langilerik gabekoak bezala, proiektu batean behar den taldekideen gaitasuna ere azpikontratu batekin lotu daiteke. Proiektuko taldekide izendatu bat azpikontratatzeko, jarraitu urrats hauek:

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986476"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591160"
 ---
 # <a name="vendor-invoice-integration"></a>Saltzaileen fakturen integrazioa
 
@@ -34,7 +34,7 @@ Project Operations-en, proiektuari lotutako saltzaileen fakturak argitaratzeko a
      > [!NOTE]
      > Saltzailearen faktura xehetasunak hemen Dataverse ez dira editagarriak.
 
-Zerga azpiegitura, saltzailearen azpiegitura eta bestelako finantza bidalketak hemen aplikatzen diren moduan erregistratzen dira Dynamics 365 Finance saltzailearen faktura argitaratzen denean.
+Zerga-liburua, saltzaileen azpi-liburua eta beste finantza-zenbaki batzuk Dynamics 365 Finance atalean erregistratzen dira saltzailearen faktura argitaratzen denean.
 
 ![Saltzaileen fakturen integrazioa.](media/DW7VendorInvoice.png)
 

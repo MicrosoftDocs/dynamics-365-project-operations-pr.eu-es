@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996691"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593367"
 ---
 # <a name="track-a-projects-status-project-service"></a>Jarraitu proiektu-egoerari (Project Service)
 
@@ -33,14 +34,13 @@ Erabili [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-projec
 
 Konpromiso-progresio gisa, proiektu-faseak eguneratzen dira, konpromisoaren fasea islatzeko:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Berria**    | Proiektua sortzen duzunean, fasea **Berria** gisa ezartzen da. Proiektua txantiloi batetik sortu baduzu, proiektuaren fasean antolaketa, estimazioak eta taldea datuak izan ditzakezu. Bestela, proiektuaren ingerada izango da eta eskuz sartu beharko dituzu gainerako osagai guztiak. |
-|  **Eskaintza**   |      Erlazionatu eskaintza proiektua edo eskaintza bateko sortu proiektua fasea gisa ezarrita badago, **Eskaintza**, eta, estimatutako hasiera eta amaiera-datak ere eguneratzen dira. Eskaintzaren xehetasunak bistaratu proiektuan eskaintza fase dagoenean, **Salmentak** atalean fitxan, **Proiektua** orria.      |
-|   **Plana**   |                                     Proiektua fasea eguneratzen denean proiektua bat batekin erlazionatutako eskaintza irabazi eta konpromiso, bilakatzen da kontratua fasera duzunean, **Antolatu**. Kontratu-xehetasunak **Salmentak** fitxan agertzen da, **Proiektua** orrian.                                      |
-| **Osatuta** |                    Proiektuaren lana osatutakoan, fasea **Osatuta** gisa ezar dezakezu. Proiektua fasea osatzeko egoeran daudenean, lana % 100 osatu da baina zain ordua edo expense sarrerak erregistratzen dira ireki sinkronizatzen proiektuan understood da hori.                     |
-|  **Itxi**   |           Transakzio guztiak proiektuan erregistratu ostean eta beste ezer erregistratzea espero ez duzunean, eskuz alda dezakezu fasea **Itxi** egoerara. Proiektuan **Itxi** gisa dagoenean, ezin duzu transakzio gehiago gehitu proiektuan eta proiektua irakurtzeko soilik izango da.           |
+| Zeregina | Deskribapenak | 
+|------------|----------|
+| **New** | Proiektua sortzen duzunean, fasea **Berria** gisa ezartzen da. Proiektua txantiloi batetik sortu baduzu, proiektuaren fasean antolaketa, estimazioak eta taldea datuak izan ditzakezu. Bestela, proiektuaren ingerada izango da eta eskuz sartu beharko dituzu gainerako osagai guztiak. |
+| **Eskaintza** |  Proiektu bat aurrekontu bati lotzen duzunean edo aurrekontu batetik sortzen duzunean, proiektuaren fasea honela ezartzen da **Aipatu**, eta hasiera- eta amaiera-data estimatuak ere eguneratzen dira. Eskaintzaren xehetasunak bistaratu proiektuan eskaintza fase dagoenean, **Salmentak** atalean fitxan, **Proiektua** orria. |
+| **Plana** |  Proiektua fasea eguneratzen denean proiektua bat batekin erlazionatutako eskaintza irabazi eta konpromiso, bilakatzen da kontratua fasera duzunean, **Antolatu**. Kontratu-xehetasunak **Salmentak** fitxan agertzen da, **Proiektua** orrian. |
+| **Osatuta** | Proiektuaren lana osatutakoan, fasea **Osatuta** gisa ezar dezakezu. Proiektua fasea osatzeko egoeran daudenean, lana % 100 osatu da baina zain ordua edo expense sarrerak erregistratzen dira ireki sinkronizatzen proiektuan understood da hori. |
+| **Itxi** | Transakzio guztiak proiektuan erregistratu ostean eta beste ezer erregistratzea espero ez duzunean, eskuz alda dezakezu fasea **Itxi** egoerara. Proiektuan **Itxi** gisa dagoenean, ezin duzu transakzio gehiago gehitu proiektuan eta proiektua irakurtzeko soilik izango da. |
 
 ## <a name="to-track-a-projects-status"></a>Proiektu-egoerari jarraitzeko  
 

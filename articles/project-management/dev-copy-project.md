@@ -2,76 +2,80 @@
 title: Garatu proiektuaren txantiloiak Kopiatu proiektua eginbidearekin
 description: Gai honek proiektuaren txantiloiak sortzeko proiektuari buruzko informazioa eskaintzen du Kopiatu proiektua ekintza pertsonalizatua erabiliz.
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989223"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590883"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Garatu proiektuaren txantiloiak Kopiatu proiektua eginbidearekin
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 Dynamics 365 Project Operations proiektua kopiatu eta eginkizunak eginkizuna adierazten duten baliabide generikoetara itzultzeko gaitasuna onartzen du. Bezeroek funtzionalitate hau erabil dezakete oinarrizko proiektuen txantiloiak eraikitzeko.
 
 Hautatzen duzunean **Kopiatu proiektua**, helburuko proiektuaren egoera eguneratzen da. Erabili **Egoeraren arrazoia** kopia ekintza noiz bukatu den jakiteko. **Kopiatu proiektua** hautatuz gero, proiektuaren hasiera-data uneko hasierako datara eguneratzen du xede-proiektuaren entitatean xede-datarik hautematen ez bada.
 
-## <a name="copy-project-custom-action"></a>Kopiatu proiektuaren ekintza pertsonalizatua 
+## <a name="copy-project-custom-action"></a>Kopiatu proiektuaren ekintza pertsonalizatua
 
 ### <a name="name"></a>Eman izena 
 
-**msdyn_CopyProjectV2**
+msdyn\_ CopyProjectV3
 
 ### <a name="input-parameters"></a>Sarrerako parametroak
+
 Hiru sarrera-parametro daude:
 
-| Parametroa          | Idatzi   | Balioak                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** edo **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | Entitate-erreferentzia | Jatorriko proiektua |
-| Helburua             | Entitate-erreferentzia | Helburu Proiektua |
+- **OrdezkatuNamedResources** edo **GarbituTeamsAndAssignments** – Ezarri aukeretako bakarra. Ez ezarri biak.
 
+    - **\{"ReplaceNamedResources": egia\}** – Proiektuaren Eragiketen portaera lehenetsia. Izendatutako edozein baliabide baliabide generikoekin ordezkatzen dira.
+    - **\{"ClearTeamsAndAssignments":egia\}** – Weberako Proiektuaren portaera lehenetsia. Zeregin eta taldekide guztiak kentzen dira.
 
-- **{"clearTeamsAndAssignments":true}** : Lehenetsitako portaera duzu proiektuarentzako Weberako eta zeregin guztiak eta taldekideak kenduko ditu.
-- **{"removeNamedResources":true}** Proiektuaren eragiketen portaera lehenetsia, eta zereginak baliabide generikoetara itzuliko ditu.
+- **IturburuProiektua** – Kopiatu nahi den iturburu-proiektuaren entitate-erreferentzia. Parametro hau ezin da nulua izan.
+- **Helburua** – Kopiatu nahi den xede-proiektuaren entitate-erreferentzia. Parametro hau ezin da nulua izan.
 
-Ekintzei buruzko informazio gehiagorako, ikusi [Erabili web API ekintzak](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Hurrengo taulak hiru parametroen laburpena eskaintzen du.
 
-## <a name="specify-fields-to-copy"></a>Zehaztu kopiatu beharreko eremuak 
+| Parametroa                | Idatzi             | Balioa                 |
+|--------------------------|------------------|-----------------------|
+| OrdezkatuNamedResources    | Boolean          | **Egia** edo **Gezurra** |
+| GarbituTeamsAndAssignments | Boolean          | **Egia** edo **Gezurra** |
+| SourceProject            | Entitate-erreferentzia | Iturburu proiektua    |
+| Helburua                   | Entitate-erreferentzia | Helburuko proiektua    |
+
+Ekintzei buruzko lehenespen gehiago lortzeko, ikus [Erabili Web API ekintzak](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+
+### <a name="validations"></a>Balioztatzeak
+
+Ondorengo balioztatzeak egiten dira.
+
+1. Null-ek iturburu eta xede-proiektuak egiaztatzen eta berreskuratzen ditu erakundean bi proiektuen existentzia baieztatzeko.
+2. Sistemak baliozkotzen du xede-proiektua kopiatzeko balio duela baldintza hauek egiaztatuz:
+
+    - Proiektuan ez dago aurreko jarduerarik (hautaketa barne **Zereginak** fitxa), eta proiektua sortu berria da.
+    - Ez dago aurreko kopiarik, ez da inportaziorik eskatu proiektu honetan, eta proiektuak ez du **Huts egin du** egoera.
+
+3. Eragiketa ez da HTTP erabiliz deitzen.
+
+## <a name="specify-fields-to-copy"></a>Zehaztu kopiatu beharreko eremuak
+
 Ekintza deitzen denean, **Kopiatu proiektua** proiektuaren ikuspegia aztertuko du **Kopiatu proiektuaren zutabeak** proiektua kopiatzerakoan zein eremu kopiatu zehazteko.
 
-
 ### <a name="example"></a>Adibidez
-Ondorengo adibidean **CopyProject** ekintza pertsonalizatua **removeNamedResources** parametro multzoarekin nola deitu erakusten da.
+
+Hurrengo adibidean nola deitzen den erakusten da **CopyProjectV3** ekintza pertsonalizatuarekin **kenduNamedResources** parametro multzoa.
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ Ondorengo adibidean **CopyProject** ekintza pertsonalizatua **removeNamedResourc
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

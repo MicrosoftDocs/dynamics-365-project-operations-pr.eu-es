@@ -4,14 +4,14 @@ description: Gai honek enpresen arteko fakturazioa proiektuen inguruko informazi
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994036"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591573"
 ---
 # <a name="configure-intercompany-invoicing"></a>Konfiguratu enpresen arteko fakturazioa
 
@@ -21,11 +21,11 @@ Bete urrats hauek enpresen arteko fakturazioa proiektuan konfiguratzeko Dynamics
 
 ## <a name="example-configure-intercompany-invoicing"></a>Adibidez: Konfiguratu enpresen arteko fakturazioa
 
-Hurrengo adibidean, Contoso Robotics USA (USPM) zor juridikoa da eta Contoso Robotics UK (GBPM) mailegu-entitate juridikoa da. 
+Hurrengo adibidean, Contoso Robotics USA (USPM) da mailegu-entitatea eta Contoso Robotics UK (GBPM) mailegu-entitatea da. 
 
 1. **Konfiguratu enpresen arteko kontabilitatea pertsona juridikoen artean**. Mailegu- eta mailegu-entitate juridiko bikote bakoitza liburu nagusian konfiguratu behar da [Enpresen arteko kontabilitatea](/dynamics365/finance/general-ledger/intercompany-accounting-setup) orrialdea.
     
-    1. Dynamics 365 Finance-n, joan **Liburu nagusia** > **Mezuaren konfigurazioa** > **Enpresen arteko kontabilitatea** aukerara. Sortu erregistroa informazio honekin:
+    1. Dynamics 365 Finance atalean, joan hona **Liburu Nagusia** > **Argitalpenaren konfigurazioa** > **Enpresa arteko kontabilitatea**. Sortu erregistroa informazio honekin:
 
         - **Jatorrizko enpresa** = **GBPM**
         - **Helmuga-enpresa** = **USPM**
@@ -35,13 +35,13 @@ Hurrengo adibidean, Contoso Robotics USA (USPM) zor juridikoa da eta Contoso Rob
      1. Finantzetan, hautatu pertsona juridikoa **GBPM**.
      2. Joan **Kobratu beharreko kontuak** > **Bezeroa** > **Bezero guztiak**. Sortu erregistro berria pertsona juridikoarentzat, **USPM**.
      3. Zabaldu **Izena**, iragazi erregistroak **Mota** aukeraren arabera, eta hautatu **Pertsona juridikoak**. 
-     4. Bilatu eta hautatu bezeroarentzako erregistroa **Contoso Robotika AEB (USPM)**.
+     4. Bilatu eta hautatu bezeroarentzako erregistroa **Contoso Robotics AEB (USPM)**.
      5. Aukeratu **Erabili partida**. 
      6. Aukeratu bezero taldea **50 - Enpresen arteko bezeroak** eta gero gorde erregistroa.
      7. Hautatu **USPM** legezko entitatea.
      8. Joan **Ordaintzeko kontuak** > **Saltzaileak** > **Saltzaile guztiak**. Sortu erregistro berria pertsona juridikoarentzat, **GBPM**.
      9. Zabaldu **Izena**, iragazi erregistroak **Mota** aukeraren arabera, eta hautatu **Pertsona juridikoak**. 
-     10. Bilatu eta hautatu bezeroarentzako erregistroa **Contoso Robotika UK (GBPM)**.
+     10. Bilatu eta hautatu bezeroarentzako erregistroa **Contoso Robotics UK (GBPM)**.
      11. Aukeratu **Erabili partida**, hautatu saltzaile taldea, eta gorde erregistroa.
      12. Saltzailearen erregistroan, hautatu **Orokorra** > **Konfiguratu** > **Enpresa artekoa**.
      13. **Negoziazio-harremana** fitxan, ezarri **Aktiboa** **Bai** gisa.
@@ -80,19 +80,19 @@ Hurrengo adibidean, Contoso Robotics USA (USPM) zor juridikoa da eta Contoso Rob
 
 5. **Ezarri eskulanaren transferentzia prezioak**. Enpresen arteko transferentziaren prezioak Project Operations-en konfiguratuta daude Dataverse. Konfiguratu [eskulanaren kostuen tasak](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) eta [lan fakturaren tasak](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) enpresen arteko fakturaziorako. Transferentzia prezioak ez dira onartzen enpresen arteko gastuen transakzioetarako. Erakundeen arteko unitatearen salmenta-prezioa beti izango da baliabideen unitateko kostuaren prezioaren balio bera.
 
-      Garatzailearen baliabideen kostua Contoso Robotics UK 88 GBP orduko da. Contoso Robotics UK-k fakturatuko du Contoso Robotics USA 120 USD baliabide honek AEBetako proiektuetan lan egiten zuen ordu bakoitzeko. Contoso Robotics USA-k bezeroari Adventure Works 200 USD fakturatuko dio Contoso Robotics UK garatzaileentzako baliabidea.
+      Contoso Robotics UK garatzailearen baliabideen kostua 88 GBP da orduko. Contoso Robotics UK-k Contoso Robotics USA fakturatuko du 120 USD baliabide honek AEBetako proiektuetan lan egin duen ordu bakoitzeko. Contoso Robotics USA-k bezeroari Adventure Works 200 USD fakturatuko dio Contoso Robotics UK garatzaile baliabideak egindako lana.
 
       1. Project Operations-eko Dataverse atalean, joan **Salmenta** > **Prezio zerrendak**. Sortu kostuen prezioen zerrenda berria **Contoso Robotics UK kostu tasak**. 
       2. Kostuen prezioen zerrendan, sortu erregistro bat informazio honekin:
          - **Rola** = **Garatzailea**
          - **Kostua** = **88 GBP**
-      3. Joan **Ezarpenak** > **Antolakuntza unitateak** eta erantsi kostuen prezio zerrenda **Contoso Robotics UK** antolakuntza unitatea.
+      3. Joan **Ezarpenak** > **Antolakuntza unitateak** eta erantsi kostuen prezio zerrenda hau **Contoso Robotics UK** antolakuntza unitatea.
       4. Joan **Salmentak** > **Prezio zerrendak** aukerara. Sortu kostuen prezioen zerrenda **Contoso Robotics USA kostu tasak**. 
       5. Kostuen prezioen zerrendan, sortu erregistro bat informazio honekin:
           - **Rola** = **Garatzailea**
           - **Baliabideen enpresa** = **Contoso Robotics UK**
           - **Kostua** = **120 USD**
-      6. Joan **Ezarpenak** > **Antolakuntza unitateak** eta erantsi **Contoso Robotics USA kostu-tasak** kostuaren prezio-zerrenda **Contoso Robotics USA** antolakuntza unitatea.
+      6. Joan **Ezarpenak** > **Antolakuntza unitateak** eta erantsi **Contoso Robotics USA kostu-tarifak** kostuen prezio zerrenda **Contoso Robotics USA** antolakuntza unitatea.
       7. Joan **Salmentak** > **Prezio zerrendak** aukerara. Sortu izeneko salmenta prezioen zerrenda **Adventure Works fakturen tasak**. 
       8. Salmenten prezioen zerrendan, sortu erregistro bat informazio honekin:
           - **Rola** = **Garatzailea**

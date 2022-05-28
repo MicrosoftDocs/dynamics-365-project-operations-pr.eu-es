@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818168"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588905"
 ---
 # <a name="mobile-expense-app"></a>Mugikorreko gastuen aplikazioa
 
@@ -54,7 +54,7 @@ Finantzak zure erakundean hedatu badira, sistemaren administratzaileak argitarat
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa
 Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 
-- [Android telefonoetarako](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Hurrengorako Android telefonoak](https://go.microsoft.com/fwlink/?linkid=850662)
 - [iPhone-tarako](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Saio hasi mugikorreko aplikazioa
