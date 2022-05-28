@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005286"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727943"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Antolatu Microsoft Project lana formateatzeko, Project Service Automation Proiektua Gehitu add-in erabili
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005286"
 ## <a name="download-and-install-the-add-in"></a>Deskargatu eta instalatu gehigarria  
  Izan zure [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] saioa hasteko informazioa prest. Informazio hau beharko duzu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] aplikaziotik [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] aplikaziora konektatzeko.  
 
-1.  Deskarga-zentrotik, deskargatu Project Service-en bertsioa onartzen duen gehigarria [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) edo [V3.4 +](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Deskarga-zentrotik, deskargatu Project Service-en bertsioa onartzen duen gehigarria [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) edo [V3.4 +](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Sakatu deskargatu esteka.  
 
@@ -87,9 +88,8 @@ Hurrengo urratsera inportatu eta argitaratzeko, atalean proiektua da antolamendu
 
 Proiektuan inportatzeko da [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Prezioak eta taldeak sorrerako prozesu aplikatzen dira. Aplikazioan proiektua ireki [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] duzun taldea, proiektua estimates eta diren kanpaina-xehatzea egitura lan egin ikusteko sortu da. Taula honetan emaitzak non aurkit erakusten da:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Xehetasunak |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt diagrama**   | [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Zereginen xehetasunen egitura** pantailara inportatzen du. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Baliabideen orria** |   [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Proiektuko taldekideak** pantailara inportatzen du.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Erabili erabilera**    |    [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Proiektuaren aurreikuspenak** pantailara inportatzen du.     |

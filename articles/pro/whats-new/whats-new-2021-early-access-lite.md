@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323896"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723661"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>2021eko berritasunen 2. uhinerako sarbide - Project Operations lite inplementazioa
 
@@ -26,7 +26,7 @@ Oharra ingurune bat denean bakarrik aplikatzen da [Goiz Sarbidea aukeratu zen](/
 
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
 
-[Azpikontrataren kudeaketa](../subcontracting/subcontracting_EA_scope.md) - Ezaugarri honek ikusgarritasun eta kontrol hobea eskaintzen du proiektu bateko lanaren alderdi guztiei buruz. Azpikontratazioaren kudeaketaren aurrebistak gaitasun hauek ditu:
+[Azpikontrataren kudeaketa](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - Ezaugarri honek ikusgarritasun eta kontrol hobea eskaintzen du proiektu bateko lanaren alderdi guztiei buruz. Azpikontratazioaren kudeaketaren aurrebistak gaitasun hauek ditu:
 
   - Proiektuaren kudeatzaileak azpikontrata sor dezake saltzaile batekin. Berez, saltzailearen erregistroari atxikitako prezioen zerrendak azpikontratatzeko erabiltzen dira. Saltzailearen kontuak **Saltzailea** edo **Hornitzailea** motako erlazioa du.
   - Proiektuaren zuzendariak erosketa guztiak azpikontratako lineako elementu gisa sailka ditzake. Azpikontratazio lineak denbora, gastu edo produktuetarako izan daitezke. Azpikontratazio lerro transakzio klaseak zehazten du zertarako den linea.

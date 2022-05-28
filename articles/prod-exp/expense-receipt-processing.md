@@ -1,24 +1,23 @@
 ---
 title: Gastuen agiriak prozesatzea
-description: Gai honetan ordainagirien karaktereen ezagutza optikoa (OCR) prozesatzeari buruzko informazioa ematen da. Eginbide hau Microsoft Dynamics 365 Finance-en sortutako gastuen txostenak sortzerakoan erabiltzailearen esperientzia hobetzeko diseinatuta dago.
+description: Gai honetan ordainagirien karaktereen ezagutza optikoa (OCR) prozesatzeari buruzko informazioa ematen da. Ezaugarri hau erabiltzailearen esperientzia hobetzeko diseinatuta dago gastuen txostenak sortzen direnean Microsoft Dynamics 365 Finantza.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001371"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684305"
 ---
 # <a name="expense-receipt-processing"></a>Gastuen agiriak prozesatzea
 
@@ -51,7 +50,7 @@ Gastua sortzeko edo ordainagiriaren gastuarekin bat egiteko, egin hau:
 
 Ezaugarri hau **Gastuen txostenak berriro imajinatu ziren** funtzioa gastuen esperientzia errazten laguntzeko. Ezaugarri hau Tier 2+ inguruneetarako bakarrik dago erabilgarri, Sandbox eta Production.
 
-Gastu-gaitasun aurreratu hauek erabiltzeko, instalatu Microsoft Dynamics 365 Finance-rako Gastuen kudeaketa-zerbitzua gehigarria, eta aktibatu funtzioak zure instantzian. Gehigarria zure proiektuan sar dezakezu Microsoft Dynamics Lifecycle Services (LCS).
+Gastu-gaitasun aurreratu hauek erabiltzeko, instalatu Expense Management Service gehigarria Microsoft Dynamics 365 Finantza, eta aktibatu eginbideak zure instantzian. Gehigarria zure proiektuan sar dezakezu Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Hasi saioa LCS-n eta ireki nahi duzun ingurunea.
 2. Joan **Xehetasun guztiak**.

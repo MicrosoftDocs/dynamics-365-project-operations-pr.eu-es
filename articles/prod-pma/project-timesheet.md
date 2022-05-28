@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997186"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683112"
 ---
 # <a name="project-timesheet-mobile-application"></a>Proiektuaren orrialde mugikorretarako aplikazioa
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997186"
 
 ## <a name="overview"></a>Informazio orokorra
 
-Microsoft Dynamics 365 Project Timesheet mugikorreko aplikazioak gaitzen ditu erabiltzaileak igotzeko eta onartzeko denbora-orriak mugikorreko gailuak (iPhone edo Android). Mugikorretarako aplikazio honek Proiektuaren kudeaketa eta kontabilitate arloan bizi den denbora-orriaren funtzionalitatea azaleratzen du Dynamics 365 Finance, erabiltzaileen produktibitatea eta eraginkortasuna hobetzeaz gain, proiektuaren orriak garaiz sartzea eta onartzea ahalbidetzea.
+Microsoft Dynamics 365 Project Timesheet mugikorreko aplikazioak gaitzen ditu erabiltzaileak igotzeko eta onartzeko denbora-orriak mugikorreko gailuak (iPhone edo Android). Mugikorretarako aplikazio honek Dynamics 365 Finance-en Proiektuen kudeaketa eta kontabilitate eremuan dagoen denbora-orriaren funtzionaltasuna azaleratzen du, erabiltzaileen produktibitatea eta eraginkortasuna hobetuz, baita proiektuen kronogramak garaiz sartzea eta onartzea ere.
 
 ## <a name="download-and-install-the-mobile-app"></a>Deskargatu eta instalatu mugikorreko aplikazioa
 

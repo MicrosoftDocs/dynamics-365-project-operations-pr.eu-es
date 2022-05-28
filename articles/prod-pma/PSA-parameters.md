@@ -1,32 +1,31 @@
 ---
 title: Project Service Automation integrazio-parametroak
-description: Gai honetan integratzen zarenean lehenetsitako datuak nola sartzen diren konfiguratzen da Microsoft Dynamics 365 for Project Service Automation Microsoftekin Dynamics 365 Finance.
+description: Gai honek integratzean datu lehenetsiak nola sartzen diren azaltzen du Microsoft Dynamics 365 for Project Service Automation rekin Microsoft Dynamics 365 Finantza.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 70dcf44c0948bfb8f17c51e052b6c76e029d35fd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005826"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683661"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation integrazio-parametroak
 
 [!include[banner](../includes/banner.md)]
 
-Gainean **Project Service Automation integrazio parametroak** orrialdean, integratzen zarenean lehenetsitako datuak nola sartzen diren konfigura dezakezu Dynamics 365 Project Service Automation hurrengoarekin Dynamics 365 Finance. Project Service Automation Finantzara proiektuak ongi sinkronizatzeko, honako eremuak konfiguratu behar dituzu.
+Gainean **Project Service Automation integrazio-parametroak** orrialdean, integratzen zarenean lehenetsitako datuak nola sartzen diren konfigura dezakezu Dynamics 365 Project Service Automation Dynamics 365 Finance-rekin. Project Service Automation Finantzara proiektuak ongi sinkronizatzeko, honako eremuak konfiguratu behar dituzu.
 
 Irekitzeko **Project Service Automation integrazio parametroak** orrialdea, joan **Proiektuen kudeaketa eta kontabilitatea** \> **Konfigurazioa** \> **Dynamics 365 for Project Service Automation integrazio parametroak**. 
 

@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988006"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684949"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project client integrazioa
 
 [!include [banner](../includes/banner.md)]
 
-Proiektuen egutegia planifikatzea eta mantentzea konplexua izan daiteke, beraz, proiektuen kudeatzaileek zeregin hori kudeatzen lagunduko dieten tresnak erabili behar dituzte. Microsoft Project Client-ekin integratzeak proiektuaren lanen banakako egitura irekitzeko eta kudeatzeko laguntza eskaintzen du. Proiektuaren kudeatzaileak edozein aldaketa argitaratu ahal izango ditu Dynamics 365 Finance proiektuaren zereginen xehetasunen egitura.
+Proiektuen egutegia planifikatzea eta mantentzea konplexua izan daiteke, beraz, proiektuen kudeatzaileek zeregin hori kudeatzen lagunduko dieten tresnak erabili behar dituzte. Microsoft Project Client-ekin integratzeak proiektuaren lanen banakako egitura irekitzeko eta kudeatzeko laguntza eskaintzen du. Proiektu-kudeatzaileak edozein aldaketa argitaratu dezake Dynamics 365 Finance proiektuko lanaren deskonbinazio egituran.
 
 > [!NOTE]
 > Uztaileko eguneratzea erabiltzen baduzu (10.0.4 bertsioa), KB 4054797 eta 4055884 instalatu behar dituzu.
@@ -40,7 +39,7 @@ Microsoft Project Client-ekin bateratzea ahalbidetzeko, a Microsoft Dynamics 365
 •   Egin klik **Ireki**, egin klik **Exekutatu** galdetutakoan.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Ireki eta editatu lehendik dagoen proiektuaren zirriborroen egitura Microsoft Project Client-en
-Proiektu bat bada Dynamics 365 Finance dagoeneko zereginen xehetasunen egitura sortu da, zereginen xehetasunen egitura Microsoft Project Client aplikazioan ireki ahal izango da lan banakako egitura zirriborro egoeran badago. Irekitzeko **Proiektua** orrialdean, egin klik **Ireki Microsoft Project-en** estekatik **Plana** fitxa. Orri hau Microsoft Project Client aplikazioaren barruan ere ireki daiteke klik eginez **Irekia** urtean **Microsoft Dynamics 365** fitxa. Aukeratu **Pertsona juridikoa** eta **Proiektua** zerrendatik.
+Dynamics 365 Finance-eko proiektu batek dagoeneko lanaren banaketa-egitura sortua badu, lan-banaketa-egitura ireki daiteke Microsoft Project Client aplikazioan, lan-banaketa-egitura zirriborro-egoeran badago. Irekitzeko **Proiektua** orrialdean, egin klik **Ireki Microsoft Project-en** estekatik **Plana** fitxa. Orri hau Microsoft Project Client aplikazioaren barruan ere ireki daiteke klik eginez **Irekia** urtean **Microsoft Dynamics 365** fitxa. Aukeratu **Pertsona juridikoa** eta **Proiektua** zerrendatik.
 
 > [!NOTE]
 > Erabiltzen ari bazara Internet Explorer zure arakatzaile gisa, klik egin beharko duzu **Gorde** fitxategia deskargatu den kokapenetik eskuz irekitzeko. Edo, egin klik **Gorde eta ireki** fitxategia Microsoft Project Client-en irekitzeko. Ez aldatu izena gordetzean fitxategiaren izena.

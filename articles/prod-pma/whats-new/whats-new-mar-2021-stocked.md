@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991156"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723707"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>2021eko martxoko Project Operations-eko berrikuntzak edo aldaketak- Izakinen edo ekoizpenean oinarritutako egoeretarako
 
@@ -20,7 +20,7 @@ _**Honi aplikatzen zaio:** Izakinen edo ekoizpenean oinarritutako egoeretarako P
 
 Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
-- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.17 bertsioa
+- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.17 bertsioan
 
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
 Eginbide hauek sartzen dira bertsio honetan:
@@ -121,7 +121,7 @@ Eginbide hauek sartzen dira bertsio honetan:
 | Proiektuaren kudeaketa eta kontabilitatea | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Oinarrizko lanaren banaketa egitura (WBS) klase metodoa, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** zaharkituta dago.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Araudiaren eguneratzeak
-Eguneratze arautzaileei buruzko informazioa lortzeko Finance and Operations aplikazioak, ikusi [Araudiaren eguneratzeak](/dynamics365/finance/localizations/regulatory-updates.md). LCS-en saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
+Finantza eta Operazio aplikazioen arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). LCS-en saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

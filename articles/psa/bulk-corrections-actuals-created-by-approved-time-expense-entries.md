@@ -5,8 +5,7 @@ author: rumant
 ms.date: 04/02/2020
 ms.topic: article
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995386"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683341"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Benetako datuen zuzenketa masiboak onartutako denboraren eta gastuen sarrerek arabera
 
@@ -60,10 +59,7 @@ Bete urrats hauek proiektu bateko denbora-sarrera bakarrak edo bat baino gehiago
 
 10. **Ikuspegiaren erlazionatutako benetako datuak** zerrendan, aldatu den jatorrizko denbora-sarrerak zerrendatuta jarraitzen duela ikus dezakezu, dagozkion zuzendutako sarrerekin batera. 
 
-Adibidez, grafiko honetan, bi errenkada-elementu daude, Zenbatekoa zutabean 8,00 zenbatekoko zordunketak zerrendatuta dituenak. Gainera, Zenbatekoa zutabean zordundutako zenbatekoak dituzten -8,00 zenbatekoko bi errenkada daude. Horrela zuzenketarekin zenbatekoa zero da.
 
-![Benetako datuekin erlazionatutako ikuspegi-zerrenda.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
- 
 ## <a name="correct-approved-expense-entries"></a>Zuzendu onartutako gastuen sarrerak
 
 Bete urrats hauek gastuen sarrera bat edo gehiago zuzentzeko. 
@@ -86,8 +82,6 @@ Bete urrats hauek gastuen sarrera bat edo gehiago zuzentzeko.
 7. Zuzenketa-aldizkaria berretsi ondoren, zoaz eguneratu dituzun proiektuetara, aldaketak ikusteko.  
 
 8. Proiektuaren orrian, **Benetako datuak** fitxan, berrikusi **Ikuspegiarekin erlazionatutako benetako datuak**. Jatorrizko sarrerak eta zuzendutako sarrerak zerrendatzen dira. Grafiko hauetan jatorrizko gastuen sarrera-zenbatekoak eta dagozkion zuzendutako gastuen sarrera-zenbatekoak erakusten dira. 
-
-![Gastuen benetako datuak.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,46 +1,42 @@
 ---
-title: Erosi izakinik gabeko materialak ordaindu gabeko saltzaileen faktura bat erabiliz
+title: Erosi salgai ez dauden materialak edo erosketa-kategoriak zain dagoen saltzaileen faktura erabiliz
 description: Gai honetan azaltzen diren saltzaileen fakturak nola grabatu azaltzen da.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547274"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612642"
 ---
-# <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Erosi izakinik gabeko materialak ordaindu gabeko saltzaileen faktura bat erabiliz
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Erosi salgai ez dauden materialak edo erosketa-kategoriak zain dagoen saltzaileen faktura erabiliz
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Enpresa batek material baterako material ez hornituak proiektu baterako, kostuak berehala erregistratu daitezke proiektuaren aurka. 
+Enpresa batek hornituta ez dauden materialak edo kontratazio kategoriak proiektu baterako eskuratzen dituenez, kostuak berehala erregistratu daitezke proiektuaren aurka. 
 
-Adibidez, Contoso Robotics US ekipoak berritzeko proiektua egiten ari da eta software lizentziak behar ditu. Lizentzia horiek hirugarrenen saltzaile batek eskuratzen ditu.  Dynamics 365 Finance erabiliz, Ordaintzeko kontuetako idazkariak saltzailearen faktura dokumentu bat erregistratzen du eta lizentziaren kostuak ekipamendua berritzeko proiektuari zuzenean egozten dizkio. 
+Adibidez, Contoso Robotics US ekipoak berritzeko proiektua egiten ari da eta software lizentziak behar ditu. Lizentzia horiek hirugarrenen saltzaile batek eskuratzen ditu.  Dynamics 365 Finance erabiliz, Ordainketa-bulegoak saltzaileen zain dagoen faktura-dokumentua erregistratzen du eta lizentzia-kostuak zuzenean egozten dizkio ekipamenduak berritzeko proiektuaren aurka. 
 
 > [!IMPORTANT]
-> Gai honetan azaldutako funtzionalitatea erabili aurretik, berrikusi eta aplikatu beharrezko konfigurazioak. Informazio gehiagorako, ikusi [Gaitu ez dauden materialak eta saltzailearen faktura pendienteak](configure-materials-nonstocked.md). 
+> Gai honetan azaldutako funtzionalitatea erabili aurretik, berrikusi eta aplikatu beharrezko konfigurazioak. Informazio gehiagorako, ikus [Gaitu hornituta ez dauden materialak eta zain dauden saltzaileen fakturak](configure-materials-nonstocked.md) eta [Erabili erosketa-kategoriak proiektuko erosketa-aginduekin eta zain dauden saltzaileen fakturekin](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Bidali proiektuari lotutako saltzailearen faktura zain 
 
 Saltzailearen fakturak zain daude **Saltzailearen fakturak zain** orrialdea (**Ordaintzeko kontuak** > **Fakturak** > **Saltzailearen fakturak zain**). Bete urrats hauek proiektuari lotutako saltzailearen faktura pendiente bat bidaltzeko:
 
-1. Joan **Ordaintzeko kontuak** > **Fakturak** aukerara eta hautatu **Berria**. 
-2. **Faktura kontua** eremuan, hautatu saltzailea eta **Zenbakia** eremuan, sartu saltzailearen faktura identifikazioa.
-3. Gehitu lerro bat saltzailearen fakturan eta **Elementuaren zenbakia** eremuan, hautatu saltzailearengandik erositako stockik gabeko elementua. 
-
-    > [!NOTE]
-    > Kontratazio kategoria batean oinarritutako saltzaileen faktura lerroak ezin dira proiektuaren aurka erregistratu. 
-    
-5. Gehitu erositako kantitatea. Sistemak unitateko prezioa beteko du hornitu gabeko elementuen prezioaren konfigurazioan oinarrituta. 
-6. Egiaztatu zenbateko osoa eta beharrezko gainerako xehetasunak linean.
-7. Linearen xehetasunetan, **Proiektua** fitxan, hautatu elementu hau grabatuko den proiektuaren IDa.
-8. Aukeran, hautatu jardueraren zenbakia eta eguneratu proiektuaren kategoria eta lerroaren propietatea.
-9. Bidali zain dagoen saltzailearen faktura. Faktura argitaratzen denean, sistemak erregistratzen du:
+1. Joan **Ordaintzeko kontuak** > **Fakturak**, eta hautatu **Berria**. 
+1. urtean **Faktura kontua** eremuan, hautatu hornitzaile bat eta, ondoren, atalean **Zenbakia** eremuan, idatzi saltzailearen fakturaren identifikazioa.
+1. Gehitu lerro bat saltzaileen fakturan, eta gero, atalean **Elementu zenbakia** eremuan, hautatu hornitu gabeko elementua saltzaileari erositakoa. Bestela, en **Kontratazio kategoria** eremuan, hautatu hornitzaileari erositako erosketa-kategoria.   
+1. Gehitu erositako kantitatea. Sistemak unitateko prezioa betetzen du, salgai ez dagoen elementuaren prezioaren konfigurazioan oinarrituta. 
+1. Egiaztatu zenbateko osoa eta beharrezko gainerako xehetasunak linean.
+1. Lerroaren xehetasunetan, aldean **Proiektua** fitxan, hautatu elementu hau grabatuko den proiektuaren IDa.
+1. Aukerakoa: hautatu jarduera-zenbakia eta eguneratu proiektuaren kategoria eta lerro-propietatea.
+1. Bidali zain dagoen saltzailearen faktura. Faktura argitaratzen denean, sistemak informazio hau erregistratzen du:
     
     - Saltzailearen saldoaren zenbatekoa.
     - Salmenten zergen zenbatekoa.

@@ -1,32 +1,31 @@
 ---
-title: Sinkronizatu proiektuaren zereginak zuzenean Project Service Automation-etik Finance and Operations
-description: Gai honek deskribatzen du txantiloiak eta azpiko zeregina erabiliak direnak sinkronizatzeko zereginen proiektuak zuzenean Microsoft Dynamics 365 Project Service Automation hurrengora Dynamics 365 Finance.
+title: Sinkronizatu proiektuko zereginak zuzenean Project Service Automationetik Finantza eta Operazioetara
+description: Gai honek proiektuko zereginak zuzenean sinkronizatzeko erabiltzen diren txantiloia eta azpiko zeregina deskribatzen ditu Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992776"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683135"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronizatu proiektuaren zereginak zuzenean Project Service Automation-etik Finance and Operations
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronizatu proiektuko zereginak zuzenean Project Service Automationetik Finantza eta Operazioetara
 
 [!include[banner](../includes/banner.md)]
 
-Gai honek deskribatzen du txantiloiak eta azpiko zeregina erabiliak direnak sinkronizatzeko zereginen proiektuak zuzenean Dynamics 365 Project Service Automation hurrengora Dynamics 365 Finance.
+Gai honek proiektuko zereginak zuzenean sinkronizatzeko erabiltzen diren txantiloia eta azpiko zeregina deskribatzen ditu Dynamics 365 Project Service Automation to Dynamics 365 Finance.
 
 > [!NOTE]
 > - Proiektuaren zereginen integrazioa, gastuen transakzioen kategoriak, orduen kalkuluak, gastuen kalkuluak eta funtzionalitate blokeoa eskuragarri daude 8.0 bertsioan.
@@ -68,11 +67,11 @@ Proiektuen zereginen sinkronizazioa gertatu aurretik, kontuak sinkronizatu proie
 
 ## <a name="power-query"></a>Power Query
 
-Microsoft Power Query Excel-era erabili behar duzu datuak iragazteko baldintza hori gertatzean:
+Microsoft erabili behar duzu Power Query Excel-ek datuak iragazteko baldintza hau betetzen bada:
 
 - Baliabideen araberako erregistroak dituzu proiektuko zeregin batean.
 
-Power Query erabili behar baduzu, jarraitu jarraibide hori:
+Erabili behar baduzu Power Query, jarraitu jarraibide hau:
 
 - Project tasks (PSA to Fin and Ops) txantiloiak iragazki lehenetsia du, baliabide espezifikoak erregistroak proiektuko zereginetik kanpo uzten dituena iragazkia ezarriz **IsLineTask** hurrengora **Gezurra**. Zure txantiloia sortzen baduzu, iragazki hau gehitu behar duzu.
 

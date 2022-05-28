@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000066"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601739"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Bertsio-berritzeko gogoetak. PSA aplikazioaren 2.x edo 1.x bertsiotik 3. bertsiora
 
@@ -81,7 +82,7 @@ Bertsio-berritzea hasi aurretik, taldea berriro sortzea gomendatzen dizugu balia
 
 **Sortu taldea** eginbidearekin sortutako taldekide orokorrei esleitutako zereginetarako, bertsio-berritzeak baliabide generikoa taldean utziko du eta esleipena taldekide orokor horri utziko dio. Bertsio-berritzearen ondoren talde generikoko kideari baliabide eskakizuna sortzea gomendatzen dugu, baina baliabideen eskaera erreserbatu edo bidali aurretik. Horrek proiektuko kontratazioaren erakunde-unitatearengandik desberdinak diren entitate unitateen esleipenak gordeko ditu taldekide orokorretan.
 
-Adibidez, Project Z proiektuan, kontratazioaren erakunde-unitatea Contoso US da. Proiektuaren planean, Inplementazio fasean saiakuntzak egiteko zereginei aholkulari teknikoa funtzioa esleitu zaie eta esleitutako erakunde-unitatea Contoso India da.
+Adibidez, Project Z proiektuan, kontratazioareb erakunde-unitatea Contoso US da. Proiektuaren planean, Inplementazio fasean saiakuntzak egiteko zereginei aholkulari teknikoa funtzioa esleitu zaie eta esleitutako erakunde-unitatea Contoso India da.
 
 ![Ezarpen fasearen entitate esleipena.](media/org-unit-assignment-09.png)
 
@@ -104,7 +105,7 @@ Erakundearen unitatea kalkuluen ikuspegian ikus dezakezu.
  
 Bertsio-berritzea amaitutakoan, taldekide orokorrari dagokion lerroko zereginari buruzko erakunde-unitatea taldekide orokorrari gehitzen zaio eta lerroko zeregina kentzen da. Hori dela eta, bertsioa eguneratu aurretik, taldea sortzea edo berriro sortzea gomendatzen dugu baliabide generikoak dituen proiektu bakoitzean.
 
-Kontratazio proiektuaren erakunde unitatearengandik desberdina den erakunde-unitate bat duen funtzio bati esleitutako zereginetarako, eta talde bat sortu ez bada, eguneratzeak taldekide orokorra sortuko du funtziorako, baina taldekidearen erakunde-unitaterako proiektuaren kontratazio unitatea erabiliko du. Proiektua Z-ren adibidera itzuliz, Contosohorrek esan nahi du Contoso US kontratazio erakunde-unitatea eta inplementazio faseko proiektuaren planak probatzeko zereginei aholkulari teknikoa funtzioa esleitu zaie Contoso India-ri esleitutako erakunde unitatearekin. Inplementazioaren fasea aholkulari teknikoaren funtzioari esleitu ondoren osatutako integrazio probaren zeregina. Erakunde-unitatea Contoso US da eta ez da talderik sortu. Eguneratzeak taldekide orokor bat, hiru zereginetarako esleitutako orduak dituen aholkulari tekniko bat eta Contoso US-en erakunde-unitate bat, hau da, proiektuaren kontratazioaren erakunde-unitatea sortuko ditu.   
+Kontratazio proiektuaren erakunde unitatearengandik desberdina den erakunde-unitate bat duen funtzio bati esleitutako zereginetarako, eta talde bat sortu ez bada, eguneratzeak taldekide orokorra sortuko du funtziorako, baina taldekidearen erakunde-unitaterako proiektuaren kontratazio unitatea erabiliko du. Proiektua Z-ren adibidera itzuliz, Contoso US kontratazio erakunde-unitatea eta inplementazio faseko proiektuaren planak probatzeko zereginei aholkulari teknikoa funtzioa esleitu zaie Contoso India-ri esleitutako erakunde unitatearekin. Inplementazioaren fasea aholkulari teknikoaren funtzioari esleitu ondoren osatutako integrazio probaren zeregina. Erakunde-unitatea Contoso US da eta ez da talderik sortu. Eguneratzeak taldekide orokor bat, hiru zereginetarako esleitutako orduak dituen aholkulari tekniko bat eta Contoso US-en erakunde-unitate bat, hau da, roiektuaren kontratazioaren erakunde-unitatea sortuko ditu.   
  
 Sortu gabeko taldekideen baliabide desberdinen erakunde-unitatearen lehenespenak aldatzea da eguneratu aurretik baliabide orokorrak dituzten proiektu bakoitzeko taldekideak sortzea edo berriro sortzea gomendatzearen arrazoia, erakunde-unitateen esleipenak galdu ez daitezen.
 

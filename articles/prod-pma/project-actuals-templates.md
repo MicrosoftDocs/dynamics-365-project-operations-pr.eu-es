@@ -1,32 +1,31 @@
 ---
-title: Sinkronizatu proiektuaren errealitatea zuzenean Project Service Automation-etik proiektuaren integrazio aldizkariarekin argitaratzeko Finance and Operations
-description: Gai honek deskribatzen du txantiloiak eta azpiko zereginak erabiliak direnak sinkronizatzeko uneko proiektuak zuzenean Microsoft Dynamics 365 Project Service Automation hurrengora Finance and Operations.
+title: Sinkronizatu proiektuaren benetako datuak zuzenean Project Service Automation-etik proiektuaren integrazio aldizkarira Finantza eta Eragiketak atalean argitaratzeko
+description: Gai honek proiektuaren benetakoak zuzenean sinkronizatzeko erabiltzen diren txantiloiak eta azpiko zereginak deskribatzen ditu Microsoft Dynamics 365 Project Service Automation Finantza eta Operaziora.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988096"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683523"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinkronizatu proiektuaren errealitatea zuzenean Project Service Automation-etik proiektuaren integrazio aldizkariarekin argitaratzeko Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinkronizatu proiektuaren benetako datuak zuzenean Project Service Automation-etik proiektuaren integrazio aldizkarira Finantza eta Eragiketak atalean argitaratzeko
 
 [!include[banner](../includes/banner.md)]
 
-Gai honek deskribatzen du txantiloiak eta azpiko zereginak erabiliak direnak sinkronizatzeko uneko proiektuak zuzenean Dynamics 365 Project Service Automation hurrengora Dynamics 365 Finance.
+Gai honek proiektuaren benetakoak zuzenean sinkronizatzeko erabiltzen diren txantiloiak eta azpiko zereginak deskribatzen ditu Dynamics 365 Project Service Automation to Dynamics 365 Finance.
 
 Txantiloiak Project Service Automation-etik egindako transakzioak sinkronizatzen ditu Finantzetan. Sinkronizazioa amaitu ondoren, zuk **behar** inportatu datuak taulako taulako integrazio aldizkarian.
 
@@ -42,7 +41,7 @@ Project Service Automation to Finance integrazio irtenbideak Datu integrazio fun
 
 Ondorengo ilustrazioak erakusten du nola sinkronizatzen diren datuak Project Service Automation eta Finance artean.
 
-[![Datu-fluxua hurrengorako Project Service Automation integrazioa Finance and Operations-ekin.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Project Service Automation Finantza eta Operazioekin integratzeko datu-fluxua.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Proiektuaren unekoa hurrengotik Project Service Automation
 
@@ -75,7 +74,7 @@ Egiazkoen sinkronizazioa gertatu aurretik, Project Service Automation integrazio
 
 ### <a name="power-query"></a>Power Query
 
-Proiektuaren unekoak txantiloian, Microsoft Power Query Excel erabili behar duzu zeregin hauek burutzeko:
+Proiektuaren benetako txantiloian, Microsoft erabili behar duzu Power Query Excel-ek zeregin hauek bete ditzan:
 
 - Eraldatu Project Service Automation-eko transakzio mota Finantza-ko transakzio mota egokira. Transformazio hau dagoeneko definituta dago Project actuals (PSA to Fin eta Ops) txantiloian.
 - Eraldatu Project Service Automation-eko fakturazio mota Finantza-ko fakturazio mota egokira. Transformazio hau dagoeneko definituta dago Project actuals (PSA to Fin eta Ops) txantiloian. Fakturazio mota lerroaren propietatera mapatzen da, fitxategiaren konfigurazioan oinarrituta **Project Service Automation integrazio parametroak** orrialdea.
@@ -84,9 +83,9 @@ Proiektuaren unekoak txantiloian, Microsoft Power Query Excel erabili behar duzu
 - Enpresen arteko denbora edo konpainien arteko gastuak ez badira Finantzarekin sinkronizatuko, txertatutako azken baldintzazko zutabea ezabatu behar duzu zure txantiloitik. Bestela, integrazio errore bat gerta liteke edo benetako transakzio okerrak Finantzara inporta litezke.
 
 #### <a name="contract-organizational-unit"></a>Kontratatu antolakuntzaren unitatea
-Eguneratzeko txertatutako baldintzaren zutabea txantiloian, klik egin **Mapa** gezia mapa irekitzeko. Hautatu **Kontsulta eta iragazki aurreratuak** esteka irekitzeko Power Query.
+Eguneratzeko txertatutako baldintzaren zutabea txantiloian, klik egin **Mapa** gezia mapa irekitzeko. Hautatu **Kontsulta eta Iragazte Aurreratua** irekitzeko esteka Power Query.
 
-- Proiektuaren datu bateratuak lehenetsiak (PSA to Fin eta Ops) txantiloia erabiltzen ari bazara Power Query-n, hautatu azken **Txertatutako baldintza** hurrengotik **Urrats Aplikatuak** sekzioa. Hurrengoan **Funtzioa** sarrera, ordezkatu **USSI** legezko entitatearen izenarekin, zeina erabili behar den integrazioarekin. Gehitu baldintza gehigarriak **Funtzioa** sarrera behar duzun moduan eta eguneratu **bestela** baldintza batetik **USMF** pertsona juridiko zuzenari.
+- Proiektuaren benetako (PSA to Fin eta Ops) txantiloi lehenetsia erabiltzen ari bazara, sartu Power Query, hautatu azkena **Txertatua Baldintza** tik **Aplikaturiko Urratsak** atala. Hurrengoan **Funtzioa** sarrera, ordezkatu **USSI** legezko entitatearen izenarekin, zeina erabili behar den integrazioarekin. Gehitu baldintza gehigarriak **Funtzioa** sarrera behar duzun moduan eta eguneratu **bestela** baldintza batetik **USMF** pertsona juridiko zuzenari.
 - Txantiloi berri bat sortzen ari bazara, enpresen arteko denbora eta gastuak laguntzeko zutabea gehitu behar duzu. Hautatu **Gehitu baldintzazko zutabea**, eta idatzi zutabearen izena, esaterako **LegalEntity**. Idatzi zutabearen baldintza. **msdyn\_contractorganizationalunitid.msdyn\_name** \<organizational unit\> bada, orduan, \<enter the legal entity\>; bestela nulua.
 
 ### <a name="template-mapping-in-data-integration"></a>Datuen integrazioan txantiloien mapaketa
@@ -126,7 +125,7 @@ Proiektuaren unekoak kudeatuta dago Project Service Automation-en, eta sinkroniz
 
 ### <a name="power-query"></a>Power Query
 
-Proiektuaren datu bateratuak eguneratu txantiloian, Power Query erabili behar duzu zeregin hauek burutzeko:
+Proiektuaren benetako eguneratze txantiloian, erabili behar duzu Power Query zeregin hauek burutzeko:
 
 - Eraldatu Project Service Automation-eko transakzio mota transakzio mota egokira Project Service Automation. Transformazio hau dagoeneko definituta dago Project actuals eguneratzea (PSA Fin eta Ops) txantiloian.
 - Eraldatu fakturazio-mota Finantzan hurrengo fakturazio-mota zuzenera Project Service Automation. Transformazio hau dagoeneko definituta dago Project actuals eguneratzea (PSA Fin eta Ops) txantiloian.

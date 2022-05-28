@@ -3,25 +3,23 @@ title: Gastu-kudeaketaren informazio orokorra
 description: Gai honek Gastuen kudeaketari buruzko informazio orokorra eta baliabide osagarrietarako estekak eskaintzen ditu. Gastuen kudeaketa erabil dezakezu lan-fluxu integratua sortzeko, non ordainketa-metodoen informazioa gorde, kreditu-txartelen transakzioak inportatu eta langileek zure negozioaren gastuak egiten dituztenean gastatzen duten dirua kontrolatzeko.
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001416"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684811"
 ---
 # <a name="expense-management-overview"></a>Gastu-kudeaketaren informazio orokorra
 
@@ -45,7 +43,7 @@ Informazio gehiago eskuratzeko, ikusi [Gastuen txostenak itxura berrituta](Expen
 
 ### <a name="blogs"></a>Blogak
 
-Iritziak, berriak eta bestelako informazioa aurki dezakezu [Microsoft Dynamics 365 bloga](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) eta [Microsoft Dynamics 365 Finance and Operations - Financials bloga](https://community.dynamics.com/365/financeandoperations/b/financials).
+Iritziak, albisteak eta bestelako informazioa aurki ditzakezu [Microsoft Dynamics 365 bloga](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) eta [Microsoft Dynamics 365 Finantza eta eragiketak - Finantza bloga](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations Partner Community bloga](https://community.dynamics.com/partner/b/operationspartnercommunityblog) ematen du Microsoft Dynamics Baliabide bakar bat bazkide du, MBS Operations-en berrikuntza eta joera berriena ikas dezaten.
 

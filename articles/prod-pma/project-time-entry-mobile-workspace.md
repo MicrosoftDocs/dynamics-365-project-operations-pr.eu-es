@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989536"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683891"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Proiektuaren denbora sartzeko mugikorreko lan eremua
 
@@ -45,7 +44,7 @@ Zehazki, **Proiektuaren denbora sarrera** mugikorreko laneko eremuan, erabiltzai
 ## <a name="prerequisites"></a>Aurrebaldintzak
 Aurrebaldintzak desberdinak dira, bertsioaren arabera Microsoft Dynamics 365 zure erakundean inplementatu dena.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Erabiliz gero aurrebaldintzak Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Dynamics 365 Finance erabiltzen baduzu aurrebaldintzak
 Finantzak zure erakundean hedatu badira, sistemaren administratzaileak argitaratu beharko du **Proiektuaren denbora sarrera** mugikorreko lan eremua. Argibideak lortzeko, ikusi [Argitaratu mugikorreko lan eremua](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Aurrebaldintzak 1611 bertsioa Plataformako 3. eguneratzearekin edo berriagoarekin erabiltzen baduzu
@@ -83,7 +82,7 @@ Plataformaren 3. eguneratzearekin edo berriagoarekin 1611 bertsioa zure erakunde
 
 ## <a name="download-and-install-the-mobile-app"></a>Deskargatu eta instalatu mugikorreko aplikazioa
 
-Deskargatu eta instalatu Finance and Operations mugikorreko aplikazioa:
+Deskargatu eta instalatu Finantza eta Operazioak mugikorreko aplikazioa:
 
 -   [Hurrengorako Android telefonoak](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [iPhone-tarako](https://go.microsoft.com/fwlink/?linkid=850663)

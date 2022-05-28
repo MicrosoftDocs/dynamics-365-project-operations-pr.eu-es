@@ -3,25 +3,23 @@ title: Proiektuen kudeaketa eta kontabilitate ikuspegi orokorra
 description: Proiektuen kudeaketa eta kontabilitate funtzionalitatea hainbat industriatan erabil daiteke zerbitzua emateko, produktu bat ekoizteko edo emaitza lortzeko.
 author: Yowelle
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: be384b19781e605255a24506e94e0852076b9ca9
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007491"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683569"
 ---
 # <a name="project-management-and-accounting-overview"></a>Proiektuen kudeaketa eta kontabilitate ikuspegi orokorra
 
@@ -248,7 +246,7 @@ Hurrengo taulan proiektu bat osatzeko kostua kalkulatzeko metodoak azaltzen dira
 <tbody>
 <tr class="odd">
 <td>Guztizko kostua - unekoa</td>
-<td>Aurreikusitako kostuak eskuz sartu behar dira. Ondoren <strong>Guztizko kostua</strong> edo <strong>Kopuru osoa</strong> zutabea <strong>Kostuen aurrekontua</strong> orria amaituta dago, benetako kostuak kentzen dira erabiltzaileak sartutako guztizkoetatik. Emaitza proiektua osatzeko kostua da. Normalean, kostuen aurrerapena ez da jarraipena egiten, adibidez, aldi bakoitzean erregistratzen diren hoteletako egonaldi eta otorduen kopuruaren arabera. Horren ordez. Jarraipena normalean kalkulatutako ordu guztien zenbatekoarekin alderatuta oinarritzen da. Ikuspegi honek ez du aurreikuspen eredurik behar, eta guztizko kostua edo guztizko kantitatea eskuz alda daitezke. Balioan sartzen denean <strong>Guztizko kostua</strong> edo <strong>Kopuru osoa</strong> zutabea, Finantzak balio hori aldian kontabilizatzen diren benetako transakzioekin alderatzen du eta, ondoren, balioa murrizten du <strong>Osatzeko kantitatea</strong> edo <strong>Osatzeko kostua</strong> zutabea.</td>
+<td>Aurreikusitako kostuak eskuz sartu behar dira. Ondoren <strong>Guztizko kostua</strong> edo <strong>Kopuru osoa</strong> zutabea <strong>Kostuen aurrekontua</strong> orria amaituta dago, benetako kostuak kentzen dira erabiltzaileak sartutako guztizkoetatik. Emaitza proiektua osatzeko kostua da. Normalean, kostuen aurrerapena ez da&#39; t jarraipena, adibidez, aldi bakoitzean erregistratzen diren hoteleko egonaldi eta otordu kopuruaren arabera. Horren ordez. Jarraipena normalean kalkulatutako ordu guztien zenbatekoarekin alderatuta oinarritzen da. Ikuspegi honek ez du&#39; Ez dute aurreikuspen-eredu bat behar, eta kostu osoa edo kantitate osoa eskuz alda daiteke. Balioan sartzen denean <strong>Guztizko kostua</strong> edo <strong>Kopuru osoa</strong> zutabea, Finantzak balio hori aldian kontabilizatzen diren benetako transakzioekin alderatzen du eta, ondoren, balioa murrizten du <strong>Osatzeko kantitatea</strong> edo <strong>Osatzeko kostua</strong> zutabea.</td>
 </tr>
 <tr class="even">
 <td>Guztizko aurrekontua - unekoa</td>
