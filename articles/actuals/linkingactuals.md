@@ -1,92 +1,37 @@
 ---
-title: Lotu benetako datuak jatorrizko erregistroekin
-description: Gai honetan azaltzen da nola lotu errealak jatorrizko erregistroekin, hala nola denbora sartzearekin, gastuen sarrerarekin edo materialaren erabilera erregistroekin.
+title: Transakzioen jatorria - Lotu benetakoak haien iturriarekin
+description: Gai honek transakzioen jatorriaren kontzeptua benetakoak jatorrizko iturburu-erregistroekin lotzeko nola erabiltzen den azaltzen du, hala nola denbora-sarrera, gastu-sarrera edo materialaren erabilera-erregistroak.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 908f78f7d58ec4b18f37d03b6fa7c4e2295491fa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991741"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584811"
 ---
-# <a name="link-actuals-to-original-records"></a>Lotu benetako datuak jatorrizko erregistroekin
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Transakzioen jatorria - Lotu benetakoak haien iturriarekin
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-
-Dynamics 365 Project Operations-en , *negozio-transakzioa* entitate batek ordezkatzen ez duen kontzeptu abstraktua da. Hala ere, zenbait entitateren eremu eta prozesu komun batzuk negozio-transakzioen kontzeptua erabiltzeko diseinatuta daude. Entitate hauek kontzepturako erabiltzen dira:
-
-- Eskaintzaren lerroaren xehetasunak
-- Kontratuaren lerroaren xehetasunak
-- Aurreikuspenaren lerroak
-- Kutxako liburuaren lerroak
-- Benetakoak
-
-Entitate horien artean, **Eskaintzaren lerroaren xehetasunak**, **Kontratuaren lerroaren xehetasunak** eta **Aurreikuspen lerroak** proiektuaren bizitza zikloan zenbatetsitako fasera sailkatzen dira. **Kutxako liburuaren lerroak** eta **Benetako datuak** proiektuaren exekuzio-fasean kokatzen dira.
-
-Project Operations-ek bost entitate horietako erregistroak negozio-transakzio gisa ezagutzen ditu. Bereizketa bakarra zera da: zenbatespen fasera esleitutako entitateetako erregistroak finantza-aurreikuspen gisa hartzen direla, eta, exekuzio fasean esleitzen diren entitateetako erregistroak dagoeneko gertatu diren gertaera ekonomikoak direla.
-
-## <a name="concepts-that-are-unique-to-business-transactions"></a>Negozio-transakzioetarako soilik diren kontzeptuak
-Kontzeptu hauek negozio-transakzioen kontzeptuarentzat bakarrak dira:
-
-- Transakzio mota
-- Transakzio-klasea
-- Transakzioaren jatorria
-- Transakzio-konexioa
-
-### <a name="transaction-type"></a>Transakzio mota
-
-Transakzio motak proiektu baten finantza-eraginaren denbora eta testuingurua adierazten ditu. Aukera multzo batek adierazten du, Project Operations-en onartutako balio hauek dituena:
-
-  - Kostua
-  - Proiektu-kontratua
-  - Fakturatu gabeko salmentak
-  - Fakturatutako salmentak
-  - Erakunde arteko salmentak
-  - Baliabidearen unitate-kostua
-
-### <a name="transaction-class"></a>Transakzio-klasea
-
-Transakzio klaseak proiektuetan sortzen diren kostu mota ezberdinak adierazten ditu. Aukera multzo batek adierazten du, Project Operations-en onartutako balio hauek dituena:
-
-  - Denbora
-  - Gastua
-  - Materiala
-  - Tasa
-  - Mugarria
-  - Zergak
-
-**Mugarria** negozioaren logikak Project Operations-en prezio finkoa fakturatzeko erabiltzen du.
-
-### <a name="transaction-origin"></a>Transakzioaren jatorria
-
-**Transakzioaren jatorria** negozio-transakzio bakoitzaren jatorria gordetzen duen entitatea da. Proiektu bat abian jarri ahala, negozio-transakzio bakoitzak beste negozio-transakzio bat sortuko du eta horrek beste bat sortuko du. Transakzioaren jatorria entitatea transakzio bakoitzaren jatorriari buruzko datuak gordetzeko diseinatuta dago, txostenak eta trazabilitatea laguntzeko. 
-
-### <a name="transaction-connection"></a>Transakzio-konexioa
-
-**Transakzioaren konexioa** antzeko negozioen arteko bi negozioren arteko erlazioa gordetzen duen entitatea da, hala nola, kostuen eta erlazionatutako salmenten egiazkoak edo fakturazio-jarduerek eragindako transakzioen itzulketak.
-
-Elkarrekin, **Transakzioaren jatorria** eta **Transakzioen konexioa** erakundeek negozio-transakzio jakin bat eragiten duten ekintzen eta negozioen arteko harremanak kontrolatzen lagunduko dizute.
-
-### <a name="example-how-transaction-origin-works-with-transaction-connection"></a>Adibidea: transakzioaren jatorria nola funtzionatzen duen transakzioarekin
+Transakzioen jatorri-erregistroak benetakoak beren iturburuarekin lotzeko sortzen dira, hala nola, denbora-sarrerak, gastu-sarrerak, materialaren erabilera-erregistroak eta proiektuaren fakturak.
 
 Hurrengo adibidean Project Operations proiektuaren bizi-zikloko denbora sarreren prozesaketa tipikoa erakusten da.
 
-> ![Prozesatzeko denbora Project Service-en bizi-zikloaren itxiera da.](media/basic-guide-17.png)
+> ![Prozesatzeko denbora osoak Proiektu Eragiketetan.](media/basic-guide-17.png)
  
-1. Garai bateko sarrera bidaltzeak kutxako liburuaren bi lerro sortzea eragiten du: bata kostuen lerroa eta besterik gabeko salmenten lerroa.
-2. Garai bateko sarrera onartzeak benetako bi datu sortzen ditu: bata benetako kostuetarako eta besterik gabeko benetako salmentarako.
-3. Erabiltzaileak proiektuaren faktura berria sortzen duenean, fakturen lerroko transakzioa fakturatu gabeko salmenten egiazko datuak erabiliz sortzen da. 
-4. Faktura baieztatzen duzunean, fakturatutako bi benetako datu sortzen dira: fakturatu gabeko benetako itzulerak eta fakturatutako salmenta erreal berria sortzen da.
+1. Denbora-sarrera bidaltzeak bi aldizkari-lerro sortzea eragiten du: kosturako bat eta fakturatu gabeko salmenterako.
+2. Denbora-sarreren behin-behinean onartzeak bi erreal sortzen ditu: kosturako bat eta fakturatu gabeko salmentetarako.
+3. Erabiltzaileak proiektuaren faktura sortzen duenean, fakturen lerroko transakzioa fakturatu gabeko salmenten egiazko datuak erabiliz sortzen da.
+4. Faktura baieztatzen duzunean, fakturatutako bi benetako datu sortzen dira: fakturatu gabeko itzulerak eta fakturatutako salmenta erreal berria sortzen da.
 
-Gertaera horietako bakoitzak erregistro bat sortzen du **Transakzioaren jatorria** eta **Transakzio konexioa** entitateak. Erregistro berri hauek denbora sarrera, aldizkari lerroa, benetakoak eta faktura lerroaren xehetasunetan sortzen diren erregistroen arteko harremanen historia eraikitzen laguntzen dute.
+Prozesatzeko lan-fluxu honetako gertaera bakoitzak Transakzio-jatorrizko entitatean erregistroak sortzea abiarazten du, denbora-sarreran, egunkari-lerroan, benetako eta faktura-lerroaren xehetasunetan sortzen diren erregistro horien arteko erlazioen arrastoa eraikitzen laguntzeko.
 
-Hurrengo taulan, aurreko lan-fluxuaren **Transakzioaren jatorria** entitateko erregistroak agertzen dira.
+Hurrengo taulan, aurreko lan-fluxuaren transakzioaren jatorriko entitateko erregistroak agertzen dira.
 
 | Gertaera                        | Jatorria                   | Jatorri mota                       | Transakzioa                       | Transakzio mota         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
@@ -95,7 +40,7 @@ Hurrengo taulan, aurreko lan-fluxuaren **Transakzioaren jatorria** entitateko er
 | Orduaren onarpena                | Kutxako liburuaren lerroaren erregistroa GIDA | Kutxako liburuaren lerroa                      | Fakturatu gabeko salmenten erregistroa GIDA        | Benetakoa                   |
 | Denbora-sarreren erregistroa GIDA       | Denbora-sarrera               | Fakturatu gabeko salmenten erregistroa GIDA        | Benetakoa                            |                          |
 | Kutxako liburuaren lerroaren erregistroa GIDA     | Kutxako liburuaren lerroa             | Benetako kostuen erregistroa GIDA           | Benetakoa                            |                          |
-| Denbora-sarreren erregistroa GIDA       | Denbora-sarrera               | Benetako kostuen erregistroa GIDA           | Unekoa"                            |                          |
+| Denbora-sarreren erregistroa GIDA       | Denbora-sarrera               | Benetako kostuen erregistroa GIDA           | Benetakoa                            |                          |
 | Faktura sortzea             | Denbora-sarreren erregistroa GIDA   | Denbora-sarrera                        | Fakturaren lerroaren transakzioak GIDA     | Fakturaren lerroaren transakzioak |
 | Kutxako liburuaren lerroaren erregistroa GIDA     | Kutxako liburuaren lerroa             | Fakturaren lerroaren transakzioak GIDA     | Fakturaren lerroaren transakzioak          |                          |
 | Faktura berrespena         | Fakturaren lerroa GIDA        | Fakturaren lerroa                      | Fakturatutako salmenten erregistroa GIDA          | Benetakoa                   |
@@ -122,20 +67,11 @@ Hurrengo taulan, aurreko lan-fluxuaren **Transakzioaren jatorria** entitateko er
 | Kutxako liburuaren lerroaren erregistroa GIDA     | Kutxako liburuaren lerroa             | Fakturatu gabeko bentako salmenta berrien GIDA    | Benetakoa                            |                          |
 | IDL GIDAren zuzenketa          | Fakturaren lerroaren transakzioak | Fakturatu gabeko bentako salmenta berrien GIDA    | Benetakoa                            |                          |
 | Zuzenketa IL GIDA           | Fakturaren lerroa             | Fakturatu gabeko bentako salmenta berrien GIDA    | Benetakoa                            |                          |
-| GIDA fakturaren zuzenketa      | Faktura                  | Fakturatu gabeko bentako salmenta berrien GIDA    | Benetakoa                            |                          |
+| GIDA fakturaren zuzenketa      | Faktura                  | Fakturatu gabeko bentako salmenta berrien GIDA    | Unekoa"                            |                          |
 
-Hurrengo taulan, aurreko lan-fluxuaren **Transakzioaren konexioa** entitateko erregistroak agertzen dira.
 
-| Gertaera                          | 1. transakzioa                 | 1. transakzioaren funtzioa | 1. transakzioaren mota           | 2. transakzioa                | 2. transakzioaren funtzioa | 2. transakzioaren mota |
-|--------------------------------|-------------------------------|--------------------|------------------------------|------------------------------|--------------------|--------------------|
-| Denbora-sarreraren bidalketa          | Kutxako liburuaren lerroa GUIDA (salmentak)     | Fakturatu gabeko salmentak     | msdyn_journalline            | Kutxako liburuaren lerroa GIDA (kostua)     | Kostua               | msdyn_journalline  |
-| Orduaren onarpena                  | Fakturatu gabeko benetakoak (salmentak) GIDA  | Fakturatu gabeko salmentak     | msdyn_actual                 | Benetako kostua (kostua) GIDA       | Kostua               | msdyn_actual       |
-| Faktura sortzea               | Fakturaren lerroaren xehetasunak GIDA      | Fakturatutako salmentak       | msdyn_invoicelinetransaction | Fakturatu gabeko benetakoak GIDA   | Fakturatu gabeko salmentak     | msdyn_actual       |
-| Faktura berrespena           | Benetako GIDA itzultzea         | Itzultzea          | msdyn_actual                 | Jatorrizko fakturatu gabeko salmentak GIDA | Jatorrizkoa           | msdyn_actual       |
-| Fakturatutako salmentak GIDA              | Fakturatutako salmentak                  | msdyn_actual       | Fakturatu gabeko benetakoak GIDA   | Fakturatu gabeko salmentak               | msdyn_actual       |                    |
-| Faktura-zirriborroen zuzenketa       | Fakturaren lerroaren transakzioak GIDA | Ordezkapena          | msdyn_invoicelinetransaction | Fakturatutako salmentak GIDA            | Jatorrizkoa           | msdyn_actual       |
-| Berretsi faktura zuzenketa     | Fakturatutako salmenten itzulera GIDA    | Itzultzea          | msdyn_actual                 | Fakturatutako salmentak GIDA            | Jatorrizkoa           | msdyn_actual       |
-| Fakturatu gabeko bentako salmenta berrien GIDA | Ordezkapena                     | msdyn_actual       | Fakturatutako salmentak GIDA            | Jatorrizkoa                     | msdyn_actual       |                    |
+Ondorengo ilustrazioak hainbat ekitalditan errealen eta haien iturrien artean sortzen diren estekak erakusten ditu Project Operations-en denbora-sarreren adibidea erabiliz.
 
+> ![Errealak nola lotzen diren iturburu-erregistroekin Project Operations-en.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,16 @@
 title: Proiektu-kontratuaren ezarpenak - arina
 description: Gai honek kontratu-lerroetan eragina duten eremuei buruzko informazioa eskaintzen du eta kontratuari buruzko informazioa lerro-elementu guztietan laburbilduta dago.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995926"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586375"
 ---
 # <a name="header-details-for-project-contracts"></a>Proiektuko kontratuen goiburuaren xehetasunak
 
@@ -32,12 +32,15 @@ Hurrengo taulan proiektuaren kontratuaren eremuak zerrendatzen dira Dynamics 365
 | Ez gainditzeko muga | **Laburpena** fitxa | Eremu honek bezeroak akordio honetarako adosten duen azken balioaren negoziazioaren muga adierazten du. | Kapitulua exekuzioan zehar ebaluatzen da eta akordio honekin lotutako lineako elementu eta proiektu guztietan aplika daiteke. |
 | Eskatutako entrega-data | **Laburpena** fitxa | Proiektuaren eskaintza batetik kontratua bat sortzen denean, eremu hori proiektuaren eskaintzan dagokion eremutik kopiatzen da. | Data hori fakturen ordutegiak sortzeko amaierako data gisa erabiltzen da. |
 
-Ondorengo KPIak eskuragarri daude **Kontratuaren gauzatzea** proiektuaren kontratuaren fitxa.
+Ondorengo KPIak eskuragarri daude **Kontratuaren gauzatzea** proiektuaren kontratuaren fitxa. 
 
-| Eremua | Kokapena | Deskribapena |
+>[!NOTE]
+>Zenbateko guztiak **Kontratua betetzea** fitxa inguruneko moneta lehenetsian adierazten dira.
+
+| Eremua | Kokapena | Deskribapenak |
 | --- | --- | --- |
-| Kontratuaren balioa | Kontratu orokorra | Proiektuaren kontratuaren guztizko balioa. |
-| Fakturatutako zenbatekoa | Kontratu orokorra | Kontratu honen aurkako faktura guztien zenbatekoen batura. |
+| Kontratuaren balioa | Kontratu orokorra | Proiektuaren kontratuaren guztizko balioa.|
+| Fakturatutako zenbatekoa | Kontratu orokorra | Kontratu honen aurkako faktura guztien zenbatekoen batura.|
 | Egindako kostua | Kontratu orokorra | Kontratuaren arabera mapatutako proiektu guztietan erregistratutako kostu erreal guztien batura. |
 | Marjina gordina | Kontratu orokorra | Fakturatutako zenbatekoa - Orain arte sortutako kostua / Fakturatutako zenbatekoa |
 | Aurreikusitako marjina | Kontratu orokorra | (Kontratuaren balioa - Kalkulatutako kostuak) / Kontratuaren balioa Kalkulatutako kostuak = Kontratuarekin mapatutako proiektu guztietan kalkulatutako kostu guztien batura.|

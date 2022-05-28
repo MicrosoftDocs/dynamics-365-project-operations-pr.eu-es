@@ -3,16 +3,15 @@ title: Izakinetan/Ekoizpenean oinarritutako adibideen inplementazio orokorraren 
 description: Gai honek inplementazio motari buruzko informazioa eskaintzen du, produkzioan oinarritutako / ekoizpenean oinarritutako Project Operations-en eragiketak.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: de9a83949a838f8ca90771022339c6da17f6dde1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009066"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582465"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Izakinetan/Ekoizpenean oinarritutako adibideen inplementazio orokorraren Project Operations
 
@@ -23,21 +22,21 @@ Inplementazio mota honek gaitasun hauek ditu proiektuetan oinarritutako enpresen
 
 - Proiektuaren plangintza [Lanen matxuren egiturak](work-breakdown-structures.md)
 - Proiektuetarako inbentarioa eskuratu eta kontsumitu
-- Proiektuetan oinarritutako salmentak kudeatzea **Salmenta eta marketina** moduluan Dynamics 365 Finance and Operations aplikazioetan
-- Proiektuen prezioak eta kostuak kostuko tasa eta fakturazio tasaren konfigurazioak erabiliz Finance and Operations aplikazioetan
-- Finance and Operations aplikazioetako proiektuen baliabide-kudeatzailea
-- Proiektuaren aurrerapena eta denboraren jarraipena Finance and Operations aplikazioetan
+- Proiektuetan oinarritutako salmentak kudeatzea **Salmenta eta marketina** modulua Dynamics 365 Finance and Operations aplikazioetan
+- Proiektuen prezioak eta kostuak Finantza eta Operazio aplikazioetako kostu-tasa eta faktura-tasaren konfigurazioak erabiliz
+- Finantza eta Operazio aplikazioetan proiektuetarako baliabideen kudeaketa
+- Proiektuaren aurrerapena eta denboraren jarraipena Finantza eta Operazio aplikazioetan
 - Proiektuak eta proiektuak ez diren gastuak kudeatzeko esperientziak, ordainagiriak jasotzeko OCR gaitasunak erabiliz
 - Enpresa mailako salmenten gaineko zerga eta data eraginkorreko kanbio tasen sistema erabiliz fakturatzea
 - Proiektu talde konfiguragarriak WIP kontabilitate eta metatzeetarako
 - Proiektuaren diru-sarreren aitorpena
 
-Inplementazio mota honek Dynamics 365 Finance eta Dynamics 365 Supply Chain Management aplikazioak.
+Inplementazio mota honek Dynamics 365 Finance eta Dynamics 365 Finance-ek eskaintzen duten funtzionalitatearen luzapena ere eskaintzen du.Dynamics 365 Supply Chain Management aplikazioak.
 
 Hautatu inplementazio mota hau Dynamics 365 Project Operations proiektuaren bizitza ziklo osorako erabiltzeko, funtsezko eskakizun hauek barne:
 
 - Proiektuak kudeatzeko sistema zabala, inbentariatutako elementuak eta lan / produkzio eskaerak kudeatzen dituena, barne eta fakturagarriak diren proiektuetarako ordutegiak eta finantza kontuak.
-- Erakundeak jada baditu Dynamics 365 Finance edo Dynamics 365 Supply Chain eta Manufakcturing aplikazioek eta proiektuetan oinarritutako transakzioak integratzeak datuen sarbidea eta txostenak beharrak erraztuko dituzte.
+- Erakundeak dagoeneko Dynamics 365 Finance edo Dynamics 365 Supply Chain eta Manufacturing aplikazioak ditu eta proiektuetan oinarritutako transakzioak integratzeak datuen sarbidea eta txostenak egiteko beharrak erraztuko ditu.
 - Gastuak kudeatzeko sistema guztiz funtzionala, proiektuak eta proiektuak ez diren gastuen jarraipena egiteko politikak betearaztea eta itzultzea barne.
 - Enpresa mailako salmenten gaineko zergaren eta truke tasaren motorra, proiektuetarako bezeroei begira fakturak sortzeko.
 - Nazioarteko Financial Reporting Arauak (IFRS) bateragarriak diren proiektuen kontabilitate eta diru sarrerak ezagutzeko sistema.

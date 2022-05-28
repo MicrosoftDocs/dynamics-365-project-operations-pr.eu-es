@@ -4,14 +4,14 @@ description: Gai honek baliabideetan/stockean oinarritutako egoeren Project Oper
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989896"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585593"
 ---
 # <a name="manage-project-invoice-proposals"></a>Kudeatu proiektuaren faktura-proposamenak
 
@@ -22,7 +22,7 @@ Proiektuen faktura proposamenak fakturazio sailak prozesatu ditzake bi baldintza
   - Proiektuaren kudeatzaileak proforma faktura berresten du Microsoft Dataverse-n.
   - Proforma fakturan sartzen diren fakturatu gabeko denbora eta material salmenta transakzio guztiak Dynamics 365 **Project Operations-en integrazioa** aldizkaria erabiliz argitaratzen dira.
 
-Erabili urrats hauek proiektuaren faktura proposamen bat osatzeko Dynamics 365 Finance-n.
+Erabili urrats hauek Dynamics 365 Finance-en proiektuaren faktura-proposamena osatzeko.
 
 1. Berrikusi fakturazioari buruzko informazioa denbora eta material transakzioetarako eta bidali **Project Operations-en integrazioa** aldizkaria.
 2. Berrikusi fakturazio informazioa prezio finkoko fakturazio mugarrietarako.

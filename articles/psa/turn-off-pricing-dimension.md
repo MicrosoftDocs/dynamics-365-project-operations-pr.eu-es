@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: f308104246efe671d2001e660aa8c0ab9ef44c7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006771"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581683"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Desaktibatu prezio-dimentsioa
 
@@ -39,8 +40,8 @@ Errore-mezu horrek desaktibatu nahi den dimentsiorako aurrez konfiguratutako pre
 
 | Titulu estandarra         | Erakunde-unitatea    |Unitatea   |Prezioa  |Moneta  |
 | -----------------------|-------------|-------|-------|----------|
-| Sistemen ingeniaria|Contoso AEBetan|Ordu| 100|USD|
-| Sistemen ingeniari nagusia|Contoso AEBetan|Ordu| 150| USD|
+| Sistemen ingeniaria|Contoso US|Hour| 100|USD|
+| Sistemen ingeniari nagusia|Contoso US|Hour| 150| USD|
 
 
 **Titulu estandarra** prezio-dimentsio gisa desaktibatzen duzunean eta Project Service-ren prezioen motorrak prezioa bilatzen duenean, sarrerako testuinguruko **Erakunde-unitatea** balioa soilik erabiliko du. Sarrerako testuinguruaren **Erakunde-unitatea** "Contoso US" bada, emaitza ez-determinista izango da bi errenkadak bat etorriko direlako. Egoera hori ekiditeko, **Funtzio-prezioa** erregistroak sortzen dituzunean, Project Service-k dimentsioen konbinazioa esklusiboa dela balioztatzen du. Dimentsioa **Funtzio-prezioa** erregistroak sortu ondoren desaktibatzen bada, muga hori urratu daiteke. Hori dela eta, beharrezkoa da dimentsioa desaktibatu aurretik dimentsio-balio hori beteta duten **Funtzio-prezioa** eta **Funtzio-prezioaren gainprezioa** errenkada guztiak ezabatzea.

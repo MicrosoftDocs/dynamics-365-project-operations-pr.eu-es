@@ -4,26 +4,26 @@ description: Gai honek Project Operations-eko proiektuaren kontratuen gako nagus
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986926"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582925"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Proiektuetan oinarritutako kontratuen kontzeptu bakarrak
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Gai honek Project kontratuak erabiltzen hasi aurretik ezagutu beharreko kontzeptu nagusiak eskaintzen ditu Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Jabetzadun enpresa
 
-Enpresaren titularra pertsona juridikoaren kontzeptuarekin bat dator Dynamics 365 Finance-ren Project Operations-en **Proiektuen kudeaketa eta kontabilitatea** proiektuaren eragiketen modulua. Enpresa jabeak akordio batek sortutako kostua eta diru-sarrerak kontutan hartuko dituen pertsona juridikoa ordezkatzen du.
+Enpresa jabea erakundeko pertsona juridikoa da **Proiektuen kudeaketa eta kontabilitatea** Dynamics 365 Finance proiektuaren eragiketetarako modulua. Enpresa jabeak akordio batek sortutako kostua eta diru-sarrerak kontutan hartuko dituen pertsona juridikoa ordezkatzen du.
 
 ## <a name="contracting-unit"></a>Kontratatzailea
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547139"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582879"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Zer berri 2021eko iraila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547139"
 Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
    - Project Operations Microsoft Dataverse inguruneko bertsioan 4.14.0.99.
-   - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.20 bertsioan.
+   - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.20 bertsioan.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations zerbitzuaren idazketa dualeko esleipenen eguneratzeak
 
@@ -45,7 +45,7 @@ Mapa hasten duen arazoren bat aurkitzen baduzu, jarraitu argibideak [Falta diren
 | Fakturazioa eta prezioak | 2385802 | Proiektuen guztizkoak freskatzen direnean benetako ordu negatiboekin gertatzen den akatsa konpondu da. |
 | Fakturazioa eta prezioak | 2389675 | Proformaren faktura berresteko portaera hobetu da. Iraupen luzeko lanpostuen entitateak kontabilitate berrespen emaitzak idazteko behar den jarduera kontuan hartu behar du. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Proiektuaren kudeaketa eta kontabilitatea Dynamics 365 Finance-n
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance-en
 
 | Ezaugarrien eremua | Erreferentzia-zenbakia | Kalitatearen eguneratzea |
 | --- | --- | --- |

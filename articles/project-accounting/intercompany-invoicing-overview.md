@@ -3,16 +3,15 @@ title: Enpresen arteko fakturazioaren informazio orokorra
 description: Gai honek enpresen arteko fakturazioa proiektuen inguruko informazioa eta adibideak eskaintzen ditu.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005376"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586237"
 ---
 # <a name="intercompany-invoicing-overview"></a>Enpresen arteko fakturazioaren informazio orokorra
 
@@ -20,7 +19,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 Zure erakundeak dibisio, filial eta beste pertsona juridiko ugari izan ditzake produktuak eta zerbitzuak elkarri proiektuetarako transferitzen dituztenak. Zerbitzua edo produktua eskaintzen duen pertsona juridikoari deitzen zaio *pertsona juridiko mailegu-emailea*. Zerbitzua edo produktua jasotzen duen pertsona juridikoari deitzen zaio *pertsona juridiko mailegu-hartzailea*.
 
-Ondorengo ilustrazioak bi pertsona juridiko, esate baterako, agertoki tipikoa erakusten du. Contoso Robotics USA (maileguan dagoen pertsona juridikoa) eta Contoso Robotics UK-k (mailegu-entitate juridikoa) baliabideak partekatzen ditu abentura lanak bezeroarentzako proiektu bat emateko. Eszenatoki honetarako, Contoso Robotics USA-k kontratua du lana Adventure Works-i entregatzeko.
+Hurrengo ilustrazioak agertoki tipikoa erakusten du, non bi pertsona juridikok, Contoso Robotics USA-k (mailegu-hartzailea den pertsona juridikoa) eta Contoso Robotics UK-k (mailegu-emaile den pertsona juridikoa) baliabideak partekatzen dituzten bezeroak, Adventure works-ek proiektu bat entregatzeko. Eszenatoki honetarako, Contoso Robotics USA-k kontratua du lana Adventure Works-i entregatzeko.
 
 ![Enpresen arteko fakturazioa.](./media/IntercompanyScenario.png) 
 

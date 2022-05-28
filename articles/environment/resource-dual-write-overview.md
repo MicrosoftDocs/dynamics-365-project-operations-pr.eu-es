@@ -3,23 +3,22 @@ title: Project Operations idazketa dualeko integrazioa
 description: Gai honek Project Operations idazketa bikoitzeko integrazioaren ikuspegi orokorra eskaintzen du.
 author: sigitac
 ms.date: 04/28/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 9b57b8bab9a6821e71a16b191804af21ae5d0b5a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007896"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582741"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Project Operations idazketa dualeko integrazioaren ikuspegi orokorra
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Project Operations-en erabilerak [idazketa bikoitzeko gaitasunak](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) datuak zehar sinkronizatzeko Microsoft Dataverse eta Dynamics 365 Finance.
+Proiektu Eragiketen erabilerak [idazketa bikoitzeko gaitasunak](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) zehar datuak sinkronizatzeko Microsoft Dataverse eta Dynamics 365 Finance.
 
 Ondorengo ilustrazioak erakusten du nola sinkronizatzen diren datuak arteko integrazio horren zati gisa Dataverse eta Finance artean.
 

@@ -4,14 +4,14 @@ description: Gai honek balio erantsiaren gaineko zergaren (BEZ) transakzioetan i
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 64e9f4091fdf40cc702e83a165fe0a5be5043359348210bbe4afcd8a18055133
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7c961763d3d670117c5a576db485ebcfdcf9ec9f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999346"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581131"
 ---
 # <a name="vat-recovery-in-expense-management"></a>BEZaren berreskurapena Gastuen kudeaketan
 
@@ -33,25 +33,25 @@ Aurrebaldintzak bete ondoren, urrats hauek bete behar dira BEZaren eragiketen it
 4. Bidali BEZa berreskuratzeko datuak hirugarren saltzaileari nazioarteko berreskurapenen aitorpenak aurkez ditzan.
 5. Barne BEZa berreskuratzeko gastuak prozesatu.
 
-Ondorengo ataletan nola erakusten duten adibideak ematen dira Contoso langileek urrats bakoitza osatzen dute.
+Ondorengo ataletan Contosoko langileek urrats bakoitza nola burutzen duten erakusten dute adibideak.
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Sartu kreditu txartelarekin egindako transakzioei buruzko zerga informazioa, BEZaren itzulketak hautatzeko
 
-Nancy, Contoso salmenten ordezkaria Estatu Batuetan kokatua, duela gutxi Erresuma Batura egindako salmenta bidaiatik itzuli da. Bidaian, Nancyk kreditu txartel pertsonaleko zenbait gastu egin zituen otorduetarako. Nancy-k gastuen txostena sortu behar du gastuak bateratzeko.
+Nancy, Estatu Batuetan kokatutako Contoso salmenta ordezkaria, duela gutxi itzuli da Erresuma Batura egindako salmenta bidaiatik. Bidaian, Nancyk kreditu txartel pertsonaleko zenbait gastu egin zituen otorduetarako. Nancy-k gastuen txostena sortu behar du gastuak bateratzeko.
 
 Nancyk gastuen txostenean informazioa sartzen duenean, hautatzen du **Erresuma Batua** **Herrialdea/Eskualdea** eremuan, **Editatu gastuen txostena** orrialdean. Salmenten gaineko zergen taldeen zerrenda iragazi egiten da, Erresuma Batuari aplikatzen zaizkion taldeak soilik erakuts ditzan. Nancy-k hautatzen du **Erresuma Batua 001** salmenten gaineko zerga taldea eta ondoren hautatu **Otorduak** elementuen salmenten gaineko zergaren taldea. Ondoren, Nancy-k transakzio berri bat gehituko du ostatu hartzeko. Erresuma Batuan ostatu hartzeko salmenten gaineko zerga talde bakarra eta salmenten gaineko zerga talde bakarra dagoenez, informazio hori automatikoki betetzen da Nancyren gastuen txostenean.
 
-Contoso politikari dagokionez, gastu guztiek bat datorren ordainagiria izan behar dute. Hori dela eta, Nancyk gastuen txostena gordetzen duenean, mezu bat jasotzen du, bere gastuen txostenean zerrendatutako transakzio bakoitzaren ordainagiria erantsi behar duela dioena. Nancy-k egiaztatzen du transakzio ordainagiri bakoitzaren irudi digitala erantsi duela bere gastuen txostenean eta, ondoren, bere txostena onartzen du. Orduan, paperezko ordainagiriak atzeko bulegoko izapidetze taldeari bidaltzen dizkio. Talde honek BEZa berreskuratzeko datuak bidaliko dizkio nazioarteko BEZaren berreskurapena itzultzen duen hirugarren saltzaileari Contoso.
+Contoso politikaren arabera, gastu guztiek bat datorren ordainagiria izan behar dute. Hori dela eta, Nancyk gastuen txostena gordetzen duenean, mezu bat jasotzen du, bere gastuen txostenean zerrendatutako transakzio bakoitzaren ordainagiria erantsi behar duela dioena. Nancy-k egiaztatzen du transakzio ordainagiri bakoitzaren irudi digitala erantsi duela bere gastuen txostenean eta, ondoren, bere txostena onartzen du. Orduan, paperezko ordainagiriak atzeko bulegoko izapidetze taldeari bidaltzen dizkio. Talde honek BEZa berreskuratzeko datuak bidaliko dizkio Contosori nazioarteko BEZa itzultzeko aitorpenak aurkezten dizkion hirugarren saltzaileari.
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>Egiaztatu zerga informazioa eta bidali gastuen txostena
 
-Apirila baino lehen, ordaindu beharreko kontuen koordinatzailea Contoso, gastuen txostena bidal dezake, falta zaion zerga informazioa sartu behar du. Ireki zuren **Gastuen txostenaren xehetasunak** orrialdean eta Nancyren onartutako gastuen txostena ikusten du. Ondoren, apirilak gastuen txostena irekitzen du transakzioen xehetasunak ikusteko. Ikusten du Nancyk ez zuela transakzioetako bat salmenten gaineko zerga talde batean sartu. Informazio hau ematen ez denez, apirilak ezin du gastuen txostena argitaratu. Hori dela eta, begiratzen dio **Zerga konfigurazioak** orria Gastuak kudeatzeko atalean, eta herrialdeko/eskualdeko eta transakzio motako elementu salmenten gaineko zerga talde egokia aurkitzen du. Apirilak gastuen txostena liburu nagusian bidali dezake.
+Apirila baino lehen, Contosoren kontuak ordaintzeko koordinatzaileak gastuen txostena bidal dezake, eta falta zaion zerga informazioa sartu beharko du. Ireki zuren **Gastuen txostenaren xehetasunak** orrialdean eta Nancyren onartutako gastuen txostena ikusten du. Ondoren, apirilak gastuen txostena irekitzen du transakzioen xehetasunak ikusteko. Ikusten du Nancyk ez zuela transakzioetako bat salmenten gaineko zerga talde batean sartu. Informazio hau ematen ez denez, apirilak ezin du gastuen txostena argitaratu. Hori dela eta, begiratzen dio **Zerga konfigurazioak** orria Gastuak kudeatzeko atalean, eta herrialdeko/eskualdeko eta transakzio motako elementu salmenten gaineko zerga talde egokia aurkitzen du. Apirilak gastuen txostena liburu nagusian bidali dezake.
 
 Apirilak gastuen txostena argitaratzen duenean, BEZa berreskura daitekeen lan-elementu bat sortzen da. Lan-elementu hau atzeko bulegoko izapidetze taldeko kide bati esleitzen zaio. Apirilak mezu bat jaso zuela mezu bat jaso zuen. Mezu honetan berreskuratzeko identifikatu ziren BEZaren transakzio kopurua ere agertzen da.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Nazioarteko BEZa berreskuratzeko eskubidea duten prozesuak
 
-Arnie, bertako kidea Contoso back-office prozesatzeko taldea, BEZa berreskuratzeko beharrezko informazio guztia gastuen txostenetan sartuta dagoela egiaztatzeaz arduratzen da. Zabaltzen du **Gastuen zerga berreskuratzea** orrialdean eta Nancyk bidalitako gastuen txostena hautatzen du. Arniek egiaztatzen du eskatutako ordainagiri guztiak erantsita daudela eta salmenten gaineko zergaren talde zuzena eta salmenten gaineko zergaren kodeak sartu direla.
+Arnie, Contosoren back-office prozesurako taldeko kidea, BEZa berreskuratzeko beharrezko informazio guztia gastuen txostenetan sartuta dagoela egiaztatzeaz arduratzen da. Zabaltzen du **Gastuen zerga berreskuratzea** orrialdean eta Nancyk bidalitako gastuen txostena hautatzen du. Arniek egiaztatzen du eskatutako ordainagiri guztiak erantsita daudela eta salmenten gaineko zergaren talde zuzena eta salmenten gaineko zergaren kodeak sartu direla.
 
 Arniek Nancyren paperezko ordainagiriak jasotzen dituenean, egiaztagiri digitalen aurka egiaztatzen ditu eta, ondoren, gastuen txostenaren egoera aldatzen du **Berreskuratzeko prest**.
 

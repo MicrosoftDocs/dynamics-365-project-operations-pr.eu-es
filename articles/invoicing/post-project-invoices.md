@@ -3,16 +3,15 @@ title: Fakturazio-prozesuaren informazio orokorra
 description: Gai honek Project Operations-en eragiketetan fakturazioari buruzko ikuspegi orokorra eskaintzen du baliabideetan/stockean oinarritutako egoeren Project Operations-en.
 author: sigitac
 ms.date: 01/29/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003756"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582695"
 ---
 # <a name="invoicing-process-overview"></a>Fakturazio-prozesuaren informazio orokorra
 
@@ -22,7 +21,7 @@ Baliabideen/Stockean oinarritutako egoeretarako Project Operations-ek gaitasun i
 
 ![Fakturazio-fluxuen diagrama.](./media/invoicing-flow.png)
 
-Proiektuaren kontratu lerroak lotutako proiektuen transakzioen fakturazio metodoa definitzen du. Proiektu kudeatzaileak denbora eta gastuen transakzioak onartzen dituenean, sistemak transakzioak erregistratzen ditu **Proiektuaren benetako datuak** entitateari eta informazioa helbidera bidaltzen du **Proiektuen kudeaketa eta kontabilitatea** moduluan Dynamics 365 Finance-en. Proiektuaren kontulariak gero fitxategiak berrikusi eta argitaratzen ditu [Project Operations-en integrazio-aldizkaria](../project-accounting/project-operations-integration-journal.md). Aldizkari honek proiektuaren datuen kontabilitate-datu garrantzitsuak biltzen ditu, hala nola fakturazioa, salmenten gaineko zerga taldea, fakturazio elementuen salmenten gaineko zerga taldea eta finantza dimentsioak.
+Proiektuaren kontratu lerroak lotutako proiektuen transakzioen fakturazio metodoa definitzen du. Proiektuaren kudeatzaileak denbora eta gastu transakzioak onartzen dituenean, sistemak transakzioak erregistratzen ditu **Proiektuaren benetakoak** entitateari eta informazioa bidaltzen dio **Proiektuen kudeaketa eta kontabilitatea** modulua Dynamics 365 Finance-en. Proiektuaren kontulariak gero fitxategiak berrikusi eta argitaratzen ditu [Project Operations-en integrazio-aldizkaria](../project-accounting/project-operations-integration-journal.md). Aldizkari honek proiektuaren datuen kontabilitate-datu garrantzitsuak biltzen ditu, hala nola fakturazioa, salmenten gaineko zerga taldea, fakturazio elementuen salmenten gaineko zerga taldea eta finantza dimentsioak.
 
 Proiektuaren kudeatzaileak fakturatu gabeko salmenten transakzioak berrikusi ditzake denbora eta materialaren fakturazio metodoa erabiliz [Denboraren eta materialaren fakturazio-zorroa](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) eta prezio finkoan fakturatzea [Prezio finkoaren mugarriak](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones) aukeran. Ikuspegi horiei esker, hurrengo fakturazio-zikloan sartu behar diren transakzioak iragazi eta hautatu ditzakezu eta ondoren markatu **Fakturatzeko prest**.
 

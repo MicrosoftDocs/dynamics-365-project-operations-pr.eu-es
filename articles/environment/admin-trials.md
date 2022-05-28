@@ -2,22 +2,22 @@
 title: Eman izena Project Operations-en doako probak lortzeko
 description: Gai honek Dynamics 365 Project Operations proba bat inplementatzeari buruzko informazioa ematen du.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
-ms.translationtype: HT
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901602"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584259"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Eman izena Project Operations-en doako probak lortzeko 
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako Project Operations, Lite hedapena - proformaren fakturazioari aurre egitea eta produkzioan oinarritutako eszenatokien proiektuaren eragiketak_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Gai honetan aurrebista bazkideen eskaintzara nola harpidetu eta nola hedatu azaltzen da Dynamics 365 Project Operations ingurunea.
 
@@ -36,7 +36,6 @@ Ondorengo taulan probako eskaintza berriaren xehetasunak azaltzen dira.
 | Erabilera eskaini                    | Maizter bakoitzeko denbora bat                          |
 | Eskaintzaren iraupena               | 30 eguneko egutegia                             |
 | Errentamenduak maizter bakoitzeko       | 1                                            |
-| Erabiltzaile kopurua              | 25                                           |
 | Luzapena                    | Luzapen 1, 30 egutegi egun               |
 | Probako inguruneen kopurua | 3                                            |
 
@@ -87,7 +86,7 @@ Hasi aurretik, hasi saioa arakatzailean erabiltzaileen laneko kontuarekin Projec
  
   Hornidura amaitutakoan, zure ingurunearen egoera da **Prest**. Ingurunea hornitzeak demo datuak zabaltzea dakar.
  
-4.  Aukeratu dagokion Microsoft Dataverse URLa eta Finance and Operations aplikazioen URLak inplementazioa balioztatzeko.
+4.  Hautatu dagokiona Microsoft Dataverse URLa eta Finantza eta Operazio aplikazioen URLak hedapena balioztatzeko.
 
 ## <a name="configuring-dual-write"></a>Konfiguratuz idazketa duala
 - Idazketa bikoitzerako segurtasun-rolak konfiguratzeko, ikus [Eguneratu segurtasun-ezarpenak Project Operations-n Dataverse](resource-provision-new-environment.md).
@@ -95,9 +94,9 @@ Hasi aurretik, hasi saioa arakatzailean erabiltzaileen laneko kontuarekin Projec
 
 ## <a name="assign-licenses"></a>Esleitu lizentziak
 
-Zure erakundeko Microsoft 365 Portal-erako sarbide administratiboa beharko duzu urrats hauek burutzeko.
+Zure erakundeko Microsoft 365 atarirako sarbide administratiboa beharko duzu urrats hauek burutzeko.
 
-1. Joan [Microsoft 365 administrazio zentroa](https://portal.office.com/) lizentziak zure erabiltzaileei esleitzeko.
+1. Joan zaitez [Microsoft 365 administrazio zentroa](https://portal.office.com/) zure erabiltzaileei lizentziak esleitzeko.
 
    ![Administrazio zentroaren hasierako orria](./media/14AdminPortal.png)
 
@@ -115,9 +114,9 @@ Ondorengo baliabideek orientazio lagungarria eskaintzen dute Project Operations 
 - [Dynamics 365 Project Operations](/learn/modules/examine-dynamics-365-project-operations/)
 - [Zehaztu inplementazio mota](determine-deployment-type.md)
 
-## <a name="frequently-asked-questions"></a>Maiz egiten diren galderak
+## <a name="frequently-asked-questions"></a>Ohiko galderak
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Niretzat ALM edo ELM behar baditut Finance and Operations aplikazioen ingurunea?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Zer gertatzen da ALM edo ELM behar badut nire Finantza eta Operazioen aplikazioen ingurunerako?
 
 - Ingurune osoaren bizi-zikloa kudeatzeko gaitasunak behar dituzten bazkideentzat, ikusi [Bazkide Sandbox lizentzia eskaera](https://experience.dynamics.com/requestlicense) bazkide eskaintza berria berrikusteko. 
 - Barne Erabilera Eskubideei buruzko informazio gehiago bilatzen duten bazkideentzako, ikus [Barne Erabilera Eskubideen hodeia eta softwarearen onura (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +124,7 @@ Ondorengo baliabideek orientazio lagungarria eskaintzen dute Project Operations 
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Proba luzatu al dezaket 30 egunez harago?
 Probaldia luzatzeko, jarraitu urrats hauek.
 
-1. Hurrengoan **Microsoft 365 administrazio-zentroa**, joan **Fakturazioa** > **Zure produktuak**.
+1. urtean **Microsoft 365 Admin Zentroa**, joan **Fakturazioa** > **Zure produktuak**.
 2. Hautatu **Dynamics 365 Project Operations (CE) - Aurrebistaren proba**.
 3. Azpian **Iraungitze Data**, hautatu **Luzatu Data**.
 

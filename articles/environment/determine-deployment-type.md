@@ -4,14 +4,14 @@ description: Gai honek zure enpresako Proiektuaren eragiketen inplementazio mota
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994621"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584121"
 ---
 # <a name="determine-your-deployment-type"></a>Zehaztu inplementazio mota
 
@@ -25,7 +25,7 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation erabiltzen duten Dynamics-eko lehengo bezeroak
 Project Operations-ek Project Service Automation-ekin hornitutako gaitasunak biltzen ditu. Bezero hauen bertsio berritzeko bide bat kaleratuko da 2021 bertsio 1 olatuan.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Proiektu-kudeaketa eta kontabilitatea erabiltzen duten Dynamics 365 Finance-ren lehendik dauden bezeroak 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Dynamics 365 Finance-en dauden bezeroak Proiektuen kudeaketa eta kontabilitatea erabiliz 
 
 Proiektuen kudeaketa eta kontabilitate funtzionalitatea erabiltzen duten Finantzetako lehendik dauden bezeroek bere horretan erabiltzen jarrai dezakete. Ikusi [Izakinak edo ekoizpen-eskaerak izatearen egoeretarako Project Operations](#pma).
 
@@ -42,7 +42,7 @@ Gure [Inplementazio galdetegia](https://aka.ms/provisionprojectoperations) inple
 - [Baliabideak edo izakinik gabeko produktuak izatearen egoeretarako Project Operations](#integrated)
 - [Izakinak edo ekoizpen-eskaerak izatearen egoeretarako Project Operations](#pma)
 
-Project Operations-ek ingurune berean biltegiratutako / ekoizteko eskaerak eta ez hornitutako / baliabideetan oinarritutako agertokiak onartzen dituzte entitate juridikoen mailako konfigurazioen bidez. Adibidez, Contoso hornitutako / ekoizteko eskaerak AEBetako fabrikazio instalazioetan erabil ditzake (entitate juridikoa = Contoso Fabrikazio Estatu Batuak). Contoso baliabideetan oinarrituta ez dauden baliabideak erabil ditzake Contoso Erresuma Batuko Robotika Armak zaintzeko instalazioa (entitate juridikoa = Contoso Robotika Erresuma Batua).
+Project Operations-ek ingurune berean biltegiratutako / ekoizteko eskaerak eta ez hornitutako / baliabideetan oinarritutako agertokiak onartzen dituzte entitate juridikoen mailako konfigurazioen bidez. Adibidez, Contosok hornitutako / ekoizteko eskaeren gaitasunak erabil ditzake AEBetako fabrikazio instalazioetan (Entitate juridikoa = Contoso Manufacturing United States). Contosok hornituta ez dauden / baliabideetan oinarritutako gaitasunak erabil ditzake Erresuma Batuko Contoso Robotics Arms zerbitzuaren instalazioetan (Entitate juridikoa = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Oinarrizko inplementazioa: kudeatu proformako fakturak
 
