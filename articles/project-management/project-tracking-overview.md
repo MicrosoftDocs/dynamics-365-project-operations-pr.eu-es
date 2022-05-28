@@ -2,17 +2,16 @@
 title: Proiektuko ahaleginaren segimendua
 description: Gai honek proiektuaren ahaleginaren eta lanaren garapenaren jarraipena egiteari buruzko informazioa ematen du.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993946"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593781"
 ---
 # <a name="project-effort-tracking"></a>Proiektuko ahaleginaren segimendua
 
@@ -46,7 +45,8 @@ Laburpen-zereginetan edo edukitzaile-zereginetan ahalegina berriro proiektatu da
 - Hosto-nodoen zereginetara jaitsitako zeregin indibidualetako EAC berria kalkulatzen da. 
 - Berriro kalkulatzen dira hosto-nodoetan kaltetutako bigarren mailako zereginen geratzen den ahaleginaren balioa eta garapenaren portzentajea EAC balioaren arabera. Horrek zereginaren ahaleginaren bariantzarako beste proiekzio bat sortzen du. 
 - Erro-nodora bideratutako laburpen-zereginen EAC-ak berriro kalkulatzen dira.
-
+- Laburpen-zeregin batean onartutako esfortzua haur-zeregin guztietan onartutako ahaleginaren gehi laburpen-atazarako onartutako esfortzuaren batura da.
+- Laburpen-zereginean geratzen den esfortzua haur-zeregin guztietan geratzen den esfortzuaren batura da, laburpen-atazan onartutako ahalegina kenduta.
 
 ## <a name="project-status-summary"></a>Proiektuaren egoeraren laburpena
 

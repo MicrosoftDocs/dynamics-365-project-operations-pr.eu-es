@@ -4,14 +4,14 @@ description: Gai honek Microsoft-ek azpikontratatutako osagaietatik proiektuetan
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 04c78dd48367c3720b8f5ad5d924ed106da6a128
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903601"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599209"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Azpikontratatutako osagaien proiektuetan denbora, gastuak eta materialaren erabilera erregistratzea
 
@@ -32,7 +32,7 @@ Proiektuetan sortutako gastuak sartzerakoan, azpikontratazioa eta azpikontratazi
 Gastuen idazpen hau aurkeztu eta onartzen denean, gastu-kostua proiektuan erregistratzen da transakzio-kategoria horretarako ezartzen den kostu unitarioaren arabera.**Kategorien prezioak** azpikontratuko erosketa prezioen zerrendaren atala.
 
 ## <a name="costing-for-subcontracted-materials-on-projects"></a>Proiektuetan azpikontratatutako materialen kostuak
-Proiektuetan materialaren erabilera sartzean, materialaren erabileraren erregistroan azpikontratu eta azpikontratazio lerro bat hauta ditzakezu. Materialaren erabileraren erregistroa aurkeztu eta onartzen denean, materialaren kostua proiektuan erregistratzen da produktu horretarako ezartzen den unitateko kostuaren arabera.**Prezio zerrendako elementuak** azpikontratuaren prezioen zerrendaren atala.
+Proiektuetan materialaren erabilera sartzerakoan, materialaren erabileraren erregistroan azpikontratu eta azpikontratu lerro bat hauta ditzakezu. Materialaren erabileraren erregistroa aurkeztu eta onartzen denean, materialaren kostua proiektuan erregistratzen da produktu horretarako ezartzen den unitateko kostuaren arabera.**Prezio zerrendako elementuak** azpikontratuaren prezioen zerrendaren atala.
 
 Materialaren erabilera proiektuetan idazteko produktuetarako ere erregistra daiteke. Material-erabilera mota hau azpikontratazio eta azpikontratazio lerro batekin ere lotu daiteke. Idazteko produktuen materialaren erabilera erregistratzean, idazteko produktuaren unitateko kostua sartu behar duzu. 
 

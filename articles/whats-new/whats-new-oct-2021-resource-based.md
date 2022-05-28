@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753277"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598473"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Zer berri 2021eko urria - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753277"
 Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
    - Project Operations Microsoft Dataverse inguruneko bertsioan 4.25.0.91
-   - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.21 bertsioa
+   - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.21 bertsioan
 
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
 
@@ -49,7 +49,7 @@ Mapa hasten duen arazoren bat aurkitzen baduzu, jarraitu argibideak [Falta diren
 | Fakturazioa eta prezioak | 2338357 | Materialaren erabilera erregistroan dagoen monetak proiektuaren moneta lehenetsi behar du proiektua hautatzen denean. |
 | Denbora eta gastua | 2414777 | Onarpena bertan behera uztea gastuak edo denborak sartzeak proiektuaren onarpen bat baino gehiago dituenean posible izan behar du. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Proiektuaren kudeaketa eta kontabilitatea Dynamics 365 Finance-n
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance-en
 
 | Ezaugarrien eremua | Erreferentzia-zenbakia | Kalitatearen eguneratzea |
 | --- | --- | --- |

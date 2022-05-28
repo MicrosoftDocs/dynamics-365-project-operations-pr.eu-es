@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003576"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599393"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa
 
@@ -75,10 +75,10 @@ Bi prezio-dimentsio mota daude:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|In situ            |                    |Aparteko orduak                 |15     |
 |             | Contoso India|Lokala             |                    |Aparteko orduak                 |10     |
-|             | Contoso AEBetan   |Lokala             |                    |Aparteko orduak                 |20     |
+|             | Contoso US   |Lokala             |                    |Aparteko orduak                 |20     |
 
 
-Oinarrizko tasa 100 USD duen Contoso Indiako baliabide bat lanean ari bada, eta ohiko orduetan 8 ordu eta aparteko orduetan 2 ordu erregistratzen badituzte, prezioaren motorrak 100eko oinarri-tasa erabiliko du 8 orduetarako 800 USD grabatzeko. Aparteko 2 orduetarako, % 15eko gainprezioa aplikatuko zaio 100eko oinarrizko tasari 115 USD-eko unitate-prezioa lortzeko eta 230 USD-eko kostu osoa erregistratuko du.
+Oinarrizko tasa 100 USD duen Contoso India-ko baliabide bat lanean ari bada, eta ohiko orduetan 8 ordu eta aparteko orduetan 2 ordu erregistratzen badituzte, prezioaren motorrak 100eko oinarri-tasa erabiliko du 8 orduetarako 800 USD grabatzeko. Aparteko 2 orduetarako, % 15eko gainprezioa aplikatuko zaio 100eko oinarrizko tasari 115 USD-eko unitate-prezioa lortzeko eta 230 USD-eko kostu osoa erregistratuko du.
 
 ### <a name="applicable-to-cost"></a>Kostuari aplikagarria 
 Aukera hori **Bai** gisa ezarrita badago, sarrerako testuinguruko dimentsioaren balioa **Funtzio-prezioa** eta **Funtzio-prezioaren gainprezioa** eremuekin lotzeko erabili behar dela adierazten du kostu- eta balorazio-tasak berreskuratzean.

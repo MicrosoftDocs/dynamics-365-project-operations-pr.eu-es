@@ -4,14 +4,14 @@ description: Gai honek enpresen arteko transakzioak nola sortu jakiteko informaz
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005466"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599945"
 ---
 # <a name="create-intercompany-transactions"></a>Sortu enpresen arteko transakzioak
 
@@ -30,14 +30,14 @@ Enpresen arteko transakzioa onartzen denean, benetako transakzio hauek sortzen d
 
 Kostua, baliabideen unitateko kostua eta erakundeen arteko unitateen salmenten transakzioen prezioa eta moneta dira **antolakuntza unitatea**. Garrantzitsua da hori gogoratzea zure ezarpenean enpresak eta antolakuntza unitateak nola egituratu erabakitzeko orduan.
 
-Aukera, aurrekontua, proiektuaren kontratua eta proiektuaren erregistroak sortzen dituzunean, sistemak egiaztatzen du kontratazio unitatearen moneta kontratatutako enpresaren kontabilitate monetarekin bat datorren. Berdinak ez direnean, ezin dira erregistro hauek sortu. Urtean antolakuntza unitatearen moneta definitzen da Dynamics 365 Project Operations joanez **Dataverse** > **Ezarpenak** > **Antolakuntza-unitateak**. Enpresaren kontabilitate moneta hemen definitzen da Dynamics 365 Finance joanez **Liburu nagusia** > **Liburuaren konfigurazioa** > **Liburua**. Moneta zurekin sinkronizatuta dago Dataverse ingurunea Ledgers Dual Write mapa erabiliz.
+Aukera, aurrekontua, proiektuaren kontratua eta proiektuaren erregistroak sortzen dituzunean, sistemak egiaztatzen du kontratazio unitatearen moneta kontratatutako enpresaren kontabilitate monetarekin bat datorren. Berdinak ez direnean, ezin dira erregistro hauek sortu. Urtean antolakuntza unitatearen moneta definitzen da Dynamics 365 Project Operations joanez **Dataverse** > **Ezarpenak** > **Antolakuntza-unitateak**. Enpresa baten kontabilitate-moneta Dynamics 365 Finance-en definitzen da hona joanez **Liburu Nagusia** > **Liburuaren konfigurazioa** > **Liburua**. Moneta zurekin sinkronizatuta dago Dataverse ingurunea Ledgers Dual Write mapa erabiliz.
 
 Sistemak baliabideen unitateko kostua eta erakundeen arteko unitateen salmenten errealitatea sortzen du egoera hauetan:
 
   - Baliabideen unitatea kontratazio unitatearekin desberdina denean
   - Baliabideen enpresa kontratazio-enpresarekin desberdina denean
 
-Hala eta guztiz ere, enpresa kontratatzailearengandik beste baliabideen enpresa bat duten transakzioak soilik transferituko dira Dynamics 365 Finance kontabilitate osagarriaren ingurunea.
+Hala ere, kontratazio-enpresatik bestelako baliabide-enpresa bat duten transakzioak soilik Dynamics 365 Finance ingurunera transferituko dira kontabilitatea gehitzeko.
 
 Proiektuaren datuen kontabilitatea Project Operations integrazio aldizkarian jasotzen da Finantzan. Sistemak aldizkari lerro hauek sortzen ditu.
 

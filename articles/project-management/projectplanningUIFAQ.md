@@ -2,17 +2,17 @@
 title: Zeregina saretan lan egiteko arazoak konpontzea
 description: Gai honek Atazen saretan lan egitean behar diren arazoak konpontzeko informazioa eskaintzen du.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547184"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596403"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Zeregina saretan lan egiteko arazoak konpontzea 
 
@@ -70,6 +70,9 @@ Project Operations-ek proiektuaren parametro batek PEX amaiera puntua erreferent
       | Project Operations                   | type=2             |
 
 4. Kendu eremua **Proiektuaren parametroak** orrialdetik.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>3. arintzea: hasi saioa project.microsoft.com-en
+Zurean Microsoft Edge arakatzailea, ireki fitxa berri bat, joan project.microsoft.com atalera eta hasi saioa Proiektuaren Operazioetara sartzeko erabiltzen ari zaren erabiltzaile-rola erabiliz.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Arazoa: Proiektua ez da kargatzen eta UI birabarkian itsatsita dago
 

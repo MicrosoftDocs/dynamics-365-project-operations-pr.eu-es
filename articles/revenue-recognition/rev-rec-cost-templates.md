@@ -4,14 +4,14 @@ description: Gai honek Project Operations-en kostuen txantiloiak nola sortu eta 
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993541"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594195"
 ---
 # <a name="set-up-cost-templates"></a>Konfiguratu kostuen txantiloiak
 
@@ -56,7 +56,7 @@ Kostuen txantiloia sortzeko zein planteamendu hartu erabakitzea hainbat konturen
 ## <a name="create-cost-templates"></a>Sortu kostuen txantiloiak
 Kostuen txantiloiak sortzeko, jarraitu urrats hauei:
 
-1. Kostuen txantiloiak atzitzeko, Dynamics 365 Finance ingurunea, joan **Proiektuen kudeaketa eta kontabilitatea** > **Konfigurazioa** > **Aurrekontuak** > **Kostuen txantiloia** aukerara.
+1. Kostu txantiloiak sartzeko, Dynamics 365 Finance ingurunean, joan hona **Proiektuen kudeaketa eta kontabilitatea** > **Konfigurazioa** > **Estimazioak** > **Kostu txantiloia**.
 2. Hautatu **Berria** kostuen txantiloi berria sortzeko. Idatzi izena eta deskribapena.
 3. Eman kostu lerroaren IDa transakzio mota bakoitzerako.
 4. Aukeratu lehenetsitako osatze-metodoa:

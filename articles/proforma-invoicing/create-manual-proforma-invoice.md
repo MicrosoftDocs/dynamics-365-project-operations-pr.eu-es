@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995611"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600037"
 ---
 # <a name="proforma-invoices"></a>Proformako fakturak
 
@@ -82,6 +82,9 @@ Proiektuen fakturaren zirriborroa sortzen duzunean, fakturazioan sartu behar dir
 - Editatu eta doitu kantitatea eta fakturazio mota.
 
 Aukeratu **Berretsi** faktura berresteko. Berretsi ekintza norabide bakarreko ekintza da. Hautatzen duzunean **Berretsi**, sistemak faktura irakurtzeko bakarrik egiten du eta fakturazioaren lineako xehetasunetatik fakturatutako salmenta errealak sortzen ditu. Fakturen linearen xehetasunak fakturatu gabeko salmenten benetako erreferentzia izanez gero, sistemak fakturatu gabeko salmenten benetako itzulketa ere itzuliko du. (Denbora- edo gastu-sarreratik sortu den edozein fakturaren lerroko xehetasunek fakturatu gabeko salmenten erreferentzia izango dute.) Liburu nagusiaren integrazio-sistemek berraztertze hau erabil dezakete martxan dagoen proiektuaren (WIP) alderantzizko kontabilitaterako.
+
+> [!NOTE]
+> Berretsitako proformako fakturak eta erlazionatutako erregistroak (adibidez, faktura lerroak eta faktura lerroaren xehetasunak) ezin dira editatu edo ezabatu. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Zuzendu berretsitako faktura
 

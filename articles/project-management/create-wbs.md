@@ -4,14 +4,14 @@ description: Gai honetan azaltzen da nola sortu lanaren matxuraren egitura (WBS)
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928600"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597783"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Sortu zereginen xehetasunen egitura (WBS)
 
@@ -124,7 +124,7 @@ Ondoko mugak ezagutu behar dituzu Project Operations-en zereginen xehetasunen eg
 |----------------------------------------------------|----------------------|
 | Proiektu baterako gehieneko zereginak                  | 500                  |
 | Proiektu baten gehieneko iraupena               | 3650 egun (10 urte) |
-| Proiektu baterako gehieneko baliabideak              | 150                  |
+| Proiektu baterako gehieneko baliabideak              | 300                  |
 | Proiektu bateko gehieneko estekak (ondorengoak soilik) | 600                  |
 | Proiektu baterako gehieneko eremu pertsonalizatuak          | 1,0                   |
 | Gehienezko zerrendako elementuak zeregin bakoitzeko                   | 20                   |
