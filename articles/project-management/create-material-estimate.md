@@ -4,20 +4,20 @@ description: Gai honek proiektuan oinarritutako materialak definitzeko edo kalku
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992596"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737287"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Proiektuetako materialen aurreikuspen ekonomikoak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Dynamics 365 Project Operations proiektuen kudeatzaileek proiektu edo zeregin bakoitzerako proiektuan oinarritutako material kostuak definitzeko aukera ematen du. Estimazio material bakoitza proiektuko zeregin zehatz batekin lotu daiteke. Gastuak antolaketa mailan definitzen diren gastu kategoria desberdinetan sailkatzen dira. Prezioen zerrendan zehazten dira gastu-kategoria bakoitzaren prezioak eta kostuak. 
+Dynamics 365 Project Operations proiektuen kudeatzaileek proiektu edo zeregin bakoitzerako proiektuan oinarritutako material kostuak definitzeko aukera ematen du. Estimazio material bakoitza proiektuko zeregin zehatz batekin lotu daiteke. Proiektuetan erabiltzen diren materialak idatzitako produktuak edo produktuen katalogoko produktuak izan daitezke. Produktu baten eta unitate baten konbinazio bakoitzerako, salmenten proiektuaren prezioen zerrendetan eta kostuen proiektuaren prezioen zerrendetan prezio bat defini daiteke.  
 
 Osatu urrats hauek proiektuaren materialaren aurrekontua ikusi, gehitu edo ezabatzeko.
 
