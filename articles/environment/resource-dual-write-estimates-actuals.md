@@ -1,28 +1,28 @@
 ---
 title: Proiektuaren kalkuluak eta benetako dauten integrazioa
-description: Gai honek Project Operations idazketa bikoitzeko integrazioari buruzko informazioa eskaintzen du proiektuaren kalkuluak eta egiazkoak lortzeko.
+description: Artikulu honek Project Operations-en idazketa bikoitzeko integrazioari buruzko informazioa eskaintzen du proiektuaren estimazioetarako eta benetako datuetarako.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577175"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914571"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Proiektuaren kalkuluak eta benetako dauten integrazioa
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Gai honek Project Operations idazketa bikoitzeko integrazioari buruzko informazioa eskaintzen du proiektuaren kalkuluak eta egiazkoak lortzeko.
+Artikulu honek Project Operations-en idazketa bikoitzeko integrazioari buruzko informazioa eskaintzen du proiektuaren estimazioetarako eta benetako datuetarako.
 
 ## <a name="project-estimates"></a>Proiektuaren aurreikuspenak
 
-Proiektuaren eskulana, gastua eta materialaren estimazioak sortu eta mantentzen dira Microsoft Dataverse eta Finantza eta Operazioen aplikazioekin sinkronizatuta kontabilitate-helburuetarako. Sortu, eguneratu eta ezabatu eragiketak ez dira onartzen Finantza eta Eragiketak aplikazioen bidez.
+Proiektuaren eskulana, gastua eta materialaren estimazioak sortu eta mantentzen dira Microsoft Dataverse eta Finantza eta Operazio aplikazioekin sinkronizatuta kontabilitate-helburuetarako. Sortu, eguneratu eta ezabatu eragiketak ez dira onartzen Finantza eta Eragiketak aplikazioen bidez.
 
 Aurrekontuak sortzeko proiektuak baliozko kontabilitate konfigurazioa behar du. Kontratu-lerroekin lotzen diren proiektuek proiektuaren kostu eta diru-sarreren profila baliozkoa izan behar dute Proiektuaren kostu eta diru-sarreren profileko arauetan zehaztuta. Informazio gehiagorako, ikusi [Konfiguratu fakturagarriak diren proiektuen kontabilitatea](../project-accounting/configure-accounting-billable-projects.md#configure-project-cost-and-revenue-profile-rules).
 
@@ -54,7 +54,7 @@ Materialen kalkuluak proiektuaren kudeatzaileak sortzen ditu **Materialaren aurr
 
 Idazketa bikoitzak baliabideak esleitzeko erregistroak taulako taularekin sinkronizatzen ditu **ProjForecastSalesImpor**, eta gero negozioaren logika erabiltzen du elementuen iragarpen erregistroak sortzeko eta eguneratzeko (**ForecastSales**). Lerroen kalkuluen arabera, salmenten estimazioa eta kostuen kalkuluak bereizita gordetzen dira. Finantza eta Operazioen aplikazioetako negozio-logikak elementuen iragarpen-erregistro bakar bat betetzen du xehapen-taulan dagoen xehetasun hau erabiliz.
 
-Proiektuko kontu-hartzaileak Finantza eta Operazioen aplikazioetako elementuen aurreikuspenen erregistroak berrikus ditzake hona joanez **Proiektuen kudeaketa eta kontabilitatea** > **Proiektu guztiak** > **Plana** > **Elementuen aurreikuspenak**.
+Proiektuko kontu-hartzaileak Finantza eta Operazioen aplikazioetako elementuen aurreikuspenen erregistroak ikus ditzake hona joanez **Proiektuen kudeaketa eta kontabilitatea** > **Proiektu guztiak** > **Plana** > **Elementuen aurreikuspenak**.
 
 ## <a name="project-actuals"></a>Proiektuaren benetako datuak
 
@@ -65,7 +65,7 @@ Proiektuaren errealitatea urtean sortzen da Dataverse-n, denbora, gastu, materia
 **Project Operations integratzeko datuak** taulako mapak erregistro guztiak sinkronizatzen ditu **Benetako datuak** entitatea Dataverse-n, atributuarekin **Saltatu sinkronizazioa (barne erabileran soilik)** ezarri **Gezurra** gisa. Atributuaren balio hau ezarrita dago Dataverse-n erregistroa sortzen denean automatikoki. Atributu hau ezarrita dagoen adibideak **Egia** dira:
 
   - Enpresen arteko transakzioen proiektuaren kostua. Informazio gehiagorako, ikusi [Enpresen arteko transakzioak sortu](../project-accounting/create-intercompany-transactions.md). Erregistro hauek saltatzen dira sistemak proiektuaren benetako kostua birsortzen duelako Finantza eta Operazioen aplikazioetan enpresa arteko hornitzaileen faktura argitaratzen denean.
-  - Proforma faktura berresten denean sortutako fakturazio gabeko salmenten erregistro negatiboak. Erregistro hauek saltatu egiten dira Finantza eta Operazioen aplikazioetako proiektuaren azpiliburuak ez duelako fakturatu gabeko salmenten erregistroa alderantzikatzen fakturazioan, baina egoera guztiz fakturatuta aldatzen du.
+  - Proforma faktura berresten denean sortutako fakturazio gabeko salmenten erregistro negatiboak. Erregistro hauek saltatu egiten dira Finantza eta Operazioen aplikazioetako proiektuaren azpiliburuak ez duelako fakturatu gabeko salmenten erregistroa alderantzikatzen fakturazioan, baina egoera guztiz fakturatuta aldatzen duelako.
 
 Idazketa bikoitzeko taula mapak benetako erregistroak taulako taularekin sinkronizatzen ditu, **ProjCDSActualsImport**. Erregistro horiek aldian aldiko prozesuaren bidez prozesatzen dira **Inportatu taulako taulatik** Project Operations integrazio egunkari lerroak eta proiektuen faktura proposamen lerroak sortzerakoan. Informazio gehiagorako, ikusi [Integrazio aldizkaria Project Operations-en](../project-accounting/project-operations-integration-journal.md).
 

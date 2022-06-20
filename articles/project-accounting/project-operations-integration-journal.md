@@ -1,32 +1,32 @@
 ---
 title: Project Operations-eko integrazio-aldizkaria
-description: Gai honek Project Operations-en Integrazio aldizkariarekin lan egiteari buruzko informazioa eskaintzen du.
+description: Artikulu honek Project Operations-en Integration aldizkariarekin lan egiteari buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582419"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923863"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations-eko integrazio-aldizkaria
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Denbora eta gastu sarrerak sortzen dira **Benetakoa** proiektu baten aurka egindako lanaren ikuspegi operatiboa adierazten duten eragiketak. Dynamics 365 Project Operations-ek kontulariei tresna bat eskaintzen die transakzioak berrikusteko eta kontabilitate atributuak behar bezala doitzeko. Berrikuspena eta doikuntzak amaitu ondoren, transakzioak Proiektuaren liburu nagusian eta liburu nagusian argitaratzen dira. Kontu-hartzaile batek jarduera hauek egin ditzake **Proiektuen Eragiketen Integrazioa** aldizkaria(**Dynamics 365 Finance** > **Proiektuen kudeaketa eta kontabilitatea** > **Aldizkariak** > **Proiektuen Eragiketen Integrazioa** aldizkaria.
+Denbora eta gastu sarrerak sortzen dira **Benetakoa** proiektu baten aurka egindako lanaren ikuspegi operatiboa adierazten duten eragiketak. Dynamics 365 Project Operations-ek kontulariei tresna bat eskaintzen die transakzioak berrikusteko eta kontabilitate atributuak behar bezala doitzeko. Berrikuspena eta doikuntzak amaitu ondoren, transakzioak Proiektuaren liburu nagusian eta liburu nagusian argitaratzen dira. Kontu-hartzaile batek jarduera hauek egin ditzake **Proiektuaren Eragiketen Integrazioa** aldizkaria(**Dynamics 365 Finance** > **Proiektuen kudeaketa eta kontabilitatea** > **Aldizkariak** > **Proiektuaren Eragiketen Integrazioa** aldizkaria.
 
 ![Integrazio aldizkariaren fluxua.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Sortu erregistroak Project Operations-eko integrazio-aldizkarian
 
-Project Operations Integration aldizkarian erregistroak aldian aldiko prozesuaren bidez sortzen dira, **Inportatu taulako taulatik**. Prozesu hau exekutatu dezakezu helbidera joanez **Dynamics 365 Finance** > **Proiektuen kudeaketa eta kontabilitatea** > **Periodikoa** > **Proiektuen Eragiketen Integrazioa** > **Inportatu eszenatze-taulatik**. Prozesua modu interaktiboan exekutatu edo atzeko planoan exekutatzeko konfiguratu dezakezu beharren arabera.
+Project Operations Integration aldizkarian erregistroak aldian aldiko prozesuaren bidez sortzen dira, **Inportatu taulako taulatik**. Prozesu hau exekutatu dezakezu helbidera joanez **Dynamics 365 Finance** > **Proiektuen kudeaketa eta kontabilitatea** > **Periodikoa** > **Proiektuaren Eragiketen Integrazioa** > **Inportatu eszenatze-taulatik**. Prozesua modu interaktiboan exekutatu edo atzeko planoan exekutatzeko konfiguratu dezakezu beharren arabera.
 
 Aldian aldiko prozesua exekutatzen denean, oraindik Project Operations-en Integrazio aldizkarian gehitzen ez diren egiazkoak aurkitzen dira. Benetako transakzio bakoitzeko egunkari lerro bat sortzen da.
-Sistemak aldizkari-lerroak aldizkari bereizietan biltzen ditu, atalean hautatutako balioaren arabera **Proiektuaren Eragiketen Integrazio aldizkariari buruzko aldi unitatea** eremua (**Finantza** > **Proiektuen kudeaketa eta kontabilitatea** > **Konfigurazioa** > **Proiektuen kudeaketa eta kontabilitate parametroak**, **Eragiketak Dynamics 365 Customer Engagement-en** fitxa). Eremu honetarako balore posibleak hauek dira:
+Sistemak aldizkari-lerroak aldizkari bereizietan biltzen ditu, aukeratutako balioaren arabera **Proiektuaren Eragiketen Integrazio aldizkariari buruzko aldi unitatea** eremua (**Finantza** > **Proiektuen kudeaketa eta kontabilitatea** > **Konfigurazioa** > **Proiektuen kudeaketa eta kontabilitate parametroak**, **Eragiketak Dynamics 365 Customer Engagement-en** fitxa). Eremu honetarako balore posibleak hauek dira:
 
   - **Egunak**: benetako datuak transakzio dataren arabera biltzen dira. Egun bakoitzeko aldizkari bat sortzen da.
   - **Hilabeteak**: Egunak hilabete naturalaren arabera biltzen dira. Hilabete bakoitzeko aldizkari bat sortzen da.

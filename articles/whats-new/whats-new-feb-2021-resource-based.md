@@ -1,24 +1,24 @@
 ---
 title: 2021eko otsaileko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-description: Gai honek informazioa eskaintzen du 2021eko otsailean Project Operations bertsioan eskuragarri dauden kalitate-eguneratzeei buruz, baliabideetan / stockean oinarritutako egoeretarako.
+description: Artikulu honetan, Project Operations-en 2021eko otsaileko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa ematen da, baliabideetan oinarritutako edo biltegiratu gabeko agertokietarako.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 38fede1746bcb09700c9c9c5e20653e0c39fea2a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588997"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910616"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021eko otsaileko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
+Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
 
 - Project Operations Dataverse ingurunean 4.7.0.95
 - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.16 bertsioan 
@@ -46,7 +46,7 @@ Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance-en 
 
-Dynamics 365 Finance proiektuen kudeaketari eta kontabilitateari buruzko informazio gehiago lortzeko, ikus [2021eko urtarrileko berritasunak - Baliabideetan edo hornituta ez dauden agertokietarako proiektuen eragiketak](whats-new-jan-2021-resource-based.md).
+Dynamics 365 Finance-ko proiektuen administrazioari eta kontabilitateari buruzko informazio gehiago lortzeko, 2021eko urtarrileko Novedades kontsultatu [: baliabide/biltegiratuetan oinarritutako agertokietarako proiektu-eragiketak](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Araudiaren eguneratzeak

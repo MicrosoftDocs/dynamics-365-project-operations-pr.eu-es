@@ -1,31 +1,31 @@
 ---
 title: Proiektuaren antolaketa-erregistroak
-description: Gai honek Project Scheduling erregistroak erabiltzen lagunduko dizuten informazioa eta laginak eskaintzen ditu Project Scheduling Service eta Project Scheduling APIekin erlazionatutako hutsegiteen jarraipena egiteko.
+description: Artikulu honek Project Scheduling erregistroak erabiltzen lagunduko dizuten informazioa eta laginak eskaintzen ditu Project Scheduling Service eta Project Scheduling APIekin erlazionatutako hutsegiteen jarraipena egiteko.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c57419642e90e4def01f2cd2474c9e82dc162b86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589503"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923680"
 ---
 # <a name="project-scheduling-logs"></a>Proiektuaren antolaketa-erregistroak
 
-_**Honi dagokio:** Baliabideetan/hornituta ez dauden agertokietarako proiektuen eragiketak, Lite inplementazioa - fakturazio proforma jorratu_, _proiektua_
+_**Honi dagokio:** Baliabideetan edo hornituta ez dauden agertokietarako proiektuen eragiketak, Lite inplementazioa - fakturazio proforma jorratu_, _proiektua_
 
-Microsoft Dynamics 365 Project Operations erabilerak [Weberako proiektua](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) bere programazio-motor nagusi gisa. Estandarra erabili beharrean Microsoft Dataverse Web aplikazioen programazio-interfazeak (API), Project Operations-ek Project Scheduling API berriak erabiltzen ditu proiektuko zereginak, baliabide-esleipenak, ataza-menpekotasunak, proiektu-kuboak eta proiektu-taldeetako kideak sortzeko, eguneratzeko eta ezabatzeko. Dena den, sortu, eguneratu edo ezabatu eragiketak lanaren banaketa egituraren (WBS) entitateetan programatikoki exekutatzen direnean, akatsak gerta daitezke. Errore hauen eta eragiketen historiaren jarraipena egiteko, bi administrazio-erregistro berri ezarri dira: **Eragiketa multzoa** eta **Proiektuak Planifikatzeko Zerbitzua (PSS)**. Erregistro hauetara sartzeko, joan hona **Ezarpenak** \> **Ordutegien Integrazioa**.
+Microsoft Dynamics 365 Project Operations erabilerak [Weberako proiektua](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) bere programazio-motor nagusi gisa. Estandarra erabili beharrean Microsoft Dataverse Web aplikazioen programazio-interfazeak (API), Project Operations-ek Project Scheduling API berriak erabiltzen ditu proiektuko zereginak, baliabide-esleipenak, ataza-menpekotasunak, proiektu-kuboak eta proiektu-taldeetako kideak sortzeko, eguneratzeko eta ezabatzeko. Hala ere, sortu, eguneratu edo ezabatu eragiketak lanaren banaketa egituraren (WBS) entitateetan programatikoki exekutatzen direnean, akatsak gerta daitezke. Akats hauen eta eragiketen historiaren jarraipena egiteko, bi administrazio-erregistro berri ezarri dira: **Eragiketa multzoa** eta **Proiektuak Planifikatzeko Zerbitzua (PSS)**. Erregistro hauetara sartzeko, joan hona **Ezarpenak** \> **Ordutegien Integrazioa**.
 
-Ondorengo ilustrazioak Proiektuaren Programazioaren erregistroen datu-eredua erakusten du.
+Ondorengo ilustrazioak Proiektuaren Programazio-erregistroen datu-eredua erakusten du.
 
 ![Proiektuaren Programazioaren erregistroetarako datu-eredua.](media/LOGDATAMODEL.jpg)
 
 ## <a name="operation-set-log"></a>Eragiketa Ezarri erregistroa
 
-Eragiketa-multzoaren erregistroak eragiketa-multzo baten exekuzioaren jarraipena egiten du, sorta batean sortu, eguneratu edo ezabatzeko eragiketa bat edo asko exekutatzeko, proiektuetan, proiektu-zereginetan, baliabide-esleipenetan, ataza-menpekotasunean, proiektu-ontzietan edo proiektu-taldekideetan. The **Funtzionamendua Egoeran** eremuak eragiketa multzoaren egoera orokorra erakusten du. Eragiketa-multzoaren kargaren xehetasunak erlazionatutako Eragiketa-multzoaren xehetasunen erregistroetan jasotzen dira.
+Eragiketa-multzoaren erregistroak eragiketa-multzo baten exekuzioaren jarraipena egiten du, sorta batean sortu, eguneratu edo ezabatzeko eragiketa bat edo asko exekutatzeko, proiektuetan, proiektu-zereginetan, baliabide-esleipenetan, ataza-menpekotasunean, proiektu-ontzietan edo proiektu-taldekideetan. The **Funtzionamendua Egoeran** eremuak eragiketa multzoaren egoera orokorra erakusten du. Eragiketa-multzoaren karga-kargaren xehetasunak erlazionatutako Eragiketa-multzoaren xehetasun-erregistroetan jasotzen dira.
 
 ### <a name="operation-set"></a>Eragiketa multzoa
 
@@ -68,7 +68,7 @@ Ondoko taulan, honekin erlazionatutako eremuak erakusten dira **Eragiketa-multzo
 
 ## <a name="project-scheduling-service-error-logs"></a>Project Scheduling Service erroreen erregistroak
 
-Project Scheduling Service errore-erregistroek Project Scheduling Service saiatzen denean gertatzen diren hutsegiteak jasotzen dituzte **Gorde** edo **Ireki** operazioa. Erregistro hauek sortzen diren hiru eszenatoki onartzen dira:
+Project Scheduling Service errore-erregistroek Project Scheduling Service saiatzean gertatzen diren hutsegiteak jasotzen dituzte **Gorde** edo **Ireki** operazioa. Erregistro hauek sortzen diren hiru eszenatoki onartzen dira:
 
 - Erabiltzaileak abiarazitako ekintzek huts egiten dute (adibidez, ezin da esleipena sortu pribilegioak falta direlako).
 - Proiektuak Planifikatzeko Zerbitzuak ezin du programatikoki sortu, eguneratu, ezabatu edo kaskadako beste eragiketarik egin entitate batean.
@@ -92,7 +92,7 @@ Ondorengo taulak Project Scheduling Service erregistroan sartzen diren eremuak e
 
 ## <a name="error-log-cleanup"></a>Errorea erregistroa garbitzean
 
-Lehenespenez, bai Project Scheduling Service erroreen erregistroak bai Operation Set erregistroa garbitu daitezke 90 egunean behin. 90 egun baino zaharragoak diren erregistroak ezabatu egingo dira. Hala ere, balioa aldatuz **msdyn_StateOperationSetAge** eremuan **Proiektuaren Parametroak** orrialdean, administratzaileek garbiketa-tartea doi dezakete, 1 eta 120 egun artekoa izan dadin. Balio hau aldatzeko hainbat metodo daude eskuragarri:
+Lehenespenez, bai Project Scheduling Service erroreen erregistroak bai Operation Set erregistroa garbitu daitezke 90 egunez behin. 90 egun baino zaharragoak diren erregistroak ezabatu egingo dira. Hala ere, balioa aldatuz **msdyn_StateOperationSetAge** eremuan **Proiektuaren Parametroak** orrialdean, administratzaileek garbiketa-tartea doi dezakete, 1 eta 120 egun artean egon dadin. Balio hau aldatzeko hainbat metodo daude eskuragarri:
 
 - Pertsonalizatu **Proiektuaren parametroa** entitatea orri pertsonalizatu bat sortuz eta gehituz **Stale Operations Set Age** eremua.
 - Erabili bezero-kodea erabiltzen duen [WebApi softwarea garatzeko kit (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).

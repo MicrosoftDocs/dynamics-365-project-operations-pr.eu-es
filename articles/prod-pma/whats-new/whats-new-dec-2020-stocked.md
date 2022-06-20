@@ -1,24 +1,24 @@
 ---
 title: 2020ko abenduko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
-description: Gai honek informazioa eskaintzen du 2020ko abenduan Project Operations bertsioan eskuragarri dauden kalitate-eguneratzeei buruz, stockean eta ekoizpenean oinarritutako egoeretarako.
+description: Artikulu honek 2020ko abenduko Project Operations bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du hornituta/produkzioan oinarritutako eszenatokietarako.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911351"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>2020ko abenduan Project Operations-eko egindako berrikuntzak edo aldaketak izakinetan edo ekoizpenean oinarritutako egoeretarako
 
 _Honi aplikatzen zaio: Izakinetan edo ekoizpenean oinarritutako egoeretarako Project Operations_
 
-Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
+Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
 
   - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.15 bertsioan
 
@@ -139,7 +139,7 @@ Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie
 
 ## <a name="regulatory-updates"></a>Araudiaren eguneratzeak
 
-Dynamics 365 Finance-ren arauzko eguneratzeei buruzko informazioa lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). Araudi-eguneratzeak ezagutzeko beste modu bat Lifecycle Services (LCS) saioa hastea da eta aurreikusitako erregulazio-eguneratzeak ikustea arazoa bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
+Dynamics 365 Finance-en arauzko eguneratzeei buruzko informazioa lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). Araudi-eguneratzeak ezagutzeko beste modu bat Lifecycle Services (LCS) saioa hastea da eta aurreikusitako erregulazio-eguneratzeak ikustea arazoa bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

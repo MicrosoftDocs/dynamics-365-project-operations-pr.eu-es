@@ -1,6 +1,6 @@
 ---
 title: Prezioak eta kostuen neurriak hasierako orria
-description: Gai honek prezioen dimentsioen ikuspegi orokorra eskaintzen du.
+description: Artikulu honek prezioen dimentsioen ikuspegi orokorra eskaintzen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593597"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925427"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Prezioak eta kostuen neurriak hasierako orria
 
@@ -47,7 +47,7 @@ PSA prezioen dimentsio multzo lehenetsia da. Hauek ikus ditzakezu **Project Serv
 > [!IMPORTANT]
 > PSAren 3. bertsioaren berezko funtzio eta antolaketa unitateak prezioen dimentsio gisa erabiltzen aritu bazara, ez da aldaketarik egongo. Project Service erabiltzen jarraitu dezakezu ohi bezala. 
 
-Baliabideen prezioa edo kostua behar baduzu atributu osagarriak erabiliz, eremu, entitate eta dimentsio pertsonalizatuak sor ditzakezu. Informazio gehiago lortzeko, ikusi honako gai hauek; hala ere, kontuan izan prozedurak bete behar dituzula beheko zerrendako ordenean:
+Baliabideen prezioa edo kostua behar baduzu atributu osagarriak erabiliz, eremu, entitate eta dimentsio pertsonalizatuak sor ditzakezu. Informazio gehiago lortzeko, ikusi artikulu hauek, hala ere, kontuan izan prozedurak behean zerrendatutako ordenan bete behar dituzula:
 
 - [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities.md)
 - [Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan](field-references.md)

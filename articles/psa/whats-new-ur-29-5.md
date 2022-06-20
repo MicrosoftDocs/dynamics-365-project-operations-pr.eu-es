@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 29.5 konponketa, V3 bertsioko berrikuntzak edo aldaketak
-description: Gai honek Project Service Automation 29.5 konponketa, V3 eguneratzea bertsioan berrian eskuragarri dauden eginbideak eta konponketak ditu.
+description: Artikulu honetan Project Service Automation Update Release 29.5 Hotfix, V3-n eskuragarri dauden ezaugarriak eta zuzenketak zerrendatzen dira.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/26/2021
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: df0f486a3a3d592b8780671ab05ed26f97df24ea
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: a023a2e777b04575bf31a55f1104bacbdf346744
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723570"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926347"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-295-v3"></a>Project Service Automation eguneratzearen 29.5, V3 bertsioko berrikuntzak edo aldaketak
 
 Atseginez iragartzen dizuegu Dynamics 365 aplikaziorako Project Service Automation aplikazioaren azken eguneratzea. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Argitalpen hau bateragarria da Dynamics 365 9.x bertsioarekin. Argitalpen honetara eguneratzeko, bisitatu Dynamics 365 (online) aplikazioaren administrazio-zentroko soluzioen orrira eguneratzea instalatzeko. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Gai honek Project Service Automation V3, 29.5. eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.47.150 konpilazio-zenbakia du eta, oro har, 2021eko urtarrilean jarriko da erabilgarri automatikoki eguneratzeko moduan.
+Artikulu honetan, Project Service Automation V3, Update Release 29.5erako aldatu diren edo aldatu diren ezaugarri eta zuzenketak zerrendatzen dira. Bertsio honek V3.10.47.150 konpilazio-zenbakia du eta, oro har, 2021eko urtarrilean jarriko da erabilgarri automatikoki eguneratzeko moduan.
 
 ## <a name="update-release-295"></a>29.5. eguneratze-bertsioa
 

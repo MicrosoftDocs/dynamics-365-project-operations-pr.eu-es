@@ -1,6 +1,6 @@
 ---
-title: Sortu eta berretsi Sarrera aldizkariak
-description: Gai honek Microsoft-en Sarrera aldizkariak sortzeari eta baieztatzeari buruzko informazioa eskaintzen du Dynamics 365 Project Operations.
+title: Sortu eta berretsi sarrera-egunkariak
+description: Artikulu honek Microsoft-en Sarrera aldizkariak sortzeari eta baieztatzeari buruzko informazioa eskaintzen du Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,14 +13,14 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cb768337bc197895a837670f93b99b132c97437
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 138dccd72607d6515eeeffb066fa485f83eabbec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912317"
 ---
-# <a name="create-and-confirm-entry-journals"></a>Sortu eta berretsi Sarrera aldizkariak
+# <a name="create-and-confirm-entry-journals"></a>Sortu eta berretsi sarrera-egunkariak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
@@ -38,12 +38,12 @@ Jarraitu urrats hauek Proiektu Eragiketetan Sarrera aldizkari bat sortzeko.
 2. Gainean **Sarrera aldizkariak** zerrenda orrian, Ekintza Panelean, hautatu **Berria** aldizkari bat sortzeko.
 3. Gainean **Aldizkari berria** orrialdean, in **Deskribapena** eremuan, idatzi aldizkariaren deskribapena.
 4. Ziurtatu hori **Aldizkari mota** eremuan ezarrita dago **Sarrera**, eta gero hautatu **Gorde**. Sarrera egunkari berria gorde ondoren, a **Aldizkariaren lerroak** fitxa aldizkariaren orrian agertu behar da.
-5. Gainean **Aldizkariaren lerroak** fitxan, saretaren gaineko tresna-barran, hautatu **Berria** Sarrera egunkari-lerro bat sortzeko.
+5. Gainean **Aldizkariaren lerroak** fitxan, sarearen gaineko tresna-barran, hautatu **Berria** Sarrera egunkari-lerro bat sortzeko.
 6. urtean **Sortu azkarra** Sarrera egunkari-lerro bat sortzeko elkarrizketa-koadroa, ezarri eremuak hurrengo taulan azaltzen den moduan.
 
     | Eremua | Deskribapenak | Inpaktu funtzionala |
     | --- | --- | --- |
-    | Transakzio-klasea | Aldizkariaren lerroa sei transakzio klaseetako batean sailka daiteke: **Denbora**, **·**, **·**, **·**, **·**, edo **Zerga**. | The **Zerga** transakzio-klasea zaharkituta geratu da Project Operations-en. <br> Bat sortzen baduzu **Zerga** transakzio klasea, ez da fakturazio bidez edo kostu edo diru-sarreren kalkuluetan prozesatuko. **Mugarria** diru-sarreren soilik transakzio klase bat da. <br>The **Atxilotzailea** transakzio klaseak bezero batengandik jasotako aurrerapena adierazten du. Beti fakturatutako salmenta eta fakturatu gabeko salmenten aldizkari lerroen pare gisa sortu behar da. |
+    | Transakzio-klasea | Aldizkariaren lerroa sei transakzio klaseetako batean sailka daiteke: **Denbora**, **·**, **·**, **·**, **·**, edo **Zerga**. | The **Zerga** transakzio-klasea zaharkituta geratu da Project Operations-n. <br> Bat sortzen baduzu **Zerga** transakzio klasea, ez da fakturazio bidez edo kostu edo diru-sarreren kalkuluetan prozesatuko. **Mugarria** diru-sarreren soilik transakzio klase bat da. <br>The **Atxilotzailea** transakzio klaseak bezero batengandik jasotako aurrerapena adierazten du. Beti fakturatutako salmenta eta fakturatu gabeko salmenten aldizkari lerroen pare gisa sortu behar da. |
     | Transakzio mota | The **Kostua**, **salmentak**, eta **Baliabideen kostu unitarioa** transakzio motak erabili behar dira kostua erregistratzeko.<br> The **Fakturatu gabeko salmentak** eta **Fakturatutako salmentak** transakzio motak erabili behar dira diru-sarrerak erregistratzeko. | The **Atxilotzailea** transakzio-klasearekin soilik funtzionatzen du **Fakturatu gabeko salmentak** eta **Fakturatutako salmentak** transakzio motak.<br> The **Mugarria** transakzio-klasearekin soilik funtzionatzen du **Fakturatutako salmentak** transakzio mota. <br>The **Interorg salmentak** eta **Baliabideen kostu unitarioa** transakzio motak soilik aplikatzen dira **Denbora** transakzio-klasea eta hauek Sarrera aldizkarietan soilik erabil daitezke Lite inplementazio-eszenatokian eta ez Proiektu-eragiketak Baliabideen / Hornituta ez dauden eszenatokietan zabaltzen direnean. |
     | Hautatu produktua | Noiz **Materiala** transakzio-klasea hautatuta dago, eremu honek aldizkari-lerroa sortzen ari zaren material-transakzioa lehendik dagoen produktua edo idatzizko produktua den zehazten dizu. | Hautatzen baduzu **Idatzizko produktua**, produktuaren izena sar dezakezu. |
     | Produktu | Katalogoko produktuaren erreferentzia. | |
@@ -58,7 +58,7 @@ Jarraitu urrats hauek Proiektu Eragiketetan Sarrera aldizkari bat sortzeko.
     | Project | Hautatu proiektua benetakoa grabatzeko. | Hautatutako proiektuan, transakzio-klasean eta zereginean oinarrituta, sistema kontratua, kontratu-lerroa eta kontratu-lerroa bezeroa zehazten saiatuko da. |
     | Zeregina | Hautatu benetako aktibatuta grabatzeko zeregina. | Zereginak kontratu-lerroekin lotu badituzu kontratua konfiguratzean, sistemak hautatutako zeregina erabiliko du, proiektu eta transakzio-klase batekin batera, kontratua, kontratu-lerroa eta kontratu-lerroa bezeroa zehazteko. |
     | Transakzio-kategoria | Hautatu transakzio-kategoria benetakoa grabatzeko. | Gastuetarako, hautatutako transakzio-kategoriak gordetakoan aldizkariko lerroan sartuko den prezio lehenetsia zehazten du. |
-    | Funtzioa | Eremu hau garrantzitsua da Time journal-en lerroetarako. Hautatu proiektuan edo/eta zereginean denbora eman duen baliabidearen rola. | Denbora-egunkari-lerroetarako, baliabideen kostu lehenetsiak eta faktura-tasak sartzeko kutxaz kanpoko konfigurazioa erabiltzen baduzu, hautatutako rola baliabide-unitatearekin batera erabiltzen da aldizkari-lerroan sartuko den prezio lehenetsia zehazteko. gordeta dago. Prezio lehenetsiak sartzeko konfigurazio pertsonalizatu bat erabiltzen baduzu, konfigurazio hori berrikusi beharko zenuke ala ez zehazteko **Rola** eremua prezio lehenetsien balioak sartzeko erabiltzen da. |
+    | Funtzioa | Eremu hau garrantzitsua da Time journal-en lerroetarako. Hautatu proiektuan edo/eta zereginean denbora eman duen baliabidearen rola. | Denbora-egunkari-lerroetarako, baliabideen kostu lehenetsiak eta faktura-tasak sartzeko kutxaz kanpoko konfigurazioa erabiltzen baduzu, hautatutako rola baliabide-unitatearekin batera erabiltzen da aldizkari-lerroan sartuko den prezio lehenetsia zehazteko. gordeta dago. Prezio lehenetsiak sartzeko konfigurazio pertsonalizatu bat erabiltzen baduzu, konfigurazio hori berrikusi beharko zenuke ala ez zehazteko **Rola** eremua prezio-balio lehenetsiak sartzeko erabiltzen da. |
     | Azpikontratua | Aldizkari-lerroak azpikontratatutako ahalmena edo azpikontratatutako gastuak edo materialak adierazten baditu, hautatu dagokion azpikontratua. | Kostuen egunkari-lerroak erregistratzen direnean, hautatutako azpikontratuak kostu unitario lehenetsia sartzeko erabiltzen den prezio-zerrenda zehaztuko du. |
     | Azpikontratazio lerroa | Aldizkari-lerroak azpikontratatutako ahalmena edo azpikontratatutako gastuak edo materialak adierazten baditu, hautatu dagokion azpikontratazio-lerroa. | Kostuen egunkari-lerroak erregistratzen direnean, hautatutako azpikontratazio-lerroak azpikontratazio-lerroan erabilgarri dauden edukieraren kalkuluak behar bezala kalkulatzen direla ziurtatuko du. |
     | Zenbatekoa kalkulatzeko metodoa | Lehenespenez, eremu hau ezarrita dago **Biderkatu kantitatea prezioaren arabera**. Metodo hau erabiltzen denean, zenbatekoa honela kalkulatuko da *Kantitatea* ×*Prezioa*. Onartutako beste metodoa da **Prezio finkoa**. Metodo hau erabiltzen denean, prezioa zenbatekoaren arabera ezarriko da, eta kantitatea ez da kalkuluan erabiliko. | |
@@ -80,8 +80,8 @@ Sarrerako aldizkariaren berrespenarekin sortutako benetako desberdintasun batzuk
 - Sarrera aldizkariek ez dute transakzio-konexiorik erabiltzen benetako kostua fakturatu gabeko salmenta errealarekin lotzeko. Denbora, Gastuen eta Materialaren erabilera-erregistroak onartzen direnean sortzen diren errealek transakzio-konexioak erabiltzen dituzte beti kostuak eta fakturatu gabeko salmenten errealak lotzeko.
 - Sarrera aldizkariek ez dute transakzioen jatorria erabiltzen kostu errealak eta fakturatu gabeko salmenten errealak jatorrizko edozein erregistrorekin lotzeko. Denbora, Gastuen eta Materialaren erabilera-erregistroak onartzen direnean sortzen diren errealek transakzioen jatorria erabiltzen dute beti kostuak eta fakturatu gabeko salmenten errealak jatorriko denbora-sarrerarekin lotzeko.
 - Sarrerako aldizkariaren berrespenarekin sortzen diren fakturatu gabeko salmenten errealak fakturatzen direnean, fakturaren berrespenean sortzen diren fakturatutako salmenten errealak fakturatu gabeko salmenten errealekin lotzen dira, denbora, gastua eta sortzen diren fakturatu gabeko salmenten errealen antzera. Materialaren erabileraren erregistroak onartzen dira.
-- Erakundeen arteko baliabideek sartutako denborarako sortzen diren sarrera-egunkari-lerroek ez dute errealak eragiten.**Baliabideen kostu unitarioa** eta **Interorg salmentak** automatikoki sortuko diren motak. Erreal hauek eskuz sortu behar dira. Jokabide hori erakundeen arteko baliabideek erregistratzen dituzten denbora-sarreretarako jokabidetik desberdina da. Kasu horretan, ordua onartzen denean, aplikazioak automatikoki sortzen ditu benetako datuak **Kostua** idatzi proiektuan eta benetakoak **Baliabideen kostu unitarioa** eta **Interorg salmentak** motak langilearen jabetzako dibisioan. Ondoren, transakzio-konexioak erabiltzen ditu benetako horiek elkarrekin lotzeko eta transakzio-jatorriak jatorrizko denbora-sarrerarekin lotzeko.
-- Sarrera aldizkariak baieztatzen direnean, benetakoak sortzen dituzte. Hala ere, Zuzenketa aldizkariak ezin dira erabili benetakoak zuzentzeko. Jokabide hau denbora, gastu eta material erabilera-erregistroak onartzen direnean sortzen diren errealen portaeratik desberdina da. Kasu horretan, aplikazioak zuzenketa aldizkariak erabil ditzakezu akatsak konpontzeko benetakoak zuzentzeko, baldin eta egiazkoak oraindik fakturatu ez badira. Dagoeneko fakturatuta badaude, erreal bat zuzendu dezakezu erreal horren kreditu osoa bezeroari prozesatzen bazaio.
+- Erakundeen arteko baliabideek sartutako denborarako sortzen diren sarrera-egunkari-lerroek ez dute errealak eragiten.**Baliabideen unitateko kostua** eta **Interorg salmentak** automatikoki sortuko diren motak. Erreal hauek eskuz sortu behar dira. Jokabide hori erakundeen arteko baliabideek erregistratzen dituzten denbora-sarreretarako portaeratik desberdina da. Kasu horretan, ordua onartzen denean, aplikazioak automatikoki sortzen ditu benetako datuak **Kostua** idatzi proiektuan eta benetakoak **Baliabideen unitateko kostua** eta **Interorg salmentak** motak langilearen jabetzako dibisioan. Ondoren, transakzio-konexioak erabiltzen ditu benetako horiek elkarrekin lotzeko eta transakzio-jatorriak jatorrizko denbora-sarrerarekin lotzeko.
+- Sarrera aldizkariak baieztatzen direnean, benetakoak sortzen dituzte. Hala ere, Zuzenketa aldizkariak ezin dira erabili benetakoak zuzentzeko. Jokaera hau denbora, gastu eta material erabilera-erregistroak onartzen direnean sortzen diren errealen portaeratik desberdina da. Kasu horretan, aplikazioak zuzenketa aldizkariak erabil ditzakezu akatsak konpontzeko benetakoak zuzentzeko, baldin eta egiazkoak oraindik fakturatu ez badira. Dagoeneko fakturatuta badaude, erreal bat zuzendu dezakezu erreal horren kreditu osoa bezeroari prozesatzen bazaio.
 
 > [!NOTE]
 > Sarrera aldizkariek ez dute arau zorrotzik ezartzen. Hori dela eta, erabili Sarrera-Aldizkari hauek ahalik eta gutxien, eta kontuz ibili eta kontuz ibili zure sisteman finantza-daturik hondatuta ez duzula sortzen ziurtatzeko. Ahal duzun guztietan, erabili Denbora, Gastuen eta Materialaren erabilera-erregistroak, proiektu-kontratuetako mugarri eta atxikipen-konfigurazioa eta proiektuaren fakturaren berrespen-prozesua, Sarrera egunkarien ordez, benetakoak sortzeko.

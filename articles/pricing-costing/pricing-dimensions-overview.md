@@ -1,18 +1,18 @@
 ---
 title: Prezioen dimentsioen informazio orokorra
-description: Gai honek Dynamics 365 Project Operations-eko prezio-dimentsioei buruzko informazioa eskaintzen du.
+description: Artikulu honetan prezioen dimentsioei buruzko informazioa ematen da Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579200"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918021"
 ---
 # <a name="pricing-dimensions-overview"></a>Prezioen dimentsioen informazio orokorra
 
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations prezioen dimentsio multzo lehenetsia da. Prezio-
 
 ![Project Service-en parametroen pantaila-argazkia, "Salmentetan aplikagarria" eremua nabarmenduta dutela.](media/PS-OOB-parameters.png)
 
-Baliabideen prezioa edo kostua behar baduzu atributu osagarriak erabiliz, eremu, entitate eta dimentsio pertsonalizatuak sor ditzakezu. Informazio gehiagorako, ikus gai hauek. 
+Baliabideen prezioa edo kostua behar baduzu atributu osagarriak erabiliz, eremu, entitate eta dimentsio pertsonalizatuak sor ditzakezu. Informazio gehiago lortzeko, kontsultatu honako artikulu hauek. 
   
   > [!NOTE]
   > Izapideak zerrendatutako ordenan bete behar dira.

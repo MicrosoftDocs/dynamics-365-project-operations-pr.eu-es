@@ -1,6 +1,6 @@
 ---
 title: Proiektu-kontratuak
-description: Gai honek proiektu mota eta finantzaketa iturri desberdinetarako sor ditzakezun proiektuen kontratuen adibideak eta kontratuak eta fakturak bezeroen fakturak nola kudeatu ditzakezu.
+description: Artikulu honek proiektu mota eta finantzaketa iturri desberdinetarako sor ditzakezun proiektuen kontratuen adibideak eta kontratuak eta fakturak bezeroen fakturak nola kudeatu ditzakezu.
 author: Yowelle
 ms.date: 11/03/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 14ff17bb070a44d8f3962e08f67d4c95bd8a26f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919631"
 ---
 # <a name="project-contracts"></a>Proiektu-kontratuak
 
@@ -44,7 +44,7 @@ Proiektuen kontratu batzuek zehazten dute hainbat alderdik partekatzen dutela pr
 -   Errepide proiektu bat bi udalek batera finantzatzen dute.
 -   Zubi proiektu bat gobernuaren beka batek eta korporazio pribatu batek finantzatzen dute.
 
-Dynamics 365 Finance atalean, transakzio bakar baten edo proiektu oso baten fakturazioa hainbat bezero, diru-laguntza edo erakunderen artean bana dezakezu. 
+Dynamics 365 Finance-n, transakzio bakar baten fakturazioa edo proiektu oso bat hainbat bezero, diru-laguntza edo erakunderen artean bana dezake. 
 
 Hainbat finantzatzaile dituzten proiektuetan, finantzaketa-proiektu aurreratu baten finantzaketan laguntzen duten alderdi guztiei finantzazio-iturri deitzen zaie. Bezeroa, erakundea edo beka finantzaketa iturri gisa definitu ondoren, finantzaketa arau bat edo gehiago esleitu daitezke. Finantzazio arauek proiektuak finantzatzeko iturri desberdinetara nola esleitzen diren zehazten duten irizpideak jasotzen dituzte. 
 

@@ -1,6 +1,6 @@
 ---
-title: Eguneko gastuak
-description: Gai honek eguneko gastuekin lan egiteko informazioa eskaintzen du.
+title: Eguneko dietaren gastuak
+description: Artikulu honek eguneko gastuekin lan egiteko informazioa ematen du.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596035"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923173"
 ---
-# <a name="per-diem-expenses"></a>Eguneko gastuak
+# <a name="per-diem-expenses"></a>Eguneko dietaren gastuak
 
 > [!IMPORTANT] 
-> Gai honetan deskribatzen den funtzionalitateak eskuragarri daude zuzendutako erabiltzaileentzat aurrebistaren bertsio baten barruan.
+> Artikulu honetan deskribatzen den funtzionaltasuna aurrebista-argitalpen baten barruan dago erabilgarri zuzendutako erabiltzaileentzat.
 
-Eguneko ordainketa enpresa batek bere langileei ordaintzen dien eguneko diru-laguntza finko bat da, ostatua (hotelak), otorduak eta langile horiek lanera bidaiatzen duten bitartean egiten dituzten gorabehera-gastuengatik. Enpresak hobari hori langileei ordaintzen die benetako bidaia-gastuak ordaindu beharrean. Langileek beren erabil dezakete **Gorabeherak/Besteak** eguneko diru-laguntza, negozio-bilera garrantzitsuetarako aholkuak, gela-zerbitzua, arropa garbiketa edo lehor-garbiketa zerbitzuak estaltzeko. Eguneko tasa alda daiteke, enplegatzaileak ostatuaren eta otorduen kostu konbinatua itzultzea edo otorduen eta gorabeheraren kostua soilik itzultzea aukeratzen duenaren arabera.
+Eguneko ordainketa enpresa batek bere langileei ordaintzen dien eguneko diru-laguntza finko bat da, ostatua (hotelak), otorduak eta langile horiek lanera bidaiatzen duten bitartean egiten dituzten gorabehera-gastuengatik. Enpresak hobari hori langileei ordaintzen die benetako bidaia-gastuak ordaindu beharrean. Langileek beren erabil dezakete **Gorabeherak/Besteak** eguneko diru-laguntza, negozio bilera garrantzitsuetarako aholkuak, gela-zerbitzua, arropa garbiketa edo lehorreko garbiketa zerbitzuak estaltzeko. Eguneko tasa alda daiteke, enplegatzaileak ostatuaren eta otorduen kostu konbinatua itzultzea edo otorduen eta gorabeheraren kostua soilik itzultzea aukeratzen duenaren arabera.
 
 Eguneko tasak urteko garaian, bidaiaren kokapenean edo bietan oinarrituta egon daitezke. Eguneko arau bat sortzen duzunean, eguneko tasaren ehuneko bat atxikiko dela zehaztu dezakezu langile batek otorduak edo zerbitzuak osagarriak jasotzen baditu. Halaber, eguneko tasa langile baten bidaietan aplika daitekeen gutxieneko ordu-kopurua eta gehienezko ordu-kopurua ezar ditzakezu.
 
@@ -65,7 +65,7 @@ Hiru adibideetarako erabiltzen den eguneko gastua sortzeko, jarraitu urrats haue
 2. Hautatu **Gastuen txosten berria**, edo hautatu lehendik dagoen gastu-txosten bat.
 3. Gehitu gastu berri bat. urtean **Kategoria** eremua, hautatu **Egunekoa**. Hautatu kokapena eta bidaiaren hasiera eta amaiera datak. Ostatua, otorduak eta gorabeherak (beste gastu batzuk) hautatutako tokirako ezartzen den eguneko diru-laguntzaren arabera kalkulatzen da.
 
-    Adibidez, zuk hautatzen duzu **Redmond (AEB)** kokapena gisa. Kokapen horretarako eguneko diru-laguntza 150 dolar (150 USD) da ostaturako, USD 75 otorduetarako eta USD 5 gorabeherak egiteko. Hasiera-data urtarrilaren 10a da, eta amaiera-data urtarrilaren 14a. Hori dela eta, hautatutako iraupena bost egunekoa da, aukeratutako konfigurazioa egun naturalak ordua dutenean, eta hautatutako ordua goizeko 12:00etan hasi eta amaitzen da hasiera eta amaiera egunetan. Hona hemen kalkuluak:
+    Adibidez, zuk hautatzen duzu **Redmond (AEB)** kokapena gisa. Kokapen horretarako eguneko diru-laguntza 150 dolar (150 USD) da ostaturako, USD 75 otorduetarako eta USD 5 gorabeherak egiteko. Hasiera-data urtarrilaren 10a da, eta amaiera-data urtarrilaren 14a. Hori dela eta, hautatutako iraupena bost egunekoa da, hautatutako konfigurazioa egun naturalak denborarekin daudenean, eta hautatutako ordua goizeko 12:00etan hasi eta amaitzen da hasiera eta amaiera egunetan. Hona hemen kalkuluak:
 
     - Ordaindu beharreko kopuru osoa = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
     - Otordua eta kopuru osoaren zati bat = 5 × (75 + 5) = USD 400
@@ -98,7 +98,7 @@ Esaterako, hona hemen bidaiaren lehen hiru egunetan gosaria eman bazen kalkuluak
 
 ### <a name="example-3-per-diem-where-meal-reductions-are-based-on-number-of-meals-per-day"></a>3. adibidea: eguneko otorduen murrizketak eguneko otordu kopuruan oinarritzen diren
 
-Adibide honetan, otorduen murrizketa egunean emandako otordu kopuruaren arabera kalkulatzen da (hau da, **Kalkulatu otorduen murrizketa arabera** eremuan **Gastuak kudeatzeko parametroak** orrialdea ezarrita dago **Eguneko otordu kopurua**). urtean **Otorduak** sarean **Editatu gastua** elkarrizketa-koadroa, kontrol-laukiak garbitzen dituzu zein otordu eman diren adierazteko.
+Adibide honetan, otorduen murrizketa egunean emandako otordu kopuruaren arabera kalkulatzen da (hau da, **Kalkulatu otorduen murrizketa arabera** eremuan **Gastuak kudeatzeko parametroak** orrialdea ezarrita dago **Eguneko otordu kopurua**). urtean **Otorduak** sarean **Editatu gastua** elkarrizketa-koadroan, kontrol-laukiak garbitzen dituzu zein otordu eman diren adierazteko.
 Kasu honetan, otorduen murrizketa emandako otordu kopuruan bakarrik oinarritzen da, eta ez emandako otordu motan (Gosaria/bazkaria/afaria).
 
 Hona hemen eguneko diru-laguntzaren kalkuluak ostaturako USD 150, otorduetarako USD 75 eta USD 5 gorabeherak direnean:
@@ -113,10 +113,10 @@ Hona hemen kalkuluak **otorduak eta gorabeherak**, USD 5 barne hartzen dituen go
 - 1. eguna - Bi otordu eman = (75 – 37,50) + 5 = 37,50 + 5 = USD 42.50
 - 2. eguna - Bi otordu eskaintzen dira = (75 – 37,50) + 5 = 37,50 + 5 = USD 42.50
 - 3. eguna - Otordu bat ematen da = (75 – 15) + 5 = 60 + 5 = USD 65
-- 4. eguna - Zero otorduak eman = (75-0) + 5 = 75 + 5 = USD 80
+- 4. eguna - Zero otorduak ematen = (75-0) + 5 = 75 + 5 = USD 80
 - 5. eguna - Hiru otordu ematen dira = (75 – 75) + 5 = 0 + 5 = USD 5
 
-- Otorduak eta gorabeherak guztira = 1. eguneko otorduak eta gorabeherak + 2. eguna + 3. eguna + 4. eguna + 5. eguna = USD 235
+- Guztira otorduak eta gorabeherak = 1. eguneko otorduak eta gorabeherak + 2. eguna + 3. eguna + 4. eguna + 5. eguna = USD 235
 - Otorduen murrizketa totala = 1. eguneko otorduen murrizketa
 - Ordaindu beharreko zenbateko osoa = Hobari osoa – Otorduen murrizketa osoa = USD 1,150 - USD 165 = USD 985
 

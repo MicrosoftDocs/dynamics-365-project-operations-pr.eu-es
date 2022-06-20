@@ -1,17 +1,17 @@
 ---
 title: Kopiatu proiektu bat
-description: Gai honek proiektuak Dynamics 365 Project Operations-en kopiatzeari buruzko informazioa ematen du.
+description: Artikulu honek proiektuak kopiatzeari buruzko informazioa eskaintzen du Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 03/07/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e9b637d2d282d123dfacb8a295292ea06549aa1e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b358f9e45278d886f3e6e8e8cd747fc0ea30212b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574415"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925749"
 ---
 # <a name="copy-a-project"></a>Kopiatu proiektu bat
 
@@ -46,7 +46,7 @@ Proiektua kopiatzen denean, ondoko eremuetako balioak kopiatzen dira.
 | Proiektuaren egoera orokorra | :heavy_check_mark: | :heavy_check_mark: | |
 | Iruzkinak | :heavy_check_mark: | :heavy_check_mark: | |
 | Aurreikuspenak | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Aurreikusitako hasiera-data</p><p><strong>Ohar:</strong> Eremu honek proiektua kopiatik sortu den data zehazten du. | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Aurreikusitako hasiera-data</p><p><strong>Ohar:</strong> Eremu honek kopiatik proiektua sortzen den data zehazten du. | :heavy_check_mark: | :heavy_check_mark: | |
 | <p>Aurreikusitako amaiera-data</p><p><strong>Ohar:</strong> Eremu honetako data kopiatik egin den proiektu berriaren hasiera-dataren arabera egokitzen da.</p> | :heavy_check_mark: | :heavy_check_mark: | |
 | Ahalegina (orduak) | :heavy_check_mark: | :heavy_check_mark: | |
 | Aurreikusitako lan-kostua | :heavy_check_mark: | :heavy_check_mark: | |

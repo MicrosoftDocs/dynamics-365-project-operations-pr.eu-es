@@ -1,17 +1,17 @@
 ---
 title: Zuzendu kontabilitatea zirriborro-proiektu baten fakturazio-proposamenetan
-description: Gai honetan faktura proposamenaren zirriborroan kontabilitatearekin lotutako informazioa nola egokitu azaltzen da.
+description: Artikulu honek faktura-proposamenaren zirriborro batean kontabilitatearekin lotutako informazioa nola doitu azaltzen du.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921195"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Zuzendu kontabilitatea zirriborro-proiektu baten fakturazio-proposamenetan
 
@@ -19,7 +19,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 *Xehetasun operatiboak* Proiektuaren fakturak proiektuaren kudeatzaileak mantentzen ditu proformako fakturan. Xehetasun horien artean fakturatu behar diren ordu, gastu, material edo mugarriei buruzko erabakia, tarifak eta aurrerakinaren eta atxikipenen zenbatekoen aplikazioa daude. Proformaren jatorrizko faktura berretsi ondoren, operazio xehetasunak doitu ditzakezu sortuz eta berretsiz [pro forma faktura zuzentzailea](../proforma-invoicing/corrective-invoices.md).
 
-*Kontabilitate xehetasunak* proiektuaren fakturak bezeroari begira faktura dokumentu batean mantentzen dira. Xehetasun horien artean salmenten gaineko zergaren kalkulua eta fakturan aplikatzen diren dimentsio ekonomikoak daude. Gai honetan kontabilitate xehetasun horiek proiektuaren faktura proposamenaren zirriborroan nola egokitu daitezkeen zehazten da.
+*Kontabilitate xehetasunak* proiektuaren fakturak bezeroari begira faktura dokumentu batean mantentzen dira. Xehetasun horien artean salmenten gaineko zergaren kalkulua eta fakturan aplikatzen diren dimentsio ekonomikoak daude. Artikulu honek kontabilitate xehetasun horiek proiektuaren faktura-proposamenaren zirriborroan nola doitu daitezkeen buruzko xehetasunak eskaintzen ditu.
 
 ## <a name="adjust-sales-tax"></a>Egokitu salmenten zerga
 

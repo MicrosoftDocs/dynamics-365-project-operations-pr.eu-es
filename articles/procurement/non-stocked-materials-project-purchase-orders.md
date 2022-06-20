@@ -1,18 +1,18 @@
 ---
 title: Eskatu proiektu baten izakinik gabeko materialak proiektuko erosketa-eskaerak erabiliz
-description: Gai honetan proiektu baten izakinik gabeko materialak proiektuko erosketa-eskaerak erabiliz nola eska dezakezun azaltzen da.
+description: Artikulu honek proiektu baterako erosketa-eskaerak erabiliz hornituta ez dauden materialak nola eska ditzakezun azaltzen du.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2aa8fb94e2f9cbf91182f3f169339284d3eb9f44
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: fe24faa143869af2396f3b0f28aae31417cadda7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612688"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929797"
 ---
 # <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Eskatu erosketa-kategoriak edo hornituta ez dauden materialak proiektu baterako proiektuko erosketa-aginduak erabiliz
 
@@ -23,7 +23,7 @@ Zure erakundeko Kontratazio Sailak erabil dezake [erosketa aginduak](/dynamics36
 ## <a name="prerequisites"></a>Aurrebaldintzak
 Bete urrats hauek proiektuaren erosketa aginduen funtzionaltasuna gaitzeko.
 
-1. Dynamics 365 Finance atalean, joan **Ezaugarrien kudeaketa** lan-eremua.
+1. Dynamics 365 Finance atalean, joan hona **Ezaugarrien kudeaketa** lan-eremua.
 2. Ezaugarrien zerrendan, bilatu eta hautatu funtzioa, **Gaitu proiektuaren erosketa-erosketak Project Operations-en baliabideetan oinarritutako/izakinik gabeko egoeretarako**.
 3. Hautatu **Gaitu**.
 4. Konfiguratu ez dauden materialak eta zain dauden saltzailearen fakturak atalean deskribatutako moduan [Konfiguratu ez dauden materialak eta zain dauden saltzailearen fakturak](configure-materials-nonstocked.md).

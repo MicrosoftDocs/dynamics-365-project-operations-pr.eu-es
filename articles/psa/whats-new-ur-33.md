@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 33, V3 bertsioko berrikuntzak edo aldaketak
-description: Gai honek Project Service Automation V3, 33. eguneratzean erabilgarri dauden eginbideak eta konponketak ditu.
+description: Artikulu honetan Project Service Automation Update Release 33, V3-n eskuragarri dauden ezaugarriak eta zuzenketak zerrendatzen dira.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/30/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 063290526c25e7073137fc88408be6a61d2d20ac
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d9c282e8b95b111ce71fb441e4dbb2d04f904e0f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601463"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915399"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-33-v3"></a>Project Service Automation eguneratzearen 33, V3 bertsioko berrikuntzak edo aldaketak
 
@@ -29,7 +29,7 @@ ms.locfileid: "8601463"
 
 Pozik gaude egunkariaren azken eguneratzea iragarriz Microsoft Dynamics 365 Project Service Automation aplikazioa. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Dynamics 365 9.x-rekin bateragarria da. Bertsio hau eguneratzeko, bisitatu Admin Zentroa Dynamics 365 lineako soluzioen orria eta instalatu eguneratzea. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Gai honek Project Service Automation V3, 33. eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.54.98 sorrera-zenbakia du eta orokorrean 2021eko uztailean auto-eguneratze baten bidez eskuragarri dago.
+Artikulu honetan, Project Service Automation V3, Update Release 33 eta beste hainbat ezaugarri eta zuzenketa berri edo aldatu diren ezaugarriak eta zuzenketak zerrendatzen dira. Bertsio honek V3.10.54.98 sorrera-zenbakia du eta orokorrean 2021eko uztailean auto-eguneratze baten bidez eskuragarri dago.
 
 ## <a name="update-release-33"></a>33. eguneratze-bertsioa
 

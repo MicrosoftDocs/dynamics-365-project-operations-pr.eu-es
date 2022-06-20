@@ -1,6 +1,6 @@
 ---
 title: Berritu Project Service Automation-etik Project Operations-era
-description: Gai honek bertsio berritzeko prozesuaren ikuspegi orokorra eskaintzen du Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations.
+description: Artikulu honek bertsio berritzeko prozesuaren ikuspegi orokorra eskaintzen du Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912961"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Berritu Project Service Automation-etik Project Operations-era
 
-Pozik gaude berritzeko hiru faseetako lehena iragartzeko Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations. Gai honek ibilbide zirraragarri honetan hasten ari diren bezeroei ikuspegi orokorra eskaintzen die. Etorkizuneko gaietan garatzaileen gogoetak eta eginbideen hobekuntzei buruzko xehetasunak izango dira. Project Operations-en bertsio-berritzea prestatzen lagunduko dizuten jarraibideak emateaz gain, bertsio berritu ondoren zer espero dezakezun azalduko dizute.
+Pozik gaude berritzeko hiru faseetako lehena iragartzeko Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations. Artikulu honek ibilbide zirraragarri honetan hasten ari diren bezeroentzako ikuspegi orokorra eskaintzen du. Etorkizuneko artikuluek garatzaileei buruzko gogoetak eta eginbideen hobekuntzei buruzko xehetasunak jasoko dituzte. Project Operations-en bertsio-berritzea prestatzen lagunduko dizuten jarraibideak emateaz gain, bertsio berritu ondoren zer espero dezakezun azalduko dizute.
 
 Berrikuntza emateko programa hiru fasetan banatuko da.
 
@@ -74,7 +74,7 @@ Hona hemen konturatu beharreko gauza batzuk:
 - Inportazioak huts egin dezake mendekotasunak falta direlako. Beste era batera esanda, pertsonalizazioak erreferentzia-eremuak edo beste osagai batzuk Proiektu Eragiketetan ezabatu diren. Kasu honetan, kendu mendekotasun horiek garapen-ingurunetik.
 - Kudeatu gabeko eta kudeatutako soluzioek pertsonalizatu gabeko osagaiak badituzte, kendu osagai horiek soluziotik. Adibidez, pertsonalizatzen duzunean **Proiektua** entitatea, gehitu entitatearen goiburua soilik zure soluzioari. Ez gehitu eremu guztiak. Aurretik azpiosagai guztiak gehitu badituzu, baliteke eskuz irtenbide berri bat sortu eta osagai garrantzitsuak gehitu behar izatea.
 - Baliteke inprimakiak eta ikuspegiak espero bezala ez agertzea. Zenbait kasutan, kutxaz kanpoko inprimaki edo ikuspegiren bat pertsonalizatu baduzu, baliteke pertsonalizazioek Project Operations-en eguneratze berriak indarrean jartzea eragotzi. Arazo hauek identifikatzeko, gomendatzen dugu Project Operations instalazio garbi baten eta zure pertsonalizazioak barne hartzen dituen Project Operations instalazio baten berrikuspena egitea. Konparatu zure negozioan gehien erabiltzen diren inprimakiak, inprimakiaren bertsioak oraindik zentzua duela eta inprimakiaren bertsio garbian ezer falta ez dela ziurtatzeko. Egin elkarren ondoan berrikuspen mota bera pertsonalizatu dituzun ikuspegietarako.
-- Negozio-logikak huts egin dezake exekuzioan. Zure plug-inetako eremuen erreferentziak ez direlako balioztatu inportatzeko unean, baliteke negozio-logikak huts egitea jada existitzen ez diren eremuen erreferentziak direla eta, eta baliteke adibide honen antzeko errore-mezu bat jasotzea: "'Proiektua' entitateak ez du Name = 'msdyn_plannedhours' eta NameMapping = 'Logikoa' duten atributurik." Kasu honetan, aldatu zure pertsonalizazioak eremu berriak erabil ditzaten. Automatikoki sortutako proxy-klaseak eta motako erreferentzia sendoak erabiltzen badituzu zure plug-in-logikan, kontuan hartu proxy horiek instalazio garbi batetik birsortzea. Modu honetan, zure pluginak zaharkitutako eremuen mende dauden leku guztiak erraz identifikatu ditzakezu.
+- Negozio-logikak huts egin dezake exekuzioan. Zure plug-inetako eremuen erreferentziak ez direlako balioztatu inportatzeko unean, baliteke negozio-logikak huts egitea jada existitzen ez diren eremuen erreferentziak direla eta, eta baliteke adibide honen antzeko errore-mezu bat jasotzea: "'Proiektua' entitateak ez du Name = 'msdyn_plannedhours' eta NameMapping = 'Logikoa' duten atributurik." Kasu honetan, aldatu zure pertsonalizazioak eremu berriak erabil ditzaten. Automatikoki sortutako proxy-klaseak eta mota sendoko erreferentziak erabiltzen badituzu zure plug-in-logikan, kontuan hartu proxy horiek instalazio garbi batetik birsortzea. Modu honetan, zure pluginak zaharkitutako eremuen mende dauden leku guztiak erraz identifikatu ditzakezu.
 
 Zure pertsonalizazioak eguneratu ondoren Proiektu Eragiketak garbi inportatzeko, joan hurrengo urratsetara.
 
@@ -90,10 +90,10 @@ Zure pertsonalizazioak eguneratu ondoren Proiektu Eragiketak garbi inportatzeko,
     > [!NOTE]
     > Inguruneko datu kopuruaren arabera, eguneratzeak ordu batzuk behar izan ditzake. Bertsio-berritzea kudeatzen ari den oinarrizko taldeak horren arabera planifikatu eta berritzea exekutatu beharko luke negozio-orduetan. Zenbait kasutan, datu-bolumena handia bada, eguneratzea asteburuan zehar exekutatu beharko litzateke. Programazioari buruzko erabakia ingurune baxuetan egindako proben emaitzetan oinarritu behar da.
 
-3. Berritu irtenbide pertsonalizatuak egoki den moduan. Une honetan, zabaldu zure pertsonalizazioetan egin dituzun aldaketak [Pertsonalizazioak probatu eta birfactorizatzea](#testing-and-refactoring-customizations) gai honen atala.
+3. Berritu irtenbide pertsonalizatuak egoki den moduan. Une honetan, zabaldu zure pertsonalizazioetan egin dituzun aldaketak [Pertsonalizazioak probatu eta birfactorizatzea](#testing-and-refactoring-customizations) artikulu honen atala.
 4. Joan **Ezarpenak** \> **Irtenbideak**, eta hautatu desinstalatzeko **Proiektuaren Eragiketak Osagai zaharkituak** irtenbidea.
 
-    Irtenbide hau aldi baterako irtenbide bat da, eguneratzean dauden datu-eredua eta osagaiak gordetzen dituena. Soluzio hau kenduz gero, erabiltzen ez diren eremu eta osagai guztiak kenduko dituzu. Horrela, interfazea errazten eta integrazioa eta hedapena errazten lagunduko duzu.
+    Irtenbide hau aldi baterako irtenbide bat da, eguneratzean dauden datu-eredua eta osagaiak gordetzen dituena. Irtenbide hau kenduz gero, erabiltzen ez diren eremu eta osagai guztiak kenduko dituzu. Horrela, interfazea errazten eta integrazioa eta hedapena errazten lagunduko duzu.
     
 ### <a name="validate-common-scenarios"></a>Baliozkotu ohiko eszenatokiak
 
@@ -119,18 +119,17 @@ Proiektuen Eragiketetan etengabeko inbertsioen barruan, hainbat gaitasun berri d
 
 ## <a name="frequently-asked-questions"></a>Ohiko galderak
 
-### <a name="which-deployment-types-are-currently-supported-for-upgrade"></a>Zein inplementazio mota onartzen dira eguneratzeko?
+### <a name="which-deployment-types-are-currently-supported-for-upgrade"></a>Gaur egun, zein inplementazio mota onartzen dira bertsio berritzeko?
 
 | Iturburua                                                 | Helburua                                                    | Fasea                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
 | Project Service Automation                             | Project Operations Lite inplementazioa                        | Onartzen da               |
 | Dynamics 365 Finance Proiektuen kudeaketa eta kontabilitatea | Project Operations Lite inplementazioa                        | Une honetan ez da onartzen |
 | Finantza Proiektuen Kudeaketa eta Kontabilitatea              | Baliabideak edo izakinik gabeko produktuak izatearen egoeretarako Project Operations     | Une honetan ez da onartzen |
-| Finantza Proiektuen Kudeaketa eta Kontabilitatea              | Izakinak edo ekoizpen-eskaerak izatearen egoeretarako Project Operations | Une honetan ez da onartzen |
 | Project Service Automation 3.x                         | Baliabideak edo izakinik gabeko produktuak izatearen egoeretarako Project Operations     | Une honetan ez da onartzen |
 | Weberako proiektua (ingurune dedikatua)            | Project Operations Lite inplementazioa                        | Une honetan ez da onartzen |
 
-### <a name="how-can-i-install-project-operations-before-the-upgrade-tooling-is-available"></a>Nola instalatu ditzaket Project Operations berritze-tresnak erabilgarri egon aurretik?
+### <a name="how-can-i-install-project-operations-before-the-upgrade-tooling-is-available"></a>Nola instala ditzaket Project Operations bertsio berritzeko tresna erabilgarri egon aurretik?
 
 Bi aukera daude Project Operations instalatzeko, bertsio berritzeko tresna erabilgarri egon aurretik:
 

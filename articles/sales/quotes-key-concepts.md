@@ -1,6 +1,6 @@
 ---
 title: Eskaintzak - Gako-kontzeptuak
-description: Gai honek eskuragarri dauden proiektuen eskaintzei eta salmenta-eskaintzei buruzko informazioa eskaintzen du Project Operations-en.
+description: Artikulu honek proiektuen aurrekontuei eta salmenten aurrekontuei buruzko informazioa eskaintzen du Project Operations atalean.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912501"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Proiektuetan oinarritutako eskaintzen kontzeptu bakarrak
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations-en bi eskaintza mota daude: proiektuak eta salme
 - **Eremuak eta kontzeptuak**: Salmenta-eskaintzak ez ditu proiektu-eskaintzan biltzen diren zenbait eremu eta kontzeptu biltzen. Eremuek **Kontratazio-unitatea**, **Kontuen kudeatzailea**, eta **Harreman-izenaren faktura** dituzte.  
 - **Mota**: Salmenta-eskaintzak eta proiektu-eskaintzak multzoan oinarritutako eremua moduan, **Mota**, ere identifikatzen dira. Salmenta-eskaintzak lortzeko, eremuak balio hau du: **Elementuan oinarritutakoa**. Proiektu-eskaintza lortzeko, balio hau du: **Lanean oinarritutakoa**.
 
-Gai honek proiektu-eskaintzen xehetasunak fokuratzen ditu ardatz.
+Artikulu hau proiektuaren aurrekontuen xehetasunetan zentratzen da.
 
 Project Operations-en proiektu-eskaintzak lerro bat baino gehiago edo eskaintzaren lerro bat izan dezake. Izan ere, proiektu-eskaintzak lerroentzako bi sareta ditu. Sareta bat aurreikuspen zehatzak egiteko aukera ematen duten proiektuetan oinarritutako lerroetarako da. Beste sareta produktu unitateko prezio sinplea eta kantitatean oinarritutako hurbilketa erabiltzen duten produktuetarako oinarritutako lerroetarako da.
 

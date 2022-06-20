@@ -1,6 +1,6 @@
 ---
 title: Entitatea, kontrola eta erabiltzaile-interfazearen aldaketak (Project Service Automation 3.x)
-description: Gai honetan irtenbide aldaketak deskribatzen dira Microsoft Dynamics Project Service Automation 3.x-rako.
+description: Artikulu honek irtenbide aldaketak deskribatzen ditu Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597553"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926853"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Entitatea, kontrola eta erabiltzaile-interfazearen aldaketak (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Microsoft Dynamics Project Service Automation (PSA) 3.x-ren kaleratzearekin batera, aldaketa ugari egin dira entitateetan, kontroletan, bistaratzeetan eta erabiltzaile-interfazean. GAi honekaldaketa garrantzitsu hauei buruzko informazioa du:
+Microsoft Dynamics Project Service Automation (PSA) 3.x-ren kaleratzearekin batera, aldaketa ugari egin dira entitateetan, kontroletan, bistaratzeetan eta erabiltzaile-interfazean. Artikulu honek aldaketa garrantzitsu hauei buruzko informazioa eskaintzen du.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Lehen eta bigarren mailako harremanak salmentarako dokumentuetarako, salmenten dokumentuen lerroetarako, entitateen salmenten dokumentuen lerroaren xehetasunetarako
 Bertsioetan Dynamics 365 Project Service Automation (PSA) 3.0 bertsioa baino lehen kaleratu zen, salmenten dokumentuen, salmenta dokumentuen lerroen eta entitateen salmenten dokumentuen lerroaren xehetasunen arteko erlazio batzuk erlazionatutako entitatearen GUIDaren katearen sorrera-eremuen bidez gauzatu ziren. Hori soluzioaren zerbitzariaren eta bezeroaren aldeetan kode pertsonalizatuak garrantzitsuak eskatzen zituzten plataformen mugengatik izan zen, harreman horiek funtsezkoak izan zitezen Dynamics CRM entitate harremanak eta kate-eremuak bilaketa-eremuak bezala jarduteko.

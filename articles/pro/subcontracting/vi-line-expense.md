@@ -1,19 +1,19 @@
 ---
-title: Saltzaileen faktura-lerroak gastu-kategorietarako
-description: Gai honek saltzaileen faktura-lerroak nola erregistratu azaltzen du gastu-kategorietarako.
+title: Saltzailearen fakturaren lerroak gastu-kategorien arabera
+description: Artikulu honek saltzaileen faktura-lerroak nola erregistratu azaltzen du gastu-kategorietarako.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 209460680c9e5c2e39f98ba5c48aa18992775db1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3ffad20b53344221ead9b6850ecdc1efd48d5b13
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579521"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925844"
 ---
-# <a name="vendor-invoice-lines-for-expense-categories"></a>Saltzaileen faktura-lerroak gastu-kategorietarako
+# <a name="vendor-invoice-lines-for-expense-categories"></a>Saltzailearen fakturaren lerroak gastu-kategorien arabera
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -34,7 +34,7 @@ Hurrengo taulak gastu-kategorien saltzaileen faktura-lerroetako eremuei buruzko 
 | Transakzioaren data | Saltzaileen faktura-lerroaren benetako kostua proiektuan erregistratuko den data. |Batere ez |
 | Transakzio-klasea | Hautatu **Gastua** gastu-kategoria baten saltzaile-faktura erregistratzeko. | Balioa **Gastua** saltzaileen faktura-lerroa gastu-kategoria gisa kontratatu ziren zerbitzuen fakturaren zenbatekoa erregistratzeko erabiltzen ari dela adierazten du. |
 | Project | Fakturatzen ari diren zerbitzuak erabili diren proiektuaren izena. | Eremu hau beharrezkoa da eta ezin da hutsik utzi. |
-| Zeregina | Fakturatzen ari diren zerbitzuak erabili diren proiektuaren atazaren izena. Eremu hau proiektu bat hautatzen bada soilik dago erabilgarri. Proiektuko ataza hautatzea aukerakoa da. | Eremu hau hutsik geratzen bada, proiektuaren kudeatzaileak hornitzailearen faktura-lerroa proiektuko edozein zereginetan erregistratzen diren gastuekin lo dezake. Saltzaileen faktura-lerroak ez badu azpikontratazio-lerrorik aipatzen, eta eremu hau hutsik geratzen bada, hornitzaile-faktura-lerroak sortzen duen kostu erreala ez da fakturatu gabeko salmenta-errealekin lotuko. Kasu honetan, zereginetan oinarritutako fakturazioa konfiguratzen bada, baliteke kostuak ezin izango zaizkiola azken bezeroari fakturatu. |
+| Zeregina | Fakturatzen ari diren zerbitzuak erabili diren proiektuaren atazaren izena. Eremu hau proiektu bat hautatzen bada soilik dago erabilgarri. Proiektuko zeregina hautatzea aukerakoa da. | Eremu hau hutsik geratzen bada, proiektuaren kudeatzaileak hornitzailearen faktura-lerroa proiektuko edozein zereginetan erregistratzen diren gastuekin lo dezake. Saltzaileen faktura-lerroak ez badu azpikontratazio-lerrorik aipatzen, eta eremu hau hutsik geratzen bada, hornitzaile-faktura-lerroak sortzen duen kostu erreala ez da fakturatu gabeko salmenta-errealekin lotuko. Kasu honetan, zereginetan oinarritutako fakturazioa konfiguratzen bada, baliteke kostuak ezin izango zaizkiola azken bezeroari fakturatu. |
 | Transakzio-kategoria | Fakturatzen ari den transakzio-kategoria. Hautatutako transakzio kategoriarako dagokion gastu-kategoria sortu behar da. | -ren konbinazioa **Transakzio kategoria** eta **Unitatea** balioak balio lehenetsi edo kalkulatu gisa erabiliko dira **Unitatearen prezioa** saltzaileen faktura lerroko eremua. |
 | Kantitatea | Sartu saltzaileak fakturatzen ari den kopurua faktura lerroan. |Batere ez|
 | Salmenta-unitatea | Aukeratutako transakzio-kategoriaren unitate-taldearen araberako balio lehenetsia sartzen da. | Batere ez |

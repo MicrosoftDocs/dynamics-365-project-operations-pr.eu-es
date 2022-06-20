@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren garapena eta kostuen kontsumoa
-description: Gai honek proiektuaren garapenaren eta kostuen kontsumoaren jarraipena egiteari buruzko informazioa ematen du.
+description: Artikulu honetan proiektuaren aurrerapenaren jarraipenari eta kostuen kontsumoari buruzko informazioa ematen da.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921747"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Proiektuaren garapena eta kostuen kontsumoa
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575243"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Antolaketa eta garapena jarraitzeko beharra aldatu egiten da industriaren arabera. Zenbait industriak jarraipen zehatza egiten du; beste batzuek, aldiz, jarraipen orokorragoa egiten dute. Gai honek erakundearen eskakizunak betetzeko nola antolatu behar den erakusten du.
+Antolaketa eta garapena jarraitzeko beharra aldatu egiten da industriaren arabera. Zenbait industriak jarraipen zehatza egiten du; beste batzuek, aldiz, jarraipen orokorragoa egiten dute. Artikulu honetan, antolakuntzaren baldintzak betetzeko nola programatu erakusten da.
 
 ## <a name="effort-tracking-view"></a>Ahaleginen segimenduaren ikuspegia
 

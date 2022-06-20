@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation-en ikuspegi orokorra
-description: Gai honek honi buruzko informazioa eskaintzen du Dynamics 365 Project Service Automation Dynamics 365 Finance integrazio irtenbidera.
+description: Artikulu honetan Dynamics 365 Finance-rako integrazio-soluzioari Dynamics 365 Project Service Automation buruzko informazioa ematen da.
 author: ruhercul
 ms.date: 07/25/2019
 ms.topic: overview
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 96fdb31b7b1d4f33cb565cf902039f72a3f90fd7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685501"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929567"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation-en ikuspegi orokorra
 
 [!include[banner](../includes/banner.md)]
 
 
-Project Service Automation to Finance integrazio-soluzioak Datuak integratzeko funtzioa erabiltzen du Dynamics 365 Finance eta Dynamics 365 Finance instantzia guztietan datuak sinkronizatzeko.Dynamics 365 Project Service Automation bidez Common Data Service. Integrazio-txantiloiak eskuragarri daudenak Datu-integrazioaren eginbidearekin gaitzen du proiektuen fluxua, proiektu-kontratuak, proiektu-kontratu lerroak, proiektu-kontratu lerroen mugarriak, proiektu-zereginak, gastuen transakzio kategoriak, aurreikusitako orduak, eta gastu-aurreikusiak Project Service Automation Finantzara.
+Project Service Automation to Financeren integrazio-soluzioak datuak integratzeko ezaugarria erabiltzen du Dynamics 365 Finance eta Dynamics 365 Project Service Automation bideko instantzien artean datuak sinkronizatzeko Common Data Service. Integrazio-txantiloiak eskuragarri daudenak Datu-integrazioaren eginbidearekin gaitzen du proiektuen fluxua, proiektu-kontratuak, proiektu-kontratu lerroak, proiektu-kontratu lerroen mugarriak, proiektu-zereginak, gastuen transakzio kategoriak, aurreikusitako orduak, eta gastu-aurreikusiak Project Service Automation Finantzara.
 
 > [!NOTE]
 > - Bertsioa 7.3.0 erabiltzen ari bazara, KB 4074835 instalatu behar duzu. Orduan, prezio finkoaren proiektuak integratu ahal izango dituzu.

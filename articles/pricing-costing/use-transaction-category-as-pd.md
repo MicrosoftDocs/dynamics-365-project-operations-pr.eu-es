@@ -1,17 +1,17 @@
 ---
 title: Erabili Transakzioen kategoria prezio-dimentsio gisa
-description: Gai honek Transakzioen kategoria eremua prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
+description: Artikulu honek Transakzio Kategoria eremua prezioen dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591113"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911679"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Erabili Transakzioen kategoria prezio-dimentsio gisa
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591113"
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 
-Gai honek **Transakzioen kategoria** eremua prezio-dimentsio gisa erabiltzeko modua azaltzen du. 
+Artikulu honek nola erabili azaltzen du **Transakzio Kategoria** eremua prezioen dimentsio gisa. 
 
 ## <a name="prerequisites"></a>Aurrebaldintzak
-Gai honetako prozedurak amaitu aurretik, prezioen dimentsio irtenbide berri bat izan behar duzu zure erakundearentzat. Oraindik sortu ez baduzu, ikusi [Sortu eremu eta entitate pertsonalizatuak prezioen dimentsio gisa](create-custom-fields-entities-pricing-dimensions.md).
+Artikulu honetako prozedurak osatu aurretik, prezioen dimentsioko irtenbide berri bat izan behar duzu zure erakundearentzat. Oraindik sortu ez baduzu, ikusi [Sortu eremu eta entitate pertsonalizatuak prezioen dimentsio gisa](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Gehitu Transakzioen kategoria eremua inprimakietan eta ikuspegietan
 **Transakzioen kategoria** eremua prezioen dimentsioaren irtenbidean ikusgai egiteko, eremua entitate gisa forma eta ikuspegi guztietara gehitu behar duzu.

@@ -1,24 +1,24 @@
 ---
 title: Konfiguratu kostuen txantiloiak
-description: Gai honek Project Operations-en kostuen txantiloiak nola sortu eta erabili informazioa eskaintzen du.
+description: Artikulu honetan, proiektu-eragiketetan kostu-plantiloiak nola sortu eta erabiltzeko informazioa ematen da.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594195"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918389"
 ---
 # <a name="set-up-cost-templates"></a>Konfiguratu kostuen txantiloiak
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
 
-Gai honek Project Operations-en kostuen txantiloiak nola sortu eta erabili informazioa eskaintzen du. Kostuen txantiloiak zehazten ditu:
+Artikulu honetan, proiektu-eragiketetan kostu-plantiloiak nola sortu eta erabiltzeko informazioa ematen da. Kostuen txantiloiak zehazten ditu:
 
 - Aurreikuspenen eta benetako transakzioen proiektuen kategoriak proiektuaren amaierako kalkuluaren ehuneko batean sartu behar dira. Ehuneko osoko balioa gero zenbat diru sarrera aitortzen den kalkulatzeko erabiltzen da.
 - Amaitzearen ehunekoa alda daitekeen automatikoki kalkulatzen bada.
@@ -56,7 +56,7 @@ Kostuen txantiloia sortzeko zein planteamendu hartu erabakitzea hainbat konturen
 ## <a name="create-cost-templates"></a>Sortu kostuen txantiloiak
 Kostuen txantiloiak sortzeko, jarraitu urrats hauei:
 
-1. Kostu txantiloiak sartzeko, Dynamics 365 Finance ingurunean, joan hona **Proiektuen kudeaketa eta kontabilitatea** > **Konfigurazioa** > **Estimazioak** > **Kostu txantiloia**.
+1. Kostu-plantillak eskuratzeko, Dynamics 365 Finance inguruan, joan zaitez **plantillara** > **administrazioa** > **konfiguratzeko eta proiektuen kontabilitaterako** > **·**.
 2. Hautatu **Berria** kostuen txantiloi berria sortzeko. Idatzi izena eta deskribapena.
 3. Eman kostu lerroaren IDa transakzio mota bakoitzerako.
 4. Aukeratu lehenetsitako osatze-metodoa:

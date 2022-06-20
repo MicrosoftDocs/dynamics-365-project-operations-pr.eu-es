@@ -1,6 +1,6 @@
 ---
 title: Project Operations Team Member aplikazioa
-description: Gai honek Microsoft-en Project Operations Team Member aplikazioari buruzko informazioa eskaintzen du Dynamics 365 Project Operations.
+description: Artikulu honek Microsoft-eko Project Operations Team Member aplikazioari buruzko informazioa eskaintzen du Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: stsporen
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d87d532d114b7c6055f3cbe5d5ec70b3e7bc643f
-ms.sourcegitcommit: 4524cbab47ceb54dce62e055b0e05956216a14cb
+ms.openlocfilehash: 90ea1d13e263934c6dafb5c7f81699a021683ce6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8657570"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918205"
 ---
 # <a name="project-operations-team-member-app"></a>Project Operations Team Member aplikazioa
 
@@ -36,6 +36,6 @@ Hona hemen Project Operations Team Member aplikazioaren gaitasun batzuk:
 - Approvals
 - Hedagarritasuna (15 entitate gehienez)
 
-Project Operations Team Member aplikazioa erabiltzeko, Project Operations lizentzia osoa edo Dynamics Team Members erabiltzaile lizentzia izan behar duzu. Lizentziei buruzko informazio gehiago lortzeko, ikusi [Dynamics 365 Lizentzien Gida](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Project Operations Team Member aplikazioak Project Operations inplementatu behar du.
+Project Operations Team Member aplikazioa erabiltzeko, Project Operations lizentzia osoa edo Dynamics Team Members erabiltzaile lizentzia izan behar duzu. Lizentziei buruzko informazio gehiago lortzeko, ikus [Dynamics 365 Lizentzien Gida](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Project Operations Team Member aplikazioak Project Operations inplementatu behar du.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

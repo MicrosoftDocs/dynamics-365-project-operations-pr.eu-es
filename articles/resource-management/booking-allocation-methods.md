@@ -1,6 +1,6 @@
 ---
 title: Erreserbak esleitzeko metodoak
-description: Gai honek erreserbak esleitzeko metodoek Project Operations-en funtzionatzen duten moduari buruzko informazioa eskaintzen du.
+description: Artikulu honek erreserba-esleipen-metodoek Project Operations-en funtzionatzen dutenari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583017"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912685"
 ---
 # <a name="booking-allocation-methods"></a>Erreserbak esleitzeko metodoak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Gehitu taldeko kide zuzenean proiektua **Taldea** fitxan, edo antolaketa-panel batetik proiektua edo eskakizun baliabide erreserbatutako, gutxi beste erreserbatu guztirako baldintza kopuruak metodo daude erabil dezakezu. Gai honen arrazoi metodo bakoitzean funtzionamendua eta metodoak zer overbooking baliabideak, sorraraz ditzaketela.
+Gehitu taldeko kide zuzenean proiektua **Taldea** fitxan, edo antolaketa-panel batetik proiektua edo eskakizun baliabide erreserbatutako, gutxi beste erreserbatu guztirako baldintza kopuruak metodo daude erabil dezakezu. Artikulu honek metodo bakoitzak nola funtzionatzen duen azaltzen du, eta zein metodok gehiegizko erreserba baliabideak sor ditzaketen.
 
 ## <a name="booking-allocation-methods"></a>Erreserbak esleitzeko metodoak
 

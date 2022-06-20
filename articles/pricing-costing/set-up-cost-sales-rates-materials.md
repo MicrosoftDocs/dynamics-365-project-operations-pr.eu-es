@@ -1,17 +1,17 @@
 ---
 title: Konfiguratu materialen gastuak eta salmenta-tasak
-description: Gai honek proiektuetan erabilitako materialen kostua eta salmenta tasak nola ezarri jakiteko informazioa eskaintzen du.
+description: Artikulu honek proiektuetan erabilitako materialen kostuak eta salmenta-tasak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0a7d84c2dcaa228e06add2f3cb06a530b29e0e35
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576853"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911765"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Konfiguratu materialen gastuak eta salmenta-tasak
 
@@ -25,9 +25,9 @@ Produktuen kostua eta salmenta tasak konfiguratzeko, jarraitu urrats hauek.
 2. **Prezioen zerrendako elementuak** aukeran, azpisarea menuan, hautatu **Prezio zerrendako elementu berria**. 
 3. **Sortu bizkor** orrian, sartu prezio berria sortzen ari zaren produktua eta unitatea.
 
-Katalogoko elementuen prezioak definitzeari buruzko informazio gehiago lortzeko, ikus [Definitu produktuen prezioa prezio-zerrendekin eta prezio-zerrendako elementuekin](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) eta [Zehaztasun hamartar moneta eta prezioetan](/dynamics365/sales/decimal-precision-currency-pricing).
+Katalogoko elementuen prezioak definitzeari buruzko informazio gehiago lortzeko, ikus [Definitu produktuen prezioak prezio-zerrendekin eta prezio-zerrendako elementuekin](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) eta [Zehaztasun hamartar moneta eta prezioetan](/dynamics365/sales/decimal-precision-currency-pricing).
 > [!NOTE]
-> Dynamics 365 Project Operations ez ditu produktuen prezio-metodo guztiak onartzen Dynamics 365 Sales gisa. Proiektuetan erabiltzeko produktuak onartzen dituen prezioen metodo bakarra da *Moneta kopurua*.
+> Dynamics 365 Project Operations ez ditu produktuen prezio-metodo guztiak onartzen Dynamics 365 Sales gisa. Proiektuetan erabiltzeko produktuak onartzen dituen prezioen metodo bakarra da *Dibisaren zenbatekoa*.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

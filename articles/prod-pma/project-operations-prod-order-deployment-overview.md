@@ -1,17 +1,17 @@
 ---
 title: Izakinetan/Ekoizpenean oinarritutako adibideen inplementazio orokorraren Project Operations
-description: Gai honek inplementazio motari buruzko informazioa eskaintzen du, produkzioan oinarritutako / ekoizpenean oinarritutako Project Operations-en eragiketak.
+description: Artikulu honek inplementazio motari buruzko informazioa eskaintzen du, hornitutako/produkzioan oinarritutako agertokietarako Proiektu-eragiketak.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: de9a83949a838f8ca90771022339c6da17f6dde1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582465"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922759"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Izakinetan/Ekoizpenean oinarritutako adibideen inplementazio orokorraren Project Operations
 
@@ -23,7 +23,7 @@ Inplementazio mota honek gaitasun hauek ditu proiektuetan oinarritutako enpresen
 - Proiektuaren plangintza [Lanen matxuren egiturak](work-breakdown-structures.md)
 - Proiektuetarako inbentarioa eskuratu eta kontsumitu
 - Proiektuetan oinarritutako salmentak kudeatzea **Salmenta eta marketina** modulua Dynamics 365 Finance and Operations aplikazioetan
-- Proiektuen prezioak eta kostuak Finantza eta Operazio aplikazioetako kostu-tasa eta faktura-tasaren konfigurazioak erabiliz
+- Proiektuen prezioak eta kostuak Finantza eta Operazioen aplikazioetako kostu-tasa eta faktura-tasaren konfigurazioak erabiliz
 - Finantza eta Operazio aplikazioetan proiektuetarako baliabideen kudeaketa
 - Proiektuaren aurrerapena eta denboraren jarraipena Finantza eta Operazio aplikazioetan
 - Proiektuak eta proiektuak ez diren gastuak kudeatzeko esperientziak, ordainagiriak jasotzeko OCR gaitasunak erabiliz
@@ -31,7 +31,7 @@ Inplementazio mota honek gaitasun hauek ditu proiektuetan oinarritutako enpresen
 - Proiektu talde konfiguragarriak WIP kontabilitate eta metatzeetarako
 - Proiektuaren diru-sarreren aitorpena
 
-Inplementazio mota honek Dynamics 365 Finance eta Dynamics 365 Finance-ek eskaintzen duten funtzionalitatearen luzapena ere eskaintzen du.Dynamics 365 Supply Chain Management aplikazioak.
+Inplementazio mota honek Dynamics 365 Finance eta Dynamics 365 Finance-ek eskaintzen duten funtzionalitatearen luzapena eskaintzen du.Dynamics 365 Supply Chain Management aplikazioak.
 
 Hautatu inplementazio mota hau Dynamics 365 Project Operations proiektuaren bizitza ziklo osorako erabiltzeko, funtsezko eskakizun hauek barne:
 

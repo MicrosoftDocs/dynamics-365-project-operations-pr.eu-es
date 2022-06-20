@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 14, V3 bertsioko berrikuntzak edo aldaketak
-description: Gai honek Project Service Automation eguneratzea 14, V3 bertsioko berritasunei buruzko informazioa ematen du.
+description: Artikulu honek Project Service Automation Update Release 14 V3-n dagoen berriei buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8504ac5a0ce7254baee9139e4407e712c758540d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8e5132f970e3ec5742842175c118faf98a7b079
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926531"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation 14, V3 eguneratze-bertsioa
 
@@ -29,7 +29,7 @@ ms.locfileid: "8594288"
 
 Atsegin handiz adierazten dugu Dynamics 365 Project Service Automation (PSA) aplikazioaren azken eguneratzea. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Argitalpen hau bateragarria da Dynamics 365 9.x bertsioarekin. Argitalpen honetara eguneratzeko, bisitatu Dynamics 365 (online) aplikazioaren administrazio-zentroa eta joan soluzioen orrira eguneratzea instalatzeko. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Gai honek PSA V3, 14. eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.4.21 konpilazio-zenbakia du eta antolaketa honetan dago erabilgarri:
+Artikulu honek PSA V3, 14. bertsioaren eguneraketa berria edo aldatu diren ezaugarriak eta konponketak zerrendatzen ditu. Bertsio honek V3.10.4.21 konpilazio-zenbakia du eta antolaketa honetan dago erabilgarri:
 
 - **Erabilgarritasun orokorra (auto-eguneratzea):** 2020ko urtarrila
 - **Auto eguneratzea:** 2020ko otsaila

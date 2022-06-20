@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 31, V3 bertsioko berrikuntzak edo aldaketak
-description: Gai honek Project Service Automation V3, 31. eguneratzean erabilgarri dauden eginbideak eta konponketak ditu.
+description: Artikulu honetan Project Service Automation Update Release 31, V3-n eskuragarri dauden ezaugarriak eta zuzenketak zerrendatzen dira.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/26/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 70a8bd381c27c9a3dd3b33c582e5616fad280e95
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d62b12a5363637e46b29c2e9edf4e1f17da729f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586743"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925013"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-31-v3"></a>Project Service Automation eguneratzearen 31, V3 bertsioko berrikuntzak edo aldaketak
 
@@ -29,7 +29,7 @@ ms.locfileid: "8586743"
 
 Atseginez iragartzen dizuegu Dynamics 365 aplikaziorako Project Service Automation aplikazioaren azken eguneratzea. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Argitalpen hau bateragarria da Dynamics 365 9.x bertsioarekin. Argitalpen honetara eguneratzeko, bisitatu Dynamics 365 (online) aplikazioaren administrazio-zentroko soluzioen orrira eguneratzea instalatzeko. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Gai honek Project Service Automation V3, 31. eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honen konpilazio-zenbakia V3.10.52.77 da eta, oro har, 2021eko maiatzeko eguneratze automatikoaren baten bidez dago eskuragarri.
+Artikulu honetan, Project Service Automation V3, Update Release 31, berri diren edo aldatu diren ezaugarri eta zuzenketak zerrendatzen dira. Bertsio honen konpilazio-zenbakia V3.10.52.77 da eta, oro har, 2021eko maiatzeko eguneratze automatikoaren baten bidez dago eskuragarri.
 
 ## <a name="update-release-31"></a>31. eguneratze-bertsioa
 

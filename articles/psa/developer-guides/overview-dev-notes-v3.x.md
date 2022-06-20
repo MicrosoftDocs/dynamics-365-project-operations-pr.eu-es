@@ -1,6 +1,6 @@
 ---
 title: Garapenaren orri nagusia (Project Service Automation 3.x)
-description: Gai honek garapenerako informazioa eskaintzen duten gaietarako estekak eskaintzen ditu Dynamics 365 Project Service Automation-en (PSA) 3.x. bertsiorako
+description: Artikulu honek garapenari buruzko informazioa ematen duten artikuluetarako estekak eskaintzen ditu Dynamics 365 Project Service Automation (PSA) 3.x bertsioa.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 86bfe8e5103bfcac89a2966b99f15b7c34a213fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5cf7d738d5a7f6fb5d79849bdaf54831414de6de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582304"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928969"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>Garapenaren orri nagusia (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation 3.x-k funtzio berriak eskaintzen ditu, plataformen gaitasun berriak ezartzea eta hainbat arlotan dauden ezaugarrien hobekuntzak eskaintzen ditu. Hurrengo gaiek PSAren bertsio berrienean egindako aldaketen inguruko informazio gehiago eskaintzen dute:
+Dynamics 365 Project Service Automation 3.x-k funtzio berriak eskaintzen ditu, plataformen gaitasun berriak ezartzea eta hainbat arlotan dauden ezaugarrien hobekuntzak eskaintzen ditu. Hurrengo artikuluek PSAren bertsio berrienean egindako aldaketei buruzko informazio gehiago eskaintzen dute:
 
 - [Entitatea, kontrola eta erabiltzaile-interfazearen aldaketak (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [Denbora eta gastuen aldaketak (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)

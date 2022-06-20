@@ -1,24 +1,24 @@
 ---
 title: 2021eko berritasunen 2. uhinerako sarbide - Project Operations lite inplementazioa
-description: Gai honek 2021eko bigarren olatua sarrera goiztiarra Project Operations lite-ren inplementazioan eskuragarri dauden eginbideei buruzko informazioa eskaintzen du.
+description: Artikulu honetan, Project Operations lite ezartzearen 2021eko olatuaren irispide aurreratuaren bertsioan eskuragarri dauden ezaugarriei buruzko informazioa ematen da.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723661"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924093"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>2021eko berritasunen 2. uhinerako sarbide - Project Operations lite inplementazioa
 
 _Honi aplikatzen zaio: Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
+Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
 
   - Project Operations Dataverse ingurunearen 4.23.0.4 bertsioa
 

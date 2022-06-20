@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920643"
 ---
 # <a name="work-breakdown-structures-overview"></a>Zereginen xehetasunen egituraren ikuspegi orokorra
 
@@ -35,7 +35,7 @@ WBS baten xehetasun maila estimazioetan eskatzen den zehaztasun mailaren eta est
 
 Aitzitik, komunikabideetan eta publizitatean, softwarean eta IT azpiegituretan bezalako industrietako proiektuak mota batekoak izan ohi dira, eta produktibitatea zeregina betetzen ari den norbanakoaren esperientziarekin eta gaitasunarekin alderatuta dago. Hori dela eta, industria horiek WBS bat erabiltzen dute proiektu baten tamainaren hurbilketa lortzeko, ez proiektu horren aurrerapena zehatz-mehatz jarraitzeko. 
 
-WBS bat eraikitzea epe luzean egin ohi den prozesu intentsiboa da eta askotariko jendearen lankidetza eta informazioa eskatzen ditu. Gai honetan deskribatzen da WBS hobekuntzak nola erabil ditzakezun kalkuluen eta jarraipenaren baldintzak betetzeko.
+WBS bat eraikitzea epe luzean egin ohi den prozesu intentsiboa da eta askotariko jendearen lankidetza eta informazioa eskatzen ditu. Artikulu honek WBS hobekuntzak nola erabil ditzakezun deskribatzen du aurrekontuak eta jarraipena egiteko zure eskakizunak betetzeko.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS bat sortzeko aurrebaldintzak
 WBS bat sortzeko, lan egutegia sortu eta lanaren kostua kalkulatu behar duzu.
@@ -166,7 +166,7 @@ Finantzak hiru ikuspegi ditu proiektu baten WBSrako: Plangintza ikuspegia, Esfor
 
 ### <a name="planning-view"></a>Plangintza ikuspegia
 
-Planifikazio ikuspegian, ordutegiaren eta kostuen informazioaren aurreikusitako edo oinarrizko estimazioa bistaratzen da. Proiektuaren WBS baten bertsioaren eta oinarrizko lerroaren jarraipena egiteko ezaugarririk ez badago ere, ikuspegi honetako balioak oinarrizko lerroaren bertsioa irudikatzeko pentsatuta daude. Gai honetako Ordutegien estimazioa eta Kostuen estimazioa atalek ikuspegi hau eta WBS bat sortzeko nola erabiltzen den deskribatzen dute.
+Planifikazio ikuspegian, ordutegiaren eta kostuen informazioaren aurreikusitako edo oinarrizko estimazioa bistaratzen da. Proiektuaren WBS baten bertsioaren eta oinarrizko lerroaren jarraipena egiteko ezaugarririk ez badago ere, ikuspegi honetako balioak oinarrizko lerroaren bertsioa irudikatzeko pentsatuta daude. Artikulu honetako Programazioaren estimazioa eta Kostuen estimazioa atalek ikuspegi hau eta WBS bat sortzeko nola erabiltzen den deskribatzen dute.
 
 ### <a name="effort-tracking-view"></a>Ahaleginen segimenduaren ikuspegia
 

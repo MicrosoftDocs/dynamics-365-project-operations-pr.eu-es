@@ -1,17 +1,17 @@
 ---
 title: Saltzaileen eta erosketa prezioen zerrenden kudeaketa Project Operations-en
-description: Gai honek saltzailearen datuak eta azpikontrataziorako erosketa prezioen zerrendak sortzen eta mantentzen lagunduko dizun informazioa eskaintzen du.
+description: Artikulu honek saltzaileen datuak sortzen eta mantentzen lagunduko dizun informazioa eskaintzen du eta azpikontrataziorako erosteko prezioen zerrendak.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 9c76d5ca45e03167f0ccfd2c1c7013f91fef0f86
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6840ffcbc510fe6385dd3fdaf881e9700c4fdd18
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914111"
 ---
 # <a name="vendor-and-purchase-price-list-management-in-project-operations"></a>Saltzaileen eta erosketa prezioen zerrenden kudeaketa Project Operations-en
 

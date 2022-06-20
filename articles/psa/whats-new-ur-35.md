@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 35, V3 bertsioko berrikuntzak edo aldaketak
-description: Gai honetan eskuragarri dauden eginbideak eta konponketak zerrendatzen dira Microsoft Dynamics 365 Project Service Automation Eguneratu 35. bertsioa, V3.
+description: Artikulu honetan eskuragarri dauden funtzioak eta konponketak zerrendatzen dira Microsoft Dynamics 365 Project Service Automation Eguneratu 35. bertsioa, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/03/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e210777f1e4d149b700721ac7fb9bd129b1166fe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 28b4a5ccbfff83c9b1a18cb0b4062af9cdaf8f6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912823"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-35-v3"></a>Project Service Automation eguneratzearen 35, V3 bertsioko berrikuntzak edo aldaketak
 
@@ -29,7 +29,7 @@ ms.locfileid: "8574013"
 
 Pozik gaude egunkariaren azken eguneratzea iragarriz Microsoft Dynamics 365 Project Service Automation aplikazioa. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Dynamics 365 9.x-rekin bateragarria da. Bertsio hau eguneratzeko, bisitatu Admin Zentroa Dynamics 365 lineako soluzioen orria eta instalatu eguneratzea. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Gai honek Project Service Automation 35, V3 eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.56.110 sorrera-zenbakia du eta orokorrean 2021eko irailean auto-eguneratze baten bidez eskuragarri dago.
+Artikulu honek Project Service Automation Update Release 35, V3rako berriak diren edo aldatu diren eginbide eta konponketak zerrendatzen ditu. Bertsio honek V3.10.56.110 sorrera-zenbakia du eta orokorrean 2021eko irailean auto-eguneratze baten bidez eskuragarri dago.
 
 ## <a name="update-release-35"></a>35. eguneratze-bertsioa
 

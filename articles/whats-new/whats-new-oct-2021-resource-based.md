@@ -1,24 +1,24 @@
 ---
 title: Zer berri 2021eko urria - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-description: Gai honek 2021eko urriko baliabideetan/izakinik ezan oinarritutako egoeretarako Project Operations bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du.
+description: Artikulu honek Project Operations-en 2021eko urriko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4dc5cc9a5842a02338b99c7c8d707bc0b81c74a1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598473"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914622"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Zer berri 2021eko urria - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
 
 *Honi aplikatzen zaio: Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations*
 
-Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
+Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
 
    - Project Operations Microsoft Dataverse inguruneko bertsioan 4.25.0.91
    - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.21 bertsioan

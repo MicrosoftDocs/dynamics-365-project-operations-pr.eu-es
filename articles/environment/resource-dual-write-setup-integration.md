@@ -1,55 +1,55 @@
 ---
 title: Project Operations-en konfigurazioa eta konfigurazio-datuen integrazioa
-description: Gai honek Project Operations idazketa bikoitzeko esleipenak konfiguratzeari buruzko informazioa eskaintzen du.
+description: Artikulu honetan Project Operations-en idazkera dualeko mapak nola konfiguratu eta konfiguratu adierazten da.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914525"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations-en konfigurazioa eta konfigurazio-datuen integrazioa
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Gai honek Project Operations idazketa bikoitzeko integrazioari buruzko informazioa eskaintzen du entitateak konfiguratzeko.
+Artikulu honetan, Instalazio- eta konfigurazio-erakundeentzako Project Operations-en eskritura dualaren integrazioari buruzko informazioa ematen da.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Proiektu-kontratuak, kontratuaren lerroak eta proiektuak
 
-Proiektu-kontratuak, kontratu-lerroak eta proiektuak urtean sortzen dira Dataverse eta Finantza eta Operazio aplikazioekin sinkronizatuta kontabilitate gehigarrirako. Erakunde horietako erregistroak hemen bakarrik sortu eta ezabatu daitezke Dataverse-n. Hala ere, kontabilitate-atributuak, hala nola, salmenta-zergaren talde lehenetsiak eta finantza-dimentsioak gehi daitezke erregistro horietara Finantza eta Eragiketak aplikazioetan.
+Proiektu-kontratuak, kontratu-lerroak eta proiektuak kontabilitate gehigarri baterako Finantza eta Eragiketen aplikazioekin Dataverse sortu eta sinkronizatzen dira. Erakunde horietako erregistroak hemen bakarrik sortu eta ezabatu daitezke Dataverse-n. Hala ere, kontabilitate-atributuak, hala nola salmenten gaineko zergen taldearen aurrez zehaztutako balioak eta finantza-dimentsioak, erregistro horiei Finantzak eta Eragiketak aplikazioetan erans daitezke.
 
   ![Proiektuko kontratua integratzeko kontzeptuak.](./media/1ProjectContract.jpg)
 
-Salmenta-jarduerak, aukerak eta aurrekontuak egiten dira jarraipena Dataverse eta ez sinkronizatu Finantza eta Operazioen aplikazioekin, ez baitago jarduera honekin lotutako beheranzko kontabilitaterik.
+Bezero potentzialak, salmenta-jardueraren aukerak eta kotizazioak arakatzen dira eta ez dira sinkronizatzen Dataverse Finantza eta Eragiketen aplikazioekin, ez baitago geroko kontabilitaterik jarduera horrekin lotuta.
 
-Proiektuaren kontratuaren funtzionaltasuna Dataverse proiektu-kontratu-erregistro bat sortzen du Finantza eta Operazioen aplikazioetan **Proiektu-kontratuaren goiburuak (salmenta-eskaerak)** mahai mapa. Urtean proiektuaren kontratua gordetzea Dataverse-n, proiektuaren kontratuaren bezeroen entitate erregistroa sortzen hasten da. Erregistro hau Finantza eta Operazioen aplikazioekin sinkronizatuta dago **Proiektuaren finantzaketa iturria (msdyn\_ proiektu-kontratuak banatzeko fakturazio-arauak)** mahai mapa. Mapa honek proiektuaren kontratuaren bezeroen gehikuntzak, eguneratzeak eta ezabatzeak ere sinkronizatzen ditu. Proiektu-kontratuko bezeroen arteko fakturazio-portzentajeak bakarrik menderatzen dira Dataverse eta ez dago sinkronizatuta Finantza eta Operazioen aplikazioekin.
+Proiektu-kontratuaren Dataverse funtzionaltasuna, Finance and Operations-en aplikazioetan proiektu-kontratuaren erregistro bat sortzen duena, proiektu-kontratuaren taula-maparen bidez **(salmenta-eskaerak**). Urtean proiektuaren kontratua gordetzea Dataverse-n, proiektuaren kontratuaren bezeroen entitate erregistroa sortzen hasten da. Erregistro hori Finance and Operations-en aplikazioekin sinkronizatzen da, proiektuaren finantzaketa-jatorriko taula-maparen bidez **(msdyn\_ projectcontractssplitbillingrules**). Mapa honek proiektuaren kontratuaren bezeroen gehikuntzak, eguneratzeak eta ezabatzeak ere sinkronizatzen ditu. Proiektu-kontratuetako bezeroen artean banatutako fakturazio-ehunekoak Finantza eta Eragiketen aplikazioetan Dataverse bakarrik menderatzen dira, eta ez dira horiekin sinkronizatzen.
 
-Proiektu-kontratua sortu ondoren Dataverse, proiektuko kontu-hartzaileak proiektu-kontratu honen kontabilitate-atributuak egunera ditzake Finantza eta Eragiketak aplikazioetan, helbidera joanez.**Proiektuen kudeaketa eta kontabilitatea** > **Proiektu-kontratuak** > **Konfiguratu** > **Erakutsi lehenetsitako kontabilitatea**. Kontu-hartzaileak proiektu operatiboko kontratu-atributuak berrikus ditzake, hala nola eskatutako entrega-data eta kontratuaren zenbatekoa, proiektu-kontratuaren IDa hautatuz Finantza eta Operazioen aplikazioetan, eta horrek erlazionatutako proiektu-kontratuaren erregistroa irekitzen du.Dataverse.
+Proiektu-kontratu Dataverse bat sortu ondoren, proiektu-kontagailuak proiektu-kontratu honen kontabilitate-atributuak eguneratu ditzake Finantza- eta eragiketa-aplikazioetan, **eta proiektu-kontratuak** > **eta kontabilitatea** > **aurrez zehaztutako kontabilitatea** > **erakus** ditzake. Kontagailuak proiektu operatiboaren kontratuaren atributuak berrikusi ditzake, hala nola eskatutako entrega-data eta kontratuaren zenbatekoa, eta proiektuaren kontratuaren IDa hautatu dezake, finantza- eta eragiketa-aplikazioetan, zeinak proiektu horren Dataverse kontratuaren erregistroa irekitzen baitu.
 
-Proiektuaren entitatea Finantza eta Operazioen aplikazioekin sinkronizatuta dago **Proiektuak V2 (msdyn\_ proiektuak)** mahai mapa. Proiektuaren kontulariak hau egin dezake:
+Proiektuaren garrantzia Finance and Operations-en aplikazioekin sinkronizatzen da Projects V2 (msdyn **projects\_) taula-maparen bidez**. Proiektuaren kontulariak hau egin dezake:
 
-  - Berrikusi proiektuak Finantza eta Operazioen aplikazioetan helbidera joanda **Proiektuen kudeaketa eta kontabilitatea** > **Proiektu guztiak**. 
-  - Eguneratu proiektuaren kontabilitate-atributuak Finantza eta Eragiketak aplikazioetan helbidera joanez **Proiektuen kudeaketa eta kontabilitatea** > **Proiektu guztiak** > **Konfiguratu** > **Erakutsi lehenetsitako kontabilitatea**.  
-  - Berrikusi proiektu operatiboen atributuak, hala nola, hasiera eta amaiera data estimatuak, proiektuaren IDa hautatuz Finantza eta Operazioen aplikazioetan eta horrek erlazionatutako proiektuaren erregistroa irekitzen du.Dataverse.
+  - Proiektuak Finantza eta Eragiketen aplikazioetan berrikusten ditu, eta proiektu **guztiak kudeatu** > **eta kontabilitatera** joan. 
+  - Proiektuaren kontabilitate-ezaugarriak finantza- eta eragiketa-aplikazioetan eguneratzen ditu, eta administraziora eta proiektuen **kontabilitatera** > **joanez, aurrez** > **zehaztutako kontabilitatea** > **erakustea.**  
+  - Aztertu proiektuaren ezaugarri operatiboak, hala nola hasierako eta amaierako data zenbatetsiak, eta proiektuaren identifikatzailea hautatu behar da Finantza aplikazioetan eta eragiketetan, hau da, proiektu horren erregistroa irekitzen duten eragiketetan Dataverse.
 
 Proiektu bat proiektuaren kontratuarekin lotzen da **Proiektuaren kontratu lerroa** entitatea.
 
-Proiektuaren kontratu lerroak Dataverse proiektu-kontratuaren fakturazio-arau bat sortzen du Finantza eta Operazioen aplikazioetan **Proiektuaren kontratu lerroak (salmenta eskaeraren xehetasunak)** mahai mapa. Fakturazio-metodoak proiektuaren kontratuaren fakturazio-arau mota definitzen du Finantza eta Operazioen aplikazioetan:
+Proiektu-kontratuko lineak, Finance and Operations aplikazioetan Dataverse proiektu-kontratuaren fakturazio-arau bat sortzen ari dira, project (salesorderdetails **) kontratu-linearen taula-maparen bidez**. Fakturazio-metodoak proiektuaren kontratuaren fakturazio-arau mota definitzen du Finance and Operations aplikazioetan:
 
   - Proiektuen kontratu lerroek fakturazio denborarekin eta materialarekin metodoak denbora eta material motaren fakturazio araua sortzen dute.
   - Prezio finkoaren fakturazio metodoaren kontratu lerroek mugarri fakturazio araua sortzen dute.
 
-Proiektuaren kontratu-lerroak proiektuko kontu-hartzaileak Finantza eta Eragiketen aplikazioetan berrikusi ditzake hona joanez **Proiektuen kudeaketa eta kontabilitatea** > **Proiektu-kontratuak** > **Konfiguratu** > **Erakutsi lehenetsitako kontabilitatea**, eta xehetasunak berrikustea **Kontratu-lerroak** fitxa. Kontu-hartzaileak prezio finkoko fakturazio metodoaren kontratu-lerroetarako finantza-dimentsio lehenetsiak ere ezar ditzake fitxa honetan.
+Proiektu-kontagailuak Finantza- eta eragiketa-aplikazioetako kontratu-ildoak berrikusi ditzake, proiektu-kontratuak eta **proiektu-kontratuak** > **·** > **kudeatuz** > **, aurrez zehaztutako kontabilitatea** erakutsiz eta kontratu-lineen **xehetasunak** berrikusiz. Kontagailuak, halaber, betile honetan prezio finkoko fakturazioaren metodoaren kontratu-lerroetarako aurrez zehaztutako finantza-dimentsioak ezar ditzake.
 
 ## <a name="billing-milestones"></a>Fakturazio-mugarriak
 
-Prezio finkoko fakturazio metodoa erabiliz proiektuen kontratu lerroak fakturazio mugarrien bidez fakturatzen dira. Fakturazio-mugarriak Finantza eta Operazioen aplikazioetan kontuko transakzioak proiektatzeko sinkronizatuta daude **Project Operations integrazio-kontratuaren lerroaren mugarriak (msdyn\_ kontratu-lerroen balio-egutegia)** mahai mapa.
+Prezio finkoko fakturazio metodoa erabiliz proiektuen kontratu lerroak fakturazio mugarrien bidez fakturatzen dira. Fakturazio mugarriak Finance and Operations aplikazioetan konturako proiektuaren transakzioekin sinkronizatzen dira, Project Operations (msdyn **contractlinescheduleofvalues) integrazio-kontratuko linea-lerroko mugarri-taulen maparen \_ bidez.**
 
   ![Fakturazio-mugarrien integrazioa.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ Proiektu jakin baten kontratu lerroaren fakturazio mugarria lehenengo aldiz sort
 
 ### <a name="project-tasks"></a>Proiektuen zereginak
 
-Proiektuaren zereginak Finantza eta Operazioen aplikazioekin sinkronizatzen dira **Proiektuaren zereginak (msdyn\_ proiektuko zereginak)** taula-mapa erreferentzia helburuetarako soilik. Eragiketak sortu, eguneratu eta ezabatzea ez da onartzen Finantza eta Operazioen aplikazioen bidez.
+Proiektuaren lanak Finance and Operations-en aplikazioekin sinkronizatzen dira, proiektuaren Tareas (msdyn **projecttasks)\_ taula-maparen** bidez, erreferentzia-helburuekin soilik. Eragiketak sortu, eguneratu eta ezabatzea ez da onartzen Finance and Operations aplikazioetan.
 
   ![Proiektu-zereginak integratzea.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Proiektuko baliabideak
 
-The **Proiektuaren baliabideen rolak** entitatea Finantza eta Operazioen aplikazioekin sinkronizatuta dago **Proiektu-baliabideen rolak enpresa guztientzat (erreserbagarriak diren baliabide-kategoriak)** taula-mapa erreferentzia helburuetarako soilik. Baliabideen rolak baita Dataverse ez dira enpresaren espezifikoak, sistemak automatikoki sortzen ditu enpresaren berariazko baliabide-rolen erregistroak Finantza eta Operazioen aplikazioetan automatikoki idazketa bikoitzeko integrazio-esparruan sartutako entitate juridiko guztientzat.
+**Project-en baliabideen erakunde rolak** Finance and Operations-en aplikazioekin sinkronizatzen dira, enpresa guztientzat Project-en baliabideen taula Rolesen maparen bidez **(bookableresourcecategories),** erreferentzia-helburuetarako bakarrik. Baliabide-rolak Dataverse enpresarenak ez direnez espezifikoak, sistemak automatikoki sortzen ditu finance and Operations-en aplikazioetan enpresaren baliabide espezifikoen rolen erregistroak, eskritura dualaren integrazio-eremuan sartzen diren erakunde juridiko guztientzat.
 
 ![Baliabide-rolen integrazioa.](./media/5Resources.jpg)
 
-Proiektuaren Eragiketetan proiektuko baliabideak bertan mantentzen dira Dataverse eta ez daude sinkronizatuta Finantza eta Operazioen aplikazioekin.
+Proiektuaren baliabideak mantendu egiten dira eta ez dira finantza eta Dataverse operazio aplikazioekin sinkronizatzen.
 
 ### <a name="transaction-categories"></a>Transakzio-kategoriak
 
-Transakzio kategoriak mantentzen dira Dataverse eta Finantza eta Operazioen aplikazioekin sinkronizatuta dago **Proiektuaren transakzio kategoriak (msdyn\_ transakzio-kategoriak)** mahai mapa. Transakzio kategoria erregistroa sinkronizatu ondoren, sistemak automatikoki lau kategoria erregistro partekatu sortzen ditu. Erregistro bakoitza Finantza eta Operazioen aplikazioetako transakzio mota bati dagokio eta transakzio kategoriako erregistroarekin lotzen ditu.
+Transakzioen kategoriak mantendu eta sinkronizatzen Dataverse dira Finance and Operations aplikazioekin, project (msdyn **transactioncategories\_) transakzioen taula-maparen bidez**. Transakzio kategoria erregistroa sinkronizatu ondoren, sistemak automatikoki lau kategoria erregistro partekatu sortzen ditu. Erregistro bakoitza Finance and Operations aplikazioen transakzio mota bati dagokio, eta transakzio-kategoriako erregistroarekin lotzen ditu.
 
 ![Transakzio-kategorien integrazioa.](./media/4TransactionCategories.jpg)
 

@@ -1,23 +1,23 @@
 ---
 title: Metodoak osatzeko kostua
-description: Gai honek proiektu bat osatzeko kostua kalkulatzeko erabilitako metodoei buruzko informazioa eskaintzen du.
+description: Artikulu honetan proiektu bat osatzeko kostua kalkulatzeko erabilitako metodoei buruzko informazioa ematen da.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601647"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920275"
 ---
 # <a name="cost-to-complete-methods"></a>Metodoak osatzeko kostua
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Gai honek proiektu bat osatzeko kostua kalkulatzeko erabilitako metodoei buruzko informazioa eskaintzen du. Proiektu bat osatzeko kostua kalkulatzeko erabil ditzakezun hainbat metodo daude. 
+Artikulu honetan proiektu bat osatzeko kostua kalkulatzeko erabilitako metodoei buruzko informazioa ematen da. Proiektu bat osatzeko kostua kalkulatzeko erabil ditzakezun hainbat metodo daude. 
 
 Proiektu baten aurrekontua sortzen duzunean, **Sortu aurrekontua** orrialdean, **Metodoa osatzeko kostua** eremuan, metodo hau osatzeko kostu hauetako bat hauta dezakezu.
 

@@ -1,6 +1,6 @@
 ---
 title: Produktuetan oinarritutako eskaintzaren lerroak
-description: Gai honek eskaintza eta produktuetan oinarritutako lerroei buruzko informazioa ematen du.
+description: Artikulu honek produktuetan oinarritutako aurrekontu-lerroei buruzko informazioa eskaintzen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54431b96f6bcc66b68c0f01c15c820cec1998963
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a5385e1bb0f18a7cc1d23f4e46c86d8340ba951d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600681"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922667"
 ---
 # <a name="product-based-quote-lines"></a>Produktuetan oinarritutako eskaintzaren lerroak
 

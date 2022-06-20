@@ -1,17 +1,17 @@
 ---
 title: Konfiguratu eta aplikatu konfigurazio-datuak Common Data Service-n
-description: Gai honek Project Operations-eko konfigurazio-datuak konfiguratzeari eta aplikatzeari buruzko informazioa eskaintzen du.
+description: Artikulu honetan, proiektu-eragiketetan konfigurazio-datuak nola konfiguratu eta aplikatzeko informazioa ematen da.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594701"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928003"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfiguratu eta aplikatu konfigurazio-datuak Common Data Service-n 
 
@@ -23,8 +23,8 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 Datuak konfiguratzen hasi aurretik Common Data Service (CDS), honako baldintza hauek bete behar dira:
 
-1.  Hornitu CDS ingurune bat eta Dynamics 365 Finance ingurune bat Proiektu Eragiketetarako.
-2.  Dynamics 365 Finance-eko entitate juridikoaren informazioa CDS ingurunearekin partekatzen da. Horrek esan nahi du **Enpresa** CDS erakundeak konpainiaren erregistro hauek ditu:
+1.  CDS ingurunea eta Dynamics 365 Finance ingurua hornituko ditu proiektuaren operazioetarako.
+2.  Dynamics 365 Finance-ko pertsona juridikoen informazioa CDSren inguruan partekatzen da. Horrek esan nahi du **Enpresa** CDS erakundeak konpainiaren erregistro hauek ditu:
   - THPM
   - USPM
   - GBPM

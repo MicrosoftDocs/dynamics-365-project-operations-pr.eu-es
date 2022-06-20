@@ -1,6 +1,6 @@
 ---
 title: Sortu eremu eta entitate pertsonalizatuak
-description: Gai honetan Power Apps plataformako soluzioan aukera multzoak eta entitateak nola sortu azaltzen da.
+description: Artikulu honek zure irtenbidean aukera-multzoak eta entitateak nola sortu azaltzen du Power Apps plataforma.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574369"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926899"
 ---
 # <a name="create-custom-fields-and-entities"></a>Sortu eremu eta entitate pertsonalizatuak 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Jarraitu urrats hauei aukera multzo edo entitate pertsonalizatu bat sortu nahi duzunean Power Apps plataforman.  
-Gai honetako prozedurak Project Service Automation-en (PSA) web interfazea erabiliz osatu behar dira.
+Artikulu honetako prozedurak Project Service Automation (PSA) web interfazea erabiliz burutu behar dira.
 
 > [!IMPORTANT]
 > Gomendatzen dugu prezio-dimentsio pertsonalizatuen aldaketa guztiak soluzio bereizi batean egitea. Praktika on garrantzitsu honek etorkizunean malgutasuna eskaintzen du aldaketak eguneratzeko edo kentzeko, zure lana berrerabiltzen lagunduko du eta aldaketak beste instantzia batera eramatea erraztuko du. Beharrezko aldaketa guztiak egin ondoren, esportatu soluzioa **kudeatutako soluzio** gisa, eta inportatu beste instantzia batzuetan zure prezioen konfigurazioa berrerabiltzeko.

@@ -1,17 +1,17 @@
 ---
 title: Eman izena Project Operations-en aurrebista harpidetzak baliabideetan / hornitu gabeko agertokietan
-description: Gai honek Project Operations-era harpidetzeko eta hedatzeko moduari buruzko informazioa eskaintzen du berreskuratutako / stockean oinarritutako eszenatokietarako.
+description: Artikulu honek baliabideetan edo hornituta ez dauden agertokietarako Proiektu-eragiketak harpidetu eta inplementatzeari buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920091"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Eman izena Project Operations-en aurrebista harpidetzak baliabideetan / hornitu gabeko agertokietan
 
@@ -19,7 +19,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 
 
-Gai honetan azaltzen da nola harpidetu probako eskaintzan eta nola zabaldu Project Operations ingurunea baliabideetan / stockean oinarritutako eszenatokietan.
+Artikulu honek froga-eskaintzara nola harpidetu eta Project Operations ingurunea baliabideetan edo hornituta ez dauden agertokietarako nola inplementatu azaltzen du.
 
 ## <a name="prerequisites"></a>Aurrebaldintzak
 - Aurrebista zabaltzen duen erabiltzaileak Azure maizter administratzaile eskubide orokorrak izan behar ditu. Maizterra sor dezakezu lehenengo eskaintzaren amortizazioan. 
@@ -60,19 +60,19 @@ Joan [Dynamics 365 for Finance aurrebista proba](https://aka.ms/trypoche) eta er
 
 ## <a name="start-a-new-project-in-lcs"></a>Sortu proiektua LCS-n
 
-Sortu LCS proiektu berria gaian azaltzen den moduan, [Hasi proiektu berri bat LCSn](create-lcs-project.md)
+Sortu LCS proiektu berri bat artikuluan azaltzen den moduan, [Hasi proiektu berri bat LCSn](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Gehitu Azure harpidetza LCS proiektu batean
 
-Zeregin hori burutzeko, jarraitu gaiaren urratsak, [Gehitu Azure harpidetza LCS proiektuari](resource-add-azure-subscription-lcs-project.md).
+Zeregin hau burutzeko, jarraitu artikuluko urratsak, [Gehitu Azure harpidetza bat LCS proiektuan](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Inplementatu Finantza demo ingurunea, Project Operations-ekin baliabideak/hornitu gabeko agertokietarako
 
-Jarraitu gaiaren argibideak, [Ingurune berria hornitzea](resource-provision-new-environment.md) hedapena osatzeko. Erabili [demo-ingurunea](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) inplementazio mota aurrebistarako. 
+Jarraitu artikuluko jarraibideak, [Ingurune berri bat hornitzea](resource-provision-new-environment.md) hedapena osatzeko. Erabili [demo-ingurunea](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) inplementazio mota aurrebistarako. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalatu CDS konfigurazioa eta konfigurazio-datuak
 
-Instalatu CDS konfigurazio eta konfigurazio datuak gaian deskribatutako moduan, [Konfiguratu eta aplikatu konfigurazio datuak Common Data Service](resource-apply-pro-setup-config-data.md).
+Instalatu CDS konfigurazio eta konfigurazio datuak artikuluan azaltzen den moduan, [Konfiguratu eta aplikatu konfigurazio datuak Common Data Service](resource-apply-pro-setup-config-data.md).
 Egin urrats hau Finantzako demo ingurunea inplementatu eta demo datuak prest egon ondoren.
 
 

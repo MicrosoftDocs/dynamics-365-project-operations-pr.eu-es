@@ -1,6 +1,6 @@
 ---
 title: Kapturatu ordainagiriak OCR erabiliz
-description: Gai honetan ordainagirien karaktereen ezagutza optikoa (OCR) prozesatzeari buruzko informazioa ematen da.
+description: Artikulu honek ordainagirien karaktereen ezagutza optikoko (OCR) prozesatzeari buruzko informazioa eskaintzen du.
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ee16a43fa544af793676072f304d732359d3d9ec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596265"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917763"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Kapturatu ordainagiriak OCR erabiliz
 
@@ -85,15 +85,15 @@ Ez, Microsoft-ek Ikaskuntza automatiko eredu orokorra eraiki du ordainagiriak pr
 
 **Non dago erabilgarri eta prozesatu eginbide hau?**
 
-Eskualde ezberdinetan funtzio honen erabilgarritasuna hurrengo taulan ageri da. Zure eskualdea ez bada onartzen, bidali eskaera zure eskualdeko OCR zerbitzuaren erabilgarritasunari lehentasuna emateko. 
+Ezaugarri horren erabilgarritasuna hainbat eskualdetan hurrengo taulan zerrendatzen da. Bere eskualdea gaur egun bateragarria ez bada, bidali eskaera bat bere eskualdean OCR zerbitzuaren erabilgarritasuna lehenesteko. 
 
 | Eskualdea | Onartzen da                         |
 |--------|-----------------------------------|
-| AEB    | Yes                               |
+| ESTATU BATUAK    | Yes                               |
 | CAN    | Yes                               |
 | Erresuma Batua     | Yes                               |
 | AUS    | Yes                               |
-| EB     | Partzialki. Ingelesezko ordainagiriak soilik. |
+| EB     | Partzialki. Ingelesezko ordainagiriak besterik ez. |
 | Asia   | No                                |
 | Japonia  | No                                |
 | Afrika | No                                |

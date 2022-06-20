@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren denbora sartzeko mugikorreko lan eremua
-description: Gai hori emateko informazioa buruz Proiektuaren denbora-sarreran mugikorreko laneko area. Laneko espazio honi esker, erabiltzaileek proiektu baten aurka sartu eta denbora aurrez dezakete beren gailu mugikorra erabiliz.
+description: Artikulu honek Project time sarrera mugikorreko lan-eremuari buruzko informazioa eskaintzen du. Laneko espazio honi esker, erabiltzaileek proiektu baten aurka sartu eta denbora aurrez dezakete beren gailu mugikorra erabiliz.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
-ms.translationtype: MT
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919519"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Proiektuaren denbora sartzeko mugikorreko lan eremua
 
 [!include [banner](../includes/banner.md)]
 
-Gai horrek informazioa ematen du **Proiektuaren sarrerako ordua** buruz mugikorreko lan-eremua. Laneko espazio honi esker, erabiltzaileek proiektu baten aurka sartu eta denbora aurrez dezakete beren gailu mugikorra erabiliz.
+Artikulu honek honi buruzko informazioa eskaintzen du **Proiektuaren denbora sarrera** laneko gune mugikorra. Laneko espazio honi esker, erabiltzaileek proiektu baten aurka sartu eta denbora aurrez dezakete beren gailu mugikorra erabiliz.
 
 Mugikorretarako lan-espazio hau Dynamics 365 Unified Ops mugikorretarako aplikazioarekin erabiltzeko pentsatuta dago. 
 

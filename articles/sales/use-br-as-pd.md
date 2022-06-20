@@ -1,26 +1,26 @@
 ---
 title: Erabili baliabide erreserbagarriak prezio-dimentsio gisa
-description: Gai honek baliabide erreserbagarriak prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
+description: Artikulu honek erreserba daitezkeen baliabideak prezioen dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598612"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914801"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Erabili baliabide erreserbagarriak prezio-dimentsio gisa
 
  _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_ 
 
-Gai honek baliabide erreserbagarriak prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du. Zure prezio estrategia erreserbatzeko baliabide bakoitzak prezio edo kostu tasa jakin bat izan dezan konfiguratuta badago, erabili erreserbagarri den baliabide bat prezioen dimentsio gisa.
+Artikulu honek erreserba daitezkeen baliabideak prezioen dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du. Zure prezio estrategia erreserbatzeko baliabide bakoitzak prezio edo kostu tasa jakin bat izan dezan konfiguratuta badago, erabili erreserbagarri den baliabide bat prezioen dimentsio gisa.
 
 ## <a name="prerequisites"></a>Aurrebaldintzak
-Gai honetako prozedurak amaitu aurretik, prezioen dimentsio irtenbide berri bat izan behar duzu zure erakundearentzat. Oraindik sortu ez baduzu, ikusi [Sortu eremu eta entitate pertsonalizatuak](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Artikulu honetako prozedurak osatu aurretik, prezioen dimentsioko irtenbide berri bat izan behar duzu zure erakundearentzat. Oraindik sortu ez baduzu, ikusi [Sortu eremu eta entitate pertsonalizatuak](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Gehitu Baliabide erreserbagarria eremua inprimakietan eta ikuspegietan
 **Baliabide erreserbagarria** eremua prezioen dimentsioaren irtenbidean ikusgai egiteko, eremua entitate gisa forma eta ikuspegi guztietara gehitu behar duzu.

@@ -1,22 +1,22 @@
 ---
 title: 2021eko otsaileko berrikuntzak - Project Operations-en inplementazio arina
-description: Gai honek informazioa eskaintzen du 2021eko otsailaren Project Operations inplementazio arinaren bertsioan eskuragarri dauden kalitate-eguneratzeei buruz.
+description: Artikulu honetan, Project Operations lite-ren ezarpenaren 2021eko otsaileko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa ematen da.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 139494962562aaaf005e116f02bcd41db58eea27
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 329bc31ad4c0958fe60e73b257e6b4c262bb60f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574599"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914019"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>2021eko otsaileko berrikuntzak - Project Operations-en inplementazio arina
 
-Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
+Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
 
   - Project Operations Dataverse ingurunearen 4.7.0.95 bertsioa
 

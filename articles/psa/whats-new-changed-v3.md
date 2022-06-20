@@ -1,6 +1,6 @@
 ---
 title: Zer den berria edo zer aldatu den Project Service Automation-en 3. bertsioan
-description: Gai honek Project Service Automation-en 3. bertsioan berria denari eta aldatu denari buruzko informazioa eskaintzen du.
+description: Artikulu honetan Project Service Automation 3 bertsioko berrikuntzei eta aldaketei buruzko informazioa ematen da.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581637"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926577"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Zer den berria edo zer aldatu den Project Service Automation-en 3. bertsioan
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581637"
 
 
 
-Gai honek erabiltzaile-interfazeari (UI), funtzionaltasunari eta terminologiari buruzko informazioa eskaintzen du Project Service Automation-en 2. bertsioaren edo 1. bertsioaren eta 3. bertsioaren artean.
+Artikulu honetan, erabiltzailearen interfazearen aldaketei buruzko informazioa ematen da (UI), Project Service Automation-en funtzionaltasunari eta terminologiari buruz, 2 bertsioaren edo 1 bertsioaren eta 3 bertsioaren artean.
 
 ## <a name="project-scheduling"></a>Proiektuen antolaketa
 Proiektuaren antolaketak, aurreko bertsioetan Zereginen xehetasunen egitura (WBS) izenarekin ezagutzen zena, Antolaketa izena hartu du eta **Antolaketa** fitxan klik eginez atzitu daiteke. 
@@ -150,7 +150,7 @@ Zeregin baterako esleipenak erreserbarik gabe dituzunean (erreserba eskasia), ge
 Atal honetan Project Service Automation-en 3. bertsioko denborari, gastuei eta onarpenari buruzko informazioa ematen da. Dynamics 365 Project Service Automation soluzioko zati gisa, **Denbora-sarrera** eginbidea freskatu egin da Interfaze bateratu esparrua aprobetxatzeko. Horren bidez, edozein pantaila-tamaina edo gailutan ikusteko modu egokia lortzeko erabiltzaile-interfaze koherente eta uniformea eskaintzen da. 
 
 ### <a name="landing-page"></a>Helburu-orria
-Hedagarria ez den denbora-sarrera pertsonalizatuaren esperientzia zaharkitu egin da 3. bertsioan. Horren ordez, eskuragarri dago jatorrizko sareta esperientzia hedagarri eta atzigarria. Denbora-sarreraren funtzionalitatean sar zaitezke ezkerreko gunearen mapa erabiliz. Aldaketa horrekin, ezin izango duzu denbora sartu astean behin. Horren ordez, saretan egun bakoitzeko denbora-sarrera bat sortu beharko duzu. Zenbait denbora-sarrera sortu ondoren, erabiltzaileek denbora-sarrerak modu masiboan sor ditzakete gai honetan geroago azalduko den **Kopiatu** funtzioa erabiliz. 
+Hedagarria ez den denbora-sarrera pertsonalizatuaren esperientzia zaharkitu egin da 3. bertsioan. Horren ordez, eskuragarri dago jatorrizko sareta esperientzia hedagarri eta atzigarria. Denbora-sarreraren funtzionalitatean sar zaitezke ezkerreko gunearen mapa erabiliz. Aldaketa horrekin, ezin izango duzu denbora sartu astean behin. Horren ordez, saretan egun bakoitzeko denbora-sarrera bat sortu beharko duzu. Denbora-sarrera batzuk sortu ondoren, erabiltzaileek denbora-sarrerak sortu ditzakete, artikulu honetan aurrerago azaltzen den Kopiar **funtzioarekin**. 
 
 ![Denbora-sarrera helburu-orrian.](media/time-entry-landing-page-07.png)
  

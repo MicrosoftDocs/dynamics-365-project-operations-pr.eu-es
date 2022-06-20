@@ -1,24 +1,24 @@
 ---
 title: Editatu erreserbak
-description: Gai honek erreserbetan eguneratu eta aldaketak egiteko moduari buruzko informazioa eskaintzen du.
+description: Artikulu honek erreserben eguneratzeari eta aldaketak egiteko moduari buruzko informazioa ematen du.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594333"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915215"
 ---
 # <a name="edit-bookings"></a>Editatu erreserbak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 
-Lehendik dauden erreserbak eguneratzea eskatzen duten proiektuetan aldaketak gertatzen direnean, aldaketak egiteko hainbat modu daude. Gai honek erreserbak nola eguneratu eta aldaketak nola egin azaltzen du.
+Lehendik dauden erreserbak eguneratzea eskatzen duten proiektuetan aldaketak gertatzen direnean, aldaketak egiteko hainbat modu daude. Artikulu honek erreserben eguneratzea eta aldaketak nola egin azaltzen ditu.
 
 ## <a name="resource-reconciliation"></a>Baliabideen berdinkatzea
 

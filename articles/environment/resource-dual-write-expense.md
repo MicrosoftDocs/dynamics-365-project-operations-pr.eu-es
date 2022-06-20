@@ -1,24 +1,24 @@
 ---
 title: Gastu-kudeaketaren integrazioa
-description: Gai honek idazketa dualeko Project Operations-en gastuen txosten-integrazioari buruzko informazioa eskaintzen du.
+description: Artikulu honek gastu-txostenen integrazioari buruzko informazioa eskaintzen du Project Operations-en idazketa bikoitza erabiliz.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585777"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924599"
 ---
 # <a name="expense-management-integration"></a>Gastu-kudeaketaren integrazioa
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Gai honek idazketa dualeko Project Operations-en [gastu guztien inplementazioan](../expense/expense-overview.md) gastu-txostenen integrazioari buruzko informazioa eskaintzen du.
+Artikulu honek gastu-txostenen integrazioari buruzko informazioa eskaintzen du Proiektu Eragiketetan [gastuen hedapen osoa](../expense/expense-overview.md) idazkera bikoitza erabiliz.
 
 ## <a name="expense-categories"></a>Gastu-kategoriak
 

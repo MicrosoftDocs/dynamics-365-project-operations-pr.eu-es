@@ -1,6 +1,6 @@
 ---
 title: Baliabideen kudeaketaren orri nagusia
-description: Gai honek baliabideak kudeatzeko moduari buruzko informazioa eskaintzen du.
+description: Artikulu honek baliabideak kudeatzeko informazioa eskaintzen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578739"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913237"
 ---
 # <a name="resource-management-home-page"></a>Baliabideen kudeaketaren orri nagusia
 
@@ -31,7 +31,7 @@ ms.locfileid: "8578739"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Baliabideak dira zerbitzuetan oinarritutako erakunde baten aktibo garrantzitsuena. Baliabide egokiak une behar dituzunean bilatzeko eta erreserbatzeko gaitasunak, eta horiek erabiltzeko, erakundearen diru-sarreren helburuak eta bezeroen gogobetetze helburuak betetzen laguntzen du. Hurrengo gaietan Dynamics 365 Project Service Automation aplikazioko baliabide-kudeaketarako gaitasunak lantzen dira:
+Baliabideak dira zerbitzuetan oinarritutako erakunde baten aktibo garrantzitsuena. Baliabide egokiak une behar dituzunean bilatzeko eta erreserbatzeko gaitasunak, eta horiek erabiltzeko, erakundearen diru-sarreren helburuak eta bezeroen gogobetetze helburuak betetzen laguntzen du. Hurrengo artikuluak baliabideak kudeatzeko gaitasunetan zentratuta daude Dynamics 365 Project Service Automation:
 
 - [Kudeatu baliabideak](manage-resources.md)
 - [Gako-kontzeptuak](reports-key-concepts.md)

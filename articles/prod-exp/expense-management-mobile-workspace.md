@@ -1,6 +1,6 @@
 ---
 title: Gastuen kudeaketaren lan-eremu mugikorra
-description: Gai hori emateko informazioa buruz Gastuaren kudeaketaren mugikorreko laneko area. Laneko espazio horri esker, erabiltzaileek ordainagiria harrapatu eta kargatu dezakete, gero gastu-txosten batera erantsi ahal izateko. Erabiltzaileek ere azkar sor dezakete gastu lerro bat erantsitako ordainagiria erabiliz eta beren gastuen txostenak sortu eta kudeatu ditzakete.
+description: Artikulu honek Gastuen kudeaketa mugikorreko lan-eremuari buruzko informazioa eskaintzen du. Laneko espazio horri esker, erabiltzaileek ordainagiria harrapatu eta kargatu dezakete, gero gastu-txosten batera erantsi ahal izateko. Erabiltzaileek ere azkar sor dezakete gastu lerro bat erantsitako ordainagiria erabiliz eta beren gastuen txostenak sortu eta kudeatu ditzakete.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920873"
 ---
 # <a name="expense-management-mobile-workspace"></a>Gastuen kudeaketaren lan-eremu mugikorra
 
-Gai hori emateko informazioa buruz **Gastuaren kudeaketaren** mugikorreko laneko area. Laneko espazio horri esker, erabiltzaileek ordainagiria harrapatu eta kargatu dezakete, gero gastu-txosten batera erantsi ahal izateko. Erabiltzaileek ere azkar sor dezakete gastu lerro bat erantsitako ordainagiria erabiliz eta beren gastuen txostenak sortu eta kudeatu ditzakete. Gainera, onartzaileek **Gastuen kudeaketa** mugikorreko lan eremua, esleitzen zaizkien gastuen txostenak ikusteko eta gastu-txosten horiek onartzeko edo baztertzeko.
+Artikulu honek honi buruzko informazioa eskaintzen du **Gastuen kudeaketa** laneko gune mugikorra. Laneko espazio horri esker, erabiltzaileek ordainagiria harrapatu eta kargatu dezakete, gero gastu-txosten batera erantsi ahal izateko. Erabiltzaileek ere azkar sor dezakete gastu lerro bat erantsitako ordainagiria erabiliz eta beren gastuen txostenak sortu eta kudeatu ditzakete. Gainera, onartzaileek **Gastuen kudeaketa** mugikorreko lan eremua, esleitzen zaizkien gastuen txostenak ikusteko eta gastu-txosten horiek onartzeko edo baztertzeko.
 
 
 Mugikorretarako lan-espazio hau Dynamics 365 Unified Ops mugikorretarako aplikazioarekin erabiltzeko pentsatuta dago.

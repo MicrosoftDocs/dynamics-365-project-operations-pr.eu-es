@@ -1,18 +1,18 @@
 ---
 title: Konfiguratu izakinik gabeko materialak eta ordaindu gabeko saltzaileen fakturak
-description: Gai honetan hornitzen ez diren materialak eta zain dauden saltzaileen fakturak nola gaitu azaltzen da.
+description: Artikulu honek hornituta ez dauden materialak eta saltzaileen zain dauden fakturak nola gaitu azaltzen du.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592953"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913743"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfiguratu izakinik gabeko materialak eta ordaindu gabeko saltzaileen fakturak
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Exekutatu idazketa bikoitzeko mapak hornitu gabeko materialetarako eta saltzailearen fakturak integratzeko
 
-Atal honetan material ez hornituetarako eta saltzailearen fakturetarako beharrezkoak diren mapei buruzko informazioa ematen da. Egiaztatu zerrendan agertzen diren aurrebaldintza-mapak direla [Ingurune berria hornitzea](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) gaia zure ingurunean martxan dago.
+Atal honetan material ez hornituetarako eta saltzailearen fakturetarako beharrezkoak diren mapei buruzko informazioa ematen da. Egiaztatu dokumentuan zerrendatutako aurrebaldintza mapak [Ingurune berri bat hornitzea](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) artikulua zure ingurunean exekutatzen ari da.
 
 1. Joan Lifecycle Services (LCS) atalera, joan LCS proiektura eta joan **Ingurumenaren xehetasunak** orrialdea.
 2. **Common Data Service Ingurumenari buruzko informazioa** atalean, hautatu **Estekatu Aplikazioetarako CDS**. Esteka hautatu ondoren, mapen entitateen zerrendara birbideratuko zaituzte.

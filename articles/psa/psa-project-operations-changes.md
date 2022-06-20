@@ -1,6 +1,6 @@
 ---
-title: Eginbide aldaketak Project Service Automationetik Project Operationsetara
-description: Gai honek Project Service Automation-era eginbide-aldaketen ikuspegi orokorra eskaintzen du Dynamics 365 Project Operations.
+title: Project Service Automation-etik Project Operations-erako eginbideen aldaketak
+description: Artikulu honetan Project Service Automation a ren ezaugarri-aldaketei buruzko informazio orokorra ematen da Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,88 +16,88 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595391"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925335"
 ---
-# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Eginbide aldaketak Project Service Automationetik Project Operationsetara
+# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Project Service Automation-etik Project Operations-erako eginbideen aldaketak
 
-Bertatik eguneratzea Dynamics 365 Project Service Automation to Dynamics 365 Project Operations Lite hiru fasetan emango da. Gai honek bertsio berritzea amaitzean ikusiko dituzun aldaketa nagusiei buruzko informazioa eskaintzen du.
+Literen eguneratzea Dynamics 365 Project Service Automation Dynamics 365 Project Operations hiru fasetan emango da. Artikulu honetan, eguneraketa osatzen denean ikusi artean izan ditzakeen aldaketa nagusiei buruzko informazioa ematen da.
 
-| Berritu entrega | 1. fasea <br>(2022ko urtarrila) | 2. fasea <br>(2022ko apirileko olatua) | 3. fasea  |
+| Eguneratzeak ematea | 1. fasea <br>(2022ko urtarrila) | 2. fasea <br>(2022ko apirileko olatua) | 3. fasea  |
 |------------------|------------------------|---------------------------|---------------------------|
-| Proiektuen lanaren banaketa egituraren (WBS) menpekotasunik ez. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| WBS gaur egun onartzen diren proiektuen eragiketen mugetan sartzen da. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
-| WBS Project Operations-ek gaur egun onartzen dituen mugetatik kanpo, Project mahaigaineko bezeroaren laguntza barne. | &nbsp; | &nbsp; | :heavy_check_mark: |
+| Ez lan-egiturarekiko mendekotasunik (WBS) proiektuetarako. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| WBS-a proiektuaren eragiketetan gaur egun onartzen diren mugetan sartuta. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
+| WBSa gaur egun project operations-era onartutako mugetatik kanpo, Project-eko idazmahaiko bezeroarentzako euskarria barne. | &nbsp; | &nbsp; | :heavy_check_mark: |
 
 ## <a name="project-management"></a>Proiektuen kudeaketa
 
-Erabiltzailearen esperientzian aldaketarik esanguratsuenak proiektuen plangintzaren arloan izango dira. Project Operations-ek esperientzia moderno berri bat hartzen du lan-matxura-egitura (WBS) kudeatzeko, eskaintzen dituen programazio-gaitasunak aprobetxatuz.[Weberako proiektua](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
+Erabiltzailearen esperientzian izandako aldaketa esanguratsuenak proiektuak planifikatzeko arloan izango dira. Project Operations-ek esperientzia moderno berri bat hartu du lanaren desglose-egitura bat administratzeko (WBS), Project for the Web-ek [emandako programazio-gaitasunak aprobetxatuz](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
 
-## <a name="differences-in-the-scheduling-experience"></a>Desberdintasunak antolatzeko esperientzian
+## <a name="differences-in-the-scheduling-experience"></a>Diferentziak programazio-esperientzian
 
-Hurrengo taulak laburbiltzen ditu Project Service Automation eta Project Operations arteko programazio desberdintasunak.
+Hurrengo taulan Project Service Automation eta Project Operations-en arteko programazio-desberdintasunak laburbiltzen dira.
 
 |  Antolatzen     |   Project Operations   |   PSA   |
 |-----------------|------------------------|---------|
-| Proiektu-txantiloiak - Proiektu bat sortzen denean proiektu-txantiloiak definitzeko eta aplikatzeko gaitasuna  |  &nbsp;    | :heavy_check_mark: |
-| Project work breakdown structure (WBS) mahaigaineko bezeroarekin integratzea   |    &nbsp;  | :heavy_check_mark: |
-| Murrizketak - Ez hasi baino lehenago, beranduago amaitu  | :heavy_check_mark: |   &nbsp;  |
-| Mugarriak - Zero iraupena duten zereginak   | :heavy_check_mark:  |  &nbsp;  |
-| Baliabideen araberako zereginek esleitutako baliabideen erabilgarritasuna errespetatuko dute   | :heavy_check_mark: |  &nbsp;    |
-| Denbora-mailako edizioa - Editatu planak eta lan egin egunez egun   |   &nbsp;  | :heavy_check_mark: |
-| Programazio automatikoa/eskuz - Erabili Proiektua antolatzeko motorra zereginak automatikoki edo eskuz programatzeko |  &nbsp; | :heavy_check_mark:  |
-| Editatu proiektu handiak zuzenean erabiltzailearen interfazean: ez dago mugarik editagarriak diren planen tamainan  | 500 zeregin muga  | :heavy_check_mark:       |
-| Osatutako ehunekoa - Markatu zereginaren aurrerapena   | :heavy_check_mark:  |  &nbsp;  |
-| [Proiektuaren egutegia moduak](../project-management/scheduling-modes.md) - Proiektua unitate finko, esfortzu finko edo iraupen finko gisa definitzea | :heavy_check_mark: | &nbsp; |
-| Denbora-lerroa - Eraiki eta pertsonalizatu denbora-lerroaren ikuspegia ordutegiaren xehetasunak ikusteko eta interesdunekin komunikatzeko. | :heavy_check_mark:  | &nbsp; |
-| Ahaleginak bultzatutako zereginak - Motorearen euskarria programatzea, zeregin bat esfortzuaren arabera antolatzeko  | :heavy_check_mark:  | &nbsp; |
-| **Zereginaren informazioa** elkarrizketa-koadroa - Gorde zereginaren xehetasunak elkarrizketa-koadro bat erabiliz | :heavy_check_mark:  |  &nbsp;  |
-| Arrastatu eta jaregin - Aukeratu zereginak eta aldatu haien posizioa WBSn | :heavy_check_mark: | &nbsp;  |
-| Ikuspegi iraunkor malguak - Definitu zereginen atributuen ikuspegi zehatzagoak   | :heavy_check_mark:  | &nbsp; |
-| Ordenatu eta iragazi WBS  | :heavy_check_mark:  | &nbsp; |
-| Taulen ikuspegia ur-jauziak ez diren proiektuak entregatzeko  | :heavy_check_mark:   | &nbsp; |
-| Denbora-lerroaren ikuspegia - WBSa ikusteko eta editatzeko erabiltzen den Gantt diagrama interaktiboa   | :heavy_check_mark:  | &nbsp; |
-| Teklatu lasterbideak - Erabili teklatuko lasterbideak ohiko eragiketetarako, hala nola koska edo txertatzeko  | :heavy_check_mark:  |  &nbsp; |
-| Maila anitzeko desegin - Egin zer gertatuko den azterketa, aldaketen eragina guztiz ulertzeko, eragiketa multzo oso bat alderantziz eta berriro aplikatuz. | :heavy_check_mark: | &nbsp; |
-| Moztu/Kopiatu/Itsatsi - Elkarlanean egutegiaren garapenean, aplikazioen artean ordutegiaren xehetasunak kopiatu eta itsatsiz  | :heavy_check_mark: | &nbsp; |
-| Zereginen kontrol-zerrendak - Gehitu gehienez 20 kontrol-zerrendako elementu ataza bati   | :heavy_check_mark: | &nbsp; |
+| Proiektu-plantillak: proiektu bat sortzen denean proiektu-plantillak definitzeko eta aplikatzeko gaitasuna  |  &nbsp;    | :heavy_check_mark: |
+| Proiektuaren lana (WBS) eta idazmahaiko bezeroa sakribatzeko egitura integratzea   |    &nbsp;  | :heavy_check_mark: |
+| Murrizketak: beranduenez amaitzen denean hasten da  | :heavy_check_mark: |   &nbsp;  |
+| Mugarriak - Zero iraupeneko lanak   | :heavy_check_mark:  |  &nbsp;  |
+| Baliabideetan oinarritutako zereginek esleitutako baliabideen erabilgarritasuna errespetatuko dute   | :heavy_check_mark: |  &nbsp;    |
+| Edizioa denbora-faseka: planak argitaratu eta eguneroko lan egin   |   &nbsp;  | :heavy_check_mark: |
+| Programazio automatikoa/ eskuzkoa: erabili proiektuak programatzeko motorra lanak modu automatikoan edo eskuz programatzeko |  &nbsp; | :heavy_check_mark:  |
+| Proiektu handiak zuzenean erabiltzailearen interfazean editatzea: ez mugarik editatu daitezkeen planen tamainarako  | 500eko lanen muga  | :heavy_check_mark:       |
+| Ehuneko osoa: lanaren aurrerapena markatzea   | :heavy_check_mark:  |  &nbsp;  |
+| [Proiektuaren programazio-moduak](../project-management/scheduling-modes.md) : proiektua unitate finko, ahalegin finko edo iraupen finko gisa definitzen du | :heavy_check_mark: | &nbsp; |
+| Denbora-lerroa: programazioaren xehetasunak bistaratzeko eta interesa duten aldeekin komunikatzeko denbora-lerroaren ikusmena sortzen eta pertsonalizatzen du. | :heavy_check_mark:  | &nbsp; |
+| Ahaleginean oinarritutako zereginak: programazio-motorrarekin bateragarritasuna, ahaleginak bultzatutako zeregin bat programatzeko  | :heavy_check_mark:  | &nbsp; |
+| **Elkarrizketa-koadroa Lanaren informazioa** : lanaren xehetasunak elkarrizketa-koadro baten bidez gordetzea | :heavy_check_mark:  |  &nbsp;  |
+| Arrastaka ibili eta askatu: lan anitzak aukeratu eta WBSn duten posizioa aldatu | :heavy_check_mark: | &nbsp;  |
+| Ikuspegi malguak: lanaren atributuen bistarik granularrenak zehazten ditu   | :heavy_check_mark:  | &nbsp; |
+| Ordenatu eta filtratu WBS  | :heavy_check_mark:  | &nbsp; |
+| Ur-jauzirik gabeko proiektuak entregatzeko taulak bista  | :heavy_check_mark:   | &nbsp; |
+| Denbora-lerroaren ikuspegia: WBS ikusi eta editatzeko erabiltzen den Gantt interaktiboaren diagrama   | :heavy_check_mark:  | &nbsp; |
+| Teklatuko metodo laburtuak: erabili teklatu-metodo laburtuak eragiketa komunetarako, hala nola sangria aplikatu edo txertatu  | :heavy_check_mark:  |  &nbsp; |
+| Maila anitzeko desegitea: egin analisi hipotetikoa, aldaketen eragina erabat ulertzeko, inbertituz eta eragiketa-multzo oso bat aplikatuz | :heavy_check_mark: | &nbsp; |
+| Moztu/Copiar/Pegar - Lagundu programatutako garapenean, aplikazioen arteko programazio-xehetasunak kopiatuz eta erantsiz  | :heavy_check_mark: | &nbsp; |
+| Lanak egiaztatzeko zerrendak: egiaztapen-zerrendako 20 elementu ere erantsi zeregin batera   | :heavy_check_mark: | &nbsp; |
 
 ## <a name="project-planning"></a>Proiektuaren antolaketa
 
-The **Proiektua** Proiektuaren Eragiketak orrialdean desberdintasun kopuru esanguratsuak ditu **Proiektua** orrialdean Project Service Automation.
+**Proiektu-eragiketen proiektu-orriak** alde nabarmena du proiektu-zerbitzuen Automatizazioko Proiektu-orriarekin **alderatuta**.
 
-Honako ekintza hauek kendu dira **Proiektuak** orrialdea 1. faseko bertsio berritzearen barruan:
+Honako ekintza hauek Proiektuen **orritik** kendu dira, 1 fasearen eguneratzearen parte gisa:
 
   - **Ireki MS Project-en**
   - **Sortu txantiloia**
   - **Kendu esteka MS Project-etik**
 
-The **Proiektua** Proiektuaren Eragiketak atalean fitxa berri hauek ditu.
+**Proiektu-eragiketen proiektuaren** orrialdeak honako fitxa berri hauek biltzen ditu.
 
 - **Materialaren aurreikuspenak**
 - **Zereginak fakturatzeko konfigurazioa**
 
-The **Egoera** fitxa kendu da eta **Egoera** eremuan dago orain **Laburpen** fitxa proiektuaren programazio moduarekin.
+**Estatu** fitxa kanporatu egin da eta **Estatua** laburpen **fitxan** dago orain, proiektuaren programazio moduarekin.
 
-   ![Proiektuaren orrialdearen eguneraketak.](media/projectform.png)
+   ![Proiektuaren orrialdearen eguneratzeak.](media/projectform.png)
 
-The **Ordutegia** fitxa izena jarri zaio **Zeregin** fitxan eta proiektuak planifikatzeko esperientzia berria eskaintzen du Weberako Project-ekin.
+**Programazioaren** izena Tarea **fitxara** aldatu da eta Weberako Project-ekin proiektuak planifikatzeko esperientzia berria aurkeztu du.
 
-   ![Proiektuaren ataza berriak fitxa.](media/tasktab.png)
+   ![Proiektuaren lan berriak.](media/tasktab.png)
 
 ## <a name="scheduling-modes"></a>Antolaketa moduak
 
-Project Operations-ek eginbide berri bat aurkeztu du, [Programazio moduak](../project-management/scheduling-modes.md). Lehendik dauden Project Service Automation proiektu guztiak lehenetsiko dira **Iraupen Finkoa** Proiektu Eragiketetan. Hala ere, proiektu berrien lehenetsia helbidera joanda kudeatu daiteke **Ezarpenak** > **Parametroak** > **Parametroa** > **Ordutegi modua**.
+Project Operations-ek [ezaugarri berri bat sartu du, programazio moduak](../project-management/scheduling-modes.md). Project Service Automation-en proiektu guztiek aurrez **zehaztutako** balio finkoa izango dute proiektuaren eragiketetan. Hala ere, proiektu berrietarako aurrez zehaztutako balioa **parametroak** > **programatzeko parametro parametroak** > **konfiguratuz administratu daiteke.** > **·**
 
-   ![Programazio modurako proiektuaren parametroen ezarpenak.](media/projectparameter.png)
+   ![Programazio-modurako proiektu-parametroen konfigurazioa.](media/projectparameter.png)
 
-## <a name="project-planning-limits"></a>Proiektuaren plangintzaren mugak
+## <a name="project-planning-limits"></a>Proiektuak planifikatzeko mugak
 
-Project Operations Weberako Project-ean oinarritzen da proiektuak antolatzeko eragiketa guztietarako. Weberako proiektuak lanaren banaketa-egitura kudeatzen du hurrengo taulako mugak erabiliz.
+Project Operations Project for the Web-en oinarritzen da proiektuak programatzeko eragiketa guztietarako. Project for the Web-ek lanaren desglose-egitura administratzen du, hurrengo taularen mugak erabiliz.
 
 | **Eremua**                                          | **Muga**             |
 |----------------------------------------------------|-----------------------|
@@ -114,9 +114,9 @@ Project Operations Weberako Project-ean oinarritzen da proiektuak antolatzeko er
 | Zeregin baterako onartutako data-tartea                    | 2000/1/1 - 2149/12/31 |
 | Zerrendako elementuak                                    | 20                    |
 
-## <a name="project-planning-extensibility-and-development"></a>Proiektuen plangintzaren hedagarritasuna eta garapena
+## <a name="project-planning-extensibility-and-development"></a>Proiektuen plangintzaren zabaltasuna eta garapena
 
-Project Operations-era eguneratu ondoren, Project Scheduling APIak erabili behar dituzu sortu, eguneratu eta ezabatzeko eragiketak entitate hauetan exekutatzeko:
+Proiektu-eragiketak eguneratu ondoren, proiektuen programazioko API-ak erabili behar dituzu honako erakunde hauetan sortze-, eguneratze- eta ezabatze-eragiketak gauzatzeko:
 
 |   Entitatearen izena           |   Entitatearen izen logikoa       |
 |-------------------------|-----------------------------|
@@ -127,16 +127,16 @@ Project Operations-era eguneratu ondoren, Project Scheduling APIak erabili behar
 | Proiektuaren ontzia          | msdyn_projectbucket         |
 | Proiektu-taldeko kidea     | msdyn_projectteam           |
 
-Une honetan entitate horiek inplikatzen dituzten pertsonalizazioak badituzu, ikus [Erabili Project schedule APIak Scheduling entitateekin eragiketak egiteko](../project-management/schedule-api-preview.md) ezarpen orientabideetarako.
+Gaur egun erakunde horiek inplikatzen dituzten pertsonalizazioak badituzu, kontsulta ezazu [proiektuen programazio-apis-ak erabiltzea programazio-erakundeekin eragiketak egiteko, inplementazio-jarraibideak](../project-management/schedule-api-preview.md) lortzeko.
 
-## <a name="data-model-changes"></a>Datu-eredu aldaketak
+## <a name="data-model-changes"></a>Aldaketak datu-ereduan
 
-1. Berritze Fasearen barruan, aldaketak daude datu-ereduan. Aldaketa hauek lehendik dauden entitateen eremu-aldaketak dira batez ere. 1. fasean, entitateek, **msydn_project** eta **msdyn_projectteam** pertsonalizazioen birfactorizazioa dira. 
+1. eguneratze fasearen parte gisa, datu-ereduan aldaketak daude. Aldaketa horiek, batez ere, dauden entitateen landa-aldaketak dira. 1. fasean, erakundeak, **msydn_project** eta **msdyn_projectteam** pertsonalizazioak erreaktoreizatzea dira. 
 
 > [!IMPORTANT]
-> Atal hau entitate gehigarriekin eguneratuko da etorkizuneko bertsio berritze faseak amaitu ahala.
+> Atal hau erakunde gehigarriekin eguneratuko da, etorkizuneko eguneratze-faseak osatu ahala.
 
-Ondorengo eremuak eremu berriekin ordezkatu dira.
+Hurrengo zelaien ordez eremu berriak hartu dira.
 
 |   Entity          |   Izen logiko zaharra   |   Izen logiko berria    |
 |-------------------|----------------------|-----------------------|
@@ -149,21 +149,21 @@ Ondorengo eremuak eremu berriekin ordezkatu dira.
 | msdyn_projectteam | msdyn_from           | msdyn_start           |
 | msdyn_projectteam | msdyn_to             | msdyn_finish          |
 
-Ondorengo eremuak gehitu dira.
+Hurrengo alor nagusiak gehitu dira.
 
 |   Entity          |   Izen logikoa                               |   Deskribapenak |
 |-------------------|----------------------------------------------|---------------|
-| msdyn_project     | msdyn_actualfeesales                         | Proiektuaren benetako kuoten salmenten agregatua erakusten du. Project Service Automation-en soilik erabiltzeko. |
-| msdyn_project     | msdyn_actualmaterialcost                     | Proiektuko materialaren benetako kostuaren agregatua erakusten du. Project Service Automation-en soilik erabiltzeko. |
-| msdyn_project     | msdyn_actualmaterialsales                    | Proiektuko benetako materialen salmentaren agregatua erakusten du. Project Service Automation-en soilik erabiltzeko. |
+| msdyn_project     | msdyn_actualfeesales                         | Proiektuan tarifa errealen salmenten agregatua erakusten du. Project Service Automation-en bakarrik erabiltzeko. |
+| msdyn_project     | msdyn_actualmaterialcost                     | Materialak proiektuan duen benetako kostua erakusten du. Project Service Automation-en bakarrik erabiltzeko. |
+| msdyn_project     | msdyn_actualmaterialsales                    | Proiektuan materialaren benetako salmentak erakusten ditu. Project Service Automation-en bakarrik erabiltzeko. |
 | msdyn_project     | msdyn_businesscase                           |                |
 | msdyn_project     | msdyn_contractlineproject                    | Proiektu honi lotutako kontratu-lerroa. |
-| msdyn_project     | msdyn_copyprojectcorrelationid               | Hau erabiltzen den barne-sistemaren eremua da **Kopiatu proiektua** Korrelazio Identifikatzaileari lotuta. Project Service Automation-en soilik erabiltzeko. |
-| msdyn_project     | msdyn_copyprojectsessionid                   | Hau barne-sistemaren eremu bat da, horretarako erabiltzen da **Kopiatu proiektua** Saioaren Identifikatzaileari lotutakoa. Project Service Automation-en soilik erabiltzeko. |
+| msdyn_project     | msdyn_copyprojectcorrelationid               | Korrelazio-identifikatzailearekin lotutako **proiektuak kopiatzeko** erabiltzen den sistemaren barne-eremua da. Project Service Automation-en bakarrik erabiltzeko. |
+| msdyn_project     | msdyn_copyprojectsessionid                   | Hau barne-sistemaren eremu bat da, horretarako erabiltzen da **Kopiatu proiektua** Saioaren Identifikatzaileari lotutakoa. Project Service Automation-en bakarrik erabiltzeko. |
 | msdyn_project     | msdyn_globalrevisiontoken                    | Azken sinkronizazioa xRM Global Revision Token Proiektua antolatzeko zerbitzutik. |
 | msdyn_project     | msdyn_msprojectdocument                      | Proiektuari dagokion Microsoft Project dokumentua. |
-| msdyn_project     | msdyn_plannedmaterialcost                    | Proiektuan aurreikusitako materialaren kostuaren agregatua. Project Service Automation-en soilik erabiltzeko. |
-| msdyn_project     | msdyn_plannedmaterialsales                   | Proiektuan aurreikusitako material salmentaren agregatua. Project Service Automation-en soilik erabiltzeko. |
+| msdyn_project     | msdyn_plannedmaterialcost                    | Proiektuan aurreikusitako materialaren kostuaren agregatua. Project Service Automation-en bakarrik erabiltzeko. |
+| msdyn_project     | msdyn_plannedmaterialsales                   | Proiektuan aurreikusitako material salmentaren agregatua. Project Service Automation-en bakarrik erabiltzeko. |
 | msdyn_project     | msdyn_programa                                | Proiektu hau dagokion programa. |
 | msdyn_project     | msdyn_quotelineproject                       | Proiektu honekin lotutako aurrekontu-lerroa. |
 | msdyn_project     | msdyn_replaylogheader                        | Erreprodukzio-erregistroen goiburua. |
@@ -181,7 +181,7 @@ Ondorengo eremuak gehitu dira.
 
 ## <a name="project-templates"></a>Proiektuen txantiloiak
 
-Project Operations-ek ez du proiektuen txantiloietarako laguntzarik eskaintzen. Hala eta guztiz ere, oinarrizko funtzionalitatearen zati handi bat errepika dezakezu [Project Copy APIa](../project-management/dev-copy-project.md).
+Project Operations-ek ez du proiektuen txantiloietarako laguntzarik eskaintzen. Hala ere, oinarrizko funtzionalitatearen zati handi bat erreplikatu dezakezu [Project Copy APIa](../project-management/dev-copy-project.md).
 
 ## <a name="desktop-add-in-support"></a>Mahaigaineko gehigarrien laguntza
 

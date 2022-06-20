@@ -1,6 +1,6 @@
 ---
 title: Eremu pertsonalizatuak prezio-dimentsio gisa konfiguratzea
-description: Gai honek prezio-dimentsio pertsonalizatuak ezartzeko informazioa eskaintzen du.
+description: Artikulu honek prezio pertsonalizatuen dimentsioak konfiguratzeari buruzko informazioa eskaintzen du.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922582"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Eremu pertsonalizatuak prezio-dimentsio gisa konfiguratzea 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Hasi aurretik, gai honek honako gai hauetan azaldutako prozedurak bete dituzula suposatzen du: [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities.md) eta [Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan](field-references.md). Prozedura horiek bete ez badituzu, itzuli, bete itzazu eta, ondoren, itzuli gai honetara. 
+Hasi aurretik, artikuluen prozedurak osatu dituela suposatzen da, [eremu eta erakunde pertsonalizatuak](create-custom-fields-entities.md) sortu eta [prezioen konfigurazioari eta erakunde transakzionalei eremu pertsonalizatuak gehitu dizkiela](field-references.md). Prozedura horiek bete ez badituzu, joan atzera eta osatu eta, ondoren, itzuli artikulu honetara. 
 
-Gai honek prezio-dimentsio pertsonalizatuak ezartzeko informazioa eskaintzen du. Project Service-ren web interfazean, **Parametroak** orrian, **Zenbatekoan oinarritutako prezio-dimentsioak** fitxak prezio-dimentsioen entitateetako erregistroak erakusten ditu. Lehenespenez, Project Service-ren instalazioak 2 errenkada sortzen ditu fitxa honen saretan:
+Artikulu honek prezio pertsonalizatuen dimentsioak konfiguratzeari buruzko informazioa eskaintzen du. Project Service-ren web interfazean, **Parametroak** orrian, **Zenbatekoan oinarritutako prezio-dimentsioak** fitxak prezio-dimentsioen entitateetako erregistroak erakusten ditu. Lehenespenez, Project Service-ren instalazioak 2 errenkada sortzen ditu fitxa honen saretan:
 
 - **msdyn_resourcecategory** (Funtzioa)
 - **msdyn_OrganizationalUnit** (Erakundearen unitatea)

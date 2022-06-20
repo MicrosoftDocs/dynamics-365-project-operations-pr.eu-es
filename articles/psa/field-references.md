@@ -1,6 +1,6 @@
 ---
 title: Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan
-description: Gai honek eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan gehitzeari buruzko informazioa ematen du.
+description: Artikulu honek prezioen konfigurazioari eta transakzio-entitateei eremu pertsonalizatuak gehitzeari buruzko informazioa eskaintzen du.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596863"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920459"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Gai honek haintzat hartzen du [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities.md) gaieko izapideak bete dituzula. Prozedura horiek bete ez badituzu, itzuli, bete itzazu eta, ondoren, itzuli gai honetara. 
+Artikulu honek artikuluko izapideak bete dituzula suposatzen du, [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities.md). Prozedura horiek bete ez badituzu, joan atzera eta osatu eta, ondoren, itzuli artikulu honetara. 
 
-Gai honetan, prozedurek erakundeetan eta erabiltzaile-interfazearen (UI) elementuetan, hala nola, inprimakiak eta ikuspegiak, nola gehitu behar diren erakutsiko du.
+Artikulu honetan, prozedurek beharrezkoak diren eremu pertsonalizatuen erreferentziak entitateei eta erabiltzailearen interfazeari (UI) elementuei, hala nola inprimakiak eta ikuspegiak, nola gehitu erakutsiko dizute.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Gehitu prezioen dimentsio-eremu pertsonalizatuak 
 Eremu eta entitate pertsonalizatuak sortu ondoren, hurrengo urratsa da prezioen konfigurazioa eta transakzio-entitateak entitate pertsonalizatuak edo aukera-multzoak ezagutzea, erreferentzia-eremuak sortuz. Zure prezioen dimentsioen zerrendak aukera-multzo dimentsioak edo entitatearen neurriak edo biak biltzen dituen ala ez kontuan hartuta, jarraitu **Aukera-multzoetan oinarritutako prezioen dimentsioak** edo **Entitatean oinarritutako prezioen dimentsioak** ataletan soilik dauden urratsak, edo biak, hurrenez hurren.

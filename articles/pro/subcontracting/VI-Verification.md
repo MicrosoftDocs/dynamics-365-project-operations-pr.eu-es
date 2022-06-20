@@ -1,19 +1,19 @@
 ---
-title: Saltzaileen fakturak egiaztatzea, onartutako egiazkoekin
-description: Gai honek Microsoft nola azaltzen du Dynamics 365 Project Operations ditzagun proiektu-zuzendariek egiazta ditzagun saltzaileen fakturak kontratistak lana egin eta denbora erregistratu ahala onartu ziren benetakoekin, eta proiektuko taldekideek erabili zituzten gastu eta materialekin.
+title: Saltzailearen fakturen egiaztapena onartutako benetako datuekin
+description: Artikulu honek Microsoft nola azaltzen du Dynamics 365 Project Operations ditzagun proiektu-zuzendariek egiazta ditzagun saltzaileen fakturak kontratistak lana egin eta denbora erregistratu ahala onartu ziren benetakoekin, eta proiektuko taldekideek erabili zituzten gastu eta materialekin.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3350a51bde2872036b79a789fae23ea6790fb21a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914203"
 ---
-# <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Saltzaileen fakturak egiaztatzea, onartutako egiazkoekin
+# <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Saltzailearen fakturen egiaztapena onartutako benetako datuekin
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -22,10 +22,10 @@ _ **Honi dagokio:** Lite inplementazioa - proformako fakturazioari aurre egin
 Microsoft Dynamics 365 Project Operations ditzagun proiektu-kudeatzaileek saltzaileen faktura-lerroak egiazta ditzagun modu hauetan:
 
 - Erabili **Egiaztapen-egoera** saltzaileen faktura lerroetako eremua.
-- Saltzaileen faktura-lerroek azpikontratu-lerro bati erreferentzia egiten badiote, lotu azpikontratistaren jardueraren kostu errealak saltzaileen faktura-lerro horiekin. Esteka kostu errealak saltzaileen faktura-lerroekin lotuz sortzen da.
+- Hornitzaileen faktura-lerroek azpikontratu-lerro bati erreferentzia egiten badiote, lotu azpikontratistaren jardueraren kostu errealak saltzaileen faktura-lerro horiekin. Esteka kostu errealak saltzaileen faktura-lerroekin lotuz sortzen da.
 
     > [!NOTE]
-    > Azpikontratu bat aipatzen ez duten hornitzaileen faktura-lerroen egiaztapen-egoeraren jarraipena egin daitekeen arren, kostu errealak ezin dira lotu saltzaile-faktura-lerro horiei.
+    > Azpikontratu bati erreferentziarik ez dioten hornitzaileen faktura-lerroen egiaztapen-egoeraren jarraipena egin daitekeen arren, kostu errealak ezin dira lotu saltzaileen faktura-lerro horiei.
 
 ## <a name="verification-status"></a>Egiaztapen-egoera
 
@@ -35,7 +35,7 @@ The **Egiaztapen-egoera** Saltzaileen faktura lerroko eremuak egiaztapenaren ego
 2. Abian
 3. Osoa
 
-Egiaztapen-egoera duten saltzaileen faktura-lerroak **Ez da hasi** editatu daiteke.
+Egiaztapen-egoera duten saltzaileen faktura-lerroak **Ez da hasi** edita daiteke.
 
 Egiaztapen-egoera duten saltzaileen faktura-lerroak **Abian** jada ezin da editatu. Azpikontratu bati erreferentzia egiten dion saltzaileen faktura-lerro baterako, egiaztapen-egoera automatikoki ezarriko da **Abian** lehen kostu erreala saltzaileen faktura-lerroarekin bat datorren bezain laster.
 
@@ -50,7 +50,7 @@ Kostu errealak parekatzeak saltzaileen faktura-lerro batean egiaztatze-prozesuan
 
 ### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Kostu errealak saltzaileen faktura-lerroekin lotzeko erabiltzen diren baliozkotze-irizpideak
 
-Bat-etortze-prozesuan, kostu errealaren eta saltzaileen faktura-lerroaren arteko lotura bat ezarri ahal izango da baldintza hauek betetzen badira soilik:
+Bat-etortze-prozesuan, kostu errealaren eta saltzaileen faktura-lerroaren arteko lotura ezarri ahal izango da baldintza hauek betetzen badira soilik:
 
 - The **Doikuntza egoera** hautatutako kostu erreal bakoitzeko eremuak hutsik egon behar du. Beste era batera esanda, kostu errealak ez dira beste kostu erreal batzuekin ordezkatu behar berreskurapenean, onarpenean bertan behera uzteko edo zuzenketa aldizkariko prozesu batean.
 - Ondorengo eremuen balioak hornitzaileen faktura-lerroaren eta hautatutako kostu errealaren artean bat egiten dute. Saltzaileen faktura-lerroan eremuren bat ezartzen ez bada, ez da bat etortzeko kontuan hartuko.
@@ -70,7 +70,7 @@ Bat-etortze-prozesuan, kostu errealaren eta saltzaileen faktura-lerroaren arteko
 
 Kostu errealak ez lotzeak saltzaileen fakturako egiaztapen-prozesuan ere lagun dezake, aurretik ezarritako estekak kentzeko aukera emanez. Kostu errealak egiaztapen-egoera duten hornitzaileen faktura-lerroetatik soilik izan daitezke **Abian**. Hornitzaileen faktura-lerro bateko kostu errealak parekatzeko, jarraitu urrats hauek.
 
-1. Ireki hornitzailearen faktura-lerroa eta hautatu **Batekatutako kostu errealak** fitxa. Sare batek saltzaileen faktura-lerroari erreferentzia egiten dion kostu errealen zerrenda erakusten du.
+1. Ireki hornitzailearen faktura-lerroa eta hautatu **Batekatutako kostu errealak** fitxa. Sare batek saltzaileen faktura-lerroari erreferentzia egiten dioten kostu errealen zerrenda erakusten du.
 2. Hautatu kostu errealetako bat edo gehiago, eta, ondoren, hautatu **Bat-etortzea** sarearen gaineko tresna-barran.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

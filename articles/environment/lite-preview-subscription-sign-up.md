@@ -1,21 +1,21 @@
 ---
 title: Erregistratu aurrebista-harpidetzan - arina
-description: Gai honek Project Operations lite-ra harpidetzeko eta hura inplementatzeko moduari buruzko informazioa eskaintzen du. Aurre egin fakturazio proformari.
+description: Artikulu honetan, project operations lite deployment - deal to proforma billing izenpetzeko eta inplementatzeko moduari buruzko informazioa ematen da.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921241"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Erregistratu aurrebista-harpidetzan - arina 
 
-Gai honek probako eskaintzan harpidetu eta nola inplementatu Dynamics 365 Project Operations lite inplementazioa azaltzen du - proforma fakturazioari aurre egin.
+Artikulu honetan, proba-eskaintzaren harpidetza nola egin azaltzen da, eta lite inplementazioa inplementatzen Dynamics 365 Project Operations da: proforma fakturazioaren arabera.
 
 > [!NOTE]
 > Prozesu hau aldatu egingo da datozen Project Operations-en bertsioetan.
@@ -50,7 +50,7 @@ Hasi aurretik, ziurtatu proiektuaren eragiketen aurrebista nahi duzun maizterrea
 
 ## <a name="create-a-new-dataverse-environment"></a>Sortu Dataverse ingurune berria
 
-1. Eman Project Operations Dataverse inplementazio ingurune berri bat gaiko argibideak jarraituz, [Dataverse inplementazio eredua](lite-deployment.md). Ingurune mota hautatzen duzunean, ziurtatu erabiltzen duzula **Proba (harpidetzan oinarrituta)**.
+1. Project Operations ezartzeko ingurune berri bat hornitzen du Dataverse, inplementazio-ereduaren [Dataverse jarraibideei jarraiki](lite-deployment.md). Ingurune mota hautatzen duzunean, ziurtatu erabiltzen duzula **Proba (harpidetzan oinarrituta)**.
 
   ![Ingurune berria.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Hasi aurretik, ziurtatu proiektuaren eragiketen aurrebista nahi duzun maizterrea
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instalatu CDS konfigurazioa eta konfiguratu demo-datuak
 
-Instalatu CDS konfigurazioa eta konfiguratu demo datuak gaiko argibideak jarraituz, [Aplikatu demo konfigurazio eta konfigurazio datuak](lite-apply-demo-setup-config-data.md).
+Instalatu CDSen konfigurazioa eta konfiguratu frogapen-datuak, frogapen-konfigurazio- eta konfigurazio-datuak aplikatzea [artikuluaren jarraibideei jarraiki](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

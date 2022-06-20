@@ -1,6 +1,6 @@
 ---
 title: Baliabide-proiektuaren hasierako orria
-description: Gai honek Dynamics 365-erako Project Service Automation-en (PSA) baliabideen kudeaketa gaitasunen inguruko informazioa eskaintzen du.
+description: Artikulu honetan, Dynamics 365erako Project Service Automation (PSA) erakundeko baliabideen administrazio-ahalmenei buruzko informazioa ematen da.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599807"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925243"
 ---
 # <a name="resourcing-projects-home-page"></a>Baliabide-proiektuaren hasierako orria
 
@@ -46,7 +46,7 @@ Baliabideak dira zerbitzuetan oinarritutako erakunde baten aktibo garrantzitsuen
 - Mantendu gaitasunen eta trebetasunen biltegia.
 
 
-Zure proiektuan langileak gehitu ditzakezu talde generiko batekin edo izendatutako baliabideekin PSA-n. Hainbat metodo erabil ditzakezu taldekideak gehitu eta esleitzeko eta haien erreserbak eta esleipenak kudeatzeko. Informazio gehiago lortzeko, ikusi gai hauek:
+Zure proiektuan langileak gehitu ditzakezu talde generiko batekin edo izendatutako baliabideekin PSA-n. Hainbat metodo erabil ditzakezu taldekideak gehitu eta esleitzeko eta haien erreserbak eta esleipenak kudeatzeko. Informazio osagarria lortzeko, kontsultatu honako artikulu hauek:
 
 - [Erreserbatu baliabide erreserbagarriak proiektuko talde bati eta esleitu zereginak](assign-named-bookable-resource.md)
 - [Esleitu baliabide erreserbagarri generikoak zeregin bati eta sortu baliabide eskakizunak](assign-generic-bookable-resource.md)

@@ -1,6 +1,6 @@
 ---
 title: Benetako eragina prezio finko batean
-description: Gai honek Microsoft-en prezio finkoko engaiamendu baten bizitza-zikloko hainbat gertakaritan Errealak taulan duen eraginari buruzko informazioa eskaintzen du Dynamics 365 Project Operations.
+description: Artikulu honek Microsoft-en prezio finkoko engaiamendu baten bizitza-zikloko hainbat gertakaritan Errealak taulan duen eraginari buruzko informazioa eskaintzen du Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 222e7c5eefd7c619e4d7389cdaff2f96176ff275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 50819d77d56935bfe5438d7d9dae99562bcc0b49
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918113"
 ---
 # <a name="actuals-impact-in-a-fixed-price-engagement"></a>Benetako eragina prezio finko batean
 
@@ -37,6 +37,6 @@ Ondorengo taulak prezio finkoko konpromiso batean gertaera ezberdinetan sortzen 
 | Kontratua berresten da. | <p>Kostu erreal zaharren doikuntza-egoera eguneratzen da **Egokitua**.</p><p>Berraztertzeko kostu errealak sortzen dira, doikuntza-egoera dutenak **Egoki ezina**.</p><p>Kontratu-arauak berriro ebaluatu ondoren, kostu erreal berriak sortzen dira.</p> | Ez da aplikagarria | Ez da aplikagarria | <p>Eguneratzen den egungo benetakoa:</p><ul><li>**Benetako kostua:** Bob Kozack, 8 ordu, USD 800, *Egokitua*</li></ul><p>Aurreko finantza-eragina atzera botatzeko sortu den erreal berria:</p><ul><li>**Benetako kostua:** Bob Kozack, (8 h), (800 USD), *Egoki ezina*</li></ul><p>Berriz ebaluatutako finantza-inpaktuagatik sortzen den erreal berria:</p><ul><li>**Benetako kostua:** Bob Kozack, 8 ordu, USD 800</li></ul> |
 | Faktura bat sortzen da. | Ez da aplikagarria | Ez da aplikagarria | Ez da aplikagarria | |
 | Faktura mugarri batekin berresten da. | Ez da aplikagarria | Ez da aplikagarria | Mugarrietan oinarritutako fakturatutako salmenta erreal berriak sortzen dira. | <p>Aldaketarik gabe geratzen den lehendik dagoen erreala:</p><ul><li>**Benetako kostua:** Bob Kozack, 8 ordu, USD 800</li></ul><p>Fakturatutako salmenten balioak erregistratzeko sortzen den erreal berria:</p><ul><li>**Fakturatutako salmentak:** Mugarria, USD 5,000</li></ul> |
-| Faktura zuzentzen da mugarria kreditatzeko. | Ez da aplikagarria | Ez da aplikagarria | Alderantzikatu fakturatutako salmenta errealak sortzen dira. | <p>Aldaketarik gabe geratzen den lehendik dagoen erreala:</p><ul><li>**Benetako kostua:** Bob Kozack, 8 ordu, 800 USD</li></ul><p>Eguneratzen den egungo benetakoa:</p><ul><li>**Fakturatutako salmenta errealak:** Mugarria, USD 5,000, *Egokitua*</li></ul><p>Aurreko fakturatutako salmenten balioak alderantzikatzeko sortu den erreal berria:</p><ul><li>**Fakturatutako salmentak:** Mugarria, (5.000 USD), *Egoki ezina*</li></ul> |
+| Faktura zuzentzen da mugarria kreditatzeko. | Ez da aplikagarria | Ez da aplikagarria | Alderantzikatu fakturatutako salmenta errealak sortzen dira. | <p>Aldaketarik gabe geratzen den lehendik dagoen erreala:</p><ul><li>**Benetako kostua:** Bob Kozack, 8 ordu, 800 USD</li></ul><p>Eguneratzen den egungo benetakoa:</p><ul><li>**Fakturatutako salmentak:** Mugarria, USD 5,000, *Egokitua*</li></ul><p>Aurreko fakturatutako salmenten balioak alderantzikatzeko sortu den erreal berria:</p><ul><li>**Fakturatutako salmentak:** Mugarria, (5.000 USD), *Egoki ezina*</li></ul> |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,17 +1,17 @@
 ---
 title: Antolaketa moduak
-description: Gai honek antolaketa moduei buruzko informazioa ematen du.
+description: Artikulu honek programazio moduei buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923633"
 ---
 # <a name="scheduling-modes"></a>Antolaketa moduak
 
@@ -38,7 +38,7 @@ Proiektu baten antolaketa modua definitzen duzunean, balio horietako bat ezartze
 | Ahalegin finkoaren zeregina    | Iraupena berriro kalkulatzen da. | Unitateak berriro kalkulatzen dira.    | Iraupena berriro kalkulatzen da. |
 | Iraupen finkoko zeregina  | Ahalegina berriro kalkulatzen da.   | Ahalegina berriro kalkulatzen da.    | Unitateak berriro kalkulatzen dira.   |
 
-Modu jakin baten inplikazioei buruzko informazio gehiago lortzeko, ikusi [Aldatu zeregin mota programazio zehatzagoa lortzeko](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Gaian, terminoa **Lana** ordez erabiltzen da **Esfortzua**.
+Modu jakin baten inplikazioei buruzko informazio gehiago lortzeko, ikusi [Aldatu zeregin mota programazio zehatzagoa lortzeko](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Artikuluan, terminoa **Lana** ordez erabiltzen da **Esfortzua**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Aldatu erakundearen programazio modua
 

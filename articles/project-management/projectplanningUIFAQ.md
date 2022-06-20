@@ -1,25 +1,25 @@
 ---
 title: Zeregina saretan lan egiteko arazoak konpontzea
-description: Gai honek Atazen saretan lan egitean behar diren arazoak konpontzeko informazioa eskaintzen du.
+description: Artikulu honek Zereginen sarean lan egiteko beharrezkoa den arazoak konpontzeko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911029"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Zeregina saretan lan egiteko arazoak konpontzea 
 
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egin, webgunerako proiektua_
 
-Zereginen sareta Dynamics 365 Project Operations ostatatutako iframe barruan dago Microsoft Dataverse. Erabilera horren ondorioz, baldintza zehatzak bete behar dira autentifikazioak eta baimenak ondo funtzionatzen dutela ziurtatzeko. Gai honek sarearen errendatzeko edo zereginak kudeatzeko gaitasunean eragina izan dezaketen arazo arruntak azaltzen ditu lanaren banakako egituran (WBS).
+Zereginen sareta Dynamics 365 Project Operations ostatatutako iframe barruan dago Microsoft Dataverse. Erabilera horren ondorioz, baldintza zehatzak bete behar dira autentifikazioak eta baimenak ondo funtzionatzen dutela ziurtatzeko. Artikulu honek sarea errendatzeko edo lanaren banaketa egituran (WBS) zereginak kudeatzeko gaitasunan eragina izan dezaketen arazo arruntak azaltzen ditu.
 
 Ohiko arazoak dira:
 

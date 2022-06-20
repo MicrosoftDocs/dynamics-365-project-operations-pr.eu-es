@@ -1,6 +1,6 @@
 ---
 title: Erabili transakzioen kategoria prezio-dimentsio gisa
-description: Gai honek transakzioen kategoria prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
+description: Artikulu honetan transakzio-kategoria bat prezio-dimentsio gisa erabiltzeari buruzko informazioa ematen da.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593321"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915721"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Erabili transakzioen kategoria prezio-dimentsio gisa
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Gai honek transakzioen kategoria prezio-dimentsio gisa erabiltzeko moduari buruzko informazioa eskaintzen du. Hasi aurretik, prezio-dimentsioaren soluzioa sortu ez baduzu, bat sortu beharko duzu. Prezioen dimentsioko irtenbidea baduzu, orduan aldaketak egin ditzakezu soluzio horretan. Zure erakunderako prezio-dimentsio soluzio berririk sortu ez baduzu, jarraitu [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities.md) gaian azaldutako prozedurei.
+Artikulu honetan, transakzio-kategoria bat prezioen dimentsio gisa nola erabili erakusten da. Hasi aurretik, prezio-dimentsioaren soluzioa sortu ez baduzu, bat sortu beharko duzu. Prezioen dimentsioko irtenbidea baduzu, orduan aldaketak egin ditzakezu soluzio horretan. Antolatzeko prezio-dimentsioko beste irtenbiderik sortu ez baduzu, osatu eremu eta erakunde pertsonalizatuak sortzeko [prozedurak](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Gehitu transakzioen kategoria inprimakietan eta ikuspegietan
 Trantsakzio-kategoria prezio-dimentsioaren soluzioko IU-an ikusgai jartzeko, entitatearen inprimaki eta ikuspegi guztiak ikusi beharko dituzu eta eremu horiek entitate horien inprimakietan eta ikuspegietan gehitu beharko dituzu.

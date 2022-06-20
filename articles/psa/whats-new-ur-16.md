@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 16, V3 bertsioko berrikuntzak edo aldaketak
-description: Gai honek Project Service Automation V3, 16. eguneratzean erabilgarri dauden eginbideak eta konponketak ditu.
+description: Artikulu honek Project Service Automation Update Release 16, V3-n eskuragarri dauden funtzioak eta konponketak zerrendatzen ditu.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 5651f8b3a2ddf406fcfd7a4e21901c53789fa4ed
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e4429ace3d8206369b91917cf87f6968fbb12277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577359"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926485"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation 16, V3 eguneratze-bertsioa
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Atseginez iragartzen dizuegu Dynamics 365 aplikaziorako Project Service Automation aplikazioaren azken eguneratzea. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu.  Argitalpen hau bateragarria da Dynamics 365 9.x bertsioarekin. Argitalpen honetara eguneratzeko, bisitatu Dynamics 365 (online) aplikazioaren administrazio-zentroko soluzioen orrira eguneratzea instalatzeko. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu soluzio hobetsi bat](/dynamics365/project-service/upgrade-psa-home-page).
-Gai honek PSA V3, 16. eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.6.34 konpilazio-zenbakia du eta, oro har, 2020ko urtarrilean jarriko da erabilgarri automatikoki eguneratzeko moduan.
+Artikulu honek PSA V3, 16. bertsioaren eguneraketa berria edo aldatu diren ezaugarriak eta konponketak zerrendatzen ditu. Bertsio honek V3.10.6.34 konpilazio-zenbakia du eta, oro har, 2020ko urtarrilean jarriko da erabilgarri automatikoki eguneratzeko moduan.
 
 
 ## <a name="update-release-16"></a>16. eguneratze-bertsioa

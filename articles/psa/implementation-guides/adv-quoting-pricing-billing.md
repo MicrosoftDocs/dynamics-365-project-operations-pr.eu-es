@@ -1,6 +1,6 @@
 ---
 title: Eskaintza aurreratua, prezioak eta fakturazioa
-description: Gai honek Project Service Automation-en aurrekontuei, fakturazioari eta prezioei buruzko informazioa eskaintzen du.
+description: Artikulu honetan, Project Service Automation-eko kotizazioei, fakturazioari eta prezioei buruzko informazioa ematen da.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921793"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Quoting aurreratua, prezio- eta fakturazio-gida
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579337"
 
 Baliabide egokiak une egokian aurkitzeko, erreserbatu baliabide horiek proiektuetan eta erabil itzazu, erakundeek diru-sarreren helburuak eta bezeroen gogobetetze helburuak betetzen laguntzen baitu. 
 
-Gai honetan aurretik zegoen PDF esteka kendu da eta edukia honako gai hauetara eraman da:
+Artikulu honetan lehenago zegoen PDF esteka kendu egin da eta edukia artikulu hauetara eraman da:
 
 - [Eskaintza, prezioak eta fakturazioa](../quote-bill-price.md)
 - [Salmenta-prozesuak](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Gai honetan aurretik zegoen PDF esteka kendu da eta edukia honako gai hauetara e
 - [Unekoak erregistratzen](../advanced-actuals.md)
 
 > [!NOTE]
-> Gai hau etorkizuneko dokumentazio-eguneratze batean kenduko da. 
+> Artikulu hau etorkizuneko dokumentazio eguneratze batean kenduko da. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

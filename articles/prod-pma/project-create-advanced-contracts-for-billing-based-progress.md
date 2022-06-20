@@ -1,6 +1,6 @@
 ---
 title: Sortu fakturazioaren araberako aurrerapenerako kontratu aurreratuak
-description: Gai honetan proiektuen kontratuak nola sortu azaltzen da, bezeroentzako fakturak sortu ahal izateko, egindako lanaren ehunekoan oinarrituta.
+description: Artikulu honek proiektu-kontratuak nola sortu azaltzen du, bezeroentzako fakturak sortu ahal izateko, egindako lanaren ehuneko batean oinarrituta.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913651"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Sortu fakturazioaren araberako aurrerapenerako kontratu aurreratuak
 [!include [banner](../includes/banner.md)]
 
-Gai honetan proiektuen kontratuak nola sortu azaltzen da, bezeroentzako fakturak sortu ahal izateko, egindako lanaren ehunekoan oinarrituta. Fakturen zenbatekoak automatikoki kalkulatzen dira proiektu baterako konfiguratutako aurrekontu lanen kategorietarako. Fakturaren denbora ezartzen da bezeroarekin proiektuaren kontratua negoziatzen duzunean.
+Artikulu honek proiektu-kontratuak nola sortu azaltzen du, bezeroentzako fakturak sortu ahal izateko, egindako lanaren ehuneko batean oinarrituta. Fakturen zenbatekoak automatikoki kalkulatzen dira proiektu baterako konfiguratutako aurrekontu lanen kategorietarako. Fakturaren denbora ezartzen da bezeroarekin proiektuaren kontratua negoziatzen duzunean.
 
-Erabili gai honetako prozedurak kontratua, lotutako proiektu bat eta proiektuarentzako konfiguratu dituzun aurrekontuen lan-kategorien fakturen zenbatekoak kalkulatzen dituzten fakturazio-arauak ezartzeko.
+Erabili artikulu honetako prozedurak kontratu bat, lotutako proiektu bat eta fakturazio-kopuruak kalkulatzen dituzten fakturazio-arauak konfiguratzeko, proiekturako konfiguratu dituzun lan-kategorietarako.
 
 Kontratua eta proiektua sortu ondoren, proiektuaren xehetasunak konfigura ditzakezu. Adibidez, jarduerak definitu eta langileak proiektuan esleitu ditzakezu.
 

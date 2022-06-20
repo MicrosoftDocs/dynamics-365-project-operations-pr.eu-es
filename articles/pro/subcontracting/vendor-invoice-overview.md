@@ -1,17 +1,17 @@
 ---
 title: Saltzaileen fakturazioa - Kontzeptua eta sorkuntza
-description: Gai honek hornitzaileen fakturen kontzeptua, erabiltzeko eszenatokiak eta Microsoft-en hornitzaileen fakturak nola sortu deskribatzen ditu Dynamics 365 Project Operations.
+description: Artikulu honek hornitzaileen fakturen kontzeptua, erabiltzeko eszenatokiak eta Microsoft-en hornitzaileen fakturak nola sortu deskribatzen ditu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dc9b3954b237294f52aa0bb74f8008a5dfdf78fd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38f0760697522b7a5e561cec7d38dfd5c3eaf9fc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911443"
 ---
 # <a name="vendor-invoicing---concept-and-creation"></a>Saltzaileen fakturazioa - Kontzeptua eta sorkuntza
 
@@ -29,7 +29,7 @@ Proiektu Eragiketetan hornitzaileen fakturak bi agertoki bereizteko erabil daite
 
 ### <a name="customers-use-the-full-subcontracting-experiences"></a>Bezeroek azpikontratazio esperientzia osoa erabiltzen dute
 
-Saltzaileen fakturen esperientziak saltzaileen faktura-lerroekin azpikontratatutako osagaiak aipatzen dituzten denbora-sarrerak, materialaren erabilera eta gastu-sarrerak egiaztatzeko eta lotzeko modua eskaintzen dute. Prozesu hau saltzaileen fakturen lerroen zehaztasuna egiaztatzeko erabil daiteke. Egiaztapen-prozesua amaitu eta hornitzailearen faktura berretsi ondoren, aplikazioak onartutako denbora, gastu eta material-erabileraren erregistroek erregistratutako benetakoak alderantzikatuko ditu, eta kostu erreal berriak sortuko ditu saltzaileen faktura-lerroak erabiliz.
+Saltzaileen fakturen esperientziek saltzaileen faktura-lerroekin azpikontratatutako osagaiak aipatzen dituzten denbora-sarrerak, materialaren erabilera eta gastu-sarrerak egiaztatzeko eta lotzeko modua eskaintzen dute. Prozesu hau saltzaileen fakturen lerroen zehaztasuna egiaztatzeko erabil daiteke. Egiaztapen-prozesua amaitu eta hornitzailearen faktura berretsi ondoren, aplikazioak onartutako denbora, gastu eta materialaren erabilera-erregistroek erregistratutako benetakoak alderantzikatuko ditu, eta kostu erreal berriak sortuko ditu saltzaileen faktura-lerroak erabiliz.
 
 ### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Bezeroek ez dituzte azpikontratazio esperientzia osoak erabiltzen, baina proiektuen kostuen ikuspegi bateratua izan nahi dute Proiektuen Eragiketetan.
 
@@ -67,7 +67,7 @@ Eremu hauek eta erlazionatutako erregistroak azpikontratutik saltzaileen faktura
 - Kontratazio-unitatea.
 - Ordainketa baldintzak.
 
-Denbora eta materialaren azpikontratazio lerroetarako, eremu hauek eta erlazionatutako erregistroak kopiatuko dira azpikontratazio lerrotik saltzaileen faktura lerrora:
+Denbora eta materialaren azpikontratazio lerroetarako, eremu hauek eta erlazionatutako erregistroak azpikontratu lerrotik saltzaileen faktura lerrora kopiatuko dira:
 
 - Azpikontratazio eta azpikontratazio lerroen erreferentziak
 - Transakzio-klasea
@@ -78,7 +78,7 @@ Denbora eta materialaren azpikontratazio lerroetarako, eremu hauek eta erlaziona
 - Zeregina
 - Baliabide erreserbagarria
 
-Prezio finkoko azpikontratazio-lerroetarako, eremu hauek azpikontratu lerrotik eta azpikontratu lerroko mugarritik saltzaileen faktura lerrora kopiatuko dira:
+Prezio finkoko azpikontratazio-lerroetarako, eremu hauek azpikontratazio lerrotik eta azpikontratu lerroko mugarritik saltzaileen faktura lerrora kopiatuko dira:
 
 - Azpikontratazio eta azpikontratazio lerroen erreferentziak.
 - Transakzio klasea. Lehenespenez, balioa izango da **Mugarria**.

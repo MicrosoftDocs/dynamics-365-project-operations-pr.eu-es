@@ -1,23 +1,23 @@
 ---
 title: Aldi motak
-description: Gai honek diru-sarreren aurreikuspenen aldi motak konfiguratzeko informazioa ematen du.
+description: Artikulu honek diru-sarreren estimaziorako aldi motak konfiguratzeari buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bbf2dcb4758611aa9d0591ddfec42869f4438c0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930947"
 ---
 # <a name="period-types"></a>Aldi motak
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Epe mota batek proiektu bateko diru sarrerak zenbatetan kalkulatzen diren definitzen du. Gai honek diru-sarreren aurreikuspenen aldi motak konfiguratzeko informazioa ematen du. 
+Epe mota batek proiektu bateko diru sarrerak zenbatetan kalkulatzen diren definitzen du. Artikulu honek diru-sarreren estimaziorako aldi motak konfiguratzeari buruzko informazioa eskaintzen du. 
 
 ## <a name="create-and-work-with-period-types"></a>Aldi motak sortu eta horiekin lan egin
 Garai motak sortzeko eta lantzeko, jarraitu urrats hauek:

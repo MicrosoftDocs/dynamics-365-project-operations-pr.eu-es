@@ -1,17 +1,17 @@
 ---
-title: Baliabide-kudeaketaren moduen informazio orokorra
-description: Gai honek Baliabide-kudeaketaren funtzionalitateari buruzko informazioa ematen du Dynamics 365 Project Operations-en.
+title: Baliabideen kudeaketaren moduen informazio orokorra
+description: Artikulu honetan, baliabideen administrazioaren funtzionaltasunari buruzko informazioa ematen da Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585041"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928417"
 ---
 # <a name="resource-management-modes-overview"></a>Baliabideen kudeaketaren moduen informazio orokorra
 
@@ -38,7 +38,7 @@ Baliabideen banaketan malgutasuna behar duten erakundeentzat, modu hibridoak pro
 
 ![Modu hibridoa.](./media/resource-management-hybrid.png)
 
-Onartutako Erdiko moduaren prozesua ez ezik, ikusi gai hauek Hibrido moduan onartutako erreserba-fluxu guztiak kudeatzeko:
+Prozesu zentral onartuaz gain, kontsultatu artikulu hauek, hibridoan onartutako gainerako erreserba-fluxu guztiak administratzeko:
 
 Erreserbatu baliabide bat zuzenean proiektu bati:
 - [Erreserbatu baliabide erreserbagarriak proiektuko talde bati eta esleitu zereginak](/dynamics365/project-service/assign-named-bookable-resource)

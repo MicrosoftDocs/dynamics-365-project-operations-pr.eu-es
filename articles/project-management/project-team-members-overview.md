@@ -1,17 +1,17 @@
 ---
 title: Proiektuaren taldeko kideak
-description: Gai honek proiektuko taldekideen informazioa, atributuak eta programazioa lantzeko moduari buruzko informazioa eskaintzen du.
+description: Artikulu honek proiektuko taldekideen informazioarekin, atributuekin eta programazioarekin lan egiteari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 75b140a4ea17dbb3093f926367f439544c32d587
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3465688fb267f3ab785fcb0d252e8616ac1aa1c8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590791"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929291"
 ---
 # <a name="project-team-members"></a>Proiektuaren taldeko kideak
 

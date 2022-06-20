@@ -1,33 +1,33 @@
 ---
 title: Plugin-atributuak prezio-dimentsio berriak gehitzeko eguneratzen
-description: Gai honek prezio-dimentsioetarako plugin atributuak eguneratzeko informazioa eskaintzen du.
+description: Artikulu honek prezioen dimentsioetarako plug-in-atributuak eguneratzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919999"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Eguneratu plugin-atributuak prezio-dimentsio berriak gehitzeko
 
-Gai honek prezio-dimentsioetarako plugin atributuak eguneratzeko informazioa eskaintzen du.
+Artikulu honek prezioen dimentsioetarako plug-in-atributuak eguneratzeari buruzko informazioa eskaintzen du.
 
 > [!NOTE]
-> Gai hau aurrekontuaren eta kontratuaren ezaugarriei soilik aplikatzen zaie Dynamics 365 Project Operations.
+> Artikulu hau aurrekontuaren eta kontratuaren ezaugarrietarako soilik da aplikagarria Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Aurrebaldintzak
-Gai honetako pausoak bete aurretik, gai hauetako prozedurak bete beharko dituzu:
+Artikulu honetako urratsak egin aurretik, hurrengo artikuluetako prozedurak bete behar dituzu:
 
   - [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities-pricing-dimensions.md) 
   - [Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan ](add-custom-fields-price-setup-transactional-entities.md)
   - [Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa](set-up-custom-fields-pricing-dimensions.md). 
   
-Prozedura horiek bete ez badituzu, bete itzazu eta, ondoren, itzuli gai honetara.
+Prozedura horiek bete ez badituzu, bete itzazu eta itzuli artikulu honetara.
 
 ## <a name="register-a-plug-in"></a>Erregistratu plugina
 Aurrekontuaren lerroaren xehetasuna sortzen denean **Aipatu lerroa** proiektuaren aurrekontu lerroaren orrialdea, sistemak bi estimazio lerro sortzen ditu. Lerro bat aurrekontuaren kostuaren aldekoa da eta beste lerroa salmenten aldekoa. Gauza bera gertatzen da proiektuaren kontratuaren lerroarekin.

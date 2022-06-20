@@ -1,6 +1,6 @@
 ---
 title: Proiektuak antolatzeko hasiera orria
-description: Gai honek proiektuaren antolaketari buruzko informazioa ematen du.
+description: Artikulu honetan proiektuen plangintzari buruzko informazioa ematen da.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919033"
 ---
 # <a name="project-planning-home-page"></a>Proiektuak antolatzeko hasiera orria
 
@@ -43,7 +43,7 @@ PSA-ren proiektuak kudeatzeko tresnek proiektuak erraz exekutatzen lagunduko diz
 - Aurreikusi baliabide-eskakizunak bideratzean dauden proiektuentzat.
 - Entregatu proiektuak garapena eta kostuen kontsumoa jarraituz.
 
-Ondorengo gaiek proiektu-kudeatzaileei lagunduko die lana aurreikusten, proiektuen kostuak aurreikusten eta baliabide-eskakizunak aurreikusten PSA-n onartzen diren tresnak erabiliz:
+Honako artikulu hauek proiektu-kudeatzaileei lana zenbatesten, proiektuaren kostuak zenbatesten eta baliabide-betekizunak pronostikotzen lagunduko dien informazioa ematen dute, PSAn onartzen diren tresnak erabiliz:
 
 - [Sortu antolaketa](project-creating.md)
 - [Aurreikusi proiektuaren kostuak eta diru-sarrerak](project-estimating.md)

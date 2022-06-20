@@ -1,6 +1,6 @@
 ---
 title: Zer den berria edo zer aldatu den Project Service Automation-en 3.x 2020ko 1. bertsioan
-description: Gai honek Project Service Automation-en 3 2020ko 1. bertsioan berria denari eta aldatu denari buruzko informazioa eskaintzen du.
+description: Artikulu honek Project Service Automation 3. olatu 1 2020 bertsioan berri eta aldatutakoari buruzko informazioa eskaintzen du.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928601"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Zer den berria edo zer aldatu den Project Service Automation-en 3 2020ko 1. bertsioan
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Gai honek Project Service Automation (PSA) 3.x 2020ko 1. bertsioaren bertsio-berritzean kontuan hartu beharreko funtsezko gako batzuk nabarmentzen ditu.
+Artikuluak berritze-gogoeta nagusiak nabarmentzen ditu Project Service Automation (PSA) 3.x olatu 1 2020 bertsioaren azken bertsiora pasatzean.
 
 ## <a name="time-entry"></a>Denbora-sarrera
 Ordu-sarreraren esperientzia hedatu da denbora-sarrera hedatzeko gaitasunak bezero-egoera gehiagotara hedatzeko. Barne du sarrera motak gehitzeko gaitasuna, eta orain jokamolde espezifikoak gidatzen ditu **Ordu-sarreraren ezarpenak** izeneko eremu eskema-izenean oinarrituta, **Denbora-iturria** gisa bistaratuta. Denbora, Gastuak eta Onespenak (TESA) izeneko soluzio berria gehitu da, funtzionalitateari laguntzeko.

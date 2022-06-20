@@ -1,17 +1,17 @@
 ---
 title: Baliabide-eskakizun orokorrak betetzea
-description: Gai honek baliabide generikoen eskakizunetarako izendatutako baliabideei buruzko informazioa eskaintzen du.
+description: Artikulu honek baliabideen eskakizun generiko baterako izendun baliabideak erreserbatzeari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 92255564e2a1ffa4077ded9b3cf5216dedba0913
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 149ad8305b1442f5bf501d7415264fd4ad7c088d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918527"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Baliabide-eskakizun orokorrak betetzea
 

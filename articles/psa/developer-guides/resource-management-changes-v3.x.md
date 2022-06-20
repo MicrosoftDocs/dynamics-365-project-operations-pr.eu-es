@@ -1,6 +1,6 @@
 ---
 title: Baliabide-kudeaketa gida (Project Service Automation 3.x)
-description: Gai honek baliabideak kudeatzeko eremuan izandako aldaketen inguruko informazioa ematen du.
+description: Artikulu honetan, baliabideen administrazioaren arloko aldaketei buruzko informazioa ematen da.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,18 +15,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d19b8b453c544bb4c6fd11a8b9f750cb08e0c168
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cac11606811632bdc48f462eb3a09a163ba1620d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915997"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Baliabide-kudeaketa gida (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Gai honen atalek Dynamics 365 Project Service Automation aplikazioaren 3.x bertsioako baliabideak kudeatzeko eremuan egin diren aldaketen inguruko informazioa ematen dute.
+Artikulu honetako ataletan, 3.x bertsioko baliabideen Dynamics 365 Project Service Automation administrazio-arloan egin diren aldaketei buruzko informazioa ematen da.
 
 ## <a name="project-estimates"></a>Proiektuaren aurreikuspenak
 

@@ -1,6 +1,6 @@
 ---
-title: Txostenaren orri nagusia
-description: Gai honek txostenari buruzko informazioa ematen du Dynamics 365 Project Service Automation aplikazioan.
+title: Etxeko orria salatzen
+description: Artikulu honetan txostenei buruzko informazioa ematen da Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921655"
 ---
 # <a name="reporting-home-page"></a>Etxeko orria salatzen
 
@@ -47,10 +47,10 @@ Elkarrekin, Microsoft Power BI eta Dynamics 365 aplikazioek zure datuekin lan eg
 
 
 ## <a name="additional-resources"></a>Baliabide gehigarriak
-PSA-n txostenak egiteari buruzko informazio gehiago lortzeko, ikusi gai hauek:
+PSAren txostenei buruzko informazio gehiago lortzeko, kontsultatu artikulu hauek:
 
 - [Project Service-ren datu ereduarekin lan egitea](reports-working-project-service-data-model.md)
-- [Aginte-panelak](reports-dashboards.md)
+- [Panelak](reports-dashboards.md)
 
 
 

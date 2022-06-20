@@ -1,24 +1,24 @@
 ---
 title: 2021eko urtarrilean Project Operations-eko egindako berrikuntzak edo aldaketak izakinetan edo ekoizpenean oinarritutako egoeretarako
-description: Gai honek informazioa eskaintzen du 2021eko urtarrilean Project Operations bertsioan eskuragarri dauden kalitate-eguneratzeei buruz, stockean eta ekoizpenean oinarritutako egoeretarako.
+description: Artikulu honetan, biltegiratzean edo ekoizpenean oinarritutako agertokietarako Project Operations-en 2021eko urtarrileko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa ematen da.
 author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 84a49994267d0c070769090f9fce9c6a969c98be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592631"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923909"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>2021eko urtarrilean Project Operations-eko egindako berrikuntzak edo aldaketak izakinetan edo ekoizpenean oinarritutako egoeretarako
 
 _**Honi aplikatzen zaio:** Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations_
 
-Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
+Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
 
 - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.16 bertsioan
 

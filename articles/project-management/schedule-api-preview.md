@@ -1,17 +1,17 @@
 ---
 title: Erabili Proiektuak programatzeko APIak Planifikazio entitateekin eragiketak egiteko
-description: Gai honek informazioa eta laginak eskaintzen ditu proiektuen programazio APIak erabiltzeko.
+description: Artikulu honetan, proiektuen programaziorako API-ak erabiltzeko informazioa eta adibideak ematen dira.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592033"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929199"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Erabili Proiektuak programatzeko APIak Planifikazio entitateekin eragiketak egiteko
 
@@ -42,7 +42,7 @@ OperationSet lan-unitate eredua da, eragiketen eskaerak eragiketen hainbat trans
 
 Jarraian, proiektuaren antolaketaren APIen zerrenda dago.
 
-- **msdyn_CreateProjectV1**: API hau proiektu bat sortzeko erabil daiteke. Proiektua eta proiektu-ontzi lehenetsia berehala sortzen dira.
+- **msdyn_CreateProjectV1**: API hau proiektu bat sortzeko erabil daiteke. Proiektua eta aurrez zehaztutako proiektuaren bukketa berehala sortzen dira.
 - **msdyn_CreateTeamMemberV1**: API hau proiektuko taldekide bat sortzeko erabil daiteke. Taldekideen erregistroa berehala sortzen da.
 - **msdyn_CreateOperationSetV1**: API hau transakzio baten barruan egin behar diren hainbat eskaera antolatzeko erabil daiteke.
 - **msdyn_PSSCreateV1**: API hau entitate bat sortzeko erabil daiteke. Erakundea sortzeko eragiketa onartzen duten Proiektuak antolatzeko entitateetako edozein izan daiteke.
@@ -58,10 +58,10 @@ Biekin grabatzen delako **CreateProjectV1** eta **CreateTeamMemberV1** berehala 
 
 | Antolaketa-entitatea | Sortu | Update | Ezabatu | Gogoeta garrantzitsuak |
 | --- | --- | --- | --- | --- |
-Proiektuaren zeregina | Yes | Yes | Yes | The **Aurrerapena**, **amaituta**, eta **AhaleginGeratzen** eremuak Weberako Project-en edita daitezke, baina ezin dira Editatu Project Operations-en.  |
-| Proiektuaren zereginen mendekotasuna | Yes |  | Yes | Proiektuaren zereginen mendekotasun erregistroak ez dira eguneratu. Horren ordez, erregistro zahar bat ezabatu daiteke, eta erregistro berri bat sor daiteke. |
-| Baliabide-esleipena | Yes | Yes | | Ez dira onartzen eremu hauek dituzten eragiketak: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** eta **PlannedWork**. Baliabideak esleitzeko erregistroak ez dira eguneratu. Horren ordez, erregistro zaharra ezabatu daiteke, eta erregistro berria sor daiteke. |
-| Proiektuaren ontzia | Yes | Yes | Yes | Kubo lehenetsia hau erabiliz sortzen da **SortuProiektuaV1** APIa. Proiektuen kuboak sortzeko eta ezabatzeko laguntza gehitu zen 16. bertsioan. |
+Proiektuaren zeregina | Yes | Yes | Yes | Progress **,** EffortCompleted **eta** EffortRemaining **eremuak** Project-en argitaratu daitezke Weberako, baina ezin dira Project Operations-en argitaratu.  |
+| Proiektuaren zereginen mendekotasuna | Yes |  | Yes | Proiektuaren zereginen mendekotasun erregistroak ez dira eguneratu. Horren ordez, erregistro zahar bat ezabatu daiteke eta erregistro berri bat sor daiteke. |
+| Baliabide-esleipena | Yes | Yes | | Ez dira onartzen eremu hauek dituzten eragiketak: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** eta **PlannedWork**. Baliabideak esleitzeko erregistroak ez dira eguneratu. Horren ordez, erregistro zaharra ezabatu daiteke eta erregistro berri bat sor daiteke. |
+| Proiektuaren ontzia | Yes | Yes | Yes | Aurrez zehaztutako bukketa API CreateProjectV1 **bidez** sortzen da. 16. bertsioan, proiektuen bucket-ak sortu eta ezabatzeko bateragarritasuna gehitu zen. |
 | Proiektu-taldeko kidea | Yes | Yes | Yes | Eragiketa sortzeko, erabili **CreateTeamMemberV1** APIa. |
 | Project | Yes | Yes |  | Ez dira onartzen eremu hauek dituzten eragiketak: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** eta **Duration**. |
 
@@ -71,11 +71,11 @@ Identifikazio propietatea aukerakoa da. Ematen bada, sistema erabiltzen saiatzen
 
 ## <a name="restricted-fields"></a>Eremu mugatuak
 
-Ondorengo taulek mugatutako eremuak definitzen dituzte **Sortu** eta **Editatu**.
+Hurrengo tauletan, Crear **eta** Editar-etik **mugatuta** dauden eremuak definitzen dira.
 
 ### <a name="project-task"></a>Proiektuaren zeregina
 
-| Izen logikoa                           | Sortu dezake     | Edita daiteke         |
+| Izen logikoa                           | Sortu dezakezu     | Edita daiteke         |
 |----------------------------------------|----------------|------------------|
 | msdyn_actualcost                       | No             | No               |
 | msdyn_actualcost_base                  | No             | No               |
@@ -130,7 +130,7 @@ Ondorengo taulek mugatutako eremuak definitzen dituzte **Sortu** eta **Editatu**
 
 ### <a name="project-task-dependency"></a>Proiektuaren zereginen mendekotasuna
 
-| Izen logikoa                  | Sortu dezake     | Edita daiteke     |
+| Izen logikoa                  | Sortu dezakezu     | Edita daiteke     |
 |-------------------------------|----------------|--------------|
 | msdyn_linktype                | No             | No           |
 | msdyn_linktypename            | No             | No           |
@@ -144,7 +144,7 @@ Ondorengo taulek mugatutako eremuak definitzen dituzte **Sortu** eta **Editatu**
 
 ### <a name="resource-assignment"></a>Baliabide-esleipena
 
-| Izen logikoa                 | Sortu dezake     | Edita daiteke     |
+| Izen logikoa                 | Sortu dezakezu     | Edita daiteke     |
 |------------------------------|----------------|--------------|
 | msdyn_bookableresourceid     | Yes            | No           |
 | msdyn_bookableresourceidname | Yes            | No           |
@@ -174,7 +174,7 @@ Ondorengo taulek mugatutako eremuak definitzen dituzte **Sortu** eta **Editatu**
 
 ### <a name="project-team-member"></a>Proiektu-taldeko kidea
 
-| Izen logikoa                                     | Sortu dezake     | Edita daiteke     |
+| Izen logikoa                                     | Sortu dezakezu     | Edita daiteke     |
 |--------------------------------------------------|----------------|--------------|
 | msdyn_calendarid                                 | No             | No           |
 | msdyn_creategenericteammemberwithrequirementname | No             | No           |
@@ -196,7 +196,7 @@ Ondorengo taulek mugatutako eremuak definitzen dituzte **Sortu** eta **Editatu**
 
 ### <a name="project"></a>Project
 
-| Izen logikoa                           | Sortu dezake     | Edita daiteke     |
+| Izen logikoa                           | Sortu dezakezu     | Edita daiteke     |
 |----------------------------------------|----------------|--------------|
 | msdyn_actualexpensecost                | No             | No           |
 | msdyn_actualexpensecost_base           | No             | No           |
@@ -255,7 +255,7 @@ Ondorengo taulek mugatutako eremuak definitzen dituzte **Sortu** eta **Editatu**
 
 ### <a name="project-bucket"></a>Proiektuaren ontzia
 
-| Izen logikoa          | Sortu dezake      | Edita daiteke     |
+| Izen logikoa          | Sortu dezakezu      | Edita daiteke     |
 |-----------------------|-----------------|--------------|
 | msdyn_displayorder    | Yes             | No           |
 | msdyn_name            | Yes             | Yes          |
@@ -265,7 +265,7 @@ Ondorengo taulek mugatutako eremuak definitzen dituzte **Sortu** eta **Editatu**
 ## <a name="limitations-and-known-issues"></a>Mugak eta arazo ezagunak
 Jarraian agertzen diren mugen eta arazo ezagunen zerrenda:
 
-- Project Schedule APIak soilik erabil ditzake **Microsoft Project Lizentzia duten erabiltzaileak**. Ezin dute hauek erabili:
+- Proiektuen programaziorako API Microsoft Project **lizentzia duten erabiltzaileek** bakarrik erabil ditzakete. Ezin dute hauek erabili:
 
     - Aplikazioaren erabiltzaileak
     - Sistema-erabiltzaileak

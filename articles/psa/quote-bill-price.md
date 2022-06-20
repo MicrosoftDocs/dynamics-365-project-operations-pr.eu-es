@@ -1,6 +1,6 @@
 ---
 title: Eskaintza, prezioak eta fakturazioaren orri nagusia
-description: Gai honek eskaintzari, prezioei eta fakturazioari buruzko informazioa ematen du.
+description: Artikulu honek aurrekontuei, prezioei eta fakturazioari buruzko informazioa eskaintzen du.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581085"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926715"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Eskaintza, prezioak eta fakturazioaren orri nagusia
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581085"
 
 Eskaintza, prezioak eta fakturazioa erakunde txikiek eta handiek erabiltzen dituzten ezaugarriak dira. Ezaugarri horiek aplikazioan nola funtzionatzen duten ulertuz, erakundeek errazago konfigura ditzakete konfigurazioak.
 
-Hurrengo gaietan PSA-n dauden eskaintzen, prezioen eta fakturazioaren funtzionaltasunari buruzko informazio gehiago eskaintzen da:
+Hurrengo artikuluek PSAko aurrekontuei, prezioei eta fakturazio-funtzionalitateei buruzko informazio gehiago eskaintzen dute:
 
 - [Salmenta-prozesua](basic-sales-process.md)
 - [Eskaintzaren lerroak](basic-quote-lines.md)

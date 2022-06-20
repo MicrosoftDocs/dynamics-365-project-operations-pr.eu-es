@@ -1,23 +1,23 @@
 ---
 title: Proiektuko ahaleginaren segimendua
-description: Gai honek proiektuaren ahaleginaren eta lanaren garapenaren jarraipena egiteari buruzko informazioa ematen du.
+description: Artikulu honek proiektuaren esfortzuaren eta lanaren aurrerapenari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593781"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929245"
 ---
 # <a name="project-effort-tracking"></a>Proiektuko ahaleginaren segimendua
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Antolaketa eta garapena jarraitzeko beharra aldatu egiten da industriaren arabera. Zenbait industriak jarraipen zehatza egiten du; beste batzuek jarraipen orokorragoa egiten dute. Gai honek erakundearen eskakizunak betetzeko nola antolatu behar den erakusten du.
+Antolaketa eta garapena jarraitzeko beharra aldatu egiten da industriaren arabera. Zenbait industriak jarraipen zehatza egiten du; beste batzuek jarraipen orokorragoa egiten dute. Artikulu honetan, antolakuntzaren baldintzak betetzeko nola programatu erakusten da.
 
 ## <a name="effort-tracking-view"></a>Ahaleginen segimenduaren ikuspegia
 

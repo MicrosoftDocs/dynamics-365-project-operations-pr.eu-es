@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 30, V3 bertsioko berrikuntzak edo aldaketak
-description: Gai honek Project Service Automation V3, 30. eguneratzean erabilgarri dauden eginbideak eta konponketak ditu.
+description: Artikulu honek Project Service Automation Update Release 30, V3-n eskuragarri dauden funtzioak eta konponketak zerrendatzen ditu.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/01/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f99d2df3f9f6c0752109c39132c2401e0130d5df
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: ad00b126a13e18a5de47df335aea06b9690efa13
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925059"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-30-v3"></a>Project Service Automation eguneratzearen 30, V3 bertsioko berrikuntzak edo aldaketak
 
@@ -29,7 +29,7 @@ ms.locfileid: "8723525"
 
 Atseginez iragartzen dizuegu Dynamics 365 aplikaziorako Project Service Automation aplikazioaren azken eguneratzea. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Argitalpen hau bateragarria da Dynamics 365 9.x bertsioarekin. Argitalpen honetara eguneratzeko, bisitatu Dynamics 365 (online) aplikazioaren administrazio-zentroko soluzioen orrira eguneratzea instalatzeko. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Gai honek Project Service Automation V3, 30. eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honen konpilazio-zenbakia V3.10.51.61 da eta, oro har, 2021eko apirileko eguneratze automatikoaren baten bidez dago eskuragarri.
+Artikulu honek Project Service Automation V3, Update Release 30-rako berriak diren edo aldatu diren ezaugarriak eta konponketak zerrendatzen ditu. Bertsio honen konpilazio-zenbakia V3.10.51.61 da eta, oro har, 2021eko apirileko eguneratze automatikoaren baten bidez dago eskuragarri.
 
 ## <a name="update-release-30"></a>30. eguneratze-bertsioa
 

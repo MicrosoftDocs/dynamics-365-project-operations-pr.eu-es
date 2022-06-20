@@ -1,6 +1,6 @@
 ---
 title: Pertsonalizatu asteroko denbora-sarrera
-description: Gai honek erakundearen praktikak onartzen dituzten negozioaren arau pertsonalizatuak inplementatzeko moduari buruzko informazioa ematen du.
+description: Artikulu honek erakunde baten praktikak onartzen dituzten negozio-arau pertsonalizatuak ezartzeari buruzko informazioa eskaintzen du.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918941"
 ---
 # <a name="customize-weekly-time-entry"></a>Pertsonalizatu asteroko denbora-sarrera 
 
@@ -46,7 +46,7 @@ Asteko denbora-sarrera sareta berria kontrol pertsonalizatua da, eta tresna-barr
 - Mota
 - Sarreraren egoera
 
-**Neurriak** sekzioak ez du lineako edizioa onartzen. Sekzio honek eremu pertsonalizatuak asteroko denbora-sarreraren saretan gehitzeko aukera ematen duen ikuspegiaren babesa du. Eremu pertsonalizatuak gehitzeari buruzko informazioa eskuratzeko, ikusi "Hedagarritasuna" atala gai honetan aurrerago.
+**Neurriak** sekzioak ez du lineako edizioa onartzen. Sekzio honek eremu pertsonalizatuak asteroko denbora-sarreraren saretan gehitzeko aukera ematen duen ikuspegiaren babesa du. Eremu pertsonalizatuak gehitzeari buruzko informazio gehiago lortzeko, ikusi artikulu honetan geroago "Hedagarritasuna" atala.
 
 ### <a name="duration"></a>Iraupena
 Iraupena sekzioak asteko egunak zutabeetako goiburu gisa erakusten ditu. Sekzio honek lineako edizioa ahalbidetzen du. Neurri egokiak dituen denbora-sarreraren errenkada bat sortu ondoren, erabiltzaileek azkar sar dezakete linean neurri horietan igarotzen duten denbora.

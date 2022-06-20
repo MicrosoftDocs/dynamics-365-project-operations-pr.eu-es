@@ -1,18 +1,18 @@
 ---
 title: Saltzaileen fakturen integrazioa
-description: Gai honek saltzaileen fakturen integrazioaren inguruko informazioa eskaintzen du Project Operations-en.
+description: Artikulu honetan, hornitzailearen fakturak proiektu-eragiketetan integratzeari buruzko informazioa ematen da.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912041"
 ---
 # <a name="vendor-invoice-integration"></a>Saltzaileen fakturen integrazioa
 
@@ -21,7 +21,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 Proiektuarekin lotutako kontratazioa Dynamics 365 Project Operations ra joan daiteke **Ordaintzeko kontuak** > **Fakturak** > **Saltzailearen fakturak zain** eta zain dagoen saltzailearen faktura dokumentua erabiliz. Informazio gehiagorako, ikusi [Erosi ez dauden materialak saltzailearen faktura pendiente baten bidez](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Gai honetan azaldutako funtzionalitatea erabili aurretik, berrikusi eta aplikatu beharrezko konfigurazioak. Informazio gehiagorako, ikusi [Gaitu ez dauden materialak eta saltzailearen faktura pendienteak](../procurement/configure-materials-nonstocked.md).
+> Artikulu honetan deskribatutako funtzionalitateak erabili aurretik, berrikusi eta aplikatu behar diren konfigurazioak. Informazio gehiagorako, ikusi [Gaitu ez dauden materialak eta saltzailearen faktura pendienteak](../procurement/configure-materials-nonstocked.md).
 
 Project Operations-en, proiektuari lotutako saltzaileen fakturak argitaratzeko arau bereziak erabiliz argitaratzen dira:
 
@@ -34,7 +34,7 @@ Project Operations-en, proiektuari lotutako saltzaileen fakturak argitaratzeko a
      > [!NOTE]
      > Saltzailearen faktura xehetasunak hemen Dataverse ez dira editagarriak.
 
-Zerga-liburua, saltzaileen azpi-liburua eta beste finantza-zenbaki batzuk Dynamics 365 Finance atalean erregistratzen dira saltzailearen faktura argitaratzen denean.
+Zergen sublibrotea, hornitzailearen sublibrotea eta beste finantza-kontabilizazio batzuk Dynamics 365 Finance-n aplikagarri gisa erregistratzen dira, hornitzailearen faktura kontabiltzen denean.
 
 ![Saltzaileen fakturen integrazioa.](media/DW7VendorInvoice.png)
 

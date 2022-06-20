@@ -1,19 +1,19 @@
 ---
-title: Transakzio-konexioak - Lotu transakzio mota desberdinetako benetakoak
-description: Gai honek transakzio-konexio bat nola erabiltzen den azaltzen du mota ezberdinetako errealak lotzeko errentagarritasuna, fakturazio-atzerapena eta fakturatutako eta fakturatu gabeko diru-sarreren kalkuluen jarraipena egiteko.
+title: Transakzioaren konexioak - Lotu transakzio mota desberdinen benetako datuak
+description: Artikulu honek transakzio-konexio bat nola erabiltzen den azaltzen du mota ezberdinetako errealak lotzeko errentagarritasuna, fakturazio-atzerapena eta fakturatutako eta fakturatu gabeko diru-sarreren kalkuluak egiten laguntzeko.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e8d75a69e27619e6a21f0fe61e2c656e94017b0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19a78336099f54c5d6b36a963a90b9fd77e3d0af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580763"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926071"
 ---
-# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Transakzio-konexioak - Lotu transakzio mota desberdinetako benetakoak
+# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Transakzioaren konexioak - Lotu transakzio mota desberdinen benetako datuak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
@@ -48,6 +48,6 @@ Hurrengo taulan erregistroak erakusten ditu **Transakzio-konexioa** aurreko lan-
 
 Ondorengo ilustrazioak hainbat gertaeratan erreal mota ezberdinen artean sortzen diren estekak erakusten ditu Proiektu Eragiketetako denbora-sarreren adibidea erabiliz.
 
-> ![Mota desberdinetako errealak nola lotzen diren elkarren artean Proiektu Eragiketetan.](media/TransactionConnections.png)
+> ![Mota desberdinetako errealak nola lotzen diren proiektuen eragiketetan.](media/TransactionConnections.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

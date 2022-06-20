@@ -1,6 +1,6 @@
 ---
 title: Eguneratu orri nagusia
-description: Gai honek Dynamics 365 Project Service Automation aplikazioko eginbide berri eta aldatuak bilatzeko tokiari eta azken bertsiora eguneratzeko prozesuari buruzko informazioa eskaintzen du.
+description: Artikulu honek funtzio berriei eta aldatuei buruzko informazio garrantzitsua non aurkitu erakusten du Dynamics 365 Project Service Automation, eta bertsio berrienera eguneratzeko prozesua.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591358"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926623"
 ---
 # <a name="upgrade-home-page"></a>Eguneratu orri nagusia
 
@@ -48,14 +48,14 @@ Lehenago, PSA-ren 2.x bertsioko instantzia duten bezeroek eta 3.x bertsiora egun
 Eguneratze prozesua hasi aurretik, honako zeregin hauek osatzea gomendatzen dizugu:
 
 - Ziurtatu Dynamics 365 Field Service eta Project Service Automation identifikatutako instantzian instalatuta daudela. Bi soluzioak instalatuta badaude, biak eguneratzea planifikatu beharko zenuke instantziaren ohiko erabilera berrekin baino lehen.
-- Ondo berrikusi jarraian dauden gaiak. Bertsioen arteko aldaketen kontzientziazioak eta ulermenak eguneratze prozesuan lagunduko dizu. Gai hauek PSA-n egindako aldaketa garrantzitsuei buruzko informazioa eskainiko dizu, baita 3.x bertsiora eguneratzeko kontuak hartu beharrekoak eta gomendioak ere.
+- Berrikusi arretaz hurrengo artikuluak. Bertsioen arteko aldaketen kontzientziazioak eta ulermenak eguneratze prozesuan lagunduko dizu. Artikulu hauek PSAren aldaketa nagusiei buruzko informazioa eskaintzen dute, 3.x bertsiora eguneratzea planifikatzeko gogoeta eta gomendioekin batera.
 
     - [Project Service Automation-en 3. bertsioko berrikuntzak edo aldaketak](whats-new-changed-v3.md)
     - [Eguneratzean kontuan hartzekoak - Project Service Automation-en 2.x edo 1.x bertsiotik 3. bertsiora](upgrade-v3.md)
 
 - Eguneratu sandbox instantzia inplementazioko aldaketak ebaluatzeko produkzio-instantzia eguneratu baino lehen.
 
-Aipatutako gaiak berrikusi ondoren eta PSA-ren 3.x bertsiora edo Bezeroaren interfaze bateratuan oinarritutako bertsiora eguneratzeko prest daudenean, bidali eskaera bat Mricrosoft-en laguntzara eguneratzea erabilgarri egon dadin administrazio-zentroan. Eskaeran, eman instantziaren xehetasunak.
+Lehen aipatutako artikuluak berrikusi eta PSA 3.x bertsiora edo UCI-n oinarritutako bertsiora eguneratzeko prest zaudenean, bidali eskaera Microsoft-en laguntza-zerbitzuari bertsio berritzea Admin-zentroan erabilgarri jartzeko. Eskaeran, eman instantziaren xehetasunak.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>PSA-ren aurreko bertsioak (PSA-ren 2.x bertsioa) sortu berri den instantzia batean
 

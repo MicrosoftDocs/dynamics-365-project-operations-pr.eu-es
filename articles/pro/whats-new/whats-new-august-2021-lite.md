@@ -1,24 +1,24 @@
 ---
 title: 2021eko abuztuko berritasunak - Project Operations lite-ren oinarrizko inplementazioa
-description: Gai honek 2021eko abuztuko Project Operations lite-ren inplementazioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa eskaintzen du.
+description: Artikulu honek Project Operations lite inplementazioaren 2021eko abuztuko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3cb6f92bfb28dc64f0f689e0070b0506644c2320
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84318a26d97355fe56794e1d1532576cde4af661
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586421"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922023"
 ---
 # <a name="whats-new-august-2021---project-operations-lite-deployment"></a>2021eko abuztuko berritasunak - Project Operations lite-ren oinarrizko inplementazioa
 
 _Honi aplikatzen zaio: Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
+Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
 
   - Project Operations Dataverse ingurunearen 4.13.0.152 bertsioa
 

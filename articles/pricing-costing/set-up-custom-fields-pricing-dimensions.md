@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa
-description: Gai honek eremu pertsonalizatuak erabiliz prezio-dimentsioak konfiguratzeari buruzko informazioa eskaintzen du.
+description: Artikulu honek eremu pertsonalizatuak erabiliz prezioen dimentsioak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599393"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917561"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Hasi aurretik, gai honek honako gai hauetan azaldutako prozedurak bete dituzula suposatzen du: [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities-pricing-dimensions.md) eta [Gehitu beharrezko eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan](add-custom-fields-price-setup-transactional-entities.md). Prozedura horiek bete ez badituzu, itzuli, bete itzazu eta, ondoren, itzuli gai honetara. 
+Hasi baino lehen, artikulu honek artikuluetako prozedurak bete dituzula suposatzen du, [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities-pricing-dimensions.md) eta [Gehitu beharrezko eremu pertsonalizatuak prezioen konfigurazioan eta transakzio-entitateetan](add-custom-fields-price-setup-transactional-entities.md). Prozedura horiek bete ez badituzu, joan atzera eta osatu eta, ondoren, itzuli artikulu honetara. 
 
-Gai honek prezio-dimentsio pertsonalizatuak ezartzeko informazioa eskaintzen du. **Parametroak** orrialdean, **Zenbatekoan oinarritutako prezio-dimentsioak** fitxan, prezio-dimentsioen entitateetako erregistroak erakusten dira. Berez, fitxa honetako saretan bi errenkada daude:
+Artikulu honek prezio pertsonalizatuen dimentsioak konfiguratzeari buruzko informazioa eskaintzen du. **Parametroak** orrialdean, **Zenbatekoan oinarritutako prezio-dimentsioak** fitxan, prezio-dimentsioen entitateetako erregistroak erakusten dira. Berez, fitxa honetako saretan bi errenkada daude:
 
 - **msdyn_resourcecategory** (Funtzioa)
 - **msdyn_OrganizationalUnit** (Erakundearen unitatea)

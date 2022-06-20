@@ -1,22 +1,22 @@
 ---
 title: Proiektuaren fakturen integrazioa
-description: Gai honek Project Operations idazketa bikoitzeko integrazioari buruzko informazioa eskaintzen du bezeroaren fakturazio lortzeko.
+description: Artikulu honek Project Operations-en idazketa bikoitzeko integrazioari buruzko informazioa eskaintzen du bezeroen fakturaziorako.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581223"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912087"
 ---
 # <a name="project-invoice-integration"></a>Proiektuaren fakturen integrazioa
 
-Gai honek Project Operations idazketa bikoitzeko integrazioari buruzko informazioa eskaintzen du bezeroaren fakturazio lortzeko.
+Artikulu honek Project Operations-en idazketa bikoitzeko integrazioari buruzko informazioa eskaintzen du bezeroen fakturaziorako.
 
 Project Operations-en, proiektuaren kudeatzaileak proiektuaren fakturazioen atzerapena kudeatzen du eta proforma faktura sortzen dio bezeroari Microsoft Dataverse-n. Proforma faktura honetan oinarrituta, Kobratzeko kontuak edo Proiektuaren kontulariak bezeroari begira faktura sortzen du. Idazketa bikoitzeko integrazioak bermatzen du proformako fakturaren xehetasunak Finantza eta Operazioen aplikazioekin sinkronizatzen direla. Bezeroari begirako faktura argitaratu ondoren, sistemak proiektuaren datuak eguneratzen ditu Dataverse kontabilitate xehetasunarekin. Ondorengo grafikoak integrazio horren goi-mailako ikuspegi kontzeptuala eskaintzen du.
 

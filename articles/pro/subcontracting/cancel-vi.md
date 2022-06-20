@@ -1,35 +1,35 @@
 ---
-title: Utzi proiektuko hornitzaileen faktura
-description: Gai honek Microsoft-en proiektuko hornitzaileen faktura nola bertan behera utzi azaltzen du Dynamics 365 Project Operations eta proiektuaren hornitzaileen faktura bertan behera uztearen eragin ekonomikoa.
+title: Utzi proiektuaren saltzailearen faktura
+description: Artikulu honetan azaltzen da nola kitatu proiektu-hornitzailearen faktura bat Microsoften Dynamics 365 Project Operations eta proiektuaren hornitzailearen faktura bat kitatzeak duen finantza-inpaktua.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 87f6bdca30c5779e3d70922e75609ff4cdfca167
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ddaadc0f6e336a8ba67bb4ad8000f7e894f3eb0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580625"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911535"
 ---
-# <a name="cancel-a-project-vendor-invoice"></a>Utzi proiektuko hornitzaileen faktura
+# <a name="cancel-a-project-vendor-invoice"></a>Utzi proiektuaren saltzailearen faktura
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Saltzaileen faktura bat baieztatu ondoren, ezin da editatu edo ezabatu. Berretsitako saltzaile-faktura batean erroreren bat egon bazen, Utzi ekintza erabil dezakezu saltzaile-fakturaren eragina alderantzikatzeko eta hornitzaile-faktura berri bat sortzeko.
+Behin hornitzailearen faktura bat berretsita, ezin da editatu, ezta ezabatu ere. Hornitzailearen faktura batean akats bat baieztatu bada, Cancelar ekintza erabil dezakezu hornitzailearen fakturaren eragina iraultzeko eta hornitzailearen faktura berri bat sortzeko.
 
-Hautatzen duzunean **Utzi** Saltzaileen fakturan, portaera hau gertatzen da:
+Hornitzaile-faktura batean Cancelar **hautatzean**, honako portaera hau gertatzen da:
 
-1. Horra eguneratzen da hornitzailearen fakturaren egoera **Bertan behera utzita**.
-2. Bertan behera utzitako hornitzailearen faktura eta haiei lotutako erregistroak irakurtzeko soilik bihurtzen dira, eta ezin dira editatu edo ezabatu.
-3. Hornitzaileen fakturaren lerroetan oinarrituta sortu ziren kostu errealak saltzaileen fakturaren berrespenaren parte gisa alderantzikatu egiten dira.
-4. Bat-etortze-prozesuaren zati gisa, kostu errealen bat hornitzaileen faktura-lerroekin lotzen bazen, jatorrizko hornitzailearen fakturaren berrespenak alderantzikatu zuen. Saltzaileen fakturak bertan behera uzten diren bitartean, kostu erreal horiek berriro sortzen dira. Jatorriek denbora, gastu edo material erabilerako sarrerak adierazten dituzte.
-5. Saltzaileen faktura bertan behera utzi ondoren, berriro ere zuzenketa-aldizkariak sor ditzakezu, denbora-sarrerak gogorarazpenak prozesatu eta jatorrizko denboraren, gastuen edo material errealen onarpena bertan behera utzi.
+1. Hornitzailearen fakturaren egoera Canceladora **eguneratzen da**.
+2. Ezeztatutako hornitzailearen faktura eta horiekin lotutako erregistroak irakurketa bakarrekoak izango dira, eta ezin dira editatu, ezta ezabatu ere.
+3. Hornitzailearen faktura-lerroen arabera sortu zen kostu erreal oro inbertitzen da.
+4. Kostu errealak hornitzailearen faktura-lerroekin lotzen baziren bat-etortze-prozesuaren zati gisa, hornitzailearen fakturaren jatorrizko berrespenak itzuli egin zituen. Hornitzailearen faktura ezerezten den bitartean, benetako kostu horiek berriro sortzen dira. Jatorriaren arabera, denbora, gastua edo materialen erabilera izango dira.
+5. Hornitzailearen faktura bertan behera utzi ondoren, zuzenketa-egunkariak sortu, denbora-sarreraren berreskurapenak prozesatu eta jatorrizko materialaren denboraren, gastuaren edo benetako datuen onarpena kikla dezake.
 
 > [!NOTE]
-> Proiektuaren hornitzaileen fakturak soilik baliogabetu daitezke. Beste estatuetako saltzaileen fakturak ezin dira bertan behera utzi.
+> Proiektuaren hornitzailearen fakturak soilik kita daitezke. Beste estatu batzuetako hornitzaileen fakturak ezin dira ezeztatu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Ezarri eremu pertsonalizatuak Microsoft Dynamics 365 Project Timesheet mugikorretarako aplikazioa iOS eta Android
-description: Gai honek luzapenak eremu pertsonalizatuak ezartzeko ohiko ereduak eskaintzen ditu.
+description: Artikulu honek eremu pertsonalizatuak ezartzeko luzapenak erabiltzeko eredu arruntak eskaintzen ditu.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913697"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Ezarri eremu pertsonalizatuak Microsoft Dynamics 365 Project Timesheet mugikorretarako aplikazioa iOS eta Android
 
 [!include [banner](../includes/banner.md)]
 
-Gai honek luzapenak eremu pertsonalizatuak ezartzeko ohiko ereduak eskaintzen ditu. Honako gai hauek lantzen dira:
+Artikulu honek eremu pertsonalizatuak ezartzeko luzapenak erabiltzeko eredu arruntak eskaintzen ditu. Artikulu hauek lantzen dira:
 
 - Eremu pertsonalizatuko esparruak onartzen dituen hainbat datu mota
 - Nola erakutsi irakurtzeko soilik edo editagarriak diren eremuak ordu-orriko sarreretan eta gorde erabiltzaileak emandako balioak datu-basean
@@ -35,7 +35,7 @@ Gai honek luzapenak eremu pertsonalizatuak ezartzeko ohiko ereduak eskaintzen di
 
 ## <a name="audience"></a>Hartzaileak
 
-Gai hau beren eremu pertsonalizatuak integratzen dituzten garatzaileentzat da Microsoft Dynamics 365 Project Timesheet Apple iOS eta eskuragarri dagoen mugikorretarako aplikazioa Google Android. Uste da irakurleek ezagutzen dituztela X ++ garapena eta proiektuaren denbora-orriaren funtzionalitatea.
+Artikulu hau beren eremu pertsonalizatuak integratzen ari diren garatzaileentzat da Microsoft Dynamics 365 Project Timesheet Apple iOS eta Google-rentzat eskuragarri dagoen mugikorretarako aplikazioa Android. Uste da irakurleek ezagutzen dituztela X ++ garapena eta proiektuaren denbora-orriaren funtzionalitatea.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Datuen kontratua - TSTimesheetCustomField X ++ klasea
 
@@ -64,7 +64,7 @@ Gai hau beren eremu pertsonalizatuak integratzen dituzten garatzaileentzat da Mi
 
 - Bada **katea Aukerak** jabetza helbidean ematen da **TSTimesheetCustomField** objektua, zerrendako elementu horiek erabiltzaileek aukera botoiak (irrati botoiak) erabiliz hautatu ditzaketen balio bakarrak dira.
 
-    Kasu honetan, kate-eremuak zenbateko balio gisa joka dezake erabiltzailea sartzeko helburuarekin. Balioa datu-basean zenbaki gisa gordetzeko, eskuz mapatu katearen balioa enum balioarekin berriro datu basean gorde aurretik komando-katea erabiliz (ikus "Erabili komando-katea TSTimesheetEntryService klasean denbora-orriko sarrera bat gordetzeko aplikazioa datu-basera "atalean geroago gai honen adibide gisa).
+    Kasu honetan, kate-eremuak zenbateko balio gisa joka dezake erabiltzailea sartzeko helburuarekin. Balioa datu-basean enumerazio gisa gordetzeko, eskuz mapatu katearen balioa enum balioarekin datu-basean gorde aurretik komando-katea erabiliz (ikus "Erabili komando-katea TSTimesheetEntryService klasean denbora-orriaren sarrera bat gordetzeko". aplikazioa datu-basera itzuli" atalean, artikulu honetan geroago, adibide baterako).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Propietate honek aplikazioaren eremuan ondoan agertzen den etiketa zehazten du.
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (Kateen zerrenda)
 
-Jabetza hau noiz aplikatu daiteke **fieldBaseType** ezarrita dago **Katea**. Bada **katea Aukerak** ezarrita dago, aukera-botoien bidez (irrati-botoiak) aukeratzeko dauden kateen balioak zerrendako kateek zehazten dituzte. Katerik ematen ez bada, kateen eremuan testu libreko sarrera onartzen da (ikusi "Erabili komando-katea TSTimesheetEntryService klasean aplikazioko datu-basera itzuli den denbora-orriko sarrera bat gordetzeko" atalean adibide bat lortzeko) .
+Jabetza hau noiz aplikatu daiteke **fieldBaseType** ezarrita dago **Katea**. Bada **katea Aukerak** ezarrita dago, aukera-botoien bidez (irrati-botoiak) aukeratzeko dauden kateen balioak zerrendako kateek zehazten dituzte. Katerik ematen ez bada, testu libreko sarrera onartzen da katearen eremuan (ikus "Erabili komando-katea TSTimesheetEntryService klasean denbora-orriaren sarrera aplikaziotik datu-basera gordetzeko" atala, artikulu honetan, adibide bat lortzeko) .
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

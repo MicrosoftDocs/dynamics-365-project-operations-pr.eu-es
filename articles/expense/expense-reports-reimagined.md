@@ -1,6 +1,6 @@
 ---
-title: Gastuen txostenak berriro irudikatu dira (bideoa dauka)
-description: Gai honek gastuen txostenak sartzeko esperientzia birmoldatu eta berriro pentsatutakoa azaltzen du.
+title: Berrasmatutako gastuei buruzko txostenak (bideoa)
+description: Artikulu honek gastuen txostena sartzeko birdiseinatutako eta berregitutako esperientzia azaltzen du.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c74b4b70722af72bc66dba0662813c29d3d1df04
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930257"
 ---
 # <a name="expense-reports-reimagined"></a>Gastu-txostenen itxura berria
 
@@ -58,7 +58,7 @@ Esperientzia berria aktibatzeko, erabili **Ezaugarrien kudeaketa** laneko area *
 | Gorde eta gehitu gastu lerro berriak | **Gorde** eta **Berria** botoiak erabilgarri daude gastu berriak sartzen direnean, gastu lerroak azkar sartzen laguntzeko. |
 | Ikusgarritasun hobea lerro zatitu eta zehatzetan | Lerro xehatuak eta zatituak zuzenean gehitzen dira gastuen zerrendan ikusgarritasuna handitzeko eta akatsik dagoen ala ez erraz zehazten laguntzeko. |
 | Ikusi azpikategoriaren xehetasunak lerro zehatzetan | Gurasoen gastuaren lerro zehatzek gastuen txosteneko azpikategoriaren etiketak erakusten dituzte. Elementuen xehetasunak xehetasun pikorrak berrikusteko aukera ematen du.|
-|Azkar zehaztu ohiko gastuak | Berriz irudikaturiko gastuen lan-eremuak gastu errepikakorrak azkar banatzeko gaitasuna ematen du azpikategoria, hasiera-data eta kantitatea gehituz. Kantitatea karga etengabeko aldi batean errepikatzen den kopuruari dagokio. |
+|Gastu errepikariak azkar zehaztu | Berrasmatutako gastuen lan-espazioak gastu errepikariak azkar zehazteko gaitasuna ematen du, azpikategoria, hasiera-data eta kopurua gehituz. Kopurua karga aldi jarraituan errepikatzen den aldi kopuruari dagokio. |
 | Erakutsi ordainagiriak zehaztapenean | Ordainagiriak ezin dira erakutsi zehaztapenean. |
 | Diru-aurrerakinaren hautapena | Aukeratu diru aurrerakin bat edo gehiago gastu transakzio bakarra betetzeko. |
 | Diru-aurrerakinaren saldoa | Berrikusi eskudiruzko aurrerakinaren saldoa denbora errealean, onartutako eta ordaindutako eskudiruzko aurrerakinen aurkako sarrera sortzen duzunean. |

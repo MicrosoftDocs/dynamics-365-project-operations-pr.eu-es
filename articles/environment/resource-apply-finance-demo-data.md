@@ -1,24 +1,24 @@
 ---
 title: Aplikatu demo-datuak Finance-ren hodeian ostatatutako ingurune batean
-description: Gai honek Project Operations-en demo datuak Dynamics 365 Finance Hodeian ostatatutako ingurune batean nola aplikatu azaltzen du.
+description: Artikulu honetan azaltzen da nola aplikatu Project Operations-en frogapen-datuak hodeian dagoen Dynamics 365 Finance inguruneari.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924645"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplikatu demo-datuak Finance-ren hodeian ostatatutako ingurune batean
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
 > [!IMPORTANT]
-> Gai hau soilik aplikagarria da Microsoft Dynamics 365 Finance 10.0.13 bertsioa eta hodeian ostatatutako ingurune batean bakarrik egin daiteke. Osatu gai honetako urratsak **AURRETIK** ingurumenari kalitatezko eguneratzeak aplikatzen dizkiozu.
+> Artikulu hau 365 Finance 10.0.13 bertsioari Microsoft Dynamics baino ezin zaio aplikatu, eta hodeian dagoen ingurune batean bakarrik egin daiteke. Osatu artikulu **honen urratsak, inguruneari kalitate-eguneratzeak aplikatu aurretik**.
 
 1. Zure LCS proiektuan, ireki **Ingurumenaren xehetasunak** orrialdea. Ohar zaitez urruneko mahaigaineko protokoloa (RDP) erabiliz ingurunearekin konektatzeko behar diren xehetasunak biltzen dituela.
 
@@ -76,7 +76,7 @@ Minutu pare bat behar dira. Admin erabiltzailea ondo eguneratu dela baieztatzeko
 
 18. Itxi urruneko mahaigaineko saioa eta erabili LCS **Ingurumenaren xehetasunak** orria ingurunean saioa hasteko espero bezala funtzionatzen duela baieztatzeko.
 
-![Finantza eta Eragiketak.](./media/10FinanceAndOperations.png)
+![Finantzak eta Eragiketak.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Erreserbak esleitzeko metodoak Project Service Automation-en
-description: Gai honek esleipenak erreserbatzeko modu desberdinei buruzko informazioa ematen du.
+description: Artikulu honek esleipenak erreserbatzeko modu ezberdinei buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590101"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929153"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Erreserbak esleitzeko metodoak Project Service Automation-en
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Gehitu taldeko kide zuzenean proiektua **Taldea** fitxan, edo antolaketa-panel batetik proiektua edo eskakizun baliabide erreserbatutako, gutxi beste erreserbatu guztirako baldintza kopuruak metodo daude erabil dezakezu. Gai honen arrazoi metodo bakoitzean funtzionamendua eta metodoak zer overbooking baliabideak, sorraraz ditzaketela.
+Gehitu taldeko kide zuzenean proiektua **Taldea** fitxan, edo antolaketa-panel batetik proiektua edo eskakizun baliabide erreserbatutako, gutxi beste erreserbatu guztirako baldintza kopuruak metodo daude erabil dezakezu. Artikulu honek metodo bakoitzak nola funtzionatzen duen azaltzen du, eta zein metodok gehiegizko erreserba baliabideak sor ditzaketen.
 
 ## <a name="full-capacity"></a>Ahalmen osoa 
 Gaitasun osoa metodoa aukerarek erreserbatzen du baliabidearen ahalmena osoa. Adibidez, baliabide bat ezarri egunaren lanorduak zortzi egutegi bat badu, bost egun asteko, horri buruzko eremu zehatzera bost lanegunetan hasierako eta amaierako data ezartzen books baliabidea 40 ordu. Ahalmena geratzen diren baliabidearen erreserba egiten da. Baliabide bat dagoeneko badago booked beste projects, tarte hori, 40 ordu da booked ordu gehigarriak, potentzialki arriskutsua gidatzen erreserba gehiegi, gisa.

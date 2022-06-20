@@ -1,6 +1,6 @@
 ---
 title: Gehitu entitate pertsonalizatuaren inprimaki berriak (Project Service Automation 2.x)
-description: Gai honek entitate pertsonalizatuaren inprimakiak gehitzeko informazioa eskaintzen du, aukerak, eskaintzak, eskaerak edo fakturak sartzeko Dynamics 365 Project Service Automation 2.x-n
+description: Artikulu honetan, aukera, aurrekontu, eskaera edo fakturetarako Dynamics 365 Project Service Automation erakunde pertsonalizatuen formularioak 2.x-tan nola gehitu behar den ematen da.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ffc702bbe9cedb2a0cc8da8d8f58e48005950127
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b7e5cbefd9d9705e0bafcb2551e1ce56457a187e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584305"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922713"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Gehitu entitate pertsonalizatuaren inprimaki berriak (Project Service Automation 2.x)
 

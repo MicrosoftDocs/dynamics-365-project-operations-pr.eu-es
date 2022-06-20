@@ -1,6 +1,6 @@
 ---
 title: Baliabide-kudeatzailearen gida
-description: Gai honek Project Service Automation-en baliabideen kudeaketari buruzko informazioa lortzeko esteka eskaintzen du.
+description: Artikulu honetan, Project Service Automation-eko baliabideen administrazioari buruzko informazioari buruzko loturak ematen dira.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910757"
 ---
 # <a name="resource-management-guide"></a>Baliabide-kudeatzailearen gida
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595437"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Gai honetan aurretik zegoen PDF esteka kendu da eta edukia honako gai hauetara eraman da:
+Artikulu honetan lehenago zegoen PDF esteka kendu egin da eta edukia artikulu hauetara eraman da:
 
 - [Baliabideen kudeaketaren orri nagusia](../resource-management-home-page.md)
 - [Gako-kontzeptuak](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Gai honetan aurretik zegoen PDF esteka kendu da eta edukia honako gai hauetara e
 - [Baliabide-kudeaketari buruz maiz egiten diren galderak](../resource-management-faq.md)
 
 > [!NOTE]
-> Gai hau etorkizuneko dokumentazio-eguneratze batean kenduko da. 
+> Artikulu hau etorkizuneko dokumentazio eguneratze batean kenduko da. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

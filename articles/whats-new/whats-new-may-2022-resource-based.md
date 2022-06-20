@@ -1,27 +1,27 @@
 ---
-title: Nobedadeak 2022ko maiatza - Baliabideetan edo hornituta ez dauden agertokietarako proiektuen eragiketak
-description: Gai honek Microsoft-en 2022ko maiatzeko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du Dynamics 365 Project Operations baliabideetan/ez hornituta oinarritutako eszenatokietarako.
+title: 2022ko maiatzeko berrikuntzak - Biltegiratutako baliabideetan oinarritutako agertokietarako proiektu-eragiketak
+description: Artikulu honek Microsoften Dynamics 365 Project Operations 2022ko maiatzeko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa ematen du, baliabideetan oinarritutako edo biltegiratu gabeko agertokietarako.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d3ac63f0d33d36cc5b6d4cea3ab8167e5974cfe6
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: beb75fc4b721d52cddbdaf2d20194218cefced5e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710105"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921379"
 ---
-# <a name="whats-new-may-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nobedadeak 2022ko maiatza - Baliabideetan edo hornituta ez dauden agertokietarako proiektuen eragiketak
+# <a name="whats-new-may-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022ko maiatzeko berrikuntzak - Biltegiratutako baliabideetan oinarritutako agertokietarako proiektu-eragiketak
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Gai hau Microsoft-en osagai eta bertsio hauei dagokie Dynamics 365 Project Operations:
+Artikulu hau Microsoft-en osagai eta bertsio hauei aplikatzen zaie Dynamics 365 Project Operations:
 
 - Proiektuaren Eragiketak a Dataverse ingurunearen bertsioa 4.42.0.70
-- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.26 bertsioan
+- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.26 bertsioa
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations zerbitzuaren idazketa dualeko esleipenen eguneratzeak
 
@@ -38,10 +38,10 @@ Mapa abiaraztean arazoren bat aurkitzen baduzu, jarraitu argibideei [Mapetan tau
 | --- | --- | --- |
 | Baliabideen kudeaketa | 2634019 | Enpresen baliozkotzeetarako errore-mezuak hobetu dira taldekide generikoak baliabide gisa gehitzean. |
 | Proiektuaren antolaketa eta jarraipena | 2648515 | Eguneratze mugatuak **jabea**, **·**, eta **egoera** programazio entitateetan. |
-| Fakturazioa eta prezioak | 2653167 | The **Estimazioak** sareta hamartarren bereizleak formatu ezarpenak jarraitu behar ditu **Aukera pertsonalak**. |
+| Fakturazioa eta prezioak | 2653167 | **Estimazio-laukiaren hamarreko bereizgailuak** Aukera Pertsonalen **formatuaren konfigurazioa jarraitu behar du**. |
 | Fakturazioa eta prezioak| 2662251 | Baloreak **Unitatea zuzendua** eta **Unitate taldea** eremuak lehenetsitako materialaren estimazioetan erregistroak sortzean. |
 | Fakturazioa eta prezioak| 2571408 | Fakturatu gabeko salmenten errealak faktura-zirriborro bat sortzerakoan fakturaren ID proforma batekin zigilatzen dira. |
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance-en
 
-Eguneratze honetan sartzen diren akatsen konponketei buruzko informazioa lortzeko, hasi saioa hemen Microsoft Dynamics Lifecycle Services (LCS) eta ikusi [KB artikulua](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864).
+Eguneratze honetan sartzen diren akatsen zuzenketei buruzko informazioa lortzeko, hasi Lifecycle Services (LCS) saioa Microsoft Dynamics eta kontsulta ezazu [KB artikulua](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864).

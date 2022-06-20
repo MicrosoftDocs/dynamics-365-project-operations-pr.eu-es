@@ -1,102 +1,102 @@
 ---
-title: Migratu guztiz fakturatutako fakturazio-mugarriak mozketan
-description: Gai honek abiarazteko data baino lehen proiektu irekiko kontratuengatik bezeroari fakturatutako prezio finkoko fakturazio-mugarriak nola migratu azaltzen du.
+title: Trantsizio garaian erabat fakturatutako fakturazio mugarriak migratzea
+description: Artikulu honetan azaltzen da nola migratu bezeroari fakturatu zaizkion prezio finkoko fakturazioaren mugarriak, abian jarri aurretik irekitako proiektu-kontratuetarako.
 author: sigitac
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ccdba864a68521024b2c479c12cf5cea616c5bbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576255"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912225"
 ---
-# <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Migratu guztiz fakturatutako fakturazio-mugarriak mozketan
+# <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Trantsizio garaian erabat fakturatutako fakturazio mugarriak migratzea
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
 ## <a name="scenario"></a>Egoera
 
-Contoso zuzenean jarriko da Microsoft-ekin Dynamics 365 Project Operations baliabide/hornitu gabeko eszenatokietarako. Mozketaren jardueren barruan, ezarpen-taldeak sistema zaharretik proiektu irekiko kontratuak migratu behar ditu. Proiektu-kontratu batzuek prezio finkoko fakturazio-metodoa erabiltzen duten eta azken bezeroari partzialki fakturatu zaizkion kontratu-lerroak barne hartzen dituzte. Ezarpen-taldeak fakturazio-mugarri hauek gisa migratu behar ditu **Bezeroaren faktura argitaratu da**, kontratuaren balio osoaren barruan sartu behar direlako diru-sarrerak aitortzeko. Hala ere, kobratzeko eta Liburu Nagusiko bezeroen saldoek ez dute eraginik izan behar.
+Contoso Microsoftekin Dynamics 365 Project Operations harremanetan jartzen ari da biltegiratutako baliabide/ ez-biltegietarako. Trantsizio-jardueren artean, inplementazio-taldeak aurreko sistemaren proiektu irekien kontratuak migratu behar ditu. Proiektuko kontratuetako batzuek kontratu-lerroak dituzte, prezio finkoaren fakturazio-metodoa erabiltzen dutenak, eta azken bezeroari zati batean fakturatu zaizkio. Inplementazio-taldeak fakturazio-mugarri horiek migratu behar ditu bezeroaren faktura kontabilizatzen **den neurrian**, kontratuaren balio osoan sartu behar baitira diru-sarrerak aitortzeko. Hala ere, kobratzeagatik eta liburu orokorragatik bezeroek dituzten saldoak ez dira kaltetu behar.
 
 ## <a name="solution"></a>Soluzioa
 
 ### <a name="prerequisites"></a>Aurrebaldintzak
 
-- Dynamics 365 Finance 10.0.24 edo berriagoa instalatu behar da.
-- Migrazio-urratsak burutuko diren inguruneak mantentze moduan egon behar du. Ez da beste jarduerarik egin behar mugarriak migratzen diren bitartean.
-- Migrazio-urratsak hemen deskribatzen den bezala jarraitu behar dira eta mozketa-jarduerarako soilik erabil daitezke. Microsoft-ek ez du gaitasun honen beste erabilerarik onartzen.
+- Dynamics 365 Finance 10.0.24 edo ondorengoak instalatuta egon behar du.
+- Migrazio-pasaguneak osatuko diren inguruneak mantentze-lanetan egon behar du. Mugarriak migratzen diren bitartean, ez da beste jarduerarik egin behar.
+- Migrazio-pausoak hemen deskribatzen diren bezala jarraitu behar dira, eta transferentzia-jarduerarako bakarrik erabil daitezke. Microsoftek ez du gaitasun hori beste erabilerarik onartzen.
 
-### <a name="create-a-cutover-version-of-the-project-operations-integration-contract-line-milestones-dual-write-map"></a>Sortu Project Operations integrazio-kontratu-lerroaren mugarrien bertsio bikoitzeko idazketa bikoitzeko mapa 
+### <a name="create-a-cutover-version-of-the-project-operations-integration-contract-line-milestones-dual-write-map"></a>Project Operations integratzeko kontratu-lineako mugarrien eskritura bikoitzaren mapa mozteko bertsio bat sortzea 
 
-1. Ziurtatu xede-mapaketa dela **Proiektu Operazioak integrazio-kontratuaren ildoaren mugarriak** entitatea eguneratuta dago. 
+1. Ziurtatu Project Operations-en integrazio-kontratuaren **mugarri**-entitatearentzat destino-esleipena eguneratuta dagoela. 
 
-    1. Finantzan, joan hona **Datuen kudeaketa** \> **Datu-entitateak**, eta hautatu **Proiektu Operazioak integrazio-kontratuaren ildoaren mugarriak** entitate. 
-    2. Hautatu **Aldatu xede-mapeak**. 
-    3. Gainean **Maparen eszenaratzea bideratzeko** orrialdea, hautatu **Sortu mapak**, eta gero berretsi mapak sortu nahi dituzula.
+    1. Finantzei dagokienez, joan datuak **administratzeko** \> **datu-erakundeetara**, eta hautatu proiektu-eragiketak **integratzeko kontratu-lerroaren** mugarrien erakundea. 
+    2. Aukeratu **Destino-esleipenak** aldatzea. 
+    3. **Orria entzun Orria entzun Diru-izendapena** **sortzea** eta, ondoren, esleipena sortu nahi duzula baieztatzea.
 
-2. Gelditu eta freskatu **Proiektu Operazioak integrazio-kontratuaren ildoaren mugarriak** (**msdyn\_ kontratu-lerroen egutegia**) idazketa bikoitzeko mapa. 
+2. Project Operations (msdyn **contractlinescheduleofvalues**) integratzeko kontratu-lineako **mugarrien idazkera dualaren mapa atxilotu eta eguneratu\_.** 
 
-    1. Joan **Datuen kudeaketa** \> **Idazketa bikoitza**, hautatu mapa eta ireki haren xehetasunak. 
-    2. Hautatu **Gelditu**, eta itxaron sistemak mapa geldiarazi arte. 
-    3. Hautatu **Freskatu taulak**.
+    1. **Datu-kudeaketa** \> **duala**, aukeratu mapa eta ireki xehetasunak. 
+    2. Aukeratu **gelditu** eta itxaron sistemak mapa gelditu arte. 
+    3. Aukeratu Taulak **eguneratzea**.
 
-3. Gehitu transakzioaren egoeraren mapaketa bat.
+3. Gaineratu transakzioaren egoerarako esleipen bat.
 
-    1. Hautatu **Gehitu mapak**.
-    2. Lerro berrian, en **Finantza eta Operazio aplikazioak** zutabea, hautatu **TRANSSTATUSA\[ TRANSSTATUSA\]** eremua.
-    3. urtean **Microsoft Dataverse** zutabea, hautatu **msdyn\_ fakturaren egoera\[ Fakturaren egoera\]**.
-    4. urtean **Mapa mota** zutabea, hautatu eskuineko gezia (**\>**).
-    5. Agertzen den elkarrizketa-koadroan, atalean **Sinkronizazio norabidea** eremua, hautatu **Dataverse Finantza eta Operazio aplikazioetara**.
-    6. Hautatu **Gehitu transformazioa**.
-    7. urtean **Transformazio mota** eremua, hautatu **Balio-Mapa**.
-    8. Hautatu **Gehitu balio-mapaketa**.
-    9. Ezkerreko eremuan, sartu **4**. Eskuineko eremuan, sartu **192350001**. 
-    10. Hautatu **Gorde**, eta gero itxi elkarrizketa-koadroa.
+    1. Aukeratu **Esleipena eranspena**.
+    2. Ildo berrian **, Aplicaciones** de Finance and Operations zutabean, TRANSSTATUS **TRANSSTATUS\[ zelaia \]** aukeratu.
+    3. **Microsoft Dataverse** Zutabean, msdyn **invoicestatus fakturen \_\[estatua aukeratu\]**.
+    4. **Mapa motako** zutabean, aukeratu eskuineko gezia (**\>**).
+    5. Agertzen den elkarrizketa-koadroan **, sinkronizazio-zuzendaritzaren** arloan, aukeratu **Dataverse Finance and Operations-en aplikazioak**.
+    6. Hautatu **Eraldaketa agregatu**.
+    7. Transformazio-motaren **arloan**, ValueMap **aukeratu**.
+    8. Aukeratu **Balio-esleipena eransteko aukeratzea**.
+    9. Ezkerreko zelaian, idatzi **4**. Eskuineko alo mailan, idatzi **192350001**. 
+    10. Hautatu **gorde eta,** ondoren, itxi elkarrizketa-koadroa.
 
-4. Hautatu **Gorde** idazketa bikoitzeko maparen bertsioa gordetzeko. 
-5. urtean **Gehitu taula** panelean, in **Argitaletxea** eremua, hautatu **Argitaratzaile lehenetsia**.
-6. urtean **Bertsioa** eremuan, sartu bertsioa.
-7. urtean **Deskribapena** eremuan, idatzi maparen bertsio ebakigarri honi buruzko ohar bat. 
+4. Aukeratu **idazkera dualaren maparen bertsioa gordetzeko modua**. 
+5. Agregar taula **panelean, Argitatzaile** zelaian **, aurrez zehaztutako selekzioa** **.**
+6. Bertsioa alorraren **arabera**, idatzi bertsioa.
+7. Deskribapen-eremuan **·**, idatzi ohar bat maparen mozketa-bertsio honi buruz. 
 8. Sakatu **Gorde**.
 9. Hasi mapa.
 
-### <a name="migrate-invoiced-milestones-to-the-dataverse-environment"></a>Migratu fakturatutako mugarriak Dataverse ingurunea
+### <a name="migrate-invoiced-milestones-to-the-dataverse-environment"></a>Inguruneari fakturatutako mugarriak migratzea Dataverse
 
-1. Proiektuaren Eragiketetan Dataverse ingurunea, sortu faktura egoera duten mugarriak **Fakturak egiteko prest**. Une honetan, ez migratu fakturatu gabeko mugarririk.
+1. Proiektu-eragiketen Dataverse inguruan, fakturaziorako **Listoren** faktura-egoera duten mugarriak direla uste du. Puntu honetan, ez iezan fakturatu ez den mugarririk.
 
     > [!NOTE]
-    > Fakturazio-mugarriak migratu aurretik, ziurtatu proiektuaren kontratu-lerroarekin erlazionatutako finantza-dimentsioak espero bezala ezartzen direla. Finantza-dimentsioak ezin dira editatu migrazioa amaitu ondoren.
+    > Fakturazio mugarriak migratu aurretik, ziurtatu proiektuaren kontratu-linearekin lotutako finantza-dimentsioak espero bezala ezarrita daudela. Finantza-dimentsioak ezin dira argitaratu migrazioa amaitu ondoren.
 
-2. Mugarri guztiak migratu ondoren, gelditu idazketa bikoitzeko mapa hauek:
+2. Mugarri guztiak migratu ondoren, idazkera dualeko mapa hauek ditu:
 
-    - Project Operations integrazio-kontratuaren lerroaren mugarriak (msdyn\_ kontratu-lerroen balio-egutegia)
+    - Proiektu-eragiketak integratzeko kontratu-linearen mugarriak (msdyn\_ contractlinescheduleofvalues)
     - Project Operations-en integrazioaren benetako datuak (msdyn\_actuals)
     - Proiektuaren faktura-proposamena V2 (fakturak)
 
-    Mapak gelditzeko, jarraitu urrats hauek:
+    Mapak geldiarazteko, jarraitu pauso hauek:
 
-    1. Finantzan, joan hona **Datuen kudeaketa** \> **Idazketa bikoitza**, hautatu mapa bat eta ireki haren xehetasunak.
-    2. Hautatu **Gelditu**, eta itxaron sistemak mapa gelditu arte.
+    1. Finantzei dagokienez, joan datu-administrazio **·** \> **dualera**, aukeratu mapa bat eta ireki xehetasunak.
+    2. Aukeratu **gelditu** eta itxaron sistemak mapa gelditu arte.
 
-3. Proiektuaren Eragiketetan Dataverse ingurumena, fakturazio-mugarrien pro-formako fakturak sortu eta berrestea. 
+3. Proiektu-eragiketen Dataverse inguruan, fakturazio mugarrietarako fakturak sortzen ditu. 
 
-    1. Gunearen mapan, joan proiektuaren kontratuetara, hautatu kontratuak eta, ondoren, hautatu **Sortu fakturak**.
-    2. Fakturak sortu ondoren, ireki itzazu **Fakturak** menua guneko mapan, eta, ondoren, hautatu **Berretsi**.
+    1. Webgunearen mapan, joan proiektuaren kontratuetara, aukeratu kontratuak eta, ondoren, **fakturak** sortu.
+    2. Fakturak sortu ondoren, ireki gunearen mapako fakturak menuan **eta, ondoren, aukeratu**.**·**
 
-    Urrats honek beharrezko erregistroak sortzen ditu Dataverse ingurunea. Hala ere, ez du finantza- eta kobratzeko kontuetan eragiten, aurretik zerrendatutako idazketa bikoitzeko mapak gelditu egin zirelako.
+    Pauso horrek ingurunean beharrezkoak diren erregistroak sortzen ditu Dataverse. Hala ere, ez die finantza eta kontuei eragiten kobratzeagatik, aurretik zerrendatutako idazkera dualeko mapak gelditu egin baitziren.
 
-4. Proformako faktura guztiak baieztatu ondoren, itzuli idazketa bikoitzeko mapa guztiak hasierako egoerara.
+4. Proforma faktura guztiak baieztatu ondoren, eskritura dualeko mapa guztiak bere hasierako egoerara itzultzen ditu.
 
-    1. Eguneratu bertsioa **Proiektu Operazioak integrazio-kontratuaren ildoaren mugarriak** (**msdyn\_ kontratu-lerroen egutegia**) idazketa bikoitzeko mapa jatorrizkora itzuli. 
-    2. Hautatu idazketa bikoitzeko mapa maparen zerrendan, hautatu **Taulen maparen bertsioa**, eta, ondoren, hautatu taula-maparen jatorrizko bertsioa.
+    1. Project Operations (**msdyn contractlinescheduleofvalues**) jatorrizkora integratzeko kontratu-linearen **mugarriak idazten dituen \_ biko maparen bertsioa eguneratzen** du. 
+    2. Aukeratu idazkera dualaren mapa mapen zerrendan, taula-maparen bertsioa **hautatu** eta, ondoren, taula-maparen jatorrizko bertsioa hautatu.
     3. Sakatu **Gorde**.
-    4. Berrabiarazi idazketa bikoitzeko mapa hauek:
+    4. Hasi idazkera dualeko mapa hauek:
 
-        - Project Operations integrazio-kontratuaren lerroaren mugarriak (msdyn\_ kontratu-lerroen balio-egutegia)
+        - Proiektu-eragiketak integratzeko kontratu-linearen mugarriak (msdyn\_ contractlinescheduleofvalues)
         - Project Operations-en integrazioaren benetako datuak (msdyn\_actuals)
         - Proiektuaren faktura-proposamena V2 (fakturak)
 
-Mugarriak migratu dira orain, eta sistema prest dago ebakuntza-jardueran hurrengo urratsetarako.
+Orain mugarriak migratzen ari dira eta sistema prest trantsizio-jardueran hurrengo urratsetarako.

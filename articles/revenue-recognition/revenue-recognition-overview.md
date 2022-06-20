@@ -1,23 +1,23 @@
 ---
 title: Diru sarreren ezagutzaren ikuspegi orokorra
-description: Gai honek diru-sarreren ezagutzari buruzko informazioa eskaintzen du Project Operations-en.
+description: Artikulu honek proiektuen eragiketetan diru-sarreren aitorpenari buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926255"
 ---
 # <a name="revenue-recognition-overview"></a>Diru sarreren ezagutzaren ikuspegi orokorra
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Dynamics 365 Project Operations-en, diru-sarrerak ezagutzeko printzipioak aldatu egiten dira proiektu bat edo proiektuaren zati bat hautatutako fakturazio metodoaren arabera. Gai honek diru-sarreren ezagutzari buruzko informazioa eskaintzen du Project Operations-en.
+Dynamics 365 Project Operations-en, diru-sarrerak ezagutzeko printzipioak aldatu egiten dira proiektu bat edo proiektuaren zati bat hautatutako fakturazio metodoaren arabera. Artikulu honek proiektuen eragiketetan diru-sarreren aitorpenari buruzko informazioa eskaintzen du.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Denboraren eta materialen fakturazio-metodoa erabiliz kontabilizatutako transakzioak
 

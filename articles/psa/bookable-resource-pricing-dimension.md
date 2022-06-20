@@ -1,6 +1,6 @@
 ---
 title: Erabili baliabide erreserbagarriak prezio-dimentsio gisa
-description: Gai honek baliabide erreserbagarriak prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
+description: Artikulu honetan, baliabide erreserbagarri bat prezio-dimentsio gisa erabiltzeari buruzko informazioa ematen da.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576393"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916089"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Erabili baliabide erreserbagarriak prezio-dimentsio gisa
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Gai honek baliabide erreserbagarriak prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du. Hasi aurretik, prezio-dimentsioaren soluzioa sortu ez baduzu, bat sortu beharko duzu. Prezioen dimentsioko irtenbidea baduzu, orduan aldaketak egin ditzakezu soluzio horretan. Zure erakunderako prezio-dimentsio soluzio berririk sortu ez baduzu, jarraitu [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities.md) gaian azaldutako prozedurei.
+Artikulu honetan, baliabide erreserbagarri bat prezio-dimentsio gisa erabiltzeari buruzko informazioa ematen da. Hasi aurretik, prezio-dimentsioaren soluzioa sortu ez baduzu, bat sortu beharko duzu. Prezioen dimentsioko irtenbidea baduzu, orduan aldaketak egin ditzakezu soluzio horretan. Antolatzeko prezio-dimentsioko beste irtenbiderik sortu ez baduzu, osatu eremu eta erakunde pertsonalizatuak sortzeko [prozedurak](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Gehitu baliabide erreserbagarriak inprimakietan eta ikuspegietan
 Eremuak prezio-dimentsioaren soluzioko IU-an ikusgai jartzeko, entitatearen inprimaki eta ikuspegi guztiak ikusi beharko dituzu eta eremu horiek Project Service-eko entitate horien inprimakietan eta ikuspegietan gehitu beharko dituzu.

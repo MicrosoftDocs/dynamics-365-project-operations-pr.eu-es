@@ -1,6 +1,6 @@
 ---
 title: Sortu proiektu-erreserba bat antolaketa-paneletik
-description: Gai honek proiektuaren erreserba egitasmoaren taulan sortzen den informazioa eskaintzen du.
+description: Artikulu honek programazio-taulan proiektu-erreserba nola sortzeko informazioa eskaintzen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 693f4c4be1371bae232f636a5e168e889e81b09c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f231f7a862420fc4f20b4eb86e4067cbf2ed3425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578003"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930901"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Sortu proiektu-erreserba bat antolaketa-paneletik
 

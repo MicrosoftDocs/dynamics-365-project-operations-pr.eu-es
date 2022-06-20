@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu enpresen arteko proiektuen fakturazioa
-description: Gai honek proiektuaren fakturazioa zure erakundeko bi enpresen artean nola konfiguratu erakusten du.
+description: Artikulu honetan, erakundeko bi enpresen arteko proiektuen fakturazioa nola konfiguratu erakusten da.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916595"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konfiguratu enpresen arteko proiektuen fakturazioa
 
 [!include [banner](../../includes/banner.md)]
 
-Gai honek proiektuaren fakturazioa zure erakundeko bi enpresen artean nola konfiguratu erakusten du. Zeregin honek USSI datu multzoa erabiltzen du.
+Artikulu honetan, erakundeko bi enpresen arteko proiektuen fakturazioa nola konfiguratu erakusten da. Zeregin honek USSI datu multzoa erabiltzen du.
 
 1. Nabigazio panelean, joan hona: **Moduluak > Ordaindu beharreko kontuak > Saltzaileak > Saltzaile guztiak**.
 2. **Saltzaile guztiak** zerrendan, eta hautatu nahi duzun erregistroa.

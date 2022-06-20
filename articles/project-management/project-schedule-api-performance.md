@@ -1,28 +1,28 @@
 ---
 title: Proiektuaren antolaketa APIaren errendimendua
-description: Gai honek Proiektuaren egutegiko APIen errendimendu-erreferentziari buruzko informazioa eskaintzen du eta erabilera egokiena lortzeko praktika onenak identifikatzen ditu.
+description: Artikulu honek Proiektuaren egutegiko APIen errendimendu-erreferentziari buruzko informazioa eskaintzen du eta erabilera egokiena lortzeko praktika onenak identifikatzen ditu.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911167"
 ---
 # <a name="project-schedule-api-performance"></a>Proiektuaren antolaketa APIaren errendimendua
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egin, webgunerako proiektua_
 
-Gai honek Proiektuaren egutegiko aplikazioa programatzeko interfazeen (APIak) errendimendu-erreferentziari buruzko informazioa eskaintzen du eta erabilera optimizatzeko praktika onenak identifikatzen ditu.
+Artikulu honek Project schedule aplikazioen programazio-interfazeen (API) errendimendu-erreferentziari buruzko informazioa eskaintzen du eta erabilera optimizatzeko praktika onenak identifikatzen ditu.
 
 ## <a name="project-scheduling-service"></a>Proiektuen antolaketa-zerbitzua
 Proiektuen antolaketa-zerbitzua Microsoft Azure-n exekutatzen den maizter anitzeko zerbitzua da. Interakzioa hobetzeko diseinatuta dago, erabiltzaileek proiektuetan lan egiten dutenean esperientzia azkarra eta arina eskainiz. Hobekuntza hori aldaketa-eskaerak onartuz, prozesatu eta gero emaitza berehala itzuliz lortzen da. Zerbitzuak modu asinkronoan jarraitzen du Dataverse-n eta ez die erabiltzaileei beste eragiketa batzuk egitea eragozten.
 
-Proiektuak antolatzeko APIak Proiektuen Antolaketa-zerbitzuan oinarritzen dira gai honen ondorengo ataletan xehetasun gehiagorekin deskribatzen diren eskaerak exekutatzeko.
+Proiektuaren egutegiko APIak Proiektuak Antolatzeko Zerbitzuan oinarritzen dira artikulu honen ondorengo ataletan xehetasun gehiagorekin deskribatzen diren eskaerak exekutatzeko.
 
 Proiektuak antolatzeko APIak honako zereginen xehetasunen egituraren (WBS) entitate hauekin lan egiteko diseinatuta daude:
 

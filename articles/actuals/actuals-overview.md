@@ -1,6 +1,6 @@
 ---
 title: Benetako datuak
-description: Gai honek Microsoft Dynamics 365 Project Operations-en errealitateekin lan egiteko moduari buruzko informazioa eskaintzen du.
+description: Artikulu honetan Microsoften benetako datuekin nola lan egin erakusten da Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,31 +13,31 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581269"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924783"
 ---
 # <a name="actuals"></a>Benetako datuak
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako Project Operations, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Eguneratzeek proiektu batean berrikusitako eta onartutako finantza eta egutegia adierazten dute. Denbora, gastu eta material erabilerako sarrerak, aldizkariko sarrerak eta fakturak onartzen direnean sortzen dira.
+Eguneratzeek proiektu batean berrikusitako eta onartutako finantza eta egutegia adierazten dute. Denbora, gastu eta materialen erabilera, eguneko sarrerak eta fakturak onartzen direnean sortzen dira.
 
 > [!IMPORTANT]
-> Errealak ez dira sistematik editatu edo ezabatu behar. Bestela, finantza-osotasuna eta beste finantza- eta kontabilitate-sistema batzuekin bateratze oro kaltegarriak izan daitezke. Microsoft Dynamics 365 Project Operations Errealak alderantzikatu eta ordezkatzea erabil dezakezu benetakoak editatzeko zure proiektuen negozio-prozesuaren bizi-zikloko hainbat puntutan.
+> Datu errealak ez dira sistematik argitaratu edo ezabatu behar. Bestela, finantza-osotasunak eta beste finantza- eta kontabilitate-sistema batzuekin egindako edozein integraziok eragin negatiboa izan lezakete. Microsoftek Dynamics 365 Project Operations inbertsioa eta datu errealen ordezkoa erabiltzeko aukera ematen dio, bere proiektuen enpresa-prozesuaren bizi-zikloko hainbat puntutan benetako datuak argitaratzeko.
 
 ## <a name="recording-actuals-based-on-project-events"></a>Proiektuen gertaeretan oinarritutako errealitateak grabatu
 
-Project Operations proiektuaren konpromisoaren bizi-zikloan gertatzen diren finantza-transakzioak erreal gisa erregistratzen ditu. Bizi-zikloko hainbat gertakaritan errealak sortzea aldatu egiten da, proiektuaren konpromisoak denbora eta materialen fakturazio-eredua edo prezio finkoko fakturazio-eredua erabiltzen duen, eta salmenta aurreko fasean dagoen edo barne-proiektu bat den.
+Proiektu-eragiketak proiektu bat benetakotzat kontratatzeko bizi-zikloan gertatzen diren finantza-transakzioak erregistratzen ditu. Bizi-zikloko hainbat ekitalditan datu errealak sortzea aldatu egiten da, proiektuaren konpromisoak denbora eta materialen fakturazio-eredua edo prezio finkoko fakturazio-eredua erabiltzen duen kontuan hartuta, eta aurresalmenta-garaian dagoen edo barne-proiektu bat den kontuan hartuta.
 
-Ondorengo gaiek Errealak taulan izan duten eragina azaltzen dute hainbat ekitalditan aldaera desberdinetarako:
+Ondorengo artikuluetan, egungo taulan hainbat ekitalditan izandako eragina azaltzen da, hainbat aldaketatarako:
 
-- [Benetako eragina denboran eta materialen konpromisoan](ActualsonTM.md)
-- [Benetako eragina prezio finko batean](ActualonFP.md)
-- [Konpromiso baten salmenta aurreko fasean benetako eragina](ActualonPreSales.md)
-- [Barne-proiektu baten benetako eragina](ActualonInternal.md)
+- [Eragin erreala denbora- eta material-konpromisoan](ActualsonTM.md)
+- [Benetako eragina prezio finkoko konpromiso batean](ActualonFP.md)
+- [Benetako eragina konpromiso baten aurresalmenta-aldian](ActualonPreSales.md)
+- [Barne-proiektu baterako benetako eragina](ActualonInternal.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

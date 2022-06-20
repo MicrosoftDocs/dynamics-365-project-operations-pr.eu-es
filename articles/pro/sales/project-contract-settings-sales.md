@@ -1,23 +1,23 @@
 ---
 title: Proiektu-kontratuaren ezarpenak - arina
-description: Gai honek kontratu-lerroetan eragina duten eremuei buruzko informazioa eskaintzen du eta kontratuari buruzko informazioa lerro-elementu guztietan laburbilduta dago.
+description: Artikulu honek kontratu-lerroei eragiten dieten eremuei eta lerro-elementu guztietan laburbiltzen den kontratuari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586375"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917055"
 ---
 # <a name="header-details-for-project-contracts"></a>Proiektuko kontratuen goiburuaren xehetasunak
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Gai honek proiektuaren kontratu osoari aplikatzen zaizkion eremuei buruzko informazioa eskaintzen du, kontratu lerro guztietan eragina duten ezarpenak barne. Proiektuaren kontratuaren KPIak gidatzeko lerro-elementu guztietan laburbiltzen den kontratuari buruzko informazioa ere sartzen da.
+Artikulu honek proiektuaren kontratu osoari aplikatzen zaizkion eremuei buruzko informazioa eskaintzen du, kontratu-lerro guztietan eragina duten ezarpenak barne. Proiektuaren kontratuaren KPIak gidatzeko lerro-elementu guztietan laburbiltzen den kontratuari buruzko informazioa ere sartzen da.
 
 Hurrengo taulan proiektuaren kontratuaren eremuak zerrendatzen dira Dynamics 365 Project Operations edo portaera aldaketa garrantzitsu batzuk izan Dynamics 365 Sales salmenta-eskaeratatik.
 
@@ -39,7 +39,7 @@ Ondorengo KPIak eskuragarri daude **Kontratuaren gauzatzea** proiektuaren kontra
 
 | Eremua | Kokapena | Deskribapenak |
 | --- | --- | --- |
-| Kontratuaren balioa | Kontratu orokorra | Proiektuaren kontratuaren guztizko balioa.|
+| Kontratuaren balioa | Kontratu orokorra | Proiektuaren kontratuaren balio osoa.|
 | Fakturatutako zenbatekoa | Kontratu orokorra | Kontratu honen aurkako faktura guztien zenbatekoen batura.|
 | Egindako kostua | Kontratu orokorra | Kontratuaren arabera mapatutako proiektu guztietan erregistratutako kostu erreal guztien batura. |
 | Marjina gordina | Kontratu orokorra | Fakturatutako zenbatekoa - Orain arte sortutako kostua / Fakturatutako zenbatekoa |

@@ -1,24 +1,24 @@
 ---
-title: Eginbide kendu edo zaharkituta daude Dynamics 365 Project Operations
-description: Gai honek ezabatu diren edo kentzeko aurreikusita dauden eginbideak deskribatzen ditu Dynamics 365 Project Operations.
+title: Eginbide kendu edo zaharkituak hemen Dynamics 365 Project Operations
+description: Artikulu honek ezabatu diren edo kentzeko aurreikusita dauden eginbideak deskribatzen ditu Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921471"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Eginbide kendu edo zaharkituta daude Dynamics 365 Project Operations
+# <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Eginbide kendu edo zaharkituak hemen Dynamics 365 Project Operations
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea eta produkzioan oinarritutako eszenatokien proiektuaren eragiketak_
 
-Gai honek ezabatu diren edo kentzeko aurreikusita dauden eginbideak deskribatzen ditu Dynamics 365 Project Operations.
+Artikulu honek ezabatu diren edo kentzeko aurreikusita dauden eginbideak deskribatzen ditu Dynamics 365 Project Operations.
 
 - *Kendu* eginbidea dagoeneko ez dago eskuragarri produktuan.
 - *Zaharkitua* funtzioa ez dago garapen aktiboan eta baliteke etorkizuneko eguneratze batean ezabatzea.

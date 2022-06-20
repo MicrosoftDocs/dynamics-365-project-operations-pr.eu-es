@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 36, V3 bertsioko berrikuntzak edo aldaketak
-description: Gai honetan eskuragarri dauden eginbideak eta konponketak zerrendatzen dira Microsoft Dynamics 365 Project Service Automation Eguneratu 36. bertsioa, V3.
+description: Artikulu honetan Update Release 36, V3-n Microsoft Dynamics 365 Project Service Automation eskuragarri dauden ezaugarriak eta zuzenketak zerrendatzen dira.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/06/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 108c75598dc7dd3dd0cdb9ce68e30423d051a4cf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a8942713109075da2503c9d22d40b6ac95ae00be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924967"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-36-v3"></a>Project Service Automation eguneratzearen 36, V3 bertsioko berrikuntzak edo aldaketak
 
@@ -29,7 +29,7 @@ ms.locfileid: "8586651"
 
 Pozik gaude egunkariaren azken eguneratzea iragarriz Microsoft Dynamics 365 Project Service Automation aplikazioa. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Dynamics 365 9.x-rekin bateragarria da. Bertsio hau eguneratzeko, bisitatu Admin Zentroa Dynamics 365 lineako soluzioen orria eta instalatu eguneratzea. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Gai honek Project Service Automation 36, V3 eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.57.152 konpilazio-zenbakia du eta, oro har, 2021eko urrian jarriko da erabilgarri automatikoki eguneratzeko moduan.
+Artikulu honetan, Project Service Automation Update Release 36, V3rako aldatu diren edo aldatu diren ezaugarri eta zuzenketak zerrendatzen dira. Bertsio honek V3.10.57.152 konpilazio-zenbakia du eta, oro har, 2021eko urrian jarriko da erabilgarri automatikoki eguneratzeko moduan.
 
 ## <a name="update-release-36"></a>36. eguneratze-bertsioa
 

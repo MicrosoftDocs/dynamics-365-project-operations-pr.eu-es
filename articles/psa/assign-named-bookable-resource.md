@@ -1,6 +1,6 @@
 ---
 title: Erreserbatu baliabide erreserbagarriak proiektuko talde bati eta esleitu zereginak
-description: Gai honek proiektu taldeetara izena duten baliabideak erreserbatzeko eta hauek zereginetara esleitzeko moduari buruzko informazioa eskaintzen du.
+description: Artikulu honetan, proiektu-taldeei izena ematen dien baliabideak nola erreserbatu eta zereginei nola esleitu buruzko informazioa ematen da.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cdbcd84d2277ba1c8e68270d5b1f8ca45c17f05e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 61c9b47088e836c0a9c78477adf891df3d14853b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919309"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Erreserbatu baliabide erreserbagarriak proiektuko talde bati eta esleitu zereginak 
 

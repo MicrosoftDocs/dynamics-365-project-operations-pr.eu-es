@@ -1,6 +1,6 @@
 ---
 title: Oinarrizko eskaintza-, prezio- eta fakturazio-gida
-description: Gai honek Project Service Automation-en oinarrizko aurrekontuei, fakturazioari eta prezioei buruzko informazioara daramaten estekak eskaintzen du.
+description: Artikulu honetan, Project Service Automation-en kotizazioei, prezioei eta oinarrizko fakturazioari buruzko informazioari loturak ematen zaizkio.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910746"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Oinarrizko eskaintza-, prezio- eta fakturazio-gida
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592217"
 
 Baliabide egokiak une egokian aurkitzeko, erreserbatu baliabide horiek proiektuetan eta erabil itzazu, erakundeek diru-sarreren helburuak eta bezeroen gogobetetze helburuak betetzen laguntzen baitu. 
 
-Gai honetan aurretik zegoen PDF esteka kendu da eta edukia honako gai hauetara eraman da:
+Artikulu honetan lehenago zegoen PDF esteka kendu egin da eta edukia artikulu hauetara eraman da:
 
 - [Eskaintza, prezioak eta fakturazioa](../quote-bill-price.md)
 - [Salmenta-prozesuak](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Gai honetan aurretik zegoen PDF esteka kendu da eta edukia honako gai hauetara e
 - [Unekoak erregistratzen](../advanced-actuals.md)
 
 > [!NOTE]
-> Gai hau etorkizuneko dokumentazio-eguneratze batean kenduko da. 
+> Artikulu hau etorkizuneko dokumentazio eguneratze batean kenduko da. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
