@@ -1,17 +1,17 @@
 ---
 title: Proiektuko eskaintzaren ezarpenak
-description: Gai honek proiektuaren aurrekontuei aplikatzen zaien eta ezartzen duen informazioari eta ezarpenei buruzko informazioa eskaintzen du.
+description: Artikulu honek proiektuen aurrekontuei aplikatzen zaien eta eragina duten informazio eta ezarpenei buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c5870c75d5337b951a453000369baf9f6e81a1da
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 661dd40edeea890ad684b801bcc99ce2c242bb9b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575146"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931913"
 ---
 # <a name="header-details-for-project-based-quotes"></a>Proiektuetan oinarritutako eskaintzen goiburuaren xehetasunak
 

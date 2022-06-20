@@ -1,17 +1,17 @@
 ---
 title: Nabigatu Project Operations-en
-description: Gai honek Lifecycle Services-eko Project Operations atzitzeari buruzko informazioa eskaintzen du.
+description: Artikulu honek Lifecycle Services-etatik Proiektuen Eragiketak atzitzeari buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d8573b65373fe88c5b0617be585e2d3c77f1ca6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591849"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931637"
 ---
 # <a name="navigate-project-operations"></a>Nabigatu Project Operations-en
 
@@ -24,7 +24,7 @@ Baliabideetako / hornitu gabeko eszenatokietarako Dynamics 365 Project Operation
  - **Project Operations Common Data Service (CDS) ingurunea**: Osagai honek abagunearen eta proforma fakturaziorako gaitasunak estaltzen ditu. 
  - **Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean** : Osagai honek gastuak kudeatzeko gaitasunak, proiektuen kontabilitatea eta diru-sarreren aitorpena biltzen ditu. 
 
-Gai honetan deskribatutako Project Operations hornitu ondoren, Lifecycle Services (LCS) **Ingurumenaren xehetasunak** orrialdeak Project Operations-en bi osagaietarako sarbide erraza eskaintzen du.  
+Artikulu honetan deskribatzen den moduan Proiektu Eragiketak hornitu ondoren, Bizi-zikloko Zerbitzuak (LCS) **Ingurumenaren xehetasunak** orrialdeak Proiektu Eragiketen bi osagaietarako sarbide erraza eskaintzen du.  
 
 Erabili ingurunearen izena atalean, **Common Data Service Ingurunearen izena** CDS ingurune batean Project Operations-era nabigatzeko. 
 

@@ -1,48 +1,48 @@
 ---
-title: Produktuen saltzaileen faktura-lerroak
-description: Gai honek produktuen saltzaileen faktura-lerroak nola erregistratu eta eremu desberdinak nola erabili saltzaileen produktuen erosketak erregistratzeko azaltzen du.
+title: Produktuen saltzailearen fakturaren lerroak
+description: Artikulu honetan, produktuetarako hornitzaileen fakturen lerroak nola erregistratu eta hornitzaileen produktuen erosketak erregistratzeko eremuak nola erabili azaltzen da.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: af078cd4392f8353b509db2dc48dc5237b8ee275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 206dd36a1a1e7141678da27d76a99561ac89044b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931361"
 ---
-# <a name="vendor-invoice-lines-for-products"></a>Produktuen saltzaileen faktura-lerroak
+# <a name="vendor-invoice-lines-for-products"></a>Produktuen saltzailearen fakturaren lerroak
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Saltzaileen faktura bat Microsoft-en Dynamics 365 Project Operations produktuen saltzaileen faktura-lerroak izan ditzake (material gisa ere deitzen zaie). Proiektuen kudeatzaileek produktuen saltzaileen faktura lerroak erabil ditzakete proiektuetan erositako produktuen kostuak erregistratzeko.
+Microsoften Dynamics 365 Project Operations hornitzaile-faktura batek produktuetarako hornitzailearen faktura-lerroak izan ditzake (materialak ere deituak). Proiektu-kudeatzaileek hornitzaileen faktura-lerroak erabil ditzakete produktuetarako, proiektuetan erositako produktuen kostuak erregistratzeko.
 
-Produktuen saltzaileen faktura-lerroek materialetarako azpikontratazio-lerroa erreferentzia izan dezakete edo ez. Produktuen saltzaileen faktura-lerro batek azpikontratu bati erreferentzia egiten badio, proiektu-kudeatzaileek saltzaileen faktura-lerroak fakturatzen ari diren produktuak parekatu eta egiaztatu ahal izango dituzte proiektu-kudeatzaileek erregistratu eta onartutako erositako produktuen erabilerarekin.
+Produktuetarako hornitzaileen fakturazio-lineek materialetarako azpikontratu-linea bati erreferentzia egin diezaiokete edo ez. Produktuetarako hornitzaile-faktura-linea batek azpikontratu bati egiten badio erreferentzia, proiektu-kudeatzaileek bat egin eta egiaztatu ahal izango dituzte hornitzailearen faktura-lerroak fakturatzen dituen produktuak eta proiektu-kudeatzaileek erregistratu eta onartutako produktuak erostearekin.
 
-Hurrengo taulak produktuen hornitzaileen faktura-lerroetako eremuei buruzko informazioa eskaintzen du.
+Hurrengo taulan, produktuetarako hornitzaileen fakturen arloei buruzko informazioa ematen da.
 
 | Eremua | Deskribapenak | Inpaktu funtzionala |
 | --- | --- | --- |
 | Eman izena | Saltzaileen faktura-lerroaren izena, identifikazioan laguntzeko. | Izen hau saltzaileen faktura-lerroetan oinarritutako bilaketa guztietan lehen zutabe gisa agertuko da. |
-| Deskribapenak | Saltzaileak fakturatzen dituen produktuen deskribapen laburra hornitzailearen faktura lerroan. | Batere ez |
-| Azpikontratua | Produktuak hasieran eskatutako azpikontratua. | Saltzaileen fakturarako azpikontratu bat hautatzen denean, saltzaileen fakturako lerro guztiek hautapen hori heredatuko dute. Saltzaile-faktura batek ezin du izan azpikontratu desberdinak aipatzen dituzten hornitzaile-faktura-lerroak. |
-| Azpikontratazio lerroa | Produktuak eskatu ziren azpikontratazio-lerroa. Hauta daitezkeen azpikontratazio-lerroen zerrenda hautatutako azpikontratuko lerroetara mugatzen da. | Produktuen saltzaileen faktura lerro batean azpikontratazio-lerro bat hautatzen denean, balio lehenetsiak **Proiektua**, **·**, eta **Produktua** eremuak azpikontratuaren lerroan dagozkion eremuetatik sartzen dira. Hautatutako azpikontratazio-lerroak balioak baditu **Proiektua**, **·**, eta **Produktua** eremuetan, hornitzaileen faktura-lerroko dagozkien eremuen balioak ezin dira balio horietatik desberdina izan. |
+| Deskribapenak | Hornitzailea hornitzailearen faktura-lerroan fakturatzen ari den produktuen deskribapen laburra. | Batere ez |
+| Azpikontratua | Produktuak hasiera batean ordenatu ziren azpikontratua. | Saltzaileen fakturarako azpikontratu bat hautatzen denean, saltzaileen fakturako lerro guztiek hautapen hori heredatuko dute. Saltzaile-faktura batek ezin du izan azpikontratu desberdinak aipatzen dituzten hornitzaile-faktura-lerroak. |
+| Azpikontrato-lerroa | Produktuak ordenatzeko azpikontratu-lerroa. Hauta daitezkeen azpikontratazio-lerroen zerrenda hautatutako azpikontratuko lerroetara mugatzen da. | Produktuetarako hornitzailearen faktura-lerro batean azpikontratu-linea bat aukeratzen denean, azpikontrato-lineako eremuetatik **Proiektu**, Tarea **eta** Produktu **arloetarako** aurrez zehaztutako balioak sartzen dira. Hautatutako azpikontratu-lerroak Proiektu **,** Tarea **eta** Produktu **arloetako** balioak baditu, hornitzailearen faktura-lerroko eremuetako balioak ezin dira balore horietatik ezberdinak izan. |
 | Transakzioaren data | Saltzaileen faktura-lerroaren benetako kostua proiektuan erregistratuko den data. | Batere ez|
-| Transakzio-klasea | Produktuak fakturatzen direnean, eremu hau ezarri behar da **Materiala**. | Balioa **Materiala** saltzaileen faktura-lerroa erositako materialen fakturaren zenbatekoa erregistratzeko erabiltzen ari dela adierazten du. |
-| Project | Fakturatzen ari diren produktuak erabili diren proiektuaren izena. | Eremu hau beharrezkoa da eta ezin da hutsik utzi. |
-| Zeregina | Fakturatzen ari diren produktuak erabili diren proiektuaren atazaren izena. Eremu hau proiektu bat hautatzen bada soilik dago erabilgarri. Proiektuko ataza hautatzea aukerakoa da. | Eremu hau hutsik geratzen bada, proiektuaren kudeatzaileak saltzaileen faktura-lerroa proiektuko edozein zereginetan erabiltzen den erositako produktuarekin lo dezake. Saltzaileen faktura-lerroak ez badu azpikontratazio-lerrorik aipatzen, eta eremu hau hutsik geratzen bada, hornitzaile-faktura-lerroak sortzen duen kostu erreala ez da fakturatu gabeko salmenta-errealekin lotuko. Kasu honetan, zereginetan oinarritutako fakturazioa konfiguratzen bada, kostuak ezin izango zaizkio azken bezeroari fakturatu. |
-| Hautatu produktua | Hautatu fakturatzen ari den produktua katalogoko lehendik dagoen produktua edo idatzizko produktua den. | Balio lehenetsia azpikontratu-lerrotik sartzen da azpikontratu-lerro bat hautatzen denean. |
-| Produktu | Hautatu produktua katalogotik. Produktua idazteko produktua bada, idatzi produktuaren izena. | Eremu hau lehendik dauden produktuen erosketa prezio lehenetsiak sartzeko erabiltzen da. |
-| Kantitatea | Sartu faktura-lerro honetan saltzaileak fakturatzen duen material-kantitatea. | Batere ez |
-| Salmenta-unitatea | Hautatu fakturatzen den kantitatea adierazten den unitateko unitate-taldea. | Batere ez |
-| Unitatea | Balio lehenetsia hautatzen den unitate-taldearen oinarrizko unitatea da. Balio hori alda dezakezu hautatutako unitate-taldeko edozein unitatetan ordaintzeko. | -ren konbinazioa **Produktua** eta **Unitatea** balioak balio lehenetsi edo kalkulatu gisa erabiliko dira **Unitatearen prezioa** saltzaileen faktura lerroko eremua. |
-| Unitateko prezioa | Unitateko prezio lehenetsiak ren konbinazioa erabiltzen du **Produktua** eta **Unitatea** saltzaileen faktura-lerroaren transakzio-datari dagozkion proiektuko prezioen zerrendako balioak. | Batere ez |
+| Transakzio-klasea | Produktuak fakturatzen direnean, eremu hori Materialean **ezarri behar** da. | Balio **materialaren** arabera, hornitzailearen faktura-lerroa erositako materialen fakturaren zenbatekoa erregistratzeko erabiltzen ari da. |
+| Project | Fakturatzen diren produktuak erabili ziren proiektuaren izena. | Eremu hau beharrezkoa da eta ezin da hutsik utzi. |
+| Zeregina | Fakturatzen diren produktuak erabili ziren proiektu-lanaren izena. Eremu hau proiektu bat hautatzen bada soilik dago erabilgarri. Proiektuko zeregina hautatzea aukerakoa da. | Arlo hori zuri uzten bada, proiektu-kudeatzaileak bat egin dezake hornitzailearen faktura-lerroarekin eta proiektuaren edozein zereginetan erabiltzen den erositako produktuarekin. Saltzaileen faktura-lerroak ez badu azpikontratazio-lerrorik aipatzen, eta eremu hau hutsik geratzen bada, hornitzaile-faktura-lerroak sortzen duen kostu erreala ez da fakturatu gabeko salmenta-errealekin lotuko. Kasu horretan, zereginetan oinarritutako fakturazioa konfiguratzen bada, kostuak ezin izango zaizkio azken bezeroari fakturatu. |
+| Hautatu produktua | Aukeratu fakturatzen ari den produktua katalogoko produktu bat edo idazkera-produktu bat den. | Aurrez zehaztutako balioa azpikontrato-lerrotik sartzen da azpikontrato-lerro bat aukeratzen denean. |
+| Produktu | Aukeratu katalogoko produktua. Produktua idazkera-produktua bada, sartu produktuaren izena. | Eremu hau lehendik dauden produktuen erosketa-prezio aurredeterminatuak sartzeko erabiltzen da. |
+| Kantitatea | Sartu hornitzailea fakturatzen ari den material kopurua faktura-lerro honetan. | Batere ez |
+| Salmenta-unitatea | Fakturatzen ari den zenbatekoa adierazten duen unitateko unitate-taldea hautatu. | Batere ez |
+| Unitatea | Balio lehenetsia hautatzen den unitate-taldearen oinarrizko unitatea da. Balio hori alda dezakezu hautatutako unitateen taldeko edozein unitatetan ordaintzeko. | Produktu- eta **unitate-balioen** **konbinazioa aldez aurretik zehaztutako edo kalkulatutako** **balio gisa erabiliko da, hornitzailearen faktura-lerroan.** |
+| Unitateko prezioa | Aurrez zehaztutako unitate-prezioan, produktu-balioen **eta** proiektuaren prezioen **zerrendaren unitatearen** konbinazioa erabiltzen da, hornitzailearen faktura-lerroaren transakzio-datan aplikatzen dena. | Batere ez |
 | Guztizko partziala | Irakurtzeko soilik den eremu hau honela kalkulatzen da *Kantitatea*&times;*Unitatearen prezioa*, bietan balioak sartzen badira **Kantitatea** eremua eta **Unitatearen prezioa** eremua. Eremu horietako bat edo biak hutsik badaude, eremu honetan balio bat sar dezakezu. | Batere ez |
 | Salmenten zerga | Idatzi salmenta-zergaren zenbatekoa. | Batere ez |
-| Kopuru osoa | Saltzaileen faktura-lerroaren guztizko zenbatekoa, zergak barne. Eremu hau honela kalkulatzen da *Azpitotala* + *Salmenta zerga*. | Batere ez |
+| Zenbateko osoa | Saltzaileen faktura-lerroaren guztizko zenbatekoa, zergak barne. Eremu hau honela kalkulatzen da *Azpitotala* + *Salmenta zerga*. | Batere ez |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,24 +1,24 @@
 ---
 title: 2021eko uztaileko berrikuntzak - Balabideetan edo ekoizpenean oinarritutako egoeretarako Project Operations
-description: Gai honek 2021eko uztaileko Project Operations bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa eskaintzen du baliabideetan / ez-ekoizpenean oinarritutako eszenatokietarako.
+description: Artikulu honetan, Project Operations-en 2021eko uztaileko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa ematen da, baliabideetan oinarritutako edo biltegiratu gabeko agertokietarako.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c004a6adc265f8f02fc557700d9b88a174c221c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931683"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021eko uztaileko berrikuntzak - Balabideetan edo ekoizpenean oinarritutako egoeretarako Project Operations
 
 *Honi aplikatzen zaio: Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations*
 
-Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
+Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
 
    - Project Operations Microsoft Dataverse-ko inguruneko bertsioan 4.12.0.148 edo 4.12.0.152.
    - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.20 bertsioan.

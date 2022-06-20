@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren antolaketa eta jarraipena
-description: Gai honek Project Service Automation-en antolatzeari eta jarraipena egiteari buruzko informazioa lortzeko esteka eskaintzen du.
+description: Artikulu honek esteka bat eskaintzen du Project Service Automation-en plangintzari eta jarraipenari buruzko informaziorako.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933247"
 ---
 # <a name="project-planning-and-tracking"></a>Proiektuaren antolaketa eta jarraipena
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589871"
 
 Project Service aplikazioak zerbitzuko erakunde horiei aukerak identifikatzen, eskaintzak bidaltzen, kontratuen akordioak lortzen, baliabideak kudeatzen, denboraren eta gastuen jarraipena egiten, bezeroak fakturatzen eta proiektuak aurrekontu eta denbora barruan ematen laguntzen die. 
 
-Gai honetan aurretik zegoen PDF esteka kendu da eta edukia honako gai hauetara eraman da:
+Artikulu honetan lehenago zegoen PDF esteka kendu egin da eta edukia artikulu hauetara eraman da:
 
 - [Proiektuen antolaketa](../project-creating.md)
 - [Proiektuaren kostuak eta diru-sarrerak](../project-estimating.md)
@@ -43,7 +43,7 @@ Gai honetan aurretik zegoen PDF esteka kendu da eta edukia honako gai hauetara e
 - [Proiektuaren ezarpenak](../project-settings.md)
 
 > [!NOTE]
-> Gai hau etorkizuneko dokumentazio-eguneratze batean kenduko da. 
+> Artikulu hau etorkizuneko dokumentazio eguneratze batean kenduko da. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

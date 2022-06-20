@@ -1,24 +1,24 @@
 ---
 title: Berriak 2022ko otsaila - Baliabideetan/hornituta ez dauden agertokietarako proiektu-eragiketak
-description: Gai honek Project Operations-en 2022ko otsaileko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
+description: Artikulu honek Project Operations-en 2022ko otsaileko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932971"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Berriak 2022ko otsaila - Baliabideetan/hornituta ez dauden agertokietarako proiektu-eragiketak
 
 *Honi aplikatzen zaio: Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations*
 
-Gai hau Microsoft-en osagai eta bertsio hauei dagokie Dynamics 365 Project Operations:
+Artikulu hau Microsoft-en osagai eta bertsio hauei aplikatzen zaie Dynamics 365 Project Operations:
 
 - Proiektuaren Eragiketak a Dataverse ingurunearen bertsioa 4.28.0.120
 - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.24 bertsioan
@@ -76,11 +76,11 @@ Mapa abiaraztean arazoren bat aurkitzen baduzu, jarraitu argibideei [Mapetan tau
 
 ## <a name="removed-and-deprecated-features"></a>Ezaugarriak kendu eta zaharkituta
 
-The [Project Operations-en eginbideak kendu edo zaharkituta](removed-depreciated-features-project.md) gaiak ezabatu edo zaharkitu diren ezaugarriak deskribatzen ditu Dynamics 365 Project Operations.
+The [Project Operations-en eginbideak kendu edo zaharkituta](removed-depreciated-features-project.md) artikuluak ezabatu edo zaharkitu diren ezaugarriak deskribatzen ditu Dynamics 365 Project Operations.
 
 - Kendu eginbidea dagoeneko ez dago eskuragarri produktuan.
 - Zaharkitutako eginbide bat ez dago garapen aktiboan eta baliteke etorkizuneko eguneratze batean kentzea.
 
-Zaharberritze-iragarkia agertuko da [Project Operations-en eginbideak kendu edo zaharkituta](removed-depreciated-features-project.md) gaia produktutik eginbideren bat kendu baino 12 hilabete lehenago.
+Zaharberritze-iragarkia agertuko da [Project Operations-en eginbideak kendu edo zaharkituta](removed-depreciated-features-project.md) artikulua produktuari edozein ezaugarri kendu baino 12 hilabete lehenago.
 
 Konpilazio-denboran bakarrik eragiten duten baina sandbox eta ekoizpen-inguruneekin bitar bateragarriak diren aldaketetarako, zaharkitze-denbora 12 hilabete baino txikiagoa izango da. Normalean, aldaketa hauek konpilatzaileari egin beharreko eguneratze funtzionalak dira.

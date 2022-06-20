@@ -1,24 +1,24 @@
 ---
 title: Zer berri 2022ko maiatza - Project Operations lite inplementatzea
-description: Gai honek Microsoft-en 2022ko maiatzeko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du Dynamics 365 Project Operations lite inplementazioa.
+description: Artikulu honek Microsoft-en 2022ko maiatzeko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du Dynamics 365 Project Operations lite inplementazioa.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a2684d51e643d37c90d2c03ee7a0c2a6ead18682
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: dd7f03068473ee09608945876047710fa44e914a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710097"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934121"
 ---
 # <a name="whats-new-may-2022---project-operations-lite-deployment"></a>Zer berri 2022ko maiatza - Project Operations lite inplementatzea
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Gai hau Microsoft-en osagai eta bertsio hauei dagokie Dynamics 365 Project Operations:
+Artikulu hau Microsoft-en osagai eta bertsio hauei aplikatzen zaie Dynamics 365 Project Operations:
 
 - Proiektuaren Eragiketak a Dataverse ingurunearen bertsioa 4.42.0.70
 

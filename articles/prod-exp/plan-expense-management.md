@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu gastuen kudeaketa
-description: Artikulu honek gastuen kudeaketa konfiguratu aurretik plangintza-prozesuan zehar hartu behar dituzun gogoetak eta erabakiak deskribatzen ditu Microsoft Dynamics 365 Finantza.
+description: Artikulu honetan, 365 Finance-ko Microsoft Dynamics gastu-administrazioa eratu aurretik plangintza-prozesuan hartu behar dituen kontsiderazioak eta erabakiak deskribatzen dira.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933983"
 ---
 # <a name="configure-expense-management"></a>Konfiguratu gastuen kudeaketa
 
-Gai honek Gastuen kudeaketa konfiguratu aurretik plangintza prozesuan zehar hartu behar dituzun gogoetak eta erabakiak deskribatzen ditu. Gastuen kudeaketan, ordainketa metodoei, bidaia eskaerei, gastuen txostenei, gidalerroei eta abarri buruzko informazioa gorde dezakezu.
+Artikulu honetan, gastuen administrazioa eratu aurretik plangintza-prozesuan hartu behar dituen gogoetak eta erabakiak deskribatzen dira. Gastuen kudeaketan, ordainketa metodoei, bidaia eskaerei, gastuen txostenei, gidalerroei eta abarri buruzko informazioa gorde dezakezu.
 
 Gastuak kudeatzeko konfigurazioa planifikatzerakoan hartzen dituzun erabaki asko zure erakundearen hierarkian eta finantza egituran oinarritzen direnez, arlo horietako plangintza dokumentuak kontsultatu behar dituzu.
 

@@ -1,17 +1,17 @@
 ---
 title: Konfiguratu proiektu-kategoriak
-description: Gai honek proiektuaren kategoriak konfiguratzeari buruzko informazioa ematen du.
+description: Artikulu honetan, proiektu-kategoriak nola konfiguratu behar diren ematen da.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 440fc712750c07e8426d54e3a1f994f506879e3c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591527"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933569"
 ---
 # <a name="configure-project-categories"></a>Konfiguratu proiektu-kategoriak
 
@@ -35,7 +35,7 @@ Transakzio kategoriak Project Operations moduluan definitzen dira.
 
 ## <a name="shared-categories"></a>Partekatutako kategoriak
 
-Dynamics 365-ek Partekatutako kategoriak kontzeptua erabiltzen du aplikazio ezberdinetan gastuak sailkatzeko, hala nola Dynamics 365 Finance, Dynamics 365 Supply Chain eta Dynamics 365 Project Operations. Sortutako Transakzio-kategoria bakoitzerako, Project Operations-ek erlazionatutako lau kategoria partekatu sortzen dituzte automatikoki: Orduak, Gastuak, Tasak eta Elementua. Partekatutako kategoriak berrikusi eta doitu ditzakezu hona joan **Proiektuen kudeaketa eta kontabilitatea** \> **Konfigurazioa** \> **Kategoriak** \> **Kategoria partekatuak** aukerara.
+Dynamics 365 kontzeptuak kategoria partekatuak erabiltzen ditu hainbat aplikaziotan gastuak sailkatzeko, hala nola Dynamics 365 Finance, Dynamics 365 Supply Chain eta Dynamics 365 Project Operations. Sortutako Transakzio-kategoria bakoitzerako, Project Operations-ek erlazionatutako lau kategoria partekatu sortzen dituzte automatikoki: Orduak, Gastuak, Tasak eta Elementua. Partekatutako kategoriak berrikusi eta doitu ditzakezu hona joan **Proiektuen kudeaketa eta kontabilitatea** \> **Konfigurazioa** \> **Kategoriak** \> **Kategoria partekatuak** aukerara.
 
 ## <a name="project-categories"></a>Proiektu-kategoriak
 

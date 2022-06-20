@@ -1,17 +1,17 @@
 ---
 title: Kudeatu proiektuetan oinarritutako abaguneak
-description: Gai honek proiektuekin erlazionatutako aukerekin lan egiteko moduari buruzko informazioa eskaintzen du.
+description: Artikulu honetan, proiektuekin zerikusia duten aukerekin lan egiteko moduari buruzko informazioa ematen da.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600405"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933201"
 ---
 # <a name="manage-project-based-opportunities"></a>Kudeatu proiektuetan oinarritutako abaguneak
 
@@ -19,7 +19,7 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 Proiektuetan oinarritutako konpainiek herrialde eta geografi anitzetan banatzeko eragiketak izaten dituzte. Proiektuaren exekuzioaren eta entregaren kostua alda daiteke banaketa kudeatzen duen geografiaren edo sailaren arabera. Aldiz, horrek akordioaren marjinetan eragina izan dezake. Proiektuetan oinarritutako zerbitzuak emateak giza baliabideen denbora kopuru handia, bidaiatzeko gastu handiak, kostu materialak eta bestelako gastuak dakartza normalean.
 
-Dynamics 365 Project Operations-eko proiektuan oinarritutako abaguneak Dynamics 365 Sales-erako luzapenekin diseinatuta daude. Gaiak proiektuetan oinarritutako enpresek proiektuetan oinarritutako aukerak kudeatzeko eskatzen duten funtzionalitate osagarriaren barne dauden arlo eta negozio logikari buruzko xehetasunak eskaintzen ditu.
+Dynamics 365 Project Operations-eko proiektuan oinarritutako abaguneak Dynamics 365 Sales-erako luzapenekin diseinatuta daude. Artikuluak proiektuetan oinarritutako aukerak kudeatzeko proiektuetan oinarritutako enpresek behar duten funtzionaltasun gehigarrian sartutako arloei eta enpresa-logikari buruzko xehetasunak ematen ditu.
 
 ## <a name="view-all-project-based-opportunities"></a>Ikusi proiektuetan oinarritutako abagune guztiak
 

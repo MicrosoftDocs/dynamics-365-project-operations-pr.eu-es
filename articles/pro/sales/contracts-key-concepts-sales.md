@@ -1,17 +1,17 @@
 ---
 title: Proiektu-kontratuak - Kontzeptu nagusiak - arina
-description: Gai honek proiektuaren kontratuaren kontzeptu nagusiei buruzko informazioa ematen du.
+description: Artikulu honek proiektu-kontratuen funtsezko kontzeptuei buruzko informazioa ematen du.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932649"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Proiektuko kontratuen kontzeptu bakarrak
 
@@ -19,7 +19,7 @@ _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako faktura
 
 
 
-Gai honek Project kontratuak erabiltzen hasi aurretik ezagutu beharreko kontzeptu nagusiak eskaintzen ditu Dynamics 365 Project Operations:
+Artikulu honetan, Project-en kontratuak erabiltzen hasi aurretik kontuan hartu beharreko funtsezko kontzeptuak ematen dira Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Kontratatzailea
 

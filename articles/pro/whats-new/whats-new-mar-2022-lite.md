@@ -1,30 +1,30 @@
 ---
-title: 2022ko martxoko berriak - Project Operations lite inplementatzea
-description: Gai honek Project Operations lite inplementazioaren 2022ko martxoko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du.
+title: 2022ko martxoko berrikuntzak - Project Operations lite-ren inplementazioa
+description: Artikulu honetan, Project Operations lite-ren ezarpenaren 2022ko martxoko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa ematen da.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583735"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934213"
 ---
-# <a name="whats-new-march-2022---project-operations-lite-deployment"></a>2022ko martxoko berriak - Project Operations lite inplementatzea
+# <a name="whats-new-march-2022---project-operations-lite-deployment"></a>2022ko martxoko berrikuntzak - Project Operations lite-ren inplementazioa
 
 _Honi aplikatzen zaio: Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Gai hau Microsoft-en osagai eta bertsio hauei dagokie Dynamics 365 Project Operations:
+Artikulu hau Microsoft-en osagai eta bertsio hauei aplikatzen zaie Dynamics 365 Project Operations:
 
 - Proiektuaren Eragiketak a Dataverse ingurunearen bertsioa 4.30.0.99
 
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
 
-- Azpikontratazioa: Saltzaileen fakturak sortzea eta parekatzeko esperientziak
+- Azpikontratazioa: hornitzaileen fakturak sortzea eta kointzidentzia-esperientziak
 
 ## <a name="quality-updates"></a>Kalitatearen eguneratzeak
 
@@ -40,8 +40,8 @@ Gai hau Microsoft-en osagai eta bertsio hauei dagokie Dynamics 365 Project Opera
 | Fakturazioa eta prezioak | 2558859 | Errore-mezuak hobetu dira prezioen dimentsioak konfiguratzen direnean. |
 | Fakturazioa eta prezioak | 2558933 | **Inportatu proiektuaren kalkuluetatik** huts egiten duenean **msdyn\_ proiektua** prezioen dimentsio gisa gehitzen da. |
 | Fakturazioa eta prezioak | 2559101 | Proiektuaren parametroak ezabatzea ez dago blokeatuta eta arazoak sortzen ditu. |
-|   Abaguneen kudeaketa | 2570390 | Idazketa bikoitzeko plug-in-ak kontu-mota aurrekontuetan, eskaeretan eta aukeretan izatera behartzen du **Bezeroa**, nahiz eta kontu mota hori zuzena ez izan. |
-| Fakturazioa eta prezioak | 2586097 | Zatitutako fakturatutako kostu errealak ez dira alderantzikatzen proiektu bat proiektu-kontratu-lerro batetik kentzen denean. |
+|   Abaguneen kudeaketa | 2570390 | Idazketa bikoitzeko plug-in-ak aurrekontu, eskaera eta aukeretan kontu mota izatera behartzen du **Bezeroa**, nahiz eta kontu mota hori zuzena ez izan. |
+| Fakturazioa eta prezioak | 2586097 | Zatitutako fakturatutako kostu errealak ez dira itzultzen proiektu bat proiektuaren kontratu-lerro batetik kentzen denean. |
 | Fakturazioa eta prezioak | 2589619 | Idatzitako materialaren gaineko zerga fakturatu gabeko salmenta errealetara eta fakturara hedatzen da. |
 |   Abaguneen kudeaketa | 2594015 | Eskaintza bat ezin da itxi irabazi gisa duten bezeroentzat **Net60** ordainketa baldintzak. |
 | Proiektuaren antolaketa eta jarraipena | 2595841 | Weberako proiektuan, erabiltzaileek falta den baten inguruko errore-mezu bat jasotzen dute **msdyn\_ benetako hasiera** baliabide eskaera berri bat sortzen dutenean. |
@@ -51,9 +51,9 @@ Gai hau Microsoft-en osagai eta bertsio hauei dagokie Dynamics 365 Project Opera
 
 ## <a name="removed-and-deprecated-features"></a>Ezaugarriak kendu eta zaharkituta
 
-The [Project Operations-en eginbideak kendu edo zaharkituta](../../whats-new/removed-depreciated-features-project.md) gaiak kendu edo zaharkitu diren eginbideak deskribatzen ditu Dynamics 365 Project Operations.
+[Proiektu-eragiketen](../../whats-new/removed-depreciated-features-project.md) ezaugarri ezabatuak edo zaharkituak artikuluak kendu diren edo erabiltzeari utzi zaizkion ezaugarriak deskribatzen ditu Dynamics 365 Project Operations.
 
 - Kendu eginbidea dagoeneko ez dago eskuragarri produktuan.
 - Zaharkitutako eginbide bat ez dago garapen aktiboan eta baliteke etorkizuneko eguneratze batean kentzea.
 
-Zaharberritze-iragarkia agertuko da [Project Operations-en eginbideak kendu edo zaharkituta](../../whats-new/removed-depreciated-features-project.md) gaia produktutik eginbideren bat kendu baino 12 hilabete lehenago.
+Artikuluan zaharkitutasun-iragarki [bat agertuko da, produktuaren edozein ezaugarri ezabatu edo zaharkitutako ezaugarriak edo zaharkituak,](../../whats-new/removed-depreciated-features-project.md) produktuaren edozein ezaugarri ezabatu baino 12 hilabete lehenago.

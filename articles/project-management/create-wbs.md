@@ -1,17 +1,17 @@
 ---
 title: Sortu zereginen xehetasunen egitura
-description: Gai honetan azaltzen da nola sortu lanaren matxuraren egitura (WBS) oinarrizko kontrolak barne antolaketa-interfaze berrian.
+description: Artikulu honetan, lanaren desglose-egitura bat (WBS) nola sortu azaltzen da, programazio-interfaze berriaren oinarrizko kontrolak barne hartuko dituena.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932051"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Sortu zereginen xehetasunen egitura (WBS)
 
@@ -95,11 +95,11 @@ Administratzaile gisa, eremu pertsonalizatuak defini ditzakezu atazako entitatea
 
 ## <a name="staffing-attributes"></a>Betetze-atributuak
 
-Langileen atributuak **Baliabideak** eremuaren bidez atzitzen dira antolaketan. Lehendik dagoen baliabide bat bilatu dezakezu edo hautatu **Sortu** eta **Sorrera bizkorra** panelean, gehitu proiektu-taldeko kide bat baliabide berri gisa.  Ataza-sareko, arbel-ikuspeko edo gantt-eko baliabide-hautatzailea erabiliz baliabide bat bilatzen duzunean, bilaketak lehendik dauden proiektuko taldeko kideak edo erreserba daitezkeen baliabide aktiboak itzultzen ditu.
+Langileen atributuak **Baliabideak** eremuaren bidez atzitzen dira antolaketan. Lehendik dagoen baliabide bat bilatu dezakezu edo hautatu **Sortu** eta **Sorrera bizkorra** panelean, gehitu proiektu-taldeko kide bat baliabide berri gisa.  Baliabide bat bilatzen denean, lanen laukian baliabideak hautatuz, taula-ikusmenean edo gantt-ean, bilaketak proiektuko ekipoko kideak edo baliabide aktibo erreserbagarriak itzultzen ditu.
 
 **Funtzioa**, **Baliabide-unitatea**, eta **Lanpostuaren izena** eremuak zereginerako langileen eskakizunak deskribatzeko erabiltzen dira. Langileen atributu horiek, zereginen antolaketarekin batera, zeregina egiteko erabilgarri dauden baliabideak aurkitzeko erabiltzen dira.
 
-   - **Rola** : Zehaztu zeregina egiteko behar den baliabide mota.,
+   - **Rol**: zehaztu zer baliabide mota behar den lana egiteko,
    - **Baliabide-unitatea**: Zehaztu zeregineko baliabideak zein unitatetik esleitu behar diren. Atributu horrek zereginerako kostuen eta salmenten aurreikuspenean eragiten du baliabidearen kostua eta faktura-tasa baliabide unitateetan oinarrituta ezartzen badira.
    - **Lanpostuaren izena**: idatzi lana egingo duen baliabiderako leku-marka gisa balio duen baliabide orokorrerako izena.
 
@@ -127,7 +127,7 @@ Ondoko mugak ezagutu behar dituzu Project Operations-en zereginen xehetasunen eg
 | Proiektu baterako gehieneko baliabideak              | 300                  |
 | Proiektu bateko gehieneko estekak (ondorengoak soilik) | 600                  |
 | Proiektu baterako gehieneko eremu pertsonalizatuak          | 1,0                   |
-| Gehienezko zerrendako elementuak zeregin bakoitzeko                   | 20                   |
+| Egiaztapen-zerrendako elementuen gehienekoa, lan-arabera                   | 20                   |
 
 **Zereginen mugak**
 

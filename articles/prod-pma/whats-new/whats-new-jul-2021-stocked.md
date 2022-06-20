@@ -1,26 +1,26 @@
 ---
 title: Project Operations-en berrikuntzak edo aldaketak, 2021eko uztaila, izakinen edo ekoizpenean oinarritutako egoeretarako
-description: Gai honek 2021eko uztaileko Project Operations bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa eskaintzen du hornitutako / ekoizpenean oinarritutako eszenatokietarako.
+description: Artikulu honetan, Biltegiratzean edo ekoizpenean oinarritutako agertokietarako Project Operations-en 2021eko uztaileko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa ematen da.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933615"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Project Operations-en berrikuntzak edo aldaketak, 2021eko uztaila, izakinen edo ekoizpenean oinarritutako egoeretarako
 
 _**Honi aplikatzen zaio:** Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations_
 
-Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
+Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
 
-- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.20 bertsioan
+- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance bertsioa 10.0.20 bertsioa
  
 ### <a name="quality-updates"></a>Kalitatearen eguneratzeak
                                                                                                                                                                                   

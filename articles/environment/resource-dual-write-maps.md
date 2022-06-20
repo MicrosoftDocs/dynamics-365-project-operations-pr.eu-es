@@ -1,17 +1,17 @@
 ---
 title: Project Operations idazketa dualeko esleipen-bertsioak
-description: Gai honek idazketa bikoitzeko mapen zerrenda eskaintzen du Dynamics 365 Project Operations.
+description: Artikulu honetan, eskritura dualeko mapen zerrenda ematen da Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
-ms.translationtype: MT
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612735"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959594"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations idazketa dualeko esleipen-bertsioak
 
@@ -25,12 +25,12 @@ Ondorengo mapak Project Operations soluziorako ezinbesteko baldintzak dira. Ziur
 
 | Taula-esleipena | Hasierako sinkronizazioa |
 | --- | --- |
-| Liburua (msdyn_ledgers) | Taularen maparen eta aurrebaldintza guztien hasierako sinkronizazioa eskatzen du. Hasierako sinkronizaziorako maisua Finantza eta Operazioen aplikazioak dira. |
+| Liburua (msdyn_ledgers) | Taularen maparen eta aurrebaldintza guztien hasierako sinkronizazioa eskatzen du. Hasierako sinkronizaziorako maisua Finance and Operations-en aplikazioak dira. |
 | Legezko entitateak (cdm_companies) | Ez da beharrezkoa. Sistemak entitate hau automatikoki betetzen du inguruneak idazketa bikoitzaren bidez lotzen direnean. |
 | Bezeroak V3 (kontuak) | Ez da hornidura egiteko beharrezkoa. |
 | Saltzaileak V2 (msdyn_vendors) | Ez da hornidura egiteko beharrezkoa. |
 
-1. Mapen zerrendan, hautatu Liburua **(msdyn\_ledgers)** mapa aurrebaldintza guztiekin eta hautatu **Hasierako sinkronizazioa** kontrol-laukia. urtean **Hasierako sinkronizaziorako maisua** eremua, hautatu **Finantza eta Operazio aplikazioak** bai liburuko maparako bai aurrebaldintzarako mapa guztietarako. Hautatu **Exekutatu**.
+1. Mapen zerrendan, hautatu Liburua **(msdyn\_ledgers)** mapa aurrebaldintza guztiekin eta hautatu **Hasierako sinkronizazioa** kontrol-laukia. Hasierako sinkronizaziorako **Maisuaren arloan, Finantza Aplikazioak eta Eragiketak** aukeratu **, bai liburu nagusiaren maparako**, bai aldez aurreko betekizunen mapa guztietarako. Hautatu **Exekutatu**.
 
 ![Liburuaren esleipenaren sinkronizazioa.](media/DW6.png)
 
@@ -40,7 +40,7 @@ Ondorengo mapak Project Operations soluziorako ezinbesteko baldintzak dira. Ziur
 
 Ondorengo mapak Project Operations soluziorako behar dira. Idazketa bikoitzeko mapen bertsioak zerrendatzen dira Project Operations 2021eko maiatzaren bertsioarekin hasita, 4.10.0.186 bertsioa.
 
-| Entitate-esleipena | Azken bertsioa | Hasierako sinkronizazioa | Dynamics 365 Finance bertsioa beharrezkoa |
+| Entitate-esleipena | Azken bertsioa | Hasierako sinkronizazioa | Dynamics 365 Finance bertsioa |
 | --- | --- | --- | --- |
 | Proiektuen transakzio harremanetarako integrazio entitatea (msdyn\_transactionconnections) | 1.0.0.0 | Ez da hornidura egiteko beharrezkoa. ||
 | Proiektuen kontratuen goiburuak (salmenta aginduak) | 1.0.0.1 | Ez da hornidura egiteko beharrezkoa. ||
@@ -54,7 +54,7 @@ Ondorengo mapak Project Operations soluziorako behar dira. Idazketa bikoitzeko m
 | Project Operations-ek integratzeko entitatea orduen kalkuluen arabera (msdyn_resourceassignments) | 1.0.0.5 | Ez da hornidura egiteko beharrezkoa. ||
 | Project Operations-ek integratzeko proiektuaren gastuak kategoriak esportatzeko entitatea (msdyn_expensecategories) | 1.0.0.1 | Ez da hornidura egiteko beharrezkoa. ||
 | Project Operations-ek integratzeko proiektuaren gastuak esportatzeko entitatea (msdyn_expenses) | 1.0.0.3 | Ez da hornidura egiteko beharrezkoa. ||
-| Project Operations integrazioa proiektuaren saltzailearen faktura esportatzeko entitatea (msdyn_projectvendorinvoices) | 1.0.0.0 | Ez da hornidura egiteko beharrezkoa. ||
+| Project Operations integrazioa proiektuaren saltzailearen faktura esportatzeko entitatea (msdyn_projectvendorinvoices) | 1.0.0.1 | Ez da hornidura egiteko beharrezkoa. |10.0.26 edo berriagoa|
 | Project Operations integrazioa proiektuaren saltzailearen faktura-lerroa esportatzeko entitatea (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Ez da hornidura egiteko beharrezkoa. | 10.0.26 edo berriagoa |
 | Enpresa guztientzako proiektuaren baliabideen eginkizunak (bookableresourcecategories) | 1.0.0.1 | Taulako maparen hasierako sinkronizazioa eskatzen du Dynamics 365 Dataverse ingurunean betetzen diren Project Manager eta Taldeko kideen baliabide rolak sinkronizatzeko horniduran zehar. Dataverse hasierako sinkronizazioaren iturri nagusia da. ||
 | Proiektuaren zereginak (msdyn_projecttasks) | 1.0.0.4 | Ez da hornidura egiteko beharrezkoa. ||

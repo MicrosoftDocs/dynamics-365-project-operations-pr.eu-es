@@ -1,17 +1,17 @@
 ---
 title: Azpikontratatutako baliabideen esleipenen kostuak kalkulatzea
-description: Gai honek Microsoft nola nolabait azaltzen du Dynamics 365 Project Operations azpikontratatutako baliabideen esleipenen kostuen estimazioa kalkulatzen du.
+description: Artikulu honek Microsoft nola nolabait azaltzen du Dynamics 365 Project Operations azpikontratatutako baliabideen esleipenen kostuen estimazioa kalkulatzen du.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f276e12713261538d1e7520dac17243e578db433
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 40603c1d2dfdd49909d9a4bf5085f43201e8f6bd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596679"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932327"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Azpikontratatutako baliabideen esleipenen kostuak kalkulatzea
 
@@ -44,7 +44,7 @@ Proiektuko Taldea fitxa erabiliz, taldekide generiko edo izendun bat sor dezakez
 ## <a name="updating-estimates"></a>Estimazioak eguneratzea
 Proiektuko taldeko kideak zereginak esleitu ondoren, atalera nabigatu beharko duzu **Estimazioak** fitxan proiektuan eta hautatu **Eguneratu prezioak** azpikontratistaren baliabideen esleipenen kostu-tasak azpikontratuari atxikitako erosketa-prezioen zerrendan oinarrituta eguneratzen direla ziurtatzeko. Ez dira esleitu gabeko zereginetarako kalkuluak sortzen Microsoft-en Dynamics 365 Project Operations. Ondorioz, zereginen esleipenak sortu beharko dituzu zure proiektuko hainbat ataza prezioa eta kostua emateko. 
 
-> [OHARRA!] Proiektuko taldekideek duten **Langile mota** gisa **Lan-kontratuko langilea** baina ez dute azpikontratu erreferentziarik bezala markatzen dira **Baliogabea** gainean **Proiektuko taldekideak** sareta. Egoera hori duen proiektu-taldekideren bat baldin badago, ireki proiektu-taldearen erregistroa eta eguneratu eskuz azpikontratazio eta azpikontratazio-lerroen eremuak, finantza-kostuen estimazioak azpikontratistaren kostua zehatz-mehatz isla dezan.**Estimazioak** fitxa. 
+> [OHARRA!] Proiektuko taldekideek duten **Langile mota** gisa **Lan-kontratuko langilea** baina ez dute azpikontratu erreferentziarik bezala markatzen dira **Baliogabea** gainean **Proiektuko taldekideak** sareta. Proiektu-taldeko kideren bat baldin badago estatu horrekin, ireki proiektu-taldeko kideen erregistroa, eta eskuz eguneratu azpikontratoko eta azpikontratoko lerro-eremuak, finantza-kostuen zenbatespenak zehaztasunez isla dezan azpikontratistak betilean **duen** kostua. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

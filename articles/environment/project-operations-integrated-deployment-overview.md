@@ -1,17 +1,17 @@
 ---
 title: Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen inplementazio orokorraren Project Operations
-description: Gai honek inplementazio motari buruzko informazioa eskaintzen du, baliabidean / pilatu gabeko egoeretako Project Operations-en eragiketak.
+description: Artikulu honetan, inplementazio motari buruzko informazioa ematen da, baliabide/biltegiratu gabeetan oinarritutako agertokietarako proiektu-eragiketak.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 217a3ae39289b9b06bf2e06ae39810fe4f2fc52b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575106"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931545"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen inplementazio orokorraren Project Operations
 
@@ -31,7 +31,7 @@ Inplementazio motak, Dynamics 365 Project Operations baliabideetarako / stockean
 - Proiektuaren diru-sarreren aitorpena
 - Hedagarritasuna Power Platform bidez
 
-Inplementazio mota honek Dynamics 365 Finance eta Dynamics 365 Finance-ek eskaintzen duen funtzionalitatearen luzapena eskaintzen du Dynamics 365 Supply Chain Management aplikazioak.
+Inplementazio mota horrek Dynamics 365 Financek eta Dynamics 365 Supply Chain Management aplikazioek emandako funtzionaltasunaren hedadura ematen du.
 
 Inplementazio hau aukeratu beharko litzateke proiektuaren eragiketen itxaropena proiektuaren bizi-ziklo osoa erabiltzea, baldintza hauek biltzen dituena:
 

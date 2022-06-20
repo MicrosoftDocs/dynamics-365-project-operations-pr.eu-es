@@ -1,27 +1,27 @@
 ---
 title: 2021eko martxoko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-description: Gai honek informazioa eskaintzen du 2021eko martxoan Project Operations bertsioan eskuragarri dauden kalitate-eguneratzeei buruz, baliabideetan / stockean oinarritutako egoeretarako.
+description: Artikulu honek Project Operations-en 2021eko martxoko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: fbdcb01117c39f879f80319b01d278c91a56e8f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932925"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021eko martxoko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
+Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
 
 - Project Operations Dataverse ingurunearen 4.8.0.91 bertsioa 
-- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance inguruneko 10.0.16 bertsioan 
+- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.16 bertsioan 
 
 ## <a name="quality-updates"></a>Kalitatearen eguneratzeak
 

@@ -1,17 +1,17 @@
 ---
 title: Eman izena Project Operations-en doako probak lortzeko
-description: Gai honek Dynamics 365 Project Operations proba bat inplementatzeari buruzko informazioa ematen du.
+description: Artikulu honek .-ren probako bertsioa zabaltzeari buruzko informazioa eskaintzen du Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584259"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959598"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Eman izena Project Operations-en doako probak lortzeko 
 
@@ -19,9 +19,9 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 
 
-Gai honetan aurrebista bazkideen eskaintzara nola harpidetu eta nola hedatu azaltzen da Dynamics 365 Project Operations ingurunea.
+Artikulu honek aurrebista-bazkideen eskaintzara nola harpidetu eta a nola zabaldu azaltzen du Dynamics 365 Project Operations ingurunea.
 
-Project Operations proba berriarekin, onartutako hiru inplementazio eszenatokietako bat automatikoki inplementa dezakezu, inplementazio planteamendu onena gomendatzen duen galdeketa bat osatuta. Gai honek benetako datuei buruzko informazioa ematen du:
+Project Operations proba berriarekin, onartutako hiru inplementazio eszenatokietako bat automatikoki inplementa dezakezu, inplementazio planteamendu onena gomendatzen duen galdeketa bat osatuta. Artikulu honek nola egin jakiteko informazioa ematen du:
 
 - Erabili proba-eskaintza.
 - Hasi hornidura.
@@ -89,7 +89,8 @@ Hasi aurretik, hasi saioa arakatzailean erabiltzaileen laneko kontuarekin Projec
 4.  Hautatu dagokiona Microsoft Dataverse URLa eta Finantza eta Operazio aplikazioen URLak hedapena balioztatzeko.
 
 ## <a name="configuring-dual-write"></a>Konfiguratuz idazketa duala
-- Idazketa bikoitzerako segurtasun-rolak konfiguratzeko, ikus [Eguneratu segurtasun-ezarpenak Project Operations-n Dataverse](resource-provision-new-environment.md).
+- Idazketa bikoitzerako segurtasun-rolak konfiguratzeko, ikus [Eguneratu segurtasun-ezarpenak Project Operations-n Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Idazketa bikoitzeko konfigurazioa atzitzeko, joan Finantza eta Operazioen instantziara eta, gero, joan hona **Datuen kudeaketa** > **Idazketa bikoitza**.
 - Idazketa bikoitzeko mapak konfiguratzeko, ikus [Exekutatu Project Operations idazketa bikoitzeko mapak](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Esleitu lizentziak

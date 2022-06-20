@@ -1,6 +1,6 @@
 ---
 title: Eskaintzak eta eskaintzaren lerroak
-description: Gai honek eskaintza eta eskaintzaren lerroei buruzko informazioa ematen du.
+description: Artikulu honek aurrekontuei eta aurrekontu-lerroei buruzko informazioa eskaintzen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599025"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933339"
 ---
 # <a name="quotes-and-quote-lines"></a>Eskaintzak eta eskaintzaren lerroak
 
@@ -39,7 +39,7 @@ Dynamics 365 Project Service Automation-en bi eskaintza mota daude: proiektu-esk
 - Salmenta-eskaintzak ez ditu proiektu-eskaintzan biltzen diren zenbait eremu eta kontzeptu biltzen. Eremuek **Kontratazio-unitatea**, **Kontuen kudeatzailea**, eta **Harreman-izenaren faktura** dituzte.  
 - Salmenta-eskaintzak eta proiektu-eskaintzak **Mota** izeneko aukera multzoan oinarritutako eremua moduan ere identifikatzen dira. Salmenta-eskaintzak lortzeko, eremuak balio hau du: **Elementuan oinarritutakoa**. Proiektu-eskaintza lortzeko, balio hau du: **Lanean oinarritutakoa**.
 
-Gai honek proiektu-eskaintzen xehetasunak izango ditu ardatz.
+Artikulu hau proiektuaren aurrekontuen xehetasunetan zentratuko da.
 
 PSAren proiektu-eskaintzak lerro bat baino gehiago edo eskaintzaren lerro bat izan dezake. Izan ere, proiektu-eskaintzak lerroentzako bi sareta ditu. Sareta bat aurreikuspen zehatzak egiteko aukera ematen duten proiektuetan oinarritutako lerroetarako da. Beste sareta produktu unitateko prezio sinplea eta kantitatean oinarritutako hurbilketa erabiltzen duten produktuetarako oinarritutako lerroetarako da.
 

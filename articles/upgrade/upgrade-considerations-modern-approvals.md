@@ -1,51 +1,51 @@
 ---
-title: Bertsio-gogoetak onarpen modernoetarako
-description: Gaiak administratzaileek Modern Approvals funtzionaltasuna gaitzen dutenean kontuan hartu beharreko puntuak biltzen ditu.
+title: Onarpen modernoetarako eguneratze-kontsiderazioak
+description: Artikuluak administratzaileek kontuan hartu behar dituzten puntuak estaltzen ditu, onarpen modernoen funtzionaltasuna gaitzean.
 author: stsporen
 ms.date: 01/31/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: a3757f057a801318feccde9be3e49c7b40fa8fcb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 44a933c92d4ef8dff40f20200d74c4bbdf8caa76
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578371"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931729"
 ---
-# <a name="upgrade-considerations-for-modern-approvals"></a>Bertsio-gogoetak onarpen modernoetarako 
+# <a name="upgrade-considerations-for-modern-approvals"></a>Onarpen modernoetarako eguneratze-kontsiderazioak 
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-2022ko apirileko Wave 1 bertsioaren barruan, Modern Approvals funtzioa lehenespenez gaituta egongo da. Funtzionalitate honek onarpen-logikaren fidagarritasuna hobetzen du eta onarpen-logikak huts egiten badu arrazoia zehaztu dezakezula ziurtatzen du.
+2022ko apirilaren 1eko Wave 1 bertsioaren parte gisa, onarpen modernoen funtzionaltasuna aurrez zehaztuta egongo da. Funtzionaltasun horrek onarpen-logikaren fidagarritasuna hobetzen du, eta onarpen-logikak huts egiten badu, arrazoia zehaztu ahal izango duela bermatzen du.
 
-Aldaketa honen baitan, proiektuen onarpenen egoera-aldaketak eguneratzen dira. Egoera orain zuzenean doa **Aurkeztua** to **Onartua**. **Zain** jada ez da onarpenetarako egoera. Onarpen bat egiteke dagoen zehazteko, egiaztatu onespena onarpen-multzo baten parte dela, eta berrikusi erantsitako onespen-multzoaren egoera.
+Aldaketa horren parte gisa, proiektuak onartzeko estatu-aldaketak eguneratzen dira. Estatua orain zuzenean bidali **behar** da **·**. **Malda** ez da onarpenetarako estatu bat. Onarpen bat egiteke dagoen zehazteko, egiaztatu onarpena onarpen-multzo baten parte dela eta erantsitako onarpenen egoera berrikusten duela.
 
-## <a name="before-you-upgrade"></a>Berritu aurretik
+## <a name="before-you-upgrade"></a>Eguneratu aurretik
 
-Modern Approvals-era bertsio-berritu aurretik, ziurtatu ez duzula onarpen zain. Modern Approvals-ek ez du erabiltzen **Zain** egoera. Beraz, oraindik bezala markatuta dauden onarpen guztiak **Zain** bertsio berritu ondoren ez da prozesatuko.
+Onarpen modernoak eguneratu baino lehen, ziurtatu ez duela onarpenik. Onarpen modernoak ez ditu **Aldapako** estatua erabiltzen. Beraz, eguneraketaren ondoren oraindik malda gisa **markatuta dauden onarpenak** ez dira prozesatuko.
 
-## <a name="after-you-upgrade"></a>Berritu ondoren
+## <a name="after-you-upgrade"></a>Eguneratu ondoren
 
-Modern Approvals-era eguneratu ondoren, administratzaile batek onarpenak prozesatzen dituen hodeiko fluxua gaituta dagoela egiaztatu behar du.
+Onarpen modernoak eguneratu ondoren, administratzaile batek baliozkotu egin behar du onarpenak prozesatzen dituen hodeiaren fluxua gaitu dela.
 
-1. Saioa hasi [flow.microsoft.com](https://flow.microsoft.com)
-2. Orriaren goiko eskuinaldean, aldatu zure ingurunea eguneratu duzun ingurunera.
-3. Hautatu **Irtenbideak** ingurunean instalatutako irtenbideak zerrendatzeko.
-4. Irtenbideen zerrendan, hautatu **Proiektuaren Eragiketak** edo **Proiektu Zerbitzua**.
-5. Aldatu iragazkia honetatik **Denak** to **Hodei Fluxuak**.
-6. Egiaztatu **Proiektu-zerbitzua - Behin eta berriz programatu proiektuak onartzeko multzoak** aukeran ezarrita dago **On**. Hala ez bada, hautatu fluxua eta, ondoren, hautatu **Piztu**.
-7. Egiaztatu prozesaketa bost minuturo gertatzen ari dela berrikusiz **Sistema-lanak** zerrendan **Ezarpenak** eremua.
+1. Saioa [hasi flow.microsoft.com](https://flow.microsoft.com)
+2. Orriaren goiko eskuinaldean, aldatu bere ingurua eguneratu duen ingurunera.
+3. Ingurunean instalatutako soluzioak zerrendatzeko konponbideak **hautatu**.
+4. Konponbideen zerrendan, aukeratu **proiektu-eragiketak** edo **proiektu-zerbitzua**.
+5. Aldatu Guztien **iragazkia** **hodeian**.
+6. Egiazta ezazu **proiektuak behin eta berriro onartzeko** programazio-zerbitzua – Programatu proiektu-zerbitzuaren aukera aktibatuta **dagoela**. Hala ez bada, fluxua hautatu eta, ondoren, **aktibatu**.
+7. Egiazta ezazu prozesamendua bost minuturo gertatzen dela, konfigurazio-eremuko **sistemaren** lanen **zerrenda berrikusiz**.
 
-## <a name="short-term-rollback"></a>Epe laburreko atzerapena
+## <a name="short-term-rollback"></a>Epe laburrerako itzulketa
 
-Ezin badituzu aldaketak hartu edo eginbide honekin arazo larri bat aurkitzen baduzu, aldi baterako jatorrizko onarpen-fluxura itzul dezakezu urrats hauek jarraituz:
-1. Hasi saioa zure ingurunean eta egiaztatu zain ez dagoela onarpenik.
-2. Joan **Ezarpenak** > **Proiektuaren Parametroak**.
-3. Hautatu **Ezaugarrien Kontrola** eta gero hautatu **Onarpen modernoak** funtzioa desaktibatzeko.
+Aldaketak onartu ezin baditu edo ezaugarri horrekin arazo larriren bat aurkitzen badu, aldi baterako itzuli daiteke jatorrizko onarpen-fluxura, honako urrats hauek eginez:
+1. Bere ingurunean saioa hasi eta egiaztatu ez dagoela onarpenik.
+2. Konfigurazio-proiektuaren **parametroetara.** > **·**
+3. Funtzioa **desaktibatzeko, ezaugarrien kontrola** hautatu eta, ondoren, onarpen modernoak **hautatu**.
 
-## <a name="removing-the-feature-flag"></a>Ezaugarrien bandera kentzen
+## <a name="removing-the-feature-flag"></a>Ezaugarrien adierazlea ezabatzea
 
-2022ko urriko Wave 2 eguneratzean, eginbide hau desaktibatzeko gaitasuna kenduko da.
+2022ko urriaren 2ko Wave eguneratzean, funtzio hori desaktibatzeko gaitasuna ezabatuko da.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
