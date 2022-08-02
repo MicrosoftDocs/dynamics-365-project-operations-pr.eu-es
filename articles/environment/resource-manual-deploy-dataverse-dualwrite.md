@@ -1,25 +1,25 @@
 ---
 title: Inplementatu eskuz Project Operations-en Dataverse aplikazioa idazketa dualaren bateragarritasunarekin
-description: Artikulu honetan Azaltzen da nola inplementatu Project Operations Dataverse aplikazioa, idazkera duala onar dezan.
+description: Artikulu honek proiektuaren eragiketak eskuz nola zabaldu azaltzen du Dataverse aplikazioa idazketa bikoitza onartzen duen.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: a25e2a59f1c069057c6689825ce52b13d842af71
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911995"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028549"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Inplementatu eskuz Project Operations-en Dataverse aplikazioa idazketa dualaren bateragarritasunarekin
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Artikulu honetan Microsoftek Dynamics 365 Project Operations idazkera duala onartzeko eskuz nola inplementatu Microsoft Dataverse azaltzen da. Project Operations-ek ingurunearen konfigurazioa hautematen dute eta idazketa bikoitzerako laguntza gehigarria gehitzen dute aurrez aurreko baldintzak betetzen badira.
+Artikulu honek Microsoft eskuz nola zabaldu azaltzen du Dynamics 365 Project Operations urtean Microsoft Dataverse beraz, idazketa bikoitza onartzen du. Project Operations-ek ingurunearen konfigurazioa hautematen dute eta idazketa bikoitzerako laguntza gehigarria gehitzen dute aurrez aurreko baldintzak betetzen badira.
 
-Lifecycle Services (LCS) erakundearen bidez Microsoft Dynamics ezarriz, artikulu honen jarraibideak jarraitu baditu, integrazioaren ezarpena (lehen ingurunea Microsoft Power Platform bezala ezagutzen dena) Common Data Service ez du inplementatu nahi.
+Inplementazioan zehar Microsoft Dynamics Lifecycle Services (LCS), artikulu honetako argibideak jarraitu badituzu, salta dezakezu Microsoft Power Platform integrazioa (lehen bezala ezagutzen zen Common Data Service ingurunea).
 
 Dataverse-ko Project Operations-ek idazketa bikoitza onartzeko inplementazio prozesuak du lau urrats nagusi ditu:
 
@@ -37,7 +37,7 @@ Prozedura hau osatzeko, administratzaile gisa hasi behar duzu saioa.
 3. Hautatu ingurune mota. Probako eskaintzan izena eman baduzu, hautatu **Proba (harpidetzan oinarrituta)**.
 4. Berretsi inplementazioaren eskualdea.
 5. Gaitu **Sortu datu-base bat ingurune honetarako** aukera. 
-6. Baieztatu hizkuntza eta, ondoren, baieztatu moneta bat datorrela Finance and Operations-en aplikazioetako monetarekin.
+6. Berretsi hizkuntza, eta, ondoren, egiaztatu moneta bat datorrela finantza- eta operazio-aplikazioetako diruarekin.
 7. Gaitu **Dynamics 365 aplikazioak** aukera, eta baieztatu **Aplikazio hauek automatikoki zabaldu** eremua ezarrita dagoela **Bat ere ez** gisa.
 8. Gehitu segurtasun taldea, segurtasun taldea beharrezkoa bada.
 9. Hautatu **Gorde** ingurunea sortzeko.
@@ -62,4 +62,4 @@ Project Operations instalatu aurretik aurreko izapideak burutu badituzu soilik e
 
 ## <a name="link-your-environments"></a><a name="link"></a>Estekatu inguruneak
 
-Behin ingurunea Dataverse ezarrita, Finance and Operations aplikazioetan konfigura dezake lotura. Jarraitu urratsak: [Erabili idazketa bikoitzeko morroia zure inguruneak lotzeko](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Ondoren Dataverse ingurunea zabalduta dago, esteka konfigura dezakezu zure finantza eta eragiketa aplikazioetan. Jarraitu urratsak: [Erabili idazketa bikoitzeko morroia zure inguruneak lotzeko](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

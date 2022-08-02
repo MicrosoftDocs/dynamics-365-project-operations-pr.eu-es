@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912409"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029233"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021eko apirileko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
 
@@ -42,13 +42,13 @@ Hurrengo zerrendan 2021eko apirileko Project Operations aldatu edo gehitu diren 
 | **Entitate-esleipena** | **Eguneratutako bertsioa** | **Iruzkinak** |
 | --- | --- | --- |
 | Project Operations-en integrazioaren benetako datuak (msdyn\_actuals) | 1.0.0.14 | Mapa aldatu da proiektuaren egiazkoak sinkronizatzeko. |
-| Project Operations-ek integratzeko entitatea gastuen kalkuluen arabera (msdyn\_estimateslines) | 1.0.0.2 | Proiektuaren kontratu-lerroen sinkronizazioa gehitu da Finantza eta Operazioen aplikazioetan zereginetan oinarritutako fakturaziorako laguntzarako. |
-| Project Operations-ek integratzeko entitatea orduen kalkuluen arabera (msdyn\_resourceassignments) | 1.0.0.5 | Proiektuaren kontratu-lerroen sinkronizazioa gehitu da Finantza eta Operazioen aplikazioetan zereginetan oinarritutako fakturaziorako laguntzarako. |
-| Project Operations integrazioaren taula materialen kalkuluen arabera (msdyn\_estimatelines) | 1.0.0.0 | Taula-mapa berria materialaren estimazioak sinkronizatzeko Dataverse Finantza eta Operazio aplikazioetara. |
-| Project Operations integrazioa proiektuaren saltzailearen faktura esportatzeko entitatea (msdyn\_projectvendorinvoices) | 1.0.0.0 | Taula-mapa berria Finantza eta Operazio aplikazioetatik saltzaileen fakturen goiburuak sinkronizatzeko Dataverse. |
-| Project Operations integrazioa proiektuaren saltzailearen faktura-lerroa esportatzeko entitatea (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Taula-mapa berria, hornitzaileen faktura-lerroak Finantza eta Operazio aplikazioetatik sinkronizatzeko Dataverse. |
+| Project Operations-ek integratzeko entitatea gastuen kalkuluen arabera (msdyn\_estimateslines) | 1.0.0.2 | Proiektu-kontratu-lerroen sinkronizazioa gehitu da finantza- eta eragiketa-aplikazioetan zereginetan oinarritutako fakturazio-laguntzarako. |
+| Project Operations-ek integratzeko entitatea orduen kalkuluen arabera (msdyn\_resourceassignments) | 1.0.0.5 | Proiektu-kontratu-lerroen sinkronizazioa gehitu da finantza- eta eragiketa-aplikazioetan zereginetan oinarritutako fakturazio-laguntzarako. |
+| Project Operations integrazioaren taula materialen kalkuluen arabera (msdyn\_estimatelines) | 1.0.0.0 | Taula-mapa berria materialaren estimazioak sinkronizatzeko Dataverse finantzaketa eta eragiketa aplikazioetarako. |
+| Project Operations integrazioa proiektuaren saltzailearen faktura esportatzeko entitatea (msdyn\_projectvendorinvoices) | 1.0.0.0 | Taula-mapa berria saltzaileen fakturen goiburuak finantza eta eragiketa aplikazioetatik sinkronizatzeko Dataverse. |
+| Project Operations integrazioa proiektuaren saltzailearen faktura-lerroa esportatzeko entitatea (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Taula-mapa berria saltzaileen faktura-lerroak finantza- eta eragiketa-aplikazioetatik sinkronizatzeko Dataverse. |
 
-Beti exekutatu behar duzu maparen azken bertsioa zure ingurunean eta erlazionatutako taula-mapa guztiak gaitu zure Proiektuaren Eragiketak eguneratzen dituzun bitartean.Dataverse irtenbidea eta Finantza eta Operazioen irtenbidearen bertsioa. Zenbait eginbide eta gaitasunek agian ez dute behar bezala funtzionatuko maparen azken bertsioa aktibatuta ez badago. Maparen bertsio aktiboa helbidean ikus dezakezu **Bertsioa** zutabea **Idazketa bikoitza** orrialdean. Maparen bertsio berria aktiba dezakezu hautatuta **Taula maparen bertsioak**, azken bertsioa hautatuta, eta ondoren hautatutako bertsioa gorde. Kutxaz kanpoko taulako mapa pertsonalizatu baduzu, aldaketak berriro aplikatu. Informazio gehiago lortzeko, ikusi [Aplikazioaren bizi-zikloaren kudeaketa](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Beti exekutatu behar duzu maparen azken bertsioa zure ingurunean eta erlazionatutako taula-mapa guztiak gaitu zure Proiektuaren Eragiketak eguneratzen dituzun bitartean.Dataverse irtenbidea eta finantza eta eragiketen irtenbidearen bertsioa. Zenbait eginbide eta gaitasunek agian ez dute behar bezala funtzionatuko maparen azken bertsioa aktibatuta ez badago. Maparen bertsio aktiboa helbidean ikus dezakezu **Bertsioa** zutabea **Idazketa bikoitza** orrialdean. Maparen bertsio berria aktiba dezakezu hautatuta **Taula maparen bertsioak**, azken bertsioa hautatuta, eta ondoren hautatutako bertsioa gorde. Kutxaz kanpoko taulako mapa pertsonalizatu baduzu, aldaketak berriro aplikatu. Informazio gehiago lortzeko, ikusi [Aplikazioaren bizi-zikloaren kudeaketa](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Mapa abiaraztearen arazoren bat baduzu, jarraitu argibideak [Taulen zutabeak falta dira mapetan](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) Idazketa Dualaren arazoak konpontzeko gidaren atalean.
 

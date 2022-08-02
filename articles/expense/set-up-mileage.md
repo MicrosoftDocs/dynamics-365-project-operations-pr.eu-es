@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930119"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064263"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Konfiguratu kilometrajea kilometrajearen tasaren mailak erabiliz
 
@@ -50,5 +50,15 @@ Langile batek 1.500 kilometroko gastuen txostena aurkezten badu, argitaratutako 
 
 Ezaugarria gaitu ondoren, berrezarri kilometrajearen mailak **Kopurua** eremua. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Gaitu Kilometrajearen guztizkoen kalkulua urte fiskal funtzioaren bidez
+
+The **Kilometrajearen guztizkoen kalkulua urte fiskal arabera** Ezaugarriak Gastuen kudeaketa parametroetan ezarpen berri bat gaitzen du, kilometrajearen guztizko kalkuluak egiten dituena urte fiskal arabera, urte naturalaren ordez. Egin urrats hauek eginbide hau gaitzeko.
+
+1. Joan **Languneak** > **Eginbideen kudeaketa** atalera.
+1. Zerrendan, bilatu eta hautatu **Kilometrajearen guztizkoen kalkulua urte fiskal arabera**, eta gero hautatu **Gaitu orain**.
+1. Joan **Gastuen Kudeaketa** > **Konfigurazioa** > **Orokorra** > **Gastuak kudeatzeko parametroak**.
+1. Gainean **Gastuak kudeatzeko parametroak** orrialdea, kokatu eta gaitu **Erabili urte fiskal kilometroen guztizkoetarako**.
+
+Gaitu ondoren **Erabili urte fiskal kilometroen guztizkoetarako**, kilometroen guztirakoak urte fiskal arabera kalkulatzen dira.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

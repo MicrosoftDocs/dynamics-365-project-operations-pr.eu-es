@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: d693177ac68a92cec3893b4126a0bd7c79e0bb74
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934029"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029331"
 ---
 # <a name="expense-management-overview"></a>Gastu-kudeaketaren informazio orokorra
 
@@ -43,7 +43,7 @@ Informazio gehiago eskuratzeko, ikusi [Gastuen txostenak itxura berrituta](Expen
 
 ### <a name="blogs"></a>Blogak
 
-Iritziak, albisteak eta bestelako informazioa aurki ditzakezu [Microsoft Dynamics 365 bloga](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) eta [Microsoft Dynamics 365 Finantza eta eragiketak - Finantza bloga](https://community.dynamics.com/365/financeandoperations/b/financials).
+Iritziak, albisteak eta bestelako informazioa aurki ditzakezu [Microsoft Dynamics 365 bloga](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) eta [Microsoft Dynamics 365 Finantza - Finantza bloga](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations Partner Community bloga](https://community.dynamics.com/partner/b/operationspartnercommunityblog) ematen du Microsoft Dynamics Baliabide bakar bat bazkide du, MBS Operations-en berrikuntza eta joera berriena ikas dezaten.
 

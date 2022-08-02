@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: eff34a4e9fc1fc6429f1fa7a3e4b0d5b664222f9
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927129"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029377"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Project Operations-en berrikuntzak edo aldaketak, 2021eko maiatza, izakinen edo ekoizpenean oinarritutako egoeretarako
 
@@ -93,7 +93,7 @@ Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagai
 | Bidaia eta gastua                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Gastu mugikorretarako aplikazioarekin sinkronizazio arazoak daude. 
 
 ### <a name="regulatory-updates"></a>Araudiaren eguneratzeak
-Finantza eta Operazio aplikazioen arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). Lifecycle Services-en (LCS) ere saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
+Finantza eta eragiketa aplikazioetarako arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). Lifecycle Services-en (LCS) ere saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

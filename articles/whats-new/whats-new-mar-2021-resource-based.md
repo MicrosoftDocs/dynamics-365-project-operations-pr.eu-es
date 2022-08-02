@@ -1,18 +1,18 @@
 ---
 title: 2021eko martxoko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-description: Artikulu honek Project Operations-en 2021eko martxoko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
+description: Artikulu honek Project Operations-en 2021eko martxoko bertsioan eskuragarri dauden kalitate-egunerei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fbdcb01117c39f879f80319b01d278c91a56e8f6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: e93b4eaad98267f163bad4aff3e4fdcc661e2ab0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932925"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028173"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021eko martxoko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
 
@@ -48,7 +48,7 @@ Informazio gehiago lortzeko, ikusi [2021eko urtarrileko berrikuntzak - Baliabide
 
 ## <a name="regulatory-updates"></a>Araudiaren eguneratzeak
 
-Finantza eta Operazio aplikazioen arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). Araudi-eguneratzeak ezagutzeko beste modu bat LCS saioa hastea da eta aurreikusitako erregulazio-eguneratzeak ikustea arazoa bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
+Finantza eta eragiketa aplikazioetarako arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). Araudi-eguneratzeak ezagutzeko beste modu bat LCS saioa hastea da eta aurreikusitako erregulazio-eguneratzeak ikustea arazoa bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

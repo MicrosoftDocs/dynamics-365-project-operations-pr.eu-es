@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren faseak
-description: Artikulu honetan proiektu-eragiketetan eskuragarri Microsoft Dynamics dauden proiektuaren etapari buruzko informazioa ematen da.
+description: Artikulu honek proiektuaren faseei buruzko informazioa eskaintzen du Microsoft Dynamics Proiektuaren Eragiketak.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b146174583fdea45481b87375158ebe83ed63418
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a8c8e63a2d8c238f582b67348f88b7285a0b1e12
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911121"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177320"
 ---
 # <a name="project-stages"></a>Proiektuaren faseak
 
@@ -47,7 +47,7 @@ Proiektu bat eskaintza bati esleitzean edo proiektua eskaintza batetik sortzean,
 
 ## <a name="plan"></a>Plana
 
-Proiektu bati erlazionatuta dagoen eskaintza bat irabaztean, eta proiektua **Kontratuta** fasera mugitu bada, proiektuaren fasea **Antolatu** fasera eguneratzen da. Proiektua **Antolatu** fasean dagoen bitartean, **Proiektuaren entitatea** orriak kontratuaren xehetasunak erakusten ditu.
+Proiektu bati erlazionatuta dagoen eskaintza bat irabaztean, eta proiektua **Kontratuta** fasera mugitu bada, proiektuaren fasea **Antolatu** fasera eguneratzen da. Proiektua barruan dagoen bitartean **Plana** etapa, du **Salmentak** fitxan **Proiektu Entitatea** orrialdeak kontratuaren xehetasunak erakusten ditu.
 
 ## <a name="deliver"></a>Entregatu
 

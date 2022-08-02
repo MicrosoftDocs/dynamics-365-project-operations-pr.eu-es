@@ -4,7 +4,7 @@ description: Nola sortu proiektu-txantiloia Project Service-n
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598979"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177410"
 ---
 # <a name="create-a-project-template-project-service"></a>Nola sortu proiektu-txantiloia (Project Service)
 
@@ -35,14 +35,21 @@ Proiektua duzu ordu gorde txantiloiak enpresaren erregularki bids projects moten
 ## <a name="components-of-project-template"></a>Proiektua txantiloiaren osagaiak
  Txantiloi proiektua hiru osagai zikloek dituzte:  
   
-- **Lan egin diren kanpaina-xehatzea egitura**: lana diren kanpaina-xehatzea egitura proiektua txantiloian proiektuan bai elementuak multzo da. Sortu zeregin bat hierarkia, zeregin, zehaztu antolaketa atributu, ez diren menpekotasunak ezarri eta Gantt, datu guztiak ikusiko funtzioak erlazionatu. Aplikazioko txantiloiak proiektua egitura diren kanpaina-xehatzea lan ere laguntza zeregin moduak bakoitza. Ez dago proiektua txantiloi bat eta proiektua bat arteko aldea ez lan-antolaketa sortzen dituzunean.  
+- **Lan egin diren kanpaina-xehatzea egitura**: lana diren kanpaina-xehatzea egitura proiektua txantiloian proiektuan bai elementuak multzo da. Zereginen hierarkia bat sor dezakezu, rolak atazarekin lotu, programazio-atributuak definitu, mendekotasunak ezarri eta Gantt-en datu guztiak ikus ditzakezu. Proiektu-txantiloietako lanaren banaketa-egiturak zeregin bakoitzerako ataza-moduak ere onartzen ditu. Ez dago ezberdintasunik proiektu txantiloiaren eta proiektu baten artean lan-egutegia sortzean.  
   
 - **Proiektua estimates**: Proiektua estimates txantiloiak aplikazioan era berean lan duten projects ez bezala, kasuetan izan ezik, prezio-zerrenda lortzeko kostua defaulting eta prezioak salmenta beti dira lehenetsia kostua eta salmentak prezio-zerrendak zehaztutako [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] parametroak. Funtzionalitate gainerako proiektua bat bai berdina da.  
   
 - **Proiektu-taldearen trebakuntza**: proiektu-txantiloirako proiektua taldeak sortzean, ezin duzu erreserbatu izendun baliabiderik txantiloian. Erabil dezakezu **Sortu Proiektua Taldearen** orokorra baliabide multzo bat sortu behar diren kanpaina-xehatzea egitura lan egin atalean. Ere zehaztu dezakezu beharrezko trebakuntza eta proficiencies baliabide orokorra. Ezin duzu ordezko bookable baliabide bat proiektua txantiloiak duen baliabide orokorra.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Sortu proiektu txantiloia lehendik dagoen proiektu batetik
+Proiektu batetik proiektuaren txantiloia sor dezakezu modu hauetan:
+
+- **Lanaren banaketa-egitura** : Proiektu batetik eratorritako txantiloi bateko lanaren banaketa-egitura batek zeregin eta menpekotasun guztiak kopiatuko ditu. Sortzen diren zereginak proiektuaren txantiloia sortzen denean proiektu-taldeari gehitzen zaizkion talde-kide generikoetan oinarrituta egongo dira.
+- **Proiektuaren aurrekontuak** : Lehendik dagoen proiektu batetik proiektu txantiloia sortzen denean, iturburuko proiektuaren estimazioak proiektuaren txantiloian kopiatzen dira.
+- **Proiektuko taldekideak** : Lehendik dagoen proiektu batetik txantiloi bat sortzen denean, izendatutako taldekide guztiak erakundearen baliabide generikoarekin ordezkatzen dira. Kargu-izen eta rol guztiak mantentzen dira.
+
 ## <a name="create-a-project-from-a-template"></a>Sortu proiektua txantiloitik  
- Sor ditzakezu proiektua bat txantiloietatik hurrengo modu hauek daude:  
+ Txantiloi batetik proiektu bat sor dezakezu modu hauetan:  
   
 -   Eskaintzatik proiektua bat sortzeko, proiektu-txantiloi bat aukera dezakezu proiektua bizkor sortzeko inprimakian.  
   

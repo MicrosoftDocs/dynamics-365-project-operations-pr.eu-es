@@ -1,18 +1,18 @@
 ---
 title: Project Operations-en berrikuntzak edo aldaketak, 2021eko uztaila, izakinen edo ekoizpenean oinarritutako egoeretarako
-description: Artikulu honetan, Biltegiratzean edo ekoizpenean oinarritutako agertokietarako Project Operations-en 2021eko uztaileko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa ematen da.
+description: Artikulu honek Project Operations-en 2021eko uztaileko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du hornitutako/produkzioan oinarritutako eszenatokietarako.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: c04d0465f5f7dd43ba50d4c0d2937b45fed6df86
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933615"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028825"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Project Operations-en berrikuntzak edo aldaketak, 2021eko uztaila, izakinen edo ekoizpenean oinarritutako egoeretarako
 
@@ -20,7 +20,7 @@ _**Honi aplikatzen zaio:** Izakinen edo ekoizpenean oinarritutako egoeretarako P
 
 Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
 
-- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance bertsioa 10.0.20 bertsioa
+- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.20 bertsioan
  
 ### <a name="quality-updates"></a>Kalitatearen eguneratzeak
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagai
 | Bidaia eta gastua                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | **Berrezarri Gastuen dokumentuaren egoera** tresnak gastuen txostenaren egoera berrezarri beharko luke **Zirriborroa** gisa lan-fluxua aurkitu ez bada. 
 
 ### <a name="regulatory-updates"></a>Araudiaren eguneratzeak
-Finantza eta Operazio aplikazioen arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). Lifecycle Services-en (LCS) ere saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
+Finantza eta eragiketa aplikazioetarako arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). Lifecycle Services-en (LCS) ere saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

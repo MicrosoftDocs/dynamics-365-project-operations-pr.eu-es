@@ -1,17 +1,17 @@
 ---
 title: Prezio-zerrenda lehenetsiak
-description: Artikulu honetan, aurrez zehaztutako salmentei eta proiektu-eragiketetako kostu-prezioen zerrendei buruzko informazioa ematen da.
+description: Artikulu honek salmentei eta kostu-prezio-zerrendei buruzko informazioa eskaintzen du Project Operations-en.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917699"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036396"
 ---
 # <a name="default-price-lists"></a>Prezio-zerrenda lehenetsiak
 
@@ -25,7 +25,7 @@ Dynamics 365 Project Operations-eko proiektuaren eskaintza eta kontratu bakoitza
 Sistemak prozesu hau burutzen du proiektuaren aurrekontuan lehenetsitako prezio zerrenda zehazteko:
 
 1. Sistemak kontuaren proiektuaren prezio zerrendetan erantsitako prezio zerrendak begiratzen ditu. 
-2. Kontuaren erregistroan proiektuen prezioen zerrendak badaude, sistemak proiektuaren aurrekontuaren monetarekin bat datozen proiektuaren parametroei atxikitako salmenta prezioen zerrendak begiratzen ditu.
+2. Kontuaren erregistroari proiektuaren prezio-zerrendarik ez badago, sistemak proiektuaren aurrekontuaren monetarekin bat datozen proiektu-parametroei atxikitako salmenta-prezio-zerrendak begiratzen ditu.
 3. Ondoren, sistemak proiektuaren aurrekontuaren data tartearekin bat datozen prezio zerrenden data eraginkortasuna egiaztatzen du. Zehazki, eskaintza sortu zen data.
 4. Proiektuaren aurrekontuaren datarako eraginkorrak diren prezioen zerrenda bat baino gehiago badira, prezioen zerrenda guztiak proiektuaren aurrekontuan lehenetsita daude.
 5. Proiektuaren aurrekontuaren datarako indarrean dagoen prezio zerrendarik ez badago, proiektuaren aurrekontuan ez dago lehenetsitako proiektuen zerrendarik. Abisu mezu bat agertuko da proiektuaren aurrekontuan. Mezuan esaten da proiektuaren prezioen zerrendarik ez dagoenez, zure proiektuaren eta kalkulatutako egiazko eta lanaren kostuak ez direla tasatuko.

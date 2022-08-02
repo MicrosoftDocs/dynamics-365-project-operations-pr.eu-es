@@ -1,17 +1,17 @@
 ---
 title: 2020ko azaroko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-description: Artikulu honetan, Project Operations-en 2020ko azaroko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa ematen da, baliabideetan oinarritutako edo biltegiratu gabeko agertokietarako.
+description: Artikulu honek 2020ko azaroko Project Operations-en bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 75a7b63c12b0ad3c6808785b6cbe6f22bd65f126
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923403"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029515"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020ko azaroko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
 
@@ -20,7 +20,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
 
 - Project Operations CDS ingurunearen 4.4.0.70 bertsioa
-- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance bertsioa 10.0.14 bertsioa
+- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.14 bertsioan
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations-en eguneratzeak
 
@@ -65,7 +65,7 @@ Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagai
 | Proiektuaren kontabilitatea  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Funtzioa gaituta, kontratu lerro anitz ez dira posible CDS integraziorik gabe.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Araudiaren eguneratzeak
-Finantza eta Operazio aplikazioen arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). LCS-en saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
+Finantza eta eragiketa aplikazioetarako arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). LCS-en saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

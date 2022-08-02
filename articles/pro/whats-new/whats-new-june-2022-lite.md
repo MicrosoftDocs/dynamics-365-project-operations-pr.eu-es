@@ -1,37 +1,37 @@
 ---
-title: 2022ko ekaineko berrikuntzak - Project Operations lite-ren inplementazioa
-description: Artikulu honek Microsoft Dynamics 365 Project Operations literen inplementazioaren 2022ko ekaineko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa ematen du.
+title: Zer berri 2022ko ekainean - Project Operations lite inplementatzea
+description: Artikulu honek Microsoft-en 2022ko ekaineko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du Dynamics 365 Project Operations lite inplementazioa.
 author: sigitac
 ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2d773603abef7ab45d4d1c298e5553e57893294d
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 8313288ecf7ff1350cd82c62d3d0c291d8a3ded4
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959593"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031178"
 ---
-# <a name="whats-new-june-2022---project-operations-lite-deployment"></a>2022ko ekaineko berrikuntzak - Project Operations lite-ren inplementazioa
+# <a name="whats-new-june-2022---project-operations-lite-deployment"></a>Zer berri 2022ko ekainean - Project Operations lite inplementatzea
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
 Artikulu hau Microsoft-en osagai eta bertsio hauei aplikatzen zaie Dynamics 365 Project Operations:
 
-- Proiektu-eragiketak ingurune 4.43.0.77 bertsio batean Dataverse
+- Proiektuaren Eragiketak a Dataverse ingurunearen bertsioa 4.43.0.77 edo 4.43.0.119
 
 ## <a name="quality-updates"></a>Kalitatearen eguneratzeak
 
 | Ezaugarrien eremua | Erreferentzia-zenbakia | Kalitatearen eguneratzea |
 | --- | --- | --- |
-| Azpikontratazioa | 2708885 | Erabiltzaile batek baliabide erreserbagarrien erreserba-erregistro bat sortzen duenean agertzen den errore-mezua zuzendu da, eta bertan ez da baliabide erreserbagarririk betetzen. |
-| Proiektuaren antolaketa eta jarraipena | 2629441 | Lan-fluxua aktibatzeko logika zuzendu da, proiektuaren lanak eguneratzen direnean bukle amaigabea saihesten laguntzeko. |
-| Denbora eta gastua | 2641209 | Esleipen/erreserben denbora-sarreraren inportazioek baliabide erreserbagarrien erreferentzia bat gorde behar dute. |
-| Proiektuaren antolaketa eta jarraipena | 2651148 | Proiektuaren buruak babestuta egon behar du.|
-| Proiektuaren antolaketa eta jarraipena | 2653145 | Balidazioak gehitu ziren, bere izenean baliozkoak ez diren karaktereak izango dituen proiektu-erregistrorik sortu ezin dela bermatzeko. |
-| Denbora eta gastua | 2654710 | **Orria entzun Orria entzun Aprobazioak**. |
-| Fakturazioa eta prezioak | 2667805 | Balidazioak gehitu ziren fakturatutako salmenten benetako datuak sortzen ez laguntzeko, fakturatu gabeko salmenten benetako daturik ez badago. |
-| Fakturazioa eta prezioak | 2668378 | Balidazioak gehitu ziren, prezio pertsonalizatuen dimentsio bat ez osatzeko, izen logiko bat eta landa-izen bat osatzen ez bada. |
-| Denbora eta gastua | 2700428 | Onarpenen logika hobetu da, proiekturako beste onarpen-multzo batzuk prozesatu ahal izango direla bermatzeko, baita onarpen-multzoetako bat sistemaren lanetan trabatuta badago ere. |
+| Azpikontratazioa | 2708885 | Erabiltzaileak erreserba daitezkeen baliabideen erreserbaren goiburuko erregistroa sortzen denean agertzen den errore-mezua konpondu da, non erreserba daitekeen baliabiderik betetzen ez den. |
+| Proiektuaren antolaketa eta jarraipena | 2629441 | Lan-fluxua abiarazteko logika zuzendu da proiektuko zereginak eguneratzen direnean begizta infinitua saihesteko. |
+| Denbora eta gastua | 2641209 | Esleipenetatik/erreserbatik denbora-sarrera inportatzeak erreserba daitezkeen baliabideen erreferentzia gorde behar du. |
+| Proiektuaren antolaketa eta jarraipena | 2651148 | Proiektuaren dokumentuaren goiburua zaindu behar da.|
+| Proiektuaren antolaketa eta jarraipena | 2653145 | Balidazioak gehitu dira bere izenan balio ez duten karaktereak dituen proiektu-erregistro bat sortu ezin dela ziurtatzeko. |
+| Denbora eta gastua | 2654710 | Iragazkia zuzendu du **Onarpenak** orrialdea. |
+| Fakturazioa eta prezioak | 2667805 | Balidazioak gehitu dira fakturatutako salmenta errealak sortzea saihesteko, fakturatu gabeko salmenten benetako babesa existitzen ez bada. |
+| Fakturazioa eta prezioak | 2668378 | Balidazioak gehitu dira prezio pertsonalizatuen dimentsio bat gehitzea saihesteko, izen logiko bat eta eremu-izen bat bete ezean. |
+| Denbora eta gastua | 2700428 | Onarpen-logika hobetu da, proiekturako beste onarpen-multzo batzuk prozesatu daitezkeela ziurtatzeko, nahiz eta onarpen-multzo bat sistemako lanetan itsatsita egon. |

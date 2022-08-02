@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924829"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183959"
 ---
 # <a name="review-proposed-resources"></a>Berrikusi baliabide proposatuak
 
@@ -40,8 +40,8 @@ Proposatutako baliabideak berrikusteko, jarraitu urrats hauei:
     Hurrengo egoeraren eguneratzeak gertatzen dira:
 
     - **Antolaketa-laguntzailea** orrian, egoeraren adierazleak eguneratu egiten dira erreserba proposatu dela adierazteko, ez behin betiko erreserba.
-    - Baliabide-eskaeran, egoera aldatu egingo da **Berrikusi behar da** egoerara.
-    - Proiektuaren **Taldea** fitxan, taldeko kide orokorraren **Eskaeraren egoera** balioa **Berrikusi behar da** baliora aldatu da.
+    - Baliabideen eskaeran, eskaeraren berrikusleak egoerara aldatu beharko luke **Berrikuspena behar du**.
+    - Gainean **Taldea** proiektuaren fitxa, taldekide generikoa **Eskaeraren egoera** balioa automatikoki aldatzen da **Berrikuspena behar du**.
 
 Proiektu-kudeatzaileak proposamena onartu edo baztertu dezake.
 

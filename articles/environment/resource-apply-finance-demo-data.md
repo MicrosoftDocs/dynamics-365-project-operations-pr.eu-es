@@ -1,24 +1,24 @@
 ---
 title: Aplikatu demo-datuak Finance-ren hodeian ostatatutako ingurune batean
-description: Artikulu honetan azaltzen da nola aplikatu Project Operations-en frogapen-datuak hodeian dagoen Dynamics 365 Finance inguruneari.
+description: Artikulu honek Project Operations-en demo datuak Dynamics 365 Finance Hodeian ostatatutako ingurune batean nola aplikatu azaltzen du.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924645"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029882"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplikatu demo-datuak Finance-ren hodeian ostatatutako ingurune batean
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
 > [!IMPORTANT]
-> Artikulu hau 365 Finance 10.0.13 bertsioari Microsoft Dynamics baino ezin zaio aplikatu, eta hodeian dagoen ingurune batean bakarrik egin daiteke. Osatu artikulu **honen urratsak, inguruneari kalitate-eguneratzeak aplikatu aurretik**.
+> Artikulu hau soilik aplikagarria da Microsoft Dynamics 365 Finance 10.0.13 bertsioa eta hodeian ostatatutako ingurune batean bakarrik egin daiteke. Osatu artikulu honetako urratsak **AURRETIK** ingurumenari kalitatezko eguneraketak aplikatzen dizkiozu.
 
 1. Zure LCS proiektuan, ireki **Ingurumenaren xehetasunak** orrialdea. Ohar zaitez urruneko mahaigaineko protokoloa (RDP) erabiliz ingurunearekin konektatzeko behar diren xehetasunak biltzen dituela.
 
@@ -76,7 +76,7 @@ Minutu pare bat behar dira. Admin erabiltzailea ondo eguneratu dela baieztatzeko
 
 18. Itxi urruneko mahaigaineko saioa eta erabili LCS **Ingurumenaren xehetasunak** orria ingurunean saioa hasteko espero bezala funtzionatzen duela baieztatzeko.
 
-![Finantzak eta Eragiketak.](./media/10FinanceAndOperations.png)
+![Finantza eta eragiketak.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,18 +1,18 @@
 ---
 title: 2020ko Abenduko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-description: Artikulu honek Project Operations-en 2020ko abenduko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
+description: Artikulu honek Project Operations-en 2020ko abenduko bertsioan eskuragarri dauden kalitate-egunerei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933017"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029699"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020ko Abenduko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
 
@@ -61,7 +61,7 @@ Eginbide hauek sartzen dira bertsio honetan:
 | Proiektuaren antolaketa eta jarraipena | 2057197          | Zereginaren erreferentziarekin kalkulatutako lerro kopia ez da onartzen                                                                                                     |
 | Proiektuaren antolaketa eta jarraipena | 2060687          | Ordu-zonaren abisua iraupen zehatz baten ondoren desagertzen da                                                                                                      |
 | Baliabideen kudeaketa           | 1832887          | Baliabideen kategoriako ID lehenetsiak estatikoa izan behar du datuen karga errepika daitezkeenak ziurtatzeko Dataverse eta Finantza inguruneak                                                 |
-| Denbora eta gastua              | 2081793          | **Gastuen kategoriaren izena** mapatu behar da **Gastuen kategoriaren deskribapena** Finantza eta Operazio aplikazioetan eremua                                                  |
+| Denbora eta gastua              | 2081793          | **Gastuen kategoriaren izena** mapatu behar da **Gastuen kategoriaren deskribapena** Finantza eta eragiketa aplikazioetan arloa                                                  |
 | Denbora eta gastua              | 2034882          | **Berria** botoia bi aldiz bistaratzen da komando barran denbora sartzeko Dynamics 365 Field Service instalatuta dago                                          |
 | Denbora eta gastua              | 2056028          | Eguneratu **Editatu ordua** denbora lerroa sartzeko orria                                                                                                              |
 | Denbora eta gastua              | 1983747          | Denbora sartzeko taulan datu osagarriak agertzen dira                                                                                                                   |
@@ -106,7 +106,7 @@ Eginbide hauek sartzen dira bertsio honetan:
 | Bidaia eta gastua                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Gastuen txostena automatikoki argitaratzeko lan-fluxua amaitu da, baina faktura ez da argitaratzen                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Araudiaren eguneratzeak
-Finantza eta Operazio aplikazioen arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). LCS-en saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
+Finantza eta eragiketa aplikazioetarako arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). LCS-en saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

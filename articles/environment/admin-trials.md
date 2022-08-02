@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
-ms.translationtype: HT
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959598"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029285"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Eman izena Project Operations-en doako probak lortzeko 
 
@@ -19,7 +19,7 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 
 
-Artikulu honek aurrebista-bazkideen eskaintzara nola harpidetu eta a nola zabaldu azaltzen du Dynamics 365 Project Operations ingurunea.
+Artikulu honek aurrebista bazkideen eskaintzara nola harpidetu eta a nola inplementatu azaltzen du Dynamics 365 Project Operations ingurunea.
 
 Project Operations proba berriarekin, onartutako hiru inplementazio eszenatokietako bat automatikoki inplementa dezakezu, inplementazio planteamendu onena gomendatzen duen galdeketa bat osatuta. Artikulu honek nola egin jakiteko informazioa ematen du:
 
@@ -86,11 +86,11 @@ Hasi aurretik, hasi saioa arakatzailean erabiltzaileen laneko kontuarekin Projec
  
   Hornidura amaitutakoan, zure ingurunearen egoera da **Prest**. Ingurunea hornitzeak demo datuak zabaltzea dakar.
  
-4.  Hautatu dagokiona Microsoft Dataverse URLa eta Finantza eta Operazio aplikazioen URLak hedapena balioztatzeko.
+4.  Hautatu dagokiona Microsoft Dataverse URLa eta finantza- eta operazio-aplikazioen URLak hedapena balioztatzeko.
 
 ## <a name="configuring-dual-write"></a>Konfiguratuz idazketa duala
-- Idazketa bikoitzerako segurtasun-rolak konfiguratzeko, ikus [Eguneratu segurtasun-ezarpenak Project Operations-n Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Idazketa bikoitzeko konfigurazioa atzitzeko, joan Finantza eta Operazioen instantziara eta, gero, joan hona **Datuen kudeaketa** > **Idazketa bikoitza**.
+- Idazketa bikoitzeko segurtasun-rolak konfiguratzeko, ikus [Eguneratu segurtasun-ezarpenak Project Operations-n Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Idazketa bikoitzeko konfigurazioa atzitzeko, joan finantza- eta eragiketen instantziara eta, gero, joan hona **Datuen kudeaketa** > **Idazketa bikoitza**.
 - Idazketa bikoitzeko mapak konfiguratzeko, ikus [Exekutatu Project Operations idazketa bikoitzeko mapak](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Esleitu lizentziak
@@ -117,7 +117,7 @@ Ondorengo baliabideek orientazio lagungarria eskaintzen dute Project Operations 
 
 ## <a name="frequently-asked-questions"></a>Ohiko galderak
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Zer gertatzen da ALM edo ELM behar badut nire Finantza eta Operazioen aplikazioen ingurunerako?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Zer gertatzen da ALM edo ELM behar badut nire finantza- eta operazio-aplikazioen ingurunerako?
 
 - Ingurune osoaren bizi-zikloa kudeatzeko gaitasunak behar dituzten bazkideentzat, ikusi [Bazkide Sandbox lizentzia eskaera](https://experience.dynamics.com/requestlicense) bazkide eskaintza berria berrikusteko. 
 - Barne Erabilera Eskubideei buruzko informazio gehiago bilatzen duten bazkideentzako, ikus [Barne Erabilera Eskubideen hodeia eta softwarearen onura (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
