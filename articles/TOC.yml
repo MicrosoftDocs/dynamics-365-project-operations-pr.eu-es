@@ -62,42 +62,48 @@
           href: environment/uninstall-project-operations.md
     - name: Zer berri?
       items:
-        - name: 2022ko maiatza - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-may-2022-resource-based.md
-        - name: 2022ko apirila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-apr-2022-resource-based.md
-        - name: 2022ko martxoa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-mar-2022-resource-based.md
-        - name: 2022ko otsaila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-feb-2022-resource-based.md
-        - name: 2021eko abendua - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: 2021eko azaroa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: 2021eko urria - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: 2021eko iraila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: 2021eko abuztua - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: '2021eko uztaila: baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: '2021eko ekaina: Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: 2021eko maiatza - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-may-2021-resource-based.md
-        - name: 2021eko apirila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: 2021eko martxoa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-mar-2021-resource-based.md
-        - name: 2021eko otsaila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-feb-2021-resource-based.md
-        - name: 2021eko urtarrila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-jan-2021-resource-based.md
-        - name: 2020ko abendua - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: 2020ko azaroa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-nov-2020-resource-based.md
+        - name: '2022ko uztaila: baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
+          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Artxiboa
+          items:
+            - name: '2022ko ekaina: Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
+              href: whats-new/whats-new-june-2022-resource-based.md
+            - name: 2022ko maiatza - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-may-2022-resource-based.md
+            - name: 2022ko apirila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-apr-2022-resource-based.md
+            - name: 2022ko martxoa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-mar-2022-resource-based.md
+            - name: 2022ko otsaila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-feb-2022-resource-based.md
+            - name: 2021eko abendua - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-dec-2021-resource-based.md
+            - name: 2021eko azaroa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-nov-2021-resource-based.md
+            - name: 2021eko urria - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-oct-2021-resource-based.md
+            - name: 2021eko iraila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-sept-2021-resource-based.md
+            - name: 2021eko abuztua - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-august-2021-resource-based.md
+            - name: '2021eko uztaila: baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
+              href: whats-new/whats-new-july-2021-resource-based.md
+            - name: '2021eko ekaina: Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
+              href: whats-new/whats-new-june-2021-resource-based.md
+            - name: 2021eko maiatza - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-may-2021-resource-based.md
+            - name: 2021eko apirila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-apr-2021-resource-based.md
+            - name: 2021eko martxoa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-mar-2021-resource-based.md
+            - name: 2021eko otsaila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-feb-2021-resource-based.md
+            - name: 2021eko urtarrila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-jan-2021-resource-based.md
+            - name: 2020ko abendua - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-dec-2020-resource-based.md
+            - name: 2020ko azaroa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Proiektuaren salmenta-prozesua
       items:
         - name: Proiektuaren salmenta-prozesuaren informazio orokorra
@@ -468,6 +474,14 @@
           href: actuals/businesstransactions.md
         - name: Benetako datuen ikuspegi orokorra
           href: actuals/actuals-overview.md
+        - name: Benetako datuen eragina denbora-tarte eta materialen elkarrekintza batean
+          href: actuals/ActualsonTM.md
+        - name: Benetako datuen eragina prezio finkoko elkarrekintza batean
+          href: actuals/ActualonFP.md
+        - name: Benetako datuen eragina elkarrekintza baten aurresalmentako fasean
+          href: actuals/ActualonPreSales.md
+        - name: Barneko proiektu baten benetako datuen eragina
+          href: actuals/ActualonInternal.md
         - name: Transakzioaren jatorria - Lotu benetako datuak iturburuarekin
           href: actuals/linkingactuals.md
         - name: Transakzioaren konexioak - Lotu transakzio mota desberdinen benetako datuak
@@ -513,9 +527,11 @@
             - name: Berretsi proiektuetan oinarritutako fakturaren proforma
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: Sortu proiektuetan oinarritutako faktura zuzentzaileak
-              href: proforma-invoicing/corrective-invoices.md
+              href: pro/proforma-invoicing/corrective-invoices-sales.md
             - name: Konfiguratu proiektuetan oinarritutako faktura automatizatzea
               href: proforma-invoicing/configure-automated-invoice-creation.md
+            - name: Proiektuetan oinarritutako faktura zuzentzaileak
+              href: proforma-invoicing/corrective-invoices.md
         - name: Bezeroen fakturazioa
           items:
             - name: Kudeatu proiektuaren faktura-proposamenak
@@ -592,46 +608,52 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Segurtasun-eredua
           href: environment/security-model.md
-    - name: Zer berri
+    - name: Zer berri?
       items:
-        - name: 2021eko berritasunen 2. uhinerako sarbide esklusiboa - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: '2022ko maiatzeko berritasunak: oinarrizko inplementazioa'
-          href: pro/whats-new/whats-new-may-2022-lite.md
-        - name: '2022ko apirileko berritasunak: oinarrizko inplementazioa'
-          href: pro/whats-new/whats-new-apr-2022-lite.md
-        - name: 2022ko martxoko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-mar-2022-lite.md
-        - name: 2022ko otsaileko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-feb-2022-lite.md
-        - name: 2021eko abenduko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: 2021eko azaroko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: 2021eko urriko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: 2021eko iraileko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: 2021eko abuztuko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: 2021eko uztaileko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: '2021eko ekaineko berritasunak: oinarrizko inplementazioa'
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: '2021eko maiatzeko berritasunak: oinarrizko inplementazioa'
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: '2021eko apirileko berritasunak: oinarrizko inplementazioa'
-          href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: 2021eko martxoko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: 2021eko otsaileko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: 2021eko urtarrileko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: 2020ko abenduko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: 2020ko azaroko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-nov-2020-lite.md
+        - name: 2022ko uztaileko berritasunak - oinarrizko inplementazioa
+          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Artxiboa
+          items:
+            - name: '2022ko ekaineko berritasunak: oinarrizko inplementazioa'
+              href: pro/whats-new/whats-new-june-2022-lite.md
+            - name: 2021eko berritasunen 2. uhinerako sarbide esklusiboa - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-2021-early-access-lite.md
+            - name: '2022ko maiatzeko berritasunak: oinarrizko inplementazioa'
+              href: pro/whats-new/whats-new-may-2022-lite.md
+            - name: '2022ko apirileko berritasunak: oinarrizko inplementazioa'
+              href: pro/whats-new/whats-new-apr-2022-lite.md
+            - name: 2022ko martxoko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-mar-2022-lite.md
+            - name: 2022ko otsaileko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-feb-2022-lite.md
+            - name: 2021eko abenduko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-dec-2021-lite.md
+            - name: 2021eko azaroko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-nov-2021-lite.md
+            - name: 2021eko urriko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-oct-2021-lite.md
+            - name: 2021eko iraileko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-sept-2021-lite.md
+            - name: 2021eko abuztuko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-august-2021-lite.md
+            - name: 2021eko uztaileko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-july-2021-lite.md
+            - name: '2021eko ekaineko berritasunak: oinarrizko inplementazioa'
+              href: pro/whats-new/whats-new-june-2021-lite.md
+            - name: '2021eko maiatzeko berritasunak: oinarrizko inplementazioa'
+              href: pro/whats-new/whats-new-may-2021-lite.md
+            - name: '2021eko apirileko berritasunak: oinarrizko inplementazioa'
+              href: pro/whats-new/whats-new-apr-2021-lite.md
+            - name: 2021eko martxoko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-mar-2021-lite.md
+            - name: 2021eko otsaileko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-feb-2021-lite.md
+            - name: 2021eko urtarrileko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-jan-2021-lite.md
+            - name: 2020ko abenduko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-dec-2020-lite.md
+            - name: 2020ko azaroko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Proiektuaren salmenta-prozesua
       items:
         - name: Proiektuaren salmenta-prozesuaren informazio orokorra
@@ -1068,26 +1090,54 @@
           href: team-member/project-operations-team-member.md
 - name: Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
   items:
-    - name: Zer berri
+    - name: Hasi erabiltzen
       items:
-        - name: 2021eko urriko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: 2021eko iraileko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: '2021eko uztaileko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: '2021eko maiatzeko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: '2021eko apirileko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: 2021eko martxoko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
-          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: 2021eko urtarrileko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
-          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: 2020ko abenduko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
-          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: 2020ko azaroko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
-          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+        - name: Konfiguratu datuen integrazioa
+          items:
+            - name: Project Service Automation-en ikuspegi orokorra
+              href: prod-pma/PSA-integration.md
+            - name: Project Service Automation integrazio-parametroak
+              href: prod-pma/PSA-parameters.md
+            - name: Sinkronizatu proiektuen kontratuak eta proiektuak zuzenean Project Service Automation-etik Finance-ra
+              href: prod-pma/project-contracts-templates.md
+            - name: Sinkronizatu proiektuaren benetako datuak zuzenean Project Service Automation-etik proiektuaren integrazioaren egunkarira finantza eta eragiketetan argitaratzeko
+              href: prod-pma/project-actuals-templates.md
+            - name: Sinkronizatu proiektuaren aurreikuspenak zuzenean Project Service Automation-etik finantza eta eragiketetara
+              href: prod-pma/project-estimates-templates.md
+            - name: Sinkronizatu proiektuaren gastu-kategoriak finantza eta eragiketen eta Project Service Automation-en artean
+              href: prod-pma/project-categories-templates.md
+            - name: Sinkronizatu proiektuaren zereginak zuzenean Project Service Automation-etik finantza eta eragiketetara
+              href: prod-pma/project-tasks-template.md
+        - name: Inplementatu inguruneak
+          items:
+            - name: Eguneratu Project Operations zure Finance ingurunean
+              href: whats-new/ur5-nonstocked-installation.md
+    - name: Zer berri?
+      items:
+        - name: '2022ko uztaileko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
+          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Artxiboa
+          items:
+            - name: '2022ko ekaineko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
+              href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
+            - name: 2021eko urriko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
+              href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+            - name: 2021eko iraileko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
+              href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+            - name: '2021eko uztaileko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
+              href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+            - name: '2021eko maiatzeko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
+              href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+            - name: '2021eko apirileko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
+              href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+            - name: 2021eko martxoko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
+              href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+            - name: 2021eko urtarrileko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
+              href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+            - name: 2020ko abenduko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
+              href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+            - name: 2020ko azaroko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
+              href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Izakinetan/Ekoizpenean oinarritutako adibideen inplementazio orokorraren Project Operations
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Proiektuaren kudeaketa eta kontabilitatearen ikuspegi orokorra
@@ -1122,6 +1172,8 @@
           href: prod-pma/project-timesheet.md
         - name: Proiektuaren denbora-orriak gailu mugikorrean
           href: prod-pma/mobile-timesheets.md
+        - name: Aldatu izena edo aldatu proiektuaren fasea
+          href: prod-pma/tasks/rename-project.md
         - name: Inplementatu Project Timesheet-en mugikorreko aplikazioaren eremu pertsonalizatuak
           href: prod-pma/custom-fields-mobile.md
     - name: Baliabideen kudeaketa
@@ -1150,6 +1202,8 @@
       items:
         - name: Proiektuaren aurreikuspenak eta aurrekontuak
           href: prod-pma/project-forecasts-budgets.md
+        - name: Esleitu proiektuaren aurrekontua edo aurrekontuen berrikuspena aldi bakoitzean
+          href: prod-pma/tasks/allocate-project.md
         - name: Sortu proiektuaren aurrekontuen aurreikuspen-ereduak
           href: prod-pma/create-forecast-models-project-budgets.md
         - name: Transferitu proiektuaren aurrekontuak urte fiskalaren amaieran
@@ -1246,6 +1300,10 @@
       items:
         - name: Ezabatu proiektuaren aurreikuspena
           href: prod-pma/eliminate-project-estimate.md
+    - name: Sektore publikoa
+      items:
+        - name: Sari Federalen kontsulten gastuen egutegia
+          href: prod-pma/project-sefa-inquiry.md
 - name: Gastuen kudeaketa
   items:
     - name: Gastu-kudeaketaren informazio orokorra
@@ -1264,6 +1322,8 @@
           href: expense/set-up-workflows.md
         - name: Kudeatu ordezkaritza
           href: expense/manage-delegation.md
+        - name: Konfiguratu gastuen kudeaketa
+          href: prod-exp/plan-expense-management.md
         - name: Konfiguratu gastuak kudeatzeko parametroak
           href: expense/configure-expense-management-parameters.md
         - name: Konfiguratu kreditu-txartelaren integrazioa
@@ -1278,10 +1338,14 @@
       items:
         - name: Gastuen txosteneko banaketak
           href: expense/distributions-expense-report.md
+        - name: Inportatu eta mantendu kreditu-txartelarekin egindako eragiketak
+          href: prod-exp/import-credit-card.md
     - name: Onartu gastuen txostenak
       items:
         - name: Gastuen txostenak eta hainbat onartzaile
           href: expense/expense-reports-multiple-approvers.md
+        - name: Kudeatu gastuen ordezkaritza
+          href: prod-exp/manage-expense-delegation.md
     - name: Argitaratu gastuen txostenak
       href: expense/posting-expense-reports.md
     - name: Bidaiatzeko eskakizuna
@@ -1296,14 +1360,18 @@
       items:
         - name: BEZaren berreskurapena
           href: expense/vat-recovery.md
+        - name: Ikusi Liburu nagusi orokorreko edo Kontratazio eta hornikuntzaren gastuen txostena
+          href: prod-exp/view-expense-report.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: Zer berri
+    - name: Zer berri?
       items:
         - name: "Project Service\_3.x bertsioaren eguneratze-bertsioen antolaketa"
           href: psa/version-history-ps.md
+        - name: '44. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-44.md
         - name: '43. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur43.md
         - name: '42. eguneratze-bertsioko berritasunak edo aldaketak, V3'
@@ -1361,6 +1429,8 @@
         - name: '23. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur-23.md
         - name: '22. eguneratze-bertsioko berritasunak edo aldaketak, V3'
+          href: psa/whats-new-ur-22.md
+        - name: '21. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur-21.md
         - name: '20. eguneratze-bertsioko berritasunak edo aldaketak, V3'
           href: psa/whats-new-ur-20.md
