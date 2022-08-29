@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Zer berri?
       items:
-        - name: '2022ko uztaila: baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: 2022ko abuztua - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Artxiboa
           items:
+            - name: '2022ko uztaila: baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: '2022ko ekaina: Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: 2022ko maiatza - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
@@ -384,6 +386,42 @@
           items:
             - name: Baliabide-erabileraren informazio orokorra
               href: resource-management/resource-utilization-overview.md
+    - name: Azpikontratatuen kudeaketa
+      items:
+        - name: Azpikontratatuen kudeaketa Project Operations-en
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Azpikontratazioko kontzeptu nagusiak
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Saltzaileak eta proiektuen prezio-zerrendak kudeatzea
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Azpikontratatzaileak baliabide erreserbagarri gisa
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Azpikontratatuen goiburuaren xehetasunak
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Azpikontratatuaren lerroak denboraren arabera
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Azpikontratatuaren lerroak gastu-kategorien arabera
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Azpikontratatuaren lerroak produktuen arabera
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Azpikontratistaren lerroko baliabideak
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Azpikontratatuaren lerroko mugarriak
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Proiektuko taldekideak azpikontratatzea
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Proiektuko taldekideak azpikontratatzeko aukerak
+          href: pro/subcontracting/subcon-options.md
+        - name: Azpikontratatutako baliabideen esleipenen kostuak kalkulatzea
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfiguratu kontratudun langileak eta azpikontratatutako ahalmena erakusteko Antolaketa-panela
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Proiektu bat kontratudun langileekin eta azpikontratatutako ahalmenarekin hornitzea
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Azpikontratatutako osagaien denbora, gastuak eta materialaren erabilera erregistratzea'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Azpikontratu bateko egoera-trantsizioak
+          href: pro/subcontracting/subcon-states.md
     - name: Denbora
       items:
         - name: Denboraren ikuspegi orokorra
@@ -580,6 +618,8 @@
       items:
         - name: Migratu guztiz fakturatutako fakturazio-mugarriak trantsizioan
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Sinkronizatu proiektuaren egoera itxitako proiektuetarako sarbidea saihesteko
+          href: advanced-configuration/sync-project-status.md
     - name: Bertsio-berritu
       items:
         - name: Bertsio-berritu Onarpen modernoen hausnarketak
@@ -610,13 +650,15 @@
           href: environment/security-model.md
     - name: Zer berri?
       items:
-        - name: 2022ko uztaileko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: 2022ko abuztuko berritasunak - oinarrizko inplementazioa
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Artxiboa
           items:
+            - name: 2022ko uztaileko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: '2022ko ekaineko berritasunak: oinarrizko inplementazioa'
               href: pro/whats-new/whats-new-june-2022-lite.md
-            - name: 2021eko berritasunen 2. uhinerako sarbide esklusiboa - oinarrizko inplementazioa
+            - name: 2021eko berritasunen 2. zatirako sarbide esklusiboa - oinarrizko inplementazioa
               href: pro/whats-new/whats-new-2021-early-access-lite.md
             - name: '2022ko maiatzeko berritasunak: oinarrizko inplementazioa'
               href: pro/whats-new/whats-new-may-2022-lite.md
