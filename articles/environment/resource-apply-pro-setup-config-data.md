@@ -1,17 +1,17 @@
 ---
-title: Konfiguratu eta aplikatu konfigurazio-datuak Common Data Service-n
-description: Artikulu honetan, proiektu-eragiketetan konfigurazio-datuak nola konfiguratu eta aplikatzeko informazioa ematen da.
+title: Konfiguratu eta aplikatu konfigurazio-datuak Microsoft Dataverse-n
+description: Artikulu honek Project Operations-en konfigurazio-datuak konfiguratzeari eta aplikatzeari buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928003"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230210"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfiguratu eta aplikatu konfigurazio-datuak Common Data Service-n 
 
@@ -21,10 +21,10 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 ## <a name="prerequisites"></a>Aurrebaldintzak
 
-Datuak konfiguratzen hasi aurretik Common Data Service (CDS), honako baldintza hauek bete behar dira:
+Datuak konfiguratzen hasi aurretik Microsoft Dataverse, ondoko baldintza hauek bete behar dira:
 
-1.  CDS ingurunea eta Dynamics 365 Finance ingurua hornituko ditu proiektuaren operazioetarako.
-2.  Dynamics 365 Finance-ko pertsona juridikoen informazioa CDSren inguruan partekatzen da. Horrek esan nahi du **Enpresa** CDS erakundeak konpainiaren erregistro hauek ditu:
+1.  a) xedapena Dataverse ingurunea eta Dynamics 365 Finance ingurunea Proiektu Eragiketetarako.
+2.  Dynamics 365 Finance-eko entitate juridikoaren informazioa partekatzen da Dataverse ingurunea. Horrek esan nahi du **Enpresa** entitatea Dataverse enpresaren erregistro hauek ditu:
   - THPM
   - USPM
   - GBPM

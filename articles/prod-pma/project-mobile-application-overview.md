@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren mugikorraren aplikazioen ikuspegi orokorra
-description: Artikulu honek proiektuaren denborarekin lotutako aplikazioei buruzko informazio orokorra eskaintzen du Microsoft Dynamics 365 Project Timesheet, Proiektuaren denbora-sarrera eta Nire denbora-orriak/Kronologia-orriak gailu mugikor batean eskuragarri daude.
+description: Artikulu honek proiektuaren denborarekin lotutako aplikazioei buruzko informazio orokorra eskaintzen du Microsoft Dynamics 365 Project Timesheet, Proiektuaren denbora-sarrera eta Nire denbora-orriak/denbora-orriak gailu mugikor batean eskuragarri dauden.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 74d3f5377559763e035155bd3f10818076f97ea3
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9028871"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316972"
 ---
 # <a name="project-mobile-applications-overview"></a>Proiektuaren mugikorraren aplikazioen ikuspegi orokorra
 
@@ -42,9 +42,8 @@ Nire denbora-orriak (Mugikorrerako optimizatua) eta Nire berrikuspenerako Orriak
 ## <a name="for-more-information"></a>Informazio gehiagorako
 
 - [Proiektuaren orrialde mugikorretarako aplikazioa](project-timesheet.md)
-- [Proiektuaren sarrera-ordua]( project-time-entry-mobile-workspace.md)
+- [Proiektuaren sarrera-ordua](project-time-entry-mobile-workspace.md)
 - [Proiektuaren orriak gailu mugikorrean](Mobile-timesheets.md)
 - [Inplementatu pertsonalizatutako eremuak hurrengorako Microsoft Dynamics 365 Project Timesheet mugikorreko aplikazioan iOS eta Android](custom-fields-mobile.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

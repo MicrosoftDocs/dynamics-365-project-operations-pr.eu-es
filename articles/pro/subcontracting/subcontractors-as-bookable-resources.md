@@ -1,21 +1,19 @@
 ---
 title: Konfiguratu azpikontratatzaileak baliabide erreserbagarri gisa
-description: Artikulu honetan, sisteman erabiltzaile eta kontaktuetatik sortzen diren azpikontratisten baliabideak nola konfiguratu eta mantendu azaltzen da, Microsoften azpikontratuekin elkartu ahal izateko Dynamics 365 Project Operations.
+description: Artikulu honetan azaltzen da sistemako erabiltzaile eta kontaktuetatik sortzen diren azpikontratistaren baliabideak nola konfiguratu eta mantentzea, Microsoft-en azpikontratekin lotu ahal izateko Dynamics 365 Project Operations.
 author: rumant
 ms.date: 07/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f005a05fb874f9e32a0041db5fc8fa1228fc91f1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 67df514cd1a0bd07d4ff2582e1a7738d913e0ac5
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927497"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261308"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>Konfiguratu azpikontratatzaileak baliabide erreserbagarri gisa
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 

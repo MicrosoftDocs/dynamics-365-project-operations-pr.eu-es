@@ -1,46 +1,44 @@
 ---
 title: Mugarrien saltzailearen fakturaren lerroak
-description: Artikulu honetan, azpikontratu batean mugarrietarako hornitzailearen faktura-lerroak nola sortu azaltzen da.
+description: Artikulu honek azpikontratu bateko mugarrietarako hornitzaileen faktura-lerroak nola sortu azaltzen du.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 212d68c32e712ac2349d1670f9e799bcc5144148
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f066c2ac7377a989a92a9ae2e9a732d3c979a0db
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931315"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9260980"
 ---
 # <a name="vendor-invoice-lines-for-milestones"></a>Mugarrien saltzailearen fakturaren lerroak
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Microsoften Dynamics 365 Project Operations hornitzailearen faktura batek hornitzailearen faktura-lineak izan ditzake, azpikontrato-linea batean definitzen diren mugarrietarako. Proiektu-kudeatzaileek hornitzailearen faktura-lineak erabil ditzakete mugarrietarako, proiekturako eskuratzen diren zerbitzu edo produktuetan gertatzen diren mugarrietan oinarritutako kostu gisa eskuratzen diren zerbitzuen kostuak erregistratzeko.
+Saltzaileen faktura bat Microsoft-en Dynamics 365 Project Operations saltzaileen faktura-lerroak izan ditzake azpikontratu-lerro batean definitutako mugarrietarako. Proiektu-kudeatzaileek saltzaileen faktura-lerroak erabil ditzakete mugarrietarako kontratatzen diren zerbitzuen kostuak proiekturako kontratatzen diren zerbitzu edo produktuetan sortzen diren mugarrietan oinarritutako kostu gisa erregistratzeko.
 
-Hornitzaileen fakturazio-lineek beti aipatu behar dute prezio finkoko fakturazio-metodoa duen azpikontratu-linea bat. Hornitzailearen fakturazio-lerro batek azpikontratu-linea bati egiten dion erreferentzia egiten duenean, proiektu-kudeatzaileek azpikontratu-lerro horri erreferentzia egiten dioten denbora-, gastu- edo material-kostuak bat egin eta egiaztatu ahal izango dituzte, hornitzailea fakturatzen ari den mugarriarekin.
+Mugarrietarako saltzaileen faktura-lerroek beti egin behar dute erreferentzia prezio finkoko fakturazio-metodoa duen azpikontratazio-lerroa. Mugarrien saltzaileen faktura-lerro batek azpikontratu-lerro bati erreferentzia egiten dionean, proiektu-kudeatzaileek azpikontratazio-lerro horri erreferentzia egiten dioten denbora, gastu edo materialen azpiko kostuak saltzaileak fakturatzen ari den mugarriarekin lotu eta egiaztatu ahal izango dituzte.
 
-Hurrengo taulan, hornitzailearen faktura-lerroen eremuei buruzko informazioa ematen da mugarrietarako.
+Hurrengo taulak hornitzaileen faktura-lerroetako eremuei buruzko informazioa eskaintzen du mugarrietarako.
 
 | Eremua | Deskribapenak | Inpaktu funtzionala |
 | --- | --- | --- |
 | Eman izena | Saltzaileen faktura-lerroaren izena, identifikazioan laguntzeko. | Izen hau saltzaileen faktura-lerroetan oinarritutako bilaketa guztietan lehen zutabe gisa agertuko da. |
-| Deskribapenak | Hornitzailea hornitzailearen faktura-lerroan fakturatzen ari den zerbitzuen deskribapen laburra. | Batere ez |
-| Azpikontratua | Zerbitzuak hasiera batean agindutako azpikontratua. | Saltzaileen fakturarako azpikontratu bat hautatzen denean, saltzaileen fakturako lerro guztiek hautapen hori heredatuko dute. Saltzaile-faktura batek ezin du izan azpikontratu desberdinak aipatzen dituzten hornitzaile-faktura-lerroak. |
-| Azpikontrato-lerroa | Zerbitzuak agindutako azpikontratazio lerroa. Hauta daitezkeen azpikontratazio-lerroen zerrenda hautatutako azpikontratuko lerroetara mugatzen da. | Hornitzailearen faktura-lerro batean azpikontratu-linea bat aukeratzen denean, **Rol** eta **Transakzio kategoriako** eremuak eta produktuarekin lotutako eremuak garrantzirik gabekoak dira eta ez daude eskuragarri. Unitateen **kantitatea**, **unitatea** eta **taldea** ere ez dira garrantzitsuak mugarrietan oinarritutako hornitzaileen fakturen lerroetarako. |
+| Deskribapenak | Saltzaileak fakturatzen dituen zerbitzuen deskribapen laburra hornitzailearen faktura lerroan. | Batere ez |
+| Azpikontratua | Zerbitzuak hasiera batean agindutako azpikontratua. | Saltzaileen fakturarako azpikontratu bat hautatzen denean, saltzaileen fakturako lerro guztiek hautapen hori heredatuko dute. Saltzaileen faktura batek ezin du izan azpikontratu desberdinak aipatzen dituzten hornitzaileen faktura lerroak. |
+| Azpikontratazio lerroa | Zerbitzuak agindutako azpikontratazio lerroa. Hauta daitezkeen azpikontratazio-lerroen zerrenda hautatutako azpikontratuko lerroetara mugatzen da. | Mugarrietarako saltzaileen faktura-lerro batean azpikontratazio-lerro bat hautatzen denean, **Rola** eta **Transakzio kategoria** eremuak eta produktuekin erlazionatutako eremuak ez dira garrantzirik eta ez daude eskuragarri. The **Kantitatea**, **·**, eta **Unitate taldea** eremuak ere ez dira garrantzitsuak mugarrietan oinarritutako hornitzaileen faktura-lerroetarako. |
 | Transakzioaren data | Saltzaileen faktura-lerroaren benetako kostua proiektuan erregistratuko den data. | Batere ez |
-| Transakzio-klasea | **Aukeratu** Hornitzaile-faktura bat erregistratzeko, azpikontrato-lerro batean definitu zen mugarri oso baterako. | Batere ez |
-| Mugarria | Fakturatzeko **listo gisa** markatuta dagoen azpikontratu-lerroan zehaztutako mugarria hautatu. | Listo estatuak fakturatzeko **duen azpikontratazio-linearen** mugarriak hornitzailearen faktura-lerro batean aukera daitezke. |
+| Transakzio-klasea | Hautatu **Mugarria** Azpikontratazio-lerro batean definitu zen amaitutako mugarri baten saltzaile-faktura erregistratzeko. | Batere ez |
+| Mugarria | Hautatu gisa markatuta dagoen azpikontratazio-lerroan definitzen den mugarria **Fakturatzeko prest**. | Egoera duten azpikontratazio lerroaren mugarriak **Fakturatzeko prest** saltzaileen faktura lerro batean hauta daiteke. |
 | Project | Fakturatzen ari diren zerbitzuak erabili diren proiektuaren izena. | Eremu hau beharrezkoa da eta ezin da hutsik utzi. |
-| Zeregina | Fakturatzen ari diren zerbitzuak erabili diren proiektuaren atazaren izena. Eremu hau proiektu bat hautatzen bada soilik dago erabilgarri. Proiektuko zeregina hautatzea aukerakoa da. | Arlo hori zuri uzten bada, proiektuaren zuzendariak bat egin dezake hornitzailearen faktura-lerroarekin eta proiektuaren edozein zereginetan erregistratzen den azpikontratu-lerroko transakzio-motarekin. Saltzaileen faktura-lerroak ez badu azpikontratazio-lerrorik aipatzen, eta eremu hau hutsik geratzen bada, hornitzaile-faktura-lerroak sortzen duen kostu erreala ez da fakturatu gabeko salmenta-errealekin lotuko. Kasu honetan, zereginetan oinarritutako fakturazioa konfiguratzen bada, baliteke kostuak ezin izango zaizkiola azken bezeroari fakturatu. |
-| Mugarriaren zenbatekoa | Zehaztutako mugarriaren balioa sartu fakturatzeko prest dagoen azpikontratu-lerroan. | Batere ez |
+| Zeregina | Fakturatzen ari diren zerbitzuak erabili ziren proiektuaren zereginaren izena. Eremu hau proiektu bat hautatzen bada soilik dago erabilgarri. Proiektuko zeregina hautatzea aukerakoa da. | Eremu hau hutsik geratzen bada, proiektuaren kudeatzaileak hornitzaileen faktura-lerroa proiektuko edozein zereginetan erregistratutako erlazionatutako azpikontratu-lerroko transakzio-klasearekin lo dezake. Saltzaileen faktura-lerroak ez badu azpikontratazio-lerrorik aipatzen, eta eremu hau hutsik geratzen bada, saltzaileen faktura-lerroak sortzen duen kostu erreala ez da fakturatu gabeko salmenta errealekin lotuko. Kasu honetan, zereginetan oinarritutako fakturazioa konfiguratzen bada, baliteke kostuak azken bezeroari ezin izango zaizkio fakturatu. |
+| Mugarriaren zenbatekoa | Sartu fakturatzeko prest dagoen azpikontratuaren lerroan definitutako mugarriaren balioa. | Batere ez |
 | Salmenten zerga | Idatzi salmenta-zergaren zenbatekoa. | Batere ez |
-| Zenbateko osoa | Saltzaileen faktura-lerroaren guztizko zenbatekoa, zergak barne. Eremu hori salmenten gaineko *zergaren* + *mugarriaren zenbateko* gisa kalkulatzen da. | Batere ez |
+| Kopuru osoa | Saltzaileen faktura-lerroaren guztizko zenbatekoa, zergak barne. Eremu hau honela kalkulatzen da *Mugarri kopurua* + *Salmenta zerga*. | Batere ez |
 
 > [!NOTE]
-> Azpikontrato-linearen mugarri bati erreferentzia egiten dion hornitzaile-faktura-lerro bat sortzen denean, azpikontratoaren mugarriaren egoera sortutako **hornitzailearen fakturari** eguneratzen zaio. Gero, hornitzailearen faktura hori baieztatzen denean, azpikontratazio-linearen mugarriaren egoera berretsitako **hornitzailearen fakturara** eguneratzen da.
+> Azpikontratazioaren mugarri bati erreferentzia egiten dion hornitzaileen faktura-lerroa sortzen denean, azpikontratuaren mugarriaren egoera eguneratzen da.**Saltzaileen faktura sortu da**. Ondoren, saltzaileen faktura hori berresten denean, azpikontratuaren lerroaren mugarriaren egoera eguneratzen da **Saltzaileen faktura berretsi da**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

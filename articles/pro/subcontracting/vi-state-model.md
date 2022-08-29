@@ -1,38 +1,36 @@
 ---
 title: Saltzailearen faktura bateko egoera-trantsizioak
-description: Artikulu honetan Microsoften hornitzaile-faktura baten estatu-trantsizioak azaltzen dira Dynamics 365 Project Operations.
+description: Artikulu honek Microsoft-en saltzaileen fakturaren egoera-trantsizioak azaltzen ditu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 58b07322fb6480fdeb07eb867a7aabc0eff7b955
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e25e4d63d4c9098112a7f40abe60c7184018d582
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934305"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261001"
 ---
 # <a name="state-transitions-on-a-vendor-invoice"></a>Saltzailearen faktura bateko egoera-trantsizioak
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Artikulu honetan Microsoften hornitzaile-faktura baten estatu-trantsizioak azaltzen dira Dynamics 365 Project Operations. Honako egoera hauek erabiltzen dira: Zirriborroa, Berrikuspena **,** Baieztatua **,** Itxaronaldia **eta** Kitatua. **·** **·**
+Artikulu honek Microsoft-en saltzaileen fakturaren egoera-trantsizioak azaltzen ditu Dynamics 365 Project Operations. Egoera hauek erabiltzen dira: **Zirriborroa**, **·**, **·**, **·**, eta **Bertan behera utzita**.
 
-Hurrengo ilustrazioetan estatu-trantsizioak erakusten dira.
+Ondorengo ilustrazioek egoera-trantsizioak erakusten dituzte.
 
-![Azpikontrato-egoeraren trantsizio-eredua.](../media/VI_State_Model.jpg)
+![Azpikontratazio egoera trantsizio eredua.](../media/VI_State_Model.jpg)
 
-Hurrengo taulan, proiektu-eragiketetako hornitzaile-faktura baten bizi-zikloko egoera bakoitza zer den azaltzen da.
+Hurrengo taulak egoera bakoitzak zer adierazten duen azaltzen du saltzaileen faktura baten bizi-zikloan Project Operations-en.
 
 | Egoera | Deskribapenak | Baimendutako trantsizioak |
 | --- | --- | --- |
-| Zirriborroak | Egoera hori hornitzailearen faktura baten hasierako egoera da. Lineak eta prezioak aldatu egin behar dira. Hornitzailearen faktura bat argitaratu eta ezabatu daiteke egoera honetan. | Prozesuan |
-| Berrikusten | Egoera horrek hornitzaile-faktura baten prozesatze-egoera adierazten du. Hornitzailearen faktura-linea batek, gutxienez, en ari-tza **egiaztatzeko egoera du**. | Baieztatuta, Itxaron |
-| Berretsita | Egoera hori hornitzaile-faktura baten etapa da, eta aplikazioak kostuen datu errealak sortu ditu hornitzailearen faktura-linea bakoitzerako. Hornitzaileen fakturen lerroekin bat egin zuten kostuen benetako datu guztiak itzuli eta ordeztu egin dira hornitzaileen faktura-linea horien benetako kostuekin. Hornitzailearen faktura bat ezin da editatu, ezta ezabatu ere. Cancelar **botoia erabil** dezakezu baieztatutako hornitzailearen faktura bat ezeztatzeko. Cancelar ekintzak Confirmar ekintzaren eragina iraultzen du. | Utzi da |
-| Zain | <p>Egoera hori hornitzailearen faktura baten etapa bat da, non hornitzailearen faktura ezin den mugitu, fakturarekin edo hornitzailearen egoerarekin izandako arazo baten ondorioz. Hornitzailearen faktura bat ezin da baieztatu, ezeztatu, editatu edo ezabatu.</p><p>Hornitzailearen faktura Estatu Borrador **edo** Berrikustean **mugitzeko** erabili dezakezu berriro irekitzea. Hornitzailearen fakturaren linea batek, gutxienez, enkaera edo osatutze-egoera **badu**, hornitzailearen faktura berriz irekiko da berrikuspen-egoeran **·**.**·** Hornitzailearen fakturaren linea guztiek hasi gabeko egiaztapen-egoera **badute, hornitzailearen faktura berriro irekiko da Borrador** estatuan **.**</p> | Zirriborroa, Berrikustean |
-| Utzi da | Egoera horrek azpikontratatu baten etapa irudikatzen du, non ez den beharrezkoa materialak eta / edo azpikontratatutako baliabideengatik egindako lana benetako entregatzea. Egoera horretan azpikontratu bat ezin da erabili baliabide eta materialen proiektuaren baldintzak zenbatetsi eta hornitzeko, eta ezin da aipatu proiektu batean materialen denbora, gastuak eta erabilera. Estatu honetako azpikontratu bat ezin da editatu, ezta ezabatu ere. | Batere ez |
+| Zirriborroak | Egoera hori saltzaileen faktura baten hasierako egoera da. Lerroak eta prezioak alda daitezke. Egoera honetan saltzaileen faktura bat editatu eta ezaba daiteke. | Prozesuan |
+| Berrikusten | Egoera honek saltzaileen faktura baten prozesatzeko egoera adierazten du. Gutxienez saltzaileen faktura-lerro batek egiaztapen-egoera du **Abian**. | Berretsita, zain |
+| Berretsita | Egoera honek hornitzaileen faktura baten fasea adierazten du, non aplikazioak kostu errealak sortu dituen saltzaileen faktura-lerro bakoitzeko. Saltzaileen faktura-lerroekin bat etortzen diren estekatutako kostu errealak alderantzikatu dira eta hornitzaileen faktura-lerro horietako kostu errealekin ordeztu dira. Egoera honetan dagoen hornitzaile-faktura bat ezin da editatu edo ezabatu. Erabili dezakezu **Utzi** botoia berretsitako saltzaile-faktura bertan behera uzteko. Utzi ekintzak Berretsi ekintzaren eragina alderantzikatzen du. | Utzi da |
+| Zain | <p>Egoera honek hornitzaile-faktura baten fase bat adierazten du, non saltzaile-faktura mugitu ezin den fakturarekin edo saltzailearen egoerarekin arazo bat dagoelako. Egoera honetan dagoen hornitzaile-faktura bat ezin da berretsi, ezeztatu, editatu edo ezabatu.</p><p>Berriro ireki ekintza erabil dezakezu hornitzailearen faktura eramateko **Zirriborroa** edo **Berrikuspenean** Estatu. Saltzaileen fakturako gutxienez lerro batek egiaztapen-egoera badu **Abian** edo **Osatu**, saltzaileen faktura berriro irekiko da **Berrikuspenean** Estatu. Saltzaileen fakturako lerro guztiek egiaztapen-egoera badute **Ez da hasi**, saltzaileen faktura berriro irekiko da **Zirriborroa** Estatu.</p> | Zirriborroa, Berrikuspenean |
+| Utzi da | Egoera honek azpikontratu baten fasea adierazten du, non jada beharrezkoa ez den materialak eta/edo lanak azpikontratatutako baliabideen bidez entregatzea. Egoera honetan dagoen azpikontratu bat ezin da erabili baliabide eta materialen proiektuen eskakizunak estimatzeko eta pertsonalizatzeko, eta, gainera, ezin da erreferentzia egin proiektu batean denbora, gastu eta materialaren erabilera. Egoera honetan dagoen azpikontratua ezin da editatu edo ezabatu. | Batere ez |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

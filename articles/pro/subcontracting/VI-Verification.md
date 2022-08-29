@@ -1,21 +1,19 @@
 ---
 title: Saltzailearen fakturen egiaztapena onartutako benetako datuekin
-description: Artikulu honek Microsoft-ek nola egiten duen azaltzen du Dynamics 365 Project Operations ditzagun proiektu-zuzendariek egiazta ditzagun saltzaileen fakturak kontratistak lana egin eta denbora erregistratu ahala onartutako benetakoekin eta proiektuko taldekideek erabili zituzten gastu eta materialekin.
+description: Artikulu honek Microsoft-ek nola egiten duen azaltzen du Dynamics 365 Project Operations ditzagun proiektu-zuzendariek egiazta ditzagun hornitzaileen fakturak kontratistak lana egin eta denbora erregistratu ahala onartu ziren benetakoekin, eta proiektuko taldekideek erabili zituzten gastu eta materialekin.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7bf48dd17063daece5df3ce44c0375eec3dc3cae
-ms.sourcegitcommit: 49c2a668b8d7bf0acb9e9b0bb44687e6d3dcaa8c
+ms.openlocfilehash: ab9f69e36aa58bfe3a2f8e3455db66b6bceea968
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9204159"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261731"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Saltzailearen fakturen egiaztapena onartutako benetako datuekin
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
@@ -46,7 +44,7 @@ Egiaztapen-egoera duten saltzaileen faktura-lerroak **Osatu** jada ezin da edita
 Kostu errealak parekatzeak saltzaileen faktura-lerro batean egiaztatze-prozesuan laguntzen du. Kostu errealak saltzaileen faktura-lerro batekin lotzeko, jarraitu urrats hauek.
 
 1. Ireki hornitzailearen faktura-lerroa eta hautatu **Kostu errealak paregabeak** fitxa. Sare batek saltzaileen faktura-lerroaren azpikontratazio-lerro bera aipatzen duten kostu errealen zerrenda erakusten du.
-2. Hautatu kostu errealetako bat edo gehiago, eta, ondoren, hautatu **Partidua** sarearen gaineko tresna-barran. Sistemak balioztatzen du hautatutako kostu errealak parekatu daitezkeela. Balioztatzea gainditu ondoren, kostu errealak saltzaileen faktura-lerroarekin lotzen dira.
+2. Hautatu kostu errealetako bat edo gehiago, eta hautatu **Partidua** sarearen gaineko tresna-barran. Sistemak balioztatzen du hautatutako kostu errealak parekatu daitezkeela. Balioztatzea gainditu ondoren, kostu errealak saltzaileen faktura-lerroarekin lotzen dira.
 
 ### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Kostu errealak saltzaileen faktura-lerroekin lotzeko erabiltzen diren baliozkotze-irizpideak
 

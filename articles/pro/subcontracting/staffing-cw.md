@@ -1,56 +1,54 @@
 ---
 title: Proiektu bat kontratudun langileekin eta azpikontratatutako ahalmenarekin hornitzea
-description: Artikulu honetan azaltzen da nola hornitu daitezkeen proiektuko baldintzak, kontratatutako langileen edo Microsoften azpikontratatutako gaitasunaren bidez Dynamics 365 Project Operations.
+description: Artikulu honek Microsoft-en lan-kontratuko langileak edo azpikontratatutako gaitasuna erabiliz proiektuaren eskakizunak nola bete daitezkeen azaltzen du Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 173e1c20d2d046ee2120ec178e51d4868b70847d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922069"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261239"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Proiektu bat kontratudun langileekin eta azpikontratatutako ahalmenarekin hornitzea
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Proiektuko lantaldeko kide generikoak enplegatuak edo kontratatutako langileak izan daitezke. Kontratatutako langileak dituen proiektu bati langileak ematean, azpikontratazio-lerro bati esleituta dauden langile kontratatu espezifikoei mugatu ahal izango dizkie langileak hornitzeko aukerak. 
+Proiektu-talde orokorreko kideak langileekin edo lan-kontratuko langileekin egon daitezke. Proiektu bat lan-kontratuko langileekin hornitzean, zure langile-aukerak muga ditzakezu azpikontratu-lerro batera esleitutako lan-kontratuko langile espezifikoetara. 
 
-## <a name="search-for-staff-resource-requirements-with-contract-workers-that-belong-to-a-specific-subcontract-line"></a>Azpikontratu espezifikoko linea bateko langile kontratatuak dituzten langileen baliabideen betekizunak bilatzea
+## <a name="search-for-staff-resource-requirements-with-contract-workers-that-belong-to-a-specific-subcontract-line"></a>Azpikontratazio-lerro zehatz bateko langile-kontratudunekin langile-baliabideen eskakizunak bilatu
 
-Azpikontratu espezifikoko linea bateko langile kontratatuak dituzten langileen baliabideen baldintzak eta baldintzak bilatzeko, jarraitu pauso hauek:
+Azpikontratazio-lerro zehatz bateko langile kontratudunekin langile-baliabideen eskakizunak bilatzeko eta bilatzeko, jarraitu urrats hauek:
 
-1. Proiektuko lantaldeko kide generiko bat sortzen du, azpikontratu bat eta azpikontratu-lerro bat aipatuko duena.
-2. Proiektuko taldeko kide generiko honentzat baliabide-betekizun bat sortzen du **, proiektuko taldeko kideen azpi-kuadrikulan baldintza** sortzea botoiaren bidez.
-3. Aukeratu taldeko kideen ilara eta, ondoren, **aukeratu erreserba-botoia** azpi-kuadrikulan. 
-4. Horrek programazio taula irekitzen du, baldintza-testuinguruarekin. Beste atributu batzuekin batera, hala nola data-eremuekin, rolekin eta antolaketa-unitateekin, programazio-batzordearen iragazkiak automatikoki betetzen dira baliabide-betekizunaren hornitzaile-lerro-eremuekin, azpikontratuarekin eta azpikontratuarekin.
-5. Sistemak iragazki-irizpideak betetzen dituzten eta zerrendatzen dituzten baliabideak bilatzen ditu. 
-6. Hautatu iragaztutako baliabideetako bat eta gorde ezazu baldintzarako baliabidea. 
-7. Proiektu-taldeko kide bat sortu eta eguneratzen da, azpikontratu eta azpikontratoen lerroen erreferentziekin. Zoaz proiektuaren estimazioetara **eta** aukeratu **prezioak** eguneratzea, baliabideen esleipenaren kostu eguneratua ikusteko. 
-
-> [!NOTE]
-> Proiektuko taldeko kidea azpikontratu-lerroaren eta azpikontratuaren erreferentzia batekin eguneratzea ez da beti posible izango erreserban, baldin eta baliabidea azpikontrato-lerro batzuei esleitzen bazaio. Sistemak ezin badu proiektuko taldeko kidea eguneratu azpikontratu eta azpikontrato lerro batekin, ireki proiektuko taldeko kideen erregistroa, eta eremu horiek eskuz eguneratu, finantza-kostuaren zenbatespenak azpikontratistaren kostua zehaztasunez isla dezan.
-
-## <a name="search-for-and-staff-resource-requirements-with-any-contract-worker"></a>Kontratatutako edozein langilerekin langile-baliabideak bilatzea eta baldintzak
-
-Kontratatutako edozein langilerekin langile-baliabideak bilatzeko eta baldintzak betetzeko, jarraitu pauso hauek:
-
-1. Proiektuaren taldeko kide generiko bat sortzen du.
-2. Proiektuko taldeko kide generiko honentzat baliabide-betekizun bat sortzen du **, proiektuko taldeko kideen azpi-kuadrikulan baldintza** sortzea botoiaren bidez.
-3. Aukeratu taldeko kideen ilara eta, ondoren, **aukeratu erreserba-botoia** azpi-kuadrikulan. 
-4. Horrek programazio taula irekitzen du, baldintza-testuinguruarekin. Beste atributu batzuekin batera, hala nola data-eremuekin, rolekin eta antolaketa-unitateekin, programazio-batzordearen iragazkiak automatikoki betetzen dira baliabide-betekizunaren hornitzaile-lerro-eremuekin, azpikontratuarekin eta azpikontratuarekin. Betekizunak azpikontrato-lerroaren edo azpikontratu betearen inolako baliorik ez zuenez, atributu horiek hutsik egongo dira iragazki-panelean.
-5. Sistemak iragazki-irizpideak betetzen dituzten eta zerrendatzen dituzten baliabideak bilatzen ditu.
-6. Langile motaren **alorra** eguneratu langile kontratatuen **filtro-panelean,** kontratatutako langileen bilaketa mugatzeko. **Hornitzaileak** iragazki-panelean eguneratu, bilaketa mugatzen duen hornitzaile bat aukeratzeko, enpresa hornitzaile espezifiko bateko langile kontratatuak bakarrik agintzeko.
-7. Zerrendako langile kontratatu bat hautatu eta gorde betekizunerako errekurtsoa.
-8. Proiektuaren taldeko kide bat sortzen da. Hala ere, proiektuko lantaldeko kidea ez azpikontratoarekin edo azpikontrato-lerro batekin eguneratuta, eta, beraz, baliabideen esleipena ez da kalkulatuko azpikontratuaren prezioak erabiliz. Eguneratu proiektuko taldeko kidea azpikontratu-lerro batekin eta proiektuaren estimazioetara **joan** eta **prezioak** eguneratu, baliabideen esleipenaren kostu eguneratua ikusteko.
+1. Sortu proiektu-taldekide generiko bat, azpikontratu eta azpikontratu lerro bati erreferentzia egiten diona.
+2. Sortu baliabide-eskakizuna proiektuko taldekide generiko honentzat **Sortu eskakizuna** proiektuko taldekideen azpi-sareko botoia.
+3. Hautatu taldekideen errenkada eta, ondoren, hautatu **Liburua** azpi-sareko botoia. 
+4. Honek Ordutegi-taula irekitzen du eskakizunen testuinguruarekin. Beste atributu batzuekin batera, hala nola, datak, rola eta antolakuntza-unitate-eremuak, Programazio-taularen iragazkiak automatikoki betetzen dira baliabide-eskakizuneko hornitzaile, azpikontratu eta azpikontratazio lerro-eremuekin.
+5. Sistemak iragazki-irizpideak betetzen dituzten baliabideak bilatzen ditu eta zerrendatzen ditu. 
+6. Aukeratu iragazitako baliabideetako bat eta erreserbatu baliabidea eskakizunerako. 
+7. Proiektuko taldekide bat sortu eta eguneratzen da azpikontratazio eta azpikontratu lerroen erreferentziekin. Joan **Proiektuaren kalkuluak** eta hautatu **Eguneratu prezioak** baliabideen esleipenaren kostu eguneratua ikusteko. 
 
 > [!NOTE]
-> Proiektuko taldeko kideek langile mota kontratatuta **dute**, baina ez dute azpikontrato **erreferentziarik, eta proiektuko** taldeko kideen **laukian ez dute balio**.**·** Proiektu-taldeko kideren bat baldin badago estatu horrekin, ireki proiektu-taldeko kideen erregistroa, eta eskuz eguneratu azpikontratoko eta azpikontratoko lerro-eremuak, finantza-kostuen zenbatespenak zehaztasunez isla dezan azpikontratistak betilean **duen** kostua. 
+> Proiektuko taldeko kidea azpikontratu eta azpikontratu lerroaren erreferentzia batekin eguneratzea baliteke beti ez izatea posible erreserba egiterakoan baliabidea azpikontratu lerro anitzetan esleituta badago. Sistemak ezin badu eguneratu proiektu-taldekidea azpikontratazio eta azpikontratazio-lerro batekin, ireki proiektuaren taldeko kideen erregistroa eta eguneratu eskuz eremu hauek, finantza-kostuen estimazioak azpikontratistaren kostua zehatz-mehatz isla dezan.
+
+## <a name="search-for-and-staff-resource-requirements-with-any-contract-worker"></a>Bilatu eta langile-baliabide-eskakizunak edozein lan-kontratuko langileekin
+
+Edozein lan-kontratuko langileekin langile-baliabide-eskakizunak bilatzeko eta bilatzeko, jarraitu urrats hauek:
+
+1. Sortu proiektuko taldekide generiko bat.
+2. Sortu baliabide-eskakizuna proiektuko taldekide generiko honentzat **Sortu eskakizuna** proiektuko taldekideen azpi-sareko botoia.
+3. Hautatu taldekideen errenkada eta, ondoren, hautatu **Liburua** azpi-sareko botoia. 
+4. Honek Ordutegi-taula irekitzen du eskakizunen testuinguruarekin. Beste atributu batzuekin batera, hala nola, datak, rola eta antolakuntza-unitate-eremuak, Programazio-taularen iragazkiak automatikoki betetzen dira baliabide-eskakizuneko hornitzaile, azpikontratu eta azpikontratazio lerro-eremuekin. Eskakizunak ez zuelako azpikontratazio edo azpikontratazio lerroko baliorik bete, atributu hauek hutsik egongo dira iragazkien panelean.
+5. Sistemak iragazki-irizpideak betetzen dituzten baliabideak bilatzen ditu eta zerrendatzen ditu.
+6. Eguneratu **Langile mota** iragazki-paneleko eremua **Lan-kontratuko langilea** bilaketa lan-kontratuko langileei mugatzeko. Eguneratu **Saltzailea** iragazkien panelean, hornitzaile bat hautatzeko bilaketa mugatzeko, hornitzaile-enpresa zehatz bateko lan-kontratuko langileak soilik erakusteko.
+7. Hautatu lan-kontratuko langile bat zerrendatik eta erreserbatu eskakizunerako baliabidea.
+8. Proiektuko taldekide bat sortzen da. Hala ere, proiektuko taldeko kidea ez dago azpikontratu edo azpikontratazio lerro batekin eguneratzen eta, beraz, baliabideen esleipena ez da kostua izango azpikontratuaren prezioa erabiliz. Eskuz eguneratu proiektuko taldeko kidea azpikontratu lerro batekin eta joan hona **Proiektuaren kalkuluak** eta hautatu **Eguneratu prezioak** baliabideen esleipenaren kostu eguneratua ikusteko.
+
+> [!NOTE]
+> Duten proiektuko taldekideak **Langile mota** gisa **Lan-kontratuko langilea** baina ez dute azpikontratu erreferentziarik bezala markatzen dira **Baliogabea** gainean **Proiektuko taldekideak** sareta. Egoera hori duen proiektu-taldekideren bat baldin badago, ireki proiektu-taldearen erregistroa eta eguneratu eskuz azpikontratazio eta azpikontratazio-lerroen eremuak, finantza-kostuen estimazioak azpikontratistaren kostua zehatz-mehatz isla dezan.**Estimazioak** fitxa. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
