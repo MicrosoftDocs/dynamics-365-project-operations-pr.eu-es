@@ -1,45 +1,85 @@
 ---
-title: Ebatzi proiektu-aurreikuspenen eta benetako datuen kostuaren prezioak
-description: Artikulu honek proiektuaren estimazioen eta benetakoen kostuen prezioak nola ebazten diren buruzko informazioa eskaintzen du.
+title: Proiektuaren estimazioen eta benetakoen kostu-tasak zehaztea
+description: Artikulu honek proiektuaren estimazioen eta benetakoen kostu-tasak nola zehazten diren buruzko informazioa eskaintzen du.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917515"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410082"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Ebatzi proiektu-aurreikuspenen eta benetako datuen kostuaren prezioak 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Proiektuaren estimazioen eta benetakoen kostu-tasak zehaztea
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Kostuen prezioak eta kostuen prezioen zerrenda kalkulatzeko eta benetako datuak ebazteko, sistemak informazioa erabiltzen du **Data**, **Moneta** eta **Kontratazio unitatea** lotutako proiektuaren eremuak. Kostuen prezioen zerrenda ebatzi ondoren, aplikazioak kostuen tasa ebazten du.
+Kostu-prezioen zerrenda eta kostu-tasak estimazio eta benetako testuinguruetan zehazteko, sistemak informazioa erabiltzen du **Data**, **·**, eta **Kontratazio Unitatea** lotutako proiektuaren eremuak.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Benetako kostuen tasak ebaztea eta denborarako kalkulatutako lerroak
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Kostu-tasak zehaztea denborarako zenbatespen eta benetako testuinguruetan
 
-Denboraren zenbatespen lerroek proiektu bateko denbora eta baliabideak esleitzeko aurrekontuaren eta kontratuaren lerroaren xehetasunak aipatzen dituzte.
+Estimatu testuingurua **Denbora** aipatzen du:
 
-Kostuen prezioen zerrenda ebatzi ondoren, **Funtzioa** eta **Baliabideen unitatea** denbora kalkulatzeko lerroaren eremuak prezioen zerrendako rol prezioen lerroekin parekatzen dira. Bat-etortze honen arabera, lan kostuaren prezio estandarreko neurriak erabiltzen ari zarela suposatzen da. Bat etortzeko sistemaren eremuak konfiguratu badituzu edo ez horren ordez **Rola** eta **Baliabideen unitatea**, orduan hori da bat datorren rolaren prezio lerroa berreskuratzeko erabiliko den konbinazioa. Aplikazioak kostuaren tasa duen rola prezio lerro bat aurkitzen badu **Rola** eta **Baliabideen unitatea** konbinazioa, kostuaren tasa lehenetsia da. Aplikazioa ezin bada **Rola** eta **Baliabideen unitatea** balioak, ondoren, rolen prezioen lerroak berreskuratzen ditu bat datozen rolekin baina balio baliogabeak **Baliabideen unitatea**. Egokitutako rolen prezioen erregistroa izan ondoren, kostu-tasa erregistro horretatik lehenetsita dago. 
+- Aipatu lerroaren xehetasunak **Denbora**.
+- Kontratuaren lerroaren xehetasunak **Denbora**.
+- Proiektu bateko baliabideak esleitzea.
+
+Benetako testuingurua **Denbora** aipatzen du:
+
+- Sarrera eta Zuzenketa aldizkarirako lerroak **Denbora**.
+- Denbora-sarrera bat bidaltzean sortzen diren aldizkari-lerroak.
+
+Kostu-prezioen zerrenda zehaztu ondoren, sistemak urrats hauek beteko ditu kostu-tasa lehenetsia sartzeko.
+
+1. Sistemaren konbinazioarekin bat dator **Rola** eta **Baliabideen Unitatea** estimazioko edo benetako testuinguruko eremuak **Denbora** prezioen zerrendako rol-prezio-lerroen aurka. Bat-etortze honek suposatzen du eskulanaren kosturako prezioen dimentsio estandarrak erabiltzen ari zarela. Sistema konfiguratu baduzu, ez diren edo harekin batera dauden eremuekin bat etortzeko **Rola** eta **Baliabideen Unitatea**, beste konbinazio bat erabiltzen da bat datorren rolaren prezio-lerroa berreskuratzeko.
+1. Sistemak kostu-tasa duen rol-prezio-lerroa aurkitzen badu **Rola** eta **Baliabideen Unitatea** konbinazioa, kostu-tasa hori kostu-tasa lehenetsi gisa erabiltzen da.
+1. Sistemak ezin badu bat etorri **Rola** eta **Baliabideen Unitatea** balioak, balioak bat datozen rol-prezio lerroak berreskuratzen ditu **Rola** eremua baina balio nuluak **Baliabideen Unitatea** eremua. Sistemak bat datorren rolaren prezio-erregistroa izan ondoren, erregistro horretako kostu-tasa erabiliko da kostu-tasa lehenetsi gisa.
 
 > [!NOTE]
-> Lehenespen desberdina konfiguratu baduzu **Rola** eta **Baliabideen unitatea**, edo lehentasun handiagoa duten beste dimentsio batzuk badituzu, portaera horren arabera aldatuko da. Sistemak rolen prezioen erregistroak berreskuratzen ditu prezioen dimentsioen balio bakoitzarekin bat datozen balioekin lehentasunen arabera ordenatuta azken dimentsioetarako balio baliorik gabeko errenkadekin.
+> Beste lehentasun bat konfiguratzen baduzu **Rola** eta **Baliabideen Unitatea** eremuak, edo lehentasun handiagoa duten beste dimentsio batzuk badituzu, aurreko portaera horren arabera aldatuko da. Sistemak lehentasun-ordenaren arabera prezio-dimentsio-balio bakoitzarekin bat datozen balioak dituzten rol-prezioaren erregistroak berreskuratzen ditu. Dimentsio horietarako balio nuluak dituzten errenkadak azkenak dira.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Benetako kostuen tasak ebaztea eta Gastuaren kalkulatutako lerroak
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Gastuen benetako eta zenbatespen-lerroen kostu-tasak zehaztea
 
-Gastuaren zenbatespen lerroek proiektu bateko proiektu bateko gastuak eta aurreikusitako gastuen lerroaren eskaintzaren eta kontratuaren lerroko xehetasunak.
+Estimatu testuingurua **Gastua** aipatzen du:
 
-Kostuen prezioen zerrenda ebatzi ondoren, sistemak konbinazio bat erabiltzen du **Kategoria** eta **Unitatea** gastua kalkulatzeko lerroaren eremuak **Kategoriaren prezioa** prezioen zerrendako lerroak. Sistemak kostu tasa duen kategoriako prezio lerro bat aurkitzen badu **Kategoria** eta **Unitatea** eremuen konbinazioa, kostu tasa lehenetsita dago. Sistema ez badator bat **Kategoria** eta **Unitatea** balioekin, edo bat datorren kategoria prezio lerro bat aurkitzeko gai bada, baina prezioen metodoa ez da **Unitateko prezioa**, kostuaren tasa zero (0) lehenetsita dago.
+- Aipatu lerroaren xehetasunak **Gastua**.
+- Kontratuaren lerroaren xehetasunak **Gastua**.
+- Proiektu baten gastuen kalkuluak.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Materialen kostu tasak ebaztea eta materialaren estimazio lerroak
+Benetako testuingurua **Gastua** aipatzen du:
 
-Materialaren zenbatespen lerroek materialen aurrekontuaren eta kontratuaren lerroaren xehetasunak eta proiektu bateko materialen estimazio lerroak aipatzen dituzte.
+- Sarrera eta Zuzenketa aldizkarirako lerroak **Gastua**.
+- Gastu-sarrera bat bidaltzean sortzen diren aldizkari-lerroak.
 
-Kostuen prezioen zerrenda ebatzi ondoren, sistemak konbinazio bat erabiltzen du **Produktua** eta **Unitatea** kalkulu-lerroaren eremuak kalkulu materialarekin bat etortzeko **Prezioen zerrendako elementuak** prezioen zerrendako lerroak. Sistemak kostu tasa duen produktuaren prezio lerroa aurkitzen badu **Produktua** eta **Unitatea** eremuen konbinazioa, kostu tasa lehenetsita dago. Sistema ezin bada **Produktua** eta **Unitatea** balioak edo bat datorren prezioen zerrendako elementu lerro bat aurkitzeko gai bada, baina prezioen metodoa kostu estandarrean edo kostu arruntean oinarritzen da eta produktuan ez dago zehaztuta, kostu unitarioa zero da lehenetsita.
+Kostu-prezioen zerrenda zehaztu ondoren, sistemak urrats hauek beteko ditu kostu-tasa lehenetsia sartzeko.
 
+1. Sistemaren konbinazioarekin bat dator **Kategoria** eta **Unitatea** estimazioko edo benetako testuinguruko eremuak **Gastua** prezioen zerrendako kategoriako prezio-lerroen aurka.
+1. Sistemak kostu-tasa duen kategoriako prezio-lerro bat aurkitzen badu **Kategoria** eta **Unitatea** konbinazioa, kostu-tasa hori kostu-tasa lehenetsi gisa erabiltzen da.
+1. Sistemak ezin badu bat etorri **Kategoria** eta **Unitatea** balioak, prezioa ezarrita dago **0** (zero) lehenespenez.
+1. Estimazioaren testuinguruan, sistemak bat datorren kategoriako prezio-lerroa aurki dezake, baina prezioen metodoa beste zerbait da **Prezioa Unitateko**, kostu-tasa ezarrita dago **0** (zero) lehenespenez.
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Materialaren benetako eta zenbatespen-lerroen kostu-tasak zehaztea
+
+Estimatu testuingurua **Materiala** aipatzen du:
+
+- Aipatu lerroaren xehetasunak **Materiala**.
+- Kontratuaren lerroaren xehetasunak **Materiala**.
+- Proiektu baten estimazio materialak.
+
+Benetako testuingurua **Materiala** aipatzen du:
+
+- Sarrera eta Zuzenketa aldizkarirako lerroak **Materiala**.
+- Materialaren erabileraren erregistroa bidaltzean sortzen diren aldizkari-lerroak.
+
+Kostu-prezioen zerrenda zehaztu ondoren, sistemak urrats hauek beteko ditu kostu-tasa lehenetsia sartzeko.
+
+1. Sistemak konbinazioa erabiltzen du **Produktua** eta **Unitatea** estimazioko edo benetako testuinguruko eremuak **Materiala** prezioen zerrendako elementuen lerroen aurka.
+1. Sistemak prezio-zerrendako elementu-lerro bat aurkitzen badu kostu-tasa duen **Produktua** eta **Unitatea** konbinazioa, kostu-tasa hori kostu-tasa lehenetsi gisa erabiltzen da.
+1. Sistemak ezin badu bat etorri **Produktua** eta **Unitatea** balioak, kostu unitarioa ezarrita dago **0** (zero) lehenespenez.
+1. Estimazioaren edo benetako testuinguruan, sistemak bat datorren prezio-zerrendako elementu-lerroa aurki badezake, baina prezioen metodoa ez bada **Moneta kopurua**, kostu unitarioa ezarrita dago **0** lehenetsiz. Portaera hau Project Operations-ek soilik onartzen duelako gertatzen da **Moneta kopurua** Proiektu batean erabiltzen diren materialen prezioen metodoa.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

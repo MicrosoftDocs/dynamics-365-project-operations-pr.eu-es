@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295863"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409920"
 ---
 # <a name="project-operations-updates"></a>Project Operations-en eguneratzeak
 
@@ -34,9 +34,9 @@ Dynamics 365 Project Operations bi osagai ditu:
 
 ## <a name="project-operations-latest-version"></a>Project Operations-en azken bertsioa
 
-| Project Operations Dataverse ingurunean | Proiektuen kudeaketa eta kontabilitatea finantza eta operazio aplikazioen inguruneetan | 
+| Project Operations Dataverse ingurunean | Proiektuen kudeaketa eta kontabilitatea finantza eta eragiketa aplikazioen inguruneetan | 
 | --- | --- |
-| 4.45.0.53 | 10.0.28 |
+| 4.45.0.53 | 10.0.29 |
 
 Project Operations Resource/hornituta ez dagoen agertokirako, idazketa bikoitzeko Orkestrazioaren 2.3.1.15 bertsioa edo handiagoa erabiltzea gomendatzen dugu.
 
@@ -47,26 +47,26 @@ Hilero eskuragarri daude Dataverse ingurumeneko Project Operations-en eguneratze
 | Geltokia | Eskualdea | Uneko bertsio-zenbakia | Lite inplementaziorako eguneratze automatikoak | Eguneratze automatikoak Baliabidea/hornitu gabeko inplementaziorako | Hurrengo bertsio-zenbakia | Hurrengo bertsioa orokorrean eskuragarri |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. geltokia |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Lehenengo oharra         |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko abuztuaren 26a       |
+|   &nbsp;  | Lehenengo oharra         |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 09a      |
 | 2. geltokia |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Hego Amerika         |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 02a       |
-|   &nbsp;  | Kanada                |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 02a       |
-|   &nbsp;  | India                 |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 02a       |
-|   &nbsp;  | Frantzia                |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 02a       |
-|   &nbsp;  | Hego Afrika          |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 02a       |
-|   &nbsp;  | Suitza           |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 02a       |
+|   &nbsp;  | Hego Amerika         |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 09a       |
+|   &nbsp;  | Kanada                |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 09a       |
+|   &nbsp;  | India                 |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 09a       |
+|   &nbsp;  | Frantzia                |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 09a       |
+|   &nbsp;  | Hego Afrika          |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 09a       |
+|   &nbsp;  | Suitza           |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 09a       |
 | 3. geltokia |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonia                 |  4.44.0.22      | Osoa      | Osoa       | 4.45.0.53                 | 2022ko abuztuaren 19a       |
-|   &nbsp;  | Asia Pazifikoa          |  4.44.0.22      | Osoa      | Osoa       | 4.45.0.53                 | 2022ko abuztuaren 19a       |
-|   &nbsp;  | Britainia Handia         |  4.44.0.22      | Osoa      | Osoa       | 4.45.0.53                 | 2022ko abuztuaren 19a       |
-|   &nbsp;  | Ozeania               |  4.44.0.22      | Osoa      | Osoa       | 4.45.0.53                 | 2022ko abuztuaren 19a       |
-|   &nbsp;  | Arabiar Emirerri Batuak  |  4.44.0.22      | Osoa      | Osoa       | 4.45.0.53                 | 2022ko abuztuaren 19a       |
+|   &nbsp;  | Japonia                 |  4.45.0.53      | Osoa      | Osoa       | TBD                 | 2022ko irailaren 09a       |
+|   &nbsp;  | Asia Pazifikoa          |  4.45.0.53      | Osoa      | Osoa       | TBD                 | 2022ko irailaren 09a       |
+|   &nbsp;  | Britainia Handia         |  4.45.0.53      | Osoa      | Osoa       | TBD                 | 2022ko irailaren 09a       |
+|   &nbsp;  | Ozeania               |  4.45.0.53      | Osoa      | Osoa       | TBD                 | 2022ko irailaren 09a       |
+|   &nbsp;  | Arabiar Emirerri Batuak  |  4.45.0.53      | Osoa      | Osoa       | TBD                 | 2022ko irailaren 09a       |
 | 4. geltokia |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.44.0.22      | Osoa           | Osoa            | 4.45.0.53           | 2022ko abuztuaren 26a       |
+|   &nbsp;  | Europa                |  4.45.0.53      | Osoa           | Osoa            | TBD           | 2022ko irailaren 16a       |
 | 5. geltokia |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ipar Amerika         |  4.44.0.22      | Osoa           | Osoa            | 4.45.0.53           | 2022ko irailaren 02a       |
+|   &nbsp;  | Ipar Amerika         |  4.45.0.53      | Osoa           | Osoa            | TBD           | 2022ko irailaren 16a       |
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Argitaratu egutegia Finantza eta eragiketa aplikazioen ingurunean Proiektuen kudeaketa eta kontabilitatea
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Askatu egutegia Finantza eta eragiketa aplikazioen ingurunean Proiektuen kudeaketa eta kontabilitatea
 
 Proiektuen kudeaketarako eta kontabilitateko eguneratzeak urtean zortzi aldiz argitaratzen dira.
 

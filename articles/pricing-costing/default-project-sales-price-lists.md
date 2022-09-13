@@ -2,16 +2,16 @@
 title: Prezio-zerrenda lehenetsiak
 description: Artikulu honek salmentei eta kostu-prezio-zerrendei buruzko informazioa eskaintzen du Project Operations-en.
 author: rumant
-ms.date: 10/13/2020
+ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
-ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
+ms.openlocfilehash: 50dbf74e31b9eb8d63c378e5fd718dc17c9691f4
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "9036396"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410247"
 ---
 # <a name="default-price-lists"></a>Prezio-zerrenda lehenetsiak
 
@@ -25,36 +25,54 @@ Dynamics 365 Project Operations-eko proiektuaren eskaintza eta kontratu bakoitza
 Sistemak prozesu hau burutzen du proiektuaren aurrekontuan lehenetsitako prezio zerrenda zehazteko:
 
 1. Sistemak kontuaren proiektuaren prezio zerrendetan erantsitako prezio zerrendak begiratzen ditu. 
-2. Kontuaren erregistroari proiektuaren prezio-zerrendarik ez badago, sistemak proiektuaren aurrekontuaren monetarekin bat datozen proiektu-parametroei atxikitako salmenta-prezio-zerrendak begiratzen ditu.
-3. Ondoren, sistemak proiektuaren aurrekontuaren data tartearekin bat datozen prezio zerrenden data eraginkortasuna egiaztatzen du. Zehazki, eskaintza sortu zen data.
-4. Proiektuaren aurrekontuaren datarako eraginkorrak diren prezioen zerrenda bat baino gehiago badira, prezioen zerrenda guztiak proiektuaren aurrekontuan lehenetsita daude.
-5. Proiektuaren aurrekontuaren datarako indarrean dagoen prezio zerrendarik ez badago, proiektuaren aurrekontuan ez dago lehenetsitako proiektuen zerrendarik. Abisu mezu bat agertuko da proiektuaren aurrekontuan. Mezuan esaten da proiektuaren prezioen zerrendarik ez dagoenez, zure proiektuaren eta kalkulatutako egiazko eta lanaren kostuak ez direla tasatuko.
+1. Kontuaren erregistroari proiektuaren prezio-zerrendarik ez badago, sistemak proiektuaren aurrekontuaren monetarekin bat datozen proiektu-parametroei atxikitako salmenta-prezio-zerrendak begiratzen ditu.
+1. Ondoren, sistemak proiektuaren aurrekontuaren data tartearekin bat datozen prezio zerrenden data eraginkortasuna egiaztatzen du. Zehazki, eskaintza sortu zen data.
+1. Proiektuaren aurrekontuaren datarako eraginkorrak diren prezioen zerrenda bat baino gehiago badira, prezioen zerrenda guztiak proiektuaren aurrekontuan lehenetsita daude.
+1. Proiektuaren aurrekontuaren datarako indarrean dagoen prezio zerrendarik ez badago, proiektuaren aurrekontuan ez dago lehenetsitako proiektuen zerrendarik. Abisu mezu bat agertuko da proiektuaren aurrekontuan. Mezuan esaten da proiektuaren prezioen zerrendarik ez dagoenez, zure proiektuaren eta kalkulatutako egiazko eta lanaren kostuak ez direla tasatuko.
 
 ### <a name="price-list-default-on-project-contracts"></a>Prezioen zerrenda lehenetsia proiektuaren kontratuetan 
 Sistemak prozesu hau burutzen du proiektuaren kontratuen lehenetsitako prezio zerrenda zehazteko:
 
 1. Kontratua aurrekontu batetik sortuz gero, aurrekontuaren proiektuaren prezioen zerrendak banan-banan kopiatzen dira eta proiektuaren kontratuari eransten zaizkio.
-2. Kontratua hutsetik sortzen bada, sistemak kontuko proiektuaren prezioen zerrendei atxikitako prezioen zerrendak begiratzen ditu. Kontuaren erregistroan proiektuen prezioen zerrendak badaude, sistemak proiektuaren kontratuaren monetarekin bat datozen proiektuaren parametroei atxikitako salmenta prezioen zerrendak begiratzen ditu.
-4. Ondoren, sistemak proiektuaren kontratuaren data tartearekin bat datozen prezio zerrenden data eraginkortasuna egiaztatzen du. Zehazki, kontratua sortu zen data.
-5. Kontratuaren datarako eraginkorrak diren prezioen zerrenda bat baino gehiago badira, prezioen zerrenda guztiak kontratuaren lehenetsita daude.
-6. Kontratuaren datarako indarrean dagoen prezio zerrendarik ez badago, kontratuaren ez dago lehenetsitako proiektuen zerrendarik. Abisu mezu bat agertuko da proiektuaren kontratuan. Mezuan esaten da proiektuaren prezioen zerrendarik ez dagoenez, zure proiektuaren eta kalkulatutako egiazko eta lanaren kostuak ez direla tasatuko.
+1. Kontratua hutsetik sortzen bada, sistemak kontuko proiektuaren prezioen zerrendei atxikitako prezioen zerrendak begiratzen ditu. Kontuaren erregistroan proiektuen prezioen zerrendak badaude, sistemak proiektuaren kontratuaren monetarekin bat datozen proiektuaren parametroei atxikitako salmenta prezioen zerrendak begiratzen ditu.
+1. Ondoren, sistemak proiektuaren kontratuaren data tartearekin bat datozen prezio zerrenden data eraginkortasuna egiaztatzen du. Zehazki, kontratua sortu zen data.
+1. Kontratuaren datarako eraginkorrak diren prezioen zerrenda bat baino gehiago badira, prezioen zerrenda guztiak kontratuaren lehenetsita daude.
+1. Kontratuaren datarako indarrean dagoen prezio zerrendarik ez badago, kontratuaren ez dago lehenetsitako proiektuen zerrendarik. Abisu mezu bat agertuko da proiektuaren kontratuan. Mezuan esaten da proiektuaren prezioen zerrendarik ez dagoenez, zure proiektuaren eta kalkulatutako egiazko eta lanaren kostuak ez direla tasatuko.
 
 ## <a name="cost-price-lists"></a>Kostuaren prezio-zerrendak
 
-Kostuen prezioen zerrendek ez dituzte lehenetsitako proiektuen eragiketetako entitateak. Proiektuaren kostuetarako erabili beharreko kostuen prezioen zerrenda zehazteko momentuan egiten da beti. Sistemak prozesu hau burutzen du proiektuaren kostuen lehenetsitako prezio zerrenda zehazteko:
+Kostuen prezioen zerrendek ez dituzte lehenetsitako proiektuen eragiketetako entitateak. Proiektuaren kostuetarako erabili beharreko kostuen prezioen zerrenda zehaztea beti egiten da transakzio bakoitzeko. Sistemak prozesu hau burutzen du proiektuaren kostuen lehenetsitako prezio zerrenda zehazteko:
 
-1. Sistemak proiektuaren kontratazio antolamendu unitateari atxikitako prezio zerrendak aztertzen ditu lehenik eta behin.
-2. Sistemak sarrerako estimazioaren edo benetako lerroaren datarekin bat datozen prezio zerrenden dataren eraginkortasuna aztertzen du. Egoera horretan, *kalkulatzeko lerroa* Project Operations-eko zenbatespenaren hiru testuinguruak aipatzen ditu:
+1. Sistemak proiektuaren kontratazio-antolamendu-unitateari atxikita dauden prezio-zerrendak aztertzen ditu.
+1. Ondoren, sistemak sarrerako zenbatespen-testuinguruaren edo benetako testuinguruaren datarekin bat datozen prezio-zerrenden data-eraginkortasuna aztertzen du.
 
-    - Proiektuaren aurreikuspen-lerroa
-    - Eskaintzaren lerroaren xehetasunak
-    - Kontratuaren lerroaren xehetasuna
-  
-3. Sarrerako estimazioan edo benetako egunean eraginkorrak diren prezio zerrenda bat baino gehiago badira, azkenaldian sortutako prezio zerrenda hautatuko da.
-4. Proiektuaren erakunde-unitatearen kontratuari proiektuen prezioen zerrendak badaude, sistemak proiektuaren aurrekontuaren monetarekin bat datozen proiektuaren parametroei atxikitako salmenta prezioen zerrendak begiratzen ditu.
-5. Hurrena, sistemak sarrerako estimazioaren edo benetako lerroaren datarekin bat datozen prezio zerrenden dataren eraginkortasuna aztertzen du. 
-6. Sarrerako estimazioan edo benetako egunean eraginkorrak diren prezio zerrenda bat baino gehiago badira, azkenaldian sortutako prezio zerrenda hautatuko da.
-7. Proiektuaren parametroei moneta eta efektibitate datarekin bat datozen kostu prezioen zerrendarik ez badago, sistemak kostu tasa zero (0) lehenetsiko du sarrerako estimazioan edo benetako lerroan.
+    - *Estimatu testuingurua* Proiektuen Eragiketetako estimazio-testuinguruetako edozein aipatzen du:
 
+        - Proiektuaren aurreikuspen-lerroa
+        - Eskaintzaren lerroaren xehetasunak
+        - Kontratuaren lerroaren xehetasuna
+
+    - *Benetako testuingurua* Proiektuaren Eragiketetako errealetarako hiru iturrietako edozein aipatzen du:
+
+       - Eskuz sortzen diren sarrera-egunkari-lerroak edo zuzenketa-egunkari batean sortzen diren zuzenketa-egunkari-lerroak
+       - Denbora, gastu edo material erabileraren erregistroak bidaltzean sortzen diren aldizkari-lerroak
+       - Fakturaren lerroaren xehetasunak
+
+    Proiektuaren Eragiketak sarrerako egunkari-lerroaren data-eraginkortasuna edo faktura-lerroaren xehetasunarekin bat datozenean *benetako testuingurua*, erabiltzen du **Transakzio data** eremua.
+
+    - Hainbat prezio-zerrenda eraginkorrak badira sarrerako zenbatespen-testuinguruaren edo benetako testuinguruaren datarako, azken prezio-zerrenda hautatuko da.
+    - Proiektuaren kontratazio-antolakuntza-unitateari prezio-zerrendarik erantsita ez badago, sistemak proiektuaren monetarekin bat datozen proiektu-parametroei atxikita dauden kostu-prezio-zerrendak aztertzen ditu.
+
+## <a name="enable-multi-currency-cost-price-list"></a>Gaitu moneta ugariko kostuaren prezio-zerrenda
+
+Ezarpen hau helbidean aurki daiteke **Ezarpenak** \> **Parametroak**. Balio lehenetsia **Ez** da.
+
+Ezarpen hau gaituta dagoenean (hau da, balioa ezarrita dago **Bai**), sistemak honela jokatzen du:
+
+- Kostu prezioen zerrendak edozein monetatan antolakuntza-unitatearekin lotzea ahalbidetzen du. Esaterako, kostu-prezioen zerrenda bat USD monetan erants daiteke antolakuntza-unitate bati. Sistemak baliozkotzen jarraituko du antolakuntza-unitate bati atxikitako kostu-prezio-zerrendek ez dutela data-eraginkortasun gainjarririk.
+- Proiektuaren parametroei erantsitako kostu-prezio-zerrendek ez dutela data-eraginkortasun gainjarririk, moneta desberdinak izan arren. Portaera hau lehenetsitako portaeratik desberdina da (hau da, portaera balioa ezarrita dagoenean **Ez**). Portaera lehenetsian, kostu-prezioen zerrendak bakarrik daukaten **bera** moneta balioztatuta dago gainjartzen ez den dataren eragingarritasunerako.
+- Sarrerako transakzio-testuinguru baterako, kostu-prezioen zerrenda zehazten du data-eraginkortasunean soilik oinarrituta. Portaera hau lehenetsitako portaeratik desberdina da, non sistemak proiektuaren moneta eta data-eraginkortasunarekin bat datorren kostu-prezio zerrenda hautatzen baitu.
+
+Portaera aldaketa hauek direla eta, Project Operations bezeroek kostu-prezioen zerrenda global bat mantendu ahal izango dute, enpresa osoarentzat garrantzitsua izango dena. Ez dute prezio-zerrendarik izan beharko operazio-moneta bakoitzean. Prezio-zerrenda globalak data-eraginkortasuna izango du eta kostu-tasak edozein monetan ezartzea ahalbidetuko du prezioen dimentsio-balioen konbinazio zehatz baterako. Kostu prezioen zerrendako moneta balio lehenetsiak sartzeko soilik erabiltzen da **Rolen prezioak**, **prezioak**, eta **Prezioen zerrenda** elementuen erregistroak sortzen dira. Ez da erabiliko prezioen zerrenda zehazteko.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
