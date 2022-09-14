@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Kopiatu proiektuko eskaintzak
               href: sales/lose-quote.md
+            - name: Aktibatu eta berrikusi proiektuaren eskaintza
+              href: sales/activation-and-revision.md
             - name: Itxi proiektuaren eskaintzak
               href: sales/win-quote.md
         - name: Kudeatu proiektuaren kontratuak
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Sortu faktura-antolaketak proiektuetan oinarritutako kontratuaren lerroetan
                   href: sales/invoice-schedules-contract-line.md
+            - name: Kopiatu proiektuetan oinarritutako kontratuak
+              href: sales/copy-project-based-contracts-sales.md
             - name: Berretsi proiektu-kontratua
               href: pro/sales/confirm-contract-sales.md
             - name: Aurrerakinak eta aurrerapenak
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Gainidatzi proiektuaren salmenten prezio-zerrendak
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Ebatzi aurreikuspenen eta benetako datuen kostuaren prezioak
+            - name: Erabaki aurreikuspenen eta benetako datuen kostuaren prezioak
               href: pricing-costing/cost-price-resolution.md
-            - name: Ebatzi aurreikuspenen eta benetako datuen salmentak
+            - name: Erabaki aurreikuspenen eta benetako datuen salmentak
               href: pricing-costing/sales-price-resolution.md
             - name: Kopiatu prezio-zerrendak
               href: pricing-costing/copy-price-lists.md
@@ -766,9 +770,11 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Kopiatu proiektuetan oinarritutako eskaintzak
               href: sales/lose-quote.md
+            - name: Aktibatu eta berrikusi proiektuaren eskaintza
+              href: sales/activation-and-revision.md
             - name: Itxi proiektuetan oinarritutako eskaintzak
               href: pro/sales/win-quote-sales.md
-        - name: Kudeatu proiektuetan oinarritutako kontraktuak
+        - name: Kudeatu proiektuetan oinarritutako kontratuak
           items:
             - name: Proiektuetan oinarritutako kontratuen ikuspegi orokorra
               href: pro/sales/manage-contracts-sales.md
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Gainidatzi proiektuaren salmenten prezio-zerrendak
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Ebatzi proiektu-aurreikuspenen eta benetako datuen kostuaren prezioak
+            - name: Erabaki proiektu-aurreikuspenen eta benetako datuen kostuaren prezioak
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Ebatzi proiektu-aurreikuspenen eta benetako datuen salmenta-prezioak
+            - name: Erabaki proiektu-aurreikuspenen eta benetako datuen salmenta-prezioak
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Kopiatu prezio-zerrendak
               href: pricing-costing/copy-price-lists.md
