@@ -1,68 +1,95 @@
 ---
-title: Ebatzi aurreikuspenen eta benetako datuen salmentak
-description: Artikulu honek zenbatespen eta benetako salmenta-tasak ebazteko informazioa eskaintzen du.
+title: Zehaztu proiektuetan oinarritutako estimazioen eta benetakoen salmenta-prezioak
+description: Artikulu honek proiektuetan oinarritutako estimazioen eta errealen salmenta-prezioak nola zehazten diren buruzko informazioa eskaintzen du.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0b95c651983230cbf340f2c06089a287b2c8a10
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911811"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475354"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Ebatzi aurreikuspenen eta benetako datuen salmentak
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Zehaztu proiektuetan oinarritutako estimazioen eta benetakoen salmenta-prezioak
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Aurrekontuen eta benetako salmenten prezioak urtean ebazten direnean Dynamics 365 Project Operations-en, sistemak lehenengo proiektuaren edo kontratuaren data eta moneta erabiltzen ditu salmenta prezioen zerrenda konpontzeko. Salmenta prezioen zerrenda ebatzi ondoren, sistemak salmenten edo fakturen tasa ebazten du.
+Microsoft-en estimazioetan eta egiazkoetan salmenta-prezioak zehazteko Dynamics 365 Project Operations, sistemak data eta moneta erabiltzen ditu sarrerako estimazioan edo benetako testuinguruan salmenta prezioen zerrenda zehazteko. Benetako testuinguruan zehazki, sistemak erabiltzen du **Transakzio data** eremua zein prezio-zerrenda aplikagarria den zehazteko. The **Transakzio data** Sarrerako estimazioaren edo benetakoaren balioa rekin alderatzen da **Hasiera eraginkorra (Ordu-eremuaren independentea)** eta **Amaiera eraginkorra (Ordu-eremuaren independentea)** prezioen zerrendako balioak. Salmenten prezioen zerrenda zehaztu ondoren, sistemak salmenta edo faktura-tasa zehazten du.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Ebatzi benetako salmenten tasak eta denborarako kalkulatutako lerroak
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Denborarako benetako eta zenbatespen-lerroen salmenta-tasak zehaztea
 
-Project Operations-en, denbora kalkulatzeko lerroak erabiltzen dira aurrekontuaren lerroa eta kontratuaren lerroaren xehetasunak eta proiektuaren baliabideen esleipenak adierazteko.
+Estimatu testuingurua **Denbora** aipatzen du:
 
-Salmenten prezio zerrenda ebatzi ondoren, sistemak urrats hauek betetzen ditu faktura tasa lehenesteko.
+- Aipatu lerroaren xehetasunak **Denbora**.
+- Kontratuaren lerroaren xehetasunak **Denbora**.
+- Proiektu bateko baliabideak esleitzea.
 
-1. Sistemak **Rola**, **Baliabideen enpresa** eta **Baliabideen unitatea** denbora kalkulatzeko lerroaren eremuak, ebatzitako prezio zerrendako rol prezioen lerroekin bat etortzeko. Partida honek suposatzen du kutxaz kanpoko prezioen neurriak erabiltzen dituzula fakturazio-tasetarako. Prezioak beste edozein eremutan oinarrituta konfiguratu badituzu edo ez horren ordez **Rola**, **Baliabideen enpresa** eta **Baliabideen unitatea**, orduan hori da bat datorren rolaren prezio lerroa berreskuratzeko erabiliko den konbinazioa.
-2. Sistemak fakturazio tasa duen rola prezio lerro bat aurkitzen badu **Rola**, **Baliabideen enpresa** eta **Baliabideen uitatea** eremuen konbinazioa, faktura tasa lehenetsita dago.
-3. Sistema ezin bada **Rola**, **Baliabideen enpresa** eta **Baliabideen unitatea** eremuko balioak, ondoren, rolen prezioen lerroak berreskuratzen ditu bat datozen rolekin baina balio baliogabeak **Baliabideen unitatea**. Sistemak bat datorren rolaren prezioen erregistroa aurkitu ondoren, faktura-tasa lehenetsiko du erregistro horretatik. Bat etortze honek kutxaz kanpoko konfigurazioa suposatzen du **Rola** vs **Baliabideen Unitatea** salmenten prezioen dimentsio gisa.
+Benetako testuingurua **Denbora** aipatzen du:
+
+- Sarrera eta Zuzenketa aldizkarirako lerroak **Denbora**.
+- Denbora-sarrera bat bidaltzean sortzen diren aldizkari-lerroak.
+- Faktura-lerroaren xehetasunak **Denbora**. 
+
+Salmentetarako prezioen zerrenda zehaztu ondoren, sistemak hurrengo urratsak betetzen ditu faktura-tasa lehenetsia sartzeko.
+
+1. Sistemaren konbinazioarekin bat dator **Rola**, **Enpresa**, eta **Baliabideen Unitatea** estimazioko edo benetako testuinguruko eremuak **Denbora** prezioen zerrendako rol-prezio-lerroen aurka. Bat-etortze honek suposatzen du fakturazio-tasetarako kutxaz kanpoko prezio-dimentsioak erabiltzen ari zarela. Prezioak konfiguratu badituzu, hauez gain edo beste eremu batzuetan oinarrituta egon dadin **Rola**, **Enpresa**, eta **Baliabideen Unitatea**, eremuen konbinazio hori bat datorren rolaren prezio-lerroa berreskuratzeko erabiltzen da.
+1. Sistemak faktura-tasa duen rol-prezio-lerro bat aurkitzen badu **Rola**, **Enpresa**, eta **Baliabideen Unitatea** konbinazioa, faktura-tasa hori faktura-tasa lehenetsi gisa erabiltzen da.
 
 > [!NOTE]
-> -Ren lehenespen desberdina konfiguratu baduzu **Rola**, **Baliabideen enpresa** eta **Baliabideen unitatea**, edo lehentasun handiagoa duten beste dimentsio batzuk badituzu, portaera horren arabera aldatuko da. Sistemak rolen prezioen erregistroak berreskuratzen ditu prezioen dimentsioen balio bakoitzarekin bat datozen balioekin lehentasunen arabera ordenatuta azken dimentsioetarako balio baliorik gabeko errenkadekin.
+> Beste lehentasun bat konfiguratzen baduzu **Rola**, **Enpresa**, eta **Baliabideen Unitatea** eremuak, edo lehentasun handiagoa duten beste dimentsio batzuk badituzu, aurreko portaera horren arabera aldatuko da. Sistemak lehentasun-ordenaren arabera prezio-dimentsio-balio bakoitzarekin bat datozen balioak dituzten rol-prezioaren erregistroak berreskuratzen ditu. Dimentsio horietarako balio nuluak dituzten errenkadak azkenak dira.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Ebatzi benetako salmenten tasak eta gastuetarako kalkulatutako lerroak
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Gastuen benetako eta zenbatespen-lerroen salmenta-tasak zehaztea
 
-Project Operations-en, gastua kalkulatzeko lerroak erabiltzen dira kontratuaren lerroa eta kontratuaren gastuak baliabideen esleipenak adierazteko.
+Estimatu testuingurua **Gastua** aipatzen du:
 
-Salmenten prezio zerrenda ebatzi ondoren, sistemak urrats hauek betetzen ditu unitateen salmenta-prezioa lehenesteko.
+- Aipatu lerroaren xehetasunak **Gastua**.
+- Kontratuaren lerroaren xehetasunak **Gastua**.
+- Proiektu bateko gastuen kalkulu-lerroak.
 
-1. Sistemak **Kategoria** eta **Unitatea** eremuen konbinazioa erabiltzen du kategoriaren prezio-lerroekin bat datorren gastua kalkulatzeko ebatzitako prezio-zerrendan.
-2. Sistemak salmenta-tasa duen kategoriako prezio lerro bat aurkitzen badu **Kategoria** eta **Unitatea** eremuen konbinazioa, salmenta-tasa lehenetsita dago.
-3. Sistemak bat datorren kategoriako prezio lerroa aurkitzen badu, prezioen metodoa erabil daiteke salmenta prezioa lehenesteko. Beheko taulan, proiektuaren eragiketetan gastuen prezioen betebeharrak agertzen dira.
+Benetako testuingurua **Gastua** aipatzen du:
 
-    | Testuingurua | Prezio-metodoa | Prezio lehenetsia |
+- Sarrera eta Zuzenketa aldizkarirako lerroak **Gastua**.
+- Gastu-sarrera bat bidaltzean sortzen diren aldizkari-lerroak.
+- Faktura-lerroaren xehetasunak **Gastua**. 
+
+Salmentetarako prezioen zerrenda zehaztu ondoren, sistemak urrats hauek betetzen ditu salmenten prezio lehenetsia sartzeko.
+
+1. Sistemaren konbinazioarekin bat dator **Kategoria** eta **Unitatea** kalkuluen lerroko eremuak **Gastua** prezioen zerrendako kategoriako prezio-lerroen aurka.
+1. Sistemak salmenta-tasa duen kategoriako prezio-lerro bat aurkitzen badu **Kategoria** eta **Unitatea** konbinazioa, salmenta-tasa hori salmenta-tasa lehenetsi gisa erabiltzen da.
+1. Sistemak bat datorren kategoriako prezio-lerro bat aurkitzen badu, baliteke prezioen metodoa erabil daiteke salmenta-prezio lehenetsia sartzeko. Ondorengo taulak proiektuen eragiketetako gastuen prezioen lehenetsitako portaera erakusten du.
+
+    | Testuingurua | Prezio-metodoa | Lehenetsitako prezioa |
     | --- | --- | --- |
-    | Aurreikuspena | Prezioa unitate bakoitzeko | Kategoriaren prezio lerroan oinarrituta |
-    | &nbsp; | Kostuan | 0.00 |
-    | &nbsp; | Markaketa kostuaren gainetik | 0.00 |
-    | Unekoa" | Prezioa unitate bakoitzeko | Kategoriaren prezio lerroan oinarrituta |
-    | &nbsp; | Kostuan | Lotutako kostu errealean oinarrituta |
-    | &nbsp; | Markaketa kostuaren gainetik | Kategoria prezioen lerroak lotutako kostu errealaren unitateko kostuaren tasan markatutako marka aplikatuz |
+    | Aurreikuspena | Prezioa unitate bakoitzeko | Kategoriaren prezio-lerroan oinarrituta. |
+    |        | Kostuan | 0.00 |
+    |        | Markaketa kostuaren gainetik | 0.00 |
+    | Unekoa" | Prezioa unitate bakoitzeko | Kategoriaren prezio-lerroan oinarrituta. |
+    |        | Kostuan | Lotutako kostu errealean oinarrituta. |
+    |        | Markaketa kostuaren gainetik | Markatu bat aplikatzen zaio, kategoriako prezio-lerroaren arabera, erlazionatutako kostu errealaren unitate-kostu-tasari. |
 
-4. Sistema ezin bada **Kategoria** eta **Unitatea** eremuko balioak, salmenten tasa zero (0) lehenetsita dago.
+1. Sistemak ezin badu bat etorri **Kategoria** eta **Unitatea** balioak, salmenta-tasa ezarrita dago **0** (zero) lehenespenez.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Ebatzi materialen salmenta-tasak eta materialaren estimazio lerroak
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Materialaren benetako eta zenbatespen-lerroen salmenta-tasak zehaztea
 
-Project Operations-en, materialaren zenbatespen lerroak erabiltzen dira materialen eskaintzaren lerroaren eta kontratuaren lerroaren xehetasunak eta proiektu bateko materialen estimazio lerroak aipatzen dituzte.
+Estimatu testuingurua **Materiala** aipatzen du:
 
-Salmenten prezio zerrenda ebatzi ondoren, sistemak urrats hauek betetzen ditu unitateen salmenta-prezioa lehenesteko.
+- Aipatu lerroaren xehetasunak **Materiala**.
+- Kontratuaren lerroaren xehetasunak **Materiala**.
+- Proiektu baten materialaren estimazio-lerroak.
 
-1. Sistemak **Produktua** eta **Unitatea** material konbinazioa kalkulatutako lerroan ebatzi zen prezio zerrendako elementuen lerroekin bat etortzeko.
-2. Sistemak salmenta tasa duen prezioen zerrendako elementu lerro bat aurkitzen badu **Produktua** eta **Unitatea** eremuen konbinazioa eta prezioen metodoa da **Moneta zenbatekoa**, prezioen zerrendan zehaztutako salmenta-prezioa erabiltzen da.
-3. **Produktua** eta **Unitatea** eremuen balioak bat ez badatoz, salmenta-tasa zero da lehenetsita.
+Benetako testuingurua **Materiala** aipatzen du:
 
+- Sarrera eta Zuzenketa aldizkarirako lerroak **Materiala**.
+- Materialaren erabileraren erregistroa bidaltzean sortzen diren aldizkari-lerroak.
+- Faktura-lerroaren xehetasunak **Materiala**. 
 
+Salmentetarako prezioen zerrenda zehaztu ondoren, sistemak urrats hauek betetzen ditu salmenten prezio lehenetsia sartzeko.
+
+1. Sistemaren konbinazioarekin bat dator **Produktua** eta **Unitatea** kalkuluen lerroko eremuak **Materiala** prezioen zerrendako elementuen lerroen aurka.
+1. Sistemak prezioen zerrendako elementu-lerro bat aurkitzen badu salmenta-tasa duen **Produktua** eta **Unitatea** konbinazioa, eta prezioen metodoa bada **Dibisaren zenbatekoa**, prezioen zerrendako lerroan zehazten den salmenta prezioa erabiltzen da. 
+1. bada **Produktua** eta **Unitatea** eremuen balioak ez datoz bat, edo prezioen metodoa beste zerbait bada **Moneta kopurua**, salmenta-tasa ezarrita dago **0** (zero) lehenespenez. Portaera hau Project Operations-ek soilik onartzen duelako gertatzen da **Dibisaren zenbatekoa** Proiektu batean erabiltzen diren materialen prezioen metodoa.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

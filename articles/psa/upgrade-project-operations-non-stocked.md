@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230207"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446020"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Berritu Project Service Automation-etik Project Operations-era
 
@@ -29,7 +29,7 @@ Pozik gaude berritzeko hiru faseetako lehena iragartzeko Microsoft Dynamics 365 
 
 Berrikuntza emateko programa hiru fasetan banatuko da.
 
-| Berritu entrega | 1. fasea (2022ko urtarrila) | 2. fasea (2022ko apirileko olatua) | 3. fasea  |
+| Berritu entrega | 1. fasea (2022ko urtarrila) | 2. fasea (2022ko azaroa) | 3. fasea (2023ko apirileko olatua)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Proiektuen lanaren banaketa egituraren (WBS) menpekotasunik ez | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS gaur egun onartzen diren proiektuen eragiketen mugen barruan | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,9 +39,9 @@ Berrikuntza emateko programa hiru fasetan banatuko da.
 
 Bertsio-prozesuaren zati gisa, eguneratze-erregistroak gehitu ditugu guneko mapan, administratzaileek hutsegiteak errazago diagnostikatu ditzaten. Interfaze berriaz gain, baliozkotze-arau berriak gehituko dira eguneratze baten ondoren datuen osotasuna bermatzeko. Berritze-prozesuari ondorengo balioztapenak gehituko zaizkio.
 
-| Balioztatzeak | 1. fasea (2022ko urtarrila) | 2. fasea (2022ko apirileko olatua) | 3. fasea  |
+| Balioztatzeak | 1. fasea (2022ko urtarrila) | 2. fasea (2022ko azaroa) | 3. fasea  |
 |-------------|------------------------|---------------------------|---------------------------|
-| WBS datuen osotasun-hauste arrunten aurrean balioztatuko da (adibidez, zeregin nagusi berdinarekin lotutako baina proiektu nagusi desberdinak dituzten baliabide-esleipenak). | | :heavy_check_mark: | :heavy_check_mark: |
+| WBS datuen osotasun-hauste arrunten aurrean baliozkotuko da (adibidez, guraso-ataza berari lotuta dauden baina proiektu nagusi desberdinak dituzten baliabide-esleipenak). | | :heavy_check_mark: | :heavy_check_mark: |
 | WBS-ren aurka baliozkotuko da [Weberako Project-en muga ezagunak](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
 | WBS proiektuaren mahaigaineko bezeroaren mug ezagunekin balioztatuko da. | |  | :heavy_check_mark: |
 | Erreserba daitezkeen baliabideak eta proiektuen egutegiak egutegi-arau bateraezin arrunten salbuespenen arabera ebaluatuko dira. | | :heavy_check_mark: | :heavy_check_mark: |
@@ -73,8 +73,8 @@ Hona hemen konturatu beharreko gauza batzuk:
 
 - Baliteke inportazioak huts egitea, mendekotasunak falta direlako. Beste era batera esanda, pertsonalizazioen erreferentzia-eremuak edo beste osagai batzuk Proiektu Eragiketetan ezabatu diren. Kasu honetan, kendu mendekotasun horiek garapen ingurunetik.
 - Kudeatu gabeko eta kudeatutako soluzioek pertsonalizatu gabeko osagaiak badituzte, kendu osagai horiek soluziotik. Adibidez, pertsonalizatzen duzunean **Proiektua** entitatea, gehitu entitatearen goiburua soilik zure soluzioari. Ez gehitu eremu guztiak. Aurretik azpiosagai guztiak gehitu badituzu, baliteke eskuz irtenbide berri bat sortu eta osagai garrantzitsuak gehitu behar izatea.
-- Baliteke inprimakiak eta ikuspegiak espero bezala ez agertzea. Zenbait kasutan, kutxaz kanpoko inprimaki edo ikuspegiren bat pertsonalizatu baduzu, baliteke pertsonalizazioek Project Operations-en eguneratze berriak indarrean jartzea eragotzi. Arazo hauek identifikatzeko, gomendatzen dugu Project Operations instalazio garbi baten eta zure pertsonalizazioak barne hartzen dituen Project Operations instalazio baten berrikuspena egitea. Konparatu zure negozioan gehien erabiltzen diren inprimakiak, inprimakiaren bertsioak oraindik zentzua duela eta inprimakiaren bertsio garbian ezer falta ez dela ziurtatzeko. Egin elkarren ondoan berrikuspen mota bera pertsonalizatu dituzun ikuspegietarako.
-- Negozio-logikak huts egin dezake exekuzioan. Zure plug-inetako eremuen erreferentziak ez direlako balioztatu inportatzeko unean, negozio-logikak huts egin dezake jada existitzen ez diren eremuen erreferentziak direla eta, eta baliteke adibide honen antza duen errore-mezu bat jasotzea: "'Proiektua' entitateak ez du Name = 'msdyn_plannedhours' eta NameMapping = 'Logikoa' duten atributurik." Kasu honetan, aldatu zure pertsonalizazioak eremu berriak erabil ditzaten. Automatikoki sortutako proxy-klaseak eta mota sendoko erreferentziak erabiltzen badituzu zure plug-in-logikan, kontuan hartu proxy horiek instalazio garbi batetik birsortzea. Modu honetan, zure pluginak zaharkitutako eremuen mende dauden leku guztiak erraz identifikatu ditzakezu.
+- Baliteke inprimakiak eta ikuspegiak espero bezala ez agertzea. Zenbait kasutan, kutxaz kanpoko inprimaki edo ikuspegiren bat pertsonalizatu baduzu, baliteke pertsonalizazioek Project Operations-en eguneratze berriak indarrean jartzea eragotzi. Arazo hauek identifikatzeko, Project Operations-en instalazio garbi baten eta zure pertsonalizazioak barne hartzen dituen Project Operations instalazio baten alboan-albo berrikustea gomendatzen dizugu. Konparatu zure negozioan gehien erabiltzen diren inprimakiak, inprimakiaren bertsioak oraindik zentzua duela eta inprimakiaren bertsio garbian ezer falta ez dela ziurtatzeko. Egin elkarren ondoan berrikuspen mota bera pertsonalizatu dituzun ikuspegietarako.
+- Negozio-logikak huts egin dezake exekuzioan. Zure plug-inetako eremuen erreferentziak ez direlako balioztatu inportatzeko unean, baliteke negozio-logikak huts egitea jada existitzen ez diren eremuen erreferentziak direla eta, eta baliteke adibide honen antzeko errore-mezu bat jasotzea: "'Proiektua' entitateak ez du Name = 'msdyn_plannedhours' eta NameMapping = 'Logikoa' duten atributurik." Kasu honetan, aldatu zure pertsonalizazioak eremu berriak erabil ditzaten. Automatikoki sortutako proxy-klaseak eta mota sendoko erreferentziak erabiltzen badituzu zure plug-in-logikan, kontuan hartu proxy horiek instalazio garbi batetik birsortzea. Modu honetan, zure pluginak zaharkitutako eremuen mende dauden leku guztiak erraz identifikatu ditzakezu.
 
 Proiektuaren Eragiketak garbi inportatzeko pertsonalizazioak eguneratu ondoren, joan hurrengo urratsetara.
 
@@ -90,10 +90,10 @@ Proiektuaren Eragiketak garbi inportatzeko pertsonalizazioak eguneratu ondoren, 
     > [!NOTE]
     > Inguruko datu-kopuruaren arabera, eguneratzeak hainbat ordu behar izan ditzake. Bertsio-berritzea kudeatzen ari den oinarrizko taldeak horren arabera planifikatu eta berritzea exekutatu beharko luke negozio-orduetan. Zenbait kasutan, datu-bolumena handia bada, eguneratzea asteburuan zehar exekutatu beharko litzateke. Programazioari buruzko erabakia ingurune baxuetan egindako proben emaitzetan oinarritu behar da.
 
-3. Berritu irtenbide pertsonalizatuak egoki den moduan. Une honetan, zabaldu zure pertsonalizazioetan egin dituzun aldaketak [Pertsonalizazioak probatu eta birfactorizatzea](#testing-and-refactoring-customizations) artikulu honen atala.
+3. Berritu irtenbide pertsonalizatuak egoki den moduan. Une honetan, zabaldu zure pertsonalizazioetan egin dituzun aldaketak [Pertsonalizazioak probatzea eta birfactorizazioa](#testing-and-refactoring-customizations) artikulu honen atala.
 4. Joan **Ezarpenak** \> **Irtenbideak**, eta hautatu desinstalatzeko **Proiektuaren Eragiketak Osagai zaharkituak** irtenbidea.
 
-    Irtenbide hau aldi baterako irtenbide bat da, eguneratzean dauden datu-eredua eta osagaiak gordetzen dituena. Irtenbide hau kenduz gero, erabiltzen ez diren eremu eta osagai guztiak kenduko dituzu. Horrela, interfazea errazten eta integrazioa eta hedapena errazten lagunduko duzu.
+    Irtenbide hau eguneratzean dauden datu-eredua eta osagaiak gordetzen dituen aldi baterako irtenbidea da. Irtenbide hau kenduz gero, erabiltzen ez diren eremu eta osagai guztiak kenduko dituzu. Horrela, interfazea errazten eta integrazioa eta hedapena errazten lagunduko duzu.
     
 ### <a name="validate-common-scenarios"></a>Baliozkotu ohiko eszenatokiak
 
@@ -112,9 +112,9 @@ Project Operations-en proiektuak planifikatzeko gaitasunak jada ez dira bezeroar
 Proiektuen Eragiketetan etengabeko inbertsioen barruan, hainbat gaitasun berri daude eskuragarri Fakturazioan eta prezioetan. Hona hemen zenbait adibideak:
 
 - [Proiektuetan eta proiektuetako zereginetan materialaren erabilera erregistratzea](../material/material-usage-log.md)
-- [Azpikontratazio kudeaketa](../pro/subcontracting/managing-subcontracts-overview.md)
+- [Azpikontratuen kudeaketa](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Aurrerakinak eta atxikipenetan oinarritutako kontratuak](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
-- [Kontratuaren egoera eta balioztapenak gainditzekoak](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
+- [Kontratuaren egoera ez gainditzeko eta baliozkotzeak](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Zereginen araberako fakturazioa
 
 ## <a name="frequently-asked-questions"></a>Ohiko galderak
@@ -133,8 +133,8 @@ Proiektuen Eragiketetan etengabeko inbertsioen barruan, hainbat gaitasun berri d
 
 Bi aukera daude Project Operations instalatzeko, bertsio berritzeko tresna erabilgarri egon aurretik:
 
-- Ingurune berri bat eskaintzea.
+- Ingurune berri bat hornitzea.
 - Inplementatu Project Operations bereizita Project Service Automation ez dagoen edozein salmenta-erakundetan.
 
 > [!NOTE]
-> Project Service Automation erakunde batean instalatuta badago, baina ez bada erabili, desinstalatu egin daiteke. Project Service Automation erabat kendu ondoren, Project Operations erakunde berean instalatu daiteke.
+> Project Service Automation erakunde batean instalatuta badago, baina erabili ez bada, desinstalatu egin daiteke. Project Service Automation erabat kendu ondoren, Project Operations erakunde berean instalatu daiteke.

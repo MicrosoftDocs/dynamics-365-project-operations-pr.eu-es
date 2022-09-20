@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Gainidatzi proiektuaren salmenten prezio-zerrendak
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Konfiguratu Indarrean sartzen den datak prezio-zerrenda bateko prezio jakin batzuk gainidaztea
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Erabaki aurreikuspenen eta benetako datuen kostuaren prezioak
               href: pricing-costing/cost-price-resolution.md
             - name: Erabaki aurreikuspenen eta benetako datuen salmentak
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Eskatu ondasunak eta zerbitzuak proiektuko erosketa-eskaerak erabiliz
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Azpikontratatuen saltzailearen fakturak Dataverse-n
+          items:
+            - name: Sortu saltzailearen fakturak
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Saltzailearen fakturen egiaztapena onartutako benetako datuekin
+              href: pro/subcontracting/VI-Verification.md
+            - name: Berretsi proiektuaren saltzailearen fakturak
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Saltzailearen atxikipena
           items:
             - name: Saltzailearen atxikipenaren ikuspegi orokorra
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Gainidatzi proiektuaren salmenten prezio-zerrendak
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Konfiguratu Indarrean sartzen den datak prezio-zerrenda bateko prezio jakin batzuk gainidaztea
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Erabaki proiektu-aurreikuspenen eta benetako datuen kostuaren prezioak
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Erabaki proiektu-aurreikuspenen eta benetako datuen salmenta-prezioak

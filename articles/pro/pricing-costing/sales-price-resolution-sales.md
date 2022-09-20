@@ -1,23 +1,23 @@
 ---
-title: Proiektuaren estimazioen eta benetakoen salmenta-prezioak zehaztu
+title: Erabaki proiektu-aurreikuspenen eta benetako datuen salmenta-prezioak
 description: Artikulu honek proiektuaren estimazioen eta benetakoen salmenta-prezioak nola zehazten diren buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410078"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475169"
 ---
-# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Proiektuaren estimazioen eta benetakoen salmenta-prezioak zehaztu
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Erabaki proiektu-aurreikuspenen eta benetako datuen salmenta-prezioak
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Microsoft-en estimazioetan eta egiazkoetan salmenta-prezioak zehazteko Dynamics 365 Project Operations, sistemak data eta moneta erabiltzen ditu sarrerako estimazioan edo benetako testuinguruan salmenta prezioen zerrenda zehazteko. Benetako testuinguruan zehazki, sistemak erabiltzen du **Transakzio data** eremua zein prezio-zerrenda aplikagarria den zehazteko. Salmenten prezioen zerrenda zehaztu ondoren, sistemak salmenta edo faktura-tasa zehazten du.
+Microsoft-en estimazioetan eta egiazkoetan salmenta-prezioak zehazteko Dynamics 365 Project Operations, sistemak data eta moneta erabiltzen ditu sarrerako estimazioan edo benetako testuinguruan salmenta prezioen zerrenda zehazteko. Benetako testuinguruan zehazki, sistemak erabiltzen du **Transakzio data** eremua zein prezio-zerrenda aplikagarria den zehazteko. The **Transakzio data** Sarrerako estimazioaren edo benetakoaren balioa rekin alderatzen da **Hasiera eraginkorra (Ordu-eremuaren independentea)** eta **Amaiera eraginkorra (Ordu-eremuaren independentea)** prezioen zerrendako balioak. Salmenten prezioen zerrenda zehaztu ondoren, sistemak salmenta edo faktura-tasa zehazten du.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Denborarako benetako eta zenbatespen-lerroen salmenta-tasak zehaztea
 
@@ -91,6 +91,6 @@ Salmentetarako prezioen zerrenda zehaztu ondoren, sistemak urrats hauek betetzen
 
 1. Sistemaren konbinazioarekin bat dator **Produktua** eta **Unitatea** kalkuluen lerroko eremuak **Materiala** prezioen zerrendako elementuen lerroen aurka.
 1. Sistemak prezioen zerrendako elementu-lerro bat aurkitzen badu salmenta-tasa duen **Produktua** eta **Unitatea** konbinazioa, eta prezioen metodoa bada **Dibisaren zenbatekoa**, prezioen zerrendako lerroan zehazten den salmenta prezioa erabiltzen da. 
-1. bada **Produktua** eta **Unitatea** eremuen balioak ez datoz bat, edo prezioen metodoa beste zerbait bada **Dibisaren zenbatekoa**, salmenta-tasa ezarrita dago **0** (zero) lehenespenez. Portaera hau Project Operations-ek soilik onartzen duelako gertatzen da **Moneta kopurua** Proiektu batean erabiltzen diren materialen prezioen metodoa.
+1. bada **Produktua** eta **Unitatea** eremuen balioak ez datoz bat, edo prezioen metodoa beste zerbait bada **Moneta kopurua**, salmenta-tasa ezarrita dago **0** (zero) lehenespenez. Portaera hau Project Operations-ek soilik onartzen duelako gertatzen da **Dibisaren zenbatekoa** Proiektu batean erabiltzen diren materialen prezioen metodoa.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
