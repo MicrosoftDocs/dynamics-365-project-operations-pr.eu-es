@@ -2,20 +2,20 @@
 title: Azpikontratuaren lerroak produktuen arabera
 description: Artikulu honek produktuen azpikontratazio-lerroak nola erregistratu eta saltzaileen produktuen erosketak erregistratzeko hainbat eremu erabili azaltzen du.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262090"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522827"
 ---
 # <a name="subcontract-lines-for-products"></a>Azpikontratuaren lerroak produktuen arabera
 
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 Urtean azpikontrata Dynamics 365 Project Operations produktuentzako azpikontratazio lerro bat izan dezake. Lerro hauei esker, proiektuaren kudeatzaile batek produktuen erosketa egin dezake saltzaileei, proiektuko zereginetan erabili ahal izateko.
 

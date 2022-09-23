@@ -2,20 +2,20 @@
 title: Azpikontratuaren lerroak denboraren arabera
 description: Artikulu honek denboraren azpikontratazio lerroak nola erregistratu eta saltzaileei denbora erostea nola erregistratu azaltzen du.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261947"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522216"
 ---
 # <a name="subcontract-lines-for-time"></a>Azpikontratuaren lerroak denboraren arabera
 
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 Urtean azpikontrata Dynamics 365 Project Operations denborarako azpikontratazio lerro bat izan dezake. Denboraz azpikontratatzeko lerroek proiektuaren kudeatzaileari saltzailearen baliabideen denbora erostea ahalbidetzen die proiektuaren zereginak eta baliabideen eskakizunak langileei.
 

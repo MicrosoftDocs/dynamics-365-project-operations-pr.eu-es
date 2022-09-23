@@ -2,16 +2,16 @@
 title: Project Operations-eko integrazio-aldizkaria
 description: Artikulu honek Project Operations-en Integration aldizkariarekin lan egiteari buruzko informazioa eskaintzen du.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106260"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541062"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations-eko integrazio-aldizkaria
 
@@ -43,7 +43,7 @@ Aldizkari-lerroak proiektuaren errealitatean oinarrituta sortzen dira. Ondorengo
     - Bada **Transakzio kategoria** ez dago benetako proiektuan ezarrita, sistemak balioa erabiltzen du **Proiektuaren kategoria lehenetsiak** eremuan **Proiektuaren Eragiketak Dynamics 365 Customer Engagement-en** fitxan **Proiektuen kudeaketa eta kontabilitate parametroak** orrialdea.
   - **Baliabidea** eremuak transakzio honekin lotutako proiektuaren baliabidea adierazten du. Baliabidea erreferentzia gisa erabiltzen da bezeroei proiektuen faktura proposamenetan.
   - The **Truke-tasa** eremuaren lehenespenez **Dibisaren truke-tasa** ezarri Dynamics 365 Finance. Truke tasaren konfigurazioa falta bada, **Inportatu eszenaratzetik** aldian aldiko prozesuak ez du erregistroa egunkari batean gehituko eta errore mezu bat gehituko da lanaren exekuzio erregistroan.
-  - **Linearen jabetza** eremuak proiektuaren fakturen fakturazio mota adierazten du. Lerroaren propietatea eta fakturazio-motaren mapak definitzen dira **Proiektuaren eragiketak Dynamics 365 Customer Engagement-en** fitxan **Proiektuen kudeaketa eta kontabilitate parametroak** orrialdea.
+  - **Linearen jabetza** eremuak proiektuaren fakturen fakturazio mota adierazten du. Lerroaren propietatea eta fakturazio motaren mapak definitzen dira **Proiektuaren eragiketak Dynamics 365 Customer Engagement-en** fitxan **Proiektuen kudeaketa eta kontabilitate parametroak** orrialdea.
 
 Kontabilitate atributu hauek soilik egunera daitezke Project Operations bateratzeko egunkari lerroetan:
 
@@ -65,6 +65,12 @@ Argitalpena modu interaktiboan edo sorta batean egin daiteke. Kontuan izan 100 l
 > [!NOTE]
 > Gaitasun hori erabiltzeko, gaitu **Transferitu akatsak argitaratzen dituzten lerro guztiak Project Operations integrazio aldizkari berri batera** ezaugarria **Ezaugarrien kudeaketa** lan-eremua.
 
-Project Operations integrazio aldizkarian argitaratzean, sistemak aldizkariko lerro guztiak balioztatzen ditu. Sistemak akatsik ez duten lerro guztiak argitaratzen ditu eta aldizkari berri bat sortzen du bidalketa akatsak dituzten lerro guztientzat. Bidalitako errore-lerroak dituzten aldizkariak berrikusteko, joan hona **Proiektuen kudeaketa eta kontabilitatea** > **Aldizkariak** > **Project Operations integrazio aldizkaria**, eta iragazi aldizkariak erabiliz **Jatorrizko aldizkaria** eremua.
+Ezaugarri honek Project Operations integrazio aldizkariaren esperientzia hobetzen laguntzen du. Gaituta dagoenean, idazketa bikoitzeko denbora-arazoek eta konfigurazio-arazoek ez dute baliozko aldizkariak argitaratzea eragozten. Project Operations integrazio aldizkarian argitaratzean, sistemak aldizkariko lerro guztiak balioztatzen ditu. Akatsik ez duten lerro guztiak argitaratzen ditu eta aldizkari berri bat sortzen du bidalketa-akatsak dituzten lerro guztientzat.
+
+Bidalitako errore-lerroak dituzten aldizkariak berrikusteko, joan hona **Proiektuen kudeaketa eta kontabilitatea** \> **Aldizkariak** \> **Project Operations integrazio aldizkaria**, eta iragazi aldizkarien zerrenda erabiliz **Jatorrizko aldizkaria** eremua. Ondorengo ilustrazioak adibide bat erakusten du non aldizkariak **Project Operations integrazio aldizkaria** orria horrela iragazi da.
+
+![Jatorrizko aldizkaria Project Operations integrazio aldizkariaren orrian agertzen da.](./media/transferLines-originalJournal.png)
+
+Aldizkako sorta-lan bat integrazio aldizkaria bidaltzeko konfiguratuta badago, bidalketa berriro saiatuko da, eta aldizkariak argitaratuko dira denbora-arazoa konpondu bada. Gainerako aldizkariak eskuz ikertu behar dira erregistroak aztertuz eta beharrezko neurriak hartuz.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

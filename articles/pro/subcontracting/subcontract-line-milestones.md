@@ -2,20 +2,20 @@
 title: Azpikontratuaren lerroko mugarriak
 description: Artikulu honek saltzaile batekin azpikontratu baterako mugarrietan oinarritutako faktura-egutegia nola sortu eta nola mantendu azaltzen du.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261778"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522404"
 ---
 # <a name="subcontract-line-milestones"></a>Azpikontratuaren lerroko mugarriak
 
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 Urtean Dynamics 365 Project Operations, prezio finkoko fakturazio metodoarekin azpikontrata lerro batek mugarrian oinarritutako faktura programa zehaztu dezake saltzailearekin.
 

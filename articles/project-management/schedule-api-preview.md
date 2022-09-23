@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230300"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541109"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Erabili Proiektuak programatzeko APIak Planifikazio entitateekin eragiketak egiteko
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 
-
-## <a name="scheduling-entities"></a>Antolaketa-entitateak
+**Antolaketa-entitateak**
 
 Proiektuen programazio APIek eragiketak sortzeko, eguneratzeko eta ezabatzeko gaitasuna eskaintzen dute **Programazio entitateekin**. Entitate hauek Project for the Web-en antolaketa-motorearen bidez kudeatzen dira. Sortu, eguneratu eta ezabatu eragiketak honekin **Programazio entitateak** lehenago mugatu ziren Dynamics 365 Project Operations oharrak.
 
 Hurrengo taulan Proiektuaren programazio entitateen zerrenda osoa ematen da.
 
-| Entitatearen izena  | Entitatearen izen logikoa |
-| --- | --- |
-| Project | msdyn_project |
-| Proiektuaren zeregina  | msdyn_projecttask  |
-| Proiektuaren zereginen mendekotasuna  | msdyn_projecttaskdependency  |
-| Baliabide-esleipena | msdyn_resourceassignment |
-| Proiektuaren ontzia  | msdyn_projectbucket |
-| Proiektu-taldeko kidea | msdyn_projectteam |
+| **Entitatearen izena**         | **Entitatearen izen logikoa**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| Proiektuaren zeregina            | msdyn_projecttask           |
+| Proiektuaren zereginen mendekotasuna | msdyn_projecttaskdependency |
+| Baliabide-esleipena     | msdyn_resourceassignment    |
+| Proiektuaren ontzia          | msdyn_projectbucket         |
+| Proiektu-taldeko kidea     | msdyn_projectteam           |
+| Proiektuaren egiaztapen-zerrendak      | msdyn_projectchecklist      |
+| Proiektuaren etiketa           | msdyn_projectlabel          |
+| Proiektua Etiketatzeko zeregina   | msdyn_projecttasktolabel    |
+| Proiektu-iterazioa          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 OperationSet lan-unitate eredua da, eragiketen eskaerak eragiketen hainbat transakzio baten barruan prozesatu behar direnean erabil daitekeena.
 
-## <a name="project-schedule-apis"></a>Proiektuen antolaketa APIak
+**Proiektuen antolaketa APIak**
 
 Jarraian, proiektuaren antolaketaren APIen zerrenda dago.
 
-- **msdyn_CreateProjectV1**: API hau proiektu bat sortzeko erabil daiteke. Proiektua eta proiektu-ontzi lehenetsia berehala sortzen dira.
-- **msdyn_CreateTeamMemberV1**: API hau proiektuko taldekide bat sortzeko erabil daiteke. Taldekideen erregistroa berehala sortzen da.
-- **msdyn_CreateOperationSetV1**: API hau transakzio baten barruan egin behar diren hainbat eskaera antolatzeko erabil daiteke.
-- **msdyn_PssCreateV1** : API hau entitate bat sortzeko erabil daiteke. Erakundea sortzeko eragiketa onartzen duten Proiektuak antolatzeko entitateetako edozein izan daiteke.
-- **msdyn_PssUpdateV1** : API hau entitate bat eguneratzeko erabil daiteke. Erakundea eguneratzeko eragiketa onartzen duten Proiektuak antolatzeko entitateetako edozein izan daiteke.
-- **msdyn_PssDeleteV1** : API hau entitate bat ezabatzeko erabil daiteke. Erakundea ezabatzeko eragiketa onartzen duten Proiektuak antolatzeko entitateetako edozein izan daiteke.
-- **msdyn_ExecuteOperationSetV1** : API hau emandako eragiketa multzoaren barneko eragiketa guztiak exekutatzeko erabiltzen da.
+| **APIa**                                 | Deskribapenak                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | API hau proiektu bat sortzeko erabiltzen da. Proiektua eta proiektu-ontzi lehenetsia berehala sortzen dira.                         |
+| **msdyn_CreateTeamMemberV1**            | API hau proiektuko taldekide bat sortzeko erabiltzen da. Taldekideen erregistroa berehala sortzen da.                                  |
+| **msdyn_CreateOperationSetV1**          | API hau transakzio batean egin behar diren hainbat eskaera programatzeko erabiltzen da.                                        |
+| **msdyn_PssCreateV1**                   | API hau entitate bat sortzeko erabiltzen da. Erakundea sortzeko eragiketa onartzen duten Proiektuak antolatzeko entitateetako edozein izan daiteke. |
+| **msdyn_PssUpdateV1**                   | API hau entitate bat eguneratzeko erabiltzen da. Entitatea eguneratze eragiketa onartzen duen Proiektua antolatzeko entitateetako edozein izan daiteke  |
+| **msdyn_PssDeleteV1**                   | API hau entitate bat ezabatzeko erabiltzen da. Erakundea ezabatzeko eragiketa onartzen duten Proiektuak antolatzeko entitateetako edozein izan daiteke. |
+| **msdyn_ExecuteOperationSetV1**         | API hau emandako eragiketa multzoko eragiketa guztiak exekutatzeko erabiltzen da.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | API hau Baliabide-esleipenaren planifikatutako lan-inguru bat eguneratzeko erabiltzen da.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>ProjectSet programarekin APIak erabiltzea OperationSet-ekin
+
+
+**ProjectSet programarekin APIak erabiltzea OperationSet-ekin**
 
 Biekin grabatzen delako **CreateProjectV1** eta **CreateTeamMemberV1** berehala sortzen dira, API horiek ezin dira **OperationSet** zuzenean. Hala ere, APIa erabil dezakezu beharrezko erregistroak sortzeko **OperationSet**, eta ondoren erabili aurrez sortutako erregistro hauek **OperationSet**.
 
-## <a name="supported-operations"></a>Onartutako eragiketak
+**Onartutako eragiketak**
 
-| Antolaketa-entitatea | Sortu | Update | Ezabatu | Gogoeta garrantzitsuak |
-| --- | --- | --- | --- | --- |
-Proiektuaren zeregina | Yes | Yes | Yes | The **Aurrerapena**, **amaituta**, eta **AhaleginGeratzen** eremuak Weberako Project-en edita daitezke, baina ezin dira Editatu Project Operations-en.  |
-| Proiektuaren zereginen mendekotasuna | Yes |  | Yes | Proiektuaren zereginen mendekotasun erregistroak ez dira eguneratu. Horren ordez, erregistro zahar bat ezabatu daiteke, eta erregistro berri bat sor daiteke. |
-| Baliabide-esleipena | Yes | Yes | | Ez dira onartzen eremu hauek dituzten eragiketak: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** eta **PlannedWork**. Baliabideak esleitzeko erregistroak ez dira eguneratu. Horren ordez, erregistro zaharra ezabatu daiteke, eta erregistro berria sor daiteke. |
-| Proiektuaren ontzia | Yes | Yes | Yes | Kubo lehenetsia hau erabiliz sortzen da **SortuProiektuaV1** APIa. Proiektuen kuboak sortzeko eta ezabatzeko laguntza gehitu zen 16. bertsioan. |
-| Proiektu-taldeko kidea | Yes | Yes | Yes | Eragiketa sortzeko, erabili **CreateTeamMemberV1** APIa. |
-| Project | Yes | Yes |  | Ez dira onartzen eremu hauek dituzten eragiketak: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** eta **Duration**. |
+| **Antolaketa-entitatea**   | **Sortu** | **Eguneratzea** | **Ezabatu** | **Gogoeta garrantzitsuak**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Proiektuaren zeregina            | Yes        | Yes        | Yes        | The **Aurrerapena**, **amaituta**, eta **AhaleginGeratzen** eremuak Weberako Project-en edita daitezke, baina ezin dira Editatu Project Operations-en.                                                                                                                                                                                             |
+| Proiektuaren zereginen mendekotasuna | Yes        | No         | Yes        | Proiektuaren zereginen mendekotasun erregistroak ez dira eguneratu. Horren ordez, erregistro zahar bat ezabatu daiteke, eta erregistro berri bat sor daiteke.                                                                                                                                                                                                                                 |
+| Baliabide-esleipena     | Yes        | Bai\*      | Yes        | Ez dira onartzen eremu hauek dituzten eragiketak: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** eta **PlannedWork**. Baliabideak esleitzeko erregistroak ez dira eguneratu. Horren ordez, erregistro zaharra ezabatu daiteke, eta erregistro berria sor daiteke. Aparteko API bat eman da Baliabideen Esleipenaren sestrak eguneratzeko. |
+| Proiektuaren ontzia          | Yes        | Yes        | Yes        | Kubo lehenetsia hau erabiliz sortzen da **SortuProiektuaV1** APIa. Proiektuen kuboak sortzeko eta ezabatzeko laguntza gehitu zen 16. bertsioan.                                                                                                                                                                                                   |
+| Proiektu-taldeko kidea     | Yes        | Yes        | Yes        | Eragiketa sortzeko, erabili **CreateTeamMemberV1** APIa.                                                                                                                                                                                                                                                                                           |
+| Project                 | Yes        | Yes        |            | Ez dira onartzen eremu hauek dituzten eragiketak: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** eta **Duration**.                                                                                       |
+| Proiektuaren egiaztapen-zerrendak      | Yes        | Yes        | Yes        |                                                                                                                                                                                                                                                                                                                                                         |
+| Proiektuaren etiketa           | No         | Yes        | No         | Etiketen izenak alda daitezke. Ezaugarri hau Weberako Proiekturako soilik dago erabilgarri                                                                                                                                                                                                                                                                      |
+| Proiektua Etiketatzeko zeregina   | Yes        | No         | Yes        | Ezaugarri hau Weberako Proiekturako soilik dago erabilgarri                                                                                                                                                                                                                                                                                                  |
+| Proiektu-iterazioa          | Yes        | Yes        | Yes        | The **Hasi** eremuak data baino lehenagokoa izan behar du **Amaitu** eremua. Proiektu bererako esprintak ezin dira elkarren artean gainjarri. Ezaugarri hau Weberako Proiekturako soilik dago erabilgarri                                                                                                                                                                    |
 
-API hauek eremu pertsonalizatuak dituzten entitate objektuekin dei daitezke.
+
+
 
 Identifikazio propietatea aukerakoa da. Ematen bada, sistema erabiltzen saiatzen da eta salbuespen bat botatzen du ezin bada erabili. Ematen ez bada, sistemak sortuko du.
 
-## <a name="restricted-fields"></a>Eremu mugatuak
+**Mugak eta arazo ezagunak**
 
-Ondorengo taulek mugatutako eremuak definitzen dituzte **Sortu** eta **Editatu**.
-
-### <a name="project-task"></a>Proiektuaren zeregina
-
-| Izen logikoa                           | Sortu dezake     | Edita daiteke         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | No             | No               |
-| msdyn_actualcost_base                  | No             | No               |
-| msdyn_actualend                        | No             | No               |
-| msdyn_actualsales                      | No             | No               |
-| msdyn_actualsales_base                 | No             | No               |
-| msdyn_actualstart                      | No             | No               |
-| msdyn_costatcompleteestimate           | No             | No               |
-| msdyn_costatcompleteestimate_base      | No             | No               |
-| msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Ez (bai proiekturako)             | Ez (bai proiekturako)               |
-| msdyn_effortremaining                  | Ez (bai proiekturako)              | Ez (bai proiekturako)                |
-| msdyn_effortestimateatcomplete         | No             | No               |
-| msdyn_iscritical                       | No             | No               |
-| msdyn_iscriticalname                   | No             | No               |
-| msdyn_ismanual                         | No             | No               |
-| msdyn_ismanualname                     | No             | No               |
-| msdyn_ismilestone                      | No             | No               |
-| msdyn_ismilestonename                  | No             | No               |
-| msdyn_LinkStatus                       | No             | No               |
-| msdyn_linkstatusname                   | No             | No               |
-| msdyn_msprojectclientid                | No             | No               |
-| msdyn_plannedcost                      | No             | No               |
-| msdyn_plannedcost_base                 | No             | No               |
-| msdyn_plannedsales                     | No             | No               |
-| msdyn_plannedsales_base                | No             | No               |
-| msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Ez (bai proiekturako)             | Ez (bai proiekturako) |
-| msdyn_remainingcost                    | No             | No               |
-| msdyn_remainingcost_base               | No             | No               |
-| msdyn_remainingsales                   | No             | No               |
-| msdyn_remainingsales_base              | No             | No               |
-| msdyn_requestedhours                   | No             | No               |
-| msdyn_resourcecategory                 | No             | No               |
-| msdyn_resourcecategoryname             | No             | No               |
-| msdyn_resourceorganizationalunitid     | No             | No               |
-| msdyn_resourceorganizationalunitidname | No             | No               |
-| msdyn_salesconsumptionpercentage       | No             | No               |
-| msdyn_salesestimateatcomplete          | No             | No               |
-| msdyn_salesestimateatcomplete_base     | No             | No               |
-| msdyn_salesvariance                    | No             | No               |
-| msdyn_salesvariance_base               | No             | No               |
-| msdyn_scheduleddurationminutes         | No             | No               |
-| msdyn_scheduledend                     | No             | No               |
-| msdyn_scheduledstart                   | No             | No               |
-| msdyn_schedulevariance                 | No             | No               |
-| msdyn_skipupdateestimateline           | No             | No               |
-| msdyn_skipupdateestimatelinename       | No             | No               |
-| msdyn_summary                          | No             | No               |
-| msdyn_varianceofcost                   | No             | No               |
-| msdyn_varianceofcost_base              | No             | No               |
-
-### <a name="project-task-dependency"></a>Proiektuaren zereginen mendekotasuna
-
-| Izen logikoa                  | Sortu dezake     | Edita daiteke     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | No             | No           |
-| msdyn_linktypename            | No             | No           |
-| msdyn_predecessortask         | Yes            | No           |
-| msdyn_predecessortaskname     | Yes            | No           |
-| msdyn_project                 | Yes            | No           |
-| msdyn_projectname             | Yes            | No           |
-| msdyn_projecttaskdependencyid | Yes            | No           |
-| msdyn_successortask           | Yes            | No           |
-| msdyn_successortaskname       | Yes            | No           |
-
-### <a name="resource-assignment"></a>Baliabide-esleipena
-
-| Izen logikoa                 | Sortu dezake     | Edita daiteke     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | Yes            | No           |
-| msdyn_bookableresourceidname | Yes            | No           |
-| msdyn_bookingstatusid        | No             | No           |
-| msdyn_bookingstatusidname    | No             | No           |
-| msdyn_committype             | No             | No           |
-| msdyn_committypename         | No             | No           |
-| msdyn_effort                 | No             | No           |
-| msdyn_effortcompleted        | No             | No           |
-| msdyn_effortremaining        | No             | No           |
-| msdyn_finish                 | No             | No           |
-| msdyn_plannedcost            | No             | No           |
-| msdyn_plannedcost_base       | No             | No           |
-| msdyn_plannedcostcontour     | No             | No           |
-| msdyn_plannedsales           | No             | No           |
-| msdyn_plannedsales_base      | No             | No           |
-| msdyn_plannedsalescontour    | No             | No           |
-| msdyn_plannedwork            | No             | No           |
-| msdyn_projectid              | Yes            | No           |
-| msdyn_projectidname          | No             | No           |
-| msdyn_projectteamid          | No             | No           |
-| msdyn_projectteamidname      | No             | No           |
-| msdyn_start                  | No             | No           |
-| msdyn_taskid                 | No             | No           |
-| msdyn_taskidname             | No             | No           |
-| msdyn_userresourceid         | No             | No           |
-
-### <a name="project-team-member"></a>Proiektu-taldeko kidea
-
-| Izen logikoa                                     | Sortu dezake     | Edita daiteke     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | No             | No           |
-| msdyn_creategenericteammemberwithrequirementname | No             | No           |
-| msdyn_deletestatus                               | No             | No           |
-| msdyn_deletestatusname                           | No             | No           |
-| msdyn_effort                                     | No             | No           |
-| msdyn_effortcompleted                            | No             | No           |
-| msdyn_effortremaining                            | No             | No           |
-| msdyn_finish                                     | No             | No           |
-| msdyn_hardbookedhours                            | No             | No           |
-| msdyn_hours                                      | No             | No           |
-| msdyn_markedfordeletiontimer                     | No             | No           |
-| msdyn_markedfordeletiontimestamp                 | No             | No           |
-| msdyn_msprojectclientid                          | No             | No           |
-| msdyn_percentage                                 | No             | No           |
-| msdyn_requiredhours                              | No             | No           |
-| msdyn_softbookedhours                            | No             | No           |
-| msdyn_start                                      | No             | No           |
-
-### <a name="project"></a>Project
-
-| Izen logikoa                           | Sortu dezake     | Edita daiteke     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | No             | No           |
-| msdyn_actualexpensecost_base           | No             | No           |
-| msdyn_actuallaborcost                  | No             | No           |
-| msdyn_actuallaborcost_base             | No             | No           |
-| msdyn_actualsales                      | No             | No           |
-| msdyn_actualsales_base                 | No             | No           |
-| msdyn_contractlineproject              | Yes            | No           |
-| msdyn_contractorganizationalunitid     | Yes            | No           |
-| msdyn_contractorganizationalunitidname | Yes            | No           |
-| msdyn_costconsumption                  | No             | No           |
-| msdyn_costestimateatcomplete           | No             | No           |
-| msdyn_costestimateatcomplete_base      | No             | No           |
-| msdyn_costvariance                     | No             | No           |
-| msdyn_costvariance_base                | No             | No           |
-| msdyn_duration                         | No             | No           |
-| msdyn_effort                           | No             | No           |
-| msdyn_effortcompleted                  | No             | No           |
-| msdyn_effortestimateatcompleteeac      | No             | No           |
-| msdyn_effortremaining                  | No             | No           |
-| msdyn_finish                           | Yes            | Yes          |
-| msdyn_globalrevisiontoken              | No             | No           |
-| msdyn_islinkedtomsprojectclient        | No             | No           |
-| msdyn_islinkedtomsprojectclientname    | No             | No           |
-| msdyn_linkeddocumenturl                | No             | No           |
-| msdyn_msprojectdocument                | No             | No           |
-| msdyn_msprojectdocumentname            | No             | No           |
-| msdyn_plannedexpensecost               | No             | No           |
-| msdyn_plannedexpensecost_base          | No             | No           |
-| msdyn_plannedlaborcost                 | No             | No           |
-| msdyn_plannedlaborcost_base            | No             | No           |
-| msdyn_plannedsales                     | No             | No           |
-| msdyn_plannedsales_base                | No             | No           |
-| msdyn_progress                         | No             | No           |
-| msdyn_remainingcost                    | No             | No           |
-| msdyn_remainingcost_base               | No             | No           |
-| msdyn_remainingsales                   | No             | No           |
-| msdyn_remainingsales_base              | No             | No           |
-| msdyn_replaylogheader                  | No             | No           |
-| msdyn_salesconsumption                 | No             | No           |
-| msdyn_salesestimateatcompleteeac       | No             | No           |
-| msdyn_salesestimateatcompleteeac_base  | No             | No           |
-| msdyn_salesvariance                    | No             | No           |
-| msdyn_salesvariance_base               | No             | No           |
-| msdyn_scheduleperformance              | No             | No           |
-| msdyn_scheduleperformancename          | No             | No           |
-| msdyn_schedulevariance                 | No             | No           |
-| msdyn_taskearlieststart                | No             | No           |
-| msdyn_teamsize                         | No             | No           |
-| msdyn_teamsize_date                    | No             | No           |
-| msdyn_teamsize_state                   | No             | No           |
-| msdyn_totalactualcost                  | No             | No           |
-| msdyn_totalactualcost_base             | No             | No           |
-| msdyn_totalplannedcost                 | No             | No           |
-| msdyn_totalplannedcost_base            | No             | No           |
-
-### <a name="project-bucket"></a>Proiektuaren ontzia
-
-| Izen logikoa          | Sortu dezake      | Edita daiteke     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | Yes             | No           |
-| msdyn_name            | Yes             | Yes          |
-| msdyn_project         | Yes             | No           |
-| msdyn_projectbucketid | Yes             | No           |
-
-## <a name="limitations-and-known-issues"></a>Mugak eta arazo ezagunak
 Jarraian agertzen diren mugen eta arazo ezagunen zerrenda:
 
-- Project Schedule APIak soilik erabil ditzake **Microsoft Project Lizentzia duten erabiltzaileak**. Ezin dute hauek erabili:
+-   Project Schedule APIak soilik erabil ditzake **Microsoft Project Lizentzia duten erabiltzaileak**. Ezin dute hauek erabili:
+    -   Aplikazioaren erabiltzaileak
+    -   Sistema-erabiltzaileak
+    -   Integrazio-erabiltzaileak
+    -   Beharrezko lizentzia ez duten beste erabiltzaile batzuk
+-   **OperationSet** bakoitzak gehienez 100 eragiketa egin ditzake.
+-   Erabiltzaile bakoitzak gehienez 10 **OperationSet** ireki eduki ditzake.
+-   Gaur egun, Project Operations-ek gehienez 500 zeregin onartzen dituzte proiektu batean.
+-   Eguneratze baliabideen esleipena Ingerada eragiketa bakoitza eragiketa bakar gisa zenbatzen da.
+-   Ingerada eguneratuen zerrenda bakoitzak gehienez 100 denbora zati izan ditzake.
+-   **OperationSet** hutsegiteen egoera eta hutsegiteen erregistroak ez daude erabilgarri une honetan.
+-   Proiektu bakoitzeko 400 sprint daude gehienez.
+-   [Proiektu eta zereginen mugak eta mugak](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Une honetan etiketak Weberako proiekturako soilik daude erabilgarri.
 
-    - Aplikazioaren erabiltzaileak
-    - Sistema-erabiltzaileak
-    - Integrazio-erabiltzaileak
-    - Beharrezko lizentzia ez duten beste erabiltzaile batzuk
+**Errore-kudeaketa**
 
-- **OperationSet** bakoitzak gehienez 100 eragiketa egin ditzake.
-- Erabiltzaile bakoitzak gehienez 10 **OperationSet** ireki eduki ditzake.
-- Gaur egun, Project Operations-ek gehienez 500 zeregin onartzen dituzte proiektu batean.
-- **OperationSet** hutsegiteen egoera eta hutsegiteen erregistroak ez daude erabilgarri une honetan.
-- [Proiektuetako eta zereginetako mugak](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   Eragiketa multzoetatik sortutako akatsak berrikusteko, joan **Ezarpenak** \> **Ordutegien integrazioa** \> **Eragiketa multzoak** aukerara.
+-   Proiektuaren programazio zerbitzutik sortutako akatsak berrikusteko, joan hona: **Ezarpenak** \> **Ordutegien integrazioa** \> **PSS erroreen erregistroak**.
 
-## <a name="error-handling"></a>Errore-kudeaketa
+**Baliabideen esleipenaren sestrak editatzea**
 
-- Eragiketa multzoetatik sortutako akatsak berrikusteko, joan **Ezarpenak** \> **Ordutegien integrazioa** \> **Eragiketa multzoak** aukerara.
-- Proiektuaren programazio zerbitzutik sortutako akatsak berrikusteko, joan hona: **Ezarpenak** \> **Ordutegien integrazioa** \> **PSS erroreen erregistroak**.
+Entitate bat eguneratzen duten proiektuen antolakuntzako beste API guztiek ez bezala, baliabideen esleipenaren sestraren APIa eremu bakarreko, msdyn_plannedwork, entitate bakarreko, msydn_resourceassignment, eguneratzearen arduradun bakarra da.
 
-## <a name="sample-scenario"></a>Laginaren egoera
+Emandako ordutegia hau da:
+
+-   **unitate finkoak**
+-   Proiektuaren egutegia 9-5p da 9-5pst, astelehena, asteartea, osteguna, ostirala (ASTEAZKENEAN LAN EZ)
+-   Eta baliabideen egutegia 9-1p PST da astelehenetik ostiralera
+
+Lan hau astebetekoa da, eguneko lau ordukoa. Baliabideen egutegia 9-1 PST bitartekoa delako, edo egunean lau ordu.
+
+| &nbsp;     | Zeregina | Hasiera-data | Amaiera-data  | Kantitatea | 2022/06/13 | 2022/06/14 | 2022/06/15 | 2022/06/16 | 2022/06/17 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 langile |  T1  | 2022/06/13  | 2022/06/17 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+Adibidez, langileak aste honetan egunero hiru ordu bakarrik lan egitea eta beste zereginetarako ordu bat ematea nahi baduzu.
+
+#### <a name="updatedcontours-sample-payload"></a>UpdatedContours lagin karga:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+Update Contour Schedule APIa exekutatu ondoren esleipena da hau.
+
+| &nbsp;     | Zeregina | Hasiera-data | Amaiera-data  | Kantitatea | 2022/06/13 | 2022/06/14 | 2022/06/15 | 2022/06/16 | 2022/06/17 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 langile | T1   | 2022/06/13  | 2022/06/17 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**Laginaren egoera**
 
 Eszenatoki honetan, proiektu bat, taldekide bat, lau ataza eta bi baliabide esleipen sortuko dituzu. Ondoren, zeregin bat eguneratu, proiektua eguneratu, zeregin bat ezabatu, baliabideen esleipen bat ezabatu eta atazaren mendekotasuna sortuko duzu.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>Lagin osagarriak
+** Lagin osagarriak
 
 ```csharp
 #region Call actions --- Sample code ----

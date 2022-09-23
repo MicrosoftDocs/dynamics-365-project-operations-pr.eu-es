@@ -2,20 +2,20 @@
 title: Azpikontratatuaren lerroko baliabideak
 description: Artikulu honek saltzaileak denborarako azpikontratazio-lerro zehatz baterako eskaintzen dituen baliabide dedikatuak nola zehaztu azaltzen du.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261449"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522357"
 ---
 # <a name="subcontract-line-resources"></a>Azpikontratatuaren lerroko baliabideak
 
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 Urtean Dynamics 365 Project Operations, saltzaile batek azpikontratazio lerroan denbora batez erosten ari den baliabide gaitasuna hornitzeko erabiliko diren baliabideak zehaztu ditzake.
 

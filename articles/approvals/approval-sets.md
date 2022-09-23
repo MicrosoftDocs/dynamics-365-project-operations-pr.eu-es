@@ -1,17 +1,17 @@
 ---
 title: Onarpen multzoak
-description: Artikulu honetan, eragiketa horien onarpen-multzoekin, eskabideekin eta azpikonjuntekin nola lan egin azaltzen da.
+description: Artikulu honek onarpen-multzoekin, eskaerarekin eta eragiketa horien azpimultzoekin nola lan egin azaltzen du.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918067"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524901"
 ---
 # <a name="approval-sets"></a>Onarpen multzoak
 
@@ -26,17 +26,17 @@ Fitxategian prozesatzeko ilaran dauden onarpenak ikusgai daude **Onarpenak proze
 
 **Onarpena ezarri Bizitza** eremuak multzoa prozesatzeko geratzen den saiakera kopurua erregistratzen du huts egin duela markatu aurretik.
 
-Onarpen-multzoak Project Service - Recurrently Schedule Project Approval Sets izeneko **hodei-fluxu batean** oinarritutako aldizkako **aktibazioaren bidez prozesatzen dira**. Hori proiektu-eragiketak **izeneko soluzioan** **·**. 
+Onarpen-multzoak a-n oinarritutako aldizkako aktibazioaren bidez prozesatzen dira **Hodei Fluxua** izendatua **Proiektu-zerbitzua - Behin eta berriz programatu proiektuak onartzeko multzoak**. Hau aurkitzen da **Irtenbidea** izendatua **Proiektuaren Eragiketak**. 
 
-Ziurtatu fluxua aktibatuta dagoela hurrengo urratsak osatuz.
+Ziurtatu fluxua aktibatuta dagoela hurrengo urratsak betez.
 
 1. Administratzaile gisa, hasi saioa [flow.microsoft.com](https://powerautomate.microsoft.com).
-2. Goiko eskuineko izkinan, aldatu ingurua Dynamics 365 Project Operations.
-3. Ingurunean instalatutako soluzioak zerrendatzeko konponbideak **hautatu**.
-4. Konponbideen zerrendan, aukeratu **proiektu-eragiketak**.
-5. Aldatu Guztien **iragazkia** **hodeian**.
-6. Egiazta ezazu proiektu-zerbitzuaren fluxua **– Proiektuak onartzeko** aldian behin programatzea aktibatuta **dagoela**. Hala ez bada, fluxua hautatu eta, ondoren, **aktibatu**.
-7. Egiazta ezazu prozesamendua bost minuturo gertatzen dela, Project Operations **inguruneko konfigurazio-eremuko** sistemaren **lan-zerrenda** berrikusiz Dataverse.
+2. Goiko eskuineko izkinan, aldatu erabiltzen duzun ingurunera Dynamics 365 Project Operations.
+3. Hautatu **Irtenbideak** ingurunean instalatutako irtenbideak zerrendatzeko.
+4. Irtenbideen zerrendan, hautatu **Proiektuaren Eragiketak**.
+5. Aldatu iragazkia honetatik **Denak** to **Hodei Fluxuak**.
+6. Egiaztatu hori **Proiektuen Zerbitzua - Behin eta berriz programatu proiektuak onartzeko multzoak** fluxua ezarrita dago **On**. Hala ez bada, hautatu fluxua eta, ondoren, hautatu **Piztu**.
+7. Egiaztatu prozesaketa bost minuturo gertatzen dela berrikusiz **Sistema-lanak** zerrendan **Ezarpenak** zure Proiektu Eragiketen barruan Dataverse ingurunea.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Ezin izan dira ezarri onarpenak eta onarpen multzoak
 **Hutsegitea onartu da** ikuspegia erabiltzailearen esku-hartzea eskatzen duten onarpen guztiak zerrendatzen ditu. Ireki lotutako onarpen multzoen erregistroak porrotaren zergatia identifikatzeko.
@@ -45,14 +45,9 @@ Ziurtatu fluxua aktibatuta dagoela hurrengo urratsak osatuz.
 ## <a name="configure-approval-sets"></a>Konfiguratu onarpen multzoak
 
 ### <a name="enable-the-approval-sets-feature"></a>Gaitu Onarpen multzoen eginbidea
-Onarpen multzoa eginbidea gaitu aurretik, egiaztatu ez dagoela prozesatzen ari diren onarpenik.
+Onarpen multzoa eginbidea gaitu aurretik, egiaztatu ez dagoela prozesatzen ari diren onarpenik. Eginbide hau gaitu ondoren, ezin da desgaitu.
 
 - Joan **Proiektuaren parametroak** orrialdera eta hautatu **Ezaugarrien kontrola** > **Gaitu onarpen modernoak**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Desaktibatu Onarpen multzoen eginbidea
-Onarpen multzoa eginbidea desaktibatu aurretik, egiaztatu ez dagoela prozesatzen ari diren onarpenik.
-
-- Joan **Proiektuaren parametroak** orrialdera eta hautatu **Ezaugarrien kontrola** > **Desgaitu onarpen modernoak**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Atalasea sinkronoa konfiguratzea 
 Onarpen multzoak sortzen direnean, prozesamendua bigarren plano batera pasatzen da onartutako hautatutako erregistro kopurua adierazitako atalasea gainditzen duenean. Erabili **Atalasea asinkronoa** onarpen prozesamendua sinkronikoki edo asinkronikoki exekutatu behar denean konfiguratzeko eremua. Hautatu balio hauetako bat:

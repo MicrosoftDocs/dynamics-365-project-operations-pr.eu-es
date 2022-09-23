@@ -2,20 +2,20 @@
 title: Azpikontratatutako baliabideen esleipenen kostuak kalkulatzea
 description: Artikulu honek Microsoft nola nolabait azaltzen du Dynamics 365 Project Operations azpikontratatutako baliabideen esleipenen kostuen estimazioa kalkulatzen du.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262044"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522639"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Azpikontratatutako baliabideen esleipenen kostuak kalkulatzea
 
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 Azpikontratatutako proiektuko taldekideen ataza-esleipenak kostua erabiltzen da **Erosketa** lotutako taldekideen erregistroan azpikontratuari atxikitako prezioen zerrenda. Langileen baliabideen esleipenak kostua erabiliz langileen baliabideen ataza-esleipenak balioesten direnetik desberdina da **Kostua** proiektuaren kontratazio-unitateari atxikita dagoen prezio-zerrenda. 
 
@@ -32,7 +32,7 @@ Azpikontratentzako zereginak bi modutara sor daitezke:
 - erabiliz **Taldea** fitxa.
 
 ### <a name="creating-resources-assignments-using-the-tasks-tab"></a>Baliabideen esleipenak sortzea Zereginak fitxa erabiliz
-erabiliz **Baliabideak** zerrendan **Zereginak** ataza zehatz baterako, zeregin esleipen bat sor dezakezu izendun baliabide baterako edo baliabide generiko baterako. Baliabide izendun bat hautatzen baduzu **Esleitutako Baliabideak** zereginean goitibeherako goitibeherakoa eta baliabide hau kontratu-langilea da, izendatutako baliabidea zereginari esleitzen zaio eta dagokion proiektu-taldekidearen erregistroa sortzen da langile mota gisa ezarrita.**Lan-kontratuko langilea** eta **Baliotasuna** ezarri **Baliogabea**. Hurrengo urrats gisa, proiektuko taldekideen erregistroa ireki eta azpikontratu eta azpikontratu lerro bat hautatu beharko duzu. Honek zereginen esleipena eguneratuko du azpikontratu eta azpikontratu lerroari erreferentzia bat izateko eta taldekideen egoera ere eguneratuko du.**Baliozkoa**.
+erabiliz **Baliabideak** zerrendan **Zereginak** ataza zehatz baterako, zeregin esleipen bat sor dezakezu izendun baliabide baterako edo baliabide generiko baterako. Baliabide izendun bat hautatzen baduzu **Esleitutako Baliabideak** zereginean goitibeherako goitibeherakoa eta baliabide hau kontratu-langile bat da, izendatutako baliabidea zereginari esleitzen zaio eta dagokion proiektu-taldekidearen erregistroa sortzen da langile mota gisa ezarrita.**Lan-kontratuko langilea** eta **Baliotasuna** ezarri **Baliogabea**. Hurrengo urrats gisa, proiektuko taldekideen erregistroa ireki eta azpikontratu eta azpikontratu lerro bat hautatu beharko duzu. Honek zereginen esleipena eguneratuko du azpikontratu eta azpikontratu lerroari erreferentzia bat izateko eta taldekideen egoera ere eguneratuko du.**Baliozkoa**.
 
 Taldekide generiko bat sortzea aukeratzen baduzu **Esleitutako Baliabideak** atazaren goitibeherakoa, **Taldekideen sorkuntza orokorra** elkarrizketa-koadroak azpikontratua eta azpikontratazio lerroa hautatzeko aukera emango dizu. Baliabide generikoa zereginari esleitzen zaionean eta dagokion proiektuko taldeko kideen erregistroa sortzen denean, proiektuko taldeko kideen erregistroa langile mota gisa ezarrita dagoela ikusiko duzu.**Lan-kontratuko langilea** eta **Baliotasuna** ezarri **Baliozkoa**.
 
@@ -42,7 +42,7 @@ Proiektuko Taldea fitxa erabiliz, taldekide generiko bat edo izendun bat sor dez
 ## <a name="updating-estimates"></a>Estimazioak eguneratzea
 Proiektuko taldeko kideak zereginak esleitu ondoren, atalera nabigatu beharko duzu **Estimazioak** fitxan proiektuan eta hautatu **Eguneratu prezioak** azpikontratistaren baliabideen esleipenen kostu-tasak azpikontratuari atxikitako erosketa-prezioen zerrendan oinarrituta eguneratzen direla ziurtatzeko. Ez dira esleitu gabeko zereginetarako kalkuluak sortzen Microsoft-en Dynamics 365 Project Operations. Ondorioz, zereginen esleipenak sortu beharko dituzu zure proiektuko hainbat ataza prezioa eta kostua emateko. 
 
-> [OHARRA!] Duten proiektuko taldekideak **Langile mota** bezala **Lan-kontratuko langilea** baina ez dute azpikontratu erreferentziarik bezala markatzen dira **Baliogabea** gainean **Proiektuko taldekideak** sareta. Egoera hori duen proiektu-taldekideren bat baldin badago, ireki proiektu-taldearen erregistroa eta eguneratu eskuz azpikontratazio eta azpikontratazio-lerroen eremuak, finantza-kostuen estimazioak azpikontratistaren kostua zehatz-mehatz isla dezan.**Estimazioak** fitxa. 
+> [OHARRA!] Proiektuko taldekideek duten **Langile mota** bezala **Lan-kontratuko langilea** baina ez dute azpikontratu erreferentziarik bezala markatzen dira **Baliogabea** gainean **Proiektuko taldekideak** sareta. Egoera hori duen proiektu-taldekideren bat baldin badago, ireki proiektu-taldearen erregistroa eta eguneratu eskuz azpikontratazio eta azpikontratazio-lerroaren eremuak, finantza-kostuen estimazioak azpikontratistaren kostua zehatz-mehatz isla dezan.**Estimazioak** fitxa. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

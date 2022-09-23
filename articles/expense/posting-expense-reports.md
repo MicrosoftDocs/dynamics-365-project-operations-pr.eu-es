@@ -1,8 +1,8 @@
 ---
 title: Argitaratu gastuen txostenak
 description: Artikulu honek gastuen txostenak nola argitaratu azaltzen du.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934489"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524854"
 ---
 # <a name="post-expense-reports"></a>Argitaratu gastuen txostenak
 
@@ -30,5 +30,15 @@ Gastu txostena argitaratzeko,**Onartutako gastuen txostenak** orrian, hautatu ga
 
 Zerrendako gastuen txosten guztiak aldi berean bidal ditzakezu. Aukeratu gastuen txosten guztiak, eta hautatu **Bidali**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Gaitu eskudirutan ordaintzeko metodoaren gastu-erantzukizuna saltzailearen monetan argitaratzeko gaitasuna
+
+The **Eskudirutan ordaintzeko metodorako gastu-erantzukizuna saltzailearen monetan argitaratzeko gaitasuna** funtzioak gastuen txostenak saltzaileen moneta batean argitaratzea ahalbidetzen du eskudirutan ordaintzeko metodorako.
+
+Une honetan, diru-gastuak bidaltzen dituzunean, gastuen txostenak kontabilitate-monetan argitaratzen dira. Transakzio-moneta, kontabilitate-moneta eta hornitzaile-moneta arteko zenbatekoa bihurtzearen ondorioz, saltzaileei kopuru oker bat ordaintzen zaie, baldin eta gastuaren transakzio-datak eta benetako ordainketa-datak truke-tasa desberdinak badituzte.
+
+Ezaugarri honek bermatuko du saltzailearen saldoa saltzaileen monetan erregistratzen dela gastuen txostena argitaratzen denean.
+
+1. Joan **Laneko areak** \> **Eginbideen kudeaketa** atalera.
+2. Zerrendan, bilatu eta hautatu **Eskudirutan ordaintzeko metodorako gastu-erantzukizuna saltzailearen monetan argitaratzeko gaitasuna**, eta gero hautatu **Gaitu orain**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
