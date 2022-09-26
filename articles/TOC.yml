@@ -508,9 +508,11 @@
           href: approvals/cancelapproval.md
         - name: Berreskuratu aurretik onartutako sarrerak
           href: approvals/recall-cancel.md
+        - name: Segurtasuna eta onarpenak
+          href: approvals/approvals-security.md
         - name: Garatzailearen oharrak
           items:
-            - name: Onarpenetarako garatzaileen oharrak
+            - name: Approvals-en garatzaileen oharrak
               href: approvals/dev-notes-approvals.md
     - name: Benetako datuak
       items:
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Konfiguratu saltzailearen atxikipena
               href: procurement/set-up-vendor-retention.md
+            - name: Ordaindu ordaintzean
+              href: procurement/Pay-when-paid.md
     - name: Fakturazioa
       items:
         - name: Fakturazio-prozesuaren informazio orokorra
@@ -1102,9 +1106,11 @@
           href: approvals/cancelapproval.md
         - name: Berreskuratu aurretik onartutako sarrerak
           href: approvals/recall-cancel.md
+        - name: Segurtasuna eta onarpenak
+          href: approvals/approvals-security.md
         - name: Garatzailearen oharrak
           items:
-            - name: Onarpenetarako garatzaileen oharrak
+            - name: Approvals-en garatzaileen oharrak
               href: approvals/dev-notes-approvals.md
     - name: Benetako datuak
       items:
