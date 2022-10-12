@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: 359fcc2d31d4d90339870b93560685d77cb03fc8
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295816"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621926"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Eguneratu Project Service 3.x bertsioaren antolaketa
 
@@ -37,7 +37,7 @@ ms.locfileid: "9295816"
 
 | Soluzioa  | Azken bertsioa |
 |-------|----|
-| Project Service Automation    | 3.10.76.168 |
+| Project Service Automation    | 3.10.78.8 |
 | Project Service Automation-en mahaigaineko osagarria                | 3.60          |
 
 Project Service-ko eguneratzeei buruzko informazio gehiago lortzeko, joan [Dynamics 365-en bertsio-planak](/dynamics365/release-plans/). 
@@ -45,30 +45,30 @@ Project Service-ko eguneratzeei buruzko informazio gehiago lortzeko, joan [Dynam
 | Geltokia  | Eskualdea | Uneko bertsioa | Hurrengo bertsioa |  Antolatutako data
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>1. geltokia</strong> | |  |  | |
-| | <i>Lehenengo oharra</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko abuztuaren 26a
+| | <i>Lehenengo oharra</i> | [3.10.78.8](whats-new-ur-47.md)| TBD | 2022ko urriaren 07a
 |<strong>2. geltokia</strong> | |  |  | |
-| | <i>Hego Amerika</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 02a
-| | <i>Kanada</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 02a
-| | <i>India</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 02a
-| | <i>Frantzia</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 02a
-| | <i>Hego Afrika</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 02a
-| | <i>Alemania</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 02a
-| | <i>Suitza</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 02a
-| | <i>Hego Korea</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 02a
-| | <i>Norvegia</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 02a
+| | <i>Hego Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
+| | <i>Kanada</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
+| | <i>India</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
+| | <i>Frantzia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
+| | <i>Hego Afrika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
+| | <i>Alemania</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
+| | <i>Suitza</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
+| | <i>Hego Korea</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
+| | <i>Norvegia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
 |<strong>3. geltokia</strong> | |  |  | |
-| | <i>Japonia</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 09a
-| | <i>Asia pazifikoa</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 09a
-| | <i>Britainia Handia</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 09a
-| | <i>Oceana</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 09a
-| | <i>Arabiar Emirerri Batuak</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 09a
+| | <i>Japonia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 21a
+| | <i>Asia pazifikoa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 21a
+| | <i>Britainia Handia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 21a
+| | <i>Oceana</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 21a
+| | <i>Arabiar Emirerri Batuak</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 21a
 |<strong>4. geltokia</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 16a
+| | <i>Europa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 21a
 |<strong>5. geltokia</strong> | |  |  | |
-| | <i>Ipar Amerika</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 23a
+| | <i>Ipar Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko azaroaren 04a
 |<strong>6. geltokia</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 21a
-| | <i>Eskainitako eskala-taldeak</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022ko irailaren 30a
+| | <i>Government Community Cloud</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko azaroaren 02a
+| | <i>Eskainitako eskala-taldeak</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko azaroaren 11
 
 
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409920"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621993"
 ---
 # <a name="project-operations-updates"></a>Project Operations-en eguneratzeak
 
@@ -47,24 +47,24 @@ Hilero eskuragarri daude Dataverse ingurumeneko Project Operations-en eguneratze
 | Geltokia | Eskualdea | Uneko bertsio-zenbakia | Lite inplementaziorako eguneratze automatikoak | Eguneratze automatikoak Baliabidea/hornitu gabeko inplementaziorako | Hurrengo bertsio-zenbakia | Hurrengo bertsioa orokorrean eskuragarri |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1. geltokia |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Lehenengo oharra         |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 09a      |
+|   &nbsp;  | Lehenengo oharra         |  4.46.0.60      | Osoa           | Osoa            | TBD                 | 2022ko urriaren 07a      |
 | 2. geltokia |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Hego Amerika         |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 09a       |
-|   &nbsp;  | Kanada                |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 09a       |
-|   &nbsp;  | India                 |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 09a       |
-|   &nbsp;  | Frantzia                |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 09a       |
-|   &nbsp;  | Hego Afrika          |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 09a       |
-|   &nbsp;  | Suitza           |  4.45.0.53      | Osoa           | Osoa            | TBD                 | 2022ko irailaren 09a       |
+|   &nbsp;  | Hego Amerika         |  4.46.0.60      | Osoa           | Osoa            | TBD                 | 2022ko urriaren 14a       |
+|   &nbsp;  | Kanada                |  4.46.0.60      | Osoa           | Osoa            | TBD                 | 2022ko urriaren 14a       |
+|   &nbsp;  | India                 |  4.46.0.60      | Osoa           | Osoa            | TBD                 | 2022ko urriaren 14a       |
+|   &nbsp;  | Frantzia                |  4.46.0.60      | Osoa           | Osoa            | TBD                 | 2022ko urriaren 14a       |
+|   &nbsp;  | Hego Afrika          |  4.46.0.60      | Osoa           | Osoa            | TBD                 | 2022ko urriaren 14a       |
+|   &nbsp;  | Suitza           |  4.46.0.60      | Osoa           | Osoa            | TBD                 | 2022ko urriaren 14a       |
 | 3. geltokia |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonia                 |  4.45.0.53      | Osoa      | Osoa       | TBD                 | 2022ko irailaren 09a       |
-|   &nbsp;  | Asia Pazifikoa          |  4.45.0.53      | Osoa      | Osoa       | TBD                 | 2022ko irailaren 09a       |
-|   &nbsp;  | Britainia Handia         |  4.45.0.53      | Osoa      | Osoa       | TBD                 | 2022ko irailaren 09a       |
-|   &nbsp;  | Ozeania               |  4.45.0.53      | Osoa      | Osoa       | TBD                 | 2022ko irailaren 09a       |
-|   &nbsp;  | Arabiar Emirerri Batuak  |  4.45.0.53      | Osoa      | Osoa       | TBD                 | 2022ko irailaren 09a       |
+|   &nbsp;  | Japonia                 |  4.46.0.60      | Osoa      | Osoa       | TBD                 | 2022ko urriaren 21a       |
+|   &nbsp;  | Asia Pazifikoa          |  4.46.0.60      | Osoa      | Osoa       | TBD                 | 2022ko urriaren 21a       |
+|   &nbsp;  | Britainia Handia         |  4.46.0.60      | Osoa      | Osoa       | TBD                 | 2022ko urriaren 21a       |
+|   &nbsp;  | Ozeania               |  4.46.0.60      | Osoa      | Osoa       | TBD                 | 2022ko urriaren 21a       |
+|   &nbsp;  | Arabiar Emirerri Batuak  |  4.46.0.60      | Osoa      | Osoa       | TBD                 | 2022ko urriaren 21a       |
 | 4. geltokia |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.45.0.53      | Osoa           | Osoa            | TBD           | 2022ko irailaren 16a       |
+|   &nbsp;  | Europa                |  4.46.0.60      | Osoa           | Osoa            | TBD           | 2022ko urriaren 28a       |
 | 5. geltokia |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ipar Amerika         |  4.45.0.53      | Osoa           | Osoa            | TBD           | 2022ko irailaren 16a       |
+|   &nbsp;  | Ipar Amerika         |  4.46.0.60      | Osoa           | Osoa            | TBD           | 2022ko azaroaren 04a       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Askatu egutegia Finantza eta eragiketa aplikazioen ingurunean Proiektuen kudeaketa eta kontabilitatea
 
