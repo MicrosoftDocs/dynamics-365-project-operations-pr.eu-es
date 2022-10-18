@@ -1,17 +1,17 @@
 ---
 title: Sortu zereginen xehetasunen egitura
-description: Artikulu honetan, lanaren desglose-egitura bat (WBS) nola sortu azaltzen da, programazio-interfaze berriaren oinarrizko kontrolak barne hartuko dituena.
+description: Artikulu honek lanaren banaketa-egitura (WBS) nola sortu azaltzen du oinarrizko kontrolak barne programazio interfaze berrian.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932051"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655173"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Sortu zereginen xehetasunen egitura (WBS)
 
@@ -63,7 +63,7 @@ Osatu urrats hauek zeregina mailaz jaitsi edo igotzeko.
 
 ### <a name="move-tasks-up-and-down"></a>Eraman zereginak gora eta behera
 
-Zereginak lanaren banakako egituraren edozein mailara eraman nitzake bi modu hauetako batean:
+Zereginak lanaren banaketa-egiturako edozein mailatara eraman daitezke bi modu hauetako batean:
 
 - Aukeratu zeregin bat gehiago eta arrastatu nahi duzun lekura.
 - Aukeratu zeregin bat edo gehiago, egin klik eskuineko botoiarekin eta hautatu **Ebaki**, hautatu helburuko gelaxka programazioan, eta egin klik eskuineko botoiarekin eta hautatu **Itsatsi**.
@@ -95,11 +95,11 @@ Administratzaile gisa, eremu pertsonalizatuak defini ditzakezu atazako entitatea
 
 ## <a name="staffing-attributes"></a>Betetze-atributuak
 
-Langileen atributuak **Baliabideak** eremuaren bidez atzitzen dira antolaketan. Lehendik dagoen baliabide bat bilatu dezakezu edo hautatu **Sortu** eta **Sorrera bizkorra** panelean, gehitu proiektu-taldeko kide bat baliabide berri gisa.  Baliabide bat bilatzen denean, lanen laukian baliabideak hautatuz, taula-ikusmenean edo gantt-ean, bilaketak proiektuko ekipoko kideak edo baliabide aktibo erreserbagarriak itzultzen ditu.
+Langileen atributuak **Baliabideak** eremuaren bidez atzitzen dira antolaketan. Lehendik dagoen baliabide bat bilatu dezakezu edo hautatu **Sortu** eta **Sorrera bizkorra** panelean, gehitu proiektu-taldeko kide bat baliabide berri gisa.  Ataza-sareko, arbel-ikuspeko edo gantt-eko baliabide-hautatzailea erabiliz baliabide bat bilatzen duzunean, bilaketak lehendik dauden proiektuko taldeko kideak edo erreserba daitezkeen baliabide aktiboak itzultzen ditu.
 
 **Funtzioa**, **Baliabide-unitatea**, eta **Lanpostuaren izena** eremuak zereginerako langileen eskakizunak deskribatzeko erabiltzen dira. Langileen atributu horiek, zereginen antolaketarekin batera, zeregina egiteko erabilgarri dauden baliabideak aurkitzeko erabiltzen dira.
 
-   - **Rol**: zehaztu zer baliabide mota behar den lana egiteko,
+   - **Rola** : Zehaztu zeregina egiteko behar den baliabide mota.,
    - **Baliabide-unitatea**: Zehaztu zeregineko baliabideak zein unitatetik esleitu behar diren. Atributu horrek zereginerako kostuen eta salmenten aurreikuspenean eragiten du baliabidearen kostua eta faktura-tasa baliabide unitateetan oinarrituta ezartzen badira.
    - **Lanpostuaren izena**: idatzi lana egingo duen baliabiderako leku-marka gisa balio duen baliabide orokorrerako izena.
 
@@ -112,6 +112,18 @@ Langileen atributuak **Baliabideak** eremuaren bidez atzitzen dira antolaketan. 
 Project Operations-eko antolaketa erabil dezakezu zereginen arteko aurreneko harremanak sortzeko. **Aurrekoak** eremuak balio bat edo gehiago erabiltzen ditu zeregin baten menpe dauden zereginak adierazteko. Zeregin bati aurrenekoen balioak esleitzean, zeregina aurreko zeregin guztiak osatu direnean soilik abiarazi daiteke. Mendekotasuna dela eta, zereginaren aurreikusitako hasiera-data aurreko zereginak bukatzen diren datara berrezarriko da.
 
 Zereginaren moduak ez du eraginik aurreko/mendeko zereginen hasiera- eta amaiera-datetan egiten diren eguneratzeetan.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Iraupenek, baliabideen egutegiek eta proiektuen egutegiek zereginetan duten eragina ulertzea
+Zeregin baten iraupena zereginaren hasiera-dataren hasiera-orduaren eta zereginaren amaiera-dataren amaiera-orduaren arteko lan-ordu kopurua gisa definitzen da.   Weberako proiektuak honela definitzen ditu iraupen neurri-unitateak:
+
+| **Iraupenaren Neurria** | **Kantitatea**|
+|----------------------------------------------------|----------------------|
+| Eguneko orduak | 8 |
+| Astean orduak |  40 |
+| Hilabeteko egunak |  20 |
+
+Esleitu gabeko zereginak proiektuaren egutegia erabiliz programatzen dira. Hala ere, hasierako baliabidea esleitzean, ataza baten programazioa eguneratzen da, baliabidearen egutegia errespeta dezan. Esleipena duen ataza batean ondorengo aldaketak arautuko dira [programazio modua](scheduling-modes.md) proiektuarena. Egutegiek zereginetan duten eraginari buruz gehiago jakiteko, ikus [Baliabideen egutegiak Weberako Project-en](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) eta [Zereginen hasierako orduak eta zure proiektuak!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Erabilerraztasuna eta teklatuko lasterbideak
 
@@ -127,7 +139,7 @@ Ondoko mugak ezagutu behar dituzu Project Operations-en zereginen xehetasunen eg
 | Proiektu baterako gehieneko baliabideak              | 300                  |
 | Proiektu bateko gehieneko estekak (ondorengoak soilik) | 600                  |
 | Proiektu baterako gehieneko eremu pertsonalizatuak          | 1,0                   |
-| Egiaztapen-zerrendako elementuen gehienekoa, lan-arabera                   | 20                   |
+| Gehienezko zerrendako elementuak zeregin bakoitzeko                   | 20                   |
 
 **Zereginen mugak**
 

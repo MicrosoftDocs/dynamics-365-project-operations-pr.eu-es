@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
-ms.translationtype: HT
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621309"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634837"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>2022ko iraileko berritasunak - Project Operations lite inplementatzea
 
@@ -27,9 +27,10 @@ Artikulu hau Microsoft-en osagai eta bertsio hauei aplikatzen zaie Dynamics 365 
 | Ezaugarrien eremua | Ezaugarriaren izena | Informazio gehiago |
 | --- | --- | --- |
 | Abaguneen kudeaketa | **Aurrekontuen berrikuspena eta aktibazioa**<br>Project Operations-ek salmenta-prozesuaren laguntza osoa dakar. Proiektuaren aurrekontuak aktibatu daitezke aurrekontua irakurtzeko soilik den eta berrikusten den egoera bat irudikatzeko. Aktibatutako komatxoak berrikus daitezke berrikuspen-zenbaki handitua duten komatxo berriak sortzeko. Aktibatutako proiektuen aurrekontuak edo aurrekontuen berrikuspenak irabazi edo galdu gisa itxi daitezke. | [Aktibatu eta berrikusi proiektuaren eskaintza](/dynamics365/project-operations/sales/activation-and-revision) |
-| Fakturazioa eta prezioak | **Ordu-eremuaren prezio agnostikoa lehenetsita**<br>Project Operations-ek ordu-eremuaren data agnostiko baten kontzeptua sartu du proiektuaren erreal guztietan. Eremu berri bat, **Transakzio data**, orain eskuragarri dago aldizkari-lerroetan eta errealetan, eta transakzioa gertatu zeneko data gordetzeko erabiliko da, baina data hori Ordu Unibertsal Koordinatuan bihurtu gabe. Data hori beheranzko prozesuetarako erabiliko da, hala nola prezioen lehenetsia eta fakturak sortzeko. | <p>[Proiektuetan oinarritutako estimazioen eta errealen kostu-tasak zehaztea](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Zehaztu proiektuetan oinarritutako estimazioen eta benetakoen salmenta-prezioak](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
+| Fakturazioa eta prezioak | **Ordu-eremuaren prezio agnostikoa lehenetsita**<br>Project Operations-ek ordu-eremuaren data agnostiko baten kontzeptua sartu du proiektuaren erreal guztietan. Eremu berri bat, **Transakzio data**, orain aldizkariko lerroetan eta errealetan eskuragarri dago, eta transakzioa gertatu zeneko data gordetzeko erabiliko da, baina data hori Ordu Unibertsal Koordinatuan bihurtu gabe. Data hori beheranzko prozesuetarako erabiliko da, hala nola prezioen lehenetsia eta fakturak sortzeko. | <p>[Proiektuetan oinarritutako estimazioen eta errealen kostu-tasak zehaztea](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Zehaztu proiektuetan oinarritutako estimazioen eta benetakoen salmenta-prezioak](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | Fakturazioa eta prezioak | **Data-eraginkorra den prezioen baliogabetzea Proiektuen Eragiketetan**<br>Data-eraginkorra den prezioen baliogabetzeak prezioen zerrendako prezio zehatzak aldatzeko edo aldatzeko modua eskaintzen du. | [Data-eraginkorra den prezioak gainidaztea](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | Denbora eta gastua | **Onartzaile globala**<br>Ezaugarri honek software hornitzaile independentea (ISV) eta onespen zentralizatua ahalbidetzen du, proiektuko proiektuaren edo taldekidearen egoera edozein dela ere. | [Segurtasuna eta onarpenak](/dynamics365/project-operations/approvals/approvals-security) |
+|Proiektuaren antolaketa eta jarraipena|**Erabili Proiektuak programatzeko APIak Planifikazio entitateekin eragiketak egiteko** </br> </br>Baliabideen esleipenaren sestra editatzeko APIari esker, garatzaileek programatikoki zehazten dute zereginen esleipendun baten esfortzua onartzen den edozein data-barrutitan, denbora-mailako esfortzuen planifikazio zehatzagoa lortzeko.|[Erabili Proiektuak programatzeko APIak Planifikazio entitateekin eragiketak egiteko](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>Kalitatearen eguneratzeak
 
