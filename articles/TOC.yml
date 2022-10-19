@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Project Service Automation V3 zerbitzuko berrikuntzak edo aldaketak
           href: psa/whats-new-changed-v3.md
+    - name: Project Service Automation-en bertsio-berritzea (Project Operations arina 4.x aplikazioaren bertsioa)
+      items:
+        - name: Berritu-berritu Project Service Automation-etik Project Operations-era
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Project Service Automation-etik Project Operations-erako eginbideen aldaketak
+          href: psa/psa-project-operations-changes.md
+        - name: Project Service Automation-etik Project Operations proiektuen antolaketa bihurtzeko prozesua
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Antolatu inplementazioa (aplikazioaren 3.x bertsioa)
       items:
         - name: Adibide-datuen instalazioa
