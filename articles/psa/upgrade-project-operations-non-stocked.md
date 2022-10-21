@@ -1,9 +1,9 @@
 ---
-title: Berritu Project Service Automation-etik Project Operations-era
+title: Berritu-berritu Project Service Automation-etik Project Operations-era
 description: Artikulu honek bertsio berritzeko prozesuaren ikuspegi orokorra eskaintzen du Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/13/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,28 +16,28 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
-ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
-ms.translationtype: MT
+ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
+ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.translationtype: HT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9446020"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9686960"
 ---
-# <a name="upgrade-from-project-service-automation-to-project-operations"></a>Berritu Project Service Automation-etik Project Operations-era
+# <a name="upgrade-from-project-service-automation-to-project-operations"></a>Berritu-berritu Project Service Automation-etik Project Operations-era
 
-Pozik gaude berritzeko hiru faseetako lehena iragartzeko Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations. Artikulu honek ibilbide zirraragarri honetan hasten ari diren bezeroentzako ikuspegi orokorra eskaintzen du. Etorkizuneko artikuluek garatzaileen gogoetak eta eginbideen hobekuntzei buruzko xehetasunak jasoko dituzte. Project Operations-era eguneratzeko prestatzen lagunduko dizuten orientabideak ez ezik, bertsio berritu ondoren zer espero dezakezun ere azalduko dizute.
+Pozik gaude berritzeko hiru faseetatik bigarrena iragartzeko Microsoft Dynamics 365 Project Service Automation Microsoft-era Dynamics 365 Project Operations. Artikulu honek ibilbide zirraragarri honetan hasten ari diren bezeroentzako ikuspegi orokorra eskaintzen du. 
 
 Berrikuntza emateko programa hiru fasetan banatuko da.
 
 | Berritu entrega | 1. fasea (2022ko urtarrila) | 2. fasea (2022ko azaroa) | 3. fasea (2023ko apirileko olatua)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Proiektuen lanaren banaketa egituraren (WBS) menpekotasunik ez | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| WBS gaur egun onartzen diren proiektuen eragiketen mugen barruan | | :heavy_check_mark: | :heavy_check_mark: |
-| WBS Project Operations-ek gaur egun onartzen dituen mugetatik kanpo, Project mahaigaineko bezeroaren laguntza barne | | | :heavy_check_mark: |
+| WBS bat Proiektu Eragiketen gaur egun onartzen diren mugen barruan | | :heavy_check_mark: | :heavy_check_mark: |
+| WBS bat Project Operations-ek gaur egun onartzen dituen mugetatik kanpo, Project mahaigaineko bezeroaren laguntza barne | | | :heavy_check_mark: |
 
 ## <a name="upgrade-process-features"></a>Berritu prozesuaren ezaugarriak 
 
-Bertsio-prozesuaren zati gisa, eguneratze-erregistroak gehitu ditugu guneko mapan, administratzaileek hutsegiteak errazago diagnostikatu ditzaten. Interfaze berriaz gain, baliozkotze-arau berriak gehituko dira eguneratze baten ondoren datuen osotasuna bermatzeko. Berritze-prozesuari ondorengo balioztapenak gehituko zaizkio.
+Bertsio-prozesuaren zati gisa, eguneratze-erregistroak gehitu ditugu gune-mapan, administratzaileek hutsegiteak errazago diagnostikatzeko aukera izan dezaten. Interfaze berriaz gain, baliozkotze-arau berriak gehituko dira eguneratze baten ondoren datuen osotasuna bermatzeko. Berritze-prozesuari ondorengo balioztapenak gehituko zaizkio.
 
 | Balioztatzeak | 1. fasea (2022ko urtarrila) | 2. fasea (2022ko azaroa) | 3. fasea  |
 |-------------|------------------------|---------------------------|---------------------------|
@@ -46,24 +46,31 @@ Bertsio-prozesuaren zati gisa, eguneratze-erregistroak gehitu ditugu guneko mapa
 | WBS proiektuaren mahaigaineko bezeroaren mug ezagunekin balioztatuko da. | |  | :heavy_check_mark: |
 | Erreserba daitezkeen baliabideak eta proiektuen egutegiak egutegi-arau bateraezin arrunten salbuespenen arabera ebaluatuko dira. | | :heavy_check_mark: | :heavy_check_mark: |
 
-2. fasean, Project Operations-era berritzen duten bezeroek lehendik dauden proiektuak irakurtzeko soilik izango dituzte proiektuak planifikatzeko. Irakurtzeko soilik den esperientzia honetan, WBS osoa ikusgai egongo da jarraipen-sarean. WBS editatzeko, proiektu-kudeatzaileek hauta dezakete **Bihurtu** nagusian **Proiektuak** orrialdea. Ondoren, atzeko planoko prozesu batek proiektua eguneratuko du, Project for Web-eko proiektuen programazio esperientzia berria onartzen duen. Fase hau egokia da barruan sartzen diren proiektuak dituzten bezeroentzat [Weberako Project-en muga ezagunak](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+2. fasean, Project Operations-era berritzen duten bezeroek lehendik dauden proiektuak irakurtzeko soilik izango dituzte proiektuak planifikatzeko. Irakurtzeko soilik den esperientzia honetan, WBS osoa ikusgai egongo da jarraipen-sarean. WBS editatzeko, proiektu-kudeatzaileek hauta dezakete [**Bihurtu**](/PSA-Upgrade-Project-Conversion.md) proiektuaren orrialde nagusian. Ondoren, atzeko planoko prozesu batek proiektua eguneratzen du, Project for Web-en proiektuaren programazio esperientzia berria onartzen duen. Fase hau egokia da barruan sartzen diren proiektuak dituzten bezeroentzat [Weberako Project-en muga ezagunak](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
 3. fasean, Project mahaigaineko bezeroaren euskarria gehituko da, aplikazio horretatik proiektuak editatzen jarraitu nahi duten bezeroen mesedetan. Hala ere, lehendik dauden proiektuak Weberako Proiektu berrira bihurtzen badira, gehigarrirako sarbidea desgaitu egingo da bihurtutako proiektu bakoitzeko.
 
 ## <a name="prerequisites"></a>Aurrebaldintzak
 
-1. faseko bertsio berritzeko eskubidea izateko, bezeroak irizpide hauek bete behar ditu:
+1. fasea berritzeko eskubidea izateko, irizpide hauek bete behar dituzu:
 
 - Xede-inguruneak ez du erregistrorik eduki behar **msdyn_projecttask** entitate.
-- Baliozko Project Operations lizentziak bezeroaren erabiltzaile aktibo guztiei esleitu behar zaizkie. 
-- Bezeroak eguneratze-prozesua balioztatu behar du produkzio-datuekin bat datorren datu-multzo adierazgarri bat duen produkzioa ez den ingurune batean gutxienez.
-- Xede-ingurunea Project Service Automation Update Release 41 (3.10.62.162) edo geroago eguneratu behar da.
+- Baliozko Project Operations lizentziak erabiltzaile aktibo guztiei esleitu behar zaizkie. 
+- Bertsio-prozesua balioztatu behar duzu produkzio-ingurunearekin bat datorren datu-multzo adierazgarri bat duen produkzioa ez den ingurune batean gutxienez.
+- Xede-ingurunea Project Service Automation Update Release 37 (V3.10.58.120) edo geroago eguneratu behar da.
 
-2. eta 3. faserako aurrebaldintzak eguneratuko dira erabilgarritasun-data orokorrak hurbildu ahala.
+2. fasea berritzeko eskubidea izateko, irizpide hauek bete behar dituzu:
+
+- Baliozko Project Operations lizentziak erabiltzaile aktibo guztiei esleitu behar zaizkie. 
+- Bertsio-prozesua balioztatu behar duzu produkzio-ingurunearekin bat datorren datu-multzo adierazgarri bat duen produkzioa ez den ingurune batean gutxienez.
+- Xede-ingurunea Project Service Automation Update Release 37 (V3.10.58.120) edo geroago eguneratu behar da.
+- Zereginak dituzten inguruneak (msdyn_projecttask) proiektu bakoitzeko zereginen kopuru osoa 500 edo txikiagoa bada soilik onartzen dira.
+
+3. faserako aurrebaldintzak eguneratuko dira erabilgarritasun data orokorra hurbildu ahala.
 
 ## <a name="licensing"></a>Lizentzia-ematea
 
-Project Service Automation-en lizentzia aktiboak badituzu, Project Service Automation-en gaitasun guztiak eta gehiago biltzen dituen Project Operations instalatu eta erabil dezakezu. Modu honetan, Project Operations-en gaitasunak probatu ditzakezu ekoizpenean Project Service Automation erabiltzen jarraitzen duzun bitartean. Zure Project Service Automation lizentziak iraungi ondoren, Project Operations-era igaro beharko duzu. Trantsizio hau planifikatzen duzunean, kontuan hartu behar duzu Project Operations lizentziak ez duela Project Service Automation lizentziarik.
+Project Service Automation-en lizentzia aktiboak badituzu, Project Service Automation-en gaitasun guztiak eta gehiago biltzen dituen Project Operations instalatu eta erabil dezakezu. Ondoren, Project Operations-en gaitasunak beste ingurune batean probatu ditzakezu ekoizpenean Project Service Automation erabiltzen jarraitzen duzun bitartean. Zure Project Service Automation lizentziak iraungi ondoren, Project Operations-era igaro beharko duzu. Trantsizio hau planifikatzen duzunean, kontuan hartu behar duzu Project Operations lizentziak ez duela Project Service Automation lizentziarik.
 
 ## <a name="testing-and-refactoring-customizations"></a>Pertsonalizazioak probatu eta birfactorizatzea
 
@@ -87,14 +94,23 @@ Proiektuaren Eragiketak garbi inportatzeko pertsonalizazioak eguneratu ondoren, 
 
     Berritzea amaitu ondoren, inguruneak Project Operations instalatuta dagoela eta Project Service Automation ez dagoela erakutsi beharko luke.
 
-    > [!NOTE]
-    > Inguruko datu-kopuruaren arabera, eguneratzeak hainbat ordu behar izan ditzake. Bertsio-berritzea kudeatzen ari den oinarrizko taldeak horren arabera planifikatu eta berritzea exekutatu beharko luke negozio-orduetan. Zenbait kasutan, datu-bolumena handia bada, eguneratzea asteburuan zehar exekutatu beharko litzateke. Programazioari buruzko erabakia ingurune baxuetan egindako proben emaitzetan oinarritu behar da.
+    Inguruko datu-kopuruaren arabera, eguneratzeak hainbat ordu behar izan ditzake. Bertsio-berritzea kudeatzen ari den oinarrizko taldeak horren arabera planifikatu eta berritzea exekutatu beharko luke negozio-orduetan. Zenbait kasutan, datu-bolumena handia bada, eguneratzea asteburuan zehar exekutatu beharko litzateke. Programazioari buruzko erabakia ingurune baxuetan egindako proben emaitzetan oinarritu behar da.
 
 3. Berritu irtenbide pertsonalizatuak egoki den moduan. Une honetan, zabaldu zure pertsonalizazioetan egin dituzun aldaketak [Pertsonalizazioak probatzea eta birfactorizazioa](#testing-and-refactoring-customizations) artikulu honen atala.
 4. Joan **Ezarpenak** \> **Irtenbideak**, eta hautatu desinstalatzeko **Proiektuaren Eragiketak Osagai zaharkituak** irtenbidea.
 
     Irtenbide hau eguneratzean dauden datu-eredua eta osagaiak gordetzen dituen aldi baterako irtenbidea da. Irtenbide hau kenduz gero, erabiltzen ez diren eremu eta osagai guztiak kenduko dituzu. Horrela, interfazea errazten eta integrazioa eta hedapena errazten lagunduko duzu.
     
+### <a name="upgrade-to-project-operations-lite"></a>Berritu Project Operations Lite-ra
+
+Pauso hauek bertsio berritzeko prozesua eta lotutako erroreen erregistroa deskribatzen dute:
+
+1. **PSA bertsioaren egiaztapena:** Project Operations instalatzeko, V3.10.58.120 edo handiagoa izan behar duzu.
+1. **Aurre-balioztapena:** Administratzaile batek bertsio berritzea hasten duenean, sistemak aurrebaliozkotze-eragiketa bat egiten du Project Operations irtenbidean oinarrizkoa den entitate bakoitzean. Urrats honek egiaztatzen du entitateen erreferentzia guztiak baliozkoak direla, eta WBSrekin erlazionatutako datuak Project for the Web-en argitaratutako mugen barruan daudela ziurtatzen du.
+1. **Metadatuak eguneratzea:** Aurrez baliozkotu ondoren, sistemak eskeman aldaketak hasten ditu eta zaharkitutako osagaien irtenbidea sortzen du. Zaharkitutako irtenbide hau ken dezakezu pertsonalizazioen birfactorizazio guztiak amaitu ondoren. Urrats hau berritze-prozesuaren zatirik luzeena da eta gehienez lau ordu behar izan ditzake burutzeko.
+1. **Datuen eguneratzea:** Metadatuak eguneratzeko urratsean beharrezkoak diren eskema-aldaketa guztiak osatu ondoren, zure datuak eskema berrira migratzen dira eta beharrezko lehenetsiak eta birkalkuluak egiten dira.
+1. **Proiektuaren egutegia motorra eguneratzea:** Datuak arrakastaz eguneratu ondoren, **Ordutegia** orrialde nagusiko fitxa berriro etiketatuta dago **Zereginak**. Erabiltzaile batek bertsio berritu ondoren fitxa hau hautatzen duenean, jarraipen-sarera nabigatzera bideratzen da WBS-ren irakurtzeko soilik den bertsio bat ikusteko. WBS editatzeko, programazioa hasi behar dute [bihurtze prozesua](/PSA-Upgrade-Project-Conversion.md). Aurrez existitzen den WBSrik gabeko proiektu guztiek zuzenean erabil dezakete programazio-esperientzia berria, bihurtu gabe.
+ 
 ### <a name="validate-common-scenarios"></a>Baliozkotu ohiko eszenatokiak
 
 Zure pertsonalizazio zehatzak baliozkotzen dituzunean, aplikazioetan onartzen diren negozio-prozesuak ere berrikustea gomendatzen dizugu. Negozio-prozesu hauek, besteak beste, salmenta-entitateak sortzea, hala nola aurrekontuak eta kontratuak, eta WBSak eta errealak onartzea barne hartzen duten proiektuak sortzea dira.
@@ -105,9 +121,9 @@ Atal honek Project Service Automation eta Project Operations artean espero ditza
 
 ### <a name="project-planning"></a>Proiektuaren antolaketa
 
-Project Operations-en proiektuak planifikatzeko gaitasunak jada ez dira bezeroaren aldeko logika eta zerbitzariaren konbinazio batean oinarritzen. Horren ordez, Project Operations-ek Weberako Project erabiltzen du programazio-motor gisa. Programazio-gaitasunen aldaketa honek hainbat ezaugarri berri ahalbidetzen ditu, hala nola, Board eta Gantt ikuspegiak, baliabideen araberako plangintza, [zereginen zerrendako elementuak](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c), eta proiektuak antolatzeko moduak. Programazio gaitasun berriak berri multzo aberats batek ere onartzen ditu [aplikazioak programatzeko interfazeak (APIak)](../project-management/schedule-api-preview.md). API hauek WBSn entitate bat sortzeko, eguneratzeko edo ezabatzeko eragiketa programatikorik programazioko kalkulatutako eremuak hondatzen ez dituela ziurtatzen dute.
+Project Operations-en proiektuak planifikatzeko gaitasunak jada ez dira bezeroaren aldeko logika eta zerbitzariaren konbinazio batean oinarritzen. Horren ordez, Project Operations-ek Weberako Project erabiltzen du programazio-motor gisa. Programazio-gaitasunen aldaketa honek hainbat funtzio berri ahalbidetzen ditu, hala nola, Board eta Gantt ikuspegiak, baliabideen araberako plangintza, [zereginen zerrendako elementuak](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c), eta proiektuak antolatzeko moduak. Programazio gaitasun berriak berri multzo aberats batek ere onartzen ditu [aplikazioak programatzeko interfazeak (APIak)](../project-management/schedule-api-preview.md). API hauek WBSn entitate bat sortzeko, eguneratzeko edo ezabatzeko eragiketa programatikorik programazioko kalkulatutako eremuak hondatzen ez dituela ziurtatzen dute.
 
-## <a name="billing-and-pricing"></a>Fakturazioa eta prezioak
+### <a name="billing-and-pricing"></a>Fakturazioa eta prezioak
 
 Proiektuen Eragiketetan etengabeko inbertsioen barruan, hainbat gaitasun berri daude eskuragarri Fakturazioan eta prezioetan. Hona hemen zenbait adibideak:
 
@@ -116,6 +132,10 @@ Proiektuen Eragiketetan etengabeko inbertsioen barruan, hainbat gaitasun berri d
 - [Aurrerakinak eta atxikipenetan oinarritutako kontratuak](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Kontratuaren egoera ez gainditzeko eta baliozkotzeak](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Zereginen araberako fakturazioa
+
+### <a name="resource-management"></a>Baliabideen kudeaketa
+
+Project Operations-ek aukerako laguntza eskaintzen du Universal Resource Scheduling (URS) taula eta programazio laguntzailea. Esperientzia berri hau derrigorrezkoa izango da 2023ko apirilean.
 
 ## <a name="frequently-asked-questions"></a>Ohiko galderak
 
@@ -136,5 +156,4 @@ Bi aukera daude Project Operations instalatzeko, bertsio berritzeko tresna erabi
 - Ingurune berri bat hornitzea.
 - Inplementatu Project Operations bereizita Project Service Automation ez dagoen edozein salmenta-erakundetan.
 
-> [!NOTE]
-> Project Service Automation erakunde batean instalatuta badago, baina erabili ez bada, desinstalatu egin daiteke. Project Service Automation erabat kendu ondoren, Project Operations erakunde berean instalatu daiteke.
+Project Service Automation erakunde batean instalatuta badago, baina erabili ez bada, desinstalatu egin daiteke. Project Service Automation erabat kendu ondoren, Project Operations erakunde berean instalatu daiteke.
