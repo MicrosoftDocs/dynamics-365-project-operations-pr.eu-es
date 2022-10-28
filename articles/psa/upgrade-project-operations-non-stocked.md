@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
-ms.translationtype: HT
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686960"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709429"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Berritu-berritu Project Service Automation-etik Project Operations-era
 
@@ -70,7 +70,7 @@ Bertsio-prozesuaren zati gisa, eguneratze-erregistroak gehitu ditugu gune-mapan,
 
 ## <a name="licensing"></a>Lizentzia-ematea
 
-Project Service Automation-en lizentzia aktiboak badituzu, Project Service Automation-en gaitasun guztiak eta gehiago biltzen dituen Project Operations instalatu eta erabil dezakezu. Ondoren, Project Operations-en gaitasunak beste ingurune batean probatu ditzakezu ekoizpenean Project Service Automation erabiltzen jarraitzen duzun bitartean. Zure Project Service Automation lizentziak iraungi ondoren, Project Operations-era igaro beharko duzu. Trantsizio hau planifikatzen duzunean, kontuan hartu behar duzu Project Operations lizentziak ez duela Project Service Automation lizentziarik.
+Project Service Automation-en lizentzia aktiboak badituzu, Project Service Automation-en gaitasun guztiak eta gehiago biltzen dituen Project Operations instalatu eta erabil dezakezu. Modu honetan, Project Operations-en gaitasunak probatu ditzakezu ekoizpenean Project Service Automation erabiltzen jarraitzen duzun bitartean. Zure Project Service Automation lizentziak iraungi ondoren, Project Operations-era igaro beharko duzu. Trantsizio hau planifikatzen duzunean, kontuan hartu behar duzu Project Operations lizentziak ez duela Project Service Automation lizentziarik. Project Service Automation inplementatu duten eta Project Operations-era pasatzeko asmoa duten bitartean PSA lizentziak erabiltzen jarraitu edo handitzen jarraitu behar duten bezeroek aldi baterako PSA lizentziak eska ditzakete Project Operations-ek erositako lizentzietan oinarrituta. Project Service Automation lizentzia bat emango da Project Operations lizentzia baterako. Aldi baterako PSA lizentziak esteka hau erabiliz eska daitezke: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Pertsonalizazioak probatu eta birfactorizatzea
 
@@ -96,7 +96,7 @@ Proiektuaren Eragiketak garbi inportatzeko pertsonalizazioak eguneratu ondoren, 
 
     Inguruko datu-kopuruaren arabera, eguneratzeak hainbat ordu behar izan ditzake. Bertsio-berritzea kudeatzen ari den oinarrizko taldeak horren arabera planifikatu eta berritzea exekutatu beharko luke negozio-orduetan. Zenbait kasutan, datu-bolumena handia bada, eguneratzea asteburuan zehar exekutatu beharko litzateke. Programazioari buruzko erabakia ingurune baxuetan egindako proben emaitzetan oinarritu behar da.
 
-3. Berritu irtenbide pertsonalizatuak egoki den moduan. Une honetan, zabaldu zure pertsonalizazioetan egin dituzun aldaketak [Pertsonalizazioak probatzea eta birfactorizazioa](#testing-and-refactoring-customizations) artikulu honen atala.
+3. Berritu irtenbide pertsonalizatuak egoki den moduan. Une honetan, zabaldu zure pertsonalizazioetan egin dituzun aldaketak [Pertsonalizazioak probatu eta birfactorizatzea](#testing-and-refactoring-customizations) artikulu honen atala.
 4. Joan **Ezarpenak** \> **Irtenbideak**, eta hautatu desinstalatzeko **Proiektuaren Eragiketak Osagai zaharkituak** irtenbidea.
 
     Irtenbide hau eguneratzean dauden datu-eredua eta osagaiak gordetzen dituen aldi baterako irtenbidea da. Irtenbide hau kenduz gero, erabiltzen ez diren eremu eta osagai guztiak kenduko dituzu. Horrela, interfazea errazten eta integrazioa eta hedapena errazten lagunduko duzu.
@@ -106,9 +106,9 @@ Proiektuaren Eragiketak garbi inportatzeko pertsonalizazioak eguneratu ondoren, 
 Pauso hauek bertsio berritzeko prozesua eta lotutako erroreen erregistroa deskribatzen dute:
 
 1. **PSA bertsioaren egiaztapena:** Project Operations instalatzeko, V3.10.58.120 edo handiagoa izan behar duzu.
-1. **Aurre-balioztapena:** Administratzaile batek bertsio berritzea hasten duenean, sistemak aurrebaliozkotze-eragiketa bat egiten du Project Operations irtenbidean oinarrizkoa den entitate bakoitzean. Urrats honek egiaztatzen du entitateen erreferentzia guztiak baliozkoak direla, eta WBSrekin erlazionatutako datuak Project for the Web-en argitaratutako mugen barruan daudela ziurtatzen du.
+1. **Aurre-balioztapena:** Administratzaile batek bertsio berritzea hasten duenean, sistemak aurrebaliozkotze-eragiketa bat exekutatzen du Project Operations irtenbidean oinarrizkoa den entitate bakoitzean. Urrats honek egiaztatzen du entitateen erreferentzia guztiak baliozkoak direla, eta WBSrekin erlazionatutako datuak Project for the Web-en argitaratutako mugen barruan daudela ziurtatzen du.
 1. **Metadatuak eguneratzea:** Aurrez baliozkotu ondoren, sistemak eskeman aldaketak hasten ditu eta zaharkitutako osagaien irtenbidea sortzen du. Zaharkitutako irtenbide hau ken dezakezu pertsonalizazioen birfactorizazio guztiak amaitu ondoren. Urrats hau berritze-prozesuaren zatirik luzeena da eta gehienez lau ordu behar izan ditzake burutzeko.
-1. **Datuen eguneratzea:** Metadatuak eguneratzeko urratsean beharrezkoak diren eskema-aldaketa guztiak osatu ondoren, zure datuak eskema berrira migratzen dira eta beharrezko lehenetsiak eta birkalkuluak egiten dira.
+1. **Datuen eguneratzea:** Metadatuak eguneratzeko urratsean beharrezkoak diren eskema-aldaketa guztiak burutu ondoren, zure datuak eskema berrira migratzen dira eta beharrezko lehenetsiak eta birkalkuluak egiten dira.
 1. **Proiektuaren egutegia motorra eguneratzea:** Datuak arrakastaz eguneratu ondoren, **Ordutegia** orrialde nagusiko fitxa berriro etiketatuta dago **Zereginak**. Erabiltzaile batek bertsio berritu ondoren fitxa hau hautatzen duenean, jarraipen-sarera nabigatzera bideratzen da WBS-ren irakurtzeko soilik den bertsio bat ikusteko. WBS editatzeko, programazioa hasi behar dute [bihurtze prozesua](/PSA-Upgrade-Project-Conversion.md). Aurrez existitzen den WBSrik gabeko proiektu guztiek zuzenean erabil dezakete programazio-esperientzia berria, bihurtu gabe.
  
 ### <a name="validate-common-scenarios"></a>Baliozkotu ohiko eszenatokiak
@@ -153,7 +153,7 @@ Project Operations-ek aukerako laguntza eskaintzen du Universal Resource Schedul
 
 Bi aukera daude Project Operations instalatzeko, bertsio berritzeko tresna erabilgarri egon aurretik:
 
-- Ingurune berri bat hornitzea.
+- Ingurune berri bat eskaintzea.
 - Inplementatu Project Operations bereizita Project Service Automation ez dagoen edozein salmenta-erakundetan.
 
 Project Service Automation erakunde batean instalatuta badago, baina erabili ez bada, desinstalatu egin daiteke. Project Service Automation erabat kendu ondoren, Project Operations erakunde berean instalatu daiteke.
