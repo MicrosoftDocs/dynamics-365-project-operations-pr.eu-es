@@ -286,11 +286,13 @@
           href: project-management/define-project-calendars.md
         - name: Antolaketa moduak
           href: project-management/scheduling-modes.md
+        - name: Kanpoko antolaketa
+          href: project-management/external-scheduling.md
         - name: Eguneratu proiektu bat
           href: project-management/update-project.md
         - name: Kopiatu proiektu bat
           href: project-management/copy-project.md
-        - name: Zereginen xehetasunen egituraren antolaketa
+        - name: Atazen xehapenaren egituraren antolaketa
           items:
             - name: Sortu zereginen xehetasunen egitura
               href: project-management/create-wbs.md
@@ -914,11 +916,13 @@
           href: project-management/define-project-calendars.md
         - name: Antolaketa moduak
           hreF: project-management/scheduling-modes.md
+        - name: Kanpoko antolaketa
+          href: project-management/external-scheduling.md
         - name: Eguneratu proiektu bat
           href: project-management/update-project.md
         - name: Kopiatu proiektu bat
           href: project-management/copy-project.md
-        - name: Zereginen xehetasunen egituraren antolaketa
+        - name: Atazen xehapenaren egituraren antolaketa
           items:
             - name: Sortu zereginen xehetasunen egitura
               href: project-management/create-wbs.md
