@@ -1,6 +1,6 @@
 ---
 title: Sortu denbora-sarrerak
-description: Artikulu honetan denbora-sarrerak nola sortu behar den ematen da.
+description: Gai honek denbora sarrerak sortzeari buruzko informazioa ematen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice

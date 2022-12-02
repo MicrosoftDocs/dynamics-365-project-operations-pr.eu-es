@@ -1,6 +1,6 @@
 ---
 title: Project Operations eremuak prezio-dimentsio gisa
-description: Artikulu honek informazioa eskaintzen du prezioen dimentsio gisa eremuak erabiliz Dynamics 365 Project Operations.
+description: Gai honek Dynamics 365 Project Operations-en eremuak prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Proiektuen denbora eta material proiektuen salmenta aginduak
-description: Artikulu honetan, denbora eta material proiektuetarako proiektuetan oinarritutako salmenta-eskaerak nola sortu azaltzen da.
+description: Gai honetan proiektuetan oinarritutako salmenta aginduak nola sortu azaltzen da denbora eta proiektu materialetarako.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8933799"
 
 [!include[banner](../includes/banner.md)]
 
-Artikulu honetan, proiektu baterako bezero-eskaera bat nola sortu azaltzen da. Salmenta aginduak motako proiektuetarako bakarrik sor daitezke **denbora eta materiala**.
+Gai honetan proiektu baten salmenta eskaera nola sortu azaltzen da. Salmenta aginduak motako proiektuetarako bakarrik sor daitezke **denbora eta materiala**.
 
 Denbora eta material proiektu batek proiektuaren kontratuan finantzaketa iturri ugari baditu, gaitu behar duzu **Baimendu diru iturri anitz dituzten proiektuen salmenta aginduak** parametroa **Proiektuen kudeaketa eta kontabilitate parametroak** orrialdea. 
 

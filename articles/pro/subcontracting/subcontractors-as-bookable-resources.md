@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu azpikontratatzaileak baliabide erreserbagarri gisa
-description: Artikulu honek sistemako erabiltzaileetatik eta kontaktuetatik sortzen diren azpikontratetako baliabideak nola konfiguratu eta mantentzen azaltzen du, Microsoft-en azpikontratekin lotu ahal izateko Dynamics 365 Project Operations.
+description: Gai honetan azaltzen da sisteman erabiltzaile eta kontaktuetatik sortutako azpikontratazio baliabideak nola konfiguratu eta mantendu, azpikontratekin lotu ahal izateko Microsoft Dynamics 365 Project Operations-en.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

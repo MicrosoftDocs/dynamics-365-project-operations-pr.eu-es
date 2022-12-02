@@ -1,6 +1,6 @@
 ---
-title: Aldez aurretik onartutako izen-emateen onarpena bertan behera uztea
-description: Artikulu honetan azaltzen da nola proiektu-kudeatzaile batek bertan behera utzi dezakeen aldez aurretik onartutako denbora-sarreren, gastuen edo materialaren erabileraren onarpena.
+title: Utzi aurretik onartutako sarreren onarpena
+description: Artikulu honek proiektu-kudeatzaile batek aldez aurretik onartutako denbora, gastu edo material-erabileraren sarreren onarpena nola bertan behera utzi dezakeen azaltzen du.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -13,35 +13,35 @@ ms.contentlocale: eu-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8930441"
 ---
-# <a name="cancel-the-approval-of-previously-approved-entries"></a>Aldez aurretik onartutako izen-emateen onarpena bertan behera uztea
+# <a name="cancel-the-approval-of-previously-approved-entries"></a>Utzi aurretik onartutako sarreren onarpena
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Proiektu-kudeatzaile batek edo aldez aurretik denbora-sarrerak, gastuak edo materialen erabilera onartu duenak sarrera horien onarpena bertan behera ezta dezake. 
+Proiektu-kudeatzaile edo onartzaile batek aldez aurretik onartutako denbora, gastu edo material-erabileraren sarreren onarpena bertan behera utzi dezake. 
 
-Jarraitu urrats horiek, aldez aurretik onartutako denbora-sarrera, gastu edo materialaren erabileraren onarpena bertan behera uzteko.
+Jarraitu urrats hauei aurretik onartutako denbora, gastuo edo materialaren erabilera sarreraren onarpena uzteko.
 
 1. Joan **Proiektuak** \> **Nire lana** \> **Onartutakoak** atalera.
-2. **Onarpenen zerrenda-orriak** onartu zain dauden denbora-sarrera guztiak erakusten ditu. Alda ezazu nire aurreko onarpenei **begiratua**.
-3. Ezeztatu nahi duzun materialen denbora, gastua edo onarpenak hautatu. Ondoren, ekintza-panelean, aukeratu **onespena**.
-4. Agertzen den baieztapen-mezuaren koadroan, eragiketa baieztatzeko aukera **.**
+2. **Onarpenak** zerrenda orrialdeak onarpenaren zain dauden denbora-sarrera guztiak erakusten ditu. Aldatu ikuspegia hona **Nire iraganeko onespenak**.
+3. Hautatu bertan behera utzi nahi dituzun denbora, gastu edo material-onarpenak. Ondoren, Ekintza panelean, hautatu **Utzi onarpena**.
+4. Agertzen den berrespen mezu-koadroan, hautatu **Ados** eragiketa berresteko.
 
 > [!IMPORTANT]
-> Ezin du bertan behera utzi bezeroari fakturatu zaion denbora, gastu eta materialaren erabileraren onarpena. Saiatuz gero, mezu bat jasoko du, eta, bertan, onarpena ezin dela bertan behera utzi adieraziko du, fakturatu egin zelako. Kasu horretan, onarpena kita dezake, baldin eta faktura zuzentzaile bat erabiltzen bada kreditu oso bat jaulkitzeko edo bezeroari jatorrizko fakturan itzulketa bat egiteko.
+> Ezin duzu utzi bertan behera lehen onartutako fakturatu zaion denbora, gastu edo material-erabileraren sarrera batentzat. Saiatzen bazara, onarpena ezin dela utzi adierazten duen mezu bat jasoko du, jada fakturatu delako. Kasu honetan, sarreraren onarpena utzi dezakezu jatorrizko fakturan bezeroari kreditu osoa edo itzulketa osoa emateko faktura zuzentzailea erabiltzen bada soilik.
 
-## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Aldez aurretik onartutako sarrera baten onarpena bertan behera uztearen eragina
+## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Aurretik onartutako sarrera bat bertan behera uzteak eragina
 
 Onarpena bertan behera uzten denean, bai eragiketa-eragina eta bai finantza-eragina daude.
 
 ### <a name="operational-impact"></a>Eragile operazionala
 
-Sarrera baten onarpena ezeztatzen bada, onarpen-erregistroa bidali gisa **markatuko da**. Sarreraren egoera aldatu **egiten** da. Etapa honetan, proiektuko lantaldeko kide batek sarrera berreskuratu dezake erretiratzeko eskaerarik bidali gabe.
+Sarrera baten onespena bertan behera uzten bada, onespen-erregistroa honela markatuko da **Aurkeztua**. Sarreraren egoera honela aldatu da **Aurkeztua**. Etapa honetan, proiektuko taldekide batek sarrera gogoratu dezake gogoratzeko eskaerarik aurkeztu gabe.
 
-Onarpen-enpresak fakturazio-balioak **eta** **fakturazio-mota** alda ditzake, eta, ondoren, sarrera beste behin ere onar dezake.
+Onartzaileak alda dezake **Fakturatu beharreko kantitatea** eta **Fakturazio mota** balioak eta, ondoren, onartu sarrera beste behin.
 
 ### <a name="financial-impact"></a>Eragin ekonomikoa
 
-Sarrera baten onarpena balioeztatzen bada, kostuari eta salmentei dagozkien datu errealak honela eguneratzen dira:
+Sarreraren onarpena uzten bada, kostuari eta salmentei dagozkien datu errealak era honetara eguneratzen dira:
 
 - **Doikuntzaren egoera** eremua **Doituta** eremura eguneratzen da.
 - **Fakturazio-egoera** eremua **Bertan behera utzita** eremura eguneratzen da.

@@ -1,6 +1,6 @@
 ---
 title: Kudeatu proiektuaren fakturazioaren lan atzeratua
-description: Artikulu honek proiektuetako fakturazio-atzerapena kudeatzeko erabil daitezkeen ikuspegi ezberdinei buruzko informazioa eskaintzen du.
+description: Gai honek proiektuetan fakturazio-zorroa kudeatzeko erabilgarri dauden hainbat ikuspegiri buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

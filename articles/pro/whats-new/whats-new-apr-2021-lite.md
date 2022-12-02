@@ -1,6 +1,6 @@
 ---
 title: 2021eko apirileko berritasunak - Project Operations lite-n inplementazioa
-description: Artikulu honek Project Operations lite inplementazioaren 2021eko apirileko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du.
+description: Gai honek 2021eko apirileko Project Operations lite inplementazioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 04/07/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8931224"
 
 _Honi aplikatzen zaio: Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
+Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
   - Project Operations Dataverse ingurunearen 4.9.0.221 bertsioa 
 

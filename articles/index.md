@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Project Operations
-description: Artikulu honek Dynamics 365 Project-en eragiketei buruzko informazioa eskaintzen du.
+description: Gai honek informazioa eskaintzen du Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 09/16/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0cda9df5b04e96dc347976d328a87739a48ac8a7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f802583a60eec45a9fd4d1e28e1aeafe03f3218a
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924415"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736698"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
@@ -37,7 +37,7 @@ Project Operations berez indartsuak dira, baina Dynamics 365-etik gaitasun gehia
 Honi buruzko informazio gehiago ikusi hemen:
 
 - [Project Operations-en ikuspegi orokorra](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Dynamics 365 Project Operations 2022 bertsioaren 1. zatiaren ikuspegi orokorra](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-project-operations/)
+- [Dynamics 365 Project Operations 2022 bertsioaren 2. zatiaren ikuspegi orokorra](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-project-operations/)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

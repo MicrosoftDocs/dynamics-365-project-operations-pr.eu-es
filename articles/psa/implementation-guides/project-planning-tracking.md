@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren antolaketa eta jarraipena
-description: Artikulu honek esteka bat eskaintzen du Project Service Automation-en plangintzari eta jarraipenari buruzko informaziorako.
+description: Gai honek Project Service Automation-en antolatzeari eta jarraipena egiteari buruzko informazioa lortzeko esteka eskaintzen du.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8933247"
 
 Project Service aplikazioak zerbitzuko erakunde horiei aukerak identifikatzen, eskaintzak bidaltzen, kontratuen akordioak lortzen, baliabideak kudeatzen, denboraren eta gastuen jarraipena egiten, bezeroak fakturatzen eta proiektuak aurrekontu eta denbora barruan ematen laguntzen die. 
 
-Artikulu honetan lehenago zegoen PDF esteka kendu egin da eta edukia artikulu hauetara eraman da:
+Gai honetan aurretik zegoen PDF esteka kendu da eta edukia honako gai hauetara eraman da:
 
 - [Proiektuen antolaketa](../project-creating.md)
 - [Proiektuaren kostuak eta diru-sarrerak](../project-estimating.md)
@@ -43,7 +43,7 @@ Artikulu honetan lehenago zegoen PDF esteka kendu egin da eta edukia artikulu ha
 - [Proiektuaren ezarpenak](../project-settings.md)
 
 > [!NOTE]
-> Artikulu hau etorkizuneko dokumentazio eguneratze batean kenduko da. 
+> Gai hau etorkizuneko dokumentazio-eguneratze batean kenduko da. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

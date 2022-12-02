@@ -1,6 +1,6 @@
 ---
 title: Sortu baliabide-esleipenak
-description: Artikulu honetan, baliabide generikoen eta izenaren esleipenak nola sortu behar den ematen da.
+description: Gai honek baliabideen esleipen generikoak eta izendatuak sortzeari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: ruhercul
 ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
 ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: eu-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8933477"
@@ -18,7 +18,7 @@ ms.locfileid: "8933477"
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 
-Baliabideen esleipena proiektuko taldeko kide batek hosto nodo zeregin batera zuzenean lotzea da. Artikulu honetan, baliabideak esleitzeko moduei buruzko informazioa ematen da.
+Baliabideen esleipena proiektuko taldeko kide batek hosto nodo zeregin batera zuzenean lotzea da. Gai honek baliabideak esleitzeko modu desberdinei buruzko informazioa ematen du.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Sortu zeregin-esleipenaren bidez taldeko kide orokor bat
 

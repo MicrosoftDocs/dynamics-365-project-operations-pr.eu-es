@@ -1,6 +1,6 @@
 ---
 title: Aldi motak
-description: Artikulu honek diru-sarreren estimaziorako aldi motak konfiguratzeari buruzko informazioa eskaintzen du.
+description: Gai honek diru-sarreren aurreikuspenen aldi motak konfiguratzeko informazioa ematen du.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8930947"
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Epe mota batek proiektu bateko diru sarrerak zenbatetan kalkulatzen diren definitzen du. Artikulu honek diru-sarreren estimaziorako aldi motak konfiguratzeari buruzko informazioa eskaintzen du. 
+Epe mota batek proiektu bateko diru sarrerak zenbatetan kalkulatzen diren definitzen du. Gai honek diru-sarreren aurreikuspenen aldi motak konfiguratzeko informazioa ematen du. 
 
 ## <a name="create-and-work-with-period-types"></a>Aldi motak sortu eta horiekin lan egin
 Garai motak sortzeko eta lantzeko, jarraitu urrats hauek:
 
-1. Zure Dynamics 365 Finance ingurunean, joan hona **Proiektuen kudeaketa eta kontabilitatea** > **Konfigurazioa** > **Estimazioak** > **Aldi motak**.
+1. Dynamics 365 Finance ingurunea, joan **Proiektuen kudeaketa eta kontabilitatea** > **Konfigurazioa** > **Aurrekontuak** > **Garai motak**.
 2. Hautatu **Berria**, aldi mota berria sortzeko. Idatzi izena eta deskribapena.
 3. **Maiztasuna** eremuan, hautatu balio bat:
 

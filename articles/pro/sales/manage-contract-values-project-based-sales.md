@@ -1,6 +1,6 @@
 ---
 title: Proiektuetan oinarritutako kontratuaren lerroen ikuspegi orokorra
-description: Artikulu honetan, proiektuetan oinarritutako kontratu-ildoekin nola lan egin ematen da.
+description: Gai honek proiektuan oinarritutako kontratu lerroekin lan egiteari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview

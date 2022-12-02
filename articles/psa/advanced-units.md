@@ -1,6 +1,6 @@
 ---
 title: Salmenta-unitateak eta unitateak
-description: Artikulu honetan unitate eta unitate taldeei buruzko informazioa ematen da.
+description: Gai honek salmenta-unitate eta unitateei buruzko informazioa ematen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice

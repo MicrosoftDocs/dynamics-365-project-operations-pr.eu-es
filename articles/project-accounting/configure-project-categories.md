@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu proiektu-kategoriak
-description: Artikulu honetan, proiektu-kategoriak nola konfiguratu behar diren ematen da.
+description: Gai honek proiektuaren kategoriak konfiguratzeari buruzko informazioa ematen du.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -35,7 +35,7 @@ Transakzio kategoriak Project Operations moduluan definitzen dira.
 
 ## <a name="shared-categories"></a>Partekatutako kategoriak
 
-Dynamics 365 kontzeptuak kategoria partekatuak erabiltzen ditu hainbat aplikaziotan gastuak sailkatzeko, hala nola Dynamics 365 Finance, Dynamics 365 Supply Chain eta Dynamics 365 Project Operations. Sortutako Transakzio-kategoria bakoitzerako, Project Operations-ek erlazionatutako lau kategoria partekatu sortzen dituzte automatikoki: Orduak, Gastuak, Tasak eta Elementua. Partekatutako kategoriak berrikusi eta doitu ditzakezu hona joan **Proiektuen kudeaketa eta kontabilitatea** \> **Konfigurazioa** \> **Kategoriak** \> **Kategoria partekatuak** aukerara.
+Dynamics 365-ek Partekatutako kategoriak kontzeptua erabiltzen du gastuak aplikazio desberdinetan sailkatzeko, adibidez Dynamics 365 Finance, Dynamics 365 Supply Chain, eta Dynamics 365 Project Operations. Sortutako Transakzio-kategoria bakoitzerako, Project Operations-ek erlazionatutako lau kategoria partekatu sortzen dituzte automatikoki: Orduak, Gastuak, Tasak eta Elementua. Partekatutako kategoriak berrikusi eta doitu ditzakezu hona joan **Proiektuen kudeaketa eta kontabilitatea** \> **Konfigurazioa** \> **Kategoriak** \> **Kategoria partekatuak** aukerara.
 
 ## <a name="project-categories"></a>Proiektu-kategoriak
 

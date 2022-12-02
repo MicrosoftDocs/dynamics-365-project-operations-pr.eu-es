@@ -1,6 +1,6 @@
 ---
 title: Azpikontratuaren lerroak gastuen kategorien arabera
-description: Artikulu honek gastuetarako azpikontratazio-lerroak nola erregistratu eta saltzaileei denbora-erosketa erregistratzeko eremuak nola erabili azaltzen du.
+description: Gai honetan produktuen azpikontratazio lerroak nola grabatu eta saltzaileek denbora erosketak erregistratzeko eremu desberdinak nola erabili azaltzen da.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

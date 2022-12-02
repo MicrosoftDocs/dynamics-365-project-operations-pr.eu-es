@@ -1,6 +1,6 @@
 ---
 title: Finantza-dimentsio lehenetsiak
-description: Artikulu honetan, finantza-dimentsioko aurrez zehaztutako balioak nola konfiguratu behar diren ematen da.
+description: Gai honek dimentsio finantzarioaren lehenespenak konfiguratzeko moduari buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 
 
-Dynamics 365 Project Operations [Dynamics](/dynamics365/finance/general-ledger/financial-dimensions) 365 Finance-ko finantza-dimentsioen esparrua erabiltzen du, proiektuen sublibrotearen eta liburu nagusiaren transakzioei buruzko informazio gehigarria emateko.
+Dynamics 365 Project Operations-ek erabiltzen du Dynamics 365 Finance-ko [Finantza-dimentsioak](/dynamics365/finance/general-ledger/financial-dimensions) esparrua proiektu gehigarrien eta liburu nagusien transakzioen inguruko informazio osagarria eskaintzeko.
 
 Finantza dimentsio lehenetsiak bezero, proiektuaren finantzaketa iturri, mugarri, proiektu kontratu lerro edo proiektu batean ezar daitezke.
 

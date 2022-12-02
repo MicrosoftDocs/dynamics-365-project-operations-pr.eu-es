@@ -1,6 +1,6 @@
 ---
 title: Mugikorreko gastuen aplikazioa
-description: Artikulu honek Gastuen kudeaketa mugikorreko lan-eremuari buruzko informazioa eskaintzen du.
+description: Artikulu hori emateko informazioa buruz Gastuaren kudeaketaren mugikorreko laneko area.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8930211"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Artikulu honek honi buruzko informazioa eskaintzen du **Gastuen kudeaketa** laneko gune mugikorra. Laneko espazio horri esker, erabiltzaileek ordainagiria harrapatu eta kargatu dezakete, gero gastu-txosten batera erantsi ahal izateko. Erabiltzaileek ere azkar sor dezakete gastu lerro bat erantsitako ordainagiria erabiliz eta beren gastuen txostenak sortu eta kudeatu ditzakete. Gainera, onartzaileek **Gastuen kudeaketa** mugikorreko lan eremua, esleitzen zaizkien gastuen txostenak ikusteko eta gastu-txosten horiek onartzeko edo baztertzeko.
+Artikulu hori emateko informazioa buruz **Gastuaren kudeaketaren** mugikorreko laneko area. Laneko espazio horri esker, erabiltzaileek ordainagiria harrapatu eta kargatu dezakete, gero gastu-txosten batera erantsi ahal izateko. Erabiltzaileek ere azkar sor dezakete gastu lerro bat erantsitako ordainagiria erabiliz eta beren gastuen txostenak sortu eta kudeatu ditzakete. Gainera, onartzaileek **Gastuen kudeaketa** mugikorreko lan eremua, esleitzen zaizkien gastuen txostenak ikusteko eta gastu-txosten horiek onartzeko edo baztertzeko.
 
 Mugikorretarako lan-espazio hau Dynamics 365 Unified Ops mugikorretarako aplikazioarekin erabiltzeko pentsatuta dago.
 
@@ -47,7 +47,7 @@ Eginbide hauek ere erabil ditzakezu:
 - Bidali gastu txostena onartzeko eta itzultzeko.
 - Onartu edo ukatu esleitutako onartzailea zaren gastuen txostenak.
 
-## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Dynamics 365 Finance erabiltzen baduzu aurrebaldintzak
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Aurrebaldintzak Dynamics 365 Finance erabiltzen baduzu
 
 Finantzak zure erakundean hedatu badira, sistemaren administratzaileak argitaratu beharko du **Gastuen kudeaketa** mugikorreko lan eremua. 
 
@@ -100,7 +100,7 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 
 10. Hautatu **Eginda**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Gastuei buruzko txosten bat onartzea lan-arlo mugikorraren bidez, gastuen administrazioa
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Onartu gastuen txostena Gastuak kudeatzeko mugikorreko lan eremua erabiliz
 
 1. Zure gailu mugikorrean, ireki **Gastuen kudeaketa** lan eremua.
 2. **Gastuen onarpenak** onarpenerako esleitzen zaizkizun gastuen txostenak erakusten ditu. Zenbakia 30 minuturo eguneratzen da gutxi gorabehera. Aukeratu **Gastuen onarpenak**.
@@ -113,7 +113,7 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 6. Sartu iruzkinak onarpen ekintzarako.
 7. Hautatu **Eginda**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Gastuei buruzko txosten berri bat sortzen du eta lan-arlo mugikorraren bidez onar dezan bidaliko du.
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Sortu gastuen txosten bat eta bidali onartzeko, Gastuak kudeatzeko mugikorreko lan eremua erabiliz
 
 1. Zure gailu mugikorrean, ireki **Gastuen kudeaketa** lan eremua.
 2. Aukeratu **Gastuen sarrera**.
@@ -204,28 +204,28 @@ Deskargatu eta instalatu Dynamics 365 Unified Ops mugikorretarako aplikazioa:
 
 ## <a name="frequently-asked-questions"></a>Ohiko galderak
 
-### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Zergatik ez du Expense aplikazio mugikorrak ordainketa-metodoa aurrez zehaztuta sartzen?
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Zergatik ez du ordainketa-metodoa lehenespenez sartzen Expense aplikazio mugikorrak?
 
-Erakundeek gastu-kategoria bakoitzerako aurrez zehaztutako ordainketa-metodoaren **konfigurazioa** pertsonalizatu dezakete, sortzen den neurrian. Gainera, ordainketa-metodoak konfiguratzean, aurrez zehaztutako ordainketa-metodoa **ezar** **dezake soilik inportatzeko**.
+Erakundeek pertsonalizatu dezakete **Ordainketa-metodo lehenetsia** gastu-kategoria bakoitzerako ezarpena sortu ahala. Gainera, ordainketa-metodoak konfiguratzen dituzunean, ezar dezakezu **Ordainketa-metodo lehenetsia** eremura **Inportatu bakarrik**.
 
-Inportatzea ordainketa-metodo baterako bakarrik **gaituta dagoenean**, ordainketa-metodoa ez da aurrez zehaztutako moduan sartzen. Ordainketa-metodo hori konfiguratzen den gastu-kategorietan egongo da zuri. Jokabide hori koherentea da bai web esperientzian, bai esperientzia mugikorrean.
+**Inportatu bakarrik** ordainketa-metodo baterako gaituta dago, ordainketa-metodoa ez da lehenespenez sartzen. Ordainketa-metodo hau ezarrita dagoen gastu-kategorietan hutsik egongo da. Jokaera hau koherentea da bai web-esperientzian eta baita mugikorreko esperientzian ere.
     
-Inportatzea ordainketa-metodo baterako bakarrik **gaituta ez dagoenean**, ezarritako balioa ordainketa-metodo hori konfiguratuta dagoen gastu-kategorietarako aurrez zehaztutako moduan sartzen da. Hala ere, badago arazo ezagun bat, non aurrez zehaztutako balioa ez den Expense aplikazio mugikorrean sartzen. Arazo hori saihesteko, gastuen txostena gorde aurretik ordainketa-metodo bat eskuz aukeratu. 
+**Inportatu bakarrik** ez dago gaituta ordainketa-metodo baterako, ezarritako balioa lehenespenez sartzen da ordainketa-metodo hau konfiguratuta dagoen gastu-kategorietarako. Hala ere, arazo ezagun bat dago, non balio lehenetsia ez den Gastu mugikorrerako aplikazioan sartzen. Arazo honi aurre egiteko, hautatu eskuz ordainketa-metodo bat gastuen txostena gorde aurretik. 
 
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Zergatik ezin ditut finantza-dimentsioak gehitu edo editatu Expense aplikazio mugikorrean?
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Zergatik ezin ditut gehitu edo editatu finantza-dimentsioak Expense mugikorrerako aplikazioan?
 
-Ez da onartzen dimentsioak eta banaketak sartzea. Muga hori saihesteko, eremu horiek aurrez zehaztuta ezar ditzakezu aplikazio mugikorrean, eta proiektu edo enplegatu bakoitzeko aurrez zehaztutako finantza-dimentsioak konfiguratu ditzake.
+Ez da onartzen dimentsioak eta banaketak sartzea. Muga horri aurre egiteko, eremu hauek lehenespenez ezarri ditzakezu mugikorreko aplikazioan, proiektu edo langile bakoitzeko finantza-dimentsio lehenetsiak ezarriz.
 
-### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Zergatik ikusten dut batzuetan sinkronizazio akats bat Expense aplikazio mugikorrean?
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Zergatik ikusten dut batzuetan sinkronizazio-errore bat Expense aplikazio mugikorrean?
 
-Gastu-lineek zuzentarauaren baldintzak betetzen ez badituzte eta erabiltzaileak gastuen txostena bidaltzen badu zuzentarau-oharrari heldu gabe, datu mugikorrak ez dira zerbitzariarekin sinkronizatzen eta sinkronizazio-akats bat gertatzen da. Sinkronizazio-akats bat gertatu ondoren bidaltzen diren gastu-txosten guztiak oker egongo dira eta sinkronizazio-akats gehiago eragingo dituzte. Egoera hau konpontzeko modu bakarra sinkronizazio jakinarazpenak eskuz ezabatzea da. Arazo hori konpondu egin da, eta gastu-txostenak bidaltzeari uko egin zaio, zuzentarau-oharrak konpondu ez direnean, sinkronizazio-akatsak saihesteko.
+Gastu-lerroek politika-eskakizunak betetzen ez baditu eta erabiltzaileak gastu-txostena bidaltzen badu gidalerroaren abisua zuzendu gabe, datu mugikorrak ez dira zerbitzariarekin sinkronizatzen eta sinkronizazio-huts bat gertatzen da. Sinkronizazioaren hutsegite bat gertatu ondoren bidaltzen diren gastu-txosten guztiak huts-egoeran geratuko dira eta sinkronizazio akats gehiago eragingo dituzte. Egoera hau konpontzeko modu bakarra sinkronizazio jakinarazpenak eskuz ezabatzea da. Arazo hau konpondu da gastuen txostenak bidaltzeari utziz, politikaren abisuak konpondu ez direnean, sinkronizazio akatsak saihestu daitezen.
 
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Zergatik ez da behar bezala islatzen proiektuak eta kategoriak balioztatzea Expense aplikazio mugikorrean?
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Zergatik ez da proiektuen eta kategorien baliozkotzea behar bezala islatzen Expense aplikazio mugikorrean?
 
-Balidazio hori ez da gaur egun onartzen. Hala ere, litekeena da etorkizunean euskarria ematea. 
+Ezin da egin balidazioa. Laguntza hori aurrerantzean gehituko da. 
 
-### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Zer dokumentu mota onartzen dira Expense aplikazio mugikorrean?
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Zein dokumentu mota onartzen dira Expense mugikorreko aplikazioan?
 
-Expense aplikazio mugikorrak irudiak baino ez ditu onartzen. Gaur egun ez da bateragarria PDF artxiboekin edo beste dokumentu batzuekin.
+Expense mugikorreko aplikazioak irudiak soilik onartzen ditu. Une honetan ez ditu PDFrik edo bestelako dokumenturik onartzen.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

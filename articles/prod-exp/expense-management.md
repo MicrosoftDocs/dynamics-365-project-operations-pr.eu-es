@@ -1,6 +1,6 @@
 ---
 title: Gastu-kudeaketaren informazio orokorra
-description: Artikulu honek Gastuen kudeaketari buruzko informazio orokorra eta baliabide osagarrietarako estekak eskaintzen ditu. Gastuen kudeaketa erabil dezakezu lan-fluxu integratua sortzeko, non ordainketa-metodoen informazioa gorde, kreditu-txartelen transakzioak inportatu eta langileek zure negozioaren gastuak egiten dituztenean gastatzen duten dirua kontrolatzeko.
+description: Gai honek Gastuen kudeaketari buruzko informazio orokorra eta baliabide osagarrietarako estekak eskaintzen ditu. Gastuen kudeaketa erabil dezakezu lan-fluxu integratua sortzeko, non ordainketa-metodoen informazioa gorde, kreditu-txartelen transakzioak inportatu eta langileek zure negozioaren gastuak egiten dituztenean gastatzen duten dirua kontrolatzeko.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -43,7 +43,7 @@ Informazio gehiago eskuratzeko, ikusi [Gastuen txostenak itxura berrituta](Expen
 
 ### <a name="blogs"></a>Blogak
 
-Iritziak, albisteak eta bestelako informazioa aurki ditzakezu [Microsoft Dynamics 365 bloga](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) eta [Microsoft Dynamics 365 Finantza - Finantza bloga](https://community.dynamics.com/365/financeandoperations/b/financials).
+Iritziak, berriak eta bestelako informazioa aurki dezakezu [Microsoft Dynamics 365 bloga](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) eta [Microsoft Dynamics 365 Finance - Financials bloga](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations Partner Community bloga](https://community.dynamics.com/partner/b/operationspartnercommunityblog) ematen du Microsoft Dynamics Baliabide bakar bat bazkide du, MBS Operations-en berrikuntza eta joera berriena ikas dezaten.
 

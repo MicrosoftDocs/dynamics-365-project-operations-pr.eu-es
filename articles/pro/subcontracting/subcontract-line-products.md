@@ -1,6 +1,6 @@
 ---
 title: Azpikontratuaren lerroak produktuen arabera
-description: Artikulu honek produktuen azpikontratazio-lerroak nola erregistratu eta saltzaileen produktuen erosketak erregistratzeko hainbat eremu erabili azaltzen du.
+description: Gai honetan produktuen azpikontratazio lerroak nola grabatu eta saltzaileek produktuen erosketak erregistratzeko eremu desberdinak nola erabili azaltzen da.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

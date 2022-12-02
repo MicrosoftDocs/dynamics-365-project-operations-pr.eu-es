@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu eta aplikatu konfigurazio-datuak Microsoft Dataverse-n
-description: Artikulu honek Project Operations-en konfigurazio-datuak konfiguratzeari eta aplikatzeari buruzko informazioa eskaintzen du.
+description: Gai honek Project Operations-eko konfigurazio-datuak konfiguratzeari eta aplikatzeari buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
@@ -21,10 +21,10 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 ## <a name="prerequisites"></a>Aurrebaldintzak
 
-Datuak konfiguratzen hasi aurretik Microsoft Dataverse, ondoko baldintza hauek bete behar dira:
+Datuak konfiguratzen hasi aurretik Microsoft Dataverse, honako baldintza hauek bete behar dira:
 
-1.  a) xedapena Dataverse ingurunea eta Dynamics 365 Finance ingurunea Proiektu Eragiketetarako.
-2.  Dynamics 365 Finance-eko entitate juridikoaren informazioa partekatzen da Dataverse ingurunea. Horrek esan nahi du **Enpresa** entitatea Dataverse enpresaren erregistro hauek ditu:
+1.  Dataverse ingurunea eta Dynamics 365 Finance ingurunea hornitu Project Operations-etarako.
+2.  Pertsona juridikoen informazioa Dynamics 365 Finance-ekoa Dataverse ingurunearekin partekatzen da. Horrek esan nahi du **Enpresa** entitateak Dataverse-en konpainiaren erregistro hauek ditu:
   - THPM
   - USPM
   - GBPM

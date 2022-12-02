@@ -1,6 +1,6 @@
 ---
 title: Kudeatu proiektuen prezio-zerrendak proiektu-eskaintzetan
-description: Artikulu honek aurrekontuetan proiektuen prezio-zerrendekin lan egiteari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuko prezio-zerrendako eskaintzekin lan egiteari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

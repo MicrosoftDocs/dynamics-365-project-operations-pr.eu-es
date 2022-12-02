@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 47, V3 bertsioko berrikuntzak edo aldaketak
-description: Artikulu honetan eskuragarri dauden funtzioak eta konponketak zerrendatzen dira Microsoft Dynamics 365 Project Service Automation Eguneratu 47. bertsioa, V3.
+description: Artikulu honetan eskuragarri dauden eginbideak eta konponketak zerrendatzen dira Microsoft Dynamics 365 Project Service Automation Eguneratu 47. bertsioa, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/14/2022
@@ -29,7 +29,7 @@ ms.locfileid: "9477274"
 
 Pozik gaude egunkariaren azken eguneratzea iragarriz Microsoft Dynamics 365 Project Service Automation aplikazioa. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Dynamics 365 9.x-rekin bateragarria da. Bertsio hau eguneratzeko, bisitatu Admin Zentroa Dynamics 365 lineako soluzioen orria eta instalatu eguneratzea. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Artikulu honek Project Service Automation Update Release 45, V3rako berriak diren edo aldatu diren eginbide eta konponketak zerrendatzen ditu. Bertsio honek V3.10.78.8 eraikitze-zenbakia du eta, oro har, eskuragarri dago 2022ko uztailean auto-eguneratze baten bidez.
+Artikulu honek Project Service Automation 45, V3 eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.78.8 sorrera-zenbakia du eta orokorrean 2022ko uztailean auto-eguneratze baten bidez eskuragarri dago.
 
 ## <a name="update-release-47"></a>47. eguneratze-bertsioa
 
@@ -38,4 +38,4 @@ Artikulu honek Project Service Automation Update Release 45, V3rako berriak dire
 Arazo hauek konpondu dira.
 
 **Baliabideen kudeaketa**
-- Balidazio bat eguneratu da erabiltzaileek ezin dutela erreferentzia nuluaren salbuespenik abiarazi proiektu-taldeko kide bat sortzen saiatzean.**Erreserba daitekeen baliabidea**.
+- Balidazio bat eguneratu da erabiltzaileek ezin dutela erreferentzia nuluaren salbuespenik abiarazi proiektu-taldeko kide bat sortzen saiatzean **Erreserba daitekeen baliabidea**.

@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu roletan oinarritutako prezioak
-description: Artikulu honetan, rol espezifikoetarako prezioak nola konfiguratu behar diren ematen da.
+description: Gai honetan funtzio jakin batzuen prezioak konfiguratzeari buruzko informazioa eskaintzen da.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
-title: Proiektuetan oinarritutako kontratuak kopiatzea
-description: Artikulu honek Microsoft-en proiektu-kontratuak kopiatzeari buruzko informazioa eskaintzen du Dynamics 365 Project Operations.
+title: Kopiatu proiektuetan oinarritutako kontratuak
+description: Artikulu honek proiektu kontratuak kopiatzeari buruzko informazioa eskaintzen du Microsoft Dynamics 365 Project Operations-en.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -13,28 +13,28 @@ ms.contentlocale: eu-ES
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9410357"
 ---
-# <a name="copy-project-based-contracts"></a>Proiektuetan oinarritutako kontratuak kopiatzea
+# <a name="copy-project-based-contracts"></a>Kopiatu proiektuetan oinarritutako kontratuak
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Proiektu-kontratu berriak erraz sor ditzakezu lehendik dauden kontratuak bi modu hauetako batean kopiatuz:
+Proiektuen kontratu berriak erraz sor ditzakezu lehendik dauden kontratuen kopiak bi modu hauetako batean eginez:
 
-- Gainean **Proiektu Kontratuak** zerrenda orria, hautatu proiektu-kontratua eta, gero, hautatu **Kopiatu**.
+- **Proiektuen kontratuak** zerrenda-orrian, hautatu proiektu-kontratua eta ondoren hautatu **Kopiatu**.
 - **Proiektuaren kontratua** xehetasunen orrian, hautatu **Kopiatu**.
 
-Bi kasuetan, elkarrizketa-koadro bat agertzen da, non kopiatutako kontratuaren parametroak ezar ditzakezun. Elkarrizketa-koadroak honako eremu hauek ditu. Hautatzen dituzun balioen arabera, kopia-prozesua alda daiteke.
+Elkarrizketa-orria irekiko da eta bertan kopiatutako kontratuaren parametroak hauta ditzakezu. Eremu hauek izango dira elkarrizketa-koadroan. Aukeratzen dituzun balioen arabera, kopia prozesua alda daiteke.
 
 | Eremua | Deskribapenak | Downstream eragina |
 | --- | --- | --- |
-| Gaia | Sartu helburuko kontratuaren gaia. Elkarrizketa-koadroa irekitzen denean, sistemak eremua iturburu-kontratuaren izena ezartzen du, baina "kopia" hitza eransten zaio. | Ez dago alor honen beherako eraginik. |
-| bezero hori | Bezeroaren enpresaren edo kontuaren erregistroaren erreferentzia. Elkarrizketa-koadroa irekitzen denean, sistemak eremua ezartzen du iturburu-kontratuko kontuarekin. | Eremu hau kontratuaren bezero nagusia da. |
-| Jabetzadun enpresa | Akordio honekin lotutako proiektuak entregatzeaz arduratzen den enpresa. Elkarrizketa-koadroa irekitzen denean, sistemak iturburu-kontratuaren enpresa jabeari ezartzen dio eremua. | Enpresa jabea tratua itxi ondoren proiektua gauzatuko duen pertsona juridikoa da. Enpresa jabearen moneta kontratazio-unitateko diruarekin bat etorri behar da. |
-| Kontratatzailea | Akordio honekin lotutako proiektuak emateaz arduratzen den antolakuntza-unitatea. Elkarrizketa-koadroa irekitzen denean, sistemak eremua ezartzen du iturburu-kontratuaren kontratazio-unitatean. | Kontratazio-unitatea akordioa itxi ondoren proiektuak exekutatuko dituen enpresaren banaketa da. Kontratazio unitate guztiek dute moneta bat. Moneta hau proiektuan zehar sortutako kostu estimatuak eta errealak jakinarazteko erabiltzen da. |
-| Moneta | Eskaintzaren transakzioa zein dibisatan egingo den. Elkarrizketa-koadroa irekitzen denean, sistemak eremua iturburu-kontratuaren moneta ezartzen du. Ezin da aldatu moneta. Hala bada, **Kopiatu prezioak** eremua beti dago ezarrita **Ez**, iturri-kontratuko prezio-zerrendak jada ez direlako garrantzitsuak. | Moneta hau prezioen zerrenda lehenetsietarako erabiltzen da, kontratuaren finantza-estimazioak sortzeko eta bezeroari fakturatzeko akordioa irabazten denean. |
-| Eskatutako entrega-data | Bezeroak eskatzen duen entrega-data. | Data hau amaiera data gisa erabiltzen da fakturazio-datak maiztasun zehatz batean sortzen dituzunean. |
-| Kopiatu prezioak | Kontratuaren prezioa iturriko kontratutik kopiatu behar den ala ez adierazten duen balioa. | Eremua ezarrita badago **Bai**, proiektuaren eta produktuen prezioen zerrendako erreferentziak sorburu-kontratutik xede-kontratura kopiatzen dira. Ezarrita badago **Ez**, prezio-zerrenda lehenetsiak erabiltzen dira, kontuaren edo proiektuaren parametroetako azken prezio-zerrendetan oinarrituta. |
+| Gaia | Sartu helburuko kontratuaren gaia. Elkarrizketa-koadroa irekitzen denean, sistemak iturburuko kontratuaren izenaren eremuari "kopia" erantsi dio. | Ez dago alor honen beherako eraginik. |
+| bezero hori | Bezeroaren enpresaren edo kontuaren erregistroaren erreferentzia. Elkarrizketa-koadroa irekitzen denean, sistemak iturburuko kontratuko kontuan ezarriko du. | Eremu hau kontratuaren bezero nagusia da. |
+| Jabetzadun enpresa | Akordio honekin lotutako proiektuak entregatzeaz arduratzen den erakundea. Elkarrizketa-koadroa irekitzen denean, sistemak iturburuko kontratuko jabetza erakundean ezarriko du. | Jabetza erakundea akordioa itxi ondoren proiektuak exekutatuko dituen entitate legala. Jabetza erakundearen kostu monetak bat etorri behar du kontratu-unitatearekin. |
+| Kontratatzailea | Akordio honekin lotutako proiektuak entregatzeaz arduratzen den Antolakuntza unitatea. Elkarrizketa-koadroa irekitzen denean, sistemak iturburuko kontratu-unitatea erakundean ezarriko du. | Kontratazio-unitatea akordioa itxi ondoren proiektuak exekutatuko dituen enpresaren banaketa da. Kontratazio unitate guztiek dute moneta bat. Moneta proiektuan zenbatetsitako eta benetako kostuen berri emateko erabiltzen da. |
+| Moneta | Eskaintzaren transakzioa zein dibisatan egingo den. Elkarrizketa-koadroa irekitzen denean, sistemak iturburuko kontratuko moneta ezarriko du. Ezin da aldatu moneta. Hala bada, **Kopien prezioak** eremua beti **Ez** izango da iturburu-kontratuko prezioen zerrendak ez direlako garrantzitsuak. | Moneta prezioen zerrendak lehenesteko erabiltzen da, kontratuaren finantza-estimazioa eraikitzeko eta bezeroari faktura egiteko akordioa irabazten denean. |
+| Eskatutako entrega-data | Bezeroak eskatutako entrega-data. | Fakturazio datak maiztasun zehatz batean sortzerakoan amaierako data gisa erabiltzen da. |
+| Kopiatu prezioak | Balioak kontratuaren prezioa iturburuko kontratutik kopiatu behar den adierazten du. | Eremua **Bai** gisa ezartzen bada, proiektuaren prezioen zerrenda eta produktuen prezioen zerrenda erreferentziak jatorrizko kontratutik xedekora kopiatzen dira. **Ez** ezarrita badago, prezioen zerrendak lehenetsia erabiliko da,kontuan edo proiektuaren parametroetan ezarritako prezioen zerrendetan oinarrituta. |
 
-Hautatzen duzunean **Ados** elkarrizketa-koadroan, sistemak kontratuaren kopia bat sortzen du, zuk ezarritako parametroen balioetan oinarrituta. Ondoren, kontratu berria irekitzen da.
+**Ados** hautatzen duzunean elkarrizketa-koadroan, sistemak kontratuaren kopia bat sortzen du ezarritako parametroetan oinarrituta. Kontratu berria irekiko da.
 
 Hurrengo informazioa da **ez** sorburu-kontratutik xede-kontratura kopiatu da, kontratu bakoitzari berariazkoa baita:
 
@@ -43,6 +43,6 @@ Hurrengo informazioa da **ez** sorburu-kontratutik xede-kontratura kopiatu da, k
 - Proiektuaren erreferentzia proiektuan oinarritutako kontratu lerroetan
 - Bezeroaren aurrekontu-informazioa
 
-Proiektu eta produktuen kontratu-lerroak, kontratu-lerroen xehetasunetan estimazioak eta kontratu mailan gainditu beharreko balioak kopiatzen dira. Lehenetsitako prezioak eta kostu-tasak sartzea aukeraketaren araberakoa da **Kopiatu prezioa** eremuan **Kopiatu Parametroak** elkarrizketa-koadroa.
+Proiektuen eta produktuen kontratu lerroak, kontratuaren lerroaren xehetasunen inguruko kalkuluak eta kontratu-mailan ez gainditzeko balioak kopiatzen dira. Hautapeneko prezioaren eta kostuaren tasaren sarrera arabera **Kopiatu prezioak** eremuan hautatutako aukera **Kopiatu parametroak** elkarrizketa-koadroan.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

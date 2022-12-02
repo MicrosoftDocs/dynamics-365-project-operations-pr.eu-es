@@ -1,6 +1,6 @@
 ---
 title: Sinkronizatu proiektuen kontratuak eta proiektuak zuzenean Project Service Automation-etik Finance-ra
-description: Artikulu honek proiektu-kontratuak eta proiektuak zuzenean sinkronizatzeko erabiltzen diren txantiloia eta azpiko zereginak deskribatzen ditu Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Finance.
+description: Gai honek deskribatzen du txantiloia eta azpiko zereginak erabiliak direnak sinkronizatzeko kontratuak eta proiektuak Microsoft Dynamics 365 Project Service Automation-etik Dynamics 365 Finance-ra.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -27,7 +27,7 @@ ms.locfileid: "8933845"
 
 
 
-Artikulu honek proiektu-kontratuak eta proiektuak zuzenean sinkronizatzeko erabiltzen diren txantiloia eta azpiko zereginak deskribatzen ditu Dynamics 365 Project Service Automation to Dynamics 365 Finance.
+Gai honek deskribatzen du txantiloia eta azpiko zereginak erabiliak direnak sinkronizatzeko kontratuak eta proiektuak Dynamics 365 Project Service Automation-etik Dynamics 365 Finance-ra.
 
 > [!NOTE] 
 > Enterprise edition 7.3.0 erabiltzen ari bazara, KB 4074835 instalatu behar duzu.
@@ -120,15 +120,15 @@ Project Service Automation to Finance integrazio irtenbidea aplikatzen denean, b
 
 ## <a name="power-query"></a>Power Query
 
-Erabili Microsoft Power Query Excel-ek datuak iragazteko baldintza hauek betetzen badira:
+Erabili Excel-erako Microsoft Power Query datuak iragazteko baldintza hauek betetzen badira:
 
 - Salmenta aginduak dituzu Dynamics 365 Sales zerbitzuan.
 - Antolakuntza unitate ugari dituzu Project Service Automation zerbitzuan, eta antolakuntza unitate horiek Finantzako pertsona juridiko anitzetara mapatuko dira.
 
-Erabili behar baduzu Power Query, jarraitu jarraibide hauek:
+Power Query erabili behar baduzu, jarraitu jarraibide hauek:
 
 - Proiektuak eta kontratuak (PSA Fin eta Ops) txantiloiak iragazki lehenetsia du, salmenta aginduak soilik biltzen dituena **Laneko elementua (msdyn\_ordertype = 192350001)** mota. Iragazki honek Finantzako salmenta-eskaeretarako proiektuen kontratuak ez direla bermatzen laguntzen du. Zure txantiloia sortzen baduzu, iragazki hau gehitu behar duzu.
-- Sortu a Power Query integrazio-konexio-multzoaren entitate juridikoarekin sinkronizatu behar diren kontratu-erakundeak soilik biltzen dituen iragazkia. Adibidez, Contoso AEBetako kontratuaren antolakuntza-unitatearekin dituzun proiektuen kontratuak USSI entitate juridikoarekin sinkronizatuta egon beharko lirateke, baina Contoso Global-en kontratuaren antolakuntza-unitatearekin dituzun proiektuen kontratuak USMF entitate juridikoarekin sinkronizatu beharko lirateke. Iragazki hau zure zereginen mapetan gehitzen ez baduzu, proiektuaren kontratu guztiak konexio multzoarentzako definitutako pertsona juridikoarekin sinkronizatuko dira, kontratuaren antolakuntza unitatea edozein dela ere.
+- Sortu Power Query iragazkia, integrazio konexio multzoaren entitate juridikoarekin sinkronizatuta egon beharko luketen kontratu erakundeak soilik biltzen dituena. Adibidez, Contoso AEBetako kontratuaren antolakuntza-unitatearekin dituzun proiektuen kontratuak USSI entitate juridikoarekin sinkronizatuta egon beharko lirateke, baina Contoso Global-en kontratuaren antolakuntza-unitatearekin dituzun proiektuen kontratuak USMF entitate juridikoarekin sinkronizatu beharko lirateke. Iragazki hau zure zereginen mapetan gehitzen ez baduzu, proiektuaren kontratu guztiak konexio multzoarentzako definitutako pertsona juridikoarekin sinkronizatuko dira, kontratuaren antolakuntza unitatea edozein dela ere.
 
 ## <a name="template-mapping-in-data-integration"></a>Datuen integrazioan txantiloien mapaketa
 

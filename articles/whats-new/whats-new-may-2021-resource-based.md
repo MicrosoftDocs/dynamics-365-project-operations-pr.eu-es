@@ -1,6 +1,6 @@
 ---
 title: 2021eko maiatzeko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-description: Artikulu honek Project Operations-en 2021eko maiatzeko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
+description: Gai honek 2021eko maiatzeko Project Operations bertsioan baliabideetan/izakinik gabekoetan oinarritutako agertokietarako eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029974"
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
+Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
 - Project Operations Dynamics 365 Dataverse inguruneko bertsioa 4.10.0.186
-- Proiektuen kudeaketa eta kontabilitatea finantza eta eragiketa aplikazioen inguruneetan 10.0.18 bertsioa
+- Proiektuen kudeaketa eta kontabilitatea finantzen eta eragiketen aplikazioen inguruneak 10.0.18 bertsioa
 
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
 
@@ -41,7 +41,7 @@ Hurrengo zerrendan 2021eko maiatzeko Project Operations aldatu edo gehitu diren 
 | Project Operations integrazioa proiektuaren saltzailearen faktura-lerroa esportatzeko entitatea (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Kalitatearen eguneratzeak |
 | Proiektuak V2 (msdyn\_projects) | 1.0.0.2 | Kalitatearen eguneratzeak |
 
-Exekutatu beti maparen azken bertsioa zure ingurunean eta gaitu erlazionatutako taula-mapa guztiak zure proiektuaren eragiketak eguneratzen dituzun bitartean.Dataverse irtenbidea eta finantza eta eragiketa aplikazioak irtenbide bertsioa. Zenbait eginbide eta gaitasunek agian ez dute behar bezala funtzionatuko maparen azken bertsioa aktibatuta ez badago. Maparen bertsio aktiboa helbidean ikus dezakezu **Bertsioa** zutabea **Idazketa bikoitza** orrialdean. Maparen bertsio berria aktibatzeko, hautatu **Taula maparen bertsioak**, hautatu azken bertsioa, eta ondoren, gorde hautatutako bertsioa. Kutxaz kanpoko taulako mapa pertsonalizatu baduzu, aldaketak berriro aplikatu. Informazio gehiago lortzeko, ikusi [Aplikazioaren bizi-zikloaren kudeaketa](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Exekutatu beti maparen azken bertsioa zure ingurunean eta gaitu erlazionatutako taula-mapa guztiak eguneratzen dituzunean Project Operations Dataverse irtenbidea eta finantzen eta eragiketen soluzioaren bertsioa. Zenbait eginbide eta gaitasunek agian ez dute behar bezala funtzionatuko maparen azken bertsioa aktibatuta ez badago. Maparen bertsio aktiboa helbidean ikus dezakezu **Bertsioa** zutabea **Idazketa bikoitza** orrialdean. Maparen bertsio berria aktibatzeko, hautatu **Taula maparen bertsioak**, hautatu azken bertsioa, eta ondoren, gorde hautatutako bertsioa. Kutxaz kanpoko taulako mapa pertsonalizatu baduzu, aldaketak berriro aplikatu. Informazio gehiago lortzeko, ikusi [Aplikazioaren bizi-zikloaren kudeaketa](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Mapa abiaraztearen arazoren bat baduzu, jarraitu argibideak [Taulen zutabeak falta dira mapetan](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) Idazketa Dualaren arazoak konpontzeko gidaren atalean.
 
@@ -67,7 +67,7 @@ Mapa abiaraztearen arazoren bat baduzu, jarraitu argibideak [Taulen zutabeak fal
 | Denbora-sarrera | 2202476 | **Denbora Sarrera** orrialdeak orain erreakzionatzeko sarearen kontrola erabiltzen du eta saretaren lerrokatzea kentzea bezalako arazoak konpontzen ditu. |
 | Denbora-sarrera | 2223377 | Denbora sarrera ezkutatuta dago **Lotua** atala **Erreserbatzeko Baliabidea** orrialdea erabilgarritasunarekin nahastea ekiditeko. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance-en
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Project Management and Accounting Dynamics 365 Finance-n
 
 | Ezaugarrien eremua | Erreferentzia-zenbakia | Kalitatearen eguneratzea |
 | --- | --- | --- |

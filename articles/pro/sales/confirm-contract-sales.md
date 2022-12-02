@@ -1,6 +1,6 @@
 ---
 title: Berretsi proiektu-kontratua
-description: Artikulu honek kontratua nola berresteko informazioa ematen du Project Operations-en.
+description: Gai honek Project Operations-en kontratuak berresteari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

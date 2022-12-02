@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu kilometrajea kilometrajearen tasaren mailak erabiliz
-description: Artikulu honek kilometraje-tasei eta kilometraje-tasari buruzko informazioa eskaintzen du.
+description: Gai honek kilometrajearen tasei eta kilometro-tasen mailei buruzko informazioa eskaintzen du.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
@@ -50,14 +50,14 @@ Langile batek 1.500 kilometroko gastuen txostena aurkezten badu, argitaratutako 
 
 Ezaugarria gaitu ondoren, berrezarri kilometrajearen mailak **Kopurua** eremua. 
 
-## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Gaitu Kilometrajearen guztizkoen kalkulua urte fiskal funtzioaren bidez
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Gaitu kilometrajearen guztizkoen kalkulua urte fiskal arabera eginbidea
 
-The **Kilometrajearen guztizkoen kalkulua urte fiskal arabera** Ezaugarriak Gastuen kudeaketa parametroetan ezarpen berri bat gaitzen du, kilometrajearen guztizko kalkuluak egiten dituena urte fiskal arabera, urte naturalaren ordez. Egin urrats hauek eginbide hau gaitzeko.
+**Kilometrajearen guztizkoen kalkulua urte fiskal arabera** Ezaugarriak Gastuen kudeaketa parametroetan ezarpen berri bat gaitzen du, kilometrajearen guztizkoen kalkuluak egiten dituena urte fiskal urte naturalaren ordez. Egin urrats hauek eginbide hau gaitzeko.
 
 1. Joan **Languneak** > **Eginbideen kudeaketa** atalera.
 1. Zerrendan, bilatu eta hautatu **Kilometrajearen guztizkoen kalkulua urte fiskal arabera**, eta gero hautatu **Gaitu orain**.
-1. Joan **Gastuen Kudeaketa** > **Konfigurazioa** > **Orokorra** > **Gastuak kudeatzeko parametroak**.
-1. Gainean **Gastuak kudeatzeko parametroak** orrialdea, kokatu eta gaitu **Erabili urte fiskal kilometroen guztizkoetarako**.
+1. Joan **Gastuen kudeaketa** > **Konfigurazioa** > **Orokorra** > **Gastuak kudeatzeko parametroak**.
+1. **Gastuak kudeatzeko parametroak** orrialdea, kokatu eta gaitu **Erabili urte fiskal kilometroen guztizkoetarako**.
 
 Gaitu ondoren **Erabili urte fiskal kilometroen guztizkoetarako**, kilometroen guztirakoak urte fiskal arabera kalkulatzen dira.
 

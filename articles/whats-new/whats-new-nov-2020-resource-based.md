@@ -1,6 +1,6 @@
 ---
 title: 2020ko azaroko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-description: Artikulu honek 2020ko azaroko Project Operations-en bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
+description: Gai honek informazioa eskaintzen du 2020ko azaroan Project Operations bertsioan eskuragarri dauden kalitate-eguneratzeei buruz, baliabideetan / stockean oinarritutako egoeretarako.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "9029515"
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
+Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
 - Project Operations CDS ingurunearen 4.4.0.70 bertsioa
-- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.14 bertsioan
+- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.14 bertsioan
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations-en eguneratzeak
 
@@ -42,7 +42,7 @@ Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagai
 | Denbora eta gastuen sarrera bizkorra | 2059859          | Gastu sarrera sortzerakoan ustekabeko leihoa irekitzen da.                                                                                                                         |
 | Beste batzuk                        | 2044181          | (Erosketa agindua desinstalatzen) msdyn_ProjectServiceCore_Patch eta msdyn Project zerbitzuaren oinarrizko irtenbideak desinstalatzen saiatzean, "Grabaketa ez dago erabilgarri" errorea gertatzen da.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance-en
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Project Management and Accounting Dynamics 365 Finance-n
 
 | Ezaugarrien eremua        | Erreferentzia-zenbakia | Kalitatearen eguneratzea                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagai
 | Proiektuaren kontabilitatea  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Funtzioa gaituta, kontratu lerro anitz ez dira posible CDS integraziorik gabe.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Araudiaren eguneratzeak
-Finantza eta eragiketa aplikazioetarako arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). LCS-en saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
+Eguneratze arautzaileei buruzko informazioa lortzeko finantzen eta eragiketen aplikazioak, ikusi [Araudiaren eguneratzeak](/dynamics365/finance/localizations/regulatory-updates). LCS-en saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

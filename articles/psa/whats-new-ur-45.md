@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 45, V3 bertsioko berrikuntzak edo aldaketak
-description: Artikulu honetan eskuragarri dauden funtzioak eta konponketak zerrendatzen dira Microsoft Dynamics 365 Project Service Automation Eguneratu 45. bertsioa, V3.
+description: Artikulu honetan eskuragarri dauden eginbideak eta konponketak zerrendatzen dira Microsoft Dynamics 365 Project Service Automation Eguneratu 45. bertsioa, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 07/14/2022
@@ -29,7 +29,7 @@ ms.locfileid: "9169172"
 
 Pozik gaude egunkariaren azken eguneratzea iragarriz Microsoft Dynamics 365 Project Service Automation aplikazioa. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Dynamics 365 9.x-rekin bateragarria da. Bertsio hau eguneratzeko, bisitatu Admin Zentroa Dynamics 365 lineako soluzioen orria eta instalatu eguneratzea. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Artikulu honek Project Service Automation Update Release 45, V3rako berriak diren edo aldatu diren eginbide eta konponketak zerrendatzen ditu. Bertsio honek V3.10.76.168 eraikitze-zenbakia du eta, oro har, eskuragarri dago 2022ko uztaileko autoeguneratze baten bidez.
+Artikulu honek Project Service Automation 45, V3 eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.76.168 sorrera-zenbakia du eta orokorrean 2022ko uztailean auto-eguneratze baten bidez eskuragarri dago.
 
 ## <a name="update-release-45"></a>45. eguneratze-bertsioa
 
@@ -39,9 +39,9 @@ Arazo hauek konpondu dira.
 
 **Salmentak**
 
-- Erabiltzaileek ezin dituzte fakturak behar bezala sortu fakturak fakturatu gabeko salmentarik gabe faktura bat sortzen saiatu ondoren, orriaren instantzia bera ikusten badute eta ez badute freskatzen.
+- Erabiltzaileek ezin dituzte fakturak behar bezala sortu fakturak fakturatu gabeko salmentarik gabe faktura bat sortzen saiatu ondoren, orriaren instantzia bera ikusten ari badira eta ez badute freskatzen.
 
 **Denbora eta gastua**
 
-- Modern Approvals gaituta dagoenean eta gogorarazitako proiektuaren onespena onartzen denean, erregistro-fasea gaizki eguneratzen da.**Berreskuratzeko eskaera onartu da**.
-- Modern Approvals gaituta dagoenean eta Cloud Flows inaktibo dagoenean, onarpen-prozesua ez da arrakastatsua izaten eta bidaltzen duten edo onartzen duten erabiltzaileei ez zaie jakinarazi.
+- Modern Approvals gaituta dagoenean eta gogorarazitako proiektuaren onespena onartzen denean, erregistro-fasea gaizki eguneratzen da **Berreskuratzeko eskaera onartu da**.
+- Modern Approvals gaituta dagoenean eta Cloud Flows inaktibo dagoenean, onarpen-prozesua ez da arrakastatsua izaten eta bidaltzen edo onartzen duten erabiltzaileei ez zaie jakinarazi.

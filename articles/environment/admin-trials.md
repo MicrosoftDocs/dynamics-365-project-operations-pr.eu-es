@@ -1,6 +1,6 @@
 ---
 title: Eman izena Project Operations-en doako probak lortzeko
-description: Artikulu honek .-ren probako bertsioa zabaltzeari buruzko informazioa eskaintzen du Dynamics 365 Project Operations.
+description: Gai honek Dynamics 365 Project Operations proba bat inplementatzeari buruzko informazioa ematen du.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
@@ -19,9 +19,9 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 
 
-Artikulu honek aurrebista bazkideen eskaintzara nola harpidetu eta a nola inplementatu azaltzen du Dynamics 365 Project Operations ingurunea.
+Gai honetan aurrebista bazkideen eskaintzara nola harpidetu eta nola hedatu azaltzen da Dynamics 365 Project Operations ingurunea.
 
-Project Operations proba berriarekin, onartutako hiru inplementazio eszenatokietako bat automatikoki inplementa dezakezu, inplementazio planteamendu onena gomendatzen duen galdeketa bat osatuta. Artikulu honek nola egin jakiteko informazioa ematen du:
+Project Operations proba berriarekin, onartutako hiru inplementazio eszenatokietako bat automatikoki inplementa dezakezu, inplementazio planteamendu onena gomendatzen duen galdeketa bat osatuta. Gai honek benetako datuei buruzko informazioa ematen du:
 
 - Erabili proba-eskaintza.
 - Hasi hornidura.
@@ -86,7 +86,7 @@ Hasi aurretik, hasi saioa arakatzailean erabiltzaileen laneko kontuarekin Projec
  
   Hornidura amaitutakoan, zure ingurunearen egoera da **Prest**. Ingurunea hornitzeak demo datuak zabaltzea dakar.
  
-4.  Hautatu dagokiona Microsoft Dataverse URLa eta finantza- eta operazio-aplikazioen URLak hedapena balioztatzeko.
+4.  Aukeratu dagokion Microsoft Dataverse URLa eta finantzen eta eragiketen aplikazioen URLak inplementazioa balioztatzeko.
 
 ## <a name="configuring-dual-write"></a>Konfiguratuz idazketa duala
 - Idazketa bikoitzeko segurtasun-rolak konfiguratzeko, ikus [Eguneratu segurtasun-ezarpenak Project Operations-n Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
@@ -97,7 +97,7 @@ Hasi aurretik, hasi saioa arakatzailean erabiltzaileen laneko kontuarekin Projec
 
 Zure erakundeko Microsoft 365 atarirako sarbide administratiboa beharko duzu urrats hauek burutzeko.
 
-1. Joan zaitez [Microsoft 365 administrazio zentroa](https://portal.office.com/) zure erabiltzaileei lizentziak esleitzeko.
+1. Joan [Microsoft 365 administrazio zentroa](https://portal.office.com/) lizentziak zure erabiltzaileei esleitzeko.
 
    ![Administrazio zentroaren hasierako orria](./media/14AdminPortal.png)
 
@@ -117,7 +117,7 @@ Ondorengo baliabideek orientazio lagungarria eskaintzen dute Project Operations 
 
 ## <a name="frequently-asked-questions"></a>Ohiko galderak
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Zer gertatzen da ALM edo ELM behar badut nire finantza- eta operazio-aplikazioen ingurunerako?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Niretzat ALM edo ELM behar baditut finantzen eta eragiketen aplikazioen ingurunea?
 
 - Ingurune osoaren bizi-zikloa kudeatzeko gaitasunak behar dituzten bazkideentzat, ikusi [Bazkide Sandbox lizentzia eskaera](https://experience.dynamics.com/requestlicense) bazkide eskaintza berria berrikusteko. 
 - Barne Erabilera Eskubideei buruzko informazio gehiago bilatzen duten bazkideentzako, ikus [Barne Erabilera Eskubideen hodeia eta softwarearen onura (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +125,7 @@ Ondorengo baliabideek orientazio lagungarria eskaintzen dute Project Operations 
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Proba luzatu al dezaket 30 egunez harago?
 Probaldia luzatzeko, jarraitu urrats hauek.
 
-1. urtean **Microsoft 365 Admin Zentroa**, joan **Fakturazioa** > **Zure produktuak**.
+1. Hurrengoan **Microsoft 365 administrazio-zentroa**, joan **Fakturazioa** > **Zure produktuak**.
 2. Hautatu **Dynamics 365 Project Operations (CE) - Aurrebistaren proba**.
 3. Azpian **Iraungitze Data**, hautatu **Luzatu Data**.
 

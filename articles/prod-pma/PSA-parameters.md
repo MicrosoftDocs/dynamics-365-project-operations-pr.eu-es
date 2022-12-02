@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation integrazio-parametroak
-description: Artikulu honetan, 365 Finance-rekin Microsoft Dynamics 365 for Project Service Automation integratzean Microsoft Dynamics aurrez zehaztutako datuak nola sartzen diren azaltzen da.
+description: Gai honetan integratzen zarenean lehenetsitako datuak nola sartzen diren konfiguratzen da Microsoft Dynamics 365 for Project Service Automation Microsoft Dynamics 365 Finance.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8932281"
 
 [!include[banner](../includes/banner.md)]
 
-**Project Service Automation-en integrazio-parametroak orrialdean, Dynamics** 365 Finance-rekin bat egitean Dynamics 365 Project Service Automation aurrez zehaztutako datuak nola idazten diren konfigura dezake. Project Service Automation Finantzara proiektuak ongi sinkronizatzeko, honako eremuak konfiguratu behar dituzu.
+Gainean **Project Service Automation integrazio parametroak** orrialdean, integratzen zarenean lehenetsitako datuak nola sartzen diren konfigura dezakezu Dynamics 365 Project Service Automation hurrengoarekin Dynamics 365 Finance. Project Service Automation Finantzara proiektuak ongi sinkronizatzeko, honako eremuak konfiguratu behar dituzu.
 
 Irekitzeko **Project Service Automation integrazio parametroak** orrialdea, joan **Proiektuen kudeaketa eta kontabilitatea** \> **Konfigurazioa** \> **Dynamics 365 for Project Service Automation integrazio parametroak**. 
 

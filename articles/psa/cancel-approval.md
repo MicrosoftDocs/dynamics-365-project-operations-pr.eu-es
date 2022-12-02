@@ -1,6 +1,6 @@
 ---
 title: Utzi aurrez onartutako denbora- eta gastu-sarrerak
-description: Artikulu honetan, onartutako proiektu-gastuak eta denbora-transakzio bat nola bertan behera utzi behar den ematen da.
+description: Gai honek aldez aurretik onartutako proiektu baten denbora- edo gastu-transakzioa uzteari buruzko informazioa eskaintzen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice

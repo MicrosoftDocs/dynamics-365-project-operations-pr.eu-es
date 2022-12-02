@@ -1,6 +1,6 @@
 ---
 title: Zehaztu proiektuen egutegiak
-description: Artikulu honek proiektu bati egutegi-txantiloia aplikatzeari buruzko informazioa eskaintzen du proiektuaren ordutegiaren jarraipena egiteko.
+description: Gai honek egutegiaren txantiloia proiektu bati proiektuaren egutegia jarraitzeko nola aplikatu jakiteko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article

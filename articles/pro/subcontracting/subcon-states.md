@@ -1,6 +1,6 @@
 ---
 title: Azpikontratatu baten egoera-trantsizioak
-description: Artikulu honek Microsoft-en azpikontratu baten egoera-trantsizioak azaltzen ditu Dynamics 365 Project Operations azpikontratua sortu, gauzatu eta ixten den heinean.
+description: Artikulu honek azpikontratu baten egoera-trantsizioak azaltzen ditu Microsoft Dynamics 365 Project Operations azpikontratua sortu, gauzatu eta ixten den heinean.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.locfileid: "9522924"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Artikulu honek Microsoft-en azpikontratu baten egoera-trantsizioak azaltzen ditu Dynamics 365 Project Operations. Estatu bakoitza zirriborro gisa adierazten da, baieztatuta, itxita edo bertan behera utzita. Hurrengo irudiak egoera-trantsizioak adierazten ditu.
+Artikulu honek azpikontratuaren egoera-trantsizioak azaltzen ditu Microsoft Dynamics 365 Project Operations. Estatu bakoitza zirriborro gisa adierazten da, baieztatuta, itxita edo bertan behera utzita. Ondorengo ilustrazioek egoera-trantsizioak erakusten dituzte.
 
-![Azpikontratazio egoera eredua](../media/SubconStates.png)  
+![Azpikontratatu baten egoera-eredua](../media/SubconStates.png)  
 
-Ondorengo taulak egoera bakoitzak proiektuaren eragiketetan azpikontratu baten bizi-zikloan adierazten duenaren deskribapena eskaintzen du.
+Hurrengo taulak egoera bakoitzak zer adierazten duen azaltzen du azpikontratu baten bizi-zikloan Project Operations-en.
 
-| Egoera | Deskribapenak | Baimendutako trantsizioak |
+| Egoera | Deskribapenak | Onartutako trantsizioak |
 | --- | --- | --- |
-| Zirriborroak | Horrek azpikontratu baten hasierako egoera adierazten du. Saltzailearekin negoziazioak abian dira. Lerroak eta prezioak aldaketen menpe daude. Egoera honetako azpikontratu bat baliabide eta materialen proiektuen eskakizunak estimatu eta kudeatzeko erabil daiteke. Proiektu batean denbora, gastu eta materialaren erabilera ere erreferentzia egin daiteke. Egoera honetan dagoen azpikontratua editatu eta ezaba daiteke. | Berretsita |
-| Berretsita | Honek azpikontratu baten etapa adierazten du saltzailearekin prezioei eta erosteko lerroko elementuei buruzko negoziazioak amaitu ondoren. Dena den, azpikontratatutako baliabideen bidez materialak eta/edo lanak egiaz bidaltzen ari dira oraindik. Egoera honetako azpikontratu bat baliabide eta materialen proiektuen eskakizunak estimatu eta kudeatzeko erabil daiteke. Proiektu batean denbora, gastu eta materialaren erabilera ere erreferentzia egin daiteke. Egoera honetan dagoen azpikontratua ezin da editatu edo ezabatu. The **Utzi** botoiak berretsitako azpikontratua bertan behera uzteko aukera ematen du. The **Berriro ireki** botoiak azpikontratua berriro irekitzeko aukera ematen du, berriro sartzeko **Zirriborroa** egoera. Erabili **Itxi** botoia baieztatutako azpikontratua ixteko. | Itxita <br> Utzi da <br> Zirriborroak |
-| Itxita | Honek azpikontratazioaren fasea adierazten du, materialak eta/edo lanak azpikontratatutako baliabideen bidez benetako entrega egiten denean. Egoera honetan dagoen azpikontratua ezin da erabili baliabide eta materialen proiektuen eskakizunak estimatzeko eta kudeatzeko. Gainera, jada ezin da erreferentzia egin proiektu batean denbora, gastu eta materialaren erabilerari buruz. Egoera honetan dagoen azpikontratua ezin da editatu edo ezabatu. | Batere ez |
-| Utzi da | Honek azpikontratazioaren fasea adierazten du, materialak edo/eta lanak azpikontratatutako baliabideen bidez entregatu behar ez direnean. Egoera honetan dagoen azpikontratu bat ezin da erabili baliabide eta materialen proiektuen eskakizunak estimatzeko eta pertsonalizatzeko, ezta proiektu batean denbora, gastu eta materialaren erabilerari erreferentzia egin ere. Egoera honetan dagoen azpikontratua ezin da editatu edo ezabatu. | Batere ez |
+| Zirriborroak | Horrek azpikontratu baten hasierako egoera adierazten du. Saltzailearekin negoziazioak abian dira. Lerroak eta prezioak alda daitezke. Egoera honetako azpikontratu bat baliabide eta materialen proiektuen eskakizunak estimatu eta kudeatzeko erabil daiteke. Proiektu batean denbora, gastu eta materialaren erabilera ere erreferentzia egin daiteke. Egoeran horretan dauden azpikontratuak editatu edo ezabatu daitezke. | Berretsita |
+| Berretsita | Honek azpikontratu baten etapa adierazten du saltzailearekin prezioei eta erosteko lerroko elementuei buruzko negoziazioak amaitu ondoren. Dena den, azpikontratatutako baliabideen bidez materialak eta/edo lanak egiaz bidaltzen ari dira oraindik. Egoera honetako azpikontratu bat baliabide eta materialen proiektuen eskakizunak estimatu eta kudeatzeko erabil daiteke. Proiektu batean denbora, gastu eta materialaren erabilera ere erreferentzia egin daiteke. Egoeran horretan dauden azpikontratuak ezin dira editatu edo ezabatu. **Utzi** botoiak berretsitako azpikontratua bertan behera uzteko aukera ematen du. **Berriro ireki** botoiak azpikontratua berriro irekitzeko aukera ematen du, berriro sartzeko **Zirriborroa** egoera. Erabili **Itxi** botoia baieztatutako azpikontratua ixteko. | Itxita <br> Utzi da <br> Zirriborroak |
+| Itxita | Honek azpikontratazio baten fasea adierazten du, non osatutako materialak eta/edo lanak azpikontratatutako baliabideen bidez entregatzea. Egoera honetako azpikontratu bat baliabide eta materialen proiektuen eskakizunak estimatu eta kudeatzeko ezin da erabili. Proiektu batean denbora, gastu eta materialaren erabilera ere erreferentzia ezin da egin. Egoeran horretan dauden azpikontratuak ezin dira editatu edo ezabatu. | Batere ez |
+| Utzi da | Honek azpikontratazio baten fasea adierazten du, non ezin diren materialak eta/edo lanak azpikontratatutako baliabideen bidez entregatu. Egoera honetan dagoen azpikontratu bat ezin da erabili baliabide eta materialen proiektuen eskakizunak estimatzeko eta hornitzeko, eta, gainera, ezin da erreferentzia egin proiektu batean denbora, gastu eta materialaren erabilera. Egoeran horretan dauden azpikontratuak ezin dira editatu edo ezabatu. | Batere ez |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

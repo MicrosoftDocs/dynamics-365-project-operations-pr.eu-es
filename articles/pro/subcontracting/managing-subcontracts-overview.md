@@ -1,6 +1,6 @@
 ---
 title: Azpikontratuen kudeaketa Project Operations-en
-description: Artikulu honek proiektuetan oinarritutako erakundeetan izan ohi diren muturreko azpikontratuen kudeaketa-prozesuaren ikuspegi orokorra eskaintzen du.
+description: Gai honek amaierako azpikontrata kudeatzeko prozesuaren ikuspegi orokorra eskaintzen du tipikoki proiektuetan oinarritutako erakundeetan.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "9522310"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Artikulu honek proiektuetan oinarritutako erakundeetan muturreko azpikontratuen kudeaketa-prozesuaren ikuspegi orokorra eskaintzen du. Zerbitzuetarako azpikontratazioak normalean hurrengo diagraman agertzen den negozio-prozesuaren fluxu jarraitzen du.
+Gai honek amaierako azpikontrata kudeatzeko prozesuaren ikuspegi orokorra eskaintzen du proiektuetan oinarritutako erakundeetan. Zerbitzuetarako azpikontratazioak normalean hurrengo diagraman agertzen den negozio-prozesuaren fluxu jarraitzen du.
 
 ![Azpikontratazio prozesuaren fluxua](../media/SubcontractingProcessFlow.png)
 
@@ -45,7 +45,7 @@ Azpikontratuaren lerroak kantitatean oinarritutakoa edo lanean oinarritutakoa.
 
 Azpikontratazio lerro bat denean **kantitatean oinarrituta**, azpikontrata lerroan denboran, gastuetan edo materialean erosten den kantitatea edozein proiektutan erabil daiteke.
 
-Azpikontratazio lerro bat denean **lanean oinarrituta**, azpikontrata lerroak proiektuaren planeko nodo batek irudikatzen duen lan multzo batera mapatzen du. Azpikontratazio lerroaren balioa lan hori emateko beharrezkoak diren osagai guztien batura da. Hauek azpikontrata lerroaren xehetasun gisa modelatzen dira eta denbora, gastu edo materialen bilketa izan daitezke. Lanean oinarritutako azpikontratazio lerro baterako, azpikontratazio lerroa proiektu bakar bati ere eskaintzen zaio. Azpikontratazio mota hauek proiektuaren eragiketak ez ditu onartzen.
+Azpikontratazio lerro bat denean **lanean oinarrituta**, azpikontrata lerroak proiektuaren planeko nodo batek irudikatzen duen lan multzo batera mapatzen du. Azpikontratazio lerroaren balioa lan hori emateko beharrezkoak diren osagai guztien batura da. Hauek azpikontrata lerroaren xehetasun gisa modelatzen dira eta denbora, gastu edo materialen bilketa izan daitezke. Lanean oinarritutako azpikontratazio lerro baterako, azpikontratazio lerroa proiektu bakar bati ere eskaintzen zaio. Azpikontratazio mota hauek oraingoz ez dituzte onartzen Project Operations-ek.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

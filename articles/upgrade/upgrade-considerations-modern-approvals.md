@@ -1,6 +1,6 @@
 ---
-title: Onarpen modernoetarako eguneratze-kontsiderazioak
-description: Artikuluak administratzaileek kontuan hartu behar dituzten puntuak estaltzen ditu, onarpen modernoen funtzionaltasuna gaitzean.
+title: Bertsio-berritu Onarpen modernoen hausnarketak
+description: Artikuluak administratzaileek Modern Approvals funtzionaltasuna gaitzen dutenean kontuan hartu behar dituzten puntuak biltzen ditu.
 author: stsporen
 ms.date: 01/31/2022
 ms.topic: article
@@ -13,39 +13,39 @@ ms.contentlocale: eu-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8931729"
 ---
-# <a name="upgrade-considerations-for-modern-approvals"></a>Onarpen modernoetarako eguneratze-kontsiderazioak 
+# <a name="upgrade-considerations-for-modern-approvals"></a>Bertsio-berritu Onarpen modernoen hausnarketak 
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-2022ko apirilaren 1eko Wave 1 bertsioaren parte gisa, onarpen modernoen funtzionaltasuna aurrez zehaztuta egongo da. Funtzionaltasun horrek onarpen-logikaren fidagarritasuna hobetzen du, eta onarpen-logikak huts egiten badu, arrazoia zehaztu ahal izango duela bermatzen du.
+2022ko apirileko kaleratzearen 1 bertsioaren barruan, Modern Approvals funtzioa lehenespenez gaituta egongo da. Funtzionalitate honek onarpen-logikaren fidagarritasuna hobetzen du eta onarpen-logikak huts egiten badu arrazoia zehaztu dezakezula ziurtatzen du.
 
-Aldaketa horren parte gisa, proiektuak onartzeko estatu-aldaketak eguneratzen dira. Estatua orain zuzenean bidali **behar** da **·**. **Malda** ez da onarpenetarako estatu bat. Onarpen bat egiteke dagoen zehazteko, egiaztatu onarpena onarpen-multzo baten parte dela eta erantsitako onarpenen egoera berrikusten duela.
+Aldaketa horren barruan, proiektuen onarpenen egoera-aldaketak eguneratzen dira. Egoera orain zuzenean doa **Aurkeztua**-tik **Onartua**-ra. **Zain** jada ez da onarpenetarako egoera. Onarpen bat egiteke dagoen zehazteko, egiaztatu onespena onarpen-multzo baten parte dela, eta berrikusi erantsitako onarpen-multzoaren egoera.
 
-## <a name="before-you-upgrade"></a>Eguneratu aurretik
+## <a name="before-you-upgrade"></a>Bertsio-berritu aurretik
 
-Onarpen modernoak eguneratu baino lehen, ziurtatu ez duela onarpenik. Onarpen modernoak ez ditu **Aldapako** estatua erabiltzen. Beraz, eguneraketaren ondoren oraindik malda gisa **markatuta dauden onarpenak** ez dira prozesatuko.
+Modern Approvals-era bertsio-berritu aurretik, ziurtatu ez duzula onarpen pendienterik. Modern Approvals-ek ez du erabiltzen **Zain** egoera. Beraz, oraindik bezala markatuta dauden onarpen guztiak **Zain** bertsio berritu ondoren ez da prozesatuko.
 
-## <a name="after-you-upgrade"></a>Eguneratu ondoren
+## <a name="after-you-upgrade"></a>Bertsio-berritu ondoren
 
-Onarpen modernoak eguneratu ondoren, administratzaile batek baliozkotu egin behar du onarpenak prozesatzen dituen hodeiaren fluxua gaitu dela.
+Modern Approvals-era eguneratu ondoren, administratzaile batek onarpenak prozesatzen dituen hodeiko fluxua gaituta dagoela egiaztatu behar du.
 
-1. Saioa [hasi flow.microsoft.com](https://flow.microsoft.com)
-2. Orriaren goiko eskuinaldean, aldatu bere ingurua eguneratu duen ingurunera.
-3. Ingurunean instalatutako soluzioak zerrendatzeko konponbideak **hautatu**.
-4. Konponbideen zerrendan, aukeratu **proiektu-eragiketak** edo **proiektu-zerbitzua**.
-5. Aldatu Guztien **iragazkia** **hodeian**.
-6. Egiazta ezazu **proiektuak behin eta berriro onartzeko** programazio-zerbitzua – Programatu proiektu-zerbitzuaren aukera aktibatuta **dagoela**. Hala ez bada, fluxua hautatu eta, ondoren, **aktibatu**.
-7. Egiazta ezazu prozesamendua bost minuturo gertatzen dela, konfigurazio-eremuko **sistemaren** lanen **zerrenda berrikusiz**.
+1. Hasi saioa [flow.microsoft.com](https://flow.microsoft.com)
+2. Orriaren goiko eskuinaldean, aldatu zure ingurunea eguneratu duzun ingurunera.
+3. Hautatu **Irtenbideak** ingurunean instalatutako irtenbideak zerrendatzeko.
+4. Irtenbideen zerrendan, hautatu **Project Operations** edo **Project Service**.
+5. Aldatu iragazkia honetatik **Denak** hona: **Hodei Fluxuak**.
+6. Egiaztatu hori **Project Service - Behin eta berriz programatu proiektuak onartzeko multzoak** aukera ezarrita dago **Aktibatuta**. Ez badago, hautatu fluxua eta hautatu **Aktibatu**.
+7. Egiaztatu prozesaketa bost minuturo gertatzen ari dela berrikusiz **Sistema-lanak** zerrendan **Ezarpenak** eremua.
 
-## <a name="short-term-rollback"></a>Epe laburrerako itzulketa
+## <a name="short-term-rollback"></a>Epe laburreko atzerapena
 
-Aldaketak onartu ezin baditu edo ezaugarri horrekin arazo larriren bat aurkitzen badu, aldi baterako itzuli daiteke jatorrizko onarpen-fluxura, honako urrats hauek eginez:
-1. Bere ingurunean saioa hasi eta egiaztatu ez dagoela onarpenik.
-2. Konfigurazio-proiektuaren **parametroetara.** > **·**
-3. Funtzioa **desaktibatzeko, ezaugarrien kontrola** hautatu eta, ondoren, onarpen modernoak **hautatu**.
+Ezin badituzu aldaketak hartu edo eginbide honekin arazo larri bat aurkitzen baduzu, aldi baterako jatorrizko onarpen-fluxura itzul dezakezu urrats hauek jarraituz:
+1. Hasi saioa zure ingurunean eta egiaztatu ez dagoela onarpenik zain.
+2. Joan **Ezarpenak** > **Proiektuaren parametroak** aukerara.
+3. Hautatu **Ezaugarrien Kontrola** eta gero hautatu **Onarpen modernoak** funtzioa desaktibatzeko.
 
-## <a name="removing-the-feature-flag"></a>Ezaugarrien adierazlea ezabatzea
+## <a name="removing-the-feature-flag"></a>Ezaugarrien bandera kentzen
 
-2022ko urriaren 2ko Wave eguneratzean, funtzio hori desaktibatzeko gaitasuna ezabatuko da.
+2022ko urriko kaleratzeko 2 eguneratzean, eginbide hau desaktibatzeko gaitasuna kenduko da.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

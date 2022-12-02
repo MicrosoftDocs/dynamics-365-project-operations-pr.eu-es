@@ -1,6 +1,6 @@
 ---
 title: Eguneratu Project Service 3.x bertsioaren antolaketa
-description: Artikulu honek eskuragarri dauden eta datozen bertsioei buruzko informazioa eskaintzen du Dynamics 365 Project Service Automation.
+description: Gai honek eskuragarri dauden eta datozen Dynamics 365 Project Service Automation-en bertsioei buruzko informazioa eskaintzen du.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -45,29 +45,29 @@ Project Service-ko eguneratzeei buruzko informazio gehiago lortzeko, joan [Dynam
 | Geltokia  | Eskualdea | Uneko bertsioa | Hurrengo bertsioa |  Antolatutako data
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>1. geltokia</strong> | |  |  | |
-| | <i>Lehenengo oharra</i> | [3.10.78.8](whats-new-ur-47.md)| TBD | 2022ko urriaren 07a
+| | <i>Lehenengo oharra</i> | [3.10.78.8](whats-new-ur-47.md)| TBD | 2022ko urriak 07
 |<strong>2. geltokia</strong> | |  |  | |
-| | <i>Hego Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
-| | <i>Kanada</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
-| | <i>India</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
-| | <i>Frantzia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
-| | <i>Hego Afrika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
-| | <i>Alemania</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
-| | <i>Suitza</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
-| | <i>Hego Korea</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
-| | <i>Norvegia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 14a
+| | <i>Hego Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriak 14
+| | <i>Kanada</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriak 14
+| | <i>India</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriak 14
+| | <i>Frantzia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriak 14
+| | <i>Hego Afrika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriak 14
+| | <i>Alemania</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriak 14
+| | <i>Suitza</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriak 14
+| | <i>Hego Korea</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriak 14
+| | <i>Norvegia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriak 14
 |<strong>3. geltokia</strong> | |  |  | |
-| | <i>Japonia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 21a
-| | <i>Asia pazifikoa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 21a
-| | <i>Britainia Handia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 21a
-| | <i>Oceana</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 21a
-| | <i>Arabiar Emirerri Batuak</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 21a
+| | <i>Japonia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriak 21
+| | <i>Asia pazifikoa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriak 21
+| | <i>Britainia Handia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriak 21
+| | <i>Oceana</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriak 21
+| | <i>Arabiar Emirerri Batuak</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriak 21
 |<strong>4. geltokia</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriaren 21a
+| | <i>Europa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko urriak 21
 |<strong>5. geltokia</strong> | |  |  | |
-| | <i>Ipar Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko azaroaren 04a
+| | <i>Ipar Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko azaroaren 4a
 |<strong>6. geltokia</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko azaroaren 02a
+| | <i>Government Community Cloud</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko azaroaren 2a
 | | <i>Eskainitako eskala-taldeak</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022ko azaroaren 11
 
 

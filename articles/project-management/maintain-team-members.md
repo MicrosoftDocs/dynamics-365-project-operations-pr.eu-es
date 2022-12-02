@@ -1,6 +1,6 @@
 ---
 title: Kudeatu taldeko kideak
-description: Artikulu honetan, proiektu-ekipamenduei izena ematen zaien baliabideak nola erreserbatu eta zereginei nola esleitu buruzko informazioa ematen da.
+description: Gai honek proiektu taldeetara izena duten baliabideak erreserbatzeko eta hauek zereginetara esleitzeko informazioa eskaintzen du .
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

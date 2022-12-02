@@ -1,6 +1,6 @@
 ---
 title: Denboraren ikuspegi orokorra
-description: Artikulu honek Time funtzionalitateari buruzko informazioa eskaintzen du Dynamics 365 Project Operations.
+description: Gai honek Dynamics 365 Project Operations-eko Denbora funtzionalitateari buruzko informazioa eskaintzen du.
 author: stsporen
 ms.date: 10/02/2020
 ms.topic: overview

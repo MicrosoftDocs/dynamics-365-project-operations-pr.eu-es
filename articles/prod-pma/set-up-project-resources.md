@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu proiektuan baliabideak
-description: Artikulu honek proiektuko baliabideak konfiguratzeari edo eskatzeari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuko baliabideak konfiguratzeari edo eskatzeari buruzko informazioa ematen du.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

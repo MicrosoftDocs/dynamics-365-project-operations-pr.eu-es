@@ -1,6 +1,6 @@
 ---
 title: Eman ingurune berri bat
-description: Artikulu honek Project Operations ingurune berri bat hornitzeari buruzko informazioa eskaintzen du.
+description: Gai honek Project Operations ingurune berri bat emateari buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -20,7 +20,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 
 
-Artikulu honek berri bat hornitzeari buruzko informazioa eskaintzen du Dynamics 365 Project Operations baliabideetan/ez hornituta oinarritutako eszenatokietarako ingurunea.
+Gai honek baliabidean / pilatu gabeko egoeretako Dynamics 365 Project Operations ingurune berria emateko moduari buruzko informazioa ematen du.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Gaitu Project Operations hornidura automatikoa LCS proiektu batean
 
@@ -34,7 +34,7 @@ Erabili urrats hauek zure LCS proiekturako Project Operations hornidura-fluxu au
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operations ingurunea hornitzea
 
-1. Ireki Dynamics 365 Finance berri bat [demo ingurunea](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) edo [sandbox/produkzio ingurunea](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) hedapena. 
+1. Ireki Dynamics 365 Finance [demo-ingurunea](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) edo [sandbox / produkzio ingurunea](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) inplementazioa. 
 2. **Ingurumen hornidura** morroia eramatea. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Baliteke kalitate-eguneratzeak aplikatzea zure Finance inguruneari bertsio hau j
 
     ![Aplikatu soluzioak.](./media/13ApplySolutions.png)
 
-5. Aukeratu bi irtenbideak, **Dynamics 365 Finance Idazketa bikoitzeko entitateen mapa** eta **Dynamics 365 Project Operations Idazketa bikoitzeko entitateen mapak**, eta gero hautatu **Aplikatu**.
+5. Aukeratu bi irtenbideak, **Dynamics 365 Finance Idazketa bikoitzeko entitateen mapa** eta **Dynamics 365 Project Operations Idazketa bikoitzeko entitateen mapak** eta, ondoren, hautatu **Aplikatu**.
 
     ![Berretsi irtenbideak.](./media/14ConfirmSolutions.png)
 

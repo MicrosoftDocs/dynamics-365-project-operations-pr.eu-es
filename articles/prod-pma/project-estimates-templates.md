@@ -1,6 +1,6 @@
 ---
-title: Sinkronizatu proiektuen kalkuluak zuzenean Project Service Automation-etik finantza eta eragiketekin
-description: Artikulu honek proiektuaren ordu-kalkuluak eta proiektuaren gastu-kalkuluak zuzenean sinkronizatzeko erabiltzen diren txantiloiak eta azpiko zereginak deskribatzen ditu.Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Finance.
+title: Sinkronizatu proiektuaren aurreikuspenak zuzenean Project Service Automation-etik finantza eta eragiketetara
+description: Gai honek proiektuaren orduen kalkuluak eta proiektuaren gastuen kalkuluak Microsoft-etik zuzenean sinkronizatzeko erabiltzen diren txantiloiak eta azpiko atazak deskribatzen ditu Microsoft Dynamics 365 Project Service Automation-etik Dynamics 365 Finance-ra.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: eu-ES
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9029790"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronizatu proiektuen kalkuluak zuzenean Project Service Automation-etik finantza eta eragiketekin
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronizatu proiektuaren aurreikuspenak zuzenean Project Service Automation-etik finantza eta eragiketetara
 
 [!include[banner](../includes/banner.md)]
 
-Artikulu honek proiektuaren ordu-kalkuluak eta proiektuaren gastu-kalkuluak zuzenean sinkronizatzeko erabiltzen diren txantiloiak eta azpiko zereginak deskribatzen ditu.Dynamics 365 Project Service Automation to Dynamics 365 Finance.
+Gai honek proiektuaren orduen kalkuluak eta proiektuaren gastuen kalkuluak Microsoft-etik zuzenean sinkronizatzeko erabiltzen diren txantiloiak eta azpiko atazak deskribatzen ditu Dynamics 365 Project Service Automation-etik Dynamics 365 Finance-ra.
 
 > [!NOTE]
 > - Proiektuaren zereginen integrazioa, gastuen transakzioen kategoriak, orduen kalkuluak, gastuen kalkuluak eta funtzionalitate blokeoa eskuragarri daude 8.0 bertsioan.
@@ -69,7 +69,7 @@ Proiektuaren orduen kalkuluen sinkronizazioa gertatu aurretik, proiektuak, proie
 
 ### <a name="power-query"></a>Power Query
 
-Proiektuaren ordu-kalkuluen txantiloian, Microsoft erabili behar duzu Power Query Excel-ek zeregin hauek bete ditzan:
+Proiektuaren orduen kalkuluen txantiloian, Microsoft Power Query Excel erabili behar duzu zeregin hauek burutzeko:
 
 - Ezarri integrazioak ordu iragarpen berriak sortzen dituenean erabiliko den iragarpen eredu lehenetsia.
 - Ordu iragarpenetan integrazioa huts egingo duen atazan baliabide espezifikoen erregistroak iragazi.
@@ -80,7 +80,7 @@ Proiektuaren ordu-kalkuluen txantiloian, Microsoft erabili behar duzu Power Quer
 Txantiloian aurreikusitako modeloaren ID lehenetsia eguneratzeko, egin klik **Mapa** gezia mapa irekitzeko. Ondoren, hautatu **Kontsulta eta iragazki aurreratuak** esteka.
 
 - Proiektuaren ordu-estimazio lehenetsiak (PSA to Fin eta Ops) txantiloia erabiltzen ari bazara, hautatu **Txertatutako baldintza** zerrendan **Urrats Aplikatuak**. **Funtzioa** sarrera, ordeztu **O\_iragarpena** integrazioarekin batera erabili behar den aurreikuspen ereduaren IDaren izenarekin. Txantiloi lehenetsiak iragarpen eredu IDa du demo datuetatik.
-- Txantiloi berria sortzen ari bazara, zutabe hau gehitu behar duzu. In Power Query, hautatu **Gehitu baldintzapeko zutabea**, eta idatzi izen bat zutabe berriarentzat, adibidez **ModelID**. Idatzi zutabearen baldintza. Proiektuaren zeregina nulua ez bada, orduan \<enter the forecast model ID\>; bestela nulua.
+- Txantiloi berria sortzen ari bazara, zutabe hau gehitu behar duzu. Power Query atalean, hautatu **gehitu baldintzazko zutabea**, eta idatzi zutabe berriaren izena, adibidez **ModelID**. Idatzi zutabearen baldintza. Proiektuaren zeregina nulua ez bada, orduan \<enter the forecast model ID\>; bestela nulua.
 
 #### <a name="filter-out-resource-specific-records"></a>Iragazi baliabide espezifikoen erregistroak
 
@@ -125,7 +125,7 @@ Proiektuaren gastuen kalkuluen sinkronizazioa gertatu aurretik, proiektuak, proi
 
 ### <a name="power-query"></a>Power Query
 
-Proiektuaren gastu-kalkuluen txantiloian, erabili behar duzu Power Query zeregin hauek betetzeko:
+Proiektuaren gastuen kalkuluen txantiloian, Power Query erabili behar duzu hurrengo zeregin hauek burutzeko:
 
 - Iragazi gastuen kalkuluen lerro erregistroak soilik sartzeko.
 - Ezarri integrazioak ordu iragarpen berriak sortzen dituenean erabiliko den iragarpen eredu lehenetsia.
@@ -140,8 +140,8 @@ Proiektuaren gastuen kalkuluak (PSA to Fin eta Ops) txantiloiak iragazki lehenet
 
 Eguneratu lehenetsitako iragarritako ereduaren ID txantiloian, hautatu **Gastuaren balioztatzea** zeregina, eta gero klik egin **Mapa** gezitu irekiz jarraipena. Hautatu **Kontsulta eta iragazki aurreratuak** esteka.
 
-- Proiektuaren gastuen estimazio lehenetsia (PSA to Fin eta Ops) txantiloia erabiltzen ari bazara, sartu Power Query, hautatu lehenengoa **Baldintza txertatua** tik **Aplikaturiko Urratsak** atala. **Funtzioa** sarrera, ordeztu **O\_iragarpena** integrazioarekin batera erabili behar den aurreikuspen ereduaren IDaren izenarekin. Txantiloi lehenetsiak iragarpen eredu IDa du demo datuetatik.
-- Txantiloi berria sortzen ari bazara, zutabe hau gehitu behar duzu. In Power Query, hautatu **Gehitu baldintzapeko zutabea**, eta idatzi izen bat zutabe berriarentzat, adibidez **ModelID**. Idatzi zutabearen baldintza. Aurreikusitako lerroaren IDa nulua ez bada, orduan \<enter the forecast model ID\>; bestela nulua.
+- Proiektuaren gastu-estimazio lehenetsiak (PSA to Fin eta Ops) txantiloia erabiltzen ari bazara Power Query-n, hautatu lehen **Txertatutako baldintza** hurrengotik **Urrats Aplikatuak** sekzioa. **Funtzioa** sarrera, ordeztu **O\_iragarpena** integrazioarekin batera erabili behar den aurreikuspen ereduaren IDaren izenarekin. Txantiloi lehenetsiak iragarpen eredu IDa du demo datuetatik.
+- Txantiloi berria sortzen ari bazara, zutabe hau gehitu behar duzu. Power Query atalean, hautatu **gehitu baldintzazko zutabea**, eta idatzi zutabe berriaren izena, adibidez **ModelID**. Idatzi zutabearen baldintza. Aurreikusitako lerroaren IDa nulua ez bada, orduan \<enter the forecast model ID\>; bestela nulua.
 
 #### <a name="transform-the-billing-types"></a>Eraldatu fakturazio motak
 

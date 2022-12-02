@@ -1,6 +1,6 @@
 ---
 title: Produktuak
-description: Artikulu honetan, bezeroei beren erakundeak eskaintzen dituen produktuei eta prezioei buruzko informazioa emateko erabil ditzakeen produktuen katalogoari buruzko informazioa ematen da.
+description: Gai honek zure erakundeak eskaintzen dituen produktuei eta prezioei buruz bezeroei informazioa emateko erabil dezakezun produktuen katalogoari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Saltzaileen eta erosketa prezioen zerrenden kudeaketa Project Operations-en
-description: Artikulu honek saltzaileen datuak sortzen eta mantentzen lagunduko dizun informazioa eskaintzen du eta azpikontrataziorako erosteko prezioen zerrendak.
+description: Gai honek saltzailearen datuak eta azpikontrataziorako erosketa prezioen zerrendak sortzen eta mantentzen lagunduko dizun informazioa eskaintzen du.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

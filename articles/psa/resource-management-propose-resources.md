@@ -1,6 +1,6 @@
 ---
 title: Proposatu proiektuaren baliabideak
-description: Artikulu honek proiektuaren baliabideak proposatzeari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuaren baliabideak proposatzeari buruzko informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

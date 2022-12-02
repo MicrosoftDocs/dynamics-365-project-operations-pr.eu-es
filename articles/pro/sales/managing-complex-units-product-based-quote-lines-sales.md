@@ -1,6 +1,6 @@
 ---
 title: Unitate konplexuak kudeatzea; adibidez, erabiltzaile bakoitzeko, hileroko produktuetan oinarritutako eskaintzaren lerroetarako - arina
-description: Artikulu honetan, produktuetan oinarritutako kotizazio-lerroetarako unitate konplexuen administrazioari buruzko informazioa ematen da.
+description: Gai honek produktuetan oinarritutako eskaintza-lerroetako unitate konplexuak kudeatzeari buruzko lerroei buruzko informazioa ematen du.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

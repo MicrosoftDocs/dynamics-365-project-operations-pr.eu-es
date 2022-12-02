@@ -1,6 +1,6 @@
 ---
 title: Proiektuko eskaintzaren ezarpenak
-description: Artikulu honek proiektuen aurrekontuei aplikatzen zaien eta eragina duten informazio eta ezarpenei buruzko informazioa eskaintzen du.
+description: Gai honek proiektuaren aurrekontuei aplikatzen zaien eta ezartzen duen informazioari eta ezarpenei buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

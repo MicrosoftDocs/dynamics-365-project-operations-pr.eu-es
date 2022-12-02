@@ -1,6 +1,6 @@
 ---
 title: Argitaratu gastuen txostenak
-description: Artikulu honek gastuen txostenak nola argitaratu azaltzen du.
+description: Gai honetan gastuen txostenak nola bidali azaltzen da.
 author: ramagadu
 ms.date: 08/12/2022
 ms.topic: article
@@ -30,11 +30,11 @@ Gastu txostena argitaratzeko,**Onartutako gastuen txostenak** orrian, hautatu ga
 
 Zerrendako gastuen txosten guztiak aldi berean bidal ditzakezu. Aukeratu gastuen txosten guztiak, eta hautatu **Bidali**.
 
-## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Gaitu eskudirutan ordaintzeko metodoaren gastu-erantzukizuna saltzailearen monetan argitaratzeko gaitasuna
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Gaitu gastuen txostenak saltzaileen moneta batean argitaratzea ahalbidetzen du eskudirutan ordaintzeko metodoaren eginbiderako
 
-The **Eskudirutan ordaintzeko metodorako gastu-erantzukizuna saltzailearen monetan argitaratzeko gaitasuna** funtzioak gastuen txostenak saltzaileen moneta batean argitaratzea ahalbidetzen du eskudirutan ordaintzeko metodorako.
+**Eskudirutan ordaintzeko metodorako gastu-erantzukizuna saltzailearen monetan argitaratzeko gaitasuna** funtzioak gastuen txostenak saltzaileen moneta batean argitaratzea ahalbidetzen du eskudirutan ordaintzeko metodorako.
 
-Une honetan, diru-gastuak bidaltzen dituzunean, gastuen txostenak kontabilitate-monetan argitaratzen dira. Transakzio-moneta, kontabilitate-moneta eta hornitzaile-moneta arteko zenbatekoa bihurtzearen ondorioz, saltzaileei kopuru oker bat ordaintzen zaie, baldin eta gastuaren transakzio-datak eta benetako ordainketa-datak truke-tasa desberdinak badituzte.
+Une honetan, diru-gastuak bidaltzen dituzunean, gastuen txostenak kontabilitate-monetan argitaratzen dira. Transakzio-moneta, kontabilitate-moneta eta hornitzaile-moneta arteko zenbatekoa bihurtzearen ondorioz, saltzaileei kopuru oker bat ordaintzen zaie gastuaren transakzio-datak eta benetako ordainketa-datak truke-tasa desberdinak badituzte.
 
 Ezaugarri honek bermatuko du saltzailearen saldoa saltzaileen monetan erregistratzen dela gastuen txostena argitaratzen denean.
 

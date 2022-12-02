@@ -1,6 +1,6 @@
 ---
 title: Kudeatu proiektuetan oinarritutako abaguneak
-description: Artikulu honetan, proiektuekin zerikusia duten aukerekin lan egiteko moduari buruzko informazioa ematen da.
+description: Gai honek proiektuekin erlazionatutako aukerekin lan egiteko moduari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 Proiektuetan oinarritutako konpainiek herrialde eta geografi anitzetan banatzeko eragiketak izaten dituzte. Proiektuaren exekuzioaren eta entregaren kostua alda daiteke banaketa kudeatzen duen geografiaren edo sailaren arabera. Aldiz, horrek akordioaren marjinetan eragina izan dezake. Proiektuetan oinarritutako zerbitzuak emateak giza baliabideen denbora kopuru handia, bidaiatzeko gastu handiak, kostu materialak eta bestelako gastuak dakartza normalean.
 
-Dynamics 365 Project Operations-eko proiektuan oinarritutako abaguneak Dynamics 365 Sales-erako luzapenekin diseinatuta daude. Artikuluak proiektuetan oinarritutako aukerak kudeatzeko proiektuetan oinarritutako enpresek behar duten funtzionaltasun gehigarrian sartutako arloei eta enpresa-logikari buruzko xehetasunak ematen ditu.
+Dynamics 365 Project Operations-eko proiektuan oinarritutako abaguneak Dynamics 365 Sales-erako luzapenekin diseinatuta daude. Gaiak proiektuetan oinarritutako enpresek proiektuetan oinarritutako aukerak kudeatzeko eskatzen duten funtzionalitate osagarriaren barne dauden arlo eta negozio logikari buruzko xehetasunak eskaintzen ditu.
 
 ## <a name="view-all-project-based-opportunities"></a>Ikusi proiektuetan oinarritutako abagune guztiak
 

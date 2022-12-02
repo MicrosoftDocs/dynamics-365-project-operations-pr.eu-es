@@ -1,6 +1,6 @@
 ---
 title: Diru-aurrerakina
-description: Artikulu honek diru-aurrerakinei buruzko informazioa eskaintzen du.
+description: Gai honek eskudiru-aurrerakinak egiteari buruzko informazioa ematen du.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -66,7 +66,7 @@ Gastuen txostena bidali aurretik, txosteneko gastu-transakzioekin bat datorren d
  
  Ezaugarri hauek gaituta daudenean:
  
-  - Diru-aurrerakin bat edo gehiago gehi ditzakezu gastu-lerro bakoitzeko.
+  - Gastu lerro bakoitzeko diru aurrerakin bat edo gehiago gehitu ditzakezu.
   - Diru-aurrerakinaren saldo erabilgarria denbora errealean ikusgai dago gastuen txostena gordetzen denean. Horri esker, gastuen transakzioak eta diruzko transakzioak aldi berean prozesatu ditzakezu.
   - Gastu-transakzio baten hainbat diru aurrerakin hauta ditzakezu.
   - Eskudirua aldez aurretik bateratzeko datuak kontsulta erabiliz erabilgarri daude. 

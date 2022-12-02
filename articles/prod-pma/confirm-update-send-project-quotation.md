@@ -1,6 +1,6 @@
 ---
 title: Berretsi, eguneratu eta bidali proiektuaren eskaintza
-description: Artikulu honek bezeroari aurrekontua bidaltzeko berrespenari buruzko informazioa ematen du, iritzien arabera aldatzeari eta, ondoren, aurrekontua berriro bidaltzeari buruz.
+description: Gai honek bezeroari aurrekontua bidaltzeari buruzko informazioa eskaintzen du berrespenerako, iritzietan oinarrituta aldatzeko eta aurrekontua berriro bidaltzeko.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article

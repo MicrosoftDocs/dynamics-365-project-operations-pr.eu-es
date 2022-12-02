@@ -1,6 +1,6 @@
 ---
 title: Azpikontratuen goiburuaren xehetasunak
-description: Artikulu honek proiektuaren eragiketetan azpikontratuaren goiburuan emandako funtzionaltasuna azaltzen du.
+description: Gai honek Project Operations azpikontratatutako goiburuan emandako funtzionalitatea azaltzen du.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "9522545"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Artikulu honek azpikontratuaren goiburuan emandako funtzionaltasuna azaltzen du Dynamics 365 Project Operations.
+Gai honek Dynamics 365 Project Operations azpikontratatutako goiburuan emandako funtzionalitatea azaltzen du.
 
 Proiektu kudeatzaile batek proiektuak planifikatu eta exekutatzen dituen heinean, azpikontratistak kontratatu eta produktuak eta zerbitzuak saltzaileei eros ditzakete. Proiektu kudeatzaile batek produktuak edo zerbitzuak erosi behar dituenean, azpikontrata sor dezakete Project Operations.
 

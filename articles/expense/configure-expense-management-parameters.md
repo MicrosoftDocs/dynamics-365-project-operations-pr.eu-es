@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu gastuak kudeatzeko parametroak
-description: Artikulu honetan Gastuen kudeaketan portaera orokorra kontrolatzen duten parametroak deskribatzen dira.
+description: Gai honetan Gastuen kudeaketako portaera orokorra kontrolatzen duten parametroak deskribatzen dira.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8931453"
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Artikulu honek Gastuen kudeaketaren portaera orokorra kontrolatzeko parametroak deskribatzen ditu.
+Gai honetan Gastuen kudeaketako portaera orokorra kontrolatzen duten parametroak deskribatzen dira.
 
 ## <a name="general"></a>Orokorra
 

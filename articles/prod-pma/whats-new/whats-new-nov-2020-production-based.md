@@ -1,6 +1,6 @@
 ---
 title: 2020ko azaroko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
-description: Artikulu honek 2020ko azaroko Project Operations bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du hornitutako ekoizpenean oinarritutako agertokietarako.
+description: Gai honek informazioa eskaintzen du 2020ko azaroan Project Operations bertsioan eskuragarri dauden kalitate-eguneratzeei buruz, stockean eta ekoizpenean oinarritutako egoeretarako.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
@@ -23,7 +23,7 @@ Eguneratze honetan jasotako konponketen inguruko informazioa lortzeko, hasi Life
 
 ## <a name="regulatory-updates"></a>Araudiaren eguneratzeak
 
-Dynamics 365 finantza eta eragiketa aplikazioetarako arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). LCS-en saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
+Eguneratze arautzaileei buruzko informazioa lortzeko Dynamics 365 finantzen eta eragiketen aplikazioak, ikusi [Araudiaren eguneratzeak](/dynamics365/finance/localizations/regulatory-updates). LCS-en saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

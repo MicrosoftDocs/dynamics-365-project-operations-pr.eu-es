@@ -1,6 +1,6 @@
 ---
 title: 2020ko Abenduko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-description: Artikulu honek Project Operations-en 2020ko abenduko bertsioan eskuragarri dauden kalitate-egunerei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
+description: Gai honek informazioa eskaintzen du 2020ko abenduan Project Operations bertsioan eskuragarri dauden kalitate-eguneratzeei buruz, baliabideetan / stockean oinarritutako egoeretarako.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029699"
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
+Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
 - Project Operations Dataverse ingurunearen 4.5.0.134 bertsioa
-- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.15 bertsioan
+- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.15 bertsioan
 
 Bertsio hau eguneratzeko moduari buruzko informazioa lortzeko, ikusi [Eguneratu Project Operations zure Finantza ingurunean](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ Eginbide hauek sartzen dira bertsio honetan:
 | Proiektuaren antolaketa eta jarraipena | 2057197          | Zereginaren erreferentziarekin kalkulatutako lerro kopia ez da onartzen                                                                                                     |
 | Proiektuaren antolaketa eta jarraipena | 2060687          | Ordu-zonaren abisua iraupen zehatz baten ondoren desagertzen da                                                                                                      |
 | Baliabideen kudeaketa           | 1832887          | Baliabideen kategoriako ID lehenetsiak estatikoa izan behar du datuen karga errepika daitezkeenak ziurtatzeko Dataverse eta Finantza inguruneak                                                 |
-| Denbora eta gastua              | 2081793          | **Gastuen kategoriaren izena** mapatu behar da **Gastuen kategoriaren deskribapena** Finantza eta eragiketa aplikazioetan arloa                                                  |
+| Denbora eta gastua              | 2081793          | **Gastuaren kategoria izena** mapatu behar da **Gastuen kategoriaren deskribapena** eremua finantzen eta eragiketen aplikazioak                                                  |
 | Denbora eta gastua              | 2034882          | **Berria** botoia bi aldiz bistaratzen da komando barran denbora sartzeko Dynamics 365 Field Service instalatuta dago                                          |
 | Denbora eta gastua              | 2056028          | Eguneratu **Editatu ordua** denbora lerroa sartzeko orria                                                                                                              |
 | Denbora eta gastua              | 1983747          | Denbora sartzeko taulan datu osagarriak agertzen dira                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance-en
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Project Management and Accounting Dynamics 365 Finance-n
 
 | Ezaugarrien eremua                        | Erreferentzia-zenbakia | Kalitatearen eguneratzea                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Eginbide hauek sartzen dira bertsio honetan:
 | Bidaia eta gastua                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Gastuen txostena automatikoki argitaratzeko lan-fluxua amaitu da, baina faktura ez da argitaratzen                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Araudiaren eguneratzeak
-Finantza eta eragiketa aplikazioetarako arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). LCS-en saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
+Eguneratze arautzaileei buruzko informazioa lortzeko finantzen eta eragiketen aplikazioak, ikusi [Araudiaren eguneratzeak](/dynamics365/finance/localizations/regulatory-updates). LCS-en saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

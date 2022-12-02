@@ -1,6 +1,6 @@
 ---
 title: Sortu LCS proiektua
-description: Artikulu honek LCSn proiektu berri bat sortzeari buruzko informazioa eskaintzen du zure Project Operations ingurunerako.
+description: Gai honek Project Operations inguruneko LCS-n proiektu berria sortzeari buruzko informazioa eskaintzen du.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -27,7 +27,7 @@ Erabili Lifecycle Services (LCS) zure Dynamics 365 Project Operations inguruneak
   ![Aukeratu LCS proiektu mota.](./media/create-lcs-1.png)
 
 5. Proiektuaren izena. 
-6. Hautatu **Finantza eta eragiketak** produktuaren izen gisa, eta hautatu industria eta metodologia. 
+6. Aukeratu **finantzak eta eragiketak** produktuaren izen gisa, eta hautatu industria eta metodologia. 
 7. Hautatu **Sortu**.
 
 ![Sortu LCS proiektua.](./media/create-lcs-2.png)

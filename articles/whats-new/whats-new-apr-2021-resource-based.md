@@ -1,6 +1,6 @@
 ---
 title: 2021eko apirileko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-description: Artikulu honek Project Operations-en 2021eko apirileko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
+description: Gai honek 2021eko apirileko Project Operations bertsioan baliabideetan/izakinik gabekoetan oinarritutako agertokietarako eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029233"
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
+Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
 - Project Operations Dataverse ingurunearen 4.9.0.221 bertsioa
-- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.17 bertsioan
+- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.17 bertsioan
 
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
 
@@ -42,13 +42,13 @@ Hurrengo zerrendan 2021eko apirileko Project Operations aldatu edo gehitu diren 
 | **Entitate-esleipena** | **Eguneratutako bertsioa** | **Iruzkinak** |
 | --- | --- | --- |
 | Project Operations-en integrazioaren benetako datuak (msdyn\_actuals) | 1.0.0.14 | Mapa aldatu da proiektuaren egiazkoak sinkronizatzeko. |
-| Project Operations-ek integratzeko entitatea gastuen kalkuluen arabera (msdyn\_estimateslines) | 1.0.0.2 | Proiektu-kontratu-lerroen sinkronizazioa gehitu da finantza- eta eragiketa-aplikazioetan zereginetan oinarritutako fakturazio-laguntzarako. |
-| Project Operations-ek integratzeko entitatea orduen kalkuluen arabera (msdyn\_resourceassignments) | 1.0.0.5 | Proiektu-kontratu-lerroen sinkronizazioa gehitu da finantza- eta eragiketa-aplikazioetan zereginetan oinarritutako fakturazio-laguntzarako. |
-| Project Operations integrazioaren taula materialen kalkuluen arabera (msdyn\_estimatelines) | 1.0.0.0 | Taula-mapa berria materialaren estimazioak sinkronizatzeko Dataverse finantzaketa eta eragiketa aplikazioetarako. |
-| Project Operations integrazioa proiektuaren saltzailearen faktura esportatzeko entitatea (msdyn\_projectvendorinvoices) | 1.0.0.0 | Taula-mapa berria saltzaileen fakturen goiburuak finantza eta eragiketa aplikazioetatik sinkronizatzeko Dataverse. |
-| Project Operations integrazioa proiektuaren saltzailearen faktura-lerroa esportatzeko entitatea (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Taula-mapa berria saltzaileen faktura-lerroak finantza- eta eragiketa-aplikazioetatik sinkronizatzeko Dataverse. |
+| Project Operations-ek integratzeko entitatea gastuen kalkuluen arabera (msdyn\_estimateslines) | 1.0.0.2 | Gehitu da proiektuaren kontratu lerroaren sinkronizazioa zereginetan oinarritutako fakturaziorako laguntza finantzen eta eragiketen aplikazioak. |
+| Project Operations-ek integratzeko entitatea orduen kalkuluen arabera (msdyn\_resourceassignments) | 1.0.0.5 | Gehitu da proiektuaren kontratu lerroaren sinkronizazioa zereginetan oinarritutako fakturaziorako laguntza finantzen eta eragiketen aplikazioak. |
+| Project Operations integrazioaren taula materialen kalkuluen arabera (msdyn\_estimatelines) | 1.0.0.0 | Materialen kalkuluak sinkronizatzeko taula mapa berria Dataverse-tik finantzen eta eragiketen aplikazioetara. |
+| Project Operations integrazioa proiektuaren saltzailearen faktura esportatzeko entitatea (msdyn\_projectvendorinvoices) | 1.0.0.0 | Saltzailearen fakturaren goiburuak sinkronizatzeko taula mapa berria finantzen eta eragiketen aplikazioetatik Dataverse-ra. |
+| Project Operations integrazioa proiektuaren saltzailearen faktura-lerroa esportatzeko entitatea (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Saltzailearen fakturaren lerroak sinkronizatzeko taula mapa berria finantzen eta eragiketen aplikazioetatik Dataverse-ra. |
 
-Beti exekutatu behar duzu maparen azken bertsioa zure ingurunean eta erlazionatutako taula-mapa guztiak gaitu zure Proiektuaren Eragiketak eguneratzen dituzun bitartean.Dataverse irtenbidea eta finantza eta eragiketen irtenbidearen bertsioa. Zenbait eginbide eta gaitasunek agian ez dute behar bezala funtzionatuko maparen azken bertsioa aktibatuta ez badago. Maparen bertsio aktiboa helbidean ikus dezakezu **Bertsioa** zutabea **Idazketa bikoitza** orrialdean. Maparen bertsio berria aktiba dezakezu hautatuta **Taula maparen bertsioak**, azken bertsioa hautatuta, eta ondoren hautatutako bertsioa gorde. Kutxaz kanpoko taulako mapa pertsonalizatu baduzu, aldaketak berriro aplikatu. Informazio gehiago lortzeko, ikusi [Aplikazioaren bizi-zikloaren kudeaketa](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Maparen azken bertsioa beti zure ingurunean exekutatu behar duzu eta erlazionatutako taulako mapa guztiak gaitu Project Operations Dataverse eguneratzen dituzunean konponbidea eta finantzen eta eragiketen irtenbide bertsioa. Zenbait eginbide eta gaitasunek agian ez dute behar bezala funtzionatuko maparen azken bertsioa aktibatuta ez badago. Maparen bertsio aktiboa helbidean ikus dezakezu **Bertsioa** zutabea **Idazketa bikoitza** orrialdean. Maparen bertsio berria aktiba dezakezu hautatuta **Taula maparen bertsioak**, azken bertsioa hautatuta, eta ondoren hautatutako bertsioa gorde. Kutxaz kanpoko taulako mapa pertsonalizatu baduzu, aldaketak berriro aplikatu. Informazio gehiago lortzeko, ikusi [Aplikazioaren bizi-zikloaren kudeaketa](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Mapa abiaraztearen arazoren bat baduzu, jarraitu argibideak [Taulen zutabeak falta dira mapetan](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) Idazketa Dualaren arazoak konpontzeko gidaren atalean.
 
@@ -79,7 +79,7 @@ Mapa abiaraztearen arazoren bat baduzu, jarraitu argibideak [Taulen zutabeak fal
 | Denbora eta gastua | 2204377 | Kopiatutako ordu-orriak automatikoki erakutsi behar dira hautatzen duzunean **Kopiatu astea** denbora sartzean. |
 | Denbora eta gastua | 2209059 | **Egoera** eremua editatu daiteke Dynamics 365 Field Service denbora sarrerak. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance-en
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Project Management and Accounting Dynamics 365 Finance-n
 
 | **Ezaugarrien eremua** | **Erreferentzia-zenbakia** | **Kalitatearen eguneratzea** |
 | --- | --- | --- |

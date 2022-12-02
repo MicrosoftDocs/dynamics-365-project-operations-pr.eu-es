@@ -1,6 +1,6 @@
 ---
 title: Azpikontratazioko kontzeptu nagusiak
-description: Artikulu honek Microsoft-en azpikontratazioari aplikatzen zaizkion funtsezko kontzeptu batzuk azaltzen ditu Dynamics 365 Project Operations.
+description: Gai honek azpikontratazioari aplika dakizkiokeen funtsezko kontzeptu batzuk azaltzen ditu Microsoft Dynamics 365 Project Operations-en.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9522733"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Artikuluak Microsoft-en azpikontratazio-funtzionalitatea erabiltzen hasi aurretik ezagutu behar dituzun funtsezko kontzeptu batzuk azaltzen ditu Dynamics 365 Project Operations.
+Gaiak azpikontratazio funtzionalitatea erabiltzen hasi aurretik ezagutu behar zenituzkeen zenbait gako kontzeptu azaltzen ditu Microsoft Dynamics 365 Project Operations-en.
 
 ## <a name="contracting-unit-on-the-subcontract"></a>Azpikontrataren kontratazio unitatea
 

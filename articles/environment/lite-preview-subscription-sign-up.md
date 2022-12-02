@@ -1,6 +1,6 @@
 ---
 title: Erregistratu aurrebista-harpidetzan - arina
-description: Artikulu honek Project Operations lite inplementazioa nola harpidetu eta nola inplementatu - aurre egin proformako fakturazioari buruzko informazioa eskaintzen du.
+description: Gai honek Project Operations lite-ra harpidetzeko eta hura inplementatzeko moduari buruzko informazioa eskaintzen du. Aurre egin fakturazio proformari.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "9409971"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Erregistratu aurrebista-harpidetzan - arina 
 
-Artikulu honek probako eskaintzara nola harpidetu eta nola zabaldu azaltzen du Dynamics 365 Project Operations lite inplement - proforma fakturazioari aurre egin.
+Gai honek probako eskaintzan harpidetu eta nola inplementatu Dynamics 365 Project Operations lite inplementazioa azaltzen du - proforma fakturazioari aurre egin.
 
 > [!NOTE]
 > Prozesu hau aldatu egingo da datozen Project Operations-en bertsioetan.
@@ -43,14 +43,14 @@ Hasi aurretik, ziurtatu proiektuaren eragiketen aurrebista nahi duzun maizterrea
 > Zure erakundeko Microsoft 365 atarirako sarbide administratiboa beharko duzu urrats hauek burutzeko.
 
 
-1. Joan [Microsoft 365 administrazio zentroa](https://portal.office.com/) zure erabiltzaileei lizentziak esleitzeko.
+1. Joan [Microsoft 365 administrazio zentroa](https://portal.office.com/) aukerara, zure erabiltzaileei lizentziak emateko.
 2. **Erabiltzaile aktiboak** orrian, hautatu lizentzia esleitu nahi diezun erabiltzaileak.
 3. Egiaztatu **Dynamics 365 Project Operations** lizentzia hautatuta dagoela. 
 4. Hatatu **Gorde aldaketak**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Sortu Dataverse ingurune berria
 
-1. Proiektuaren Eragiketa berri bat hornitzea Dataverse inplementazio ingurunea artikuluko argibideak jarraituz, [Dataverse hedapen eredua](lite-deployment.md). Ingurune mota hautatzen duzunean, ziurtatu erabiltzen duzula **Proba (harpidetzan oinarrituta)**.
+1. Eman Project Operations Dataverse inplementazio ingurune berri bat gaiko argibideak jarraituz, [Dataverse inplementazio eredua](lite-deployment.md). Ingurune mota hautatzen duzunean, ziurtatu erabiltzen duzula **Proba (harpidetzan oinarrituta)**.
 
   ![Ingurune berria.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Hasi aurretik, ziurtatu proiektuaren eragiketen aurrebista nahi duzun maizterrea
 
 ## <a name="set-up-demo-data"></a>Konfiguratu demo datuak
 
-Konfiguratu demo datuak artikuluko argibideak jarraituz, [Aplikatu demo konfigurazio eta konfigurazio datuak](lite-apply-demo-setup-config-data.md).
+Konfiguratu demo datuak gaiko argibideak jarraituz, [Aplikatu demo konfigurazio eta konfigurazio datuak](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

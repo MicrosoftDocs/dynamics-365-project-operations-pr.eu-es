@@ -1,6 +1,6 @@
 ---
 title: Aurreikusi proiektu-kontratuaren lerro bat
-description: Artikulu honek proiektu-kontratu-lerro bati buruzko estimazioei buruzko informazioa eskaintzen du.
+description: Gai honek proiektuaren kontratuaren lerroaren aurreikuspenei buruzko informazioa ematen du.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

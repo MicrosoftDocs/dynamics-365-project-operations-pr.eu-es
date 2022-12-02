@@ -1,6 +1,6 @@
 ---
 title: Salmenta-prozesuaren informazio orokorra
-description: Artikulu honek oinarrizko salmenta-prozesuei buruzko informazioa eskaintzen du.
+description: Gai honek oinarrizko salmenta-prozesuei buruzko informazioa ematen du.
 author: rumant
 ms.date: 10/29/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Azpikontratatuaren lerroko baliabideak
-description: Artikulu honek saltzaileak denborarako azpikontratazio-lerro zehatz baterako eskaintzen dituen baliabide dedikatuak nola zehaztu azaltzen du.
+description: Gai honetan saltzaileak denboraz azpikontratatzeko lerro zehatz baterako eskaintzen dituen baliabide dedikatuak nola zehaztu azaltzen da.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

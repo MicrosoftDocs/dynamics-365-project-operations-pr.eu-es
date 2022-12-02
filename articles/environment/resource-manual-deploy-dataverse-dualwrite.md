@@ -1,6 +1,6 @@
 ---
 title: Inplementatu eskuz Project Operations-en Dataverse aplikazioa idazketa dualaren bateragarritasunarekin
-description: Artikulu honek proiektuaren eragiketak eskuz nola zabaldu azaltzen du Dataverse aplikazioa idazketa bikoitza onartzen duen.
+description: Gai honetan Project Operations Dataverse aplikazioa nola inplementatu azaltzen da idazketa bikoitza onartzeko.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
@@ -17,9 +17,9 @@ ms.locfileid: "9028549"
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Artikulu honek Microsoft eskuz nola zabaldu azaltzen du Dynamics 365 Project Operations urtean Microsoft Dataverse beraz, idazketa bikoitza onartzen du. Project Operations-ek ingurunearen konfigurazioa hautematen dute eta idazketa bikoitzerako laguntza gehigarria gehitzen dute aurrez aurreko baldintzak betetzen badira.
+Gai honetan Microsoft Dataverse-ko Microsoft Dynamics 365 Project Operations nola inplementatu azaltzen da idazketa bikoitza onartzeko. Project Operations-ek ingurunearen konfigurazioa hautematen dute eta idazketa bikoitzerako laguntza gehigarria gehitzen dute aurrez aurreko baldintzak betetzen badira.
 
-Inplementazioan zehar Microsoft Dynamics Lifecycle Services (LCS), artikulu honetako argibideak jarraitu badituzu, salta dezakezu Microsoft Power Platform integrazioa (lehen bezala ezagutzen zen Common Data Service ingurunea).
+Microsoft Dynamics Lifecycle Services-en inplementazioan zehar (LCS), gai honetako argibideak jarraitu badituzu, Microsoft Power Platform integrazioaren inplementazioa salta dezakezu (aurretik Common Data Service ingurunea).
 
 Dataverse-ko Project Operations-ek idazketa bikoitza onartzeko inplementazio prozesuak du lau urrats nagusi ditu:
 
@@ -37,7 +37,7 @@ Prozedura hau osatzeko, administratzaile gisa hasi behar duzu saioa.
 3. Hautatu ingurune mota. Probako eskaintzan izena eman baduzu, hautatu **Proba (harpidetzan oinarrituta)**.
 4. Berretsi inplementazioaren eskualdea.
 5. Gaitu **Sortu datu-base bat ingurune honetarako** aukera. 
-6. Berretsi hizkuntza, eta, ondoren, egiaztatu moneta bat datorrela finantza- eta operazio-aplikazioetako diruarekin.
+6. Berretsi hizkuntza eta, ondoren, baieztatu moneta finantzen eta eragiketen aplikaziorako bat datorrela zure monetarekin.
 7. Gaitu **Dynamics 365 aplikazioak** aukera, eta baieztatu **Aplikazio hauek automatikoki zabaldu** eremua ezarrita dagoela **Bat ere ez** gisa.
 8. Gehitu segurtasun taldea, segurtasun taldea beharrezkoa bada.
 9. Hautatu **Gorde** ingurunea sortzeko.
@@ -62,4 +62,4 @@ Project Operations instalatu aurretik aurreko izapideak burutu badituzu soilik e
 
 ## <a name="link-your-environments"></a><a name="link"></a>Estekatu inguruneak
 
-Ondoren Dataverse ingurunea zabalduta dago, esteka konfigura dezakezu zure finantza eta eragiketa aplikazioetan. Jarraitu urratsak: [Erabili idazketa bikoitzeko morroia zure inguruneak lotzeko](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Dataverse ingurunea inplementatu dago, esteka konfigura dezakezu finantzen eta eragiketen aplikazioarena. Jarraitu urratsak: [Erabili idazketa bikoitzeko morroia zure inguruneak lotzeko](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

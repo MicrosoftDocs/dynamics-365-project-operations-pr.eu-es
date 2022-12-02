@@ -1,6 +1,6 @@
 ---
 title: Ezabatu proiektuaren aurreikuspena
-description: Artikulu honek proiektuaren aurrekontua amaitu ondoren ezabatzeari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuaren estimazioa ezabatzeari buruzko informazioa eskaintzen du amaitu ondoren.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Azpikontratuaren lerroko mugarriak
-description: Artikulu honek saltzaile batekin azpikontratu baterako mugarrietan oinarritutako faktura-egutegia nola sortu eta nola mantendu azaltzen du.
+description: Gai honetan azaltzen da saltzaile batekin azpikontrata egiteko mugarrietan oinarritutako faktura ordutegia nola sortu eta mantendu.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

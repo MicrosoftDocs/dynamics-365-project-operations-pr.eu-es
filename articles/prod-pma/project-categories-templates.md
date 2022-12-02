@@ -1,6 +1,6 @@
 ---
-title: Sinkronizatu proiektuen gastuen kategoriak finantza eta eragiketen eta Project Service Automation artean
-description: Artikulu honek proiektuen gastuen kategoriak sinkronizatzeko erabiltzen diren txantiloiak eta azpiko zereginak deskribatzen ditu Microsoft Dynamics 365 Finantza eta Dynamics 365 Project Service Automation.
+title: Sinkronizatu proiektuaren gastu-kategoriak finantza eta eragiketen eta Project Service Automation-en artean
+description: Gai honek deskribatzen du txantiloiak eta azpiko zereginak erabiliak direnak sinkronizatzeko proiektuaren gastuaren kategoriak Microsoft Microsoft Dynamics 365 Finance eta Dynamics 365 Project Service Automation artean.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: eu-ES
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028917"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinkronizatu proiektuen gastuen kategoriak finantza eta eragiketen eta Project Service Automation artean
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinkronizatu proiektuaren gastu-kategoriak finantza eta eragiketen eta Project Service Automation-en artean
 
 [!include[banner](../includes/banner.md)]
 
-Artikulu honek Dynamics 365 Finance eta proiektuaren gastuen kategoriak sinkronizatzeko erabiltzen diren txantiloiak eta azpiko zereginak deskribatzen ditu Dynamics 365 Project Service Automation.
+Gai honek deskribatzen du txantiloiak eta azpiko zereginak erabiliak direnak sinkronizatzeko proiektuaren gastuaren kategoriak Dynamics 365 Finance eta Dynamics 365 Project Service Automation artean.
 
 > [!NOTE]
 > - Proiektuaren zereginen integrazioa, gastuen transakzioen kategoriak, orduen kalkuluak, gastuen kalkuluak eta funtzionalitate blokeoa eskuragarri daude 8.0 bertsioan.
@@ -80,10 +80,10 @@ Proiektuaren gastuen kategoriak Finantza-ren kudeatzen dira eta Project Service 
 
 ### <a name="power-query"></a>Power Query
 
-Project Service Automation-ekin sinkronizatzen ari zarenean, Microsoft erabili behar duzu Power Query Excel-ek transakzio kategorian fakturazio mota ezar dezan. Proiektuaren gastuen transakzioen kategoriak (Fin eta Ops PSA) txantiloiak zutabe eta mapaketa lehenetsiak eskaintzen ditu. Zure txantiloia sortzen baduzu, baldintzapeko zutabe bat gehitu behar duzu Power Query. Jarraitu urrats hauei.
+Project Service Automation-ekin sinkronizatzen ari zarenean, Microsoft Power Query erabili behar duzu Excel-erako fakturazio transakzio kategorian ezartzeko. Proiektuaren gastuen transakzioen kategoriak (Fin eta Ops PSA) txantiloiak zutabe eta mapaketa lehenetsiak eskaintzen ditu. Zure txantiloia sortzen baduzu, baldintzazko zutabearen hau gehitu behar duzu Power Query-n. Jarraitu urrats hauei.
 
 1. Egin klik gezian proiektuaren gastuen kategorien zereginaren mapaketa irekitzeko, Proiektuaren gastuen transakzioen kategoriak (Fin eta Ops to PSA) txantiloian.
-2. Egin klik **Aurrez egindako kontsulta eta iragazketa** irekitzeko esteka Power Query.
+2. Klik egin **Kontsulta eta iragazki aurreratuak** esteka irekitzeko Power Query.
 2. Aukeratu **Gehitu baldintzazko zutabea**.
 3. Idatzi zutabe berriaren izena, adibidez **Fakturazio mota**.
 4. Idatzi baldintza hau: **CATEGORYID ez bada nulua bezainbeste 19235001, Bestela nulua**.

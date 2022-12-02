@@ -1,6 +1,6 @@
 ---
 title: Sortu proiektu-erreserba bat antolaketa-paneletik
-description: Artikulu honek programazio-taulan proiektu-erreserba nola sortzeko informazioa eskaintzen du.
+description: Gai honek proiektuaren erreserba egitasmoaren taulan sortzen den informazioa eskaintzen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

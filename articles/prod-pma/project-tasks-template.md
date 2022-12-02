@@ -1,6 +1,6 @@
 ---
-title: Sinkronizatu proiektuko zereginak zuzenean Project Service Automation-etik finantza eta eragiketetara
-description: Artikulu honek proiektuko zereginak zuzenean sinkronizatzeko erabiltzen diren txantiloia eta azpiko zeregina deskribatzen ditu Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Finance.
+title: Sinkronizatu proiektuaren zereginak zuzenean Project Service Automation-etik finantza eta eragiketetara
+description: 'Gai honek deskribatzen du txantiloia eta azpiko zeregina erabiliak direnak sinkronizatzeko uneko proiektuak zuzenean Microsoft Dynamics 365 Project Service Automation-etik hurrengora: Dynamics 365 Finance.'
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: eu-ES
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028294"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronizatu proiektuko zereginak zuzenean Project Service Automation-etik finantza eta eragiketetara
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronizatu proiektuaren zereginak zuzenean Project Service Automation-etik finantza eta eragiketetara
 
 [!include[banner](../includes/banner.md)]
 
-Artikulu honek proiektuko zereginak zuzenean sinkronizatzeko erabiltzen diren txantiloia eta azpiko zeregina deskribatzen ditu Dynamics 365 Project Service Automation to Dynamics 365 Finance.
+Gai honek deskribatzen du txantiloia eta azpiko zeregina erabiliak direnak sinkronizatzeko uneko proiektuak zuzenean Dynamics 365 Project Service Automation-etik hurrengora: Dynamics 365 Finance.
 
 > [!NOTE]
 > - Proiektuaren zereginen integrazioa, gastuen transakzioen kategoriak, orduen kalkuluak, gastuen kalkuluak eta funtzionalitate blokeoa eskuragarri daude 8.0 bertsioan.
@@ -67,11 +67,11 @@ Proiektuen zereginen sinkronizazioa gertatu aurretik, kontuak sinkronizatu proie
 
 ## <a name="power-query"></a>Power Query
 
-Microsoft erabili behar duzu Power Query Excel-ek datuak iragazteko baldintza hau betetzen bada:
+Microsoft Power Query Excel-era erabili behar duzu datuak iragazteko baldintza hori gertatzean:
 
 - Baliabideen araberako erregistroak dituzu proiektuko zeregin batean.
 
-Erabili behar baduzu Power Query, jarraitu jarraibide hau:
+Power Query erabili behar baduzu, jarraitu jarraibide hau:
 
 - Project tasks (PSA to Fin and Ops) txantiloiak iragazki lehenetsia du, baliabide espezifikoak erregistroak proiektuko zereginetik kanpo uzten dituena iragazkia ezarriz **IsLineTask** hurrengora **Gezurra**. Zure txantiloia sortzen baduzu, iragazki hau gehitu behar duzu.
 

@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu saltzailearen atxikipena
-description: Artikulu honetan, hornitzaileen atxikipena nola konfiguratu azaltzen da.
+description: Gai honetan saltzailearen atxikipena nola konfiguratu azaltzen da.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
@@ -18,11 +18,11 @@ ms.locfileid: "8929751"
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Artikulu honetan hornitzaileen atxikipena nola konfiguratu behar den ematen da.
+Gai honetan saltzailearen atxikipena konfiguratzeari buruzko informazioa ematen da.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Konfiguratu saltzailearen atxikitze kontua liburu nagusian
 
-1. Dynamics 365 Finance-n, joan **zaitez transakzio automatikoetarako liburu nagusiaren** > **kontabilizatzeko konfigurazio-kontabilitatera** > **·**.
+1. Dynamics 365 Finance-n, joan **Liburu nagusia** > **Mezuaren konfigurazioa** > **Transakzio automatikoen kontuak**.
 2. Gehitu lerroa.
 3. **Bidalketa mota** eremuan, hautatu **Saltzailearen atxikipena**.
 4. Aukeratu saltzailearen atxikipena argitaratzeko kontu nagusia.

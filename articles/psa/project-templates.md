@@ -1,6 +1,6 @@
 ---
 title: Proiektuen txantiloiak
-description: Artikulu honetan, proiektua azkar konfiguratzeko proiektu-plantillak nola erabili behar den ematen da.
+description: Gai honek proiektuaren txantiloiak proiektuaren konfigurazio bizkorra egiteko erabiltzeko moduari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

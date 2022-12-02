@@ -1,6 +1,6 @@
 ---
 title: Esleitu proiektuak eta zereginak proiektuetan oinarritutako kontratuaren lerro batean - arina
-description: Artikulu honek kontratu-lerro bati proiektuak eta zereginak gehitzeari eta kentzeari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuak eta zereginak kontratu lerro batean gehitzeari eta kentzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

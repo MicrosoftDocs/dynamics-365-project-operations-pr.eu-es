@@ -1,6 +1,6 @@
 ---
 title: Project Operations-en berrikuntzak edo aldaketak, 2021eko uztaila, izakinen edo ekoizpenean oinarritutako egoeretarako
-description: Artikulu honek Project Operations-en 2021eko uztaileko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du hornitutako/produkzioan oinarritutako eszenatokietarako.
+description: Gai honek 2021eko uztaileko Project Operations bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa eskaintzen du hornitutako / ekoizpenean oinarritutako eszenatokietarako.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "9028825"
 
 _**Honi aplikatzen zaio:** Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations_
 
-Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
+Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
-- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.20 bertsioan
+- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.20 bertsioan
  
 ### <a name="quality-updates"></a>Kalitatearen eguneratzeak
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagai
 | Bidaia eta gastua                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | **Berrezarri Gastuen dokumentuaren egoera** tresnak gastuen txostenaren egoera berrezarri beharko luke **Zirriborroa** gisa lan-fluxua aurkitu ez bada. 
 
 ### <a name="regulatory-updates"></a>Araudiaren eguneratzeak
-Finantza eta eragiketa aplikazioetarako arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). Lifecycle Services-en (LCS) ere saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
+Eguneratze arautzaileei buruzko informazioa lortzeko finantzen eta eragiketen aplikazioak, ikusi [Araudiaren eguneratzeak](/dynamics365/finance/localizations/regulatory-updates). Lifecycle Services-en (LCS) ere saioa hasi eta aurreikusitako arauzko eguneratzeak ikus ditzakezu Arazoak bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

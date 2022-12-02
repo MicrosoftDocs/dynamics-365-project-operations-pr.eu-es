@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation-etik Project Operations-erako eginbideen aldaketak
-description: Artikulu honek Project Service Automation-era eginbide-aldaketen ikuspegi orokorra eskaintzen du Dynamics 365 Project Operations.
+description: Artikulu honek Project Service Automation-etik Dynamics 365 Project Operations-erako eginbide-aldaketen ikuspegi orokorra eskaintzen du.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -25,79 +25,79 @@ ms.locfileid: "9459911"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Project Service Automation-etik Project Operations-erako eginbideen aldaketak
 
-Bertatik eguneratzea Dynamics 365 Project Service Automation to Dynamics 365 Project Operations Lite hiru fasetan emango da. Artikulu honek bertsio berritzea amaitzean ikusiko dituzun aldaketa nagusiei buruzko informazioa eskaintzen du.
+Dynamics 365 Project Service Automation-etik Dynamics 365 Project Operations Lite-rako eguneratzea hiru fasetan emango da. Artikulu honek bertsio berritzea amaitzean ikusiko dituzun aldaketa nagusiei buruzko informazioa eskaintzen du.
 
 | Berritu entrega | 1. fasea <br>(2022ko urtarrila) | 2. fasea <br>(2022ko azaroa) | 3. fasea  |
 |------------------|------------------------|---------------------------|---------------------------|
-| Proiektuen lanaren banaketa egituraren (WBS) menpekotasunik ez. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| WBS gaur egun onartzen diren proiektuen eragiketen mugetan sartzen da. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
-| WBSa Project Operations-en gaur egun onartzen diren mugetatik kanpo, Project mahaigaineko bezeroaren laguntza barne. | &nbsp; | &nbsp; | :heavy_check_mark: |
+| Proiektuen zereginen xehetasunen egituran (WBS) mendekotasunik ez. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| WBSk gaur egun onartzen diren Project Operations-en mugetan sartzen da. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
+| Project Operations-en gaur egun onartzen diren mugetatik kanpoko WBS, Project desktop client bezeroaren laguntza barne. | &nbsp; | &nbsp; | :heavy_check_mark: |
 
 ## <a name="project-management"></a>Proiektuen kudeaketa
 
-Erabiltzailearen esperientzian aldaketarik esanguratsuenak proiektuen plangintzaren arloan izango dira. Project Operations-ek esperientzia moderno berri bat hartzen du lan-matxura-egitura (WBS) kudeatzeko, eskaintzen dituen programazio-gaitasunak aprobetxatuz.[Weberako proiektua](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
+Erabiltzailearen esperientzian aldaketarik esanguratsuenak proiektuen plangintzaren arloan izango dira. Project Operations-ek esperientzia moderno berri bat hartzen du zereginen xehetasunen egitura (WBS) kudeatzeko, [Project for the Web-ek](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) eskainitako antolaketa-gaitasunak aprobatuz.
 
-## <a name="differences-in-the-scheduling-experience"></a>Desberdintasunak programazio esperientzian
+## <a name="differences-in-the-scheduling-experience"></a>Antolaketa-esperientziaren desberdintasunak
 
 Ondorengo taulak Project Service Automation eta Project Operations arteko programazio desberdintasunak laburbiltzen ditu.
 
 |  Antolatzen     |   Project Operations   |   PSA   |
 |-----------------|------------------------|---------|
 | Proiektu-txantiloiak - Proiektu bat sortzen denean proiektu-txantiloiak definitzeko eta aplikatzeko gaitasuna  |  &nbsp;    | :heavy_check_mark: |
-| Project work breakdown structure (WBS) mahaigaineko bezeroarekin integratzea   |    &nbsp;  | :heavy_check_mark: |
-| Murrizketak - Ez baino lehenago hasi, beranduago amaitu  | :heavy_check_mark: |   &nbsp;  |
+| Proiektuko zereginen xehetasunen egitura (WBS) mahaigaineko bezeroarekin integratzea   |    &nbsp;  | :heavy_check_mark: |
+| Murrizketak - Hasi honen ondoren, amaitu honen aurretik  | :heavy_check_mark: |   &nbsp;  |
 | Mugarriak - Zero iraupena duten zereginak   | :heavy_check_mark:  |  &nbsp;  |
 | Baliabideen araberako zereginek esleitutako baliabideen erabilgarritasuna errespetatuko dute   | :heavy_check_mark: |  &nbsp;    |
-| Denbora-mailako edizioa - Editatu planak eta lan egin egunez egun   |   &nbsp;  | :heavy_check_mark: |
-| Programazio automatikoa/eskuz - Erabili Proiektua antolatzeko motorra zereginak automatikoki edo eskuz programatzeko |  &nbsp; | :heavy_check_mark:  |
-| Editatu proiektu handiak zuzenean erabiltzailearen interfazean: ez dago mugarik editagarriak diren planen tamainan  | 500 zeregin muga  | :heavy_check_mark:       |
+| Denboraren araberako edizioa - Editatu planak eta lan egin egunez egun   |   &nbsp;  | :heavy_check_mark: |
+| Programazio automatikoa/eskuzkoa - Erabili Proiektua antolatzeko motorra zereginak automatikoki edo eskuz programatzeko |  &nbsp; | :heavy_check_mark:  |
+| Editatu proiektu handiak zuzenean erabiltzailearen interfazean: ez dago mugarik editagarriak diren planen tamainan  | 500 zeregineko muga  | :heavy_check_mark:       |
 | Osatutako ehunekoa - Markatu zereginaren aurrerapena   | :heavy_check_mark:  |  &nbsp;  |
-| [Proiektuaren egutegia moduak](../project-management/scheduling-modes.md) - Proiektua unitate finko, esfortzu finko edo iraupen finko gisa definitzea | :heavy_check_mark: | &nbsp; |
+| [Proiektuaren antolaketa-moduak](../project-management/scheduling-modes.md) - Proiektua unitate finko, esfortzu finko edo iraupen finko gisa definitzea | :heavy_check_mark: | &nbsp; |
 | Denbora-lerroa - Eraiki eta pertsonalizatu denbora-lerroaren ikuspegia ordutegiaren xehetasunak ikusteko eta interesdunekin komunikatzeko. | :heavy_check_mark:  | &nbsp; |
 | Ahaleginak bultzatutako zereginak - Motorearen euskarria programatzea, zeregin bat esfortzuaren arabera antolatzeko  | :heavy_check_mark:  | &nbsp; |
 | **Zereginaren informazioa** elkarrizketa-koadroa - Gorde zereginen xehetasunak elkarrizketa-koadro bat erabiliz | :heavy_check_mark:  |  &nbsp;  |
 | Arrastatu eta jaregin - Aukeratu hainbat zeregin eta aldatu haien posizioa WBSn | :heavy_check_mark: | &nbsp;  |
 | Ikuspegi iraunkor malguak - Zehaztu zereginen atributuen ikuspegi zehatzagoak   | :heavy_check_mark:  | &nbsp; |
-| Ordenatu eta iragazi WBS  | :heavy_check_mark:  | &nbsp; |
-| Taulen ikuspegia ur-jauziak ez diren proiektuak entregatzeko  | :heavy_check_mark:   | &nbsp; |
+| Iragazi eta ordenatu WBS  | :heavy_check_mark:  | &nbsp; |
+| Taulen ikuspegia ur-jauziak modukoak ez diren proiektuak entregatzeko  | :heavy_check_mark:   | &nbsp; |
 | Denbora-lerroaren ikuspegia - WBSa ikusteko eta editatzeko erabiltzen den Gantt diagrama interaktiboa   | :heavy_check_mark:  | &nbsp; |
-| Teklatu lasterbideak - Erabili teklatuko lasterbideak ohiko eragiketetarako, hala nola koska edo txertatzeko  | :heavy_check_mark:  |  &nbsp; |
-| Maila anitzeko desegin - Egin zer gertatuko den azterketa, aldaketen eragina guztiz ulertzeko, eragiketa multzo oso bat alderantziz eta berriro aplikatuz. | :heavy_check_mark: | &nbsp; |
+| Teklatuko lasterbideak - Erabili teklatuko lasterbideak ohiko eragiketetarako, hala nola koska edo txertatzeko  | :heavy_check_mark:  |  &nbsp; |
+| Maila anitzeko desegin - Egin zer gertatuko den azterketa, aldaketen eragina guztiz ulertzeko, eragiketa multzo oso bat alderantziz eta berriro aplikatuz | :heavy_check_mark: | &nbsp; |
 | Moztu/Kopiatu/Itsatsi - Elkarlanean egutegiaren garapenean, aplikazioen artean ordutegiaren xehetasunak kopiatu eta itsatsiz  | :heavy_check_mark: | &nbsp; |
 | Zereginen kontrol-zerrendak - Gehitu gehienez 20 kontrol-zerrendako elementu ataza bati   | :heavy_check_mark: | &nbsp; |
 
 ## <a name="project-planning"></a>Proiektuaren antolaketa
 
-The **Proiektua** Proiektuaren Eragiketak orrialdean desberdintasun kopuru esanguratsuak ditu **Proiektua** orrialdean Project Service Automation.
+Project Operations-eko **Proiektua** orriak desberdintasun kopuru esanguratsuak ditu Project Service Automation-eko **Proiektua** orriarekin alderatuta.
 
-Honako ekintza hauek kendu dira **Proiektuak** orrialdea 1. faseko bertsio berritzearen barruan:
+Honako ekintza hauek kendu dira **Proiektuak** orritik 1. faseko bertsio berritzearen barruan:
 
   - **Ireki MS Project-en**
   - **Sortu txantiloia**
   - **Kendu esteka MS Project-etik**
 
-The **Proiektua** Proiektuaren Eragiketak atalean fitxa berri hauek biltzen ditu.
+Project Operations-eko **Proiektua** orriak fitxa berri hauek biltzen ditu.
 
 - **Materialaren aurreikuspenak**
 - **Zereginak fakturatzeko konfigurazioa**
 
-The **Egoera** fitxa kendu da eta **Egoera** eremuan dago orain **Laburpen** fitxa proiektuaren programazio moduarekin.
+**Egoera** fitxa kendu da eta **Egoera** eremuan dago orain **Laburpen** fitxan proiektuaren programazio moduarekin.
 
-   ![Proiektuaren orrialdearen eguneraketak.](media/projectform.png)
+   ![Proiektuaren orria eguneratzen du.](media/projectform.png)
 
-The **Ordutegia** fitxa izena jarri zaio **Zeregin** fitxan eta proiektuak planifikatzeko esperientzia berria eskaintzen du Weberako Project-ekin.
+**Ordutegia** fitxari **Zeregin** fitxa izena jarri zaio eta proiektuak planifikatzeko esperientzia berria eskaintzen du Project for the Web-ekin.
 
-   ![Proiektuaren ataza berriak fitxa.](media/tasktab.png)
+   ![Proiektu-zeregin berrien fitxa.](media/tasktab.png)
 
 ## <a name="scheduling-modes"></a>Antolaketa moduak
 
-Project Operations-ek eginbide berri bat aurkeztu du, [Programazio moduak](../project-management/scheduling-modes.md). Lehendik dauden Project Service Automation proiektu guztiak lehenetsiko dira **Iraupen Finkoa** Proiektu Eragiketetan. Hala ere, proiektu berrien lehenetsia helbidera joanda kudeatu daiteke **Ezarpenak** > **Parametroak** > **Parametroa** > **Ordutegi modua**.
+Project Operations-ek eginbide berri bat aurkeztu du, [Antolaketa-moduak](../project-management/scheduling-modes.md). Lehendik dauden Project Service Automation-eko proiektu guztiek **Iraupen Finkoa** izango dute lehenetsita Project Operations-en. Hala ere, proiektu berrien lehenetsia hona joanda kudeatu daiteke: **Ezarpenak** > **Parametroak** > **Parametroa** > **Ordutegi modua**.
 
-   ![Programazio modurako proiektuaren parametroen ezarpenak.](media/projectparameter.png)
+   ![Proiektuaren parametroen ezarpenak antolaketa modurako.](media/projectparameter.png)
 
-## <a name="project-planning-limits"></a>Proiektuaren plangintzaren mugak
+## <a name="project-planning-limits"></a>Proiektuaren antolaketaren limiteak
 
-Project Operations Weberako Project-ean oinarritzen da proiektuak antolatzeko eragiketa guztietarako. Weberako proiektuak lanaren banaketa-egitura kudeatzen du hurrengo taulako mugak erabiliz.
+Project Operations Project for the Web-en oinarritzen da proiektuak antolatzeko eragiketa guztietarako. Project for the Web-ek zereginen xehetasunen egitura kudeatzen du taula honen mugak erabiliz.
 
 | **Eremua**                                          | **Muga**             |
 |----------------------------------------------------|-----------------------|
@@ -116,7 +116,7 @@ Project Operations Weberako Project-ean oinarritzen da proiektuak antolatzeko er
 
 ## <a name="project-planning-extensibility-and-development"></a>Proiektuen plangintzaren hedagarritasuna eta garapena
 
-Project Operations-era eguneratu ondoren, Project Scheduling APIak erabili behar dituzu entitate hauetan sortu, eguneratu eta ezabatzeko eragiketak exekutatzeko:
+Project Operations-era eguneratu ondoren, proiektuak antolatzeko APIak erabili behar dituzu entitate hauetan sortu, eguneratu eta ezabatzeko eragiketak exekutatzeko:
 
 |   Entitatearen izena           |   Entitatearen izen logikoa       |
 |-------------------------|-----------------------------|
@@ -127,14 +127,14 @@ Project Operations-era eguneratu ondoren, Project Scheduling APIak erabili behar
 | Proiektuaren ontzia          | msdyn_projectbucket         |
 | Proiektu-taldeko kidea     | msdyn_projectteam           |
 
-Une honetan entitate horiek inplikatzen dituzten pertsonalizazioak badituzu, ikus [Erabili Project schedule APIak Scheduling entitateekin eragiketak egiteko](../project-management/schedule-api-preview.md) ezartzeko orientabideetarako.
+Une honetan entitate horiek inplikatzen dituzten pertsonalizazioak badituzu, ikus [Erabili proiektuak antolatzeko APIak antolaketa-entitateekin eragiketak egiteko](../project-management/schedule-api-preview.md) inplementazio-jarraibideak lortzeko.
 
-## <a name="data-model-changes"></a>Datu-eredu aldaketak
+## <a name="data-model-changes"></a>Datu-ereduaren aldaketak
 
-1. Berritze Fasearen barruan, aldaketak daude datu-ereduan. Aldaketa hauek lehendik dauden entitateen eremu-aldaketak dira batez ere. 1. fasean, entitateek, **msydn_project** eta **msdyn_projectteam** pertsonalizazioen birfactorizazioa dira. 
+1. bertsio-berritze fasearen barruan, aldaketak daude datu-ereduan. Aldaketa hauek lehendik dauden entitateen eremu-aldaketak dira batez ere. 1. fasean, **msydn_project** eta **msdyn_projectteam** entitateak pertsonalizazioen birfaktorizazioak dira. 
 
 > [!IMPORTANT]
-> Atal hau entitate gehigarriekin eguneratuko da etorkizuneko eguneratze-fasak amaitu ahala.
+> Atal hau entitate gehigarriekin eguneratuko da etorkizuneko eguneratze-faseak amaitu ahala.
 
 Ondorengo eremuak eremu berriekin ordezkatu dira.
 
@@ -149,63 +149,63 @@ Ondorengo eremuak eremu berriekin ordezkatu dira.
 | msdyn_projectteam | msdyn_from           | msdyn_start           |
 | msdyn_projectteam | msdyn_to             | msdyn_finish          |
 
-Ondorengo eremuak gehitu dira.
+Eremu hauek gehitu dira.
 
 |   Entity          |   Izen logikoa                               |   Deskribapenak |
 |-------------------|----------------------------------------------|---------------|
-| msdyn_project     | msdyn_actualfeesales                         | Proiektuaren benetako kuoten salmenten agregatua erakusten du. Project Service Automation-en soilik erabiltzeko. |
-| msdyn_project     | msdyn_actualmaterialcost                     | Proiektuko materialaren benetako kostuaren agregatua erakusten du. Project Service Automation-en soilik erabiltzeko. |
-| msdyn_project     | msdyn_actualmaterialsales                    | Proiektuko benetako materialen salmentaren agregatua erakusten du. Project Service Automation-en soilik erabiltzeko. |
+| msdyn_project     | msdyn_actualfeesales                         | Benetako kostua salmentetan oinarritutako kostu agregatuen datuak erakusten ditu proiektuan. Project Service Automation-en erabiltzeko soilik. |
+| msdyn_project     | msdyn_actualmaterialcost                     | Proiektuaren material-kostuaren agregatua erakusten du. Project Service Automation-en erabiltzeko soilik. |
+| msdyn_project     | msdyn_actualmaterialsales                    | Benetako material-salmentetan oinarritutako kostu agregatuen datuak erakusten ditu proiektuan. Project Service Automation-en erabiltzeko soilik. |
 | msdyn_project     | msdyn_businesscase                           |                |
-| msdyn_project     | msdyn_contractlineproject                    | Proiektu honi lotutako kontratu-lerroa. |
-| msdyn_project     | msdyn_copyprojectcorrelationid               | Honetarako erabiltzen den barne-sistemaren eremua da **Kopiatu proiektua** Korrelazio Identifikatzaileari lotuta. Project Service Automation-en soilik erabiltzeko. |
-| msdyn_project     | msdyn_copyprojectsessionid                   | Hau barne-sistemaren eremu bat da, horretarako erabiltzen da **Kopiatu proiektua** Saioaren Identifikatzaileari lotutakoa. Project Service Automation-en soilik erabiltzeko. |
-| msdyn_project     | msdyn_globalrevisiontoken                    | Azken sinkronizazioa xRM Global Revision Token Proiektua antolatzeko zerbitzutik. |
+| msdyn_project     | msdyn_contractlineproject                    | Proiektuarekin erlazionatuta dagoen kontratuaren lerroa. |
+| msdyn_project     | msdyn_copyprojectcorrelationid               | Barne-sistemako eremu bat da, Korrelazio-identifikatzailearekin erlazionatutako **Kopiatu proiektua** egiteko erabiltzen dena. Project Service Automation-en erabiltzeko soilik. |
+| msdyn_project     | msdyn_copyprojectsessionid                   | Barne-sistemako eremu bat da, Saio-identifikatzailearekin erlazionatutako **Kopiatu proiektua** egiteko erabiltzen dena. Project Service Automation-en erabiltzeko soilik. |
+| msdyn_project     | msdyn_globalrevisiontoken                    | Proiektuaren antolaketa-zerbitzuko xRM berrikuspen-token orokorraren azken sinkronizazioa. |
 | msdyn_project     | msdyn_msprojectdocument                      | Proiektuari dagokion Microsoft Project dokumentua. |
-| msdyn_project     | msdyn_plannedmaterialcost                    | Proiektuan aurreikusitako materialaren kostuaren agregatua. Project Service Automation-en soilik erabiltzeko. |
-| msdyn_project     | msdyn_plannedmaterialsales                   | Proiektuan aurreikusitako material salmentaren agregatua. Project Service Automation-en soilik erabiltzeko. |
-| msdyn_project     | msdyn_programa                                | Proiektu hau dagokion programa. |
-| msdyn_project     | msdyn_quotelineproject                       | Proiektu honekin lotutako aurrekontu-lerroa. |
-| msdyn_project     | msdyn_replaylogheader                        | Erreprodukzio-erregistroen goiburua. |
-| msdyn_project     | msdyn_schedulemode                           | Proiektuko zeregin guztietan erabiltzen den programazio modu lehenetsia.  |
+| msdyn_project     | msdyn_plannedmaterialcost                    | Proiektuaren planifikatutako material-kostuaren agregatua. Project Service Automation-en erabiltzeko soilik. |
+| msdyn_project     | msdyn_plannedmaterialsales                   | Proiektuaren planifikatutako salmenta-kostuaren agregatua. Project Service Automation-en erabiltzeko soilik. |
+| msdyn_project     | msdyn_program                                | Proiektu hau dagokion programa. |
+| msdyn_project     | msdyn_quotelineproject                       | Proiektuarekin erlazionatuta dagoen eskaintzaren lerroa. |
+| msdyn_project     | msdyn_replaylogheader                        | Berriro erreproduzituko diren egunkarien goiburua. |
+| msdyn_project     | msdyn_schedulemode                           | Antolaketa modu lehenetsia erabiltzen da proiektuko zeregin guztietan.  |
 | msdyn_project     | msdyn_taskearlieststart                      | Proiektuko edozein zereginen lehenengo hasiera-data.  |
 | msdyn_project     | msdyn_valuestatement                         |                |
-| msdyn_projectteam | msdyn_copiedfromprojectteammember            | Proiektu-taldekide hau kopiatu den proiektu-taldekidea. |
-| msdyn_projectteam | msdyn_creategenericteammember eskakizunarekin | Sortu berri den taldekide generiko baterako baliabide-eskakizuna sortu behar den adierazten du.  |
-| msdyn_projectteam | msdyn_deletestatus                           | Taldekidearen ezabatze-egoera Proiektua antolatzeko zerbitzura bidalitako ezabatze-eskaera bat dagoen eta espero den denbora-leihoan erantzuna behar bezala bidaltzen duen jarraitzeko. |
-| msdyn_projectteam | msdyn_effortcompleted                        | Taldekideak bere zereginetan egindako esfortzuaren jarraipena egiten du. |
-| msdyn_projectteam | msdyn_effortremaining                        | Taldekideak bere zereginetan oraindik egin beharreko ahaleginaren jarraipena egiten du. |
-| msdyn_projectteam | msdyn_markedfordeletiontimer                 | Taldekideak Proiektua antolatzeko zerbitzura ezabatzeko eskaera bidaltzen duenetik taldekidea benetan ezabatzen den arte itxaronaldia Microsoft Dataverse.|
-| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Taldekidea ezabatzeko eskaera Proiektua antolatzeko zerbitzura bidaltzen denean grabatu beharreko denbora-zigilua. |
+| msdyn_projectteam | msdyn_copiedfromprojectteammember            | Proiektuaren taldeko kidea hau kopiatutako proiektuaren taldeko kidea. |
+| msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Sortu berri den talde-kide orokor baten baliabide-eskakizuna sortu behar den ala ez.  |
+| msdyn_projectteam | msdyn_deletestatus                           | Taldekidearen ezabatze-egoera ezabatzeko eskaera Proiektuak antolatzeko zerbitzura bidali den eta hark ongi erantzuten duen eta esperotako denbora-leihoan jarraitzeko. |
+| msdyn_projectteam | msdyn_effortcompleted                        | Taldeko kideek beren esleipenak egiteko ahaleginaren jarraipena egiten du. |
+| msdyn_projectteam | msdyn_effortremaining                        | Taldeko kideek beren osatu gabeko esleipenen ahaleginaren jarraipena. |
+| msdyn_projectteam | msdyn_markedfordeletiontimer                 | Taldekideak Proiektua antolatzeko zerbitzura ezabatzeko eskaera bidaltzen duenetik taldekidea Microsoft Dataverse-en benetan ezabatzen den arteko itxaronaldia.|
+| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Taldekidearen ezabatzeko eskaera Proiektua antolatzeko zerbitzura bidaltzen den momentua grabatzeko denbora-zigilua. |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Proiektuaren taldeko kidea hau kopiatutako proiektuaren taldeko kidea erakusten du.  |
 
 ## <a name="project-templates"></a>Proiektuen txantiloiak
 
-Project Operations-ek ez du proiektuen txantiloietarako laguntzarik eskaintzen. Hala eta guztiz ere, oinarrizko funtzionalitatearen zati handi bat errepika dezakezu [Project Copy APIa](../project-management/dev-copy-project.md).
+Project Operations-ek ez du proiektuen txantiloietarako laguntzarik eskaintzen. Hala eta guztiz ere, oinarrizko funtzionalitatearen zati handi bat errepika dezakezu [Proiektuaren kopiaren APIa](../project-management/dev-copy-project.md) erabiliz.
 
 ## <a name="desktop-add-in-support"></a>Mahaigaineko gehigarrien laguntza
 
-Microsoft Project Desktop gehigarriaren euskarria ez da erabilgarri egongo eguneratzearen lehen 2 faseetan. 3. fasean, Project for Web-en gaur egun onartzen dituen mugak baino proiektu handiagoak dituzten bezeroek mahaigaineko gehigarria erabili ahal izango dute.
+Microsoft Project Desktop gehigarriaren euskarria ez da erabilgarri egongo eguneratzearen lehen 2 faseetan. 3. fasean, Project for the Web-en gaur egun onartzen dituen mugak baino proiektu handiagoak dituzten bezeroek mahaigaineko osagarria erabili ahal izango dute.
 
-## <a name="editing-resource-assignment-contours"></a>Baliabideen esleipenaren sestrak editatzea
+## <a name="editing-resource-assignment-contours"></a>Baliabideak esleitzeko sestra editatzea
 
-Baliabideen esleipenaren sestrak editatzeko aukera erabilgarri egongo da eguneratzearen 2. fasea erabilgarri dagoenean.
+Baliabideen esleipenaren ingeradak editatzeko aukera erabilgarri egongo da bertsio-berritzearen 2. fasea erabilgarri dagoenean.
 
 ## <a name="billing-and-pricing"></a>Fakturazioa eta prezioak
 
-Honako ezaugarri berriak gehitu dira Proiektuaren Eragiketetan. Ezaugarri hauek izaera gehigarriak dira eta ez dute eraginik Project Service Automation datu-ereduan.
+Project Operations-en eginbide berri hauek gehitu dira. Ezaugarri hauek izaera gehigarriak dira eta ez dute eraginik Project Service Automation datu-ereduan.
 
-- [Proiektuetan eta proiektuetako zereginetan materialaren erabilera erregistratzea](../material/material-usage-log.md)
-- [Azpikontratuen kudeaketa](../pro/subcontracting/managing-subcontracts-overview.md)
+- [Erregistratzea proiektuetako eta proiektu-zereginetako material-erabilera](../material/material-usage-log.md)
+- [Azpikontratatuen kudeaketa](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Aurrerakinak eta atxikipenetan oinarritutako kontratuak](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
-- [Kontratuaren egoera ez gainditzeko eta baliozkotzeak](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
+- [Kontratuan gainditu ezin den egoera eta balidazioak](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - [Zereginetan oinarritutako fakturazioa](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
 
 ## <a name="deprecated-components"></a>Zaharkitutako osagaiak
 
-Ondorengo taulek eguneratu ondoren zaharkitutako osagaien soluziora mugitzen diren eremu zaharkitu guztiak dokumentatzen dituzte. Informazio gehiagorako eta irtenbiderako estekarako, ikus [Dynamics 365 Project Service Automation 3x Project Operations 4x zaharkitutako osagaietara](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
+Ondorengo taulek eguneratu ondoren zaharkitutako osagaien soluziora mugitzen diren eremu zaharkitu guztiak dokumentatzen dituzte. Informazio gehiagorako eta irtenbiderako estekarako, ikus [Dynamics 365 Project Service Automation 3x Project Operations 4x zaharkitutako osagaietarako](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
 
-### <a name="invoicedetail"></a>Fakturaren xehetasuna
+### <a name="invoicedetail"></a>invoicedetail
 
 | Eremuak                                                    |
 |-----------------------------------------------------------------------------------------------|
@@ -233,7 +233,7 @@ Ondorengo taulek eguneratu ondoren zaharkitutako osagaien soluziora mugitzen dir
 | Eremuak                                                    |
 |-----------------------------------------------------------------------------------------------|
 | msdyn_contractlineinvoiceschedule.msdyn_contractline                                          |
-| msdyn_contractlinesscheduleofvalue.msdyn_contractline                                          |
+| msdyn_contractlinescheduleofvalue.msdyn_contractline                                          |
  
 ### <a name="msdyn_dataexport"></a>msdyn_dataexport
 
@@ -379,11 +379,11 @@ Ondorengo taulek eguneratu ondoren zaharkitutako osagaien soluziora mugitzen dir
 |-----------------------------------------------------------------------------------------------|
 | msdyn_project.msdyn_actualdurationminutes                                                     |
 | msdyn_project.msdyn_actualhours                                                               |
-| msdyn_project.msdyn_template                                                                |
+| msdyn_project.msdyn_istemplate                                                                |
 | msdyn_project.msdyn_plannedhours                                                              |
 | msdyn_project.msdyn_projecttemplate                                                           |
 | msdyn_project.msdyn_remaininghours                                                            |
-| msdyn_project.msdyn_scheduldurationminutes                                                  |
+| msdyn_project.msdyn_scheduleddurationminutes                                                  |
 | msdyn_project.msdyn_scheduledend                                                              |
 | msdyn_project.msdyn_stagename                                                                 |
 | msdyn_project.msdyn_wbsduration                                                               |
@@ -416,7 +416,7 @@ Ondorengo taulek eguneratu ondoren zaharkitutako osagaien soluziora mugitzen dir
 | msdyn_projecttaskstatususer.msdyn_bookableresource                                            |
 | msdyn_projecttaskstatususer.msdyn_description                                                 |
 | msdyn_projecttaskstatususer.msdyn_expectedcompletiondate                                      |
-| msdyn_projecttaskstatususer.msdyn_expectedhourstocompleted                                     |
+| msdyn_projecttaskstatususer.msdyn_expectedhourstocomplete                                     |
 | msdyn_projecttaskstatususer.msdyn_iscompleted                                                 |
 | msdyn_projecttaskstatususer.msdyn_name                                                        |
 | msdyn_projecttaskstatususer.msdyn_percentcomplete                                             |
@@ -429,11 +429,11 @@ Ondorengo taulek eguneratu ondoren zaharkitutako osagaien soluziora mugitzen dir
 | Eremuak                                                    |
 |-----------------------------------------------------------------------------------------------|
 | msdyn_projectteam.msdyn_applicantcount                                                        |
-| msdyn_projectteam.msdyn_applicants eskuragarri dago                                                   |
+| msdyn_projectteam.msdyn_applicantsavailable                                                   |
 | msdyn_projectteam.msdyn_assignedhours                                                         |
 | msdyn_projectteam.msdyn_description                                                           |
 | msdyn_projectteam.msdyn_from                                                                  |
-| msdyn_projectteam.msdyn_hours eskatuta                                                        |
+| msdyn_projectteam.msdyn_hoursrequested                                                        |
 | msdyn_projectteam.msdyn_membershipstatus                                                      |
 | msdyn_projectteam.msdyn_number                                                                |
 | msdyn_projectteam.msdyn_to                                                                    |
@@ -464,7 +464,7 @@ Ondorengo taulek eguneratu ondoren zaharkitutako osagaien soluziora mugitzen dir
 |-----------------------------------------------------------------------------------------------|
 | msdyn_quotelineinvoiceschedule.msdyn_quoteline                                                |
 | msdyn_quotelineresourcecategory.msdyn_quoteline                                               |
-| msdyn_quotelinesscheduleofvalue.msdyn_quoteline                                                |
+| msdyn_quotelinescheduleofvalue.msdyn_quoteline                                                |
 | msdyn_quotelinetransaction.msdyn_quoteline                                                    |
 | msdyn_quotelinetransactioncategory.msdyn_quoteline                                            |
 | msdyn_quotelinetransactionclassification.msdyn_quoteline                                      |
@@ -479,11 +479,11 @@ Ondorengo taulek eguneratu ondoren zaharkitutako osagaien soluziora mugitzen dir
 | msdyn_resourceassignment.msdyn_todate                                                         |
 | msdyn_resourceassignmentdetail.msdyn_duration                                                 |
 | msdyn_resourceassignmentdetail.msdyn_from                                                     |
-| msdyn_resourceassignmentdetail.msdyn_izena                                                     |
+| msdyn_resourceassignmentdetail.msdyn_name                                                     |
 | msdyn_resourceassignmentdetail.msdyn_resourceassignmentdetailid                               |
 | msdyn_resourceassignmentdetail.msdyn_resourceassignmentid                                     |
 
-### <a name="salesorderdetail"></a>salmenta-eskaeraren xehetasuna
+### <a name="salesorderdetail"></a>salesorderdetail
 
 | Eremuak                                                    |
 |-----------------------------------------------------------------------------------------------|

@@ -1,6 +1,6 @@
 ---
 title: Sortu zereginen xehetasunen egitura
-description: Artikulu honek lanaren banaketa-egitura (WBS) nola sortu azaltzen du oinarrizko kontrolak barne programazio interfaze berrian.
+description: Gai honetan azaltzen da nola sortu lanaren matxuraren egitura (WBS) oinarrizko kontrolak barne antolaketa-interfaze berrian.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
@@ -63,7 +63,7 @@ Osatu urrats hauek zeregina mailaz jaitsi edo igotzeko.
 
 ### <a name="move-tasks-up-and-down"></a>Eraman zereginak gora eta behera
 
-Zereginak lanaren banaketa-egiturako edozein mailatara eraman daitezke bi modu hauetako batean:
+Zereginak lanaren banakako egituraren edozein mailara eraman nitzake bi modu hauetako batean:
 
 - Aukeratu zeregin bat gehiago eta arrastatu nahi duzun lekura.
 - Aukeratu zeregin bat edo gehiago, egin klik eskuineko botoiarekin eta hautatu **Ebaki**, hautatu helburuko gelaxka programazioan, eta egin klik eskuineko botoiarekin eta hautatu **Itsatsi**.
@@ -99,7 +99,7 @@ Langileen atributuak **Baliabideak** eremuaren bidez atzitzen dira antolaketan. 
 
 **Funtzioa**, **Baliabide-unitatea**, eta **Lanpostuaren izena** eremuak zereginerako langileen eskakizunak deskribatzeko erabiltzen dira. Langileen atributu horiek, zereginen antolaketarekin batera, zeregina egiteko erabilgarri dauden baliabideak aurkitzeko erabiltzen dira.
 
-   - **Rola** : Zehaztu zeregina egiteko behar den baliabide mota.,
+   - **Funtzioa**: Zehaztu zeregina egiteko behar den baliabide mota.,
    - **Baliabide-unitatea**: Zehaztu zeregineko baliabideak zein unitatetik esleitu behar diren. Atributu horrek zereginerako kostuen eta salmenten aurreikuspenean eragiten du baliabidearen kostua eta faktura-tasa baliabide unitateetan oinarrituta ezartzen badira.
    - **Lanpostuaren izena**: idatzi lana egingo duen baliabiderako leku-marka gisa balio duen baliabide orokorrerako izena.
 
@@ -114,15 +114,15 @@ Project Operations-eko antolaketa erabil dezakezu zereginen arteko aurreneko har
 Zereginaren moduak ez du eraginik aurreko/mendeko zereginen hasiera- eta amaiera-datetan egiten diren eguneratzeetan.
 
 ## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Iraupenek, baliabideen egutegiek eta proiektuen egutegiek zereginetan duten eragina ulertzea
-Zeregin baten iraupena zereginaren hasiera-dataren hasiera-orduaren eta zereginaren amaiera-dataren amaiera-orduaren arteko lan-ordu kopurua gisa definitzen da.   Weberako proiektuak honela definitzen ditu iraupen neurri-unitateak:
+Zeregin baten iraupena zereginaren hasiera-dataren hasiera-orduaren eta zereginaren amaiera-dataren amaiera-orduaren arteko lan-ordu kopurua bezala definitzen da.   Project for the web-ek honela definitzen ditu iraupen neurri-unitateak:
 
-| **Iraupenaren Neurria** | **Kantitatea**|
+| **Neurri-unitatea** | **Kantitatea**|
 |----------------------------------------------------|----------------------|
 | Eguneko orduak | 8 |
 | Astean orduak |  40 |
-| Hilabeteko egunak |  20 |
+| Egunak hilabete bakoitzeko |  20 |
 
-Esleitu gabeko zereginak proiektuaren egutegia erabiliz programatzen dira. Hala ere, hasierako baliabidea esleitzean, ataza baten programazioa eguneratzen da, baliabidearen egutegia errespeta dezan. Esleipena duen ataza batean ondorengo aldaketak arautuko dira [programazio modua](scheduling-modes.md) proiektuarena. Egutegiek zereginetan duten eraginari buruz gehiago jakiteko, ikus [Baliabideen egutegiak Weberako Project-en](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) eta [Zereginen hasierako orduak eta zure proiektuak!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+Esleitu gabeko zereginak proiektuaren egutegia erabiliz programatzen dira. Hala ere, hasierako baliabidea esleitzean, ataza baten programazioa eguneratzen da, baliabidearen egutegia errespeta dezan. Esleipena duen ataza batean ondorengo aldaketak arautuko dira [programazio modua](scheduling-modes.md) proiektuarena. Egutegiek zereginetan duten eraginari buruz gehiago jakiteko, ikus [Baliabideen egutegiak Project for the web-en](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) eta [Zereginen hasierako orduak eta zure proiektuak!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Erabilerraztasuna eta teklatuko lasterbideak

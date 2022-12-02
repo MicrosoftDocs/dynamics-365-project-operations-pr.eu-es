@@ -1,6 +1,6 @@
 ---
 title: 2021eko uztaileko berrikuntzak - Balabideetan edo ekoizpenean oinarritutako egoeretarako Project Operations
-description: Artikulu honetan, Project Operations-en 2021eko uztaileko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa ematen da, baliabideetan oinarritutako edo biltegiratu gabeko agertokietarako.
+description: Gai honek 2021eko uztaileko Project Operations bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa eskaintzen du baliabideetan / ez-ekoizpenean oinarritutako eszenatokietarako.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8931683"
 
 *Honi aplikatzen zaio: Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations*
 
-Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
+Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
    - Project Operations Microsoft Dataverse-ko inguruneko bertsioan 4.12.0.148 edo 4.12.0.152.
-   - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.20 bertsioan.
+   - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.20 bertsioan.
 
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
 
@@ -80,7 +80,7 @@ Mapa hastean arazoren bat baduzu, jarraitu argibideak [Taulen zutabeak falta dir
 | Orokorrak                       | 2253682              | Project Operations idazketa bikoitzeko soluzioa ezin da instalatu idazketa bikoitzeko nukleoa idazketa bikoitzeko orkestrazio soluziorik gabeko ingurune batean instalatuta dagoenean.                                                |
 | Orokorrak                       | 2316420              | Proiektuaren zerbitzuaren oinarrizko hornikuntzak huts egiten du aplikazioaren erabiltzailearen negozio unitatea aldatzen bada.                                                                                                                     |
 | Orokorrak                       | 2376405              | Argitaratzaileari zuzendutako eguneratze arazoa konpondu da (kalitatearen eguneratzea 4.12.0.152 bertsioan dago eskuragarri)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance-en
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Project Management and Accounting Dynamics 365 Finance-n
 
 | Ezaugarrien eremua                      | Erreferentzia-zenbakia | Kalitatearen eguneratzea                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

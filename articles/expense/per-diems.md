@@ -1,6 +1,6 @@
 ---
 title: Eguneko dietak
-description: Artikulu honek Gastuen kudeaketan erabiltzen diren eguneko arauei buruzko informazioa eskaintzen du.
+description: Gai honek Gastuen kudeaketan erabiltzen diren dieten arauei buruzko informazioa eskaintzen du.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

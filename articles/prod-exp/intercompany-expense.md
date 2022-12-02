@@ -1,6 +1,6 @@
 ---
 title: Enpresen arteko gastuak
-description: Artikulu honek enpresen arteko gastuak nola erabili langile baten gastuak lana egin den pertsona juridikoari esleitzeko informazioa ematen du.
+description: Gai honetan enpresen arteko gastuak langilearen gastuak lana burutu den entitate juridikoari esleitzeko moduari buruzko informazioa ematen da.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article

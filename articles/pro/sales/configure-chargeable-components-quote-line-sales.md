@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu eskaintzaren lerro bateko kobra daitezkeen osagaiak
-description: Artikulu honetan, ordainketa-osagaien konfigurazioari buruzko informazioa ematen da, eta proiektuetan oinarritutako aurrekontu-lerro batean kobratu ezin direnen konfigurazioari buruzko informazioa ematen da.
+description: Gai honek proiektuan oinarritutako aurrekontu lerro batean kargagarriak eta kargagarriak ez diren osagaiak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

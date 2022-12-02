@@ -1,6 +1,6 @@
 ---
 title: Inplementazio arinaren ikuspegi orokorra
-description: Artikulu honetan Lite de ren ezarpenari buruzko informazioa ematen da Dynamics 365 Project Operations.
+description: Gai honek Dynamics 365 Project Operations-en inplementazio arinari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Bidali baliabide-eskaera bat
-description: Sortutako baliabide-eskakizuna baliabide-eskaera gisa bidal dezakezu. Ondoren, eskaera Baliabideen kudeatzaile bati bidaltzen zaio bete dezan.
+description: Sortutako baliabide-eskakizuna baliabide-eskaera gisa bidal dezakezu. Ondoren, eskaera baliabide-kudeatzaile bati bidaliko zaio, bete dezan.
 author: ruhercul
 ms.date: 10/04/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "9137165"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Sortutako baliabide-eskakizuna baliabide-eskaera gisa bidal dezakezu. Ondoren, eskaera Baliabideen kudeatzaile bati bidaltzen zaio bete dezan.
+Sortutako baliabide-eskakizuna baliabide-eskaera gisa bidal dezakezu. Ondoren, eskaera baliabide-kudeatzaile bati bidaliko zaio, bete dezan.
 
 1. Dynamics 365 Project Operations-en (PSA), **Proiektuak** orrian, hautatu **Taldea** fitxan baliabide erreserbagarrien zerrenda ikusteko. 
 2. Hautatu zerrendatik baliabide-eskakizunen bat duen baliabide orokorra eta egin klik **Bidali eskaera** aukeran.
@@ -28,7 +28,7 @@ Baliabide-eskaeraren hartzaileak gaitasuna du baliabide bat edo gehiago erabiliz
 
 Eskaera bete ondoren, izendun baliabide bat edo gehiago gehitzen zaizkio proiektuari proiektuko taldekide gisa. Baliabideen eskakizuna baliabide batek betetzen badu, baliabide eskaerarekin lotutako taldekide generikoa ezabatzen da. 
 
-Baliabide-eskaeraren hartzaileak baliabideak proposatu eta Proiektu-kudeatzaileak proposatutako baliabideak berrikusteko prest egon ondoren, baliabide-eskaeraren egoera eguneratu beharko du.**Berrikuspena behar du**.
+Baliabide-eskaeraren hartzaileak baliabideak proposatu eta Proiektu-kudeatzaileak proposatutako baliabideak berrikusteko prest egon ondoren, baliabide-eskaeraren egoera eguneratu beharko du **Berrikuspena behar du**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

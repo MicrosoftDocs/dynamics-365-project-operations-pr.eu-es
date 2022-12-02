@@ -1,6 +1,6 @@
 ---
 title: Aplikatu demo-konfigurazioa eta konfigurazio-datuak - arina
-description: Artikulu honek proiektuko eragiketetarako demo konfigurazio eta konfigurazio datuak aplikatzeari buruzko informazioa eskaintzen du.
+description: Gai honek Project Operations-eko demo-konfigurazioa eta konfigurazio datuak nola aplikatu jakiteko informazioa eskaintzen du.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
 ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: eu-ES
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9409962"
@@ -21,7 +21,7 @@ _**Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
 ## <a name="prerequisites"></a>Aurrebaldintzak
 
-Konfigurazioari ekin aurretik, bat izan behar duzu Dataverse hornitutako ingurunea Dynamics 365 Project Operations.
+Konfigurazioa hasi aurretik, hau eduki behar duzu Dataverse ingurunea Dynamics 365 Project Operations-etarako hornituta.
 
 
 ## <a name="instructions"></a>Instrukzioak

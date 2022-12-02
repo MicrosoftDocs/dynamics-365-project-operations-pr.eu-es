@@ -1,6 +1,6 @@
 ---
 title: Aurreikuspen ekonomikoaren kontzeptuak
-description: Artikulu honetan proiektu-eragiketetako proiektuen finantza-estimazioei buruzko informazioa ematen da.
+description: Gai honek proiektuen aurreikuspen ekonomikoaren inguruko informazioa eskaintzen du Project Operations-en.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: overview

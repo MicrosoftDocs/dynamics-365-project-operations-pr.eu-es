@@ -1,6 +1,6 @@
 ---
 title: Berrikusi baliabide proposatuak
-description: Artikulu honek proiektuaren baliabideak proposatzeari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuaren baliabideak proposatzeari buruzko informazioa ematen du.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -41,7 +41,7 @@ Proposatutako baliabideak berrikusteko, jarraitu urrats hauei:
 
     - **Antolaketa-laguntzailea** orrian, egoeraren adierazleak eguneratu egiten dira erreserba proposatu dela adierazteko, ez behin betiko erreserba.
     - Baliabideen eskaeran, eskaeraren berrikusleak egoerara aldatu beharko luke **Berrikuspena behar du**.
-    - Gainean **Taldea** proiektuaren fitxa, taldekide generikoa **Eskaeraren egoera** balioa automatikoki aldatzen da **Berrikuspena behar du**.
+    - Proiektuaren **Taldea** fitxan, taldeko kide orokorraren **Eskaeraren egoera** balioa **Berrikusi behar da** baliora aldatu da automatikoki.
 
 Proiektu-kudeatzaileak proposamena onartu edo baztertu dezake.
 

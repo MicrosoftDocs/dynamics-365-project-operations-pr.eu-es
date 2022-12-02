@@ -1,6 +1,6 @@
 ---
 title: Azpikontratuaren lerroak denboraren arabera
-description: Artikulu honek denboraren azpikontratazio lerroak nola erregistratu eta saltzaileei denbora erostea nola erregistratu azaltzen du.
+description: Gai honetan azaltzen da nola kontratatu lerroak denboran grabatzeko eta saltzaileek denbora erostea erregistratzeko.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

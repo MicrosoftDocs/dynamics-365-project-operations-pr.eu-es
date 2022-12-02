@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation Sarbide goiztiarraren 2021eko 1. zatiko, V3, berrikuntzak edo aldaketak
-description: Artikulu honek Project Service Automation Early Access Wave 1 2021, V3-n eskuragarri dauden funtzioak eta konponketak zerrendatzen ditu.
+description: Gai honek Project Service Automation Sarbide goiztiarreko 2021eko 1. zatiko, V3, eguneratzea bertsioan berrian eskuragarri dauden eginbideak eta konponketak ditu.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021
@@ -31,7 +31,7 @@ ms.locfileid: "8930717"
 
 Atseginez iragartzen dizuegu Dynamics 365 aplikaziorako Project Service Automation aplikazioaren azken eguneratzea. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Argitalpen hau bateragarria da Dynamics 365 9.x bertsioarekin. Argitalpen honetara eguneratzeko, bisitatu Dynamics 365 (online) aplikazioaren administrazio-zentroko soluzioen orrira eguneratzea instalatzeko. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Artikulu honek Project Service Automation V3, Early Access Wave 1 2021erako berriak diren edo aldatu diren ezaugarriak eta konponketak zerrendatzen ditu. Bertsio honek V3.10.49.3 konpilazio-zenbakia du eta, oro har, 2021eko otsailean jarriko da erabilgarri automatikoki eguneratzeko moduan.
+Gai honek Project Service Automation Sarbide goiztiarreko 2021eko 1. zatiko, V3, eguneratzea bertsioan berriak edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.49.3 konpilazio-zenbakia du eta, oro har, 2021eko otsailean jarriko da erabilgarri automatikoki eguneratzeko moduan.
 
 
 ### <a name="bug-fixes"></a>Akatsen zuzenketa

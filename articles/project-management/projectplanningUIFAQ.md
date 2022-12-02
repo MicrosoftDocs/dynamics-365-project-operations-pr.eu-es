@@ -1,6 +1,6 @@
 ---
 title: Zeregina saretan lan egiteko arazoak konpontzea
-description: Artikulu honek Zereginen sarean lan egitean beharrezkoa den arazoak konpontzeko informazioa eskaintzen du.
+description: Gai honek Atazen saretan lan egitean behar diren arazoak konpontzeko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 07/22/2022
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9188216"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egin, webgunerako proiektua_
 
-Erabiltzen duen Zereginen sareta Dynamics 365 Project Operations barruan ostatutako iframe bat da Microsoft Dataverse. Erabilera horren ondorioz, baldintza zehatzak bete behar dira autentifikazioa ziurtatzeko, eta baimenak behar bezala funtzionatzen duela. Artikulu honek sarea errendatzeko edo lanaren banaketa egituran (WBS) zereginak kudeatzeko gaitasunan eragina izan dezaketen arazo arruntak azaltzen ditu.
+Zereginen sareta Dynamics 365 Project Operations ostatatutako iframe barruan dago Microsoft Dataverse. Erabilera horren ondorioz, baldintza zehatzak bete behar dira autentifikazioak eta baimenak ondo funtzionatzen dutela ziurtatzeko. Gai honek sarearen errendatzeko edo zereginak kudeatzeko gaitasunean eragina izan dezaketen arazo arruntak azaltzen ditu lanaren banakako egituran (WBS).
 
 Ohiko arazoak dira:
 
@@ -32,7 +32,7 @@ Ohiko arazoak dira:
 
 ### <a name="mitigation-1-enable-cookies"></a>1. arintzea: cookieak gaitu
 
-Project Operations-ek eragiketek hirugarrenen cookieak gaitzea eskatzen dute lanaren banakako egitura bihurtzeko. Hirugarrenen cookieak gaituta ez daudenean, zereginak ikusi beharrean, orri huts bat ikusiko duzu aukera hautatzen duzunean.**Zereginak** fitxan **Proiektua** orrialdea.
+Project Operations-ek eragiketek hirugarrenen cookieak gaitzea eskatzen dute lanaren banakako egitura bihurtzeko. Hirugarrenen cookieak gaituta ez daudenean, zereginak ikusi beharrean, orrialde huts bat ikusiko duzu **Zereginak** fitxan **Proiektua** orrialdean.
 
 Microsoft Edge edo Google Chrome arakatzaileetarako, honako prozedura hauek azaltzen dute nola eguneratu zure arakatzailearen ezarpena hirugarrenen cookieak gaitzeko.
 
@@ -57,7 +57,7 @@ Microsoft Edge edo Google Chrome arakatzaileetarako, honako prozedura hauek azal
 
 ### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>2. arintzea: baliozkotu PEX amaiera puntua behar bezala konfiguratu da
 
-Project Operations-ek proiektuaren parametro batek PEX amaiera puntua erreferentzia izatea eskatzen du. Amaierako puntu hau beharrezkoa da lanaren matxura egitura errendatzeko erabiltzen den zerbitzuarekin komunikatzeko. Parametroa gaituta ez badago, errorea jasoko duzu: "Proiektuaren parametroa ez da baliozkoa". PEX Endpoint eguneratzeko, jarraitu urrats hauek.
+Project Operations-ek proiektuaren parametro batek PEX amaiera puntua erreferentzia izatea eskatzen du. Amaierako puntu hau beharrezkoa da lanaren matxura egitura errendatzeko erabiltzen den zerbitzuarekin komunikatzeko. Parametroa gaituta ez badago, "Proiektuaren parametroak ez du balio" errorea jasoko duzu. PEX Endpoint eguneratzeko, jarraitu urrats hauek.
 
 1. Gehitu **PEX amaiera puntua** eremua **Proiektuaren parametroak** orrialdean.
 2. Identifikatu erabiltzen ari zaren produktu mota. Balio hau PEX amaiera puntua ezartzen denean erabiltzen da. Berreskuratu ondoren, produktu mota PEX amaiera puntuan definitzen da dagoeneko. Mantendu balio hori.
@@ -71,15 +71,15 @@ Project Operations-ek proiektuaren parametro batek PEX amaiera puntua erreferent
 
 4. Kendu eremua **Proiektuaren parametroak** orrialdetik.
 
-### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>3. arintzea: hasi saioa project.microsoft.com-en
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Arazoak konpontzea 3: Hasi saioa flow.microsoft.com aplikazioan
 
-Zure arakatzailean, ireki fitxa berri bat, joan project.microsoft.com atalera eta hasi saioa Proiektuaren Eragiketak atzitzeko erabiltzen ari zaren erabiltzaile-rolarekin. Garrantzitsua da nabigatzailean Microsoft produktu batean erabiltzaile bakarra saioa hastea. "login.microsoftonline.com-ek konektatzeari uko egin dio" errore-mezua erabiltzaile bat baino gehiago saioa hasita dagoenean gertatzen da gehienetan, hurrengo ilustrazioan erakusten den moduan.
+Zure arakatzailean, ireki fitxa berri bat, joan project.microsoft.com atalera eta hasi saioa Project Operations atzitzeko erabiltzen ari zaren erabiltzaile-rolarekin. Garrantzitsua da nabigatzailean erabiltzaile bakarra saioa hasita egotea Microsoft produktu batean. "login.microsoftonline.com-ek konektatzeari uko egin dio" errore-mezua erabiltzaile bat baino gehiago saioa hasten denean gertatzen da gehienetan, hurrengo ilustrazioan erakusten den moduan.
 
 ![Aukeratu bi erabiltzaile saioa hasita daudela erakusten duen kontua hasteko orri bat.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Arazoa: Proiektua ez da kargatzen eta UI birabarkian itsatsita dago
 
-Autentifikazioaren ondorioetarako, leiho gainerakorrak gaituta egon behar dute Ataza sareak kargatzeko. Pop-upak gaituta ez badaude, pantaila kargatzeko biraka itsatsita egongo da. Hurrengo grafikoan URLa agertzen da blokeatutako pop-up etiketa batekin helbide-barran, eta horren ondorioz, biragailua orria kargatu nahian trabatu egiten da. 
+Autentifikazioaren ondorioetarako, leiho gainerakorrak gaituta egon behar dute Ataza sareak kargatzeko. Pop-upak gaituta ez badaude, pantaila kargatzeko biraka itsatsita egongo da. Ondorengo grafikoak helbide barran pop-up etiketa blokeatuta duen URLa erakusten du, eta horri esker, biratzailea orrialdea kargatu nahian trabatzen da. 
 
    ![Blindatuta eta pop-up bloke itsatsia.](media/popupsblocked.png)
 
@@ -115,7 +115,7 @@ Bestela, urrats hauek egin ditzakezu.
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>3. arazoa: Pribilegioak administratzea Project for the Web-erako.
 
-Project Operations kanpoko planifikazio-zerbitzu batean oinarritzen da. Zerbitzuak erabiltzaileari WBSarekin erlazionatutako entitateei irakurtzeko eta idazteko aukera ematen dieten hainbat rol esleituta edukitzea eskatzen du. Entitate horien artean daude proiektuaren zereginak, baliabideen esleipenak eta atazen mendekotasunak. Erabiltzaile batek ezin badu WBS errendatu helbidera nabigatzen duenean **Zereginak** fitxa, ziurrenik horregatik izango da **Proiektua** rentzat **Proiektuaren Eragiketak** ez da gaituta izan. Erabiltzaile batek segurtasun-funtzio errorea edo sarbidea ukatzearekin lotutako errorea jaso dezake.
+Project Operations kanpoko planifikazio-zerbitzu batean oinarritzen da. Zerbitzuak erabiltzaileari WBSarekin erlazionatutako entitateei irakurtzeko eta idazteko aukera ematen dien hainbat eginkizun izatea eskatzen du. Entitate horien artean daude proiektuaren zereginak, baliabideen esleipenak eta atazen mendekotasunak. Erabiltzaile batek ezin badu WBS errendatu webgunera nabigatzean **Zereginak** fitxa, seguruenik **Proiektua** **Project Operations** ez da gaitu. Erabiltzaile batek segurtasun-funtzio errorea edo sarbidea ukatzearekin lotutako errorea jaso dezake.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>1. arintzea: aplikazioaren erabiltzailearen eta azken erabiltzailearen segurtasun rolak balioztatu
 

@@ -1,6 +1,6 @@
 ---
 title: Aplikatu demo-datuak Finance-ren hodeian ostatatutako ingurune batean
-description: Artikulu honek Project Operations-en demo datuak Dynamics 365 Finance Hodeian ostatatutako ingurune batean nola aplikatu azaltzen du.
+description: Gai honek Project Operations-etik demo datuak nola aplikatu azaltzen du Dynamics 365 Finance hodeian ostatatutako ingurunea.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9029882"
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
 > [!IMPORTANT]
-> Artikulu hau soilik aplikagarria da Microsoft Dynamics 365 Finance 10.0.13 bertsioa eta hodeian ostatatutako ingurune batean bakarrik egin daiteke. Osatu artikulu honetako urratsak **AURRETIK** ingurumenari kalitatezko eguneraketak aplikatzen dizkiozu.
+> Gai hau Microsoft Dynamics 365 Finance 10.0.13 bertsioan soilik aplikatzen da eta hodeian ostatatutako ingurune batean bakarrik egin daiteke. Osatu gai honetako urratsak **AURRETIK** ingurumenari kalitatezko eguneratzeak aplikatzen dizkiozu.
 
 1. Zure LCS proiektuan, ireki **Ingurumenaren xehetasunak** orrialdea. Ohar zaitez urruneko mahaigaineko protokoloa (RDP) erabiliz ingurunearekin konektatzeko behar diren xehetasunak biltzen dituela.
 
@@ -76,7 +76,7 @@ Minutu pare bat behar dira. Admin erabiltzailea ondo eguneratu dela baieztatzeko
 
 18. Itxi urruneko mahaigaineko saioa eta erabili LCS **Ingurumenaren xehetasunak** orria ingurunean saioa hasteko espero bezala funtzionatzen duela baieztatzeko.
 
-![Finantza eta eragiketak.](./media/10FinanceAndOperations.png)
+![finantzak eta eragiketak.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

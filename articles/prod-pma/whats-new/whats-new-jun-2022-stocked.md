@@ -1,6 +1,6 @@
 ---
-title: 2022ko ekainean proiektuko eragiketetan zer berri edo aldatu den hornitutako/produkzioan oinarritutako agertokietarako
-description: Artikulu honek 2022ko ekaineko Project Operations-en bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du hornitutako/produkzioan oinarritutako eszenatokietarako.
+title: Project Operations-en berrikuntzak edo aldaketak, 2022ko ekaina, izakinen edo ekoizpenean oinarritutako egoeretarako
+description: Artikulu honek informazioa eskaintzen du 2021eko ekainean Project Operations bertsioan eskuragarri dauden kalitate-eguneratzeei buruz, stockean eta ekoizpenean oinarritutako egoeretarako.
 author: andchoi
 ms.date: 06/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.contentlocale: eu-ES
 ms.lasthandoff: 08/19/2022
 ms.locfileid: "9316926"
 ---
-# <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>2022ko ekainean proiektuko eragiketetan zer berri edo aldatu den hornitutako/produkzioan oinarritutako agertokietarako
+# <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Project Operations-en berrikuntzak edo aldaketak, 2022ko ekaina, izakinen edo ekoizpenean oinarritutako egoeretarako
 
 _**Honi aplikatzen zaio:** Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations_
 
-Artikulu hau Microsoft-en osagai eta bertsio hauei aplikatzen zaie Dynamics 365 Project Operations:
+Gai hau Microsoft Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
-- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.27 bertsioan
+- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.27 bertsioan
 
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
 
-Elementu-eskakizunak finantzaketa-iturri anitz dituzten proiektu-kontratuetarako erabil daitezke. Informazio gehiagorako, ikus [Finantza-iturri anitz dituzten proiektu-kontratuetarako elementuen baldintzak](../multiple-funding-sources-item-req.md).
+Funts-iturri ugari dituzten proiektu-kontratuen elementuen baldintzak. Informazio gehiago: [Funts-iturri ugari dituzten proiektu-kontratuen elementuen baldintzak](../multiple-funding-sources-item-req.md).
 
 ## <a name="quality-updates"></a>Kalitatearen eguneratzeak
 
-Eguneratze honetan sartzen diren akatsen konponketei buruzko informazioa lortzeko, hasi saioa hemen Microsoft Dynamics Lifecycle Services (LCS) eta ikusi [KB artikulua](https://fix.lcs.dynamics.com/Issue/Details?bugId=673271).
+Eguneratze honetan jasotako arazoen konponketen inguruko informazioa lortzeko, hasi saioa Microsoft Dynamics Lifecycle Services-en (LCS) eta ikusi [KB artikulua](https://fix.lcs.dynamics.com/Issue/Details?bugId=673271).

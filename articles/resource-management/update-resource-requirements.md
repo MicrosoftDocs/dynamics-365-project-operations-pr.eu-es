@@ -1,6 +1,6 @@
 ---
 title: Baliabidearen eskakizuna editatu
-description: Artikulu honek baliabideen eskakizunen informazioa eguneratzeari buruzko informazioa eskaintzen du.
+description: Gai honek baliabide-eskakizunen informazioa eguneratzeari buruzko informazioa ematen du.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

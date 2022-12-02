@@ -17,26 +17,26 @@ ms.locfileid: "8930349"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Denbora, gastu edo material erabileraren sarrera bat bidaltzen duen proiektu-taldekide batek sarrera hori gogora dezake onartu ondoren. Berreskuratze prozesuak bi urrats nagusi ditu:
+Proiektuko taldekide batek edo denbora- edo gastu-sarrera bat bidaltzen duen beste pertsona batek denbora- edo gastu-sarrera hori berreskuratu dezake onartu ondoren. Deitzeko prozesuak bi urrats nagusi ditu:
 
 1. Igorleak berreskurapena eskatzen du.
-2. Onartzaile batek atzera botatzeko eskaera onartzen du.
+2. Onartzaile batek berreskurapen eskaera onartzen du.
 
 ## <a name="request-a-recall"></a>Eskatu berreskurapena
 
-Jarraitu urrats hauek onartutako denbora, gastu edo materialaren erabilera-sarrerak berreskuratzeko.
+Jarraitu urrats hauei onartutako denbora, gastuak edo materialen erabilera sarrerena.
 
 1. Jarraitu urrats hauetako bat, gogoratu nahi duzun sarrera motaren arabera:
 
-    - Ordua sartzeko, joan hona **Proiektuak** \> **Nire lana** \> **Denbora Sarrera**, eta hautatu denbora-sarrera guztiak proiektu baten eta zeregin baten konbinazio zehatz baterako. Bestela, saretan, hautatu proiektu zehatz baterako data zehatz baten denboraren gelaxka indibidualak.
-    - Gastuak idazteko, joan hona **Proiektuak** \> **Nire lana** \> **Gastuak**, eta hautatu gogoratzeko gastu-sarreraren errenkada.
-    - Materialaren erabilerarako sarrerak ikusteko, joan hona **Proiektuak** \> **Nire lana** \> **Material erabileraren erregistroa**, eta hautatu materialaren erabilera-sarreraren errenkada gogoratzeko.
+    - Denbora-sarrerak aukeratzeko, joan **Proiektuak** \> **Nire lana** \> **Denbora sarrera** hautatu proiektu eta zeregin baten konbinazio zehatz baterako denbora-sarrera guztiak. Bestela, saretan, hautatu proiektu zehatz baterako data zehatz baten denboraren gelaxka indibidualak.
+    - Gastu-sarreretarako, joan **proiektuak** \> **nire lana** \> **gastuak** hautatu berreskuratu nahi den gastu-sarreraren errenkada.
+    - Material erabileraren sarreretarako, joan **proiektuak** \> **nire lana** \> **Material erabileraren erregistroa** hautatu berreskuratu nahi den materialaren erabilera-sarreraren errenkada.
 
-2. Hautatu **Berreskuratu**. Berresteko elkarrizketa-koadroa agertzen da. Hautatutako denbora, gastu edo materialaren erabilera-sarrerak dagoeneko onartuta bazeuden, berreskuratzeko arrazoia idazteko eskatuko zaizu.
+2. Hautatu **Berreskuratu**. Berresteko elkarrizketa-koadroa agertzen da. Hautatutako denbora, gastu edo material erabilera-sarrerak dagoeneko onartuak baziren, berreskurapenaren zergatia idazteko eskatuko zaizu.
 3. Idatzi berreskurapenerako arrazoia eta, ondoren, hautatu **Ados** eragiketa berresteko. Sistemak sarrerak berreskurapena onartzeko eskaera bidaltzen dio onartu dituen pertsonari.
 
 > [!IMPORTANT]
-> Ezin duzu berreskuratzeko eskaerarik sortu bezeroari dagoeneko fakturatu zaion denbora, gastu edo material-erabileraren sarrera batentzat. Saiatzen bazara, mezu bat jasoko duzu denbora, gastua edo materialaren erabileraren sarrera ezin dela gogoratu dio, dagoeneko fakturatuta zegoelako. Kasu honetan, sarrera berreskuratzea eska dezakezu jatorrizko fakturan bezeroari kreditu osoa edo itzulketa osoa emateko faktura zuzentzailea erabiltzen bada soilik.
+> Ezin duzu berreskuratzeko eskaerarik sortu bezeroari dagoeneko fakturatu zaion denbora, gastu edo material-erabileraren sarrera batentzat. Saiatzen bazara, denbora, gastua edo material erabileraren sarrerak ezin direla berreskuratu adierazten duen mezu bat jasoko du, jada fakturatu delako. Kasu honetan, sarrera berreskuratzea eska dezakezu jatorrizko fakturan bezeroari kreditu osoa edo itzulketa osoa emateko faktura zuzentzailea erabiltzen bada soilik.
 
 ## <a name="approve-or-reject-a-recall-request"></a>Onartu edo baztertu berreskuratze eskaera
 
@@ -52,7 +52,7 @@ Jarraitu urrats hauei berreskuratze eskaera onartu edo arbuiatzeko.
     **Baztertu** aukeratu baduzu, berreskuratze eskaera baztertu egingo da.
 
 > [!IMPORTANT]
-> Berreskuratzea onartzen denean, eskatzen denean bezala, sistemak fakturazio jardueraren bat egiaztatzen du denbora, gastu edo materialaren erabilerako sarreretan. Sarrera bat dagoeneko fakturatuta bazegoen, edo faktura zirriborro batean badago, onartzaileak errore-mezu bat jasoko du, eta dioen denbora edo gastua ezin dela gogoraraztea onartu fakturatuta zegoelako. Kasu honetan, onartzaileak atzerapena onar dezake soilik faktura zuzentzailea erabiltzen bada jatorrizko fakturan bezeroari kreditu osoa edo itzulketa emateko.
+> Berreskuratze eskaera bat egiten denean, berreskuratzea eskatutakoan bezala, sistemak denbora-, gastu- edo material erabilera-sarreretan egondako fakturazio-jarduerak egiaztatzen ditu. Sarrera bat fakturatuta badago edo faktura zirriborro batean badago, onartzaileak denbora edo gastua berreskurapenerako onartu ezin direla dioen errore mezua jasoko du, dagoeneko fakturatuta zegoelako. Kasu honetan, sarrera berreskuratzea eska dezakezu jatorrizko fakturan bezeroari kreditu osoa edo itzulketa osoa emateko faktura zuzentzailea erabiltzen bada soilik.
 
 ## <a name="impact-of-a-recall-request"></a>Berreskuratze eskaera baten eragina
 
@@ -60,9 +60,9 @@ Onarpena bat berreskuratzen denean, eragiketa-eragina eta finantza-eragina daude
 
 ### <a name="operational-impact"></a>Eragile operazionala
 
-Berreskuratze eskaera onartzen bada, onarpen-erregistroa **Baztertuta** gisa markatzen da. Sarreraren egoera bietara aldatzen da **Itzuli** edo **Baztertua**, denbora-sarrera edo gastu edo material erabilera-sarrera denaren arabera.
+Berreskuratze eskaera onartzen bada, onarpen-erregistroa **Baztertuta** gisa markatzen da. Sarreraren egoera aldatu egingo da **Itzulia** edo **Baztertuta** egoerara, denbora-sarrera, gastu- edo material erabilera-sarrera den kontuan hartuta.
 
-Proiektuko taldeko kideak sarrerak ikusi, editatu eta, gero, sarrerak berriro bidal ditzake edo sarrerak guztiz ezaba ditzake.
+Proiektuko taldekideak sarrerak ikusi, sarrerak editatu eta berriro bidali edo sarrerak ezabatu ditzake.
 
 Berreskuratze eskaera baztertzen bada, sarreraren egoera **Onartuta** gisa mantenduko da eta ez proiektuko taldekideak ,ez proiektuaren onartzaileak ezin du editatu sarrera.
 
@@ -79,14 +79,14 @@ Berreskuratze eskaera baztertzen bada, ez dago eragin ekonomikorik proiektuan.
 
 ## <a name="changes-to-time-entry-records"></a>Denora-sarreraren erregistroen aldaketak
 
-Ondorengo ilustrazioan onartutako ordu-sarrerak eta dagozkien onespen-erregistroak gogoratzen direnean gertatzen diren aldaketak erakusten dira.
+Hurrengo irudian, berreskuratzen direnean onartutako denbora-sarreretan gertatzen diren aldaketak eta dagozkien onarpen-erregistroak erakusten dira.
 
-![Denbora-sarrerako egoera-trantsizioak.](media/TimeEntryStateTransitions.png)
+![Denbora-sarreraren egoera trantsizioak.](media/TimeEntryStateTransitions.png)
 
-## <a name="changes-to-expense-and-material-usage-entry-records"></a>Gastuen eta materialen erabileraren sarrera-erregistroen aldaketak
+## <a name="changes-to-expense-and-material-usage-entry-records"></a>Gastu- eta material erabilera-sarreraren erregistroen aldaketak
 
-Ondorengo ilustrazioan onartutako gastuen eta materialen erabilerako sarreretan eta dagozkien onespen-erregistroak gogoratzen direnean gertatzen diren aldaketak erakusten dira.
+Hurrengo irudian, berreskuratzen direnean onartutako gastu- eta material erabilera-sarreretan gertatzen diren aldaketak eta dagozkien onarpen-erregistroak erakusten dira.
 
-![Gastuen sarrerako egoera-trantsizioak.](media/ExpenseEntryStateTransitions.png)
+![Gastu-sarreraren egoera trantsizioak.](media/ExpenseEntryStateTransitions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Proiektuetan oinarritutako eskaintzaren lerroen ikuspegi orokorra
-description: Artikulu honetan, proiektu-lanerako proiektuetan oinarritutako aurrekontu-ildoen erabilerari buruzko informazioa ematen da.
+description: Gai honek proiektu-lanaren produktuetan oinarritutako eskaintza-lerroak erabiltzeari buruzko lerroei buruzko informazioa ematen du.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview

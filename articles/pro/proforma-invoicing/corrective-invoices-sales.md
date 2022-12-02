@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren faktura zuzentzaileak
-description: Artikulu honek faktura zuzentzaileak sortu eta baieztatzeari buruzko informazioa eskaintzen du Project Operations-en.
+description: Gai honek faktura zuzentzaileak sortu eta berresteko Project Operations-en informazioa ematen du.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

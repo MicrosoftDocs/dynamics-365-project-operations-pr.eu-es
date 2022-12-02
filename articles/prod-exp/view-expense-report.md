@@ -1,6 +1,6 @@
 ---
 title: Ikusi Liburu nagusi orokorreko edo Kontratazio eta hornikuntzaren gastuen txostena
-description: Artikulu honek transakzio bat agertu zen jatorrizko gastu-txostena nola ikusi azaltzen du.
+description: Gai honetan transakzio bat agertu zeneko jatorrizko gastuen txostena nola ikusi azaltzen da.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article

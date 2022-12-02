@@ -1,6 +1,6 @@
 ---
 title: Project Operations idazketa dualeko esleipen-bertsioak
-description: Artikulu honek idazkera bikoitzeko mapen zerrenda eskaintzen du Dynamics 365 Project Operations.
+description: Gai honek idazketa bikoitzeko mapen zerrenda eskaintzen du Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 07/01/2021
 ms.topic: article
@@ -25,12 +25,12 @@ Ondorengo mapak Project Operations soluziorako ezinbesteko baldintzak dira. Ziur
 
 | Taula-esleipena | Hasierako sinkronizazioa |
 | --- | --- |
-| Liburua (msdyn_ledgers) | Taularen maparen eta aurrebaldintza guztien hasierako sinkronizazioa eskatzen du. Hasierako sinkronizaziorako maisua finantza eta eragiketen aplikazioak dira. |
+| Liburua (msdyn_ledgers) | Taularen maparen eta aurrebaldintza guztien hasierako sinkronizazioa eskatzen du. Hasierako sinkronizazioaren eredua finantzen eta eragiketen aplikazioak dira. |
 | Legezko entitateak (cdm_companies) | Ez da beharrezkoa. Sistemak entitate hau automatikoki betetzen du inguruneak idazketa bikoitzaren bidez lotzen direnean. |
 | Bezeroak V3 (kontuak) | Ez da hornidura egiteko beharrezkoa. |
 | Saltzaileak V2 (msdyn_vendors) | Ez da hornidura egiteko beharrezkoa. |
 
-1. Mapen zerrendan, hautatu Liburua **(msdyn\_ledgers)** mapa aurrebaldintza guztiekin eta hautatu **Hasierako sinkronizazioa** kontrol-laukia. urtean **Hasierako sinkronizaziorako maisua** eremua, hautatu **Finantza eta eragiketa aplikazioak** bai liburuko maparako bai aurrebaldintzarako mapa guztietarako. Hautatu **Exekutatu**.
+1. Mapen zerrendan, hautatu Liburua **(msdyn\_ledgers)** mapa aurrebaldintza guztiekin eta hautatu **Hasierako sinkronizazioa** kontrol-laukia. **Hasierako sinkronizaziorako maisua** eremua, hautatu **finantzen eta eragiketen aplikazioak** bai liburutegi maparako, bai aurrebaldintzako mapa guztietarako. Hautatu **Exekutatu**.
 
 ![Liburuaren esleipenaren sinkronizazioa.](media/DW6.png)
 
@@ -40,13 +40,13 @@ Ondorengo mapak Project Operations soluziorako ezinbesteko baldintzak dira. Ziur
 
 Ondorengo mapak Project Operations soluziorako behar dira. Idazketa bikoitzeko mapen bertsioak zerrendatzen dira Project Operations 2021eko maiatzaren bertsioarekin hasita, 4.10.0.186 bertsioa.
 
-| Entitate-esleipena | Azken bertsioa | Hasierako sinkronizazioa | Dynamics 365 Finance bertsioa beharrezkoa |
+| Entitate-esleipena | Azken bertsioa | Hasierako sinkronizazioa | Beharrezkoa den Dynamics 365 Finance bertsioa |
 | --- | --- | --- | --- |
 | Proiektuen transakzio harremanetarako integrazio entitatea (msdyn\_transactionconnections) | 1.0.0.0 | Ez da hornidura egiteko beharrezkoa. ||
 | Proiektuen kontratuen goiburuak (salmenta aginduak) | 1.0.0.1 | Ez da hornidura egiteko beharrezkoa. ||
 | Proiektuetako kontratuaren lerroak (salesorderdetails) | 1.0.0.0 | Ez da hornidura egiteko beharrezkoa. ||
 | Proiektua finantzatzeko iturria (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Ez da hornidura egiteko beharrezkoa. ||
-| Materialen estimazioetarako proiektuen integrazio taula (msdyn\_ estimazio-lerroak) | 1.0.0.0 | Ez da hornidura egiteko beharrezkoa. ||
+| Project Operations integrazioaren taula materialen kalkuluen arabera (msdyn\_estimatelines) | 1.0.0.0 | Ez da hornidura egiteko beharrezkoa. ||
 | Proiektuaren faktura-proposamenak V2 (fakturak) | 1.0.0.3 | Ez da hornidura egiteko beharrezkoa. ||
 | Project Operations-en integrazioaren benetako datuak (msdynactuals) | 1.0.0.15 | Ez da hornidura egiteko beharrezkoa. |10.0.29 edo berriagoa|
 | Project Operations-en integrazioaren kontratuaren lerroaren mugarria (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Ez da hornidura egiteko beharrezkoa. ||

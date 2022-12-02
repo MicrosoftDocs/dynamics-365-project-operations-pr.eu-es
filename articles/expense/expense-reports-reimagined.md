@@ -1,6 +1,6 @@
 ---
-title: Berrasmatutako gastuei buruzko txostenak (bideoa)
-description: Artikulu honek gastuen txostena sartzeko birdiseinatutako eta berregitutako esperientzia azaltzen du.
+title: Gastu-txostenen itxura berria (bideoa du)
+description: Gai honek gastuen txostenak sartzeko esperientzia birmoldatu eta berriro pentsatutakoa azaltzen du.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -58,7 +58,7 @@ Esperientzia berria aktibatzeko, erabili **Ezaugarrien kudeaketa** laneko area *
 | Gorde eta gehitu gastu lerro berriak | **Gorde** eta **Berria** botoiak erabilgarri daude gastu berriak sartzen direnean, gastu lerroak azkar sartzen laguntzeko. |
 | Ikusgarritasun hobea lerro zatitu eta zehatzetan | Lerro xehatuak eta zatituak zuzenean gehitzen dira gastuen zerrendan ikusgarritasuna handitzeko eta akatsik dagoen ala ez erraz zehazten laguntzeko. |
 | Ikusi azpikategoriaren xehetasunak lerro zehatzetan | Gurasoen gastuaren lerro zehatzek gastuen txosteneko azpikategoriaren etiketak erakusten dituzte. Elementuen xehetasunak xehetasun pikorrak berrikusteko aukera ematen du.|
-|Gastu errepikariak azkar zehaztu | Berrasmatutako gastuen lan-espazioak gastu errepikariak azkar zehazteko gaitasuna ematen du, azpikategoria, hasiera-data eta kopurua gehituz. Kopurua karga aldi jarraituan errepikatzen den aldi kopuruari dagokio. |
+|Azkar zehaztu ohiko gastuak | Berriz imajinatutako gastuen lan-eremuak gastu errepikakorrak azkar banatzeko gaitasuna ematen du azpikategoria, hasiera-data eta kantitatea gehituz. Karga etengabeko aldi batean errepikatzen den kopurua adierazten du kopuruak. |
 | Erakutsi ordainagiriak zehaztapenean | Ordainagiriak ezin dira erakutsi zehaztapenean. |
 | Diru-aurrerakinaren hautapena | Aukeratu diru aurrerakin bat edo gehiago gastu transakzio bakarra betetzeko. |
 | Diru-aurrerakinaren saldoa | Berrikusi eskudiruzko aurrerakinaren saldoa denbora errealean, onartutako eta ordaindutako eskudiruzko aurrerakinen aurkako sarrera sortzen duzunean. |

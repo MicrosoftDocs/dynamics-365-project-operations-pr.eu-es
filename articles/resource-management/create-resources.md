@@ -1,6 +1,6 @@
 ---
 title: Sortu baliabideak
-description: Artikulu honek esteka bat eskaintzen du erreserba daitezkeen baliabideak sortzeari buruzko informaziorako.
+description: Gai honek baliabide erreserbagarriak sortzeko moduari esleitzeari buruzko informazioa lortzeko esteka ematen du.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 Erabil dezakezu Dynamics 365 Field Service zure erabilgarri dauden baliabide erreserbagarriak sortzeko Dynamics 365 Project Operations ingurunea. Baliabide horiek sortzeko, ikusi [Konfiguratu erreserbatzeko baliabideak](/dynamics365/field-service/set-up-bookable-resources).
 
-Project Operations-ek baliabide mota hauek onartzen ditu:
+Project Operations-en antolaketak baliabide mota hauek onartzen ditu:
 - Kontua
 - Contact
 - User

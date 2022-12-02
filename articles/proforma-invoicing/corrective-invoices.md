@@ -1,6 +1,6 @@
 ---
 title: Proiektuetan oinarritutako faktura zuzentzaileak
-description: Artikulu honek proiektuan oinarritutako faktura zuzentzaileak sortu eta berresteko informazioa eskaintzen du Project Operations-en.
+description: Gai honek proiektuan oinarritutako faktura zuzentzaileak sortu eta berresteko Project Operations-en informazioa ematen du.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Kudeatu gainditu ezin den egoera eta balidazioak
-description: Artikulu honek Proiektuen Eragiketetan egindako muga gainditzeko egiaztapenei buruzko informazioa eskaintzen du.
+description: Gai honek Project Operations-en egindako muga kontrolak gainditu ez daitezen buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

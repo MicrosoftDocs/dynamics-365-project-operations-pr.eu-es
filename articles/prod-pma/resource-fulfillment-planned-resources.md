@@ -1,6 +1,6 @@
 ---
 title: Aurreikusitako baliabideetarako baliabideak betetzea
-description: Artikulu honek proiektu baterako aurreikusitako baliabideei buruzko informazioa eskaintzen du.
+description: Gai honek proiektuaren planifikatutako baliabideei buruzko informazioa ematen du.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

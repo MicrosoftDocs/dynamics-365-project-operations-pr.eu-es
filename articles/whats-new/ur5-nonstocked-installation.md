@@ -1,6 +1,6 @@
 ---
 title: Eguneratu Project Operations zure Finantza ingurunean
-description: Artikulu honek zure Dynamics 365 Finance ingurunean Proiektuen Eragiketak eguneratzeari buruzko informazioa eskaintzen du.
+description: Bertsio hau eguneratzeko moduari buruzko informazioa eskaintzen du artikuluak Eguneratu Project Operations zure Dynamics 365 Finance ingurunean.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9030020"
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
 
-Artikulu honek eguneratzeari buruzko informazioa eskaintzen du Dynamics 365 Project Operations zure Dynamics 365 Finance ingurunean. Project Operations-ek 5 eguneratzera (UR5) eguneratzeko hiru prozedura behar dira:
+Bertsio hau eguneratzeko moduari buruzko informazioa eskaintzen du artikuluak Eguneratu Dynamics 365 Project Operations zure Dynamics 365 Finance ingurunean. Project Operations-ek 5 eguneratzera (UR5) eguneratzeko hiru prozedura behar dira:
 
 - [Inportatu paketea aurrebista proiektuan](#import)
 - [Aplikatu eguneratzea](#apply)
@@ -119,7 +119,7 @@ Entitateen segurtasun pribilegioen eguneratze hauek beharrezkoak dira UR5 eguner
 4. **Taula-esleipenaren bertsioa** orrian, aplikatu maparen bertsio berria hiru entitate bakoitzari.
 5. **Idazketa bikoitza** orrian, hautatu exekutatu mapak berrabiarazteko.
 6. Mapen zerrendan, hautatu **Liburua (msdyn_ledgers)** mapa aurrebaldintza guztiekin eta hautatu **Hasierako sinkronizazioa** kontrol-laukia. 
-7. urtean **Hasierako sinkronizaziorako maisua** eremua, hautatu **Finantza eta eragiketa aplikazioak** eta gero hautatu **Korrika egin**.
+7. **Hasierako sinkronizaziorako nagusia** eremuan, hautatu **finantzen eta eragiketen aplikazioak** eta, ondoren, hautatu **Exekutatu**.
  
  ![Liburuaren esleipenaren sinkronizazioa.](media/DW6.png)
  

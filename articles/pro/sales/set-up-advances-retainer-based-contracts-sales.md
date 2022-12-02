@@ -1,6 +1,6 @@
 ---
 title: Aurrerakinak eta atxikipenetan oinarritutako kontratuak
-description: Artikulu honek atxikitzaileetan oinarritutako kontratazio-ereduei eta proiektu-eragiketetan izandako aurrerapenei buruzko informazioa ematen du.
+description: Gai honek proiektuetan oinarritutako kontratazio-ereduetan eta aurrerakinari buruzko informazioa eskaintzen du Project Operations-en.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

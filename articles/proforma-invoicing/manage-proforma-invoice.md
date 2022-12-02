@@ -1,6 +1,6 @@
 ---
 title: Kudeatu proiektuetan oinarritutako fakturaren proforma
-description: Artikulu honetan, proiektuetan oinarritutako proforma fakturekin nola administratu eta lan egin erakusten da.
+description: Gai honek proforma proiektuan oinarritutako fakturak kudeatu eta horiekin lan egiteko moduari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

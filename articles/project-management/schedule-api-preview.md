@@ -1,6 +1,6 @@
 ---
 title: Erabili Proiektuak programatzeko APIak Planifikazio entitateekin eragiketak egiteko
-description: Artikulu honek Project schedule APIak erabiltzeko informazioa eta laginak eskaintzen ditu.
+description: Artikulu honek informazioa eta laginak eskaintzen ditu proiektuen programazio APIak erabiltzeko.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
@@ -34,7 +34,7 @@ Hurrengo taulan Proiektuaren programazio entitateen zerrenda osoa ematen da.
 | Proiektu-taldeko kidea     | msdyn_projectteam           |
 | Proiektuaren egiaztapen-zerrendak      | msdyn_projectchecklist      |
 | Proiektuaren etiketa           | msdyn_projectlabel          |
-| Proiektua Etiketatzeko zeregina   | msdyn_projecttasktolabel    |
+| Etiketatzeko proiektuko zeregina   | msdyn_projecttasktolabel    |
 | Proiektu-iterazioa          | msdyn_projectsprint         |
 
 **OperationSet**
@@ -45,15 +45,15 @@ OperationSet lan-unitate eredua da, eragiketen eskaerak eragiketen hainbat trans
 
 Jarraian, proiektuaren antolaketaren APIen zerrenda dago.
 
-| **APIa**                                 | Deskribapenak                                                                                                                       |
+| **API**                                 | Deskribapenak                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | API hau proiektu bat sortzeko erabiltzen da. Proiektua eta proiektu-ontzi lehenetsia berehala sortzen dira.                         |
-| **msdyn_CreateTeamMemberV1**            | API hau proiektuko taldekide bat sortzeko erabiltzen da. Taldekideen erregistroa berehala sortzen da.                                  |
-| **msdyn_CreateOperationSetV1**          | API hau transakzio batean egin behar diren hainbat eskaera programatzeko erabiltzen da.                                        |
-| **msdyn_PssCreateV1**                   | API hau entitate bat sortzeko erabiltzen da. Erakundea sortzeko eragiketa onartzen duten Proiektuak antolatzeko entitateetako edozein izan daiteke. |
-| **msdyn_PssUpdateV1**                   | API hau entitate bat eguneratzeko erabiltzen da. Entitatea eguneratze eragiketa onartzen duen Proiektua antolatzeko entitateetako edozein izan daiteke  |
-| **msdyn_PssDeleteV1**                   | API hau entitate bat ezabatzeko erabiltzen da. Erakundea ezabatzeko eragiketa onartzen duten Proiektuak antolatzeko entitateetako edozein izan daiteke. |
-| **msdyn_ExecuteOperationSetV1**         | API hau emandako eragiketa multzoko eragiketa guztiak exekutatzeko erabiltzen da.                                                 |
+| **msdyn_CreateProjectV1**               | API hau proiektua sortzeko erabiltzen da. Proiektua eta lehenetsitako proiektua berehala sortzen dira.                         |
+| **msdyn_CreateTeamMemberV1**            | API hau proiektuaren taldeko kidea sortzeko erabiltzen da. Taldekideen erregistroa berehala sortzen da.                                  |
+| **msdyn_CreateOperationSetV1**          | API hau transakzio baten barruan egin behar diren hainbat eskaera antolatzeko erabiltzen da.                                        |
+| **msdyn_PssCreateV1**                   | API hau entitatea sortzeko erabiltzen da. Erakundea sortzeko eragiketa onartzen duten Proiektuak antolatzeko entitateetako edozein izan daiteke. |
+| **msdyn_PssUpdateV1**                   | API hau entitatea eguneratzeko erabiltzen da. Erakundea eguneratzeko eragiketa onartzen duten Proiektuak antolatzeko entitateetako edozein izan daiteke  |
+| **msdyn_PssDeleteV1**                   | API hau entitatea ezabatzeko erabiltzen da. Erakundea ezabatzeko eragiketa onartzen duten Proiektuak antolatzeko entitateetako edozein izan daiteke. |
+| **msdyn_ExecuteOperationSetV1**         | API hau emandako eragiketa multzoaren barneko eragiketa guztiak exekutatzeko erabiltzen da.                                                 |
 | **msdyn_PssUpdateResourceAssignmentV1** | API hau Baliabide-esleipenaren planifikatutako lan-inguru bat eguneratzeko erabiltzen da.                                                        |
 
 
@@ -66,16 +66,16 @@ Biekin grabatzen delako **CreateProjectV1** eta **CreateTeamMemberV1** berehala 
 
 | **Antolaketa-entitatea**   | **Sortu** | **Eguneratzea** | **Ezabatu** | **Gogoeta garrantzitsuak**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Proiektuaren zeregina            | Yes        | Yes        | Yes        | The **Aurrerapena**, **amaituta**, eta **AhaleginGeratzen** eremuak Weberako Project-en edita daitezke, baina ezin dira Editatu Project Operations-en.                                                                                                                                                                                             |
-| Proiektuaren zereginen mendekotasuna | Yes        | No         | Yes        | Proiektuaren zereginen mendekotasun erregistroak ez dira eguneratu. Horren ordez, erregistro zahar bat ezabatu daiteke, eta erregistro berri bat sor daiteke.                                                                                                                                                                                                                                 |
-| Baliabide-esleipena     | Yes        | Bai\*      | Yes        | Ez dira onartzen eremu hauek dituzten eragiketak: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** eta **PlannedWork**. Baliabideak esleitzeko erregistroak ez dira eguneratu. Horren ordez, erregistro zaharra ezabatu daiteke, eta erregistro berria sor daiteke. Aparteko API bat eman da Baliabideen Esleipenaren sestrak eguneratzeko. |
-| Proiektuaren ontzia          | Yes        | Yes        | Yes        | Kubo lehenetsia hau erabiliz sortzen da **SortuProiektuaV1** APIa. Proiektuen kuboak sortzeko eta ezabatzeko laguntza gehitu zen 16. bertsioan.                                                                                                                                                                                                   |
+| Proiektuaren zeregina            | Yes        | Yes        | Yes        | **Aurrerapena**, **EffortCompleted**, eta **EffortRemaining** eremuak Project for the Web-en edita daitezke, baina ezin dira editatu Project Operations-en.                                                                                                                                                                                             |
+| Proiektuaren zereginen mendekotasuna | Yes        | No         | Yes        | Proiektuaren zereginen mendekotasun erregistroak ez dira eguneratu. Horren ordez, erregistro zahar bat ezabatu eta erregistro berri bat sor daiteke.                                                                                                                                                                                                                                 |
+| Baliabide-esleipena     | Yes        | Bai\*      | Yes        | Ez dira onartzen eremu hauek dituzten eragiketak: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** eta **PlannedWork**. Baliabideak esleitzeko erregistroak ez dira eguneratu. Horren ordez, erregistro zaharra ezabatu eta erregistro berri bat sor daiteke. Aparteko API bat eman da Baliabideen Esleipenaren ingeradak eguneratzeko. |
+| Proiektuaren ontzia          | Yes        | Yes        | Yes        | Lehenetsitako ontzia **CreateProjectV1** APIa erabiliz sortzen da. Proiektuen ontzia sortzeko eta ezabatzeko laguntza gehitu zen 16. bertsioan.                                                                                                                                                                                                   |
 | Proiektu-taldeko kidea     | Yes        | Yes        | Yes        | Eragiketa sortzeko, erabili **CreateTeamMemberV1** APIa.                                                                                                                                                                                                                                                                                           |
 | Project                 | Yes        | Yes        |            | Ez dira onartzen eremu hauek dituzten eragiketak: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** eta **Duration**.                                                                                       |
 | Proiektuaren egiaztapen-zerrendak      | Yes        | Yes        | Yes        |                                                                                                                                                                                                                                                                                                                                                         |
-| Proiektuaren etiketa           | No         | Yes        | No         | Etiketen izenak alda daitezke. Ezaugarri hau Weberako Proiekturako soilik dago erabilgarri                                                                                                                                                                                                                                                                      |
-| Proiektua Etiketatzeko zeregina   | Yes        | No         | Yes        | Ezaugarri hau Weberako Proiekturako soilik dago erabilgarri                                                                                                                                                                                                                                                                                                  |
-| Proiektu-iterazioa          | Yes        | Yes        | Yes        | The **Hasi** eremuak data baino lehenagokoa izan behar du **Amaitu** eremua. Proiektu bererako esprintak ezin dira elkarren artean gainjarri. Ezaugarri hau Weberako Proiekturako soilik dago erabilgarri                                                                                                                                                                    |
+| Proiektuaren etiketa           | No         | Yes        | No         | Etiketen izenak alda daitezke. Eginbide hori eskuragarri dago soilik Project for the Web-en                                                                                                                                                                                                                                                                      |
+| Etiketatzeko proiektuko zeregina   | Yes        | No         | Yes        | Eginbide hori eskuragarri dago soilik Project for the Web-en                                                                                                                                                                                                                                                                                                  |
+| Proiektu-iterazioa          | Yes        | Yes        | Yes        | **Hasi** eremuko datak **Amaitu** eremua baino lehenagokoa izan behar du. Proiektu bererako iterazioak ezin dira elkarren artean gainjarri. Eginbide hori eskuragarri dago soilik Project for the Web-en                                                                                                                                                                    |
 
 
 
@@ -86,7 +86,7 @@ Identifikazio propietatea aukerakoa da. Ematen bada, sistema erabiltzen saiatzen
 
 Jarraian agertzen diren mugen eta arazo ezagunen zerrenda:
 
--   Project Schedule APIak soilik erabil ditzake **Microsoft Project Lizentzia duten erabiltzaileak**. Ezin dute hauek erabili:
+-   Project Schedule APIak soilik erabil ditzake **Microsoft Project lizentzia duten erabiltzaileek**. Ezin dute hauek erabili:
     -   Aplikazioaren erabiltzaileak
     -   Sistema-erabiltzaileak
     -   Integrazio-erabiltzaileak
@@ -94,33 +94,33 @@ Jarraian agertzen diren mugen eta arazo ezagunen zerrenda:
 -   **OperationSet** bakoitzak gehienez 100 eragiketa egin ditzake.
 -   Erabiltzaile bakoitzak gehienez 10 **OperationSet** ireki eduki ditzake.
 -   Gaur egun, Project Operations-ek gehienez 500 zeregin onartzen dituzte proiektu batean.
--   Eguneratze baliabideen esleipena Ingerada eragiketa bakoitza eragiketa bakar gisa zenbatzen da.
+-   Eguneratze baliabideen esleipenaren Ingerada eragiketa bakoitza eragiketa bakar gisa zenbatzen da.
 -   Ingerada eguneratuen zerrenda bakoitzak gehienez 100 denbora zati izan ditzake.
 -   **OperationSet** hutsegiteen egoera eta hutsegiteen erregistroak ez daude erabilgarri une honetan.
--   Proiektu bakoitzeko 400 sprint daude gehienez.
--   [Proiektu eta zereginen mugak eta mugak](/project-for-the-web/project-for-the-web-limits-and-boundaries).
--   Une honetan etiketak Weberako proiekturako soilik daude erabilgarri.
+-   Proiektu bakoitzeko 400 iterazio daude gehienez.
+-   [Proiektuetako eta zereginetako mugak](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Etiketak eskuragarri daude soilik Project for the Web-en.
 
 **Errore-kudeaketa**
 
 -   Eragiketa multzoetatik sortutako akatsak berrikusteko, joan **Ezarpenak** \> **Ordutegien integrazioa** \> **Eragiketa multzoak** aukerara.
 -   Proiektuaren programazio zerbitzutik sortutako akatsak berrikusteko, joan hona: **Ezarpenak** \> **Ordutegien integrazioa** \> **PSS erroreen erregistroak**.
 
-**Baliabideen esleipenaren sestrak editatzea**
+**Baliabideak esleitzeko ingerada editatzea**
 
-Entitate bat eguneratzen duten proiektuen antolakuntzako beste API guztiek ez bezala, baliabideen esleipenaren sestraren APIa eremu bakarreko, msdyn_plannedwork, entitate bakarreko, msydn_resourceassignment, eguneratzearen arduradun bakarra da.
+Entitate bat eguneratzen duten proiektuen antolakuntzako beste API guztiek ez bezala, baliabideen esleipenaren ingerada APIa eremu bakarreko, msdyn_plannedwork, entitate bakarreko, msydn_resourceassignment, eguneratzearen arduradun bakarra da.
 
-Emandako ordutegia hau da:
+Emandako antolaketa-modua hau da:
 
 -   **unitate finkoak**
--   Proiektuaren egutegia 9-5p da 9-5pst, astelehena, asteartea, osteguna, ostirala (ASTEAZKENEAN LAN EZ)
--   Eta baliabideen egutegia 9-1p PST da astelehenetik ostiralera
+-   proiektuaren egutegia 9-5p da 9-5pst, astelehena, asteartea, osteguna, ostirala (ASTEAZKENEAN LANIK EZ)
+-   eta baliabideen egutegia 9-1p PST da astelehenetik ostiralera
 
 Lan hau astebetekoa da, eguneko lau ordukoa. Baliabideen egutegia 9-1 PST bitartekoa delako, edo egunean lau ordu.
 
 | &nbsp;     | Zeregina | Hasiera-data | Amaiera-data  | Kantitatea | 2022/06/13 | 2022/06/14 | 2022/06/15 | 2022/06/16 | 2022/06/17 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 langile |  T1  | 2022/06/13  | 2022/06/17 | 20       | 4         | 4         | 4         | 4         | 4         |
+| 9-1 ordutegiko langile |  T1  | 2022/06/13  | 2022/06/17 | 20       | 4         | 4         | 4         | 4         | 4         |
 
 Adibidez, langileak aste honetan egunero hiru ordu bakarrik lan egitea eta beste zereginetarako ordu bat ematea nahi baduzu.
 
@@ -138,11 +138,11 @@ Adibidez, langileak aste honetan egunero hiru ordu bakarrik lan egitea eta beste
 }]
 ```
 
-Update Contour Schedule APIa exekutatu ondoren esleipena da hau.
+Ingeradaren antolaketa APIa exekutatu ondorengo esleipena da hau.
 
 | &nbsp;     | Zeregina | Hasiera-data | Amaiera-data  | Kantitatea | 2022/06/13 | 2022/06/14 | 2022/06/15 | 2022/06/16 | 2022/06/17 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 langile | T1   | 2022/06/13  | 2022/06/17 | 15       | 3         | 3         | 3         | 3         | 3         |
+| 9-1 ordutegiko langile | T1   | 2022/06/13  | 2022/06/17 | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
 **Laginaren egoera**

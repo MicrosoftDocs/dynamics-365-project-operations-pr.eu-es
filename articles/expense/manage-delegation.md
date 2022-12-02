@@ -1,6 +1,6 @@
 ---
 title: Kudeatu ordezkaritza
-description: Artikulu honek gastu-ordezkariak beste langile baten gastu-txostenak sor ditzakeen eta kudeatzeko moduari buruzko informazioa eskaintzen du.
+description: Gai honetan gastu delegatu batek beste langile baten gastu txostenak nola sortu eta kudeatu ditzakeen buruzko informazioa ematen da.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren faseak
-description: Artikulu honek proiektuaren faseei buruzko informazioa eskaintzen du Microsoft Dynamics Proiektuaren Eragiketak.
+description: Gai honek eskuragarri dauden proiektuen etapei buruzko informazioa eskaintzen du Microsoft Dynamics Project Operations-en.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -47,7 +47,7 @@ Proiektu bat eskaintza bati esleitzean edo proiektua eskaintza batetik sortzean,
 
 ## <a name="plan"></a>Plana
 
-Proiektu bati erlazionatuta dagoen eskaintza bat irabaztean, eta proiektua **Kontratuta** fasera mugitu bada, proiektuaren fasea **Antolatu** fasera eguneratzen da. Proiektua barruan dagoen bitartean **Plana** etapa, du **Salmentak** fitxan **Proiektu Entitatea** orrialdeak kontratuaren xehetasunak erakusten ditu.
+Proiektu bati erlazionatuta dagoen eskaintza bat irabaztean, eta proiektua **Kontratuta** fasera mugitu bada, proiektuaren fasea **Antolatu** fasera eguneratzen da. Proiektua **Plana** fasean dagoen bitartean, **Proiektuaren entitatea** orriko **Salmentak** fitxak kontratuaren xehetasunak erakusten ditu.
 
 ## <a name="deliver"></a>Entregatu
 

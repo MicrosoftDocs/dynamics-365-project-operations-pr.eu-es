@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 28, V3 bertsioko berrikuntzak edo aldaketak
-description: Artikulu honetan Project Service Automation Update Release 28, V3-n eskuragarri dauden ezaugarriak eta zuzenketak zerrendatzen dira.
+description: Gai honek Project Service Automation V3, 28. eguneratzean erabilgarri dauden eginbideak eta konponketak ditu.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/26/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8930579"
 
 Atseginez iragartzen dizuegu Dynamics 365 aplikaziorako Project Service Automation aplikazioaren azken eguneratzea. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Argitalpen hau bateragarria da Dynamics 365 9.x bertsioarekin. Argitalpen honetara eguneratzeko, bisitatu Dynamics 365 (online) aplikazioaren administrazio-zentroko soluzioen orrira eguneratzea instalatzeko. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Artikulu honetan, Project Service Automation V3, Update Release 28 bertsio honek V3.10.46.32-en bilduma-zenbakia du eta, oro har, 2021eko urtarrilean eguneratze automatiko baten bidez eskuragarri.
+Gai honek Project Service Automation V3 bertsio berrirako edo aldatutako ezaugarriak eta konponketak zerrendatzen ditu 28 bertsioa eguneratzea. Bertsio honek V3.10.46.32 eraikuntza kopurua du eta, oro har, 2021eko urtarrilean eguneratze automatikoaren bidez eskuragarri dago.
 
 ## <a name="update-release-28"></a>28. eguneratze-bertsioa
 

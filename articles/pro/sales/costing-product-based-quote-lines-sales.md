@@ -1,6 +1,6 @@
 ---
 title: Produktuetan oinarritutako eskaintzaren lerroen kostuak kudeatzea
-description: Artikulu honetan, produktuetan oinarritutako kotizazio-lerro bati kostu-prezio bat nola aplikatu behar den ematen da.
+description: Gai honek kostuaren prezioa produktuetan oinarritutako eskaintzaren lerroari aplikatzeari buruzko lerroei buruzko informazioa ematen du.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

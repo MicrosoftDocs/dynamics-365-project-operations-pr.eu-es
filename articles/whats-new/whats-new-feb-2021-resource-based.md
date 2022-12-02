@@ -1,6 +1,6 @@
 ---
 title: 2021eko otsaileko berrikuntzak - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-description: Artikulu honek Project Operations-en 2021eko otsaileko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
+description: Gai honek informazioa eskaintzen du 2021eko otsailean Project Operations bertsioan eskuragarri dauden kalitate-eguneratzeei buruz, baliabideetan / stockean oinarritutako egoeretarako.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029600"
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
+Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
 - Project Operations Dataverse ingurunean 4.7.0.95
-- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.16 bertsioan 
+- Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.16 bertsioan 
 
 ## <a name="quality-updates"></a>Kalitatearen eguneratzeak
 
@@ -44,14 +44,14 @@ Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagai
 | **Denbora-sarrera** | 2129161 | Murrizketa estuagoak aplikatzen dira erabiltzaileek bidalitako edo onartutako denbora sarrera aldatu eta eguneratu ezin dutela ziurtatzeko. |
 | **Denbora-sarrera** | 2103572 | Proiektuak ez diren denbora-sarreren denbora onartzeak ez du proiektua onartzeko eginkizunik bilatu behar. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance-en 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Project Management and Accounting Dynamics 365 Finance-n 
 
-Dynamics 365 Finance proiektuen kudeaketari eta kontabilitateari buruzko informazio gehiago lortzeko, ikus [2021eko urtarrileko berritasunak - Baliabideetan edo hornituta ez dauden agertokietarako proiektuen eragiketak](whats-new-jan-2021-resource-based.md).
+Dynamics 365 Finance-ko proiektuen kudeaketari eta kontabilitateari buruzko informazio gehiago lortzeko, ikusi [2021eko urtarrileko berrikuntzak - Baliabideen/Stockik gabekoan oinarritutako eszenatokietarako Project Operations](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Araudiaren eguneratzeak
 
-Finantza eta eragiketa aplikazioetarako arauzko eguneratzeei buruzko informazio gehiago lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). Araudi-eguneratzeak ezagutzeko beste modu bat Lifecycle Services (LCS) saioa hastea da eta aurreikusitako erregulazio-eguneratzeak ikustea arazoa bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
+Eguneratze arautzaileei buruzko informazioa lortzeko finantzen eta eragiketen aplikazioak, ikusi [Araudiaren eguneratzeak](/dynamics365/finance/localizations/regulatory-updates). Araudi-eguneratzeak ezagutzeko beste modu bat Lifecycle Services (LCS) saioa hastea da eta aurreikusitako erregulazio-eguneratzeak ikustea arazoa bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

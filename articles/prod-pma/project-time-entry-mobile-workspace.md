@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren denbora sartzeko mugikorreko lan eremua
-description: Artikulu honek Project time sarrera mugikorreko lan-eremuari buruzko informazioa eskaintzen du. Laneko espazio honi esker, erabiltzaileek proiektu baten aurka sartu eta denbora aurrez dezakete beren gailu mugikorra erabiliz.
+description: Gai hori emateko informazioa buruz Proiektuaren denbora-sarreran mugikorreko laneko area. Laneko espazio honi esker, erabiltzaileek proiektu baten aurka sartu eta denbora aurrez dezakete beren gailu mugikorra erabiliz.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "9029653"
 
 [!include [banner](../includes/banner.md)]
 
-Artikulu honek honi buruzko informazioa eskaintzen du **Proiektuaren denbora sarrera** laneko gune mugikorra. Laneko espazio honi esker, erabiltzaileek proiektu baten aurka sartu eta denbora aurrez dezakete beren gailu mugikorra erabiliz.
+Gai hori emateko informazioa buruz **Proiektuaren denbora-sarreran** mugikorreko laneko area. Laneko espazio honi esker, erabiltzaileek proiektu baten aurka sartu eta denbora aurrez dezakete beren gailu mugikorra erabiliz.
 
 Mugikorretarako lan-espazio hau Dynamics 365 Unified Ops mugikorretarako aplikazioarekin erabiltzeko pentsatuta dago. 
 
@@ -44,7 +44,7 @@ Zehazki, **Proiektuaren denbora sarrera** mugikorreko laneko eremuan, erabiltzai
 ## <a name="prerequisites"></a>Aurrebaldintzak
 Aurrebaldintzak desberdinak dira, bertsioaren arabera Microsoft Dynamics 365 zure erakundean inplementatu dena.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Dynamics 365 Finance erabiltzen baduzu aurrebaldintzak
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Aurrebaldintzak Dynamics 365 Finance erabiltzen baduzu
 Finantzak zure erakundean hedatu badira, sistemaren administratzaileak argitaratu beharko du **Proiektuaren denbora sarrera** mugikorreko lan eremua. Argibideak lortzeko, ikusi [Argitaratu mugikorreko lan eremua](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Aurrebaldintzak 1611 bertsioa Plataformako 3. eguneratzearekin edo berriagoarekin erabiltzen baduzu
@@ -82,7 +82,7 @@ Plataformaren 3. eguneratzearekin edo berriagoarekin 1611 bertsioa zure erakunde
 
 ## <a name="download-and-install-the-mobile-app"></a>Deskargatu eta instalatu mugikorreko aplikazioa
 
-Deskargatu eta instalatu finantza eta eragiketa mugikorreko aplikazioa:
+Deskargatu eta instalatu finantzen eta eragiketen mugikorretarako aplikazioa:
 
 -   [Hurrengorako Android telefonoak](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [iPhone-tarako](https://go.microsoft.com/fwlink/?linkid=850663)

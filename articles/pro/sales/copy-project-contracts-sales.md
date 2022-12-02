@@ -1,6 +1,6 @@
 ---
 title: Kopiatu proiektu-kontratuak
-description: Artikulu honek proiektu-kontratuak kopiatzeari buruzko informazioa eskaintzen du Project Operations-en.
+description: Gai honek proiektu-kontratuak kopiatzeari buruzko informazioa eskaintzen du Project Operations-en.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
