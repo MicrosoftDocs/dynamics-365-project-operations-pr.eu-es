@@ -1,6 +1,6 @@
 ---
 title: Erabiltzailearen interfazean nabigatzea
-description: Artikulu honetan Dynamics 365 Project-en eragiketetako proiektuen administrazioari buruzko informazioa ematen da.
+description: Gai honek Proiektu-kudeaketa buruzko informazioa eskaintzen du Dynamics 365 Project Operations-en.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

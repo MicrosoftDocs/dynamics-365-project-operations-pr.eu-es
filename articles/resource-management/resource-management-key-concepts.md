@@ -1,6 +1,6 @@
 ---
 title: Baliabideak kudeatzeko funtsezko kontzeptuak
-description: Artikulu honek baliabideak kudeatzeko gaitasunei buruzko informazioa eskaintzen du Microsoft Dynamics Proiektuaren Eragiketak.
+description: Gai honek baliabide-kudeaketaren gaitasunei buruzko informazioa eskaintzen du Microsoft Dynamics Project Operations-en.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

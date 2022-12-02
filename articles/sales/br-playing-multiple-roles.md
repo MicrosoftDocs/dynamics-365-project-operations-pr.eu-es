@@ -1,6 +1,6 @@
 ---
 title: Kalkulatu proiektuaren salmentak eta kostuak, erreserbatu daitekeen baliabide batek proiektu bateko eginkizun ugari betetzen dituenean
-description: Artikulu honetan azaltzen da nola erabili prezioen eta kostuen estimazioak onartzeko proiektu batean hainbat rol betetzen dituen baliabide baterako.
+description: Gai honetan azaltzen da nola erabili prezioen dimentsioak proiektu bateko eginkizun ugari betetzen dituen baliabide baten prezioei eta kostuei buruzko estimazioak onartzeko.
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article

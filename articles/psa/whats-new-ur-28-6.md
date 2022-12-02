@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 28.6 konponketa, V3 bertsioko berrikuntzak edo aldaketak
-description: Artikulu honek Project Service Automation Update Release 28.6 Hotfix, V3-n eskuragarri dauden funtzioak eta konponketak zerrendatzen ditu.
+description: Gai honek Project Service Automation 28.6 konponketa, V3 eguneratzea bertsioan berrian eskuragarri dauden eginbideak eta konponketak ditu.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/22/2021
@@ -27,7 +27,7 @@ ms.locfileid: "8925105"
 
 Atseginez iragartzen dizuegu Dynamics 365 aplikaziorako Project Service Automation aplikazioaren azken eguneratzea. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Argitalpen hau bateragarria da Dynamics 365 9.x bertsioarekin. Argitalpen honetara eguneratzeko, bisitatu Dynamics 365 (online) aplikazioaren administrazio-zentroko soluzioen orrira eguneratzea instalatzeko. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Artikulu honek Project Service Automation V3, Update Release 28.6 bertsiorako berriak edo aldatu diren ezaugarriak eta konponketak zerrendatzen ditu. Bertsio honek V3.10.46.147 konpilazio-zenbakia du eta, oro har, 2021eko urtarrilean jarriko da erabilgarri automatikoki eguneratzeko moduan.
+Gai honek Project Service Automation V3, 28.6. eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.46.147 konpilazio-zenbakia du eta, oro har, 2021eko urtarrilean jarriko da erabilgarri automatikoki eguneratzeko moduan.
 
 ## <a name="update-release-286"></a>28.6. eguneratze-bertsioa
 

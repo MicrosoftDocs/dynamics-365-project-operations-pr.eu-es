@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren fase motak
-description: Artikulu honek proiektuaren faseei buruzko informazioa eskaintzen du.
+description: Gai honek proiektuaren faseei buruzko informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

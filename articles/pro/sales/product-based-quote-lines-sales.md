@@ -1,6 +1,6 @@
 ---
 title: Produktuetan oinarritutako eskaintzaren lerroen ikuspegi orokorra - arina
-description: Artikulu honek produktuetan oinarritutako aurrekontu-lerroekin lan egiteari buruzko informazioa eskaintzen du.
+description: Gai honek produktuan oinarritutako eskaintzaren lerroekin lan egiteari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Baliabide-eskaera bat bidaltzen
-description: Artikulu honetan, proiektu-errekurtso baten eskaera bat nola bidali behar den ematen da.
+description: Gai honek proiektuko baliabideen eskaera bidaltzeari buruzko informazioa ematen du.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018

@@ -1,6 +1,6 @@
 ---
 title: Erabili baliabide erreserbagarriak prezio-dimentsio gisa
-description: Artikulu honek erreserba daitezkeen baliabideak prezioen dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
+description: Gai honek baliabide erreserbagarriak prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "8914801"
 
  _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_ 
 
-Artikulu honek erreserba daitezkeen baliabideak prezioen dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du. Zure prezio estrategia erreserbatzeko baliabide bakoitzak prezio edo kostu tasa jakin bat izan dezan konfiguratuta badago, erabili erreserbagarri den baliabide bat prezioen dimentsio gisa.
+Gai honek baliabide erreserbagarriak prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du. Zure prezio estrategia erreserbatzeko baliabide bakoitzak prezio edo kostu tasa jakin bat izan dezan konfiguratuta badago, erabili erreserbagarri den baliabide bat prezioen dimentsio gisa.
 
 ## <a name="prerequisites"></a>Aurrebaldintzak
-Artikulu honetako prozedurak osatu aurretik, prezioen dimentsioko irtenbide berri bat izan behar duzu zure erakundearentzat. Oraindik sortu ez baduzu, ikusi [Sortu eremu eta entitate pertsonalizatuak](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Gai honetako prozedurak amaitu aurretik, prezioen dimentsio irtenbide berri bat izan behar duzu zure erakundearentzat. Oraindik sortu ez baduzu, ikusi [Sortu eremu eta entitate pertsonalizatuak](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Gehitu Baliabide erreserbagarria eremua inprimakietan eta ikuspegietan
 **Baliabide erreserbagarria** eremua prezioen dimentsioaren irtenbidean ikusgai egiteko, eremua entitate gisa forma eta ikuspegi guztietara gehitu behar duzu.

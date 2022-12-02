@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu eta erabili ordaindu ordaintzean saltzailearen ordainketak
-description: Artikulu honetan azaltzen da nola sortu ordainketa-baldintzak(PWP) ordaintzen denean, hornitzaileen ordainketa partzialak askatu ahal izateko, bezeroen ordainketen arabera.
+description: Gai honetan ordaindutakoan (PWP) baldintzak nola sortu azaltzen da, saltzaileen ordainketa partzialak askatu ahal izateko, bezeroen ordainketetan oinarrituta.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article

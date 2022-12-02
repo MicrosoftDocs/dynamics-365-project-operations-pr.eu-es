@@ -1,6 +1,6 @@
 ---
 title: Gastuen txostenak eta hainbat onartzaile
-description: Artikulu honek pertsona batek baino gehiagok onartzea eskatzen duten gastu-txostenei buruzko informazioa eskaintzen du.
+description: Gai honetan pertsona batek baino gehiagok onartzea eskatzen duten gastuen txostenen inguruko informazioa ematen da.
 author: suvaidya
 ms.date: 09/23/2020
 ms.topic: article

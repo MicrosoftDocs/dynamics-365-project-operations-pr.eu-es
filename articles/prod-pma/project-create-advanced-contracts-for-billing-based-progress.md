@@ -1,6 +1,6 @@
 ---
 title: Sortu fakturazioaren araberako aurrerapenerako kontratu aurreratuak
-description: Artikulu honek proiektu-kontratuak nola sortu azaltzen du, bezeroentzako fakturak sortu ahal izateko, egindako lanaren ehuneko batean oinarrituta.
+description: Gai honetan proiektuen kontratuak nola sortu azaltzen da, bezeroentzako fakturak sortu ahal izateko, egindako lanaren ehunekoan oinarrituta.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -25,9 +25,9 @@ ms.locfileid: "8913651"
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Sortu fakturazioaren araberako aurrerapenerako kontratu aurreratuak
 [!include [banner](../includes/banner.md)]
 
-Artikulu honek proiektu-kontratuak nola sortu azaltzen du, bezeroentzako fakturak sortu ahal izateko, egindako lanaren ehuneko batean oinarrituta. Fakturen zenbatekoak automatikoki kalkulatzen dira proiektu baterako konfiguratutako aurrekontu lanen kategorietarako. Fakturaren denbora ezartzen da bezeroarekin proiektuaren kontratua negoziatzen duzunean.
+Gai honetan proiektuen kontratuak nola sortu azaltzen da, bezeroentzako fakturak sortu ahal izateko, egindako lanaren ehunekoan oinarrituta. Fakturen zenbatekoak automatikoki kalkulatzen dira proiektu baterako konfiguratutako aurrekontu lanen kategorietarako. Fakturaren denbora ezartzen da bezeroarekin proiektuaren kontratua negoziatzen duzunean.
 
-Erabili artikulu honetako prozedurak kontratu bat, lotutako proiektu bat eta fakturazio-kopuruak kalkulatzen dituzten fakturazio-arauak konfiguratzeko, proiekturako konfiguratu dituzun lan-kategorietarako.
+Erabili gai honetako prozedurak kontratua, lotutako proiektu bat eta proiektuarentzako konfiguratu dituzun aurrekontuen lan-kategorien fakturen zenbatekoak kalkulatzen dituzten fakturazio-arauak ezartzeko.
 
 Kontratua eta proiektua sortu ondoren, proiektuaren xehetasunak konfigura ditzakezu. Adibidez, jarduerak definitu eta langileak proiektuan esleitu ditzakezu.
 

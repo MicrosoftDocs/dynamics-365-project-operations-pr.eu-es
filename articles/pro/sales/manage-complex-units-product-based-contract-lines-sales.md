@@ -1,6 +1,6 @@
 ---
 title: Kudeatu produktuetan oinarritutako kontratuaren lerroen unitate konplexuak - arina
-description: Artikulu honetan harpidetzan oinarritutako produktuen salmenta nola onartu behar den ematen da.
+description: Gai honek harpidetzan oinarritutako produktuen salmentari laguntzeko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article

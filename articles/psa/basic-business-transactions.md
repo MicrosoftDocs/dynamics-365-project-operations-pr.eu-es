@@ -1,6 +1,6 @@
 ---
 title: Negozio-transakzioak
-description: Artikulu honetan merkataritza-transakzioei buruzko informazioa ematen da.
+description: Gai honek negozio-transakzioei buruzko informazioa ematen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice

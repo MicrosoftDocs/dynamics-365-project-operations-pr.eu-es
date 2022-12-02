@@ -1,6 +1,6 @@
 ---
 title: Zehaztu gaitasunak eta trebetasunak
-description: Artikulu honetan, baliabideak kalifikatzeko gaitasun-ereduak nola konfiguratu behar den ematen da.
+description: Gai honek baliabideak baloratzeko trebetasun-ereduen konfigurazioari buruzko informazioa ematen du.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

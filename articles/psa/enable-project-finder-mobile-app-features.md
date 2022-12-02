@@ -48,11 +48,11 @@ Baliabideek Project Finder Mobile aplikazioa erabil dezakete telefonoetan [!INCL
   
 4. Ezarri **Baimendu baliabideek trebetasunak eguneratzea** aukera **Bai** gisa.  
   
-   ![Proiektu Zerbitzua&#95; ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Ezarpen orokorra da. Proiektu-kudeatzaileek banako proiektu bat proiektuaren **Proiektu-taldea** orrian ikusgai izango ote den ezar dezakete.  
   
-   ![Proiektu Zerbitzua&#95; ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>Posta elektroniko bidezko jakinarazpenak  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] aplikazioak baliabideak eskatzeko mezu elektronikoak bidaliko dizkie hartzaile hauei ordu hauetan:  

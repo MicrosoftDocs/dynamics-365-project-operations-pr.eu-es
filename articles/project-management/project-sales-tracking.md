@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren salmenten jarraipena
-description: Artikulu honek proiektu bateko lan-sarrerei dagokienez, proiektu-eragiketei buruzko informazioa ematen du.
+description: Gai honek Project Operations-en proiektu bateko lan-sarreren aurka nola aurreratzen duten jakiteko informazioa eskaintzen du.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article

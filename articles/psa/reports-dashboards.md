@@ -1,6 +1,6 @@
 ---
 title: Panelak
-description: Artikulu honek dokumentuan sartzen diren txostenen panelei buruzko informazioa eskaintzen du Dynamics 365 Project Service Automation.
+description: Gai honek Dynamics 365 Project Service Automation aplikazioko jakinarazpenen panelei buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

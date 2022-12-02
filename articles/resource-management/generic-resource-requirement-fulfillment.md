@@ -1,6 +1,6 @@
 ---
 title: Baliabide-eskakizun orokorrak betetzea
-description: Artikulu honek baliabideen eskakizun generiko baterako izendun baliabideak erreserbatzeari buruzko informazioa eskaintzen du.
+description: Gai honek baliabide generikoen eskakizunetarako izendatutako baliabideei buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

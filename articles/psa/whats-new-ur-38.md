@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 38, V3 bertsioko berrikuntzak edo aldaketak
-description: Artikulu honetan eskuragarri dauden funtzioak eta konponketak zerrendatzen dira Microsoft Dynamics 365 Project Service Automation Eguneratu 38. bertsioa, V3.
+description: Artikulu honetan eskuragarri dauden eginbideak eta konponketak zerrendatzen dira Microsoft Dynamics 365 Project Service Automation Eguneratu 38. bertsioa, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 12/06/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8915170"
 
 Pozik gaude egunkariaren azken eguneratzea iragarriz Microsoft Dynamics 365 Project Service Automation aplikazioa. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Dynamics 365 9.x-rekin bateragarria da. Bertsio hau eguneratzeko, bisitatu Admin Zentroa Dynamics 365 lineako soluzioen orria eta instalatu eguneratzea. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Artikulu honek Project Service Automation Update Release 38, V3rako berriak diren edo aldatu diren ezaugarriak eta konponketak zerrendatzen ditu. Bertsio honek V3.10.59.117 eraikitze-zenbakia du eta, oro har, eskuragarri dago 2021eko abenduan auto-eguneratze baten bidez.
+Artikulu honek Project Service Automation 38, V3 eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.59.117 konpilazio-zenbakia du eta, oro har, 2021eko abenduan jarriko da erabilgarri automatikoki eguneratzeko moduan.
 
 ## <a name="update-release-38"></a>38. eguneratze-bertsioa
 
@@ -41,19 +41,19 @@ Arazo hauek konpondu dira.
 
 - Salbuespen bat gertatzen da onarpen multzoen erregistroen luzera 100.000 erregistrotik gorakoa denean.
 - Erabiltzaileek ezin dute sartu **Denbora Sarrera** saretik **Denbora Sarrera** orrialde nagusia.
-- The **Denbora-sarrera inportatu** elkarrizketa-koadroak ez du testurik erakusten elementurik inportatzeko aukerarik ez dagoenean.
+- **Denbora-sarrera inportatu** elkarrizketa-koadroak ez du testurik erakusten elementurik inportatzeko aukerarik ez dagoenean.
 - Erabiltzaileek onarpen multzoak sor ditzakete non **Xede-egoera** eremuan ezarrita dago **Ezezaguna**.
 
 **Proiektuen kudeaketa**
 
-- Inguruak ez dira behar bezala erakusten UTC(+09:30) eta UTC(+10:00) baliabideen esleipenetan, udako ordutegia hasten denean.
-- The **Zutabe gehigarria** lan-matxura-egituren eremua toki batzuetan ezkutatuta dago.
+- Ingerada ez dira behar bezala erakusten UTC(+09:30) eta UTC(+10:00) baliabide-esleipenetan, udako ordutegia hasten denean.
+- **Zutabe gehigarria** lan-matxura-egituren eremua toki batzuetan ezkutatuta dago.
 - Egutegia kontrolatzeko data-hautatzailea **Proiektuaren zeregina** sareta ez dago behar bezala lokalizatu txinerarako.
 
 **Salmentak**
 
-- **Kontratua betetzea** eta **Proiektuaren Benetako Kostua** balioak ez datoz bat kontratazio-unitate eta moneta desberdinak dituzten baliabide erreserbagarriak denbora-sarrerak bidaltzen dituztenean.
+- **Kontratuaren betetzea** eta **Proiektuaren Benetako Kostua** balioak ez datoz bat kontratazio-unitate eta moneta desberdinak dituzten erreserba daitezkeen baliabideek denbora-sarrerak bidaltzen dituztenean.
 - Fakturak automatikoki berresteko lan-fluxu pertsonalizatuak huts egiten du fakturak kudeatutako soluzio gisa inportatzen direnean. Honako mezu hau erakusten da: "Microsoft.Xrm.Sdk.InvalidPluginExecutionException Mezua: fakturaren egoera baliogabea".
-- Noiz **Erroa** laburpen-aukera gisa hautatzen da, eta proiektuak transakzio-klaseen nahasketa bateko estimazioak ditu (adibidez, denbora, gastu eta estimazio materialen konbinazioa), sistemak transakzio-klaseen artean laburbiltzen du kuota-lerro bakar gisa.
-- Kontratu-lerroa proiektu bati lotu aurretik gastu-lerroa gehitzen den agertokietan, prezio zuzena ez da balio lehenetsi gisa sartzen.**Eguneratu prezioa** eremua.
+- Noiz **Erroa** laburpen-aukera gisa hautatzen da, eta proiektuak transakzio-klaseen nahasketa bateko estimazioak ditu (adibidez, denbora, gastu eta material-kalkuluen konbinazioa), sistemak transakzio-klase guztietan laburbiltzen du kuota-lerro bakar gisa.
+- Kontratu-lerroa proiektu bati lotu aurretik gastu-lerroa gehitzen den agertokietan, prezio zuzena ez da balio lehenetsi gisa sartzen **Eguneratu prezioa** eremua.
 - Salmenten kopuru negatiboak ezin dira aktibatu **Proiektua** eta **Zeregin** entitateak.

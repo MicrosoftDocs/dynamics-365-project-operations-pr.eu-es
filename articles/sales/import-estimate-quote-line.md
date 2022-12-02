@@ -1,6 +1,6 @@
 ---
 title: Inportatu proiektuaren aurreikuspenak proiektuetako eskaintzaren lerrora
-description: Artikulu honek proiektu batetik aurrekontu-lerro batera inportatzeari buruzko informazioa eskaintzen du.
+description: Gai honek proiektu batetik proiektuaren eskaintzaren lerro batera aurreikuspenak inportatzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

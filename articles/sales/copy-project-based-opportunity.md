@@ -1,6 +1,6 @@
 ---
 title: Kopiatu proiektuetan oinarritutako abaguneak
-description: Artikulu honek proiektuetan oinarritutako aukerak kopiatzeari buruzko informazioa eskaintzen du Project Operations-en.
+description: Gai honek proiektuetan oinarritutako abaguneak kopiatzeari buruzko informazioa eskaintzen du Project Operations-en.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

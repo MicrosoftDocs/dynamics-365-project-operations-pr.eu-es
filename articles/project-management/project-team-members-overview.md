@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren taldeko kideak
-description: Artikulu honek proiektuko taldekideen informazioarekin, atributuekin eta programazioarekin lan egiteari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuko taldekideen informazioa, atributuak eta programazioa lantzeko moduari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

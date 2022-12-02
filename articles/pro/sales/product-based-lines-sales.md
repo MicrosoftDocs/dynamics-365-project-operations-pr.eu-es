@@ -1,6 +1,6 @@
 ---
 title: Produktuetan oinarritutako abagunearen lerroak - arina
-description: Artikulu honek produktuetan oinarritutako aukera lerro-elementuei buruzko informazioa eskaintzen du Project Operations-en.
+description: Gai honek proiektuan oinarritutako abagunearen lerro-elementuei buruzko informazioa eskaintzen du Project Operations-en.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

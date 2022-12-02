@@ -1,6 +1,6 @@
 ---
 title: Ad hoc aurrerakin bat kontratu batean sortzea
-description: Artikulu honek behar den moduan kontratu baten aurrerapena sortzeari buruzko informazioa eskaintzen du.
+description: Gai honetan beharrezkoa da kontratuaren aurrerakina sortzeari buruzko informazioa.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

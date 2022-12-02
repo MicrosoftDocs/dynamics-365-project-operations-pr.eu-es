@@ -1,6 +1,6 @@
 ---
 title: Kalkulatu proiektuaren salmentak eta kostuak, erreserbatu daitekeen baliabide batek proiektu bateko eginkizun ugari betetzen dituenean
-description: Artikulu honetan, prezioen dimentsioak nola erabil daitezkeen ematen da, prezioak finkatzea eta proiektu batean hainbat rol betetzen dituen baliabide baten kostuak kalkulatzeko.
+description: Gai honetan prezioen dimentsioak proiektu bateko eginkizun ugari betetzen dituen baliabide baten prezioei eta kostuei buruzko estimazioak onartzeko nola erabil daitekeen azaltzen da.
 author: rumant
 ms.custom:
 - dyn365-projectservice

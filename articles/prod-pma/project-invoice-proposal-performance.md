@@ -1,6 +1,6 @@
 ---
 title: Proiektuko faktura-proposamenen errendimendua
-description: Artikulu honek proiektuen faktura-proposamenen errendimenduari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuaren faktura proposamenen errendimendu hobekuntzei buruzko informazioa eskaintzen du.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

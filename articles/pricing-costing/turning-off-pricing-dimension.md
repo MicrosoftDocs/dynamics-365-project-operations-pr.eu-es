@@ -1,6 +1,6 @@
 ---
 title: Prezio-dimentsioa desaktibatu
-description: Artikulu honetan prezioen dimentsioak desaktibatzeko moduari buruzko informazioa ematen da.
+description: Gai honek prezio-dimentsio pertsonalizatuak desaktibatzeko moduari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

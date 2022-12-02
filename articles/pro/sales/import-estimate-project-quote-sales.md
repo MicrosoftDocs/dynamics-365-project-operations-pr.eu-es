@@ -1,6 +1,6 @@
 ---
 title: Inportatu proiektuaren aurreikuspenak proiektuetan oinarritutako eskaintzaren lerrora - arina
-description: Artikulu honetan, proiektu baten zenbatespenak aurrekontu-lerro batera nola inportatu behar den ematen da.
+description: Gai honek proiektu batetik eskaintzaren lerro batera aurreikuspenak inportatzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

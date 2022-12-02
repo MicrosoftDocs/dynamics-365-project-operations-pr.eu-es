@@ -1,6 +1,6 @@
 ---
 title: Erreserben egoerak
-description: Artikulu honek esteka bat eskaintzen du Proiektuen Eragiketetarako erreserba-egoerak konfiguratzeari buruzko informaziorako.
+description: Gai honek Project Operations-en erreserba-egoera nola konfiguratu jakiteko esteka bat eskaintzen du.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

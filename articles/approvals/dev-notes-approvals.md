@@ -1,6 +1,6 @@
 ---
 title: Onespenetarako garatzaileen oharrak
-description: Artikulu honek garatzaileei buruzko informazio gehigarria eskaintzen du onarpenekin lan egiteari buruz.
+description: Gai honek garatzailearen informazio osagarriarekin lan egiteari buruzko informazioa eskaintzen du.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

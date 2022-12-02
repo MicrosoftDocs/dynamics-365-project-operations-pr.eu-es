@@ -1,6 +1,6 @@
 ---
 title: Sortu eremu eta entitate pertsonalizatuak prezio-dimentsio gisa
-description: Artikulu honetan, aukera-multzoak edo erakunde pertsonalizatuak sortzeko moduari buruzko informazioa ematen da.
+description: Gai honek aukera multzo pertsonalizatuak edo entitateak nola sortu jakiteko informazioa eskaintzen du.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

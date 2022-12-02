@@ -1,6 +1,6 @@
 ---
 title: Inportatu eta mantendu kreditu-txartelaren eragiketak
-description: Artikulu honek gastuekin lotutako kreditu-txartelen transakzioak nola inportatu eta mantentzen azaltzen du. Transakzio hauek konfiguratu daitezke, aldian-aldiko programazioan automatikoki inportatzeko edo eskuz inportatu ahal izateko beharrezkoak diren neurrian.
+description: Gai honetan gastuekin lotutako kreditu txartelaren eragiketak nola inportatu eta nola mantendu azaltzen da. Transakzio hauek konfiguratu daitezke, aldian-aldiko programazioan automatikoki inportatzeko edo eskuz inportatu ahal izateko beharrezkoak diren neurrian.
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article

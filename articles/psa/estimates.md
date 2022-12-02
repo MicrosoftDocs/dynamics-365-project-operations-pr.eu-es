@@ -1,6 +1,6 @@
 ---
 title: Aurreikuspenak
-description: Artikulu honek kalkuluen inguruko informazioa eskaintzen du Dynamics 365 Project Service Automation.
+description: Gai honek Dynamics 365 Project Service Automation-eko aurreikuspenei buruzko informazioa ematen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Bidaiatzeko eskakizunak
-description: Artikulu honetan bidaia-eskaerei buruzko informazioa ematen da.
+description: Gai honek bidaia-eskakizunei buruzko informazioa ematen du.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

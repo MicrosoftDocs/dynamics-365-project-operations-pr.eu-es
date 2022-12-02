@@ -1,6 +1,6 @@
 ---
 title: Erabili transakzioen kategoria prezio-dimentsio gisa
-description: Artikulu honetan transakzio-kategoria bat prezio-dimentsio gisa erabiltzeari buruzko informazioa ematen da.
+description: Gai honek transakzioen kategoria prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8915721"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Artikulu honetan, transakzio-kategoria bat prezioen dimentsio gisa nola erabili erakusten da. Hasi aurretik, prezio-dimentsioaren soluzioa sortu ez baduzu, bat sortu beharko duzu. Prezioen dimentsioko irtenbidea baduzu, orduan aldaketak egin ditzakezu soluzio horretan. Antolatzeko prezio-dimentsioko beste irtenbiderik sortu ez baduzu, osatu eremu eta erakunde pertsonalizatuak sortzeko [prozedurak](create-custom-fields-entities.md).
+Gai honek transakzioen kategoria prezio-dimentsio gisa erabiltzeko moduari buruzko informazioa eskaintzen du. Hasi aurretik, prezio-dimentsioaren soluzioa sortu ez baduzu, bat sortu beharko duzu. Prezioen dimentsioko irtenbidea baduzu, orduan aldaketak egin ditzakezu soluzio horretan. Zure erakunderako prezio-dimentsio soluzio berririk sortu ez baduzu, jarraitu [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities.md) gaian azaldutako prozedurei.
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Gehitu transakzioen kategoria inprimakietan eta ikuspegietan
 Trantsakzio-kategoria prezio-dimentsioaren soluzioko IU-an ikusgai jartzeko, entitatearen inprimaki eta ikuspegi guztiak ikusi beharko dituzu eta eremu horiek entitate horien inprimakietan eta ikuspegietan gehitu beharko dituzu.

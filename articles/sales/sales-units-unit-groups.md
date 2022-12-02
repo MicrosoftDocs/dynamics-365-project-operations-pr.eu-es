@@ -1,6 +1,6 @@
 ---
 title: Unitateak eta salmenta-unitateak
-description: Artikulu honek unitateak eta unitate-taldeak sortzeari buruzko informazioa eskaintzen du Dynamics 365 Project Operations.
+description: Gai honek Dynamics 365 Project Operations-en unitateak eta salmenta-taldeak nola sortu jakiteko informazioa eskaintzen du.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -28,7 +28,7 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 
 Unitateak produktuak edo zerbitzuak saltzen dituzun kantitateak edo neurketak dira. Adibidez, lorategirako hornigaiak saltzen badituzu, baliteke haziak paketetan, kaxetan eta paletetan saltzea. Salmenta-unitateko unitate beste horietako da.
 
-Artikulu honetako urratsak burutzeko, ziurtatu Sistema Administratzailea edo Salmenta Profesionalen Kudeatzailea rola esleitu zaizula edo baimen baliokideak dituzula.
+Gai honetako urratsak osatzeko, ziurtatu Sistema administratzailea edo salmenta aditu kudeatzailea esleitu zaizula edo baimen baliokideak dituzula.
 
 ## <a name="create-a-unit-group"></a>Salmenta-unitateak sortu
 

@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu proiektu fakturagarrien kontabilitatea
-description: Artikulu honek faktura daitezkeen proiektuen kontabilitate-aukerei buruzko informazioa eskaintzen du.
+description: Gai honek fakturagarriak diren proiektuen kontabilitate aukerei buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 04/05/2021
 ms.topic: article

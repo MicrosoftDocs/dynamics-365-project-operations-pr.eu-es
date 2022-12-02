@@ -1,6 +1,6 @@
 ---
 title: Editatu erreserbak
-description: Artikulu honek erreserben eguneratzeari eta aldaketak egiteko moduari buruzko informazioa ematen du.
+description: Gai honek erreserbetan eguneratu eta aldaketak egiteko moduari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8915215"
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 
-Lehendik dauden erreserbak eguneratzea eskatzen duten proiektuetan aldaketak gertatzen direnean, aldaketak egiteko hainbat modu daude. Artikulu honek erreserben eguneratzea eta aldaketak nola egin azaltzen ditu.
+Lehendik dauden erreserbak eguneratzea eskatzen duten proiektuetan aldaketak gertatzen direnean, aldaketak egiteko hainbat modu daude. Gai honek erreserbak nola eguneratu eta aldaketak nola egin azaltzen du.
 
 ## <a name="resource-reconciliation"></a>Baliabideen berdinkatzea
 

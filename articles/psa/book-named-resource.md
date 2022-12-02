@@ -1,6 +1,6 @@
 ---
 title: Erreserbatu izendatutako baliabideak baliabide-eskakizunetatik
-description: Artikulu honek baliabideen eskakizun generiko baterako izendun baliabideak erreserbatzeari buruzko informazioa eskaintzen du.
+description: Gai honek baliabide generikoen eskakizunetarako izendatutako baliabideei buruzko informazioa eskaintzen du.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

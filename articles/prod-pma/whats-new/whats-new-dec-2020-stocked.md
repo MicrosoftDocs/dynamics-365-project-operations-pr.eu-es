@@ -1,6 +1,6 @@
 ---
 title: 2020ko abenduko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
-description: Artikulu honek 2020ko abenduko Project Operations bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du hornituta/produkzioan oinarritutako eszenatokietarako.
+description: Gai honek informazioa eskaintzen du 2020ko abenduan Project Operations bertsioan eskuragarri dauden kalitate-eguneratzeei buruz, stockean eta ekoizpenean oinarritutako egoeretarako.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "8911351"
 
 _Honi aplikatzen zaio: Izakinetan edo ekoizpenean oinarritutako egoeretarako Project Operations_
 
-Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
+Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
-  - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.15 bertsioan
+  - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.15 bertsioan
 
 ## <a name="quality-updates"></a>Kalitatearen eguneratzeak
 
@@ -139,7 +139,7 @@ Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagai
 
 ## <a name="regulatory-updates"></a>Araudiaren eguneratzeak
 
-Dynamics 365 Finance-en arauzko eguneratzeei buruzko informazioa lortzeko, ikus [Araudiaren eguneraketak](/dynamics365/finance/localizations/regulatory-updates). Araudi-eguneratzeak ezagutzeko beste modu bat Lifecycle Services (LCS) saioa hastea da eta aurreikusitako erregulazio-eguneratzeak ikustea arazoa bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
+Eguneratze arautzaileei buruzko informazioa lortzeko Dynamics 365 Finance-rako, ikusi [Araudiaren eguneratzeak](/dynamics365/finance/localizations/regulatory-updates). Araudi-eguneratzeak ezagutzeko beste modu bat Lifecycle Services (LCS) saioa hastea da eta aurreikusitako erregulazio-eguneratzeak ikustea arazoa bilatzeko tresna erabiliz. Arazoen bilaketak herrialdearen, eginbide motaren eta askapenaren arabera bilatzeko aukera ematen du.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

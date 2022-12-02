@@ -26,7 +26,7 @@ ms.locfileid: "8684949"
 
 [!include [banner](../includes/banner.md)]
 
-Proiektuen egutegia planifikatzea eta mantentzea konplexua izan daiteke, beraz, proiektuen kudeatzaileek zeregin hori kudeatzen lagunduko dieten tresnak erabili behar dituzte. Microsoft Project Client-ekin integratzeak proiektuaren lanen banakako egitura irekitzeko eta kudeatzeko laguntza eskaintzen du. Proiektu-kudeatzaileak edozein aldaketa argitaratu dezake Dynamics 365 Finance proiektuko lanaren deskonbinazio egituran.
+Proiektuen egutegia planifikatzea eta mantentzea konplexua izan daiteke, beraz, proiektuen kudeatzaileek zeregin hori kudeatzen lagunduko dieten tresnak erabili behar dituzte. Microsoft Project Client-ekin integratzeak proiektuaren lanen banakako egitura irekitzeko eta kudeatzeko laguntza eskaintzen du. Proiektuaren kudeatzaileak edozein aldaketa argitaratu ahal izango ditu Dynamics 365 Finance proiektuaren zereginen xehetasunen egitura.
 
 > [!NOTE]
 > Uztaileko eguneratzea erabiltzen baduzu (10.0.4 bertsioa), KB 4054797 eta 4055884 instalatu behar dituzu.
@@ -39,7 +39,7 @@ Microsoft Project Client-ekin bateratzea ahalbidetzeko, a Microsoft Dynamics 365
 •   Egin klik **Ireki**, egin klik **Exekutatu** galdetutakoan.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Ireki eta editatu lehendik dagoen proiektuaren zirriborroen egitura Microsoft Project Client-en
-Dynamics 365 Finance-eko proiektu batek dagoeneko lanaren banaketa-egitura sortua badu, lan-banaketa-egitura ireki daiteke Microsoft Project Client aplikazioan, lan-banaketa-egitura zirriborro-egoeran badago. Irekitzeko **Proiektua** orrialdean, egin klik **Ireki Microsoft Project-en** estekatik **Plana** fitxa. Orri hau Microsoft Project Client aplikazioaren barruan ere ireki daiteke klik eginez **Irekia** urtean **Microsoft Dynamics 365** fitxa. Aukeratu **Pertsona juridikoa** eta **Proiektua** zerrendatik.
+Proiektu bat bada Dynamics 365 Finance dagoeneko zereginen xehetasunen egitura sortu da, zereginen xehetasunen egitura Microsoft Project Client aplikazioan ireki ahal izango da lan banakako egitura zirriborro egoeran badago. Irekitzeko **Proiektua** orrialdean, egin klik **Ireki Microsoft Project-en** estekatik **Plana** fitxa. Orri hau Microsoft Project Client aplikazioaren barruan ere ireki daiteke klik eginez **Irekia** urtean **Microsoft Dynamics 365** fitxa. Aukeratu **Pertsona juridikoa** eta **Proiektua** zerrendatik.
 
 > [!NOTE]
 > Erabiltzen ari bazara Internet Explorer zure arakatzaile gisa, klik egin beharko duzu **Gorde** fitxategia deskargatu den kokapenetik eskuz irekitzeko. Edo, egin klik **Gorde eta ireki** fitxategia Microsoft Project Client-en irekitzeko. Ez aldatu izena gordetzean fitxategiaren izena.

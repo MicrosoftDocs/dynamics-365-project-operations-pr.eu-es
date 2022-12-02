@@ -1,6 +1,6 @@
 ---
 title: Fakturazio-prozesuaren informazio orokorra
-description: Artikulu honetan, biltegiratutako baliabideetan oinarritutako agertokietarako proiektu-eragiketen fakturazio-prozesuari buruzko informazio orokorra ematen da.
+description: Gai honek Project Operations-en eragiketetan fakturazioari buruzko ikuspegi orokorra eskaintzen du baliabideetan/stockean oinarritutako egoeren Project Operations-en.
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
@@ -21,7 +21,7 @@ Baliabideen/Stockean oinarritutako egoeretarako Project Operations-ek gaitasun i
 
 ![Fakturazio-fluxuen diagrama.](./media/invoicing-flow.png)
 
-Proiektuaren kontratu lerroak lotutako proiektuen transakzioen fakturazio metodoa definitzen du. Proiektu-kudeatzaileak denbora- eta gastu-transakzioak onartzen dituenean, sistemak transakzioak erregistratzen **ditu Project Actuals** erakundean, eta informazioa Dynamics 365 Finance-ko proiektuaren **kudeaketa- eta kontabilitate-modulura** bidaltzen du. Proiektuaren kontulariak gero fitxategiak berrikusi eta argitaratzen ditu [Project Operations-en integrazio-aldizkaria](../project-accounting/project-operations-integration-journal.md). Aldizkari honek proiektuaren datuen kontabilitate-datu garrantzitsuak biltzen ditu, hala nola fakturazioa, salmenten gaineko zerga taldea, fakturazio elementuen salmenten gaineko zerga taldea eta finantza dimentsioak.
+Proiektuaren kontratu lerroak lotutako proiektuen transakzioen fakturazio metodoa definitzen du. Proiektu kudeatzaileak denbora eta gastuen transakzioak onartzen dituenean, sistemak transakzioak erregistratzen ditu **Proiektuaren benetako datuak** entitateari eta informazioa helbidera bidaltzen du **Proiektuen kudeaketa eta kontabilitatea** moduluan Dynamics 365 Finance-en. Proiektuaren kontulariak gero fitxategiak berrikusi eta argitaratzen ditu [Project Operations-en integrazio-aldizkaria](../project-accounting/project-operations-integration-journal.md). Aldizkari honek proiektuaren datuen kontabilitate-datu garrantzitsuak biltzen ditu, hala nola fakturazioa, salmenten gaineko zerga taldea, fakturazio elementuen salmenten gaineko zerga taldea eta finantza dimentsioak.
 
 Proiektuaren kudeatzaileak fakturatu gabeko salmenten transakzioak berrikusi ditzake denbora eta materialaren fakturazio metodoa erabiliz [Denboraren eta materialaren fakturazio-zorroa](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) eta prezio finkoan fakturatzea [Prezio finkoaren mugarriak](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones) aukeran. Ikuspegi horiei esker, hurrengo fakturazio-zikloan sartu behar diren transakzioak iragazi eta hautatu ditzakezu eta ondoren markatu **Fakturatzeko prest**.
 

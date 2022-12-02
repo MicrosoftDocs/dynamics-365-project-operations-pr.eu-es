@@ -1,6 +1,6 @@
 ---
 title: Erabili antolaketa-panela proiektuaren baliabideak erreserbatzeko
-description: Artikulu honek baliabideak erreserbatzeari buruzko informazioa eskaintzen du.
+description: Gai honek baliabideak erreserbatzeko moduari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

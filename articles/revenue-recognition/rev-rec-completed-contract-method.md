@@ -1,6 +1,6 @@
 ---
 title: Kudeatu diru-sarreren kalkuluak
-description: Artikulu honetan, proiektuetarako diru-sarreren zenbatespenekin nola lan egin ematen da.
+description: Gai honek proiektuko diru-sarreren aurreikuspenekin lan egiteko moduari buruzko informazioa ematen du.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8928463"
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Diru sarreren kalkuluak sortu, kalkulatu, argitaratu, alderantzikatu edo ezabatu ditzakezu. Hori eskuz edo aldian aldiko prozesua erabiliz egin dezakezu. Artikulu honetan, proiektuetarako diru-sarreren zenbatespenekin nola lan egin ematen da.
+Diru sarreren kalkuluak sortu, kalkulatu, argitaratu, alderantzikatu edo ezabatu ditzakezu. Hori eskuz edo aldian aldiko prozesua erabiliz egin dezakezu. Gai honek proiektuko diru-sarreren aurreikuspenekin lan egiteko moduari buruzko informazioa ematen du.
 
 ### <a name="manage-revenue-estimates-manually"></a>Kudeatu diru-sarreren kalkuluak eskuz
 

@@ -1,6 +1,6 @@
 ---
 title: Baliabide-kudeatzailearen gida
-description: Artikulu honetan, Project Service Automation-eko baliabideen administrazioari buruzko informazioari buruzko loturak ematen dira.
+description: Gai honek Project Service Automation-en baliabideen kudeaketari buruzko informazioa lortzeko esteka eskaintzen du.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8910757"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Artikulu honetan lehenago zegoen PDF esteka kendu egin da eta edukia artikulu hauetara eraman da:
+Gai honetan aurretik zegoen PDF esteka kendu da eta edukia honako gai hauetara eraman da:
 
 - [Baliabideen kudeaketaren orri nagusia](../resource-management-home-page.md)
 - [Gako-kontzeptuak](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Artikulu honetan lehenago zegoen PDF esteka kendu egin da eta edukia artikulu ha
 - [Baliabide-kudeaketari buruz maiz egiten diren galderak](../resource-management-faq.md)
 
 > [!NOTE]
-> Artikulu hau etorkizuneko dokumentazio eguneratze batean kenduko da. 
+> Gai hau etorkizuneko dokumentazio-eguneratze batean kenduko da. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

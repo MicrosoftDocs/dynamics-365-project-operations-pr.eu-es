@@ -1,6 +1,6 @@
 ---
 title: Proiektuetan oinarritutako abagunearen lerroak - arina
-description: Artikulu honetan proiektuetan oinarritutako aukera-ildoei buruzko informazioa ematen da. (Pro)
+description: Gai honek proiektuan oinarritutako abagune-lerroei buruzko informazioa eskaintzen du. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

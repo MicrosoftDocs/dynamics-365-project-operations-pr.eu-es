@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu izakinik gabeko materialak eta ordaindu gabeko saltzaileen fakturak
-description: Artikulu honek hornituta ez dauden materialak eta saltzaileen zain dauden fakturak nola gaitu azaltzen du.
+description: Gai honetan hornitzen ez diren materialak eta zain dauden saltzaileen fakturak nola gaitu azaltzen da.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Exekutatu idazketa bikoitzeko mapak hornitu gabeko materialetarako eta saltzailearen fakturak integratzeko
 
-Atal honetan material ez hornituetarako eta saltzailearen fakturetarako beharrezkoak diren mapei buruzko informazioa ematen da. Egiaztatu dokumentuan zerrendatutako aurrebaldintza mapak [Ingurune berri bat hornitzea](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) artikulua zure ingurunean exekutatzen ari da.
+Atal honetan material ez hornituetarako eta saltzailearen fakturetarako beharrezkoak diren mapei buruzko informazioa ematen da. Egiaztatu zerrendan agertzen diren aurrebaldintza-mapak direla [Ingurune berria hornitzea](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) gaia zure ingurunean martxan dago.
 
 1. Joan Lifecycle Services (LCS) atalera, joan LCS proiektura eta joan **Ingurumenaren xehetasunak** orrialdea.
 2. **Common Data Service Ingurumenari buruzko informazioa** atalean, hautatu **Estekatu Aplikazioetarako CDS**. Esteka hautatu ondoren, mapen entitateen zerrendara birbideratuko zaituzte.

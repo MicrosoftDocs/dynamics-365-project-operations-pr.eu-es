@@ -1,6 +1,6 @@
 ---
 title: Sari Federalen kontsulten gastuen egutegia
-description: Artikulu honek Sari Federalen Kontsultaren Gastuen Egitarauari buruzko informazioa eskaintzen du.
+description: Gai honek Sari Federalen Gastuen Ordutegiari buruzko kontsultari buruzko informazioa eskaintzen du.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

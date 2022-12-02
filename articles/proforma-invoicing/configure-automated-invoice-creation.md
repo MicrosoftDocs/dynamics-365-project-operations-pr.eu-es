@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu fakturak automatikoak sortzeko aukera
-description: Artikulu honek sistema fakturak automatikoki sortzeko konfigurazioari buruzko informazioa eskaintzen du.
+description: Gai honetan sistemak fakturak automatikoki sortzeko konfiguratzeko moduari buruzko informazioa ematen du.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

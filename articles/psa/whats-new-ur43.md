@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 43, V3 bertsioko berrikuntzak edo aldaketak
-description: Artikulu honetan eskuragarri dauden funtzioak eta konponketak zerrendatzen dira Microsoft Dynamics 365 Project Service Automation Eguneratu 43. bertsioa, V3.
+description: Artikulu honetan eskuragarri dauden eginbideak eta konponketak zerrendatzen dira Microsoft Dynamics 365 Project Service Automation Eguneratu 43. bertsioa, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/04/2022
@@ -27,9 +27,9 @@ ms.locfileid: "8915291"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Pozik gaude egunkariaren azken eguneratzea iragarriz Microsoft Dynamics 365 Project Service Automation aplikazioa. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Dynamics 365 9.x-ekin bateragarria da. Bertsio hau eguneratzeko, bisitatu Admin Zentroa Dynamics 365 lineako soluzioen orria eta instalatu eguneratzea. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
+Pozik gaude egunkariaren azken eguneratzea iragarriz Microsoft Dynamics 365 Project Service Automation aplikazioa. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Dynamics 365 9.x-rekin bateragarria da. Bertsio hau eguneratzeko, bisitatu Admin Zentroa Dynamics 365 lineako soluzioen orria eta instalatu eguneratzea. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Artikulu honek Project Service Automation Update Release 43, V3rako berriak diren edo aldatu diren eginbide eta konponketak zerrendatzen ditu. Bertsio honek V3.10.74.200 eraikitze-zenbakia du eta, oro har, eskuragarri dago 2022ko maiatzean autoeguneratze baten bidez.
+Artikulu honek Project Service Automation 43, V3 eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honen konpilazio-zenbakia V3.10.74.200 da eta, oro har, 2022ko maiatzeko eguneratze automatikoaren baten bidez dago eskuragarri.
 
 ## <a name="update-release-43"></a>43. eguneratze-bertsioa
 

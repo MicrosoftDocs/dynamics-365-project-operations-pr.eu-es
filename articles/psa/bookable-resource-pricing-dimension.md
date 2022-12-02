@@ -1,6 +1,6 @@
 ---
 title: Erabili baliabide erreserbagarriak prezio-dimentsio gisa
-description: Artikulu honetan, baliabide erreserbagarri bat prezio-dimentsio gisa erabiltzeari buruzko informazioa ematen da.
+description: Gai honek baliabide erreserbagarriak prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8916089"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Artikulu honetan, baliabide erreserbagarri bat prezio-dimentsio gisa erabiltzeari buruzko informazioa ematen da. Hasi aurretik, prezio-dimentsioaren soluzioa sortu ez baduzu, bat sortu beharko duzu. Prezioen dimentsioko irtenbidea baduzu, orduan aldaketak egin ditzakezu soluzio horretan. Antolatzeko prezio-dimentsioko beste irtenbiderik sortu ez baduzu, osatu eremu eta erakunde pertsonalizatuak sortzeko [prozedurak](create-custom-fields-entities.md).
+Gai honek baliabide erreserbagarriak prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du. Hasi aurretik, prezio-dimentsioaren soluzioa sortu ez baduzu, bat sortu beharko duzu. Prezioen dimentsioko irtenbidea baduzu, orduan aldaketak egin ditzakezu soluzio horretan. Zure erakunderako prezio-dimentsio soluzio berririk sortu ez baduzu, jarraitu [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities.md) gaian azaldutako prozedurei.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Gehitu baliabide erreserbagarriak inprimakietan eta ikuspegietan
 Eremuak prezio-dimentsioaren soluzioko IU-an ikusgai jartzeko, entitatearen inprimaki eta ikuspegi guztiak ikusi beharko dituzu eta eremu horiek Project Service-eko entitate horien inprimakietan eta ikuspegietan gehitu beharko dituzu.

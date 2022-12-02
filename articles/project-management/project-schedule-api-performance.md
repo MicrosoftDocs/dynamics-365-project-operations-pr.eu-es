@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren antolaketa APIaren errendimendua
-description: Artikulu honek Proiektuaren egutegiko APIen errendimendu-erreferentziari buruzko informazioa eskaintzen du eta erabilera egokiena lortzeko praktika onenak identifikatzen ditu.
+description: Gai honek Proiektuaren egutegiko APIen errendimendu-erreferentziari buruzko informazioa eskaintzen du eta erabilera egokiena lortzeko praktika onenak identifikatzen ditu.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8911167"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egin, webgunerako proiektua_
 
-Artikulu honek Project schedule aplikazioen programazio-interfazeen (API) errendimendu-erreferentziari buruzko informazioa eskaintzen du eta erabilera optimizatzeko praktika onenak identifikatzen ditu.
+Gai honek Proiektuaren egutegiko aplikazioa programatzeko interfazeen (APIak) errendimendu-erreferentziari buruzko informazioa eskaintzen du eta erabilera optimizatzeko praktika onenak identifikatzen ditu.
 
 ## <a name="project-scheduling-service"></a>Proiektuen antolaketa-zerbitzua
 Proiektuen antolaketa-zerbitzua Microsoft Azure-n exekutatzen den maizter anitzeko zerbitzua da. Interakzioa hobetzeko diseinatuta dago, erabiltzaileek proiektuetan lan egiten dutenean esperientzia azkarra eta arina eskainiz. Hobekuntza hori aldaketa-eskaerak onartuz, prozesatu eta gero emaitza berehala itzuliz lortzen da. Zerbitzuak modu asinkronoan jarraitzen du Dataverse-n eta ez die erabiltzaileei beste eragiketa batzuk egitea eragozten.
 
-Proiektuaren egutegiko APIak Proiektuak Antolatzeko Zerbitzuan oinarritzen dira artikulu honen ondorengo ataletan xehetasun gehiagorekin deskribatzen diren eskaerak exekutatzeko.
+Proiektuak antolatzeko APIak Proiektuen Antolaketa-zerbitzuan oinarritzen dira gai honen ondorengo ataletan xehetasun gehiagorekin deskribatzen diren eskaerak exekutatzeko.
 
 Proiektuak antolatzeko APIak honako zereginen xehetasunen egituraren (WBS) entitate hauekin lan egiteko diseinatuta daude:
 

@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa
-description: Artikulu honek eremu pertsonalizatuak erabiliz prezioen dimentsioak konfiguratzeari buruzko informazioa eskaintzen du.
+description: Gai honek eremu pertsonalizatuak erabiliz prezio-dimentsioak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8917561"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Hasi baino lehen, artikulu honek artikuluetako prozedurak bete dituzula suposatzen du, [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities-pricing-dimensions.md) eta [Gehitu beharrezko eremu pertsonalizatuak prezioen konfigurazioan eta transakzio-entitateetan](add-custom-fields-price-setup-transactional-entities.md). Prozedura horiek bete ez badituzu, joan atzera eta osatu eta, ondoren, itzuli artikulu honetara. 
+Hasi aurretik, gai honek honako gai hauetan azaldutako prozedurak bete dituzula suposatzen du: [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities-pricing-dimensions.md) eta [Gehitu beharrezko eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan](add-custom-fields-price-setup-transactional-entities.md). Prozedura horiek bete ez badituzu, itzuli, bete itzazu eta, ondoren, itzuli gai honetara. 
 
-Artikulu honek prezio pertsonalizatuen dimentsioak konfiguratzeari buruzko informazioa eskaintzen du. **Parametroak** orrialdean, **Zenbatekoan oinarritutako prezio-dimentsioak** fitxan, prezio-dimentsioen entitateetako erregistroak erakusten dira. Berez, fitxa honetako saretan bi errenkada daude:
+Gai honek prezio-dimentsio pertsonalizatuak ezartzeko informazioa eskaintzen du. **Parametroak** orrialdean, **Zenbatekoan oinarritutako prezio-dimentsioak** fitxan, prezio-dimentsioen entitateetako erregistroak erakusten dira. Berez, fitxa honetako saretan bi errenkada daude:
 
 - **msdyn_resourcecategory** (Funtzioa)
 - **msdyn_OrganizationalUnit** (Erakundearen unitatea)

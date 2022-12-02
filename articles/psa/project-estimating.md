@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren kostuak eta diru-sarrerak
-description: Artikulu honetan proiektuaren kostuen eta diru-sarreren zenbatespenari buruzko informazioa ematen da.
+description: Gai honek proiektuaren kostuak eta dir-sarrerak aurreikusteari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

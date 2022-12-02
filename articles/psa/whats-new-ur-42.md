@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 42, V3 bertsioko berrikuntzak edo aldaketak
-description: Artikulu honetan, 42, V3 eguneratze bertsioan Microsoft Dynamics 365 Project Service Automation eskuragarri dauden ezaugarriak eta zuzenketak zerrendatzen dira.
+description: Artikulu honetan eskuragarri dauden eginbideak eta konponketak zerrendatzen dira Microsoft Dynamics 365 Project Service Automation Eguneratu 42. bertsioa, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/05/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8912700"
 
 Pozik gaude egunkariaren azken eguneratzea iragarriz Microsoft Dynamics 365 Project Service Automation aplikazioa. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Dynamics 365 9.x-rekin bateragarria da. Bertsio hau eguneratzeko, bisitatu Admin Zentroa Dynamics 365 lineako soluzioen orria eta instalatu eguneratzea. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Artikulu honetan, Project Service Automation Update Release 42, V3-rako berriak diren edo aldatu diren ezaugarriak eta zuzenketak zerrendatzen dira. Bertsio honek V3.10.73.61 bilduma-zenbakia du, eta 2022ko apirilean automatikoki eguneratuta.
+Artikulu honek Project Service Automation 42, V3 eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honen konpilazio-zenbakia V3.10.73.61 da eta, oro har, 2022ko apirileko eguneratze automatikoaren baten bidez dago eskuragarri.
 
 ## <a name="update-release-42"></a>42. eguneratze-bertsioa
 
@@ -39,10 +39,10 @@ Arazo hauek konpondu dira.
 
 **Denbora eta gastua**
 
-- Ordu-orri bat errefusatzen denean, uko egin zion erabiltzailea sistema gisa **identifikatzen da oker**.
-- Denbora-sarrerak inportatzen direnean, baliabide-kategoriaren balioa falta **da**.
-- Proiektuen gidaleratzaileek bidalitako proiektuak onar ditzakete, baldin eta baimenak ez badaude berariaz onartu **ahal**.
+- Ordu-orria baztertzen denean, baztertu duen erabiltzailea gaizki identifikatzen da **Sistema**.
+- Ordu-sarrerak inportatzen direnean, **Baliabideen Kategoria** balioa falta da.
+- Proiektu onartzaileek bidalitako proiektuak onar ditzakete beren baimenak berariaz ezarrita ez daudenean **Onartu dezake**.
 
 **Salmentak**
 
-- Datu errealak erro-mailakoak ez diren zereginetan erregistratzen direnean, benetako kostuak oker eransten dira.
+- Erro-mailakoak ez diren zereginetan benetakoak erregistratzen direnean, benetako kostuak gaizki batzen dira.

@@ -1,6 +1,6 @@
 ---
 title: Denbora-sarrerak luzatzea
-description: Artikulu honetan, garatzaileek denbora-sarreraren kontrola nola handitu dezaketen erakusten da.
+description: Artikulu honetan garatzaileek denbora sartzeko kontrola nola luzatu dezaketen buruzko informazioa ematen da.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
@@ -43,7 +43,7 @@ Denbora-sarrerak agertoki anitzetan erabilitako oinarrizko entitatea dira. 2020k
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Denbora-sarrerak eta denbora-iturburuaren entitatea
-Denbora-sarrera bakoitza denbora-iturburu erregistro batekin lotzen da. Erregistro horrek zehazten du zer aplikazio prozesatu behar diren denbora-sarreran eta nola.
+Denbora-sarrera bakoitza denbora-iturburu erregistro batekin lotzen da. Erregistro honek zehazten du nola eta zein aplikaziotan prozesatu behar duten denbora sarrera.
 
 Denbora-sarrerak hasierako, amaierako eta iraupenarekin lotuta dauden denbora-blokeak dira.
 
@@ -55,7 +55,7 @@ Logikak denbora sartzeko erregistroa automatikoki eguneratuko du egoera hauetan:
     - **msdyn_end**
     - **msdyn_duration**
 
-- **msdyn_start eta** msdyn_end **zelaiak** ordu-eremuaren jakitun dira.
+- **msdyn_start** eta **msdyn_end** eremuek ordu-eremua ezagutzen dute.
 - Denbora-sarrerak soilik sortutakoarekin **msdyn_date** eta **msdyn_duration** zehaztutako gauerdian hasiko da. **msdyn_start** eta **msdyn_end** eremuak eguneratu egingo dira.
 
 #### <a name="time-entry-types"></a>Denbora-sarrera motak
@@ -78,57 +78,57 @@ Garatzaileek eremu eta bilaketak gehi ditzakete beste entitate batzuetara eta ne
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Gehitu bilaketak dituzten eremu pertsonalizatuak beste entitateetan
 Asteko denbora-sarrera saretan eremu pertsonalizatua gehitzeko hiru urrats nagusi daude.
 
-1. Gaineratu eremu pertsonalizatua elkarrizketa-koadro **azkarrari**.
+1. Gehitu pertsonalizatutako eremua **sorrera bizkorreko** elkarrizketa-koadroan.
 2. Konfiguratu sareta pertsonalizatutako eremua erakusteko.
-3. Gaineratu eremu pertsonalizatua ordu-sarrerako edizio-orrira **·**, dagokionaren **arabera.**
+3. Gehitu eremu pertsonalizatua **errenkada editatu** edo **denbora-sarrera editatu** orrian, egoki den moduan.
 
-Ziurtatu eremu berriak beharrezko balidazioak dituela ordu-sarrerako edizio-orrian **·** **.** Lan horren parte gisa, zelaia blokeatu egiten du, denbora-sarreraren egoeraren arabera.
+Ziurtatu eremu berriak behar beharrezko balidazioak dituela **errenkada editatu** edo **denbora-sarrera editatu** orrian. Zeregin honen zati gisa, eremua blokeatu behar duzu, denbora-sarreraren egoeran oinarrituta.
 
-Denbora-sarrerako **laukiari** eremu pertsonalizatu bat gehitzen zaionean eta, ondoren, laukian zuzenean denbora-sarrerak sortzen direnean, sarrera horietarako eremu pertsonalizatua automatikoki ezartzen da ilararekin bat etor dadin. 
+Eremu pertsonalizatu bat gehitzen duzunean **Denbora sarrera** sareta eta, ondoren, denbora-sarrerak zuzenean sarean sortu, sarrera horien eremu pertsonalizatua automatikoki ezartzen da errenkadarekin bat etor dadin. 
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Elkarrizketa-koadroari eremu pertsonalizatua gehitzea
-Gaineratu eremu pertsonalizatua **elkarrizketa-koadroari: Denbora-sarrera** sortzea. Orduan, erabiltzaileek balio bat sar dezakete denbora hautatuz gehituz gero **Berria**.
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Gehitu pertsonalizatutako eremua sorrera bizkorreko elkarrizketa-koadroan
+Gehitu eremu pertsonalizatua **Sorrera azkarra: sortu denboraren-sarrera** elkarrizketa-koadroan. Orduan, erabiltzaileek balio bat sar dezakete denbora hautatuz gehituz gero **Berria**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfiguratu sareta pertsonalizatutako eremua erakusteko
-Astean zehar sartzeko laukiari **eremu pertsonalizatu** bat gehitzeko bi modu daude.
+**Asteko denbora-sarrera** saretan eremu pertsonalizatua gehitzeko bi modu daude.
 
-- Ikus ezazu **nire asteko denbora-sarrerak** eta eman eremu pertsonalizatua. Laukian eremu pertsonalizatuaren kokaera eta tamaina zehaztu ditzakezu, ikusmenaren propietateak argitaratuz.
-- Denbora pertsonalizatuaren beste bista bat sortzen du, eta aurrez zehaztutako ikusmena bezain establizkala. Ikustaldi honek kanpoko deskribapen **- eta** iruzkin-eremuak izan **behar ditu**, baita laukiak izatea nahi duen zutabeak ere. Laukiaren kokaera, tamaina eta ordena aurrez zehaztua zehaztu ditzakezu, ikusmenaren propietateak argitaratuz. Ondoren, konfiguratu ikuspegi horretarako kontrol pertsonalizatua **Denbora-sarreraren sareta** kontrola izan dadin. Gaineratu kontrol hori bistan eta hautatu Web, Telefono eta **Tabletarako**.**·** **·** Jarraian, konfiguratu asteko sarrera-laukirako **parametroak**. **Msdyn date-n** **\_ hasierako data** ezarri, msdyn **duration-en** **Duration\_ zelaia ezarri** eta msdyn **entrystatus-en** Status **\_ zelaia** ezarri. Irakurketa-zerrendaren eremua **192350002 (Onartua),** **192350003 (Bidalia) edo** 192350004 (Eskatutako erretiratzea) **ezartzen** da.**·**
+- Pertsonalizatu **Nire asteko denbora-sarrerak** ikuspegia pertsonaliza dezakezu eta gehitu eremu pertsonalizatua bertara. Saretako eremu pertsonalizatuaren posizioa eta tamaina zehaztu ditzakezu ikuspegian propietateak editatuz.
+- Sortu denbora-sarrera pertsonalizatuaren beste ikuspegi bat sortu eta ikuspegi lehenetsi gisa ezarri. Ikuspegi horrek **Deskribapena** eta **Kanpoko iruzkinak** eremuak eduki beharko lituzke, saretan eduki nahi dituzun zutabeez gain. Saretako posizioa, tamaina eta multzoaren hurrenkera lehenetsia zehaztu ditzakezu ikuspegian propietateak editatuz. Ondoren, konfiguratu ikuspegi horretarako kontrol pertsonalizatua **Denbora-sarreraren sareta** kontrola izan dadin. Gehitu kontrol hori ikuspegian, eta hautatu **Web**, **telefono**, eta **tableta**. Ondoren, konfiguratu **asteroko denbora-sarrerako** saretako parametroak. Ezarri **hasiera data** eremua **msdyn\_date** gisa, ezarri **Iraupena** eremua **msdyn\_duration** gisa eta ezarri **Egoera** eremua **msdyn\_entrystatus** gisa. **Irakurtzeko soilik egoera-zerrenda** eremua ezarrita dago **192350002 (onartua)**, **192350003 (Bidalketa)**, edo **192350004 (Berriz eskatutakoa)** gisa.
 
-### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Eremu pertsonalizatua edizio-orri egokira gehitzea
-Denbora-sarrera bat edo denbora-sarrera ilara bat editatzeko erabiltzen diren orriak formularioetan **aurki** daitezke. Editar sarrera **botoiak Editar sarrera** orrialdea **ireki** eta Editar fila **botoiak edizio** orrialdea ireki du **.** Orri hauek editatu ditzakezu, eremu pertsonalizatuak izan daitezen.
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Gehitu eremu pertsonalizatua editatzeko orri egokira
+Ordu-sarrera edo denbora-sarrera errenkada bat editatzeko erabiltzen diren orriak aurki daitezke **Inprimakiak** atalean. **Editatu sarrera** saretako botoiak irekitzen du **Editatu sarrera** orrialdea, eta **Editatu errenkada** botoiak irekitzen du **Errenkadak editatzea** orrialdea. Orrialde hauek edita ditzakezu, eremu pertsonalizatuak izan ditzaten.
 
-Project **eta** Project Task erakundeetan erabiltzeko prest dauden **iragazki batzuk kendu dituzte bi aukera horiek**, erakundeak bilatzeko ikuspegi guztiak ikusgai egon daitezen. Laukitik kanpo, bilaketa-ikuspegi garrantzitsuak bakarrik ikus daitezke.
+Bi aukerek integratutako iragazki batzuk kentzen dituzte **Proiektua** eta **Proiektuaren zeregina** entitateetan, entitateen bilaketa ikuspegi guztiak ikusgai egon daitezen. Laukitik kanpo, bilaketa-ikuspegi garrantzitsuak bakarrik ikus daitezke.
 
-Eremu pertsonalizaturako orrialde egokia zehaztu behar du. Litekeena da, zelaia laukian gehituz gero, denbora-sarrera osoari aplikatzen zaizkion zelaietarako erabiltzen den ilara-orrira **joan** beharko lukeela. Eremu pertsonalizatuak balio bakarra badu ilaran egunero (adibidez, amaiera-ordurako eremu pertsonalizatua bada), denbora-sarreraren edizio-orrira **joan** behar du.
+Eremu pertsonalizatuetarako orri egokia zehaztu behar duzu. Seguruenik, eremua saretan gehitzen baduzu, denbora-sarrerako errenkada osora aplikatzen diren eremuetarako erabiltzen den **editatu errenkada** orrian joan beharko litzateke. Eremu pertsonalizatuak egunero balio esklusiboa badu errenkadan (adibidez, eremu pertsonalizatua Amaiera ordua aukerarako), **denbora sarrera editatu** orrian sartu beharko litzateke.
 
-Eremu pertsonalizatua orri bati gehitzeko, eraman elementu **bat** orrialdearen posizio egokira eta, ondoren, bere propietateak ezarri.
+Eremu pertsonalizatua orri batean gehitzeko, arrastatu **Eremua** elementua orrialdeko kokapen egokian eta, ondoren, ezarri bere propietateak.
 
 ### <a name="add-new-option-set-values"></a>Gehitu beste aukera multzoen balio batzuk
-Erabiltzeko prest dauden zelai batera aukera-balioak gehitzeko, jarraitu pauso hauek.
+Aukera multzoaren balioak erabiltzeko prest dagoen eremua gehitzeko, jarraitu urrats hauek.
 
-1. Orria entzun Orria entzun **2019ko** **edizioaren orrialdea**.
-2. Gehitu etiketa pertsonalizatua eta kolorea dituena beste aukera bat. Ordu-sarrera berri bat gehitu nahi baduzu, erabiltzeko prest dagoen eremuari sarrera-estatua **deritzo**.
+1. Ireki eremuaren edizio orria eta, ondoren, **Mota** atalean, hautatu **Editatu** aukera aukera multzoaren ondoan.
+2. Gehitu etiketa pertsonalizatua eta kolorea dituena beste aukera bat. Denbora-sarreraren beste egoera bat gehitu nahi baduzu, integratutako eremuak **Sarreraren egoera** du izena.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Izendatu denbora-sarreraren egoera bat irakurtzeko soilik
-Denbora-sarreraren egoera berria irakurtzeko bakarrik izendatzeko, gehitu denbora-sarrerako balio berria **Irakurtzeko soilik egoera-zerrenda** propietateari. Ziurtatu zenbakia gehitu behar duzula, ez etiketa. Denbora sarrerako laukiaren zati editagarria blokeatuko da orain egoera berria duten lerroentzat. Denbora-sarrerako **bista desberdinetarako** irakurketa-egoeraren **zerrenda modu desberdinean ezartzeko**, gaineratu ordu-sarrerako **laukiari** ikustaldi baten kontrol pertsonalizatuak **atalean**, eta konfigura itztu parametroak, dagokionaren arabera.
+Denbora-sarreraren egoera berria irakurtzeko bakarrik izendatzeko, gehitu denbora-sarrerako balio berria **Irakurtzeko soilik egoera-zerrenda** propietateari. Ziurtatu zenbakia gehitzea, ez etiketa. Denbora-sarreraren saretaren zati editagarria blokeatuta egongo da egoera berria duten errenkadetarako. Ezartzeko **Irakurtzeko soilik egoera-zerrenda** jabetza ezberdina ezberdinentzat **Denbora Sarrera** ikuspegiak, gehitu **Denbora sarrera** sarea ikuspegi batean **Kontrol pertsonalizatuak** atalean, eta konfiguratu parametroak dagokion moduan.
 
-Jarraian, negozio arauak gaineratu, ordu-sarrerako **edizio** eta **ilarako** esparru guztiak blokeatzeko. Orri hauen negozio-arauak eskuratu ahal izateko, ireki orri bakoitzaren inprimaki-editorea eta, ondoren, negozio-arauak **aukeratzea**. Lehendik dauden negozioaren arauetan egoera gehitu dezakezu baldintzara, edo beste negozioaren arau bat gehitu dezakezu egoera berrian.
+Ondoren, gehitu negozioaren arauak eremu guztiak blokeatzeko **Errenkadaren edizioa** eta **Denbora-sarreraren edizioa** orrietan. Orrialde hauetako negozioaren arauak atzitu ditzakezu orrirako inprimaki-editorea irekiz eta, ondoren, **Negozioaren arauak** hautatuz. Lehendik dauden negozioaren arauetan egoera gehitu dezakezu baldintzara, edo beste negozioaren arau bat gehitu dezakezu egoera berrian.
 
 ### <a name="add-custom-validation-rules"></a>Gehitu balidazio-arau pertsonalizatuak
-Asteko sarrera-laukiaren **esperientziarako** bi balidazio-arau mota erans ditzakezu:
+**Asteko denbora sartzeko** sareta esperientzian gehitu ditzakezun bi balioztatze arau mota daude:
 
-- Bezeroaren aldeko negozio-arauak, orrietan funtzionatzen dutenak
-- Zerbitzariaren aldeko plug-in balidazioak, garai guztietako sarrera-eguneratzeei aplikatzen zaizkienak
+- Orrialdeetan funtzionatzen duten bezeroen alboko negozio-arauak
+- Zerbitzariaren aldeko pluginen balioztapenak, sarrera eguneratze guztiei aplikatzen zaizkienak
 
-#### <a name="client-side-business-rules"></a>Bezeroaren aldeko negozio-arauak
-Erabili negozioaren arauak eremuak blokeatzeko eta desblokeatzeko, eremuetan balio lehenetsiak sartzeko eta uneko sarrera erregistratik soilik informazioa eskatzen duten balidazioak definitzeko. Orri bateko negozio-arauak eskuratu ahal izateko, ireki inprimaki-editorea eta, ondoren, negozio-arauak **aukeratu**. Lehendik dauden negozioaren arauak editatu edo beste negozioaren arau batzuk gehitu ditzakezu.
+#### <a name="client-side-business-rules"></a>Bezeroaren aldetik negozio-arauak
+Erabili negozioaren arauak eremuak blokeatzeko eta desblokeatzeko, eremuetan balio lehenetsiak sartzeko eta uneko sarrera erregistratik soilik informazioa eskatzen duten balidazioak definitzeko. Orrialde hauetako negozioaren arauak atzitu ditzakezu orrirako inprimaki-editorea irekiz eta, ondoren, **Negozioaren arauak** hautatuz. Lehendik dauden negozioaren arauak editatu edo beste negozioaren arau batzuk gehitu ditzakezu.
 
-#### <a name="server-side-plug-in-validations"></a>Zerbitzariaren aldeko plug-in balidazioak
-Plug-in balidazioak erabili behar ditu denbora-sarrerako erregistro bakar batean eskuragarri dagoena baino testuinguru handiagoa behar duen edozein balidaziotazio egiteko. Laukian lineako eguneratzeetan egin nahi duen edozein balidaziotarako ere erabili behar ditu. Balidazioak osatzeko, Time Entry **erakundean osagarri pertsonalizatua sortzen du**.
+#### <a name="server-side-plug-in-validations"></a>Zerbitzariaren aldeko plugin-en baliozkotzeak
+Erabili plugin-en balidazioak denbora-sarrera erregistro bakarrean eskuragarri dagoen testuingurua baino gehiago behar duten balidazioetarako. Sareko lineako eguneraketetan exekutatu nahi dituzun baliozkotzeetarako ere erabili beharko zenuke. Balidazioak osatzeko, sortu plugin pertsonalizatua **Denbora-sarrera** erakundean.
 
 ### <a name="limits"></a>Mugak
-Gaur egun, **denbora sartzeko** laukiak 500 lerroko muga du. 500 lerro baino gehiago baldin badaude, ez dira soberan dauden lerroak erakutsiko. Ez tamaina-muga hori handitzeko modurik.
+Gaur egun, **Denbora sarrera** sareak 500 errenkadako tamaina-muga du. 500 errenkada baino gehiago badaude, gehiegizko errenkadak ez dira erakutsiko. Ez dago tamaina muga hori handitzeko modurik.
 
 ### <a name="copying-time-entries"></a>Denbora-sarrerak kopiatzea
 Erabili ikuspegia **Kopiatu denbora sartzeko zutabeak** denbora sartzean kopiatu beharreko eremuen zerrenda definitzeko. **Data** eta **Iraupena** derrigorrezko eremuak dira eta ez dira bistatik kendu behar.

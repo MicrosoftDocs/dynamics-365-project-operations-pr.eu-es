@@ -1,6 +1,6 @@
 ---
 title: Berretsi proformako proiektuaren faktura
-description: Artikulu honek proiektuaren proformako fakturak Project Operations-en baieztatzeari buruzko informazioa eskaintzen du.
+description: Gai honek Proforma proiektuaren fakturak berrestearen inguruko informazioa eskaintzen du Project Operations-en.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

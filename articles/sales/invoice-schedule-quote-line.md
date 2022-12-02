@@ -1,6 +1,6 @@
 ---
 title: Fakturazio-antolaketak proiektuetan oinarritutako eskaintza-lerroetan
-description: Artikulu honek aurrekontu-lerroetarako fakturen egutegiak eta mugarriak sortzeari buruzko informazioa eskaintzen du.
+description: Gai honek fakturen ordutegiak eta aurrekontu lerroen mugarriak sortzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

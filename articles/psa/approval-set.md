@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation-eko onarpen multzoak
-description: Artikulu honek onarpen multzoari, eskaerei eta eragiketa horien azpimultzoei buruzko informazioa eskaintzen du.
+description: Gai honek onarpen multzoari, eskaerei eta eragiketa horien azpimultzoei buruzko informazioa eskaintzen du.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021

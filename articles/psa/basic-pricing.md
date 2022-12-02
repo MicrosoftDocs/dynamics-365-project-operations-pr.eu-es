@@ -1,6 +1,6 @@
 ---
 title: Proiektu-prezioak.
-description: Artikulu honek prezioen funtzionamenduari buruzko informazioa eskaintzen du Dynamics 365 Project Service Automation.
+description: Gai honek Dynamics 365 Project Service Automation-en prezioek nola funtzionatzen dutenari buruzko informazioa eskaintzen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice

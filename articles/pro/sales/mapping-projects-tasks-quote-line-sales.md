@@ -1,6 +1,6 @@
 ---
 title: Esleitu proiektuak eta zereginak proiektuetan oinarritutako eskaintzaren lerro batean
-description: Artikulu honetan, proiektuetan oinarritutako zeregin-ildo bati proiektuak eta zereginak nola esleitu buruzko informazioa ematen da.
+description: Gai honek proiektuak eta zereginak proiektuetan oinarritutako ataza lerro batera mapatzeko moduari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article

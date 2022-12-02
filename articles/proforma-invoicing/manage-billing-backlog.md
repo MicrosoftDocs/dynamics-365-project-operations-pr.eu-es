@@ -1,6 +1,6 @@
 ---
 title: Kudeatu fakturazio atzeratua
-description: Artikulu honetan, proiektu-eragiketetako fakturazio-backlog-arekin nola ikusi eta lan egin erakusten da.
+description: Gai honek Project Operations-en fakturazio-zorroa ikusi eta nola lan egin jakiteko informazioa eskaintzen du.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

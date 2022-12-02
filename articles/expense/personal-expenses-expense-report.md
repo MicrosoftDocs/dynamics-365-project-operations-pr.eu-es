@@ -1,6 +1,6 @@
 ---
 title: Egin lan gastuen txosteneko gastu pertsonalekin
-description: Artikulu honek langileek negozio-helburuetarako bidaiatzen duten bitartean egiten dituzten gastu pertsonalekin lan egiteko informazioa eskaintzen du.
+description: Gai honetan langileek negozioetarako bidaiatzean langileek sortutako gastu pertsonalekin lan egiteko moduari buruzko informazioa ematen da.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article

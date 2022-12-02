@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu enpresen arteko fakturazioa
-description: Artikulu honek proiektuetarako enpresen arteko fakturazioa konfiguratzeari buruzko informazioa eta adibideak eskaintzen ditu.
+description: Gai honek enpresen arteko fakturazioa proiektuen inguruko informazioa eta adibideak eskaintzen ditu.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -25,7 +25,7 @@ Hurrengo adibidean, Contoso Robotics USA (USPM) da mailegu-entitatea eta Contoso
 
 1. **Konfiguratu enpresen arteko kontabilitatea pertsona juridikoen artean**. Mailegu- eta mailegu-entitate juridiko bikote bakoitza liburu nagusian konfiguratu behar da [Enpresen arteko kontabilitatea](/dynamics365/finance/general-ledger/intercompany-accounting-setup) orrialdea.
     
-    1. Dynamics 365 Finance atalean, joan hona **Liburu Nagusia** > **Argitalpenaren konfigurazioa** > **Enpresa arteko kontabilitatea**. Sortu erregistroa informazio honekin:
+    1. Dynamics 365 Finance-n, joan **Liburu nagusia** > **Mezuaren konfigurazioa** > **Enpresen arteko kontabilitatea** aukerara. Sortu erregistroa informazio honekin:
 
         - **Jatorrizko enpresa** = **GBPM**
         - **Helmuga-enpresa** = **USPM**

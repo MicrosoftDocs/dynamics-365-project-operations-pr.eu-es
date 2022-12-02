@@ -1,6 +1,6 @@
 ---
 title: Esleitu baliabide bat zeregin bati
-description: Artikulu honek zereginei baliabideak esleitzeari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuaren baliabideak zereginei esleitzeari buruzko informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

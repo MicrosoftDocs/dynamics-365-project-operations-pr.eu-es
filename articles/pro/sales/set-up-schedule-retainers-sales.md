@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu aurrerapenaren antolaketa
-description: Artikulu honek proiektuko eragiketetan atxikipen-egutegia konfiguratzeko informazioa eskaintzen du.
+description: Gai honek Project Operations-en atxikipen-egutegia nola konfiguratu jakiteko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu materialen gastuak eta salmenta-tasak
-description: Artikulu honek proiektuetan erabilitako materialen kostuak eta salmenta-tasak konfiguratzeari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuetan erabilitako materialen kostua eta salmenta tasak nola ezarri jakiteko informazioa eskaintzen du.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
@@ -25,7 +25,7 @@ Produktuen kostua eta salmenta tasak konfiguratzeko, jarraitu urrats hauek.
 2. **Prezioen zerrendako elementuak** aukeran, azpisarea menuan, hautatu **Prezio zerrendako elementu berria**. 
 3. **Sortu bizkor** orrian, sartu prezio berria sortzen ari zaren produktua eta unitatea.
 
-Katalogoko elementuen prezioak definitzeari buruzko informazio gehiago lortzeko, ikus [Definitu produktuen prezioak prezio-zerrendekin eta prezio-zerrendako elementuekin](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) eta [Zehaztasun hamartar moneta eta prezioetan](/dynamics365/sales/decimal-precision-currency-pricing).
+Katalogoko elementuen prezioak definitzeko moduari buruzko informazio gehiago lortzeko, ikusi [Produktuen prezioak konfiguratu prezio-zerrendak eta prezio-zerrenden elementuekin](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) eta [Zehaztasun hamartarra monetan eta prezioetan](/dynamics365/sales/decimal-precision-currency-pricing).
 > [!NOTE]
 > Dynamics 365 Project Operations ez ditu produktuen prezio-metodo guztiak onartzen Dynamics 365 Sales gisa. Proiektuetan erabiltzeko produktuak onartzen dituen prezioen metodo bakarra da *Dibisaren zenbatekoa*.
 

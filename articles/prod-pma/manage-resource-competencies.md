@@ -1,6 +1,6 @@
 ---
 title: Kudeatu baliabide-gaitasunak
-description: Artikulu honek proiektuko baliabideetarako gaitasunak konfiguratzeari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuko baliabideen gaitasunak konfiguratzeari buruzko informazioa ematen du.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Berrikusi proiektuen eta proiektuen kontratuen fakturazioaren lana
-description: Artikulu honek denbora, gastu eta produktuen atzerapenak berrikusi eta fakturatzeko prest gisa markatzeko moduari buruzko informazioa eskaintzen du.
+description: Gai honek denbora, gastua eta produktuen atzerapenak nola berrikusi eta fakturaziorako prest daudela markatzeko moduari buruzko informazioa eskaintzen du.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -28,7 +28,7 @@ ms.locfileid: "8928877"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Transakzioa faktura sortzeko eta prozesatzeko prest dagoenean, transakzioa **Fakturatzeko prest** gisa markatu beharko litzateke. Artikulu honek sor daitezkeen transakzio motak deskribatzen ditu.
+Transakzioa faktura sortzeko eta prozesatzeko prest dagoenean, transakzioa **Fakturatzeko prest** gisa markatu beharko litzateke. Gai honetan sortu daitezkeen transakzio motak deskribatzen dira.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Berrikusi denbora eta materialen fakturazioaren lana
 

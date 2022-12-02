@@ -1,6 +1,6 @@
 ---
 title: Projektuetan oinarritutako abagunearen lerroak
-description: Artikulu honek proiektuetan oinarritutako aukera-lerroekin lan egiteari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuan oinarritutako abagune-lerroekin lan egiteari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

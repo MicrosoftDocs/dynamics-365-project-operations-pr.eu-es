@@ -1,6 +1,6 @@
 ---
 title: Zehaztu baliabideen eskakizunak
-description: Artikulu honek baliabideen eskakizunen informazioa definitzeari buruzko informazioa eskaintzen du.
+description: Gai honek baliabide-eskakizunen informazioa definitzeari buruzko informazioa ematen du.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

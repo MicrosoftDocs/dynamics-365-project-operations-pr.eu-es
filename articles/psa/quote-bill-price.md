@@ -1,6 +1,6 @@
 ---
 title: Eskaintza, prezioak eta fakturazioaren orri nagusia
-description: Artikulu honek aurrekontuei, prezioei eta fakturazioari buruzko informazioa eskaintzen du.
+description: Gai honek eskaintzari, prezioei eta fakturazioari buruzko informazioa ematen du.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -33,7 +33,7 @@ ms.locfileid: "8926715"
 
 Eskaintza, prezioak eta fakturazioa erakunde txikiek eta handiek erabiltzen dituzten ezaugarriak dira. Ezaugarri horiek aplikazioan nola funtzionatzen duten ulertuz, erakundeek errazago konfigura ditzakete konfigurazioak.
 
-Hurrengo artikuluek PSAko aurrekontuei, prezioei eta fakturazio-funtzionalitateei buruzko informazio gehiago eskaintzen dute:
+Hurrengo gaietan PSA-n dauden eskaintzen, prezioen eta fakturazioaren funtzionaltasunari buruzko informazio gehiago eskaintzen da:
 
 - [Salmenta-prozesua](basic-sales-process.md)
 - [Eskaintzaren lerroak](basic-quote-lines.md)

@@ -1,6 +1,6 @@
 ---
 title: Erreserbak esleitzeko metodoak
-description: Artikulu honek erreserba-esleipen-metodoek Project Operations-en funtzionatzen dutenari buruzko informazioa eskaintzen du.
+description: Gai honek erreserbak esleitzeko metodoek Project Operations-en funtzionatzen duten moduari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8912685"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Gehitu taldeko kide zuzenean proiektua **Taldea** fitxan, edo antolaketa-panel batetik proiektua edo eskakizun baliabide erreserbatutako, gutxi beste erreserbatu guztirako baldintza kopuruak metodo daude erabil dezakezu. Artikulu honek metodo bakoitzak nola funtzionatzen duen azaltzen du, eta zein metodok gehiegizko erreserba baliabideak sor ditzaketen.
+Gehitu taldeko kide zuzenean proiektua **Taldea** fitxan, edo antolaketa-panel batetik proiektua edo eskakizun baliabide erreserbatutako, gutxi beste erreserbatu guztirako baldintza kopuruak metodo daude erabil dezakezu. Gai honen arrazoi metodo bakoitzean funtzionamendua eta metodoak zer overbooking baliabideak, sorraraz ditzaketela.
 
 ## <a name="booking-allocation-methods"></a>Erreserbak esleitzeko metodoak
 

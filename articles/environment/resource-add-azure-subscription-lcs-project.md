@@ -1,6 +1,6 @@
 ---
 title: Gehitu Azure harpidetza LCS proiektu batean
-description: Artikulu honek zure Azure harpidetza LCS proiektu batera konektatzeari buruzko informazioa eskaintzen du.
+description: Gai honek zure Azure harpidetza LCS proiektu batera konektatzeko moduari buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8912133"
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Hodeian ostatatutako inguruneak lehendik dagoen Azure harpidetza erabiliz inplementatu behar dira. Artikulu honek zure Azure harpidetza LCS proiektu batera nola konektatu azaltzen du. 
+Hodeian ostatatutako inguruneak lehendik dagoen Azure harpidetza erabiliz inplementatu behar dira. Gai honek zure lehendik duzun Azure harpidetza LCS proiektu batera konektatzeko moduari buruzko informazioa azaltzen du. 
 
 ## <a name="grant-admin-consent"></a>Eman administratzailearen baimena
 
@@ -59,13 +59,13 @@ Baimena amaitu da.
 2. Idatzi zure Azure harpidetzaren IDa. Zure Azure harpidetzaren IDa [Azure atarian](https://ms.portal.azure.com/), **Ezarpenak** pantailaren beheko ezkerrean.
 3. **Konfiguratu Azure Resource Manager erabiltzeko** eremuan, hautatu **Bai**.
 4. Ziurtatu Azure Harpidetzaren AAD maizter domeinua erabiltzen ari zaren domeinuaren jabe den Azure harpidetzarekin bat datorrela eta hautatu **Hurrengoa**.
-5. **Microsoft Azure Konfigurazioa** pantailan, hautatu **Hurrengoa** baieztatzeko. Pantaila honetan erroreren bat jasotzen baduzu, itzuli atalera [Eman Dynamics Deployment Services sarbidea Azure harpidetzarako](#provide) artikulu honetan eta ziurtatu urrats guztiak bete dituzula.
+5. **Microsoft Azure Konfigurazioa** pantailan, hautatu **Hurrengoa** baieztatzeko. Pantaila honetan errore bat jasotzen baduzu, itzuli [Eman Dynamics Deployment Services sarbidea Azure harpidetzarako](#provide) atalera gai honetan eta ziurtatu urrats guztiak bete dituzula.
 6. Deskargatu Azure kudeaketa ziurtagiria zure ordenagailuko karpeta lokal batera. Eskatu Azure harpidetzaren administratzaileari ziurtagiria Azure Management Portal-era kargatzeko harpidetza hautatuta eta **Ezarpenak** > **Kudeaketa ziurtagiriak** aukerara joanda. Ziurtagiri honi esker, LCS-k Azure-rekin zure izenean komunikatzeko aukera ematen du. Urrats hau salta dezakezu zure erabiltzaileak harpidetzarako sarbidea badu.
 7. Hautatu **Hurrengoa**.
 8. Aukeratu zabaltzeko Azure eskualdea eta hautatu sistema hau erabiltzeko asmoa duzun tokitik gertu dagoen datu zentroa.
 9.  Hautatu **Konektatu**.
 
-Azure harpidetza behar bezala konektatu duzu. Orain Dynamics 365 Finance hodeian ostatatutako inguruneak inplementa ditzakezu.
+Azure harpidetza behar bezala konektatu duzu. Orain zabaldu dezakezu Dynamics 365 Finance hodeian ostatatutako inguruneak.
 
 
 

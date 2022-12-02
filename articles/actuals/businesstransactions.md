@@ -1,6 +1,6 @@
 ---
 title: Enpresa-transakzioak Project Operations-en
-description: Artikulu honek Microsoft-en negozio-transakzioen kontzeptuaren ikuspegi orokorra eskaintzen du Dynamics 365 Project Operations.
+description: Artikulu honek negozio-transakzioen kontzeptuaren ikuspegi orokorra eskaintzen du Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -24,7 +24,7 @@ ms.locfileid: "8923265"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako Project Operations, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Microsoft-en Dynamics 365 Project Operations, *transakzioa* kontzeptu abstraktu bat da, edozein entitatek adierazten ez duena. Hala ere, zenbait entitateren eremu eta prozesu komun batzuk negozio-transakzioen kontzeptua erabiltzeko diseinatuta daude. Entitate hauek abstrakziorako erabiltzen dira:
+Microsoft Dynamics 365 Project Operations-en , *negozio-transakzioa* edozein entitatek ordezkatzen ez duen kontzeptu abstraktua da. Hala ere, zenbait entitateren eremu eta prozesu komun batzuk negozio-transakzioen kontzeptua erabiltzeko diseinatuta daude. Entitate hauek abstrakziorako erabiltzen dira:
 
 - Eskaintzaren lerroaren xehetasunak
 - Kontratuaren lerroaren xehetasunak
@@ -32,9 +32,9 @@ Microsoft-en Dynamics 365 Project Operations, *transakzioa* kontzeptu abstraktu 
 - Kutxako liburuaren lerroak
 - Benetakoak
 
-Entitate hauetatik, Aurrekontu lerroaren xehetasunak, Kontratuaren lerroaren xehetasunak eta Estimazioaren lerroak mapan daude *estimazio fasea* proiektuaren bizi-zikloan. Aldizkari-lerroak eta Errealak entitateak mapan daude *exekuzio fasea* proiektuaren bizi-zikloan.
+Entitate horien artean, Eskaintzaren lerroaren xehetasunak, Kontratuaren lerroaren xehetasunak eta *estimazio fasean* proiektuaren bizitza zikloan zenbatetsitako fasera sailkatzen dira. Kutxako liburuaren lerroak eta Benetako datuak proiektuaren *exekuzio-fasean* kokatzen dira.
 
-Project Operations-ek bost entitate horietako erregistroak negozio-transakzio gisa hartzen ditu. Bereizketa bakarra estimazio-fasean mapatzen diren entitateetako erregistroak (Kuota-lerroaren xehetasunak, Kontratu-lerroaren xehetasunak eta Estimazio-lerroak) kontuan hartzen dira.*finantza-aurreikuspenak*, berriz, exekuzio fasera mapatzen diren entitateetako erregistroak (Aldizkaria lerroak eta Errealak) kontuan hartzen dira.*finantza-gertaerak* dagoeneko gertatu direnak.
+Project Operations-ek bost entitate horietako erregistroak negozio-transakzio gisa hartzen ditu. Bereizketa bakarra zera da: zenbatespen fasera esleitutako entitateetako erregistroak *finantza-aurreikuspen* (eskaintza lerroaren xehetasunak, kontratu lerroaren xehetasunak eta aurreikuspen xehetasunak) gisa hartzen direla, eta, *exekuzio fasean* esleitzen diren entitateetako erregistroak dagoeneko gertatu diren gertaera ekonomikoak direla.
 
 Informazio gehiago lortzeko, ikusi [Aurreikuspenak](../project-management/estimating-projects-overview.md) eta [Benetako datuak](actuals-overview.md).
 
@@ -49,7 +49,7 @@ Kontzeptu hauek negozio-transakzioen kontzeptuarentzat bakarrak dira:
 
 ### <a name="transaction-type"></a>Transakzio mota
 
-Transakzio motak proiektu baten finantza-eraginaren denbora eta testuingurua adierazten ditu. Proiektuaren Eragiketetan onartzen diren balio hauek dituen aukera multzo batek definitzen du:
+Transakzio motak proiektu baten finantza-eraginaren denbora eta testuingurua adierazten ditu. Aukera multzo batek adierazten du, Project Operations-en onartutako balio hauek dituena:
 
 - Kostua
 - Proiektu-kontratua
@@ -60,7 +60,7 @@ Transakzio motak proiektu baten finantza-eraginaren denbora eta testuingurua adi
 
 ### <a name="transaction-class"></a>Transakzio-klasea
 
-Transakzio klaseak proiektuetan sortzen diren kostu mota ezberdinak adierazten ditu. Proiektuaren Eragiketetan onartzen diren balio hauek dituen aukera multzo batek definitzen du:
+Transakzio klaseak proiektuetan sortzen diren kostu mota ezberdinak adierazten ditu. Aukera multzo batek adierazten du, Project Operations-en onartutako balio hauek dituena:
 
 - Ordua
 - Gastua
@@ -70,16 +70,16 @@ Transakzio klaseak proiektuetan sortzen diren kostu mota ezberdinak adierazten d
 - Zergak
 
 > [!NOTE]
-> The **Mugarria** Balioa normalean negozio-logikak erabiltzen du proiektu-eragiketetan prezio finkoko fakturaziorako.
+> **Mugarria** negozioaren logikak Project Operations-en prezio finkoa fakturatzeko erabiltzen du.
 
 ### <a name="transaction-origin"></a>Transakzioaren jatorria
 
-Transakzioaren jatorria negozio-transakzio bakoitzaren jatorria gordetzen duen entitate bat da, txostenak egiten eta trazabilitatean laguntzeko. Proiektua gauzatzen hasten den heinean, negozio-transakzio bakoitzak beste negozio-transakzio bat sortzen du, eta, aldi berean, beste negozio-transakzio bat sortuko du, eta abar.
+Transakzioaren jatorria entitatea transakzio bakoitzaren jatorriari buruzko datuak gordetzeko diseinatuta dago, txostenak eta trazabilitatea laguntzeko. Proiektuaren exekuzioa abian den heinean, negozio-transakzio bakoitzak beste negozio-transakzio bat sortuko du, eta horrek beste bat sortuko du, eta abar.
 
 ### <a name="transaction-connection"></a>Transakzioaren konexioa
 
-Transakzio-konexioa antzeko bi negozio-transakzioren arteko erlazioa gordetzen duen entitate bat da, hala nola, kostuak eta erlazionatutako salmenten errealak edo fakturazio-jarduerek abiarazten dituzten transakzio-itzulketak, hala nola fakturaren berrespena edo fakturaren zuzenketak.
+Transakzioaren konexioa antzeko negozioen arteko bi negozioren arteko erlazioa gordetzen duen entitatea da, hala nola, kostuen eta erlazionatutako salmenten egiazkoak edo fakturazio-jarduerek eragindako transakzioen itzulketak.
 
-Elkarrekin, Transakzio-jatorria eta Transakzio-konexio-entitateek negozio-transakzioen eta negozio-transakzio zehatz bat sortzea eragin duten ekintzen arteko erlazioak jarraitzen laguntzen dizute.
+Elkarrekin, transakzioaren jatorria eta transakzioen konexio-erakundeek negozio-transakzio jakin bat sortzea eragiten duten ekintzen eta negozioen arteko harremanak kontrolatzen lagunduko dizute.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

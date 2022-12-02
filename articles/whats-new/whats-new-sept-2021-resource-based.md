@@ -1,6 +1,6 @@
 ---
 title: Zer berri 2021eko iraila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-description: Artikulu honek Project Operations-en 2021eko irailean eskuragarri dauden kalitate-eguneratzeei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
+description: Gai honek 2021eko iraileko baliabideetan/izakinik ezan oinarritutako egoeretarako Project Operations bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8923357"
 
 *Honi aplikatzen zaio: Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations*
 
-Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
+Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
    - Project Operations Microsoft Dataverse inguruneko bertsioan 4.14.0.99.
-   - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.20 bertsioan.
+   - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.20 bertsioan.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations zerbitzuaren idazketa dualeko esleipenen eguneratzeak
 
@@ -45,7 +45,7 @@ Mapa hasten duen arazoren bat aurkitzen baduzu, jarraitu argibideak [Falta diren
 | Fakturazioa eta prezioak | 2385802 | Proiektuen guztizkoak freskatzen direnean benetako ordu negatiboekin gertatzen den akatsa konpondu da. |
 | Fakturazioa eta prezioak | 2389675 | Proformaren faktura berresteko portaera hobetu da. Iraupen luzeko lanpostuen entitateak kontabilitate berrespen emaitzak idazteko behar den jarduera kontuan hartu behar du. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance-en
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Project Management and Accounting Dynamics 365 Finance-n
 
 | Ezaugarrien eremua | Erreferentzia-zenbakia | Kalitatearen eguneratzea |
 | --- | --- | --- |

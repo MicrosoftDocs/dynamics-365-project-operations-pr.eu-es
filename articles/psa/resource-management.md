@@ -1,6 +1,6 @@
 ---
 title: Baliabide-proiektuaren hasierako orria
-description: Artikulu honetan, Dynamics 365erako Project Service Automation (PSA) erakundeko baliabideen administrazio-ahalmenei buruzko informazioa ematen da.
+description: Gai honek Dynamics 365-erako Project Service Automation-en (PSA) baliabideen kudeaketa gaitasunen inguruko informazioa eskaintzen du.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -46,7 +46,7 @@ Baliabideak dira zerbitzuetan oinarritutako erakunde baten aktibo garrantzitsuen
 - Mantendu gaitasunen eta trebetasunen biltegia.
 
 
-Zure proiektuan langileak gehitu ditzakezu talde generiko batekin edo izendatutako baliabideekin PSA-n. Hainbat metodo erabil ditzakezu taldekideak gehitu eta esleitzeko eta haien erreserbak eta esleipenak kudeatzeko. Informazio osagarria lortzeko, kontsultatu honako artikulu hauek:
+Zure proiektuan langileak gehitu ditzakezu talde generiko batekin edo izendatutako baliabideekin PSA-n. Hainbat metodo erabil ditzakezu taldekideak gehitu eta esleitzeko eta haien erreserbak eta esleipenak kudeatzeko. Informazio gehiago lortzeko, ikusi gai hauek:
 
 - [Erreserbatu baliabide erreserbagarriak proiektuko talde bati eta esleitu zereginak](assign-named-bookable-resource.md)
 - [Esleitu baliabide erreserbagarri generikoak zeregin bati eta sortu baliabide eskakizunak](assign-generic-bookable-resource.md)

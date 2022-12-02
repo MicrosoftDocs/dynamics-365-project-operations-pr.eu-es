@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren ezarpenak
-description: Artikulu honek proiektuen kudeaketa ezarpenei buruzko informazioa eskaintzen du.
+description: Gai honek proiektuaren kudeaketa ezarpenei buruzko informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

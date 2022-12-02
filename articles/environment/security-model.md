@@ -1,6 +1,6 @@
 ---
 title: Segurtasunaren modeloa
-description: Artikulu honetan segurtasun-ereduari buruzko informazioa ematen da Dynamics 365 Project Operations.
+description: Gai honek Dynamics 365 Project Operations-eko segurtasun-ereduei buruzko informazioa eskaintzen du.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -70,7 +70,7 @@ Office taldearen lankidetza eredua garatu ahala, funtzionaltasuna gehituko da de
 
 Informazio gehiagorako, ikusi [Segurtasuna Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Proiektuaren eragiketak eta Microsoft Dynamics finantza-segurtasuna 365
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations eta Microsoft Microsoft Dynamics 365 Finance segurtasuna
 Project Operations-ek honako rol hauek biltzen ditu:
 
 - Proiektu-kudeatzailea

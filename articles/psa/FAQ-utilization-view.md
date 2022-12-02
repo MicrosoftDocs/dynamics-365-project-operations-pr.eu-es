@@ -1,6 +1,6 @@
 ---
 title: Ikusi baliabideen erabilera kargagarria
-description: Artikulu honetan, baliabideen erabilerari buruzko informazioa ematen da.
+description: Gai honek baliabideen erabilerari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

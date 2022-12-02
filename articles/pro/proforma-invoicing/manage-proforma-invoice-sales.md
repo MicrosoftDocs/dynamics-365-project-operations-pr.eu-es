@@ -1,6 +1,6 @@
 ---
 title: Kudeatu proformako proiektuaren faktura
-description: Artikulu honek proiektu proformako fakturekin lan egiteko informazioa eskaintzen du.
+description: Gai honek proforma proiektuan oinarritutako fakturak horiekin lan egiteko moduari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

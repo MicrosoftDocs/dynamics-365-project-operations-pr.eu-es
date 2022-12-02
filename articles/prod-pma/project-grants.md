@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren baimenak
-description: Artikulu honetan diru-laguntza bat nola sortu edo aldatu azaltzen da.
+description: Gai honetan beka bat nola sortu edo aldatu azaltzen da.
 author: RadhikaRS
 ms.date: 04/22/2020
 ms.topic: article

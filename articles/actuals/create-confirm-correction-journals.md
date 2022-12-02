@@ -1,6 +1,6 @@
 ---
 title: Zuzenketa-egunkariak sortu eta berretsi
-description: Artikulu honek zuzenketa aldizkari bat sortzeari eta baieztatzeari buruzko informazioa eskaintzen du.
+description: Artikulu honek zuzenketa-egunkari bat sortzeari eta hura berresteari buruzko informazioa ematen du.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8928049"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Batzuetan, baliteke denbora edo gastuen sarrera gaizki sartzea. Adibidez, aholkulari batek data okerra hauta dezake ordu-sarrera bat sortzen duenean, edo proiektu okerra hauta dezake gastu bat sartzen dutenean. Aholkulari batek ezin baditu bidalitako sarrerak eguneratu, backend-eko administratzaileak zuzenean zuzendu ditzake proiektu baten benetakoak.
+Batzuetan, denbora edo gastuen sarrera bat okerra izan daiteke. Adibidez, baliteke aholkulari batek data okerra aukeratzea denbora-sarreran edo baliteke proiektuekin nahastea gastu bat idaztean. Aholkulari batek ezin badu bidalitako sarreren eguneratzeak egin, atzeko planoko administratzaile batek zuzenean zuzendu dezake proiektuko benetako datuak.
 
 ## <a name="correct-approved-time-entries"></a>Zuzendu onartutako denbora-sarrerak     
 
@@ -73,30 +73,30 @@ Bete urrats hauek gastuen sarrera bat edo gehiago zuzentzeko.
 
 6. Zuzendutako balioak espero bezala agertzen badira, hautatu **Berretsi**. Elkarrizketa-koadroan, hautatu **Ados**. Balioak ez badira espero bezala erakusten, hautatu **Utzi** **Onartutako gastuak** zerrendara itzultzeko. Errepikatu 2. urratsetik 5. urratsera. 
 
-7. Zuzenketa aldizkaria berretsi ondoren, itzuli eguneratu dituzun proiektura edo proiektuetara aldaketak ikusteko.
+7. Zuzenketa-aldizkaria berretsi ondoren, zoaz eguneratu dituzun proiektuetara, aldaketak ikusteko.
 
-8. Proiektuaren orrian, gunean **Benetakoak** fitxa, berrikusi **Benetako Lotutako Ikuspegia** zerrenda. Jatorrizko sarrerak eta zuzendutako sarrerak zerrendatzen dira.
+8. Proiektuaren orrian, **Benetako datuak** fitxan, berrikusi **Ikuspegiarekin erlazionatutako benetako datuak** zerrenda. Jatorrizko sarrerak eta zuzendutako sarrerak zerrendatzen dira.
 
 
 ## <a name="correct-approved-material-usage-logs"></a>Onartutako materialaren erabileraren erregistroak zuzentzea
 
-Bete urrats hauek materialaren erabileraren erregistroko sarrera bat edo gehiago zuzentzeko.
+Bete urrats hauek materialen erabileraren egunkariaren sarrera bat edo gehiago zuzentzeko.
 
-1. urtean **Salmentak** eremua, ezkerreko nabigazio-panelean, azpian **Transakzioak**, hautatu **Benetakoak**.
+1. **Salmentak** eremuan, ezkerreko nabigazio-panelean, **Transakzioak** aukeraren azpian, hautatu **Benetako datuak**.
 
-2. urtean **Benetakoak** zerrenda, erabili zutabe-iragazkiak hautatzeko **Materiala** transakzio-klasea, materialen errealak soilik erakusten dira. Erabili beste zutabe-iragazkiak erakusten diren benetakoak gehiago mugatzeko. Nahi duzun benetako multzoa aurkitu ondoren, hautatu benetakoak eta, ondoren, hautatu **Sarrera zuzenak**. Zuzenketa aldizkari berri bat automatikoki sortzen da, eta **Materialaren zuzenketa** mota esleitzen zaio.
+2. **Benetakoak** zerrenda, erabili zutabe-iragazkiak hautatzeko **Materiala** transakzio-klasea, materialen errealak soilik erakusten dira. Erabili beste zutabe-iragazkiak erakusten diren benetakoak gehiago mugatzeko. Nahi duzun benetako multzoa aurkitu ondoren, hautatu benetakoak eta, ondoren, hautatu **Sarrera zuzenak**. Zuzenketa-aldizkari berri bat sortuko da automatikoki, esleitutako **Materialaren zuzenketa** motarekin.
 
-3. Gainean **Aldizkari Berria** orrialdean, in **Deskribapena** eremuan, idatzi zuzenketaren deskribapena. Ondoren, gainean **Material Zuzenketa** fitxan, **Materialentzako balio berriak** atalean, hautatu hautatutako material-lerroetarako zuzentzeko datu-eremuak. Adibidez, materiala beste proiektu bati esleitu diezaiokezu, edo produktua, materialaren data edo azpikontratua zuzendu.
+3. **Egunkari berria** orrialdean, **Azalpena** eremuan, idatzi zuzenketaren deskribapena. Ondoren, **Material Zuzenketa** fitxan, **Materialentzako balio berriak** atalean, hautatu hautatutako material-lerroetarako zuzentzeko datu-eremuak. Adibidez, materiala beste proiektu bati esleitu diezaiokezu, edo produktua, materialaren data edo azpikontratua zuzendu.
 
 4. Hautatu **Aurrebista**. Ondoren, elkarrizketa-koadroan, hautatu **Ados**.
 
-5. Gainean **Aldizkariaren lerroak** fitxa, egiaztatu zuzenketak. Alderantzikatu diren hautatutako material-sarrerekin eta sortu diren dagozkien lerro zuzenduekin erlazionatutako jatorrizko benetakoen zerrenda ikus dezakezu.
+5. **Aldizkariaren lerroak** fitxan, egiaztatu zuzenketak. Aldatu eta zuzendu diren hautatutako material-sarrerekin lotutako jatorrizko benetako datuen zerrenda ikus dezakezu.
 
-6. Zuzendutako balioak espero bezala agertzen badira, hautatu **Berretsi**. Ondoren, elkarrizketa-koadroan, hautatu **Ados**. Balioak espero zirenak ez badira, hautatu **Utzi** itzultzeko **Benetakoak** zerrenda. Ondoren, errepikatu 2tik 5era bitarteko urratsak.
+6. Zuzendutako balioak espero bezala agertzen badira, hautatu **Berretsi**. Ondoren, elkarrizketa-koadroan, hautatu **Ados**. Balioak ez badira espero bezala erakusten, hautatu **Utzi** **Benetako datuak** zerrendara itzultzeko. Errepikatu 2. urratsetik 5. urratsera.
 
-7. Zuzenketa aldizkaria berretsi ondoren, itzuli eguneratu dituzun proiektura edo proiektuetara aldaketak ikusteko.
+7. Zuzenketa-aldizkaria berretsi ondoren, zoaz eguneratu dituzun proiektuetara, aldaketak ikusteko.
 
-8. Proiektuaren orrian, gunean **Benetakoak** fitxa, berrikusi **Benetako Lotutako Ikuspegia** zerrenda. Jatorrizko sarrerak eta zuzendutako sarrerak zerrendatzen dira.
+8. Proiektuaren orrian, **Benetako datuak** fitxan, berrikusi **Ikuspegiarekin erlazionatutako benetako datuak** zerrenda. Jatorrizko sarrerak eta zuzendutako sarrerak zerrendatzen dira.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

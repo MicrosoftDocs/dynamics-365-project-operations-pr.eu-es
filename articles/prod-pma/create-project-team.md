@@ -1,6 +1,6 @@
 ---
 title: Sortu proiektuaren taldea
-description: Artikulu honek proiektu-taldeak sortzeari eta kudeatzeari buruzko informazioa eskaintzen du.
+description: Gai honek proiektu-taldeak sortzeari eta kudeatzeari buruzko informazioa ematen du.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

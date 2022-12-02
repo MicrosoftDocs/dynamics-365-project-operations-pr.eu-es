@@ -1,6 +1,6 @@
 ---
 title: Baliabideen berdinkatzearen informazio orokorra
-description: Artikulu honek proiektuetarako baliabideen erreserbak eta esleipenak lerrokatuta daudela ziurtatzen lagunduko dizun informazioa eskaintzen du.
+description: Gai honek proiektuetarako baliabideen erreserbak eta zereginak bat datozela ziurtatzen lagunduko dizun informazioa eskaintzen du.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview

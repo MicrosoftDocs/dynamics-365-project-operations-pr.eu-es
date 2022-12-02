@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu proiektuetan oinarritutako eskaintzaren lerro bateko kobra daitezkeen osagaiak
-description: Artikulu honetan, proiektuetan oinarritutako kotizazio-lerroetan sartu, kobratu eta kobratu ezin diren osagaiei buruzko informazioa ematen da.
+description: Gai honek proiektuan oinarritutako aurrekontu lerroetan sartutako, kargatzeko eta kargatu ezin diren osagaiei buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

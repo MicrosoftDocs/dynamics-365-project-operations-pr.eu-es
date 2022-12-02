@@ -1,6 +1,6 @@
 ---
 title: Esleitu erreserbatzeko baliabide generikoak zeregin eta proiektu talde bati
-description: Artikulu honek zereginei eta proiektu-taldeei baliabide generikoak erreserbatzeari buruzko informazioa eskaintzen du.
+description: Gai honek zereginetara eta proiektu taldeetara baliabide generikoak erreserbatzeko informazioa eskaintzen du.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

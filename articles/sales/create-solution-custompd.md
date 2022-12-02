@@ -1,6 +1,6 @@
 ---
 title: Sortu prezio-dimentsio pertsonalizatuetarako soluzioa
-description: Artikulu honek prezio pertsonalizatuen dimentsioetarako soluzioak sortzeari buruzko informazioa eskaintzen du.
+description: Gai honek prezio-dimentsio pertsonalizatuetarako soluzioak sortzeko informazioa eskaintzen du.
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Sortu faktura-antolaketa proiektuetan oinarritutako kontratuaren lerro batean
-description: Artikulu honek kontratu-lerroetan fakturen egutegiak eta mugarriak sortzeari buruzko informazioa eskaintzen du.
+description: Gai honek fakturen ordutegiak eta kontratuaren lerroen mugarriak sortzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article

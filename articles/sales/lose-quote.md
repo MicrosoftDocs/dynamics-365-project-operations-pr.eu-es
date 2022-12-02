@@ -1,6 +1,6 @@
 ---
 title: Kopiatu proiektuetan oinarritutako eskaintzak
-description: Artikulu honek proiektuetan oinarritutako aurrekontuak nola kopiatzeari buruzko informazioa eskaintzen du Project Operations-en.
+description: Gai honek proiektuetan oinarritutako eskaintzak kopiatzeari buruzko informazioa eskaintzen du Project Operations-en.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

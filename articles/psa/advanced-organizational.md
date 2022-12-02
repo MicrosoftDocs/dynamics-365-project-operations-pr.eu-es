@@ -1,6 +1,6 @@
 ---
-title: Antolamendu-unitate aurreratuak
-description: Artikulu honek antolakuntza-unitateei buruzko informazioa eskaintzen du Dynamics 365 Project Service Automation.
+title: Erakunde-unitate aurreratuak
+description: Gai honek entitate-unitate eta unitateei buruzko informazioa ematen du Dynamics 365 Project Service Automation-en.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -24,7 +24,7 @@ ms.contentlocale: eu-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8927083"
 ---
-# <a name="about-organizational-units"></a>Antolaketa-unitateei buruz 
+# <a name="about-organizational-units"></a>Erakundearen unitateei buruz 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

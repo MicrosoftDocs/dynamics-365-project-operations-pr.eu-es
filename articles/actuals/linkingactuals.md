@@ -1,6 +1,6 @@
 ---
-title: Transakzioen jatorria - Lotu benetakoak haien iturriarekin
-description: Artikulu honek transakzioen jatorriaren kontzeptua benetakoak jatorrizko iturburu-erregistroekin lotzeko nola erabiltzen den azaltzen du, hala nola, denbora-sarrera, gastu-sarrera edo materialaren erabilera-erregistroak.
+title: Transakzioaren jatorria - Lotu benetako datuak iturburuarekin
+description: Gai honetan azaltzen da nola lotzeko errealak jatorrizko iturburuko erregistroekin erabiltzen den transakzioen jatorriaren kontzeptua, hala nola denbora sartzearekin, gastuen sarrerarekin edo materialaren erabilera erregistroekin.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.contentlocale: eu-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921287"
 ---
-# <a name="transaction-origins---link-actuals-to-their-source"></a>Transakzioen jatorria - Lotu benetakoak haien iturriarekin
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Transakzioaren jatorria - Lotu benetako datuak iturburuarekin
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Transakzioen jatorri-erregistroak benetakoak beren iturburuarekin lotzeko sortzen dira, hala nola, denbora-sarrerak, gastu-sarrerak, materialaren erabilera-erregistroak eta proiektuaren fakturak.
+Transakzioen jatorri-erregistroak benetakoak beren iturriarekin lotzeko sortzen dira, hala nola, denbora-sarrerak, gastu-sarrerak, materialaren erabilera-erregistroak eta proiektuaren fakturak.
 
 Hurrengo adibidean Project Operations proiektuaren bizi-zikloko denbora sarreren prozesaketa tipikoa erakusten da.
 
-> ![Prozesatzeko denbora osoak Proiektu Eragiketetan.](media/basic-guide-17.png)
+> ![Project Operations-en denbora-sarrerak prozesatzea.](media/basic-guide-17.png)
  
-1. Denbora-sarrera bidaltzeak bi aldizkari-lerro sortzea eragiten du: kosturako bat eta fakturatu gabeko salmenterako.
-2. Denbora-sarreren behin-behinean onartzeak bi erreal sortzen ditu: kosturako bat eta fakturatu gabeko salmentetarako.
+1. Garai bateko sarrera bidaltzeak kutxako liburuaren bi lerro sortzea eragiten du: bata kostuetarako eta besterik gabeko salmentarako.
+2. Garai bateko sarrera onartzeak benetako bi datu sortzea eragiten du: bata kostuetarako eta besterik gabeko salmentarako.
 3. Erabiltzaileak proiektuaren faktura sortzen duenean, fakturen lerroko transakzioa fakturatu gabeko salmenten egiazko datuak erabiliz sortzen da.
 4. Faktura baieztatzen duzunean, fakturatutako bi benetako datu sortzen dira: fakturatu gabeko itzulerak eta fakturatutako salmenta erreal berria sortzen da.
 
-Prozesatzeko lan-fluxu honetako gertaera bakoitzak Transakzio-jatorrizko entitatean erregistroak sortzea abiarazten du, denbora-sarreran, egunkari-lerroan, benetako eta faktura-lerroaren xehetasunetan sortzen diren erregistro horien arteko erlazioen arrastoa eraikitzen laguntzeko.
+Lan-fluxua prozesatzeko gertaera hauetako bakoitzak erregistroak sortzea eragiten du Transakzioaren jatorrizko entitatean, denboraren sarreran, kutxako liburuaren lerroan, egunkarietan eta fakturen lerroko xehetasunetan sortzen diren erregistro horien arteko erlazioen arrastoa eraikitzen laguntzeko.
 
 Hurrengo taulan, aurreko lan-fluxuaren transakzioaren jatorriko entitateko erregistroak agertzen dira.
 
@@ -70,7 +70,7 @@ Hurrengo taulan, aurreko lan-fluxuaren transakzioaren jatorriko entitateko erreg
 | GIDA fakturaren zuzenketa      | Faktura                  | Fakturatu gabeko bentako salmenta berrien GIDA    | Unekoa"                            |                          |
 
 
-Ondorengo ilustrazioak hainbat ekitalditan errealen eta haien iturrien artean sortzen diren estekak erakusten ditu Project Operations-en denbora-sarreren adibidea erabiliz.
+Ondorengo ilustrazioak hainbat gertaeratan erreal mota ezberdinen artean sortzen diren estekak erakusten ditu Project Operations-eko denbora-sarreren adibidea erabiliz.
 
 > ![Errealak nola lotzen diren iturburu-erregistroekin Project Operations-en.](media/TransactionOrigins.png)
 

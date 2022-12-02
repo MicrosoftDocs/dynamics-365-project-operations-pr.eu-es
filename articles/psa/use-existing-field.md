@@ -1,6 +1,6 @@
 ---
 title: Erabili Project Service-en lehendik dagoen eremua prezio-dimentsio gisa
-description: Artikulu honetan, lehendik dauden proiektu-zerbitzuko eremuak prezio-dimentsio gisa erabiltzeari buruzko informazioa ematen da.
+description: Gai honek lehendik dauden Project Service-ren eremuak prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

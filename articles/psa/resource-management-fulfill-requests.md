@@ -1,6 +1,6 @@
 ---
 title: Baliabide-eskakizunak betetzea
-description: Artikulu honek baliabideen eskakizunak betetzeari buruzko informazioa eskaintzen du.
+description: Gai honek baliabide-eskakizunak betetzeari buruzko informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

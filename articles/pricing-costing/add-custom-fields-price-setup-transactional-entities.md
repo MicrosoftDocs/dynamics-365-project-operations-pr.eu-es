@@ -1,6 +1,6 @@
 ---
 title: Gehitu beharrezko eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan
-description: Artikulu honetan, erakundeei eta formulario eta ikuspegiei beharrezkoak diren eremu pertsonalizatuen erreferentziak nola gehitu buruzko informazioa ematen da.
+description: Gai honek beharrezko eremuen erreferentzia pertsonalizatuak entitateei eta inprimakiei eta ikuspegiei gehitzeko moduari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8926025"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Artikulu honetan, prezio-dimentsio gisa erabiliko diren eremu eta erakunde pertsonalizatuak sortzeko [artikuluko prozedurak osatu dituela suposatzen da](create-custom-fields-entities-pricing-dimensions.md). Prozedura horiek bete ez badituzu, joan atzera eta osatu eta, ondoren, itzuli artikulu honetara. 
+Gai honek haintzat hartzen du [Sortu prezio-dimentsioetan erabiltzeko eremu eta entitate pertsonalizatuak](create-custom-fields-entities-pricing-dimensions.md) gaiko izapideak bete dituzula. Prozedura horiek bete ez badituzu, itzuli, bete itzazu eta, ondoren, itzuli gai honetara. 
 
-Artikulu honetan, prozedurek beharrezkoak diren eremu pertsonalizatuen erreferentziak entitateei eta erabiltzailearen interfazeari (UI) elementuei, hala nola inprimakiak eta ikuspegiak, nola gehitu erakutsiko dizute.
+Gai honetan, prozedurek erakundeetan eta erabiltzaile-interfazearen (UI) elementuetan, hala nola, inprimakiak eta ikuspegiak, nola gehitu behar diren erakutsiko du.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Gehitu prezioen dimentsio-eremu pertsonalizatuak 
 Eremu eta entitate pertsonalizatuak sortu ondoren, hurrengo urratsa da prezioen konfigurazioa eta transakzio-entitateak entitate pertsonalizatuak edo aukera-multzoak ezagutzea, erreferentzia-eremuak sortuz. Zure prezioen dimentsioen zerrendak aukera-multzo dimentsioak edo entitatearen neurriak edo biak biltzen dituen ala ez kontuan hartuta, jarraitu **Aukera-multzoetan oinarritutako prezioen dimentsioak** edo **Entitatean oinarritutako prezioen dimentsioak** ataletan soilik dauden urratsak, edo biak, hurrenez hurren.

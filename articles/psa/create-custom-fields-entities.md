@@ -1,6 +1,6 @@
 ---
 title: Sortu eremu eta entitate pertsonalizatuak
-description: Artikulu honek zure irtenbidean aukera-multzoak eta entitateak nola sortu azaltzen du Power Apps plataforma.
+description: Gai honetan Power Apps plataformako soluzioan aukera multzoak eta entitateak nola sortu azaltzen da.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8926899"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Jarraitu urrats hauei aukera multzo edo entitate pertsonalizatu bat sortu nahi duzunean Power Apps plataforman.  
-Artikulu honetako prozedurak Project Service Automation (PSA) web interfazea erabiliz burutu behar dira.
+Gai honetako prozedurak Project Service Automation-en (PSA) web interfazea erabiliz osatu behar dira.
 
 > [!IMPORTANT]
 > Gomendatzen dugu prezio-dimentsio pertsonalizatuen aldaketa guztiak soluzio bereizi batean egitea. Praktika on garrantzitsu honek etorkizunean malgutasuna eskaintzen du aldaketak eguneratzeko edo kentzeko, zure lana berrerabiltzen lagunduko du eta aldaketak beste instantzia batera eramatea erraztuko du. Beharrezko aldaketa guztiak egin ondoren, esportatu soluzioa **kudeatutako soluzio** gisa, eta inportatu beste instantzia batzuetan zure prezioen konfigurazioa berrerabiltzeko.

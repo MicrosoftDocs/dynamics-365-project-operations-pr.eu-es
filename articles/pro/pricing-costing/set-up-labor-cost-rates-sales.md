@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu lanaren kostu-tasak - arina
-description: Artikulu honetan, proiektu-eragiketetan eskulanaren kostu-tasak nola konfiguratu behar diren ematen da.
+description: Gai honek Project Operations-eko lanaren kostuak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

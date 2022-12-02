@@ -1,6 +1,6 @@
 ---
 title: Itxi abagune bat
-description: Artikulu honek proiektu-aukera bat ixteari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuaren abaguneak ixteari buruzko informazioa ematen du.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

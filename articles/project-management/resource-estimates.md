@@ -1,6 +1,6 @@
 ---
 title: Proiektuetako baliabideen denboraren aurreikuspen ekonomikoak
-description: Artikulu honek denboraren finantza-estimazioak nola kalkulatzen diren buruzko informazioa eskaintzen du.
+description: Gai honek denborarako finantza kalkuluak nola kalkulatzen diren jakiteko informazioa eskaintzen du.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

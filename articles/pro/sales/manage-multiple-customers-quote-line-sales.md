@@ -1,6 +1,6 @@
 ---
 title: Kudeatu proiektuetan oinarritutako eskaintzaren lerroetako hainbat bezero - arina
-description: Artikulu honek proiektuetan oinarritutako aurrekontu-lerroetan hainbat bezero nola kudeatu deskribatzen du.
+description: Gai honek proiektuak oinarritutako eskaintza-lerroetan bezero anitz kudeatzeko moduari buruzko informazioa azaltzen du.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

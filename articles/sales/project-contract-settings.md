@@ -1,6 +1,6 @@
 ---
 title: Proiektu-kontratuaren ezarpenak
-description: Artikulu honetan, kontratu-lerroei eragiten dieten arloei buruzko informazioa ematen da, bai eta lineako elementu guztietan laburbiltzen den kontratuari buruzko informazioa ere.
+description: Gai honek kontratu-lerroetan eragina duten eremuei buruzko informazioa eskaintzen du eta kontratuari buruzko informazioa lerro-elementu guztietan laburbilduta dago.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8921563"
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Artikulu honek proiektuaren kontratu osoari aplikatzen zaizkion eremuei buruzko informazioa eskaintzen du, kontratu-lerro guztietan eragina duten ezarpenak barne. Proiektuaren kontratuaren KPIak gidatzeko lerro-elementu guztietan laburbiltzen den kontratuari buruzko informazioa ere sartzen da.
+Gai honek proiektuaren kontratu osoari aplikatzen zaizkion eremuei buruzko informazioa eskaintzen du, kontratu lerro guztietan eragina duten ezarpenak barne. Proiektuaren kontratuaren KPIak gidatzeko lerro-elementu guztietan laburbiltzen den kontratuari buruzko informazioa ere sartzen da.
 
 Hurrengo taulan proiektuaren kontratuaren eremuak zerrendatzen dira Dynamics 365 Project Operations edo portaera aldaketa garrantzitsu batzuk izan Dynamics 365 Sales salmenta-eskaeratatik.
 

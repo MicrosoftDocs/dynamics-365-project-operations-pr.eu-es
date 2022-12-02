@@ -1,6 +1,6 @@
 ---
 title: Eskaintzak- Kontzeptu nagusiak - arina
-description: Artikulu honek proiektuaren aurrekontuak Project Operations-en erabiltzeari buruzko informazioa eskaintzen du.
+description: Gai honek Project Operations-eko proiektu-eskaintzak erabiltzeari buruzko informazioa ematen du.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Erregistratu proiektuetako eta proiektu-zereginetako material-erabilera
-description: Artikulu honetan, proiektuetan eta proiektu-lanetan materialaren erabilera nola erregistratu behar den ematen da.
+description: Gai honek materialaren erabilera proiektuekin eta proiektuen zereginekin nola erregistratu buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Kudeatu proiektuetan oinarritutako kontratuaren lerroetako hainbat bezero
-description: Artikulu honek hainbat bezero dituzten kontratu-lerroekin eta kontratuekin lan egiteari buruzko informazioa eskaintzen du.
+description: Gai honek bezero anitz dituzten kontratu lerroekin eta kontratuekin lan egiteari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

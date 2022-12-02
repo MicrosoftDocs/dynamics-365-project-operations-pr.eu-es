@@ -1,6 +1,6 @@
 ---
 title: Proiektuko ahaleginaren segimendua
-description: Artikulu honek proiektuaren esfortzuaren eta lanaren aurrerapenari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuaren ahaleginaren eta lanaren garapenaren jarraipena egiteari buruzko informazioa ematen du.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8929245"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Antolaketa eta garapena jarraitzeko beharra aldatu egiten da industriaren arabera. Zenbait industriak jarraipen zehatza egiten du; beste batzuek jarraipen orokorragoa egiten dute. Artikulu honetan, antolakuntzaren baldintzak betetzeko nola programatu erakusten da.
+Antolaketa eta garapena jarraitzeko beharra aldatu egiten da industriaren arabera. Zenbait industriak jarraipen zehatza egiten du; beste batzuek jarraipen orokorragoa egiten dute. Gai honek erakundearen eskakizunak betetzeko nola antolatu behar den erakusten du.
 
 ## <a name="effort-tracking-view"></a>Ahaleginen segimenduaren ikuspegia
 
@@ -45,8 +45,8 @@ Laburpen-zereginetan edo edukitzaile-zereginetan ahalegina berriro proiektatu da
 - Hosto-nodoen zereginetara jaitsitako zeregin indibidualetako EAC berria kalkulatzen da. 
 - Berriro kalkulatzen dira hosto-nodoetan kaltetutako bigarren mailako zereginen geratzen den ahaleginaren balioa eta garapenaren portzentajea EAC balioaren arabera. Horrek zereginaren ahaleginaren bariantzarako beste proiekzio bat sortzen du. 
 - Erro-nodora bideratutako laburpen-zereginen EAC-ak berriro kalkulatzen dira.
-- Laburpen-zeregin batean onartutako esfortzua haur-zeregin guztietan onartutako ahaleginaren gehi laburpen-atazarako onartutako esfortzuaren batura da.
-- Laburpen-zereginean geratzen den esfortzua haur-zeregin guztietan geratzen den esfortzuaren batura da, laburpen-atazan onartutako ahalegina kenduta.
+- Laburpen-zeregin batean onartutako esfortzua haur-zeregin guztietan onartutako ahaleginaren gehi laburpen-zereginean onartutako esfortzuaren batura da.
+- Laburpen-zeregin batean geratutako esfortzua haur-zeregin guztietan geratutako ahaleginaren ken laburpen-zereginean onartutako esfortzuaren batura da.
 
 ## <a name="project-status-summary"></a>Proiektuaren egoeraren laburpena
 

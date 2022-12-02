@@ -1,6 +1,6 @@
 ---
 title: Zehaztu baliabide-egutegiak
-description: Artikulu honetan, proiektu-eragiketen baliabideetarako lanegunen egutegiak nola zehaztu zehazten den ematen da.
+description: Gai honek Project Operations-en baliabideen lanordu-egutegiak definitzeko moduari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

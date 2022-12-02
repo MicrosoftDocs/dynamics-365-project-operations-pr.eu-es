@@ -1,6 +1,6 @@
 ---
 title: Inportatu aurreikuspen bat proiektuetan oinarritutako kontratuaren lerro batera
-description: Artikulu honek proiektu batetik kalkuluak kontratu-lerro batera inportatzeari buruzko informazioa eskaintzen du.
+description: Gai honek proiektu batetik kontratuaren lerro batera aurreikuspenak inportatzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

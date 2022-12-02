@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu eskulanaren eta gastuen kostu estandarrak
-description: Artikulu honek lan-eskuaren kostu estandarrak eta proiektu baten gastuak nola konfiguratu azaltzen du.
+description: Gai honetan eskulanaren kostu estandarrak eta proiektu bateko gastuak nola ezarri azaltzen da.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8919493"
 
 [!include [banner](../../includes/banner.md)]
 
-Artikulu honek lan-eskuaren kostu estandarrak eta proiektu baten gastuak nola konfiguratu azaltzen du. Zeregin honek USSI datu multzoa erabiltzen du.
+Gai honetan eskulanaren kostu estandarrak eta proiektu bateko gastuak nola ezarri azaltzen da. Zeregin honek USSI datu multzoa erabiltzen du.
 
 1. Nabigazio-panelean, joan **Moduluak > Proiektuaren kudeaketa eta kontua > Konfigurazioa > Prezioak > Kostuaren prezioa (ordua)**.
 2. Hautatu **Berria**.

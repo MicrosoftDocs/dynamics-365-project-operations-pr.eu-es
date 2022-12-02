@@ -1,6 +1,6 @@
 ---
 title: Proiektuen antolaketa
-description: Artikulu honetan programazio bat nola sortu behar den ematen da.
+description: Gai honek antolaketa sortzeari buruzko informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

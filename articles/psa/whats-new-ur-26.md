@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 26, V3 bertsioko berrikuntzak edo aldaketak
-description: Artikulu honetan Project Service Automation Update Release 26, V3-n eskuragarri dauden ezaugarriak eta zuzenketak zerrendatzen dira.
+description: Gai honek Project Service Automation V3, 26. eguneratzean erabilgarri dauden eginbideak eta konponketak ditu.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8928785"
 
 Atseginez iragartzen dizuegu Dynamics 365 aplikaziorako Project Service Automation aplikazioaren azken eguneratzea. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Argitalpen hau bateragarria da Dynamics 365 9.x bertsioarekin. Argitalpen honetara eguneratzeko, bisitatu Dynamics 365 (online) aplikazioaren administrazio-zentroko soluzioen orrira eguneratzea instalatzeko. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Artikulu honetan, Project Service Automation Update Release 26, V3-rako aldatu diren edo aldatu diren ezaugarri eta zuzenketak zerrendatzen dira. Bertsio honek V3.10.44.59 zenbakia du eta orokorrean eskuragarri dago 2020ko abenduan auto-eguneratze baten bidez.
+Artikulu honek Project Service Automation 26, V3 eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.44.59 zenbakia du eta orokorrean eskuragarri dago 2020ko abenduan auto-eguneratze baten bidez.
 
 ## <a name="update-release-26"></a>26. eguneratze-bertsioa
 

@@ -24,7 +24,7 @@ ms.locfileid: "8683845"
 
 [!include [banner](../../includes/banner.md)]
 
-Proiektuaren etapek proiektuaren bizitza zikloaren gida izan daitezke. Zure proiektuetan txertatu nahi dituzun proiektuen faseak Proiektuaren faseko eremuan defini ditzakezu Proiektuen kudeaketa eta kontabilitate parametroak orrian. Dynamics 365 Finance-ek aurrez definitutako bost proiektu-etapa eta erabiltzaileak definitutako hiru etapa eskaintzen ditu. Proiektuen aurrerapenaren jarraipena egiteko erabiltzen ari zaren proiektuaren etapa baten izena egunera dezakezu. Erabiltzaileak definitutako egoera izenentzako izenak ere eman ditzakezu. Zeregin honek proiektuaren etapa bati izena aldatu edo aldatzen erakusten du eta erabiltzen du USSI datuen ezarpena.
+Proiektuaren etapek proiektuaren bizitza zikloaren gida izan daitezke. Zure proiektuetan txertatu nahi dituzun proiektuen faseak Proiektuaren faseko eremuan defini ditzakezu Proiektuen kudeaketa eta kontabilitate parametroak orrian. Dynamics 365 Finance aurrez definitutako bost etapa eta erabiltzaileak definitutako hiru etapa eskaintzen ditu. Proiektuen aurrerapenaren jarraipena egiteko erabiltzen ari zaren proiektuaren etapa baten izena egunera dezakezu. Erabiltzaileak definitutako egoera izenentzako izenak ere eman ditzakezu. Zeregin honek proiektuaren etapa bati izena aldatu edo aldatzen erakusten du eta erabiltzen du USSI datuen ezarpena.
 
 1. Joan Proiektuen kudeaketa eta kontabilitatea > Konfigurazioa > Proiektuen kudeaketa eta kontabilitate parametroak.
 2. Egin klik Proiektuaren etapa fitxan.

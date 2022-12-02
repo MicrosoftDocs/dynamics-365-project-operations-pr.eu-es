@@ -1,6 +1,6 @@
 ---
 title: Gaitasun eta trebetasunen ereduak
-description: Artikulu honetan, trebetasun- eta gaitasun-ereduak nola erabili behar diren ematen da.
+description: Gai honek gaitasun eta trebetasun ereduen erabilerari buruzko informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

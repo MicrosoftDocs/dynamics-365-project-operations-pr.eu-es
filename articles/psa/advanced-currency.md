@@ -1,6 +1,6 @@
 ---
 title: Dibisa anitzeko agertokiak (3.x bertsioa)
-description: Artikulu honetan hainbat txanponen agertokiei buruzko informazioa ematen da.
+description: Gai honek dibisa anitzeko agertokiei buruzko informazioa ematen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Proiektuak antolatzeko hasiera orria
-description: Artikulu honetan proiektuen plangintzari buruzko informazioa ematen da.
+description: Gai honek proiektuaren antolaketari buruzko informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -43,7 +43,7 @@ PSA-ren proiektuak kudeatzeko tresnek proiektuak erraz exekutatzen lagunduko diz
 - Aurreikusi baliabide-eskakizunak bideratzean dauden proiektuentzat.
 - Entregatu proiektuak garapena eta kostuen kontsumoa jarraituz.
 
-Honako artikulu hauek proiektu-kudeatzaileei lana zenbatesten, proiektuaren kostuak zenbatesten eta baliabide-betekizunak pronostikotzen lagunduko dien informazioa ematen dute, PSAn onartzen diren tresnak erabiliz:
+Ondorengo gaiek proiektu-kudeatzaileei lagunduko die lana aurreikusten, proiektuen kostuak aurreikusten eta baliabide-eskakizunak aurreikusten PSA-n onartzen diren tresnak erabiliz:
 
 - [Sortu antolaketa](project-creating.md)
 - [Aurreikusi proiektuaren kostuak eta diru-sarrerak](project-estimating.md)

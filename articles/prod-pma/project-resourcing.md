@@ -1,6 +1,6 @@
 ---
 title: Proiektu-baliabideen hasierako orria
-description: Artikulu honek proiektuen baliabideei buruzko informazioa eskaintzen du.
+description: Gai honek proiektuaren baliabideei buruzko informazioa ematen du.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8924001"
 
 [!include [banner](../includes/banner.md)]
 
-Artikulu honek proiektuen baliabideei buruzko informazioa eskaintzen du.
+Gai honek proiektuaren baliabideei buruzko informazioa ematen du.
 
-Proiektuen kudeatzaileek eta baliabideen kudeatzaileek erronka bat proiektuaren plangintza fasean baliabideen esleipena da, non proiektuan lan egiteko baliabide zuzena zehaztu eta erreserbatu behar duten. Dynamics 365 Finance-en, proiektuetarako baliabide-gaitasunak definitzeko aukera ematen dizute konpromiso zehatz baterako edo konpromiso baten zati baterako erreserba daitezkeen aldi baterako baliabide gisa tratatzen diren rolak. Baliabide mota honekin proiektuen kudeatzaileek eta baliabideen kudeatzaileek zeregin hauek bete ditzakete:
+Proiektuen kudeatzaileek eta baliabideen kudeatzaileek erronka bat proiektuaren plangintza fasean baliabideen esleipena da, non proiektuan lan egiteko baliabide zuzena zehaztu eta erreserbatu behar duten. Dynamics 365 Finance-n, Proiektuetarako baliabideen gaitasunak konpromiso jakin baterako edo konpromiso baten zati baterako gorde daitezkeen aldi baterako baliabide gisa tratatzen diren rolak definitzen uzten dizu. Baliabide mota honekin proiektuen kudeatzaileek eta baliabideen kudeatzaileek zeregin hauek bete ditzakete:
 
 - Definitu eskatutako gaitasunak dituen eginkizuna, baliabideak parekatzea erraza izan dadin.
 - Erabili rolak gordetako baliabideetan oinarritutako hasierako konpromiso programa definitzeko.
@@ -41,7 +41,7 @@ Proiektuen kudeatzaileek eta baliabideen kudeatzaileek erronka bat proiektuaren 
 
 Proiektuaren plangintza aurrera doan heinean, aurreikusitako baliabideak langileekin hornitu daitezke. Proiektuaren kudeatzaileak atzera egin eta baliabideen erreserbak eguneratu ditzake proiektuaren edozein fasetan.
 
-Ondoko artikuluek baliabideen proiektuetan lanean ari zarenean bete beharreko lanei buruzko informazioa eskaintzen dute.
+Gai hauetan baliabideak hornitzeko proiektuetan lanean ari zarenean bete beharreko zereginei buruzko informazioa ematen da.
 
 - [Konfiguratu proiektuan baliabideak](set-up-project-resources.md)
 - [Kudeatu baliabide-gaitasunak](manage-resource-competencies.md)

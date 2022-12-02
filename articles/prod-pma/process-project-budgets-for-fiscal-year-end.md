@@ -1,6 +1,6 @@
 ---
 title: Transferitu proiektuaren aurrekontuak urte fiskalaren amaieran
-description: Artikulu honek gainerako aurrekontu-kopuruak etorkizuneko ekitaldietara transferitzeari eta aurrekontu-erregistroaren xehetasunak sortzeari buruzko informazioa eskaintzen du.
+description: Artikulu honek informazioa ematen du gainerako aurrekontu kopuruak etorkizuneko ekitaldietara nola transferitu eta aurrekontuen erregistroaren xehetasunak sortzeko moduari buruz.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article

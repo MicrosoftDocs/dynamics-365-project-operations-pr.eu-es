@@ -1,6 +1,6 @@
 ---
 title: Baliabidearen behin behineko erreserba
-description: Artikulu honek proiektuko taldeko kideak behin-behinean antolatzeari buruzko informazioa eskaintzen du.
+description: Gai honek erreserben proiektuaren taldekideek behin-behinean nola antolatu edo programatzeko informazioa eskaintzen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

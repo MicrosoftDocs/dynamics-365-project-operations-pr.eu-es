@@ -1,6 +1,6 @@
 ---
 title: Kudeatu hainbat bezero proiektuaren kontratuetan
-description: Artikulu honetan, proiektu-kontratu batean hainbat bezero nola administratu erakusten da.
+description: Gai honek proiektuan oinarritutako proiektuaren kontratuan hainbat bezero kudeatzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "8928325"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Kudeatu hainbat bezero proiektuaren kontratuetan
 
-Artikulu honetan, proiektu-kontratu batean hainbat bezero nola administratu erakusten da. Proiektuaren kontratua erabil dezakezu kontratua finantzatzeko bezero anitzentzako itunpeko akordioa behar denean. **Proiektuaren kontratua** orrialdean, **Laburpena** fitxan akordio baterako bezero nagusiari buruzko informazioa dago. Akordioan parte hartzen duten beste bezero batzuk gehitu daitezke **Bezeroak** fitxa.
+Gai honek proiektuan oinarritutako proiektuaren kontratuan hainbat bezero kudeatzeari buruzko informazioa eskaintzen du. Proiektuaren kontratua erabil dezakezu kontratua finantzatzeko bezero anitzentzako itunpeko akordioa behar denean. **Proiektuaren kontratua** orrialdean, **Laburpena** fitxan akordio baterako bezero nagusiari buruzko informazioa dago. Akordioan parte hartzen duten beste bezero batzuk gehitu daitezke **Bezeroak** fitxa.
 
 Kontratatutako bezero guztiak **Bezeroak** proiektuaren kontratuaren fitxa, kontratuaren lineako bezero gisa, proiektuaren kontraturako sortutako proiektuetan oinarritutako kontratu lerro berrietan. Lehendik dauden edozein proiektutan oinarritutako kontratu lerroek ez dituzte kontratu bezeroak geroago sortutakoak.
 

@@ -1,6 +1,6 @@
 ---
 title: Sortu eta eguneratu proiektu bat
-description: Artikulu honetan proiektu-eragiketak nola eguneratu behar diren ematen da.
+description: Gai honek proiektuak eguneratzeari buruzko informazioa eskaintzen du Project Operations-en.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

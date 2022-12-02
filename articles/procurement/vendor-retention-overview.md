@@ -1,6 +1,6 @@
 ---
 title: Saltzailearen atxikipenaren ikuspegi orokorra
-description: Artikulu honetan hornitzaileak atxikitzeko gaitasunei buruzko informazio orokorra ematen da.
+description: Gai honek saltzailearen atxikipen gaitasunen ikuspegi orokorra eskaintzen du.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Erreserbak esleitzeko metodoak Project Service Automation-en
-description: Artikulu honek esleipenak erreserbatzeko modu ezberdinei buruzko informazioa eskaintzen du.
+description: Gai honek esleipenak erreserbatzeko modu desberdinei buruzko informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8929153"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Gehitu taldeko kide zuzenean proiektua **Taldea** fitxan, edo antolaketa-panel batetik proiektua edo eskakizun baliabide erreserbatutako, gutxi beste erreserbatu guztirako baldintza kopuruak metodo daude erabil dezakezu. Artikulu honek metodo bakoitzak nola funtzionatzen duen azaltzen du, eta zein metodok gehiegizko erreserba baliabideak sor ditzaketen.
+Gehitu taldeko kide zuzenean proiektua **Taldea** fitxan, edo antolaketa-panel batetik proiektua edo eskakizun baliabide erreserbatutako, gutxi beste erreserbatu guztirako baldintza kopuruak metodo daude erabil dezakezu. Gai honen arrazoi metodo bakoitzean funtzionamendua eta metodoak zer overbooking baliabideak, sorraraz ditzaketela.
 
 ## <a name="full-capacity"></a>Ahalmen osoa 
 Gaitasun osoa metodoa aukerarek erreserbatzen du baliabidearen ahalmena osoa. Adibidez, baliabide bat ezarri egunaren lanorduak zortzi egutegi bat badu, bost egun asteko, horri buruzko eremu zehatzera bost lanegunetan hasierako eta amaierako data ezartzen books baliabidea 40 ordu. Ahalmena geratzen diren baliabidearen erreserba egiten da. Baliabide bat dagoeneko badago booked beste projects, tarte hori, 40 ordu da booked ordu gehigarriak, potentzialki arriskutsua gidatzen erreserba gehiegi, gisa.

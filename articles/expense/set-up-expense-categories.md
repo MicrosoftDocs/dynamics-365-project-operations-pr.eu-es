@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu gastu-kategoriak
-description: Artikulu honek gastu-kategoriak eta partekatutako kategoriak konfiguratzeari buruzko informazioa eskaintzen du gastu-txostenetarako.
+description: Gai honek gastuen txostenak egiteko kategoria partekatuak eta kategoria partekatuak konfiguratzeko moduari buruzko informazioa eskaintzen du.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

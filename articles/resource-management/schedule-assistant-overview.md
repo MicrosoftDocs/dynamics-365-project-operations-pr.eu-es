@@ -1,6 +1,6 @@
 ---
 title: Antolaketa-laguntzailearen ikuspegi orokorra
-description: Artikulu honek baliabideak erreserbatzeko Programazio laguntzailearekin lan egiteari buruzko informazioa eskaintzen du.
+description: Gai honek baliabideak erreserbatzeko Ordutegiaren laguntzailearekin lan egiteari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Erabili Project Service gehigarria Microsoft Project-ekin lanaren plangintza egiteko | MicrosoftDocs
-description: Artikulu honetan Microsoft Project Service-rako Microsoft Project-en osagarria nola gehitu, konfiguratu eta nola erabili erakusten da.
+description: Gai honek Microsoft Project gehigarria Microsoft Project Service-en nola gehitu, konfiguratu eta erabiltzeko informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

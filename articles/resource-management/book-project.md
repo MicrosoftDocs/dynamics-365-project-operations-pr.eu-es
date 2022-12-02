@@ -1,6 +1,6 @@
 ---
 title: Erreserbatu proiektu bat
-description: Artikulu honek proiektu baterako baliabide bat erreserbatzeari buruzko informazioa eskaintzen du.
+description: Gai honek proiektu baterako baliabideak erreserbatzeari buruzko informazioa ematen du.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
@@ -55,7 +55,7 @@ Baliabide kudeatzaile batek baliabide bat zuzenean proiektu batera erreserbatu b
     - Iraupena
    
    > [!NOTE]
-   > Gaur egun,Dynamics 365 Project Operations ez du programazio taula onartzen.   
+   > Gaur egun, Dynamics 365 Project Operations ez du programazio taula onartzen.   
 
 ## <a name="book-from-the-project-form"></a>Erreserbat Proiektua inprimakitik
 

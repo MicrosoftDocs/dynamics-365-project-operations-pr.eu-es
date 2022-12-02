@@ -1,6 +1,6 @@
 ---
 title: Salmenten aurreikuspenak eta proiektuak
-description: Artikulu honek salmenta-prozesuan ordutegiak eta aurrekontuak aprobetxatzeari buruzko informazioa eskaintzen du.
+description: Gai honek salmenta prozesuko antolaketa eta aurreikuspenak aprobetxatzeari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

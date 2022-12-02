@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu lanaren kostu-tasak
-description: Artikulu honek lan-proiektuaren eragiketen kostuaren tasak ezartzeari buruzko informazioa eskaintzen du
+description: Gai honek Project Operations-eko lanaren kostuak konfiguratzeari buruzko informazioa eskaintzen du
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

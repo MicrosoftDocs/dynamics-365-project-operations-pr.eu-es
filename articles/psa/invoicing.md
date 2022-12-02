@@ -1,6 +1,6 @@
 ---
 title: Fakturak egin Project Service Automation-en
-description: Artikulu honek fakturazioari buruzko informazioa eskaintzen du.
+description: Gai honek fakturak egiteari buruzko informazioa ematen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -94,7 +94,7 @@ Jarraitu urrats hauei PSAn exekutatutako faktura automatikoa konfiguratzeko.
 Lan-sortaren prozesua lan errepikaria da. Prozesu-sorta hau askotan exekutatzen bada, lanaren zenbait kasu sortzen dira eta akatsak sor daitezke. Hori dela eta, prozesu-sorta behin bakarrik hasi beharko zenuke eta exekutatzen gelditzen bada bakarrik berrabiarazi beharko zenuke.
 
 > [!NOTE]
-> Project Service Automation-en fakturazio sorta fakturen egutegien arabera konfiguratutako proiektuen kontratu lerroetarako bakarrik exekutatzen da. Prezio finkoko fakturazio metodoa duen kontratu-lerroak mugarriak konfiguratu behar ditu. Ordua eta materiala fakturatzeko metodoa duen proiektu-kontratuen lerroak fakturen egitaraua finkatuko du. Aurrekontu lerro batean oinarritutako proiektu baten testuinguruan fakturazio maiztasunak ezartzeari buruzko informazioa artikuluan ematen da, [Komatxoak eta aipamen lerroak](basic-quote-lines.md#invoice-schedule). Gauza bera gertatzen da proiektuan oinarritutako kontratu lerroan.      
+> Project Service Automation-en fakturazio sorta fakturen egutegien arabera konfiguratutako proiektuen kontratu lerroetarako bakarrik exekutatzen da. Prezio finkoko fakturazio metodoa duen kontratu-lerroak mugarriak konfiguratu behar ditu. Ordua eta materiala fakturatzeko metodoa duen proiektu-kontratuen lerroak fakturen egitaraua finkatuko du. Gaian agertzen da fakturazio-maiztasunak ezartzeko informazioa aurrekontu-lerro batean oinarritutako proiektuaren testuinguruan, [Aurrekontuak eta aurrekontu ildoak](basic-quote-lines.md#invoice-schedule). Gauza bera gertatzen da proiektuan oinarritutako kontratu lerroan.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Editatu PSAren fakturaren zirriborroa
 

@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu funtzioak zereginen xehetasunen egituraren txantiloietan
-description: Artikulu honek Lanaren banaketa-egituraren txantiloietan rolaren informazioa konfiguratzeari buruzko informazioa eskaintzen du.
+description: Gai honetan zereginen xehetasunen egituraren txantiloietan informazioa konfiguratzeari buruzko informazioa eskaintzen da.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

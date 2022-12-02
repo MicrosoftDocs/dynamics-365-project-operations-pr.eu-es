@@ -1,6 +1,6 @@
 ---
 title: Etxeko orria salatzen
-description: Artikulu honetan txostenei buruzko informazioa ematen da Dynamics 365 Project Service Automation.
+description: Gai honek txostenari buruzko informazioa ematen du Dynamics 365 Project Service Automation aplikazioan.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ Elkarrekin, Microsoft Power BI eta Dynamics 365 aplikazioek zure datuekin lan eg
 
 
 ## <a name="additional-resources"></a>Baliabide gehigarriak
-PSAren txostenei buruzko informazio gehiago lortzeko, kontsultatu artikulu hauek:
+PSA-n txostenak egiteari buruzko informazio gehiago lortzeko, ikusi gai hauek:
 
 - [Project Service-ren datu ereduarekin lan egitea](reports-working-project-service-data-model.md)
 - [Panelak](reports-dashboards.md)

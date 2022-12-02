@@ -1,6 +1,6 @@
 ---
 title: Erabili Transakzioen kategoria prezio-dimentsio gisa
-description: Artikulu honek Transakzio Kategoria eremua prezioen dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
+description: Gai honek Transakzioen kategoria eremua prezio-dimentsio gisa erabiltzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,10 +19,10 @@ ms.locfileid: "8911679"
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
 
-Artikulu honek nola erabili azaltzen du **Transakzio Kategoria** eremua prezioen dimentsio gisa. 
+Gai honek **Transakzioen kategoria** eremua prezio-dimentsio gisa erabiltzeko modua azaltzen du. 
 
 ## <a name="prerequisites"></a>Aurrebaldintzak
-Artikulu honetako prozedurak osatu aurretik, prezioen dimentsioko irtenbide berri bat izan behar duzu zure erakundearentzat. Oraindik sortu ez baduzu, ikusi [Sortu eremu eta entitate pertsonalizatuak prezioen dimentsio gisa](create-custom-fields-entities-pricing-dimensions.md).
+Gai honetako prozedurak amaitu aurretik, prezioen dimentsio irtenbide berri bat izan behar duzu zure erakundearentzat. Oraindik sortu ez baduzu, ikusi [Sortu eremu eta entitate pertsonalizatuak prezioen dimentsio gisa](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Gehitu Transakzioen kategoria eremua inprimakietan eta ikuspegietan
 **Transakzioen kategoria** eremua prezioen dimentsioaren irtenbidean ikusgai egiteko, eremua entitate gisa forma eta ikuspegi guztietara gehitu behar duzu.

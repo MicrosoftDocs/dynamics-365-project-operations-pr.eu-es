@@ -1,6 +1,6 @@
 ---
 title: Trebetasunak eta ziurtagiriak
-description: Artikulu honek baliabideei trebetasun eta ziurtapen ezaugarriak gehitzeari buruzko informazioa eskaintzen du.
+description: Gai honek baliabideei trebetasunen eta ziurtagiriaren ezaugarriak gehitzeari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

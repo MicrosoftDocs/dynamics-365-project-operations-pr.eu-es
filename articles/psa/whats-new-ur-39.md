@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 39, V3 bertsioko berrikuntzak edo aldaketak
-description: Artikulu honetan eskuragarri dauden funtzioak eta konponketak zerrendatzen dira Microsoft Dynamics 365 Project Service Automation Eguneratu 39. bertsioa, V3.
+description: Artikulu honetan eskuragarri dauden eginbideak eta konponketak zerrendatzen dira Microsoft Dynamics 365 Project Service Automation Eguneratu 39. bertsioa, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/20/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8922437"
 
 Pozik gaude egunkariaren azken eguneratzea iragarriz Microsoft Dynamics 365 Project Service Automation aplikazioa. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Dynamics 365 9.x-rekin bateragarria da. Bertsio hau eguneratzeko, bisitatu Admin Zentroa Dynamics 365 lineako soluzioen orria eta instalatu eguneratzea. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Artikulu honek Project Service Automation Update Release 39, V3rako berriak diren edo aldatu diren ezaugarriak eta konponketak zerrendatzen ditu. Bertsio honek V3.10.60.170 eraikitze-zenbakia du eta, oro har, eskuragarri dago 2022ko urtarrilean auto-eguneratze baten bidez.
+Artikulu honek Project Service Automation 39, V3 eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.60.170 konpilazio-zenbakia du eta, oro har, 2022ko urtarrilean jarriko da erabilgarri automatikoki eguneratzeko moduan.
 
 ## <a name="update-release-39"></a>39. eguneratze-bertsioa
 
@@ -47,6 +47,6 @@ Arazo hauek konpondu dira.
 
 **Salmentak**
 
-- Ren jabea **Proiektuaren kontratuaren prezioen zerrenda** okerra da prezioen zerrenda automatikoki sortzen denean. 
+- **Proiektuaren kontratuaren prezioen zerrenda**-ren jabea okerra da prezioen zerrenda automatikoki sortzen denean. 
 - Prezio-zerrenda baten data-eraginkortasuna ez da aintzat hartzen prezio-zerrenda proiektuaren parametroari aplikatzen zaionean.
 - Baliteke kontratazio-unitateak balio lehenetsi zuzena ez izatea bi aurrekontu bereizi editatzean.

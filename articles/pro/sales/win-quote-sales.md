@@ -1,6 +1,6 @@
 ---
 title: Itxi eskaintza bat - arina
-description: Artikulu honek aurrekontu bat ixteari buruzko informazioa eskaintzen du Project Operations-en.
+description: Gai honek Project Operations-eko eskaintzak ixteari buruzko informazioa ematen du.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

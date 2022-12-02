@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 14, V3 bertsioko berrikuntzak edo aldaketak
-description: Artikulu honek Project Service Automation Update Release 14 V3-n dagoen berriei buruzko informazioa eskaintzen du.
+description: Gai honek Project Service Automation eguneratzea 14 V3 bertsioko berritasunei buruzko informazioa ematen du.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8926531"
 
 Atsegin handiz adierazten dugu Dynamics 365 Project Service Automation (PSA) aplikazioaren azken eguneratzea. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Argitalpen hau bateragarria da Dynamics 365 9.x bertsioarekin. Argitalpen honetara eguneratzeko, bisitatu Dynamics 365 (online) aplikazioaren administrazio-zentroa eta joan soluzioen orrira eguneratzea instalatzeko. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Artikulu honek PSA V3, 14. bertsioaren eguneraketa berria edo aldatu diren ezaugarriak eta konponketak zerrendatzen ditu. Bertsio honek V3.10.4.21 konpilazio-zenbakia du eta antolaketa honetan dago erabilgarri:
+Gai honek PSA V3, 14. eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.4.21 konpilazio-zenbakia du eta antolaketa honetan dago erabilgarri:
 
 - **Erabilgarritasun orokorra (auto-eguneratzea):** 2020ko urtarrila
 - **Auto eguneratzea:** 2020ko otsaila

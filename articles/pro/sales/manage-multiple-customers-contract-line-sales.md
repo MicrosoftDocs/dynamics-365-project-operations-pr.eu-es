@@ -1,6 +1,6 @@
 ---
 title: Kudeatu proiektuetan oinarritutako kontratuaren lerroetako hainbat bezero - arina
-description: Artikulu honetan, proiektuetan oinarritutako kontratu-lerroetan hainbat bezero nola administratu erakusten da.
+description: Gai honek proiektuan oinarritutako kontratuaren lerroetako hainbat bezero kudeatzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

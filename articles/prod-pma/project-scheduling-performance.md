@@ -1,6 +1,6 @@
 ---
 title: Proiektuko baliabideen antolaketa-errendimendua
-description: Artikulu honetan, proiektu askotarako baliabideen programazioaren errendimendua nola hobetu erakusten da.
+description: Gai honetan proiektu ugarientzako baliabideen programazioaren errendimendua hobetzeko moduari buruzko informazioa ematen da.
 author: Yowelle
 ms.date: 08/31/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren denbora-sarreren finantza-dimentsio lehenetsiak ezartzea
-description: Artikulu honetan, aurrez zehaztutako finantza-dimentsioak denbora-sarrerei nola aplikatzen zaizkien ematen da.
+description: Artikulu honek finantza-dimentsio lehenetsiak denbora-sarrerei nola aplikatzen zaizkien buruzko informazioa eskaintzen du.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8916549"
 
 [!include [banner](../includes/banner.md)]
 
-Proiektuaren denbora-sarreretarako finantza-dimentsioak erabiltzen direnean, aurrez zehaztutako dimentsioaren balioa hurrenkera honetan ebaluatzen da:
+Proiektuaren denbora-sarreretarako finantza-dimentsioak erabiltzen dituzunean, dimentsio-balio lehenetsia hurrenkera honetan ebaluatzen da:
 
 1. Baliabidea
 2. Project
 3. Finantzaketa iturria
 
-Adibidez, baliabide batean aurrez zehaztutako dimentsioa zehazten bada, aurrez zehaztutako balioa proiekturako zehaztutako balio aurredeterminatuaren gainean aplikatzen da. Era berean, proiektu batean aurrez zehaztutako dimentsioa zehazten bada, aurrez zehaztutako balioa finantzaketa-iturrirako zehaztutako balio aurredeterminatuaren gainean aplikatzen da.
+Adibidez, baliabide batean dimentsio lehenetsia zehazten bada, balio lehenetsia proiekturako zehaztutako balio lehenetsiaren gainean aplikatuko da. Adibidez, proiektu batean dimentsio lehenetsia zehazten bada, balio lehenetsia funts-iturbururako zehaztutako balio lehenetsiaren gainean aplikatuko da.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

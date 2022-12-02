@@ -1,6 +1,6 @@
 ---
 title: Kudeatu proiektu-eskaintzetako hainbat bezero - arina
-description: Artikulu honek proiektua finantzatuko duten hainbat bezerorekin kotizazioetan nola lan egin erakusten du. (Sales)
+description: Gai honek proiektua finantzatuko duten hainbat bezeroekin aurrekontuak lantzeari buruzko informazioa eskaintzen du. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

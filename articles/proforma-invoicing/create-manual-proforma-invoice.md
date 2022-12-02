@@ -1,6 +1,6 @@
 ---
 title: Proformako fakturak
-description: Artikulu honek proiektuko eragiketetako proforma fakturei buruzko informazioa eskaintzen du.
+description: Gai honek Proformako fakturen inguruko informazioa eskaintzen du Project Operations-en.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

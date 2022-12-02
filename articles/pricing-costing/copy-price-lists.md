@@ -1,6 +1,6 @@
 ---
 title: Kopiatu prezio-zerrendak
-description: Artikulu honetan, proiektu-eragiketetako prezio-zerrendak nola kopiatu behar den ematen da.
+description: Gai honek prezio-zerrendak kopiatzeari buruzko informazioa eskaintzen du Project Operations-en.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

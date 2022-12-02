@@ -1,6 +1,6 @@
 ---
 title: BEZaren berreskurapena Gastuen kudeaketan
-description: Artikulu honek balio erantsiaren gaineko zergaren (BEZ) eragiketetan itzulketak nola jaso azaltzen du.
+description: Gai honek balio erantsiaren gaineko zergaren (BEZ) transakzioetan itzulketak nola jaso azaltzen du.
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Txosten-gida
-description: Artikulu honetan txostenei buruzko informazioari loturak ematen zaizkio.
+description: Gai honek txostenak egiteari buruzko informazioa lortzeko estekak eskaintzen ditu.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,14 +32,14 @@ ms.locfileid: "8919171"
 
 Aplikazio honetako jakinarazpen metodoek eta teknologiek zure proiektuen osasuna zehazten eta ekintza zuzentzaileak hartu noiz hartu behar dituzun identifikatzen lagun diezazuekete. 
 
-Artikulu honetan lehenago zegoen PDF esteka kendu egin da eta edukia artikulu hauetara eraman da:
+Gai honetan aurretik zegoen PDF esteka kendu da eta edukia honako gai hauetara eraman da:
 
 - [Txostenaren orri nagusia](../reports-reporting-dynamics-365-project-service.md)
 - [Aginte-panelak](../reports-dashboards.md)
 - [Project Service Automation-en datu-ereduarekin lan egitea](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Artikulu hau etorkizuneko dokumentazio eguneratze batean kenduko da. 
+> Gai hau etorkizuneko dokumentazio-eguneratze batean kenduko da. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

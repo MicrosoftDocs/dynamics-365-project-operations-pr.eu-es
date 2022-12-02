@@ -1,6 +1,6 @@
 ---
 title: Baliabide-erabileraren informazio orokorra
-description: Artikulu honetan proiektu-eragiketetan baliabideen erabilerari buruzko informazioa ematen da.
+description: Gai honek baliabideen erabilerari buruzko informazioa eskaintzen du Project Operations-en.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

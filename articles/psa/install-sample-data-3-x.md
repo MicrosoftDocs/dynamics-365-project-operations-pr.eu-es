@@ -1,6 +1,6 @@
 ---
 title: Adibide-datuen instalazioa
-description: Artikulu honek lagin-datuak Project Service Automation-en instalatzeari buruzko informazioa eskaintzen du.
+description: Gai honek Project Service Automation-eko lagin-datuak instalatzeari buruzko informazioa eskaintzen du.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak

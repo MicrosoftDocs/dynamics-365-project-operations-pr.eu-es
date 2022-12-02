@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu prezio-zerrendak
-description: Artikulu honek kostu eta salmenta prezioen zerrendak konfiguratzeari buruzko informazioa eskaintzen du.
+description: Gai honek kostuen eta salmenten prezio-zerrendak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

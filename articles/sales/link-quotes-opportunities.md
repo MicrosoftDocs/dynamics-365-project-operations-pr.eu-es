@@ -1,6 +1,6 @@
 ---
 title: Sortu proiektuen eskaintzak abaguneetan
-description: Artikulu honek aukera batetik proiektuaren aurrekontua sortzeari buruzko informazioa eskaintzen du.
+description: Gai honek abagune batetik proiektuaren eskaintzak sortzeari buruzko informazioa ematen du.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

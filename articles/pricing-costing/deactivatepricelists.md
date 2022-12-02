@@ -1,6 +1,6 @@
 ---
 title: Desaktibatu prezio-zerrendak
-description: Artikulu honek erabiltzen ez diren edo zaharrak diren prezio zerrendak nola desaktibatu edo kendu azaltzen du.
+description: Gai honetan erabiltzen ez diren edo zaharrak diren prezioen zerrendak nola desaktibatu edo ezabatu azaltzen da.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

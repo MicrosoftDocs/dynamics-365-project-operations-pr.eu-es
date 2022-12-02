@@ -1,6 +1,6 @@
 ---
 title: Benetako datuen zuzenketa masiboak onartutako denboraren eta gastuen sarrerek arabera
-description: Artikulu honetan azaltzen da nola egin ditzakeen administratzaile batek zuzenketa indibidualak edo masiboak aldez aurretik onartutako denbora-sarrerei edo gastuei, fakturazioa osatu ez bada.
+description: Gai honetan administratzaile batek aurrez onartutako orduaren edo gastuen sarreran zuzenketa bat edo masibo bat nola egin dezakeen azaltzen da, fakturazioa osatu gabe badago.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "8916274"
 
 Batzuetan, denbora edo gastuen sarrera bat okerra izan daiteke. Adibidez, baliteke aholkulari batek data okerra aukeratzea denbora-sarreran edo baliteke zenbakiekin nahastea gastu bat idaztean. Aholkulari batek ezin badu bidalitako sarreren eguneratzeak egin, administratzaile batek zuzenean zuzendu dezake proiektuko sarrera.
 
-Artikulu honetako prozedurak osatzeko, administratzaile-baimenak beharko ditu.
+Gai honetako prozedurak betetzeko, Administratzailearen baimenak beharko dituzu.
 
 ## <a name="correct-approved-time-entries"></a>Zuzendu onartutako denbora-sarrerak     
 

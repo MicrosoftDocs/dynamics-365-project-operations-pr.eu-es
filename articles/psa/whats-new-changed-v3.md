@@ -1,6 +1,6 @@
 ---
 title: Zer den berria edo zer aldatu den Project Service Automation-en 3. bertsioan
-description: Artikulu honetan Project Service Automation 3 bertsioko berrikuntzei eta aldaketei buruzko informazioa ematen da.
+description: Gai honek Project Service Automation-en 3. bertsioan berria denari eta aldatu denari buruzko informazioa eskaintzen du.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -32,7 +32,7 @@ ms.locfileid: "8926577"
 
 
 
-Artikulu honetan, erabiltzailearen interfazearen aldaketei buruzko informazioa ematen da (UI), Project Service Automation-en funtzionaltasunari eta terminologiari buruz, 2 bertsioaren edo 1 bertsioaren eta 3 bertsioaren artean.
+Gai honek erabiltzaile-interfazeari (UI), funtzionaltasunari eta terminologiari buruzko informazioa eskaintzen du Project Service Automation-en 2. bertsioaren edo 1. bertsioaren eta 3. bertsioaren artean.
 
 ## <a name="project-scheduling"></a>Proiektuen antolaketa
 Proiektuaren antolaketak, aurreko bertsioetan Zereginen xehetasunen egitura (WBS) izenarekin ezagutzen zena, Antolaketa izena hartu du eta **Antolaketa** fitxan klik eginez atzitu daiteke. 
@@ -150,7 +150,7 @@ Zeregin baterako esleipenak erreserbarik gabe dituzunean (erreserba eskasia), ge
 Atal honetan Project Service Automation-en 3. bertsioko denborari, gastuei eta onarpenari buruzko informazioa ematen da. Dynamics 365 Project Service Automation soluzioko zati gisa, **Denbora-sarrera** eginbidea freskatu egin da Interfaze bateratu esparrua aprobetxatzeko. Horren bidez, edozein pantaila-tamaina edo gailutan ikusteko modu egokia lortzeko erabiltzaile-interfaze koherente eta uniformea eskaintzen da. 
 
 ### <a name="landing-page"></a>Helburu-orria
-Hedagarria ez den denbora-sarrera pertsonalizatuaren esperientzia zaharkitu egin da 3. bertsioan. Horren ordez, eskuragarri dago jatorrizko sareta esperientzia hedagarri eta atzigarria. Denbora-sarreraren funtzionalitatean sar zaitezke ezkerreko gunearen mapa erabiliz. Aldaketa horrekin, ezin izango duzu denbora sartu astean behin. Horren ordez, saretan egun bakoitzeko denbora-sarrera bat sortu beharko duzu. Denbora-sarrera batzuk sortu ondoren, erabiltzaileek denbora-sarrerak sortu ditzakete, artikulu honetan aurrerago azaltzen den Kopiar **funtzioarekin**. 
+Hedagarria ez den denbora-sarrera pertsonalizatuaren esperientzia zaharkitu egin da 3. bertsioan. Horren ordez, eskuragarri dago jatorrizko sareta esperientzia hedagarri eta atzigarria. Denbora-sarreraren funtzionalitatean sar zaitezke ezkerreko gunearen mapa erabiliz. Aldaketa horrekin, ezin izango duzu denbora sartu astean behin. Horren ordez, saretan egun bakoitzeko denbora-sarrera bat sortu beharko duzu. Zenbait denbora-sarrera sortu ondoren, erabiltzaileek denbora-sarrerak modu masiboan sor ditzakete gai honetan geroago azalduko den **Kopiatu** funtzioa erabiliz. 
 
 ![Denbora-sarrera helburu-orrian.](media/time-entry-landing-page-07.png)
  

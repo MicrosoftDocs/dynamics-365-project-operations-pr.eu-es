@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 17.5, Hotfix, V3 bertsioko berrikuntzak edo aldaketak
-description: Artikulu honetan Project Service Automation Update Release 17.5, V3-n eskuragarri dauden ezaugarriak eta zuzenketak zerrendatzen dira.
+description: Gai honek Project Service Automation V3, 17.5. eguneratzean erabilgarri dauden eginbideak eta konponketak ditu.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8926439"
 
 Atseginez iragartzen dizuegu Dynamics 365 aplikaziorako Project Service Automation aplikazioaren azken eguneratzea. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu.  Argitalpen hau bateragarria da Dynamics 365 9.x bertsioarekin. Argitalpen honetara eguneratzeko, bisitatu Dynamics 365 (online) aplikazioaren administrazio-zentroko soluzioen orrira eguneratzea instalatzeko. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Artikulu honetan, V3, Update Release 17.5erako berriak diren edo aldatu diren ezaugarri eta zuzenketak zerrendatzen dira. Bertsio honek V3.10.7.32 konpilazio-zenbakia du eta, oro har, 2020ko martxoan jarriko da erabilgarri automatikoki eguneratzeko moduan.
+Gai honek V3, 17.5. eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honek V3.10.7.32 konpilazio-zenbakia du eta, oro har, 2020ko martxoan jarriko da erabilgarri automatikoki eguneratzeko moduan.
 
 
 ## <a name="update-release-175"></a>17.5. eguneratze-bertsioa

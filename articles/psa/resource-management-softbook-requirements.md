@@ -1,6 +1,6 @@
 ---
 title: Behin behineko erreserba-eskakizunak
-description: Artikulu honetan soft-book baldintzak nola erabili behar diren ematen da.
+description: Gai honek baliabide-eskakizunak behin behineko erreserbak egiteari buruzko informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

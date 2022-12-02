@@ -1,6 +1,6 @@
 ---
 title: Kudeatu bezerogaiak
-description: Artikulu honetan, proiektuetan oinarritutako bezero potentzialen administrazioari buruzko informazioa ematen da.
+description: Gai honek proiektuetan oinarritutako bezerogaiei buruzko informazioa ematen du.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

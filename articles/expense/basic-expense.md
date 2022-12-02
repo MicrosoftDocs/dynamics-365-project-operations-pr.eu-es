@@ -1,6 +1,6 @@
 ---
 title: Oinarrizko gastuen sarrera (arina)
-description: Artikulu honek lite inplementazio batean gastuen sarrerarekin lan egiteko moduari buruzko informazioa eskaintzen du.
+description: Gai honek lite inplementazio batean gastuen sarrerarekin lan egiteko moduari buruzko informazioa eskaintzen du.
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article

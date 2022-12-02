@@ -1,6 +1,6 @@
 ---
 title: Fakturatu atxikipen edo aurrerakin bat
-description: Artikulu honek proiektu-eragiketetan atxikipena edo aurrerakin bat fakturatzeari buruzko informazioa eskaintzen du.
+description: Gai honek Project Operations-en atxikipena edo aurrerakina fakturatzeko moduari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

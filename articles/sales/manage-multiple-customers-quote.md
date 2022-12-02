@@ -1,6 +1,6 @@
 ---
 title: Kudeatu hainbat bezero proiektuaren eskaintza batean
-description: Artikulu honek proiektua finantzatuko duten hainbat bezero barne hartzen dituzten kotizazioetan nola lan egin erakusten du.
+description: Gai honek proiektua finantzatuko duten hainbat bezeroekin aurrekontuak lantzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

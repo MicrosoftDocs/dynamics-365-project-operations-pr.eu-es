@@ -1,6 +1,6 @@
 ---
 title: Sortu enpresen arteko bezeroa eta saltzaileen fakturak
-description: Artikulu honek enpresen arteko bezero eta hornitzaileen fakturak sortzeari buruzko informazioa eskaintzen du.
+description: Gai honek enpresen arteko bezeroen eta saltzaileen fakturak nola sortu jakiteko informazioa eskaintzen du.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Erabili prozedura hori enpresen arteko bezeroaren faktura proiektuaren transakzi
 
 Mailegu-entitate juridikoan urrats hauek eman behar dira. 
 
-1. Dynamics 365 Finance atalean, joan hona **Proiektuen kudeaketa eta kontabilitatea** > **Proiektuaren fakturak** > **Enpresa arteko bezeroen fakturak**. **Enpresen arteko bezeroen fakturak** zerrenda-orrialdean, Ekintza panelean, hautatu **Berria**.
+1. Dynamics 365 Finance-n , joan **Proiektuen kudeaketa eta kontabilitatea** > **Proiektuaren fakturak** > **Enpresen arteko bezeroen fakturak** aukerara. **Enpresen arteko bezeroen fakturak** zerrenda-orrialdean, Ekintza panelean, hautatu **Berria**.
 2. **Enpresen arteko faktura sortu** orrialdean, **Pertsona juridikoa** eremuan, hautatu mailegu-entitate juridikoa.
 3. Aukerakoa: Idatzi proiektuaren kontratu zehatza eta proiektuaren zenbakia.
 4. Bilaketa mugatu data tartea hautatuta. Idatzi data zehatzak **Hasiera data** eta **Amaiera data** eremuetan. Data tarte horretan argitaratzen diren enpresen arteko transakzioak soilik bistaratzen dira bilaketaren emaitzetan.

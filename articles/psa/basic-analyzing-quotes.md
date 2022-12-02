@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren eskaintak aztertzea
-description: Artikulu honek proiektuen kotizazioen azterketari buruzko informazioa ematen du.
+description: Gai honek proiektuaren eskaintzak aztertzeari buruzko informazioa ematen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice

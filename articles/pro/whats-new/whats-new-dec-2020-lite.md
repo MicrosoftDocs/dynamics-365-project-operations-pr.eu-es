@@ -1,6 +1,6 @@
 ---
 title: 2020ko abenduko berrikuntzak - Project Operations arinaren inplementazioa - kudeatu proformako fakturak
-description: Artikulu honetan, Project Operations Lite deployment - deal to proforma billing-en 2020ko abenduko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa ematen da.
+description: Gai honek informazioa eskaintzen du 2020ko abenduan Project Operations arinaren inplementazioaren bertsioan eskuragarri dauden kalitate-eguneratzeei buruz, - proformako fakturak erabiltzea.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924047"
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
+Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
   - Project Operations Dataverse ingurunearen 4.5.0.134 bertsioa 
 

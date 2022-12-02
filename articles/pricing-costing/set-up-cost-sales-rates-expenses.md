@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu gastuen kostu- eta salmenta-tasak
-description: Artikulu honek transakzio eta gastu kategorien kostuak eta salmenta-tasak konfiguratzeari buruzko informazioa eskaintzen du.
+description: Gai honek transakzioen eta gastuen kategorien kostu- eta salmenta-tasak konfiguratzeko moduari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

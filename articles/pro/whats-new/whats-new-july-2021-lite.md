@@ -1,6 +1,6 @@
 ---
 title: '2021eko uztaileko berritasunak: Project Operations lite-ren oinarrizko inplementazioa'
-description: Artikulu honek Project Operations lite inplementazioaren 2021eko uztaileko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du.
+description: Gai honek 2021eko uztaileko Project Operations lite-ren inplementazioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8913973"
 
 _Honi aplikatzen zaio: Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
+Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
   - Project Operations Dataverse-ko inguruneko bertsioan 4.12.0.148 edo 4.12.0.152.
 

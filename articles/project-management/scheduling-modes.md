@@ -1,6 +1,6 @@
 ---
 title: Antolaketa moduak
-description: Artikulu honek programazio moduei buruzko informazioa eskaintzen du.
+description: Gai honek antolaketa moduei buruzko informazioa ematen du.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
@@ -38,7 +38,7 @@ Proiektu baten antolaketa modua definitzen duzunean, balio horietako bat ezartze
 | Ahalegin finkoaren zeregina    | Iraupena berriro kalkulatzen da. | Unitateak berriro kalkulatzen dira.    | Iraupena berriro kalkulatzen da. |
 | Iraupen finkoko zeregina  | Ahalegina berriro kalkulatzen da.   | Ahalegina berriro kalkulatzen da.    | Unitateak berriro kalkulatzen dira.   |
 
-Modu jakin baten inplikazioei buruzko informazio gehiago lortzeko, ikusi [Aldatu zeregin mota programazio zehatzagoa lortzeko](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Artikuluan, terminoa **Lana** ordez erabiltzen da **Esfortzua**.
+Modu jakin baten inplikazioei buruzko informazio gehiago lortzeko, ikusi [Aldatu zeregin mota programazio zehatzagoa lortzeko](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Gaian, terminoa **Lana** ordez erabiltzen da **Esfortzua**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Aldatu erakundearen programazio modua
 

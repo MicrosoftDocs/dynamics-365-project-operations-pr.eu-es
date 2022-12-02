@@ -1,6 +1,6 @@
 ---
 title: Sortu lanorduen-txantiloia
-description: Artikulu honek lan orduen txantiloia nola sortu deskribatzen du Project Service-n.
+description: Gai honek nola sortu lanorduen txantiloiak Project Service-n deskribatzen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

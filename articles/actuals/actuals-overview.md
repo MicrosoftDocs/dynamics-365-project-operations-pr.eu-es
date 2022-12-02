@@ -1,6 +1,6 @@
 ---
 title: Benetako datuak
-description: Artikulu honetan Microsoften benetako datuekin nola lan egin erakusten da Dynamics 365 Project Operations.
+description: Gai honek Microsoft Dynamics 365 Project Operations-en errealitateekin lan egiteko moduari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -24,20 +24,20 @@ ms.locfileid: "8924783"
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako Project Operations, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Eguneratzeek proiektu batean berrikusitako eta onartutako finantza eta egutegia adierazten dute. Denbora, gastu eta materialen erabilera, eguneko sarrerak eta fakturak onartzen direnean sortzen dira.
+Eguneratzeek proiektu batean berrikusitako eta onartutako finantza eta egutegia adierazten dute. Denbora, gastua, materialaren erabileraren sarrerak eta egunkarietako sarrerak eta fakturak onartzearen ondorioz sortzen dira.
 
 > [!IMPORTANT]
-> Datu errealak ez dira sistematik argitaratu edo ezabatu behar. Bestela, finantza-osotasunak eta beste finantza- eta kontabilitate-sistema batzuekin egindako edozein integraziok eragin negatiboa izan lezakete. Microsoftek Dynamics 365 Project Operations inbertsioa eta datu errealen ordezkoa erabiltzeko aukera ematen dio, bere proiektuen enpresa-prozesuaren bizi-zikloko hainbat puntutan benetako datuak argitaratzeko.
+> Errealak ez dira sistematik editatu edo ezabatu behar. Bestela, finantza-osotasuna eta beste finantza- eta kontabilitate-sistema batzuekin bateratze oro kaltegarriak izan daitezke. Microsoft Dynamics 365 Project Operations Errealak alderantzikatu eta ordezkatzea erabil dezakezu benetakoak editatzeko zure proiektuen negozio-prozesuaren bizi-zikloko hainbat puntutan.
 
 ## <a name="recording-actuals-based-on-project-events"></a>Proiektuen gertaeretan oinarritutako errealitateak grabatu
 
-Proiektu-eragiketak proiektu bat benetakotzat kontratatzeko bizi-zikloan gertatzen diren finantza-transakzioak erregistratzen ditu. Bizi-zikloko hainbat ekitalditan datu errealak sortzea aldatu egiten da, proiektuaren konpromisoak denbora eta materialen fakturazio-eredua edo prezio finkoko fakturazio-eredua erabiltzen duen kontuan hartuta, eta aurresalmenta-garaian dagoen edo barne-proiektu bat den kontuan hartuta.
+Project Operations-ek proiektuaren parte-hartzearen bizi-ziklo batean gertatzen diren finantza-transakzioak erreal gisa erregistratzen ditu. Bizi-zikloko hainbat ekitalditan errealak sortzea aldatu egiten da, proiektuaren konpromisoak denbora eta materialen fakturazio-eredua edo prezio finkoko fakturazio-eredua erabiltzen duen, eta salmenta-aurreko fasean dagoen edo barne-proiektu bat den.
 
-Ondorengo artikuluetan, egungo taulan hainbat ekitalditan izandako eragina azaltzen da, hainbat aldaketatarako:
+Ondorengo artikuluek Benetako taulan izan duten eragina azaltzen dute hainbat ekitalditan aldaera desberdinetarako:
 
-- [Eragin erreala denbora- eta material-konpromisoan](ActualsonTM.md)
-- [Benetako eragina prezio finkoko konpromiso batean](ActualonFP.md)
-- [Benetako eragina konpromiso baten aurresalmenta-aldian](ActualonPreSales.md)
-- [Barne-proiektu baterako benetako eragina](ActualonInternal.md)
+- [Benetako datuen eragina denbora-tarte eta materialen elkarrekintza batean](ActualsonTM.md)
+- [Benetako datuen eragina prezio finkoko elkarrekintza batean](ActualonFP.md)
+- [Benetako datuen eragina elkarrekintza baten aurresalmentako fasean](ActualonPreSales.md)
+- [Barneko proiektu baten benetako datuen eragina](ActualonInternal.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

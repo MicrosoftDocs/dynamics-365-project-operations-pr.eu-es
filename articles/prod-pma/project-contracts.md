@@ -44,7 +44,7 @@ Proiektuen kontratu batzuek zehazten dute hainbat alderdik partekatzen dutela pr
 -   Errepide proiektu bat bi udalek batera finantzatzen dute.
 -   Zubi proiektu bat gobernuaren beka batek eta korporazio pribatu batek finantzatzen dute.
 
-Dynamics 365 Finance-n, transakzio bakar baten fakturazioa edo proiektu oso bat hainbat bezero, diru-laguntza edo erakunderen artean bana dezake. 
+Dynamics 365 Finance-n, transakzio bakar baten edo proiektu oso baten fakturazioa bezero, diru-laguntza edo erakunde anitzen artean bana dezakezu. 
 
 Hainbat finantzatzaile dituzten proiektuetan, finantzaketa-proiektu aurreratu baten finantzaketan laguntzen duten alderdi guztiei finantzazio-iturri deitzen zaie. Bezeroa, erakundea edo beka finantzaketa iturri gisa definitu ondoren, finantzaketa arau bat edo gehiago esleitu daitezke. Finantzazio arauek proiektuak finantzatzeko iturri desberdinetara nola esleitzen diren zehazten duten irizpideak jasotzen dituzte. 
 

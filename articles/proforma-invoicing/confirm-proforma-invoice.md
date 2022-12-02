@@ -1,6 +1,6 @@
 ---
 title: Berretsi proiektuetan oinarritutako fakturaren proforma
-description: Artikulu honek proforma proiektuetan oinarritutako faktura bat berresteko informazioa eskaintzen du.
+description: Gai honek proforma proiektuan oinarritutako fakturak horiek berresteari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

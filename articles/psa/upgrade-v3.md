@@ -1,6 +1,6 @@
 ---
 title: Bertsio-berritzeko kontuan hartu beharrekoak - Microsoft Dynamics 365 Project Service Automation 2.x edo 1.x bertsiotik 3 bertsiora
-description: Artikulu honetan, Project Service Automation eguneratzean kontuan hartu beharreko kontsiderazioei buruzko informazioa ematen da, 3 bertsioari 2.x edo 1.x bertsioa emateko.
+description: Gai honek Project Service Automation aplikazioaren 2.x edo 1.x bertsiotik 3. bertsiora bertsio-berritzean egin behar dituzun gogoetei buruzko informazioa ematen du.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -40,7 +40,7 @@ Project Service Automation aplikazioaren 2. bertsioan eta 1. bertsioan, zeregine
 
 Project Service Automation aplikazioaren 3. bertsioan, baliabide erreserbagarriak zereginei esleitzeko azpiko eskema aldatu da. Lerroko zeregina zaharkitu egin da eta 1:1 erlazio zuzena dago **Zereginen entitatea** eremuko zereginaren eta **Baliabideen esleipena** entitateko taldekidearen artean. Proiektu-taldeko kide bati esleitzen zaizkion zereginak zuzenean gordetzen dira "Baliabideen esleipena" entitatean.  
 
-Aldaketa horiek eragina dute projektu talde batean erreserbagarriak diren baliabide izendatuetarako eta baliabide orokorretarako baliabide-esleipena duten lehendik dagoen edozein proiekturen bertsio-berritzean. Artikulu honetan, 3 bertsioan eguneratzean bere proiektuetarako kontuan hartu beharko dituen kontsiderazioak ematen dira. 
+Aldaketa horiek eragina dute projektu talde batean erreserbagarriak diren baliabide izendatuetarako eta baliabide orokorretarako baliabide-esleipena duten lehendik dagoen edozein proiekturen bertsio-berritzean. Gai honek 3. bertsiora eguneratzen duzunean proiektuan kontuan hartu beharko dituzun puntuak zeintzuk diren erakusten du. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Izendatutako baliabideei esleitutako zereginak
 Azpiko zereginen entitatea erabiliz, 2. bertsioan eta 1. bertsioan egin ziren zereginei esker, taldekideek lehenetsitako zereginaz gain beste funtzio bat har zezaketen. Adibidez, Rakel Eguzkiagirreri, modu lehentsian programa-kudeatzailearen funtzioa esleitu zitzaionari, garatzailearen eginkizuna duen zeregin bat esleitu ziezaioken. 3. bertsioan, izendatutako taldekide baten eginkizuna lehenetsia da beti. Beraz, Rakel Eguzkiagirreri esleitzen zaion edozein zereginek programa-kudeatzaileko Rakelen eginkizun lehenetsia erabiltzen du.

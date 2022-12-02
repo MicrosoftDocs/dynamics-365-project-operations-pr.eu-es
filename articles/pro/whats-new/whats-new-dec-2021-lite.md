@@ -1,6 +1,6 @@
 ---
-title: 2021eko abenduko berrikuntzak - Project Operations lite-ren inplementazioa
-description: Artikulu honetan, Project Operations lite-ren ezarpenaren 2021eko abenduko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa ematen da.
+title: Zer berri 2021eko abendua - Project Operations lite/ren inplementazioa
+description: Gai honek informazioa eskaintzen du 2022ko abenduaren Project Operations inplementazio arinaren bertsioan eskuragarri dauden kalitate-eguneratzeei buruz.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
@@ -14,36 +14,36 @@ ms.contentlocale: eu-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8914065"
 ---
-# <a name="whats-new-december-2021---project-operations-lite-deployment"></a>2021eko abenduko berrikuntzak - Project Operations lite-ren inplementazioa
+# <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Zer berri 2021eko abendua - Project Operations lite/ren inplementazioa
 
 _Honi aplikatzen zaio: Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Artikulu hau Microsoft-en osagai eta bertsio hauei aplikatzen zaie Dynamics 365 Project Operations:
+Gai hau Microsoft Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
-- Proiektuaren Eragiketak a Dataverse ingurunearen bertsioa 4.27.0.195, 4.27.0.242, 4.27.0.244
+- Project Operations 4.27.0.195, 4.27.0.242, 4.27.0.244 bertsioko Dataverse ingurunean
 
 
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
 
-### <a name="subcontract-management"></a>Azpikontratuen kudeaketa 
+### <a name="subcontract-management"></a>Azpikontratatuen kudeaketa 
 
-- [Proiektuko taldeko kideen](../subcontracting/subcontracting-project-team-members.md) azpikontratazioa: proiektu-kudeatzaile batek azpikontratuekin eta azpikontratazio-lerroekin izendatutako taldeko kideak edo generikoak sor ditzake, langileen hornidurari eta zenbatespenari erasan ahal izateko.
-- [Proiektuko taldeko kideentzako](../subcontracting/subcon-options.md) azpikontratazio-aukerak: Proiektuko lantaldeko kide izendatuak edo generikoak diren langileentzako langileak hornitzeko erabakiak hartzean, proiektuaren gerenteak dauden azpikontratuak berrikusi edo azpikontratu berriak sortu ditzake proiektuko taldekide batentzat edo gehiagorentzat. 
-- [Azpikontratatutako baliabideen esleipenen](../subcontracting/costing-subcon-ra.md) kostuen zenbatespena: Proiektuaren kostuen zenbatespenak kontuan hartuko ditu azpikontratatutako baliabideen esleipenak, eta azpikontratuekin lotutako erosketa-prezioen zerrendak erabiliz kostatuko dira. 
-- [Konfiguratu programazio-taula kontratatutako langileak eta azpikontratatutako gaitasuna](../subcontracting/configure-sb-subcon.md) erakusteko: Proiektu-eragiketetako programazio-taula orain konfiguratu daiteke baliabide erreserbagarrien kontratatutako langile-mota eta azpikontratatutako gaitasuna, langileekin batera, bilatu eta iradokitzeko. Konfigurazio hori aplika daiteke proiektuaren baldintza zehatz baterako langileak hornitzearen testuinguruan baliabideak bilatzen direnean edo proiektuaren baldintza baten testuingurutik kanpo bilatzen denean.
-- [Langile kontratatuak eta azpikontratatutako gaitasuna](../subcontracting/staffing-cw.md) dituen proiektu baterako langile-zuzkidura: Kontratatutako langileak proiektuetan gorde daitezke, programazio-batzordearen esperientziak aprobetxatuz.
-- [Azpikontratatutako osagaietarako](../subcontracting/recording-subcon-actuals.md) proiektuetan denbora, gastuak eta materialen erabilera erregistratzea: kontratatutako langileek denbora eta gastuak erregistratu ditzakete, eta proiektuko lantaldeko kideek ere erregistratu dezakete erositako materialen erabilera, azpikontratu bat erabiliz proiektu batean. Hori, erositako gaitasuna edo materialak erabiltzen dituzten proiektuetan behar diren kostuen erregistroan gertatuko da.
-- [Azpikontratu](../subcontracting/subcon-states.md) bateko estatu-transizioak: Azpikontratuak berretsi ahal izango dira hornitzailearekin negoziazioa osatzeko, entrega amaitu dela adierazteko itxi edo ezeztatzeko, hornitzailearekin kontratua amaitu dela adierazteko, entrega amaitu baino lehen.
+- [Proiektuko taldekideak azpikontratatzea](../subcontracting/subcontracting-project-team-members.md): Proiektu-zuzendari batek taldekide izendun edo generikoak sor ditzake azpikontratuekin eta azpikontratazio-lerroekin, langileen eta estimazioan eragina izateko.
+- [Proiektuko taldekideentzako azpikontratazio aukerak](../subcontracting/subcon-options.md): Proiektu-taldekideen izendun edo generikoen langileen aukerak egitean, proiektuaren kudeatzaileak lehendik dauden azpikontratuak berrikus ditzake edo proiektu-taldekide bat edo gehiagorentzat azpikontratu berriak sor ditzake. 
+- [Azpikontratatutako baliabideen esleipenen kostuen estimazioa](../subcontracting/costing-subcon-ra.md): Proiektuaren kostuen zenbatespenak azpikontratatutako baliabideen esleipenak hartuko ditu kontuan eta azpikontratuei lotutako erosketa-prezio-zerrendak erabiliz egingo du kostua. 
+- [Konfiguratu Schedule Board lan-kontratuko langileak eta azpikontratatutako gaitasuna erakusteko](../subcontracting/configure-sb-subcon.md): Ordutegi-taula Project Operations-en orain konfigura daiteke langileekin batera erreserba daitezkeen baliabideak eta azpikontratatutako edukiera kontratudun langile motak bilatzeko eta iradokitzeko. Konfigurazio hau proiektuaren eskakizun zehatz baterako langileen testuinguruan baliabideak bilatzean edo proiektuaren eskakizun baten testuingurutik kanpo bilatzean aplika daiteke.
+- [Proiektu bat lan-kontratudun langileekin eta azpikontratatutako gaitasunarekin hornitzea](../subcontracting/staffing-cw.md): Kontratupeko langileak ordutegi batzordeko esperientziak aprobetxatuz proiektuetan erreserbatu daitezke.
+- [Azpikontratatutako osagaien proiektuetan denbora, gastuak eta materialaren erabilera erregistratzea](../subcontracting/recording-subcon-actuals.md): Kontratuko langileek denbora eta gastuak erregistra ditzakete, eta proiektuko taldekideek proiektu batean azpikontratu bat erabiliz erositako materialen erabilera ere erregistra dezakete. Honen ondorioz, erositako ahalmena edo materialak erabiltzen dituzten proiektuetan kostu zehatzak erregistratuko dira.
+- [Azpikontratu batean estatu-trantsizioak](../subcontracting/subcon-states.md): Azpikontratuak saltzailearekin negoziazioa amaitzeko berretsi daitezke, itxi egin daitezke entrega amaitu dela adierazteko, edo bertan behera utzi saltzailearekin kontratua amaitu baino lehen entregatu aurretik.
 
-### <a name="task-planning"></a>Zereginen plangintza
-- Sistema-administratzaileentzako arazoen konponketa hobetua. Erabiltzaile batek proiektu bat ireki ezin duenean, administratzaileak Project-ek Project-en programazio-erregistroetan [sortutako lizentziarekin zerikusirik ez duten akatsak](../../project-management/schedule-api-logs.md) berrikusi ditzake.
-- [Erabil zaitez Microsoft Project-en webgunerako](https://support.microsoft.com/en-us/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) lanak egiaztatzeko zerrendak. Weberako Microsoft Project-en, zeregin bati kontrol-zerrenda bat gehi diezaiokezu elementu zehatzen jarraipena egiteko.
+### <a name="task-planning"></a>Zeregina antolatu
+- Arazoak konpontzeko eginbide hobetua sistema-administratzaileentzat. Erabiltzaile batek proiektu bat ireki ezin duenean, administratzaileak lizentziekin lotutako akatsak berrikus ditzake Project for the web-etik sortutako akatsak [Proiektua antolatzeko erregistroak](../../project-management/schedule-api-logs.md) atalean.
+- [Erabili zereginen zerrendak Microsoft Project for the web-en](https://support.microsoft.com/en-us/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c). Microsoft Project for the web-en, zeregin bati kontrol-zerrenda bat gehi diezaiokezu elementu zehatzen jarraipena egiteko.
 
 ## <a name="quality-updates"></a>Kalitatearen eguneratzeak
 
 | **Ezaugarrien eremua** | **Erreferentzia-zenbakia** | **Kalitatearen eguneratzea** |
 | --- | --- | --- |
-| Antolaketa eta jarraipena | 2392596 | Schedule APIek orain eguneratzeak onartzen dituzte **Ahaleginak geratzen dira**, **amaituta**, eta **% Osatu** eremuak. |
-| Antolaketa eta jarraipena | 2478497 | Jarduera-kopurua **eta** ID lan-eremuak **zuri** egon daitezke sarreran, sistemak zenbaki automatizatuaren bidez beteko dituelako.|
-| Denbora eta gastua | 2468135 | Onarpen-saioen kopurua bost izatetik hirura murrizten da. |
-| Denbora eta gastua | 2468188 | Arazoa erregistro-testuarekin zuzendu da, idatzohar-erakundearen notetext **atributuan** **gehieneko luzera gainditzen** baitzuen. |
+| Antolaketa eta jarraipena | 2392596 | Antolaketa APIek orain eguneratzeak onartzen dituzte **Geratzen den ahalegina**, **Osatutako ahalegina**, eta **% Osatuta** eremuetan. |
+| Antolaketa eta jarraipena | 2478497 | **Jardueraren zenbakia** eta **Zereginaren IDa** antolaketa APIen eremuak hutsik egon daitezke sarreran, sistemak beteko dituelako zenbakikuntza automatizatua erabiliz.|
+| Denbora eta gastua | 2468135 | Onarpen-saioen kopurua bostetik hirura murrizten da. |
+| Denbora eta gastua | 2468188 | Erregistroko testuak gehienezko luzera gainditzen zuen arazoa konpondu da **ohar-testua** atributuan **Oharra** entitatean. |

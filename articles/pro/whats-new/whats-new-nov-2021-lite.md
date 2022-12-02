@@ -1,6 +1,6 @@
 ---
-title: 2021eko azaroko nobedadeak - Project Operations lite-ren inplementazioa
-description: Artikulu honetan, Project Operations lite-ren ezarpenaren 2021eko azaroko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa ematen da.
+title: Zer berri 2021eko azaroa - Project Operations lite/ren inplementazioa
+description: Gai honek informazioa eskaintzen du 2022ko azaroaren Project Operations inplementazio arinaren bertsioan eskuragarri dauden kalitate-eguneratzeei buruz.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
@@ -14,35 +14,35 @@ ms.contentlocale: eu-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8913789"
 ---
-# <a name="whats-new-november-2021---project-operations-lite-deployment"></a>2021eko azaroko nobedadeak - Project Operations lite-ren inplementazioa
+# <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Zer berri 2021eko azaroa - Project Operations lite/ren inplementazioa
 
 _Honi aplikatzen zaio: Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Artikulu hau Microsoft-en osagai eta bertsio hauei aplikatzen zaie Dynamics 365 Project Operations:
+Gai hau Microsoft Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
-- Proiektu-eragiketak ingurune 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155 bertsio batean Dataverse
+- Project Operations 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155 bertsioko Dataverse ingurunean
   
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
 
 Eginbide hauek sartzen dira bertsio honetan:
 
-- Project Scheduling aplikazioen programaziorako interfazeek (API) Project-en bucket-ak sortzeko eta ezabatzeko gaitasuna onartzen dute orain
+- Project Scheduling aplikazioen programazio-interfazeek (API) orain proiektuaren kuboak sortzeko eta ezabatzeko gaitasuna onartzen dute
 
 ## <a name="quality-updates"></a>Kalitatearen eguneratzeak
 
-### <a name="project-operations-in-dataverse"></a>Proiektuaren eragiketak Dataverse
+### <a name="project-operations-in-dataverse"></a>Project Operations Dataverse-n
 
 | Ezaugarrien eremua | Erreferentzia-zenbakia | Kalitatearen eguneratzea |
 | --- | --- | --- |
-| Fakturazioa eta prezioak | 2358236 | Fakturak zuzentzeak zero prezioko lineak dituzten zuzenketak ahalbidetu behar ditu. |
-| Baliabideen kudeaketa | 2410072 | Lanari proiektu-kudeatzaile gisa esleitutako baliabide bat eratzeko aukera ematea. |
-| Fakturazioa eta prezioak | 2430234 | Kostuen errendimendua kalkulatzeko arazo bat konpontzea. |
-| Denbora eta gastua | 2436978 | Utzi denbora hh: mm formatuan sartzen. |
-| Fakturazioa eta prezioak | 2448623 | Prezioen zerrendak antolaketa-unitate bati lotuta egon ondoren eguneratzen uztea. |
-| Denbora eta gastua | 2460396 | Utzi denbora-sarrera bat ezabatzen gela ezabatuz. |
-| Fakturazioa eta prezioak | 2467386 | Lan bat duen proiektu bat ezabatzea, baita lana irabazitako kotizazio bati lotuta dagoenean ere. |
-| Denbora eta gastua | 2461744 | **Nire onarpen** hutsa ikusita, bidalitako etapan **proiektuak onartu besterik ez dago**. |
-| Denbora eta gastua | 2464082 | Kendu proiektuaren onarpenen eta onarpenen arteko lotura, helmuga-egoera bat bat datorrenean. |
-| Denbora eta gastua | 2468108 | Programatze lanak ez du **prozesatze-egoerarik** ezarri behar onarpen osorako. |
-| Denbora eta gastua | 2471503 | Ezabatu zazpi eguneko antzinatasuna duten onarpen-multzoak. |
-| Fakturazioa eta prezioak | 2480687 | Kotizazio-lerroaren erreferentzia ez da ezabatu behar kotizazio-lerroaren mugarri bat sortzen denean. |
+| Fakturazioa eta prezioak | 2358236 | Fakturaren zuzenketak zero prezio-lerroak dituzten zuzenketak ahalbidetu behar ditu. |
+| Baliabideen kudeaketa | 2410072 | Proiektuaren kudeatzaile gisa zeregin bati esleitutako baliabidearen erabilera-unitateak onartu |
+| Fakturazioa eta prezioak | 2430234 | Konpondu kostuen errendimendua kalkulatzeko arazo bat. |
+| Denbora eta gastua | 2436978 | Baimendu denbora hh:mm formatuan sartzeko. |
+| Fakturazioa eta prezioak | 2448623 | Onartu prezioen zerrendak eguneratzea antolakuntza-unitate batekin erlazionatu ondoren. |
+| Denbora eta gastua | 2460396 | Erabiltzaileek ordu-sarrera bat sartzea onartu gelaxka garbituz. |
+| Fakturazioa eta prezioak | 2467386 | Baimendu zeregin bat duen proiektu bat ezabatzea, baita zeregina irabazitako aurrekontu batekin lotuta dagoenean ere. |
+| Denbora eta gastua | 2461744 | **Nire onarpen hutsa** ikuspegiak egoera duten proiektuen onarpenak baino ez ditu **Bidalita** fasean. |
+| Denbora eta gastua | 2464082 | Kendu proiektuaren onarpenetatik onarpen multzorako esteka helburu-egoera bat datorrenean. |
+| Denbora eta gastua | 2468108 | Programazio lanak ez du ezarri behar **Tramitazioa** onarpen multzoaren egoera. |
+| Denbora eta gastua | 2471503 | Ezabatu zazpi egun dituzten onarpen-multzoak. |
+| Fakturazioa eta prezioak | 2480687 | Aipamen-lerroaren erreferentzia ez da kendu behar aurrekontu-lerroaren mugarri bat sortzen denean. |

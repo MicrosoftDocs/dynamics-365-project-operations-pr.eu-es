@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren aurreikuspenak eta aurrekontuak
-description: Microsoft Dynamics 365 Finance-k proiektuen aurreikuspenak eta proiektuen aurrekontuak eskaintzen ditu zure proiektuak kudeatzeko eta kontrolatzeko.
+description: Microsoft Dynamics 365 Finance proiektuen aurreikuspenak eta proiektuen aurrekontuak eskaintzen ditu zure proiektuak kudeatu eta kontrolatzeko.
 author: Yowelle
 ms.date: 10/25/2017
 ms.topic: article

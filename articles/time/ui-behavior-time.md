@@ -1,6 +1,6 @@
 ---
 title: Denbora sartzeko UI portaera
-description: Artikulu honetan erabiltzailearen interfazeak denbora sartzeko duen portaerari buruzko informazioa ematen da.
+description: Gai honek Denbora-sarreraren erabiltzaile-interfazearen portaerari buruzko informazioa ematen du.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Metodoak osatzeko kostua
-description: Artikulu honetan proiektu bat osatzeko kostua kalkulatzeko erabilitako metodoei buruzko informazioa ematen da.
+description: Gai honek proiektu bat osatzeko kostua kalkulatzeko erabilitako metodoei buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8920275"
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Artikulu honetan proiektu bat osatzeko kostua kalkulatzeko erabilitako metodoei buruzko informazioa ematen da. Proiektu bat osatzeko kostua kalkulatzeko erabil ditzakezun hainbat metodo daude. 
+Gai honek proiektu bat osatzeko kostua kalkulatzeko erabilitako metodoei buruzko informazioa eskaintzen du. Proiektu bat osatzeko kostua kalkulatzeko erabil ditzakezun hainbat metodo daude. 
 
 Proiektu baten aurrekontua sortzen duzunean, **Sortu aurrekontua** orrialdean, **Metodoa osatzeko kostua** eremuan, metodo hau osatzeko kostu hauetako bat hauta dezakezu.
 

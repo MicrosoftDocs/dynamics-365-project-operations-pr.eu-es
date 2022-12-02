@@ -1,6 +1,6 @@
 ---
 title: Onespenen ikuspegi orokorra
-description: Artikulu honetan, proiektu-eragiketetan onarpenekin nola lan egin behar den ematen da.
+description: Gai honek Project Operations-eko onarpenekin lan egiteari buruzko informazioa eskaintzen du.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview

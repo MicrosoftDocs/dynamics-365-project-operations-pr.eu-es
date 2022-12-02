@@ -1,6 +1,6 @@
 ---
 title: Produktuetan oinarritutako eskaintzaren lerroak
-description: Artikulu honek produktuetan oinarritutako aurrekontu-lerroei buruzko informazioa eskaintzen du.
+description: Gai honek eskaintza eta produktuetan oinarritutako lerroei buruzko informazioa ematen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice

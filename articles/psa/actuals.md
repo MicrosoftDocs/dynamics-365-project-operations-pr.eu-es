@@ -1,6 +1,6 @@
 ---
 title: Benetako datuen ikuspegi orokorra
-description: Artikulu honek proiektuaren benetako informazioa eskaintzen du.
+description: Gai honek benetako datuen antolaketari buruzko informazioa ematen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice

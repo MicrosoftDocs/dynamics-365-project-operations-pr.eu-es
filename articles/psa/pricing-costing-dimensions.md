@@ -1,6 +1,6 @@
 ---
 title: Prezioak eta kostuen neurriak hasierako orria
-description: Artikulu honek prezioen dimentsioen ikuspegi orokorra eskaintzen du.
+description: Gai honek prezioen dimentsioen ikuspegi orokorra eskaintzen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ PSA prezioen dimentsio multzo lehenetsia da. Hauek ikus ditzakezu **Project Serv
 > [!IMPORTANT]
 > PSAren 3. bertsioaren berezko funtzio eta antolaketa unitateak prezioen dimentsio gisa erabiltzen aritu bazara, ez da aldaketarik egongo. Project Service erabiltzen jarraitu dezakezu ohi bezala. 
 
-Baliabideen prezioa edo kostua behar baduzu atributu osagarriak erabiliz, eremu, entitate eta dimentsio pertsonalizatuak sor ditzakezu. Informazio gehiago lortzeko, ikusi artikulu hauek, hala ere, kontuan izan prozedurak behean zerrendatutako ordenan bete behar dituzula:
+Baliabideen prezioa edo kostua behar baduzu atributu osagarriak erabiliz, eremu, entitate eta dimentsio pertsonalizatuak sor ditzakezu. Informazio gehiago lortzeko, ikusi honako gai hauek; hala ere, kontuan izan prozedurak bete behar dituzula beheko zerrendako ordenean:
 
 - [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities.md)
 - [Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan](field-references.md)

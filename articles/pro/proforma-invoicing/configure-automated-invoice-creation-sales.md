@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu fakturen sortze automatikoa
-description: Artikulu honek proforma fakturak automatikoki sortzeari buruzko informazioa eskaintzen du.
+description: Gai honek proformako fakturak automatikoki sortzeari eta konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

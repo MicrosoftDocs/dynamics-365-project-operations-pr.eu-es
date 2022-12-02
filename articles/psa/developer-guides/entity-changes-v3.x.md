@@ -1,6 +1,6 @@
 ---
 title: Entitatea, kontrola eta erabiltzaile-interfazearen aldaketak (Project Service Automation 3.x)
-description: Artikulu honek irtenbide aldaketak deskribatzen ditu Microsoft Dynamics Project Service Automation 3.x.
+description: Gai honetan irtenbide aldaketak deskribatzen dira Microsoft Dynamics Project Service Automation 3.x-rako.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8926853"
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Microsoft Dynamics Project Service Automation (PSA) 3.x-ren kaleratzearekin batera, aldaketa ugari egin dira entitateetan, kontroletan, bistaratzeetan eta erabiltzaile-interfazean. Artikulu honek aldaketa garrantzitsu hauei buruzko informazioa eskaintzen du.
+Microsoft Dynamics Project Service Automation (PSA) 3.x-ren kaleratzearekin batera, aldaketa ugari egin dira entitateetan, kontroletan, bistaratzeetan eta erabiltzaile-interfazean. Gai honek aldaketa garrantzitsu hauei buruzko informazioa du:
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Lehen eta bigarren mailako harremanak salmentarako dokumentuetarako, salmenten dokumentuen lerroetarako, entitateen salmenten dokumentuen lerroaren xehetasunetarako
 Bertsioetan Dynamics 365 Project Service Automation (PSA) 3.0 bertsioa baino lehen kaleratu zen, salmenten dokumentuen, salmenta dokumentuen lerroen eta entitateen salmenten dokumentuen lerroaren xehetasunen arteko erlazio batzuk erlazionatutako entitatearen GUIDaren katearen sorrera-eremuen bidez gauzatu ziren. Hori soluzioaren zerbitzariaren eta bezeroaren aldeetan kode pertsonalizatuak garrantzitsuak eskatzen zituzten plataformen mugengatik izan zen, harreman horiek funtsezkoak izan zitezen Dynamics CRM entitate harremanak eta kate-eremuak bilaketa-eremuak bezala jarduteko.

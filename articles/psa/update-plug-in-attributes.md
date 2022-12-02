@@ -1,6 +1,6 @@
 ---
 title: Eguneratu plugin atributuak prezio-dimentsio berriak sartzeko
-description: Artikulu honetan, osagarriaren atributuak prezio-dimentsioetarako nola eguneratu behar diren ematen da.
+description: Gai honek prezio-dimentsioetarako plugin atributuak eguneratzeko informazioa eskaintzen du.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -27,9 +27,9 @@ ms.locfileid: "8913191"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Project Service Automation (PSA) kotizazio- eta kontratazio-ezaugarriak erabiltzen ari ez bazara, artikulu hau ez du eman.
+> Project Service Automation-en (PSA) Aurrekontua eta Kontratazioa eginbidea erabiltzen ari ez bazara, gai hau salta dezakezu.
 
-Artikuluen prozedurak osatu ditu artikuluen prozedurak, [eremu eta erakunde](create-custom-fields-entities.md) pertsonalizatuak sortu ditu, [erakunde transakzionalei eremu pertsonalizatuak gehitu eta prezioak konfiguratu](field-references.md) ditu, eta [eremu pertsonalizatuak prezio-dimentsio gisa konfiguratu ditu](set-up-pricing-dimensions.md). Prozedura horiek bete ez badituzu, joan atzera eta osatu eta, ondoren, itzuli artikulu honetara.
+Gai honek honako gai hauetan azaldutako prozedurak bete dituzula suposatzen du: [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities.md), [Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan](field-references.md), eta [Ezarri eremu pertsonalizatuak prezioen dimentsio gisa](set-up-pricing-dimensions.md). Prozedura horiek bete ez badituzu, itzuli, bete itzazu eta, ondoren, itzuli gai honetara.
 
 Eskaintzaren lerroaren xehetasunak sortzen direnean **Eskaintzaren lerroa** orrialdean proiektu baten eskaintzaren lerro baterako, sistemak bi estimazio lerro sortzen ditu atzeko planoan: lerro bat kostuen aldeko estimaziorako eta, bestea, salmenten aldeko estimaziorako. Gauza bera gertatzen da proiektuaren kontratuaren lerroarekin.
 

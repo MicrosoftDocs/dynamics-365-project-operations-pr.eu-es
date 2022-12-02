@@ -35,7 +35,7 @@ WBS baten xehetasun maila estimazioetan eskatzen den zehaztasun mailaren eta est
 
 Aitzitik, komunikabideetan eta publizitatean, softwarean eta IT azpiegituretan bezalako industrietako proiektuak mota batekoak izan ohi dira, eta produktibitatea zeregina betetzen ari den norbanakoaren esperientziarekin eta gaitasunarekin alderatuta dago. Hori dela eta, industria horiek WBS bat erabiltzen dute proiektu baten tamainaren hurbilketa lortzeko, ez proiektu horren aurrerapena zehatz-mehatz jarraitzeko. 
 
-WBS bat eraikitzea epe luzean egin ohi den prozesu intentsiboa da eta askotariko jendearen lankidetza eta informazioa eskatzen ditu. Artikulu honek WBS hobekuntzak nola erabil ditzakezun deskribatzen du aurrekontuak eta jarraipena egiteko zure eskakizunak betetzeko.
+WBS bat eraikitzea epe luzean egin ohi den prozesu intentsiboa da eta askotariko jendearen lankidetza eta informazioa eskatzen ditu. Gai honetan deskribatzen da WBS hobekuntzak nola erabil ditzakezun kalkuluen eta jarraipenaren baldintzak betetzeko.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS bat sortzeko aurrebaldintzak
 WBS bat sortzeko, lan egutegia sortu eta lanaren kostua kalkulatu behar duzu.
@@ -166,7 +166,7 @@ Finantzak hiru ikuspegi ditu proiektu baten WBSrako: Plangintza ikuspegia, Esfor
 
 ### <a name="planning-view"></a>Plangintza ikuspegia
 
-Planifikazio ikuspegian, ordutegiaren eta kostuen informazioaren aurreikusitako edo oinarrizko estimazioa bistaratzen da. Proiektuaren WBS baten bertsioaren eta oinarrizko lerroaren jarraipena egiteko ezaugarririk ez badago ere, ikuspegi honetako balioak oinarrizko lerroaren bertsioa irudikatzeko pentsatuta daude. Artikulu honetako Programazioaren estimazioa eta Kostuen estimazioa atalek ikuspegi hau eta WBS bat sortzeko nola erabiltzen den deskribatzen dute.
+Planifikazio ikuspegian, ordutegiaren eta kostuen informazioaren aurreikusitako edo oinarrizko estimazioa bistaratzen da. Proiektuaren WBS baten bertsioaren eta oinarrizko lerroaren jarraipena egiteko ezaugarririk ez badago ere, ikuspegi honetako balioak oinarrizko lerroaren bertsioa irudikatzeko pentsatuta daude. Gai honetako Ordutegien estimazioa eta Kostuen estimazioa atalek ikuspegi hau eta WBS bat sortzeko nola erabiltzen den deskribatzen dute.
 
 ### <a name="effort-tracking-view"></a>Ahaleginen segimenduaren ikuspegia
 

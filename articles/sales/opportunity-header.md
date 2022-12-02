@@ -1,6 +1,6 @@
 ---
 title: Abagunearen goiburua/laburpena
-description: Artikulu honek proiektuetan oinarritutako akordioei eta proiektuetan oinarritutako aukera-ildoei buruzko informazioa ematen du.
+description: Gai honek proiektuan oinarritutako eskaintzei eta proiektuetan oinarritutako aukera lerroei buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Garatu proiektuaren txantiloiak Kopiatu proiektua eginbidearekin
-description: Artikulu honek proiektuaren txantiloiak sortzeari buruzko informazioa eskaintzen du Kopiatu proiektua pertsonalizatutako ekintza erabiliz.
+description: Artikulu honek proiektuaren txantiloiak sortzeko proiektuari buruzko informazioa eskaintzen du Kopiatu proiektua ekintza pertsonalizatua erabiliz.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
@@ -25,40 +25,40 @@ Hautatzen duzunean **Kopiatu proiektua**, helburuko proiektuaren egoera egunerat
 
 ### <a name="name"></a>Eman izena 
 
-msdyn\_ CopyProjectV3
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Sarrerako parametroak
 
 Hiru sarrera-parametro daude:
 
-- **OrdezkatuNamedResources** edo **GarbituTeamsAndAssignments** – Ezarri aukeretako bakarra. Ez ezarri biak.
+- **ReplaceNamedResources** edo **ClearTeamsAndAssignments** – Ezarri aukera bakarra-. Ez ezarri biak.
 
-    - **\{"ReplaceNamedResources": egia\}** – Proiektuaren Eragiketen portaera lehenetsia. Izendatutako edozein baliabide baliabide generikoekin ordezkatzen dira.
-    - **\{"ClearTeamsAndAssignments":egia\}** – Weberako Proiektuaren portaera lehenetsia. Zeregin eta taldekide guztiak kentzen dira.
+    - **\{"ReplaceNamedResources":true\}** – Project Operations-en portaera lehenetsia. Izena duten baliabideak baliabide generikoekin ordezten dira.
+    - **\{"ClearTeamsAndAssignments":true\}** – Project for the Web-en portaera lehenetsia. Zeregin eta taldekide guztiak kentzen dira.
 
-- **IturburuProiektua** – Kopiatu nahi den iturburu-proiektuaren entitate-erreferentzia. Parametro hau ezin da nulua izan.
-- **Helburua** – Kopiatu nahi den xede-proiektuaren entitate-erreferentzia. Parametro hau ezin da nulua izan.
+- **SourceProject** – Kopiatu nahi den iturburu-proiektuaren entitate-erreferentzia. Parametroa ezin da nulua izan.
+- **Helburua** – Kopiatu nahi den helburu-proiektuaren entitate-erreferentzia. Parametroa ezin da nulua izan.
 
-Hurrengo taulak hiru parametroen laburpena eskaintzen du.
+Taula honetan erabilgarri dauden hiru parametroen laburpen labur bat agertzen da.
 
 | Parametroa                | Idatzi             | Balioa                 |
 |--------------------------|------------------|-----------------------|
-| OrdezkatuNamedResources    | Boolean          | **Egia** edo **Gezurra** |
-| GarbituTeamsAndAssignments | Boolean          | **Egia** edo **Gezurra** |
-| SourceProject            | Entitate-erreferentzia | Iturburu proiektua    |
-| Helburua                   | Entitate-erreferentzia | Xede-proiektua    |
+| ReplaceNamedResources    | Boolean          | **Egia** ala **gezurra** |
+| ClearTeamsAndAssignments | Boolean          | **Egia** ala **gezurra** |
+| SourceProject            | Entitate-erreferentzia | Jatorriko proiektua    |
+| Helburua                   | Entitate-erreferentzia | Helburu Proiektua    |
 
-Ekintzei buruzko lehenespen gehiago lortzeko, ikus [Erabili Web API ekintzak](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+Ekintzei buruzko informazio gehiagorako, ikusi [Erabili web API ekintzak](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
-### <a name="validations"></a>Balioztatzeak
+### <a name="validations"></a>Balidazioa
 
-Ondorengo balioztatzeak egiten dira.
+Ondorengo balidazioak eginda daude.
 
-1. Null-ek iturburu eta xede-proiektuak egiaztatzen eta berreskuratzen ditu erakundean bi proiektuen existentzia baieztatzeko.
+1. Nuluak iturburu eta xede-proiektuak egiaztatzen eta berreskuratzen ditu erakundean bi proiektuak daudela baieztatzeko.
 2. Sistemak baliozkotzen du xede-proiektua kopiatzeko balio duela baldintza hauek egiaztatuz:
 
     - Proiektuan ez dago aurreko jarduerarik (hautaketa barne **Zereginak** fitxa), eta proiektua sortu berria da.
-    - Ez dago aurreko kopiarik, ez da inportaziorik eskatu proiektu honetan eta proiektuak ez du a **Huts egin du** egoera.
+    - Ez dago aurreko kopiarik, ez da inportaziorik eskatu proiektu honetan, eta proiektuak ez du **Huts egin du** egoera.
 
 3. Eragiketa ez da HTTP erabiliz deitzen.
 
@@ -68,7 +68,7 @@ Ekintza deitzen denean, **Kopiatu proiektua** proiektuaren ikuspegia aztertuko d
 
 ### <a name="example"></a>Adibidez
 
-Hurrengo adibidean nola deitzen den erakusten da **CopyProjectV3** ekintza pertsonalizatuarekin **kenduNamedResources** parametro multzoa.
+Ondorengo adibidean **CopyProjectV3** ekintza pertsonalizatua **removeNamedResources** parametro multzoarekin nola deitu erakusten da.
 
 ```C#
 {

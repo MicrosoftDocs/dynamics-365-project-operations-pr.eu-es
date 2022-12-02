@@ -1,6 +1,6 @@
 ---
 title: Proiektuetako gastuen aurreikuspen ekonomikoak
-description: Artikulu honetan, proiektuetan oinarritutako gastuak nola definitu edo zenbatetsi behar diren ematen da.
+description: Gai honek proiektuan oinarritutako gastuak definitzeko edo kalkulatzeko informazioa eskaintzen du.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

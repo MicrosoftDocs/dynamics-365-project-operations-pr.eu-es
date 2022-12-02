@@ -1,6 +1,6 @@
 ---
 title: Kapturatu ordainagiriak OCR erabiliz
-description: Artikulu honek ordainagirien karaktereen ezagutza optikoko (OCR) prozesatzeari buruzko informazioa eskaintzen du.
+description: Gai honetan ordainagirien karaktereen ezagutza optikoa (OCR) prozesatzeari buruzko informazioa ematen da.
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -52,7 +52,7 @@ Gastua sortzeko edo ordainagiriaren gastuarekin bat egiteko, jarraitu urrats hau
 
 ## <a name="installation"></a>Instalazioa
 
-Gastu-gaitasun aurreratu hauek erabiltzeko, instalatu Expense Management Service gehigarria Microsoft Dynamics 365 Finantza, eta aktibatu eginbideak zure instantzian. Gehigarria zure proiektuan sar dezakezu Microsoft Dynamics Lifecycle Services (LCS).
+Gastu-gaitasun aurreratu hauek erabiltzeko, instalatu Microsoft Dynamics 365 Finance kudeaketa-zerbitzua gehigarria, eta aktibatu funtzioak zure instantzian. Gehigarria zure proiektuan sar dezakezu Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Hasi saioa LCS-n eta ireki nahi duzun ingurunea.
 2. Joan **Xehetasun guztiak**.
@@ -85,15 +85,15 @@ Ez, Microsoft-ek Ikaskuntza automatiko eredu orokorra eraiki du ordainagiriak pr
 
 **Non dago erabilgarri eta prozesatu eginbide hau?**
 
-Ezaugarri horren erabilgarritasuna hainbat eskualdetan hurrengo taulan zerrendatzen da. Bere eskualdea gaur egun bateragarria ez bada, bidali eskaera bat bere eskualdean OCR zerbitzuaren erabilgarritasuna lehenesteko. 
+Eskualde ezberdinetan funtzio honen erabilgarritasuna hurrengo taulan ageri da. Zure eskualdea ez bada onartzen, bidali eskaera zure eskualdeko OCR zerbitzuaren erabilgarritasunari lehentasuna emateko. 
 
 | Eskualdea | Onartzen da                         |
 |--------|-----------------------------------|
-| ESTATU BATUAK    | Yes                               |
+| AEB    | Yes                               |
 | CAN    | Yes                               |
 | Erresuma Batua     | Yes                               |
 | AUS    | Yes                               |
-| EB     | Partzialki. Ingelesezko ordainagiriak besterik ez. |
+|  EU     | Partziala. Ingelesezko ordainagiriak soilik. |
 | Asia   | No                                |
 | Japonia  | No                                |
 | Afrika | No                                |

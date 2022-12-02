@@ -1,6 +1,6 @@
 ---
 title: Eskaintzak - Gako-kontzeptuak
-description: Artikulu honek proiektuen aurrekontuei eta salmenten aurrekontuei buruzko informazioa eskaintzen du Project Operations atalean.
+description: Gai honek eskuragarri dauden proiektuen eskaintzei eta salmenta-eskaintzei buruzko informazioa eskaintzen du Project Operations-en.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations-en bi eskaintza mota daude: proiektuak eta salme
 - **Eremuak eta kontzeptuak**: Salmenta-eskaintzak ez ditu proiektu-eskaintzan biltzen diren zenbait eremu eta kontzeptu biltzen. Eremuek **Kontratazio-unitatea**, **Kontuen kudeatzailea**, eta **Harreman-izenaren faktura** dituzte.  
 - **Mota**: Salmenta-eskaintzak eta proiektu-eskaintzak multzoan oinarritutako eremua moduan, **Mota**, ere identifikatzen dira. Salmenta-eskaintzak lortzeko, eremuak balio hau du: **Elementuan oinarritutakoa**. Proiektu-eskaintza lortzeko, balio hau du: **Lanean oinarritutakoa**.
 
-Artikulu hau proiektuaren aurrekontuen xehetasunetan zentratzen da.
+Gai honek proiektu-eskaintzen xehetasunak fokuratzen ditu ardatz.
 
 Project Operations-en proiektu-eskaintzak lerro bat baino gehiago edo eskaintzaren lerro bat izan dezake. Izan ere, proiektu-eskaintzak lerroentzako bi sareta ditu. Sareta bat aurreikuspen zehatzak egiteko aukera ematen duten proiektuetan oinarritutako lerroetarako da. Beste sareta produktu unitateko prezio sinplea eta kantitatean oinarritutako hurbilketa erabiltzen duten produktuetarako oinarritutako lerroetarako da.
 

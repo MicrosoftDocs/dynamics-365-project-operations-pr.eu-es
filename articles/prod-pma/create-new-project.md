@@ -1,6 +1,6 @@
 ---
 title: Sortu proiektua
-description: Artikulu honetan proiektu berri bat sortzeko moduari buruzko informazioa ematen da.
+description: Gai honek proiektu berri bat sortzeari buruzko informazioa ematen du.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

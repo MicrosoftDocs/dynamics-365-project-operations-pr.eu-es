@@ -1,6 +1,6 @@
 ---
 title: Sortu aurrekontuak eskaintzaren lerro batean
-description: Artikulu honetan, proiektu baterako aurrekontu-lerro batean zenbatespen bat nola sortu behar den ematen da.
+description: Gai honek proiektu baterako aurrekontu lerro batean aurrekontua nola sortu jakiteko informazioa eskaintzen du.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

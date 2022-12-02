@@ -1,6 +1,6 @@
 ---
 title: Salmenta-prozesuak
-description: Artikulu honetan oinarrizko salmenta-prozesuei buruzko informazioa ematen da.
+description: Gai honek oinarrizko salmenta-prozesuei buruzko informazioa ematen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice

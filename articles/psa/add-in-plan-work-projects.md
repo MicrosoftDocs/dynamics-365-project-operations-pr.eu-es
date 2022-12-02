@@ -1,6 +1,6 @@
 ---
 title: Antolatu zure lana Microsoft Project-en Project Service osagarriarekin
-description: Artikulu honek Microsoft Project Service-rako Microsoft Project gehigarriaren erabilerari buruzko informazioa eskaintzen du.
+description: Gai honek Microsoft Project gehigarria Microsoft Project Service erabiltzeko informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

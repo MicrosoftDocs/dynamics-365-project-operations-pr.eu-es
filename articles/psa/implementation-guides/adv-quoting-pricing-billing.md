@@ -1,6 +1,6 @@
 ---
 title: Eskaintza aurreratua, prezioak eta fakturazioa
-description: Artikulu honetan, Project Service Automation-eko kotizazioei, fakturazioari eta prezioei buruzko informazioa ematen da.
+description: Gai honek Project Service Automation-en aurrekontuei, fakturazioari eta prezioei buruzko informazioa eskaintzen du.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8921793"
 
 Baliabide egokiak une egokian aurkitzeko, erreserbatu baliabide horiek proiektuetan eta erabil itzazu, erakundeek diru-sarreren helburuak eta bezeroen gogobetetze helburuak betetzen laguntzen baitu. 
 
-Artikulu honetan lehenago zegoen PDF esteka kendu egin da eta edukia artikulu hauetara eraman da:
+Gai honetan aurretik zegoen PDF esteka kendu da eta edukia honako gai hauetara eraman da:
 
 - [Eskaintza, prezioak eta fakturazioa](../quote-bill-price.md)
 - [Salmenta-prozesuak](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Artikulu honetan lehenago zegoen PDF esteka kendu egin da eta edukia artikulu ha
 - [Unekoak erregistratzen](../advanced-actuals.md)
 
 > [!NOTE]
-> Artikulu hau etorkizuneko dokumentazio eguneratze batean kenduko da. 
+> Gai hau etorkizuneko dokumentazio-eguneratze batean kenduko da. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

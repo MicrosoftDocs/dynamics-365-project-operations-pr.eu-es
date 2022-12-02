@@ -1,6 +1,6 @@
 ---
 title: Sortu prezio-dimentsioen soluzio pertsonalizatuak
-description: Artikulu honek irtenbide pertsonalizatu bat nola sortu azaltzen du prezio pertsonalizatuen dimentsioak sortzean.
+description: Gai honek prezio pertsonalizatuko neurriak sortzerakoan irtenbide pertsonalizatua nola sortu azaltzen du.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

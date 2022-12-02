@@ -1,6 +1,6 @@
 ---
 title: Kudeatu baliabideak
-description: Artikulu honek baliabideak kudeatzeko moduari buruzko informazioa eskaintzen du.
+description: Gai honek baliabideak kudeatzeko moduari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

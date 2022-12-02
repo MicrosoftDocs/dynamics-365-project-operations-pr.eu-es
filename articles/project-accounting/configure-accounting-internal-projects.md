@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu barne-proiektuen kontabilitatea
-description: Artikulu honetan, proiektu-eragiketetako barne-proiektuetarako kontabilitate-praktikak nola konfiguratu behar diren ematen da.
+description: Gai honek Project Operations-en barne-proiektuetarako kontabilitate-praktikak ezartzeko moduari buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article

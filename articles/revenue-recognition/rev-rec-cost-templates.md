@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu kostuen txantiloiak
-description: Artikulu honetan, proiektu-eragiketetan kostu-plantiloiak nola sortu eta erabiltzeko informazioa ematen da.
+description: Gai honek Project Operations-en kostuen txantiloiak nola sortu eta erabili informazioa eskaintzen du.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8918389"
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
 
-Artikulu honetan, proiektu-eragiketetan kostu-plantiloiak nola sortu eta erabiltzeko informazioa ematen da. Kostuen txantiloiak zehazten ditu:
+Gai honek Project Operations-en kostuen txantiloiak nola sortu eta erabili informazioa eskaintzen du. Kostuen txantiloiak zehazten ditu:
 
 - Aurreikuspenen eta benetako transakzioen proiektuen kategoriak proiektuaren amaierako kalkuluaren ehuneko batean sartu behar dira. Ehuneko osoko balioa gero zenbat diru sarrera aitortzen den kalkulatzeko erabiltzen da.
 - Amaitzearen ehunekoa alda daitekeen automatikoki kalkulatzen bada.
@@ -56,7 +56,7 @@ Kostuen txantiloia sortzeko zein planteamendu hartu erabakitzea hainbat konturen
 ## <a name="create-cost-templates"></a>Sortu kostuen txantiloiak
 Kostuen txantiloiak sortzeko, jarraitu urrats hauei:
 
-1. Kostu-plantillak eskuratzeko, Dynamics 365 Finance inguruan, joan zaitez **plantillara** > **administrazioa** > **konfiguratzeko eta proiektuen kontabilitaterako** > **·**.
+1. Kostuen txantiloiak atzitzeko, Dynamics 365 Finance ingurunea, joan **Proiektuen kudeaketa eta kontabilitatea** > **Konfigurazioa** > **Aurrekontuak** > **Kostuen txantiloia** aukerara.
 2. Hautatu **Berria** kostuen txantiloi berria sortzeko. Idatzi izena eta deskribapena.
 3. Eman kostu lerroaren IDa transakzio mota bakoitzerako.
 4. Aukeratu lehenetsitako osatze-metodoa:

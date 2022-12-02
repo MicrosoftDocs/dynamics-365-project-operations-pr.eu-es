@@ -1,6 +1,6 @@
 ---
 title: Erreserbak vs. zereginak
-description: Artikulu honetan, baliabide-erreserben eta baliabide-esleipenen arteko desberdintasunei buruzko informazioa ematen da.
+description: Gai honek baliabideen erreserben eta baliabideen esleipenen arteko desberdintasunak eskaintzen ditu.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article

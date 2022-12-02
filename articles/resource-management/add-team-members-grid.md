@@ -1,6 +1,6 @@
 ---
 title: Gehitu Team kideen saretako taldeko kideak
-description: Artikulu honek taldekideen baliabideak kudeatzeko moduari buruzko informazioa eskaintzen du.
+description: Gai honek talde kideko baliabideak kudeatzeko moduari buruzko informazioa eskaintzen du.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

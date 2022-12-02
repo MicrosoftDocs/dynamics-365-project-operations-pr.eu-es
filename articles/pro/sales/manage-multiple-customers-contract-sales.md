@@ -1,6 +1,6 @@
 ---
 title: Kudeatu hainbat bezero proiektuaren kontratuetan - arina
-description: Artikulu honek proiektu-kontratuetan hainbat bezero kudeatzeari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuan oinarritutako proiektuaren kontratuan bezero kudeatzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

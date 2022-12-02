@@ -1,6 +1,6 @@
 ---
 title: Produktuetan oinarritutako kontratuaren lerroen ikuspegi orokorra - arina
-description: Artikulu honek produktuetan oinarritutako kontratu-lerroei buruzko informazioa eskaintzen du.
+description: Gai honek kontratu eta produktuetan oinarritutako lerroei buruzko informazioa ematen du.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview

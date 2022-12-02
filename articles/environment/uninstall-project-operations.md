@@ -1,6 +1,6 @@
 ---
 title: Desinstalatu Dynamics 365 Project Operations
-description: Artikulu honek desinstalatzeko moduari buruzko informazioa eskaintzen du Dynamics 365 Project Operations.
+description: Gai honek Dynamics 365 Project Operations desinstalatzeko moduari buruzko informazioa eskaintzen du.
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
@@ -35,8 +35,8 @@ Dynamics 365 Project Operations desinstalatzeko, Administratzaile rola esleitu b
     | 6 | ProjectServiceCore_Patch                           | Ez dago ohar gehigarririk.                                                                         |
     | 7 | ProjectServiceCore                                 | Ez dago ohar gehigarririk.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Aurkitu ezean, saltatu irtenbide hau.                                                            |
-    | 9 | FieldServiceCommon                                 | Dynamics 365 Finance edo idazketa bikoitzerako beharrezkoa da Dynamics 365 Supply Chain Management.   |
-    | 1,0 | msdyn_AssetCommon                                  | Dynamics 365 Finance edo idazketa bikoitzerako beharrezkoa da Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Beharrezkoa da Dynamics 365 Finance edo Dynamics 365 Supply Chain Management-ekin idazketa duala egiteko.   |
+    | 1,0 | msdyn_AssetCommon                                  | Beharrezkoa da Dynamics 365 Finance edo Dynamics 365 Supply Chain Management-ekin idazketa duala egiteko.   |
     | 11 | msdyn_TESA_Anchor                                  | Beharrezkoa da Dynamics 365 Field Service-rako.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Beharrezkoa da Dynamics 365 Field Service-rako.                                                     |
     | 13 | msdyn_TESA                                         | Beharrezkoa da Dynamics 365 Field Service-rako.                                                     |

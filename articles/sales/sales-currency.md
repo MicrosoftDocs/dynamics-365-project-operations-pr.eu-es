@@ -1,6 +1,6 @@
 ---
 title: Moneta
-description: Artikulu honek proiektuko eragiketetan moneta motak gehitu eta kentzeari buruzko informazioa eskaintzen du.
+description: Gai honek Project Operations-en moneta motak nola gehitu eta kentzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

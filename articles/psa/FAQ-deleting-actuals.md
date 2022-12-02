@@ -1,6 +1,6 @@
 ---
 title: Zergatik ezin ditut ezabatu erregistroak uneko datuak entitatetik?
-description: Artikulu honetan informazioa ematen da erakunde errealaren erregistroak zergatik ezin diren ezabatu.
+description: Gai honek uneko entitateko erregistroak zergatik ezin dituzu ezabatu azaltzen du.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice

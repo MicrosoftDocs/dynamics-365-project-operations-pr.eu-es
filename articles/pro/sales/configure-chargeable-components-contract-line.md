@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu proiektuetan oinarritutako kontratuaren lerro bateko kobra daitezkeen osagaiak
-description: Artikulu honetan, proiektu-eragiketetako kontratu-lineei ordainketa-osagaiak nola gehitu behar zaien ematen da.
+description: Gai honetan Project Operations-eko kontratuaren lerroetan osagai kargagarriak gehitzeko moduari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

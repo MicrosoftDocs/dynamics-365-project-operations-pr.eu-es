@@ -1,6 +1,6 @@
 ---
 title: Produktuaren prezio-zerrendak
-description: Artikulu honek proiektuen aurrekontuetarako eta kontratuetarako erabiltzen diren katalogoko prezioen zerrendei buruzko informazioa eskaintzen du.
+description: Gai honek proiektuen aurrekontuetarako eta kontratuetarako erabilitako katalogoko prezioen zerrendei buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

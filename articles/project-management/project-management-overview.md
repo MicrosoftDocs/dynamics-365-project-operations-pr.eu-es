@@ -1,6 +1,6 @@
 ---
 title: Proiektuen kudeaketaren informazio orokorra
-description: Artikulu honetan, proiektuen kudeaketari buruzko informazioa ematen da Dynamics 365 Project Operations.
+description: Gai honek proiektuaren kudeaketari buruzko informazioa ematen du Dynamics 365 Project Operations-en.
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview

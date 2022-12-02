@@ -1,6 +1,6 @@
 ---
 title: Sortu proiektuaren aurrekontuen aurreikuspen ereduak
-description: Artikulu honek gainerako aurrekontuetarako aurreikuspen-eredu bat nola sortu deskribatzen du.
+description: Gai honetan gainerako aurrekontuetarako aurreikuspen eredua nola sortu deskribatzen da.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8916687"
 
 [!include [banner](../includes/banner.md)]
 
-Artikulu honek gainerako aurrekontuetarako aurreikuspen-eredu bat nola sortu deskribatzen du. Aurrekontuen kontrolpean dagoen proiektuak bi aurrekontu mota erabiltzen ditu: jatorrizkoak eta gainerakoak. Proiektuaren aurrekontua sortzen duzunean, jatorrizko eta gainerako aurrekontuen aurreikuspen ereduak zehaztu behar dituzu **Iragarpen ereduak** orrialdea. Zehaztutako ereduetan oinarritutako proiektuen aurrekontuak proiektuaren aurrekontua konprometitzen duzunean sortzen dira.
+Gai honetan gainerako aurrekontuetarako aurreikuspen eredua nola sortu deskribatzen da. Aurrekontuen kontrolpean dagoen proiektuak bi aurrekontu mota erabiltzen ditu: jatorrizkoak eta gainerakoak. Proiektuaren aurrekontua sortzen duzunean, jatorrizko eta gainerako aurrekontuen aurreikuspen ereduak zehaztu behar dituzu **Iragarpen ereduak** orrialdea. Zehaztutako ereduetan oinarritutako proiektuen aurrekontuak proiektuaren aurrekontua konprometitzen duzunean sortzen dira.
 
 > [!NOTE]
 > Aurrekontuen kontrolerako erabiltzen den iragarpen ereduak ezin du azpimodelarik izan edo azpimodel gisa erabili.

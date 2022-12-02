@@ -1,6 +1,6 @@
 ---
 title: Ulertu proiektuaren egoera
-description: Artikulu honetan, proiektuei esleitutako egoerari buruzko informazioa ematen da Dynamics 365 Project Operations.
+description: Gai honek proiektuetan esleitutako egoerari buruzko informazioa eskaintzen du Dynamics 365 Project Operations-en.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

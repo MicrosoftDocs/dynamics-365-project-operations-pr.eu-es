@@ -1,6 +1,6 @@
 ---
 title: Zehaztu inplementazio mota
-description: Artikulu honek informazioa eskaintzen du zure enpresarentzat Proiektuko eragiketen inplementazio mota egokia zehazten laguntzeko.
+description: Gai honek zure enpresako Project Operations-en inplementazio mota zuzena determinatzen laguntzeari buruzko informazioa eskaintzen du.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
@@ -25,7 +25,7 @@ _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokiet
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation erabiltzen duten Dynamics-eko lehengo bezeroak
 Project Operations-ek Project Service Automation-ekin hornitutako gaitasunak biltzen ditu. Bezero hauen bertsio berritzeko bide bat kaleratuko da 2021 bertsio 1 olatuan.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Dynamics 365 Finance-en dauden bezeroak Proiektuen kudeaketa eta kontabilitatea erabiliz 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Proiektu-kudeaketa eta kontabilitatea erabiltzen duten Dynamics 365 Finance-ren lehendik dauden bezeroak 
 
 Proiektuen kudeaketa eta kontabilitate funtzionalitatea erabiltzen duten Finantzetako lehendik dauden bezeroek bere horretan erabiltzen jarrai dezakete. Ikusi [Izakinak edo ekoizpen-eskaerak izatearen egoeretarako Project Operations](#pma).
 

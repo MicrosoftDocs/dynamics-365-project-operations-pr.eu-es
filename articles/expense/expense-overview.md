@@ -1,6 +1,6 @@
 ---
 title: Gastuen ikuspegi orokorra
-description: Artikulu honetan proiektu-eragiketetako gastuen funtzionaltasunari buruzko informazioa ematen da.
+description: Gai honek Gastua funtzioari buruzko informazioa eskaintzen du Project Operations-en.
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Berreskuratu onartutako denbora edo gastu-sarrerak
-description: Artikulu honek aurretik onartutako denbora edo gastu transakzio bat gogora ekartzeari buruzko informazioa eskaintzen du.
+description: Gai honek aldez aurretik onartutako denbora edo gastu-transakzioa berreskuratzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.custom: ''
 ms.author: rumant

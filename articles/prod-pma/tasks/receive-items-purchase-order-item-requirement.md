@@ -1,6 +1,6 @@
 ---
 title: Jaso erosketa eskaeran elementuak eskakizunetik
-description: Artikulu honek erosketa-eskaera bateko elementuak elementuen eskakizun batetik nola jaso azaltzen du.
+description: Gai honetan artikuluaren baldintza batetik erosketa-eskaera bateko artikuluak nola jaso azaltzen da.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -24,7 +24,7 @@ ms.locfileid: "8929521"
 
 [!include [banner](../../includes/banner.md)]
 
-Artikulu honek erosketa-eskaera bateko elementuak elementuen eskakizun batetik nola jaso azaltzen du.
+Gai honetan artikuluaren baldintza batetik erosketa-eskaera bateko artikuluak nola jaso azaltzen da.
 
 Artikuluaren transakzioaren ordez elementuaren eskakizuna erabiliz gero, elementua benetan erabili aurretik entregatzeko asmoa dezakezu, erosketa-agindua sortu, artikulua merkataritza-akordioaren esparruan sartu eta produktuaren eskakizuna produkzioaren plangintzan sartu. 
 

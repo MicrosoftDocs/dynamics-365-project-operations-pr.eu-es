@@ -1,6 +1,6 @@
 ---
 title: Inportatu aurreikuspen bat proiektuetan oinarritutako kontratuaren lerro batera - arina
-description: Artikulu honek proiektu batetik kontratu-lerro batera finantza-estimazioak inportatzeari buruzko informazioa eskaintzen du.
+description: Gai honek proiektu batetik kontratuaren lerro batera aurreikuspenak finantza-inportatzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

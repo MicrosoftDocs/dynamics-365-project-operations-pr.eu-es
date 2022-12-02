@@ -1,6 +1,6 @@
 ---
 title: Kudeatu proiektuaren faktura-proposamenak
-description: Artikulu honek bezeroei begira dauden fakturak prozesatzeari buruzko xehetasunak eskaintzen ditu Project Operations-ekin baliabideetan edo hornituta ez dauden agertokietarako.
+description: Gai honek baliabideetan/stockean oinarritutako egoeren Project Operations-ekin bezeroari begirako fakturak prozesatzeari buruzko xehetasunak ematen ditu.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -22,7 +22,7 @@ Proiektuen faktura proposamenak fakturazio sailak prozesatu ditzake bi baldintza
   - Proiektuaren kudeatzaileak proforma faktura berresten du Microsoft Dataverse-n.
   - Proforma fakturan sartzen diren fakturatu gabeko denbora eta material salmenta transakzio guztiak Dynamics 365 **Project Operations-en integrazioa** aldizkaria erabiliz argitaratzen dira.
 
-Erabili urrats hauek Dynamics 365 Finance-en proiektuaren faktura-proposamena osatzeko.
+Erabili urrats hauek proiektuaren faktura proposamen bat osatzeko Dynamics 365 Finance-n.
 
 1. Berrikusi fakturazioari buruzko informazioa denbora eta material transakzioetarako eta bidali **Project Operations-en integrazioa** aldizkaria.
 2. Berrikusi fakturazio informazioa prezio finkoko fakturazio mugarrietarako.

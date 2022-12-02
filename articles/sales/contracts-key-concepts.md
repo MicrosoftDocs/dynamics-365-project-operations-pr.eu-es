@@ -1,6 +1,6 @@
 ---
 title: Proiektu-kontratuak - Kontzeptu nagusiak
-description: Artikulu honetan proiektu-eragiketetako proiektu-kontratuen funtsezko kontzeptuei buruzko informazioa ematen da.
+description: Gai honek Project Operations-eko proiektuaren kontratuen gako nagusiei buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,11 +19,11 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 
 
 
-Artikulu honetan, Project-en kontratuak erabiltzen hasi aurretik kontuan hartu beharreko funtsezko kontzeptuak ematen dira Dynamics 365 Project Operations:
+Gai honek Project kontratuak erabiltzen hasi aurretik ezagutu beharreko kontzeptu nagusiak eskaintzen ditu Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Jabetzadun enpresa
 
-Enpresa jabea Dynamics 365 Finance proiektuetarako proiektuen **kudeaketa eta kontabilitate** moduluaren pertsona juridikoa da. Enpresa jabeak akordio batek sortutako kostua eta diru-sarrerak kontutan hartuko dituen pertsona juridikoa ordezkatzen du.
+Enpresaren titularra pertsona juridikoaren kontzeptuarekin bat dator Dynamics 365 Finance-ren Project Operations-en **Proiektuen kudeaketa eta kontabilitatea** proiektuaren eragiketen modulua. Enpresa jabeak akordio batek sortutako kostua eta diru-sarrerak kontutan hartuko dituen pertsona juridikoa ordezkatzen du.
 
 ## <a name="contracting-unit"></a>Kontratatzailea
 

@@ -1,6 +1,6 @@
 ---
 title: Denbora-sarreraren egutegia
-description: Artikulu honetan, sarrera-egutegia nola erabili behar den ematen da.
+description: Gai honek denbora-sarreraren egutegia erabiltzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Kudeatu proiektuaren kontratuak
-description: Artikulu honetan, proiektuetan oinarritutako kontratuak nola ikusi behar diren ematen da.
+description: Gai honek proiektuan oinarritutako kontratuei buruzko informazioa ikusten du.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Proiektuan kontratu guztien zerrenda ikus daiteke **Kontratuak** zerrenda orria.
 Kontratuak zerrenda edo orrialde honetatik sortu edo ezabatu daitezke.
 
 > [!NOTE]
-> Proiektu, zeregin, estimazio, eguneroko eta / edo horiekin lotutako kontratu errealak ezin dira ezabatu. 
+> Ezin dira ezabatu proiektuak, zereginak, aurrekontuak, aldizkariak eta/edo errealak dituzten kontratuak. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

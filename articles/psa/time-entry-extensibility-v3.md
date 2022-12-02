@@ -1,6 +1,6 @@
 ---
 title: Pertsonalizatu asteroko denbora-sarrera
-description: Artikulu honek erakunde baten praktikak onartzen dituzten negozio-arau pertsonalizatuak ezartzeari buruzko informazioa eskaintzen du.
+description: Gai honek erakundearen praktikak onartzen dituzten negozioaren arau pertsonalizatuak inplementatzeko moduari buruzko informazioa ematen du.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -46,7 +46,7 @@ Asteko denbora-sarrera sareta berria kontrol pertsonalizatua da, eta tresna-barr
 - Mota
 - Sarreraren egoera
 
-**Neurriak** sekzioak ez du lineako edizioa onartzen. Sekzio honek eremu pertsonalizatuak asteroko denbora-sarreraren saretan gehitzeko aukera ematen duen ikuspegiaren babesa du. Eremu pertsonalizatuak gehitzeari buruzko informazio gehiago lortzeko, ikusi artikulu honetan geroago "Hedagarritasuna" atala.
+**Neurriak** sekzioak ez du lineako edizioa onartzen. Sekzio honek eremu pertsonalizatuak asteroko denbora-sarreraren saretan gehitzeko aukera ematen duen ikuspegiaren babesa du. Eremu pertsonalizatuak gehitzeari buruzko informazioa eskuratzeko, ikusi "Hedagarritasuna" atala gai honetan aurrerago.
 
 ### <a name="duration"></a>Iraupena
 Iraupena sekzioak asteko egunak zutabeetako goiburu gisa erakusten ditu. Sekzio honek lineako edizioa ahalbidetzen du. Neurri egokiak dituen denbora-sarreraren errenkada bat sortu ondoren, erabiltzaileek azkar sar dezakete linean neurri horietan igarotzen duten denbora.

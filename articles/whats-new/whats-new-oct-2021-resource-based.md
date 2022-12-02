@@ -1,6 +1,6 @@
 ---
 title: Zer berri 2021eko urria - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-description: Artikulu honek Project Operations-en 2021eko urriko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du baliabideetan edo hornituta ez dauden agertokietarako.
+description: Gai honek 2021eko urriko baliabideetan/izakinik ezan oinarritutako egoeretarako Project Operations bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8914622"
 
 *Honi aplikatzen zaio: Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations*
 
-Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
+Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
    - Project Operations Microsoft Dataverse inguruneko bertsioan 4.25.0.91
-   - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.21 bertsioan
+   - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.21 bertsioan
 
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
 
@@ -49,7 +49,7 @@ Mapa hasten duen arazoren bat aurkitzen baduzu, jarraitu argibideak [Falta diren
 | Fakturazioa eta prezioak | 2338357 | Materialaren erabilera erregistroan dagoen monetak proiektuaren moneta lehenetsi behar du proiektua hautatzen denean. |
 | Denbora eta gastua | 2414777 | Onarpena bertan behera uztea gastuak edo denborak sartzeak proiektuaren onarpen bat baino gehiago dituenean posible izan behar du. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance-en
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Project Management and Accounting Dynamics 365 Finance-n
 
 | Ezaugarrien eremua | Erreferentzia-zenbakia | Kalitatearen eguneratzea |
 | --- | --- | --- |

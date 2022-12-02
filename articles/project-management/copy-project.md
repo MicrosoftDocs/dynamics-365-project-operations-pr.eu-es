@@ -25,14 +25,14 @@ Dynamics 365 Project Operations-ekin, proiektu berriak azkar eraiki ditzakezu **
 - Proiektuaren aurreikuspenak
 - Proiektuaren gastuen aurreikuspenak
 - Proiektu-materialaren aurreikuspenak
-- Proiektuen kontrol-zerrendak
-- Proiektuen kuboak
+- Proiektuaren egiaztapen-zerrendak
+- Proiektuaren ontziak
 
 ## <a name="project-properties"></a>Proiektuaren propietateak
 
-Proiektua kopiatzen denean, ondoko eremuetako balioak kopiatzen dira.
+Proiektua kopiatzen denean, eremu hauetako balioak kopiatzen dira.
 
-| Eremua | Proiektuaren Eragiketak Izakigabeko Materialak | Project Operations Lite | Weberako proiektua |
+| Eremua | Project Operations materialik gabeko materiala | Project Operations Lite | Project for the Web |
 |-------|------------------------------------------|-------------------------|---------------------|
 | Eman izena | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Deskribapenak | :heavy_check_mark: | :heavy_check_mark: | |
@@ -46,8 +46,8 @@ Proiektua kopiatzen denean, ondoko eremuetako balioak kopiatzen dira.
 | Proiektuaren egoera orokorra | :heavy_check_mark: | :heavy_check_mark: | |
 | Iruzkinak | :heavy_check_mark: | :heavy_check_mark: | |
 | Aurreikuspenak | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Aurreikusitako hasiera-data</p><p><strong>Ohar:</strong> Eremu honek kopiatik proiektua sortzen den data zehazten du. | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Aurreikusitako amaiera-data</p><p><strong>Ohar:</strong> Eremu honetako data kopiatik egin den proiektu berriaren hasiera-dataren arabera egokitzen da.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Aurreikusitako hasiera-data</p><p><strong>Oharra:</strong> eremuak proiektua kopiatik sortu zeneko data zehazten du. | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Aurreikusitako amaiera-data</p><p><strong>Oharra:</strong> Eremuko data kopiatik egindako proiektu berriaren hasierako dataren arabera egokitzen da.</p> | :heavy_check_mark: | :heavy_check_mark: | |
 | Ahalegina (orduak) | :heavy_check_mark: | :heavy_check_mark: | |
 | Aurreikusitako lan-kostua | :heavy_check_mark: | :heavy_check_mark: | |
 | Gastuetan oinarritutako aurreikusitako kostua | :heavy_check_mark: | :heavy_check_mark: | |
@@ -58,14 +58,14 @@ Proiektua kopiatzen denean, ondoko eremuetako balioak kopiatzen dira.
 
 ## <a name="work-breakdown-structure"></a>Atazen xehapenaren egitura
 
-Proiektua kopiatzen denean, baliabidez kargatutako zereginen xehetasunen egitura osoa kopiatzen da. Izena duten baliabideak baliabide generikoekin ordezten dira. Izendatutako baliabideek ez badute baliabide generikoaren lanordu berdinak, ordutegia berriro kalkulatuko da eta baliteke zereginen iraupena aldatzea.
+Proiektua kopiatzen denean, baliabidez kargatutako zereginen xehetasunen egitura osoa kopiatzen da. Izena duten baliabideak baliabide generikoekin ordezten dira. Izendatutako baliabideek baliabide generikoaren lan orduak ez badituzte, ordutegia berriro kalkulatuko da eta zereginen iraupenak alda daitezke.
 
 ## <a name="project-team-members"></a>Proiektuaren taldeko kideak
 
 Proiektu talde bat jatorrizko proiektutik kopiatzen denean, baliabide generikoak kopiatzen dira. Baliabide orokorren esleipenak ere mantendu egiten dira, jatorriko proiektuan zeudelako. Izendatutako baliabideak taldeko kide generiko bihurtuko dira.
 
 > [!NOTE]
-> Taldeko kideak eta lanak ez dira kopiatzen Weberako proiektuan.
+> Taldeko kideak eta lanak ez dira kopiatzen Project for the Web-en.
 
 ## <a name="estimates"></a>Aurreikuspenak
 

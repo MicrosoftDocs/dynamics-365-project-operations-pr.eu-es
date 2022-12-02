@@ -1,6 +1,6 @@
 ---
 title: Zehaztu rolak
-description: Artikulu honek esteka bat eskaintzen du erreserba daitezkeen baliabideen kategoriak konfiguratzeari buruzko informaziorako.
+description: Gai honek baliabide erreserbagarrien kategoriak konfiguratzeari buruzko informazioa lortzeko esteka ematen du.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation-en datu-ereduarekin lan egitea
-description: Artikulu honek datu-ereduarekin lan egiteko moduari buruzko informazioa eskaintzen du.
+description: Gai honek datu-ereduarekin lana egiteko moduari buruzko informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -31,7 +31,7 @@ ms.locfileid: "8926669"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation aplikazioak beste aplikazio entitate batzuk hedatzen ditu eta erakunde propioak sartzen ditu Common Data Service-ren datu-ereduan. Artikulu honek PSAren berri emateko eszenatoki tipikoetan aurkituko dituzun entitate batzuk deskribatzen ditu.
+Dynamics 365 Project Service Automation aplikazioak beste aplikazio entitate batzuk hedatzen ditu eta erakunde propioak sartzen ditu Common Data Service-ren datu-ereduan. Gai honek PSA-ren txostenen egoera tipikoetan topatuko dituzun zenbait entitate deskribatzen ditu.
 
 ## <a name="reporting-on-opportunities"></a>Abaguneen txostenak
 

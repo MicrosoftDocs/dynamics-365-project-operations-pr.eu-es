@@ -1,6 +1,6 @@
 ---
 title: Sortu eta aplikatu saltzailearen ordainketa atxikitzeko baldintzak
-description: Artikulu honek saltzaileen ordainketetarako atxikipen baldintzak konfiguratu eta mantentzeari buruzko informazioa eskaintzen du.
+description: Gai honetan saltzailearen ordainketetarako atxikipen baldintzak konfiguratzeko eta mantentzeko moduari buruzko informazioa ematen da.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

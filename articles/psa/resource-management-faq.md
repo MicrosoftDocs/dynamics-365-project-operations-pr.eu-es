@@ -1,6 +1,6 @@
 ---
 title: Baliabide-kudeaketari buruz maiz egiten diren galderak
-description: Artikulu honetan, baliabideen administrazioari buruzko galdera ohikoenei erantzunak ematen zaizkie.
+description: Gai honek baliabide-kudeaketari buruz maiz egiten diren galderen erantzunak eskaintzen ditu.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

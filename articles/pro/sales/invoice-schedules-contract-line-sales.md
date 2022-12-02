@@ -1,6 +1,6 @@
 ---
 title: Sortu faktura-antolaketak proiektuetan oinarritutako kontratuaren lerro batean - arina
-description: Artikulu honek fakturen egutegiak eta mugarriak sortzeari buruzko informazioa eskaintzen du.
+description: Gai honek fakturen ordutegiak eta mugarriak sortzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

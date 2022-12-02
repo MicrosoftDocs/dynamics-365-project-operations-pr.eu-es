@@ -1,6 +1,6 @@
 ---
 title: Baliabide-erreserbak eta zeregin-esleipenak nola daude erlazionatuta
-description: Artikulu honek izendun baliabideak, baliabideen erreserbak eta zereginen esleipenak kudeatu eta elkarren arteko erlazioari buruzko informazioa eskaintzen du.
+description: Gai honek baliabide izendatuak, baliabideen erreserbak eta zereginen nola kudeatu eta nola erlazionatzen diren informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

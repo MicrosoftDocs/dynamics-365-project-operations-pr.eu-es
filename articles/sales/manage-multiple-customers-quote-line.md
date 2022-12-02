@@ -1,6 +1,6 @@
 ---
 title: Proiektuetan oinarritutako eskaintzaren lerroetako hainbat bezero kudeatu
-description: Artikulu honetan, proiektuetan oinarritutako aurrekontu-lerroetan hainbat bezero nola administratu erakusten da.
+description: Gai honek proiektuak oinarritutako aurrekontu lerroetan bezero anitz kudeatzeko moduari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: 2021eko abuztuko berrikuntzak - Balabideetan edo ekoizpenean oinarritutako egoeretarako Project Operations
-description: Artikulu honetan, Project Operations-en 2021eko abuztuko bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa ematen da, baliabideetan oinarritutako edo biltegiratu gabeko agertokietarako.
+description: Gai honek 2021eko abuztuko Project Operations bertsioan eskuragarri dauden kalitate-eguneratzeei buruzko informazioa eskaintzen du baliabideetan / ez-ekoizpenean oinarritutako eszenatokietarako.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8912271"
 
 *Honi aplikatzen zaio: Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations*
 
-Artikulu hau honako hauei aplikatzen zaie Dynamics 365 Project Operations osagaiak eta bertsioak:
+Gai hau Dynamics 365 Project Operations osagai eta bertsio hauei aplikatzen zaie:
 
    - Project Operations Microsoft Dataverse inguruneko bertsioan 4.13.0.152.
-   - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunean 10.0.20 bertsioan.
+   - Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance ingurunearen 10.0.20 bertsioan.
 
 ## <a name="features-included-in-this-release"></a>Bertsioan sartzen diren eginbideak
 
@@ -54,7 +54,7 @@ Mapa hastean arazoren bat baduzu, jarraitu argibideak [Taulen zutabeak falta dir
 | Denbora eta gastua | 2336884 | **Kopiatu Astea** denbora sartzeko botoiak uneko erabiltzailea baino gehiagorako funtzionatu behar du. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Proiektuen kudeaketa eta kontabilitatea Dynamics 365 Finance-en
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Project Management and Accounting Dynamics 365 Finance-n
 
 | Ezaugarrien eremua | Erreferentzia-zenbakia | Kalitatearen eguneratzea |
 | --- | --- | --- |

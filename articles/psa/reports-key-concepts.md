@@ -1,6 +1,6 @@
 ---
 title: Kontzeptu nagusiak
-description: Artikulu honek Project Service Automation-en baliabideak kudeatzeko funtsezko kontzeptuei buruzko informazioa eskaintzen du.
+description: Gai honek Project Service Automation-en (PSA) baliabideen kudeaketa gako-kontzeptuen inguruko informazioa eskaintzen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

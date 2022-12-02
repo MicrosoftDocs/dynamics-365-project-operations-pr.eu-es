@@ -1,6 +1,6 @@
 ---
 title: Proiektu-kontratuaren ezarpenak - arina
-description: Artikulu honek kontratu-lerroei eragiten dieten eremuei eta lerro-elementu guztietan laburbiltzen den kontratuari buruzko informazioa eskaintzen du.
+description: Gai honek kontratu-lerroetan eragina duten eremuei buruzko informazioa eskaintzen du eta kontratuari buruzko informazioa lerro-elementu guztietan laburbilduta dago.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8917055"
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Artikulu honek proiektuaren kontratu osoari aplikatzen zaizkion eremuei buruzko informazioa eskaintzen du, kontratu-lerro guztietan eragina duten ezarpenak barne. Proiektuaren kontratuaren KPIak gidatzeko lerro-elementu guztietan laburbiltzen den kontratuari buruzko informazioa ere sartzen da.
+Gai honek proiektuaren kontratu osoari aplikatzen zaizkion eremuei buruzko informazioa eskaintzen du, kontratu lerro guztietan eragina duten ezarpenak barne. Proiektuaren kontratuaren KPIak gidatzeko lerro-elementu guztietan laburbiltzen den kontratuari buruzko informazioa ere sartzen da.
 
 Hurrengo taulan proiektuaren kontratuaren eremuak zerrendatzen dira Dynamics 365 Project Operations edo portaera aldaketa garrantzitsu batzuk izan Dynamics 365 Sales salmenta-eskaeratatik.
 
@@ -39,7 +39,7 @@ Ondorengo KPIak eskuragarri daude **Kontratuaren gauzatzea** proiektuaren kontra
 
 | Eremua | Kokapena | Deskribapenak |
 | --- | --- | --- |
-| Kontratuaren balioa | Kontratu orokorra | Proiektuaren kontratuaren balio osoa.|
+| Kontratuaren balioa | Kontratu orokorra | Proiektuaren kontratuaren guztizko balioa.|
 | Fakturatutako zenbatekoa | Kontratu orokorra | Kontratu honen aurkako faktura guztien zenbatekoen batura.|
 | Egindako kostua | Kontratu orokorra | Kontratuaren arabera mapatutako proiektu guztietan erregistratutako kostu erreal guztien batura. |
 | Marjina gordina | Kontratu orokorra | Fakturatutako zenbatekoa - Orain arte sortutako kostua / Fakturatutako zenbatekoa |

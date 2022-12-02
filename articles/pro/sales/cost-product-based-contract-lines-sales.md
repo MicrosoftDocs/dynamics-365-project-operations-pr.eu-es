@@ -1,6 +1,6 @@
 ---
 title: Kudeatu produktuetan oinarritutako kontratuaren lerroen kostuak - arina
-description: Artikulu honek sorkuntzari buruzko informazioa eskaintzen du
+description: Gai honek sortzeari buruzko informazioa ematen du
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
-title: Dibisen deskalifikazio-akatsa
-description: Artikulu honetan, erregistro-mota espezifikoak gordetzean sortzen den moneta-faltaren akats bati buruzko problemak konpontzeko informazioa ematen da.
+title: Moneta bat ez datorren adierazten duen errorea
+description: Artikulu honek erregistro-mota zehatzak gordetzen dituzunean gertatzen den moneta-desegokitze-erroreari buruzko arazoak konpontzeko informazioa eskaintzen du.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
@@ -14,19 +14,19 @@ ms.contentlocale: eu-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8914709"
 ---
-# <a name="currency-mismatch-error"></a>Dibisen deskalifikazio-akatsa 
+# <a name="currency-mismatch-error"></a>Moneta bat ez datorren adierazten duen errorea 
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Proiektu, kontratu, kotizazio edo baliabide erreserbagarri bat gordetzen duenean, akatsa jaso daiteke, **enpresa jabearen dibisa ez dator bat kontratazio-unitatearen dibisarekin. Aukeratu enpresa jabe bat edo kontratazio-unitate desberdin bat, jarraitzeko**. Hori da, erregistrorako kontratazio-unitateko monetaren eta enpresa jabearen diruaren artean moneta-desoreka dagoelako.
+Proiektua, kontratua, eskaintza edo baliabide erreserbagarria gordetzean baliteke **enpresaren moneta ez dator bat kontratatzeko unitatearen monetarekin. Aukeratu proiektuaren kontratuaren enpresa-jabe edo kontratazio-unitate desberdin bat** errorea agertzea. Hau da, erregistroko kontratazio-unitatearen moneta eta enpresa jabearen moneta-desegokitze bat dagoelako.
 
 
 ## <a name="resolution"></a>Ebazpena
 
-Arazo hau saihesteko, egin ezazu honako hau:
-- Egiaztatu unitate kontratatzailearen txanpona erregistro horretarako. Moneta antolaketa-unitatearen erregistroa irekiz eta Moneda **zelaiko** betile orokorrean **balioa** egiaztatzen ikus dezakezu.
-- Egiaztatu enpresa jabearen txanpona. Enpresa-erregistroan zerikusia duten **kontabilitate-liburuetara** > **joaten** ikus dezakezu txanpona. Egin klik bikoitza enpresari lotutako kontabilitate-erregistroan **eta egiaztatu balioa kontabilitate-moneda** zelaiaren **fitxa orokorrean**.
+Arazo hau konpontzeko egin hurrengoa:
+- Egiaztatu erregistro honetarako kontratazio-unitatearen dibisa. Moneta ikus dezakezu antolakuntza-unitateko erregistroa irekiz eta balioa egiaztatuz **Orokorra** fitxan **Moneta** eremua.
+- Egiaztatu moneta jabetzadun enpresaren. Dibisa helbidera joanda ikus dezakezu **Erlazionatua** > **Liburuak** enpresaren erregistroan. Egin klik bikoitza enpresarekin lotuta dagoen liburuko erregistroan eta egiaztatu balioa **Orokorra** fitxan **Kontabilitate-moneta** eremua.
 
-Kontratazio-unitatean eta kontabilitate-erregistroan ezarritako moneta bat ez badatoz, konfigurazioa doitzen badu edo erregistroa gordetzean ez diren balioak aukeratzen baditu. Sistemak erregistro horiek bat etortzea eskatzen du, konpainien arteko fakturazio-fluxu zuzenak bermatzeko. Enpresen arteko konfigurazioei buruzko informazio gehiago lortzeko, ikus [enpresen](../../project-accounting/create-intercompany-transactions.md) arteko transakzioak sortzen.
+Kontratazio-unitatean ezarritako moneta eta liburuko erregistroa bat ez badatoz, egokitu konfigurazioa edo hautatu balio desberdinak erregistroa gordetzean. Sistemak erregistro hauek bat etortzea eskatzen du enpresen arteko fakturazio-fluxu zuzenak bermatzeko. Enpresa arteko konfigurazioei buruzko informazio gehiago lortzeko, ikus [Sortu enpresen arteko transakzioak](../../project-accounting/create-intercompany-transactions.md).
 
-Enpresaren erregistroak ez badu lotutako kontabilitate-erregistrorik, horrek adierazten du konfigurazio bat falta dela ingurunea konfiguratzean. Sistemaren administratzaileak zuzendu behar du konfigurazioa. Sistemaren administratzaileak idazkera dualeko konfigurazioetara **joan** behar du, eta Ledgers-en idazkera dualaren mapa **geldiarazi eta berrabiarazi** behar du, mapa horren hasierako sinkronizazioarekin eta aldez aurreko baldintzekin. Informazio gehiagorako, ikus [Project Operations idazketa bikoitzeko mapen bertsioak](../../environment/resource-dual-write-maps.md).
+Konpainiaren erregistroak ez badu erlazionatutako liburu-erregistrorik, honek ingurunea konfiguratzerakoan konfigurazio bat falta dela adierazten du. Konfigurazioa sistemaren administratzaileak zuzendu behar du. Sistemaren administratzaileak helbidera joan behar du **Idazketa bikoitzeko konfigurazioak** eta gelditu eta berrabiarazi **Liburuen idazketa bikoitzeko mapa** mapa honen hasierako sinkronizazioarekin eta bere aurrebaldintzak. Informazio gehiagorako, ikus [Project Operations idazketa bikoitzeko mapen bertsioak](../../environment/resource-dual-write-maps.md).

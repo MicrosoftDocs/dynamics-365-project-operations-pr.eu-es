@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation eguneratzearen 44, V3 bertsioko berrikuntzak edo aldaketak
-description: Artikulu honetan Update Release 44, V3-n Microsoft Dynamics 365 Project Service Automation eskuragarri dauden ezaugarriak eta zuzenketak zerrendatzen dira.
+description: Artikulu honetan eskuragarri dauden eginbideak eta konponketak zerrendatzen dira Microsoft Dynamics 365 Project Service Automation Eguneratu 44. bertsioa, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/26/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8918665"
 
 Pozik gaude egunkariaren azken eguneratzea iragarriz Microsoft Dynamics 365 Project Service Automation aplikazioa. Argitalpen honek kalitatearen, errendimenduaren eta erabilgarritasunaren hobekuntza garrantzitsuak ditu. Dynamics 365 9.x-rekin bateragarria da. Bertsio hau eguneratzeko, bisitatu Admin Zentroa Dynamics 365 lineako soluzioen orria eta instalatu eguneratzea. Informazio gehiago lortzeko, ikusi [Instalatu, eguneratu edo kendu soluzio hobetsi bat](/power-platform/admin/install-remove-preferred-solution).
 
-Artikulu honetan, Project Service Automation Update Release 44, V3-rako aldatu diren edo aldatu diren ezaugarri eta zuzenketak zerrendatzen dira. Bertsio honek V 3.10.75.142 bilduma-zenbakia du, eta 2022ko ekainean eguneratuta.
+Artikulu honek Project Service Automation 44, V3 eguneratzea bertsioan berriak diren edo aldatu diren eginbideak eta konponketak ditu. Bertsio honen konpilazio-zenbakia V3.10.75.142 da eta, oro har, 2022ko ekaineko eguneratze automatikoaren baten bidez dago eskuragarri.
 
 ## <a name="update-release-44"></a>44. eguneratze-bertsioa
 
@@ -39,4 +39,4 @@ Arazo hauek konpondu dira.
 
 **Denbora eta gastua**
 
-- Sistemako lan atzeratuek eragotzi egiten zuten egiteke zeuden onarpenak prozesatzea.
+- Atzeratutako sistemako lanak izapidetzen ari ziren onarpenen tramitazioa eragozten ari ziren.

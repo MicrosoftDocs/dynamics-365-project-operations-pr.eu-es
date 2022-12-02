@@ -1,6 +1,6 @@
 ---
 title: Produktuen katalogoaren prezioak
-description: Artikulu honek produktuen katalogoaren prezioen funtzionamenduari buruzko informazioa eskaintzen du Dynamics 365 Project Service Automation (PSA).
+description: Gai honek produktuen katalogoaren prezioek nola funtzionatzen duten informazioa eskaintzen du Dynamics 365 Project Service Automation-en (PSA).
 author: rumant
 ms.custom:
 - dyn365-projectservice

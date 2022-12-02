@@ -1,6 +1,6 @@
 ---
 title: Aurreikusi proiektuetan oinarritutako kontratuaren lerroa - arina
-description: Artikulu honetan, proiektuetan oinarritutako kontratu-lerro baten zenbatespenari buruzko informazioa ematen da.
+description: Gai honek proiektuan oinarritutako kontratu lerroak aurreikusteari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

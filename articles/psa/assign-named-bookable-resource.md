@@ -1,6 +1,6 @@
 ---
 title: Erreserbatu baliabide erreserbagarriak proiektuko talde bati eta esleitu zereginak
-description: Artikulu honetan, proiektu-taldeei izena ematen dien baliabideak nola erreserbatu eta zereginei nola esleitu buruzko informazioa ematen da.
+description: Gai honek proiektu taldeetara izena duten baliabideak erreserbatzeko eta hauek zereginetara esleitzeko moduari buruzko informazioa eskaintzen du.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

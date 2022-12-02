@@ -1,6 +1,6 @@
 ---
 title: Proiektuetan oinarritutako eskaintzaren lerroa aurreikustea
-description: Artikulu honek proiektuetan oinarritutako aurrekontu-lerro batean zenbatespena sortzeko moduari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuan oinarritutako eskaintzaren lerro baterako aurrekontu bat nola sortu jakiteko informazioa eskaintzen du.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article

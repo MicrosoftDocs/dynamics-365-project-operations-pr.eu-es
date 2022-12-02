@@ -1,6 +1,6 @@
 ---
 title: Zaharkitutako web baliabideak Project Service Automation-en 3.x bertsioan
-description: Artikulu honetan jada erabiltzen ez diren web baliabideak deskribatzen dira Dynamics 365 Project Service Automation 3.0.
+description: Gai honetan Dynamics 365 Project Service Automation 3.0 aplikazioan jada erabiltzen ez diren web baliabideak deskribatzen dira.
 author: makk
 ms.custom:
 - dyn365-projectservice

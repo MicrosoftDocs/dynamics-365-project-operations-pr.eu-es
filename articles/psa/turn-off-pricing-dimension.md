@@ -1,6 +1,6 @@
 ---
 title: Desaktibatu prezio-dimentsioa
-description: Artikulu honetan, Project Service soluzioan prezio-dimentsioak nola konfiguratu erakusten da.
+description: Gai honek prezio-dimentsioak Project Service soluzioan nola ezarri erakusten du.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

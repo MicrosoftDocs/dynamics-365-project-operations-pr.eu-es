@@ -1,6 +1,6 @@
 ---
 title: Sortu enpresen arteko transakzioak
-description: Artikulu honetan enpresen arteko transakzioak nola sortu behar den ematen da.
+description: Gai honek enpresen arteko transakzioak nola sortu jakiteko informazioa eskaintzen du.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -30,14 +30,14 @@ Enpresen arteko transakzioa onartzen denean, benetako transakzio hauek sortzen d
 
 Kostua, baliabideen unitateko kostua eta erakundeen arteko unitateen salmenten transakzioen prezioa eta moneta dira **antolakuntza unitatea**. Garrantzitsua da hori gogoratzea zure ezarpenean enpresak eta antolakuntza unitateak nola egituratu erabakitzeko orduan.
 
-Aukera, aurrekontua, proiektuaren kontratua eta proiektuaren erregistroak sortzen dituzunean, sistemak egiaztatzen du kontratazio unitatearen moneta kontratatutako enpresaren kontabilitate monetarekin bat datorren. Berdinak ez direnean, ezin dira erregistro hauek sortu. Urtean antolakuntza unitatearen moneta definitzen da Dynamics 365 Project Operations joanez **Dataverse** > **Ezarpenak** > **Antolakuntza-unitateak**. Enpresa bateko kontabilitate-moneta Dynamics 365 Finance-n definitzen da, Ledger setup **Ledger liburu nagusira** > **·** > **joanez**. Moneta zurekin sinkronizatuta dago Dataverse ingurunea Ledgers Dual Write mapa erabiliz.
+Aukera, aurrekontua, proiektuaren kontratua eta proiektuaren erregistroak sortzen dituzunean, sistemak egiaztatzen du kontratazio unitatearen moneta kontratatutako enpresaren kontabilitate monetarekin bat datorren. Berdinak ez direnean, ezin dira erregistro hauek sortu. Urtean antolakuntza unitatearen moneta definitzen da Dynamics 365 Project Operations joanez **Dataverse** > **Ezarpenak** > **Antolakuntza-unitateak**. Enpresaren kontabilitate moneta hemen definitzen da Dynamics 365 Finance joanez **Liburu nagusia** > **Liburuaren konfigurazioa** > **Liburua**. Moneta zurekin sinkronizatuta dago Dataverse ingurunea Ledgers Dual Write mapa erabiliz.
 
 Sistemak baliabideen unitateko kostua eta erakundeen arteko unitateen salmenten errealitatea sortzen du egoera hauetan:
 
   - Baliabideen unitatea kontratazio unitatearekin desberdina denean
   - Baliabideen enpresa kontratazio-enpresarekin desberdina denean
 
-Hala ere, enpresa kontratatzailea ez den beste baliabide-enpresa batek dituen transakzioak bakarrik transferituko dira Dynamics 365 Finance ingurunera kontabilitate gehigarri baterako.
+Hala eta guztiz ere, enpresa kontratatzailearengandik beste baliabideen enpresa bat duten transakzioak soilik transferituko dira Dynamics 365 Finance kontabilitate osagarriaren ingurunea.
 
 Proiektuaren datuen kontabilitatea Project Operations integrazio aldizkarian jasotzen da Finantzan. Sistemak aldizkari lerro hauek sortzen ditu.
 

@@ -1,6 +1,6 @@
 ---
 title: Plugin-atributuak prezio-dimentsio berriak gehitzeko eguneratzen
-description: Artikulu honek prezioen dimentsioetarako plug-in-atributuak eguneratzeari buruzko informazioa eskaintzen du.
+description: Gai honek prezio-dimentsioetarako plugin atributuak eguneratzeko informazioa eskaintzen du.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.locfileid: "8919999"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Eguneratu plugin-atributuak prezio-dimentsio berriak gehitzeko
 
-Artikulu honek prezioen dimentsioetarako plug-in-atributuak eguneratzeari buruzko informazioa eskaintzen du.
+Gai honek prezio-dimentsioetarako plugin atributuak eguneratzeko informazioa eskaintzen du.
 
 > [!NOTE]
-> Artikulu hau aurrekontuaren eta kontratuaren ezaugarrietarako soilik da aplikagarria Dynamics 365 Project Operations.
+> Gai hau aurrekontuaren eta kontratuaren ezaugarriei soilik aplikatzen zaie Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Aurrebaldintzak
-Artikulu honetako urratsak egin aurretik, hurrengo artikuluetako prozedurak bete behar dituzu:
+Gai honetako pausoak bete aurretik, gai hauetako prozedurak bete beharko dituzu:
 
   - [Sortu eremu eta entitate pertsonalizatuak](create-custom-fields-entities-pricing-dimensions.md) 
   - [Gehitu eremu pertsonalizatuak prezioen konfigurazioan eta entitate transakzionaletan ](add-custom-fields-price-setup-transactional-entities.md)
   - [Konfiguratu eremu pertsonalizatuak prezio-dimentsio gisa](set-up-custom-fields-pricing-dimensions.md). 
   
-Prozedura horiek bete ez badituzu, bete itzazu eta itzuli artikulu honetara.
+Prozedura horiek bete ez badituzu, bete itzazu eta, ondoren, itzuli gai honetara.
 
 ## <a name="register-a-plug-in"></a>Erregistratu plugina
 Aurrekontuaren lerroaren xehetasuna sortzen denean **Aipatu lerroa** proiektuaren aurrekontu lerroaren orrialdea, sistemak bi estimazio lerro sortzen ditu. Lerro bat aurrekontuaren kostuaren aldekoa da eta beste lerroa salmenten aldekoa. Gauza bera gertatzen da proiektuaren kontratuaren lerroarekin.

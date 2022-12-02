@@ -1,6 +1,6 @@
 ---
 title: Proiektuetako materialen aurreikuspen ekonomikoak
-description: Artikulu honek proiektuetan oinarritutako materialak definitzeari edo estimatzeari buruzko informazioa eskaintzen du.
+description: Gai honek proiektuan oinarritutako materialak definitzeko edo kalkulatzeko informazioa eskaintzen du.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

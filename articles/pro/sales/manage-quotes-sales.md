@@ -1,6 +1,6 @@
 ---
 title: Kudeatu proiektuaren eskaintzak
-description: Artikulu honek proiektuen aurrekontuei buruzko informazioa eskaintzen du.
+description: Gai honek proiektuaren eskaintzeei buruzko informazioa ematen du.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

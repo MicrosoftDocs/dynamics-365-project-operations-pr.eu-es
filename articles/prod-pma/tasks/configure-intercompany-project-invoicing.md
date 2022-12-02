@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu enpresen arteko proiektuen fakturazioa
-description: Artikulu honetan, erakundeko bi enpresen arteko proiektuen fakturazioa nola konfiguratu erakusten da.
+description: Gai honek proiektuaren fakturazioa zure erakundeko bi enpresen artean nola konfiguratu erakusten du.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8916595"
 
 [!include [banner](../../includes/banner.md)]
 
-Artikulu honetan, erakundeko bi enpresen arteko proiektuen fakturazioa nola konfiguratu erakusten da. Zeregin honek USSI datu multzoa erabiltzen du.
+Gai honek proiektuaren fakturazioa zure erakundeko bi enpresen artean nola konfiguratu erakusten du. Zeregin honek USSI datu multzoa erabiltzen du.
 
 1. Nabigazio panelean, joan hona: **Moduluak > Ordaindu beharreko kontuak > Saltzaileak > Saltzaile guztiak**.
 2. **Saltzaile guztiak** zerrendan, eta hautatu nahi duzun erregistroa.

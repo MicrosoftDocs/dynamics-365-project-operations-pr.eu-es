@@ -1,6 +1,6 @@
 ---
 title: Transferitu aurrekontua proiektu batera
-description: Artikulu honek aurrekontu bat proiektu berri edo lehendik dagoen batera transferitzeari buruzko informazioa eskaintzen du.
+description: Gai honek aurrekontua proiektu berri edo lehendik dagoenera nola transferitu jakiteko informazioa eskaintzen du.
 author: kfend
 ms.date: 05/28/2020
 ms.topic: article

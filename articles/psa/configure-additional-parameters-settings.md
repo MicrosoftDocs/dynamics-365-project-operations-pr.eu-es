@@ -30,7 +30,7 @@ ms.locfileid: "8919217"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Aurreko artikuluetako elementuak konfiguratu ondoren, proiektu-parametro gehigarriak ezarri behar ditu bere proiektuetan erabiltzeko. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] instalatu ostean, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] zerbitzuak funtzionatzeko behar diren erregistro guztien parametro-ezarpena sortu duzu. Itzuli eta ezarpen horien eremu osagarriak konfiguratzeko unea da.  
+Aurreko gaiko elementuak konfiguratu ostean, proiektu-parametro osagarriak ezarri behar dituzu zure proiektuetarako. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] instalatu ostean, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] zerbitzuak funtzionatzeko behar diren erregistro guztien parametro-ezarpena sortu duzu. Itzuli eta ezarpen horien eremu osagarriak konfiguratzeko unea da.  
   
  Ezarpen hauek konfiguratuta izan behar dituzu:  
   

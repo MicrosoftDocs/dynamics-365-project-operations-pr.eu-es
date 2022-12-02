@@ -1,6 +1,6 @@
 ---
 title: Bateratu erreserbak eta esleipenak
-description: Artikulu honek benetakoei buruzko informazioa eskaintzen du.
+description: Gai honek benetako datuei buruzko informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

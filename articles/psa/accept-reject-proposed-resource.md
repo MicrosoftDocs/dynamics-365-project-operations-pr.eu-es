@@ -1,6 +1,6 @@
 ---
 title: Proposatutako proiektuaren baliabidea onartu edo ezetsi
-description: Artikulu honek proposatutako proiektu-baliabide bat onartzeari edo ukatzeari buruzko informazioa eskaintzen du.
+description: Gai honek proposatutako proiektuaren baliabidea onartu edo ezesteko informazioa ematen du.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -30,7 +30,7 @@ ms.locfileid: "8916181"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Artikulu honek proposatutako proiektu-baliabide bat onartzeari edo ukatzeari buruzko informazioa eskaintzen du.
+Gai honek proposatutako proiektuaren baliabidea onartu edo ezesteko informazioa ematen du.
 
 Baliabideen kudeatzaileak proiektu batentzako baliabide generikoen eskaera betetzeko izendatutako baliabidea proposatzen duenean, **Eskaeraren egoera** talde generikoko kideentzako eremua eguneratuko da **Beharrak berrikustea** egoerara. Eskaera proiektuko arduradunari bidaliko zaio onarpena edo ezetza egiteko.
 

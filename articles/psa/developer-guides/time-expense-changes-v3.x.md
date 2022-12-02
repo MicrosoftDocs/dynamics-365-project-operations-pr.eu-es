@@ -1,6 +1,6 @@
 ---
 title: Denbora eta gastuen aldaketak (Project Service Automation 3.x)
-description: Artikulu honetan denborarako eta gastuetarako konponbide-aldaketei buruzko informazioa ematen da.
+description: Gai honek Denbora eta Gastua konponbideetan egindako aldaketen inguruko informazioa ematen du.
 author: makk
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Saltzaileen fakturen integrazioa
-description: Artikulu honetan, hornitzailearen fakturak proiektu-eragiketetan integratzeari buruzko informazioa ematen da.
+description: Gai honek saltzaileen fakturen integrazioaren inguruko informazioa eskaintzen du Project Operations-en.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
@@ -21,7 +21,7 @@ _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritut
 Proiektuarekin lotutako kontratazioa Dynamics 365 Project Operations ra joan daiteke **Ordaintzeko kontuak** > **Fakturak** > **Saltzailearen fakturak zain** eta zain dagoen saltzailearen faktura dokumentua erabiliz. Informazio gehiagorako, ikusi [Erosi ez dauden materialak saltzailearen faktura pendiente baten bidez](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Artikulu honetan deskribatutako funtzionalitateak erabili aurretik, berrikusi eta aplikatu behar diren konfigurazioak. Informazio gehiagorako, ikusi [Gaitu ez dauden materialak eta saltzailearen faktura pendienteak](../procurement/configure-materials-nonstocked.md).
+> Gai honetan azaldutako funtzionalitatea erabili aurretik, berrikusi eta aplikatu beharrezko konfigurazioak. Informazio gehiagorako, ikusi [Gaitu ez dauden materialak eta saltzailearen faktura pendienteak](../procurement/configure-materials-nonstocked.md).
 
 Project Operations-en, proiektuari lotutako saltzaileen fakturak argitaratzeko arau bereziak erabiliz argitaratzen dira:
 
@@ -34,7 +34,7 @@ Project Operations-en, proiektuari lotutako saltzaileen fakturak argitaratzeko a
      > [!NOTE]
      > Saltzailearen faktura xehetasunak hemen Dataverse ez dira editagarriak.
 
-Zergen sublibrotea, hornitzailearen sublibrotea eta beste finantza-kontabilizazio batzuk Dynamics 365 Finance-n aplikagarri gisa erregistratzen dira, hornitzailearen faktura kontabiltzen denean.
+Zerga azpiegitura, saltzailearen azpiegitura eta bestelako finantza bidalketak hemen aplikatzen diren moduan erregistratzen dira Dynamics 365 Finance saltzailearen faktura argitaratzen denean.
 
 ![Saltzaileen fakturen integrazioa.](media/DW7VendorInvoice.png)
 

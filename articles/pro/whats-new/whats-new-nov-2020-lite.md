@@ -1,6 +1,6 @@
 ---
 title: 2020ko azaroko berrikuntzak - Project Operations arinaren inplementazioa - kudeatu proformako fakturak
-description: Artikulu honek Project Operations Lite inplementazioaren 2020ko azaroko bertsioan eskuragarri dauden kalitate eguneratzeei buruzko informazioa eskaintzen du - proforma fakturazioari aurre egin.
+description: Gai honek informazioa eskaintzen du 2020ko azaroan Project Operations arinaren inplementazioaren bertsioan eskuragarri dauden kalitate-eguneratzeei buruz, - proformako fakturak erabiltzea.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article

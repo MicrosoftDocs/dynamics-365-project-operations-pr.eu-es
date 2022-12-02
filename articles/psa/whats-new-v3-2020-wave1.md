@@ -1,6 +1,6 @@
 ---
 title: Zer den berria edo zer aldatu den Project Service Automation-en 3.x 2020ko 1. bertsioan
-description: Artikulu honek Project Service Automation 3. olatu 1 2020 bertsioan berri eta aldatutakoari buruzko informazioa eskaintzen du.
+description: Gai honek Project Service Automation-en 3 2020ko 1. bertsioan berria denari eta aldatu denari buruzko informazioa eskaintzen du.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8928601"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Artikuluak berritze-gogoeta nagusiak nabarmentzen ditu Project Service Automation (PSA) 3.x olatu 1 2020 bertsioaren azken bertsiora pasatzean.
+Gai honek Project Service Automation (PSA) 3.x 2020ko 1. bertsioaren bertsio-berritzean kontuan hartu beharreko funtsezko gako batzuk nabarmentzen ditu.
 
 ## <a name="time-entry"></a>Denbora-sarrera
 Ordu-sarreraren esperientzia hedatu da denbora-sarrera hedatzeko gaitasunak bezero-egoera gehiagotara hedatzeko. Barne du sarrera motak gehitzeko gaitasuna, eta orain jokamolde espezifikoak gidatzen ditu **Ordu-sarreraren ezarpenak** izeneko eremu eskema-izenean oinarrituta, **Denbora-iturria** gisa bistaratuta. Denbora, Gastuak eta Onespenak (TESA) izeneko soluzio berria gehitu da, funtzionalitateari laguntzeko.

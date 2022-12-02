@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren garapena eta kostuen kontsumoa
-description: Artikulu honetan proiektuaren aurrerapenaren jarraipenari eta kostuen kontsumoari buruzko informazioa ematen da.
+description: Gai honek proiektuaren garapenaren eta kostuen kontsumoaren jarraipena egiteari buruzko informazioa ematen du.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8921747"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Antolaketa eta garapena jarraitzeko beharra aldatu egiten da industriaren arabera. Zenbait industriak jarraipen zehatza egiten du; beste batzuek, aldiz, jarraipen orokorragoa egiten dute. Artikulu honetan, antolakuntzaren baldintzak betetzeko nola programatu erakusten da.
+Antolaketa eta garapena jarraitzeko beharra aldatu egiten da industriaren arabera. Zenbait industriak jarraipen zehatza egiten du; beste batzuek, aldiz, jarraipen orokorragoa egiten dute. Gai honek erakundearen eskakizunak betetzeko nola antolatu behar den erakusten du.
 
 ## <a name="effort-tracking-view"></a>Ahaleginen segimenduaren ikuspegia
 

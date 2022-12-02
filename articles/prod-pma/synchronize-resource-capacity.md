@@ -1,6 +1,6 @@
 ---
 title: Sinkronizatu baliabideen gaitasuna
-description: Artikulu honetan, egutegien eta proiektuen arteko baliabide baten gaitasuna nola sinkronizatu erakusten da.
+description: Gai honetan baliabidearen ahalmena egutegiekin eta proiektuekin sinkronizatzeko moduari buruzko informazioa eskaintzen da.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

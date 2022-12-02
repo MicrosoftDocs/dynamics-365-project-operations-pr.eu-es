@@ -1,6 +1,6 @@
 ---
 title: Proiektuaren kostuaren segimendua
-description: Artikulu honek Project Operations-ek lan-kostuaren eta proiektu batean egindako gastuaren aurrerapenaren jarraipenari buruzko informazioa eskaintzen du.
+description: Gai honek Project Operations-en proiektu bateko lanaren kostuaren eta gastuaren aurka nola aurreratzen duten jakiteko informazioa eskaintzen du.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

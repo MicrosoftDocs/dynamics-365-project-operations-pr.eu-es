@@ -1,6 +1,6 @@
 ---
 title: Gainidatzi proiektuaren salmenten prezio-zerrendak
-description: Artikulu honek salmenta prezioen zerrenda pertsonalizatuak sortzeari buruzko informazioa eskaintzen du.
+description: Gai honek salmenta prezioen zerrenda pertsonalizatuak sortzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Konfiguratu lanaren fakturazio-tasak
-description: Artikulu honek lan-fakturazio-tasak Project Operations-en konfiguratzeko informazioa eskaintzen du.
+description: Gai honek Project Operations-eko lanaren fakturazio-tasak konfiguratzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

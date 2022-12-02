@@ -1,6 +1,6 @@
 ---
 title: Kudeatu proiektuen prezio-zerrendak proiektuko kontratuetan
-description: Artikulu honetan proiektu-kontratuetako proiektuen prezioen zerrenden administrazioari buruzko informazioa ematen da.
+description: Gai honek proiektuan oinarritutako proiektuaren kontratuan proiektuaren prezio-zerrendak kudeatzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
