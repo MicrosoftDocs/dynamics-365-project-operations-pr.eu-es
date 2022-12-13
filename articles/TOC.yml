@@ -62,10 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Zer berri?
       items:
-        - name: 2022ko iraila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
-          href: whats-new/whats-new-sept-2022-resource-based.md
-        - name: Gorde
+        - name: 2022ko azaroa - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+          href: whats-new/whats-new-nov-2022-resource-based.md
+        - name: Artxibatu
           items:
+            - name: 2022ko urria - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: 2022ko iraila - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: 2022ko abuztua - Baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: '2022ko uztaila: baliabideetan edo izakinik gabeko produktuetan oinarritutako adibideen Project Operations'
@@ -122,9 +126,9 @@
               href: sales/sales-currency.md
             - name: Erakundearen unitateak
               href: sales/OrgUnits.md
-        - name: Kudeatu proiektuaren bezerogaiak
+        - name: Kudeatu proiektuetan oinarritutako bezerogaiak
           href: sales/manage-leads.md
-        - name: Kudeatu proiektuaren abaguneak
+        - name: Kudeatu proiektuetan oinarritutako abaguneak
           items:
             - name: Kudeatu proiektuko abaguneen ikuspegi orokorra
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: Proiektuetan oinarritutako abagunearen lerroak
               href: sales/project-based-lines.md
-            - name: Sortu proiektuen eskaintzak abaguneetan
+            - name: Sortu eskaintzak proiektuaren abaguneetatik
               href: sales/link-quotes-opportunities.md
-            - name: Kopiatu proiektuetan oinarritutako abaguneak
+            - name: Kopiatu proiektuen abaguneak
               href: sales/copy-project-based-opportunity.md
             - name: Itxi proiektuaren abaguneak
               href: sales/close-opportunity.md
-        - name: Kudeatu proiektuaren eskaintzak
+        - name: Kudeatu proiektuetan oinarritutako eskaintzak
           items:
             - name: Kudeatu proiektuko eskaintzen ikuspegi orokorra
               href: pro/sales/manage-quotes-sales.md
@@ -146,61 +150,59 @@
               href: sales/quotes-key-concepts.md
             - name: Proiektuetan oinarritutako eskaintzen goiburuaren xehetasunak
               href: sales/quote-values-budget-limits-contract.md
-            - name: Kudeatu hainbat bezero proiektuaren eskaintza batean
+            - name: Kudeatu proiektuetan oinarritutako eskaintza bateko hainbat bezero
               href: sales/manage-multiple-customers-quote.md
-            - name: Kudeatu proiektuen prezio-zerrendak eskaintza batean
+            - name: Proiektuen prezio-zerrendak proiektu-eskaintzetan
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Proiektuetan oinarritutako eskaintzaren lerroak
               items:
-                - name: Proiektuetan oinarritutako eskaintzaren lerroen ikuspegi orokorra
+                - name: Proiektuko eskaintzaren lerroen ikuspegi orokorra
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Kudeatu proiektuetan oinarritutako eskaintzaren lerroetako hainbat bezero
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Esleitu proiektuak eta zereginak proiektuetan oinarritutako eskaintzaren lerroetan
+                - name: Esleitu proiektuak eta zereginak proiektuetako eskaintzaren lerroetan
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Konfiguratu proiektuetan oinarritutako eskaintzaren lerroetako kobra daitezkeen osagaiak
+                - name: Konfiguratu proiektuko eskaintzaren lerroetako kobra daitezkeen osagaiak
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Konfiguratu proiektuko eskaintzaren lerro bateko kobra daitezkeen osagaiak
-                  href: sales/configure-chargeable-quoteline.md
                 - name: Aurreikusi proiektuko eskaintzaren lerroa
-                  href: sales/create-estimate-quote-line.md
-                - name: Inportatu proiektuko aurreikuspenak proiektuetan oinarritutako eskaintzaren lerrora
-                  href: sales/import-estimate-quote-line.md
-                - name: Fakturazio-antolaketak proiektuetan oinarritutako eskaintzaren lerroetan
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Inportatu proiektu bateko aurrekontuak proiektuaren eskaintzaren lerro batera
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Fakturazio-antolaketak proiektuetako eskaintzaren lerroetan
                   href: sales/invoice-schedule-quote-line.md
             - name: Kopiatu proiektuko eskaintzak
               href: sales/lose-quote.md
             - name: Aktibatu eta berrikusi proiektuaren eskaintza
               href: sales/activation-and-revision.md
-            - name: Itxi proiektuaren eskaintzak
+            - name: Itxi proiektuetan oinarritutako eskaintzak
               href: sales/win-quote.md
-        - name: Kudeatu proiektuaren kontratuak
+        - name: Kudeatu proiektuetan oinarritutako kontratuak
           items:
-            - name: Kudeatu proiektuko kontratuen ikuspegi orokorra
+            - name: Kudeatu proiektuaren kontratuak
               href: pro/sales/manage-contracts-sales.md
             - name: Proiektuetan oinarritutako kontratuen kontzeptu bakarrak
               href: sales/contracts-key-concepts.md
             - name: Proiektuetan oinarritutako kontratuen goiburuaren xehetasunak
               href: sales/project-contract-settings.md
-            - name: Kudeatu proiektuen prezio-zerrendak proiektuko kontratuetan
+            - name: Kudeatu proiektuen prezio-zerrendak proiektuetan oinarritutako kontratuetan
               href: sales/contracts-manage-project-price-lists.md
-            - name: Kudeatu hainbat bezero proiektuaren kontratuetan
+            - name: Kudeatu proiektuetan oinarritutako kontratuetako hainbat bezero
               href: sales/manage-multiple-customers-contract.md
             - name: Proiektuetan oinarritutako kontratuaren lerroak
               items:
-                - name: Proiektuetan oinarritutako kontratuaren lerroen ikuspegi orokorra
+                - name: Proiektu-kontratuaren lerroen ikuspegi orokorra
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Kudeatu proiektuetan oinarritutako kontratuaren lerroetako hainbat bezero
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Esleitu proiektuak eta zereginak proiektuko kontratuaren lerro batean
+                - name: Esleitu proiektuak eta zereginak proiektu-kontratuaren lerro batean
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Konfiguratu proiektuko kontratuaren lerro baten kobra daitezkeen osagaiak
+                - name: Konfiguratu proiektu-kontratuaren lerro bateko kobra daitezkeen osagaiak
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Aurreikusi proiektu-kontratuaren lerro bat
+                - name: Aurreikusi proiektuetan oinarritutako kontratuaren lerroa
                   href: sales/create-estimate-contract-line.md
-                - name: Inportatu proiektuko aurreikuspenak proiektuetan oinarritutako kontratuaren lerrora
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Sortu faktura-antolaketak proiektuetan oinarritutako kontratuaren lerroetan
+                - name: Inportatu proiektu bateko aurrekontuak proiektu-kontratuaren lerro batean
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Sortu faktura-antolaketak proiektuetan oinarritutako kontratuaren lerroan
                   href: sales/invoice-schedules-contract-line.md
             - name: Kopiatu proiektuetan oinarritutako kontratuak
               href: sales/copy-project-based-contracts-sales.md
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Aurrerakinak eta aurrerapenak
               items:
-                - name: Aurrerakinak eta atxikipenetan oinarritutako kontratuak
+                - name: Aurrerakinak eta atxikipenetan oinarritutako proiektu-kontratuak
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Konfiguratu aurrerapenaren antolaketa
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Sortu ad hoc aurrerakin bat kontratu batean
+                - name: Sortu ad hoc aurrerakin bat proiektu-kontratu batean
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prezioak eta kostuak kudeatzea
       items:
@@ -642,6 +644,8 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: Sinkronizatu proiektuaren egoera itxitako proiektuetarako sarbidea saihesteko
           href: advanced-configuration/sync-project-status.md
+        - name: Moneta bihurtzeko konfigurazioa kostu-tasetatik salmenten prezioak kalkulatzeko
+          href: advanced-configuration/currencyconversion.md
     - name: Bertsio-berritu
       items:
         - name: Bertsio-berritu Onarpen modernoen hausnarketak
@@ -664,18 +668,22 @@
           href: pro/project-operations-overview-lite.md
         - name: Erregistratu aurrebista-harpidetzan - arina
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Inplementatu Project Operations - arina
+        - name: Inplementatu Project Operations Arina
           href: environment/lite-deployment.md
-        - name: 'Aplikatu demo-konfigurazioa eta konfigurazio-datuak: oinarrizkoa'
+        - name: Aplikatu demo-konfigurazioa eta konfigurazio-datuak - arina
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Segurtasun-eredua
           href: environment/security-model.md
     - name: Zer berri?
       items:
-        - name: 2022ko iraileko berritasunak - oinarrizko inplementazioa
-          href: pro/whats-new/whats-new-sept-2022-lite.md
-        - name: Gorde
+        - name: 2022ko azaroko berritasunak - oinarrizko inplementazioa
+          href: pro/whats-new/whats-new-nov-2022-lite.md
+        - name: Artxibatu
           items:
+            - name: 2022ko urriko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: 2022ko iraileko berritasunak - oinarrizko inplementazioa
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: 2022ko abuztuko berritasunak - oinarrizko inplementazioa
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: 2022ko uztaileko berritasunak - oinarrizko inplementazioa
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: Sortu eskaintzak proiektuaren abaguneetatik
               href: sales/link-quotes-opportunities.md
-            - name: Kopiatu proiektuetan oinarritutako abaguneak
+            - name: Kopiatu proiektuen abaguneak
               href: sales/copy-project-based-opportunity.md
             - name: Itxi proiektuaren abaguneak
               href: sales/close-opportunity.md
-        - name: Kudeatu proiektuetan oinarritutako eskaintzak
+        - name: Kudeatu proiektuaren eskaintzak
           items:
-            - name: Proiektuetan oinarritutako eskaintzaren ikuspegi orokorra
+            - name: Proiektuko eskaintzen ikuspegi orokorra
               href: pro/sales/manage-quotes-sales.md
             - name: Proiektuko eskaintzen kontzeptu bakarrak
               href: pro/sales/quotes-key-concepts-sales.md
             - name: Proiektuko eskaintzen goiburuaren xehetasunak
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Hainbat bezero proiektu-eskaintzetan
+            - name: Kudeatu hainbat bezero proiektuaren eskaintzetan
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Proiektuen prezio-zerrendak proiektu-eskaintzetan
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,39 +780,39 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Kudeatu produktuetan oinarritutako eskaintzaren lerroen unitate konplexuak
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Proiektuetan oinarritutako eskaintzaren lerroak
+            - name: Proiektuaren eskaintzen lerroak
               items:
-                - name: Proiektuetan oinarritutako eskaintzaren lerroen ikuspegi orokorra
+                - name: Proiektuko eskaintzaren lerroen ikuspegi orokorra
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Kudeatu hainbat bezero
+                - name: Kudeatu proiektuetako eskaintzaren lerroetako hainbat bezero
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Esleitu proiektuak eta zereginak
+                - name: Esleitu proiektuak eta zereginak proiektuetako eskaintzaren lerroetan
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Konfiguratu kargagarriak diren osagaiak
+                - name: Konfiguratu proiektuko eskaintzaren lerroetako kobra daitezkeen osagaiak
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Aurreikusi proiektuetan oinarritutako eskaintzaren lerroa
+                - name: Aurreikusi proiektuko eskaintzaren lerroa
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Inportatu aurreikuspena proiektu batetik
+                - name: Inportatu proiektu bateko aurrekontuak proiektuaren eskaintzaren lerro batera
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Kudeatu fakturazio-antolaketak
+                - name: Fakturazio-antolaketak proiektuetako eskaintzaren lerroetan
                   href: sales/invoice-schedule-quote-line.md
-            - name: Kopiatu proiektuetan oinarritutako eskaintzak
+            - name: Kopiatu proiektuko eskaintzak
               href: sales/lose-quote.md
             - name: Aktibatu eta berrikusi proiektuaren eskaintza
               href: sales/activation-and-revision.md
-            - name: Itxi proiektuetan oinarritutako eskaintzak
+            - name: Itxi proiektuaren eskaintzak
               href: pro/sales/win-quote-sales.md
-        - name: Kudeatu proiektuetan oinarritutako kontratuak
+        - name: Kudeatu proiektuaren kontratuak
           items:
-            - name: Proiektuetan oinarritutako kontratuen ikuspegi orokorra
+            - name: Proiektuetako kontratuen ikuspegi orokorra
               href: pro/sales/manage-contracts-sales.md
-            - name: Proiektuko kontratuen kontzeptu bakarrak
+            - name: Proiektu-kontratuen kontzeptu bakarrak
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Proiektuko kontratuen goiburuaren xehetasunak
+            - name: Proiektu-kontratuen goiburuaren xehetasunak
               href: pro/sales/project-contract-settings-sales.md
-            - name: Hainbat bezero proiektuaren kontratuetan
+            - name: Kudeatu hainbat bezero proiektu-kontratuetan
               href: pro/sales/manage-multiple-customers-contract-sales.md
-            - name: Proiektuaren prezio-zerrendak proiektuaren kontratuetan
+            - name: Proiektuaren prezio-zerrendak proiektu-kontratuetan
               href: sales/contracts-manage-project-price-lists.md
             - name: Produktuetan oinarritutako kontratuaren lerroak
               items:
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Kudeatu produktuetan oinarritutako kontratuaren lerroen unitate konplexuak
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Proiektuetan oinarritutako kontratuaren lerroak
+            - name: Proiektu-kontratuaren lerroak
               items:
-                - name: Proiektuetan oinarritutako kontratuaren lerroen ikuspegi orokorra
+                - name: Proiektu-kontratuaren lerroen ikuspegi orokorra
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Kudeatu hainbat kontratu-bezero
+                - name: Kudeatu hainbat bezero proiektu-kontratuetan
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
-                - name: Esleitu proiektuak eta zereginak proiektuko kontratuaren lerro batean
+                - name: Esleitu proiektuak eta zereginak proiektu-kontratuaren lerro batean
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Konfiguratu proiektuko kontratuaren lerro bateko kobra daitezkeen osagaiak
+                - name: Konfiguratu proiektu-kontratuaren lerro bateko kobra daitezkeen osagaiak
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Aurreikusi proiektuetan oinarritutako kontratuaren lerroa
+                - name: Aurreikusi proiektu-kontratuaren lerro bat
                   href: pro/sales/create-estimate-project-contract-line-sales.md
-                - name: Inportatu proiektu bateko aurrekontuak proiektuaren kontratuaren lerro batean
+                - name: Inportatu proiektu bateko aurrekontuak proiektu-kontratuaren lerro batean
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Kudeatu fakturazio-antolaketak proiektuaren kontratuaren lerro batean
+                - name: Sortu fakturazio-antolaketak proiektu-kontratuaren lerro batean
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Kopiatu proiektu-kontratuak
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,11 +844,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Aurrerakinak eta aurrerapenak
               items:
-                - name: Aurrerakinak eta atxikipenetan oinarritutako kontratuak - arina
+                - name: Aurrerakinak eta atxikipenetan oinarritutako kontratuak
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Konfiguratu aurrerapenen antolaketa - arina
+                - name: Konfiguratu aurrerapenen antolaketaKonfiguratu aurrerapenen antolaketa
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Sortu ad hoc aurrerakin bat kontratu batean - arina
+                - name: Sortu ad hoc aurrerakin bat proiektu-kontratu batean
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prezioak eta kostuak kudeatzea
       items:
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Zer berri?
       items:
-        - name: 2022ko iraileko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
-        - name: Gorde
+        - name: 2022ko urriko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
+        - name: Artxibatu
           items:
+            - name: 2022ko iraileko berrikuntzak - Izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: '2022ko uztaileko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: '2022ko ekaineko berritasunak: izakinen edo ekoizpenean oinarritutako egoeretarako Project Operations'
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Izakinetan/Ekoizpenean oinarritutako adibideen inplementazio orokorraren Project Operations
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Proiektuaren kudeaketa eta kontabilitatearen ikuspegi orokorra
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Proiektuaren kontabilitatea
+      items:
+        - name: Proiektuaren kudeaketa eta kontabilitatearen ikuspegi orokorra
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Proiektuaren doikuntzak
+          href: project-accounting/project-adjustments.md
     - name: Proiektuaren salmenta-prozesua
       items:
         - name: Proiektuaren eskaintzak
