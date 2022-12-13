@@ -1,23 +1,23 @@
 ---
-title: Esleitu proiektuak eta zereginak proiektuetan oinarritutako kontratuaren lerro batean - arina
+title: Esleitu proiektuak eta zereginak proiektuko kontratuaren lerro batean
 description: Gai honek proiektuak eta zereginak kontratu lerro batean gehitzeari eta kentzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932511"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825043"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Esleitu proiektuak eta zereginak proiektuetan oinarritutako kontratuaren lerro batean 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Esleitu proiektuak eta zereginak proiektuko kontratuaren lerro batean 
 
 _**Honetarako aplikatzen da:** inplementazio arina - mahukatik proformako fakturaziora, Baliabideen / stockean oinarritutako eszenatokien Project Operations_
 
-Proiektuetan oinarritutako kontratu lerroetan, proiektu bateko zeregin zehatzak kontratu lerroarekin mapatu ditzakezu.
+Proiektu-kontratu-lerroetan, proiektu bateko zeregin zehatzak kontratu-lerroarekin mapa ditzakezu.
 
 Zeregin zehatzak kontratu-lerro batera mapatzen dituzunean, fakturazio-metodoa, kargatzeko aukerak, ez gainditzeko mugak eta kontratu-lerroan zehaztutako bezeroak zeregin zehatz horietan soilik aplikatuko dira.
 
@@ -25,7 +25,7 @@ Proiektuaren fase bat, adibidez, Prototipoaren Fasea, prezio finkoa den eta best
 
 Zure proiektuaren lanen banakako egiturako (WBS) gainerako fase guztiak denboran eta materialean oinarritutako kontratu lerroarekin lotu daitezke.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Lotu zereginak proiektuetan oinarritutako kontratuaren lerroetan
+## <a name="associate-tasks-to-project-contract-lines"></a>Zereginak lotu kontratu-lerroekin
 
 Zereginak kontratatutako linearekin lotu daitezke **Zeregin kargagarriak** fitxan **Kontratu-lerroa** orrialdetik edo **Zereginen fakturazioa** fitxan **Proiektua** orrialdea.
 

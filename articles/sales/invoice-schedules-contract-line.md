@@ -1,19 +1,19 @@
 ---
-title: Sortu faktura-antolaketa proiektuetan oinarritutako kontratuaren lerro batean
+title: Sortu faktura-programazioak proiektuetan oinarritutako kontratu-lerro batean
 description: Gai honek fakturen ordutegiak eta kontratuaren lerroen mugarriak sortzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 490a61b67f54bdad95ecfce905191c381dddc85b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: afc6357b7b221b91674035ae3181ef84eed8d586
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914985"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825015"
 ---
-# <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Sortu faktura-antolaketa proiektuetan oinarritutako kontratuaren lerro batean 
+# <a name="create-invoice-schedules-on-a-project-based-contract-line"></a>Sortu faktura-programazioak proiektuetan oinarritutako kontratu-lerro batean
 
 _**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 

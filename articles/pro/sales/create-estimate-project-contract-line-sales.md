@@ -1,32 +1,32 @@
 ---
-title: Aurreikusi proiektuetan oinarritutako kontratuaren lerroa - arina
+title: Estimatu proiektu-kontratu-lerro bat
 description: Gai honek proiektuan oinarritutako kontratu lerroak aurreikusteari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914387"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824752"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Aurreikusi proiektuetan oinarritutako kontratuaren lerroa - arina
+# <a name="estimate-a-project-contract-line"></a>Aurreikusi proiektu-kontratuaren lerro bat
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Dynamics 365 Project Operations-en, proiektuan oinarritutako kontratu lerroak xehetasunak ditu, kontratu lerroa emateko egindako lanaren kostua eta diru sarrera potentzialak kalkulatzen laguntzen dutenak.
+ Dynamics 365 Project Operations n, proiektu-kontratu-lerro batek kontratu-lerroa emateko lanaren kostua eta diru-sarrera potentzialak estimatzen laguntzen duten xehetasunak ditu.
 
-Proiektuetan oinarritutako kontratu lerro bat kalkulatzeko, joan **Kontratu-lerroaren xehetasuna** proiektuan oinarritutako fitxa **Kontratu-lerroa**.  Proiektuan oinarritutako kontratu lerro batean aurrekontua sortzeko bi modu daude:
+Proiektu-kontratu-lerroa kalkulatzeko, joan proiektuetan oinarritutako **Kontratu-lerroaren** Kontratuaren xehetasuna **fitxara**.  Proiektuan oinarritutako kontratu lerro batean aurrekontua sortzeko bi modu daude:
 
    - Sortu aurrekontua zuzenean kontratuaren lerroan, kontratuaren lerroaren xehetasunak eskuz gehituz.
    - Sortu proiektu bat eta proiektu plana, eta, ondoren, proiektua eta zereginak proiektuaren kontratu lerroarekin lotu. Horrek proiektuaren planaren aurrekontua kontratu lerroan inportatzeko prozesua ahalbidetzen du kontratu lerroan sartutako osagaietan oinarrituta.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Sortu aurreikuspenak zuzenean proiektuetan oinarritutako kontratuaren lerro batean
 
-Proiektuan oinarritutako kontratu lerroan zenbatespena zuzenean sortzeko, jarraitu urrats hauei:
+Proiektu-kontratu-lerro batean zuzenean aurrekontua sortzeko, jarraitu urrats hauek:
 
 1. Joan kontratuaren lerrora eta hautatu **Kontratu-lerroaren xehetasuna** fitxa. Fitxa honetan sortzen dituzun lerroak laburtu eta bistaratzen dira **Kontratatutako balioa** **Kontratuaren lerroa** eremuan. 
 2. **Kontratuaren lerroaren xehetasunak** azpisarean, hautatu **Kontratu linea berrien xehetasuna**. Bizkor sortzeko graduatzailea irekitzen da. Ondorengo eremuak eskuragarri daude **Kontratu-lerroaren xehetasunak** orrialdea.

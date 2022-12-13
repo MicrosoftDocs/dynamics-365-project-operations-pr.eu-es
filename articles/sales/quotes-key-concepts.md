@@ -1,8 +1,8 @@
 ---
-title: Eskaintzak - Gako-kontzeptuak
-description: Gai honek eskuragarri dauden proiektuen eskaintzei eta salmenta-eskaintzei buruzko informazioa eskaintzen du Project Operations-en.
+title: Proiektuetan oinarritutako eskaintzen kontzeptu bakarrak
+description: Artikulu honek Microsoft-en proiektuen aurrekontuei buruzko informazioa eskaintzen du Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912501"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824312"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Proiektuetan oinarritutako eskaintzen kontzeptu bakarrak
 
-_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
+_**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Dynamics 365 Project Operations-en bi eskaintza mota daude: proiektuak eta salmentak. Kuoten bi motak modu desberdinetan bereizten dira:
+Microsoft Dynamics 365 Project Operations-n proiektuaren aurrekontuak erabiltzen hasi baino lehen, ondoko kontzeptu gakoez jabetu beharko zenituzke.
 
-- **Lerro-elementuen saretak**: Salmenta-eskaintzetan, lerroentzako elementuen sareta bakarra dago. Edo proiektu-eskaintza batean, lerroentzako bi sareta ditu. Sareta bat proiektu-lerroetarako da eta bestea produktu-lerroetarako.
-- **Aktibazioa eta berrikuspenak**: Salmenten aurrekontuek aktibazioa eta berrikuspenak onartzen dituzte. Prozesu hauek ez dira onartzen proiektuaren aurrekontuan.
-- **Atxikitako eskaerak**: Hainbat eskaera erantsi diezaiokezu salmenta-eskaintzari. Proiektu-kontratu bakarra erants dakioke proiektu-eskaintzari.
-- **Aurrekontua irabaztea**: Salmenten aurrekontua irabazten duzunean, erlazionatutako aukerak zabalik egon daitezke. Proiektu-eskaintza irabazi ondoren, erlazionatutako abagunea itxita dago.
-- **Eremuak eta kontzeptuak**: Salmenta-eskaintzak ez ditu proiektu-eskaintzan biltzen diren zenbait eremu eta kontzeptu biltzen. Eremuek **Kontratazio-unitatea**, **Kontuen kudeatzailea**, eta **Harreman-izenaren faktura** dituzte.  
-- **Mota**: Salmenta-eskaintzak eta proiektu-eskaintzak multzoan oinarritutako eremua moduan, **Mota**, ere identifikatzen dira. Salmenta-eskaintzak lortzeko, eremuak balio hau du: **Elementuan oinarritutakoa**. Proiektu-eskaintza lortzeko, balio hau du: **Lanean oinarritutakoa**.
+## <a name="owning-company"></a>Jabetzadun enpresa
 
-Gai honek proiektu-eskaintzen xehetasunak fokuratzen ditu ardatz.
+Enpresa jabeak proiektuaren entregaren jabe den pertsona juridikoa ordezkatzen du. Aurrekontuko bezeroak entitate juridiko horretan baliozko bezero bat izan behar du finantza eta eragiketa aplikazioetan. Enpresa jabearen moneta eta proiektuetan oinarritutako aurrekontuan hautatutako kontratazio-unitatearen moneta bat etorri behar dira.
 
-Project Operations-en proiektu-eskaintzak lerro bat baino gehiago edo eskaintzaren lerro bat izan dezake. Izan ere, proiektu-eskaintzak lerroentzako bi sareta ditu. Sareta bat aurreikuspen zehatzak egiteko aukera ematen duten proiektuetan oinarritutako lerroetarako da. Beste sareta produktu unitateko prezio sinplea eta kantitatean oinarritutako hurbilketa erabiltzen duten produktuetarako oinarritutako lerroetarako da.
+## <a name="contracting-unit"></a>Kontratazio-unitatea
 
-- **Proiektuan oinarritutakoa**: eskaintza-balioa zenbat lan egin behar den kalkulatu ondoren zehazten da. Lanak maila altuan kalkula ditzakezu, aurrekontu lerro bakoitzaren azpian lerroaren xehetasun gisa zuzenean edo oinarrian egindako kalkuluetan oinarrituta, proiektu bat eta proiektuaren plana erabiliz. Proiektuetan oinarritutako eskaintzaren lerroak proiektuetan oinarritutako eskaintzetan baino ez dira aurkitzen Project Operations erabiliz. Eskaintzaren lerro mota hau idazketa-lerroen inprimaki pertsonalizatua da, Microsoft Dynamics 365 Sales-en eskuragarri dagoena..
+Kontratazio-unitateak proiektuaren entregaren jabe den dibisioa edo praktika adierazten du. Kontratazio unitate bakoitzerako baliabide kostuak konfigura ditzakezu. Kontratazio-unitate bateko baliabide baterako baliabide-kostuak zehazten dituzunean, kostu-tasa desberdinak konfigura ditzakezu kontratazio-unitateak maileguan hartzen dituen baliabideetarako, edo enpresaren beste dibisio edo praktika batzuetarako. Kostu-tasa horiei transferentzia-prezioak, baliabideen mailegua edo truke-prezioak esaten zaie. Beste dibisio batzuetako baliabideak hartzeko kostua konfiguratzen duzunean, kostu-tasak mailegu-dibisioaren monetan konfigura ditzakezu.
 
-- **Produktuan oinarritutakoa**: eskaintza-balioa saltzen den unitate kantitatearen eta salmenta prezioaren unitatearen arabera zehazten da. Produktuetan oinarritutako lerro bateko produktua Sales-en produktuen katalogotik dator edo zuk definitzen duzun produktua izan daiteke. Eskaintzaren lerro mota hau Project Opertions erabiliz sortutako proiektuan oinarritutako eskaintzetan ere eskuragarri dago.
+## <a name="cost-currency"></a>Kostua dibisa
 
-Eskaintza baten zenbatekoa produktuetan oinarritutako lerroetan eta proiektuan oinarritutako lerroetan dago.
+Proiektuaren Eragiketetako kostu-moneta kostuen berri ematen den moneta da. Moneta hau aurrekontuaren, kontratuaren eta proiektuaren **Kontratazio-unitatea** eremuari atxikitako monetatik eratorria da. Proiektu baten kostuak edozein monetan erregistratu daitezke. Hala ere, kostuak erregistratu ziren monetatik proiektuaren kostuen moneta bihurtzea dago.
 
-> [!NOTE]
-> Eskaintzak eta eskaintzaren lerroak ez dira Project Operations behar. Proiektuaren prozesua proiektuaren kontratuarekin has dezakezu (saldu den proiektua). Hala ere, abagunea beharrezkoa da beti, eskaintza batekin edo proiektu-kontratu batekin hasi ala ez.
+ Dataverse plataformako truke-tasak ezin direnez data-eraginkorra izan, baliteke pantailako kostuaren guztizkoak denboran zehar aldatzea moneta-tasak eguneratzen badituzu. Hala ere, datu-basean erregistratzen diren kostuak ez dira aldatu, zenbatekoak sortu ziren monetan gordetzen direlako.
 
-## <a name="project-based-quote-lines"></a>Proiektuetan oinarritutako eskaintzaren lerroak
+## <a name="sales-currency"></a>Salmenten moneta
 
-Project Operations-en proiektuan oinarritutako eskaintzaren lerroak fakturazio metodo hauek ditu:
+Project Operations-en salmenta-moneta zenbatetsitako eta benetako salmenta-kopuruak erregistratu eta erakusten diren dibisa da. Era berean, bezeroari akordiorako fakturatzen zaion moneta da. Proiektuko aurrekontu baterako, salmenta-moneta lehenetsi bat ezartzen da bezeroaren edo kontuaren erregistrotik, eta aurrekontua sortzen denean alda daiteke. Hala ere, salmenta-moneta ezin da aldatu aurrekontua gorde ondoren. Produktu eta proiektuen prezioen zerrenda lehenetsiak aurrekontuaren salmenta-monetan oinarrituta ezartzen dira.
 
-- Denbora eta materiala
-- Prezio finkoa
+Kostuak ez bezala, salmenten balioak **soilik** salmentetako monetan erregistra daitezke.
 
-### <a name="time-and-material"></a>Denbora eta materiala
+## <a name="billing-method"></a>Fakturazio-metodoa
 
-Denboraren eta materialaren fakturazioaren metodoa kontsumoan oinarritzen da. Fakturazio metodo hau hautatzen duzunean, bezeroari fakturatu egingo zaio proiektuak kostuak suposatzen dituelako. Fakturak datan oinarritutako maiztasun periodikoan sortzen dira. Salmenta prozesuan, denboraren eta materialaren osagai baten balio estali bezeroak azken kostuaren aurreikuspena baino ez dio ematen bezeroari. Saltzaileak ez du konpromisoa hartzen proiektua aipatutako balioarekin zehazki osatzeko. Denboraren eta materialen osagaiek bezeroaren arriskua areagotzen dute. Bezeroek gainditu nahi ez duten klausula osagarriak negoziatu nahi dituzte arriskua minimizatzeko. Project Operations-ek ez du gainditzen ez diren klausularik onartzen.
+Proiektuek normalean kuota finkoko eta kontsumoan oinarritutako kontratazio ereduak dituzte. Proiektuaren Eragiketetan, proiektu baten kontratazio-eredua fakturazio-metodoaren bidez adierazten da. Fakturazio metodoak bi balio ditu: denbora eta materiala eta prezio finkoa.
 
-### <a name="fixed-price"></a>Prezio finkoa
+- **Denbora eta materiala** – Kontsumoan oinarritutako kontratazio-eredua, non sortzen den kostu bakoitza dagokion diru-sarrerak babesten dituen. Kostu gehiago kalkulatzen edo sortzen dituzunean, dagokien salmenta estimatuak eta errealak ere handitu dira. Fakturazio metodo hau duten aurrekontu lerroen mugak ez gainditzeko zehaztu dezakezu. Horrela, benetako diru-sarrerak muga ditzakezu. Aurreikusitako diru-sarrerak ez du gainditzeko mugak eragiten.
+- **Prezio finkoa** – Kuota finkoko kontratazio eredua, non salmenta-balioak sortzen diren kostuetatik independenteak diren. Salmenten balioa finkoa da eta ez da aldatzen kostu gehiago kalkulatu edo sortzen dituzunean.
 
-Prezio finkoa fakturatzeko metodoaren barruan, saltzaileak proiektua bezeroari kostu finkoan entregatzeko konpromisoa hartzen du. Bezeroari prezio finkoaren eskaintzaren lerroko kotizazio balioa fakturatzen zaio, saltzaileak eskaintzaren lerro hori entregatzeko sortzen dituen gastuak kontuan hartu gabe. Prezio finkoaren eskaintzaren lerroko balioa honako modu hauetako batean fakturatzen da: 
+## <a name="project-price-lists"></a>Proiektuaren prezio-zerrendak
 
-- Proiektuaren hasieran edo amaieran, edo proiektuaren mugarri bat lortzen denean, diru-kopuru gisa. 
-- Eskaintzaren lerroko balio finkoaren kuota berdinen maiztasunean oinarritutako datan. Hitzaldi hauek epekako mugarri gisa ezagutzen dira.
-- Proiektuan lortzen diren lanaren aurrerapenarekin edo mugarri zehatzekin lerrokatutako diru-balioa duten kuotetan. Kasu honetan, kuota bakoitzaren balioa desberdina izan daiteke, baina eskaintzaren lerroan dagoen balio finkoa gehitu beharko dute guztiek.
+Proiektuen prezio-zerrendak prezio lehenetsiak sartzeko erabiltzen diren prezio-zerrendak dira, ez kostu-tasak, denbora, gastu eta proiektuarekin lotutako beste osagai batzuetarako. Hainbat prezio zerrenda egon daitezke, eta zerrenda bakoitzak bere data eraginkortasuna izan dezake proiektuaren aurrekontu bakoitzerako. Project Operations-ek ez du onartzen proiektuaren prezio-zerrendetan data-eraginkortasuna gainjartzea.
 
-Project Operations-ek hiru fakturen antolaketa mota guztiak onartzen ditu prezio finkoko eskaintza lerroetarako.
+## <a name="product-price-lists"></a>Produktuaren prezio-zerrendak
 
-## <a name="transaction-classification"></a>Transakzio-sailkapena
+Produktuen prezioen zerrendak prezio lehenetsiak sartzeko erabiltzen diren prezio zerrendak dira, ez kostu-tasak, produktuetan oinarritutako lerroetarako aurrekontu batean. Produktuen prezioen zerrenda bakarra dago aurrekontu bakoitzeko.
 
-Zerbitzu profesionalen erakundeek normalean bezeroei eskaini eta fakturatzen diete kostuen sailkapenaren arabera. Kostuak transakzioen sailkapen honekin irudikatzen dira:
+## <a name="transaction-classes"></a>Transakzio-klaseak
 
-- **Ordua**: sailkapen honek proiektu baten lan edo giza baliabideen denboraren kostua adierazten du.
-- **Gastua**: sailkapen honek proiektu bateko gainerako gastuak adierazten ditu. Gastuak modu zabalean sailka daitezkeenez, erakunde gehienek azpikategoriak sortzen dituzte, hala nola, bidaia, autoen alokairua, hotela edo bulegoko materiala.
-- **Matrikula**: sailkapen honek bezeroaren gaineko kargak, zigorrak eta gainerako elementuak adierazten ditu. 
-- **Zerga**: sailkapen honek erabiltzaileek gastuak sartzen dituztenean gehitzen dituzten zerga-zenbatekoak dira.
-- **Materialaren transakzioa**: sailkapen honek produktuen lerroetako fakturak adierazten ditu proiektuaren faktura batean.
-- **Mugarria**: sailkapen hori prezio finkoaren fakturazio logikaren arabera erabiltzen da.
+Project Operations-ek lau transakzio klase mota onartzen ditu:
 
-Transakzio-sailkapen hauetako bat edo gehiago eskaintzaren lerro bakoitzarekin erlazionatuta egon daiteke. Eskaintza irabazi ondoren, transakzio-sailkapenaren eta eskaintzaren lerroaren arteko esleipenak kontratuaren lerrora transferitzen dira.
-  
-Adibidez, eskaintzak bi eskaintzaren lerro izan ditzake: 
+- Ordua
+- Gastua
+- Materiala
+- Prezioa
 
-- Ordua eta materiala fakturatzeko metodoa erabiltzen duten aholkularitza lana, denbora eta kuota transakzioen sailkapenak aplikagarriak direnean. Adibidez, ordainketa denbora eta kuota guztiak **Dinamika AX inplementazioa** adibide-proiekturako, bezeroari fakturatzen zaizkio erabiltzen diren denbora eta materialen arabera. 
-- Prezio finkoko fakturazio metodoa erabiltzen duten erlazionatutako bidaien gastuak. Adibidez, bidaiarako gastu guztiak **Dinamika AX inplementazioa** adibide-proiekturako, diru-balio finkoan fakturatzen dira.
+Kostuen eta salmenten balioak **Denboran**, **Gastuak** eta **tan izan daitezke. Material** transakzio-klaseak. **Tasa** diru-sarrerak soilik jasotzen dituen transakzio klasea da.
 
-> [!NOTE]
-> Proiektuaren eta transakzioen sailkapenen konbinazioa **Ordua**, **Gastu**, eta **Matrikula** eskaintzekin edo kontratuaren lerroarekin lotzen direnak bakarrak izan behar dute. Proiektuaren eta transakzioen klase konbinazio bera kontratuaren lerro edo eskaintzaren lerro bat baino gehiagorekin lotzen bada, Project Operations-ek ez du ondo funtzionatuko.
+## <a name="work-entities-and-billing-entities"></a>Lan entitateak eta fakturazio entitateak
 
-## <a name="billing-types"></a>Fakturazio motak
+Proiektuak eta Zereginak lana ordezkatzen duten entitateak dira. Aurrekontu lerroak eta Kontratu lerroak fakturazioa adierazten duten entitateak dira. Lan-entitate desberdinak fakturazio-aukerekin lotu ditzakezu aurrekontu-lerroekin edo Kontratu-lerroekin lotuz.
 
-**Fakturazio mota** eremuak kargagarritasun kontzeptua definitzen du. Aukera multzo bat da, balore hauek ditu:
+## <a name="multi-customer-deals"></a>Bezero anitzeko eskaintzak
 
-- **Kargagarria**: funtzio/kategoria hori jasotzen duen kostua proiektuaren exekuzioa bultzatzen duen kostu zuzena da, eta bezeroak lan hori ordainduko du. Ordainketa antolaketa-materiala edo prezio-finkoa bezala administratu daiteke. Hala ere, denbora hori igarotzen duen langileak dagokion kreditua jasoko du diruaren erabileragatik.
-- **Ez kargagarria**: funtzio/kategoria hori jasotzen duen kostua proiektuaren exekuzioa bultzatzen duen kostu zuzentzat hartzen da, bezeroak lan hori errekonozitu ez eta ordaintzen ez badu ere. Denbora hori igarotzen duen langileak ez du horren faktura erabilgarri ordainduko.
-- **Doan**: funtzio/kategoria hori jasotzen duen kostua proiektuaren exekuzioa bultzatzen duen kostu zuzentzat hartzen da, eta bezeroak hori errekonozituko du. Denbora hori igarotzen duen langileak horren faktura erabilgarri hori ordaintzeko baimena izango du. Hala ere, kostu hori ez zaio bezeroari kobratuko.
-- **Ez dago eskuragarri**: aukera hau erabiliz diru-sarrerak jarraitzea eskatzen ez duten barne proiektuetan sortzen diren kostuak dira.
+Bezero anitzeko akordioak faktura bakoitzeko bezero bat baino gehiago daudenean gertatzen dira. Hona hemen adibide tipiko batzuk:
 
-## <a name="invoice-schedule"></a>Fakturazio-antolaketa
+- **Jatorrizko ekipamenduen fabrikatzaileen (OEM) enpresek eta haien bazkideek** – Bazkideek eta saltzaileek balio erantsiko zerbitzuak biltzen dituen produktua saltzen dute. Bezero batekin akordio batean, OEMak normalean proiektuaren zati bat finantzatzea eskaintzen du.
+- **Sektore publikoko proiektuak** – Tokiko gobernu bateko hainbat sailek proiektu bat finantzatzea adosten dute eta aurrez adostutako zatiketaren arabera fakturatzen dira. Adibidez, eskola-barruti batek eta udalak edo tokiko gobernu sailak igerileku baten eraikuntza finantzatzea adosten dute.
 
-Fakturazio-antolaketa proiektuen fakturazioa eguneratzen den data bat da. Aukeran fakturazio-antolaketa sor dezakezu eskaintza lerro batean. Eskaintza lerro bakoitzak bere fakturazio-antolaketa izan dezake. Fakturazio-antolaketa sortzeko, atributu-balio hauek eman behar dituzu:
+## <a name="invoice-schedules"></a>Fakturazio-antolaketak
 
-- Fakturazioaren hasiera-data 
-- Proiektuan fakturazioaren amaiera adierazten duen entrega-data
-- Fakturen maiztasuna
+Fakturen ordutegiak aurrekontu-lerro bakoitzeko espezifikoak dira eta aukerakoak dira. Fakturen programazioak hasiera eta amaiera data zehatzetan eta fakturaren maiztasunean oinarrituta sortzen dira. Kontratuaren fasean erabiltzen dira, fakturak sortzeko prozesu automatikoa konfiguratzen denean. Aurrekontu fasean, fakturen ordutegiak aukerakoak dira. Aurrekontu fasean sortzen badira, proiektuaren aurrekontua irabazten denean sortzen den proiektu-kontratuan kopiatzen dira.
 
-Hiru atributu-balio hauek erabiliko ditu fakturazioan finkatzeko data-sorta sortzeko.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Dynamics 365 Sales aurrekontuekiko desberdintasunak
 
-## <a name="invoice-frequency"></a>Fakturen maiztasuna
+Project Operations aurrekontuak Dynamics 365 Sales aurrekontuetan eraikitzen dira. Hala ere, funtzionaltasunean desberdintasun garrantzitsu batzuk jakin behar dituzu:
 
-Faktura maiztasuna fakturak sortzearen maiztasuna adierazten laguntzen duten atributu-balioak gordetzen dituen entitatea da. Honako atributu hauek fakturaren maiztasuna entitatea adierazten edo zehazten dute:
+- Project Operations aurrekontuek bi lerro mota dituzte: bata proiektuetarako eta bestea produktuetarako.
+- Project Operations-ek bere orrialde eta erabiltzaile-interfazearen (UI) elementuak, negozio-arauak, negozio-logika plug-inetan eta bezeroen alboko script-ak dituzte, Salmenten aurrekontuetatik bereizten direnak.
+- Salmentetan, hainbat eskaera erantsi ditzakezu salmenta-aurrekontu bakar bati. Proiektu-eragiketetan, proiektu-kontratu bakarra erantsi diezaiokezu proiektuaren aurrekontuari.
+- Salmenta aurrekontua irabazten duzunean, erlazionatutako aukera zabalik egon daiteke. Proiektu-eskaintza irabazi ondoren, erlazionatutako abagunea itxita dago.
+- Salmenta aurrekontu batek ez ditu proiektuaren aurrekontuak barne hartzen dituen eremu eta kontzeptu batzuk barne hartzen. Eremuek **Kontratazio-unitatea**, **Kontuen kudeatzailea**, eta **Harreman-izenaren faktura** dituzte.
+- Salmenta aurrekontuak eta proiektuen aurrekontuak aukera multzo-en oinarritutako **Mota** eremuaren bidez identifikatzen dira. Salmenta aurrekontu baterako, eremu honen balioa **Elementuetan oinarritutakoa da**. Proiektuaren aurrekonturako, balioa **Lanean oinarritutakoa da**.
 
-- **Epea**: hilean behin, bi astean behin eta astero onartzen dira. 
-- **Aldi bakoitzeko exekutatzen dira**: astean behin eta bi astetan behin, aldi bakoitzeko exekuxio bakarra defini dezakezu. Hileroko aldietan, aldi bakoitzeko 1-4 exekuzio artean defini dezakezu. 
-- **Exekuzio egunak**: fakturak noiz exekutatu behar diren. Atributuak bi modutara konfigura ditzakezu:
-  - **Lanegunetan**: adibidez, fakturazioa astelehenero edo bi astelehenero exekutatzen dela zehaztu dezakezu. Fakturazioa lanegunean exekutatzeko ezarri behar duten bezeroek konfigurazio mota hau nahiago dute. 
-  - **Egutegiko egunak**: adibidez, fakturazioa hileko zazpigarren egunean eta hogeita batean egiten dela zehaztu dezakezu. Erakunde batzuek konfigurazio mota hau nahiago dute, fakturazioa hilero antolaketa finko batean exekutatzen dela bermatzen laguntzen duelako.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Prezio-finkoko eskaintzen lineako fakturen antolaketa
-
-Prezio-finkoko eskaintzen lerrorako, erabil dezakezu **Fakturen egutegia** sareta, eskaintzaren lerroaren balio berdina duten fakturazio-mugarriak sortzeko.
-
-- Berdin banatzen diren fakturazio-mugarriak sortzeko, hautatu fakturen maiztasuna, sartu fakturazioaren hasiera-data aurrekontuen lerroan eta hautatu **Eskatutako amaiera-data** orrialdeko eskaintza lortzeko **Laburpena** sekzioan eskaintzaren goiburuan. Ondoren, hautatu **Sortu aldizkako mugarriak** hautatutako fakturen maiztasunean oinarritutako mugarri berdinak sortzeko. 
-- Ordainpeko fakturaziorako mugarri bat sortzeko, mugarri bat sortu eta, ondoren, sartu eskaintzaren lerroko balioa mugarri zenbateko gisa.
-- Proiektu-planean zeregin zehatzetan oinarritutako fakturazio-mugarriak sortzeko, mugarri bat sortu eta proiektuaren egitarauaren elementua esleitu ezazu fakturazio-mugarriko erabiltzailearen interfazean.
-
+Desberdintasun hauek direla eta, ez dugu gomendatzen Salmenta-aurrekontuak eta Proiektu-eragiketen aurrekontuak elkarren artean erabiltzea.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

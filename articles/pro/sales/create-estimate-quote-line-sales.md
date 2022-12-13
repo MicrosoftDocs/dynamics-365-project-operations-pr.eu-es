@@ -1,21 +1,21 @@
 ---
-title: Proiektuetan oinarritutako eskaintzaren lerroa aurreikustea
-description: Gai honek proiektuan oinarritutako eskaintzaren lerro baterako aurrekontu bat nola sortu jakiteko informazioa eskaintzen du.
+title: Aurreikusi proiektuko eskaintzaren lerroa
+description: Artikulu honek proiektuaren aurrekontu-lerro batean zenbatespena sortzeko moduari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914341"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825972"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Proiektuetan oinarritutako eskaintzaren lerroa aurreikustea
+# <a name="estimate-a-project-quote-line"></a>Aurreikusi proiektuko eskaintzaren lerroa
 
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honetarako aplikatzen da:** inplementazio arina - mahukatik proformako fakturaziora, Baliabideen / stockean oinarritutako eszenatokien Project Operations_
 
 Proiektuan oinarritutako aurrekontu lerroak aurrekontua lerroa emateko lanaren kostua eta diru sarrera potentzialak kalkulatzen laguntzen duten xehetasunak ditu.
 
@@ -24,7 +24,7 @@ Proiektuan oinarritutako aurrekontu lerroa kalkulatzeko, hautatu proiektuan oina
 - Eskuz sortu aurrekontua aurrekontuaren lerroan zuzenean aurrekontuaren lerroaren xehetasunak erabiliz. 
 - Sortu proiektu bat eta proiektuaren plana, eta, ondoren, lotu proiektua eta proiektuko zereginak aurrekontu lerroarekin. Eman duzun informazioan oinarrituta proiektuaren planeko aurrekontuak aurrekontuaren lerroan inportatzeko prozesua gaituta egongo da.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Sortu aurreikuspenak zunenean proiektuan oinarritutako eskaintzaren lerro batean
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Sortu aurrekontuak zuzenean proiektuaren aurrekontu-lerro batean
 
 Proiektuan oinarritutako aurrekontu lerro batean aurrekontua sortzeko, hautatu **Aipatu lerroaren xehetasuna** fitxa. Fitxa honetan sortzen duzun lerroaldean aurrekontu lerro honetarako aipatutako balioa laburbilduko da. 
 
@@ -68,8 +68,7 @@ Aurrekontuaren lerroaren kostuen xehetasuneko moneta eskaintzaren kontratatze-un
 
 Errentagarritasunaren kalkuluek kostuaren eta salmenten aurrekontuaren lerroaren xehetasunen zenbatekoa inguruneko oinarrizko moneta bihurtzen dute aurrekontuan estimatutako marjina orokorra jakinarazteko.
 
-> [!OHARRA
-> > Moneta biribiltzeko akatsak eta aldatutako marjinak gerta litezke data truke-tasa eraginkorrik ez dagoelako. Erabil itzazu kalkulu hauek proiektuen kontratuetan soilik, gutxi gorabeherakoak baitira eta ez baitira legezko biribilketarako edo bestelako biribiltzeetarako zehaztasun handiagoa eskatzen dutenak eta truke-tasen dataren eraginkortasunaz jabetzea.
+> [!OHARRA Moneta biribiltzeko akatsak eta marjinak aldatu daitezke dataren truke-tasa eraginkorrik ez dagoelako. Erabil itzazu kalkulu hauek proiektuen kontratuetan soilik, gutxi gorabeherakoak baitira eta ez baitira legezko biribilketarako edo bestelako biribiltzeetarako zehaztasun handiagoa eskatzen dutenak eta truke-tasen dataren eraginkortasunaz jabetzea.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

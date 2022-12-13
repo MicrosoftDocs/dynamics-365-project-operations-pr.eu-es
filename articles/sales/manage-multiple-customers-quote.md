@@ -1,23 +1,23 @@
 ---
-title: Kudeatu hainbat bezero proiektuaren eskaintza batean
+title: Kudeatu hainbat bezero proiektuetan oinarritutako aurrekontu batean
 description: Gai honek proiektua finantzatuko duten hainbat bezeroekin aurrekontuak lantzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928187"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825133"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Kudeatu hainbat bezero proiektuaren eskaintza batean
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Kudeatu hainbat bezero proiektuetan oinarritutako aurrekontu batean
 
-_**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
+_**Honi aplikatzen zaio:** Baliabideetan/Izakinik gabeko produktuetan oinarritutako adibideen Project Operations_
 
-Proiektuaren aurrekontuek proposamena akordioa finantzatuko duten bezero anitzekin lotzen duten agertokia onartzen dute. Eskaintzaren **Laburpena** fitxak akordioaren bezero nagusia identifikatzen duen **Bezero potentziala** eremua du. Akordiorako beste bezero batzuk konfigura daitezke **Bezeroak** proiektuaren aurrekontuaren fitxa.
+Proiektuetan oinarritutako aurrekontuek akordioa finantzatuko duten bezero anitzek parte hartzen duten proposamena onartzen dute. Eskaintzaren **Laburpena** fitxak akordioaren bezero nagusia identifikatzen duen **Bezero potentziala** eremua du. Akordiorako beste bezero batzuk konfigura daitezke **Bezeroak** proiektuaren aurrekontuaren fitxa.
 
 Aurrekontuaren bezero guztiak **Bezeroak** proiektuaren aurrekontuaren fitxa lehenetsitako lerroen bezero gisa, aurrekonturako sortutako proiektuetan oinarritutako aurrekontu lerro **berrietan**. Lehendik dauden proiektuetan oinarritutako aurrekontu lerroek ez dituzte ondoren sortutako aurrekontu bezeroen erregistro berriak jasotzen.
 

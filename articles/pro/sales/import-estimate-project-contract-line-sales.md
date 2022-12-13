@@ -1,21 +1,21 @@
 ---
-title: Inportatu aurreikuspen bat proiektuetan oinarritutako kontratuaren lerro batera - arina
+title: Inportatu proiektu bateko aurrekontuak proiektuaren kontratuaren lerro batean
 description: Gai honek proiektu batetik kontratuaren lerro batera aurreikuspenak finantza-inportatzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924185"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824659"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Inportatu aurreikuspen bat proiektuetan oinarritutako kontratuaren lerro batera - arina
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>Inportatu proiektu bateko aurrekontuak proiektuaren kontratuaren lerro batean
 
-_**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
+_**Honi aplikatzen zaio:** Lite inplementazioa: proformako fakturazioari aurre egiteko, baliabideetan/hornituta ez dauden agertokietarako Proiektu Eragiketak_ _
 
 Dynamics 365 Project Operations-en, proiektuko aurreikuspenak proiektuetan oinarritutako kontratuaren lerrora inporta ditzakezu.
 

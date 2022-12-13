@@ -1,27 +1,27 @@
 ---
-title: Fakturazio-antolaketak proiektuetan oinarritutako eskaintza-lerroetan
+title: Faktura-programazioak proiektuaren aurrekontu-lerroetan
 description: Gai honek fakturen ordutegiak eta aurrekontu lerroen mugarriak sortzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918297"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825737"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Fakturazio-antolaketak proiektuetan oinarritutako eskaintza-lerroetan
+# <a name="invoice-schedules-on-project-quote-lines"></a>Faktura-programazioak proiektuaren aurrekontu-lerroetan
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Proiektuan oinarritutako aurrekontu lerroak faktura egutegia adierazteko gaitasuna ematen du. Aukerakoa da aurrekontuaren fasean, aplikazioak ez baitu onartzen proiektu bat fakturatzea Aurrekontu lerro batera lotuta dagoenean. Fakturazioa aurrekontua irabazi ondoren soilik onartzen da. Aurrekontuaren fasean faktura-egutegia sortzeak dakarren beherako eragin bakarra faktura-egutegi hori proiektuan oinarritutako kontratu-lerroan kopiatzea da. Aurrekontu fasean faktura ordutegirik sortzen ez baduzu, proiektuan oinarritutako kontratu lerroan egin ahal izango duzu.
+Proiektuaren aurrekontu-lerro batek faktura-egutegia adierazteko gaitasuna ematen du. Aukerakoa da aurrekontuaren fasean, aplikazioak ez baitu onartzen proiektu bat fakturatzea Aurrekontu lerro batera lotuta dagoenean. Fakturazioa aurrekontua irabazi ondoren soilik onartzen da. Aurrekontuaren fasean faktura-egutegia sortzeak dakarren beherako eragin bakarra faktura-egutegi hori proiektuan oinarritutako kontratu-lerroan kopiatzea da. Aurrekontu fasean faktura ordutegirik sortzen ez baduzu, proiektuan oinarritutako kontratu lerroan egin ahal izango duzu.
 
 Orokorrean, fakturen egutegien xedea proiektuetan oinarritutako kontratu lerro baterako fakturen zirriborroak automatikoki sortzea ahalbidetzea da. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Sortu denbora eta materialen fakturen egutegia proiektuan oinarritutako aurrekontu lerro baterako
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Sortu denbora eta materialaren fakturaren egutegia proiektuaren aurrekontu-lerro baterako
 
 Proiektuetan oinarritutako aurrekontu lerro baten fakturazio metodoa Denbora eta materiala denean, sistemak datan oinarritutako faktura ordutegia sortzen du. Datan oinarritutako fakturen egitaraua automatikoki sortzeko, jarraitu urrats hauek.
 
@@ -36,7 +36,7 @@ Proiektuetan oinarritutako aurrekontu lerro baten fakturazio metodoa Denbora eta
     - **Transakzioaren amaiera eguna** egunaren aurreko egunean ezartzen da **Faktura exekutatzeko data**.
     - **Exekutatu egoera** automatikoki ezartzen da **Exekutatu gabe**. Faktura automatikoki sortzeko lana faktura exekutatzeko data jakin batean exekutatzen denean, eremu hau bietara eguneratuko du **Exekutatu arrakastaz** edo **Exekutatu huts egin du**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Sortu Prezio finkoen fakturen egutegia proiektuan oinarritutako aurrekontu lerro baterako
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Sortu prezio finkoko fakturen egutegia proiektuaren aurrekontu-lerro baterako
 
 Proiektuan oinarritutako aurrekontu lerroak a duenean **Finkoa** fakturazio-metodoaren arabera, sistemak mugarrietan oinarritutako fakturen egutegia sortzen du. Osatu urrats hauek egutegi aldirako berdin banatzen diren mugarri multzo finko baterako programazio hau automatikoki sortzeko.
 

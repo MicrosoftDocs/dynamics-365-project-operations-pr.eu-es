@@ -1,23 +1,23 @@
 ---
-title: Kudeatu proiektuetan oinarritutako eskaintzaren lerroetako hainbat bezero - arina
-description: Gai honek proiektuak oinarritutako eskaintza-lerroetan bezero anitz kudeatzeko moduari buruzko informazioa azaltzen du.
+title: Kudeatu hainbat bezero proiektuaren aurrekontu-lerroetan
+description: Artikulu honek proiektuaren aurrekontu-lerroetan hainbat bezero nola kudeatu deskribatzen du.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927773"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824423"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Kudeatu proiektuetan oinarritutako eskaintzaren lerroetako hainbat bezero - arina
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Kudeatu hainbat bezero proiektuaren aurrekontu-lerroetan
 
 _**Honi aplikatzen zaio:** Oinarrizko inplementazioa: kudeatu proformako fakturak_
 
-Proiektuetan oinarritutako aurrekontu lerroek aurrekontu lerro bakoitzak ordaintzen duten bezeroen zerrenda duten eszenatokiak onartzen ditu. Proiektuan oinarritutako aurrekontuaren lerroan dagoen bezeroen zerrenda aurrekontuko bezeroen zerrenda bezalakoa izan daiteke. Bezeroen zerrenda ere desberdina izan dadin alda dezakezu. Proiektuaren eskaintza irabazten denean, proiektuan oinarritutako aurrekontu lerroan bezeroen zerrenda dagokion proiektuan oinarritutako kontratu lerroan kopiatzen da behin-behineko proiektu-kontratua sortzeko. Proiektuan oinarritutako aurrekontuaren bezeroak proiektuaren kontratuan kopiatzen dira.
+Proiektuaren aurrekontu-lerroek agertokiak onartzen dituzte, non aurrekontu-lerro bakoitzak ordaintzen ari diren bezeroen zerrenda duen. Proiektuan oinarritutako aurrekontuaren lerroan dagoen bezeroen zerrenda aurrekontuko bezeroen zerrenda bezalakoa izan daiteke. Bezeroen zerrenda ere desberdina izan dadin alda dezakezu. Proiektuaren eskaintza irabazten denean, proiektuan oinarritutako aurrekontu lerroan bezeroen zerrenda dagokion proiektuan oinarritutako kontratu lerroan kopiatzen da behin-behineko proiektu-kontratua sortzeko. Proiektuan oinarritutako aurrekontuaren bezeroak proiektuaren kontratuan kopiatzen dira.
 
 Proiektuaren azken kontratua fakturatzen duzunean, proiektuan oinarritutako kontratuaren lineako bezeroen zerrendak lehentasuna du proiektuaren kontratuko zerrendan. Proiektuaren kontratuko bezeroen zerrenda proiektuaren kontratu lerro berriak lehenesteko soilik erabiltzen da.
 

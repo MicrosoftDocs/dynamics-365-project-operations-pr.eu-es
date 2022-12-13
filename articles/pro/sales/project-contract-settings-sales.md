@@ -1,17 +1,17 @@
 ---
-title: Proiektu-kontratuaren ezarpenak - arina
-description: Gai honek kontratu-lerroetan eragina duten eremuei buruzko informazioa eskaintzen du eta kontratuari buruzko informazioa lerro-elementu guztietan laburbilduta dago.
+title: Proiektuko kontratuen goiburuaren xehetasunak
+description: Artikulu honek eremuei eta proiektu-kontratuei buruzko informazioa eskaintzen du Project Operations-en.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f648113f54257e2c303cb2729e282d70f818d838
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917055"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824893"
 ---
 # <a name="header-details-for-project-contracts"></a>Proiektuko kontratuen goiburuaren xehetasunak
 

@@ -1,23 +1,23 @@
 ---
-title: Esleitu proiektuak eta zereginak proiektuetan oinarritutako eskaintzaren lerro batean
-description: Gai honek proiektuak eta zereginak proiektuetan oinarritutako ataza lerro batera mapatzeko moduari buruzko informazioa eskaintzen du.
+title: Mapeatu proiektuak eta zereginak aurrekontu-lerroak proiektatzeko
+description: Artikulu honek proiektuak eta zereginak aurrekontu-lerroak proiektatzeari buruzko informazioa eskaintzen du.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917147"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824193"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Esleitu proiektuak eta zereginak proiektuetan oinarritutako eskaintzaren lerro batean
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Mapeatu proiektuak eta zereginak aurrekontu-lerroak proiektatzeko
 
 _**Honetarako aplikatzen da:** Baliabideen / stockean oinarritutako eszenatokietarako proiektuen eragiketak, Lite hedapena - proformaren fakturazioari aurre egitea_
 
-Proiektuetan oinarritutako aurrekontu lerroetan, dagoeneko aurrekontu lerro batekin lotuta dagoen proiektu baten zeregin zehatzak mapatu ditzakezu.
+Proiektuaren aurrekontu-lerroetan, aurrekontu-lerro bati lotuta dagoen proiektu baten zeregin zehatzak mapa ditzakezu.
 
 Zereginak aurrekontu lerro batera mapatzen dituzunean, aurrekontu lerroan zehaztu dituzun elementu hauek zeregin horiei soilik aplikatuko zaizkie:
 

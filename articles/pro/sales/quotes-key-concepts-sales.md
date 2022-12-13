@@ -1,17 +1,17 @@
 ---
-title: Eskaintzak- Kontzeptu nagusiak - arina
+title: Proiektuko eskaintzen kontzeptu bakarrak
 description: Gai honek Project Operations-eko proiektu-eskaintzak erabiltzeari buruzko informazioa ematen du.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: eu-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916963"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825878"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Proiektuko eskaintzen kontzeptu bakarrak
 
@@ -82,9 +82,13 @@ Fakturen ordutegiak aurrekontu lerro bakoitzari dagozkio eta aukerakoak dira. Fa
 
 Project Operations-en aurrekontuak Dynamics 365 Sales-en aurrekontuen gainean eraikitzen dira. Hala ere, funtzionaltasunean desberdintasun garrantzitsu batzuk jakin behar dituzu:
 
-- **Berrikusi** eta **Aktibatu** ekintzak ez dira onartzen.
+
 - Project Operations-en aurrekontuek bi lerro mota dituzte. Bat proiektuetarako da eta bestea produktuetarako.
 - Project Operations-en aurrekontuek beren forma eta interfazeko elementu propioak dituzte, negozio arauak, negozio logika plug-inetan eta bezeroen aldeko scriptak, Salmenten aurrekontuetatik bakarrak bihurtzen dituztenak.
+- Salmenta aurrekontuei esker, hainbat eskaera eransteko aukera ematen dizu salmenta aurrekontu bati. Proiektu Eragiketetan, proiektu-kontratu bakarra erantsi ahal izango zaio proiektuaren aurrekontuari.
+- Salmenta aurrekontua irabazten duzunean, erlazionatutako aukera zabalik egon daiteke. Proiektu-eskaintza irabazi ondoren, erlazionatutako abagunea itxita dago.
+- Salmenta aurrekontuak ez ditu proiektuaren aurrekontuan sartzen diren eremu eta kontzeptu batzuk barne hartzen. Eremuek **Kontratazio-unitatea**, **Kontuen kudeatzailea**, eta **Harreman-izenaren faktura** dituzte.  
+- **Mota**: Salmenta-eskaintzak eta proiektu-eskaintzak multzoan oinarritutako eremua moduan, **Mota**, ere identifikatzen dira. Salmenta-eskaintzak lortzeko, eremuak balio hau du: **Elementuan oinarritutakoa**. Proiektu-eskaintza lortzeko, balio hau du: **Lanean oinarritutakoa**.
 
 Arrazoi hauengatik, ez da gomendagarria Salmenten aurrekontua eta Project Operations-en aurrekontua modu aldakorrean erabiltzea.
 
