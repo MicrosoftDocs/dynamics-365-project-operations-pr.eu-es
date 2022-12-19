@@ -212,7 +212,7 @@
               items:
                 - name: Aurrerakinak eta atxikipenetan oinarritutako proiektu-kontratuak
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Konfiguratu aurrerapenaren antolaketa
+                - name: Konfiguratu aurrerakinaren antolaketa
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Sortu ad hoc aurrerakin bat proiektu-kontratu batean
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -846,7 +846,7 @@
               items:
                 - name: Aurrerakinak eta atxikipenetan oinarritutako kontratuak
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Konfiguratu aurrerapenen antolaketaKonfiguratu aurrerapenen antolaketa
+                - name: Konfiguratu aurrerakinaren antolaketa
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Sortu ad hoc aurrerakin bat proiektu-kontratu batean
                   href: pro/sales/create-ad-hoc-advance-sales.md
